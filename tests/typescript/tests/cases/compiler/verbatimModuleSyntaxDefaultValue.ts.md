@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 111,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 13,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 10,
         "decorators": [],
         "name": "Task",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 10
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,25 +21,25 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 11,
-        "end": 13,
-        "body": []
+        "end": 13
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 13
     },
     {
       "type": "FunctionDeclaration",
-      "start": 15,
-      "end": 59,
       "id": {
         "type": "Identifier",
-        "start": 24,
-        "end": 28,
         "decorators": [],
         "name": "task",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 24,
+        "end": 28
       },
       "generator": false,
       "async": false,
@@ -52,121 +48,125 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 30,
-        "end": 36,
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 32,
-          "end": 36,
           "typeName": {
             "type": "Identifier",
-            "start": 32,
-            "end": 36,
             "decorators": [],
             "name": "Task",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 32,
+            "end": 36
           },
-          "typeArguments": null
-        }
+          "typeArguments": null,
+          "start": 32,
+          "end": 36
+        },
+        "start": 30,
+        "end": 36
       },
       "body": {
         "type": "BlockStatement",
-        "start": 37,
-        "end": 59,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 39,
-            "end": 57,
             "argument": {
               "type": "NewExpression",
-              "start": 46,
-              "end": 56,
               "callee": {
                 "type": "Identifier",
-                "start": 50,
-                "end": 54,
                 "decorators": [],
                 "name": "Task",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 50,
+                "end": 54
               },
               "typeArguments": null,
-              "arguments": []
-            }
+              "arguments": [],
+              "start": 46,
+              "end": 56
+            },
+            "start": 39,
+            "end": 57
           }
-        ]
+        ],
+        "start": 37,
+        "end": 59
       },
-      "expression": false
+      "expression": false,
+      "start": 15,
+      "end": 59
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 61,
-      "end": 89,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 68,
-        "end": 89,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 74,
-            "end": 88,
             "id": {
               "type": "Identifier",
-              "start": 74,
-              "end": 79,
               "decorators": [],
               "name": "build",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 74,
+              "end": 79
             },
             "init": {
               "type": "CallExpression",
-              "start": 82,
-              "end": 88,
               "callee": {
                 "type": "Identifier",
-                "start": 82,
-                "end": 86,
                 "decorators": [],
                 "name": "task",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 82,
+                "end": 86
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 82,
+              "end": 88
             },
-            "definite": false
+            "definite": false,
+            "start": 74,
+            "end": 88
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 68,
+        "end": 89
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 61,
+      "end": 89
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 90,
-      "end": 111,
       "declaration": {
         "type": "Identifier",
-        "start": 105,
-        "end": 110,
         "decorators": [],
         "name": "build",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 105,
+        "end": 110
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 90,
+      "end": 111
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 111
 }
 ```

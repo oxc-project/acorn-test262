@@ -1,149 +1,149 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 710,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 607,
-      "end": 626,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 611,
-          "end": 625,
           "id": {
             "type": "Identifier",
+            "name": "letBinding",
             "start": 611,
-            "end": 621,
-            "name": "letBinding"
+            "end": 621
           },
           "init": {
             "type": "Literal",
-            "start": 624,
-            "end": 625,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 624,
+            "end": 625
+          },
+          "start": 611,
+          "end": 625
         }
-      ]
+      ],
+      "start": 607,
+      "end": 626
     },
     {
       "type": "ExpressionStatement",
-      "start": 627,
-      "end": 659,
       "expression": {
         "type": "CallExpression",
-        "start": 627,
-        "end": 658,
         "callee": {
           "type": "MemberExpression",
-          "start": 627,
-          "end": 643,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 627,
-            "end": 633,
-            "name": "assert"
+            "end": 633
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 634,
-            "end": 643,
-            "name": "sameValue"
+            "end": 643
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 627,
+          "end": 643
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "letBinding",
             "start": 644,
-            "end": 654,
-            "name": "letBinding"
+            "end": 654
           },
           {
             "type": "Literal",
-            "start": 656,
-            "end": 657,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 656,
+            "end": 657
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 627,
+        "end": 658
+      },
+      "start": 627,
+      "end": 659
     },
     {
       "type": "ExpressionStatement",
-      "start": 661,
-      "end": 676,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 661,
-        "end": 675,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "letBinding",
           "start": 661,
-          "end": 671,
-          "name": "letBinding"
+          "end": 671
         },
         "right": {
           "type": "Literal",
-          "start": 674,
-          "end": 675,
           "value": 2,
-          "raw": "2"
-        }
-      }
+          "raw": "2",
+          "start": 674,
+          "end": 675
+        },
+        "start": 661,
+        "end": 675
+      },
+      "start": 661,
+      "end": 676
     },
     {
       "type": "ExpressionStatement",
-      "start": 677,
-      "end": 709,
       "expression": {
         "type": "CallExpression",
-        "start": 677,
-        "end": 708,
         "callee": {
           "type": "MemberExpression",
-          "start": 677,
-          "end": 693,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 677,
-            "end": 683,
-            "name": "assert"
+            "end": 683
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 684,
-            "end": 693,
-            "name": "sameValue"
+            "end": 693
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 677,
+          "end": 693
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "letBinding",
             "start": 694,
-            "end": 704,
-            "name": "letBinding"
+            "end": 704
           },
           {
             "type": "Literal",
-            "start": 706,
-            "end": 707,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 706,
+            "end": 707
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 677,
+        "end": 708
+      },
+      "start": 677,
+      "end": 709
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 710
 }

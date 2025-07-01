@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 362,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 263,
-      "end": 361,
       "expression": {
         "type": "CallExpression",
-        "start": 263,
-        "end": 360,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 263,
-          "end": 269,
-          "name": "assert"
+          "end": 269
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 270,
-            "end": 303,
             "callee": {
               "type": "MemberExpression",
-              "start": 270,
-              "end": 290,
               "object": {
                 "type": "Identifier",
+                "name": "Error",
                 "start": 270,
-                "end": 275,
-                "name": "Error"
+                "end": 275
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 276,
-                "end": 290,
-                "name": "hasOwnProperty"
+                "end": 290
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 270,
+              "end": 290
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 291,
-                "end": 302,
                 "value": "prototype",
-                "raw": "'prototype'"
+                "raw": "'prototype'",
+                "start": 291,
+                "end": 302
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 270,
+            "end": 303
           },
           {
             "type": "Literal",
-            "start": 305,
-            "end": 359,
             "value": "Error.hasOwnProperty('prototype') must return true",
-            "raw": "'Error.hasOwnProperty(\\'prototype\\') must return true'"
+            "raw": "'Error.hasOwnProperty(\\'prototype\\') must return true'",
+            "start": 305,
+            "end": 359
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 263,
+        "end": 360
+      },
+      "start": 263,
+      "end": 361
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 362
 }

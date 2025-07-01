@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 135,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 135,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 135,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 111,
-            "end": 133,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 111,
-              "end": 122,
               "decorators": [],
               "name": "constructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 111,
+              "end": 122
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 122,
-              "end": 133,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,37 +44,47 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 123,
-                  "end": 124,
                   "decorators": [],
                   "name": "o",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 123,
+                  "end": 124
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 126,
-                "end": 133,
-                "body": []
+                "end": 133
               },
-              "expression": false
+              "expression": false,
+              "start": 122,
+              "end": 133
             },
             "kind": "constructor",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 111,
+            "end": 133
           }
-        ]
+        ],
+        "start": 8,
+        "end": 135
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 135
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 135
 }
 ```

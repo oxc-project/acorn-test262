@@ -1,126 +1,126 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 375,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 276,
-      "end": 294,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 280,
-          "end": 293,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 280,
-            "end": 281,
-            "name": "s"
+            "end": 281
           },
           "init": {
             "type": "NewExpression",
-            "start": 284,
-            "end": 293,
             "callee": {
               "type": "Identifier",
+              "name": "Set",
               "start": 288,
-              "end": 291,
-              "name": "Set"
+              "end": 291
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 284,
+            "end": 293
+          },
+          "start": 280,
+          "end": 293
         }
-      ]
+      ],
+      "start": 276,
+      "end": 294
     },
     {
       "type": "ExpressionStatement",
-      "start": 296,
-      "end": 374,
       "expression": {
         "type": "CallExpression",
-        "start": 296,
-        "end": 373,
         "callee": {
           "type": "MemberExpression",
-          "start": 296,
-          "end": 312,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 296,
-            "end": 302,
-            "name": "assert"
+            "end": 302
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 303,
-            "end": 312,
-            "name": "sameValue"
+            "end": 312
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 296,
+          "end": 312
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 313,
-            "end": 328,
             "callee": {
               "type": "MemberExpression",
-              "start": 313,
-              "end": 318,
               "object": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 313,
-                "end": 314,
-                "name": "s"
+                "end": 314
               },
               "property": {
                 "type": "Identifier",
+                "name": "has",
                 "start": 315,
-                "end": 318,
-                "name": "has"
+                "end": 318
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 313,
+              "end": 318
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 319,
-                "end": 327,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 319,
-                  "end": 325,
-                  "name": "Symbol"
+                  "end": 325
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 319,
+                "end": 327
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 313,
+            "end": 328
           },
           {
             "type": "Literal",
-            "start": 330,
-            "end": 335,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 330,
+            "end": 335
           },
           {
             "type": "Literal",
-            "start": 337,
-            "end": 372,
             "value": "`s.has(Symbol())` returns `false`",
-            "raw": "\"`s.has(Symbol())` returns `false`\""
+            "raw": "\"`s.has(Symbol())` returns `false`\"",
+            "start": 337,
+            "end": 372
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 296,
+        "end": 373
+      },
+      "start": 296,
+      "end": 374
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 375
 }

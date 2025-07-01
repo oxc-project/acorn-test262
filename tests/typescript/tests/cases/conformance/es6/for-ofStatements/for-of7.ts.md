@@ -2,77 +2,77 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 2,
       "expression": {
         "type": "Identifier",
-        "start": 0,
-        "end": 1,
         "decorators": [],
         "name": "v",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 1
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 2
     },
     {
       "type": "ForOfStatement",
-      "start": 3,
-      "end": 25,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 8,
-        "end": 13,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 12,
-            "end": 13,
             "id": {
               "type": "Identifier",
-              "start": 12,
-              "end": 13,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 12,
+              "end": 13
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 12,
+            "end": 13
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 8,
+        "end": 13
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 17,
-        "end": 20,
         "elements": [
           {
             "type": "Literal",
-            "start": 18,
-            "end": 19,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 18,
+            "end": 19
           }
-        ]
+        ],
+        "start": 17,
+        "end": 20
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 22,
-        "end": 25,
-        "body": []
-      }
+        "end": 25
+      },
+      "start": 3,
+      "end": 25
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 25
 }
 ```

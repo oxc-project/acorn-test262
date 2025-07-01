@@ -2,62 +2,62 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "TryStatement",
-      "start": 0,
-      "end": 28,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 4,
-        "end": 7,
-        "body": []
+        "end": 7
       },
       "handler": {
         "type": "CatchClause",
-        "start": 8,
-        "end": 28,
         "param": {
           "type": "Identifier",
-          "start": 15,
-          "end": 23,
           "decorators": [],
           "name": "e",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 16,
-            "end": 23,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 18,
-              "end": 23,
               "typeName": {
                 "type": "Identifier",
-                "start": 18,
-                "end": 23,
                 "decorators": [],
                 "name": "Error",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 18,
+                "end": 23
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 18,
+              "end": 23
+            },
+            "start": 16,
+            "end": 23
+          },
+          "start": 15,
+          "end": 23
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 25,
-          "end": 28,
-          "body": []
-        }
+          "end": 28
+        },
+        "start": 8,
+        "end": 28
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 0,
+      "end": 28
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```

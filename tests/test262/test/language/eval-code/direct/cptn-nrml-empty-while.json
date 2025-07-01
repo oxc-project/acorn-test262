@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 473,
   "body": [
     {
       "type": "IfStatement",
-      "start": 323,
-      "end": 472,
       "test": {
         "type": "BinaryExpression",
-        "start": 327,
-        "end": 362,
         "left": {
           "type": "CallExpression",
-          "start": 327,
-          "end": 348,
           "callee": {
             "type": "Identifier",
+            "name": "eval",
             "start": 327,
-            "end": 331,
-            "name": "eval"
+            "end": 331
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 332,
-              "end": 347,
               "value": "while(false);",
-              "raw": "\"while(false);\""
+              "raw": "\"while(false);\"",
+              "start": 332,
+              "end": 347
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 327,
+          "end": 348
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 353,
-          "end": 362,
-          "name": "undefined"
-        }
+          "end": 362
+        },
+        "start": 327,
+        "end": 362
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 364,
-        "end": 472,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 368,
-            "end": 470,
             "argument": {
               "type": "NewExpression",
-              "start": 374,
-              "end": 469,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 378,
-                "end": 390,
-                "name": "Test262Error"
+                "end": 390
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 391,
-                  "end": 468,
                   "left": {
                     "type": "Literal",
-                    "start": 391,
-                    "end": 442,
                     "value": "#1: eval(\"while(false);\") === undefined. Actual: ",
-                    "raw": "'#1: eval(\"while(false);\") === undefined. Actual: '"
+                    "raw": "'#1: eval(\"while(false);\") === undefined. Actual: '",
+                    "start": 391,
+                    "end": 442
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 445,
-                    "end": 468,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 446,
-                      "end": 467,
                       "callee": {
                         "type": "Identifier",
+                        "name": "eval",
                         "start": 446,
-                        "end": 450,
-                        "name": "eval"
+                        "end": 450
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 451,
-                          "end": 466,
                           "value": "while(false);",
-                          "raw": "\"while(false);\""
+                          "raw": "\"while(false);\"",
+                          "start": 451,
+                          "end": 466
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 446,
+                      "end": 467
+                    },
+                    "start": 445,
+                    "end": 468
+                  },
+                  "start": 391,
+                  "end": 468
                 }
-              ]
-            }
+              ],
+              "start": 374,
+              "end": 469
+            },
+            "start": 368,
+            "end": 470
           }
-        ]
+        ],
+        "start": 364,
+        "end": 472
       },
-      "alternate": null
+      "alternate": null,
+      "start": 323,
+      "end": 472
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 473
 }

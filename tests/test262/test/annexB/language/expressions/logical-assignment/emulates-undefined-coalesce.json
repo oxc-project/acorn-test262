@@ -1,172 +1,172 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 724,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 582,
-      "end": 613,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 586,
-          "end": 612,
           "id": {
             "type": "Identifier",
+            "name": "IsHTMLDDA",
             "start": 586,
-            "end": 595,
-            "name": "IsHTMLDDA"
+            "end": 595
           },
           "init": {
             "type": "MemberExpression",
-            "start": 598,
-            "end": 612,
             "object": {
               "type": "Identifier",
+              "name": "$262",
               "start": 598,
-              "end": 602,
-              "name": "$262"
+              "end": 602
             },
             "property": {
               "type": "Identifier",
+              "name": "IsHTMLDDA",
               "start": 603,
-              "end": 612,
-              "name": "IsHTMLDDA"
+              "end": 612
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 598,
+            "end": 612
+          },
+          "start": 586,
+          "end": 612
         }
-      ]
+      ],
+      "start": 582,
+      "end": 613
     },
     {
       "type": "VariableDeclaration",
-      "start": 614,
-      "end": 636,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 618,
-          "end": 635,
           "id": {
             "type": "Identifier",
+            "name": "value",
             "start": 618,
-            "end": 623,
-            "name": "value"
+            "end": 623
           },
           "init": {
             "type": "Identifier",
+            "name": "IsHTMLDDA",
             "start": 626,
-            "end": 635,
-            "name": "IsHTMLDDA"
-          }
+            "end": 635
+          },
+          "start": 618,
+          "end": 635
         }
-      ]
+      ],
+      "start": 614,
+      "end": 636
     },
     {
       "type": "ExpressionStatement",
-      "start": 637,
-      "end": 687,
       "expression": {
         "type": "CallExpression",
-        "start": 637,
-        "end": 686,
         "callee": {
           "type": "MemberExpression",
-          "start": 637,
-          "end": 653,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 637,
-            "end": 643,
-            "name": "assert"
+            "end": 643
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 644,
-            "end": 653,
-            "name": "sameValue"
+            "end": 653
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 637,
+          "end": 653
         },
         "arguments": [
           {
             "type": "AssignmentExpression",
-            "start": 654,
-            "end": 674,
             "operator": "??=",
             "left": {
               "type": "Identifier",
+              "name": "value",
               "start": 654,
-              "end": 659,
-              "name": "value"
+              "end": 659
             },
             "right": {
               "type": "Identifier",
+              "name": "unresolved",
               "start": 664,
-              "end": 674,
-              "name": "unresolved"
-            }
+              "end": 674
+            },
+            "start": 654,
+            "end": 674
           },
           {
             "type": "Identifier",
+            "name": "IsHTMLDDA",
             "start": 676,
-            "end": 685,
-            "name": "IsHTMLDDA"
+            "end": 685
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 637,
+        "end": 686
+      },
+      "start": 637,
+      "end": 687
     },
     {
       "type": "ExpressionStatement",
-      "start": 688,
-      "end": 723,
       "expression": {
         "type": "CallExpression",
-        "start": 688,
-        "end": 722,
         "callee": {
           "type": "MemberExpression",
-          "start": 688,
-          "end": 704,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 688,
-            "end": 694,
-            "name": "assert"
+            "end": 694
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 695,
-            "end": 704,
-            "name": "sameValue"
+            "end": 704
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 688,
+          "end": 704
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "value",
             "start": 705,
-            "end": 710,
-            "name": "value"
+            "end": 710
           },
           {
             "type": "Identifier",
+            "name": "IsHTMLDDA",
             "start": 712,
-            "end": 721,
-            "name": "IsHTMLDDA"
+            "end": 721
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 688,
+        "end": 722
+      },
+      "start": 688,
+      "end": 723
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 724
 }

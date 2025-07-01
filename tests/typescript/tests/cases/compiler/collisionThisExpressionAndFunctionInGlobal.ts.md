@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 63,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 43,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 14,
         "decorators": [],
         "name": "_this",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 14
       },
       "generator": false,
       "async": false,
@@ -26,48 +22,44 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 17,
-        "end": 43,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 31,
-            "end": 41,
             "argument": {
               "type": "Literal",
-              "start": 38,
-              "end": 40,
               "value": 10,
-              "raw": "10"
-            }
+              "raw": "10",
+              "start": 38,
+              "end": 40
+            },
+            "start": 31,
+            "end": 41
           }
-        ]
+        ],
+        "start": 17,
+        "end": 43
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 43
     },
     {
       "type": "VariableDeclaration",
-      "start": 44,
-      "end": 63,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 48,
-          "end": 62,
           "id": {
             "type": "Identifier",
-            "start": 48,
-            "end": 49,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 48,
+            "end": 49
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 52,
-            "end": 62,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -79,15 +71,23 @@ __ESTREE_TEST__:PASS:
               "end": 62
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 52,
+            "end": 62
           },
-          "definite": false
+          "definite": false,
+          "start": 48,
+          "end": 62
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 44,
+      "end": 63
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 63
 }
 ```

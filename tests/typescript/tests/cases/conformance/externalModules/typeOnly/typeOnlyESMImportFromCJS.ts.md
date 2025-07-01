@@ -2,359 +2,359 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 11
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 392,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 35,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 20,
-        "end": 34,
         "value": "./module.mts",
-        "raw": "\"./module.mts\""
+        "raw": "\"./module.mts\"",
+        "start": 20,
+        "end": 34
       },
       "phase": null,
       "attributes": [],
-      "importKind": "type"
+      "importKind": "type",
+      "start": 0,
+      "end": 35
     },
     {
       "type": "ImportDeclaration",
-      "start": 36,
-      "end": 108,
       "specifiers": [],
       "source": {
         "type": "Literal",
+        "value": "./module.mts",
+        "raw": "\"./module.mts\"",
         "start": 56,
-        "end": 70,
-        "value": "./module.mts",
-        "raw": "\"./module.mts\""
+        "end": 70
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 78,
-          "end": 105,
           "key": {
             "type": "Literal",
-            "start": 78,
-            "end": 95,
             "value": "resolution-mode",
-            "raw": "\"resolution-mode\""
+            "raw": "\"resolution-mode\"",
+            "start": 78,
+            "end": 95
           },
           "value": {
             "type": "Literal",
-            "start": 97,
-            "end": 105,
             "value": "import",
-            "raw": "\"import\""
-          }
+            "raw": "\"import\"",
+            "start": 97,
+            "end": 105
+          },
+          "start": 78,
+          "end": 105
         }
       ],
-      "importKind": "type"
+      "importKind": "type",
+      "start": 36,
+      "end": 108
     },
     {
       "type": "ImportDeclaration",
-      "start": 109,
-      "end": 182,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 129,
-        "end": 143,
         "value": "./module.mts",
-        "raw": "\"./module.mts\""
+        "raw": "\"./module.mts\"",
+        "start": 129,
+        "end": 143
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 151,
-          "end": 179,
           "key": {
             "type": "Literal",
-            "start": 151,
-            "end": 168,
             "value": "resolution-mode",
-            "raw": "\"resolution-mode\""
+            "raw": "\"resolution-mode\"",
+            "start": 151,
+            "end": 168
           },
           "value": {
             "type": "Literal",
-            "start": 170,
-            "end": 179,
             "value": "require",
-            "raw": "\"require\""
-          }
+            "raw": "\"require\"",
+            "start": 170,
+            "end": 179
+          },
+          "start": 151,
+          "end": 179
         }
       ],
-      "importKind": "type"
+      "importKind": "type",
+      "start": 109,
+      "end": 182
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 183,
-      "end": 223,
       "id": {
         "type": "Identifier",
-        "start": 188,
-        "end": 190,
         "decorators": [],
         "name": "_1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 188,
+        "end": 190
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeQuery",
-        "start": 193,
-        "end": 222,
         "exprName": {
           "type": "TSImportType",
-          "start": 200,
-          "end": 222,
           "argument": {
             "type": "TSLiteralType",
-            "start": 207,
-            "end": 221,
             "literal": {
               "type": "Literal",
-              "start": 207,
-              "end": 221,
               "value": "./module.mts",
-              "raw": "\"./module.mts\""
-            }
+              "raw": "\"./module.mts\"",
+              "start": 207,
+              "end": 221
+            },
+            "start": 207,
+            "end": 221
           },
           "options": null,
           "qualifier": null,
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 200,
+          "end": 222
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "start": 193,
+        "end": 222
       },
-      "declare": false
+      "declare": false,
+      "start": 183,
+      "end": 223
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 224,
-      "end": 307,
       "id": {
         "type": "Identifier",
-        "start": 229,
-        "end": 231,
         "decorators": [],
         "name": "_2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 229,
+        "end": 231
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeQuery",
-        "start": 234,
-        "end": 306,
         "exprName": {
           "type": "TSImportType",
-          "start": 241,
-          "end": 306,
           "argument": {
             "type": "TSLiteralType",
-            "start": 248,
-            "end": 262,
             "literal": {
               "type": "Literal",
-              "start": 248,
-              "end": 262,
               "value": "./module.mts",
-              "raw": "\"./module.mts\""
-            }
+              "raw": "\"./module.mts\"",
+              "start": 248,
+              "end": 262
+            },
+            "start": 248,
+            "end": 262
           },
           "options": {
             "type": "ObjectExpression",
-            "start": 264,
-            "end": 305,
             "properties": [
               {
                 "type": "Property",
-                "start": 266,
-                "end": 303,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 266,
-                  "end": 270,
                   "decorators": [],
                   "name": "with",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 266,
+                  "end": 270
                 },
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 272,
-                  "end": 303,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 274,
-                      "end": 301,
                       "kind": "init",
                       "key": {
                         "type": "Literal",
-                        "start": 274,
-                        "end": 291,
                         "value": "resolution-mode",
-                        "raw": "\"resolution-mode\""
+                        "raw": "\"resolution-mode\"",
+                        "start": 274,
+                        "end": 291
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 293,
-                        "end": 301,
                         "value": "import",
-                        "raw": "\"import\""
+                        "raw": "\"import\"",
+                        "start": 293,
+                        "end": 301
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "start": 274,
+                      "end": 301
                     }
-                  ]
+                  ],
+                  "start": 272,
+                  "end": 303
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 266,
+                "end": 303
               }
-            ]
+            ],
+            "start": 264,
+            "end": 305
           },
           "qualifier": null,
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 241,
+          "end": 306
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "start": 234,
+        "end": 306
       },
-      "declare": false
+      "declare": false,
+      "start": 224,
+      "end": 307
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 308,
-      "end": 392,
       "id": {
         "type": "Identifier",
-        "start": 313,
-        "end": 315,
         "decorators": [],
         "name": "_3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 313,
+        "end": 315
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeQuery",
-        "start": 318,
-        "end": 391,
         "exprName": {
           "type": "TSImportType",
-          "start": 325,
-          "end": 391,
           "argument": {
             "type": "TSLiteralType",
-            "start": 332,
-            "end": 346,
             "literal": {
               "type": "Literal",
-              "start": 332,
-              "end": 346,
               "value": "./module.mts",
-              "raw": "\"./module.mts\""
-            }
+              "raw": "\"./module.mts\"",
+              "start": 332,
+              "end": 346
+            },
+            "start": 332,
+            "end": 346
           },
           "options": {
             "type": "ObjectExpression",
-            "start": 348,
-            "end": 390,
             "properties": [
               {
                 "type": "Property",
-                "start": 350,
-                "end": 388,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 350,
-                  "end": 354,
                   "decorators": [],
                   "name": "with",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 350,
+                  "end": 354
                 },
                 "value": {
                   "type": "ObjectExpression",
-                  "start": 356,
-                  "end": 388,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 358,
-                      "end": 386,
                       "kind": "init",
                       "key": {
                         "type": "Literal",
-                        "start": 358,
-                        "end": 375,
                         "value": "resolution-mode",
-                        "raw": "\"resolution-mode\""
+                        "raw": "\"resolution-mode\"",
+                        "start": 358,
+                        "end": 375
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 377,
-                        "end": 386,
                         "value": "require",
-                        "raw": "\"require\""
+                        "raw": "\"require\"",
+                        "start": 377,
+                        "end": 386
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": false,
-                      "optional": false
+                      "optional": false,
+                      "start": 358,
+                      "end": 386
                     }
-                  ]
+                  ],
+                  "start": 356,
+                  "end": 388
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 350,
+                "end": 388
               }
-            ]
+            ],
+            "start": 348,
+            "end": 390
           },
           "qualifier": null,
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 325,
+          "end": 391
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "start": 318,
+        "end": 391
       },
-      "declare": false
+      "declare": false,
+      "start": 308,
+      "end": 392
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 392
 }
 ```

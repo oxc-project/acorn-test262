@@ -2,101 +2,101 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 86,
   "body": [
     {
       "type": "IfStatement",
-      "start": 0,
-      "end": 86,
       "test": {
         "type": "Literal",
-        "start": 4,
-        "end": 5,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "start": 4,
+        "end": 5
       },
       "consequent": {
         "type": "TSEnumDeclaration",
-        "start": 11,
-        "end": 27,
         "id": {
           "type": "Identifier",
-          "start": 22,
-          "end": 23,
           "decorators": [],
           "name": "A",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 22,
+          "end": 23
         },
         "body": {
           "type": "TSEnumBody",
+          "members": [],
           "start": 24,
-          "end": 27,
-          "members": []
+          "end": 27
         },
         "const": true,
-        "declare": false
+        "declare": false,
+        "start": 11,
+        "end": 27
       },
       "alternate": {
         "type": "IfStatement",
-        "start": 33,
-        "end": 86,
         "test": {
           "type": "Literal",
-          "start": 37,
-          "end": 38,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "start": 37,
+          "end": 38
         },
         "consequent": {
           "type": "TSEnumDeclaration",
-          "start": 44,
-          "end": 60,
           "id": {
             "type": "Identifier",
-            "start": 55,
-            "end": 56,
             "decorators": [],
             "name": "B",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 55,
+            "end": 56
           },
           "body": {
             "type": "TSEnumBody",
+            "members": [],
             "start": 57,
-            "end": 60,
-            "members": []
+            "end": 60
           },
           "const": true,
-          "declare": false
+          "declare": false,
+          "start": 44,
+          "end": 60
         },
         "alternate": {
           "type": "TSEnumDeclaration",
-          "start": 70,
-          "end": 86,
           "id": {
             "type": "Identifier",
-            "start": 81,
-            "end": 82,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 81,
+            "end": 82
           },
           "body": {
             "type": "TSEnumBody",
+            "members": [],
             "start": 83,
-            "end": 86,
-            "members": []
+            "end": 86
           },
           "const": true,
-          "declare": false
-        }
-      }
+          "declare": false,
+          "start": 70,
+          "end": 86
+        },
+        "start": 33,
+        "end": 86
+      },
+      "start": 0,
+      "end": 86
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 86
 }
 ```

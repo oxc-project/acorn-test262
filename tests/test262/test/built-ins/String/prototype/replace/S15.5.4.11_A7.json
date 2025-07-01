@@ -1,182 +1,182 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 570,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 302,
-      "end": 343,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 306,
-          "end": 342,
           "id": {
             "type": "Identifier",
+            "name": "__FACTORY",
             "start": 306,
-            "end": 315,
-            "name": "__FACTORY"
+            "end": 315
           },
           "init": {
             "type": "MemberExpression",
-            "start": 318,
-            "end": 342,
             "object": {
               "type": "MemberExpression",
-              "start": 318,
-              "end": 334,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 318,
-                "end": 324,
-                "name": "String"
+                "end": 324
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 325,
-                "end": 334,
-                "name": "prototype"
+                "end": 334
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 318,
+              "end": 334
             },
             "property": {
               "type": "Identifier",
+              "name": "replace",
               "start": 335,
-              "end": 342,
-              "name": "replace"
+              "end": 342
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 318,
+            "end": 342
+          },
+          "start": 306,
+          "end": 342
         }
-      ]
+      ],
+      "start": 302,
+      "end": 343
     },
     {
       "type": "TryStatement",
-      "start": 345,
-      "end": 569,
       "block": {
         "type": "BlockStatement",
-        "start": 349,
-        "end": 513,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 353,
-            "end": 384,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 357,
-                "end": 383,
                 "id": {
                   "type": "Identifier",
+                  "name": "__instance",
                   "start": 357,
-                  "end": 367,
-                  "name": "__instance"
+                  "end": 367
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 370,
-                  "end": 383,
                   "callee": {
                     "type": "Identifier",
+                    "name": "__FACTORY",
                     "start": 374,
-                    "end": 383,
-                    "name": "__FACTORY"
+                    "end": 383
                   },
-                  "arguments": []
-                }
+                  "arguments": [],
+                  "start": 370,
+                  "end": 383
+                },
+                "start": 357,
+                "end": 383
               }
-            ]
+            ],
+            "start": 353,
+            "end": 384
           },
           {
             "type": "ThrowStatement",
-            "start": 387,
-            "end": 511,
             "argument": {
               "type": "NewExpression",
-              "start": 393,
-              "end": 510,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 397,
-                "end": 409,
-                "name": "Test262Error"
+                "end": 409
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 410,
-                  "end": 509,
                   "value": "#1: __FACTORY = String.prototype.replace; \"__instance = new __FACTORY\" lead to throwing exception",
-                  "raw": "'#1: __FACTORY = String.prototype.replace; \"__instance = new __FACTORY\" lead to throwing exception'"
+                  "raw": "'#1: __FACTORY = String.prototype.replace; \"__instance = new __FACTORY\" lead to throwing exception'",
+                  "start": 410,
+                  "end": 509
                 }
-              ]
-            }
+              ],
+              "start": 393,
+              "end": 510
+            },
+            "start": 387,
+            "end": 511
           }
-        ]
+        ],
+        "start": 349,
+        "end": 513
       },
       "handler": {
         "type": "CatchClause",
-        "start": 514,
-        "end": 569,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 521,
-          "end": 522,
-          "name": "e"
+          "end": 522
         },
         "body": {
           "type": "BlockStatement",
-          "start": 524,
-          "end": 569,
           "body": [
             {
               "type": "IfStatement",
-              "start": 528,
-              "end": 567,
               "test": {
                 "type": "BinaryExpression",
-                "start": 532,
-                "end": 557,
                 "left": {
                   "type": "Identifier",
+                  "name": "e",
                   "start": 532,
-                  "end": 533,
-                  "name": "e"
+                  "end": 533
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 545,
-                  "end": 557,
-                  "name": "Test262Error"
-                }
+                  "end": 557
+                },
+                "start": 532,
+                "end": 557
               },
               "consequent": {
                 "type": "ThrowStatement",
-                "start": 559,
-                "end": 567,
                 "argument": {
                   "type": "Identifier",
+                  "name": "e",
                   "start": 565,
-                  "end": 566,
-                  "name": "e"
-                }
+                  "end": 566
+                },
+                "start": 559,
+                "end": 567
               },
-              "alternate": null
+              "alternate": null,
+              "start": 528,
+              "end": 567
             }
-          ]
-        }
+          ],
+          "start": 524,
+          "end": 569
+        },
+        "start": 514,
+        "end": 569
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 345,
+      "end": 569
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 570
 }

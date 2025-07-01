@@ -1,138 +1,138 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1002,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 944,
-      "end": 976,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 950,
-          "end": 975,
           "id": {
             "type": "ObjectPattern",
-            "start": 950,
-            "end": 961,
             "properties": [
               {
                 "type": "Property",
-                "start": 952,
-                "end": 958,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 952,
-                  "end": 953,
-                  "name": "x"
+                  "end": 953
                 },
                 "value": {
                   "type": "ArrayPattern",
-                  "start": 955,
-                  "end": 958,
                   "elements": [
                     {
                       "type": "Identifier",
+                      "name": "y",
                       "start": 956,
-                      "end": 957,
-                      "name": "y"
+                      "end": 957
                     }
-                  ]
+                  ],
+                  "start": 955,
+                  "end": 958
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 952,
+                "end": 958
               }
-            ]
+            ],
+            "start": 950,
+            "end": 961
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 964,
-            "end": 975,
             "properties": [
               {
                 "type": "Property",
-                "start": 966,
-                "end": 973,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 966,
-                  "end": 967,
-                  "name": "x"
+                  "end": 967
                 },
                 "value": {
                   "type": "ArrayExpression",
-                  "start": 969,
-                  "end": 973,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 970,
-                      "end": 972,
                       "value": 45,
-                      "raw": "45"
+                      "raw": "45",
+                      "start": 970,
+                      "end": 972
                     }
-                  ]
+                  ],
+                  "start": 969,
+                  "end": 973
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 966,
+                "end": 973
               }
-            ]
-          }
+            ],
+            "start": 964,
+            "end": 975
+          },
+          "start": 950,
+          "end": 975
         }
-      ]
+      ],
+      "start": 944,
+      "end": 976
     },
     {
       "type": "ExpressionStatement",
-      "start": 978,
-      "end": 1001,
       "expression": {
         "type": "CallExpression",
-        "start": 978,
-        "end": 1000,
         "callee": {
           "type": "MemberExpression",
-          "start": 978,
-          "end": 994,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 978,
-            "end": 984,
-            "name": "assert"
+            "end": 984
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 985,
-            "end": 994,
-            "name": "sameValue"
+            "end": 994
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 978,
+          "end": 994
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "y",
             "start": 995,
-            "end": 996,
-            "name": "y"
+            "end": 996
           },
           {
             "type": "Literal",
-            "start": 997,
-            "end": 999,
             "value": 45,
-            "raw": "45"
+            "raw": "45",
+            "start": 997,
+            "end": 999
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 978,
+        "end": 1000
+      },
+      "start": 978,
+      "end": 1001
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1002
 }

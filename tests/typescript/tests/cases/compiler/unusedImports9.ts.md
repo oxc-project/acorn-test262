@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 107,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 47,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 47,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 23,
           "decorators": [],
           "name": "Calculator",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 23
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,27 +23,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 24,
-          "end": 47,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 30,
-              "end": 45,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 30,
-                "end": 40,
                 "decorators": [],
                 "name": "handleChar",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 30,
+                "end": 40
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 40,
-                "end": 45,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -59,45 +47,51 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 43,
-                  "end": 45,
-                  "body": []
+                  "end": 45
                 },
-                "expression": false
+                "expression": false,
+                "start": 40,
+                "end": 45
               },
               "kind": "method",
               "computed": false,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 30,
+              "end": 45
             }
-          ]
+          ],
+          "start": 24,
+          "end": 47
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 47
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 47
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 49,
-      "end": 76,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 56,
-        "end": 76,
         "id": {
           "type": "Identifier",
-          "start": 65,
-          "end": 69,
           "decorators": [],
           "name": "test",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 65,
+          "end": 69
         },
         "generator": false,
         "async": false,
@@ -107,33 +101,33 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 72,
-          "end": 76,
-          "body": []
+          "end": 76
         },
-        "expression": false
+        "expression": false,
+        "start": 56,
+        "end": 76
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 49,
+      "end": 76
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 78,
-      "end": 106,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 85,
-        "end": 106,
         "id": {
           "type": "Identifier",
-          "start": 94,
-          "end": 99,
           "decorators": [],
           "name": "test2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 94,
+          "end": 99
         },
         "generator": false,
         "async": false,
@@ -143,58 +137,64 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 102,
-          "end": 106,
-          "body": []
+          "end": 106
         },
-        "expression": false
+        "expression": false,
+        "start": 85,
+        "end": 106
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 78,
+      "end": 106
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 107
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 29,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "c",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 11,
-        "end": 29,
         "expression": {
           "type": "Literal",
-          "start": 19,
-          "end": 28,
           "value": "./file1",
-          "raw": "'./file1'"
-        }
+          "raw": "'./file1'",
+          "start": 19,
+          "end": 28
+        },
+        "start": 11,
+        "end": 29
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 29
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```

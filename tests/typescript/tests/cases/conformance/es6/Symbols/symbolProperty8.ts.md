@@ -2,102 +2,94 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 77,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 77,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 18,
-            "end": 47,
             "computed": true,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "MemberExpression",
-              "start": 19,
-              "end": 37,
               "object": {
                 "type": "Identifier",
-                "start": 19,
-                "end": 25,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 19,
+                "end": 25
               },
               "property": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 37,
                 "decorators": [],
                 "name": "unscopables",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 26,
+                "end": 37
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 19,
+              "end": 37
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 38,
-              "end": 46,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 40,
                 "end": 46
-              }
+              },
+              "start": 38,
+              "end": 46
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 18,
+            "end": 47
           },
           {
             "type": "TSMethodSignature",
-            "start": 52,
-            "end": 75,
             "key": {
               "type": "MemberExpression",
-              "start": 53,
-              "end": 71,
               "object": {
                 "type": "Identifier",
-                "start": 53,
-                "end": 59,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 53,
+                "end": 59
               },
               "property": {
                 "type": "Identifier",
-                "start": 60,
-                "end": 71,
                 "decorators": [],
                 "name": "toPrimitive",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 60,
+                "end": 71
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 53,
+              "end": 71
             },
             "computed": true,
             "optional": false,
@@ -107,14 +99,22 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 52,
+            "end": 75
           }
-        ]
+        ],
+        "start": 12,
+        "end": 77
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 77
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```

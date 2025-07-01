@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 629,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 382,
-      "end": 546,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 386,
-          "end": 545,
           "id": {
             "type": "Identifier",
+            "name": "__delete",
             "start": 386,
-            "end": 394,
-            "name": "__delete"
+            "end": 394
           },
           "init": {
             "type": "Literal",
-            "start": 395,
-            "end": 545,
             "value": " break else new var case finally return void catch for switch while continue function this with default if throw delete in try do instanceof typeof ",
-            "raw": "\" break else new var case finally return void catch for switch while continue function this with default if throw delete in try do instanceof typeof \""
-          }
+            "raw": "\" break else new var case finally return void catch for switch while continue function this with default if throw delete in try do instanceof typeof \"",
+            "start": 395,
+            "end": 545
+          },
+          "start": 386,
+          "end": 545
         }
-      ]
+      ],
+      "start": 382,
+      "end": 546
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 629
 }

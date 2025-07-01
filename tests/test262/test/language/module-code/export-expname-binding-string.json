@@ -1,177 +1,177 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 576,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 415,
-      "end": 469,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 422,
-          "end": 433,
           "local": {
             "type": "Identifier",
+            "name": "Scouts",
             "start": 427,
-            "end": 433,
-            "name": "Scouts"
-          }
+            "end": 433
+          },
+          "start": 422,
+          "end": 433
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 439,
-        "end": 468,
         "value": "./export-expname_FIXTURE.js",
-        "raw": "\"./export-expname_FIXTURE.js\""
+        "raw": "\"./export-expname_FIXTURE.js\"",
+        "start": 439,
+        "end": 468
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 415,
+      "end": 469
     },
     {
       "type": "ExpressionStatement",
-      "start": 471,
-      "end": 524,
       "expression": {
         "type": "CallExpression",
-        "start": 471,
-        "end": 523,
         "callee": {
           "type": "MemberExpression",
-          "start": 471,
-          "end": 487,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 471,
-            "end": 477,
-            "name": "assert"
+            "end": 477
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 478,
-            "end": 487,
-            "name": "sameValue"
+            "end": 487
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 471,
+          "end": 487
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 488,
-            "end": 502,
             "object": {
               "type": "Identifier",
+              "name": "Scouts",
               "start": 488,
-              "end": 494,
-              "name": "Scouts"
+              "end": 494
             },
             "property": {
               "type": "Identifier",
+              "name": "Mercury",
               "start": 495,
-              "end": 502,
-              "name": "Mercury"
+              "end": 502
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 488,
+            "end": 502
           },
           {
             "type": "MemberExpression",
-            "start": 504,
-            "end": 522,
             "object": {
               "type": "Identifier",
+              "name": "globalThis",
               "start": 504,
-              "end": 514,
-              "name": "globalThis"
+              "end": 514
             },
             "property": {
               "type": "Identifier",
+              "name": "Mercury",
               "start": 515,
-              "end": 522,
-              "name": "Mercury"
+              "end": 522
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 504,
+            "end": 522
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 471,
+        "end": 523
+      },
+      "start": 471,
+      "end": 524
     },
     {
       "type": "ExpressionStatement",
-      "start": 525,
-      "end": 575,
       "expression": {
         "type": "CallExpression",
-        "start": 525,
-        "end": 574,
         "callee": {
           "type": "MemberExpression",
-          "start": 525,
-          "end": 541,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 525,
-            "end": 531,
-            "name": "assert"
+            "end": 531
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 532,
-            "end": 541,
-            "name": "sameValue"
+            "end": 541
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 525,
+          "end": 541
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 542,
-            "end": 553,
             "object": {
               "type": "Identifier",
+              "name": "Scouts",
               "start": 542,
-              "end": 548,
-              "name": "Scouts"
+              "end": 548
             },
             "property": {
               "type": "Literal",
-              "start": 549,
-              "end": 552,
               "value": "☿",
-              "raw": "\"☿\""
+              "raw": "\"☿\"",
+              "start": 549,
+              "end": 552
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 542,
+            "end": 553
           },
           {
             "type": "MemberExpression",
-            "start": 555,
-            "end": 573,
             "object": {
               "type": "Identifier",
+              "name": "globalThis",
               "start": 555,
-              "end": 565,
-              "name": "globalThis"
+              "end": 565
             },
             "property": {
               "type": "Identifier",
+              "name": "Mercury",
               "start": 566,
-              "end": 573,
-              "name": "Mercury"
+              "end": 573
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 555,
+            "end": 573
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 525,
+        "end": 574
+      },
+      "start": 525,
+      "end": 575
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 576
 }

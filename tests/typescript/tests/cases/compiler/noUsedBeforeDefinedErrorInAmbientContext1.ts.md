@@ -2,89 +2,89 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 63,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "S",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 23,
               "typeAnnotation": {
                 "type": "TSTypeQuery",
-                "start": 15,
-                "end": 23,
                 "exprName": {
                   "type": "Identifier",
-                  "start": 22,
-                  "end": 23,
                   "decorators": [],
                   "name": "A",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 22,
+                  "end": 23
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 15,
+                "end": 23
+              },
+              "start": 13,
+              "end": 23
+            },
+            "start": 12,
+            "end": 23
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 23
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 24
     },
     {
       "type": "VariableDeclaration",
-      "start": 37,
-      "end": 61,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 51,
-          "end": 60,
           "id": {
             "type": "Identifier",
-            "start": 51,
-            "end": 60,
             "decorators": [],
             "name": "A",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 52,
-              "end": 60,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 54,
                 "end": 60
-              }
-            }
+              },
+              "start": 52,
+              "end": 60
+            },
+            "start": 51,
+            "end": 60
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 51,
+          "end": 60
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 37,
+      "end": 61
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 63
 }
 ```

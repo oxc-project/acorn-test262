@@ -1,210 +1,210 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 807,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 552,
-      "end": 634,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 556,
-          "end": 633,
           "id": {
             "type": "Identifier",
+            "name": "AsyncGeneratorFunctionPrototype",
             "start": 556,
-            "end": 587,
-            "name": "AsyncGeneratorFunctionPrototype"
+            "end": 587
           },
           "init": {
             "type": "CallExpression",
-            "start": 590,
-            "end": 633,
             "callee": {
               "type": "MemberExpression",
-              "start": 590,
-              "end": 611,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 590,
-                "end": 596,
-                "name": "Object"
+                "end": 596
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 597,
-                "end": 611,
-                "name": "getPrototypeOf"
+                "end": 611
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 590,
+              "end": 611
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 612,
-                "end": 632,
                 "id": null,
                 "generator": true,
                 "async": true,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 630,
-                  "end": 632,
-                  "body": []
+                  "end": 632
                 },
-                "expression": false
+                "expression": false,
+                "start": 612,
+                "end": 632
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 590,
+            "end": 633
+          },
+          "start": 556,
+          "end": 633
         }
-      ]
+      ],
+      "start": 552,
+      "end": 634
     },
     {
       "type": "ExpressionStatement",
-      "start": 636,
-      "end": 806,
       "expression": {
         "type": "CallExpression",
-        "start": 636,
-        "end": 805,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 636,
-          "end": 650,
-          "name": "verifyProperty"
+          "end": 650
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "AsyncGeneratorFunctionPrototype",
             "start": 651,
-            "end": 682,
-            "name": "AsyncGeneratorFunctionPrototype"
+            "end": 682
           },
           {
             "type": "MemberExpression",
-            "start": 684,
-            "end": 702,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 684,
-              "end": 690,
-              "name": "Symbol"
+              "end": 690
             },
             "property": {
               "type": "Identifier",
+              "name": "toStringTag",
               "start": 691,
-              "end": 702,
-              "name": "toStringTag"
+              "end": 702
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 684,
+            "end": 702
           },
           {
             "type": "ObjectExpression",
-            "start": 704,
-            "end": 804,
             "properties": [
               {
                 "type": "Property",
-                "start": 708,
-                "end": 739,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "value",
                   "start": 708,
-                  "end": 713,
-                  "name": "value"
+                  "end": 713
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 715,
-                  "end": 739,
                   "value": "AsyncGeneratorFunction",
-                  "raw": "'AsyncGeneratorFunction'"
+                  "raw": "'AsyncGeneratorFunction'",
+                  "start": 715,
+                  "end": 739
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 708,
+                "end": 739
               },
               {
                 "type": "Property",
-                "start": 743,
-                "end": 760,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 743,
-                  "end": 753,
-                  "name": "enumerable"
+                  "end": 753
                 },
                 "value": {
                   "type": "Literal",
+                  "value": false,
+                  "raw": "false",
                   "start": 755,
-                  "end": 760,
-                  "value": false,
-                  "raw": "false"
+                  "end": 760
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 743,
+                "end": 760
               },
               {
                 "type": "Property",
-                "start": 764,
-                "end": 779,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 764,
-                  "end": 772,
-                  "name": "writable"
+                  "end": 772
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 774,
-                  "end": 779,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 774,
+                  "end": 779
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 764,
+                "end": 779
               },
               {
                 "type": "Property",
-                "start": 783,
-                "end": 801,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 783,
-                  "end": 795,
-                  "name": "configurable"
+                  "end": 795
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 797,
-                  "end": 801,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 797,
+                  "end": 801
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 783,
+                "end": 801
               }
-            ]
+            ],
+            "start": 704,
+            "end": 804
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 636,
+        "end": 805
+      },
+      "start": 636,
+      "end": 806
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 807
 }

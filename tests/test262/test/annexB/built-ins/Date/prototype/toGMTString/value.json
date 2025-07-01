@@ -1,105 +1,105 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 522,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 448,
-      "end": 521,
       "expression": {
         "type": "CallExpression",
-        "start": 448,
-        "end": 520,
         "callee": {
           "type": "MemberExpression",
-          "start": 448,
-          "end": 464,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 448,
-            "end": 454,
-            "name": "assert"
+            "end": 454
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 455,
-            "end": 464,
-            "name": "sameValue"
+            "end": 464
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 448,
+          "end": 464
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 465,
-            "end": 491,
             "object": {
               "type": "MemberExpression",
-              "start": 465,
-              "end": 479,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 465,
-                "end": 469,
-                "name": "Date"
+                "end": 469
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 470,
-                "end": 479,
-                "name": "prototype"
+                "end": 479
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 465,
+              "end": 479
             },
             "property": {
               "type": "Identifier",
+              "name": "toGMTString",
               "start": 480,
-              "end": 491,
-              "name": "toGMTString"
+              "end": 491
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 465,
+            "end": 491
           },
           {
             "type": "MemberExpression",
-            "start": 493,
-            "end": 519,
             "object": {
               "type": "MemberExpression",
-              "start": 493,
-              "end": 507,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 493,
-                "end": 497,
-                "name": "Date"
+                "end": 497
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 498,
-                "end": 507,
-                "name": "prototype"
+                "end": 507
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 493,
+              "end": 507
             },
             "property": {
               "type": "Identifier",
+              "name": "toUTCString",
               "start": 508,
-              "end": 519,
-              "name": "toUTCString"
+              "end": 519
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 493,
+            "end": 519
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 448,
+        "end": 520
+      },
+      "start": 448,
+      "end": 521
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 522
 }

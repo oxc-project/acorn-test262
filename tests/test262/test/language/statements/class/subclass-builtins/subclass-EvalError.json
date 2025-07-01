@@ -1,138 +1,138 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 413,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 281,
-      "end": 316,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "Subclass",
         "start": 287,
-        "end": 295,
-        "name": "Subclass"
+        "end": 295
       },
       "superClass": {
         "type": "Identifier",
+        "name": "EvalError",
         "start": 304,
-        "end": 313,
-        "name": "EvalError"
+        "end": 313
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 314,
-        "end": 316,
-        "body": []
-      }
+        "end": 316
+      },
+      "start": 281,
+      "end": 316
     },
     {
       "type": "VariableDeclaration",
-      "start": 318,
-      "end": 345,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 324,
-          "end": 344,
           "id": {
             "type": "Identifier",
+            "name": "sub",
             "start": 324,
-            "end": 327,
-            "name": "sub"
+            "end": 327
           },
           "init": {
             "type": "NewExpression",
-            "start": 330,
-            "end": 344,
             "callee": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 334,
-              "end": 342,
-              "name": "Subclass"
+              "end": 342
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 330,
+            "end": 344
+          },
+          "start": 324,
+          "end": 344
         }
-      ]
+      ],
+      "start": 318,
+      "end": 345
     },
     {
       "type": "ExpressionStatement",
-      "start": 346,
-      "end": 378,
       "expression": {
         "type": "CallExpression",
-        "start": 346,
-        "end": 377,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 346,
-          "end": 352,
-          "name": "assert"
+          "end": 352
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 353,
-            "end": 376,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 353,
-              "end": 356,
-              "name": "sub"
+              "end": 356
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 368,
-              "end": 376,
-              "name": "Subclass"
-            }
+              "end": 376
+            },
+            "start": 353,
+            "end": 376
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 346,
+        "end": 377
+      },
+      "start": 346,
+      "end": 378
     },
     {
       "type": "ExpressionStatement",
-      "start": 379,
-      "end": 412,
       "expression": {
         "type": "CallExpression",
-        "start": 379,
-        "end": 411,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 379,
-          "end": 385,
-          "name": "assert"
+          "end": 385
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 386,
-            "end": 410,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 386,
-              "end": 389,
-              "name": "sub"
+              "end": 389
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "EvalError",
               "start": 401,
-              "end": 410,
-              "name": "EvalError"
-            }
+              "end": 410
+            },
+            "start": 386,
+            "end": 410
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 379,
+        "end": 411
+      },
+      "start": 379,
+      "end": 412
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 413
 }

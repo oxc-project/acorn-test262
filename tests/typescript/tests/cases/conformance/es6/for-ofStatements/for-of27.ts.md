@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 95,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 54,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 22,
         "decorators": [],
         "name": "MyStringIterator",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 22
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,48 +21,44 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 23,
-        "end": 54,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 29,
-            "end": 52,
             "decorators": [],
             "key": {
               "type": "MemberExpression",
-              "start": 30,
-              "end": 45,
               "object": {
                 "type": "Identifier",
-                "start": 30,
-                "end": 36,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 30,
+                "end": 36
               },
               "property": {
                 "type": "Identifier",
-                "start": 37,
-                "end": 45,
                 "decorators": [],
                 "name": "iterator",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 37,
+                "end": 45
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 30,
+              "end": 45
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 46,
-              "end": 51,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 48,
                 "end": 51
-              }
+              },
+              "start": 46,
+              "end": 51
             },
             "value": null,
             "computed": true,
@@ -76,68 +68,76 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 29,
+            "end": 52
           }
-        ]
+        ],
+        "start": 23,
+        "end": 54
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 54
     },
     {
       "type": "ForOfStatement",
-      "start": 56,
-      "end": 95,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 61,
-        "end": 66,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 65,
-            "end": 66,
             "id": {
               "type": "Identifier",
-              "start": 65,
-              "end": 66,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 65,
+              "end": 66
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 65,
+            "end": 66
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 61,
+        "end": 66
       },
       "right": {
         "type": "NewExpression",
-        "start": 70,
-        "end": 90,
         "callee": {
           "type": "Identifier",
-          "start": 74,
-          "end": 90,
           "decorators": [],
           "name": "MyStringIterator",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 74,
+          "end": 90
         },
         "typeArguments": null,
-        "arguments": []
+        "arguments": [],
+        "start": 70,
+        "end": 90
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 92,
-        "end": 95,
-        "body": []
-      }
+        "end": 95
+      },
+      "start": 56,
+      "end": 95
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 95
 }
 ```

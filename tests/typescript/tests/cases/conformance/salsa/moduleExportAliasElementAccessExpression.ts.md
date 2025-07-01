@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 159,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 17,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "D",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -26,102 +22,106 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 14,
-        "end": 17,
-        "body": []
+        "end": 17
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "ExpressionStatement",
-      "start": 18,
-      "end": 35,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 18,
-        "end": 34,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 18,
-          "end": 30,
           "object": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "exports",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 18,
-            "end": 25,
-            "decorators": [],
-            "name": "exports",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 25
           },
           "property": {
             "type": "Literal",
-            "start": 26,
-            "end": 29,
             "value": "D",
-            "raw": "\"D\""
+            "raw": "\"D\"",
+            "start": 26,
+            "end": 29
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 18,
+          "end": 30
         },
         "right": {
           "type": "Identifier",
-          "start": 33,
-          "end": 34,
           "decorators": [],
           "name": "D",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 33,
+          "end": 34
+        },
+        "start": 18,
+        "end": 34
       },
-      "directive": null
+      "directive": null,
+      "start": 18,
+      "end": 35
     },
     {
       "type": "ExpressionStatement",
-      "start": 126,
-      "end": 159,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 126,
-        "end": 158,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 126,
-          "end": 154,
           "object": {
             "type": "Identifier",
-            "start": 126,
-            "end": 133,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 126,
+            "end": 133
           },
           "property": {
             "type": "Literal",
-            "start": 134,
-            "end": 153,
             "value": "Does not work yet",
-            "raw": "\"Does not work yet\""
+            "raw": "\"Does not work yet\"",
+            "start": 134,
+            "end": 153
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 126,
+          "end": 154
         },
         "right": {
           "type": "Identifier",
-          "start": 157,
-          "end": 158,
           "decorators": [],
           "name": "D",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 157,
+          "end": 158
+        },
+        "start": 126,
+        "end": 158
       },
-      "directive": null
+      "directive": null,
+      "start": 126,
+      "end": 159
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 159
 }
 ```

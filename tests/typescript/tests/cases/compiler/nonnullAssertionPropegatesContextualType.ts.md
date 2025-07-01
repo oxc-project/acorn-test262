@@ -2,100 +2,100 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 88,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 70,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 69,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 25,
             "decorators": [],
             "name": "rect2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 9,
-              "end": 25,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 11,
-                "end": 25,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 11,
-                  "end": 25,
                   "decorators": [],
                   "name": "SVGRectElement",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 11,
+                  "end": 25
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 11,
+                "end": 25
+              },
+              "start": 9,
+              "end": 25
+            },
+            "start": 4,
+            "end": 25
           },
           "init": {
             "type": "TSNonNullExpression",
-            "start": 28,
-            "end": 69,
             "expression": {
               "type": "CallExpression",
-              "start": 28,
-              "end": 68,
               "callee": {
                 "type": "MemberExpression",
-                "start": 28,
-                "end": 50,
                 "object": {
                   "type": "Identifier",
-                  "start": 28,
-                  "end": 36,
                   "decorators": [],
                   "name": "document",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 28,
+                  "end": 36
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 37,
-                  "end": 50,
                   "decorators": [],
                   "name": "querySelector",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 37,
+                  "end": 50
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 28,
+                "end": 50
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 51,
-                  "end": 67,
                   "value": ".svg-rectangle",
-                  "raw": "'.svg-rectangle'"
+                  "raw": "'.svg-rectangle'",
+                  "start": 51,
+                  "end": 67
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 28,
+              "end": 68
+            },
+            "start": 28,
+            "end": 69
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 69
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 70
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 88
 }
 ```

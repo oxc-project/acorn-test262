@@ -2,44 +2,44 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 18,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 18,
       "expression": {
         "type": "NewExpression",
-        "start": 0,
-        "end": 17,
         "callee": {
           "type": "Identifier",
-          "start": 4,
-          "end": 7,
           "decorators": [],
           "name": "Map",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 4,
+          "end": 7
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 7,
-          "end": 15,
           "params": [
             {
               "type": "TSStringKeyword",
               "start": 8,
               "end": 14
             }
-          ]
+          ],
+          "start": 7,
+          "end": 15
         },
-        "arguments": []
+        "arguments": [],
+        "start": 0,
+        "end": 17
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 18
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 18
 }
 ```

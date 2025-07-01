@@ -1,969 +1,969 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1758,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 288,
-      "end": 375,
       "expression": {
         "type": "CallExpression",
-        "start": 288,
-        "end": 374,
         "callee": {
           "type": "MemberExpression",
-          "start": 288,
-          "end": 304,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 288,
-            "end": 294,
-            "name": "assert"
+            "end": 294
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 295,
-            "end": 304,
-            "name": "sameValue"
+            "end": 304
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 288,
+          "end": 304
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 305,
-            "end": 329,
             "callee": {
               "type": "MemberExpression",
-              "start": 305,
-              "end": 319,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 305,
-                "end": 309,
-                "name": "JSON"
+                "end": 309
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 310,
-                "end": 319,
-                "name": "stringify"
+                "end": 319
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 305,
+              "end": 319
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 320,
-                "end": 328,
                 "value": "\ud834",
-                "raw": "\"\\uD834\""
+                "raw": "\"\\uD834\"",
+                "start": 320,
+                "end": 328
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 305,
+            "end": 329
           },
           {
             "type": "Literal",
-            "start": 331,
-            "end": 342,
             "value": "\"\\ud834\"",
-            "raw": "'\"\\\\ud834\"'"
+            "raw": "'\"\\\\ud834\"'",
+            "start": 331,
+            "end": 342
           },
           {
             "type": "Literal",
-            "start": 346,
-            "end": 373,
             "value": "JSON.stringify(\"\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\")'"
+            "raw": "'JSON.stringify(\"\\\\uD834\")'",
+            "start": 346,
+            "end": 373
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 288,
+        "end": 374
+      },
+      "start": 288,
+      "end": 375
     },
     {
       "type": "ExpressionStatement",
-      "start": 376,
-      "end": 463,
       "expression": {
         "type": "CallExpression",
-        "start": 376,
-        "end": 462,
         "callee": {
           "type": "MemberExpression",
-          "start": 376,
-          "end": 392,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 376,
-            "end": 382,
-            "name": "assert"
+            "end": 382
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 383,
-            "end": 392,
-            "name": "sameValue"
+            "end": 392
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 376,
+          "end": 392
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 393,
-            "end": 417,
             "callee": {
               "type": "MemberExpression",
-              "start": 393,
-              "end": 407,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 393,
-                "end": 397,
-                "name": "JSON"
+                "end": 397
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 398,
-                "end": 407,
-                "name": "stringify"
+                "end": 407
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 393,
+              "end": 407
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 408,
-                "end": 416,
                 "value": "\udf06",
-                "raw": "\"\\uDF06\""
+                "raw": "\"\\uDF06\"",
+                "start": 408,
+                "end": 416
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 393,
+            "end": 417
           },
           {
             "type": "Literal",
-            "start": 419,
-            "end": 430,
             "value": "\"\\udf06\"",
-            "raw": "'\"\\\\udf06\"'"
+            "raw": "'\"\\\\udf06\"'",
+            "start": 419,
+            "end": 430
           },
           {
             "type": "Literal",
-            "start": 434,
-            "end": 461,
             "value": "JSON.stringify(\"\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\")'"
+            "raw": "'JSON.stringify(\"\\\\uDF06\")'",
+            "start": 434,
+            "end": 461
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 376,
+        "end": 462
+      },
+      "start": 376,
+      "end": 463
     },
     {
       "type": "ExpressionStatement",
-      "start": 465,
-      "end": 560,
       "expression": {
         "type": "CallExpression",
-        "start": 465,
-        "end": 559,
         "callee": {
           "type": "MemberExpression",
-          "start": 465,
-          "end": 481,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 465,
-            "end": 471,
-            "name": "assert"
+            "end": 471
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 472,
-            "end": 481,
-            "name": "sameValue"
+            "end": 481
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 465,
+          "end": 481
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 482,
-            "end": 512,
             "callee": {
               "type": "MemberExpression",
-              "start": 482,
-              "end": 496,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 482,
-                "end": 486,
-                "name": "JSON"
+                "end": 486
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 487,
-                "end": 496,
-                "name": "stringify"
+                "end": 496
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 482,
+              "end": 496
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 497,
-                "end": 511,
                 "value": "𝌆",
-                "raw": "\"\\uD834\\uDF06\""
+                "raw": "\"\\uD834\\uDF06\"",
+                "start": 497,
+                "end": 511
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 482,
+            "end": 512
           },
           {
             "type": "Literal",
-            "start": 514,
-            "end": 520,
             "value": "\"𝌆\"",
-            "raw": "'\"𝌆\"'"
+            "raw": "'\"𝌆\"'",
+            "start": 514,
+            "end": 520
           },
           {
             "type": "Literal",
-            "start": 524,
-            "end": 558,
             "value": "JSON.stringify(\"\\uD834\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\")'"
+            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\")'",
+            "start": 524,
+            "end": 558
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 465,
+        "end": 559
+      },
+      "start": 465,
+      "end": 560
     },
     {
       "type": "ExpressionStatement",
-      "start": 561,
-      "end": 696,
       "expression": {
         "type": "CallExpression",
-        "start": 561,
-        "end": 695,
         "callee": {
           "type": "MemberExpression",
-          "start": 561,
-          "end": 577,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 561,
-            "end": 567,
-            "name": "assert"
+            "end": 567
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 568,
-            "end": 577,
-            "name": "sameValue"
+            "end": 577
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 561,
+          "end": 577
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 578,
-            "end": 620,
             "callee": {
               "type": "MemberExpression",
-              "start": 578,
-              "end": 592,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 578,
-                "end": 582,
-                "name": "JSON"
+                "end": 582
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 583,
-                "end": 592,
-                "name": "stringify"
+                "end": 592
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 578,
+              "end": 592
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 593,
-                "end": 619,
                 "value": "\ud834𝌆\ud834",
-                "raw": "\"\\uD834\\uD834\\uDF06\\uD834\""
+                "raw": "\"\\uD834\\uD834\\uDF06\\uD834\"",
+                "start": 593,
+                "end": 619
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 578,
+            "end": 620
           },
           {
             "type": "Literal",
-            "start": 622,
-            "end": 642,
             "value": "\"\\ud834𝌆\\ud834\"",
-            "raw": "'\"\\\\ud834𝌆\\\\ud834\"'"
+            "raw": "'\"\\\\ud834𝌆\\\\ud834\"'",
+            "start": 622,
+            "end": 642
           },
           {
             "type": "Literal",
-            "start": 646,
-            "end": 694,
             "value": "JSON.stringify(\"\\uD834\\uD834\\uDF06\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uD834\\\\uDF06\\\\uD834\")'"
+            "raw": "'JSON.stringify(\"\\\\uD834\\\\uD834\\\\uDF06\\\\uD834\")'",
+            "start": 646,
+            "end": 694
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 561,
+        "end": 695
+      },
+      "start": 561,
+      "end": 696
     },
     {
       "type": "ExpressionStatement",
-      "start": 697,
-      "end": 832,
       "expression": {
         "type": "CallExpression",
-        "start": 697,
-        "end": 831,
         "callee": {
           "type": "MemberExpression",
-          "start": 697,
-          "end": 713,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 697,
-            "end": 703,
-            "name": "assert"
+            "end": 703
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 704,
-            "end": 713,
-            "name": "sameValue"
+            "end": 713
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 697,
+          "end": 713
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 714,
-            "end": 756,
             "callee": {
               "type": "MemberExpression",
-              "start": 714,
-              "end": 728,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 714,
-                "end": 718,
-                "name": "JSON"
+                "end": 718
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 719,
-                "end": 728,
-                "name": "stringify"
+                "end": 728
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 714,
+              "end": 728
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 729,
-                "end": 755,
                 "value": "\ud834𝌆\udf06",
-                "raw": "\"\\uD834\\uD834\\uDF06\\uDF06\""
+                "raw": "\"\\uD834\\uD834\\uDF06\\uDF06\"",
+                "start": 729,
+                "end": 755
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 714,
+            "end": 756
           },
           {
             "type": "Literal",
-            "start": 758,
-            "end": 778,
             "value": "\"\\ud834𝌆\\udf06\"",
-            "raw": "'\"\\\\ud834𝌆\\\\udf06\"'"
+            "raw": "'\"\\\\ud834𝌆\\\\udf06\"'",
+            "start": 758,
+            "end": 778
           },
           {
             "type": "Literal",
-            "start": 782,
-            "end": 830,
             "value": "JSON.stringify(\"\\uD834\\uD834\\uDF06\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uD834\\\\uDF06\\\\uDF06\")'"
+            "raw": "'JSON.stringify(\"\\\\uD834\\\\uD834\\\\uDF06\\\\uDF06\")'",
+            "start": 782,
+            "end": 830
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 697,
+        "end": 831
+      },
+      "start": 697,
+      "end": 832
     },
     {
       "type": "ExpressionStatement",
-      "start": 833,
-      "end": 968,
       "expression": {
         "type": "CallExpression",
-        "start": 833,
-        "end": 967,
         "callee": {
           "type": "MemberExpression",
-          "start": 833,
-          "end": 849,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 833,
-            "end": 839,
-            "name": "assert"
+            "end": 839
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 840,
-            "end": 849,
-            "name": "sameValue"
+            "end": 849
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 833,
+          "end": 849
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 850,
-            "end": 892,
             "callee": {
               "type": "MemberExpression",
-              "start": 850,
-              "end": 864,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 850,
-                "end": 854,
-                "name": "JSON"
+                "end": 854
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 855,
-                "end": 864,
-                "name": "stringify"
+                "end": 864
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 850,
+              "end": 864
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 865,
-                "end": 891,
                 "value": "\udf06𝌆\ud834",
-                "raw": "\"\\uDF06\\uD834\\uDF06\\uD834\""
+                "raw": "\"\\uDF06\\uD834\\uDF06\\uD834\"",
+                "start": 865,
+                "end": 891
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 850,
+            "end": 892
           },
           {
             "type": "Literal",
-            "start": 894,
-            "end": 914,
             "value": "\"\\udf06𝌆\\ud834\"",
-            "raw": "'\"\\\\udf06𝌆\\\\ud834\"'"
+            "raw": "'\"\\\\udf06𝌆\\\\ud834\"'",
+            "start": 894,
+            "end": 914
           },
           {
             "type": "Literal",
-            "start": 918,
-            "end": 966,
             "value": "JSON.stringify(\"\\uDF06\\uD834\\uDF06\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\\\\uDF06\\\\uD834\")'"
+            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\\\\uDF06\\\\uD834\")'",
+            "start": 918,
+            "end": 966
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 833,
+        "end": 967
+      },
+      "start": 833,
+      "end": 968
     },
     {
       "type": "ExpressionStatement",
-      "start": 969,
-      "end": 1104,
       "expression": {
         "type": "CallExpression",
-        "start": 969,
-        "end": 1103,
         "callee": {
           "type": "MemberExpression",
-          "start": 969,
-          "end": 985,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 969,
-            "end": 975,
-            "name": "assert"
+            "end": 975
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 976,
-            "end": 985,
-            "name": "sameValue"
+            "end": 985
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 969,
+          "end": 985
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 986,
-            "end": 1028,
             "callee": {
               "type": "MemberExpression",
-              "start": 986,
-              "end": 1000,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 986,
-                "end": 990,
-                "name": "JSON"
+                "end": 990
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 991,
-                "end": 1000,
-                "name": "stringify"
+                "end": 1000
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 986,
+              "end": 1000
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1001,
-                "end": 1027,
                 "value": "\udf06𝌆\udf06",
-                "raw": "\"\\uDF06\\uD834\\uDF06\\uDF06\""
+                "raw": "\"\\uDF06\\uD834\\uDF06\\uDF06\"",
+                "start": 1001,
+                "end": 1027
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 986,
+            "end": 1028
           },
           {
             "type": "Literal",
-            "start": 1030,
-            "end": 1050,
             "value": "\"\\udf06𝌆\\udf06\"",
-            "raw": "'\"\\\\udf06𝌆\\\\udf06\"'"
+            "raw": "'\"\\\\udf06𝌆\\\\udf06\"'",
+            "start": 1030,
+            "end": 1050
           },
           {
             "type": "Literal",
-            "start": 1054,
-            "end": 1102,
             "value": "JSON.stringify(\"\\uDF06\\uD834\\uDF06\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\\\\uDF06\\\\uDF06\")'"
+            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\\\\uDF06\\\\uDF06\")'",
+            "start": 1054,
+            "end": 1102
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 969,
+        "end": 1103
+      },
+      "start": 969,
+      "end": 1104
     },
     {
       "type": "ExpressionStatement",
-      "start": 1106,
-      "end": 1213,
       "expression": {
         "type": "CallExpression",
-        "start": 1106,
-        "end": 1212,
         "callee": {
           "type": "MemberExpression",
-          "start": 1106,
-          "end": 1122,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1106,
-            "end": 1112,
-            "name": "assert"
+            "end": 1112
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1113,
-            "end": 1122,
-            "name": "sameValue"
+            "end": 1122
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1106,
+          "end": 1122
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1123,
-            "end": 1153,
             "callee": {
               "type": "MemberExpression",
-              "start": 1123,
-              "end": 1137,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 1123,
-                "end": 1127,
-                "name": "JSON"
+                "end": 1127
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 1128,
-                "end": 1137,
-                "name": "stringify"
+                "end": 1137
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1123,
+              "end": 1137
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1138,
-                "end": 1152,
                 "value": "\udf06\ud834",
-                "raw": "\"\\uDF06\\uD834\""
+                "raw": "\"\\uDF06\\uD834\"",
+                "start": 1138,
+                "end": 1152
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1123,
+            "end": 1153
           },
           {
             "type": "Literal",
-            "start": 1155,
-            "end": 1173,
             "value": "\"\\udf06\\ud834\"",
-            "raw": "'\"\\\\udf06\\\\ud834\"'"
+            "raw": "'\"\\\\udf06\\\\ud834\"'",
+            "start": 1155,
+            "end": 1173
           },
           {
             "type": "Literal",
-            "start": 1177,
-            "end": 1211,
             "value": "JSON.stringify(\"\\uDF06\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\")'"
+            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uD834\")'",
+            "start": 1177,
+            "end": 1211
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1106,
+        "end": 1212
+      },
+      "start": 1106,
+      "end": 1213
     },
     {
       "type": "ExpressionStatement",
-      "start": 1214,
-      "end": 1349,
       "expression": {
         "type": "CallExpression",
-        "start": 1214,
-        "end": 1348,
         "callee": {
           "type": "MemberExpression",
-          "start": 1214,
-          "end": 1230,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1214,
-            "end": 1220,
-            "name": "assert"
+            "end": 1220
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1221,
-            "end": 1230,
-            "name": "sameValue"
+            "end": 1230
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1214,
+          "end": 1230
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1231,
-            "end": 1273,
             "callee": {
               "type": "MemberExpression",
-              "start": 1231,
-              "end": 1245,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 1231,
-                "end": 1235,
-                "name": "JSON"
+                "end": 1235
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 1236,
-                "end": 1245,
-                "name": "stringify"
+                "end": 1245
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1231,
+              "end": 1245
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1246,
-                "end": 1272,
                 "value": "𝌆\ud834\ud834",
-                "raw": "\"\\uD834\\uDF06\\uD834\\uD834\""
+                "raw": "\"\\uD834\\uDF06\\uD834\\uD834\"",
+                "start": 1246,
+                "end": 1272
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1231,
+            "end": 1273
           },
           {
             "type": "Literal",
-            "start": 1275,
-            "end": 1295,
             "value": "\"𝌆\\ud834\\ud834\"",
-            "raw": "'\"𝌆\\\\ud834\\\\ud834\"'"
+            "raw": "'\"𝌆\\\\ud834\\\\ud834\"'",
+            "start": 1275,
+            "end": 1295
           },
           {
             "type": "Literal",
-            "start": 1299,
-            "end": 1347,
             "value": "JSON.stringify(\"\\uD834\\uDF06\\uD834\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\\\\uD834\\\\uD834\")'"
+            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\\\\uD834\\\\uD834\")'",
+            "start": 1299,
+            "end": 1347
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1214,
+        "end": 1348
+      },
+      "start": 1214,
+      "end": 1349
     },
     {
       "type": "ExpressionStatement",
-      "start": 1350,
-      "end": 1473,
       "expression": {
         "type": "CallExpression",
-        "start": 1350,
-        "end": 1472,
         "callee": {
           "type": "MemberExpression",
-          "start": 1350,
-          "end": 1366,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1350,
-            "end": 1356,
-            "name": "assert"
+            "end": 1356
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1357,
-            "end": 1366,
-            "name": "sameValue"
+            "end": 1366
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1350,
+          "end": 1366
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1367,
-            "end": 1409,
             "callee": {
               "type": "MemberExpression",
-              "start": 1367,
-              "end": 1381,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 1367,
-                "end": 1371,
-                "name": "JSON"
+                "end": 1371
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 1372,
-                "end": 1381,
-                "name": "stringify"
+                "end": 1381
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1367,
+              "end": 1381
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1382,
-                "end": 1408,
                 "value": "𝌆𝌆",
-                "raw": "\"\\uD834\\uDF06\\uD834\\uDF06\""
+                "raw": "\"\\uD834\\uDF06\\uD834\\uDF06\"",
+                "start": 1382,
+                "end": 1408
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1367,
+            "end": 1409
           },
           {
             "type": "Literal",
-            "start": 1411,
-            "end": 1419,
             "value": "\"𝌆𝌆\"",
-            "raw": "'\"𝌆𝌆\"'"
+            "raw": "'\"𝌆𝌆\"'",
+            "start": 1411,
+            "end": 1419
           },
           {
             "type": "Literal",
-            "start": 1423,
-            "end": 1471,
             "value": "JSON.stringify(\"\\uD834\\uDF06\\uD834\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\\\\uD834\\\\uDF06\")'"
+            "raw": "'JSON.stringify(\"\\\\uD834\\\\uDF06\\\\uD834\\\\uDF06\")'",
+            "start": 1423,
+            "end": 1471
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1350,
+        "end": 1472
+      },
+      "start": 1350,
+      "end": 1473
     },
     {
       "type": "ExpressionStatement",
-      "start": 1474,
-      "end": 1621,
       "expression": {
         "type": "CallExpression",
-        "start": 1474,
-        "end": 1620,
         "callee": {
           "type": "MemberExpression",
-          "start": 1474,
-          "end": 1490,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1474,
-            "end": 1480,
-            "name": "assert"
+            "end": 1480
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1481,
-            "end": 1490,
-            "name": "sameValue"
+            "end": 1490
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1474,
+          "end": 1490
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1491,
-            "end": 1533,
             "callee": {
               "type": "MemberExpression",
-              "start": 1491,
-              "end": 1505,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 1491,
-                "end": 1495,
-                "name": "JSON"
+                "end": 1495
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 1496,
-                "end": 1505,
-                "name": "stringify"
+                "end": 1505
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1491,
+              "end": 1505
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1506,
-                "end": 1532,
                 "value": "\udf06\udf06\ud834\ud834",
-                "raw": "\"\\uDF06\\uDF06\\uD834\\uD834\""
+                "raw": "\"\\uDF06\\uDF06\\uD834\\uD834\"",
+                "start": 1506,
+                "end": 1532
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1491,
+            "end": 1533
           },
           {
             "type": "Literal",
-            "start": 1535,
-            "end": 1567,
             "value": "\"\\udf06\\udf06\\ud834\\ud834\"",
-            "raw": "'\"\\\\udf06\\\\udf06\\\\ud834\\\\ud834\"'"
+            "raw": "'\"\\\\udf06\\\\udf06\\\\ud834\\\\ud834\"'",
+            "start": 1535,
+            "end": 1567
           },
           {
             "type": "Literal",
-            "start": 1571,
-            "end": 1619,
             "value": "JSON.stringify(\"\\uDF06\\uDF06\\uD834\\uD834\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uDF06\\\\uD834\\\\uD834\")'"
+            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uDF06\\\\uD834\\\\uD834\")'",
+            "start": 1571,
+            "end": 1619
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1474,
+        "end": 1620
+      },
+      "start": 1474,
+      "end": 1621
     },
     {
       "type": "ExpressionStatement",
-      "start": 1622,
-      "end": 1757,
       "expression": {
         "type": "CallExpression",
-        "start": 1622,
-        "end": 1756,
         "callee": {
           "type": "MemberExpression",
-          "start": 1622,
-          "end": 1638,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1622,
-            "end": 1628,
-            "name": "assert"
+            "end": 1628
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1629,
-            "end": 1638,
-            "name": "sameValue"
+            "end": 1638
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1622,
+          "end": 1638
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1639,
-            "end": 1681,
             "callee": {
               "type": "MemberExpression",
-              "start": 1639,
-              "end": 1653,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 1639,
-                "end": 1643,
-                "name": "JSON"
+                "end": 1643
               },
               "property": {
                 "type": "Identifier",
+                "name": "stringify",
                 "start": 1644,
-                "end": 1653,
-                "name": "stringify"
+                "end": 1653
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1639,
+              "end": 1653
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1654,
-                "end": 1680,
                 "value": "\udf06\udf06𝌆",
-                "raw": "\"\\uDF06\\uDF06\\uD834\\uDF06\""
+                "raw": "\"\\uDF06\\uDF06\\uD834\\uDF06\"",
+                "start": 1654,
+                "end": 1680
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1639,
+            "end": 1681
           },
           {
             "type": "Literal",
-            "start": 1683,
-            "end": 1703,
             "value": "\"\\udf06\\udf06𝌆\"",
-            "raw": "'\"\\\\udf06\\\\udf06𝌆\"'"
+            "raw": "'\"\\\\udf06\\\\udf06𝌆\"'",
+            "start": 1683,
+            "end": 1703
           },
           {
             "type": "Literal",
-            "start": 1707,
-            "end": 1755,
             "value": "JSON.stringify(\"\\uDF06\\uDF06\\uD834\\uDF06\")",
-            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uDF06\\\\uD834\\\\uDF06\")'"
+            "raw": "'JSON.stringify(\"\\\\uDF06\\\\uDF06\\\\uD834\\\\uDF06\")'",
+            "start": 1707,
+            "end": 1755
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1622,
+        "end": 1756
+      },
+      "start": 1622,
+      "end": 1757
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1758
 }

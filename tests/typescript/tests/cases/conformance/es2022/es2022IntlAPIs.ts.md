@@ -2,483 +2,483 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 138,
-  "end": 611,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 138,
-      "end": 247,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 144,
-          "end": 246,
           "id": {
             "type": "Identifier",
-            "start": 144,
-            "end": 157,
             "decorators": [],
             "name": "timezoneNames",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 144,
+            "end": 157
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 160,
-            "end": 246,
             "expression": {
               "type": "ArrayExpression",
-              "start": 160,
-              "end": 237,
               "elements": [
                 {
                   "type": "Literal",
-                  "start": 161,
-                  "end": 168,
                   "value": "short",
-                  "raw": "'short'"
+                  "raw": "'short'",
+                  "start": 161,
+                  "end": 168
                 },
                 {
                   "type": "Literal",
-                  "start": 170,
-                  "end": 176,
                   "value": "long",
-                  "raw": "'long'"
+                  "raw": "'long'",
+                  "start": 170,
+                  "end": 176
                 },
                 {
                   "type": "Literal",
-                  "start": 178,
-                  "end": 191,
                   "value": "shortOffset",
-                  "raw": "'shortOffset'"
+                  "raw": "'shortOffset'",
+                  "start": 178,
+                  "end": 191
                 },
                 {
                   "type": "Literal",
-                  "start": 193,
-                  "end": 205,
                   "value": "longOffset",
-                  "raw": "'longOffset'"
+                  "raw": "'longOffset'",
+                  "start": 193,
+                  "end": 205
                 },
                 {
                   "type": "Literal",
-                  "start": 207,
-                  "end": 221,
                   "value": "shortGeneric",
-                  "raw": "'shortGeneric'"
+                  "raw": "'shortGeneric'",
+                  "start": 207,
+                  "end": 221
                 },
                 {
                   "type": "Literal",
-                  "start": 223,
-                  "end": 236,
                   "value": "longGeneric",
-                  "raw": "'longGeneric'"
+                  "raw": "'longGeneric'",
+                  "start": 223,
+                  "end": 236
                 }
-              ]
+              ],
+              "start": 160,
+              "end": 237
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 241,
-              "end": 246,
               "typeName": {
                 "type": "Identifier",
-                "start": 241,
-                "end": 246,
                 "decorators": [],
                 "name": "const",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 241,
+                "end": 246
               },
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "start": 241,
+              "end": 246
+            },
+            "start": 160,
+            "end": 246
           },
-          "definite": false
+          "definite": false,
+          "start": 144,
+          "end": 246
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 138,
+      "end": 247
     },
     {
       "type": "ForOfStatement",
-      "start": 248,
-      "end": 413,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 253,
-        "end": 267,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 259,
-            "end": 267,
             "id": {
               "type": "Identifier",
-              "start": 259,
-              "end": 267,
               "decorators": [],
               "name": "zoneName",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 259,
+              "end": 267
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 259,
+            "end": 267
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 253,
+        "end": 267
       },
       "right": {
         "type": "Identifier",
-        "start": 271,
-        "end": 284,
         "decorators": [],
         "name": "timezoneNames",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 271,
+        "end": 284
       },
       "body": {
         "type": "BlockStatement",
-        "start": 286,
-        "end": 413,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 290,
-            "end": 411,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 294,
-                "end": 410,
                 "id": {
                   "type": "Identifier",
-                  "start": 294,
-                  "end": 303,
                   "decorators": [],
                   "name": "formatter",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 294,
+                  "end": 303
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 306,
-                  "end": 410,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 310,
-                    "end": 329,
                     "object": {
                       "type": "Identifier",
-                      "start": 310,
-                      "end": 314,
                       "decorators": [],
                       "name": "Intl",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 310,
+                      "end": 314
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 315,
-                      "end": 329,
                       "decorators": [],
                       "name": "DateTimeFormat",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 315,
+                      "end": 329
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 310,
+                    "end": 329
                   },
                   "typeArguments": null,
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 330,
-                      "end": 337,
                       "value": "en-US",
-                      "raw": "'en-US'"
+                      "raw": "'en-US'",
+                      "start": 330,
+                      "end": 337
                     },
                     {
                       "type": "ObjectExpression",
-                      "start": 339,
-                      "end": 409,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 345,
-                          "end": 376,
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
-                            "start": 345,
-                            "end": 353,
                             "decorators": [],
                             "name": "timeZone",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 345,
+                            "end": 353
                           },
                           "value": {
                             "type": "Literal",
-                            "start": 355,
-                            "end": 376,
                             "value": "America/Los_Angeles",
-                            "raw": "'America/Los_Angeles'"
+                            "raw": "'America/Los_Angeles'",
+                            "start": 355,
+                            "end": 376
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "start": 345,
+                          "end": 376
                         },
                         {
                           "type": "Property",
-                          "start": 382,
-                          "end": 404,
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
-                            "start": 382,
-                            "end": 394,
                             "decorators": [],
                             "name": "timeZoneName",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 382,
+                            "end": 394
                           },
                           "value": {
                             "type": "Identifier",
-                            "start": 396,
-                            "end": 404,
                             "decorators": [],
                             "name": "zoneName",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 396,
+                            "end": 404
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "start": 382,
+                          "end": 404
                         }
-                      ]
+                      ],
+                      "start": 339,
+                      "end": 409
                     }
-                  ]
+                  ],
+                  "start": 306,
+                  "end": 410
                 },
-                "definite": false
+                "definite": false,
+                "start": 294,
+                "end": 410
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 290,
+            "end": 411
           }
-        ]
-      }
+        ],
+        "start": 286,
+        "end": 413
+      },
+      "start": 248,
+      "end": 413
     },
     {
       "type": "VariableDeclaration",
-      "start": 415,
-      "end": 525,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 421,
-          "end": 524,
           "id": {
             "type": "Identifier",
-            "start": 421,
-            "end": 436,
             "decorators": [],
             "name": "enumerationKeys",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 421,
+            "end": 436
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 439,
-            "end": 524,
             "expression": {
               "type": "ArrayExpression",
-              "start": 439,
-              "end": 515,
               "elements": [
                 {
                   "type": "Literal",
-                  "start": 440,
-                  "end": 450,
                   "value": "calendar",
-                  "raw": "'calendar'"
+                  "raw": "'calendar'",
+                  "start": 440,
+                  "end": 450
                 },
                 {
                   "type": "Literal",
-                  "start": 452,
-                  "end": 463,
                   "value": "collation",
-                  "raw": "'collation'"
+                  "raw": "'collation'",
+                  "start": 452,
+                  "end": 463
                 },
                 {
                   "type": "Literal",
-                  "start": 465,
-                  "end": 475,
                   "value": "currency",
-                  "raw": "'currency'"
+                  "raw": "'currency'",
+                  "start": 465,
+                  "end": 475
                 },
                 {
                   "type": "Literal",
-                  "start": 477,
-                  "end": 494,
                   "value": "numberingSystem",
-                  "raw": "'numberingSystem'"
+                  "raw": "'numberingSystem'",
+                  "start": 477,
+                  "end": 494
                 },
                 {
                   "type": "Literal",
-                  "start": 496,
-                  "end": 506,
                   "value": "timeZone",
-                  "raw": "'timeZone'"
+                  "raw": "'timeZone'",
+                  "start": 496,
+                  "end": 506
                 },
                 {
                   "type": "Literal",
-                  "start": 508,
-                  "end": 514,
                   "value": "unit",
-                  "raw": "'unit'"
+                  "raw": "'unit'",
+                  "start": 508,
+                  "end": 514
                 }
-              ]
+              ],
+              "start": 439,
+              "end": 515
             },
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 519,
-              "end": 524,
               "typeName": {
                 "type": "Identifier",
-                "start": 519,
-                "end": 524,
                 "decorators": [],
                 "name": "const",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 519,
+                "end": 524
               },
-              "typeArguments": null
-            }
+              "typeArguments": null,
+              "start": 519,
+              "end": 524
+            },
+            "start": 439,
+            "end": 524
           },
-          "definite": false
+          "definite": false,
+          "start": 421,
+          "end": 524
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 415,
+      "end": 525
     },
     {
       "type": "ForOfStatement",
-      "start": 526,
-      "end": 611,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 531,
-        "end": 540,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 537,
-            "end": 540,
             "id": {
               "type": "Identifier",
-              "start": 537,
-              "end": 540,
               "decorators": [],
               "name": "key",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 537,
+              "end": 540
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 537,
+            "end": 540
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 531,
+        "end": 540
       },
       "right": {
         "type": "Identifier",
-        "start": 544,
-        "end": 559,
         "decorators": [],
         "name": "enumerationKeys",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 544,
+        "end": 559
       },
       "body": {
         "type": "BlockStatement",
-        "start": 561,
-        "end": 611,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 565,
-            "end": 609,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 569,
-                "end": 608,
                 "id": {
                   "type": "Identifier",
-                  "start": 569,
-                  "end": 578,
                   "decorators": [],
                   "name": "supported",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 569,
+                  "end": 578
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 581,
-                  "end": 608,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 581,
-                    "end": 603,
                     "object": {
                       "type": "Identifier",
-                      "start": 581,
-                      "end": 585,
                       "decorators": [],
                       "name": "Intl",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 581,
+                      "end": 585
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 586,
-                      "end": 603,
                       "decorators": [],
                       "name": "supportedValuesOf",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 586,
+                      "end": 603
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 581,
+                    "end": 603
                   },
                   "typeArguments": null,
                   "arguments": [
                     {
                       "type": "Identifier",
-                      "start": 604,
-                      "end": 607,
                       "decorators": [],
                       "name": "key",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 604,
+                      "end": 607
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 581,
+                  "end": 608
                 },
-                "definite": false
+                "definite": false,
+                "start": 569,
+                "end": 608
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 565,
+            "end": 609
           }
-        ]
-      }
+        ],
+        "start": 561,
+        "end": 611
+      },
+      "start": 526,
+      "end": 611
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 138,
+  "end": 611
 }
 ```

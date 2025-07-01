@@ -1,74 +1,74 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 945,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 707,
-      "end": 944,
       "expression": {
         "type": "CallExpression",
-        "start": 707,
-        "end": 943,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 707,
-          "end": 711,
-          "name": "eval"
+          "end": 711
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 715,
-            "end": 941,
             "left": {
               "type": "BinaryExpression",
-              "start": 715,
-              "end": 859,
               "left": {
                 "type": "BinaryExpression",
-                "start": 715,
-                "end": 831,
                 "left": {
                   "type": "Literal",
-                  "start": 715,
-                  "end": 815,
                   "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {",
-                  "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {'"
+                  "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {'",
+                  "start": 715,
+                  "end": 815
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 820,
-                  "end": 831,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
-                }
+                  "raw": "'  case 1:'",
+                  "start": 820,
+                  "end": 831
+                },
+                "start": 715,
+                "end": 831
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 836,
-                "end": 859,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
-              }
+                "raw": "'    function f() {  }'",
+                "start": 836,
+                "end": 859
+              },
+              "start": 715,
+              "end": 859
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 864,
-              "end": 941,
               "value": "}  assert.sameValue(f, 123, \"value is not updated following evaluation\");",
-              "raw": "'}\\\n  assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
-            }
+              "raw": "'}\\\n  assert.sameValue(f, 123, \"value is not updated following evaluation\");'",
+              "start": 864,
+              "end": 941
+            },
+            "start": 715,
+            "end": 941
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 707,
+        "end": 943
+      },
+      "start": 707,
+      "end": 944
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 945
 }

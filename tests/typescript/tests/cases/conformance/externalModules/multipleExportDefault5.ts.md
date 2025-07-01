@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 59,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 33,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 15,
-        "end": 33,
         "id": {
           "type": "Identifier",
-          "start": 24,
-          "end": 27,
           "decorators": [],
           "name": "bar",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 24,
+          "end": 27
         },
         "generator": false,
         "async": false,
@@ -30,31 +24,31 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 30,
-          "end": 33,
-          "body": []
+          "end": 33
         },
-        "expression": false
+        "expression": false,
+        "start": 15,
+        "end": 33
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 33
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 34,
-      "end": 59,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 49,
-        "end": 59,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 55,
-          "end": 56,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 55,
+          "end": 56
         },
         "typeParameters": null,
         "superClass": null,
@@ -62,17 +56,23 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 57,
-          "end": 59,
-          "body": []
+          "end": 59
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 49,
+        "end": 59
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 34,
+      "end": 59
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 59
 }
 ```

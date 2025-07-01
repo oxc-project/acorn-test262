@@ -1,94 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 474,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 330,
-      "end": 374,
       "expression": {
         "type": "CallExpression",
-        "start": 330,
-        "end": 373,
         "callee": {
           "type": "MemberExpression",
-          "start": 330,
-          "end": 367,
           "object": {
             "type": "CallExpression",
-            "start": 330,
-            "end": 362,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 330,
-              "end": 338,
-              "name": "Function"
+              "end": 338
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 339,
-                "end": 361,
                 "value": "this.field=\"green\"",
-                "raw": "\"this.field=\\\"green\\\"\""
+                "raw": "\"this.field=\\\"green\\\"\"",
+                "start": 339,
+                "end": 361
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 330,
+            "end": 362
           },
           "property": {
             "type": "Identifier",
+            "name": "call",
             "start": 363,
-            "end": 367,
-            "name": "call"
+            "end": 367
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 330,
+          "end": 367
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 368,
-            "end": 372,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 368,
+            "end": 372
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 330,
+        "end": 373
+      },
+      "start": 330,
+      "end": 374
     },
     {
       "type": "ExpressionStatement",
-      "start": 376,
-      "end": 473,
       "expression": {
         "type": "CallExpression",
-        "start": 376,
-        "end": 472,
         "callee": {
           "type": "MemberExpression",
-          "start": 376,
-          "end": 392,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 376,
-            "end": 382,
-            "name": "assert"
+            "end": 382
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 383,
-            "end": 392,
-            "name": "sameValue"
+            "end": 392
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 376,
+          "end": 392
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 393,
-            "end": 406,
             "object": {
               "type": "ThisExpression",
               "start": 393,
@@ -96,33 +88,41 @@
             },
             "property": {
               "type": "Literal",
-              "start": 398,
-              "end": 405,
               "value": "field",
-              "raw": "\"field\""
+              "raw": "\"field\"",
+              "start": 398,
+              "end": 405
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 393,
+            "end": 406
           },
           {
             "type": "Literal",
-            "start": 408,
-            "end": 415,
             "value": "green",
-            "raw": "\"green\""
+            "raw": "\"green\"",
+            "start": 408,
+            "end": 415
           },
           {
             "type": "Literal",
-            "start": 417,
-            "end": 471,
             "value": "The value of this[\"field\"] is expected to be \"green\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"green\"'"
+            "raw": "'The value of this[\"field\"] is expected to be \"green\"'",
+            "start": 417,
+            "end": 471
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 376,
+        "end": 472
+      },
+      "start": 376,
+      "end": 473
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 474
 }

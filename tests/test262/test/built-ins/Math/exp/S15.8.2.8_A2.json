@@ -1,121 +1,121 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 330,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 254,
-      "end": 265,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 258,
-          "end": 264,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 258,
-            "end": 259,
-            "name": "x"
+            "end": 259
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 262,
-            "end": 264,
             "operator": "+",
             "argument": {
               "type": "Literal",
-              "start": 263,
-              "end": 264,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 263,
+              "end": 264
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 262,
+            "end": 264
+          },
+          "start": 258,
+          "end": 264
         }
-      ]
+      ],
+      "start": 254,
+      "end": 265
     },
     {
       "type": "ExpressionStatement",
-      "start": 266,
-      "end": 329,
       "expression": {
         "type": "CallExpression",
-        "start": 266,
-        "end": 328,
         "callee": {
           "type": "MemberExpression",
-          "start": 266,
-          "end": 282,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 266,
-            "end": 272,
-            "name": "assert"
+            "end": 272
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 273,
-            "end": 282,
-            "name": "sameValue"
+            "end": 282
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 266,
+          "end": 282
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 283,
-            "end": 294,
             "callee": {
               "type": "MemberExpression",
-              "start": 283,
-              "end": 291,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 283,
-                "end": 287,
-                "name": "Math"
+                "end": 287
               },
               "property": {
                 "type": "Identifier",
+                "name": "exp",
                 "start": 288,
-                "end": 291,
-                "name": "exp"
+                "end": 291
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 283,
+              "end": 291
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "x",
                 "start": 292,
-                "end": 293,
-                "name": "x"
+                "end": 293
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 283,
+            "end": 294
           },
           {
             "type": "Literal",
-            "start": 296,
-            "end": 297,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 296,
+            "end": 297
           },
           {
             "type": "Literal",
-            "start": 299,
-            "end": 327,
             "value": "Math.exp(+0) must return 1",
-            "raw": "'Math.exp(+0) must return 1'"
+            "raw": "'Math.exp(+0) must return 1'",
+            "start": 299,
+            "end": 327
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 266,
+        "end": 328
+      },
+      "start": 266,
+      "end": 329
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 330
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 948,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 56,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 11,
         "decorators": [],
         "name": "Doing",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 11
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 12,
-        "end": 56,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 18,
-            "end": 54,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 32,
-              "end": 44,
               "decorators": [],
               "name": "staticMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 32,
+              "end": 44
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 44,
-              "end": 54,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,73 +45,73 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 47,
-                "end": 54,
-                "body": []
+                "end": 54
               },
-              "expression": false
+              "expression": false,
+              "start": 44,
+              "end": 54
             },
             "kind": "method",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 18,
+            "end": 54
           }
-        ]
+        ],
+        "start": 12,
+        "end": 56
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 56
     },
     {
       "type": "ClassDeclaration",
-      "start": 58,
-      "end": 948,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 64,
-        "end": 69,
         "decorators": [],
         "name": "Other",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 64,
+        "end": 69
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 78,
-        "end": 83,
         "decorators": [],
         "name": "Doing",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 78,
+        "end": 83
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 84,
-        "end": 948,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 114,
-            "end": 180,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 128,
-              "end": 140,
               "decorators": [],
               "name": "staticMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 128,
+              "end": 140
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 140,
-              "end": 180,
               "id": null,
               "generator": false,
               "async": false,
@@ -131,21 +121,13 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 143,
-                "end": 180,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 153,
-                    "end": 174,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 153,
-                      "end": 173,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 153,
-                        "end": 171,
                         "object": {
                           "type": "Super",
                           "start": 153,
@@ -153,51 +135,59 @@ __ESTREE_TEST__:PASS:
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 159,
-                          "end": 171,
                           "decorators": [],
                           "name": "staticMethod",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 159,
+                          "end": 171
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 153,
+                        "end": 171
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 153,
+                      "end": 173
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 153,
+                    "end": 174
                   }
-                ]
+                ],
+                "start": 143,
+                "end": 180
               },
-              "expression": false
+              "expression": false,
+              "start": 140,
+              "end": 180
             },
             "kind": "method",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 114,
+            "end": 180
           },
           {
             "type": "MethodDefinition",
-            "start": 228,
-            "end": 337,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 242,
-              "end": 267,
               "decorators": [],
               "name": "lambdaInsideAStaticMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 242,
+              "end": 267
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 267,
-              "end": 337,
               "id": null,
               "generator": false,
               "async": false,
@@ -207,17 +197,11 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 270,
-                "end": 337,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 280,
-                    "end": 331,
                     "expression": {
                       "type": "ArrowFunctionExpression",
-                      "start": 280,
-                      "end": 331,
                       "expression": false,
                       "async": false,
                       "typeParameters": null,
@@ -225,21 +209,13 @@ __ESTREE_TEST__:PASS:
                       "returnType": null,
                       "body": {
                         "type": "BlockStatement",
-                        "start": 286,
-                        "end": 331,
                         "body": [
                           {
                             "type": "ExpressionStatement",
-                            "start": 300,
-                            "end": 321,
                             "expression": {
                               "type": "CallExpression",
-                              "start": 300,
-                              "end": 320,
                               "callee": {
                                 "type": "MemberExpression",
-                                "start": 300,
-                                "end": 318,
                                 "object": {
                                   "type": "Super",
                                   "start": 300,
@@ -247,58 +223,72 @@ __ESTREE_TEST__:PASS:
                                 },
                                 "property": {
                                   "type": "Identifier",
-                                  "start": 306,
-                                  "end": 318,
                                   "decorators": [],
                                   "name": "staticMethod",
                                   "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "start": 306,
+                                  "end": 318
                                 },
                                 "optional": false,
-                                "computed": false
+                                "computed": false,
+                                "start": 300,
+                                "end": 318
                               },
                               "typeArguments": null,
                               "arguments": [],
-                              "optional": false
+                              "optional": false,
+                              "start": 300,
+                              "end": 320
                             },
-                            "directive": null
+                            "directive": null,
+                            "start": 300,
+                            "end": 321
                           }
-                        ]
+                        ],
+                        "start": 286,
+                        "end": 331
                       },
                       "id": null,
-                      "generator": false
+                      "generator": false,
+                      "start": 280,
+                      "end": 331
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 280,
+                    "end": 331
                   }
-                ]
+                ],
+                "start": 270,
+                "end": 337
               },
-              "expression": false
+              "expression": false,
+              "start": 267,
+              "end": 337
             },
             "kind": "method",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 228,
+            "end": 337
           },
           {
             "type": "MethodDefinition",
-            "start": 394,
-            "end": 590,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 408,
-              "end": 440,
               "decorators": [],
               "name": "objectLiteralInsideAStaticMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 408,
+              "end": 440
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 440,
-              "end": 590,
               "id": null,
               "generator": false,
               "async": false,
@@ -308,36 +298,26 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 443,
-                "end": 590,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 453,
-                    "end": 584,
                     "argument": {
                       "type": "ObjectExpression",
-                      "start": 460,
-                      "end": 583,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 474,
-                          "end": 536,
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
-                            "start": 474,
-                            "end": 475,
                             "decorators": [],
                             "name": "a",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 474,
+                            "end": 475
                           },
                           "value": {
                             "type": "ArrowFunctionExpression",
-                            "start": 477,
-                            "end": 536,
                             "expression": false,
                             "async": false,
                             "typeParameters": null,
@@ -345,21 +325,13 @@ __ESTREE_TEST__:PASS:
                             "returnType": null,
                             "body": {
                               "type": "BlockStatement",
-                              "start": 483,
-                              "end": 536,
                               "body": [
                                 {
                                   "type": "ExpressionStatement",
-                                  "start": 501,
-                                  "end": 522,
                                   "expression": {
                                     "type": "CallExpression",
-                                    "start": 501,
-                                    "end": 521,
                                     "callee": {
                                       "type": "MemberExpression",
-                                      "start": 501,
-                                      "end": 519,
                                       "object": {
                                         "type": "Super",
                                         "start": 501,
@@ -367,54 +339,60 @@ __ESTREE_TEST__:PASS:
                                       },
                                       "property": {
                                         "type": "Identifier",
-                                        "start": 507,
-                                        "end": 519,
                                         "decorators": [],
                                         "name": "staticMethod",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 507,
+                                        "end": 519
                                       },
                                       "optional": false,
-                                      "computed": false
+                                      "computed": false,
+                                      "start": 501,
+                                      "end": 519
                                     },
                                     "typeArguments": null,
                                     "arguments": [],
-                                    "optional": false
+                                    "optional": false,
+                                    "start": 501,
+                                    "end": 521
                                   },
-                                  "directive": null
+                                  "directive": null,
+                                  "start": 501,
+                                  "end": 522
                                 }
-                              ]
+                              ],
+                              "start": 483,
+                              "end": 536
                             },
                             "id": null,
-                            "generator": false
+                            "generator": false,
+                            "start": 477,
+                            "end": 536
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "start": 474,
+                          "end": 536
                         },
                         {
                           "type": "Property",
-                          "start": 550,
-                          "end": 573,
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
-                            "start": 550,
-                            "end": 551,
                             "decorators": [],
                             "name": "b",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 550,
+                            "end": 551
                           },
                           "value": {
                             "type": "CallExpression",
-                            "start": 553,
-                            "end": 573,
                             "callee": {
                               "type": "MemberExpression",
-                              "start": 553,
-                              "end": 571,
                               "object": {
                                 "type": "Super",
                                 "start": 553,
@@ -422,57 +400,69 @@ __ESTREE_TEST__:PASS:
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 559,
-                                "end": 571,
                                 "decorators": [],
                                 "name": "staticMethod",
                                 "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "start": 559,
+                                "end": 571
                               },
                               "optional": false,
-                              "computed": false
+                              "computed": false,
+                              "start": 553,
+                              "end": 571
                             },
                             "typeArguments": null,
                             "arguments": [],
-                            "optional": false
+                            "optional": false,
+                            "start": 553,
+                            "end": 573
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "start": 550,
+                          "end": 573
                         }
-                      ]
-                    }
+                      ],
+                      "start": 460,
+                      "end": 583
+                    },
+                    "start": 453,
+                    "end": 584
                   }
-                ]
+                ],
+                "start": 443,
+                "end": 590
               },
-              "expression": false
+              "expression": false,
+              "start": 440,
+              "end": 590
             },
             "kind": "method",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 394,
+            "end": 590
           },
           {
             "type": "MethodDefinition",
-            "start": 615,
-            "end": 704,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 633,
-              "end": 645,
               "decorators": [],
               "name": "staticGetter",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 633,
+              "end": 645
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 645,
-              "end": 704,
               "id": null,
               "generator": false,
               "async": false,
@@ -482,21 +472,13 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 648,
-                "end": 704,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 658,
-                    "end": 679,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 658,
-                      "end": 678,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 658,
-                        "end": 676,
                         "object": {
                           "type": "Super",
                           "start": 658,
@@ -504,63 +486,71 @@ __ESTREE_TEST__:PASS:
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 664,
-                          "end": 676,
                           "decorators": [],
                           "name": "staticMethod",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 664,
+                          "end": 676
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 658,
+                        "end": 676
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 658,
+                      "end": 678
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 658,
+                    "end": 679
                   },
                   {
                     "type": "ReturnStatement",
-                    "start": 689,
-                    "end": 698,
                     "argument": {
                       "type": "Literal",
-                      "start": 696,
-                      "end": 697,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 696,
+                      "end": 697
+                    },
+                    "start": 689,
+                    "end": 698
                   }
-                ]
+                ],
+                "start": 648,
+                "end": 704
               },
-              "expression": false
+              "expression": false,
+              "start": 645,
+              "end": 704
             },
             "kind": "get",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 615,
+            "end": 704
           },
           {
             "type": "MethodDefinition",
-            "start": 729,
-            "end": 812,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 747,
-              "end": 759,
               "decorators": [],
               "name": "staticGetter",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 747,
+              "end": 759
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 759,
-              "end": 812,
               "id": null,
               "generator": false,
               "async": false,
@@ -569,41 +559,33 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 760,
-                  "end": 773,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 765,
-                    "end": 773,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 767,
                       "end": 773
-                    }
-                  }
+                    },
+                    "start": 765,
+                    "end": 773
+                  },
+                  "start": 760,
+                  "end": 773
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 775,
-                "end": 812,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 785,
-                    "end": 806,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 785,
-                      "end": 805,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 785,
-                        "end": 803,
                         "object": {
                           "type": "Super",
                           "start": 785,
@@ -611,51 +593,59 @@ __ESTREE_TEST__:PASS:
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 791,
-                          "end": 803,
                           "decorators": [],
                           "name": "staticMethod",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 791,
+                          "end": 803
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 785,
+                        "end": 803
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 785,
+                      "end": 805
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 785,
+                    "end": 806
                   }
-                ]
+                ],
+                "start": 775,
+                "end": 812
               },
-              "expression": false
+              "expression": false,
+              "start": 759,
+              "end": 812
             },
             "kind": "set",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 729,
+            "end": 812
           },
           {
             "type": "MethodDefinition",
-            "start": 842,
-            "end": 946,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 856,
-              "end": 882,
               "decorators": [],
               "name": "initializerInAStaticMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 856,
+              "end": 882
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 882,
-              "end": 946,
               "id": null,
               "generator": false,
               "async": false,
@@ -664,26 +654,20 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "AssignmentPattern",
-                  "start": 883,
-                  "end": 907,
                   "decorators": [],
                   "left": {
                     "type": "Identifier",
-                    "start": 883,
-                    "end": 884,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 883,
+                    "end": 884
                   },
                   "right": {
                     "type": "CallExpression",
-                    "start": 887,
-                    "end": 907,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 887,
-                      "end": 905,
                       "object": {
                         "type": "Super",
                         "start": 887,
@@ -691,42 +675,40 @@ __ESTREE_TEST__:PASS:
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 893,
-                        "end": 905,
                         "decorators": [],
                         "name": "staticMethod",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 893,
+                        "end": 905
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 887,
+                      "end": 905
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "optional": false
+                    "optional": false,
+                    "start": 887,
+                    "end": 907
                   },
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 883,
+                  "end": 907
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 909,
-                "end": 946,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 919,
-                    "end": 940,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 919,
-                      "end": 939,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 919,
-                        "end": 937,
                         "object": {
                           "type": "Super",
                           "start": 919,
@@ -734,40 +716,58 @@ __ESTREE_TEST__:PASS:
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 925,
-                          "end": 937,
                           "decorators": [],
                           "name": "staticMethod",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 925,
+                          "end": 937
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 919,
+                        "end": 937
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 919,
+                      "end": 939
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 919,
+                    "end": 940
                   }
-                ]
+                ],
+                "start": 909,
+                "end": 946
               },
-              "expression": false
+              "expression": false,
+              "start": 882,
+              "end": 946
             },
             "kind": "method",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 842,
+            "end": 946
           }
-        ]
+        ],
+        "start": 84,
+        "end": 948
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 58,
+      "end": 948
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 948
 }
 ```

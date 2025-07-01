@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 174,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 174,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 19,
         "decorators": [],
         "name": "test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 19
       },
       "generator": false,
       "async": true,
@@ -25,161 +21,165 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 20,
-          "end": 44,
           "decorators": [],
           "left": {
             "type": "Identifier",
-            "start": 20,
-            "end": 36,
             "decorators": [],
             "name": "isError",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 27,
-              "end": 36,
               "typeAnnotation": {
                 "type": "TSBooleanKeyword",
                 "start": 29,
                 "end": 36
-              }
-            }
+              },
+              "start": 27,
+              "end": 36
+            },
+            "start": 20,
+            "end": 36
           },
           "right": {
             "type": "Literal",
-            "start": 39,
-            "end": 44,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 39,
+            "end": 44
           },
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 20,
+          "end": 44
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 46,
-        "end": 174,
         "body": [
           {
             "type": "IfStatement",
-            "start": 52,
-            "end": 97,
             "test": {
               "type": "BinaryExpression",
-              "start": 56,
-              "end": 72,
               "left": {
                 "type": "Identifier",
-                "start": 56,
-                "end": 63,
                 "decorators": [],
                 "name": "isError",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 56,
+                "end": 63
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 68,
-                "end": 72,
                 "value": true,
-                "raw": "true"
-              }
+                "raw": "true",
+                "start": 68,
+                "end": 72
+              },
+              "start": 56,
+              "end": 72
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 74,
-              "end": 97,
               "body": [
                 {
                   "type": "ReturnStatement",
+                  "argument": null,
                   "start": 84,
-                  "end": 91,
-                  "argument": null
+                  "end": 91
                 }
-              ]
+              ],
+              "start": 74,
+              "end": 97
             },
-            "alternate": null
+            "alternate": null,
+            "start": 52,
+            "end": 97
           },
           {
             "type": "VariableDeclaration",
-            "start": 102,
-            "end": 172,
             "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 106,
-                "end": 171,
                 "id": {
                   "type": "Identifier",
-                  "start": 106,
-                  "end": 107,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 106,
+                  "end": 107
                 },
                 "init": {
                   "type": "AwaitExpression",
-                  "start": 110,
-                  "end": 171,
                   "argument": {
                     "type": "CallExpression",
-                    "start": 116,
-                    "end": 171,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 116,
-                      "end": 131,
                       "object": {
                         "type": "Identifier",
-                        "start": 116,
-                        "end": 123,
                         "decorators": [],
                         "name": "Promise",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 116,
+                        "end": 123
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 124,
-                        "end": 131,
                         "decorators": [],
                         "name": "resolve",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 124,
+                        "end": 131
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 116,
+                      "end": 131
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 132,
-                        "end": 170,
                         "value": "The test is passed without an error.",
-                        "raw": "\"The test is passed without an error.\""
+                        "raw": "\"The test is passed without an error.\"",
+                        "start": 132,
+                        "end": 170
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 116,
+                    "end": 171
+                  },
+                  "start": 110,
+                  "end": 171
                 },
-                "definite": false
+                "definite": false,
+                "start": 106,
+                "end": 171
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 102,
+            "end": 172
           }
-        ]
+        ],
+        "start": 46,
+        "end": 174
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 174
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 174
 }
 ```

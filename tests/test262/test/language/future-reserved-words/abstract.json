@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 365,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 347,
-      "end": 364,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 351,
-          "end": 363,
           "id": {
             "type": "Identifier",
+            "name": "abstract",
             "start": 351,
-            "end": 359,
-            "name": "abstract"
+            "end": 359
           },
           "init": {
             "type": "Literal",
-            "start": 362,
-            "end": 363,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 362,
+            "end": 363
+          },
+          "start": 351,
+          "end": 363
         }
-      ]
+      ],
+      "start": 347,
+      "end": 364
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 365
 }

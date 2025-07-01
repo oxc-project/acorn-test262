@@ -1,132 +1,132 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 939,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 747,
-      "end": 814,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 751,
-          "end": 813,
           "id": {
             "type": "Identifier",
+            "name": "AsyncFunction",
             "start": 751,
-            "end": 764,
-            "name": "AsyncFunction"
+            "end": 764
           },
           "init": {
             "type": "CallExpression",
-            "start": 767,
-            "end": 813,
             "callee": {
               "type": "Identifier",
+              "name": "getWellKnownIntrinsicObject",
               "start": 767,
-              "end": 794,
-              "name": "getWellKnownIntrinsicObject"
+              "end": 794
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 795,
-                "end": 812,
                 "value": "%AsyncFunction%",
-                "raw": "'%AsyncFunction%'"
+                "raw": "'%AsyncFunction%'",
+                "start": 795,
+                "end": 812
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 767,
+            "end": 813
+          },
+          "start": 751,
+          "end": 813
         }
-      ]
+      ],
+      "start": 747,
+      "end": 814
     },
     {
       "type": "ExpressionStatement",
-      "start": 815,
-      "end": 917,
       "expression": {
         "type": "CallExpression",
-        "start": 815,
-        "end": 916,
         "callee": {
           "type": "MemberExpression",
-          "start": 815,
-          "end": 831,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 815,
-            "end": 821,
-            "name": "assert"
+            "end": 821
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 822,
-            "end": 831,
-            "name": "sameValue"
+            "end": 831
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 815,
+          "end": 831
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 832,
-            "end": 860,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 832,
-              "end": 845,
-              "name": "isConstructor"
+              "end": 845
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "AsyncFunction",
                 "start": 846,
-                "end": 859,
-                "name": "AsyncFunction"
+                "end": 859
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 832,
+            "end": 860
           },
           {
             "type": "Literal",
-            "start": 862,
-            "end": 866,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 862,
+            "end": 866
           },
           {
             "type": "Literal",
-            "start": 868,
-            "end": 915,
             "value": "isConstructor(AsyncFunction) must return true",
-            "raw": "'isConstructor(AsyncFunction) must return true'"
+            "raw": "'isConstructor(AsyncFunction) must return true'",
+            "start": 868,
+            "end": 915
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 815,
+        "end": 916
+      },
+      "start": 815,
+      "end": 917
     },
     {
       "type": "ExpressionStatement",
-      "start": 918,
-      "end": 938,
       "expression": {
         "type": "NewExpression",
-        "start": 918,
-        "end": 937,
         "callee": {
           "type": "Identifier",
+          "name": "AsyncFunction",
           "start": 922,
-          "end": 935,
-          "name": "AsyncFunction"
+          "end": 935
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 918,
+        "end": 937
+      },
+      "start": 918,
+      "end": 938
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 939
 }

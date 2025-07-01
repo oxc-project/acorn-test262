@@ -1,177 +1,177 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 385,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 234,
-      "end": 253,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 238,
-          "end": 252,
           "id": {
             "type": "Identifier",
+            "name": "sym",
             "start": 238,
-            "end": 241,
-            "name": "sym"
+            "end": 241
           },
           "init": {
             "type": "CallExpression",
-            "start": 244,
-            "end": 252,
             "callee": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 244,
-              "end": 250,
-              "name": "Symbol"
+              "end": 250
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 244,
+            "end": 252
+          },
+          "start": 238,
+          "end": 252
         }
-      ]
+      ],
+      "start": 234,
+      "end": 253
     },
     {
       "type": "ExpressionStatement",
-      "start": 255,
-      "end": 320,
       "expression": {
         "type": "CallExpression",
-        "start": 255,
-        "end": 319,
         "callee": {
           "type": "MemberExpression",
-          "start": 255,
-          "end": 271,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 255,
-            "end": 261,
-            "name": "assert"
+            "end": 261
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 262,
-            "end": 271,
-            "name": "sameValue"
+            "end": 271
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 255,
+          "end": 271
         },
         "arguments": [
           {
             "type": "LogicalExpression",
-            "start": 272,
-            "end": 284,
             "left": {
               "type": "UnaryExpression",
-              "start": 272,
-              "end": 276,
               "operator": "!",
               "argument": {
                 "type": "Identifier",
+                "name": "sym",
                 "start": 273,
-                "end": 276,
-                "name": "sym"
+                "end": 276
               },
-              "prefix": true
+              "prefix": true,
+              "start": 272,
+              "end": 276
             },
             "operator": "||",
             "right": {
               "type": "Literal",
-              "start": 280,
-              "end": 284,
               "value": true,
-              "raw": "true"
-            }
+              "raw": "true",
+              "start": 280,
+              "end": 284
+            },
+            "start": 272,
+            "end": 284
           },
           {
             "type": "Literal",
-            "start": 286,
-            "end": 290,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 286,
+            "end": 290
           },
           {
             "type": "Literal",
-            "start": 292,
-            "end": 318,
             "value": "`!sym || true` is `true`",
-            "raw": "\"`!sym || true` is `true`\""
+            "raw": "\"`!sym || true` is `true`\"",
+            "start": 292,
+            "end": 318
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 255,
+        "end": 319
+      },
+      "start": 255,
+      "end": 320
     },
     {
       "type": "ExpressionStatement",
-      "start": 321,
-      "end": 384,
       "expression": {
         "type": "CallExpression",
-        "start": 321,
-        "end": 383,
         "callee": {
           "type": "MemberExpression",
-          "start": 321,
-          "end": 337,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 321,
-            "end": 327,
-            "name": "assert"
+            "end": 327
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 328,
-            "end": 337,
-            "name": "sameValue"
+            "end": 337
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 321,
+          "end": 337
         },
         "arguments": [
           {
             "type": "LogicalExpression",
-            "start": 338,
-            "end": 350,
             "left": {
               "type": "Identifier",
+              "name": "sym",
               "start": 338,
-              "end": 341,
-              "name": "sym"
+              "end": 341
             },
             "operator": "||",
             "right": {
               "type": "Literal",
-              "start": 345,
-              "end": 350,
               "value": false,
-              "raw": "false"
-            }
+              "raw": "false",
+              "start": 345,
+              "end": 350
+            },
+            "start": 338,
+            "end": 350
           },
           {
             "type": "Identifier",
+            "name": "sym",
             "start": 352,
-            "end": 355,
-            "name": "sym"
+            "end": 355
           },
           {
             "type": "Literal",
-            "start": 357,
-            "end": 382,
             "value": "`sym || false` is `sym`",
-            "raw": "\"`sym || false` is `sym`\""
+            "raw": "\"`sym || false` is `sym`\"",
+            "start": 357,
+            "end": 382
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 321,
+        "end": 383
+      },
+      "start": 321,
+      "end": 384
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 385
 }

@@ -1,420 +1,420 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 505,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 249,
-      "end": 329,
       "expression": {
         "type": "CallExpression",
-        "start": 249,
-        "end": 328,
         "callee": {
           "type": "MemberExpression",
-          "start": 249,
-          "end": 262,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 249,
-            "end": 255,
-            "name": "assert"
+            "end": 255
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 256,
-            "end": 262,
-            "name": "throws"
+            "end": 262
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 249,
+          "end": 262
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 263,
-            "end": 272,
-            "name": "TypeError"
+            "end": 272
           },
           {
             "type": "FunctionExpression",
-            "start": 274,
-            "end": 327,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 285,
-              "end": 327,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 289,
-                  "end": 312,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 293,
-                      "end": 311,
                       "id": {
                         "type": "Identifier",
+                        "name": "sym",
                         "start": 293,
-                        "end": 296,
-                        "name": "sym"
+                        "end": 296
                       },
                       "init": {
                         "type": "CallExpression",
-                        "start": 299,
-                        "end": 311,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Symbol",
                           "start": 299,
-                          "end": 305,
-                          "name": "Symbol"
+                          "end": 305
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 306,
-                            "end": 310,
                             "value": "66",
-                            "raw": "'66'"
+                            "raw": "'66'",
+                            "start": 306,
+                            "end": 310
                           }
                         ],
-                        "optional": false
-                      }
+                        "optional": false,
+                        "start": 299,
+                        "end": 311
+                      },
+                      "start": 293,
+                      "end": 311
                     }
-                  ]
+                  ],
+                  "start": 289,
+                  "end": 312
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 315,
-                  "end": 325,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 315,
-                    "end": 324,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 315,
-                      "end": 320,
                       "object": {
                         "type": "Identifier",
+                        "name": "sym",
                         "start": 315,
-                        "end": 318,
-                        "name": "sym"
+                        "end": 318
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "a",
                         "start": 319,
-                        "end": 320,
-                        "name": "a"
+                        "end": 320
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 315,
+                      "end": 320
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 323,
-                      "end": 324,
                       "value": 0,
-                      "raw": "0"
-                    }
-                  }
+                      "raw": "0",
+                      "start": 323,
+                      "end": 324
+                    },
+                    "start": 315,
+                    "end": 324
+                  },
+                  "start": 315,
+                  "end": 325
                 }
-              ]
+              ],
+              "start": 285,
+              "end": 327
             },
-            "expression": false
+            "expression": false,
+            "start": 274,
+            "end": 327
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 249,
+        "end": 328
+      },
+      "start": 249,
+      "end": 329
     },
     {
       "type": "ExpressionStatement",
-      "start": 331,
-      "end": 420,
       "expression": {
         "type": "CallExpression",
-        "start": 331,
-        "end": 419,
         "callee": {
           "type": "MemberExpression",
-          "start": 331,
-          "end": 344,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 331,
-            "end": 337,
-            "name": "assert"
+            "end": 337
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 338,
-            "end": 344,
-            "name": "throws"
+            "end": 344
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 331,
+          "end": 344
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 345,
-            "end": 354,
-            "name": "TypeError"
+            "end": 354
           },
           {
             "type": "FunctionExpression",
-            "start": 356,
-            "end": 418,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 367,
-              "end": 418,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 371,
-                  "end": 394,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 375,
-                      "end": 393,
                       "id": {
                         "type": "Identifier",
+                        "name": "sym",
                         "start": 375,
-                        "end": 378,
-                        "name": "sym"
+                        "end": 378
                       },
                       "init": {
                         "type": "CallExpression",
-                        "start": 381,
-                        "end": 393,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Symbol",
                           "start": 381,
-                          "end": 387,
-                          "name": "Symbol"
+                          "end": 387
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 388,
-                            "end": 392,
                             "value": "66",
-                            "raw": "'66'"
+                            "raw": "'66'",
+                            "start": 388,
+                            "end": 392
                           }
                         ],
-                        "optional": false
-                      }
+                        "optional": false,
+                        "start": 381,
+                        "end": 393
+                      },
+                      "start": 375,
+                      "end": 393
                     }
-                  ]
+                  ],
+                  "start": 371,
+                  "end": 394
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 397,
-                  "end": 416,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 397,
-                    "end": 415,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 397,
-                      "end": 411,
                       "object": {
                         "type": "Identifier",
+                        "name": "sym",
                         "start": 397,
-                        "end": 400,
-                        "name": "sym"
+                        "end": 400
                       },
                       "property": {
                         "type": "BinaryExpression",
-                        "start": 401,
-                        "end": 410,
                         "left": {
                           "type": "Literal",
-                          "start": 401,
-                          "end": 404,
                           "value": "a",
-                          "raw": "'a'"
+                          "raw": "'a'",
+                          "start": 401,
+                          "end": 404
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
-                          "start": 407,
-                          "end": 410,
                           "value": "b",
-                          "raw": "'b'"
-                        }
+                          "raw": "'b'",
+                          "start": 407,
+                          "end": 410
+                        },
+                        "start": 401,
+                        "end": 410
                       },
                       "optional": false,
-                      "computed": true
+                      "computed": true,
+                      "start": 397,
+                      "end": 411
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 414,
-                      "end": 415,
                       "value": 0,
-                      "raw": "0"
-                    }
-                  }
+                      "raw": "0",
+                      "start": 414,
+                      "end": 415
+                    },
+                    "start": 397,
+                    "end": 415
+                  },
+                  "start": 397,
+                  "end": 416
                 }
-              ]
+              ],
+              "start": 367,
+              "end": 418
             },
-            "expression": false
+            "expression": false,
+            "start": 356,
+            "end": 418
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 331,
+        "end": 419
+      },
+      "start": 331,
+      "end": 420
     },
     {
       "type": "ExpressionStatement",
-      "start": 422,
-      "end": 504,
       "expression": {
         "type": "CallExpression",
-        "start": 422,
-        "end": 503,
         "callee": {
           "type": "MemberExpression",
-          "start": 422,
-          "end": 435,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 422,
-            "end": 428,
-            "name": "assert"
+            "end": 428
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 429,
-            "end": 435,
-            "name": "throws"
+            "end": 435
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 422,
+          "end": 435
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 436,
-            "end": 445,
-            "name": "TypeError"
+            "end": 445
           },
           {
             "type": "FunctionExpression",
-            "start": 447,
-            "end": 502,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 458,
-              "end": 502,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 462,
-                  "end": 485,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 466,
-                      "end": 484,
                       "id": {
                         "type": "Identifier",
+                        "name": "sym",
                         "start": 466,
-                        "end": 469,
-                        "name": "sym"
+                        "end": 469
                       },
                       "init": {
                         "type": "CallExpression",
-                        "start": 472,
-                        "end": 484,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Symbol",
                           "start": 472,
-                          "end": 478,
-                          "name": "Symbol"
+                          "end": 478
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 479,
-                            "end": 483,
                             "value": "66",
-                            "raw": "'66'"
+                            "raw": "'66'",
+                            "start": 479,
+                            "end": 483
                           }
                         ],
-                        "optional": false
-                      }
+                        "optional": false,
+                        "start": 472,
+                        "end": 484
+                      },
+                      "start": 466,
+                      "end": 484
                     }
-                  ]
+                  ],
+                  "start": 462,
+                  "end": 485
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 488,
-                  "end": 500,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 488,
-                    "end": 499,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 488,
-                      "end": 495,
                       "object": {
                         "type": "Identifier",
+                        "name": "sym",
                         "start": 488,
-                        "end": 491,
-                        "name": "sym"
+                        "end": 491
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 492,
-                        "end": 494,
                         "value": 62,
-                        "raw": "62"
+                        "raw": "62",
+                        "start": 492,
+                        "end": 494
                       },
                       "optional": false,
-                      "computed": true
+                      "computed": true,
+                      "start": 488,
+                      "end": 495
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 498,
-                      "end": 499,
                       "value": 0,
-                      "raw": "0"
-                    }
-                  }
+                      "raw": "0",
+                      "start": 498,
+                      "end": 499
+                    },
+                    "start": 488,
+                    "end": 499
+                  },
+                  "start": 488,
+                  "end": 500
                 }
-              ]
+              ],
+              "start": 458,
+              "end": 502
             },
-            "expression": false
+            "expression": false,
+            "start": 447,
+            "end": 502
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 422,
+        "end": 503
+      },
+      "start": 422,
+      "end": 504
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 505
 }

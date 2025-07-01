@@ -1,692 +1,692 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1084,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 327,
-      "end": 348,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 331,
-          "end": 347,
           "id": {
             "type": "Identifier",
+            "name": "startedCount",
             "start": 331,
-            "end": 343,
-            "name": "startedCount"
+            "end": 343
           },
           "init": {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 346,
-            "end": 347,
-            "value": 0,
-            "raw": "0"
-          }
+            "end": 347
+          },
+          "start": 331,
+          "end": 347
         }
-      ]
+      ],
+      "start": 327,
+      "end": 348
     },
     {
       "type": "VariableDeclaration",
-      "start": 349,
-      "end": 369,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 353,
-          "end": 368,
           "id": {
             "type": "Identifier",
+            "name": "returnCount",
             "start": 353,
-            "end": 364,
-            "name": "returnCount"
+            "end": 364
           },
           "init": {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 367,
-            "end": 368,
-            "value": 0,
-            "raw": "0"
-          }
+            "end": 368
+          },
+          "start": 353,
+          "end": 368
         }
-      ]
+      ],
+      "start": 349,
+      "end": 369
     },
     {
       "type": "VariableDeclaration",
-      "start": 370,
-      "end": 393,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 374,
-          "end": 392,
           "id": {
             "type": "Identifier",
+            "name": "iterationCount",
             "start": 374,
-            "end": 388,
-            "name": "iterationCount"
+            "end": 388
           },
           "init": {
             "type": "Literal",
-            "start": 391,
-            "end": 392,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 391,
+            "end": 392
+          },
+          "start": 374,
+          "end": 392
         }
-      ]
+      ],
+      "start": 370,
+      "end": 393
     },
     {
       "type": "VariableDeclaration",
-      "start": 394,
-      "end": 412,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 398,
-          "end": 411,
           "id": {
             "type": "Identifier",
+            "name": "iterable",
             "start": 398,
-            "end": 406,
-            "name": "iterable"
+            "end": 406
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 409,
-            "end": 411,
-            "properties": []
-          }
+            "end": 411
+          },
+          "start": 398,
+          "end": 411
         }
-      ]
+      ],
+      "start": 394,
+      "end": 412
     },
     {
       "type": "ExpressionStatement",
-      "start": 414,
-      "end": 643,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 414,
-        "end": 642,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 414,
-          "end": 439,
           "object": {
             "type": "Identifier",
+            "name": "iterable",
             "start": 414,
-            "end": 422,
-            "name": "iterable"
+            "end": 422
           },
           "property": {
             "type": "MemberExpression",
-            "start": 423,
-            "end": 438,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 423,
-              "end": 429,
-              "name": "Symbol"
+              "end": 429
             },
             "property": {
               "type": "Identifier",
+              "name": "iterator",
               "start": 430,
-              "end": 438,
-              "name": "iterator"
+              "end": 438
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 423,
+            "end": 438
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 414,
+          "end": 439
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 442,
-          "end": 642,
           "id": null,
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 453,
-            "end": 642,
             "body": [
               {
                 "type": "ReturnStatement",
-                "start": 457,
-                "end": 640,
                 "argument": {
                   "type": "ObjectExpression",
-                  "start": 464,
-                  "end": 639,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 470,
-                      "end": 562,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "next",
                         "start": 470,
-                        "end": 474,
-                        "name": "next"
+                        "end": 474
                       },
                       "value": {
                         "type": "FunctionExpression",
-                        "start": 476,
-                        "end": 562,
                         "id": null,
                         "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 487,
-                          "end": 562,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 495,
-                              "end": 513,
                               "expression": {
                                 "type": "AssignmentExpression",
-                                "start": 495,
-                                "end": 512,
                                 "operator": "+=",
                                 "left": {
                                   "type": "Identifier",
+                                  "name": "startedCount",
                                   "start": 495,
-                                  "end": 507,
-                                  "name": "startedCount"
+                                  "end": 507
                                 },
                                 "right": {
                                   "type": "Literal",
-                                  "start": 511,
-                                  "end": 512,
                                   "value": 1,
-                                  "raw": "1"
-                                }
-                              }
+                                  "raw": "1",
+                                  "start": 511,
+                                  "end": 512
+                                },
+                                "start": 495,
+                                "end": 512
+                              },
+                              "start": 495,
+                              "end": 513
                             },
                             {
                               "type": "ReturnStatement",
-                              "start": 520,
-                              "end": 556,
                               "argument": {
                                 "type": "ObjectExpression",
-                                "start": 527,
-                                "end": 555,
                                 "properties": [
                                   {
                                     "type": "Property",
-                                    "start": 529,
-                                    "end": 540,
                                     "kind": "init",
                                     "key": {
                                       "type": "Identifier",
+                                      "name": "done",
                                       "start": 529,
-                                      "end": 533,
-                                      "name": "done"
+                                      "end": 533
                                     },
                                     "value": {
                                       "type": "Literal",
-                                      "start": 535,
-                                      "end": 540,
                                       "value": false,
-                                      "raw": "false"
+                                      "raw": "false",
+                                      "start": 535,
+                                      "end": 540
                                     },
                                     "method": false,
                                     "shorthand": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 529,
+                                    "end": 540
                                   },
                                   {
                                     "type": "Property",
-                                    "start": 542,
-                                    "end": 553,
                                     "kind": "init",
                                     "key": {
                                       "type": "Identifier",
+                                      "name": "value",
                                       "start": 542,
-                                      "end": 547,
-                                      "name": "value"
+                                      "end": 547
                                     },
                                     "value": {
                                       "type": "Literal",
-                                      "start": 549,
-                                      "end": 553,
                                       "value": null,
-                                      "raw": "null"
+                                      "raw": "null",
+                                      "start": 549,
+                                      "end": 553
                                     },
                                     "method": false,
                                     "shorthand": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 542,
+                                    "end": 553
                                   }
-                                ]
-                              }
+                                ],
+                                "start": 527,
+                                "end": 555
+                              },
+                              "start": 520,
+                              "end": 556
                             }
-                          ]
+                          ],
+                          "start": 487,
+                          "end": 562
                         },
-                        "expression": false
+                        "expression": false,
+                        "start": 476,
+                        "end": 562
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 470,
+                      "end": 562
                     },
                     {
                       "type": "Property",
-                      "start": 568,
-                      "end": 635,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "return",
                         "start": 568,
-                        "end": 574,
-                        "name": "return"
+                        "end": 574
                       },
                       "value": {
                         "type": "FunctionExpression",
-                        "start": 576,
-                        "end": 635,
                         "id": null,
                         "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 587,
-                          "end": 635,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 595,
-                              "end": 612,
                               "expression": {
                                 "type": "AssignmentExpression",
-                                "start": 595,
-                                "end": 611,
                                 "operator": "+=",
                                 "left": {
                                   "type": "Identifier",
+                                  "name": "returnCount",
                                   "start": 595,
-                                  "end": 606,
-                                  "name": "returnCount"
+                                  "end": 606
                                 },
                                 "right": {
                                   "type": "Literal",
-                                  "start": 610,
-                                  "end": 611,
                                   "value": 1,
-                                  "raw": "1"
-                                }
-                              }
+                                  "raw": "1",
+                                  "start": 610,
+                                  "end": 611
+                                },
+                                "start": 595,
+                                "end": 611
+                              },
+                              "start": 595,
+                              "end": 612
                             },
                             {
                               "type": "ReturnStatement",
-                              "start": 619,
-                              "end": 629,
                               "argument": {
                                 "type": "ObjectExpression",
+                                "properties": [],
                                 "start": 626,
-                                "end": 628,
-                                "properties": []
-                              }
+                                "end": 628
+                              },
+                              "start": 619,
+                              "end": 629
                             }
-                          ]
+                          ],
+                          "start": 587,
+                          "end": 635
                         },
-                        "expression": false
+                        "expression": false,
+                        "start": 576,
+                        "end": 635
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 568,
+                      "end": 635
                     }
-                  ]
-                }
+                  ],
+                  "start": 464,
+                  "end": 639
+                },
+                "start": 457,
+                "end": 640
               }
-            ]
+            ],
+            "start": 453,
+            "end": 642
           },
-          "expression": false
-        }
-      }
+          "expression": false,
+          "start": 442,
+          "end": 642
+        },
+        "start": 414,
+        "end": 642
+      },
+      "start": 414,
+      "end": 643
     },
     {
       "type": "ForOfStatement",
-      "start": 645,
-      "end": 841,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 650,
-        "end": 655,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 654,
-            "end": 655,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 654,
-              "end": 655,
-              "name": "x"
+              "end": 655
             },
-            "init": null
+            "init": null,
+            "start": 654,
+            "end": 655
           }
-        ]
+        ],
+        "start": 650,
+        "end": 655
       },
       "right": {
         "type": "Identifier",
+        "name": "iterable",
         "start": 659,
-        "end": 667,
-        "name": "iterable"
+        "end": 667
       },
       "body": {
         "type": "BlockStatement",
-        "start": 669,
-        "end": 841,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 673,
-            "end": 737,
             "expression": {
               "type": "CallExpression",
-              "start": 673,
-              "end": 736,
               "callee": {
                 "type": "MemberExpression",
-                "start": 673,
-                "end": 689,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 673,
-                  "end": 679,
-                  "name": "assert"
+                  "end": 679
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 680,
-                  "end": 689,
-                  "name": "sameValue"
+                  "end": 689
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 673,
+                "end": 689
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "startedCount",
                   "start": 695,
-                  "end": 707,
-                  "name": "startedCount"
+                  "end": 707
                 },
                 {
                   "type": "Literal",
-                  "start": 709,
-                  "end": 710,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 709,
+                  "end": 710
                 },
                 {
                   "type": "Literal",
-                  "start": 712,
-                  "end": 732,
                   "value": "Value is retrieved",
-                  "raw": "'Value is retrieved'"
+                  "raw": "'Value is retrieved'",
+                  "start": 712,
+                  "end": 732
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 673,
+              "end": 736
+            },
+            "start": 673,
+            "end": 737
           },
           {
             "type": "ExpressionStatement",
-            "start": 740,
-            "end": 807,
             "expression": {
               "type": "CallExpression",
-              "start": 740,
-              "end": 806,
               "callee": {
                 "type": "MemberExpression",
-                "start": 740,
-                "end": 756,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 740,
-                  "end": 746,
-                  "name": "assert"
+                  "end": 746
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 747,
-                  "end": 756,
-                  "name": "sameValue"
+                  "end": 756
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 740,
+                "end": 756
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "returnCount",
                   "start": 762,
-                  "end": 773,
-                  "name": "returnCount"
+                  "end": 773
                 },
                 {
                   "type": "Literal",
-                  "start": 775,
-                  "end": 776,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 775,
+                  "end": 776
                 },
                 {
                   "type": "Literal",
-                  "start": 778,
-                  "end": 802,
                   "value": "Iterator is not closed",
-                  "raw": "'Iterator is not closed'"
+                  "raw": "'Iterator is not closed'",
+                  "start": 778,
+                  "end": 802
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 740,
+              "end": 806
+            },
+            "start": 740,
+            "end": 807
           },
           {
             "type": "ExpressionStatement",
-            "start": 810,
-            "end": 830,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 810,
-              "end": 829,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
+                "name": "iterationCount",
                 "start": 810,
-                "end": 824,
-                "name": "iterationCount"
+                "end": 824
               },
               "right": {
                 "type": "Literal",
-                "start": 828,
-                "end": 829,
                 "value": 1,
-                "raw": "1"
-              }
-            }
+                "raw": "1",
+                "start": 828,
+                "end": 829
+              },
+              "start": 810,
+              "end": 829
+            },
+            "start": 810,
+            "end": 830
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 833,
-            "end": 839,
-            "label": null
+            "end": 839
           }
-        ]
-      }
+        ],
+        "start": 669,
+        "end": 841
+      },
+      "start": 645,
+      "end": 841
     },
     {
       "type": "ExpressionStatement",
-      "start": 843,
-      "end": 933,
       "expression": {
         "type": "CallExpression",
-        "start": 843,
-        "end": 932,
         "callee": {
           "type": "MemberExpression",
-          "start": 843,
-          "end": 859,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 843,
-            "end": 849,
-            "name": "assert"
+            "end": 849
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 850,
-            "end": 859,
-            "name": "sameValue"
+            "end": 859
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 843,
+          "end": 859
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "startedCount",
             "start": 863,
-            "end": 875,
-            "name": "startedCount"
+            "end": 875
           },
           {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 877,
-            "end": 878,
-            "value": 1,
-            "raw": "1"
+            "end": 878
           },
           {
             "type": "Literal",
-            "start": 880,
-            "end": 930,
             "value": "Iterator does not restart following interruption",
-            "raw": "'Iterator does not restart following interruption'"
+            "raw": "'Iterator does not restart following interruption'",
+            "start": 880,
+            "end": 930
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 843,
+        "end": 932
+      },
+      "start": 843,
+      "end": 933
     },
     {
       "type": "ExpressionStatement",
-      "start": 934,
-      "end": 999,
       "expression": {
         "type": "CallExpression",
-        "start": 934,
-        "end": 998,
         "callee": {
           "type": "MemberExpression",
-          "start": 934,
-          "end": 950,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 934,
-            "end": 940,
-            "name": "assert"
+            "end": 940
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 941,
-            "end": 950,
-            "name": "sameValue"
+            "end": 950
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 934,
+          "end": 950
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "iterationCount",
             "start": 951,
-            "end": 965,
-            "name": "iterationCount"
+            "end": 965
           },
           {
             "type": "Literal",
-            "start": 967,
-            "end": 968,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 967,
+            "end": 968
           },
           {
             "type": "Literal",
-            "start": 970,
-            "end": 997,
             "value": "A single iteration occurs",
-            "raw": "'A single iteration occurs'"
+            "raw": "'A single iteration occurs'",
+            "start": 970,
+            "end": 997
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 934,
+        "end": 998
+      },
+      "start": 934,
+      "end": 999
     },
     {
       "type": "ExpressionStatement",
-      "start": 1000,
-      "end": 1083,
       "expression": {
         "type": "CallExpression",
-        "start": 1000,
-        "end": 1082,
         "callee": {
           "type": "MemberExpression",
-          "start": 1000,
-          "end": 1016,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1000,
-            "end": 1006,
-            "name": "assert"
+            "end": 1006
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1007,
-            "end": 1016,
-            "name": "sameValue"
+            "end": 1016
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1000,
+          "end": 1016
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "returnCount",
             "start": 1020,
-            "end": 1031,
-            "name": "returnCount"
+            "end": 1031
           },
           {
             "type": "Literal",
-            "start": 1033,
-            "end": 1034,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 1033,
+            "end": 1034
           },
           {
             "type": "Literal",
-            "start": 1036,
-            "end": 1080,
             "value": "Iterator is closed after `break` statement",
-            "raw": "'Iterator is closed after `break` statement'"
+            "raw": "'Iterator is closed after `break` statement'",
+            "start": 1036,
+            "end": 1080
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1000,
+        "end": 1082
+      },
+      "start": 1000,
+      "end": 1083
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1084
 }

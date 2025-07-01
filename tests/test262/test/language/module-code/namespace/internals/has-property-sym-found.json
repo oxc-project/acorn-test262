@@ -1,171 +1,171 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 638,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 446,
-      "end": 496,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 453,
-          "end": 460,
           "local": {
             "type": "Identifier",
+            "name": "ns",
             "start": 458,
-            "end": 460,
-            "name": "ns"
-          }
+            "end": 460
+          },
+          "start": 453,
+          "end": 460
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 466,
-        "end": 495,
         "value": "./has-property-sym-found.js",
-        "raw": "'./has-property-sym-found.js'"
+        "raw": "'./has-property-sym-found.js'",
+        "start": 466,
+        "end": 495
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 446,
+      "end": 496
     },
     {
       "type": "ExpressionStatement",
-      "start": 498,
-      "end": 557,
       "expression": {
         "type": "CallExpression",
-        "start": 498,
-        "end": 556,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 498,
-          "end": 504,
-          "name": "assert"
+          "end": 504
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 505,
-            "end": 529,
             "left": {
               "type": "MemberExpression",
-              "start": 505,
-              "end": 523,
               "object": {
                 "type": "Identifier",
+                "name": "Symbol",
                 "start": 505,
-                "end": 511,
-                "name": "Symbol"
+                "end": 511
               },
               "property": {
                 "type": "Identifier",
+                "name": "toStringTag",
                 "start": 512,
-                "end": 523,
-                "name": "toStringTag"
+                "end": 523
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 505,
+              "end": 523
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
+              "name": "ns",
               "start": 527,
-              "end": 529,
-              "name": "ns"
-            }
+              "end": 529
+            },
+            "start": 505,
+            "end": 529
           },
           {
             "type": "Literal",
-            "start": 531,
-            "end": 555,
             "value": "in: Symbol.toStringTag",
-            "raw": "'in: Symbol.toStringTag'"
+            "raw": "'in: Symbol.toStringTag'",
+            "start": 531,
+            "end": 555
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 498,
+        "end": 556
+      },
+      "start": 498,
+      "end": 557
     },
     {
       "type": "ExpressionStatement",
-      "start": 558,
-      "end": 637,
       "expression": {
         "type": "CallExpression",
-        "start": 558,
-        "end": 636,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 558,
-          "end": 564,
-          "name": "assert"
+          "end": 564
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 565,
-            "end": 600,
             "callee": {
               "type": "MemberExpression",
-              "start": 565,
-              "end": 576,
               "object": {
                 "type": "Identifier",
+                "name": "Reflect",
                 "start": 565,
-                "end": 572,
-                "name": "Reflect"
+                "end": 572
               },
               "property": {
                 "type": "Identifier",
+                "name": "has",
                 "start": 573,
-                "end": 576,
-                "name": "has"
+                "end": 576
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 565,
+              "end": 576
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ns",
                 "start": 577,
-                "end": 579,
-                "name": "ns"
+                "end": 579
               },
               {
                 "type": "MemberExpression",
-                "start": 581,
-                "end": 599,
                 "object": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 581,
-                  "end": 587,
-                  "name": "Symbol"
+                  "end": 587
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toStringTag",
                   "start": 588,
-                  "end": 599,
-                  "name": "toStringTag"
+                  "end": 599
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 581,
+                "end": 599
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 565,
+            "end": 600
           },
           {
             "type": "Literal",
-            "start": 602,
-            "end": 635,
             "value": "Reflect.has: Symbol.toStringTag",
-            "raw": "'Reflect.has: Symbol.toStringTag'"
+            "raw": "'Reflect.has: Symbol.toStringTag'",
+            "start": 602,
+            "end": 635
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 558,
+        "end": 636
+      },
+      "start": 558,
+      "end": 637
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 638
 }

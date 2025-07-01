@@ -1,202 +1,202 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 953,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 416,
-      "end": 467,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 420,
-          "end": 466,
           "id": {
             "type": "Identifier",
+            "name": "__str",
             "start": 420,
-            "end": 425,
-            "name": "__str"
+            "end": 425
           },
           "init": {
             "type": "Literal",
-            "start": 428,
-            "end": 466,
             "value": "She sells seashells by the seashore.",
-            "raw": "'She sells seashells by the seashore.'"
-          }
+            "raw": "'She sells seashells by the seashore.'",
+            "start": 428,
+            "end": 466
+          },
+          "start": 420,
+          "end": 466
         }
-      ]
+      ],
+      "start": 416,
+      "end": 467
     },
     {
       "type": "VariableDeclaration",
-      "start": 468,
-      "end": 484,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 472,
-          "end": 483,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 472,
-            "end": 476,
-            "name": "__re"
+            "end": 476
           },
           "init": {
             "type": "Literal",
-            "start": 479,
-            "end": 483,
             "value": null,
             "raw": "/sh/",
             "regex": {
               "pattern": "sh",
               "flags": ""
-            }
-          }
+            },
+            "start": 479,
+            "end": 483
+          },
+          "start": 472,
+          "end": 483
         }
-      ]
+      ],
+      "start": 468,
+      "end": 484
     },
     {
       "type": "IfStatement",
-      "start": 575,
-      "end": 870,
       "test": {
         "type": "BinaryExpression",
-        "start": 579,
-        "end": 649,
         "left": {
           "type": "CallExpression",
-          "start": 579,
-          "end": 605,
           "callee": {
             "type": "MemberExpression",
-            "start": 579,
-            "end": 592,
             "object": {
               "type": "Identifier",
+              "name": "__str",
               "start": 579,
-              "end": 584,
-              "name": "__str"
+              "end": 584
             },
             "property": {
               "type": "Identifier",
+              "name": "replace",
               "start": 585,
-              "end": 592,
-              "name": "replace"
+              "end": 592
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 579,
+            "end": 592
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "__re",
               "start": 593,
-              "end": 597,
-              "name": "__re"
+              "end": 597
             },
             {
               "type": "Literal",
-              "start": 599,
-              "end": 604,
               "value": "sch",
-              "raw": "'sch'"
+              "raw": "'sch'",
+              "start": 599,
+              "end": 604
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 579,
+          "end": 605
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 610,
-          "end": 649,
           "value": "She sells seaschells by the seashore.",
-          "raw": "'She sells seaschells by the seashore.'"
-        }
+          "raw": "'She sells seaschells by the seashore.'",
+          "start": 610,
+          "end": 649
+        },
+        "start": 579,
+        "end": 649
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 651,
-        "end": 870,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 655,
-            "end": 868,
             "argument": {
               "type": "NewExpression",
-              "start": 661,
-              "end": 867,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 665,
-                "end": 677,
-                "name": "Test262Error"
+                "end": 677
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 678,
-                  "end": 866,
                   "left": {
                     "type": "Literal",
-                    "start": 678,
-                    "end": 837,
                     "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/; __str.replace(__re, 'sch')==='She sells seaschells by the seashore.'. Actual: ",
-                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/; __str.replace(__re, \\'sch\\')===\\'She sells seaschells by the seashore.\\'. Actual: '"
+                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/; __str.replace(__re, \\'sch\\')===\\'She sells seaschells by the seashore.\\'. Actual: '",
+                    "start": 678,
+                    "end": 837
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 840,
-                    "end": 866,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 840,
-                      "end": 853,
                       "object": {
                         "type": "Identifier",
+                        "name": "__str",
                         "start": 840,
-                        "end": 845,
-                        "name": "__str"
+                        "end": 845
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "replace",
                         "start": 846,
-                        "end": 853,
-                        "name": "replace"
+                        "end": 853
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 840,
+                      "end": 853
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "__re",
                         "start": 854,
-                        "end": 858,
-                        "name": "__re"
+                        "end": 858
                       },
                       {
                         "type": "Literal",
-                        "start": 860,
-                        "end": 865,
                         "value": "sch",
-                        "raw": "'sch'"
+                        "raw": "'sch'",
+                        "start": 860,
+                        "end": 865
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 840,
+                    "end": 866
+                  },
+                  "start": 678,
+                  "end": 866
                 }
-              ]
-            }
+              ],
+              "start": 661,
+              "end": 867
+            },
+            "start": 655,
+            "end": 868
           }
-        ]
+        ],
+        "start": 651,
+        "end": 870
       },
-      "alternate": null
+      "alternate": null,
+      "start": 575,
+      "end": 870
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 953
 }

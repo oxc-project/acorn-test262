@@ -2,48 +2,48 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 19,
       "id": {
         "type": "TSQualifiedName",
-        "start": 7,
-        "end": 15,
         "left": {
           "type": "Identifier",
-          "start": 7,
-          "end": 8,
           "decorators": [],
           "name": "A",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 7,
+          "end": 8
         },
         "right": {
           "type": "Identifier",
-          "start": 9,
-          "end": 15,
           "decorators": [],
           "name": "string",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 9,
+          "end": 15
+        },
+        "start": 7,
+        "end": 15
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 16,
-        "end": 19,
-        "body": []
+        "end": 19
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 19
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 19
 }
 ```

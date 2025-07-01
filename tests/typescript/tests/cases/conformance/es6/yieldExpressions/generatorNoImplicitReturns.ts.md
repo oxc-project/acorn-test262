@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 2,
-  "end": 101,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 2,
-      "end": 101,
       "id": {
         "type": "Identifier",
-        "start": 12,
-        "end": 25,
         "decorators": [],
         "name": "testGenerator",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 12,
+        "end": 25
       },
       "generator": true,
       "async": false,
@@ -26,99 +22,103 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 29,
-        "end": 101,
         "body": [
           {
             "type": "IfStatement",
-            "start": 34,
-            "end": 80,
             "test": {
               "type": "BinaryExpression",
-              "start": 38,
-              "end": 57,
               "left": {
                 "type": "CallExpression",
-                "start": 38,
-                "end": 51,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 38,
-                  "end": 49,
                   "object": {
                     "type": "Identifier",
-                    "start": 38,
-                    "end": 42,
                     "decorators": [],
                     "name": "Math",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 38,
+                    "end": 42
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 43,
-                    "end": 49,
                     "decorators": [],
                     "name": "random",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 43,
+                    "end": 49
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 38,
+                  "end": 49
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 38,
+                "end": 51
               },
               "operator": ">",
               "right": {
                 "type": "Literal",
-                "start": 54,
-                "end": 57,
                 "value": 0.5,
-                "raw": "0.5"
-              }
+                "raw": "0.5",
+                "start": 54,
+                "end": 57
+              },
+              "start": 38,
+              "end": 57
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 59,
-              "end": 80,
               "body": [
                 {
                   "type": "ReturnStatement",
+                  "argument": null,
                   "start": 68,
-                  "end": 75,
-                  "argument": null
+                  "end": 75
                 }
-              ]
+              ],
+              "start": 59,
+              "end": 80
             },
-            "alternate": null
+            "alternate": null,
+            "start": 34,
+            "end": 80
           },
           {
             "type": "ExpressionStatement",
-            "start": 84,
-            "end": 98,
             "expression": {
               "type": "YieldExpression",
-              "start": 84,
-              "end": 97,
               "delegate": false,
               "argument": {
                 "type": "Literal",
-                "start": 90,
-                "end": 97,
                 "value": "hello",
-                "raw": "'hello'"
-              }
+                "raw": "'hello'",
+                "start": 90,
+                "end": 97
+              },
+              "start": 84,
+              "end": 97
             },
-            "directive": null
+            "directive": null,
+            "start": 84,
+            "end": 98
           }
-        ]
+        ],
+        "start": 29,
+        "end": 101
       },
-      "expression": false
+      "expression": false,
+      "start": 2,
+      "end": 101
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 2,
+  "end": 101
 }
 ```

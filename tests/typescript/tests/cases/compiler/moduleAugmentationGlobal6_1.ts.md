@@ -2,104 +2,104 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 39,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 39,
       "id": {
         "type": "Identifier",
-        "start": 0,
-        "end": 6,
         "decorators": [],
         "name": "global",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 6
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 7,
-        "end": 39,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 13,
-            "end": 37,
             "id": {
               "type": "Identifier",
-              "start": 23,
-              "end": 28,
               "decorators": [],
               "name": "Array",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 28
             },
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
-              "start": 28,
-              "end": 31,
               "params": [
                 {
                   "type": "TSTypeParameter",
-                  "start": 29,
-                  "end": 30,
                   "name": {
                     "type": "Identifier",
-                    "start": 29,
-                    "end": 30,
                     "decorators": [],
                     "name": "T",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 29,
+                    "end": 30
                   },
                   "constraint": null,
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
+                  "const": false,
+                  "start": 29,
+                  "end": 30
                 }
-              ]
+              ],
+              "start": 28,
+              "end": 31
             },
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
-              "start": 32,
-              "end": 37,
               "body": [
                 {
                   "type": "TSPropertySignature",
-                  "start": 34,
-                  "end": 35,
                   "computed": false,
                   "optional": false,
                   "readonly": false,
                   "key": {
                     "type": "Identifier",
-                    "start": 34,
-                    "end": 35,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 34,
+                    "end": 35
                   },
                   "typeAnnotation": null,
                   "accessibility": null,
-                  "static": false
+                  "static": false,
+                  "start": 34,
+                  "end": 35
                 }
-              ]
+              ],
+              "start": 32,
+              "end": 37
             },
-            "declare": false
+            "declare": false,
+            "start": 13,
+            "end": 37
           }
-        ]
+        ],
+        "start": 7,
+        "end": 39
       },
       "kind": "global",
       "declare": false,
-      "global": true
+      "global": true,
+      "start": 0,
+      "end": 39
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 39
 }
 ```

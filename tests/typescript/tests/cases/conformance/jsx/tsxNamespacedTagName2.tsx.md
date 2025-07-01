@@ -2,353 +2,353 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 148,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 23,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 22,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 22,
             "decorators": [],
             "name": "React",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 17,
-              "end": 22,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 19,
                 "end": 22
-              }
-            }
+              },
+              "start": 17,
+              "end": 22
+            },
+            "start": 12,
+            "end": 22
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 22
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 23
     },
     {
       "type": "VariableDeclaration",
-      "start": 25,
-      "end": 57,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 31,
-          "end": 56,
           "id": {
             "type": "Identifier",
-            "start": 31,
-            "end": 32,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 31,
+            "end": 32
           },
           "init": {
             "type": "JSXElement",
-            "start": 35,
-            "end": 56,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 35,
-              "end": 45,
               "name": {
                 "type": "JSXNamespacedName",
-                "start": 36,
-                "end": 44,
                 "namespace": {
                   "type": "JSXIdentifier",
+                  "name": "svg",
                   "start": 36,
-                  "end": 39,
-                  "name": "svg"
+                  "end": 39
                 },
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "path",
                   "start": 40,
-                  "end": 44,
-                  "name": "path"
-                }
+                  "end": 44
+                },
+                "start": 36,
+                "end": 44
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 35,
+              "end": 45
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 45,
-              "end": 56,
               "name": {
                 "type": "JSXNamespacedName",
-                "start": 47,
-                "end": 55,
                 "namespace": {
                   "type": "JSXIdentifier",
+                  "name": "svg",
                   "start": 47,
-                  "end": 50,
-                  "name": "svg"
+                  "end": 50
                 },
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "path",
                   "start": 51,
-                  "end": 55,
-                  "name": "path"
-                }
-              }
-            }
+                  "end": 55
+                },
+                "start": 47,
+                "end": 55
+              },
+              "start": 45,
+              "end": 56
+            },
+            "start": 35,
+            "end": 56
           },
-          "definite": false
+          "definite": false,
+          "start": 31,
+          "end": 56
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 25,
+      "end": 57
     },
     {
       "type": "VariableDeclaration",
-      "start": 58,
-      "end": 94,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 64,
-          "end": 93,
           "id": {
             "type": "Identifier",
-            "start": 64,
-            "end": 65,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 64,
+            "end": 65
           },
           "init": {
             "type": "JSXElement",
-            "start": 68,
-            "end": 93,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 68,
-              "end": 80,
               "name": {
                 "type": "JSXNamespacedName",
-                "start": 69,
-                "end": 79,
                 "namespace": {
                   "type": "JSXIdentifier",
+                  "name": "svg",
                   "start": 69,
-                  "end": 72,
-                  "name": "svg"
+                  "end": 72
                 },
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "path",
                   "start": 75,
-                  "end": 79,
-                  "name": "path"
-                }
+                  "end": 79
+                },
+                "start": 69,
+                "end": 79
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 68,
+              "end": 80
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 80,
-              "end": 93,
               "name": {
                 "type": "JSXNamespacedName",
-                "start": 82,
-                "end": 92,
                 "namespace": {
                   "type": "JSXIdentifier",
+                  "name": "svg",
                   "start": 82,
-                  "end": 85,
-                  "name": "svg"
+                  "end": 85
                 },
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "path",
                   "start": 88,
-                  "end": 92,
-                  "name": "path"
-                }
-              }
-            }
+                  "end": 92
+                },
+                "start": 82,
+                "end": 92
+              },
+              "start": 80,
+              "end": 93
+            },
+            "start": 68,
+            "end": 93
           },
-          "definite": false
+          "definite": false,
+          "start": 64,
+          "end": 93
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 58,
+      "end": 94
     },
     {
       "type": "VariableDeclaration",
-      "start": 95,
-      "end": 121,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 101,
-          "end": 120,
           "id": {
             "type": "Identifier",
-            "start": 101,
-            "end": 102,
             "decorators": [],
             "name": "c",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 101,
+            "end": 102
           },
           "init": {
             "type": "JSXElement",
-            "start": 105,
-            "end": 120,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 105,
-              "end": 112,
               "name": {
                 "type": "JSXNamespacedName",
-                "start": 106,
-                "end": 111,
                 "namespace": {
                   "type": "JSXIdentifier",
+                  "name": "A",
                   "start": 106,
-                  "end": 107,
-                  "name": "A"
+                  "end": 107
                 },
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "foo",
                   "start": 108,
-                  "end": 111,
-                  "name": "foo"
-                }
+                  "end": 111
+                },
+                "start": 106,
+                "end": 111
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 105,
+              "end": 112
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 112,
-              "end": 120,
               "name": {
                 "type": "JSXNamespacedName",
-                "start": 114,
-                "end": 119,
                 "namespace": {
                   "type": "JSXIdentifier",
+                  "name": "A",
                   "start": 114,
-                  "end": 115,
-                  "name": "A"
+                  "end": 115
                 },
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "foo",
                   "start": 116,
-                  "end": 119,
-                  "name": "foo"
-                }
-              }
-            }
+                  "end": 119
+                },
+                "start": 114,
+                "end": 119
+              },
+              "start": 112,
+              "end": 120
+            },
+            "start": 105,
+            "end": 120
           },
-          "definite": false
+          "definite": false,
+          "start": 101,
+          "end": 120
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 95,
+      "end": 121
     },
     {
       "type": "VariableDeclaration",
-      "start": 122,
-      "end": 148,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 128,
-          "end": 147,
           "id": {
             "type": "Identifier",
-            "start": 128,
-            "end": 129,
             "decorators": [],
             "name": "d",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 128,
+            "end": 129
           },
           "init": {
             "type": "JSXElement",
-            "start": 132,
-            "end": 147,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 132,
-              "end": 139,
               "name": {
                 "type": "JSXNamespacedName",
-                "start": 133,
-                "end": 138,
                 "namespace": {
                   "type": "JSXIdentifier",
+                  "name": "a",
                   "start": 133,
-                  "end": 134,
-                  "name": "a"
+                  "end": 134
                 },
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "foo",
                   "start": 135,
-                  "end": 138,
-                  "name": "foo"
-                }
+                  "end": 138
+                },
+                "start": 133,
+                "end": 138
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 132,
+              "end": 139
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 139,
-              "end": 147,
               "name": {
                 "type": "JSXNamespacedName",
-                "start": 141,
-                "end": 146,
                 "namespace": {
                   "type": "JSXIdentifier",
+                  "name": "a",
                   "start": 141,
-                  "end": 142,
-                  "name": "a"
+                  "end": 142
                 },
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "foo",
                   "start": 143,
-                  "end": 146,
-                  "name": "foo"
-                }
-              }
-            }
+                  "end": 146
+                },
+                "start": 141,
+                "end": 146
+              },
+              "start": 139,
+              "end": 147
+            },
+            "start": 132,
+            "end": 147
           },
-          "definite": false
+          "definite": false,
+          "start": 128,
+          "end": 147
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 122,
+      "end": 148
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 148
 }
 ```

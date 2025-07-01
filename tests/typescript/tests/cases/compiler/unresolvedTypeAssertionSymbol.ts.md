@@ -2,95 +2,95 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 10,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 9,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "Literal",
-            "start": 8,
-            "end": 9,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 8,
+            "end": 9
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 9
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 10
     },
     {
       "type": "VariableDeclaration",
-      "start": 11,
-      "end": 27,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 15,
-          "end": 26,
           "id": {
             "type": "Identifier",
-            "start": 15,
-            "end": 16,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 16
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 19,
-            "end": 26,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 20,
-              "end": 24,
               "typeName": {
                 "type": "Identifier",
-                "start": 20,
-                "end": 24,
                 "decorators": [],
                 "name": "asdf",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 20,
+                "end": 24
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 20,
+              "end": 24
             },
             "expression": {
               "type": "Identifier",
-              "start": 25,
-              "end": 26,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 25,
+              "end": 26
+            },
+            "start": 19,
+            "end": 26
           },
-          "definite": false
+          "definite": false,
+          "start": 15,
+          "end": 26
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 11,
+      "end": 27
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```

@@ -1,324 +1,324 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 447,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 243,
-      "end": 268,
       "expression": {
         "type": "CallExpression",
-        "start": 243,
-        "end": 267,
         "callee": {
           "type": "MemberExpression",
-          "start": 243,
-          "end": 259,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 243,
-            "end": 249,
-            "name": "assert"
+            "end": 249
           },
           "property": {
             "type": "Identifier",
+            "name": "deepEqual",
             "start": 250,
-            "end": 259,
-            "name": "deepEqual"
+            "end": 259
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 243,
+          "end": 259
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 260,
-            "end": 262,
             "value": null,
             "raw": "1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 260,
+            "end": 262
           },
           {
             "type": "Literal",
-            "start": 264,
-            "end": 266,
             "value": null,
             "raw": "1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 264,
+            "end": 266
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 243,
+        "end": 267
+      },
+      "start": 243,
+      "end": 268
     },
     {
       "type": "ExpressionStatement",
-      "start": 269,
-      "end": 302,
       "expression": {
         "type": "CallExpression",
-        "start": 269,
-        "end": 301,
         "callee": {
           "type": "MemberExpression",
-          "start": 269,
-          "end": 285,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 269,
-            "end": 275,
-            "name": "assert"
+            "end": 275
           },
           "property": {
             "type": "Identifier",
+            "name": "deepEqual",
             "start": 276,
-            "end": 285,
-            "name": "deepEqual"
+            "end": 285
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 269,
+          "end": 285
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 286,
-            "end": 296,
             "callee": {
               "type": "Identifier",
+              "name": "Object",
               "start": 286,
-              "end": 292,
-              "name": "Object"
+              "end": 292
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 293,
-                "end": 295,
                 "value": null,
                 "raw": "1n",
-                "bigint": "1"
+                "bigint": "1",
+                "start": 293,
+                "end": 295
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 286,
+            "end": 296
           },
           {
             "type": "Literal",
-            "start": 298,
-            "end": 300,
             "value": null,
             "raw": "1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 298,
+            "end": 300
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 269,
+        "end": 301
+      },
+      "start": 269,
+      "end": 302
     },
     {
       "type": "ExpressionStatement",
-      "start": 304,
-      "end": 374,
       "expression": {
         "type": "CallExpression",
-        "start": 304,
-        "end": 373,
         "callee": {
           "type": "MemberExpression",
-          "start": 304,
-          "end": 317,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 304,
-            "end": 310,
-            "name": "assert"
+            "end": 310
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 311,
-            "end": 317,
-            "name": "throws"
+            "end": 317
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 304,
+          "end": 317
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 318,
-            "end": 330,
-            "name": "Test262Error"
+            "end": 330
           },
           {
             "type": "FunctionExpression",
-            "start": 332,
-            "end": 372,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 344,
-              "end": 372,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 346,
-                  "end": 370,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 346,
-                    "end": 369,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 346,
-                      "end": 362,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 346,
-                        "end": 352,
-                        "name": "assert"
+                        "end": 352
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "deepEqual",
                         "start": 353,
-                        "end": 362,
-                        "name": "deepEqual"
+                        "end": 362
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 346,
+                      "end": 362
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 363,
-                        "end": 365,
                         "value": null,
                         "raw": "1n",
-                        "bigint": "1"
+                        "bigint": "1",
+                        "start": 363,
+                        "end": 365
                       },
                       {
                         "type": "Literal",
-                        "start": 367,
-                        "end": 368,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 367,
+                        "end": 368
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 346,
+                    "end": 369
+                  },
+                  "start": 346,
+                  "end": 370
                 }
-              ]
+              ],
+              "start": 344,
+              "end": 372
             },
-            "expression": false
+            "expression": false,
+            "start": 332,
+            "end": 372
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 304,
+        "end": 373
+      },
+      "start": 304,
+      "end": 374
     },
     {
       "type": "ExpressionStatement",
-      "start": 375,
-      "end": 446,
       "expression": {
         "type": "CallExpression",
-        "start": 375,
-        "end": 445,
         "callee": {
           "type": "MemberExpression",
-          "start": 375,
-          "end": 388,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 375,
-            "end": 381,
-            "name": "assert"
+            "end": 381
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 382,
-            "end": 388,
-            "name": "throws"
+            "end": 388
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 375,
+          "end": 388
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 389,
-            "end": 401,
-            "name": "Test262Error"
+            "end": 401
           },
           {
             "type": "FunctionExpression",
-            "start": 403,
-            "end": 444,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 415,
-              "end": 444,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 417,
-                  "end": 442,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 417,
-                    "end": 441,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 417,
-                      "end": 433,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 417,
-                        "end": 423,
-                        "name": "assert"
+                        "end": 423
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "deepEqual",
                         "start": 424,
-                        "end": 433,
-                        "name": "deepEqual"
+                        "end": 433
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 417,
+                      "end": 433
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 434,
-                        "end": 436,
                         "value": null,
                         "raw": "1n",
-                        "bigint": "1"
+                        "bigint": "1",
+                        "start": 434,
+                        "end": 436
                       },
                       {
                         "type": "Literal",
-                        "start": 438,
-                        "end": 440,
                         "value": null,
                         "raw": "2n",
-                        "bigint": "2"
+                        "bigint": "2",
+                        "start": 438,
+                        "end": 440
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 417,
+                    "end": 441
+                  },
+                  "start": 417,
+                  "end": 442
                 }
-              ]
+              ],
+              "start": 415,
+              "end": 444
             },
-            "expression": false
+            "expression": false,
+            "start": 403,
+            "end": 444
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 375,
+        "end": 445
+      },
+      "start": 375,
+      "end": 446
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 447
 }

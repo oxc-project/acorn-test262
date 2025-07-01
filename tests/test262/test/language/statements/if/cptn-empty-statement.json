@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 461,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 312,
-      "end": 345,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 316,
-          "end": 344,
           "id": {
             "type": "Identifier",
+            "name": "__evaluated",
             "start": 316,
-            "end": 327,
-            "name": "__evaluated"
+            "end": 327
           },
           "init": {
             "type": "CallExpression",
-            "start": 330,
-            "end": 344,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 330,
-              "end": 334,
-              "name": "eval"
+              "end": 334
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 335,
-                "end": 343,
                 "value": "if(1);",
-                "raw": "\"if(1);\""
+                "raw": "\"if(1);\"",
+                "start": 335,
+                "end": 343
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 330,
+            "end": 344
+          },
+          "start": 316,
+          "end": 344
         }
-      ]
+      ],
+      "start": 312,
+      "end": 345
     },
     {
       "type": "ExpressionStatement",
-      "start": 347,
-      "end": 460,
       "expression": {
         "type": "CallExpression",
-        "start": 347,
-        "end": 459,
         "callee": {
           "type": "MemberExpression",
-          "start": 347,
-          "end": 363,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 347,
-            "end": 353,
-            "name": "assert"
+            "end": 353
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 354,
-            "end": 363,
-            "name": "sameValue"
+            "end": 363
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 347,
+          "end": 363
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "__evaluated",
             "start": 364,
-            "end": 375,
-            "name": "__evaluated"
+            "end": 375
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 377,
-            "end": 386,
-            "name": "undefined"
+            "end": 386
           },
           {
             "type": "BinaryExpression",
-            "start": 388,
-            "end": 458,
             "left": {
               "type": "Literal",
-              "start": 388,
-              "end": 445,
               "value": "#1: __evaluated === undefined. Actual:  __evaluated ===",
-              "raw": "'#1: __evaluated === undefined. Actual:  __evaluated ==='"
+              "raw": "'#1: __evaluated === undefined. Actual:  __evaluated ==='",
+              "start": 388,
+              "end": 445
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
+              "name": "__evaluated",
               "start": 447,
-              "end": 458,
-              "name": "__evaluated"
-            }
+              "end": 458
+            },
+            "start": 388,
+            "end": 458
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 347,
+        "end": 459
+      },
+      "start": 347,
+      "end": 460
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 461
 }

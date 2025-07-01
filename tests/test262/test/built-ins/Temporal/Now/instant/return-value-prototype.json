@@ -1,146 +1,146 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 469,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 284,
-      "end": 468,
       "expression": {
         "type": "CallExpression",
-        "start": 284,
-        "end": 467,
         "callee": {
           "type": "MemberExpression",
-          "start": 284,
-          "end": 300,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 284,
-            "end": 290,
-            "name": "assert"
+            "end": 290
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 291,
-            "end": 300,
-            "name": "sameValue"
+            "end": 300
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 284,
+          "end": 300
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 304,
-            "end": 349,
             "callee": {
               "type": "MemberExpression",
-              "start": 304,
-              "end": 325,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 304,
-                "end": 310,
-                "name": "Object"
+                "end": 310
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 311,
-                "end": 325,
-                "name": "getPrototypeOf"
+                "end": 325
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 304,
+              "end": 325
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 326,
-                "end": 348,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 326,
-                  "end": 346,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 326,
-                    "end": 338,
                     "object": {
                       "type": "Identifier",
+                      "name": "Temporal",
                       "start": 326,
-                      "end": 334,
-                      "name": "Temporal"
+                      "end": 334
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "Now",
                       "start": 335,
-                      "end": 338,
-                      "name": "Now"
+                      "end": 338
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 326,
+                    "end": 338
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "instant",
                     "start": 339,
-                    "end": 346,
-                    "name": "instant"
+                    "end": 346
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 326,
+                  "end": 346
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 326,
+                "end": 348
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 304,
+            "end": 349
           },
           {
             "type": "MemberExpression",
-            "start": 353,
-            "end": 379,
             "object": {
               "type": "MemberExpression",
-              "start": 353,
-              "end": 369,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 353,
-                "end": 361,
-                "name": "Temporal"
+                "end": 361
               },
               "property": {
                 "type": "Identifier",
+                "name": "Instant",
                 "start": 362,
-                "end": 369,
-                "name": "Instant"
+                "end": 369
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 353,
+              "end": 369
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 370,
-              "end": 379,
-              "name": "prototype"
+              "end": 379
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 353,
+            "end": 379
           },
           {
             "type": "Literal",
-            "start": 383,
-            "end": 465,
             "value": "Object.getPrototypeOf(Temporal.Now.instant()) returns Temporal.Instant.prototype",
-            "raw": "'Object.getPrototypeOf(Temporal.Now.instant()) returns Temporal.Instant.prototype'"
+            "raw": "'Object.getPrototypeOf(Temporal.Now.instant()) returns Temporal.Instant.prototype'",
+            "start": 383,
+            "end": 465
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 284,
+        "end": 467
+      },
+      "start": 284,
+      "end": 468
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 469
 }

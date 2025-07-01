@@ -1,125 +1,125 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 433,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 334,
-      "end": 358,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 338,
-          "end": 357,
           "id": {
             "type": "Identifier",
+            "name": "map",
             "start": 338,
-            "end": 341,
-            "name": "map"
+            "end": 341
           },
           "init": {
             "type": "NewExpression",
-            "start": 344,
-            "end": 357,
             "callee": {
               "type": "Identifier",
+              "name": "WeakMap",
               "start": 348,
-              "end": 355,
-              "name": "WeakMap"
+              "end": 355
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 344,
+            "end": 357
+          },
+          "start": 338,
+          "end": 357
         }
-      ]
+      ],
+      "start": 334,
+      "end": 358
     },
     {
       "type": "ExpressionStatement",
-      "start": 360,
-      "end": 432,
       "expression": {
         "type": "CallExpression",
-        "start": 360,
-        "end": 431,
         "callee": {
           "type": "MemberExpression",
-          "start": 360,
-          "end": 376,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 360,
-            "end": 366,
-            "name": "assert"
+            "end": 366
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 367,
-            "end": 376,
-            "name": "sameValue"
+            "end": 376
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 360,
+          "end": 376
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 377,
-            "end": 391,
             "callee": {
               "type": "MemberExpression",
-              "start": 377,
-              "end": 384,
               "object": {
                 "type": "Identifier",
+                "name": "map",
                 "start": 377,
-                "end": 380,
-                "name": "map"
+                "end": 380
               },
               "property": {
                 "type": "Identifier",
+                "name": "set",
                 "start": 381,
-                "end": 384,
-                "name": "set"
+                "end": 384
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 377,
+              "end": 384
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 385,
-                "end": 387,
-                "properties": []
+                "end": 387
               },
               {
                 "type": "Literal",
-                "start": 389,
-                "end": 390,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 389,
+                "end": 390
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 377,
+            "end": 391
           },
           {
             "type": "Identifier",
+            "name": "map",
             "start": 393,
-            "end": 396,
-            "name": "map"
+            "end": 396
           },
           {
             "type": "Literal",
-            "start": 398,
-            "end": 430,
             "value": "`map.set({}, 1)` returns `map`",
-            "raw": "'`map.set({}, 1)` returns `map`'"
+            "raw": "'`map.set({}, 1)` returns `map`'",
+            "start": 398,
+            "end": 430
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 360,
+        "end": 431
+      },
+      "start": 360,
+      "end": 432
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 433
 }

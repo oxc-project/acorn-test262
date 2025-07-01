@@ -2,77 +2,77 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 35,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 14,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 9
           },
           "init": {
             "type": "Literal",
-            "start": 12,
-            "end": 13,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 12,
+            "end": 13
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 13
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 15,
-      "end": 35,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 24,
-          "end": 32,
           "local": {
             "type": "Identifier",
-            "start": 29,
-            "end": 32,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 29,
+            "end": 32
           },
           "exported": {
             "type": "Identifier",
-            "start": 29,
-            "end": 32,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 29,
+            "end": 32
           },
-          "exportKind": "type"
+          "exportKind": "type",
+          "start": 24,
+          "end": 32
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 15,
+      "end": 35
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 35
 }
 ```

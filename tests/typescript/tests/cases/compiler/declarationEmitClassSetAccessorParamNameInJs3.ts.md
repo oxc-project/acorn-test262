@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 142,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 142,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 142,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 16,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 16
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,27 +23,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 17,
-          "end": 142,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 112,
-              "end": 140,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 116,
-                "end": 119,
                 "decorators": [],
                 "name": "bar",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 116,
+                "end": 119
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 119,
-                "end": 140,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -58,86 +46,98 @@ __ESTREE_TEST__:PASS:
                 "params": [
                   {
                     "type": "ObjectPattern",
-                    "start": 120,
-                    "end": 136,
                     "decorators": [],
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 122,
-                        "end": 134,
                         "kind": "init",
                         "key": {
                           "type": "Identifier",
-                          "start": 122,
-                          "end": 126,
                           "decorators": [],
                           "name": "prop",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 122,
+                          "end": 126
                         },
                         "value": {
                           "type": "AssignmentPattern",
-                          "start": 122,
-                          "end": 134,
                           "decorators": [],
                           "left": {
                             "type": "Identifier",
-                            "start": 122,
-                            "end": 126,
                             "decorators": [],
                             "name": "prop",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 122,
+                            "end": 126
                           },
                           "right": {
                             "type": "Literal",
-                            "start": 129,
-                            "end": 134,
                             "value": "foo",
-                            "raw": "'foo'"
+                            "raw": "'foo'",
+                            "start": 129,
+                            "end": 134
                           },
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 122,
+                          "end": 134
                         },
                         "method": false,
                         "shorthand": true,
                         "computed": false,
-                        "optional": false
+                        "optional": false,
+                        "start": 122,
+                        "end": 134
                       }
                     ],
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 120,
+                    "end": 136
                   }
                 ],
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 138,
-                  "end": 140,
-                  "body": []
+                  "end": 140
                 },
-                "expression": false
+                "expression": false,
+                "start": 119,
+                "end": 140
               },
               "kind": "set",
               "computed": false,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 112,
+              "end": 140
             }
-          ]
+          ],
+          "start": 17,
+          "end": 142
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 142
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 142
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 142
 }
 ```

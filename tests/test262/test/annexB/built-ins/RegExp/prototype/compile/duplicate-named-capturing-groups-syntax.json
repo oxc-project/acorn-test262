@@ -1,256 +1,256 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 616,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 290,
-      "end": 305,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 294,
-          "end": 304,
           "id": {
             "type": "Identifier",
+            "name": "r",
             "start": 294,
-            "end": 295,
-            "name": "r"
+            "end": 295
           },
           "init": {
             "type": "Literal",
-            "start": 298,
-            "end": 304,
             "value": null,
             "raw": "/[ab]/",
             "regex": {
               "pattern": "[ab]",
               "flags": ""
-            }
-          }
+            },
+            "start": 298,
+            "end": 304
+          },
+          "start": 294,
+          "end": 304
         }
-      ]
+      ],
+      "start": 290,
+      "end": 305
     },
     {
       "type": "ExpressionStatement",
-      "start": 307,
-      "end": 450,
       "expression": {
         "type": "CallExpression",
-        "start": 307,
-        "end": 449,
         "callee": {
           "type": "MemberExpression",
-          "start": 307,
-          "end": 320,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 307,
-            "end": 313,
-            "name": "assert"
+            "end": 313
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 314,
-            "end": 320,
-            "name": "throws"
+            "end": 320
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 307,
+          "end": 320
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 324,
-            "end": 335,
-            "name": "SyntaxError"
+            "end": 335
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 339,
-            "end": 372,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 345,
-              "end": 372,
               "callee": {
                 "type": "MemberExpression",
-                "start": 345,
-                "end": 354,
                 "object": {
                   "type": "Identifier",
+                  "name": "r",
                   "start": 345,
-                  "end": 346,
-                  "name": "r"
+                  "end": 346
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "compile",
                   "start": 347,
-                  "end": 354,
-                  "name": "compile"
+                  "end": 354
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 345,
+                "end": 354
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 355,
-                  "end": 371,
                   "value": "(?<x>a)(?<x>b)",
-                  "raw": "\"(?<x>a)(?<x>b)\""
+                  "raw": "\"(?<x>a)(?<x>b)\"",
+                  "start": 355,
+                  "end": 371
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 345,
+              "end": 372
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 339,
+            "end": 372
           },
           {
             "type": "Literal",
-            "start": 376,
-            "end": 447,
             "value": "Duplicate named capturing groups in the same alternative do not parse",
-            "raw": "\"Duplicate named capturing groups in the same alternative do not parse\""
+            "raw": "\"Duplicate named capturing groups in the same alternative do not parse\"",
+            "start": 376,
+            "end": 447
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 307,
+        "end": 449
+      },
+      "start": 307,
+      "end": 450
     },
     {
       "type": "VariableDeclaration",
-      "start": 452,
-      "end": 483,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 456,
-          "end": 482,
           "id": {
             "type": "Identifier",
+            "name": "source",
             "start": 456,
-            "end": 462,
-            "name": "source"
+            "end": 462
           },
           "init": {
             "type": "Literal",
-            "start": 465,
-            "end": 482,
             "value": "(?<x>a)|(?<x>b)",
-            "raw": "\"(?<x>a)|(?<x>b)\""
-          }
+            "raw": "\"(?<x>a)|(?<x>b)\"",
+            "start": 465,
+            "end": 482
+          },
+          "start": 456,
+          "end": 482
         }
-      ]
+      ],
+      "start": 452,
+      "end": 483
     },
     {
       "type": "ExpressionStatement",
-      "start": 484,
-      "end": 502,
       "expression": {
         "type": "CallExpression",
-        "start": 484,
-        "end": 501,
         "callee": {
           "type": "MemberExpression",
-          "start": 484,
-          "end": 493,
           "object": {
             "type": "Identifier",
+            "name": "r",
             "start": 484,
-            "end": 485,
-            "name": "r"
+            "end": 485
           },
           "property": {
             "type": "Identifier",
+            "name": "compile",
             "start": 486,
-            "end": 493,
-            "name": "compile"
+            "end": 493
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 484,
+          "end": 493
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "source",
             "start": 494,
-            "end": 500,
-            "name": "source"
+            "end": 500
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 484,
+        "end": 501
+      },
+      "start": 484,
+      "end": 502
     },
     {
       "type": "ExpressionStatement",
-      "start": 503,
-      "end": 615,
       "expression": {
         "type": "CallExpression",
-        "start": 503,
-        "end": 614,
         "callee": {
           "type": "MemberExpression",
-          "start": 503,
-          "end": 519,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 503,
-            "end": 509,
-            "name": "assert"
+            "end": 509
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 510,
-            "end": 519,
-            "name": "sameValue"
+            "end": 519
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 503,
+          "end": 519
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 520,
-            "end": 528,
             "object": {
               "type": "Identifier",
+              "name": "r",
               "start": 520,
-              "end": 521,
-              "name": "r"
+              "end": 521
             },
             "property": {
               "type": "Identifier",
+              "name": "source",
               "start": 522,
-              "end": 528,
-              "name": "source"
+              "end": 528
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 520,
+            "end": 528
           },
           {
             "type": "Identifier",
+            "name": "source",
             "start": 530,
-            "end": 536,
-            "name": "source"
+            "end": 536
           },
           {
             "type": "Literal",
-            "start": 538,
-            "end": 613,
             "value": "Duplicate named capturing groups in separate alternatives parse correctly",
-            "raw": "\"Duplicate named capturing groups in separate alternatives parse correctly\""
+            "raw": "\"Duplicate named capturing groups in separate alternatives parse correctly\"",
+            "start": 538,
+            "end": 613
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 503,
+        "end": 614
+      },
+      "start": 503,
+      "end": 615
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 616
 }

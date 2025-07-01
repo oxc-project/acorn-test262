@@ -1,51 +1,51 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 333,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 299,
-      "end": 332,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 308,
-        "end": 309,
-        "name": "f"
+        "end": 309
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 312,
-        "end": 332,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 316,
-            "end": 330,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 320,
-                "end": 329,
                 "id": {
                   "type": "Identifier",
+                  "name": "arguments",
                   "start": 320,
-                  "end": 329,
-                  "name": "arguments"
+                  "end": 329
                 },
-                "init": null
+                "init": null,
+                "start": 320,
+                "end": 329
               }
-            ]
+            ],
+            "start": 316,
+            "end": 330
           }
-        ]
+        ],
+        "start": 312,
+        "end": 332
       },
-      "expression": false
+      "expression": false,
+      "start": 299,
+      "end": 332
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 333
 }

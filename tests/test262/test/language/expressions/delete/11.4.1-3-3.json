@@ -1,99 +1,99 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 403,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 355,
-      "end": 366,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 359,
-          "end": 365,
           "id": {
             "type": "Identifier",
+            "name": "o",
             "start": 359,
-            "end": 360,
-            "name": "o"
+            "end": 360
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 363,
-            "end": 365,
-            "properties": []
-          }
+            "end": 365
+          },
+          "start": 359,
+          "end": 365
         }
-      ]
+      ],
+      "start": 355,
+      "end": 366
     },
     {
       "type": "ExpressionStatement",
-      "start": 367,
-      "end": 402,
       "expression": {
         "type": "CallExpression",
-        "start": 367,
-        "end": 401,
         "callee": {
           "type": "MemberExpression",
-          "start": 367,
-          "end": 383,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 367,
-            "end": 373,
-            "name": "assert"
+            "end": 373
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 374,
-            "end": 383,
-            "name": "sameValue"
+            "end": 383
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 367,
+          "end": 383
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 384,
-            "end": 394,
             "operator": "delete",
             "argument": {
               "type": "MemberExpression",
-              "start": 391,
-              "end": 394,
               "object": {
                 "type": "Identifier",
+                "name": "o",
                 "start": 391,
-                "end": 392,
-                "name": "o"
+                "end": 392
               },
               "property": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 393,
-                "end": 394,
-                "name": "x"
+                "end": 394
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 391,
+              "end": 394
             },
-            "prefix": true
+            "prefix": true,
+            "start": 384,
+            "end": 394
           },
           {
             "type": "Literal",
-            "start": 396,
-            "end": 400,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 396,
+            "end": 400
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 367,
+        "end": 401
+      },
+      "start": 367,
+      "end": 402
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 403
 }

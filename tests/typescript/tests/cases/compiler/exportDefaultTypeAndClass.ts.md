@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 60,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 27,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 27,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 21,
-          "end": 24,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 21,
+          "end": 24
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,54 +23,60 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 25,
-          "end": 27,
-          "body": []
+          "end": 27
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 27
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 27
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 28,
-      "end": 41,
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 36,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 33,
+        "end": 36
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
+        "members": [],
         "start": 39,
-        "end": 41,
-        "members": []
+        "end": 41
       },
-      "declare": false
+      "declare": false,
+      "start": 28,
+      "end": 41
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 42,
-      "end": 60,
       "declaration": {
         "type": "Identifier",
-        "start": 57,
-        "end": 60,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 57,
+        "end": 60
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 42,
+      "end": 60
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 60
 }
 ```

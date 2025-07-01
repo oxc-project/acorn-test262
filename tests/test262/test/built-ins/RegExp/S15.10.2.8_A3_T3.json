@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 926,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 715,
-      "end": 852,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 719,
-          "end": 851,
           "id": {
             "type": "Identifier",
+            "name": "__executed",
             "start": 719,
-            "end": 729,
-            "name": "__executed"
+            "end": 729
           },
           "init": {
             "type": "CallExpression",
-            "start": 732,
-            "end": 851,
             "callee": {
               "type": "MemberExpression",
-              "start": 732,
-              "end": 774,
               "object": {
                 "type": "Literal",
-                "start": 732,
-                "end": 769,
                 "value": null,
                 "raw": "/([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)/",
                 "regex": {
                   "pattern": "([Jj]ava([Ss]cript)?)\\sis\\s(fun\\w*)",
                   "flags": ""
-                }
+                },
+                "start": 732,
+                "end": 769
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 770,
-                "end": 774,
-                "name": "test"
+                "end": 774
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 732,
+              "end": 774
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 775,
-                "end": 850,
                 "value": "Developing with JavaScript is dangerous, do not try it without assistance",
-                "raw": "\"Developing with JavaScript is dangerous, do not try it without assistance\""
+                "raw": "\"Developing with JavaScript is dangerous, do not try it without assistance\"",
+                "start": 775,
+                "end": 850
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 732,
+            "end": 851
+          },
+          "start": 719,
+          "end": 851
         }
-      ]
+      ],
+      "start": 715,
+      "end": 852
     },
     {
       "type": "ExpressionStatement",
-      "start": 854,
-      "end": 925,
       "expression": {
         "type": "CallExpression",
-        "start": 854,
-        "end": 924,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 854,
-          "end": 860,
-          "name": "assert"
+          "end": 860
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 861,
-            "end": 872,
             "operator": "!",
             "argument": {
               "type": "Identifier",
+              "name": "__executed",
               "start": 862,
-              "end": 872,
-              "name": "__executed"
+              "end": 872
             },
-            "prefix": true
+            "prefix": true,
+            "start": 861,
+            "end": 872
           },
           {
             "type": "Literal",
-            "start": 874,
-            "end": 923,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "start": 874,
+            "end": 923
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 854,
+        "end": 924
+      },
+      "start": 854,
+      "end": 925
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 926
 }

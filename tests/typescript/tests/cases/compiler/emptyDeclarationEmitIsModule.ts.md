@@ -2,53 +2,49 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 29,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 7,
-          "end": 13,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 13,
             "decorators": [],
             "name": "i",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 13
+          },
+          "start": 7,
+          "end": 13
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 19,
-        "end": 28,
         "value": "./index",
-        "raw": "\"./index\""
+        "raw": "\"./index\"",
+        "start": 19,
+        "end": 28
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 29
     },
     {
       "type": "ClassDeclaration",
-      "start": 30,
-      "end": 42,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 36,
-        "end": 39,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 36,
+        "end": 39
       },
       "typeParameters": null,
       "superClass": null,
@@ -56,105 +52,109 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 40,
-        "end": 42,
-        "body": []
+        "end": 42
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 30,
+      "end": 42
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 26,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 15,
-        "end": 25,
         "value": "./module",
-        "raw": "\"./module\""
+        "raw": "\"./module\"",
+        "start": 15,
+        "end": 25
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 27,
-      "end": 65,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 34,
-        "end": 65,
         "id": {
           "type": "Identifier",
-          "start": 44,
-          "end": 47,
           "decorators": [],
           "name": "Bar",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 44,
+          "end": 47
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 48,
-          "end": 65,
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 54,
-              "end": 63,
               "computed": false,
               "optional": false,
               "readonly": false,
               "key": {
                 "type": "Identifier",
-                "start": 54,
-                "end": 55,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 54,
+                "end": 55
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 55,
-                "end": 63,
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 57,
                   "end": 63
-                }
+                },
+                "start": 55,
+                "end": 63
               },
               "accessibility": null,
-              "static": false
+              "static": false,
+              "start": 54,
+              "end": 63
             }
-          ]
+          ],
+          "start": 48,
+          "end": 65
         },
-        "declare": false
+        "declare": false,
+        "start": 34,
+        "end": 65
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 27,
+      "end": 65
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 65
 }
 ```

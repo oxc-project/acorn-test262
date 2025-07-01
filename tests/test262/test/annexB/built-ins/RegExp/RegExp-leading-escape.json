@@ -1,135 +1,135 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 463,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 387,
-      "end": 424,
       "expression": {
         "type": "CallExpression",
-        "start": 387,
-        "end": 423,
         "callee": {
           "type": "MemberExpression",
-          "start": 387,
-          "end": 403,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 387,
-            "end": 393,
-            "name": "assert"
+            "end": 393
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 394,
-            "end": 403,
-            "name": "sameValue"
+            "end": 403
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 387,
+          "end": 403
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 404,
-            "end": 415,
             "object": {
               "type": "Literal",
-              "start": 404,
-              "end": 408,
               "value": null,
               "raw": "/\\1/",
               "regex": {
                 "pattern": "\\1",
                 "flags": ""
-              }
+              },
+              "start": 404,
+              "end": 408
             },
             "property": {
               "type": "Identifier",
+              "name": "source",
               "start": 409,
-              "end": 415,
-              "name": "source"
+              "end": 415
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 404,
+            "end": 415
           },
           {
             "type": "Literal",
-            "start": 417,
-            "end": 422,
             "value": "\\1",
-            "raw": "\"\\\\1\""
+            "raw": "\"\\\\1\"",
+            "start": 417,
+            "end": 422
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 387,
+        "end": 423
+      },
+      "start": 387,
+      "end": 424
     },
     {
       "type": "ExpressionStatement",
-      "start": 425,
-      "end": 462,
       "expression": {
         "type": "CallExpression",
-        "start": 425,
-        "end": 461,
         "callee": {
           "type": "MemberExpression",
-          "start": 425,
-          "end": 441,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 425,
-            "end": 431,
-            "name": "assert"
+            "end": 431
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 432,
-            "end": 441,
-            "name": "sameValue"
+            "end": 441
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 425,
+          "end": 441
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 442,
-            "end": 453,
             "object": {
               "type": "Literal",
-              "start": 442,
-              "end": 446,
               "value": null,
               "raw": "/\\a/",
               "regex": {
                 "pattern": "\\a",
                 "flags": ""
-              }
+              },
+              "start": 442,
+              "end": 446
             },
             "property": {
               "type": "Identifier",
+              "name": "source",
               "start": 447,
-              "end": 453,
-              "name": "source"
+              "end": 453
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 442,
+            "end": 453
           },
           {
             "type": "Literal",
-            "start": 455,
-            "end": 460,
             "value": "\\a",
-            "raw": "\"\\\\a\""
+            "raw": "\"\\\\a\"",
+            "start": 455,
+            "end": 460
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 425,
+        "end": 461
+      },
+      "start": 425,
+      "end": 462
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 463
 }

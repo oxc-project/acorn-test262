@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 979,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 730,
-      "end": 844,
       "expression": {
         "type": "CallExpression",
-        "start": 730,
-        "end": 843,
         "callee": {
           "type": "MemberExpression",
-          "start": 730,
-          "end": 746,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 730,
-            "end": 736,
-            "name": "assert"
+            "end": 736
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 737,
-            "end": 746,
-            "name": "sameValue"
+            "end": 746
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 730,
+          "end": 746
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 747,
-            "end": 780,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 747,
-              "end": 760,
-              "name": "isConstructor"
+              "end": 760
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 761,
-                "end": 779,
                 "object": {
                   "type": "Identifier",
+                  "name": "Atomics",
                   "start": 761,
-                  "end": 768,
-                  "name": "Atomics"
+                  "end": 768
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "isLockFree",
                   "start": 769,
-                  "end": 779,
-                  "name": "isLockFree"
+                  "end": 779
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 761,
+                "end": 779
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 747,
+            "end": 780
           },
           {
             "type": "Literal",
-            "start": 782,
-            "end": 787,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 782,
+            "end": 787
           },
           {
             "type": "Literal",
-            "start": 789,
-            "end": 842,
             "value": "isConstructor(Atomics.isLockFree) must return false",
-            "raw": "'isConstructor(Atomics.isLockFree) must return false'"
+            "raw": "'isConstructor(Atomics.isLockFree) must return false'",
+            "start": 789,
+            "end": 842
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 730,
+        "end": 843
+      },
+      "start": 730,
+      "end": 844
     },
     {
       "type": "ExpressionStatement",
-      "start": 846,
-      "end": 977,
       "expression": {
         "type": "CallExpression",
-        "start": 846,
-        "end": 976,
         "callee": {
           "type": "MemberExpression",
-          "start": 846,
-          "end": 859,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 846,
-            "end": 852,
-            "name": "assert"
+            "end": 852
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 853,
-            "end": 859,
-            "name": "throws"
+            "end": 859
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 846,
+          "end": 859
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 860,
-            "end": 869,
-            "name": "TypeError"
+            "end": 869
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 871,
-            "end": 975,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 877,
-              "end": 975,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 881,
-                  "end": 973,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 881,
-                    "end": 972,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 885,
-                      "end": 903,
                       "object": {
                         "type": "Identifier",
+                        "name": "Atomics",
                         "start": 885,
-                        "end": 892,
-                        "name": "Atomics"
+                        "end": 892
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "isLockFree",
                         "start": 893,
-                        "end": 903,
-                        "name": "isLockFree"
+                        "end": 903
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 885,
+                      "end": 903
                     },
                     "arguments": [
                       {
                         "type": "NewExpression",
-                        "start": 904,
-                        "end": 971,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Int32Array",
                           "start": 908,
-                          "end": 918,
-                          "name": "Int32Array"
+                          "end": 918
                         },
                         "arguments": [
                           {
                             "type": "NewExpression",
-                            "start": 919,
-                            "end": 970,
                             "callee": {
                               "type": "Identifier",
+                              "name": "SharedArrayBuffer",
                               "start": 923,
-                              "end": 940,
-                              "name": "SharedArrayBuffer"
+                              "end": 940
                             },
                             "arguments": [
                               {
                                 "type": "MemberExpression",
-                                "start": 941,
-                                "end": 969,
                                 "object": {
                                   "type": "Identifier",
+                                  "name": "Int32Array",
                                   "start": 941,
-                                  "end": 951,
-                                  "name": "Int32Array"
+                                  "end": 951
                                 },
                                 "property": {
                                   "type": "Identifier",
+                                  "name": "BYTES_PER_ELEMENT",
                                   "start": 952,
-                                  "end": 969,
-                                  "name": "BYTES_PER_ELEMENT"
+                                  "end": 969
                                 },
                                 "optional": false,
-                                "computed": false
+                                "computed": false,
+                                "start": 941,
+                                "end": 969
                               }
-                            ]
+                            ],
+                            "start": 919,
+                            "end": 970
                           }
-                        ]
+                        ],
+                        "start": 904,
+                        "end": 971
                       }
-                    ]
-                  }
+                    ],
+                    "start": 881,
+                    "end": 972
+                  },
+                  "start": 881,
+                  "end": 973
                 }
-              ]
+              ],
+              "start": 877,
+              "end": 975
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 871,
+            "end": 975
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 846,
+        "end": 976
+      },
+      "start": 846,
+      "end": 977
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 979
 }

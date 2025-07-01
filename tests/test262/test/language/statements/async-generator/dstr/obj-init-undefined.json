@@ -1,35 +1,33 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 939,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 850,
-      "end": 878,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 866,
-        "end": 867,
-        "name": "f"
+        "end": 867
       },
       "generator": true,
       "async": true,
       "params": [
         {
           "type": "ObjectPattern",
+          "properties": [],
           "start": 868,
-          "end": 870,
-          "properties": []
+          "end": 870
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 872,
-        "end": 878,
-        "body": []
+        "end": 878
       },
-      "expression": false
+      "expression": false,
+      "start": 850,
+      "end": 878
     },
     {
       "type": "EmptyStatement",
@@ -38,85 +36,87 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 881,
-      "end": 938,
       "expression": {
         "type": "CallExpression",
-        "start": 881,
-        "end": 937,
         "callee": {
           "type": "MemberExpression",
-          "start": 881,
-          "end": 894,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 881,
-            "end": 887,
-            "name": "assert"
+            "end": 887
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 888,
-            "end": 894,
-            "name": "throws"
+            "end": 894
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 881,
+          "end": 894
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 895,
-            "end": 904,
-            "name": "TypeError"
+            "end": 904
           },
           {
             "type": "FunctionExpression",
-            "start": 906,
-            "end": 936,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 917,
-              "end": 936,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 921,
-                  "end": 934,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 921,
-                    "end": 933,
                     "callee": {
                       "type": "Identifier",
+                      "name": "f",
                       "start": 921,
-                      "end": 922,
-                      "name": "f"
+                      "end": 922
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 923,
-                        "end": 932,
-                        "name": "undefined"
+                        "end": 932
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 921,
+                    "end": 933
+                  },
+                  "start": 921,
+                  "end": 934
                 }
-              ]
+              ],
+              "start": 917,
+              "end": 936
             },
-            "expression": false
+            "expression": false,
+            "start": 906,
+            "end": 936
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 881,
+        "end": 937
+      },
+      "start": 881,
+      "end": 938
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 939
 }

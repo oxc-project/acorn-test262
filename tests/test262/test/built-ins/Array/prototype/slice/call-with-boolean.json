@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 489,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 376,
       "expression": {
         "type": "CallExpression",
-        "start": 267,
-        "end": 375,
         "callee": {
           "type": "MemberExpression",
-          "start": 267,
-          "end": 286,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 267,
-            "end": 273,
-            "name": "assert"
+            "end": 273
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 274,
-            "end": 286,
-            "name": "compareArray"
+            "end": 286
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 267,
+          "end": 286
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 287,
-            "end": 319,
             "callee": {
               "type": "MemberExpression",
-              "start": 287,
-              "end": 313,
               "object": {
                 "type": "MemberExpression",
-                "start": 287,
-                "end": 308,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 287,
-                  "end": 302,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 287,
-                    "end": 292,
-                    "name": "Array"
+                    "end": 292
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 293,
-                    "end": 302,
-                    "name": "prototype"
+                    "end": 302
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 287,
+                  "end": 302
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "slice",
                   "start": 303,
-                  "end": 308,
-                  "name": "slice"
+                  "end": 308
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 287,
+                "end": 308
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 309,
-                "end": 313,
-                "name": "call"
+                "end": 313
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 287,
+              "end": 313
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 314,
-                "end": 318,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 314,
+                "end": 318
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 287,
+            "end": 319
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 321,
-            "end": 323,
-            "elements": []
+            "end": 323
           },
           {
             "type": "Literal",
-            "start": 325,
-            "end": 374,
             "value": "Array.prototype.slice.call(true) must return []",
-            "raw": "'Array.prototype.slice.call(true) must return []'"
+            "raw": "'Array.prototype.slice.call(true) must return []'",
+            "start": 325,
+            "end": 374
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 267,
+        "end": 375
+      },
+      "start": 267,
+      "end": 376
     },
     {
       "type": "ExpressionStatement",
-      "start": 377,
-      "end": 488,
       "expression": {
         "type": "CallExpression",
-        "start": 377,
-        "end": 487,
         "callee": {
           "type": "MemberExpression",
-          "start": 377,
-          "end": 396,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 377,
-            "end": 383,
-            "name": "assert"
+            "end": 383
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 384,
-            "end": 396,
-            "name": "compareArray"
+            "end": 396
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 377,
+          "end": 396
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 397,
-            "end": 430,
             "callee": {
               "type": "MemberExpression",
-              "start": 397,
-              "end": 423,
               "object": {
                 "type": "MemberExpression",
-                "start": 397,
-                "end": 418,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 397,
-                  "end": 412,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 397,
-                    "end": 402,
-                    "name": "Array"
+                    "end": 402
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 403,
-                    "end": 412,
-                    "name": "prototype"
+                    "end": 412
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 397,
+                  "end": 412
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "slice",
                   "start": 413,
-                  "end": 418,
-                  "name": "slice"
+                  "end": 418
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 397,
+                "end": 418
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 419,
-                "end": 423,
-                "name": "call"
+                "end": 423
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 397,
+              "end": 423
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 424,
-                "end": 429,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 424,
+                "end": 429
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 397,
+            "end": 430
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 432,
-            "end": 434,
-            "elements": []
+            "end": 434
           },
           {
             "type": "Literal",
-            "start": 436,
-            "end": 486,
             "value": "Array.prototype.slice.call(false) must return []",
-            "raw": "'Array.prototype.slice.call(false) must return []'"
+            "raw": "'Array.prototype.slice.call(false) must return []'",
+            "start": 436,
+            "end": 486
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 377,
+        "end": 487
+      },
+      "start": 377,
+      "end": 488
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 489
 }

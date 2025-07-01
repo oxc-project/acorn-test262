@@ -2,101 +2,97 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 105,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 75,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 19,
         "decorators": [],
         "name": "WeirdIter",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 19
       },
       "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 28,
-          "end": 52,
           "expression": {
             "type": "Identifier",
-            "start": 28,
-            "end": 44,
             "decorators": [],
             "name": "IterableIterator",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 28,
+            "end": 44
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 44,
-            "end": 52,
             "params": [
               {
                 "type": "TSNumberKeyword",
                 "start": 45,
                 "end": 51
               }
-            ]
-          }
+            ],
+            "start": 44,
+            "end": 52
+          },
+          "start": 28,
+          "end": 52
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 53,
-        "end": 75,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 59,
-            "end": 73,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 59,
-              "end": 64,
               "decorators": [],
               "name": "hello",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 59,
+              "end": 64
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 64,
-              "end": 72,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 66,
                 "end": 72
-              }
+              },
+              "start": 64,
+              "end": 72
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 59,
+            "end": 73
           }
-        ]
+        ],
+        "start": 53,
+        "end": 75
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 75
     },
     {
       "type": "FunctionDeclaration",
-      "start": 76,
-      "end": 105,
       "id": {
         "type": "Identifier",
-        "start": 86,
-        "end": 88,
         "decorators": [],
         "name": "g1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 86,
+        "end": 88
       },
       "generator": true,
       "async": false,
@@ -105,34 +101,38 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 90,
-        "end": 101,
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 92,
-          "end": 101,
           "typeName": {
             "type": "Identifier",
-            "start": 92,
-            "end": 101,
             "decorators": [],
             "name": "WeirdIter",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 92,
+            "end": 101
           },
-          "typeArguments": null
-        }
+          "typeArguments": null,
+          "start": 92,
+          "end": 101
+        },
+        "start": 90,
+        "end": 101
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 102,
-        "end": 105,
-        "body": []
+        "end": 105
       },
-      "expression": false
+      "expression": false,
+      "start": 76,
+      "end": 105
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 105
 }
 ```

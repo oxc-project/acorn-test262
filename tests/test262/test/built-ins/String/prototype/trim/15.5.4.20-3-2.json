@@ -1,107 +1,107 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 489,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 243,
-      "end": 417,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 247,
-          "end": 416,
           "id": {
             "type": "Identifier",
+            "name": "whiteSpacesStr",
             "start": 247,
-            "end": 261,
-            "name": "whiteSpacesStr"
+            "end": 261
           },
           "init": {
             "type": "Literal",
-            "start": 264,
-            "end": 416,
             "value": "\t\n\u000b\f\r                  　﻿",
-            "raw": "\"\\u0009\\u000A\\u000B\\u000C\\u000D\\u0020\\u00A0\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u2028\\u2029\\u202F\\u205F\\u3000\\uFEFF\""
-          }
+            "raw": "\"\\u0009\\u000A\\u000B\\u000C\\u000D\\u0020\\u00A0\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u2028\\u2029\\u202F\\u205F\\u3000\\uFEFF\"",
+            "start": 264,
+            "end": 416
+          },
+          "start": 247,
+          "end": 416
         }
-      ]
+      ],
+      "start": 243,
+      "end": 417
     },
     {
       "type": "ExpressionStatement",
-      "start": 419,
-      "end": 488,
       "expression": {
         "type": "CallExpression",
-        "start": 419,
-        "end": 487,
         "callee": {
           "type": "MemberExpression",
-          "start": 419,
-          "end": 435,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 419,
-            "end": 425,
-            "name": "assert"
+            "end": 425
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 426,
-            "end": 435,
-            "name": "sameValue"
+            "end": 435
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 419,
+          "end": 435
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 436,
-            "end": 457,
             "callee": {
               "type": "MemberExpression",
-              "start": 436,
-              "end": 455,
               "object": {
                 "type": "Identifier",
+                "name": "whiteSpacesStr",
                 "start": 436,
-                "end": 450,
-                "name": "whiteSpacesStr"
+                "end": 450
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 451,
-                "end": 455,
-                "name": "trim"
+                "end": 455
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 436,
+              "end": 455
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 436,
+            "end": 457
           },
           {
             "type": "Literal",
-            "start": 459,
-            "end": 461,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "start": 459,
+            "end": 461
           },
           {
             "type": "Literal",
-            "start": 463,
-            "end": 486,
             "value": "whiteSpacesStr.trim()",
-            "raw": "'whiteSpacesStr.trim()'"
+            "raw": "'whiteSpacesStr.trim()'",
+            "start": 463,
+            "end": 486
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 419,
+        "end": 487
+      },
+      "start": 419,
+      "end": 488
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 489
 }

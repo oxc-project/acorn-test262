@@ -2,40 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 56,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 31,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 9,
-          "end": 31,
           "id": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 13,
-            "end": 31,
             "id": {
               "type": "Identifier",
-              "start": 22,
-              "end": 25,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 22,
+              "end": 25
             },
             "generator": false,
             "async": false,
@@ -45,63 +37,63 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 28,
-              "end": 31,
-              "body": []
+              "end": 31
             },
-            "expression": false
+            "expression": false,
+            "start": 13,
+            "end": 31
           },
-          "definite": false
+          "definite": false,
+          "start": 9,
+          "end": 31
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 31
     },
     {
       "type": "ExpressionStatement",
-      "start": 32,
-      "end": 56,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 32,
-        "end": 56,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 32,
-          "end": 35,
           "object": {
             "type": "Identifier",
-            "start": 32,
-            "end": 33,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 32,
+            "end": 33
           },
           "property": {
             "type": "Identifier",
-            "start": 34,
-            "end": 35,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 34,
+            "end": 35
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 32,
+          "end": 35
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 38,
-          "end": 56,
           "id": {
             "type": "Identifier",
-            "start": 47,
-            "end": 50,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 50
           },
           "generator": false,
           "async": false,
@@ -111,54 +103,52 @@ __ESTREE_TEST__:PASS:
           "returnType": null,
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 53,
-            "end": 56,
-            "body": []
+            "end": 56
           },
-          "expression": false
-        }
+          "expression": false,
+          "start": 38,
+          "end": 56
+        },
+        "start": 32,
+        "end": 56
       },
-      "directive": null
+      "directive": null,
+      "start": 32,
+      "end": 56
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 56
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 40,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 39,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "CallExpression",
-            "start": 8,
-            "end": 39,
             "callee": {
               "type": "FunctionExpression",
-              "start": 8,
-              "end": 37,
               "id": null,
               "generator": false,
               "async": false,
@@ -168,36 +158,46 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 20,
-                "end": 37,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 26,
-                    "end": 35,
                     "argument": {
                       "type": "Literal",
-                      "start": 33,
-                      "end": 34,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 33,
+                      "end": 34
+                    },
+                    "start": 26,
+                    "end": 35
                   }
-                ]
+                ],
+                "start": 20,
+                "end": 37
               },
-              "expression": false
+              "expression": false,
+              "start": 8,
+              "end": 37
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 8,
+            "end": 39
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 39
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 40
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

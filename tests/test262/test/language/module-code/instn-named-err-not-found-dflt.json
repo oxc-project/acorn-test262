@@ -1,54 +1,54 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1093,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1012,
-      "end": 1029,
       "expression": {
         "type": "CallExpression",
-        "start": 1012,
-        "end": 1028,
         "callee": {
           "type": "Identifier",
+          "name": "$DONOTEVALUATE",
           "start": 1012,
-          "end": 1026,
-          "name": "$DONOTEVALUATE"
+          "end": 1026
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1012,
+        "end": 1028
+      },
+      "start": 1012,
+      "end": 1029
     },
     {
       "type": "ImportDeclaration",
-      "start": 1031,
-      "end": 1092,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 1038,
-          "end": 1039,
           "local": {
             "type": "Identifier",
+            "name": "x",
             "start": 1038,
-            "end": 1039,
-            "name": "x"
-          }
+            "end": 1039
+          },
+          "start": 1038,
+          "end": 1039
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1045,
-        "end": 1091,
         "value": "./instn-named-err-not-found-empty_FIXTURE.js",
-        "raw": "'./instn-named-err-not-found-empty_FIXTURE.js'"
+        "raw": "'./instn-named-err-not-found-empty_FIXTURE.js'",
+        "start": 1045,
+        "end": 1091
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1031,
+      "end": 1092
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1093
 }

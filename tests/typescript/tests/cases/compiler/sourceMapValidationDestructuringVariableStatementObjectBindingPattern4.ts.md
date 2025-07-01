@@ -2,166 +2,166 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 43,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 42,
           "id": {
             "type": "ObjectPattern",
-            "start": 4,
-            "end": 21,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 5,
-                "end": 12,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 5,
-                  "end": 6,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 5,
+                  "end": 6
                 },
                 "value": {
                   "type": "AssignmentPattern",
-                  "start": 5,
-                  "end": 12,
                   "decorators": [],
                   "left": {
                     "type": "Identifier",
-                    "start": 5,
-                    "end": 6,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 5,
+                    "end": 6
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 9,
-                    "end": 12,
                     "value": 500,
-                    "raw": "500"
+                    "raw": "500",
+                    "start": 9,
+                    "end": 12
                   },
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 5,
+                  "end": 12
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 5,
+                "end": 12
               },
               {
                 "type": "Property",
-                "start": 19,
-                "end": 20,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 19,
-                  "end": 20,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 19,
+                  "end": 20
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 19,
-                  "end": 20,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 19,
+                  "end": 20
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 19,
+                "end": 20
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 21
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 24,
-            "end": 42,
             "properties": [
               {
                 "type": "Property",
-                "start": 26,
-                "end": 31,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 26,
-                  "end": 27,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 26,
+                  "end": 27
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 29,
-                  "end": 31,
                   "value": 20,
-                  "raw": "20"
+                  "raw": "20",
+                  "start": 29,
+                  "end": 31
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 26,
+                "end": 31
               },
               {
                 "type": "Property",
-                "start": 33,
-                "end": 40,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 33,
-                  "end": 34,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 33,
+                  "end": 34
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 36,
-                  "end": 40,
                   "value": "hi",
-                  "raw": "\"hi\""
+                  "raw": "\"hi\"",
+                  "start": 36,
+                  "end": 40
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 33,
+                "end": 40
               }
-            ]
+            ],
+            "start": 24,
+            "end": 42
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 42
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 43
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```

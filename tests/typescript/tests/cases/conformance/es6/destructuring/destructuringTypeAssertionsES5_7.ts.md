@@ -2,61 +2,53 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 30,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 30,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 29,
           "id": {
             "type": "ObjectPattern",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 6,
-                "end": 7,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 6,
-                  "end": 7,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 6,
+                  "end": 7
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 6,
-                  "end": 7,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 6,
+                  "end": 7
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 6,
+                "end": 7
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 9
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 12,
-            "end": 29,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 13,
@@ -64,8 +56,6 @@ __ESTREE_TEST__:PASS:
             },
             "expression": {
               "type": "TSTypeAssertion",
-              "start": 17,
-              "end": 29,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 18,
@@ -73,29 +63,39 @@ __ESTREE_TEST__:PASS:
               },
               "expression": {
                 "type": "NewExpression",
-                "start": 22,
-                "end": 29,
                 "callee": {
                   "type": "Identifier",
-                  "start": 26,
-                  "end": 29,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 26,
+                  "end": 29
                 },
                 "typeArguments": null,
-                "arguments": []
-              }
-            }
+                "arguments": [],
+                "start": 22,
+                "end": 29
+              },
+              "start": 17,
+              "end": 29
+            },
+            "start": 12,
+            "end": 29
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 29
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 30
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 30
 }
 ```

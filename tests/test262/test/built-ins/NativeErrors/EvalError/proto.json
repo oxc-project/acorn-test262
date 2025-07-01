@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 398,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 339,
-      "end": 397,
       "expression": {
         "type": "CallExpression",
-        "start": 339,
-        "end": 396,
         "callee": {
           "type": "MemberExpression",
-          "start": 339,
-          "end": 355,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 339,
-            "end": 345,
-            "name": "assert"
+            "end": 345
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 346,
-            "end": 355,
-            "name": "sameValue"
+            "end": 355
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 339,
+          "end": 355
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 356,
-            "end": 388,
             "callee": {
               "type": "MemberExpression",
-              "start": 356,
-              "end": 377,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 356,
-                "end": 362,
-                "name": "Object"
+                "end": 362
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 363,
-                "end": 377,
-                "name": "getPrototypeOf"
+                "end": 377
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 356,
+              "end": 377
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "EvalError",
                 "start": 378,
-                "end": 387,
-                "name": "EvalError"
+                "end": 387
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 356,
+            "end": 388
           },
           {
             "type": "Identifier",
+            "name": "Error",
             "start": 390,
-            "end": 395,
-            "name": "Error"
+            "end": 395
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 339,
+        "end": 396
+      },
+      "start": 339,
+      "end": 397
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 398
 }

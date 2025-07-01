@@ -2,46 +2,42 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 23,
       "declaration": {
         "type": "Literal",
-        "start": 15,
-        "end": 22,
         "value": "./foo",
-        "raw": "\"./foo\""
+        "raw": "\"./foo\"",
+        "start": 15,
+        "end": 22
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 23
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 82,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 82,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 18,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 18
       },
       "generator": false,
       "async": true,
@@ -51,67 +47,71 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 21,
-        "end": 82,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 27,
-            "end": 80,
             "argument": {
               "type": "AwaitExpression",
-              "start": 34,
-              "end": 79,
               "argument": {
                 "type": "ImportExpression",
-                "start": 40,
-                "end": 79,
                 "source": {
                   "type": "MemberExpression",
-                  "start": 47,
-                  "end": 78,
                   "object": {
                     "type": "AwaitExpression",
-                    "start": 48,
-                    "end": 69,
                     "argument": {
                       "type": "ImportExpression",
-                      "start": 54,
-                      "end": 69,
                       "source": {
                         "type": "Literal",
-                        "start": 61,
-                        "end": 68,
                         "value": "./foo",
-                        "raw": "\"./foo\""
+                        "raw": "\"./foo\"",
+                        "start": 61,
+                        "end": 68
                       },
                       "options": null,
-                      "phase": null
-                    }
+                      "phase": null,
+                      "start": 54,
+                      "end": 69
+                    },
+                    "start": 48,
+                    "end": 69
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 71,
-                    "end": 78,
                     "decorators": [],
                     "name": "default",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 71,
+                    "end": 78
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 47,
+                  "end": 78
                 },
                 "options": null,
-                "phase": null
-              }
-            }
+                "phase": null,
+                "start": 40,
+                "end": 79
+              },
+              "start": 34,
+              "end": 79
+            },
+            "start": 27,
+            "end": 80
           }
-        ]
+        ],
+        "start": 21,
+        "end": 82
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 82
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 82
 }
 ```

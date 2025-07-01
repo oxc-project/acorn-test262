@@ -2,88 +2,88 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 19,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 18,
         "callee": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 1
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 2,
-            "end": 7,
             "left": {
               "type": "Identifier",
-              "start": 2,
-              "end": 3,
               "decorators": [],
               "name": "g",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 2,
+              "end": 3
             },
             "operator": "<",
             "right": {
               "type": "Identifier",
-              "start": 6,
-              "end": 7,
               "decorators": [],
               "name": "A",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 6,
+              "end": 7
+            },
+            "start": 2,
+            "end": 7
           },
           {
             "type": "BinaryExpression",
-            "start": 9,
-            "end": 17,
             "left": {
               "type": "Identifier",
-              "start": 9,
-              "end": 10,
               "decorators": [],
               "name": "B",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 9,
+              "end": 10
             },
             "operator": ">",
             "right": {
               "type": "UnaryExpression",
-              "start": 13,
-              "end": 17,
               "operator": "+",
               "argument": {
                 "type": "Literal",
-                "start": 15,
-                "end": 16,
                 "value": 7,
-                "raw": "7"
+                "raw": "7",
+                "start": 15,
+                "end": 16
               },
-              "prefix": true
-            }
+              "prefix": true,
+              "start": 13,
+              "end": 17
+            },
+            "start": 9,
+            "end": 17
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 18
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 19
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 19
 }
 ```

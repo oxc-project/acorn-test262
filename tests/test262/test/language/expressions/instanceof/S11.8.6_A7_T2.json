@@ -1,171 +1,171 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 701,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 329,
-      "end": 342,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 333,
-          "end": 341,
           "id": {
             "type": "Identifier",
+            "name": "__arr",
             "start": 333,
-            "end": 338,
-            "name": "__arr"
+            "end": 338
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 339,
-            "end": 341,
-            "elements": []
-          }
+            "end": 341
+          },
+          "start": 333,
+          "end": 341
         }
-      ]
+      ],
+      "start": 329,
+      "end": 342
     },
     {
       "type": "IfStatement",
-      "start": 354,
-      "end": 520,
       "test": {
         "type": "UnaryExpression",
-        "start": 358,
-        "end": 383,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 359,
-          "end": 383,
           "expression": {
             "type": "BinaryExpression",
-            "start": 360,
-            "end": 382,
             "left": {
               "type": "Identifier",
+              "name": "__arr",
               "start": 360,
-              "end": 365,
-              "name": "__arr"
+              "end": 365
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Array",
               "start": 377,
-              "end": 382,
-              "name": "Array"
-            }
-          }
+              "end": 382
+            },
+            "start": 360,
+            "end": 382
+          },
+          "start": 359,
+          "end": 383
         },
-        "prefix": true
+        "prefix": true,
+        "start": 358,
+        "end": 383
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 385,
-        "end": 520,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 388,
-            "end": 518,
             "argument": {
               "type": "NewExpression",
-              "start": 394,
-              "end": 517,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 398,
-                "end": 410,
-                "name": "Test262Error"
+                "end": 410
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 411,
-                  "end": 516,
                   "value": "#1: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression",
-                  "raw": "'#1: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'"
+                  "raw": "'#1: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'",
+                  "start": 411,
+                  "end": 516
                 }
-              ]
-            }
+              ],
+              "start": 394,
+              "end": 517
+            },
+            "start": 388,
+            "end": 518
           }
-        ]
+        ],
+        "start": 385,
+        "end": 520
       },
-      "alternate": null
+      "alternate": null,
+      "start": 354,
+      "end": 520
     },
     {
       "type": "IfStatement",
-      "start": 532,
-      "end": 700,
       "test": {
         "type": "BinaryExpression",
-        "start": 536,
-        "end": 563,
         "left": {
           "type": "MemberExpression",
-          "start": 536,
-          "end": 553,
           "object": {
             "type": "Identifier",
+            "name": "__arr",
             "start": 536,
-            "end": 541,
-            "name": "__arr"
+            "end": 541
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 542,
-            "end": 553,
-            "name": "constructor"
+            "end": 553
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 536,
+          "end": 553
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "Array",
           "start": 558,
-          "end": 563,
-          "name": "Array"
-        }
+          "end": 563
+        },
+        "start": 536,
+        "end": 563
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 565,
-        "end": 700,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 568,
-            "end": 698,
             "argument": {
               "type": "NewExpression",
-              "start": 574,
-              "end": 697,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 578,
-                "end": 590,
-                "name": "Test262Error"
+                "end": 590
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 591,
-                  "end": 696,
                   "value": "#2: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression",
-                  "raw": "'#2: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'"
+                  "raw": "'#2: If instanceof returns true then GetValue(RelationalExpression) was constructed with ShiftExpression'",
+                  "start": 591,
+                  "end": 696
                 }
-              ]
-            }
+              ],
+              "start": 574,
+              "end": 697
+            },
+            "start": 568,
+            "end": 698
           }
-        ]
+        ],
+        "start": 565,
+        "end": 700
       },
-      "alternate": null
+      "alternate": null,
+      "start": 532,
+      "end": 700
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 701
 }

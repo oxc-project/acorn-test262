@@ -2,108 +2,108 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 44,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 15,
-            "end": 42,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 22,
-              "end": 42,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 26,
-                  "end": 41,
                   "id": {
                     "type": "ArrayPattern",
-                    "start": 26,
-                    "end": 32,
                     "decorators": [],
                     "elements": [
                       {
                         "type": "Identifier",
-                        "start": 27,
-                        "end": 28,
                         "decorators": [],
                         "name": "a",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 27,
+                        "end": 28
                       },
                       {
                         "type": "Identifier",
-                        "start": 30,
-                        "end": 31,
                         "decorators": [],
                         "name": "b",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 30,
+                        "end": 31
                       }
                     ],
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 26,
+                    "end": 32
                   },
                   "init": {
                     "type": "ArrayExpression",
-                    "start": 35,
-                    "end": 41,
                     "elements": [
                       {
                         "type": "Literal",
-                        "start": 36,
-                        "end": 37,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 36,
+                        "end": 37
                       },
                       {
                         "type": "Literal",
-                        "start": 39,
-                        "end": 40,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 39,
+                        "end": 40
                       }
-                    ]
+                    ],
+                    "start": 35,
+                    "end": 41
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 26,
+                  "end": 41
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 22,
+              "end": 42
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 15,
+            "end": 42
           }
-        ]
+        ],
+        "start": 9,
+        "end": 44
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 44
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```

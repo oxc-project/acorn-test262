@@ -1,349 +1,349 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 898,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 343,
-      "end": 362,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 347,
-          "end": 361,
           "id": {
             "type": "Identifier",
+            "name": "num",
             "start": 347,
-            "end": 350,
-            "name": "num"
+            "end": 350
           },
           "init": {
             "type": "Identifier",
+            "name": "Infinity",
             "start": 353,
-            "end": 361,
-            "name": "Infinity"
-          }
+            "end": 361
+          },
+          "start": 347,
+          "end": 361
         }
-      ]
+      ],
+      "start": 343,
+      "end": 362
     },
     {
       "type": "ExpressionStatement",
-      "start": 364,
-      "end": 459,
       "expression": {
         "type": "CallExpression",
-        "start": 364,
-        "end": 458,
         "callee": {
           "type": "MemberExpression",
-          "start": 364,
-          "end": 380,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 364,
-            "end": 370,
-            "name": "assert"
+            "end": 370
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 371,
-            "end": 380,
-            "name": "sameValue"
+            "end": 380
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 364,
+          "end": 380
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 381,
-            "end": 391,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "num",
               "start": 388,
-              "end": 391,
-              "name": "num"
+              "end": 391
             },
-            "prefix": true
+            "prefix": true,
+            "start": 381,
+            "end": 391
           },
           {
             "type": "Literal",
-            "start": 393,
-            "end": 401,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "start": 393,
+            "end": 401
           },
           {
             "type": "Literal",
-            "start": 403,
-            "end": 457,
             "value": "The value of `typeof num` is expected to be \"number\"",
-            "raw": "'The value of `typeof num` is expected to be \"number\"'"
+            "raw": "'The value of `typeof num` is expected to be \"number\"'",
+            "start": 403,
+            "end": 457
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 364,
+        "end": 458
+      },
+      "start": 364,
+      "end": 459
     },
     {
       "type": "VariableDeclaration",
-      "start": 461,
-      "end": 489,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 465,
-          "end": 488,
           "id": {
             "type": "Identifier",
+            "name": "n_obj",
             "start": 465,
-            "end": 470,
-            "name": "n_obj"
+            "end": 470
           },
           "init": {
             "type": "NewExpression",
-            "start": 473,
-            "end": 488,
             "callee": {
               "type": "Identifier",
+              "name": "Object",
               "start": 477,
-              "end": 483,
-              "name": "Object"
+              "end": 483
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "num",
                 "start": 484,
-                "end": 487,
-                "name": "num"
+                "end": 487
               }
-            ]
-          }
+            ],
+            "start": 473,
+            "end": 488
+          },
+          "start": 465,
+          "end": 488
         }
-      ]
+      ],
+      "start": 461,
+      "end": 489
     },
     {
       "type": "ExpressionStatement",
-      "start": 491,
-      "end": 610,
       "expression": {
         "type": "CallExpression",
-        "start": 491,
-        "end": 609,
         "callee": {
           "type": "MemberExpression",
-          "start": 491,
-          "end": 507,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 491,
-            "end": 497,
-            "name": "assert"
+            "end": 497
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 498,
-            "end": 507,
-            "name": "sameValue"
+            "end": 507
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 491,
+          "end": 507
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 508,
-            "end": 525,
             "object": {
               "type": "Identifier",
+              "name": "n_obj",
               "start": 508,
-              "end": 513,
-              "name": "n_obj"
+              "end": 513
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 514,
-              "end": 525,
-              "name": "constructor"
+              "end": 525
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 508,
+            "end": 525
           },
           {
             "type": "Identifier",
+            "name": "Number",
             "start": 527,
-            "end": 533,
-            "name": "Number"
+            "end": 533
           },
           {
             "type": "Literal",
-            "start": 535,
-            "end": 608,
             "value": "The value of n_obj.constructor is expected to equal the value of Number",
-            "raw": "'The value of n_obj.constructor is expected to equal the value of Number'"
+            "raw": "'The value of n_obj.constructor is expected to equal the value of Number'",
+            "start": 535,
+            "end": 608
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 491,
+        "end": 609
+      },
+      "start": 491,
+      "end": 610
     },
     {
       "type": "ExpressionStatement",
-      "start": 611,
-      "end": 710,
       "expression": {
         "type": "CallExpression",
-        "start": 611,
-        "end": 709,
         "callee": {
           "type": "MemberExpression",
-          "start": 611,
-          "end": 627,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 611,
-            "end": 617,
-            "name": "assert"
+            "end": 617
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 618,
-            "end": 627,
-            "name": "sameValue"
+            "end": 627
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 611,
+          "end": 627
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 628,
-            "end": 640,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "n_obj",
               "start": 635,
-              "end": 640,
-              "name": "n_obj"
+              "end": 640
             },
-            "prefix": true
+            "prefix": true,
+            "start": 628,
+            "end": 640
           },
           {
             "type": "Literal",
-            "start": 642,
-            "end": 650,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "start": 642,
+            "end": 650
           },
           {
             "type": "Literal",
-            "start": 652,
-            "end": 708,
             "value": "The value of `typeof n_obj` is expected to be \"object\"",
-            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'"
+            "raw": "'The value of `typeof n_obj` is expected to be \"object\"'",
+            "start": 652,
+            "end": 708
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 611,
+        "end": 709
+      },
+      "start": 611,
+      "end": 710
     },
     {
       "type": "ExpressionStatement",
-      "start": 711,
-      "end": 798,
       "expression": {
         "type": "CallExpression",
-        "start": 711,
-        "end": 797,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 711,
-          "end": 717,
-          "name": "assert"
+          "end": 717
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 718,
-            "end": 730,
             "left": {
               "type": "Identifier",
+              "name": "n_obj",
               "start": 718,
-              "end": 723,
-              "name": "n_obj"
+              "end": 723
             },
             "operator": "==",
             "right": {
               "type": "Identifier",
+              "name": "num",
               "start": 727,
-              "end": 730,
-              "name": "num"
-            }
+              "end": 730
+            },
+            "start": 718,
+            "end": 730
           },
           {
             "type": "Literal",
-            "start": 732,
-            "end": 796,
             "value": "The result of evaluating (n_obj == num) is expected to be true",
-            "raw": "'The result of evaluating (n_obj == num) is expected to be true'"
+            "raw": "'The result of evaluating (n_obj == num) is expected to be true'",
+            "start": 732,
+            "end": 796
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 711,
+        "end": 797
+      },
+      "start": 711,
+      "end": 798
     },
     {
       "type": "ExpressionStatement",
-      "start": 799,
-      "end": 897,
       "expression": {
         "type": "CallExpression",
-        "start": 799,
-        "end": 896,
         "callee": {
           "type": "MemberExpression",
-          "start": 799,
-          "end": 818,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 799,
-            "end": 805,
-            "name": "assert"
+            "end": 805
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 806,
-            "end": 818,
-            "name": "notSameValue"
+            "end": 818
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 799,
+          "end": 818
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "n_obj",
             "start": 819,
-            "end": 824,
-            "name": "n_obj"
+            "end": 824
           },
           {
             "type": "Identifier",
+            "name": "num",
             "start": 826,
-            "end": 829,
-            "name": "num"
+            "end": 829
           },
           {
             "type": "Literal",
-            "start": 831,
-            "end": 895,
             "value": "The value of n_obj is expected to not equal the value of `num`",
-            "raw": "'The value of n_obj is expected to not equal the value of `num`'"
+            "raw": "'The value of n_obj is expected to not equal the value of `num`'",
+            "start": 831,
+            "end": 895
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 799,
+        "end": 896
+      },
+      "start": 799,
+      "end": 897
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 898
 }

@@ -2,183 +2,183 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 18,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 17,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 17,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 15,
+              "end": 17
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 17
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 18
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 18
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 19
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 163,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 50,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 14,
-          "end": 35,
           "local": {
             "type": "Identifier",
-            "start": 19,
-            "end": 35,
             "decorators": [],
             "name": "nameSpaceBinding",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 19,
+            "end": 35
+          },
+          "start": 14,
+          "end": 35
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 41,
-        "end": 49,
         "value": "server",
-        "raw": "\"server\""
+        "raw": "\"server\"",
+        "start": 41,
+        "end": 49
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 50
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 51,
-      "end": 85,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 58,
-        "end": 85,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 62,
-            "end": 84,
             "id": {
               "type": "Identifier",
-              "start": 62,
-              "end": 63,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 62,
+              "end": 63
             },
             "init": {
               "type": "MemberExpression",
-              "start": 66,
-              "end": 84,
               "object": {
                 "type": "Identifier",
-                "start": 66,
-                "end": 82,
                 "decorators": [],
                 "name": "nameSpaceBinding",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 66,
+                "end": 82
               },
               "property": {
                 "type": "Identifier",
-                "start": 83,
-                "end": 84,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 83,
+                "end": 84
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 66,
+              "end": 84
             },
-            "definite": false
+            "definite": false,
+            "start": 62,
+            "end": 84
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 58,
+        "end": 85
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 51,
+      "end": 85
     },
     {
       "type": "ImportDeclaration",
-      "start": 86,
-      "end": 137,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 100,
-          "end": 122,
           "local": {
             "type": "Identifier",
-            "start": 105,
-            "end": 122,
             "decorators": [],
             "name": "nameSpaceBinding2",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 105,
+            "end": 122
+          },
+          "start": 100,
+          "end": 122
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 128,
-        "end": 136,
         "value": "server",
-        "raw": "\"server\""
+        "raw": "\"server\"",
+        "start": 128,
+        "end": 136
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 86,
+      "end": 137
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 163
 }
 ```

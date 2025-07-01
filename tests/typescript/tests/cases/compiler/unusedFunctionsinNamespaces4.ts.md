@@ -2,50 +2,38 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 105,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 105,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 20,
         "decorators": [],
         "name": "Validation",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 105,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 27,
-            "end": 61,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 31,
-                "end": 61,
                 "id": {
                   "type": "Identifier",
-                  "start": 31,
-                  "end": 40,
                   "decorators": [],
                   "name": "function1",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 31,
+                  "end": 40
                 },
                 "init": {
                   "type": "FunctionExpression",
-                  "start": 43,
-                  "end": 61,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -55,33 +43,35 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 54,
-                    "end": 61,
-                    "body": []
+                    "end": 61
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 43,
+                  "end": 61
                 },
-                "definite": false
+                "definite": false,
+                "start": 31,
+                "end": 61
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 27,
+            "end": 61
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 67,
-            "end": 103,
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 74,
-              "end": 103,
               "id": {
                 "type": "Identifier",
-                "start": 83,
-                "end": 92,
                 "decorators": [],
                 "name": "function2",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 83,
+                "end": 92
               },
               "generator": false,
               "async": false,
@@ -91,25 +81,35 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 95,
-                "end": 103,
-                "body": []
+                "end": 103
               },
-              "expression": false
+              "expression": false,
+              "start": 74,
+              "end": 103
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 67,
+            "end": 103
           }
-        ]
+        ],
+        "start": 21,
+        "end": 105
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 105
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 105
 }
 ```

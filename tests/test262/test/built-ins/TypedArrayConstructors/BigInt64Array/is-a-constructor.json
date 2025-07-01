@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 864,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 737,
-      "end": 839,
       "expression": {
         "type": "CallExpression",
-        "start": 737,
-        "end": 838,
         "callee": {
           "type": "MemberExpression",
-          "start": 737,
-          "end": 753,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 737,
-            "end": 743,
-            "name": "assert"
+            "end": 743
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 744,
-            "end": 753,
-            "name": "sameValue"
+            "end": 753
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 737,
+          "end": 753
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 754,
-            "end": 782,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 754,
-              "end": 767,
-              "name": "isConstructor"
+              "end": 767
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "BigInt64Array",
                 "start": 768,
-                "end": 781,
-                "name": "BigInt64Array"
+                "end": 781
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 754,
+            "end": 782
           },
           {
             "type": "Literal",
-            "start": 784,
-            "end": 788,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 784,
+            "end": 788
           },
           {
             "type": "Literal",
-            "start": 790,
-            "end": 837,
             "value": "isConstructor(BigInt64Array) must return true",
-            "raw": "'isConstructor(BigInt64Array) must return true'"
+            "raw": "'isConstructor(BigInt64Array) must return true'",
+            "start": 790,
+            "end": 837
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 737,
+        "end": 838
+      },
+      "start": 737,
+      "end": 839
     },
     {
       "type": "ExpressionStatement",
-      "start": 840,
-      "end": 860,
       "expression": {
         "type": "NewExpression",
-        "start": 840,
-        "end": 859,
         "callee": {
           "type": "Identifier",
+          "name": "BigInt64Array",
           "start": 844,
-          "end": 857,
-          "name": "BigInt64Array"
+          "end": 857
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 840,
+        "end": 859
+      },
+      "start": 840,
+      "end": 860
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 864
 }

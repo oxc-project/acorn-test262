@@ -2,92 +2,92 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 22,
       "expression": {
         "type": "SequenceExpression",
-        "start": 0,
-        "end": 21,
         "expressions": [
           {
             "type": "ConditionalExpression",
-            "start": 0,
-            "end": 13,
             "test": {
               "type": "MemberExpression",
-              "start": 0,
-              "end": 5,
               "object": {
                 "type": "Identifier",
-                "start": 0,
-                "end": 1,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 0,
+                "end": 1
               },
               "property": {
                 "type": "Identifier",
-                "start": 2,
-                "end": 5,
                 "decorators": [],
                 "name": "src",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2,
+                "end": 5
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 0,
+              "end": 5
             },
             "consequent": {
               "type": "Literal",
-              "start": 8,
-              "end": 9,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 8,
+              "end": 9
             },
             "alternate": {
               "type": "Literal",
-              "start": 12,
-              "end": 13,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 12,
+              "end": 13
+            },
+            "start": 0,
+            "end": 13
           },
           {
             "type": "LogicalExpression",
-            "start": 15,
-            "end": 21,
             "left": {
               "type": "Identifier",
-              "start": 15,
-              "end": 16,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 15,
+              "end": 16
             },
             "operator": "&&",
             "right": {
               "type": "Identifier",
-              "start": 20,
-              "end": 21,
               "decorators": [],
               "name": "d",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 20,
+              "end": 21
+            },
+            "start": 15,
+            "end": 21
           }
-        ]
+        ],
+        "start": 0,
+        "end": 21
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 22
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```

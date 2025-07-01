@@ -1,154 +1,154 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 745,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 368,
-      "end": 401,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 368,
-        "end": 400,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 368,
-          "end": 396,
           "object": {
             "type": "MemberExpression",
-            "start": 368,
-            "end": 386,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 368,
-              "end": 376,
-              "name": "Function"
+              "end": 376
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 377,
-              "end": 386,
-              "name": "prototype"
+              "end": 386
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 368,
+            "end": 386
           },
           "property": {
             "type": "Identifier",
+            "name": "indicator",
             "start": 387,
-            "end": 396,
-            "name": "indicator"
+            "end": 396
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 368,
+          "end": 396
         },
         "right": {
           "type": "Literal",
-          "start": 399,
-          "end": 400,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 399,
+          "end": 400
+        },
+        "start": 368,
+        "end": 400
+      },
+      "start": 368,
+      "end": 401
     },
     {
       "type": "IfStatement",
-      "start": 492,
-      "end": 662,
       "test": {
         "type": "BinaryExpression",
-        "start": 496,
-        "end": 518,
         "left": {
           "type": "MemberExpression",
-          "start": 496,
-          "end": 512,
           "object": {
             "type": "Identifier",
+            "name": "String",
             "start": 496,
-            "end": 502,
-            "name": "String"
+            "end": 502
           },
           "property": {
             "type": "Identifier",
+            "name": "indicator",
             "start": 503,
-            "end": 512,
-            "name": "indicator"
+            "end": 512
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 496,
+          "end": 512
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 517,
-          "end": 518,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 517,
+          "end": 518
+        },
+        "start": 496,
+        "end": 518
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 520,
-        "end": 662,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 524,
-            "end": 660,
             "argument": {
               "type": "NewExpression",
-              "start": 530,
-              "end": 659,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 534,
-                "end": 546,
-                "name": "Test262Error"
+                "end": 546
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 547,
-                  "end": 658,
                   "left": {
                     "type": "Literal",
-                    "start": 547,
-                    "end": 639,
                     "value": "#1: Function.prototype.indicator = 1; String.indicator === 1. Actual: String.indicator ===",
-                    "raw": "'#1: Function.prototype.indicator = 1; String.indicator === 1. Actual: String.indicator ==='"
+                    "raw": "'#1: Function.prototype.indicator = 1; String.indicator === 1. Actual: String.indicator ==='",
+                    "start": 547,
+                    "end": 639
                   },
                   "operator": "+",
                   "right": {
                     "type": "MemberExpression",
-                    "start": 642,
-                    "end": 658,
                     "object": {
                       "type": "Identifier",
+                      "name": "String",
                       "start": 642,
-                      "end": 648,
-                      "name": "String"
+                      "end": 648
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "indicator",
                       "start": 649,
-                      "end": 658,
-                      "name": "indicator"
+                      "end": 658
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 642,
+                    "end": 658
+                  },
+                  "start": 547,
+                  "end": 658
                 }
-              ]
-            }
+              ],
+              "start": 530,
+              "end": 659
+            },
+            "start": 524,
+            "end": 660
           }
-        ]
+        ],
+        "start": 520,
+        "end": 662
       },
-      "alternate": null
+      "alternate": null,
+      "start": 492,
+      "end": 662
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 745
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 71,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "Greeter",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 13
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,30 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 14,
-        "end": 71,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 20,
-            "end": 34,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 27,
-              "end": 28,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 27,
+              "end": 28
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 31,
-              "end": 33,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 31,
+              "end": 33
             },
             "computed": false,
             "static": false,
@@ -57,27 +49,25 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 20,
+            "end": 34
           },
           {
             "type": "PropertyDefinition",
-            "start": 39,
-            "end": 69,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 46,
-              "end": 53,
               "decorators": [],
               "name": "returnA",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 46,
+              "end": 53
             },
             "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
-              "start": 56,
-              "end": 68,
               "expression": true,
               "async": false,
               "typeParameters": null,
@@ -85,8 +75,6 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "MemberExpression",
-                "start": 62,
-                "end": 68,
                 "object": {
                   "type": "ThisExpression",
                   "start": 62,
@@ -94,18 +82,22 @@ __ESTREE_TEST__:PASS:
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 67,
-                  "end": 68,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 67,
+                  "end": 68
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 62,
+                "end": 68
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 56,
+              "end": 68
             },
             "computed": false,
             "static": false,
@@ -114,15 +106,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 39,
+            "end": 69
           }
-        ]
+        ],
+        "start": 14,
+        "end": 71
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 71
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 71
 }
 ```

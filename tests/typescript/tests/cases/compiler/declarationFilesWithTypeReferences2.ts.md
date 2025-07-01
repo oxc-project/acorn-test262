@@ -2,86 +2,82 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 40,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 16,
         "decorators": [],
         "name": "Error2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 16
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 17,
-        "end": 40,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 23,
-            "end": 38,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 23,
-              "end": 29,
               "decorators": [],
               "name": "stack2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 29
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 29,
-              "end": 37,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 31,
                 "end": 37
-              }
+              },
+              "start": 29,
+              "end": 37
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 23,
+            "end": 38
           }
-        ]
+        ],
+        "start": 17,
+        "end": 40
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 40
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 41
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 48,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -90,49 +86,53 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 14,
-        "end": 22,
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 16,
-          "end": 22,
           "typeName": {
             "type": "Identifier",
-            "start": 16,
-            "end": 22,
             "decorators": [],
             "name": "Error2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 22
           },
-          "typeArguments": null
-        }
+          "typeArguments": null,
+          "start": 16,
+          "end": 22
+        },
+        "start": 14,
+        "end": 22
       },
       "body": {
         "type": "BlockStatement",
-        "start": 23,
-        "end": 48,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 29,
-            "end": 46,
             "argument": {
               "type": "Identifier",
-              "start": 36,
-              "end": 45,
               "decorators": [],
               "name": "undefined",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 45
+            },
+            "start": 29,
+            "end": 46
           }
-        ]
+        ],
+        "start": 23,
+        "end": 48
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 48
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 48
 }
 ```

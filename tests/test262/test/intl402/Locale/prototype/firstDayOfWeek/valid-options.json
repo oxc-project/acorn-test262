@@ -1,896 +1,896 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1285,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 378,
-      "end": 783,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 384,
-          "end": 782,
           "id": {
             "type": "Identifier",
+            "name": "validFirstDayOfWeekOptions",
             "start": 384,
-            "end": 410,
-            "name": "validFirstDayOfWeekOptions"
+            "end": 410
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 413,
-            "end": 782,
             "elements": [
               {
                 "type": "ArrayExpression",
-                "start": 417,
-                "end": 431,
                 "elements": [
                   {
                     "type": "Literal",
+                    "value": "mon",
+                    "raw": "\"mon\"",
                     "start": 418,
-                    "end": 423,
-                    "value": "mon",
-                    "raw": "\"mon\""
+                    "end": 423
                   },
                   {
                     "type": "Literal",
+                    "value": "mon",
+                    "raw": "\"mon\"",
                     "start": 425,
-                    "end": 430,
-                    "value": "mon",
-                    "raw": "\"mon\""
+                    "end": 430
                   }
-                ]
+                ],
+                "start": 417,
+                "end": 431
               },
               {
                 "type": "ArrayExpression",
-                "start": 435,
-                "end": 449,
                 "elements": [
                   {
                     "type": "Literal",
+                    "value": "tue",
+                    "raw": "\"tue\"",
                     "start": 436,
-                    "end": 441,
-                    "value": "tue",
-                    "raw": "\"tue\""
+                    "end": 441
                   },
                   {
                     "type": "Literal",
+                    "value": "tue",
+                    "raw": "\"tue\"",
                     "start": 443,
-                    "end": 448,
-                    "value": "tue",
-                    "raw": "\"tue\""
+                    "end": 448
                   }
-                ]
+                ],
+                "start": 435,
+                "end": 449
               },
               {
                 "type": "ArrayExpression",
-                "start": 453,
-                "end": 467,
                 "elements": [
                   {
                     "type": "Literal",
+                    "value": "wed",
+                    "raw": "\"wed\"",
                     "start": 454,
-                    "end": 459,
-                    "value": "wed",
-                    "raw": "\"wed\""
+                    "end": 459
                   },
                   {
                     "type": "Literal",
+                    "value": "wed",
+                    "raw": "\"wed\"",
                     "start": 461,
-                    "end": 466,
-                    "value": "wed",
-                    "raw": "\"wed\""
+                    "end": 466
                   }
-                ]
+                ],
+                "start": 453,
+                "end": 467
               },
               {
                 "type": "ArrayExpression",
-                "start": 471,
-                "end": 485,
                 "elements": [
                   {
                     "type": "Literal",
+                    "value": "thu",
+                    "raw": "\"thu\"",
                     "start": 472,
-                    "end": 477,
-                    "value": "thu",
-                    "raw": "\"thu\""
+                    "end": 477
                   },
                   {
                     "type": "Literal",
+                    "value": "thu",
+                    "raw": "\"thu\"",
                     "start": 479,
-                    "end": 484,
-                    "value": "thu",
-                    "raw": "\"thu\""
+                    "end": 484
                   }
-                ]
+                ],
+                "start": 471,
+                "end": 485
               },
               {
                 "type": "ArrayExpression",
-                "start": 489,
-                "end": 503,
                 "elements": [
                   {
                     "type": "Literal",
+                    "value": "fri",
+                    "raw": "\"fri\"",
                     "start": 490,
-                    "end": 495,
-                    "value": "fri",
-                    "raw": "\"fri\""
+                    "end": 495
                   },
                   {
                     "type": "Literal",
+                    "value": "fri",
+                    "raw": "\"fri\"",
                     "start": 497,
-                    "end": 502,
-                    "value": "fri",
-                    "raw": "\"fri\""
+                    "end": 502
                   }
-                ]
+                ],
+                "start": 489,
+                "end": 503
               },
               {
                 "type": "ArrayExpression",
-                "start": 507,
-                "end": 521,
                 "elements": [
                   {
                     "type": "Literal",
+                    "value": "sat",
+                    "raw": "\"sat\"",
                     "start": 508,
-                    "end": 513,
-                    "value": "sat",
-                    "raw": "\"sat\""
+                    "end": 513
                   },
                   {
                     "type": "Literal",
+                    "value": "sat",
+                    "raw": "\"sat\"",
                     "start": 515,
-                    "end": 520,
-                    "value": "sat",
-                    "raw": "\"sat\""
+                    "end": 520
                   }
-                ]
+                ],
+                "start": 507,
+                "end": 521
               },
               {
                 "type": "ArrayExpression",
-                "start": 525,
-                "end": 539,
                 "elements": [
                   {
                     "type": "Literal",
+                    "value": "sun",
+                    "raw": "\"sun\"",
                     "start": 526,
-                    "end": 531,
-                    "value": "sun",
-                    "raw": "\"sun\""
+                    "end": 531
                   },
                   {
                     "type": "Literal",
+                    "value": "sun",
+                    "raw": "\"sun\"",
                     "start": 533,
-                    "end": 538,
-                    "value": "sun",
-                    "raw": "\"sun\""
+                    "end": 538
                   }
-                ]
+                ],
+                "start": 525,
+                "end": 539
               },
               {
                 "type": "ArrayExpression",
-                "start": 543,
-                "end": 555,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 544,
-                    "end": 547,
                     "value": "1",
-                    "raw": "\"1\""
+                    "raw": "\"1\"",
+                    "start": 544,
+                    "end": 547
                   },
                   {
                     "type": "Literal",
+                    "value": "mon",
+                    "raw": "\"mon\"",
                     "start": 549,
-                    "end": 554,
-                    "value": "mon",
-                    "raw": "\"mon\""
+                    "end": 554
                   }
-                ]
+                ],
+                "start": 543,
+                "end": 555
               },
               {
                 "type": "ArrayExpression",
-                "start": 559,
-                "end": 571,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 560,
-                    "end": 563,
                     "value": "2",
-                    "raw": "\"2\""
+                    "raw": "\"2\"",
+                    "start": 560,
+                    "end": 563
                   },
                   {
                     "type": "Literal",
+                    "value": "tue",
+                    "raw": "\"tue\"",
                     "start": 565,
-                    "end": 570,
-                    "value": "tue",
-                    "raw": "\"tue\""
+                    "end": 570
                   }
-                ]
+                ],
+                "start": 559,
+                "end": 571
               },
               {
                 "type": "ArrayExpression",
-                "start": 575,
-                "end": 587,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 576,
-                    "end": 579,
                     "value": "3",
-                    "raw": "\"3\""
+                    "raw": "\"3\"",
+                    "start": 576,
+                    "end": 579
                   },
                   {
                     "type": "Literal",
+                    "value": "wed",
+                    "raw": "\"wed\"",
                     "start": 581,
-                    "end": 586,
-                    "value": "wed",
-                    "raw": "\"wed\""
+                    "end": 586
                   }
-                ]
+                ],
+                "start": 575,
+                "end": 587
               },
               {
                 "type": "ArrayExpression",
-                "start": 591,
-                "end": 603,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 592,
-                    "end": 595,
                     "value": "4",
-                    "raw": "\"4\""
+                    "raw": "\"4\"",
+                    "start": 592,
+                    "end": 595
                   },
                   {
                     "type": "Literal",
+                    "value": "thu",
+                    "raw": "\"thu\"",
                     "start": 597,
-                    "end": 602,
-                    "value": "thu",
-                    "raw": "\"thu\""
+                    "end": 602
                   }
-                ]
+                ],
+                "start": 591,
+                "end": 603
               },
               {
                 "type": "ArrayExpression",
-                "start": 607,
-                "end": 619,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 608,
-                    "end": 611,
                     "value": "5",
-                    "raw": "\"5\""
+                    "raw": "\"5\"",
+                    "start": 608,
+                    "end": 611
                   },
                   {
                     "type": "Literal",
+                    "value": "fri",
+                    "raw": "\"fri\"",
                     "start": 613,
-                    "end": 618,
-                    "value": "fri",
-                    "raw": "\"fri\""
+                    "end": 618
                   }
-                ]
+                ],
+                "start": 607,
+                "end": 619
               },
               {
                 "type": "ArrayExpression",
-                "start": 623,
-                "end": 635,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 624,
-                    "end": 627,
                     "value": "6",
-                    "raw": "\"6\""
+                    "raw": "\"6\"",
+                    "start": 624,
+                    "end": 627
                   },
                   {
                     "type": "Literal",
+                    "value": "sat",
+                    "raw": "\"sat\"",
                     "start": 629,
-                    "end": 634,
-                    "value": "sat",
-                    "raw": "\"sat\""
+                    "end": 634
                   }
-                ]
+                ],
+                "start": 623,
+                "end": 635
               },
               {
                 "type": "ArrayExpression",
-                "start": 639,
-                "end": 651,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 640,
-                    "end": 643,
                     "value": "7",
-                    "raw": "\"7\""
+                    "raw": "\"7\"",
+                    "start": 640,
+                    "end": 643
                   },
                   {
                     "type": "Literal",
+                    "value": "sun",
+                    "raw": "\"sun\"",
                     "start": 645,
-                    "end": 650,
-                    "value": "sun",
-                    "raw": "\"sun\""
+                    "end": 650
                   }
-                ]
+                ],
+                "start": 639,
+                "end": 651
               },
               {
                 "type": "ArrayExpression",
-                "start": 655,
-                "end": 667,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 656,
-                    "end": 659,
                     "value": "0",
-                    "raw": "\"0\""
+                    "raw": "\"0\"",
+                    "start": 656,
+                    "end": 659
                   },
                   {
                     "type": "Literal",
+                    "value": "sun",
+                    "raw": "\"sun\"",
                     "start": 661,
-                    "end": 666,
-                    "value": "sun",
-                    "raw": "\"sun\""
+                    "end": 666
                   }
-                ]
+                ],
+                "start": 655,
+                "end": 667
               },
               {
                 "type": "ArrayExpression",
-                "start": 671,
-                "end": 681,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 672,
-                    "end": 673,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 672,
+                    "end": 673
                   },
                   {
                     "type": "Literal",
-                    "start": 675,
-                    "end": 680,
                     "value": "mon",
-                    "raw": "\"mon\""
+                    "raw": "\"mon\"",
+                    "start": 675,
+                    "end": 680
                   }
-                ]
+                ],
+                "start": 671,
+                "end": 681
               },
               {
                 "type": "ArrayExpression",
-                "start": 685,
-                "end": 695,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 686,
-                    "end": 687,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "start": 686,
+                    "end": 687
                   },
                   {
                     "type": "Literal",
-                    "start": 689,
-                    "end": 694,
                     "value": "tue",
-                    "raw": "\"tue\""
+                    "raw": "\"tue\"",
+                    "start": 689,
+                    "end": 694
                   }
-                ]
+                ],
+                "start": 685,
+                "end": 695
               },
               {
                 "type": "ArrayExpression",
-                "start": 699,
-                "end": 709,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 700,
-                    "end": 701,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "start": 700,
+                    "end": 701
                   },
                   {
                     "type": "Literal",
-                    "start": 703,
-                    "end": 708,
                     "value": "wed",
-                    "raw": "\"wed\""
+                    "raw": "\"wed\"",
+                    "start": 703,
+                    "end": 708
                   }
-                ]
+                ],
+                "start": 699,
+                "end": 709
               },
               {
                 "type": "ArrayExpression",
-                "start": 713,
-                "end": 723,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 714,
-                    "end": 715,
                     "value": 4,
-                    "raw": "4"
+                    "raw": "4",
+                    "start": 714,
+                    "end": 715
                   },
                   {
                     "type": "Literal",
-                    "start": 717,
-                    "end": 722,
                     "value": "thu",
-                    "raw": "\"thu\""
+                    "raw": "\"thu\"",
+                    "start": 717,
+                    "end": 722
                   }
-                ]
+                ],
+                "start": 713,
+                "end": 723
               },
               {
                 "type": "ArrayExpression",
-                "start": 727,
-                "end": 737,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 728,
-                    "end": 729,
                     "value": 5,
-                    "raw": "5"
+                    "raw": "5",
+                    "start": 728,
+                    "end": 729
                   },
                   {
                     "type": "Literal",
-                    "start": 731,
-                    "end": 736,
                     "value": "fri",
-                    "raw": "\"fri\""
+                    "raw": "\"fri\"",
+                    "start": 731,
+                    "end": 736
                   }
-                ]
+                ],
+                "start": 727,
+                "end": 737
               },
               {
                 "type": "ArrayExpression",
-                "start": 741,
-                "end": 751,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 742,
-                    "end": 743,
                     "value": 6,
-                    "raw": "6"
+                    "raw": "6",
+                    "start": 742,
+                    "end": 743
                   },
                   {
                     "type": "Literal",
-                    "start": 745,
-                    "end": 750,
                     "value": "sat",
-                    "raw": "\"sat\""
+                    "raw": "\"sat\"",
+                    "start": 745,
+                    "end": 750
                   }
-                ]
+                ],
+                "start": 741,
+                "end": 751
               },
               {
                 "type": "ArrayExpression",
-                "start": 755,
-                "end": 765,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 756,
-                    "end": 757,
                     "value": 7,
-                    "raw": "7"
+                    "raw": "7",
+                    "start": 756,
+                    "end": 757
                   },
                   {
                     "type": "Literal",
-                    "start": 759,
-                    "end": 764,
                     "value": "sun",
-                    "raw": "\"sun\""
+                    "raw": "\"sun\"",
+                    "start": 759,
+                    "end": 764
                   }
-                ]
+                ],
+                "start": 755,
+                "end": 765
               },
               {
                 "type": "ArrayExpression",
-                "start": 769,
-                "end": 779,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 770,
-                    "end": 771,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 770,
+                    "end": 771
                   },
                   {
                     "type": "Literal",
-                    "start": 773,
-                    "end": 778,
                     "value": "sun",
-                    "raw": "\"sun\""
+                    "raw": "\"sun\"",
+                    "start": 773,
+                    "end": 778
                   }
-                ]
+                ],
+                "start": 769,
+                "end": 779
               }
-            ]
-          }
+            ],
+            "start": 413,
+            "end": 782
+          },
+          "start": 384,
+          "end": 782
         }
-      ]
+      ],
+      "start": 378,
+      "end": 783
     },
     {
       "type": "ForOfStatement",
-      "start": 784,
-      "end": 1284,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 789,
-        "end": 821,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 795,
-            "end": 821,
             "id": {
               "type": "ArrayPattern",
-              "start": 795,
-              "end": 821,
               "elements": [
                 {
                   "type": "Identifier",
+                  "name": "firstDayOfWeek",
                   "start": 796,
-                  "end": 810,
-                  "name": "firstDayOfWeek"
+                  "end": 810
                 },
                 {
                   "type": "Identifier",
+                  "name": "expected",
                   "start": 812,
-                  "end": 820,
-                  "name": "expected"
+                  "end": 820
                 }
-              ]
+              ],
+              "start": 795,
+              "end": 821
             },
-            "init": null
+            "init": null,
+            "start": 795,
+            "end": 821
           }
-        ]
+        ],
+        "start": 789,
+        "end": 821
       },
       "right": {
         "type": "Identifier",
+        "name": "validFirstDayOfWeekOptions",
         "start": 825,
-        "end": 851,
-        "name": "validFirstDayOfWeekOptions"
+        "end": 851
       },
       "body": {
         "type": "BlockStatement",
-        "start": 853,
-        "end": 1284,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 857,
-            "end": 1059,
             "expression": {
               "type": "CallExpression",
-              "start": 857,
-              "end": 1058,
               "callee": {
                 "type": "MemberExpression",
-                "start": 857,
-                "end": 873,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 857,
-                  "end": 863,
-                  "name": "assert"
+                  "end": 863
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 864,
-                  "end": 873,
-                  "name": "sameValue"
+                  "end": 873
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 857,
+                "end": 873
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 879,
-                  "end": 935,
                   "object": {
                     "type": "NewExpression",
-                    "start": 879,
-                    "end": 920,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 883,
-                      "end": 894,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 883,
-                        "end": 887,
-                        "name": "Intl"
+                        "end": 887
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Locale",
                         "start": 888,
-                        "end": 894,
-                        "name": "Locale"
+                        "end": 894
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 883,
+                      "end": 894
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 895,
-                        "end": 899,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "start": 895,
+                        "end": 899
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 901,
-                        "end": 919,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 903,
-                            "end": 917,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "firstDayOfWeek",
                               "start": 903,
-                              "end": 917,
-                              "name": "firstDayOfWeek"
+                              "end": 917
                             },
                             "value": {
                               "type": "Identifier",
+                              "name": "firstDayOfWeek",
                               "start": 903,
-                              "end": 917,
-                              "name": "firstDayOfWeek"
+                              "end": 917
                             },
                             "method": false,
                             "shorthand": true,
-                            "computed": false
+                            "computed": false,
+                            "start": 903,
+                            "end": 917
                           }
-                        ]
+                        ],
+                        "start": 901,
+                        "end": 919
                       }
-                    ]
+                    ],
+                    "start": 879,
+                    "end": 920
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "firstDayOfWeek",
                     "start": 921,
-                    "end": 935,
-                    "name": "firstDayOfWeek"
+                    "end": 935
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 879,
+                  "end": 935
                 },
                 {
                   "type": "Identifier",
+                  "name": "expected",
                   "start": 941,
-                  "end": 949,
-                  "name": "expected"
+                  "end": 949
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 955,
-                  "end": 1054,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 956,
-                      "end": 996,
                       "value": {
                         "raw": "new Intl.Locale(\"en\", { firstDayOfWeek: ",
                         "cooked": "new Intl.Locale(\"en\", { firstDayOfWeek: "
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 956,
+                      "end": 996
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1013,
-                      "end": 1041,
                       "value": {
                         "raw": " }).firstDayOfWeek returns \"",
                         "cooked": " }).firstDayOfWeek returns \""
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 1013,
+                      "end": 1041
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1052,
-                      "end": 1053,
                       "value": {
                         "raw": "\"",
                         "cooked": "\""
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 1052,
+                      "end": 1053
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
+                      "name": "firstDayOfWeek",
                       "start": 998,
-                      "end": 1012,
-                      "name": "firstDayOfWeek"
+                      "end": 1012
                     },
                     {
                       "type": "Identifier",
+                      "name": "expected",
                       "start": 1043,
-                      "end": 1051,
-                      "name": "expected"
+                      "end": 1051
                     }
-                  ]
+                  ],
+                  "start": 955,
+                  "end": 1054
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 857,
+              "end": 1058
+            },
+            "start": 857,
+            "end": 1059
           },
           {
             "type": "ExpressionStatement",
-            "start": 1062,
-            "end": 1282,
             "expression": {
               "type": "CallExpression",
-              "start": 1062,
-              "end": 1281,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1062,
-                "end": 1078,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 1062,
-                  "end": 1068,
-                  "name": "assert"
+                  "end": 1068
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 1069,
-                  "end": 1078,
-                  "name": "sameValue"
+                  "end": 1078
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1062,
+                "end": 1078
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 1084,
-                  "end": 1149,
                   "object": {
                     "type": "NewExpression",
-                    "start": 1084,
-                    "end": 1134,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1088,
-                      "end": 1099,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 1088,
-                        "end": 1092,
-                        "name": "Intl"
+                        "end": 1092
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Locale",
                         "start": 1093,
-                        "end": 1099,
-                        "name": "Locale"
+                        "end": 1099
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1088,
+                      "end": 1099
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1100,
-                        "end": 1113,
                         "value": "en-u-fw-WED",
-                        "raw": "'en-u-fw-WED'"
+                        "raw": "'en-u-fw-WED'",
+                        "start": 1100,
+                        "end": 1113
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 1115,
-                        "end": 1133,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 1117,
-                            "end": 1131,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "firstDayOfWeek",
                               "start": 1117,
-                              "end": 1131,
-                              "name": "firstDayOfWeek"
+                              "end": 1131
                             },
                             "value": {
                               "type": "Identifier",
+                              "name": "firstDayOfWeek",
                               "start": 1117,
-                              "end": 1131,
-                              "name": "firstDayOfWeek"
+                              "end": 1131
                             },
                             "method": false,
                             "shorthand": true,
-                            "computed": false
+                            "computed": false,
+                            "start": 1117,
+                            "end": 1131
                           }
-                        ]
+                        ],
+                        "start": 1115,
+                        "end": 1133
                       }
-                    ]
+                    ],
+                    "start": 1084,
+                    "end": 1134
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "firstDayOfWeek",
                     "start": 1135,
-                    "end": 1149,
-                    "name": "firstDayOfWeek"
+                    "end": 1149
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 1084,
+                  "end": 1149
                 },
                 {
                   "type": "Identifier",
+                  "name": "expected",
                   "start": 1155,
-                  "end": 1163,
-                  "name": "expected"
+                  "end": 1163
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 1169,
-                  "end": 1277,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 1170,
-                      "end": 1219,
                       "value": {
                         "raw": "new Intl.Locale(\"en-u-fw-WED\", { firstDayOfWeek: ",
                         "cooked": "new Intl.Locale(\"en-u-fw-WED\", { firstDayOfWeek: "
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 1170,
+                      "end": 1219
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1236,
-                      "end": 1264,
                       "value": {
                         "raw": " }).firstDayOfWeek returns \"",
                         "cooked": " }).firstDayOfWeek returns \""
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 1236,
+                      "end": 1264
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1275,
-                      "end": 1276,
                       "value": {
                         "raw": "\"",
                         "cooked": "\""
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 1275,
+                      "end": 1276
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
+                      "name": "firstDayOfWeek",
                       "start": 1221,
-                      "end": 1235,
-                      "name": "firstDayOfWeek"
+                      "end": 1235
                     },
                     {
                       "type": "Identifier",
+                      "name": "expected",
                       "start": 1266,
-                      "end": 1274,
-                      "name": "expected"
+                      "end": 1274
                     }
-                  ]
+                  ],
+                  "start": 1169,
+                  "end": 1277
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 1062,
+              "end": 1281
+            },
+            "start": 1062,
+            "end": 1282
           }
-        ]
-      }
+        ],
+        "start": 853,
+        "end": 1284
+      },
+      "start": 784,
+      "end": 1284
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1285
 }

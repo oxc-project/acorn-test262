@@ -1,121 +1,121 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 543,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 313,
-      "end": 369,
       "expression": {
         "type": "CallExpression",
-        "start": 313,
-        "end": 368,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotWritable",
           "start": 313,
-          "end": 330,
-          "name": "verifyNotWritable"
+          "end": 330
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Number",
             "start": 331,
-            "end": 337,
-            "name": "Number"
+            "end": 337
           },
           {
             "type": "Literal",
-            "start": 339,
-            "end": 358,
             "value": "NEGATIVE_INFINITY",
-            "raw": "\"NEGATIVE_INFINITY\""
+            "raw": "\"NEGATIVE_INFINITY\"",
+            "start": 339,
+            "end": 358
           },
           {
             "type": "Literal",
-            "start": 360,
-            "end": 364,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 360,
+            "end": 364
           },
           {
             "type": "Literal",
-            "start": 366,
-            "end": 367,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 366,
+            "end": 367
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 313,
+        "end": 368
+      },
+      "start": 313,
+      "end": 369
     },
     {
       "type": "ExpressionStatement",
-      "start": 371,
-      "end": 496,
       "expression": {
         "type": "CallExpression",
-        "start": 371,
-        "end": 495,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 371,
-          "end": 377,
-          "name": "assert"
+          "end": 377
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 381,
-            "end": 416,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 382,
-              "end": 416,
               "callee": {
                 "type": "Identifier",
+                "name": "isFinite",
                 "start": 382,
-                "end": 390,
-                "name": "isFinite"
+                "end": 390
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 391,
-                  "end": 415,
                   "object": {
                     "type": "Identifier",
+                    "name": "Number",
                     "start": 391,
-                    "end": 397,
-                    "name": "Number"
+                    "end": 397
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "NEGATIVE_INFINITY",
                     "start": 398,
-                    "end": 415,
-                    "name": "NEGATIVE_INFINITY"
+                    "end": 415
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 391,
+                  "end": 415
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 382,
+              "end": 416
             },
-            "prefix": true
+            "prefix": true,
+            "start": 381,
+            "end": 416
           },
           {
             "type": "Literal",
-            "start": 420,
-            "end": 493,
             "value": "The value of !isFinite(Number.NEGATIVE_INFINITY) is expected to be true",
-            "raw": "'The value of !isFinite(Number.NEGATIVE_INFINITY) is expected to be true'"
+            "raw": "'The value of !isFinite(Number.NEGATIVE_INFINITY) is expected to be true'",
+            "start": 420,
+            "end": 493
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 371,
+        "end": 495
+      },
+      "start": 371,
+      "end": 496
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 543
 }

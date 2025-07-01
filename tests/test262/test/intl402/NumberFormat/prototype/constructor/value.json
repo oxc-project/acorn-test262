@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 435,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 434,
       "expression": {
         "type": "CallExpression",
-        "start": 277,
-        "end": 433,
         "callee": {
           "type": "MemberExpression",
-          "start": 277,
-          "end": 293,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 277,
-            "end": 283,
-            "name": "assert"
+            "end": 283
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 284,
-            "end": 293,
-            "name": "sameValue"
+            "end": 293
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 277,
+          "end": 293
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 294,
-            "end": 333,
             "object": {
               "type": "MemberExpression",
-              "start": 294,
-              "end": 321,
               "object": {
                 "type": "MemberExpression",
-                "start": 294,
-                "end": 311,
                 "object": {
                   "type": "Identifier",
+                  "name": "Intl",
                   "start": 294,
-                  "end": 298,
-                  "name": "Intl"
+                  "end": 298
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "NumberFormat",
                   "start": 299,
-                  "end": 311,
-                  "name": "NumberFormat"
+                  "end": 311
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 294,
+                "end": 311
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 312,
-                "end": 321,
-                "name": "prototype"
+                "end": 321
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 294,
+              "end": 321
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 322,
-              "end": 333,
-              "name": "constructor"
+              "end": 333
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 294,
+            "end": 333
           },
           {
             "type": "MemberExpression",
-            "start": 335,
-            "end": 352,
             "object": {
               "type": "Identifier",
+              "name": "Intl",
               "start": 335,
-              "end": 339,
-              "name": "Intl"
+              "end": 339
             },
             "property": {
               "type": "Identifier",
+              "name": "NumberFormat",
               "start": 340,
-              "end": 352,
-              "name": "NumberFormat"
+              "end": 352
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 335,
+            "end": 352
           },
           {
             "type": "Literal",
-            "start": 354,
-            "end": 432,
             "value": "Intl.NumberFormat.prototype.constructor is not the same as Intl.NumberFormat",
-            "raw": "\"Intl.NumberFormat.prototype.constructor is not the same as Intl.NumberFormat\""
+            "raw": "\"Intl.NumberFormat.prototype.constructor is not the same as Intl.NumberFormat\"",
+            "start": 354,
+            "end": 432
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 277,
+        "end": 433
+      },
+      "start": 277,
+      "end": 434
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 435
 }

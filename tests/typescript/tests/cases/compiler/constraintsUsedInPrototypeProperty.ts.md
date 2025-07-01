@@ -2,40 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 89,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 52,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 9,
-        "end": 48,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 10,
-            "end": 26,
             "name": {
               "type": "Identifier",
-              "start": 10,
-              "end": 11,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 10,
+              "end": 11
             },
             "constraint": {
               "type": "TSNumberKeyword",
@@ -45,39 +37,39 @@ __ESTREE_TEST__:PASS:
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 10,
+            "end": 26
           },
           {
             "type": "TSTypeParameter",
-            "start": 28,
-            "end": 29,
             "name": {
               "type": "Identifier",
-              "start": 28,
-              "end": 29,
               "decorators": [],
               "name": "U",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 28,
+              "end": 29
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 28,
+            "end": 29
           },
           {
             "type": "TSTypeParameter",
-            "start": 31,
-            "end": 47,
             "name": {
               "type": "Identifier",
-              "start": 31,
-              "end": 32,
               "decorators": [],
               "name": "V",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 31,
+              "end": 32
             },
             "constraint": {
               "type": "TSStringKeyword",
@@ -87,55 +79,63 @@ __ESTREE_TEST__:PASS:
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 31,
+            "end": 47
           }
-        ]
+        ],
+        "start": 9,
+        "end": 48
       },
       "superClass": null,
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 49,
-        "end": 52,
-        "body": []
+        "end": 52
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 52
     },
     {
       "type": "ExpressionStatement",
-      "start": 53,
-      "end": 67,
       "expression": {
         "type": "MemberExpression",
-        "start": 53,
-        "end": 66,
         "object": {
           "type": "Identifier",
-          "start": 53,
-          "end": 56,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 53,
+          "end": 56
         },
         "property": {
           "type": "Identifier",
-          "start": 57,
-          "end": 66,
           "decorators": [],
           "name": "prototype",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 57,
+          "end": 66
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 53,
+        "end": 66
       },
-      "directive": null
+      "directive": null,
+      "start": 53,
+      "end": 67
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 89
 }
 ```

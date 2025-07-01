@@ -1,155 +1,155 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 659,
   "body": [
     {
       "type": "IfStatement",
-      "start": 378,
-      "end": 576,
       "test": {
         "type": "BinaryExpression",
-        "start": 382,
-        "end": 434,
         "left": {
           "type": "MemberExpression",
-          "start": 382,
-          "end": 420,
           "object": {
             "type": "MemberExpression",
-            "start": 382,
-            "end": 410,
             "object": {
               "type": "MemberExpression",
-              "start": 382,
-              "end": 398,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 382,
-                "end": 388,
-                "name": "String"
+                "end": 388
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 389,
-                "end": 398,
-                "name": "prototype"
+                "end": 398
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 382,
+              "end": 398
             },
             "property": {
               "type": "Identifier",
+              "name": "toLowerCase",
               "start": 399,
-              "end": 410,
-              "name": "toLowerCase"
+              "end": 410
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 382,
+            "end": 410
           },
           "property": {
             "type": "Identifier",
+            "name": "prototype",
             "start": 411,
-            "end": 420,
-            "name": "prototype"
+            "end": 420
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 382,
+          "end": 420
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 425,
-          "end": 434,
-          "name": "undefined"
-        }
+          "end": 434
+        },
+        "start": 382,
+        "end": 434
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 436,
-        "end": 576,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 440,
-            "end": 574,
             "argument": {
               "type": "NewExpression",
-              "start": 446,
-              "end": 573,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 450,
-                "end": 462,
-                "name": "Test262Error"
+                "end": 462
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 463,
-                  "end": 572,
                   "left": {
                     "type": "Literal",
-                    "start": 463,
-                    "end": 531,
                     "value": "#1: String.prototype.toLowerCase.prototype === undefined. Actual: ",
-                    "raw": "'#1: String.prototype.toLowerCase.prototype === undefined. Actual: '"
+                    "raw": "'#1: String.prototype.toLowerCase.prototype === undefined. Actual: '",
+                    "start": 463,
+                    "end": 531
                   },
                   "operator": "+",
                   "right": {
                     "type": "MemberExpression",
-                    "start": 534,
-                    "end": 572,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 534,
-                      "end": 562,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 534,
-                        "end": 550,
                         "object": {
                           "type": "Identifier",
+                          "name": "String",
                           "start": 534,
-                          "end": 540,
-                          "name": "String"
+                          "end": 540
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "prototype",
                           "start": 541,
-                          "end": 550,
-                          "name": "prototype"
+                          "end": 550
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 534,
+                        "end": 550
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "toLowerCase",
                         "start": 551,
-                        "end": 562,
-                        "name": "toLowerCase"
+                        "end": 562
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 534,
+                      "end": 562
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 563,
-                      "end": 572,
-                      "name": "prototype"
+                      "end": 572
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 534,
+                    "end": 572
+                  },
+                  "start": 463,
+                  "end": 572
                 }
-              ]
-            }
+              ],
+              "start": 446,
+              "end": 573
+            },
+            "start": 440,
+            "end": 574
           }
-        ]
+        ],
+        "start": 436,
+        "end": 576
       },
-      "alternate": null
+      "alternate": null,
+      "start": 378,
+      "end": 576
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 659
 }

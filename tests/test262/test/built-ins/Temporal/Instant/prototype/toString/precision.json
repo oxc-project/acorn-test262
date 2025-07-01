@@ -1,253 +1,253 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 535,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 281,
-      "end": 310,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 287,
-          "end": 309,
           "id": {
             "type": "ObjectPattern",
-            "start": 287,
-            "end": 298,
             "properties": [
               {
                 "type": "Property",
-                "start": 289,
-                "end": 296,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "Instant",
                   "start": 289,
-                  "end": 296,
-                  "name": "Instant"
+                  "end": 296
                 },
                 "value": {
                   "type": "Identifier",
+                  "name": "Instant",
                   "start": 289,
-                  "end": 296,
-                  "name": "Instant"
+                  "end": 296
                 },
                 "method": false,
                 "shorthand": true,
-                "computed": false
+                "computed": false,
+                "start": 289,
+                "end": 296
               }
-            ]
+            ],
+            "start": 287,
+            "end": 298
           },
           "init": {
             "type": "Identifier",
+            "name": "Temporal",
             "start": 301,
-            "end": 309,
-            "name": "Temporal"
-          }
+            "end": 309
+          },
+          "start": 287,
+          "end": 309
         }
-      ]
+      ],
+      "start": 281,
+      "end": 310
     },
     {
       "type": "VariableDeclaration",
-      "start": 312,
-      "end": 360,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 318,
-          "end": 359,
           "id": {
             "type": "Identifier",
+            "name": "isoString",
             "start": 318,
-            "end": 327,
-            "name": "isoString"
+            "end": 327
           },
           "init": {
             "type": "Literal",
-            "start": 330,
-            "end": 359,
             "value": "2020-01-01T23:58:57.012034Z",
-            "raw": "'2020-01-01T23:58:57.012034Z'"
-          }
+            "raw": "'2020-01-01T23:58:57.012034Z'",
+            "start": 330,
+            "end": 359
+          },
+          "start": 318,
+          "end": 359
         }
-      ]
+      ],
+      "start": 312,
+      "end": 360
     },
     {
       "type": "VariableDeclaration",
-      "start": 361,
-      "end": 401,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 367,
-          "end": 400,
           "id": {
             "type": "Identifier",
+            "name": "instant",
             "start": 367,
-            "end": 374,
-            "name": "instant"
+            "end": 374
           },
           "init": {
             "type": "CallExpression",
-            "start": 377,
-            "end": 400,
             "callee": {
               "type": "MemberExpression",
-              "start": 377,
-              "end": 389,
               "object": {
                 "type": "Identifier",
+                "name": "Instant",
                 "start": 377,
-                "end": 384,
-                "name": "Instant"
+                "end": 384
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 385,
-                "end": 389,
-                "name": "from"
+                "end": 389
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 377,
+              "end": 389
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "isoString",
                 "start": 390,
-                "end": 399,
-                "name": "isoString"
+                "end": 399
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 377,
+            "end": 400
+          },
+          "start": 367,
+          "end": 400
         }
-      ]
+      ],
+      "start": 361,
+      "end": 401
     },
     {
       "type": "VariableDeclaration",
-      "start": 402,
-      "end": 483,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 408,
-          "end": 482,
           "id": {
             "type": "Identifier",
+            "name": "instantIsoStrMicros",
             "start": 408,
-            "end": 427,
-            "name": "instantIsoStrMicros"
+            "end": 427
           },
           "init": {
             "type": "CallExpression",
-            "start": 430,
-            "end": 482,
             "callee": {
               "type": "MemberExpression",
-              "start": 430,
-              "end": 446,
               "object": {
                 "type": "Identifier",
+                "name": "instant",
                 "start": 430,
-                "end": 437,
-                "name": "instant"
+                "end": 437
               },
               "property": {
                 "type": "Identifier",
+                "name": "toString",
                 "start": 438,
-                "end": 446,
-                "name": "toString"
+                "end": 446
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 430,
+              "end": 446
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 447,
-                "end": 481,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 451,
-                    "end": 479,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "smallestUnit",
                       "start": 451,
-                      "end": 463,
-                      "name": "smallestUnit"
+                      "end": 463
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 465,
-                      "end": 479,
                       "value": "microseconds",
-                      "raw": "'microseconds'"
+                      "raw": "'microseconds'",
+                      "start": 465,
+                      "end": 479
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 451,
+                    "end": 479
                   }
-                ]
+                ],
+                "start": 447,
+                "end": 481
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 430,
+            "end": 482
+          },
+          "start": 408,
+          "end": 482
         }
-      ]
+      ],
+      "start": 402,
+      "end": 483
     },
     {
       "type": "ExpressionStatement",
-      "start": 485,
-      "end": 534,
       "expression": {
         "type": "CallExpression",
-        "start": 485,
-        "end": 533,
         "callee": {
           "type": "MemberExpression",
-          "start": 485,
-          "end": 501,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 485,
-            "end": 491,
-            "name": "assert"
+            "end": 491
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 492,
-            "end": 501,
-            "name": "sameValue"
+            "end": 501
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 485,
+          "end": 501
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "instantIsoStrMicros",
             "start": 502,
-            "end": 521,
-            "name": "instantIsoStrMicros"
+            "end": 521
           },
           {
             "type": "Identifier",
+            "name": "isoString",
             "start": 523,
-            "end": 532,
-            "name": "isoString"
+            "end": 532
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 485,
+        "end": 533
+      },
+      "start": 485,
+      "end": 534
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 535
 }

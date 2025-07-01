@@ -1,338 +1,338 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1136,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 790,
-      "end": 805,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 794,
-          "end": 804,
           "id": {
             "type": "Identifier",
+            "name": "value",
             "start": 794,
-            "end": 799,
-            "name": "value"
+            "end": 799
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 802,
-            "end": 804,
-            "properties": []
-          }
-        }
-      ]
-    },
-    {
-      "type": "VariableDeclaration",
-      "start": 806,
-      "end": 818,
-      "kind": "var",
-      "declarations": [
-        {
-          "type": "VariableDeclarator",
-          "start": 810,
-          "end": 817,
-          "id": {
-            "type": "Identifier",
-            "start": 810,
-            "end": 817,
-            "name": "resolve"
+            "end": 804
           },
-          "init": null
+          "start": 794,
+          "end": 804
         }
-      ]
+      ],
+      "start": 790,
+      "end": 805
     },
     {
       "type": "VariableDeclaration",
-      "start": 819,
-      "end": 885,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 823,
-          "end": 884,
           "id": {
             "type": "Identifier",
+            "name": "resolve",
+            "start": 810,
+            "end": 817
+          },
+          "init": null,
+          "start": 810,
+          "end": 817
+        }
+      ],
+      "start": 806,
+      "end": 818
+    },
+    {
+      "type": "VariableDeclaration",
+      "kind": "var",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "p",
             "start": 823,
-            "end": 824,
-            "name": "p"
+            "end": 824
           },
           "init": {
             "type": "NewExpression",
-            "start": 827,
-            "end": 884,
             "callee": {
               "type": "Identifier",
+              "name": "Promise",
               "start": 831,
-              "end": 838,
-              "name": "Promise"
+              "end": 838
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 839,
-                "end": 883,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [
                   {
                     "type": "Identifier",
+                    "name": "_resolve",
                     "start": 848,
-                    "end": 856,
-                    "name": "_resolve"
+                    "end": 856
                   }
                 ],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 858,
-                  "end": 883,
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 862,
-                      "end": 881,
                       "expression": {
                         "type": "AssignmentExpression",
-                        "start": 862,
-                        "end": 880,
                         "operator": "=",
                         "left": {
                           "type": "Identifier",
+                          "name": "resolve",
                           "start": 862,
-                          "end": 869,
-                          "name": "resolve"
+                          "end": 869
                         },
                         "right": {
                           "type": "Identifier",
+                          "name": "_resolve",
                           "start": 872,
-                          "end": 880,
-                          "name": "_resolve"
-                        }
-                      }
+                          "end": 880
+                        },
+                        "start": 862,
+                        "end": 880
+                      },
+                      "start": 862,
+                      "end": 881
                     }
-                  ]
+                  ],
+                  "start": 858,
+                  "end": 883
                 },
-                "expression": false
+                "expression": false,
+                "start": 839,
+                "end": 883
               }
-            ]
-          }
+            ],
+            "start": 827,
+            "end": 884
+          },
+          "start": 823,
+          "end": 884
         }
-      ]
+      ],
+      "start": 819,
+      "end": 885
     },
     {
       "type": "ExpressionStatement",
-      "start": 887,
-      "end": 1118,
       "expression": {
         "type": "CallExpression",
-        "start": 887,
-        "end": 1117,
         "callee": {
           "type": "MemberExpression",
-          "start": 887,
-          "end": 893,
           "object": {
             "type": "Identifier",
+            "name": "p",
             "start": 887,
-            "end": 888,
-            "name": "p"
+            "end": 888
           },
           "property": {
             "type": "Identifier",
+            "name": "then",
             "start": 889,
-            "end": 893,
-            "name": "then"
+            "end": 893
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 887,
+          "end": 893
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 894,
-            "end": 1040,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "x",
                 "start": 903,
-                "end": 904,
-                "name": "x"
+                "end": 904
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 906,
-              "end": 1040,
               "body": [
                 {
                   "type": "IfStatement",
-                  "start": 910,
-                  "end": 1027,
                   "test": {
                     "type": "BinaryExpression",
-                    "start": 914,
-                    "end": 925,
                     "left": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 914,
-                      "end": 915,
-                      "name": "x"
+                      "end": 915
                     },
                     "operator": "!==",
                     "right": {
                       "type": "Identifier",
+                      "name": "value",
                       "start": 920,
-                      "end": 925,
-                      "name": "value"
-                    }
+                      "end": 925
+                    },
+                    "start": 914,
+                    "end": 925
                   },
                   "consequent": {
                     "type": "BlockStatement",
-                    "start": 927,
-                    "end": 1027,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 933,
-                        "end": 1011,
                         "expression": {
                           "type": "CallExpression",
-                          "start": 933,
-                          "end": 1010,
                           "callee": {
                             "type": "Identifier",
+                            "name": "$DONE",
                             "start": 933,
-                            "end": 938,
-                            "name": "$DONE"
+                            "end": 938
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 939,
-                              "end": 1009,
                               "value": "The `onFulfilled` handler should be invoked with the promise result.",
-                              "raw": "'The `onFulfilled` handler should be invoked with the promise result.'"
+                              "raw": "'The `onFulfilled` handler should be invoked with the promise result.'",
+                              "start": 939,
+                              "end": 1009
                             }
                           ],
-                          "optional": false
-                        }
+                          "optional": false,
+                          "start": 933,
+                          "end": 1010
+                        },
+                        "start": 933,
+                        "end": 1011
                       },
                       {
                         "type": "ReturnStatement",
+                        "argument": null,
                         "start": 1016,
-                        "end": 1023,
-                        "argument": null
+                        "end": 1023
                       }
-                    ]
+                    ],
+                    "start": 927,
+                    "end": 1027
                   },
-                  "alternate": null
+                  "alternate": null,
+                  "start": 910,
+                  "end": 1027
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1030,
-                  "end": 1038,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1030,
-                    "end": 1037,
                     "callee": {
                       "type": "Identifier",
+                      "name": "$DONE",
                       "start": 1030,
-                      "end": 1035,
-                      "name": "$DONE"
+                      "end": 1035
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1030,
+                    "end": 1037
+                  },
+                  "start": 1030,
+                  "end": 1038
                 }
-              ]
+              ],
+              "start": 906,
+              "end": 1040
             },
-            "expression": false
+            "expression": false,
+            "start": 894,
+            "end": 1040
           },
           {
             "type": "FunctionExpression",
-            "start": 1042,
-            "end": 1116,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1053,
-              "end": 1116,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1057,
-                  "end": 1114,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1057,
-                    "end": 1113,
                     "callee": {
                       "type": "Identifier",
+                      "name": "$DONE",
                       "start": 1057,
-                      "end": 1062,
-                      "name": "$DONE"
+                      "end": 1062
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1063,
-                        "end": 1112,
                         "value": "The `onRejected` handler should not be invoked.",
-                        "raw": "'The `onRejected` handler should not be invoked.'"
+                        "raw": "'The `onRejected` handler should not be invoked.'",
+                        "start": 1063,
+                        "end": 1112
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1057,
+                    "end": 1113
+                  },
+                  "start": 1057,
+                  "end": 1114
                 }
-              ]
+              ],
+              "start": 1053,
+              "end": 1116
             },
-            "expression": false
+            "expression": false,
+            "start": 1042,
+            "end": 1116
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 887,
+        "end": 1117
+      },
+      "start": 887,
+      "end": 1118
     },
     {
       "type": "ExpressionStatement",
-      "start": 1120,
-      "end": 1135,
       "expression": {
         "type": "CallExpression",
-        "start": 1120,
-        "end": 1134,
         "callee": {
           "type": "Identifier",
+          "name": "resolve",
           "start": 1120,
-          "end": 1127,
-          "name": "resolve"
+          "end": 1127
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "value",
             "start": 1128,
-            "end": 1133,
-            "name": "value"
+            "end": 1133
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1120,
+        "end": 1134
+      },
+      "start": 1120,
+      "end": 1135
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1136
 }

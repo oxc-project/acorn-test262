@@ -1,54 +1,54 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 924,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 667,
-      "end": 923,
       "expression": {
         "type": "CallExpression",
-        "start": 667,
-        "end": 922,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 667,
-          "end": 675,
           "expression": {
             "type": "SequenceExpression",
-            "start": 668,
-            "end": 674,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 668,
-                "end": 669,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 668,
+                "end": 669
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 670,
-                "end": 674,
-                "name": "eval"
+                "end": 674
               }
-            ]
-          }
+            ],
+            "start": 668,
+            "end": 674
+          },
+          "start": 667,
+          "end": 675
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 679,
-            "end": 920,
             "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });{ function f() {  } }",
-            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });{ function f() {  } }'"
+            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });{ function f() {  } }'",
+            "start": 679,
+            "end": 920
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 667,
+        "end": 922
+      },
+      "start": 667,
+      "end": 923
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 924
 }

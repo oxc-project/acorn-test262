@@ -1,41 +1,39 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 843,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 365,
-      "end": 393,
       "id": {
         "type": "Identifier",
+        "name": "MyFunct",
         "start": 374,
-        "end": 381,
-        "name": "MyFunct"
+        "end": 381
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 383,
-        "end": 393,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 384,
-            "end": 392,
             "argument": {
               "type": "Literal",
-              "start": 391,
-              "end": 392,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 391,
+              "end": 392
+            },
+            "start": 384,
+            "end": 392
           }
-        ]
+        ],
+        "start": 383,
+        "end": 393
       },
-      "expression": false
+      "expression": false,
+      "start": 365,
+      "end": 393
     },
     {
       "type": "EmptyStatement",
@@ -44,199 +42,201 @@
     },
     {
       "type": "IfStatement",
-      "start": 406,
-      "end": 538,
       "test": {
         "type": "BinaryExpression",
-        "start": 410,
-        "end": 436,
         "left": {
           "type": "Identifier",
+          "name": "MyFunct",
           "start": 410,
-          "end": 417,
-          "name": "MyFunct"
+          "end": 417
         },
         "operator": "instanceof",
         "right": {
           "type": "Identifier",
+          "name": "MyFunct",
           "start": 429,
-          "end": 436,
-          "name": "MyFunct"
-        }
+          "end": 436
+        },
+        "start": 410,
+        "end": 436
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 437,
-        "end": 538,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 440,
-            "end": 536,
             "argument": {
               "type": "NewExpression",
-              "start": 446,
-              "end": 535,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 450,
-                "end": 462,
-                "name": "Test262Error"
+                "end": 462
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 463,
-                  "end": 534,
                   "value": "#1 function MyFunct(){return 0}; MyFunct instanceof MyFunct === false",
-                  "raw": "'#1 function MyFunct(){return 0}; MyFunct instanceof MyFunct === false'"
+                  "raw": "'#1 function MyFunct(){return 0}; MyFunct instanceof MyFunct === false'",
+                  "start": 463,
+                  "end": 534
                 }
-              ]
-            }
+              ],
+              "start": 446,
+              "end": 535
+            },
+            "start": 440,
+            "end": 536
           }
-        ]
+        ],
+        "start": 437,
+        "end": 538
       },
-      "alternate": null
+      "alternate": null,
+      "start": 406,
+      "end": 538
     },
     {
       "type": "IfStatement",
-      "start": 550,
-      "end": 692,
       "test": {
         "type": "BinaryExpression",
-        "start": 554,
-        "end": 590,
         "left": {
           "type": "BinaryExpression",
-          "start": 554,
-          "end": 581,
           "left": {
             "type": "Identifier",
+            "name": "MyFunct",
             "start": 554,
-            "end": 561,
-            "name": "MyFunct"
+            "end": 561
           },
           "operator": "instanceof",
           "right": {
             "type": "Identifier",
+            "name": "Function",
             "start": 573,
-            "end": 581,
-            "name": "Function"
-          }
+            "end": 581
+          },
+          "start": 554,
+          "end": 581
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 586,
-          "end": 590,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 586,
+          "end": 590
+        },
+        "start": 554,
+        "end": 590
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 591,
-        "end": 692,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 594,
-            "end": 690,
             "argument": {
               "type": "NewExpression",
-              "start": 600,
-              "end": 689,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 604,
-                "end": 616,
-                "name": "Test262Error"
+                "end": 616
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 617,
-                  "end": 688,
                   "value": "#2 function MyFunct(){return 0}; MyFunct instanceof Function === true",
-                  "raw": "'#2 function MyFunct(){return 0}; MyFunct instanceof Function === true'"
+                  "raw": "'#2 function MyFunct(){return 0}; MyFunct instanceof Function === true'",
+                  "start": 617,
+                  "end": 688
                 }
-              ]
-            }
+              ],
+              "start": 600,
+              "end": 689
+            },
+            "start": 594,
+            "end": 690
           }
-        ]
+        ],
+        "start": 591,
+        "end": 692
       },
-      "alternate": null
+      "alternate": null,
+      "start": 550,
+      "end": 692
     },
     {
       "type": "IfStatement",
-      "start": 704,
-      "end": 842,
       "test": {
         "type": "BinaryExpression",
-        "start": 708,
-        "end": 742,
         "left": {
           "type": "BinaryExpression",
-          "start": 708,
-          "end": 733,
           "left": {
             "type": "Identifier",
+            "name": "MyFunct",
             "start": 708,
-            "end": 715,
-            "name": "MyFunct"
+            "end": 715
           },
           "operator": "instanceof",
           "right": {
             "type": "Identifier",
+            "name": "Object",
             "start": 727,
-            "end": 733,
-            "name": "Object"
-          }
+            "end": 733
+          },
+          "start": 708,
+          "end": 733
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 738,
-          "end": 742,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 738,
+          "end": 742
+        },
+        "start": 708,
+        "end": 742
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 743,
-        "end": 842,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 746,
-            "end": 840,
             "argument": {
               "type": "NewExpression",
-              "start": 752,
-              "end": 839,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 756,
-                "end": 768,
-                "name": "Test262Error"
+                "end": 768
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 769,
-                  "end": 838,
                   "value": "#3 function MyFunct(){return 0}; MyFunct instanceof Object === true",
-                  "raw": "'#3 function MyFunct(){return 0}; MyFunct instanceof Object === true'"
+                  "raw": "'#3 function MyFunct(){return 0}; MyFunct instanceof Object === true'",
+                  "start": 769,
+                  "end": 838
                 }
-              ]
-            }
+              ],
+              "start": 752,
+              "end": 839
+            },
+            "start": 746,
+            "end": 840
           }
-        ]
+        ],
+        "start": 743,
+        "end": 842
       },
-      "alternate": null
+      "alternate": null,
+      "start": 704,
+      "end": 842
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 843
 }

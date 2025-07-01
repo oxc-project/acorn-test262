@@ -1,48 +1,48 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 387,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 338,
-      "end": 386,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 342,
-          "end": 385,
           "id": {
             "type": "Identifier",
+            "name": "_13_0_4_17_fun",
             "start": 342,
-            "end": 356,
-            "name": "_13_0_4_17_fun"
+            "end": 356
           },
           "init": {
             "type": "NewExpression",
-            "start": 359,
-            "end": 385,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 363,
-              "end": 371,
-              "name": "Function"
+              "end": 371
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 372,
-                "end": 384,
                 "value": "eval = 42;",
-                "raw": "'eval = 42;'"
+                "raw": "'eval = 42;'",
+                "start": 372,
+                "end": 384
               }
-            ]
-          }
+            ],
+            "start": 359,
+            "end": 385
+          },
+          "start": 342,
+          "end": 385
         }
-      ]
+      ],
+      "start": 338,
+      "end": 386
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 387
 }

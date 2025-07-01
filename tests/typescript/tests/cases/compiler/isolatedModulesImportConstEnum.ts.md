@@ -2,177 +2,177 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 30,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 12,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 12,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 12
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 12,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 12
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 12
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 20,
-        "end": 29,
         "value": "./file2",
-        "raw": "'./file2'"
+        "raw": "'./file2'",
+        "start": 20,
+        "end": 29
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 30
     },
     {
       "type": "ExpressionStatement",
-      "start": 31,
-      "end": 52,
       "expression": {
         "type": "CallExpression",
-        "start": 31,
-        "end": 51,
         "callee": {
           "type": "MemberExpression",
-          "start": 31,
-          "end": 42,
           "object": {
             "type": "Identifier",
-            "start": 31,
-            "end": 38,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 31,
+            "end": 38
           },
           "property": {
             "type": "Identifier",
-            "start": 39,
-            "end": 42,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 39,
+            "end": 42
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 31,
+          "end": 42
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 43,
-            "end": 50,
             "object": {
               "type": "Identifier",
-              "start": 43,
-              "end": 46,
               "decorators": [],
               "name": "Foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 43,
+              "end": 46
             },
             "property": {
               "type": "Identifier",
-              "start": 47,
-              "end": 50,
               "decorators": [],
               "name": "BAR",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 47,
+              "end": 50
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 43,
+            "end": 50
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 31,
+        "end": 51
       },
-      "directive": null
+      "directive": null,
+      "start": 31,
+      "end": 52
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 32,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 32,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 32,
         "id": {
           "type": "Identifier",
-          "start": 18,
-          "end": 21,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 18,
+          "end": 21
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 22,
-          "end": 32,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 26,
-              "end": 29,
               "id": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 29,
                 "decorators": [],
                 "name": "BAR",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 26,
+                "end": 29
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 26,
+              "end": 29
             }
-          ]
+          ],
+          "start": 22,
+          "end": 32
         },
         "const": true,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 32
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 32
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 32
 }
 ```

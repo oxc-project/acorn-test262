@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 353,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 248,
-      "end": 352,
       "expression": {
         "type": "CallExpression",
-        "start": 248,
-        "end": 351,
         "callee": {
           "type": "MemberExpression",
-          "start": 248,
-          "end": 264,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 248,
-            "end": 254,
-            "name": "assert"
+            "end": 254
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 255,
-            "end": 264,
-            "name": "sameValue"
+            "end": 264
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 248,
+          "end": 264
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 265,
-            "end": 285,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 272,
-              "end": 285,
               "object": {
                 "type": "Identifier",
+                "name": "Iterator",
                 "start": 272,
-                "end": 280,
-                "name": "Iterator"
+                "end": 280
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 281,
-                "end": 285,
-                "name": "from"
+                "end": 285
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 272,
+              "end": 285
             },
-            "prefix": true
+            "prefix": true,
+            "start": 265,
+            "end": 285
           },
           {
             "type": "Literal",
-            "start": 287,
-            "end": 297,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 287,
+            "end": 297
           },
           {
             "type": "Literal",
-            "start": 299,
-            "end": 350,
             "value": "The value of `typeof Iterator.from` is \"function\"",
-            "raw": "'The value of `typeof Iterator.from` is \"function\"'"
+            "raw": "'The value of `typeof Iterator.from` is \"function\"'",
+            "start": 299,
+            "end": 350
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 248,
+        "end": 351
+      },
+      "start": 248,
+      "end": 352
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 353
 }

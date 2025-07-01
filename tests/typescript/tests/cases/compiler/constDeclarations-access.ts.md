@@ -2,76 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 12,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 11,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 11,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": {
             "type": "Literal",
-            "start": 10,
-            "end": 11,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 10,
+            "end": 11
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 11
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 12
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 4,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 4,
       "expression": {
         "type": "UpdateExpression",
-        "start": 0,
-        "end": 3,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 1
+        },
+        "start": 0,
+        "end": 3
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 4
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 4
 }
 ```

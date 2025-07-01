@@ -2,1109 +2,1109 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 351,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 8,
       "expression": {
         "type": "BinaryExpression",
-        "start": 0,
-        "end": 7,
         "left": {
           "type": "Literal",
+          "value": 1,
+          "raw": "1",
           "start": 0,
-          "end": 1,
-          "value": 1,
-          "raw": "1"
+          "end": 1
         },
         "operator": "**",
         "right": {
           "type": "UnaryExpression",
-          "start": 5,
-          "end": 7,
           "operator": "-",
           "argument": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 6,
-            "end": 7,
-            "value": 2,
-            "raw": "2"
+            "end": 7
           },
-          "prefix": true
-        }
+          "prefix": true,
+          "start": 5,
+          "end": 7
+        },
+        "start": 0,
+        "end": 7
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 8
     },
     {
       "type": "ExpressionStatement",
-      "start": 9,
-      "end": 16,
       "expression": {
         "type": "BinaryExpression",
-        "start": 9,
-        "end": 15,
         "left": {
           "type": "Literal",
+          "value": 1,
+          "raw": "1",
           "start": 9,
-          "end": 10,
-          "value": 1,
-          "raw": "1"
+          "end": 10
         },
         "operator": "**",
         "right": {
           "type": "Literal",
+          "value": 2,
+          "raw": "2",
           "start": 14,
-          "end": 15,
-          "value": 2,
-          "raw": "2"
-        }
+          "end": 15
+        },
+        "start": 9,
+        "end": 15
       },
-      "directive": null
+      "directive": null,
+      "start": 9,
+      "end": 16
     },
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 26,
       "expression": {
         "type": "BinaryExpression",
-        "start": 17,
-        "end": 26,
         "left": {
           "type": "UnaryExpression",
-          "start": 18,
-          "end": 20,
           "operator": "-",
           "argument": {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 19,
-            "end": 20,
-            "value": 1,
-            "raw": "1"
+            "end": 20
           },
-          "prefix": true
+          "prefix": true,
+          "start": 18,
+          "end": 20
         },
         "operator": "**",
         "right": {
           "type": "Literal",
+          "value": 2,
+          "raw": "2",
           "start": 25,
-          "end": 26,
-          "value": 2,
-          "raw": "2"
-        }
+          "end": 26
+        },
+        "start": 17,
+        "end": 26
       },
-      "directive": null
+      "directive": null,
+      "start": 17,
+      "end": 26
     },
     {
       "type": "ExpressionStatement",
-      "start": 27,
-      "end": 39,
       "expression": {
         "type": "BinaryExpression",
-        "start": 27,
-        "end": 38,
         "left": {
           "type": "Literal",
+          "value": 1,
+          "raw": "1",
           "start": 27,
-          "end": 28,
-          "value": 1,
-          "raw": "1"
+          "end": 28
         },
         "operator": "**",
         "right": {
           "type": "BinaryExpression",
-          "start": 32,
-          "end": 38,
           "left": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 32,
-            "end": 33,
-            "value": 2,
-            "raw": "2"
+            "end": 33
           },
           "operator": "**",
           "right": {
             "type": "Literal",
+            "value": 3,
+            "raw": "3",
             "start": 37,
-            "end": 38,
-            "value": 3,
-            "raw": "3"
-          }
-        }
+            "end": 38
+          },
+          "start": 32,
+          "end": 38
+        },
+        "start": 27,
+        "end": 38
       },
-      "directive": null
+      "directive": null,
+      "start": 27,
+      "end": 39
     },
     {
       "type": "ExpressionStatement",
-      "start": 40,
-      "end": 53,
       "expression": {
         "type": "BinaryExpression",
-        "start": 40,
-        "end": 52,
         "left": {
           "type": "Literal",
+          "value": 1,
+          "raw": "1",
           "start": 40,
-          "end": 41,
-          "value": 1,
-          "raw": "1"
+          "end": 41
         },
         "operator": "**",
         "right": {
           "type": "BinaryExpression",
-          "start": 45,
-          "end": 52,
           "left": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 45,
-            "end": 46,
-            "value": 2,
-            "raw": "2"
+            "end": 46
           },
           "operator": "**",
           "right": {
             "type": "UnaryExpression",
-            "start": 50,
-            "end": 52,
             "operator": "-",
             "argument": {
               "type": "Literal",
+              "value": 3,
+              "raw": "3",
               "start": 51,
-              "end": 52,
-              "value": 3,
-              "raw": "3"
+              "end": 52
             },
-            "prefix": true
-          }
-        }
+            "prefix": true,
+            "start": 50,
+            "end": 52
+          },
+          "start": 45,
+          "end": 52
+        },
+        "start": 40,
+        "end": 52
       },
-      "directive": null
+      "directive": null,
+      "start": 40,
+      "end": 53
     },
     {
       "type": "ExpressionStatement",
-      "start": 54,
-      "end": 69,
       "expression": {
         "type": "BinaryExpression",
-        "start": 54,
-        "end": 68,
         "left": {
           "type": "Literal",
-          "start": 54,
-          "end": 55,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "start": 54,
+          "end": 55
         },
         "operator": "**",
         "right": {
           "type": "UnaryExpression",
-          "start": 59,
-          "end": 68,
           "operator": "-",
           "argument": {
             "type": "BinaryExpression",
-            "start": 61,
-            "end": 67,
             "left": {
               "type": "Literal",
+              "value": 2,
+              "raw": "2",
               "start": 61,
-              "end": 62,
-              "value": 2,
-              "raw": "2"
+              "end": 62
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 66,
-              "end": 67,
               "value": 3,
-              "raw": "3"
-            }
+              "raw": "3",
+              "start": 66,
+              "end": 67
+            },
+            "start": 61,
+            "end": 67
           },
-          "prefix": true
-        }
+          "prefix": true,
+          "start": 59,
+          "end": 68
+        },
+        "start": 54,
+        "end": 68
       },
-      "directive": null
+      "directive": null,
+      "start": 54,
+      "end": 69
     },
     {
       "type": "ExpressionStatement",
-      "start": 70,
-      "end": 87,
       "expression": {
         "type": "BinaryExpression",
-        "start": 70,
-        "end": 86,
         "left": {
           "type": "UnaryExpression",
-          "start": 71,
-          "end": 80,
           "operator": "-",
           "argument": {
             "type": "BinaryExpression",
-            "start": 73,
-            "end": 79,
             "left": {
               "type": "Literal",
+              "value": 1,
+              "raw": "1",
               "start": 73,
-              "end": 74,
-              "value": 1,
-              "raw": "1"
+              "end": 74
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 78,
-              "end": 79,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 78,
+              "end": 79
+            },
+            "start": 73,
+            "end": 79
           },
-          "prefix": true
+          "prefix": true,
+          "start": 71,
+          "end": 80
         },
         "operator": "**",
         "right": {
           "type": "Literal",
-          "start": 85,
-          "end": 86,
           "value": 3,
-          "raw": "3"
-        }
+          "raw": "3",
+          "start": 85,
+          "end": 86
+        },
+        "start": 70,
+        "end": 86
       },
-      "directive": null
+      "directive": null,
+      "start": 70,
+      "end": 87
     },
     {
       "type": "ExpressionStatement",
-      "start": 88,
-      "end": 106,
       "expression": {
         "type": "BinaryExpression",
-        "start": 88,
-        "end": 105,
         "left": {
           "type": "UnaryExpression",
-          "start": 89,
-          "end": 98,
           "operator": "-",
           "argument": {
             "type": "BinaryExpression",
-            "start": 91,
-            "end": 97,
             "left": {
               "type": "Literal",
-              "start": 91,
-              "end": 92,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 91,
+              "end": 92
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 96,
-              "end": 97,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 96,
+              "end": 97
+            },
+            "start": 91,
+            "end": 97
           },
-          "prefix": true
+          "prefix": true,
+          "start": 89,
+          "end": 98
         },
         "operator": "**",
         "right": {
           "type": "UnaryExpression",
-          "start": 103,
-          "end": 105,
           "operator": "-",
           "argument": {
             "type": "Literal",
+            "value": 3,
+            "raw": "3",
             "start": 104,
-            "end": 105,
-            "value": 3,
-            "raw": "3"
+            "end": 105
           },
-          "prefix": true
-        }
+          "prefix": true,
+          "start": 103,
+          "end": 105
+        },
+        "start": 88,
+        "end": 105
       },
-      "directive": null
+      "directive": null,
+      "start": 88,
+      "end": 106
     },
     {
       "type": "ExpressionStatement",
-      "start": 108,
-      "end": 119,
       "expression": {
         "type": "BinaryExpression",
-        "start": 108,
-        "end": 118,
         "left": {
           "type": "BinaryExpression",
-          "start": 108,
-          "end": 114,
           "left": {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 108,
-            "end": 109,
-            "value": 1,
-            "raw": "1"
+            "end": 109
           },
           "operator": "**",
           "right": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 113,
-            "end": 114,
-            "value": 2,
-            "raw": "2"
-          }
+            "end": 114
+          },
+          "start": 108,
+          "end": 114
         },
         "operator": "+",
         "right": {
           "type": "Literal",
+          "value": 3,
+          "raw": "3",
           "start": 117,
-          "end": 118,
-          "value": 3,
-          "raw": "3"
-        }
+          "end": 118
+        },
+        "start": 108,
+        "end": 118
       },
-      "directive": null
+      "directive": null,
+      "start": 108,
+      "end": 119
     },
     {
       "type": "ExpressionStatement",
-      "start": 120,
-      "end": 131,
       "expression": {
         "type": "BinaryExpression",
-        "start": 120,
-        "end": 130,
         "left": {
           "type": "BinaryExpression",
-          "start": 120,
-          "end": 126,
           "left": {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 120,
-            "end": 121,
-            "value": 1,
-            "raw": "1"
+            "end": 121
           },
           "operator": "**",
           "right": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 125,
-            "end": 126,
-            "value": 2,
-            "raw": "2"
-          }
+            "end": 126
+          },
+          "start": 120,
+          "end": 126
         },
         "operator": "-",
         "right": {
           "type": "Literal",
+          "value": 3,
+          "raw": "3",
           "start": 129,
-          "end": 130,
-          "value": 3,
-          "raw": "3"
-        }
+          "end": 130
+        },
+        "start": 120,
+        "end": 130
       },
-      "directive": null
+      "directive": null,
+      "start": 120,
+      "end": 131
     },
     {
       "type": "ExpressionStatement",
-      "start": 132,
-      "end": 143,
       "expression": {
         "type": "BinaryExpression",
-        "start": 132,
-        "end": 142,
         "left": {
           "type": "BinaryExpression",
-          "start": 132,
-          "end": 138,
           "left": {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 132,
-            "end": 133,
-            "value": 1,
-            "raw": "1"
+            "end": 133
           },
           "operator": "**",
           "right": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 137,
-            "end": 138,
-            "value": 2,
-            "raw": "2"
-          }
+            "end": 138
+          },
+          "start": 132,
+          "end": 138
         },
         "operator": "*",
         "right": {
           "type": "Literal",
+          "value": 3,
+          "raw": "3",
           "start": 141,
-          "end": 142,
-          "value": 3,
-          "raw": "3"
-        }
+          "end": 142
+        },
+        "start": 132,
+        "end": 142
       },
-      "directive": null
+      "directive": null,
+      "start": 132,
+      "end": 143
     },
     {
       "type": "ExpressionStatement",
-      "start": 144,
-      "end": 155,
       "expression": {
         "type": "BinaryExpression",
-        "start": 144,
-        "end": 154,
         "left": {
           "type": "BinaryExpression",
-          "start": 144,
-          "end": 150,
           "left": {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 144,
-            "end": 145,
-            "value": 1,
-            "raw": "1"
+            "end": 145
           },
           "operator": "**",
           "right": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 149,
-            "end": 150,
-            "value": 2,
-            "raw": "2"
-          }
+            "end": 150
+          },
+          "start": 144,
+          "end": 150
         },
         "operator": "/",
         "right": {
           "type": "Literal",
+          "value": 3,
+          "raw": "3",
           "start": 153,
-          "end": 154,
-          "value": 3,
-          "raw": "3"
-        }
+          "end": 154
+        },
+        "start": 144,
+        "end": 154
       },
-      "directive": null
+      "directive": null,
+      "start": 144,
+      "end": 155
     },
     {
       "type": "ExpressionStatement",
-      "start": 156,
-      "end": 167,
       "expression": {
         "type": "BinaryExpression",
-        "start": 156,
-        "end": 166,
         "left": {
           "type": "BinaryExpression",
-          "start": 156,
-          "end": 162,
           "left": {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 156,
-            "end": 157,
-            "value": 1,
-            "raw": "1"
+            "end": 157
           },
           "operator": "**",
           "right": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 161,
-            "end": 162,
-            "value": 2,
-            "raw": "2"
-          }
+            "end": 162
+          },
+          "start": 156,
+          "end": 162
         },
         "operator": "%",
         "right": {
           "type": "Literal",
+          "value": 3,
+          "raw": "3",
           "start": 165,
-          "end": 166,
-          "value": 3,
-          "raw": "3"
-        }
+          "end": 166
+        },
+        "start": 156,
+        "end": 166
       },
-      "directive": null
+      "directive": null,
+      "start": 156,
+      "end": 167
     },
     {
       "type": "ExpressionStatement",
-      "start": 169,
-      "end": 181,
       "expression": {
         "type": "BinaryExpression",
-        "start": 169,
-        "end": 180,
         "left": {
           "type": "BinaryExpression",
-          "start": 169,
-          "end": 176,
           "left": {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 169,
-            "end": 170,
-            "value": 1,
-            "raw": "1"
+            "end": 170
           },
           "operator": "**",
           "right": {
             "type": "UnaryExpression",
-            "start": 174,
-            "end": 176,
             "operator": "-",
             "argument": {
               "type": "Literal",
+              "value": 2,
+              "raw": "2",
               "start": 175,
-              "end": 176,
-              "value": 2,
-              "raw": "2"
+              "end": 176
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 174,
+            "end": 176
+          },
+          "start": 169,
+          "end": 176
         },
         "operator": "+",
         "right": {
           "type": "Literal",
+          "value": 3,
+          "raw": "3",
           "start": 179,
-          "end": 180,
-          "value": 3,
-          "raw": "3"
-        }
+          "end": 180
+        },
+        "start": 169,
+        "end": 180
       },
-      "directive": null
+      "directive": null,
+      "start": 169,
+      "end": 181
     },
     {
       "type": "ExpressionStatement",
-      "start": 182,
-      "end": 194,
       "expression": {
         "type": "BinaryExpression",
-        "start": 182,
-        "end": 193,
         "left": {
           "type": "BinaryExpression",
-          "start": 182,
-          "end": 189,
           "left": {
             "type": "Literal",
-            "start": 182,
-            "end": 183,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 182,
+            "end": 183
           },
           "operator": "**",
           "right": {
             "type": "UnaryExpression",
-            "start": 187,
-            "end": 189,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 188,
-              "end": 189,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 188,
+              "end": 189
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 187,
+            "end": 189
+          },
+          "start": 182,
+          "end": 189
         },
         "operator": "-",
         "right": {
           "type": "Literal",
-          "start": 192,
-          "end": 193,
           "value": 3,
-          "raw": "3"
-        }
+          "raw": "3",
+          "start": 192,
+          "end": 193
+        },
+        "start": 182,
+        "end": 193
       },
-      "directive": null
+      "directive": null,
+      "start": 182,
+      "end": 194
     },
     {
       "type": "ExpressionStatement",
-      "start": 195,
-      "end": 207,
       "expression": {
         "type": "BinaryExpression",
-        "start": 195,
-        "end": 206,
         "left": {
           "type": "BinaryExpression",
-          "start": 195,
-          "end": 202,
           "left": {
             "type": "Literal",
-            "start": 195,
-            "end": 196,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 195,
+            "end": 196
           },
           "operator": "**",
           "right": {
             "type": "UnaryExpression",
-            "start": 200,
-            "end": 202,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 201,
-              "end": 202,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 201,
+              "end": 202
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 200,
+            "end": 202
+          },
+          "start": 195,
+          "end": 202
         },
         "operator": "*",
         "right": {
           "type": "Literal",
-          "start": 205,
-          "end": 206,
           "value": 3,
-          "raw": "3"
-        }
+          "raw": "3",
+          "start": 205,
+          "end": 206
+        },
+        "start": 195,
+        "end": 206
       },
-      "directive": null
+      "directive": null,
+      "start": 195,
+      "end": 207
     },
     {
       "type": "ExpressionStatement",
-      "start": 208,
-      "end": 220,
       "expression": {
         "type": "BinaryExpression",
-        "start": 208,
-        "end": 219,
         "left": {
           "type": "BinaryExpression",
-          "start": 208,
-          "end": 215,
           "left": {
             "type": "Literal",
-            "start": 208,
-            "end": 209,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 208,
+            "end": 209
           },
           "operator": "**",
           "right": {
             "type": "UnaryExpression",
-            "start": 213,
-            "end": 215,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 214,
-              "end": 215,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 214,
+              "end": 215
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 213,
+            "end": 215
+          },
+          "start": 208,
+          "end": 215
         },
         "operator": "/",
         "right": {
           "type": "Literal",
-          "start": 218,
-          "end": 219,
           "value": 3,
-          "raw": "3"
-        }
+          "raw": "3",
+          "start": 218,
+          "end": 219
+        },
+        "start": 208,
+        "end": 219
       },
-      "directive": null
+      "directive": null,
+      "start": 208,
+      "end": 220
     },
     {
       "type": "ExpressionStatement",
-      "start": 221,
-      "end": 233,
       "expression": {
         "type": "BinaryExpression",
-        "start": 221,
-        "end": 232,
         "left": {
           "type": "BinaryExpression",
-          "start": 221,
-          "end": 228,
           "left": {
             "type": "Literal",
-            "start": 221,
-            "end": 222,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 221,
+            "end": 222
           },
           "operator": "**",
           "right": {
             "type": "UnaryExpression",
-            "start": 226,
-            "end": 228,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 227,
-              "end": 228,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 227,
+              "end": 228
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 226,
+            "end": 228
+          },
+          "start": 221,
+          "end": 228
         },
         "operator": "%",
         "right": {
           "type": "Literal",
-          "start": 231,
-          "end": 232,
           "value": 3,
-          "raw": "3"
-        }
+          "raw": "3",
+          "start": 231,
+          "end": 232
+        },
+        "start": 221,
+        "end": 232
       },
-      "directive": null
+      "directive": null,
+      "start": 221,
+      "end": 233
     },
     {
       "type": "ExpressionStatement",
-      "start": 235,
-      "end": 246,
       "expression": {
         "type": "BinaryExpression",
-        "start": 235,
-        "end": 245,
         "left": {
           "type": "Literal",
-          "start": 235,
-          "end": 236,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "start": 235,
+          "end": 236
         },
         "operator": "+",
         "right": {
           "type": "BinaryExpression",
-          "start": 239,
-          "end": 245,
           "left": {
             "type": "Literal",
-            "start": 239,
-            "end": 240,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 239,
+            "end": 240
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 244,
-            "end": 245,
             "value": 3,
-            "raw": "3"
-          }
-        }
+            "raw": "3",
+            "start": 244,
+            "end": 245
+          },
+          "start": 239,
+          "end": 245
+        },
+        "start": 235,
+        "end": 245
       },
-      "directive": null
+      "directive": null,
+      "start": 235,
+      "end": 246
     },
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 258,
       "expression": {
         "type": "BinaryExpression",
-        "start": 247,
-        "end": 257,
         "left": {
           "type": "Literal",
-          "start": 247,
-          "end": 248,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "start": 247,
+          "end": 248
         },
         "operator": "-",
         "right": {
           "type": "BinaryExpression",
-          "start": 251,
-          "end": 257,
           "left": {
             "type": "Literal",
-            "start": 251,
-            "end": 252,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 251,
+            "end": 252
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 256,
-            "end": 257,
             "value": 3,
-            "raw": "3"
-          }
-        }
+            "raw": "3",
+            "start": 256,
+            "end": 257
+          },
+          "start": 251,
+          "end": 257
+        },
+        "start": 247,
+        "end": 257
       },
-      "directive": null
+      "directive": null,
+      "start": 247,
+      "end": 258
     },
     {
       "type": "ExpressionStatement",
-      "start": 259,
-      "end": 270,
       "expression": {
         "type": "BinaryExpression",
-        "start": 259,
-        "end": 269,
         "left": {
           "type": "Literal",
-          "start": 259,
-          "end": 260,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "start": 259,
+          "end": 260
         },
         "operator": "*",
         "right": {
           "type": "BinaryExpression",
-          "start": 263,
-          "end": 269,
           "left": {
             "type": "Literal",
-            "start": 263,
-            "end": 264,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 263,
+            "end": 264
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 268,
-            "end": 269,
             "value": 3,
-            "raw": "3"
-          }
-        }
+            "raw": "3",
+            "start": 268,
+            "end": 269
+          },
+          "start": 263,
+          "end": 269
+        },
+        "start": 259,
+        "end": 269
       },
-      "directive": null
+      "directive": null,
+      "start": 259,
+      "end": 270
     },
     {
       "type": "ExpressionStatement",
-      "start": 271,
-      "end": 282,
       "expression": {
         "type": "BinaryExpression",
-        "start": 271,
-        "end": 281,
         "left": {
           "type": "Literal",
-          "start": 271,
-          "end": 272,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "start": 271,
+          "end": 272
         },
         "operator": "/",
         "right": {
           "type": "BinaryExpression",
-          "start": 275,
-          "end": 281,
           "left": {
             "type": "Literal",
-            "start": 275,
-            "end": 276,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 275,
+            "end": 276
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 280,
-            "end": 281,
             "value": 3,
-            "raw": "3"
-          }
-        }
+            "raw": "3",
+            "start": 280,
+            "end": 281
+          },
+          "start": 275,
+          "end": 281
+        },
+        "start": 271,
+        "end": 281
       },
-      "directive": null
+      "directive": null,
+      "start": 271,
+      "end": 282
     },
     {
       "type": "ExpressionStatement",
-      "start": 283,
-      "end": 294,
       "expression": {
         "type": "BinaryExpression",
-        "start": 283,
-        "end": 293,
         "left": {
           "type": "Literal",
-          "start": 283,
-          "end": 284,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "start": 283,
+          "end": 284
         },
         "operator": "%",
         "right": {
           "type": "BinaryExpression",
-          "start": 287,
-          "end": 293,
           "left": {
             "type": "Literal",
-            "start": 287,
-            "end": 288,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 287,
+            "end": 288
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 292,
-            "end": 293,
             "value": 3,
-            "raw": "3"
-          }
-        }
+            "raw": "3",
+            "start": 292,
+            "end": 293
+          },
+          "start": 287,
+          "end": 293
+        },
+        "start": 283,
+        "end": 293
       },
-      "directive": null
+      "directive": null,
+      "start": 283,
+      "end": 294
     },
     {
       "type": "ExpressionStatement",
-      "start": 296,
-      "end": 309,
       "expression": {
         "type": "BinaryExpression",
-        "start": 296,
-        "end": 308,
         "left": {
           "type": "BinaryExpression",
-          "start": 297,
-          "end": 302,
           "left": {
             "type": "Literal",
-            "start": 297,
-            "end": 298,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 297,
+            "end": 298
           },
           "operator": "+",
           "right": {
             "type": "Literal",
-            "start": 301,
-            "end": 302,
             "value": 3,
-            "raw": "3"
-          }
+            "raw": "3",
+            "start": 301,
+            "end": 302
+          },
+          "start": 297,
+          "end": 302
         },
         "operator": "**",
         "right": {
           "type": "Literal",
-          "start": 307,
-          "end": 308,
           "value": 4,
-          "raw": "4"
-        }
+          "raw": "4",
+          "start": 307,
+          "end": 308
+        },
+        "start": 296,
+        "end": 308
       },
-      "directive": null
+      "directive": null,
+      "start": 296,
+      "end": 309
     },
     {
       "type": "ExpressionStatement",
-      "start": 310,
-      "end": 323,
       "expression": {
         "type": "BinaryExpression",
-        "start": 310,
-        "end": 322,
         "left": {
           "type": "BinaryExpression",
-          "start": 311,
-          "end": 316,
           "left": {
             "type": "Literal",
-            "start": 311,
-            "end": 312,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 311,
+            "end": 312
           },
           "operator": "-",
           "right": {
             "type": "Literal",
-            "start": 315,
-            "end": 316,
             "value": 3,
-            "raw": "3"
-          }
+            "raw": "3",
+            "start": 315,
+            "end": 316
+          },
+          "start": 311,
+          "end": 316
         },
         "operator": "**",
         "right": {
           "type": "Literal",
-          "start": 321,
-          "end": 322,
           "value": 4,
-          "raw": "4"
-        }
+          "raw": "4",
+          "start": 321,
+          "end": 322
+        },
+        "start": 310,
+        "end": 322
       },
-      "directive": null
+      "directive": null,
+      "start": 310,
+      "end": 323
     },
     {
       "type": "ExpressionStatement",
-      "start": 324,
-      "end": 337,
       "expression": {
         "type": "BinaryExpression",
-        "start": 324,
-        "end": 336,
         "left": {
           "type": "BinaryExpression",
-          "start": 325,
-          "end": 330,
           "left": {
             "type": "Literal",
-            "start": 325,
-            "end": 326,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 325,
+            "end": 326
           },
           "operator": "*",
           "right": {
             "type": "Literal",
-            "start": 329,
-            "end": 330,
             "value": 3,
-            "raw": "3"
-          }
+            "raw": "3",
+            "start": 329,
+            "end": 330
+          },
+          "start": 325,
+          "end": 330
         },
         "operator": "**",
         "right": {
           "type": "Literal",
-          "start": 335,
-          "end": 336,
           "value": 4,
-          "raw": "4"
-        }
+          "raw": "4",
+          "start": 335,
+          "end": 336
+        },
+        "start": 324,
+        "end": 336
       },
-      "directive": null
+      "directive": null,
+      "start": 324,
+      "end": 337
     },
     {
       "type": "ExpressionStatement",
-      "start": 338,
-      "end": 351,
       "expression": {
         "type": "BinaryExpression",
-        "start": 338,
-        "end": 350,
         "left": {
           "type": "BinaryExpression",
-          "start": 339,
-          "end": 344,
           "left": {
             "type": "Literal",
-            "start": 339,
-            "end": 340,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 339,
+            "end": 340
           },
           "operator": "/",
           "right": {
             "type": "Literal",
-            "start": 343,
-            "end": 344,
             "value": 3,
-            "raw": "3"
-          }
+            "raw": "3",
+            "start": 343,
+            "end": 344
+          },
+          "start": 339,
+          "end": 344
         },
         "operator": "**",
         "right": {
           "type": "Literal",
-          "start": 349,
-          "end": 350,
           "value": 4,
-          "raw": "4"
-        }
+          "raw": "4",
+          "start": 349,
+          "end": 350
+        },
+        "start": 338,
+        "end": 350
       },
-      "directive": null
+      "directive": null,
+      "start": 338,
+      "end": 351
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 351
 }
 ```

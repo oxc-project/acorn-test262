@@ -2,59 +2,59 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 64,
-  "end": 99,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 64,
-      "end": 77,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 71,
-        "end": 77,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 75,
-            "end": 76,
             "id": {
               "type": "Identifier",
-              "start": 75,
-              "end": 76,
               "decorators": [],
               "name": "X",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 75,
+              "end": 76
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 75,
+            "end": 76
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 71,
+        "end": 77
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 64,
+      "end": 77
     },
     {
       "type": "TSNamespaceExportDeclaration",
-      "start": 78,
-      "end": 99,
       "id": {
         "type": "Identifier",
-        "start": 98,
-        "end": 99,
         "decorators": [],
         "name": "N",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 98,
+        "end": 99
+      },
+      "start": 78,
+      "end": 99
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 64,
+  "end": 99
 }
 ```

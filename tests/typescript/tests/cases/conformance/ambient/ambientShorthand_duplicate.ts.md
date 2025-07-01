@@ -2,96 +2,96 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 21,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 20,
         "value": "foo",
-        "raw": "\"foo\""
+        "raw": "\"foo\"",
+        "start": 15,
+        "end": 20
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 21
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 21,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 20,
         "value": "foo",
-        "raw": "\"foo\""
+        "raw": "\"foo\"",
+        "start": 15,
+        "end": 20
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 21
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 86,
-  "end": 108,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 86,
-      "end": 108,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 93,
-          "end": 96,
           "local": {
             "type": "Identifier",
-            "start": 93,
-            "end": 96,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 93,
+            "end": 96
+          },
+          "start": 93,
+          "end": 96
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 102,
-        "end": 107,
         "value": "foo",
-        "raw": "\"foo\""
+        "raw": "\"foo\"",
+        "start": 102,
+        "end": 107
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 86,
+      "end": 108
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 86,
+  "end": 108
 }
 ```

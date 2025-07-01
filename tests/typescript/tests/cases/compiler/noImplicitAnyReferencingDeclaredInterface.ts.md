@@ -2,87 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 99,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 76,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 15,
         "decorators": [],
         "name": "Entry",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 15
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 16,
-        "end": 76,
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 67,
-            "end": 74,
             "typeParameters": null,
             "params": [],
-            "returnType": null
+            "returnType": null,
+            "start": 67,
+            "end": 74
           }
-        ]
+        ],
+        "start": 16,
+        "end": 76
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 76
     },
     {
       "type": "VariableDeclaration",
-      "start": 78,
-      "end": 99,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 90,
-          "end": 98,
           "id": {
             "type": "Identifier",
-            "start": 90,
-            "end": 98,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 91,
-              "end": 98,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 93,
-                "end": 98,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 93,
-                  "end": 98,
                   "decorators": [],
                   "name": "Entry",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 93,
+                  "end": 98
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 93,
+                "end": 98
+              },
+              "start": 91,
+              "end": 98
+            },
+            "start": 90,
+            "end": 98
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 90,
+          "end": 98
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 78,
+      "end": 99
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 99
 }
 ```

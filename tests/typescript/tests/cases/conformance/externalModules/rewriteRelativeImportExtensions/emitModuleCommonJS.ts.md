@@ -2,218 +2,218 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 104,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 0,
-      "end": 103,
       "body": [
         {
           "type": "ExpressionStatement",
-          "start": 4,
-          "end": 29,
           "expression": {
             "type": "CallExpression",
-            "start": 4,
-            "end": 28,
             "callee": {
               "type": "Identifier",
-              "start": 4,
-              "end": 11,
               "decorators": [],
               "name": "require",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 4,
+              "end": 11
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "BinaryExpression",
-                "start": 12,
-                "end": 27,
                 "left": {
                   "type": "Literal",
-                  "start": 12,
-                  "end": 14,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "start": 12,
+                  "end": 14
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 17,
-                  "end": 27,
                   "value": "./foo.ts",
-                  "raw": "\"./foo.ts\""
-                }
+                  "raw": "\"./foo.ts\"",
+                  "start": 17,
+                  "end": 27
+                },
+                "start": 12,
+                "end": 27
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 4,
+            "end": 28
           },
-          "directive": null
+          "directive": null,
+          "start": 4,
+          "end": 29
         },
         {
           "type": "ExpressionStatement",
-          "start": 32,
-          "end": 56,
           "expression": {
             "type": "ImportExpression",
-            "start": 32,
-            "end": 55,
             "source": {
               "type": "BinaryExpression",
-              "start": 39,
-              "end": 54,
               "left": {
                 "type": "Literal",
-                "start": 39,
-                "end": 41,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "start": 39,
+                "end": 41
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 44,
-                "end": 54,
                 "value": "./foo.ts",
-                "raw": "\"./foo.ts\""
-              }
+                "raw": "\"./foo.ts\"",
+                "start": 44,
+                "end": 54
+              },
+              "start": 39,
+              "end": 54
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 32,
+            "end": 55
           },
-          "directive": null
+          "directive": null,
+          "start": 32,
+          "end": 56
         },
         {
           "type": "ExpressionStatement",
-          "start": 59,
-          "end": 79,
           "expression": {
             "type": "CallExpression",
-            "start": 59,
-            "end": 78,
             "callee": {
               "type": "Identifier",
-              "start": 59,
-              "end": 66,
               "decorators": [],
               "name": "require",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 59,
+              "end": 66
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 67,
-                "end": 77,
                 "value": "./foo.ts",
-                "raw": "\"./foo.ts\""
+                "raw": "\"./foo.ts\"",
+                "start": 67,
+                "end": 77
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 59,
+            "end": 78
           },
-          "directive": null
+          "directive": null,
+          "start": 59,
+          "end": 79
         },
         {
           "type": "ExpressionStatement",
-          "start": 82,
-          "end": 101,
           "expression": {
             "type": "ImportExpression",
-            "start": 82,
-            "end": 100,
             "source": {
               "type": "Literal",
-              "start": 89,
-              "end": 99,
               "value": "./foo.ts",
-              "raw": "\"./foo.ts\""
+              "raw": "\"./foo.ts\"",
+              "start": 89,
+              "end": 99
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 82,
+            "end": 100
           },
-          "directive": null
+          "directive": null,
+          "start": 82,
+          "end": 101
         }
-      ]
+      ],
+      "start": 0,
+      "end": 103
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 104
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 52,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 0,
-      "end": 52,
       "body": [
         {
           "type": "ExpressionStatement",
-          "start": 4,
-          "end": 28,
           "expression": {
             "type": "ImportExpression",
-            "start": 4,
-            "end": 27,
             "source": {
               "type": "BinaryExpression",
-              "start": 11,
-              "end": 26,
               "left": {
                 "type": "Literal",
-                "start": 11,
-                "end": 13,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "start": 11,
+                "end": 13
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 16,
-                "end": 26,
                 "value": "./foo.ts",
-                "raw": "\"./foo.ts\""
-              }
+                "raw": "\"./foo.ts\"",
+                "start": 16,
+                "end": 26
+              },
+              "start": 11,
+              "end": 26
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 4,
+            "end": 27
           },
-          "directive": null
+          "directive": null,
+          "start": 4,
+          "end": 28
         },
         {
           "type": "ExpressionStatement",
-          "start": 31,
-          "end": 50,
           "expression": {
             "type": "ImportExpression",
-            "start": 31,
-            "end": 49,
             "source": {
               "type": "Literal",
-              "start": 38,
-              "end": 48,
               "value": "./foo.ts",
-              "raw": "\"./foo.ts\""
+              "raw": "\"./foo.ts\"",
+              "start": 38,
+              "end": 48
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 31,
+            "end": 49
           },
-          "directive": null
+          "directive": null,
+          "start": 31,
+          "end": 50
         }
-      ]
+      ],
+      "start": 0,
+      "end": 52
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 52
 }
 ```

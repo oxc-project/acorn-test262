@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 24,
-  "end": 76,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 24,
-      "end": 61,
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 43,
         "decorators": [],
         "name": "Dependency",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 33,
+        "end": 43
       },
       "generator": false,
       "async": false,
@@ -25,70 +21,74 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 44,
-          "end": 45,
           "decorators": [],
           "name": "j",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 44,
+          "end": 45
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 47,
-        "end": 61,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 51,
-            "end": 59,
             "argument": {
               "type": "Identifier",
-              "start": 58,
-              "end": 59,
               "decorators": [],
               "name": "j",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 58,
+              "end": 59
+            },
+            "start": 51,
+            "end": 59
           }
-        ]
+        ],
+        "start": 47,
+        "end": 61
       },
-      "expression": false
+      "expression": false,
+      "start": 24,
+      "end": 61
     },
     {
       "type": "ExpressionStatement",
-      "start": 62,
-      "end": 76,
       "expression": {
         "type": "CallExpression",
-        "start": 62,
-        "end": 76,
         "callee": {
           "type": "Identifier",
-          "start": 62,
-          "end": 72,
           "decorators": [],
           "name": "Dependency",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 62,
+          "end": 72
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 73,
-            "end": 75,
-            "properties": []
+            "end": 75
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 62,
+        "end": 76
       },
-      "directive": null
+      "directive": null,
+      "start": 62,
+      "end": 76
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 24,
+  "end": 76
 }
 ```

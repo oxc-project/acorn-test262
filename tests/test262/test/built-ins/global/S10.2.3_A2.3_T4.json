@@ -1,125 +1,125 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 477,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 285,
-      "end": 460,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 289,
-          "end": 459,
           "id": {
             "type": "Identifier",
+            "name": "evalStr",
             "start": 289,
-            "end": 296,
-            "name": "evalStr"
+            "end": 296
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 299,
-            "end": 459,
             "left": {
               "type": "BinaryExpression",
-              "start": 299,
-              "end": 452,
               "left": {
                 "type": "BinaryExpression",
-                "start": 299,
-                "end": 443,
                 "left": {
                   "type": "BinaryExpression",
-                  "start": 299,
-                  "end": 370,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 299,
-                    "end": 339,
                     "left": {
                       "type": "Literal",
-                      "start": 299,
-                      "end": 312,
                       "value": "//CHECK#1\n",
-                      "raw": "'//CHECK#1\\n'"
+                      "raw": "'//CHECK#1\\n'",
+                      "start": 299,
+                      "end": 312
                     },
                     "operator": "+",
                     "right": {
                       "type": "Literal",
-                      "start": 314,
-                      "end": 339,
                       "value": "for (var x in this) {\n",
-                      "raw": "'for (var x in this) {\\n'"
-                    }
+                      "raw": "'for (var x in this) {\\n'",
+                      "start": 314,
+                      "end": 339
+                    },
+                    "start": 299,
+                    "end": 339
                   },
                   "operator": "+",
                   "right": {
                     "type": "Literal",
-                    "start": 341,
-                    "end": 370,
                     "value": "  if ( x === 'Math' ) {\n",
-                    "raw": "'  if ( x === \\'Math\\' ) {\\n'"
-                  }
+                    "raw": "'  if ( x === \\'Math\\' ) {\\n'",
+                    "start": 341,
+                    "end": 370
+                  },
+                  "start": 299,
+                  "end": 370
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 372,
-                  "end": 443,
                   "value": "    throw new Test262Error(\"#1: 'Math' have attribute DontEnum\");\n",
-                  "raw": "'    throw new Test262Error(\"#1: \\'Math\\' have attribute DontEnum\");\\n'"
-                }
+                  "raw": "'    throw new Test262Error(\"#1: \\'Math\\' have attribute DontEnum\");\\n'",
+                  "start": 372,
+                  "end": 443
+                },
+                "start": 299,
+                "end": 443
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 445,
-                "end": 452,
                 "value": "  }\n",
-                "raw": "'  }\\n'"
-              }
+                "raw": "'  }\\n'",
+                "start": 445,
+                "end": 452
+              },
+              "start": 299,
+              "end": 452
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 454,
-              "end": 459,
               "value": "}\n",
-              "raw": "'}\\n'"
-            }
-          }
+              "raw": "'}\\n'",
+              "start": 454,
+              "end": 459
+            },
+            "start": 299,
+            "end": 459
+          },
+          "start": 289,
+          "end": 459
         }
-      ]
+      ],
+      "start": 285,
+      "end": 460
     },
     {
       "type": "ExpressionStatement",
-      "start": 462,
-      "end": 476,
       "expression": {
         "type": "CallExpression",
-        "start": 462,
-        "end": 475,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 462,
-          "end": 466,
-          "name": "eval"
+          "end": 466
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "evalStr",
             "start": 467,
-            "end": 474,
-            "name": "evalStr"
+            "end": 474
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 462,
+        "end": 475
+      },
+      "start": 462,
+      "end": 476
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 477
 }

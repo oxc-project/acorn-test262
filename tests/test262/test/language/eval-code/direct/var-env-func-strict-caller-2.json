@@ -1,127 +1,127 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 476,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 327,
-      "end": 463,
       "id": {
         "type": "Identifier",
+        "name": "testcase",
         "start": 336,
-        "end": 344,
-        "name": "testcase"
+        "end": 344
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 347,
-        "end": 463,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 357,
-            "end": 394,
             "expression": {
               "type": "CallExpression",
-              "start": 357,
-              "end": 393,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 357,
-                "end": 361,
-                "name": "eval"
+                "end": 361
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 362,
-                  "end": 392,
                   "value": "function _10_4_2_1_2_fun(){}",
-                  "raw": "\"function _10_4_2_1_2_fun(){}\""
+                  "raw": "\"function _10_4_2_1_2_fun(){}\"",
+                  "start": 362,
+                  "end": 392
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 357,
+              "end": 393
+            },
+            "start": 357,
+            "end": 394
           },
           {
             "type": "ExpressionStatement",
-            "start": 403,
-            "end": 457,
             "expression": {
               "type": "CallExpression",
-              "start": 403,
-              "end": 456,
               "callee": {
                 "type": "MemberExpression",
-                "start": 403,
-                "end": 419,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 403,
-                  "end": 409,
-                  "name": "assert"
+                  "end": 409
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 410,
-                  "end": 419,
-                  "name": "sameValue"
+                  "end": 419
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 403,
+                "end": 419
               },
               "arguments": [
                 {
                   "type": "UnaryExpression",
-                  "start": 420,
-                  "end": 442,
                   "operator": "typeof",
                   "argument": {
                     "type": "Identifier",
+                    "name": "_10_4_2_1_2_fun",
                     "start": 427,
-                    "end": 442,
-                    "name": "_10_4_2_1_2_fun"
+                    "end": 442
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 420,
+                  "end": 442
                 },
                 {
                   "type": "Literal",
-                  "start": 444,
-                  "end": 455,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "start": 444,
+                  "end": 455
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 403,
+              "end": 456
+            },
+            "start": 403,
+            "end": 457
           }
-        ]
+        ],
+        "start": 347,
+        "end": 463
       },
-      "expression": false
+      "expression": false,
+      "start": 327,
+      "end": 463
     },
     {
       "type": "ExpressionStatement",
-      "start": 464,
-      "end": 475,
       "expression": {
         "type": "CallExpression",
-        "start": 464,
-        "end": 474,
         "callee": {
           "type": "Identifier",
+          "name": "testcase",
           "start": 464,
-          "end": 472,
-          "name": "testcase"
+          "end": 472
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 464,
+        "end": 474
+      },
+      "start": 464,
+      "end": 475
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 476
 }

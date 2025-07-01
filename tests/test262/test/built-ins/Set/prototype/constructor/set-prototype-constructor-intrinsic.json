@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 438,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 327,
-      "end": 437,
       "expression": {
         "type": "CallExpression",
-        "start": 327,
-        "end": 436,
         "callee": {
           "type": "MemberExpression",
-          "start": 327,
-          "end": 343,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 327,
-            "end": 333,
-            "name": "assert"
+            "end": 333
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 334,
-            "end": 343,
-            "name": "sameValue"
+            "end": 343
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 327,
+          "end": 343
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 347,
-            "end": 372,
             "object": {
               "type": "MemberExpression",
-              "start": 347,
-              "end": 360,
               "object": {
                 "type": "Identifier",
+                "name": "Set",
                 "start": 347,
-                "end": 350,
-                "name": "Set"
+                "end": 350
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 351,
-                "end": 360,
-                "name": "prototype"
+                "end": 360
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 347,
+              "end": 360
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 361,
-              "end": 372,
-              "name": "constructor"
+              "end": 372
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 347,
+            "end": 372
           },
           {
             "type": "Identifier",
+            "name": "Set",
             "start": 376,
-            "end": 379,
-            "name": "Set"
+            "end": 379
           },
           {
             "type": "Literal",
-            "start": 383,
-            "end": 434,
             "value": "The value of `Set.prototype.constructor` is `Set`",
-            "raw": "\"The value of `Set.prototype.constructor` is `Set`\""
+            "raw": "\"The value of `Set.prototype.constructor` is `Set`\"",
+            "start": 383,
+            "end": 434
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 327,
+        "end": 436
+      },
+      "start": 327,
+      "end": 437
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 438
 }

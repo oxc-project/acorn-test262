@@ -1,95 +1,95 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 601,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 540,
-      "end": 600,
       "expression": {
         "type": "CallExpression",
-        "start": 540,
-        "end": 599,
         "callee": {
           "type": "MemberExpression",
-          "start": 540,
-          "end": 553,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 540,
-            "end": 546,
-            "name": "assert"
+            "end": 546
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 547,
-            "end": 553,
-            "name": "throws"
+            "end": 553
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 540,
+          "end": 553
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 554,
-            "end": 563,
-            "name": "TypeError"
+            "end": 563
           },
           {
             "type": "FunctionExpression",
-            "start": 565,
-            "end": 598,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 576,
-              "end": 598,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 580,
-                  "end": 596,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 580,
-                    "end": 595,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 580,
-                      "end": 593,
                       "object": {
                         "type": "Identifier",
+                        "name": "TypedArray",
                         "start": 580,
-                        "end": 590,
-                        "name": "TypedArray"
+                        "end": 590
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "of",
                         "start": 591,
-                        "end": 593,
-                        "name": "of"
+                        "end": 593
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 580,
+                      "end": 593
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 580,
+                    "end": 595
+                  },
+                  "start": 580,
+                  "end": 596
                 }
-              ]
+              ],
+              "start": 576,
+              "end": 598
             },
-            "expression": false
+            "expression": false,
+            "start": 565,
+            "end": 598
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 540,
+        "end": 599
+      },
+      "start": 540,
+      "end": 600
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 601
 }

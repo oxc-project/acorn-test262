@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 484,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 339,
-      "end": 352,
       "expression": {
         "type": "Literal",
-        "start": 339,
-        "end": 351,
         "value": null,
         "raw": "/[\\p{Hex}]/u",
         "regex": {
           "pattern": "[\\p{Hex}]",
           "flags": "u"
-        }
-      }
+        },
+        "start": 339,
+        "end": 351
+      },
+      "start": 339,
+      "end": 352
     },
     {
       "type": "ExpressionStatement",
-      "start": 354,
-      "end": 483,
       "expression": {
         "type": "CallExpression",
-        "start": 354,
-        "end": 482,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 354,
-          "end": 360,
-          "name": "assert"
+          "end": 360
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 364,
-            "end": 401,
             "callee": {
               "type": "MemberExpression",
-              "start": 364,
-              "end": 388,
               "object": {
                 "type": "Literal",
-                "start": 364,
-                "end": 383,
                 "value": null,
                 "raw": "/[\\p{Hex}\\P{Hex}]/u",
                 "regex": {
                   "pattern": "[\\p{Hex}\\P{Hex}]",
                   "flags": "u"
-                }
+                },
+                "start": 364,
+                "end": 383
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 384,
-                "end": 388,
-                "name": "test"
+                "end": 388
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 364,
+              "end": 388
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 389,
-                "end": 400,
                 "value": "𝌆",
-                "raw": "'\\u{1D306}'"
+                "raw": "'\\u{1D306}'",
+                "start": 389,
+                "end": 400
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 364,
+            "end": 401
           },
           {
             "type": "Literal",
-            "start": 405,
-            "end": 480,
             "value": "multiple property escapes in a single character class should be supported",
-            "raw": "'multiple property escapes in a single character class should be supported'"
+            "raw": "'multiple property escapes in a single character class should be supported'",
+            "start": 405,
+            "end": 480
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 354,
+        "end": 482
+      },
+      "start": 354,
+      "end": 483
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 484
 }

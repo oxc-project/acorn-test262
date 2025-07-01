@@ -1,159 +1,159 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 484,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 357,
-      "end": 483,
       "expression": {
         "type": "CallExpression",
-        "start": 357,
-        "end": 482,
         "callee": {
           "type": "Identifier",
+          "name": "testWithAtomicsNonViewValues",
           "start": 357,
-          "end": 385,
-          "name": "testWithAtomicsNonViewValues"
+          "end": 385
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 386,
-            "end": 481,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "view",
                 "start": 395,
-                "end": 399,
-                "name": "view"
+                "end": 399
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 401,
-              "end": 481,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 405,
-                  "end": 479,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 405,
-                    "end": 478,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 405,
-                      "end": 418,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 405,
-                        "end": 411,
-                        "name": "assert"
+                        "end": 411
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "throws",
                         "start": 412,
-                        "end": 418,
-                        "name": "throws"
+                        "end": 418
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 405,
+                      "end": 418
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "TypeError",
                         "start": 419,
-                        "end": 428,
-                        "name": "TypeError"
+                        "end": 428
                       },
                       {
                         "type": "FunctionExpression",
-                        "start": 430,
-                        "end": 477,
                         "id": null,
                         "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 441,
-                          "end": 477,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 447,
-                              "end": 473,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 447,
-                                "end": 472,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 447,
-                                  "end": 460,
                                   "object": {
                                     "type": "Identifier",
+                                    "name": "Atomics",
                                     "start": 447,
-                                    "end": 454,
-                                    "name": "Atomics"
+                                    "end": 454
                                   },
                                   "property": {
                                     "type": "Identifier",
+                                    "name": "store",
                                     "start": 455,
-                                    "end": 460,
-                                    "name": "store"
+                                    "end": 460
                                   },
                                   "optional": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 447,
+                                  "end": 460
                                 },
                                 "arguments": [
                                   {
                                     "type": "Identifier",
+                                    "name": "view",
                                     "start": 461,
-                                    "end": 465,
-                                    "name": "view"
+                                    "end": 465
                                   },
                                   {
                                     "type": "Literal",
+                                    "value": 0,
+                                    "raw": "0",
                                     "start": 467,
-                                    "end": 468,
-                                    "value": 0,
-                                    "raw": "0"
+                                    "end": 468
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 470,
-                                    "end": 471,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "start": 470,
+                                    "end": 471
                                   }
                                 ],
-                                "optional": false
-                              }
+                                "optional": false,
+                                "start": 447,
+                                "end": 472
+                              },
+                              "start": 447,
+                              "end": 473
                             }
-                          ]
+                          ],
+                          "start": 441,
+                          "end": 477
                         },
-                        "expression": false
+                        "expression": false,
+                        "start": 430,
+                        "end": 477
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 405,
+                    "end": 478
+                  },
+                  "start": 405,
+                  "end": 479
                 }
-              ]
+              ],
+              "start": 401,
+              "end": 481
             },
-            "expression": false
+            "expression": false,
+            "start": 386,
+            "end": 481
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 357,
+        "end": 482
+      },
+      "start": 357,
+      "end": 483
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 484
 }

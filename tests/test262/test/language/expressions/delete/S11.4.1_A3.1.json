@@ -1,141 +1,131 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 922,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 334,
-      "end": 344,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 338,
-          "end": 343,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 338,
-            "end": 339,
-            "name": "x"
+            "end": 339
           },
           "init": {
             "type": "Literal",
-            "start": 342,
-            "end": 343,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 342,
+            "end": 343
+          },
+          "start": 338,
+          "end": 343
         }
-      ]
+      ],
+      "start": 334,
+      "end": 344
     },
     {
       "type": "IfStatement",
-      "start": 345,
-      "end": 435,
       "test": {
         "type": "BinaryExpression",
-        "start": 349,
-        "end": 367,
         "left": {
           "type": "UnaryExpression",
-          "start": 349,
-          "end": 357,
           "operator": "delete",
           "argument": {
             "type": "Identifier",
+            "name": "x",
             "start": 356,
-            "end": 357,
-            "name": "x"
+            "end": 357
           },
-          "prefix": true
+          "prefix": true,
+          "start": 349,
+          "end": 357
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 362,
-          "end": 367,
           "value": false,
-          "raw": "false"
-        }
+          "raw": "false",
+          "start": 362,
+          "end": 367
+        },
+        "start": 349,
+        "end": 367
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 369,
-        "end": 435,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 373,
-            "end": 433,
             "argument": {
               "type": "NewExpression",
-              "start": 379,
-              "end": 432,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 383,
-                "end": 395,
-                "name": "Test262Error"
+                "end": 395
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 396,
-                  "end": 431,
                   "value": "#1: var x = 1; delete x === false",
-                  "raw": "'#1: var x = 1; delete x === false'"
+                  "raw": "'#1: var x = 1; delete x === false'",
+                  "start": 396,
+                  "end": 431
                 }
-              ]
-            }
+              ],
+              "start": 379,
+              "end": 432
+            },
+            "start": 373,
+            "end": 433
           }
-        ]
+        ],
+        "start": 369,
+        "end": 435
       },
-      "alternate": null
+      "alternate": null,
+      "start": 345,
+      "end": 435
     },
     {
       "type": "VariableDeclaration",
-      "start": 447,
-      "end": 457,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 451,
-          "end": 456,
           "id": {
             "type": "Identifier",
+            "name": "y",
             "start": 451,
-            "end": 452,
-            "name": "y"
+            "end": 452
           },
           "init": {
             "type": "Literal",
-            "start": 455,
-            "end": 456,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 455,
+            "end": 456
+          },
+          "start": 451,
+          "end": 456
         }
-      ]
+      ],
+      "start": 447,
+      "end": 457
     },
     {
       "type": "IfStatement",
-      "start": 458,
-      "end": 558,
       "test": {
         "type": "BinaryExpression",
-        "start": 462,
-        "end": 485,
         "left": {
           "type": "UnaryExpression",
-          "start": 462,
-          "end": 475,
           "operator": "delete",
           "argument": {
             "type": "MemberExpression",
-            "start": 469,
-            "end": 475,
             "object": {
               "type": "ThisExpression",
               "start": 469,
@@ -143,239 +133,249 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "y",
               "start": 474,
-              "end": 475,
-              "name": "y"
+              "end": 475
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 469,
+            "end": 475
           },
-          "prefix": true
+          "prefix": true,
+          "start": 462,
+          "end": 475
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 480,
-          "end": 485,
           "value": false,
-          "raw": "false"
-        }
+          "raw": "false",
+          "start": 480,
+          "end": 485
+        },
+        "start": 462,
+        "end": 485
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 487,
-        "end": 558,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 491,
-            "end": 556,
             "argument": {
               "type": "NewExpression",
-              "start": 497,
-              "end": 555,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 501,
-                "end": 513,
-                "name": "Test262Error"
+                "end": 513
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 514,
-                  "end": 554,
                   "value": "#2: var y = 1; delete this.y === false",
-                  "raw": "'#2: var y = 1; delete this.y === false'"
+                  "raw": "'#2: var y = 1; delete this.y === false'",
+                  "start": 514,
+                  "end": 554
                 }
-              ]
-            }
+              ],
+              "start": 497,
+              "end": 555
+            },
+            "start": 491,
+            "end": 556
           }
-        ]
+        ],
+        "start": 487,
+        "end": 558
       },
-      "alternate": null
+      "alternate": null,
+      "start": 458,
+      "end": 558
     },
     {
       "type": "FunctionDeclaration",
-      "start": 570,
-      "end": 594,
       "id": {
         "type": "Identifier",
+        "name": "MyFunction",
         "start": 579,
-        "end": 589,
-        "name": "MyFunction"
+        "end": 589
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 592,
-        "end": 594,
-        "body": []
+        "end": 594
       },
-      "expression": false
+      "expression": false,
+      "start": 570,
+      "end": 594
     },
     {
       "type": "IfStatement",
-      "start": 595,
-      "end": 717,
       "test": {
         "type": "BinaryExpression",
-        "start": 599,
-        "end": 626,
         "left": {
           "type": "UnaryExpression",
-          "start": 599,
-          "end": 616,
           "operator": "delete",
           "argument": {
             "type": "Identifier",
+            "name": "MyFunction",
             "start": 606,
-            "end": 616,
-            "name": "MyFunction"
+            "end": 616
           },
-          "prefix": true
+          "prefix": true,
+          "start": 599,
+          "end": 616
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 621,
-          "end": 626,
           "value": false,
-          "raw": "false"
-        }
+          "raw": "false",
+          "start": 621,
+          "end": 626
+        },
+        "start": 599,
+        "end": 626
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 628,
-        "end": 717,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 632,
-            "end": 715,
             "argument": {
               "type": "NewExpression",
-              "start": 638,
-              "end": 714,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 642,
-                "end": 654,
-                "name": "Test262Error"
+                "end": 654
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 655,
-                  "end": 713,
                   "value": "#3: function MyFunction(){}; delete MyFunction === false",
-                  "raw": "'#3: function MyFunction(){}; delete MyFunction === false'"
+                  "raw": "'#3: function MyFunction(){}; delete MyFunction === false'",
+                  "start": 655,
+                  "end": 713
                 }
-              ]
-            }
+              ],
+              "start": 638,
+              "end": 714
+            },
+            "start": 632,
+            "end": 715
           }
-        ]
+        ],
+        "start": 628,
+        "end": 717
       },
-      "alternate": null
+      "alternate": null,
+      "start": 595,
+      "end": 717
     },
     {
       "type": "VariableDeclaration",
-      "start": 729,
-      "end": 761,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 733,
-          "end": 760,
           "id": {
             "type": "Identifier",
+            "name": "MyObject",
             "start": 733,
-            "end": 741,
-            "name": "MyObject"
+            "end": 741
           },
           "init": {
             "type": "NewExpression",
-            "start": 744,
-            "end": 760,
             "callee": {
               "type": "Identifier",
+              "name": "MyFunction",
               "start": 748,
-              "end": 758,
-              "name": "MyFunction"
+              "end": 758
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 744,
+            "end": 760
+          },
+          "start": 733,
+          "end": 760
         }
-      ]
+      ],
+      "start": 729,
+      "end": 761
     },
     {
       "type": "IfStatement",
-      "start": 762,
-      "end": 921,
       "test": {
         "type": "BinaryExpression",
-        "start": 766,
-        "end": 791,
         "left": {
           "type": "UnaryExpression",
-          "start": 766,
-          "end": 781,
           "operator": "delete",
           "argument": {
             "type": "Identifier",
+            "name": "MyObject",
             "start": 773,
-            "end": 781,
-            "name": "MyObject"
+            "end": 781
           },
-          "prefix": true
+          "prefix": true,
+          "start": 766,
+          "end": 781
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 786,
-          "end": 791,
           "value": false,
-          "raw": "false"
-        }
+          "raw": "false",
+          "start": 786,
+          "end": 791
+        },
+        "start": 766,
+        "end": 791
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 793,
-        "end": 921,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 797,
-            "end": 919,
             "argument": {
               "type": "NewExpression",
-              "start": 803,
-              "end": 918,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 807,
-                "end": 819,
-                "name": "Test262Error"
+                "end": 819
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 825,
-                  "end": 914,
                   "value": "#4: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject === false",
-                  "raw": "'#4: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject === false'"
+                  "raw": "'#4: function MyFunction(){}; var MyObject = new MyFunction(); delete MyObject === false'",
+                  "start": 825,
+                  "end": 914
                 }
-              ]
-            }
+              ],
+              "start": 803,
+              "end": 918
+            },
+            "start": 797,
+            "end": 919
           }
-        ]
+        ],
+        "start": 793,
+        "end": 921
       },
-      "alternate": null
+      "alternate": null,
+      "start": 762,
+      "end": 921
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 922
 }

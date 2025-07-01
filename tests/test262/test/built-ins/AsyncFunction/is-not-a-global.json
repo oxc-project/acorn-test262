@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 414,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 300,
-      "end": 413,
       "expression": {
         "type": "CallExpression",
-        "start": 300,
-        "end": 412,
         "callee": {
           "type": "MemberExpression",
-          "start": 300,
-          "end": 313,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 300,
-            "end": 306,
-            "name": "assert"
+            "end": 306
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 307,
-            "end": 313,
-            "name": "throws"
+            "end": 313
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 300,
+          "end": 313
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 314,
-            "end": 328,
-            "name": "ReferenceError"
+            "end": 328
           },
           {
             "type": "FunctionExpression",
-            "start": 330,
-            "end": 360,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 341,
-              "end": 360,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 345,
-                  "end": 358,
                   "expression": {
                     "type": "Identifier",
+                    "name": "AsyncFunction",
                     "start": 345,
-                    "end": 358,
-                    "name": "AsyncFunction"
-                  }
+                    "end": 358
+                  },
+                  "start": 345,
+                  "end": 358
                 }
-              ]
+              ],
+              "start": 341,
+              "end": 360
             },
-            "expression": false
+            "expression": false,
+            "start": 330,
+            "end": 360
           },
           {
             "type": "Literal",
-            "start": 362,
-            "end": 411,
             "value": "AsyncFunction should not be present as a global",
-            "raw": "\"AsyncFunction should not be present as a global\""
+            "raw": "\"AsyncFunction should not be present as a global\"",
+            "start": 362,
+            "end": 411
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 300,
+        "end": 412
+      },
+      "start": 300,
+      "end": 413
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 414
 }

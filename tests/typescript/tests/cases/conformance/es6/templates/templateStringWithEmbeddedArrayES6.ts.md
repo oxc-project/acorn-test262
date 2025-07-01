@@ -2,92 +2,92 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 29,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 28,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 8,
-            "end": 28,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 8,
+                "end": 14
               },
               {
                 "type": "TemplateElement",
-                "start": 23,
-                "end": 28,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": true
+                "tail": true,
+                "start": 23,
+                "end": 28
               }
             ],
             "expressions": [
               {
                 "type": "ArrayExpression",
-                "start": 15,
-                "end": 22,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 16,
-                    "end": 17,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 16,
+                    "end": 17
                   },
                   {
                     "type": "Literal",
-                    "start": 18,
-                    "end": 19,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "start": 18,
+                    "end": 19
                   },
                   {
                     "type": "Literal",
-                    "start": 20,
-                    "end": 21,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "start": 20,
+                    "end": 21
                   }
-                ]
+                ],
+                "start": 15,
+                "end": 22
               }
-            ]
+            ],
+            "start": 8,
+            "end": 28
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 28
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 29
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```

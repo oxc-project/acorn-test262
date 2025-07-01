@@ -2,78 +2,78 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 22,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 14,
-          "end": 21,
           "id": {
             "type": "Identifier",
-            "start": 14,
-            "end": 21,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 21,
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
                 "start": 17,
                 "end": 21
-              }
-            }
+              },
+              "start": 15,
+              "end": 21
+            },
+            "start": 14,
+            "end": 21
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 14,
+          "end": 21
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 22
     },
     {
       "type": "VariableDeclaration",
-      "start": 23,
-      "end": 36,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 29,
-          "end": 35,
           "id": {
             "type": "ObjectPattern",
-            "start": 29,
-            "end": 31,
             "decorators": [],
             "properties": [],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 29,
+            "end": 31
           },
           "init": {
             "type": "Identifier",
-            "start": 34,
-            "end": 35,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 34,
+            "end": 35
           },
-          "definite": false
+          "definite": false,
+          "start": 29,
+          "end": 35
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 23,
+      "end": 36
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```

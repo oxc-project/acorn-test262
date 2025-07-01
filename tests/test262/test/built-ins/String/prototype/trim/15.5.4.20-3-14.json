@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 351,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 272,
-      "end": 350,
       "expression": {
         "type": "CallExpression",
-        "start": 272,
-        "end": 349,
         "callee": {
           "type": "MemberExpression",
-          "start": 272,
-          "end": 288,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 272,
-            "end": 278,
-            "name": "assert"
+            "end": 278
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 279,
-            "end": 288,
-            "name": "sameValue"
+            "end": 288
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 272,
+          "end": 288
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 289,
-            "end": 309,
             "callee": {
               "type": "MemberExpression",
-              "start": 289,
-              "end": 307,
               "object": {
                 "type": "Literal",
-                "start": 289,
-                "end": 302,
                 "value": "a\u0000\u0000bc",
-                "raw": "\"a\\0\\u0000bc\""
+                "raw": "\"a\\0\\u0000bc\"",
+                "start": 289,
+                "end": 302
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 303,
-                "end": 307,
-                "name": "trim"
+                "end": 307
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 289,
+              "end": 307
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 289,
+            "end": 309
           },
           {
             "type": "Literal",
-            "start": 311,
-            "end": 324,
             "value": "a\u0000\u0000bc",
-            "raw": "\"a\\0\\u0000bc\""
+            "raw": "\"a\\0\\u0000bc\"",
+            "start": 311,
+            "end": 324
           },
           {
             "type": "Literal",
-            "start": 326,
-            "end": 348,
             "value": "\"a\u0000\u0000bc\".trim()",
-            "raw": "'\"a\\0\\u0000bc\".trim()'"
+            "raw": "'\"a\\0\\u0000bc\".trim()'",
+            "start": 326,
+            "end": 348
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 272,
+        "end": 349
+      },
+      "start": 272,
+      "end": 350
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 351
 }

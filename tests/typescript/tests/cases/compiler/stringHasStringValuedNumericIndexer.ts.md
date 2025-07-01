@@ -2,65 +2,65 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 23,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 15,
             "decorators": [],
             "name": "str",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 7,
-              "end": 15,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 9,
                 "end": 15
-              }
-            }
+              },
+              "start": 7,
+              "end": 15
+            },
+            "start": 4,
+            "end": 15
           },
           "init": {
             "type": "MemberExpression",
-            "start": 18,
-            "end": 23,
             "object": {
               "type": "Literal",
-              "start": 18,
-              "end": 20,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "start": 18,
+              "end": 20
             },
             "property": {
               "type": "Literal",
-              "start": 21,
-              "end": 22,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 21,
+              "end": 22
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 18,
+            "end": 23
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 23
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 24
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```

@@ -2,132 +2,132 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 11,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 6,
-        "end": 11,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 8,
-            "end": 9,
             "id": {
               "type": "Identifier",
-              "start": 8,
-              "end": 9,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 8,
+              "end": 9
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 8,
+            "end": 9
           }
-        ]
+        ],
+        "start": 6,
+        "end": 11
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "VariableDeclaration",
-      "start": 14,
-      "end": 24,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 18,
-          "end": 23,
           "id": {
             "type": "Identifier",
-            "start": 18,
-            "end": 19,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 18,
+            "end": 19
           },
           "init": {
             "type": "Identifier",
-            "start": 22,
-            "end": 23,
             "decorators": [],
             "name": "E",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 23
           },
-          "definite": false
+          "definite": false,
+          "start": 18,
+          "end": 23
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 14,
+      "end": 24
     },
     {
       "type": "VariableDeclaration",
-      "start": 25,
-      "end": 37,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 29,
-          "end": 36,
           "id": {
             "type": "Identifier",
-            "start": 29,
-            "end": 30,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 29,
+            "end": 30
           },
           "init": {
             "type": "MemberExpression",
-            "start": 33,
-            "end": 36,
             "object": {
               "type": "Identifier",
-              "start": 33,
-              "end": 34,
               "decorators": [],
               "name": "E",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 34
             },
             "property": {
               "type": "Identifier",
-              "start": 35,
-              "end": 36,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 35,
+              "end": 36
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 33,
+            "end": 36
           },
-          "definite": false
+          "definite": false,
+          "start": 29,
+          "end": 36
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 25,
+      "end": 37
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 37
 }
 ```

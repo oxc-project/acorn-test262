@@ -1,102 +1,102 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 353,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 267,
-      "end": 288,
       "id": {
         "type": "Identifier",
+        "name": "MyError",
         "start": 276,
-        "end": 283,
-        "name": "MyError"
+        "end": 283
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 286,
-        "end": 288,
-        "body": []
+        "end": 288
       },
-      "expression": false
+      "expression": false,
+      "start": 267,
+      "end": 288
     },
     {
       "type": "ExpressionStatement",
-      "start": 290,
-      "end": 352,
       "expression": {
         "type": "CallExpression",
-        "start": 290,
-        "end": 351,
         "callee": {
           "type": "MemberExpression",
-          "start": 290,
-          "end": 303,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 290,
-            "end": 296,
-            "name": "assert"
+            "end": 296
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 297,
-            "end": 303,
-            "name": "throws"
+            "end": 303
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 290,
+          "end": 303
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "MyError",
             "start": 304,
-            "end": 311,
-            "name": "MyError"
+            "end": 311
           },
           {
             "type": "FunctionExpression",
-            "start": 313,
-            "end": 350,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 324,
-              "end": 350,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 328,
-                  "end": 348,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 334,
-                    "end": 347,
                     "callee": {
                       "type": "Identifier",
+                      "name": "MyError",
                       "start": 338,
-                      "end": 345,
-                      "name": "MyError"
+                      "end": 345
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 334,
+                    "end": 347
+                  },
+                  "start": 328,
+                  "end": 348
                 }
-              ]
+              ],
+              "start": 324,
+              "end": 350
             },
-            "expression": false
+            "expression": false,
+            "start": 313,
+            "end": 350
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 290,
+        "end": 351
+      },
+      "start": 290,
+      "end": 352
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 353
 }

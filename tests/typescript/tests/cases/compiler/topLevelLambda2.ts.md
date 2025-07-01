@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 45,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 22,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,55 +21,51 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 13,
-          "end": 18,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 14,
-            "end": 18,
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 15,
               "end": 18
-            }
-          }
+            },
+            "start": 14,
+            "end": 18
+          },
+          "start": 13,
+          "end": 18
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 20,
-        "end": 22,
-        "body": []
+        "end": 22
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 22
     },
     {
       "type": "ExpressionStatement",
-      "start": 24,
-      "end": 45,
       "expression": {
         "type": "CallExpression",
-        "start": 24,
-        "end": 44,
         "callee": {
           "type": "Identifier",
-          "start": 24,
-          "end": 27,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 24,
+          "end": 27
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 28,
-            "end": 43,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -81,8 +73,6 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "MemberExpression",
-              "start": 32,
-              "end": 43,
               "object": {
                 "type": "ThisExpression",
                 "start": 32,
@@ -90,26 +80,36 @@ __ESTREE_TEST__:PASS:
               },
               "property": {
                 "type": "Identifier",
-                "start": 37,
-                "end": 43,
                 "decorators": [],
                 "name": "window",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 37,
+                "end": 43
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 32,
+              "end": 43
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 28,
+            "end": 43
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 24,
+        "end": 44
       },
-      "directive": null
+      "directive": null,
+      "start": 24,
+      "end": 45
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 45
 }
 ```

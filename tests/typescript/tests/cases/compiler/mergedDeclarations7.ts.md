@@ -2,75 +2,59 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 298,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 297,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 25,
         "value": "passport",
-        "raw": "'passport'"
+        "raw": "'passport'",
+        "start": 15,
+        "end": 25
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 26,
-        "end": 297,
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "start": 32,
-            "end": 226,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 50,
               "decorators": [],
               "name": "passport",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 50
             },
             "body": {
               "type": "TSModuleBlock",
-              "start": 51,
-              "end": 226,
               "body": [
                 {
                   "type": "TSInterfaceDeclaration",
-                  "start": 61,
-                  "end": 116,
                   "id": {
                     "type": "Identifier",
-                    "start": 71,
-                    "end": 79,
                     "decorators": [],
                     "name": "Passport",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 71,
+                    "end": 79
                   },
                   "typeParameters": null,
                   "extends": [],
                   "body": {
                     "type": "TSInterfaceBody",
-                    "start": 80,
-                    "end": 116,
                     "body": [
                       {
                         "type": "TSMethodSignature",
-                        "start": 94,
-                        "end": 106,
                         "key": {
                           "type": "Identifier",
-                          "start": 94,
-                          "end": 97,
                           "decorators": [],
                           "name": "use",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 94,
+                          "end": 97
                         },
                         "computed": false,
                         "optional": false,
@@ -79,366 +63,382 @@ __ESTREE_TEST__:PASS:
                         "params": [],
                         "returnType": {
                           "type": "TSTypeAnnotation",
-                          "start": 99,
-                          "end": 105,
                           "typeAnnotation": {
                             "type": "TSThisType",
                             "start": 101,
                             "end": 105
-                          }
+                          },
+                          "start": 99,
+                          "end": 105
                         },
                         "accessibility": null,
                         "readonly": false,
-                        "static": false
+                        "static": false,
+                        "start": 94,
+                        "end": 106
                       }
-                    ]
+                    ],
+                    "start": 80,
+                    "end": 116
                   },
-                  "declare": false
+                  "declare": false,
+                  "start": 61,
+                  "end": 116
                 },
                 {
                   "type": "TSInterfaceDeclaration",
-                  "start": 126,
-                  "end": 220,
                   "id": {
                     "type": "Identifier",
-                    "start": 136,
-                    "end": 150,
                     "decorators": [],
                     "name": "PassportStatic",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 136,
+                    "end": 150
                   },
                   "typeParameters": null,
                   "extends": [
                     {
                       "type": "TSInterfaceHeritage",
-                      "start": 159,
-                      "end": 167,
                       "expression": {
                         "type": "Identifier",
-                        "start": 159,
-                        "end": 167,
                         "decorators": [],
                         "name": "Passport",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 159,
+                        "end": 167
                       },
-                      "typeArguments": null
+                      "typeArguments": null,
+                      "start": 159,
+                      "end": 167
                     }
                   ],
                   "body": {
                     "type": "TSInterfaceBody",
-                    "start": 168,
-                    "end": 220,
                     "body": [
                       {
                         "type": "TSPropertySignature",
-                        "start": 182,
-                        "end": 210,
                         "computed": false,
                         "optional": false,
                         "readonly": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 182,
-                          "end": 190,
                           "decorators": [],
                           "name": "Passport",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 182,
+                          "end": 190
                         },
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 190,
-                          "end": 209,
                           "typeAnnotation": {
                             "type": "TSTypeLiteral",
-                            "start": 192,
-                            "end": 209,
                             "members": [
                               {
                                 "type": "TSConstructSignatureDeclaration",
-                                "start": 193,
-                                "end": 208,
                                 "typeParameters": null,
                                 "params": [],
                                 "returnType": {
                                   "type": "TSTypeAnnotation",
-                                  "start": 198,
-                                  "end": 208,
                                   "typeAnnotation": {
                                     "type": "TSTypeReference",
-                                    "start": 200,
-                                    "end": 208,
                                     "typeName": {
                                       "type": "Identifier",
-                                      "start": 200,
-                                      "end": 208,
                                       "decorators": [],
                                       "name": "Passport",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 200,
+                                      "end": 208
                                     },
-                                    "typeArguments": null
-                                  }
-                                }
+                                    "typeArguments": null,
+                                    "start": 200,
+                                    "end": 208
+                                  },
+                                  "start": 198,
+                                  "end": 208
+                                },
+                                "start": 193,
+                                "end": 208
                               }
-                            ]
-                          }
+                            ],
+                            "start": 192,
+                            "end": 209
+                          },
+                          "start": 190,
+                          "end": 209
                         },
                         "accessibility": null,
-                        "static": false
+                        "static": false,
+                        "start": 182,
+                        "end": 210
                       }
-                    ]
+                    ],
+                    "start": 168,
+                    "end": 220
                   },
-                  "declare": false
+                  "declare": false,
+                  "start": 126,
+                  "end": 220
                 }
-              ]
+              ],
+              "start": 51,
+              "end": 226
             },
             "kind": "namespace",
             "declare": false,
-            "global": false
+            "global": false,
+            "start": 32,
+            "end": 226
           },
           {
             "type": "VariableDeclaration",
-            "start": 232,
-            "end": 272,
             "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 238,
-                "end": 271,
                 "id": {
                   "type": "Identifier",
-                  "start": 238,
-                  "end": 271,
                   "decorators": [],
                   "name": "passport",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 246,
-                    "end": 271,
                     "typeAnnotation": {
                       "type": "TSTypeReference",
-                      "start": 248,
-                      "end": 271,
                       "typeName": {
                         "type": "TSQualifiedName",
-                        "start": 248,
-                        "end": 271,
                         "left": {
                           "type": "Identifier",
-                          "start": 248,
-                          "end": 256,
                           "decorators": [],
                           "name": "passport",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 248,
+                          "end": 256
                         },
                         "right": {
                           "type": "Identifier",
-                          "start": 257,
-                          "end": 271,
                           "decorators": [],
                           "name": "PassportStatic",
                           "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "start": 257,
+                          "end": 271
+                        },
+                        "start": 248,
+                        "end": 271
                       },
-                      "typeArguments": null
-                    }
-                  }
+                      "typeArguments": null,
+                      "start": 248,
+                      "end": 271
+                    },
+                    "start": 246,
+                    "end": 271
+                  },
+                  "start": 238,
+                  "end": 271
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 238,
+                "end": 271
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 232,
+            "end": 272
           },
           {
             "type": "TSExportAssignment",
-            "start": 277,
-            "end": 295,
             "expression": {
               "type": "Identifier",
-              "start": 286,
-              "end": 294,
               "decorators": [],
               "name": "passport",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 286,
+              "end": 294
+            },
+            "start": 277,
+            "end": 295
           }
-        ]
+        ],
+        "start": 26,
+        "end": 297
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 297
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 298
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 109,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 37,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 7,
-          "end": 20,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 20,
             "decorators": [],
             "name": "passport",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 20
+          },
+          "start": 7,
+          "end": 20
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 26,
-        "end": 36,
         "value": "passport",
-        "raw": "\"passport\""
+        "raw": "\"passport\"",
+        "start": 26,
+        "end": 36
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 37
     },
     {
       "type": "ImportDeclaration",
-      "start": 38,
-      "end": 74,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 47,
-          "end": 55,
           "imported": {
             "type": "Identifier",
-            "start": 47,
-            "end": 55,
             "decorators": [],
             "name": "Passport",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 55
           },
           "local": {
             "type": "Identifier",
-            "start": 47,
-            "end": 55,
             "decorators": [],
             "name": "Passport",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 55
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 47,
+          "end": 55
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 63,
-        "end": 73,
         "value": "passport",
-        "raw": "\"passport\""
+        "raw": "\"passport\"",
+        "start": 63,
+        "end": 73
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 38,
+      "end": 74
     },
     {
       "type": "VariableDeclaration",
-      "start": 76,
-      "end": 109,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 80,
-          "end": 108,
           "id": {
             "type": "Identifier",
-            "start": 80,
-            "end": 91,
             "decorators": [],
             "name": "p",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 81,
-              "end": 91,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 83,
-                "end": 91,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 83,
-                  "end": 91,
                   "decorators": [],
                   "name": "Passport",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 83,
+                  "end": 91
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 83,
+                "end": 91
+              },
+              "start": 81,
+              "end": 91
+            },
+            "start": 80,
+            "end": 91
           },
           "init": {
             "type": "CallExpression",
-            "start": 94,
-            "end": 108,
             "callee": {
               "type": "MemberExpression",
-              "start": 94,
-              "end": 106,
               "object": {
                 "type": "Identifier",
-                "start": 94,
-                "end": 102,
                 "decorators": [],
                 "name": "passport",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 94,
+                "end": 102
               },
               "property": {
                 "type": "Identifier",
-                "start": 103,
-                "end": 106,
                 "decorators": [],
                 "name": "use",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 103,
+                "end": 106
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 94,
+              "end": 106
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 94,
+            "end": 108
           },
-          "definite": false
+          "definite": false,
+          "start": 80,
+          "end": 108
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 76,
+      "end": 109
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 109
 }
 ```

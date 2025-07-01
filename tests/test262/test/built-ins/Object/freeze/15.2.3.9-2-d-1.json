@@ -1,141 +1,141 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 347,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 225,
-      "end": 252,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 229,
-          "end": 251,
           "id": {
             "type": "Identifier",
+            "name": "funObj",
             "start": 229,
-            "end": 235,
-            "name": "funObj"
+            "end": 235
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 238,
-            "end": 251,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 249,
-              "end": 251,
-              "body": []
+              "end": 251
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 238,
+            "end": 251
+          },
+          "start": 229,
+          "end": 251
         }
-      ]
+      ],
+      "start": 225,
+      "end": 252
     },
     {
       "type": "ExpressionStatement",
-      "start": 254,
-      "end": 276,
       "expression": {
         "type": "CallExpression",
-        "start": 254,
-        "end": 275,
         "callee": {
           "type": "MemberExpression",
-          "start": 254,
-          "end": 267,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 254,
-            "end": 260,
-            "name": "Object"
+            "end": 260
           },
           "property": {
             "type": "Identifier",
+            "name": "freeze",
             "start": 261,
-            "end": 267,
-            "name": "freeze"
+            "end": 267
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 254,
+          "end": 267
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "funObj",
             "start": 268,
-            "end": 274,
-            "name": "funObj"
+            "end": 274
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 254,
+        "end": 275
+      },
+      "start": 254,
+      "end": 276
     },
     {
       "type": "ExpressionStatement",
-      "start": 278,
-      "end": 346,
       "expression": {
         "type": "CallExpression",
-        "start": 278,
-        "end": 345,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 278,
-          "end": 284,
-          "name": "assert"
+          "end": 284
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 285,
-            "end": 308,
             "callee": {
               "type": "MemberExpression",
-              "start": 285,
-              "end": 300,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 285,
-                "end": 291,
-                "name": "Object"
+                "end": 291
               },
               "property": {
                 "type": "Identifier",
+                "name": "isFrozen",
                 "start": 292,
-                "end": 300,
-                "name": "isFrozen"
+                "end": 300
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 285,
+              "end": 300
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "funObj",
                 "start": 301,
-                "end": 307,
-                "name": "funObj"
+                "end": 307
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 285,
+            "end": 308
           },
           {
             "type": "Literal",
-            "start": 310,
-            "end": 344,
             "value": "Object.isFrozen(funObj) !== true",
-            "raw": "'Object.isFrozen(funObj) !== true'"
+            "raw": "'Object.isFrozen(funObj) !== true'",
+            "start": 310,
+            "end": 344
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 278,
+        "end": 345
+      },
+      "start": 278,
+      "end": 346
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 347
 }

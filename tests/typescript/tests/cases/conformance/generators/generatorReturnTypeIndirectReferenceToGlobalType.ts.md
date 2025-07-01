@@ -2,102 +2,98 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 98,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 41,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 12,
         "decorators": [],
         "name": "I1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 12
       },
       "typeParameters": null,
       "extends": [
         {
           "type": "TSInterfaceHeritage",
-          "start": 21,
-          "end": 38,
           "expression": {
             "type": "Identifier",
-            "start": 21,
-            "end": 29,
             "decorators": [],
             "name": "Iterator",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 21,
+            "end": 29
           },
           "typeArguments": {
             "type": "TSTypeParameterInstantiation",
-            "start": 29,
-            "end": 38,
             "params": [
               {
                 "type": "TSLiteralType",
-                "start": 30,
-                "end": 31,
                 "literal": {
                   "type": "Literal",
-                  "start": 30,
-                  "end": 31,
                   "value": 0,
-                  "raw": "0"
-                }
+                  "raw": "0",
+                  "start": 30,
+                  "end": 31
+                },
+                "start": 30,
+                "end": 31
               },
               {
                 "type": "TSLiteralType",
-                "start": 33,
-                "end": 34,
                 "literal": {
                   "type": "Literal",
-                  "start": 33,
-                  "end": 34,
                   "value": 1,
-                  "raw": "1"
-                }
+                  "raw": "1",
+                  "start": 33,
+                  "end": 34
+                },
+                "start": 33,
+                "end": 34
               },
               {
                 "type": "TSLiteralType",
-                "start": 36,
-                "end": 37,
                 "literal": {
                   "type": "Literal",
-                  "start": 36,
-                  "end": 37,
                   "value": 2,
-                  "raw": "2"
-                }
+                  "raw": "2",
+                  "start": 36,
+                  "end": 37
+                },
+                "start": 36,
+                "end": 37
               }
-            ]
-          }
+            ],
+            "start": 29,
+            "end": 38
+          },
+          "start": 21,
+          "end": 38
         }
       ],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 39,
-        "end": 41,
-        "body": []
+        "end": 41
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 41
     },
     {
       "type": "FunctionDeclaration",
-      "start": 43,
-      "end": 98,
       "id": {
         "type": "Identifier",
-        "start": 53,
-        "end": 55,
         "decorators": [],
         "name": "f1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 53,
+        "end": 55
       },
       "generator": true,
       "async": false,
@@ -106,84 +102,88 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 57,
-        "end": 61,
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 59,
-          "end": 61,
           "typeName": {
             "type": "Identifier",
-            "start": 59,
-            "end": 61,
             "decorators": [],
             "name": "I1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 59,
+            "end": 61
           },
-          "typeArguments": null
-        }
+          "typeArguments": null,
+          "start": 59,
+          "end": 61
+        },
+        "start": 57,
+        "end": 61
       },
       "body": {
         "type": "BlockStatement",
-        "start": 62,
-        "end": 98,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 66,
-            "end": 84,
             "kind": "const",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 72,
-                "end": 83,
                 "id": {
                   "type": "Identifier",
-                  "start": 72,
-                  "end": 73,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 72,
+                  "end": 73
                 },
                 "init": {
                   "type": "YieldExpression",
-                  "start": 76,
-                  "end": 83,
                   "delegate": false,
                   "argument": {
                     "type": "Literal",
-                    "start": 82,
-                    "end": 83,
                     "value": 0,
-                    "raw": "0"
-                  }
+                    "raw": "0",
+                    "start": 82,
+                    "end": 83
+                  },
+                  "start": 76,
+                  "end": 83
                 },
-                "definite": false
+                "definite": false,
+                "start": 72,
+                "end": 83
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 66,
+            "end": 84
           },
           {
             "type": "ReturnStatement",
-            "start": 87,
-            "end": 96,
             "argument": {
               "type": "Literal",
-              "start": 94,
-              "end": 95,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 94,
+              "end": 95
+            },
+            "start": 87,
+            "end": 96
           }
-        ]
+        ],
+        "start": 62,
+        "end": 98
       },
-      "expression": false
+      "expression": false,
+      "start": 43,
+      "end": 98
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 98
 }
 ```

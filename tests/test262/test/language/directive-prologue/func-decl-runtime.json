@@ -1,141 +1,141 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 520,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 367,
-      "end": 460,
       "id": {
         "type": "Identifier",
+        "name": "fun",
         "start": 376,
-        "end": 379,
-        "name": "fun"
+        "end": 379
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 382,
-        "end": 460,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 396,
-            "end": 409,
             "expression": {
               "type": "Literal",
-              "start": 396,
-              "end": 408,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "start": 396,
+              "end": 408
             },
-            "directive": "use strict"
+            "directive": "use strict",
+            "start": 396,
+            "end": 409
           },
           {
             "type": "ExpressionStatement",
-            "start": 423,
-            "end": 450,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 423,
-              "end": 449,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "test262unresolvable",
                 "start": 423,
-                "end": 442,
-                "name": "test262unresolvable"
+                "end": 442
               },
               "right": {
                 "type": "Literal",
-                "start": 445,
-                "end": 449,
                 "value": null,
-                "raw": "null"
-              }
-            }
+                "raw": "null",
+                "start": 445,
+                "end": 449
+              },
+              "start": 423,
+              "end": 449
+            },
+            "start": 423,
+            "end": 450
           }
-        ]
+        ],
+        "start": 382,
+        "end": 460
       },
-      "expression": false
+      "expression": false,
+      "start": 367,
+      "end": 460
     },
     {
       "type": "ExpressionStatement",
-      "start": 462,
-      "end": 519,
       "expression": {
         "type": "CallExpression",
-        "start": 462,
-        "end": 518,
         "callee": {
           "type": "MemberExpression",
-          "start": 462,
-          "end": 475,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 462,
-            "end": 468,
-            "name": "assert"
+            "end": 468
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 469,
-            "end": 475,
-            "name": "throws"
+            "end": 475
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 462,
+          "end": 475
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 476,
-            "end": 490,
-            "name": "ReferenceError"
+            "end": 490
           },
           {
             "type": "FunctionExpression",
-            "start": 492,
-            "end": 517,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 503,
-              "end": 517,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 509,
-                  "end": 515,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 509,
-                    "end": 514,
                     "callee": {
                       "type": "Identifier",
+                      "name": "fun",
                       "start": 509,
-                      "end": 512,
-                      "name": "fun"
+                      "end": 512
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 509,
+                    "end": 514
+                  },
+                  "start": 509,
+                  "end": 515
                 }
-              ]
+              ],
+              "start": 503,
+              "end": 517
             },
-            "expression": false
+            "expression": false,
+            "start": 492,
+            "end": 517
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 462,
+        "end": 518
+      },
+      "start": 462,
+      "end": 519
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 520
 }

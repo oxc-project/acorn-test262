@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 82,
-  "end": 142,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 82,
-      "end": 142,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 88,
-        "end": 92,
         "decorators": [],
         "name": "Test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 88,
+        "end": 92
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,60 +21,56 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 93,
-        "end": 142,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 99,
-            "end": 140,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 106,
-              "end": 112,
               "decorators": [],
               "name": "member",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 106,
+              "end": 112
             },
             "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
-              "start": 115,
-              "end": 139,
               "expression": false,
               "async": true,
               "typeParameters": null,
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 122,
-                  "end": 131,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 123,
-                    "end": 131,
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
                       "start": 125,
                       "end": 131
-                    }
-                  }
+                    },
+                    "start": 123,
+                    "end": 131
+                  },
+                  "start": 122,
+                  "end": 131
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 136,
-                "end": 139,
-                "body": []
+                "end": 139
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 115,
+              "end": 139
             },
             "computed": false,
             "static": true,
@@ -87,15 +79,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 99,
+            "end": 140
           }
-        ]
+        ],
+        "start": 93,
+        "end": 142
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 82,
+      "end": 142
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 82,
+  "end": 142
 }
 ```

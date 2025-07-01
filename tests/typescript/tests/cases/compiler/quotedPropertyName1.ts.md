@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 30,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 30,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 11,
         "decorators": [],
         "name": "Test1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 11
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,28 +21,24 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 12,
-        "end": 30,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 16,
-            "end": 28,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 16,
-              "end": 23,
               "value": "prop1",
-              "raw": "\"prop1\""
+              "raw": "\"prop1\"",
+              "start": 16,
+              "end": 23
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 26,
-              "end": 27,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 26,
+              "end": 27
             },
             "computed": false,
             "static": false,
@@ -55,15 +47,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 16,
+            "end": 28
           }
-        ]
+        ],
+        "start": 12,
+        "end": 30
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 30
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 30
 }
 ```

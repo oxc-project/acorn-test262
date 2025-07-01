@@ -2,199 +2,199 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 149,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 40,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 39,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 26,
             "decorators": [],
             "name": "shouldBeOk",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 14,
-              "end": 26,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 16,
-                "end": 26,
                 "literal": {
                   "type": "Literal",
-                  "start": 16,
-                  "end": 26,
                   "value": "__dunder",
-                  "raw": "'__dunder'"
-                }
-              }
-            }
+                  "raw": "'__dunder'",
+                  "start": 16,
+                  "end": 26
+                },
+                "start": 16,
+                "end": 26
+              },
+              "start": 14,
+              "end": 26
+            },
+            "start": 4,
+            "end": 26
           },
           "init": {
             "type": "Literal",
-            "start": 29,
-            "end": 39,
             "value": "__dunder",
-            "raw": "'__dunder'"
+            "raw": "'__dunder'",
+            "start": 29,
+            "end": 39
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 39
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 40
     },
     {
       "type": "VariableDeclaration",
-      "start": 41,
-      "end": 75,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 45,
-          "end": 74,
           "id": {
             "type": "Identifier",
-            "start": 45,
-            "end": 60,
             "decorators": [],
             "name": "bad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 48,
-              "end": 60,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 50,
-                "end": 60,
                 "literal": {
                   "type": "Literal",
-                  "start": 50,
-                  "end": 60,
                   "value": "__dunder",
-                  "raw": "'__dunder'"
-                }
-              }
-            }
+                  "raw": "'__dunder'",
+                  "start": 50,
+                  "end": 60
+                },
+                "start": 50,
+                "end": 60
+              },
+              "start": 48,
+              "end": 60
+            },
+            "start": 45,
+            "end": 60
           },
           "init": {
             "type": "Literal",
-            "start": 63,
-            "end": 74,
             "value": "no_dunder",
-            "raw": "'no_dunder'"
+            "raw": "'no_dunder'",
+            "start": 63,
+            "end": 74
           },
-          "definite": false
+          "definite": false,
+          "start": 45,
+          "end": 74
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 41,
+      "end": 75
     },
     {
       "type": "VariableDeclaration",
-      "start": 76,
-      "end": 114,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 80,
-          "end": 113,
           "id": {
             "type": "Identifier",
-            "start": 80,
-            "end": 98,
             "decorators": [],
             "name": "okok",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 84,
-              "end": 98,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 86,
-                "end": 98,
                 "literal": {
                   "type": "Literal",
-                  "start": 86,
-                  "end": 98,
                   "value": "___thunder",
-                  "raw": "'___thunder'"
-                }
-              }
-            }
+                  "raw": "'___thunder'",
+                  "start": 86,
+                  "end": 98
+                },
+                "start": 86,
+                "end": 98
+              },
+              "start": 84,
+              "end": 98
+            },
+            "start": 80,
+            "end": 98
           },
           "init": {
             "type": "Literal",
-            "start": 101,
-            "end": 113,
             "value": "___thunder",
-            "raw": "'___thunder'"
+            "raw": "'___thunder'",
+            "start": 101,
+            "end": 113
           },
-          "definite": false
+          "definite": false,
+          "start": 80,
+          "end": 113
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 76,
+      "end": 114
     },
     {
       "type": "VariableDeclaration",
-      "start": 115,
-      "end": 149,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 119,
-          "end": 148,
           "id": {
             "type": "Identifier",
-            "start": 119,
-            "end": 136,
             "decorators": [],
             "name": "alsoOk",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 125,
-              "end": 136,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 127,
-                "end": 136,
                 "literal": {
                   "type": "Literal",
-                  "start": 127,
-                  "end": 136,
                   "value": "_sunder",
-                  "raw": "'_sunder'"
-                }
-              }
-            }
+                  "raw": "'_sunder'",
+                  "start": 127,
+                  "end": 136
+                },
+                "start": 127,
+                "end": 136
+              },
+              "start": 125,
+              "end": 136
+            },
+            "start": 119,
+            "end": 136
           },
           "init": {
             "type": "Literal",
-            "start": 139,
-            "end": 148,
             "value": "_sunder",
-            "raw": "'_sunder'"
+            "raw": "'_sunder'",
+            "start": 139,
+            "end": 148
           },
-          "definite": false
+          "definite": false,
+          "start": 119,
+          "end": 148
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 115,
+      "end": 149
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 149
 }
 ```

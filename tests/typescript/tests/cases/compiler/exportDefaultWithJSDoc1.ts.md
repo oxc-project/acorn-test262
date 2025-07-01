@@ -2,95 +2,95 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 123,
-  "end": 145,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 123,
-      "end": 144,
       "declaration": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 139,
-        "end": 142,
-        "elements": []
+        "end": 142
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 123,
+      "end": 144
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 123,
+  "end": 145
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 19,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 8,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 8,
             "decorators": [],
             "name": "A",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 8
+          },
+          "start": 7,
+          "end": 8
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 19,
         "value": "./a",
-        "raw": "'./a'"
+        "raw": "'./a'",
+        "start": 14,
+        "end": 19
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 19
     },
     {
       "type": "ExpressionStatement",
-      "start": 20,
-      "end": 24,
       "expression": {
         "type": "MemberExpression",
-        "start": 20,
-        "end": 24,
         "object": {
           "type": "Identifier",
-          "start": 20,
-          "end": 21,
           "decorators": [],
           "name": "A",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 20,
+          "end": 21
         },
         "property": {
           "type": "Literal",
-          "start": 22,
-          "end": 23,
           "value": 0,
-          "raw": "0"
+          "raw": "0",
+          "start": 22,
+          "end": 23
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 20,
+        "end": 24
       },
-      "directive": null
+      "directive": null,
+      "start": 20,
+      "end": 24
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```

@@ -1,218 +1,218 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 368,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 247,
-      "end": 257,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 251,
-          "end": 256,
           "id": {
             "type": "Identifier",
+            "name": "z",
             "start": 251,
-            "end": 252,
-            "name": "z"
+            "end": 252
           },
           "init": {
             "type": "Literal",
-            "start": 255,
-            "end": 256,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 255,
+            "end": 256
+          },
+          "start": 251,
+          "end": 256
         }
-      ]
+      ],
+      "start": 247,
+      "end": 257
     },
     {
       "type": "VariableDeclaration",
-      "start": 258,
-      "end": 268,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 262,
-          "end": 267,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 262,
-            "end": 263,
-            "name": "s"
+            "end": 263
           },
           "init": {
             "type": "Literal",
-            "start": 266,
-            "end": 267,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 266,
+            "end": 267
+          },
+          "start": 262,
+          "end": 267
         }
-      ]
+      ],
+      "start": 258,
+      "end": 268
     },
     {
       "type": "ForStatement",
-      "start": 269,
-      "end": 316,
       "init": {
         "type": "VariableDeclaration",
-        "start": 274,
-        "end": 285,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 280,
-            "end": 285,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 280,
-              "end": 281,
-              "name": "x"
+              "end": 281
             },
             "init": {
               "type": "Literal",
-              "start": 284,
-              "end": 285,
               "value": 1,
-              "raw": "1"
-            }
+              "raw": "1",
+              "start": 284,
+              "end": 285
+            },
+            "start": 280,
+            "end": 285
           }
-        ]
+        ],
+        "start": 274,
+        "end": 285
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 287,
-        "end": 292,
         "left": {
           "type": "Identifier",
+          "name": "z",
           "start": 287,
-          "end": 288,
-          "name": "z"
+          "end": 288
         },
         "operator": "<",
         "right": {
           "type": "Literal",
-          "start": 291,
-          "end": 292,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 291,
+          "end": 292
+        },
+        "start": 287,
+        "end": 292
       },
       "update": {
         "type": "UpdateExpression",
-        "start": 294,
-        "end": 297,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "Identifier",
+          "name": "z",
           "start": 294,
-          "end": 295,
-          "name": "z"
-        }
+          "end": 295
+        },
+        "start": 294,
+        "end": 297
       },
       "body": {
         "type": "BlockStatement",
-        "start": 299,
-        "end": 316,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 303,
-            "end": 314,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 303,
-              "end": 313,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 303,
-                "end": 304,
-                "name": "s"
+                "end": 304
               },
               "right": {
                 "type": "BinaryExpression",
-                "start": 308,
-                "end": 313,
                 "left": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 308,
-                  "end": 309,
-                  "name": "x"
+                  "end": 309
                 },
                 "operator": "+",
                 "right": {
                   "type": "Identifier",
+                  "name": "z",
                   "start": 312,
-                  "end": 313,
-                  "name": "z"
-                }
-              }
-            }
+                  "end": 313
+                },
+                "start": 308,
+                "end": 313
+              },
+              "start": 303,
+              "end": 313
+            },
+            "start": 303,
+            "end": 314
           }
-        ]
-      }
+        ],
+        "start": 299,
+        "end": 316
+      },
+      "start": 269,
+      "end": 316
     },
     {
       "type": "ExpressionStatement",
-      "start": 317,
-      "end": 367,
       "expression": {
         "type": "CallExpression",
-        "start": 317,
-        "end": 366,
         "callee": {
           "type": "MemberExpression",
-          "start": 317,
-          "end": 333,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 317,
-            "end": 323,
-            "name": "assert"
+            "end": 323
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 324,
-            "end": 333,
-            "name": "sameValue"
+            "end": 333
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 317,
+          "end": 333
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "s",
             "start": 334,
-            "end": 335,
-            "name": "s"
+            "end": 335
           },
           {
             "type": "Literal",
-            "start": 337,
-            "end": 338,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 337,
+            "end": 338
           },
           {
             "type": "Literal",
-            "start": 340,
-            "end": 365,
             "value": "The value of `s` is `2`",
-            "raw": "\"The value of `s` is `2`\""
+            "raw": "\"The value of `s` is `2`\"",
+            "start": 340,
+            "end": 365
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 317,
+        "end": 366
+      },
+      "start": 317,
+      "end": 367
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 368
 }

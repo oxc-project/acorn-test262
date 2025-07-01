@@ -2,30 +2,30 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 8,
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 5,
         "decorators": [],
         "name": "Input",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 5
       },
       "body": {
         "type": "EmptyStatement",
         "start": 7,
         "end": 8
-      }
+      },
+      "start": 0,
+      "end": 8
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```

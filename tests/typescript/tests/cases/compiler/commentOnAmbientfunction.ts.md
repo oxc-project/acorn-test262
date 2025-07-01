@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 97,
-  "end": 174,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 97,
-      "end": 120,
       "id": {
         "type": "Identifier",
-        "start": 114,
-        "end": 117,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 114,
+        "end": 117
       },
       "generator": false,
       "async": false,
@@ -25,20 +21,20 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": null,
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 97,
+      "end": 120
     },
     {
       "type": "TSDeclareFunction",
-      "start": 150,
-      "end": 173,
       "id": {
         "type": "Identifier",
-        "start": 167,
-        "end": 170,
         "decorators": [],
         "name": "bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 167,
+        "end": 170
       },
       "generator": false,
       "async": false,
@@ -47,32 +43,32 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": null,
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 150,
+      "end": 173
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 97,
+  "end": 174
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 28,
-  "end": 79,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 28,
-      "end": 79,
       "id": {
         "type": "Identifier",
-        "start": 45,
-        "end": 51,
         "decorators": [],
         "name": "foobar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 45,
+        "end": 51
       },
       "generator": false,
       "async": false,
@@ -81,58 +77,62 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 52,
-          "end": 65,
           "decorators": [],
           "name": "a",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 53,
-            "end": 65,
             "typeAnnotation": {
               "type": "TSTypeQuery",
-              "start": 55,
-              "end": 65,
               "exprName": {
                 "type": "Identifier",
-                "start": 62,
-                "end": 65,
                 "decorators": [],
                 "name": "foo",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 62,
+                "end": 65
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 55,
+              "end": 65
+            },
+            "start": 53,
+            "end": 65
+          },
+          "start": 52,
+          "end": 65
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 66,
-        "end": 78,
         "typeAnnotation": {
           "type": "TSTypeQuery",
-          "start": 68,
-          "end": 78,
           "exprName": {
             "type": "Identifier",
-            "start": 75,
-            "end": 78,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 75,
+            "end": 78
           },
-          "typeArguments": null
-        }
+          "typeArguments": null,
+          "start": 68,
+          "end": 78
+        },
+        "start": 66,
+        "end": 78
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 28,
+      "end": 79
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 28,
+  "end": 79
 }
 ```

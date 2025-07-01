@@ -2,64 +2,56 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 142,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 142,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 142,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 15,
-            "end": 37,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 35,
-                "end": 36,
                 "id": {
                   "type": "Identifier",
-                  "start": 35,
-                  "end": 36,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 35,
+                  "end": 36
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 35,
+                "end": 36
               }
             ],
-            "declare": true
+            "declare": true,
+            "start": 15,
+            "end": 37
           },
           {
             "type": "TSDeclareFunction",
-            "start": 42,
-            "end": 71,
             "id": {
               "type": "Identifier",
-              "start": 67,
-              "end": 68,
               "decorators": [],
               "name": "f",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 67,
+              "end": 68
             },
             "generator": false,
             "async": false,
@@ -68,44 +60,44 @@ __ESTREE_TEST__:PASS:
             "params": [],
             "returnType": null,
             "body": null,
-            "expression": false
+            "expression": false,
+            "start": 42,
+            "end": 71
           },
           {
             "type": "TSModuleDeclaration",
-            "start": 77,
-            "end": 105,
             "id": {
               "type": "Identifier",
-              "start": 100,
-              "end": 101,
               "decorators": [],
               "name": "N",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 100,
+              "end": 101
             },
             "body": {
               "type": "TSModuleBlock",
+              "body": [],
               "start": 102,
-              "end": 105,
-              "body": []
+              "end": 105
             },
             "kind": "module",
             "declare": true,
-            "global": false
+            "global": false,
+            "start": 77,
+            "end": 105
           },
           {
             "type": "ClassDeclaration",
-            "start": 113,
-            "end": 140,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 135,
-              "end": 136,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 135,
+              "end": 136
             },
             "typeParameters": null,
             "superClass": null,
@@ -113,21 +105,29 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 137,
-              "end": 140,
-              "body": []
+              "end": 140
             },
             "abstract": false,
-            "declare": true
+            "declare": true,
+            "start": 113,
+            "end": 140
           }
-        ]
+        ],
+        "start": 9,
+        "end": 142
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 142
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 142
 }
 ```

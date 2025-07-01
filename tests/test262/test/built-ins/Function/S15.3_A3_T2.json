@@ -1,21 +1,13 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 636,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 366,
-      "end": 385,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 366,
-        "end": 384,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 366,
-          "end": 376,
           "object": {
             "type": "ThisExpression",
             "start": 366,
@@ -23,287 +15,295 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "color",
             "start": 371,
-            "end": 376,
-            "name": "color"
+            "end": 376
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 366,
+          "end": 376
         },
         "right": {
           "type": "Literal",
-          "start": 379,
-          "end": 384,
           "value": "red",
-          "raw": "\"red\""
-        }
-      }
+          "raw": "\"red\"",
+          "start": 379,
+          "end": 384
+        },
+        "start": 366,
+        "end": 384
+      },
+      "start": 366,
+      "end": 385
     },
     {
       "type": "VariableDeclaration",
-      "start": 386,
-      "end": 406,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 390,
-          "end": 405,
           "id": {
             "type": "Identifier",
+            "name": "planet",
             "start": 390,
-            "end": 396,
-            "name": "planet"
+            "end": 396
           },
           "init": {
             "type": "Literal",
+            "value": "mars",
+            "raw": "\"mars\"",
             "start": 399,
-            "end": 405,
-            "value": "mars",
-            "raw": "\"mars\""
-          }
+            "end": 405
+          },
+          "start": 390,
+          "end": 405
         }
-      ]
+      ],
+      "start": 386,
+      "end": 406
     },
     {
       "type": "VariableDeclaration",
-      "start": 408,
-      "end": 468,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 412,
-          "end": 467,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 412,
-            "end": 413,
-            "name": "f"
+            "end": 413
           },
           "init": {
             "type": "CallExpression",
-            "start": 416,
-            "end": 467,
             "callee": {
               "type": "MemberExpression",
-              "start": 416,
-              "end": 429,
               "object": {
                 "type": "Identifier",
+                "name": "Function",
                 "start": 416,
-                "end": 424,
-                "name": "Function"
+                "end": 424
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 425,
-                "end": 429,
-                "name": "call"
+                "end": 429
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 416,
+              "end": 429
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 430,
-                "end": 444,
                 "value": "blablastring",
-                "raw": "\"blablastring\""
+                "raw": "\"blablastring\"",
+                "start": 430,
+                "end": 444
               },
               {
                 "type": "Literal",
-                "start": 446,
-                "end": 466,
                 "value": "return this.color;",
-                "raw": "\"return this.color;\""
+                "raw": "\"return this.color;\"",
+                "start": 446,
+                "end": 466
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 416,
+            "end": 467
+          },
+          "start": 412,
+          "end": 467
         }
-      ]
+      ],
+      "start": 408,
+      "end": 468
     },
     {
       "type": "ExpressionStatement",
-      "start": 470,
-      "end": 524,
       "expression": {
         "type": "CallExpression",
-        "start": 470,
-        "end": 523,
         "callee": {
           "type": "MemberExpression",
-          "start": 470,
-          "end": 486,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 470,
-            "end": 476,
-            "name": "assert"
+            "end": 476
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 477,
-            "end": 486,
-            "name": "sameValue"
+            "end": 486
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 470,
+          "end": 486
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 487,
-            "end": 490,
             "callee": {
               "type": "Identifier",
+              "name": "f",
               "start": 487,
-              "end": 488,
-              "name": "f"
+              "end": 488
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 487,
+            "end": 490
           },
           {
             "type": "Literal",
-            "start": 492,
-            "end": 497,
             "value": "red",
-            "raw": "\"red\""
+            "raw": "\"red\"",
+            "start": 492,
+            "end": 497
           },
           {
             "type": "Literal",
-            "start": 499,
-            "end": 522,
             "value": "f() must return \"red\"",
-            "raw": "'f() must return \"red\"'"
+            "raw": "'f() must return \"red\"'",
+            "start": 499,
+            "end": 522
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 470,
+        "end": 523
+      },
+      "start": 470,
+      "end": 524
     },
     {
       "type": "VariableDeclaration",
-      "start": 526,
-      "end": 577,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 530,
-          "end": 576,
           "id": {
             "type": "Identifier",
+            "name": "g",
             "start": 530,
-            "end": 531,
-            "name": "g"
+            "end": 531
           },
           "init": {
             "type": "CallExpression",
-            "start": 534,
-            "end": 576,
             "callee": {
               "type": "MemberExpression",
-              "start": 534,
-              "end": 547,
               "object": {
                 "type": "Identifier",
+                "name": "Function",
                 "start": 534,
-                "end": 542,
-                "name": "Function"
+                "end": 542
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 543,
-                "end": 547,
-                "name": "call"
+                "end": 547
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 534,
+              "end": 547
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 548,
-                "end": 552,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 548,
+                "end": 552
               },
               {
                 "type": "Literal",
-                "start": 554,
-                "end": 575,
                 "value": "return this.planet;",
-                "raw": "\"return this.planet;\""
+                "raw": "\"return this.planet;\"",
+                "start": 554,
+                "end": 575
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 534,
+            "end": 576
+          },
+          "start": 530,
+          "end": 576
         }
-      ]
+      ],
+      "start": 526,
+      "end": 577
     },
     {
       "type": "ExpressionStatement",
-      "start": 579,
-      "end": 635,
       "expression": {
         "type": "CallExpression",
-        "start": 579,
-        "end": 634,
         "callee": {
           "type": "MemberExpression",
-          "start": 579,
-          "end": 595,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 579,
-            "end": 585,
-            "name": "assert"
+            "end": 585
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 586,
-            "end": 595,
-            "name": "sameValue"
+            "end": 595
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 579,
+          "end": 595
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 596,
-            "end": 599,
             "callee": {
               "type": "Identifier",
+              "name": "g",
               "start": 596,
-              "end": 597,
-              "name": "g"
+              "end": 597
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 596,
+            "end": 599
           },
           {
             "type": "Literal",
-            "start": 601,
-            "end": 607,
             "value": "mars",
-            "raw": "\"mars\""
+            "raw": "\"mars\"",
+            "start": 601,
+            "end": 607
           },
           {
             "type": "Literal",
-            "start": 609,
-            "end": 633,
             "value": "g() must return \"mars\"",
-            "raw": "'g() must return \"mars\"'"
+            "raw": "'g() must return \"mars\"'",
+            "start": 609,
+            "end": 633
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 579,
+        "end": 634
+      },
+      "start": 579,
+      "end": 635
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 636
 }

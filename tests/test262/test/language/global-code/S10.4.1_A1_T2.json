@@ -1,44 +1,36 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 620,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 406,
-      "end": 412,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 406,
-        "end": 411,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 406,
-          "end": 407,
-          "name": "x"
+          "end": 407
         },
         "right": {
           "type": "Literal",
-          "start": 410,
-          "end": 411,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 410,
+          "end": 411
+        },
+        "start": 406,
+        "end": 411
+      },
+      "start": 406,
+      "end": 412
     },
     {
       "type": "IfStatement",
-      "start": 414,
-      "end": 510,
       "test": {
         "type": "BinaryExpression",
-        "start": 418,
-        "end": 430,
         "left": {
           "type": "MemberExpression",
-          "start": 418,
-          "end": 424,
           "object": {
             "type": "ThisExpression",
             "start": 418,
@@ -46,73 +38,71 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "x",
             "start": 423,
-            "end": 424,
-            "name": "x"
+            "end": 424
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 418,
+          "end": 424
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 429,
-          "end": 430,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 429,
+          "end": 430
+        },
+        "start": 418,
+        "end": 430
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 432,
-        "end": 510,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 436,
-            "end": 508,
             "argument": {
               "type": "NewExpression",
-              "start": 442,
-              "end": 507,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 446,
-                "end": 458,
-                "name": "Test262Error"
+                "end": 458
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 459,
-                  "end": 506,
                   "value": "#1: variable x is a property of global object",
-                  "raw": "\"#1: variable x is a property of global object\""
+                  "raw": "\"#1: variable x is a property of global object\"",
+                  "start": 459,
+                  "end": 506
                 }
-              ]
-            }
+              ],
+              "start": 442,
+              "end": 507
+            },
+            "start": 436,
+            "end": 508
           }
-        ]
+        ],
+        "start": 432,
+        "end": 510
       },
-      "alternate": null
+      "alternate": null,
+      "start": 414,
+      "end": 510
     },
     {
       "type": "IfStatement",
-      "start": 512,
-      "end": 619,
       "test": {
         "type": "BinaryExpression",
-        "start": 515,
-        "end": 537,
         "left": {
           "type": "UnaryExpression",
-          "start": 515,
-          "end": 528,
           "operator": "delete",
           "argument": {
             "type": "MemberExpression",
-            "start": 522,
-            "end": 528,
             "object": {
               "type": "ThisExpression",
               "start": 522,
@@ -120,59 +110,69 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "x",
               "start": 527,
-              "end": 528,
-              "name": "x"
+              "end": 528
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 522,
+            "end": 528
           },
-          "prefix": true
+          "prefix": true,
+          "start": 515,
+          "end": 528
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 533,
-          "end": 537,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 533,
+          "end": 537
+        },
+        "start": 515,
+        "end": 537
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 538,
-        "end": 619,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 542,
-            "end": 617,
             "argument": {
               "type": "NewExpression",
-              "start": 548,
-              "end": 616,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 552,
-                "end": 564,
-                "name": "Test262Error"
+                "end": 564
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 565,
-                  "end": 615,
                   "value": "#2: variable x has property attribute DontDelete",
-                  "raw": "\"#2: variable x has property attribute DontDelete\""
+                  "raw": "\"#2: variable x has property attribute DontDelete\"",
+                  "start": 565,
+                  "end": 615
                 }
-              ]
-            }
+              ],
+              "start": 548,
+              "end": 616
+            },
+            "start": 542,
+            "end": 617
           }
-        ]
+        ],
+        "start": 538,
+        "end": 619
       },
-      "alternate": null
+      "alternate": null,
+      "start": 512,
+      "end": 619
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 620
 }

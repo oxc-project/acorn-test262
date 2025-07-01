@@ -2,251 +2,251 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 197,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 22,
-      "end": 197,
       "id": {
         "type": "Identifier",
-        "start": 31,
-        "end": 40,
         "decorators": [],
         "name": "function1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 31,
+        "end": 40
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 40,
-        "end": 61,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 41,
-            "end": 60,
             "name": {
               "type": "Identifier",
-              "start": 41,
-              "end": 42,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 41,
+              "end": 42
             },
             "constraint": {
               "type": "TSUnionType",
-              "start": 51,
-              "end": 60,
               "types": [
                 {
                   "type": "TSLiteralType",
-                  "start": 51,
-                  "end": 54,
                   "literal": {
                     "type": "Literal",
-                    "start": 51,
-                    "end": 54,
                     "value": "a",
-                    "raw": "'a'"
-                  }
+                    "raw": "'a'",
+                    "start": 51,
+                    "end": 54
+                  },
+                  "start": 51,
+                  "end": 54
                 },
                 {
                   "type": "TSLiteralType",
-                  "start": 57,
-                  "end": 60,
                   "literal": {
                     "type": "Literal",
-                    "start": 57,
-                    "end": 60,
                     "value": "b",
-                    "raw": "'b'"
-                  }
+                    "raw": "'b'",
+                    "start": 57,
+                    "end": 60
+                  },
+                  "start": 57,
+                  "end": 60
                 }
-              ]
+              ],
+              "start": 51,
+              "end": 60
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 41,
+            "end": 60
           }
-        ]
+        ],
+        "start": 40,
+        "end": 61
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 62,
-          "end": 68,
           "decorators": [],
           "name": "key",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 65,
-            "end": 68,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 67,
-              "end": 68,
               "typeName": {
                 "type": "Identifier",
-                "start": 67,
-                "end": 68,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 67,
+                "end": 68
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 67,
+              "end": 68
+            },
+            "start": 65,
+            "end": 68
+          },
+          "start": 62,
+          "end": 68
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 70,
-        "end": 197,
         "body": [
           {
             "type": "SwitchStatement",
-            "start": 74,
-            "end": 195,
             "discriminant": {
               "type": "Identifier",
-              "start": 82,
-              "end": 85,
               "decorators": [],
               "name": "key",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 82,
+              "end": 85
             },
             "cases": [
               {
                 "type": "SwitchCase",
-                "start": 93,
-                "end": 140,
                 "test": {
                   "type": "Literal",
-                  "start": 98,
-                  "end": 101,
                   "value": "a",
-                  "raw": "'a'"
+                  "raw": "'a'",
+                  "start": 98,
+                  "end": 101
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 109,
-                    "end": 127,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 109,
-                      "end": 126,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 109,
-                        "end": 124,
                         "object": {
                           "type": "Identifier",
-                          "start": 109,
-                          "end": 112,
                           "decorators": [],
                           "name": "key",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 109,
+                          "end": 112
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 113,
-                          "end": 124,
                           "decorators": [],
                           "name": "toLowerCase",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 113,
+                          "end": 124
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 109,
+                        "end": 124
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 109,
+                      "end": 126
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 109,
+                    "end": 127
                   },
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 134,
-                    "end": 140,
-                    "label": null
+                    "end": 140
                   }
-                ]
+                ],
+                "start": 93,
+                "end": 140
               },
               {
                 "type": "SwitchCase",
-                "start": 145,
-                "end": 191,
                 "test": null,
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 160,
-                    "end": 178,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 160,
-                      "end": 177,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 160,
-                        "end": 175,
                         "object": {
                           "type": "Identifier",
-                          "start": 160,
-                          "end": 163,
                           "decorators": [],
                           "name": "key",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 160,
+                          "end": 163
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 164,
-                          "end": 175,
                           "decorators": [],
                           "name": "toLowerCase",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 164,
+                          "end": 175
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 160,
+                        "end": 175
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 160,
+                      "end": 177
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 160,
+                    "end": 178
                   },
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 185,
-                    "end": 191,
-                    "label": null
+                    "end": 191
                   }
-                ]
+                ],
+                "start": 145,
+                "end": 191
               }
-            ]
+            ],
+            "start": 74,
+            "end": 195
           }
-        ]
+        ],
+        "start": 70,
+        "end": 197
       },
-      "expression": false
+      "expression": false,
+      "start": 22,
+      "end": 197
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 197
 }
 ```

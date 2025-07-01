@@ -2,255 +2,255 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 133,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 20,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 19,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "name": "array",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 9
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 12,
-            "end": 19,
             "elements": [
               {
                 "type": "Literal",
-                "start": 13,
-                "end": 14,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 13,
+                "end": 14
               },
               {
                 "type": "Literal",
-                "start": 15,
-                "end": 16,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 15,
+                "end": 16
               },
               {
                 "type": "Literal",
-                "start": 17,
-                "end": 18,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 17,
+                "end": 18
               }
-            ]
+            ],
+            "start": 12,
+            "end": 19
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 19
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 20
     },
     {
       "type": "VariableDeclaration",
-      "start": 21,
-      "end": 33,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 25,
-          "end": 32,
           "id": {
             "type": "Identifier",
-            "start": 25,
-            "end": 28,
             "decorators": [],
             "name": "sum",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 25,
+            "end": 28
           },
           "init": {
             "type": "Literal",
-            "start": 31,
-            "end": 32,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 31,
+            "end": 32
           },
-          "definite": false
+          "definite": false,
+          "start": 25,
+          "end": 32
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 21,
+      "end": 33
     },
     {
       "type": "ForOfStatement",
-      "start": 35,
-      "end": 133,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 40,
-        "end": 47,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 44,
-            "end": 47,
             "id": {
               "type": "Identifier",
-              "start": 44,
-              "end": 47,
               "decorators": [],
               "name": "num",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 44,
+              "end": 47
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 44,
+            "end": 47
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 40,
+        "end": 47
       },
       "right": {
         "type": "Identifier",
-        "start": 51,
-        "end": 56,
         "decorators": [],
         "name": "array",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 51,
+        "end": 56
       },
       "body": {
         "type": "BlockStatement",
-        "start": 58,
-        "end": 133,
         "body": [
           {
             "type": "IfStatement",
-            "start": 64,
-            "end": 110,
             "test": {
               "type": "BinaryExpression",
-              "start": 68,
-              "end": 77,
               "left": {
                 "type": "Identifier",
-                "start": 68,
-                "end": 71,
                 "decorators": [],
                 "name": "sum",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 68,
+                "end": 71
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 76,
-                "end": 77,
                 "value": 0,
-                "raw": "0"
-              }
+                "raw": "0",
+                "start": 76,
+                "end": 77
+              },
+              "start": 68,
+              "end": 77
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 79,
-              "end": 110,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 89,
-                  "end": 104,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 89,
-                    "end": 104,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
-                      "start": 89,
-                      "end": 94,
                       "decorators": [],
                       "name": "array",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 89,
+                      "end": 94
                     },
                     "right": {
                       "type": "ArrayExpression",
-                      "start": 97,
-                      "end": 104,
                       "elements": [
                         {
                           "type": "Literal",
-                          "start": 98,
-                          "end": 99,
                           "value": 4,
-                          "raw": "4"
+                          "raw": "4",
+                          "start": 98,
+                          "end": 99
                         },
                         {
                           "type": "Literal",
-                          "start": 100,
-                          "end": 101,
                           "value": 5,
-                          "raw": "5"
+                          "raw": "5",
+                          "start": 100,
+                          "end": 101
                         },
                         {
                           "type": "Literal",
-                          "start": 102,
-                          "end": 103,
                           "value": 6,
-                          "raw": "6"
+                          "raw": "6",
+                          "start": 102,
+                          "end": 103
                         }
-                      ]
-                    }
+                      ],
+                      "start": 97,
+                      "end": 104
+                    },
+                    "start": 89,
+                    "end": 104
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 89,
+                  "end": 104
                 }
-              ]
+              ],
+              "start": 79,
+              "end": 110
             },
-            "alternate": null
+            "alternate": null,
+            "start": 64,
+            "end": 110
           },
           {
             "type": "ExpressionStatement",
-            "start": 120,
-            "end": 131,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 120,
-              "end": 130,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
-                "start": 120,
-                "end": 123,
                 "decorators": [],
                 "name": "sum",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 120,
+                "end": 123
               },
               "right": {
                 "type": "Identifier",
-                "start": 127,
-                "end": 130,
                 "decorators": [],
                 "name": "num",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 127,
+                "end": 130
+              },
+              "start": 120,
+              "end": 130
             },
-            "directive": null
+            "directive": null,
+            "start": 120,
+            "end": 131
           }
-        ]
-      }
+        ],
+        "start": 58,
+        "end": 133
+      },
+      "start": 35,
+      "end": 133
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 133
 }
 ```

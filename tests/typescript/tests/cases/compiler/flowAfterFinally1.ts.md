@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 226,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 33,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 25,
         "decorators": [],
         "name": "openFile",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 25
       },
       "generator": false,
       "async": false,
@@ -25,29 +21,29 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 27,
-        "end": 33,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
           "start": 29,
           "end": 33
-        }
+        },
+        "start": 27,
+        "end": 33
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 33
     },
     {
       "type": "TSDeclareFunction",
-      "start": 34,
-      "end": 68,
       "id": {
         "type": "Identifier",
-        "start": 51,
-        "end": 60,
         "decorators": [],
         "name": "closeFile",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 51,
+        "end": 60
       },
       "generator": false,
       "async": false,
@@ -56,29 +52,29 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 62,
-        "end": 68,
         "typeAnnotation": {
           "type": "TSVoidKeyword",
           "start": 64,
           "end": 68
-        }
+        },
+        "start": 62,
+        "end": 68
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 34,
+      "end": 68
     },
     {
       "type": "TSDeclareFunction",
-      "start": 69,
-      "end": 105,
       "id": {
         "type": "Identifier",
-        "start": 86,
-        "end": 99,
         "decorators": [],
         "name": "someOperation",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 86,
+        "end": 99
       },
       "generator": false,
       "async": false,
@@ -87,174 +83,178 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 101,
-        "end": 105,
         "typeAnnotation": {
           "type": "TSTypeLiteral",
+          "members": [],
           "start": 103,
-          "end": 105,
-          "members": []
-        }
+          "end": 105
+        },
+        "start": 101,
+        "end": 105
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 69,
+      "end": 105
     },
     {
       "type": "VariableDeclaration",
-      "start": 107,
-      "end": 121,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 111,
-          "end": 121,
           "id": {
             "type": "Identifier",
-            "start": 111,
-            "end": 121,
             "decorators": [],
             "name": "result",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 117,
-              "end": 121,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
+                "members": [],
                 "start": 119,
-                "end": 121,
-                "members": []
-              }
-            }
+                "end": 121
+              },
+              "start": 117,
+              "end": 121
+            },
+            "start": 111,
+            "end": 121
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 111,
+          "end": 121
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 107,
+      "end": 121
     },
     {
       "type": "ExpressionStatement",
-      "start": 122,
-      "end": 132,
       "expression": {
         "type": "CallExpression",
-        "start": 122,
-        "end": 132,
         "callee": {
           "type": "Identifier",
-          "start": 122,
-          "end": 130,
           "decorators": [],
           "name": "openFile",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 122,
+          "end": 130
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 122,
+        "end": 132
       },
-      "directive": null
+      "directive": null,
+      "start": 122,
+      "end": 132
     },
     {
       "type": "TryStatement",
-      "start": 133,
-      "end": 193,
       "block": {
         "type": "BlockStatement",
-        "start": 137,
-        "end": 167,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 141,
-            "end": 165,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 141,
-              "end": 165,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 141,
-                "end": 147,
                 "decorators": [],
                 "name": "result",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 141,
+                "end": 147
               },
               "right": {
                 "type": "CallExpression",
-                "start": 150,
-                "end": 165,
                 "callee": {
                   "type": "Identifier",
-                  "start": 150,
-                  "end": 163,
                   "decorators": [],
                   "name": "someOperation",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 150,
+                  "end": 163
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
-              }
+                "optional": false,
+                "start": 150,
+                "end": 165
+              },
+              "start": 141,
+              "end": 165
             },
-            "directive": null
+            "directive": null,
+            "start": 141,
+            "end": 165
           }
-        ]
+        ],
+        "start": 137,
+        "end": 167
       },
       "handler": null,
       "finalizer": {
         "type": "BlockStatement",
-        "start": 176,
-        "end": 193,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 180,
-            "end": 191,
             "expression": {
               "type": "CallExpression",
-              "start": 180,
-              "end": 191,
               "callee": {
                 "type": "Identifier",
-                "start": 180,
-                "end": 189,
                 "decorators": [],
                 "name": "closeFile",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 180,
+                "end": 189
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 180,
+              "end": 191
             },
-            "directive": null
+            "directive": null,
+            "start": 180,
+            "end": 191
           }
-        ]
-      }
+        ],
+        "start": 176,
+        "end": 193
+      },
+      "start": 133,
+      "end": 193
     },
     {
       "type": "ExpressionStatement",
-      "start": 195,
-      "end": 201,
       "expression": {
         "type": "Identifier",
-        "start": 195,
-        "end": 201,
         "decorators": [],
         "name": "result",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 195,
+        "end": 201
       },
-      "directive": null
+      "directive": null,
+      "start": 195,
+      "end": 201
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 226
 }
 ```

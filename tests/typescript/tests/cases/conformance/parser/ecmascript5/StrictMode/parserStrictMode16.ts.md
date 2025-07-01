@@ -2,102 +2,102 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 61,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 13
     },
     {
       "type": "ExpressionStatement",
-      "start": 14,
-      "end": 26,
       "expression": {
         "type": "UnaryExpression",
-        "start": 14,
-        "end": 25,
         "operator": "delete",
         "argument": {
           "type": "ThisExpression",
           "start": 21,
           "end": 25
         },
-        "prefix": true
+        "prefix": true,
+        "start": 14,
+        "end": 25
       },
-      "directive": null
+      "directive": null,
+      "start": 14,
+      "end": 26
     },
     {
       "type": "ExpressionStatement",
-      "start": 27,
-      "end": 36,
       "expression": {
         "type": "UnaryExpression",
-        "start": 27,
-        "end": 35,
         "operator": "delete",
         "argument": {
           "type": "Literal",
-          "start": 34,
-          "end": 35,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "start": 34,
+          "end": 35
         },
-        "prefix": true
+        "prefix": true,
+        "start": 27,
+        "end": 35
       },
-      "directive": null
+      "directive": null,
+      "start": 27,
+      "end": 36
     },
     {
       "type": "ExpressionStatement",
-      "start": 37,
-      "end": 49,
       "expression": {
         "type": "UnaryExpression",
-        "start": 37,
-        "end": 48,
         "operator": "delete",
         "argument": {
           "type": "Literal",
-          "start": 44,
-          "end": 48,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "start": 44,
+          "end": 48
         },
-        "prefix": true
+        "prefix": true,
+        "start": 37,
+        "end": 48
       },
-      "directive": null
+      "directive": null,
+      "start": 37,
+      "end": 49
     },
     {
       "type": "ExpressionStatement",
-      "start": 50,
-      "end": 61,
       "expression": {
         "type": "UnaryExpression",
-        "start": 50,
-        "end": 60,
         "operator": "delete",
         "argument": {
           "type": "Literal",
-          "start": 57,
-          "end": 60,
           "value": "a",
-          "raw": "\"a\""
+          "raw": "\"a\"",
+          "start": 57,
+          "end": 60
         },
-        "prefix": true
+        "prefix": true,
+        "start": 50,
+        "end": 60
       },
-      "directive": null
+      "directive": null,
+      "start": 50,
+      "end": 61
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 61
 }
 ```

@@ -1,1349 +1,1349 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1782,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 262,
-      "end": 335,
       "expression": {
         "type": "CallExpression",
-        "start": 262,
-        "end": 334,
         "callee": {
           "type": "MemberExpression",
-          "start": 262,
-          "end": 278,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 262,
-            "end": 268,
-            "name": "assert"
+            "end": 268
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 269,
-            "end": 278,
-            "name": "sameValue"
+            "end": 278
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 262,
+          "end": 278
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 279,
-            "end": 288,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 279,
-              "end": 281,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 281
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 284,
-              "end": 288,
               "value": "0n",
-              "raw": "'0n'"
-            }
+              "raw": "'0n'",
+              "start": 284,
+              "end": 288
+            },
+            "start": 279,
+            "end": 288
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 290,
-            "end": 295,
-            "value": false,
-            "raw": "false"
+            "end": 295
           },
           {
             "type": "Literal",
-            "start": 297,
-            "end": 333,
             "value": "The result of (1n > \"0n\") is false",
-            "raw": "'The result of (1n > \"0n\") is false'"
+            "raw": "'The result of (1n > \"0n\") is false'",
+            "start": 297,
+            "end": 333
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 262,
+        "end": 334
+      },
+      "start": 262,
+      "end": 335
     },
     {
       "type": "ExpressionStatement",
-      "start": 336,
-      "end": 409,
       "expression": {
         "type": "CallExpression",
-        "start": 336,
-        "end": 408,
         "callee": {
           "type": "MemberExpression",
-          "start": 336,
-          "end": 352,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 336,
-            "end": 342,
-            "name": "assert"
+            "end": 342
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 343,
-            "end": 352,
-            "name": "sameValue"
+            "end": 352
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 336,
+          "end": 352
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 353,
-            "end": 362,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 353,
-              "end": 355,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 355
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 358,
-              "end": 362,
               "value": "0.",
-              "raw": "'0.'"
-            }
+              "raw": "'0.'",
+              "start": 358,
+              "end": 362
+            },
+            "start": 353,
+            "end": 362
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 364,
-            "end": 369,
-            "value": false,
-            "raw": "false"
+            "end": 369
           },
           {
             "type": "Literal",
-            "start": 371,
-            "end": 407,
             "value": "The result of (1n > \"0.\") is false",
-            "raw": "'The result of (1n > \"0.\") is false'"
+            "raw": "'The result of (1n > \"0.\") is false'",
+            "start": 371,
+            "end": 407
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 336,
+        "end": 408
+      },
+      "start": 336,
+      "end": 409
     },
     {
       "type": "ExpressionStatement",
-      "start": 410,
-      "end": 483,
       "expression": {
         "type": "CallExpression",
-        "start": 410,
-        "end": 482,
         "callee": {
           "type": "MemberExpression",
-          "start": 410,
-          "end": 426,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 410,
-            "end": 416,
-            "name": "assert"
+            "end": 416
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 417,
-            "end": 426,
-            "name": "sameValue"
+            "end": 426
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 410,
+          "end": 426
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 427,
-            "end": 436,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 427,
-              "end": 429,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 429
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 432,
-              "end": 436,
               "value": ".0",
-              "raw": "'.0'"
-            }
+              "raw": "'.0'",
+              "start": 432,
+              "end": 436
+            },
+            "start": 427,
+            "end": 436
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 438,
-            "end": 443,
-            "value": false,
-            "raw": "false"
+            "end": 443
           },
           {
             "type": "Literal",
-            "start": 445,
-            "end": 481,
             "value": "The result of (1n > \".0\") is false",
-            "raw": "'The result of (1n > \".0\") is false'"
+            "raw": "'The result of (1n > \".0\") is false'",
+            "start": 445,
+            "end": 481
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 410,
+        "end": 482
+      },
+      "start": 410,
+      "end": 483
     },
     {
       "type": "ExpressionStatement",
-      "start": 484,
-      "end": 559,
       "expression": {
         "type": "CallExpression",
-        "start": 484,
-        "end": 558,
         "callee": {
           "type": "MemberExpression",
-          "start": 484,
-          "end": 500,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 484,
-            "end": 490,
-            "name": "assert"
+            "end": 490
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 491,
-            "end": 500,
-            "name": "sameValue"
+            "end": 500
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 484,
+          "end": 500
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 501,
-            "end": 511,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 501,
-              "end": 503,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 503
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 506,
-              "end": 511,
               "value": "0/1",
-              "raw": "'0/1'"
-            }
+              "raw": "'0/1'",
+              "start": 506,
+              "end": 511
+            },
+            "start": 501,
+            "end": 511
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 513,
-            "end": 518,
-            "value": false,
-            "raw": "false"
+            "end": 518
           },
           {
             "type": "Literal",
-            "start": 520,
-            "end": 557,
             "value": "The result of (1n > \"0/1\") is false",
-            "raw": "'The result of (1n > \"0/1\") is false'"
+            "raw": "'The result of (1n > \"0/1\") is false'",
+            "start": 520,
+            "end": 557
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 484,
+        "end": 558
+      },
+      "start": 484,
+      "end": 559
     },
     {
       "type": "ExpressionStatement",
-      "start": 560,
-      "end": 633,
       "expression": {
         "type": "CallExpression",
-        "start": 560,
-        "end": 632,
         "callee": {
           "type": "MemberExpression",
-          "start": 560,
-          "end": 576,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 560,
-            "end": 566,
-            "name": "assert"
+            "end": 566
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 567,
-            "end": 576,
-            "name": "sameValue"
+            "end": 576
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 560,
+          "end": 576
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 577,
-            "end": 586,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 577,
-              "end": 579,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 579
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 582,
-              "end": 586,
               "value": "z0",
-              "raw": "'z0'"
-            }
+              "raw": "'z0'",
+              "start": 582,
+              "end": 586
+            },
+            "start": 577,
+            "end": 586
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 588,
-            "end": 593,
-            "value": false,
-            "raw": "false"
+            "end": 593
           },
           {
             "type": "Literal",
-            "start": 595,
-            "end": 631,
             "value": "The result of (1n > \"z0\") is false",
-            "raw": "'The result of (1n > \"z0\") is false'"
+            "raw": "'The result of (1n > \"z0\") is false'",
+            "start": 595,
+            "end": 631
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 560,
+        "end": 632
+      },
+      "start": 560,
+      "end": 633
     },
     {
       "type": "ExpressionStatement",
-      "start": 634,
-      "end": 707,
       "expression": {
         "type": "CallExpression",
-        "start": 634,
-        "end": 706,
         "callee": {
           "type": "MemberExpression",
-          "start": 634,
-          "end": 650,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 634,
-            "end": 640,
-            "name": "assert"
+            "end": 640
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 641,
-            "end": 650,
-            "name": "sameValue"
+            "end": 650
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 634,
+          "end": 650
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 651,
-            "end": 660,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 651,
-              "end": 653,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 653
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 656,
-              "end": 660,
               "value": "0z",
-              "raw": "'0z'"
-            }
+              "raw": "'0z'",
+              "start": 656,
+              "end": 660
+            },
+            "start": 651,
+            "end": 660
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 662,
-            "end": 667,
-            "value": false,
-            "raw": "false"
+            "end": 667
           },
           {
             "type": "Literal",
-            "start": 669,
-            "end": 705,
             "value": "The result of (1n > \"0z\") is false",
-            "raw": "'The result of (1n > \"0z\") is false'"
+            "raw": "'The result of (1n > \"0z\") is false'",
+            "start": 669,
+            "end": 705
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 634,
+        "end": 706
+      },
+      "start": 634,
+      "end": 707
     },
     {
       "type": "ExpressionStatement",
-      "start": 708,
-      "end": 783,
       "expression": {
         "type": "CallExpression",
-        "start": 708,
-        "end": 782,
         "callee": {
           "type": "MemberExpression",
-          "start": 708,
-          "end": 724,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 708,
-            "end": 714,
-            "name": "assert"
+            "end": 714
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 715,
-            "end": 724,
-            "name": "sameValue"
+            "end": 724
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 708,
+          "end": 724
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 725,
-            "end": 735,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 725,
-              "end": 727,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 727
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 730,
-              "end": 735,
               "value": "++0",
-              "raw": "'++0'"
-            }
+              "raw": "'++0'",
+              "start": 730,
+              "end": 735
+            },
+            "start": 725,
+            "end": 735
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 737,
-            "end": 742,
-            "value": false,
-            "raw": "false"
+            "end": 742
           },
           {
             "type": "Literal",
-            "start": 744,
-            "end": 781,
             "value": "The result of (1n > \"++0\") is false",
-            "raw": "'The result of (1n > \"++0\") is false'"
+            "raw": "'The result of (1n > \"++0\") is false'",
+            "start": 744,
+            "end": 781
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 708,
+        "end": 782
+      },
+      "start": 708,
+      "end": 783
     },
     {
       "type": "ExpressionStatement",
-      "start": 784,
-      "end": 859,
       "expression": {
         "type": "CallExpression",
-        "start": 784,
-        "end": 858,
         "callee": {
           "type": "MemberExpression",
-          "start": 784,
-          "end": 800,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 784,
-            "end": 790,
-            "name": "assert"
+            "end": 790
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 791,
-            "end": 800,
-            "name": "sameValue"
+            "end": 800
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 784,
+          "end": 800
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 801,
-            "end": 811,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 801,
-              "end": 803,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 803
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 806,
-              "end": 811,
               "value": "--0",
-              "raw": "'--0'"
-            }
+              "raw": "'--0'",
+              "start": 806,
+              "end": 811
+            },
+            "start": 801,
+            "end": 811
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 813,
-            "end": 818,
-            "value": false,
-            "raw": "false"
+            "end": 818
           },
           {
             "type": "Literal",
-            "start": 820,
-            "end": 857,
             "value": "The result of (1n > \"--0\") is false",
-            "raw": "'The result of (1n > \"--0\") is false'"
+            "raw": "'The result of (1n > \"--0\") is false'",
+            "start": 820,
+            "end": 857
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 784,
+        "end": 858
+      },
+      "start": 784,
+      "end": 859
     },
     {
       "type": "ExpressionStatement",
-      "start": 860,
-      "end": 935,
       "expression": {
         "type": "CallExpression",
-        "start": 860,
-        "end": 934,
         "callee": {
           "type": "MemberExpression",
-          "start": 860,
-          "end": 876,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 860,
-            "end": 866,
-            "name": "assert"
+            "end": 866
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 867,
-            "end": 876,
-            "name": "sameValue"
+            "end": 876
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 860,
+          "end": 876
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 877,
-            "end": 887,
             "left": {
               "type": "Literal",
+              "value": null,
+              "raw": "1n",
+              "bigint": "1",
               "start": 877,
-              "end": 879,
-              "value": null,
-              "raw": "1n",
-              "bigint": "1"
+              "end": 879
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 882,
-              "end": 887,
               "value": "0e0",
-              "raw": "'0e0'"
-            }
+              "raw": "'0e0'",
+              "start": 882,
+              "end": 887
+            },
+            "start": 877,
+            "end": 887
           },
           {
             "type": "Literal",
-            "start": 889,
-            "end": 894,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 889,
+            "end": 894
           },
           {
             "type": "Literal",
-            "start": 896,
-            "end": 933,
             "value": "The result of (1n > \"0e0\") is false",
-            "raw": "'The result of (1n > \"0e0\") is false'"
+            "raw": "'The result of (1n > \"0e0\") is false'",
+            "start": 896,
+            "end": 933
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 860,
+        "end": 934
+      },
+      "start": 860,
+      "end": 935
     },
     {
       "type": "ExpressionStatement",
-      "start": 936,
-      "end": 1021,
       "expression": {
         "type": "CallExpression",
-        "start": 936,
-        "end": 1020,
         "callee": {
           "type": "MemberExpression",
-          "start": 936,
-          "end": 952,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 936,
-            "end": 942,
-            "name": "assert"
+            "end": 942
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 943,
-            "end": 952,
-            "name": "sameValue"
+            "end": 952
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 936,
+          "end": 952
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 953,
-            "end": 968,
             "left": {
               "type": "Literal",
-              "start": 953,
-              "end": 955,
               "value": null,
               "raw": "1n",
-              "bigint": "1"
+              "bigint": "1",
+              "start": 953,
+              "end": 955
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": "Infinity",
+              "raw": "'Infinity'",
               "start": 958,
-              "end": 968,
-              "value": "Infinity",
-              "raw": "'Infinity'"
-            }
+              "end": 968
+            },
+            "start": 953,
+            "end": 968
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 970,
-            "end": 975,
-            "value": false,
-            "raw": "false"
+            "end": 975
           },
           {
             "type": "Literal",
-            "start": 977,
-            "end": 1019,
             "value": "The result of (1n > \"Infinity\") is false",
-            "raw": "'The result of (1n > \"Infinity\") is false'"
+            "raw": "'The result of (1n > \"Infinity\") is false'",
+            "start": 977,
+            "end": 1019
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 936,
+        "end": 1020
+      },
+      "start": 936,
+      "end": 1021
     },
     {
       "type": "ExpressionStatement",
-      "start": 1022,
-      "end": 1095,
       "expression": {
         "type": "CallExpression",
-        "start": 1022,
-        "end": 1094,
         "callee": {
           "type": "MemberExpression",
-          "start": 1022,
-          "end": 1038,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1022,
-            "end": 1028,
-            "name": "assert"
+            "end": 1028
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1029,
-            "end": 1038,
-            "name": "sameValue"
+            "end": 1038
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1022,
+          "end": 1038
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1039,
-            "end": 1048,
             "left": {
               "type": "Literal",
-              "start": 1039,
-              "end": 1043,
               "value": "1n",
-              "raw": "'1n'"
+              "raw": "'1n'",
+              "start": 1039,
+              "end": 1043
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": null,
+              "raw": "0n",
+              "bigint": "0",
               "start": 1046,
-              "end": 1048,
-              "value": null,
-              "raw": "0n",
-              "bigint": "0"
-            }
+              "end": 1048
+            },
+            "start": 1039,
+            "end": 1048
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1050,
-            "end": 1055,
-            "value": false,
-            "raw": "false"
+            "end": 1055
           },
           {
             "type": "Literal",
-            "start": 1057,
-            "end": 1093,
             "value": "The result of (\"1n\" > 0n) is false",
-            "raw": "'The result of (\"1n\" > 0n) is false'"
+            "raw": "'The result of (\"1n\" > 0n) is false'",
+            "start": 1057,
+            "end": 1093
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1022,
+        "end": 1094
+      },
+      "start": 1022,
+      "end": 1095
     },
     {
       "type": "ExpressionStatement",
-      "start": 1096,
-      "end": 1169,
       "expression": {
         "type": "CallExpression",
-        "start": 1096,
-        "end": 1168,
         "callee": {
           "type": "MemberExpression",
-          "start": 1096,
-          "end": 1112,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1096,
-            "end": 1102,
-            "name": "assert"
+            "end": 1102
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1103,
-            "end": 1112,
-            "name": "sameValue"
+            "end": 1112
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1096,
+          "end": 1112
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1113,
-            "end": 1122,
             "left": {
               "type": "Literal",
-              "start": 1113,
-              "end": 1117,
               "value": "1.",
-              "raw": "'1.'"
+              "raw": "'1.'",
+              "start": 1113,
+              "end": 1117
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": null,
+              "raw": "0n",
+              "bigint": "0",
               "start": 1120,
-              "end": 1122,
-              "value": null,
-              "raw": "0n",
-              "bigint": "0"
-            }
+              "end": 1122
+            },
+            "start": 1113,
+            "end": 1122
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1124,
-            "end": 1129,
-            "value": false,
-            "raw": "false"
+            "end": 1129
           },
           {
             "type": "Literal",
-            "start": 1131,
-            "end": 1167,
             "value": "The result of (\"1.\" > 0n) is false",
-            "raw": "'The result of (\"1.\" > 0n) is false'"
+            "raw": "'The result of (\"1.\" > 0n) is false'",
+            "start": 1131,
+            "end": 1167
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1096,
+        "end": 1168
+      },
+      "start": 1096,
+      "end": 1169
     },
     {
       "type": "ExpressionStatement",
-      "start": 1170,
-      "end": 1243,
       "expression": {
         "type": "CallExpression",
-        "start": 1170,
-        "end": 1242,
         "callee": {
           "type": "MemberExpression",
-          "start": 1170,
-          "end": 1186,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1170,
-            "end": 1176,
-            "name": "assert"
+            "end": 1176
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1177,
-            "end": 1186,
-            "name": "sameValue"
+            "end": 1186
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1170,
+          "end": 1186
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1187,
-            "end": 1196,
             "left": {
               "type": "Literal",
-              "start": 1187,
-              "end": 1191,
               "value": ".1",
-              "raw": "'.1'"
+              "raw": "'.1'",
+              "start": 1187,
+              "end": 1191
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": null,
+              "raw": "0n",
+              "bigint": "0",
               "start": 1194,
-              "end": 1196,
-              "value": null,
-              "raw": "0n",
-              "bigint": "0"
-            }
+              "end": 1196
+            },
+            "start": 1187,
+            "end": 1196
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1198,
-            "end": 1203,
-            "value": false,
-            "raw": "false"
+            "end": 1203
           },
           {
             "type": "Literal",
-            "start": 1205,
-            "end": 1241,
             "value": "The result of (\".1\" > 0n) is false",
-            "raw": "'The result of (\".1\" > 0n) is false'"
+            "raw": "'The result of (\".1\" > 0n) is false'",
+            "start": 1205,
+            "end": 1241
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1170,
+        "end": 1242
+      },
+      "start": 1170,
+      "end": 1243
     },
     {
       "type": "ExpressionStatement",
-      "start": 1244,
-      "end": 1319,
       "expression": {
         "type": "CallExpression",
-        "start": 1244,
-        "end": 1318,
         "callee": {
           "type": "MemberExpression",
-          "start": 1244,
-          "end": 1260,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1244,
-            "end": 1250,
-            "name": "assert"
+            "end": 1250
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1251,
-            "end": 1260,
-            "name": "sameValue"
+            "end": 1260
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1244,
+          "end": 1260
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1261,
-            "end": 1271,
             "left": {
               "type": "Literal",
-              "start": 1261,
-              "end": 1266,
               "value": "1/1",
-              "raw": "'1/1'"
+              "raw": "'1/1'",
+              "start": 1261,
+              "end": 1266
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": null,
+              "raw": "0n",
+              "bigint": "0",
               "start": 1269,
-              "end": 1271,
-              "value": null,
-              "raw": "0n",
-              "bigint": "0"
-            }
+              "end": 1271
+            },
+            "start": 1261,
+            "end": 1271
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1273,
-            "end": 1278,
-            "value": false,
-            "raw": "false"
+            "end": 1278
           },
           {
             "type": "Literal",
-            "start": 1280,
-            "end": 1317,
             "value": "The result of (\"1/1\" > 0n) is false",
-            "raw": "'The result of (\"1/1\" > 0n) is false'"
+            "raw": "'The result of (\"1/1\" > 0n) is false'",
+            "start": 1280,
+            "end": 1317
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1244,
+        "end": 1318
+      },
+      "start": 1244,
+      "end": 1319
     },
     {
       "type": "ExpressionStatement",
-      "start": 1320,
-      "end": 1393,
       "expression": {
         "type": "CallExpression",
-        "start": 1320,
-        "end": 1392,
         "callee": {
           "type": "MemberExpression",
-          "start": 1320,
-          "end": 1336,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1320,
-            "end": 1326,
-            "name": "assert"
+            "end": 1326
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1327,
-            "end": 1336,
-            "name": "sameValue"
+            "end": 1336
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1320,
+          "end": 1336
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1337,
-            "end": 1346,
             "left": {
               "type": "Literal",
-              "start": 1337,
-              "end": 1341,
               "value": "z1",
-              "raw": "'z1'"
+              "raw": "'z1'",
+              "start": 1337,
+              "end": 1341
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": null,
+              "raw": "0n",
+              "bigint": "0",
               "start": 1344,
-              "end": 1346,
-              "value": null,
-              "raw": "0n",
-              "bigint": "0"
-            }
+              "end": 1346
+            },
+            "start": 1337,
+            "end": 1346
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1348,
-            "end": 1353,
-            "value": false,
-            "raw": "false"
+            "end": 1353
           },
           {
             "type": "Literal",
-            "start": 1355,
-            "end": 1391,
             "value": "The result of (\"z1\" > 0n) is false",
-            "raw": "'The result of (\"z1\" > 0n) is false'"
+            "raw": "'The result of (\"z1\" > 0n) is false'",
+            "start": 1355,
+            "end": 1391
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1320,
+        "end": 1392
+      },
+      "start": 1320,
+      "end": 1393
     },
     {
       "type": "ExpressionStatement",
-      "start": 1394,
-      "end": 1467,
       "expression": {
         "type": "CallExpression",
-        "start": 1394,
-        "end": 1466,
         "callee": {
           "type": "MemberExpression",
-          "start": 1394,
-          "end": 1410,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1394,
-            "end": 1400,
-            "name": "assert"
+            "end": 1400
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1401,
-            "end": 1410,
-            "name": "sameValue"
+            "end": 1410
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1394,
+          "end": 1410
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1411,
-            "end": 1420,
             "left": {
               "type": "Literal",
-              "start": 1411,
-              "end": 1415,
               "value": "1z",
-              "raw": "'1z'"
+              "raw": "'1z'",
+              "start": 1411,
+              "end": 1415
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": null,
+              "raw": "0n",
+              "bigint": "0",
               "start": 1418,
-              "end": 1420,
-              "value": null,
-              "raw": "0n",
-              "bigint": "0"
-            }
+              "end": 1420
+            },
+            "start": 1411,
+            "end": 1420
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1422,
-            "end": 1427,
-            "value": false,
-            "raw": "false"
+            "end": 1427
           },
           {
             "type": "Literal",
-            "start": 1429,
-            "end": 1465,
             "value": "The result of (\"1z\" > 0n) is false",
-            "raw": "'The result of (\"1z\" > 0n) is false'"
+            "raw": "'The result of (\"1z\" > 0n) is false'",
+            "start": 1429,
+            "end": 1465
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1394,
+        "end": 1466
+      },
+      "start": 1394,
+      "end": 1467
     },
     {
       "type": "ExpressionStatement",
-      "start": 1468,
-      "end": 1543,
       "expression": {
         "type": "CallExpression",
-        "start": 1468,
-        "end": 1542,
         "callee": {
           "type": "MemberExpression",
-          "start": 1468,
-          "end": 1484,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1468,
-            "end": 1474,
-            "name": "assert"
+            "end": 1474
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1475,
-            "end": 1484,
-            "name": "sameValue"
+            "end": 1484
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1468,
+          "end": 1484
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1485,
-            "end": 1495,
             "left": {
               "type": "Literal",
-              "start": 1485,
-              "end": 1490,
               "value": "++1",
-              "raw": "'++1'"
+              "raw": "'++1'",
+              "start": 1485,
+              "end": 1490
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": null,
+              "raw": "0n",
+              "bigint": "0",
               "start": 1493,
-              "end": 1495,
-              "value": null,
-              "raw": "0n",
-              "bigint": "0"
-            }
+              "end": 1495
+            },
+            "start": 1485,
+            "end": 1495
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1497,
-            "end": 1502,
-            "value": false,
-            "raw": "false"
+            "end": 1502
           },
           {
             "type": "Literal",
-            "start": 1504,
-            "end": 1541,
             "value": "The result of (\"++1\" > 0n) is false",
-            "raw": "'The result of (\"++1\" > 0n) is false'"
+            "raw": "'The result of (\"++1\" > 0n) is false'",
+            "start": 1504,
+            "end": 1541
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1468,
+        "end": 1542
+      },
+      "start": 1468,
+      "end": 1543
     },
     {
       "type": "ExpressionStatement",
-      "start": 1544,
-      "end": 1619,
       "expression": {
         "type": "CallExpression",
-        "start": 1544,
-        "end": 1618,
         "callee": {
           "type": "MemberExpression",
-          "start": 1544,
-          "end": 1560,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1544,
-            "end": 1550,
-            "name": "assert"
+            "end": 1550
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1551,
-            "end": 1560,
-            "name": "sameValue"
+            "end": 1560
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1544,
+          "end": 1560
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1561,
-            "end": 1571,
             "left": {
               "type": "Literal",
-              "start": 1561,
-              "end": 1566,
               "value": "--1",
-              "raw": "'--1'"
+              "raw": "'--1'",
+              "start": 1561,
+              "end": 1566
             },
             "operator": ">",
             "right": {
               "type": "Literal",
+              "value": null,
+              "raw": "0n",
+              "bigint": "0",
               "start": 1569,
-              "end": 1571,
-              "value": null,
-              "raw": "0n",
-              "bigint": "0"
-            }
+              "end": 1571
+            },
+            "start": 1561,
+            "end": 1571
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 1573,
-            "end": 1578,
-            "value": false,
-            "raw": "false"
+            "end": 1578
           },
           {
             "type": "Literal",
-            "start": 1580,
-            "end": 1617,
             "value": "The result of (\"--1\" > 0n) is false",
-            "raw": "'The result of (\"--1\" > 0n) is false'"
+            "raw": "'The result of (\"--1\" > 0n) is false'",
+            "start": 1580,
+            "end": 1617
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1544,
+        "end": 1618
+      },
+      "start": 1544,
+      "end": 1619
     },
     {
       "type": "ExpressionStatement",
-      "start": 1620,
-      "end": 1695,
       "expression": {
         "type": "CallExpression",
-        "start": 1620,
-        "end": 1694,
         "callee": {
           "type": "MemberExpression",
-          "start": 1620,
-          "end": 1636,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1620,
-            "end": 1626,
-            "name": "assert"
+            "end": 1626
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1627,
-            "end": 1636,
-            "name": "sameValue"
+            "end": 1636
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1620,
+          "end": 1636
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1637,
-            "end": 1647,
             "left": {
               "type": "Literal",
-              "start": 1637,
-              "end": 1642,
               "value": "1e0",
-              "raw": "'1e0'"
+              "raw": "'1e0'",
+              "start": 1637,
+              "end": 1642
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 1645,
-              "end": 1647,
               "value": null,
               "raw": "0n",
-              "bigint": "0"
-            }
+              "bigint": "0",
+              "start": 1645,
+              "end": 1647
+            },
+            "start": 1637,
+            "end": 1647
           },
           {
             "type": "Literal",
-            "start": 1649,
-            "end": 1654,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1649,
+            "end": 1654
           },
           {
             "type": "Literal",
-            "start": 1656,
-            "end": 1693,
             "value": "The result of (\"1e0\" > 0n) is false",
-            "raw": "'The result of (\"1e0\" > 0n) is false'"
+            "raw": "'The result of (\"1e0\" > 0n) is false'",
+            "start": 1656,
+            "end": 1693
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1620,
+        "end": 1694
+      },
+      "start": 1620,
+      "end": 1695
     },
     {
       "type": "ExpressionStatement",
-      "start": 1696,
-      "end": 1781,
       "expression": {
         "type": "CallExpression",
-        "start": 1696,
-        "end": 1780,
         "callee": {
           "type": "MemberExpression",
-          "start": 1696,
-          "end": 1712,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1696,
-            "end": 1702,
-            "name": "assert"
+            "end": 1702
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1703,
-            "end": 1712,
-            "name": "sameValue"
+            "end": 1712
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1696,
+          "end": 1712
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1713,
-            "end": 1728,
             "left": {
               "type": "Literal",
-              "start": 1713,
-              "end": 1723,
               "value": "Infinity",
-              "raw": "'Infinity'"
+              "raw": "'Infinity'",
+              "start": 1713,
+              "end": 1723
             },
             "operator": ">",
             "right": {
               "type": "Literal",
-              "start": 1726,
-              "end": 1728,
               "value": null,
               "raw": "0n",
-              "bigint": "0"
-            }
+              "bigint": "0",
+              "start": 1726,
+              "end": 1728
+            },
+            "start": 1713,
+            "end": 1728
           },
           {
             "type": "Literal",
-            "start": 1730,
-            "end": 1735,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1730,
+            "end": 1735
           },
           {
             "type": "Literal",
-            "start": 1737,
-            "end": 1779,
             "value": "The result of (\"Infinity\" > 0n) is false",
-            "raw": "'The result of (\"Infinity\" > 0n) is false'"
+            "raw": "'The result of (\"Infinity\" > 0n) is false'",
+            "start": 1737,
+            "end": 1779
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1696,
+        "end": 1780
+      },
+      "start": 1696,
+      "end": 1781
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1782
 }

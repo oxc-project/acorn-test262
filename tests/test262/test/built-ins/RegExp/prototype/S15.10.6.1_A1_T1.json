@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 481,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 331,
-      "end": 480,
       "expression": {
         "type": "CallExpression",
-        "start": 331,
-        "end": 479,
         "callee": {
           "type": "MemberExpression",
-          "start": 331,
-          "end": 347,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 331,
-            "end": 337,
-            "name": "assert"
+            "end": 337
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 338,
-            "end": 347,
-            "name": "sameValue"
+            "end": 347
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 331,
+          "end": 347
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 351,
-            "end": 379,
             "object": {
               "type": "MemberExpression",
-              "start": 351,
-              "end": 367,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 351,
-                "end": 357,
-                "name": "RegExp"
+                "end": 357
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 358,
-                "end": 367,
-                "name": "prototype"
+                "end": 367
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 351,
+              "end": 367
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 368,
-              "end": 379,
-              "name": "constructor"
+              "end": 379
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 351,
+            "end": 379
           },
           {
             "type": "Identifier",
+            "name": "RegExp",
             "start": 383,
-            "end": 389,
-            "name": "RegExp"
+            "end": 389
           },
           {
             "type": "Literal",
-            "start": 393,
-            "end": 477,
             "value": "The value of RegExp.prototype.constructor is expected to equal the value of RegExp",
-            "raw": "'The value of RegExp.prototype.constructor is expected to equal the value of RegExp'"
+            "raw": "'The value of RegExp.prototype.constructor is expected to equal the value of RegExp'",
+            "start": 393,
+            "end": 477
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 331,
+        "end": 479
+      },
+      "start": 331,
+      "end": 480
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 481
 }

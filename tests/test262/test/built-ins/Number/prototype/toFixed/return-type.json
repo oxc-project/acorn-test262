@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 298,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 243,
-      "end": 297,
       "expression": {
         "type": "CallExpression",
-        "start": 243,
-        "end": 296,
         "callee": {
           "type": "MemberExpression",
-          "start": 243,
-          "end": 259,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 243,
-            "end": 249,
-            "name": "assert"
+            "end": 249
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 250,
-            "end": 259,
-            "name": "sameValue"
+            "end": 259
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 243,
+          "end": 259
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 260,
-            "end": 285,
             "operator": "typeof",
             "argument": {
               "type": "CallExpression",
-              "start": 266,
-              "end": 285,
               "callee": {
                 "type": "MemberExpression",
-                "start": 266,
-                "end": 283,
                 "object": {
                   "type": "ParenthesizedExpression",
-                  "start": 266,
-                  "end": 275,
                   "expression": {
                     "type": "Literal",
-                    "start": 267,
-                    "end": 274,
                     "value": 123.456,
-                    "raw": "123.456"
-                  }
+                    "raw": "123.456",
+                    "start": 267,
+                    "end": 274
+                  },
+                  "start": 266,
+                  "end": 275
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toFixed",
                   "start": 276,
-                  "end": 283,
-                  "name": "toFixed"
+                  "end": 283
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 266,
+                "end": 283
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 266,
+              "end": 285
             },
-            "prefix": true
+            "prefix": true,
+            "start": 260,
+            "end": 285
           },
           {
             "type": "Literal",
-            "start": 287,
-            "end": 295,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "start": 287,
+            "end": 295
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 243,
+        "end": 296
+      },
+      "start": 243,
+      "end": 297
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 298
 }

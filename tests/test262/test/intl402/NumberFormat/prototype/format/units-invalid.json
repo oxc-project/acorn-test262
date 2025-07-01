@@ -1,890 +1,890 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1926,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 273,
-      "end": 1779,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 279,
-          "end": 1778,
           "id": {
             "type": "Identifier",
+            "name": "units",
             "start": 279,
-            "end": 284,
-            "name": "units"
+            "end": 284
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 287,
-            "end": 1778,
             "elements": [
               {
                 "type": "Literal",
-                "start": 291,
-                "end": 302,
                 "value": "acre-foot",
-                "raw": "\"acre-foot\""
+                "raw": "\"acre-foot\"",
+                "start": 291,
+                "end": 302
               },
               {
                 "type": "Literal",
-                "start": 306,
-                "end": 314,
                 "value": "ampere",
-                "raw": "\"ampere\""
+                "raw": "\"ampere\"",
+                "start": 306,
+                "end": 314
               },
               {
                 "type": "Literal",
-                "start": 318,
-                "end": 330,
                 "value": "arc-minute",
-                "raw": "\"arc-minute\""
+                "raw": "\"arc-minute\"",
+                "start": 318,
+                "end": 330
               },
               {
                 "type": "Literal",
-                "start": 334,
-                "end": 346,
                 "value": "arc-second",
-                "raw": "\"arc-second\""
+                "raw": "\"arc-second\"",
+                "start": 334,
+                "end": 346
               },
               {
                 "type": "Literal",
-                "start": 350,
-                "end": 369,
                 "value": "astronomical-unit",
-                "raw": "\"astronomical-unit\""
+                "raw": "\"astronomical-unit\"",
+                "start": 350,
+                "end": 369
               },
               {
                 "type": "Literal",
-                "start": 373,
-                "end": 385,
                 "value": "atmosphere",
-                "raw": "\"atmosphere\""
+                "raw": "\"atmosphere\"",
+                "start": 373,
+                "end": 385
               },
               {
                 "type": "Literal",
-                "start": 389,
-                "end": 397,
                 "value": "bushel",
-                "raw": "\"bushel\""
+                "raw": "\"bushel\"",
+                "start": 389,
+                "end": 397
               },
               {
                 "type": "Literal",
-                "start": 401,
-                "end": 410,
                 "value": "calorie",
-                "raw": "\"calorie\""
+                "raw": "\"calorie\"",
+                "start": 401,
+                "end": 410
               },
               {
                 "type": "Literal",
-                "start": 414,
-                "end": 421,
                 "value": "carat",
-                "raw": "\"carat\""
+                "raw": "\"carat\"",
+                "start": 414,
+                "end": 421
               },
               {
                 "type": "Literal",
-                "start": 425,
-                "end": 437,
                 "value": "centiliter",
-                "raw": "\"centiliter\""
+                "raw": "\"centiliter\"",
+                "start": 425,
+                "end": 437
               },
               {
                 "type": "Literal",
-                "start": 441,
-                "end": 450,
                 "value": "century",
-                "raw": "\"century\""
+                "raw": "\"century\"",
+                "start": 441,
+                "end": 450
               },
               {
                 "type": "Literal",
-                "start": 454,
-                "end": 472,
                 "value": "cubic-centimeter",
-                "raw": "\"cubic-centimeter\""
+                "raw": "\"cubic-centimeter\"",
+                "start": 454,
+                "end": 472
               },
               {
                 "type": "Literal",
-                "start": 476,
-                "end": 488,
                 "value": "cubic-foot",
-                "raw": "\"cubic-foot\""
+                "raw": "\"cubic-foot\"",
+                "start": 476,
+                "end": 488
               },
               {
                 "type": "Literal",
-                "start": 492,
-                "end": 504,
                 "value": "cubic-inch",
-                "raw": "\"cubic-inch\""
+                "raw": "\"cubic-inch\"",
+                "start": 492,
+                "end": 504
               },
               {
                 "type": "Literal",
-                "start": 508,
-                "end": 525,
                 "value": "cubic-kilometer",
-                "raw": "\"cubic-kilometer\""
+                "raw": "\"cubic-kilometer\"",
+                "start": 508,
+                "end": 525
               },
               {
                 "type": "Literal",
-                "start": 529,
-                "end": 542,
                 "value": "cubic-meter",
-                "raw": "\"cubic-meter\""
+                "raw": "\"cubic-meter\"",
+                "start": 529,
+                "end": 542
               },
               {
                 "type": "Literal",
-                "start": 546,
-                "end": 558,
                 "value": "cubic-mile",
-                "raw": "\"cubic-mile\""
+                "raw": "\"cubic-mile\"",
+                "start": 546,
+                "end": 558
               },
               {
                 "type": "Literal",
-                "start": 562,
-                "end": 574,
                 "value": "cubic-yard",
-                "raw": "\"cubic-yard\""
+                "raw": "\"cubic-yard\"",
+                "start": 562,
+                "end": 574
               },
               {
                 "type": "Literal",
-                "start": 578,
-                "end": 590,
                 "value": "cup-metric",
-                "raw": "\"cup-metric\""
+                "raw": "\"cup-metric\"",
+                "start": 578,
+                "end": 590
               },
               {
                 "type": "Literal",
-                "start": 594,
-                "end": 599,
                 "value": "cup",
-                "raw": "\"cup\""
+                "raw": "\"cup\"",
+                "start": 594,
+                "end": 599
               },
               {
                 "type": "Literal",
-                "start": 603,
-                "end": 615,
                 "value": "day-person",
-                "raw": "\"day-person\""
+                "raw": "\"day-person\"",
+                "start": 603,
+                "end": 615
               },
               {
                 "type": "Literal",
-                "start": 619,
-                "end": 630,
                 "value": "deciliter",
-                "raw": "\"deciliter\""
+                "raw": "\"deciliter\"",
+                "start": 619,
+                "end": 630
               },
               {
                 "type": "Literal",
-                "start": 634,
-                "end": 645,
                 "value": "decimeter",
-                "raw": "\"decimeter\""
+                "raw": "\"decimeter\"",
+                "start": 634,
+                "end": 645
               },
               {
                 "type": "Literal",
-                "start": 649,
-                "end": 657,
                 "value": "fathom",
-                "raw": "\"fathom\""
+                "raw": "\"fathom\"",
+                "start": 649,
+                "end": 657
               },
               {
                 "type": "Literal",
-                "start": 661,
-                "end": 674,
                 "value": "foodcalorie",
-                "raw": "\"foodcalorie\""
+                "raw": "\"foodcalorie\"",
+                "start": 661,
+                "end": 674
               },
               {
                 "type": "Literal",
-                "start": 678,
-                "end": 687,
                 "value": "furlong",
-                "raw": "\"furlong\""
+                "raw": "\"furlong\"",
+                "start": 678,
+                "end": 687
               },
               {
                 "type": "Literal",
-                "start": 691,
-                "end": 700,
                 "value": "g-force",
-                "raw": "\"g-force\""
+                "raw": "\"g-force\"",
+                "start": 691,
+                "end": 700
               },
               {
                 "type": "Literal",
-                "start": 704,
-                "end": 721,
                 "value": "gallon-imperial",
-                "raw": "\"gallon-imperial\""
+                "raw": "\"gallon-imperial\"",
+                "start": 704,
+                "end": 721
               },
               {
                 "type": "Literal",
-                "start": 725,
-                "end": 734,
                 "value": "generic",
-                "raw": "\"generic\""
+                "raw": "\"generic\"",
+                "start": 725,
+                "end": 734
               },
               {
                 "type": "Literal",
-                "start": 738,
-                "end": 749,
                 "value": "gigahertz",
-                "raw": "\"gigahertz\""
+                "raw": "\"gigahertz\"",
+                "start": 738,
+                "end": 749
               },
               {
                 "type": "Literal",
-                "start": 753,
-                "end": 763,
                 "value": "gigawatt",
-                "raw": "\"gigawatt\""
+                "raw": "\"gigawatt\"",
+                "start": 753,
+                "end": 763
               },
               {
                 "type": "Literal",
-                "start": 767,
-                "end": 779,
                 "value": "hectoliter",
-                "raw": "\"hectoliter\""
+                "raw": "\"hectoliter\"",
+                "start": 767,
+                "end": 779
               },
               {
                 "type": "Literal",
-                "start": 783,
-                "end": 796,
                 "value": "hectopascal",
-                "raw": "\"hectopascal\""
+                "raw": "\"hectopascal\"",
+                "start": 783,
+                "end": 796
               },
               {
                 "type": "Literal",
-                "start": 800,
-                "end": 807,
                 "value": "hertz",
-                "raw": "\"hertz\""
+                "raw": "\"hertz\"",
+                "start": 800,
+                "end": 807
               },
               {
                 "type": "Literal",
-                "start": 811,
-                "end": 823,
                 "value": "horsepower",
-                "raw": "\"horsepower\""
+                "raw": "\"horsepower\"",
+                "start": 811,
+                "end": 823
               },
               {
                 "type": "Literal",
-                "start": 827,
-                "end": 836,
                 "value": "inch-hg",
-                "raw": "\"inch-hg\""
+                "raw": "\"inch-hg\"",
+                "start": 827,
+                "end": 836
               },
               {
                 "type": "Literal",
-                "start": 840,
-                "end": 847,
                 "value": "joule",
-                "raw": "\"joule\""
+                "raw": "\"joule\"",
+                "start": 840,
+                "end": 847
               },
               {
                 "type": "Literal",
-                "start": 851,
-                "end": 858,
                 "value": "karat",
-                "raw": "\"karat\""
+                "raw": "\"karat\"",
+                "start": 851,
+                "end": 858
               },
               {
                 "type": "Literal",
-                "start": 862,
-                "end": 870,
                 "value": "kelvin",
-                "raw": "\"kelvin\""
+                "raw": "\"kelvin\"",
+                "start": 862,
+                "end": 870
               },
               {
                 "type": "Literal",
-                "start": 874,
-                "end": 887,
                 "value": "kilocalorie",
-                "raw": "\"kilocalorie\""
+                "raw": "\"kilocalorie\"",
+                "start": 874,
+                "end": 887
               },
               {
                 "type": "Literal",
-                "start": 891,
-                "end": 902,
                 "value": "kilohertz",
-                "raw": "\"kilohertz\""
+                "raw": "\"kilohertz\"",
+                "start": 891,
+                "end": 902
               },
               {
                 "type": "Literal",
-                "start": 906,
-                "end": 917,
                 "value": "kilojoule",
-                "raw": "\"kilojoule\""
+                "raw": "\"kilojoule\"",
+                "start": 906,
+                "end": 917
               },
               {
                 "type": "Literal",
-                "start": 921,
-                "end": 936,
                 "value": "kilowatt-hour",
-                "raw": "\"kilowatt-hour\""
+                "raw": "\"kilowatt-hour\"",
+                "start": 921,
+                "end": 936
               },
               {
                 "type": "Literal",
-                "start": 940,
-                "end": 950,
                 "value": "kilowatt",
-                "raw": "\"kilowatt\""
+                "raw": "\"kilowatt\"",
+                "start": 940,
+                "end": 950
               },
               {
                 "type": "Literal",
-                "start": 954,
-                "end": 960,
                 "value": "knot",
-                "raw": "\"knot\""
+                "raw": "\"knot\"",
+                "start": 954,
+                "end": 960
               },
               {
                 "type": "Literal",
-                "start": 964,
-                "end": 976,
                 "value": "light-year",
-                "raw": "\"light-year\""
+                "raw": "\"light-year\"",
+                "start": 964,
+                "end": 976
               },
               {
                 "type": "Literal",
-                "start": 980,
-                "end": 985,
                 "value": "lux",
-                "raw": "\"lux\""
+                "raw": "\"lux\"",
+                "start": 980,
+                "end": 985
               },
               {
                 "type": "Literal",
-                "start": 989,
-                "end": 1000,
                 "value": "megahertz",
-                "raw": "\"megahertz\""
+                "raw": "\"megahertz\"",
+                "start": 989,
+                "end": 1000
               },
               {
                 "type": "Literal",
-                "start": 1004,
-                "end": 1015,
                 "value": "megaliter",
-                "raw": "\"megaliter\""
+                "raw": "\"megaliter\"",
+                "start": 1004,
+                "end": 1015
               },
               {
                 "type": "Literal",
-                "start": 1019,
-                "end": 1029,
                 "value": "megawatt",
-                "raw": "\"megawatt\""
+                "raw": "\"megawatt\"",
+                "start": 1019,
+                "end": 1029
               },
               {
                 "type": "Literal",
-                "start": 1033,
-                "end": 1045,
                 "value": "metric-ton",
-                "raw": "\"metric-ton\""
+                "raw": "\"metric-ton\"",
+                "start": 1033,
+                "end": 1045
               },
               {
                 "type": "Literal",
-                "start": 1049,
-                "end": 1060,
                 "value": "microgram",
-                "raw": "\"microgram\""
+                "raw": "\"microgram\"",
+                "start": 1049,
+                "end": 1060
               },
               {
                 "type": "Literal",
-                "start": 1064,
-                "end": 1076,
                 "value": "micrometer",
-                "raw": "\"micrometer\""
+                "raw": "\"micrometer\"",
+                "start": 1064,
+                "end": 1076
               },
               {
                 "type": "Literal",
-                "start": 1080,
-                "end": 1093,
                 "value": "milliampere",
-                "raw": "\"milliampere\""
+                "raw": "\"milliampere\"",
+                "start": 1080,
+                "end": 1093
               },
               {
                 "type": "Literal",
-                "start": 1097,
-                "end": 1107,
                 "value": "millibar",
-                "raw": "\"millibar\""
+                "raw": "\"millibar\"",
+                "start": 1097,
+                "end": 1107
               },
               {
                 "type": "Literal",
-                "start": 1111,
-                "end": 1122,
                 "value": "milligram",
-                "raw": "\"milligram\""
+                "raw": "\"milligram\"",
+                "start": 1111,
+                "end": 1122
               },
               {
                 "type": "Literal",
-                "start": 1126,
-                "end": 1149,
                 "value": "millimeter-of-mercury",
-                "raw": "\"millimeter-of-mercury\""
+                "raw": "\"millimeter-of-mercury\"",
+                "start": 1126,
+                "end": 1149
               },
               {
                 "type": "Literal",
-                "start": 1153,
-                "end": 1164,
                 "value": "milliwatt",
-                "raw": "\"milliwatt\""
+                "raw": "\"milliwatt\"",
+                "start": 1153,
+                "end": 1164
               },
               {
                 "type": "Literal",
-                "start": 1168,
-                "end": 1182,
                 "value": "month-person",
-                "raw": "\"month-person\""
+                "raw": "\"month-person\"",
+                "start": 1168,
+                "end": 1182
               },
               {
                 "type": "Literal",
-                "start": 1186,
-                "end": 1197,
                 "value": "nanometer",
-                "raw": "\"nanometer\""
+                "raw": "\"nanometer\"",
+                "start": 1186,
+                "end": 1197
               },
               {
                 "type": "Literal",
-                "start": 1201,
-                "end": 1216,
                 "value": "nautical-mile",
-                "raw": "\"nautical-mile\""
+                "raw": "\"nautical-mile\"",
+                "start": 1201,
+                "end": 1216
               },
               {
                 "type": "Literal",
-                "start": 1220,
-                "end": 1225,
                 "value": "ohm",
-                "raw": "\"ohm\""
+                "raw": "\"ohm\"",
+                "start": 1220,
+                "end": 1225
               },
               {
                 "type": "Literal",
-                "start": 1229,
-                "end": 1241,
                 "value": "ounce-troy",
-                "raw": "\"ounce-troy\""
+                "raw": "\"ounce-troy\"",
+                "start": 1229,
+                "end": 1241
               },
               {
                 "type": "Literal",
-                "start": 1245,
-                "end": 1253,
                 "value": "parsec",
-                "raw": "\"parsec\""
+                "raw": "\"parsec\"",
+                "start": 1245,
+                "end": 1253
               },
               {
                 "type": "Literal",
-                "start": 1257,
-                "end": 1267,
                 "value": "permille",
-                "raw": "\"permille\""
+                "raw": "\"permille\"",
+                "start": 1257,
+                "end": 1267
               },
               {
                 "type": "Literal",
-                "start": 1271,
-                "end": 1282,
                 "value": "picometer",
-                "raw": "\"picometer\""
+                "raw": "\"picometer\"",
+                "start": 1271,
+                "end": 1282
               },
               {
                 "type": "Literal",
-                "start": 1286,
-                "end": 1299,
                 "value": "pint-metric",
-                "raw": "\"pint-metric\""
+                "raw": "\"pint-metric\"",
+                "start": 1286,
+                "end": 1299
               },
               {
                 "type": "Literal",
-                "start": 1303,
-                "end": 1309,
                 "value": "pint",
-                "raw": "\"pint\""
+                "raw": "\"pint\"",
+                "start": 1303,
+                "end": 1309
               },
               {
                 "type": "Literal",
-                "start": 1313,
-                "end": 1320,
                 "value": "point",
-                "raw": "\"point\""
+                "raw": "\"point\"",
+                "start": 1313,
+                "end": 1320
               },
               {
                 "type": "Literal",
-                "start": 1324,
-                "end": 1331,
                 "value": "quart",
-                "raw": "\"quart\""
+                "raw": "\"quart\"",
+                "start": 1324,
+                "end": 1331
               },
               {
                 "type": "Literal",
-                "start": 1335,
-                "end": 1343,
                 "value": "radian",
-                "raw": "\"radian\""
+                "raw": "\"radian\"",
+                "start": 1335,
+                "end": 1343
               },
               {
                 "type": "Literal",
-                "start": 1347,
-                "end": 1359,
                 "value": "revolution",
-                "raw": "\"revolution\""
+                "raw": "\"revolution\"",
+                "start": 1347,
+                "end": 1359
               },
               {
                 "type": "Literal",
-                "start": 1363,
-                "end": 1382,
                 "value": "square-centimeter",
-                "raw": "\"square-centimeter\""
+                "raw": "\"square-centimeter\"",
+                "start": 1363,
+                "end": 1382
               },
               {
                 "type": "Literal",
-                "start": 1386,
-                "end": 1399,
                 "value": "square-foot",
-                "raw": "\"square-foot\""
+                "raw": "\"square-foot\"",
+                "start": 1386,
+                "end": 1399
               },
               {
                 "type": "Literal",
-                "start": 1403,
-                "end": 1416,
                 "value": "square-inch",
-                "raw": "\"square-inch\""
+                "raw": "\"square-inch\"",
+                "start": 1403,
+                "end": 1416
               },
               {
                 "type": "Literal",
-                "start": 1420,
-                "end": 1438,
                 "value": "square-kilometer",
-                "raw": "\"square-kilometer\""
+                "raw": "\"square-kilometer\"",
+                "start": 1420,
+                "end": 1438
               },
               {
                 "type": "Literal",
-                "start": 1442,
-                "end": 1456,
                 "value": "square-meter",
-                "raw": "\"square-meter\""
+                "raw": "\"square-meter\"",
+                "start": 1442,
+                "end": 1456
               },
               {
                 "type": "Literal",
-                "start": 1460,
-                "end": 1473,
                 "value": "square-mile",
-                "raw": "\"square-mile\""
+                "raw": "\"square-mile\"",
+                "start": 1460,
+                "end": 1473
               },
               {
                 "type": "Literal",
-                "start": 1477,
-                "end": 1490,
                 "value": "square-yard",
-                "raw": "\"square-yard\""
+                "raw": "\"square-yard\"",
+                "start": 1477,
+                "end": 1490
               },
               {
                 "type": "Literal",
-                "start": 1494,
-                "end": 1506,
                 "value": "tablespoon",
-                "raw": "\"tablespoon\""
+                "raw": "\"tablespoon\"",
+                "start": 1494,
+                "end": 1506
               },
               {
                 "type": "Literal",
-                "start": 1510,
-                "end": 1520,
                 "value": "teaspoon",
-                "raw": "\"teaspoon\""
+                "raw": "\"teaspoon\"",
+                "start": 1510,
+                "end": 1520
               },
               {
                 "type": "Literal",
-                "start": 1524,
-                "end": 1529,
                 "value": "ton",
-                "raw": "\"ton\""
+                "raw": "\"ton\"",
+                "start": 1524,
+                "end": 1529
               },
               {
                 "type": "Literal",
-                "start": 1533,
-                "end": 1539,
                 "value": "volt",
-                "raw": "\"volt\""
+                "raw": "\"volt\"",
+                "start": 1533,
+                "end": 1539
               },
               {
                 "type": "Literal",
-                "start": 1543,
-                "end": 1549,
                 "value": "watt",
-                "raw": "\"watt\""
+                "raw": "\"watt\"",
+                "start": 1543,
+                "end": 1549
               },
               {
                 "type": "Literal",
-                "start": 1553,
-                "end": 1566,
                 "value": "week-person",
-                "raw": "\"week-person\""
+                "raw": "\"week-person\"",
+                "start": 1553,
+                "end": 1566
               },
               {
                 "type": "Literal",
-                "start": 1570,
-                "end": 1583,
                 "value": "year-person",
-                "raw": "\"year-person\""
+                "raw": "\"year-person\"",
+                "start": 1570,
+                "end": 1583
               },
               {
                 "type": "Literal",
-                "start": 1587,
-                "end": 1612,
                 "value": "liter-per-100kilometers",
-                "raw": "\"liter-per-100kilometers\""
+                "raw": "\"liter-per-100kilometers\"",
+                "start": 1587,
+                "end": 1612
               },
               {
                 "type": "Literal",
-                "start": 1616,
-                "end": 1642,
                 "value": "meter-per-second-squared",
-                "raw": "\"meter-per-second-squared\""
+                "raw": "\"meter-per-second-squared\"",
+                "start": 1616,
+                "end": 1642
               },
               {
                 "type": "Literal",
-                "start": 1646,
-                "end": 1672,
                 "value": "mile-per-gallon-imperial",
-                "raw": "\"mile-per-gallon-imperial\""
+                "raw": "\"mile-per-gallon-imperial\"",
+                "start": 1646,
+                "end": 1672
               },
               {
                 "type": "Literal",
-                "start": 1676,
-                "end": 1701,
                 "value": "milligram-per-deciliter",
-                "raw": "\"milligram-per-deciliter\""
+                "raw": "\"milligram-per-deciliter\"",
+                "start": 1676,
+                "end": 1701
               },
               {
                 "type": "Literal",
-                "start": 1705,
-                "end": 1726,
                 "value": "millimole-per-liter",
-                "raw": "\"millimole-per-liter\""
+                "raw": "\"millimole-per-liter\"",
+                "start": 1705,
+                "end": 1726
               },
               {
                 "type": "Literal",
-                "start": 1730,
-                "end": 1748,
                 "value": "part-per-million",
-                "raw": "\"part-per-million\""
+                "raw": "\"part-per-million\"",
+                "start": 1730,
+                "end": 1748
               },
               {
                 "type": "Literal",
-                "start": 1752,
-                "end": 1775,
                 "value": "pound-per-square-inch",
-                "raw": "\"pound-per-square-inch\""
+                "raw": "\"pound-per-square-inch\"",
+                "start": 1752,
+                "end": 1775
               }
-            ]
-          }
+            ],
+            "start": 287,
+            "end": 1778
+          },
+          "start": 279,
+          "end": 1778
         }
-      ]
+      ],
+      "start": 273,
+      "end": 1779
     },
     {
       "type": "ForOfStatement",
-      "start": 1781,
-      "end": 1925,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1786,
-        "end": 1796,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1792,
-            "end": 1796,
             "id": {
               "type": "Identifier",
+              "name": "unit",
               "start": 1792,
-              "end": 1796,
-              "name": "unit"
+              "end": 1796
             },
-            "init": null
+            "init": null,
+            "start": 1792,
+            "end": 1796
           }
-        ]
+        ],
+        "start": 1786,
+        "end": 1796
       },
       "right": {
         "type": "Identifier",
+        "name": "units",
         "start": 1800,
-        "end": 1805,
-        "name": "units"
+        "end": 1805
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1807,
-        "end": 1925,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1811,
-            "end": 1923,
             "expression": {
               "type": "CallExpression",
-              "start": 1811,
-              "end": 1922,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1811,
-                "end": 1824,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 1811,
-                  "end": 1817,
-                  "name": "assert"
+                  "end": 1817
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "throws",
                   "start": 1818,
-                  "end": 1824,
-                  "name": "throws"
+                  "end": 1824
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1811,
+                "end": 1824
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "RangeError",
                   "start": 1825,
-                  "end": 1835,
-                  "name": "RangeError"
+                  "end": 1835
                 },
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 1837,
-                  "end": 1900,
                   "expression": true,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "NewExpression",
-                    "start": 1843,
-                    "end": 1900,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1847,
-                      "end": 1864,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 1847,
-                        "end": 1851,
-                        "name": "Intl"
+                        "end": 1851
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "NumberFormat",
                         "start": 1852,
-                        "end": 1864,
-                        "name": "NumberFormat"
+                        "end": 1864
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1847,
+                      "end": 1864
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 1865,
-                        "end": 1874,
-                        "name": "undefined"
+                        "end": 1874
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 1876,
-                        "end": 1899,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 1878,
-                            "end": 1891,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "style",
                               "start": 1878,
-                              "end": 1883,
-                              "name": "style"
+                              "end": 1883
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 1885,
-                              "end": 1891,
                               "value": "unit",
-                              "raw": "\"unit\""
+                              "raw": "\"unit\"",
+                              "start": 1885,
+                              "end": 1891
                             },
                             "method": false,
                             "shorthand": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 1878,
+                            "end": 1891
                           },
                           {
                             "type": "Property",
-                            "start": 1893,
-                            "end": 1897,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "unit",
                               "start": 1893,
-                              "end": 1897,
-                              "name": "unit"
+                              "end": 1897
                             },
                             "value": {
                               "type": "Identifier",
+                              "name": "unit",
                               "start": 1893,
-                              "end": 1897,
-                              "name": "unit"
+                              "end": 1897
                             },
                             "method": false,
                             "shorthand": true,
-                            "computed": false
+                            "computed": false,
+                            "start": 1893,
+                            "end": 1897
                           }
-                        ]
+                        ],
+                        "start": 1876,
+                        "end": 1899
                       }
-                    ]
+                    ],
+                    "start": 1843,
+                    "end": 1900
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 1837,
+                  "end": 1900
                 },
                 {
                   "type": "TemplateLiteral",
-                  "start": 1902,
-                  "end": 1921,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 1903,
-                      "end": 1913,
                       "value": {
                         "raw": "Throw for ",
                         "cooked": "Throw for "
                       },
-                      "tail": false
+                      "tail": false,
+                      "start": 1903,
+                      "end": 1913
                     },
                     {
                       "type": "TemplateElement",
-                      "start": 1920,
-                      "end": 1920,
                       "value": {
                         "raw": "",
                         "cooked": ""
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 1920,
+                      "end": 1920
                     }
                   ],
                   "expressions": [
                     {
                       "type": "Identifier",
+                      "name": "unit",
                       "start": 1915,
-                      "end": 1919,
-                      "name": "unit"
+                      "end": 1919
                     }
-                  ]
+                  ],
+                  "start": 1902,
+                  "end": 1921
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 1811,
+              "end": 1922
+            },
+            "start": 1811,
+            "end": 1923
           }
-        ]
-      }
+        ],
+        "start": 1807,
+        "end": 1925
+      },
+      "start": 1781,
+      "end": 1925
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1926
 }

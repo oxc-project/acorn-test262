@@ -1,299 +1,299 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 599,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 249,
-      "end": 268,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 253,
-          "end": 267,
           "id": {
             "type": "Identifier",
+            "name": "sym",
             "start": 253,
-            "end": 256,
-            "name": "sym"
+            "end": 256
           },
           "init": {
             "type": "CallExpression",
-            "start": 259,
-            "end": 267,
             "callee": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 259,
-              "end": 265,
-              "name": "Symbol"
+              "end": 265
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 259,
+            "end": 267
+          },
+          "start": 253,
+          "end": 267
         }
-      ]
+      ],
+      "start": 249,
+      "end": 268
     },
     {
       "type": "ExpressionStatement",
-      "start": 270,
-      "end": 321,
       "expression": {
         "type": "CallExpression",
-        "start": 270,
-        "end": 320,
         "callee": {
           "type": "MemberExpression",
-          "start": 270,
-          "end": 286,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 270,
-            "end": 276,
-            "name": "assert"
+            "end": 276
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 277,
-            "end": 286,
-            "name": "sameValue"
+            "end": 286
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 270,
+          "end": 286
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 287,
-            "end": 291,
             "operator": "!",
             "argument": {
               "type": "Identifier",
+              "name": "sym",
               "start": 288,
-              "end": 291,
-              "name": "sym"
+              "end": 291
             },
-            "prefix": true
+            "prefix": true,
+            "start": 287,
+            "end": 291
           },
           {
             "type": "Literal",
-            "start": 293,
-            "end": 298,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 293,
+            "end": 298
           },
           {
             "type": "Literal",
-            "start": 300,
-            "end": 319,
             "value": "`!sym` is `false`",
-            "raw": "\"`!sym` is `false`\""
+            "raw": "\"`!sym` is `false`\"",
+            "start": 300,
+            "end": 319
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 270,
+        "end": 320
+      },
+      "start": 270,
+      "end": 321
     },
     {
       "type": "ExpressionStatement",
-      "start": 322,
-      "end": 373,
       "expression": {
         "type": "CallExpression",
-        "start": 322,
-        "end": 372,
         "callee": {
           "type": "MemberExpression",
-          "start": 322,
-          "end": 338,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 322,
-            "end": 328,
-            "name": "assert"
+            "end": 328
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 329,
-            "end": 338,
-            "name": "sameValue"
+            "end": 338
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 322,
+          "end": 338
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 339,
-            "end": 344,
             "operator": "!",
             "argument": {
               "type": "UnaryExpression",
-              "start": 340,
-              "end": 344,
               "operator": "!",
               "argument": {
                 "type": "Identifier",
+                "name": "sym",
                 "start": 341,
-                "end": 344,
-                "name": "sym"
+                "end": 344
               },
-              "prefix": true
+              "prefix": true,
+              "start": 340,
+              "end": 344
             },
-            "prefix": true
+            "prefix": true,
+            "start": 339,
+            "end": 344
           },
           {
             "type": "Literal",
-            "start": 346,
-            "end": 350,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 346,
+            "end": 350
           },
           {
             "type": "Literal",
-            "start": 352,
-            "end": 371,
             "value": "`!!sym` is `true`",
-            "raw": "\"`!!sym` is `true`\""
+            "raw": "\"`!!sym` is `true`\"",
+            "start": 352,
+            "end": 371
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 322,
+        "end": 372
+      },
+      "start": 322,
+      "end": 373
     },
     {
       "type": "IfStatement",
-      "start": 375,
-      "end": 598,
       "test": {
         "type": "UnaryExpression",
-        "start": 379,
-        "end": 383,
         "operator": "!",
         "argument": {
           "type": "Identifier",
+          "name": "sym",
           "start": 380,
-          "end": 383,
-          "name": "sym"
+          "end": 383
         },
-        "prefix": true
+        "prefix": true,
+        "start": 379,
+        "end": 383
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 385,
-        "end": 457,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 389,
-            "end": 455,
             "argument": {
               "type": "NewExpression",
-              "start": 395,
-              "end": 454,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 399,
-                "end": 411,
-                "name": "Test262Error"
+                "end": 411
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 412,
-                  "end": 453,
                   "value": "ToBoolean(Symbol) always returns `true`",
-                  "raw": "\"ToBoolean(Symbol) always returns `true`\""
+                  "raw": "\"ToBoolean(Symbol) always returns `true`\"",
+                  "start": 412,
+                  "end": 453
                 }
-              ]
-            }
+              ],
+              "start": 395,
+              "end": 454
+            },
+            "start": 389,
+            "end": 455
           }
-        ]
+        ],
+        "start": 385,
+        "end": 457
       },
       "alternate": {
         "type": "IfStatement",
-        "start": 463,
-        "end": 598,
         "test": {
           "type": "Identifier",
+          "name": "sym",
           "start": 467,
-          "end": 470,
-          "name": "sym"
+          "end": 470
         },
         "consequent": {
           "type": "BlockStatement",
-          "start": 472,
-          "end": 520,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 476,
-              "end": 518,
               "expression": {
                 "type": "CallExpression",
-                "start": 476,
-                "end": 517,
                 "callee": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 476,
-                  "end": 482,
-                  "name": "assert"
+                  "end": 482
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 483,
-                    "end": 487,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 483,
+                    "end": 487
                   },
                   {
                     "type": "Literal",
-                    "start": 489,
-                    "end": 516,
                     "value": "`sym` evaluates to `true`",
-                    "raw": "\"`sym` evaluates to `true`\""
+                    "raw": "\"`sym` evaluates to `true`\"",
+                    "start": 489,
+                    "end": 516
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 476,
+                "end": 517
+              },
+              "start": 476,
+              "end": 518
             }
-          ]
+          ],
+          "start": 472,
+          "end": 520
         },
         "alternate": {
           "type": "BlockStatement",
-          "start": 526,
-          "end": 598,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 530,
-              "end": 596,
               "argument": {
                 "type": "NewExpression",
-                "start": 536,
-                "end": 595,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 540,
-                  "end": 552,
-                  "name": "Test262Error"
+                  "end": 552
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 553,
-                    "end": 594,
                     "value": "ToBoolean(Symbol) always returns `true`",
-                    "raw": "\"ToBoolean(Symbol) always returns `true`\""
+                    "raw": "\"ToBoolean(Symbol) always returns `true`\"",
+                    "start": 553,
+                    "end": 594
                   }
-                ]
-              }
+                ],
+                "start": 536,
+                "end": 595
+              },
+              "start": 530,
+              "end": 596
             }
-          ]
-        }
-      }
+          ],
+          "start": 526,
+          "end": 598
+        },
+        "start": 463,
+        "end": 598
+      },
+      "start": 375,
+      "end": 598
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 599
 }

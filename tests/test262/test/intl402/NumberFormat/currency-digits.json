@@ -1,279 +1,279 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 891,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 594,
-      "end": 665,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 600,
-          "end": 664,
           "id": {
             "type": "Identifier",
+            "name": "nf",
             "start": 600,
-            "end": 602,
-            "name": "nf"
+            "end": 602
           },
           "init": {
             "type": "CallExpression",
-            "start": 605,
-            "end": 664,
             "callee": {
               "type": "MemberExpression",
-              "start": 605,
-              "end": 622,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 605,
-                "end": 609,
-                "name": "Intl"
+                "end": 609
               },
               "property": {
                 "type": "Identifier",
+                "name": "NumberFormat",
                 "start": 610,
-                "end": 622,
-                "name": "NumberFormat"
+                "end": 622
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 605,
+              "end": 622
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
+                "elements": [],
                 "start": 623,
-                "end": 625,
-                "elements": []
+                "end": 625
               },
               {
                 "type": "ObjectExpression",
-                "start": 627,
-                "end": 663,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 628,
-                    "end": 645,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "style",
                       "start": 628,
-                      "end": 633,
-                      "name": "style"
+                      "end": 633
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 635,
-                      "end": 645,
                       "value": "currency",
-                      "raw": "\"currency\""
+                      "raw": "\"currency\"",
+                      "start": 635,
+                      "end": 645
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 628,
+                    "end": 645
                   },
                   {
                     "type": "Property",
-                    "start": 647,
-                    "end": 662,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "currency",
                       "start": 647,
-                      "end": 655,
-                      "name": "currency"
+                      "end": 655
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 657,
-                      "end": 662,
                       "value": "USD",
-                      "raw": "\"USD\""
+                      "raw": "\"USD\"",
+                      "start": 657,
+                      "end": 662
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 647,
+                    "end": 662
                   }
-                ]
+                ],
+                "start": 627,
+                "end": 663
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 605,
+            "end": 664
+          },
+          "start": 600,
+          "end": 664
         }
-      ]
+      ],
+      "start": 594,
+      "end": 665
     },
     {
       "type": "VariableDeclaration",
-      "start": 666,
-      "end": 721,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 672,
-          "end": 720,
           "id": {
             "type": "Identifier",
+            "name": "max",
             "start": 672,
-            "end": 675,
-            "name": "max"
+            "end": 675
           },
           "init": {
             "type": "MemberExpression",
-            "start": 678,
-            "end": 720,
             "object": {
               "type": "CallExpression",
-              "start": 678,
-              "end": 698,
               "callee": {
                 "type": "MemberExpression",
-                "start": 678,
-                "end": 696,
                 "object": {
                   "type": "Identifier",
+                  "name": "nf",
                   "start": 678,
-                  "end": 680,
-                  "name": "nf"
+                  "end": 680
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 681,
-                  "end": 696,
-                  "name": "resolvedOptions"
+                  "end": 696
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 678,
+                "end": 696
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 678,
+              "end": 698
             },
             "property": {
               "type": "Identifier",
+              "name": "maximumFractionDigits",
               "start": 699,
-              "end": 720,
-              "name": "maximumFractionDigits"
+              "end": 720
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 678,
+            "end": 720
+          },
+          "start": 672,
+          "end": 720
         }
-      ]
+      ],
+      "start": 666,
+      "end": 721
     },
     {
       "type": "VariableDeclaration",
-      "start": 722,
-      "end": 777,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 728,
-          "end": 776,
           "id": {
             "type": "Identifier",
+            "name": "min",
             "start": 728,
-            "end": 731,
-            "name": "min"
+            "end": 731
           },
           "init": {
             "type": "MemberExpression",
-            "start": 734,
-            "end": 776,
             "object": {
               "type": "CallExpression",
-              "start": 734,
-              "end": 754,
               "callee": {
                 "type": "MemberExpression",
-                "start": 734,
-                "end": 752,
                 "object": {
                   "type": "Identifier",
+                  "name": "nf",
                   "start": 734,
-                  "end": 736,
-                  "name": "nf"
+                  "end": 736
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 737,
-                  "end": 752,
-                  "name": "resolvedOptions"
+                  "end": 752
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 734,
+                "end": 752
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 734,
+              "end": 754
             },
             "property": {
               "type": "Identifier",
+              "name": "minimumFractionDigits",
               "start": 755,
-              "end": 776,
-              "name": "minimumFractionDigits"
+              "end": 776
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 734,
+            "end": 776
+          },
+          "start": 728,
+          "end": 776
         }
-      ]
+      ],
+      "start": 722,
+      "end": 777
     },
     {
       "type": "ExpressionStatement",
-      "start": 779,
-      "end": 890,
       "expression": {
         "type": "CallExpression",
-        "start": 779,
-        "end": 889,
         "callee": {
           "type": "MemberExpression",
-          "start": 779,
-          "end": 795,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 779,
-            "end": 785,
-            "name": "assert"
+            "end": 785
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 786,
-            "end": 795,
-            "name": "sameValue"
+            "end": 795
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 779,
+          "end": 795
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "min",
             "start": 796,
-            "end": 799,
-            "name": "min"
+            "end": 799
           },
           {
             "type": "Identifier",
+            "name": "max",
             "start": 801,
-            "end": 804,
-            "name": "max"
+            "end": 804
           },
           {
             "type": "Literal",
-            "start": 806,
-            "end": 888,
             "value": "Currency data not used; maximumFractionDigits should match minimumFractionDigits",
-            "raw": "\"Currency data not used; maximumFractionDigits should match minimumFractionDigits\""
+            "raw": "\"Currency data not used; maximumFractionDigits should match minimumFractionDigits\"",
+            "start": 806,
+            "end": 888
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 779,
+        "end": 889
+      },
+      "start": 779,
+      "end": 890
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 891
 }

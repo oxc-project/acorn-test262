@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 20,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 20,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,28 +21,24 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 20,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 12,
-            "end": 18,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 12,
-              "end": 13,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 12,
+              "end": 13
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 16,
-              "end": 17,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 16,
+              "end": 17
             },
             "computed": false,
             "static": false,
@@ -55,15 +47,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 12,
+            "end": 18
           }
-        ]
+        ],
+        "start": 8,
+        "end": 20
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 20
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 20
 }
 ```

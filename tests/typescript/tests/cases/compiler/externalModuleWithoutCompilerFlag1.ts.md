@@ -2,43 +2,43 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 94,
-  "end": 113,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 94,
-      "end": 113,
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 101,
-        "end": 113,
         "id": {
           "type": "Identifier",
-          "start": 108,
-          "end": 109,
           "decorators": [],
           "name": "M",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 108,
+          "end": 109
         },
         "body": {
           "type": "TSModuleBlock",
+          "body": [],
           "start": 110,
-          "end": 113,
-          "body": []
+          "end": 113
         },
         "kind": "module",
         "declare": false,
-        "global": false
+        "global": false,
+        "start": 101,
+        "end": 113
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 94,
+      "end": 113
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 94,
+  "end": 113
 }
 ```

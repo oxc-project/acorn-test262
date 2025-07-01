@@ -2,189 +2,189 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 67,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 15,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1,
-        "end": 13,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 1,
-          "end": 8,
           "decorators": [],
           "properties": [
             {
               "type": "RestElement",
-              "start": 2,
-              "end": 7,
               "decorators": [],
               "argument": {
                 "type": "ObjectPattern",
-                "start": 5,
-                "end": 7,
                 "decorators": [],
                 "properties": [],
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 5,
+                "end": 7
               },
               "optional": false,
               "typeAnnotation": null,
-              "value": null
+              "value": null,
+              "start": 2,
+              "end": 7
             }
           ],
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 1,
+          "end": 8
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 11,
-          "end": 13,
-          "properties": []
-        }
+          "end": 13
+        },
+        "start": 1,
+        "end": 13
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "ExpressionStatement",
-      "start": 16,
-      "end": 33,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 17,
-        "end": 31,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 17,
-          "end": 26,
           "decorators": [],
           "properties": [
             {
               "type": "RestElement",
-              "start": 18,
-              "end": 25,
               "decorators": [],
               "argument": {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 22,
-                "end": 24,
-                "properties": []
+                "end": 24
               },
               "optional": false,
               "typeAnnotation": null,
-              "value": null
+              "value": null,
+              "start": 18,
+              "end": 25
             }
           ],
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 26
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 29,
-          "end": 31,
-          "properties": []
-        }
+          "end": 31
+        },
+        "start": 17,
+        "end": 31
       },
-      "directive": null
+      "directive": null,
+      "start": 16,
+      "end": 33
     },
     {
       "type": "ExpressionStatement",
-      "start": 34,
-      "end": 49,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 35,
-        "end": 47,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 35,
-          "end": 42,
           "decorators": [],
           "properties": [
             {
               "type": "RestElement",
-              "start": 36,
-              "end": 41,
               "decorators": [],
               "argument": {
                 "type": "ArrayPattern",
-                "start": 39,
-                "end": 41,
                 "decorators": [],
                 "elements": [],
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 39,
+                "end": 41
               },
               "optional": false,
               "typeAnnotation": null,
-              "value": null
+              "value": null,
+              "start": 36,
+              "end": 41
             }
           ],
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 35,
+          "end": 42
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 45,
-          "end": 47,
-          "properties": []
-        }
+          "end": 47
+        },
+        "start": 35,
+        "end": 47
       },
-      "directive": null
+      "directive": null,
+      "start": 34,
+      "end": 49
     },
     {
       "type": "ExpressionStatement",
-      "start": 50,
-      "end": 67,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 51,
-        "end": 65,
         "operator": "=",
         "left": {
           "type": "ObjectPattern",
-          "start": 51,
-          "end": 60,
           "decorators": [],
           "properties": [
             {
               "type": "RestElement",
-              "start": 52,
-              "end": 59,
               "decorators": [],
               "argument": {
                 "type": "ArrayExpression",
+                "elements": [],
                 "start": 56,
-                "end": 58,
-                "elements": []
+                "end": 58
               },
               "optional": false,
               "typeAnnotation": null,
-              "value": null
+              "value": null,
+              "start": 52,
+              "end": 59
             }
           ],
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 51,
+          "end": 60
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 63,
-          "end": 65,
-          "properties": []
-        }
+          "end": 65
+        },
+        "start": 51,
+        "end": 65
       },
-      "directive": null
+      "directive": null,
+      "start": 50,
+      "end": 67
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 67
 }
 ```

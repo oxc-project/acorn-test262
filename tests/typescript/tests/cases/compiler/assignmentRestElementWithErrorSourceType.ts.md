@@ -2,34 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 72,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 28,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 27,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 27,
             "decorators": [],
             "name": "tuple",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 9,
-              "end": 27,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 11,
-                "end": 27,
                 "elementTypes": [
                   {
                     "type": "TSStringKeyword",
@@ -41,67 +29,79 @@ __ESTREE_TEST__:PASS:
                     "start": 20,
                     "end": 26
                   }
-                ]
-              }
-            }
+                ],
+                "start": 11,
+                "end": 27
+              },
+              "start": 9,
+              "end": 27
+            },
+            "start": 4,
+            "end": 27
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 27
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExpressionStatement",
-      "start": 29,
-      "end": 44,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 29,
-        "end": 43,
         "operator": "=",
         "left": {
           "type": "ArrayPattern",
-          "start": 29,
-          "end": 35,
           "decorators": [],
           "elements": [
             {
               "type": "RestElement",
-              "start": 30,
-              "end": 34,
               "decorators": [],
               "argument": {
                 "type": "Identifier",
-                "start": 33,
-                "end": 34,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 33,
+                "end": 34
               },
               "optional": false,
               "typeAnnotation": null,
-              "value": null
+              "value": null,
+              "start": 30,
+              "end": 34
             }
           ],
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 29,
+          "end": 35
         },
         "right": {
           "type": "Identifier",
-          "start": 38,
-          "end": 43,
           "decorators": [],
           "name": "tupel",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 38,
+          "end": 43
+        },
+        "start": 29,
+        "end": 43
       },
-      "directive": null
+      "directive": null,
+      "start": 29,
+      "end": 44
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 72
 }
 ```

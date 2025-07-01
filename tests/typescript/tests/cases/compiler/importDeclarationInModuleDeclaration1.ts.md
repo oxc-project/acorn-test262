@@ -2,62 +2,62 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 59,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 59,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 9,
         "decorators": [],
         "name": "m2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 9
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 10,
-        "end": 59,
         "body": [
           {
             "type": "TSImportEqualsDeclaration",
-            "start": 16,
-            "end": 57,
             "id": {
               "type": "Identifier",
-              "start": 23,
-              "end": 25,
               "decorators": [],
               "name": "m3",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 25
             },
             "moduleReference": {
               "type": "TSExternalModuleReference",
-              "start": 28,
-              "end": 56,
               "expression": {
                 "type": "Literal",
-                "start": 36,
-                "end": 55,
                 "value": "use_glo_M1_public",
-                "raw": "\"use_glo_M1_public\""
-              }
+                "raw": "\"use_glo_M1_public\"",
+                "start": 36,
+                "end": 55
+              },
+              "start": 28,
+              "end": 56
             },
-            "importKind": "value"
+            "importKind": "value",
+            "start": 16,
+            "end": 57
           }
-        ]
+        ],
+        "start": 10,
+        "end": 59
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 59
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 59
 }
 ```

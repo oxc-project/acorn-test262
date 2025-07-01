@@ -1,339 +1,339 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 906,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 407,
-      "end": 521,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 413,
-          "end": 520,
           "id": {
             "type": "Identifier",
+            "name": "d1",
             "start": 413,
-            "end": 415,
-            "name": "d1"
+            "end": 415
           },
           "init": {
             "type": "NewExpression",
-            "start": 418,
-            "end": 520,
             "callee": {
               "type": "MemberExpression",
-              "start": 422,
-              "end": 444,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 422,
-                "end": 430,
-                "name": "Temporal"
+                "end": 430
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 431,
-                "end": 444,
-                "name": "ZonedDateTime"
+                "end": 444
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 422,
+              "end": 444
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 445,
-                "end": 467,
                 "value": null,
                 "raw": "957258000_000_000_000n",
-                "bigint": "957258000000000000"
+                "bigint": "957258000000000000",
+                "start": 445,
+                "end": 467
               },
               {
                 "type": "Literal",
-                "start": 500,
-                "end": 519,
                 "value": "America/Vancouver",
-                "raw": "\"America/Vancouver\""
+                "raw": "\"America/Vancouver\"",
+                "start": 500,
+                "end": 519
               }
-            ]
-          }
+            ],
+            "start": 418,
+            "end": 520
+          },
+          "start": 413,
+          "end": 520
         }
-      ]
+      ],
+      "start": 407,
+      "end": 521
     },
     {
       "type": "VariableDeclaration",
-      "start": 522,
-      "end": 636,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 528,
-          "end": 635,
           "id": {
             "type": "Identifier",
+            "name": "d2",
             "start": 528,
-            "end": 530,
-            "name": "d2"
+            "end": 530
           },
           "init": {
             "type": "NewExpression",
-            "start": 533,
-            "end": 635,
             "callee": {
               "type": "MemberExpression",
-              "start": 537,
-              "end": 559,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 537,
-                "end": 545,
-                "name": "Temporal"
+                "end": 545
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 546,
-                "end": 559,
-                "name": "ZonedDateTime"
+                "end": 559
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 537,
+              "end": 559
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 560,
-                "end": 582,
                 "value": null,
                 "raw": "954669600_000_000_000n",
-                "bigint": "954669600000000000"
+                "bigint": "954669600000000000",
+                "start": 560,
+                "end": 582
               },
               {
                 "type": "Literal",
-                "start": 615,
-                "end": 634,
                 "value": "America/Vancouver",
-                "raw": "\"America/Vancouver\""
+                "raw": "\"America/Vancouver\"",
+                "start": 615,
+                "end": 634
               }
-            ]
-          }
+            ],
+            "start": 533,
+            "end": 635
+          },
+          "start": 528,
+          "end": 635
         }
-      ]
+      ],
+      "start": 522,
+      "end": 636
     },
     {
       "type": "VariableDeclaration",
-      "start": 679,
-      "end": 734,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 685,
-          "end": 733,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 685,
-            "end": 691,
-            "name": "result"
+            "end": 691
           },
           "init": {
             "type": "CallExpression",
-            "start": 694,
-            "end": 733,
             "callee": {
               "type": "MemberExpression",
-              "start": 694,
-              "end": 702,
               "object": {
                 "type": "Identifier",
+                "name": "d1",
                 "start": 694,
-                "end": 696,
-                "name": "d1"
+                "end": 696
               },
               "property": {
                 "type": "Identifier",
+                "name": "until",
                 "start": 697,
-                "end": 702,
-                "name": "until"
+                "end": 702
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 694,
+              "end": 702
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "d2",
                 "start": 703,
-                "end": 705,
-                "name": "d2"
+                "end": 705
               },
               {
                 "type": "ObjectExpression",
-                "start": 707,
-                "end": 732,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 709,
-                    "end": 730,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "largestUnit",
                       "start": 709,
-                      "end": 720,
-                      "name": "largestUnit"
+                      "end": 720
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 722,
-                      "end": 730,
                       "value": "months",
-                      "raw": "\"months\""
+                      "raw": "\"months\"",
+                      "start": 722,
+                      "end": 730
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 709,
+                    "end": 730
                   }
-                ]
+                ],
+                "start": 707,
+                "end": 732
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 694,
+            "end": 733
+          },
+          "start": 685,
+          "end": 733
         }
-      ]
+      ],
+      "start": 679,
+      "end": 734
     },
     {
       "type": "ExpressionStatement",
-      "start": 736,
-      "end": 905,
       "expression": {
         "type": "CallExpression",
-        "start": 736,
-        "end": 904,
         "callee": {
           "type": "MemberExpression",
-          "start": 736,
-          "end": 766,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 736,
-            "end": 751,
-            "name": "TemporalHelpers"
+            "end": 751
           },
           "property": {
             "type": "Identifier",
+            "name": "assertDuration",
             "start": 752,
-            "end": 766,
-            "name": "assertDuration"
+            "end": 766
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 736,
+          "end": 766
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 770,
-            "end": 776,
-            "name": "result"
+            "end": 776
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 778,
-            "end": 779,
-            "value": 0,
-            "raw": "0"
+            "end": 779
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 781,
-            "end": 782,
-            "value": 0,
-            "raw": "0"
+            "end": 782
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 784,
-            "end": 785,
-            "value": 0,
-            "raw": "0"
+            "end": 785
           },
           {
             "type": "UnaryExpression",
-            "start": 787,
-            "end": 790,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 788,
-              "end": 790,
               "value": 29,
-              "raw": "29"
+              "raw": "29",
+              "start": 788,
+              "end": 790
             },
-            "prefix": true
+            "prefix": true,
+            "start": 787,
+            "end": 790
           },
           {
             "type": "UnaryExpression",
-            "start": 792,
-            "end": 795,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 793,
-              "end": 795,
               "value": 23,
-              "raw": "23"
+              "raw": "23",
+              "start": 793,
+              "end": 795
             },
-            "prefix": true
+            "prefix": true,
+            "start": 792,
+            "end": 795
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 797,
-            "end": 798,
-            "value": 0,
-            "raw": "0"
+            "end": 798
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 800,
-            "end": 801,
-            "value": 0,
-            "raw": "0"
+            "end": 801
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 803,
-            "end": 804,
-            "value": 0,
-            "raw": "0"
+            "end": 804
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 806,
-            "end": 807,
-            "value": 0,
-            "raw": "0"
+            "end": 807
           },
           {
             "type": "Literal",
+            "value": 0,
+            "raw": "0",
             "start": 809,
-            "end": 810,
-            "value": 0,
-            "raw": "0"
+            "end": 810
           },
           {
             "type": "Literal",
-            "start": 814,
-            "end": 902,
             "value": "Result should not balance up to months, but pick the smaller of two possible durations",
-            "raw": "\"Result should not balance up to months, but pick the smaller of two possible durations\""
+            "raw": "\"Result should not balance up to months, but pick the smaller of two possible durations\"",
+            "start": 814,
+            "end": 902
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 736,
+        "end": 904
+      },
+      "start": 736,
+      "end": 905
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 906
 }

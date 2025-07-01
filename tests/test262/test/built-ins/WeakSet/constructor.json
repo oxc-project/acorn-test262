@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 410,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 326,
-      "end": 409,
       "expression": {
         "type": "CallExpression",
-        "start": 326,
-        "end": 408,
         "callee": {
           "type": "MemberExpression",
-          "start": 326,
-          "end": 342,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 326,
-            "end": 332,
-            "name": "assert"
+            "end": 332
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 333,
-            "end": 342,
-            "name": "sameValue"
+            "end": 342
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 326,
+          "end": 342
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 346,
-            "end": 360,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "WeakSet",
               "start": 353,
-              "end": 360,
-              "name": "WeakSet"
+              "end": 360
             },
-            "prefix": true
+            "prefix": true,
+            "start": 346,
+            "end": 360
           },
           {
             "type": "Literal",
-            "start": 362,
-            "end": 372,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 362,
+            "end": 372
           },
           {
             "type": "Literal",
-            "start": 376,
-            "end": 406,
             "value": "typeof WeakSet is \"function\"",
-            "raw": "'typeof WeakSet is \"function\"'"
+            "raw": "'typeof WeakSet is \"function\"'",
+            "start": 376,
+            "end": 406
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 326,
+        "end": 408
+      },
+      "start": 326,
+      "end": 409
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 410
 }

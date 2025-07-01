@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 91,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 34,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 34,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 29,
           "decorators": [],
           "name": "createElement",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 29
         },
         "generator": false,
         "async": false,
@@ -30,33 +24,33 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 32,
-          "end": 34,
-          "body": []
+          "end": 34
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 34
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 34
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 35,
-      "end": 60,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 42,
-        "end": 60,
         "id": {
           "type": "Identifier",
-          "start": 51,
-          "end": 55,
           "decorators": [],
           "name": "lazy",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 51,
+          "end": 55
         },
         "generator": false,
         "async": false,
@@ -66,33 +60,33 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 58,
-          "end": 60,
-          "body": []
+          "end": 60
         },
-        "expression": false
+        "expression": false,
+        "start": 42,
+        "end": 60
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 35,
+      "end": 60
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 61,
-      "end": 90,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 68,
-        "end": 90,
         "id": {
           "type": "Identifier",
-          "start": 77,
-          "end": 85,
           "decorators": [],
           "name": "useState",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 77,
+          "end": 85
         },
         "generator": false,
         "async": false,
@@ -102,67 +96,73 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 88,
-          "end": 90,
-          "body": []
+          "end": 90
         },
-        "expression": false
+        "expression": false,
+        "start": 68,
+        "end": 90
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 61,
+      "end": 90
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 91
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 44,
       "declaration": {
         "type": "TSImportEqualsDeclaration",
-        "start": 7,
-        "end": 44,
         "id": {
           "type": "Identifier",
-          "start": 14,
-          "end": 19,
           "decorators": [],
           "name": "React",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 14,
+          "end": 19
         },
         "moduleReference": {
           "type": "TSExternalModuleReference",
-          "start": 22,
-          "end": 43,
           "expression": {
             "type": "Literal",
-            "start": 30,
-            "end": 42,
             "value": "./react.js",
-            "raw": "\"./react.js\""
-          }
+            "raw": "\"./react.js\"",
+            "start": 30,
+            "end": 42
+          },
+          "start": 22,
+          "end": 43
         },
-        "importKind": "value"
+        "importKind": "value",
+        "start": 7,
+        "end": 44
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 44
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```

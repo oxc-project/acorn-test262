@@ -1,2568 +1,2568 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 7312,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 412,
-      "end": 425,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 416,
-          "end": 424,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 416,
-            "end": 419,
-            "name": "obj"
+            "end": 419
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 422,
-            "end": 424,
-            "properties": []
-          }
+            "end": 424
+          },
+          "start": 416,
+          "end": 424
         }
-      ]
+      ],
+      "start": 412,
+      "end": 425
     },
     {
       "type": "ExpressionStatement",
-      "start": 426,
-      "end": 444,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 426,
-        "end": 443,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 426,
-          "end": 436,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 426,
-            "end": 429,
-            "name": "obj"
+            "end": 429
           },
           "property": {
             "type": "Identifier",
+            "name": "length",
             "start": 430,
-            "end": 436,
-            "name": "length"
+            "end": 436
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 426,
+          "end": 436
         },
         "right": {
           "type": "Literal",
-          "start": 439,
-          "end": 443,
           "value": "10",
-          "raw": "\"10\""
-        }
-      }
+          "raw": "\"10\"",
+          "start": 439,
+          "end": 443
+        },
+        "start": 426,
+        "end": 443
+      },
+      "start": 426,
+      "end": 444
     },
     {
       "type": "ExpressionStatement",
-      "start": 445,
-      "end": 483,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 445,
-        "end": 482,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 445,
-          "end": 456,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 445,
-            "end": 448,
-            "name": "obj"
+            "end": 448
           },
           "property": {
             "type": "Identifier",
+            "name": "reverse",
             "start": 449,
-            "end": 456,
-            "name": "reverse"
+            "end": 456
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 445,
+          "end": 456
         },
         "right": {
           "type": "MemberExpression",
-          "start": 459,
-          "end": 482,
           "object": {
             "type": "MemberExpression",
-            "start": 459,
-            "end": 474,
             "object": {
               "type": "Identifier",
+              "name": "Array",
               "start": 459,
-              "end": 464,
-              "name": "Array"
+              "end": 464
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 465,
-              "end": 474,
-              "name": "prototype"
+              "end": 474
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 459,
+            "end": 474
           },
           "property": {
             "type": "Identifier",
+            "name": "reverse",
             "start": 475,
-            "end": 482,
-            "name": "reverse"
+            "end": 482
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 459,
+          "end": 482
+        },
+        "start": 445,
+        "end": 482
+      },
+      "start": 445,
+      "end": 483
     },
     {
       "type": "ExpressionStatement",
-      "start": 485,
-      "end": 499,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 485,
-        "end": 498,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 485,
-          "end": 491,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 485,
-            "end": 488,
-            "name": "obj"
+            "end": 488
           },
           "property": {
             "type": "Literal",
-            "start": 489,
-            "end": 490,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 489,
+            "end": 490
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 485,
+          "end": 491
         },
         "right": {
           "type": "Literal",
-          "start": 494,
-          "end": 498,
           "value": true,
-          "raw": "true"
-        }
-      }
+          "raw": "true",
+          "start": 494,
+          "end": 498
+        },
+        "start": 485,
+        "end": 498
+      },
+      "start": 485,
+      "end": 499
     },
     {
       "type": "ExpressionStatement",
-      "start": 500,
-      "end": 518,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 500,
-        "end": 517,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 500,
-          "end": 506,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 500,
-            "end": 503,
-            "name": "obj"
+            "end": 503
           },
           "property": {
             "type": "Literal",
-            "start": 504,
-            "end": 505,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 504,
+            "end": 505
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 500,
+          "end": 506
         },
         "right": {
           "type": "Identifier",
+          "name": "Infinity",
           "start": 509,
-          "end": 517,
-          "name": "Infinity"
-        }
-      }
+          "end": 517
+        },
+        "start": 500,
+        "end": 517
+      },
+      "start": 500,
+      "end": 518
     },
     {
       "type": "ExpressionStatement",
-      "start": 519,
-      "end": 538,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 519,
-        "end": 537,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 519,
-          "end": 525,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 519,
-            "end": 522,
-            "name": "obj"
+            "end": 522
           },
           "property": {
             "type": "Literal",
-            "start": 523,
-            "end": 524,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 523,
+            "end": 524
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 519,
+          "end": 525
         },
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 528,
-          "end": 537,
-          "name": "undefined"
-        }
-      }
+          "end": 537
+        },
+        "start": 519,
+        "end": 537
+      },
+      "start": 519,
+      "end": 538
     },
     {
       "type": "ExpressionStatement",
-      "start": 539,
-      "end": 558,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 539,
-        "end": 557,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 539,
-          "end": 545,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 539,
-            "end": 542,
-            "name": "obj"
+            "end": 542
           },
           "property": {
             "type": "Literal",
-            "start": 543,
-            "end": 544,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "start": 543,
+            "end": 544
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 539,
+          "end": 545
         },
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 548,
-          "end": 557,
-          "name": "undefined"
-        }
-      }
+          "end": 557
+        },
+        "start": 539,
+        "end": 557
+      },
+      "start": 539,
+      "end": 558
     },
     {
       "type": "ExpressionStatement",
-      "start": 559,
-      "end": 574,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 559,
-        "end": 573,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 559,
-          "end": 565,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 559,
-            "end": 562,
-            "name": "obj"
+            "end": 562
           },
           "property": {
             "type": "Literal",
-            "start": 563,
-            "end": 564,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "start": 563,
+            "end": 564
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 559,
+          "end": 565
         },
         "right": {
           "type": "Literal",
-          "start": 568,
-          "end": 573,
           "value": "NaN",
-          "raw": "\"NaN\""
-        }
-      }
+          "raw": "\"NaN\"",
+          "start": 568,
+          "end": 573
+        },
+        "start": 559,
+        "end": 573
+      },
+      "start": 559,
+      "end": 574
     },
     {
       "type": "ExpressionStatement",
-      "start": 575,
-      "end": 589,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 575,
-        "end": 588,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 575,
-          "end": 581,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 575,
-            "end": 578,
-            "name": "obj"
+            "end": 578
           },
           "property": {
             "type": "Literal",
-            "start": 579,
-            "end": 580,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "start": 579,
+            "end": 580
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 575,
+          "end": 581
         },
         "right": {
           "type": "Literal",
-          "start": 584,
-          "end": 588,
           "value": "-1",
-          "raw": "\"-1\""
-        }
-      }
+          "raw": "\"-1\"",
+          "start": 584,
+          "end": 588
+        },
+        "start": 575,
+        "end": 588
+      },
+      "start": 575,
+      "end": 589
     },
     {
       "type": "VariableDeclaration",
-      "start": 591,
-      "end": 619,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 595,
-          "end": 618,
           "id": {
             "type": "Identifier",
+            "name": "reverse",
             "start": 595,
-            "end": 602,
-            "name": "reverse"
+            "end": 602
           },
           "init": {
             "type": "CallExpression",
-            "start": 605,
-            "end": 618,
             "callee": {
               "type": "MemberExpression",
-              "start": 605,
-              "end": 616,
               "object": {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 605,
-                "end": 608,
-                "name": "obj"
+                "end": 608
               },
               "property": {
                 "type": "Identifier",
+                "name": "reverse",
                 "start": 609,
-                "end": 616,
-                "name": "reverse"
+                "end": 616
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 605,
+              "end": 616
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 605,
+            "end": 618
+          },
+          "start": 595,
+          "end": 618
         }
-      ]
+      ],
+      "start": 591,
+      "end": 619
     },
     {
       "type": "IfStatement",
-      "start": 620,
-      "end": 898,
       "test": {
         "type": "BinaryExpression",
-        "start": 624,
-        "end": 639,
         "left": {
           "type": "Identifier",
+          "name": "reverse",
           "start": 624,
-          "end": 631,
-          "name": "reverse"
+          "end": 631
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "obj",
           "start": 636,
-          "end": 639,
-          "name": "obj"
-        }
+          "end": 639
+        },
+        "start": 624,
+        "end": 639
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 641,
-        "end": 898,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 645,
-            "end": 896,
             "argument": {
               "type": "NewExpression",
-              "start": 651,
-              "end": 895,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 655,
-                "end": 667,
-                "name": "Test262Error"
+                "end": 667
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 668,
-                  "end": 894,
                   "left": {
                     "type": "Literal",
-                    "start": 668,
-                    "end": 882,
                     "value": "#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse() === obj. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse() === obj. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse() === obj. Actual: '",
+                    "start": 668,
+                    "end": 882
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 885,
-                    "end": 894,
                     "expression": {
                       "type": "Identifier",
+                      "name": "reverse",
                       "start": 886,
-                      "end": 893,
-                      "name": "reverse"
-                    }
-                  }
+                      "end": 893
+                    },
+                    "start": 885,
+                    "end": 894
+                  },
+                  "start": 668,
+                  "end": 894
                 }
-              ]
-            }
+              ],
+              "start": 651,
+              "end": 895
+            },
+            "start": 645,
+            "end": 896
           }
-        ]
+        ],
+        "start": 641,
+        "end": 898
       },
-      "alternate": null
+      "alternate": null,
+      "start": 620,
+      "end": 898
     },
     {
       "type": "IfStatement",
-      "start": 900,
-      "end": 1186,
       "test": {
         "type": "BinaryExpression",
-        "start": 904,
-        "end": 919,
         "left": {
           "type": "MemberExpression",
-          "start": 904,
-          "end": 910,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 904,
-            "end": 907,
-            "name": "obj"
+            "end": 907
           },
           "property": {
             "type": "Literal",
-            "start": 908,
-            "end": 909,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 908,
+            "end": 909
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 904,
+          "end": 910
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 915,
-          "end": 919,
           "value": "-1",
-          "raw": "\"-1\""
-        }
+          "raw": "\"-1\"",
+          "start": 915,
+          "end": 919
+        },
+        "start": 904,
+        "end": 919
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 921,
-        "end": 1186,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 925,
-            "end": 1184,
             "argument": {
               "type": "NewExpression",
-              "start": 931,
-              "end": 1183,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 935,
-                "end": 947,
-                "name": "Test262Error"
+                "end": 947
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 948,
-                  "end": 1182,
                   "left": {
                     "type": "Literal",
-                    "start": 948,
-                    "end": 1171,
                     "value": "#2: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[0] === \"-1\". Actual: ",
-                    "raw": "'#2: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[0] === \"-1\". Actual: '"
+                    "raw": "'#2: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[0] === \"-1\". Actual: '",
+                    "start": 948,
+                    "end": 1171
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 1174,
-                    "end": 1182,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 1175,
-                      "end": 1181,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 1175,
-                        "end": 1178,
-                        "name": "obj"
+                        "end": 1178
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 1179,
-                        "end": 1180,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 1179,
+                        "end": 1180
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 1175,
+                      "end": 1181
+                    },
+                    "start": 1174,
+                    "end": 1182
+                  },
+                  "start": 948,
+                  "end": 1182
                 }
-              ]
-            }
+              ],
+              "start": 931,
+              "end": 1183
+            },
+            "start": 925,
+            "end": 1184
           }
-        ]
+        ],
+        "start": 921,
+        "end": 1186
       },
-      "alternate": null
+      "alternate": null,
+      "start": 900,
+      "end": 1186
     },
     {
       "type": "IfStatement",
-      "start": 1188,
-      "end": 1476,
       "test": {
         "type": "BinaryExpression",
-        "start": 1192,
-        "end": 1208,
         "left": {
           "type": "MemberExpression",
-          "start": 1192,
-          "end": 1198,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 1192,
-            "end": 1195,
-            "name": "obj"
+            "end": 1195
           },
           "property": {
             "type": "Literal",
-            "start": 1196,
-            "end": 1197,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 1196,
+            "end": 1197
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 1192,
+          "end": 1198
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1203,
-          "end": 1208,
           "value": "NaN",
-          "raw": "\"NaN\""
-        }
+          "raw": "\"NaN\"",
+          "start": 1203,
+          "end": 1208
+        },
+        "start": 1192,
+        "end": 1208
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1210,
-        "end": 1476,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1214,
-            "end": 1474,
             "argument": {
               "type": "NewExpression",
-              "start": 1220,
-              "end": 1473,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1224,
-                "end": 1236,
-                "name": "Test262Error"
+                "end": 1236
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1237,
-                  "end": 1472,
                   "left": {
                     "type": "Literal",
-                    "start": 1237,
-                    "end": 1461,
                     "value": "#3: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[1] === \"NaN\". Actual: ",
-                    "raw": "'#3: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[1] === \"NaN\". Actual: '"
+                    "raw": "'#3: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[1] === \"NaN\". Actual: '",
+                    "start": 1237,
+                    "end": 1461
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 1464,
-                    "end": 1472,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 1465,
-                      "end": 1471,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 1465,
-                        "end": 1468,
-                        "name": "obj"
+                        "end": 1468
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 1469,
-                        "end": 1470,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 1469,
+                        "end": 1470
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 1465,
+                      "end": 1471
+                    },
+                    "start": 1464,
+                    "end": 1472
+                  },
+                  "start": 1237,
+                  "end": 1472
                 }
-              ]
-            }
+              ],
+              "start": 1220,
+              "end": 1473
+            },
+            "start": 1214,
+            "end": 1474
           }
-        ]
+        ],
+        "start": 1210,
+        "end": 1476
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1188,
+      "end": 1476
     },
     {
       "type": "IfStatement",
-      "start": 1478,
-      "end": 1774,
       "test": {
         "type": "BinaryExpression",
-        "start": 1482,
-        "end": 1502,
         "left": {
           "type": "MemberExpression",
-          "start": 1482,
-          "end": 1488,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 1482,
-            "end": 1485,
-            "name": "obj"
+            "end": 1485
           },
           "property": {
             "type": "Literal",
-            "start": 1486,
-            "end": 1487,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 1486,
+            "end": 1487
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 1482,
+          "end": 1488
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 1493,
-          "end": 1502,
-          "name": "undefined"
-        }
+          "end": 1502
+        },
+        "start": 1482,
+        "end": 1502
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1504,
-        "end": 1774,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1508,
-            "end": 1772,
             "argument": {
               "type": "NewExpression",
-              "start": 1514,
-              "end": 1771,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1518,
-                "end": 1530,
-                "name": "Test262Error"
+                "end": 1530
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1531,
-                  "end": 1770,
                   "left": {
                     "type": "Literal",
-                    "start": 1531,
-                    "end": 1759,
                     "value": "#4: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[2] === undefined. Actual: ",
-                    "raw": "'#4: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[2] === undefined. Actual: '"
+                    "raw": "'#4: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[2] === undefined. Actual: '",
+                    "start": 1531,
+                    "end": 1759
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 1762,
-                    "end": 1770,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 1763,
-                      "end": 1769,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 1763,
-                        "end": 1766,
-                        "name": "obj"
+                        "end": 1766
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 1767,
-                        "end": 1768,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 1767,
+                        "end": 1768
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 1763,
+                      "end": 1769
+                    },
+                    "start": 1762,
+                    "end": 1770
+                  },
+                  "start": 1531,
+                  "end": 1770
                 }
-              ]
-            }
+              ],
+              "start": 1514,
+              "end": 1771
+            },
+            "start": 1508,
+            "end": 1772
           }
-        ]
+        ],
+        "start": 1504,
+        "end": 1774
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1478,
+      "end": 1774
     },
     {
       "type": "IfStatement",
-      "start": 1776,
-      "end": 2072,
       "test": {
         "type": "BinaryExpression",
-        "start": 1780,
-        "end": 1800,
         "left": {
           "type": "MemberExpression",
-          "start": 1780,
-          "end": 1786,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 1780,
-            "end": 1783,
-            "name": "obj"
+            "end": 1783
           },
           "property": {
             "type": "Literal",
-            "start": 1784,
-            "end": 1785,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 1784,
+            "end": 1785
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 1780,
+          "end": 1786
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 1791,
-          "end": 1800,
-          "name": "undefined"
-        }
+          "end": 1800
+        },
+        "start": 1780,
+        "end": 1800
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1802,
-        "end": 2072,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1806,
-            "end": 2070,
             "argument": {
               "type": "NewExpression",
-              "start": 1812,
-              "end": 2069,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1816,
-                "end": 1828,
-                "name": "Test262Error"
+                "end": 1828
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1829,
-                  "end": 2068,
                   "left": {
                     "type": "Literal",
-                    "start": 1829,
-                    "end": 2057,
                     "value": "#5: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[3] === undefined. Actual: ",
-                    "raw": "'#5: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[3] === undefined. Actual: '"
+                    "raw": "'#5: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[3] === undefined. Actual: '",
+                    "start": 1829,
+                    "end": 2057
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 2060,
-                    "end": 2068,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 2061,
-                      "end": 2067,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 2061,
-                        "end": 2064,
-                        "name": "obj"
+                        "end": 2064
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 2065,
-                        "end": 2066,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "start": 2065,
+                        "end": 2066
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 2061,
+                      "end": 2067
+                    },
+                    "start": 2060,
+                    "end": 2068
+                  },
+                  "start": 1829,
+                  "end": 2068
                 }
-              ]
-            }
+              ],
+              "start": 1812,
+              "end": 2069
+            },
+            "start": 1806,
+            "end": 2070
           }
-        ]
+        ],
+        "start": 1802,
+        "end": 2072
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1776,
+      "end": 2072
     },
     {
       "type": "IfStatement",
-      "start": 2074,
-      "end": 2370,
       "test": {
         "type": "BinaryExpression",
-        "start": 2078,
-        "end": 2098,
         "left": {
           "type": "MemberExpression",
-          "start": 2078,
-          "end": 2084,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 2078,
-            "end": 2081,
-            "name": "obj"
+            "end": 2081
           },
           "property": {
             "type": "Literal",
-            "start": 2082,
-            "end": 2083,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 2082,
+            "end": 2083
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 2078,
+          "end": 2084
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 2089,
-          "end": 2098,
-          "name": "undefined"
-        }
+          "end": 2098
+        },
+        "start": 2078,
+        "end": 2098
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 2100,
-        "end": 2370,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2104,
-            "end": 2368,
             "argument": {
               "type": "NewExpression",
-              "start": 2110,
-              "end": 2367,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 2114,
-                "end": 2126,
-                "name": "Test262Error"
+                "end": 2126
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 2127,
-                  "end": 2366,
                   "left": {
                     "type": "Literal",
-                    "start": 2127,
-                    "end": 2355,
                     "value": "#6: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[4] === undefined. Actual: ",
-                    "raw": "'#6: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[4] === undefined. Actual: '"
+                    "raw": "'#6: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[4] === undefined. Actual: '",
+                    "start": 2127,
+                    "end": 2355
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 2358,
-                    "end": 2366,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 2359,
-                      "end": 2365,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 2359,
-                        "end": 2362,
-                        "name": "obj"
+                        "end": 2362
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 2363,
-                        "end": 2364,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "start": 2363,
+                        "end": 2364
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 2359,
+                      "end": 2365
+                    },
+                    "start": 2358,
+                    "end": 2366
+                  },
+                  "start": 2127,
+                  "end": 2366
                 }
-              ]
-            }
+              ],
+              "start": 2110,
+              "end": 2367
+            },
+            "start": 2104,
+            "end": 2368
           }
-        ]
+        ],
+        "start": 2100,
+        "end": 2370
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2074,
+      "end": 2370
     },
     {
       "type": "IfStatement",
-      "start": 2372,
-      "end": 2668,
       "test": {
         "type": "BinaryExpression",
-        "start": 2376,
-        "end": 2396,
         "left": {
           "type": "MemberExpression",
-          "start": 2376,
-          "end": 2382,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 2376,
-            "end": 2379,
-            "name": "obj"
+            "end": 2379
           },
           "property": {
             "type": "Literal",
-            "start": 2380,
-            "end": 2381,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "start": 2380,
+            "end": 2381
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 2376,
+          "end": 2382
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 2387,
-          "end": 2396,
-          "name": "undefined"
-        }
+          "end": 2396
+        },
+        "start": 2376,
+        "end": 2396
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 2398,
-        "end": 2668,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2402,
-            "end": 2666,
             "argument": {
               "type": "NewExpression",
-              "start": 2408,
-              "end": 2665,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 2412,
-                "end": 2424,
-                "name": "Test262Error"
+                "end": 2424
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 2425,
-                  "end": 2664,
                   "left": {
                     "type": "Literal",
-                    "start": 2425,
-                    "end": 2653,
                     "value": "#7: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[5] === undefined. Actual: ",
-                    "raw": "'#7: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[5] === undefined. Actual: '"
+                    "raw": "'#7: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[5] === undefined. Actual: '",
+                    "start": 2425,
+                    "end": 2653
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 2656,
-                    "end": 2664,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 2657,
-                      "end": 2663,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 2657,
-                        "end": 2660,
-                        "name": "obj"
+                        "end": 2660
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 2661,
-                        "end": 2662,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "start": 2661,
+                        "end": 2662
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 2657,
+                      "end": 2663
+                    },
+                    "start": 2656,
+                    "end": 2664
+                  },
+                  "start": 2425,
+                  "end": 2664
                 }
-              ]
-            }
+              ],
+              "start": 2408,
+              "end": 2665
+            },
+            "start": 2402,
+            "end": 2666
           }
-        ]
+        ],
+        "start": 2398,
+        "end": 2668
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2372,
+      "end": 2668
     },
     {
       "type": "IfStatement",
-      "start": 2670,
-      "end": 2966,
       "test": {
         "type": "BinaryExpression",
-        "start": 2674,
-        "end": 2694,
         "left": {
           "type": "MemberExpression",
-          "start": 2674,
-          "end": 2680,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 2674,
-            "end": 2677,
-            "name": "obj"
+            "end": 2677
           },
           "property": {
             "type": "Literal",
-            "start": 2678,
-            "end": 2679,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "start": 2678,
+            "end": 2679
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 2674,
+          "end": 2680
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 2685,
-          "end": 2694,
-          "name": "undefined"
-        }
+          "end": 2694
+        },
+        "start": 2674,
+        "end": 2694
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 2696,
-        "end": 2966,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2700,
-            "end": 2964,
             "argument": {
               "type": "NewExpression",
-              "start": 2706,
-              "end": 2963,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 2710,
-                "end": 2722,
-                "name": "Test262Error"
+                "end": 2722
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 2723,
-                  "end": 2962,
                   "left": {
                     "type": "Literal",
-                    "start": 2723,
-                    "end": 2951,
                     "value": "#8: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[6] === undefined. Actual: ",
-                    "raw": "'#8: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[6] === undefined. Actual: '"
+                    "raw": "'#8: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[6] === undefined. Actual: '",
+                    "start": 2723,
+                    "end": 2951
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 2954,
-                    "end": 2962,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 2955,
-                      "end": 2961,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 2955,
-                        "end": 2958,
-                        "name": "obj"
+                        "end": 2958
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 2959,
-                        "end": 2960,
                         "value": 6,
-                        "raw": "6"
+                        "raw": "6",
+                        "start": 2959,
+                        "end": 2960
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 2955,
+                      "end": 2961
+                    },
+                    "start": 2954,
+                    "end": 2962
+                  },
+                  "start": 2723,
+                  "end": 2962
                 }
-              ]
-            }
+              ],
+              "start": 2706,
+              "end": 2963
+            },
+            "start": 2700,
+            "end": 2964
           }
-        ]
+        ],
+        "start": 2696,
+        "end": 2966
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2670,
+      "end": 2966
     },
     {
       "type": "IfStatement",
-      "start": 2968,
-      "end": 3262,
       "test": {
         "type": "BinaryExpression",
-        "start": 2972,
-        "end": 2991,
         "left": {
           "type": "MemberExpression",
-          "start": 2972,
-          "end": 2978,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 2972,
-            "end": 2975,
-            "name": "obj"
+            "end": 2975
           },
           "property": {
             "type": "Literal",
-            "start": 2976,
-            "end": 2977,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "start": 2976,
+            "end": 2977
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 2972,
+          "end": 2978
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "Infinity",
           "start": 2983,
-          "end": 2991,
-          "name": "Infinity"
-        }
+          "end": 2991
+        },
+        "start": 2972,
+        "end": 2991
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 2993,
-        "end": 3262,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2997,
-            "end": 3260,
             "argument": {
               "type": "NewExpression",
-              "start": 3003,
-              "end": 3259,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 3007,
-                "end": 3019,
-                "name": "Test262Error"
+                "end": 3019
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 3020,
-                  "end": 3258,
                   "left": {
                     "type": "Literal",
-                    "start": 3020,
-                    "end": 3247,
                     "value": "#9: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[7] === Infinity. Actual: ",
-                    "raw": "'#9: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[7] === Infinity. Actual: '"
+                    "raw": "'#9: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[7] === Infinity. Actual: '",
+                    "start": 3020,
+                    "end": 3247
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 3250,
-                    "end": 3258,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 3251,
-                      "end": 3257,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 3251,
-                        "end": 3254,
-                        "name": "obj"
+                        "end": 3254
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 3255,
-                        "end": 3256,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "start": 3255,
+                        "end": 3256
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 3251,
+                      "end": 3257
+                    },
+                    "start": 3250,
+                    "end": 3258
+                  },
+                  "start": 3020,
+                  "end": 3258
                 }
-              ]
-            }
+              ],
+              "start": 3003,
+              "end": 3259
+            },
+            "start": 2997,
+            "end": 3260
           }
-        ]
+        ],
+        "start": 2993,
+        "end": 3262
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2968,
+      "end": 3262
     },
     {
       "type": "IfStatement",
-      "start": 3264,
-      "end": 3561,
       "test": {
         "type": "BinaryExpression",
-        "start": 3268,
-        "end": 3288,
         "left": {
           "type": "MemberExpression",
-          "start": 3268,
-          "end": 3274,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 3268,
-            "end": 3271,
-            "name": "obj"
+            "end": 3271
           },
           "property": {
             "type": "Literal",
-            "start": 3272,
-            "end": 3273,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "start": 3272,
+            "end": 3273
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 3268,
+          "end": 3274
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 3279,
-          "end": 3288,
-          "name": "undefined"
-        }
+          "end": 3288
+        },
+        "start": 3268,
+        "end": 3288
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 3290,
-        "end": 3561,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 3294,
-            "end": 3559,
             "argument": {
               "type": "NewExpression",
-              "start": 3300,
-              "end": 3558,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 3304,
-                "end": 3316,
-                "name": "Test262Error"
+                "end": 3316
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 3317,
-                  "end": 3557,
                   "left": {
                     "type": "Literal",
-                    "start": 3317,
-                    "end": 3546,
                     "value": "#10: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[8] === undefined. Actual: ",
-                    "raw": "'#10: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[8] === undefined. Actual: '"
+                    "raw": "'#10: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[8] === undefined. Actual: '",
+                    "start": 3317,
+                    "end": 3546
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 3549,
-                    "end": 3557,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 3550,
-                      "end": 3556,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 3550,
-                        "end": 3553,
-                        "name": "obj"
+                        "end": 3553
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 3554,
-                        "end": 3555,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "start": 3554,
+                        "end": 3555
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 3550,
+                      "end": 3556
+                    },
+                    "start": 3549,
+                    "end": 3557
+                  },
+                  "start": 3317,
+                  "end": 3557
                 }
-              ]
-            }
+              ],
+              "start": 3300,
+              "end": 3558
+            },
+            "start": 3294,
+            "end": 3559
           }
-        ]
+        ],
+        "start": 3290,
+        "end": 3561
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3264,
+      "end": 3561
     },
     {
       "type": "IfStatement",
-      "start": 3563,
-      "end": 3850,
       "test": {
         "type": "BinaryExpression",
-        "start": 3567,
-        "end": 3582,
         "left": {
           "type": "MemberExpression",
-          "start": 3567,
-          "end": 3573,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 3567,
-            "end": 3570,
-            "name": "obj"
+            "end": 3570
           },
           "property": {
             "type": "Literal",
-            "start": 3571,
-            "end": 3572,
             "value": 9,
-            "raw": "9"
+            "raw": "9",
+            "start": 3571,
+            "end": 3572
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 3567,
+          "end": 3573
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 3578,
-          "end": 3582,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 3578,
+          "end": 3582
+        },
+        "start": 3567,
+        "end": 3582
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 3584,
-        "end": 3850,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 3588,
-            "end": 3848,
             "argument": {
               "type": "NewExpression",
-              "start": 3594,
-              "end": 3847,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 3598,
-                "end": 3610,
-                "name": "Test262Error"
+                "end": 3610
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 3611,
-                  "end": 3846,
                   "left": {
                     "type": "Literal",
-                    "start": 3611,
-                    "end": 3835,
                     "value": "#11: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[9] === true. Actual: ",
-                    "raw": "'#11: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[9] === true. Actual: '"
+                    "raw": "'#11: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj[9] === true. Actual: '",
+                    "start": 3611,
+                    "end": 3835
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 3838,
-                    "end": 3846,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 3839,
-                      "end": 3845,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 3839,
-                        "end": 3842,
-                        "name": "obj"
+                        "end": 3842
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 3843,
-                        "end": 3844,
                         "value": 9,
-                        "raw": "9"
+                        "raw": "9",
+                        "start": 3843,
+                        "end": 3844
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 3839,
+                      "end": 3845
+                    },
+                    "start": 3838,
+                    "end": 3846
+                  },
+                  "start": 3611,
+                  "end": 3846
                 }
-              ]
-            }
+              ],
+              "start": 3594,
+              "end": 3847
+            },
+            "start": 3588,
+            "end": 3848
           }
-        ]
+        ],
+        "start": 3584,
+        "end": 3850
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3563,
+      "end": 3850
     },
     {
       "type": "ExpressionStatement",
-      "start": 3852,
-      "end": 3881,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 3852,
-        "end": 3880,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 3852,
-          "end": 3862,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 3852,
-            "end": 3855,
-            "name": "obj"
+            "end": 3855
           },
           "property": {
             "type": "Identifier",
+            "name": "length",
             "start": 3856,
-            "end": 3862,
-            "name": "length"
+            "end": 3862
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 3852,
+          "end": 3862
         },
         "right": {
           "type": "NewExpression",
-          "start": 3865,
-          "end": 3880,
           "callee": {
             "type": "Identifier",
+            "name": "String",
             "start": 3869,
-            "end": 3875,
-            "name": "String"
+            "end": 3875
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 3876,
-              "end": 3879,
               "value": "9",
-              "raw": "\"9\""
+              "raw": "\"9\"",
+              "start": 3876,
+              "end": 3879
             }
-          ]
-        }
-      }
+          ],
+          "start": 3865,
+          "end": 3880
+        },
+        "start": 3852,
+        "end": 3880
+      },
+      "start": 3852,
+      "end": 3881
     },
     {
       "type": "VariableDeclaration",
-      "start": 3883,
-      "end": 3911,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 3887,
-          "end": 3910,
           "id": {
             "type": "Identifier",
+            "name": "reverse",
             "start": 3887,
-            "end": 3894,
-            "name": "reverse"
+            "end": 3894
           },
           "init": {
             "type": "CallExpression",
-            "start": 3897,
-            "end": 3910,
             "callee": {
               "type": "MemberExpression",
-              "start": 3897,
-              "end": 3908,
               "object": {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 3897,
-                "end": 3900,
-                "name": "obj"
+                "end": 3900
               },
               "property": {
                 "type": "Identifier",
+                "name": "reverse",
                 "start": 3901,
-                "end": 3908,
-                "name": "reverse"
+                "end": 3908
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3897,
+              "end": 3908
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 3897,
+            "end": 3910
+          },
+          "start": 3887,
+          "end": 3910
         }
-      ]
+      ],
+      "start": 3883,
+      "end": 3911
     },
     {
       "type": "IfStatement",
-      "start": 3912,
-      "end": 4235,
       "test": {
         "type": "BinaryExpression",
-        "start": 3916,
-        "end": 3931,
         "left": {
           "type": "Identifier",
+          "name": "reverse",
           "start": 3916,
-          "end": 3923,
-          "name": "reverse"
+          "end": 3923
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "obj",
           "start": 3928,
-          "end": 3931,
-          "name": "obj"
-        }
+          "end": 3931
+        },
+        "start": 3916,
+        "end": 3931
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 3933,
-        "end": 4235,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 3937,
-            "end": 4233,
             "argument": {
               "type": "NewExpression",
-              "start": 3943,
-              "end": 4232,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 3947,
-                "end": 3959,
-                "name": "Test262Error"
+                "end": 3959
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 3960,
-                  "end": 4231,
                   "left": {
                     "type": "Literal",
-                    "start": 3960,
-                    "end": 4219,
                     "value": "#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse() === obj. Actual: ",
-                    "raw": "'#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse() === obj. Actual: '"
+                    "raw": "'#1: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse() === obj. Actual: '",
+                    "start": 3960,
+                    "end": 4219
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 4222,
-                    "end": 4231,
                     "expression": {
                       "type": "Identifier",
+                      "name": "reverse",
                       "start": 4223,
-                      "end": 4230,
-                      "name": "reverse"
-                    }
-                  }
+                      "end": 4230
+                    },
+                    "start": 4222,
+                    "end": 4231
+                  },
+                  "start": 3960,
+                  "end": 4231
                 }
-              ]
-            }
+              ],
+              "start": 3943,
+              "end": 4232
+            },
+            "start": 3937,
+            "end": 4233
           }
-        ]
+        ],
+        "start": 3933,
+        "end": 4235
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3912,
+      "end": 4235
     },
     {
       "type": "IfStatement",
-      "start": 4237,
-      "end": 4579,
       "test": {
         "type": "BinaryExpression",
-        "start": 4241,
-        "end": 4261,
         "left": {
           "type": "MemberExpression",
-          "start": 4241,
-          "end": 4247,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 4241,
-            "end": 4244,
-            "name": "obj"
+            "end": 4244
           },
           "property": {
             "type": "Literal",
-            "start": 4245,
-            "end": 4246,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 4245,
+            "end": 4246
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 4241,
+          "end": 4247
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 4252,
-          "end": 4261,
-          "name": "undefined"
-        }
+          "end": 4261
+        },
+        "start": 4241,
+        "end": 4261
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 4263,
-        "end": 4579,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 4267,
-            "end": 4577,
             "argument": {
               "type": "NewExpression",
-              "start": 4273,
-              "end": 4576,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 4277,
-                "end": 4289,
-                "name": "Test262Error"
+                "end": 4289
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 4290,
-                  "end": 4575,
                   "left": {
                     "type": "Literal",
-                    "start": 4290,
-                    "end": 4564,
                     "value": "#12: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[0] === undefined. Actual: ",
-                    "raw": "'#12: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[0] === undefined. Actual: '"
+                    "raw": "'#12: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[0] === undefined. Actual: '",
+                    "start": 4290,
+                    "end": 4564
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 4567,
-                    "end": 4575,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 4568,
-                      "end": 4574,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 4568,
-                        "end": 4571,
-                        "name": "obj"
+                        "end": 4571
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 4572,
-                        "end": 4573,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 4572,
+                        "end": 4573
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 4568,
+                      "end": 4574
+                    },
+                    "start": 4567,
+                    "end": 4575
+                  },
+                  "start": 4290,
+                  "end": 4575
                 }
-              ]
-            }
+              ],
+              "start": 4273,
+              "end": 4576
+            },
+            "start": 4267,
+            "end": 4577
           }
-        ]
+        ],
+        "start": 4263,
+        "end": 4579
       },
-      "alternate": null
+      "alternate": null,
+      "start": 4237,
+      "end": 4579
     },
     {
       "type": "IfStatement",
-      "start": 4581,
-      "end": 4921,
       "test": {
         "type": "BinaryExpression",
-        "start": 4585,
-        "end": 4604,
         "left": {
           "type": "MemberExpression",
-          "start": 4585,
-          "end": 4591,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 4585,
-            "end": 4588,
-            "name": "obj"
+            "end": 4588
           },
           "property": {
             "type": "Literal",
-            "start": 4589,
-            "end": 4590,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 4589,
+            "end": 4590
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 4585,
+          "end": 4591
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "Infinity",
           "start": 4596,
-          "end": 4604,
-          "name": "Infinity"
-        }
+          "end": 4604
+        },
+        "start": 4585,
+        "end": 4604
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 4606,
-        "end": 4921,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 4610,
-            "end": 4919,
             "argument": {
               "type": "NewExpression",
-              "start": 4616,
-              "end": 4918,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 4620,
-                "end": 4632,
-                "name": "Test262Error"
+                "end": 4632
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 4633,
-                  "end": 4917,
                   "left": {
                     "type": "Literal",
-                    "start": 4633,
-                    "end": 4906,
                     "value": "#13: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[1] === Infinity. Actual: ",
-                    "raw": "'#13: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[1] === Infinity. Actual: '"
+                    "raw": "'#13: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[1] === Infinity. Actual: '",
+                    "start": 4633,
+                    "end": 4906
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 4909,
-                    "end": 4917,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 4910,
-                      "end": 4916,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 4910,
-                        "end": 4913,
-                        "name": "obj"
+                        "end": 4913
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 4914,
-                        "end": 4915,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 4914,
+                        "end": 4915
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 4910,
+                      "end": 4916
+                    },
+                    "start": 4909,
+                    "end": 4917
+                  },
+                  "start": 4633,
+                  "end": 4917
                 }
-              ]
-            }
+              ],
+              "start": 4616,
+              "end": 4918
+            },
+            "start": 4610,
+            "end": 4919
           }
-        ]
+        ],
+        "start": 4606,
+        "end": 4921
       },
-      "alternate": null
+      "alternate": null,
+      "start": 4581,
+      "end": 4921
     },
     {
       "type": "IfStatement",
-      "start": 4923,
-      "end": 5265,
       "test": {
         "type": "BinaryExpression",
-        "start": 4927,
-        "end": 4947,
         "left": {
           "type": "MemberExpression",
-          "start": 4927,
-          "end": 4933,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 4927,
-            "end": 4930,
-            "name": "obj"
+            "end": 4930
           },
           "property": {
             "type": "Literal",
-            "start": 4931,
-            "end": 4932,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 4931,
+            "end": 4932
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 4927,
+          "end": 4933
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 4938,
-          "end": 4947,
-          "name": "undefined"
-        }
+          "end": 4947
+        },
+        "start": 4927,
+        "end": 4947
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 4949,
-        "end": 5265,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 4953,
-            "end": 5263,
             "argument": {
               "type": "NewExpression",
-              "start": 4959,
-              "end": 5262,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 4963,
-                "end": 4975,
-                "name": "Test262Error"
+                "end": 4975
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 4976,
-                  "end": 5261,
                   "left": {
                     "type": "Literal",
-                    "start": 4976,
-                    "end": 5250,
                     "value": "#14: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[2] === undefined. Actual: ",
-                    "raw": "'#14: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[2] === undefined. Actual: '"
+                    "raw": "'#14: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[2] === undefined. Actual: '",
+                    "start": 4976,
+                    "end": 5250
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 5253,
-                    "end": 5261,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 5254,
-                      "end": 5260,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 5254,
-                        "end": 5257,
-                        "name": "obj"
+                        "end": 5257
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 5258,
-                        "end": 5259,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 5258,
+                        "end": 5259
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 5254,
+                      "end": 5260
+                    },
+                    "start": 5253,
+                    "end": 5261
+                  },
+                  "start": 4976,
+                  "end": 5261
                 }
-              ]
-            }
+              ],
+              "start": 4959,
+              "end": 5262
+            },
+            "start": 4953,
+            "end": 5263
           }
-        ]
+        ],
+        "start": 4949,
+        "end": 5265
       },
-      "alternate": null
+      "alternate": null,
+      "start": 4923,
+      "end": 5265
     },
     {
       "type": "IfStatement",
-      "start": 5267,
-      "end": 5609,
       "test": {
         "type": "BinaryExpression",
-        "start": 5271,
-        "end": 5291,
         "left": {
           "type": "MemberExpression",
-          "start": 5271,
-          "end": 5277,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 5271,
-            "end": 5274,
-            "name": "obj"
+            "end": 5274
           },
           "property": {
             "type": "Literal",
-            "start": 5275,
-            "end": 5276,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 5275,
+            "end": 5276
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 5271,
+          "end": 5277
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 5282,
-          "end": 5291,
-          "name": "undefined"
-        }
+          "end": 5291
+        },
+        "start": 5271,
+        "end": 5291
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 5293,
-        "end": 5609,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 5297,
-            "end": 5607,
             "argument": {
               "type": "NewExpression",
-              "start": 5303,
-              "end": 5606,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 5307,
-                "end": 5319,
-                "name": "Test262Error"
+                "end": 5319
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 5320,
-                  "end": 5605,
                   "left": {
                     "type": "Literal",
-                    "start": 5320,
-                    "end": 5594,
                     "value": "#15: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[3] === undefined. Actual: ",
-                    "raw": "'#15: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[3] === undefined. Actual: '"
+                    "raw": "'#15: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[3] === undefined. Actual: '",
+                    "start": 5320,
+                    "end": 5594
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 5597,
-                    "end": 5605,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 5598,
-                      "end": 5604,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 5598,
-                        "end": 5601,
-                        "name": "obj"
+                        "end": 5601
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 5602,
-                        "end": 5603,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "start": 5602,
+                        "end": 5603
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 5598,
+                      "end": 5604
+                    },
+                    "start": 5597,
+                    "end": 5605
+                  },
+                  "start": 5320,
+                  "end": 5605
                 }
-              ]
-            }
+              ],
+              "start": 5303,
+              "end": 5606
+            },
+            "start": 5297,
+            "end": 5607
           }
-        ]
+        ],
+        "start": 5293,
+        "end": 5609
       },
-      "alternate": null
+      "alternate": null,
+      "start": 5267,
+      "end": 5609
     },
     {
       "type": "IfStatement",
-      "start": 5611,
-      "end": 5953,
       "test": {
         "type": "BinaryExpression",
-        "start": 5615,
-        "end": 5635,
         "left": {
           "type": "MemberExpression",
-          "start": 5615,
-          "end": 5621,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 5615,
-            "end": 5618,
-            "name": "obj"
+            "end": 5618
           },
           "property": {
             "type": "Literal",
-            "start": 5619,
-            "end": 5620,
             "value": 4,
-            "raw": "4"
+            "raw": "4",
+            "start": 5619,
+            "end": 5620
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 5615,
+          "end": 5621
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 5626,
-          "end": 5635,
-          "name": "undefined"
-        }
+          "end": 5635
+        },
+        "start": 5615,
+        "end": 5635
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 5637,
-        "end": 5953,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 5641,
-            "end": 5951,
             "argument": {
               "type": "NewExpression",
-              "start": 5647,
-              "end": 5950,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 5651,
-                "end": 5663,
-                "name": "Test262Error"
+                "end": 5663
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 5664,
-                  "end": 5949,
                   "left": {
                     "type": "Literal",
-                    "start": 5664,
-                    "end": 5938,
                     "value": "#16: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[4] === undefined. Actual: ",
-                    "raw": "'#16: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[4] === undefined. Actual: '"
+                    "raw": "'#16: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[4] === undefined. Actual: '",
+                    "start": 5664,
+                    "end": 5938
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 5941,
-                    "end": 5949,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 5942,
-                      "end": 5948,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 5942,
-                        "end": 5945,
-                        "name": "obj"
+                        "end": 5945
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 5946,
-                        "end": 5947,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "start": 5946,
+                        "end": 5947
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 5942,
+                      "end": 5948
+                    },
+                    "start": 5941,
+                    "end": 5949
+                  },
+                  "start": 5664,
+                  "end": 5949
                 }
-              ]
-            }
+              ],
+              "start": 5647,
+              "end": 5950
+            },
+            "start": 5641,
+            "end": 5951
           }
-        ]
+        ],
+        "start": 5637,
+        "end": 5953
       },
-      "alternate": null
+      "alternate": null,
+      "start": 5611,
+      "end": 5953
     },
     {
       "type": "IfStatement",
-      "start": 5955,
-      "end": 6297,
       "test": {
         "type": "BinaryExpression",
-        "start": 5959,
-        "end": 5979,
         "left": {
           "type": "MemberExpression",
-          "start": 5959,
-          "end": 5965,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 5959,
-            "end": 5962,
-            "name": "obj"
+            "end": 5962
           },
           "property": {
             "type": "Literal",
-            "start": 5963,
-            "end": 5964,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "start": 5963,
+            "end": 5964
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 5959,
+          "end": 5965
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 5970,
-          "end": 5979,
-          "name": "undefined"
-        }
+          "end": 5979
+        },
+        "start": 5959,
+        "end": 5979
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 5981,
-        "end": 6297,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 5985,
-            "end": 6295,
             "argument": {
               "type": "NewExpression",
-              "start": 5991,
-              "end": 6294,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 5995,
-                "end": 6007,
-                "name": "Test262Error"
+                "end": 6007
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 6008,
-                  "end": 6293,
                   "left": {
                     "type": "Literal",
-                    "start": 6008,
-                    "end": 6282,
                     "value": "#17: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[5] === undefined. Actual: ",
-                    "raw": "'#17: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[5] === undefined. Actual: '"
+                    "raw": "'#17: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[5] === undefined. Actual: '",
+                    "start": 6008,
+                    "end": 6282
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 6285,
-                    "end": 6293,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 6286,
-                      "end": 6292,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 6286,
-                        "end": 6289,
-                        "name": "obj"
+                        "end": 6289
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 6290,
-                        "end": 6291,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "start": 6290,
+                        "end": 6291
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 6286,
+                      "end": 6292
+                    },
+                    "start": 6285,
+                    "end": 6293
+                  },
+                  "start": 6008,
+                  "end": 6293
                 }
-              ]
-            }
+              ],
+              "start": 5991,
+              "end": 6294
+            },
+            "start": 5985,
+            "end": 6295
           }
-        ]
+        ],
+        "start": 5981,
+        "end": 6297
       },
-      "alternate": null
+      "alternate": null,
+      "start": 5955,
+      "end": 6297
     },
     {
       "type": "IfStatement",
-      "start": 6299,
-      "end": 6641,
       "test": {
         "type": "BinaryExpression",
-        "start": 6303,
-        "end": 6323,
         "left": {
           "type": "MemberExpression",
-          "start": 6303,
-          "end": 6309,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 6303,
-            "end": 6306,
-            "name": "obj"
+            "end": 6306
           },
           "property": {
             "type": "Literal",
-            "start": 6307,
-            "end": 6308,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "start": 6307,
+            "end": 6308
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 6303,
+          "end": 6309
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 6314,
-          "end": 6323,
-          "name": "undefined"
-        }
+          "end": 6323
+        },
+        "start": 6303,
+        "end": 6323
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 6325,
-        "end": 6641,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 6329,
-            "end": 6639,
             "argument": {
               "type": "NewExpression",
-              "start": 6335,
-              "end": 6638,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 6339,
-                "end": 6351,
-                "name": "Test262Error"
+                "end": 6351
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 6352,
-                  "end": 6637,
                   "left": {
                     "type": "Literal",
-                    "start": 6352,
-                    "end": 6626,
                     "value": "#18: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[6] === undefined. Actual: ",
-                    "raw": "'#18: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[6] === undefined. Actual: '"
+                    "raw": "'#18: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[6] === undefined. Actual: '",
+                    "start": 6352,
+                    "end": 6626
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 6629,
-                    "end": 6637,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 6630,
-                      "end": 6636,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 6630,
-                        "end": 6633,
-                        "name": "obj"
+                        "end": 6633
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 6634,
-                        "end": 6635,
                         "value": 6,
-                        "raw": "6"
+                        "raw": "6",
+                        "start": 6634,
+                        "end": 6635
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 6630,
+                      "end": 6636
+                    },
+                    "start": 6629,
+                    "end": 6637
+                  },
+                  "start": 6352,
+                  "end": 6637
                 }
-              ]
-            }
+              ],
+              "start": 6335,
+              "end": 6638
+            },
+            "start": 6329,
+            "end": 6639
           }
-        ]
+        ],
+        "start": 6325,
+        "end": 6641
       },
-      "alternate": null
+      "alternate": null,
+      "start": 6299,
+      "end": 6641
     },
     {
       "type": "IfStatement",
-      "start": 6643,
-      "end": 6977,
       "test": {
         "type": "BinaryExpression",
-        "start": 6647,
-        "end": 6663,
         "left": {
           "type": "MemberExpression",
-          "start": 6647,
-          "end": 6653,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 6647,
-            "end": 6650,
-            "name": "obj"
+            "end": 6650
           },
           "property": {
             "type": "Literal",
-            "start": 6651,
-            "end": 6652,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "start": 6651,
+            "end": 6652
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 6647,
+          "end": 6653
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 6658,
-          "end": 6663,
           "value": "NaN",
-          "raw": "\"NaN\""
-        }
+          "raw": "\"NaN\"",
+          "start": 6658,
+          "end": 6663
+        },
+        "start": 6647,
+        "end": 6663
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 6665,
-        "end": 6977,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 6669,
-            "end": 6975,
             "argument": {
               "type": "NewExpression",
-              "start": 6675,
-              "end": 6974,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 6679,
-                "end": 6691,
-                "name": "Test262Error"
+                "end": 6691
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 6692,
-                  "end": 6973,
                   "left": {
                     "type": "Literal",
-                    "start": 6692,
-                    "end": 6962,
                     "value": "#19: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[7] === \"NaN\". Actual: ",
-                    "raw": "'#19: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[7] === \"NaN\". Actual: '"
+                    "raw": "'#19: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[7] === \"NaN\". Actual: '",
+                    "start": 6692,
+                    "end": 6962
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 6965,
-                    "end": 6973,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 6966,
-                      "end": 6972,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 6966,
-                        "end": 6969,
-                        "name": "obj"
+                        "end": 6969
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 6970,
-                        "end": 6971,
                         "value": 7,
-                        "raw": "7"
+                        "raw": "7",
+                        "start": 6970,
+                        "end": 6971
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 6966,
+                      "end": 6972
+                    },
+                    "start": 6965,
+                    "end": 6973
+                  },
+                  "start": 6692,
+                  "end": 6973
                 }
-              ]
-            }
+              ],
+              "start": 6675,
+              "end": 6974
+            },
+            "start": 6669,
+            "end": 6975
           }
-        ]
+        ],
+        "start": 6665,
+        "end": 6977
       },
-      "alternate": null
+      "alternate": null,
+      "start": 6643,
+      "end": 6977
     },
     {
       "type": "IfStatement",
-      "start": 6979,
-      "end": 7311,
       "test": {
         "type": "BinaryExpression",
-        "start": 6983,
-        "end": 6998,
         "left": {
           "type": "MemberExpression",
-          "start": 6983,
-          "end": 6989,
           "object": {
             "type": "Identifier",
+            "name": "obj",
             "start": 6983,
-            "end": 6986,
-            "name": "obj"
+            "end": 6986
           },
           "property": {
             "type": "Literal",
-            "start": 6987,
-            "end": 6988,
             "value": 8,
-            "raw": "8"
+            "raw": "8",
+            "start": 6987,
+            "end": 6988
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 6983,
+          "end": 6989
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 6994,
-          "end": 6998,
           "value": "-1",
-          "raw": "\"-1\""
-        }
+          "raw": "\"-1\"",
+          "start": 6994,
+          "end": 6998
+        },
+        "start": 6983,
+        "end": 6998
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 7000,
-        "end": 7311,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 7004,
-            "end": 7309,
             "argument": {
               "type": "NewExpression",
-              "start": 7010,
-              "end": 7308,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 7014,
-                "end": 7026,
-                "name": "Test262Error"
+                "end": 7026
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 7027,
-                  "end": 7307,
                   "left": {
                     "type": "Literal",
-                    "start": 7027,
-                    "end": 7296,
                     "value": "#20: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[8] === \"-1\". Actual: ",
-                    "raw": "'#20: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[8] === \"-1\". Actual: '"
+                    "raw": "'#20: var obj = {}; obj.reverse = Array.prototype.reverse; obj.length = \"10\"; obj[0] = true; obj[2] = Infinity; obj[4] = undefined; obj[5] = undefined; obj[8] = \"NaN\"; obj[9] = \"-1\"; obj.reverse(); obj.length = new String(\"9\"); obj.reverse(); obj[8] === \"-1\". Actual: '",
+                    "start": 7027,
+                    "end": 7296
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 7299,
-                    "end": 7307,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 7300,
-                      "end": 7306,
                       "object": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 7300,
-                        "end": 7303,
-                        "name": "obj"
+                        "end": 7303
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 7304,
-                        "end": 7305,
                         "value": 8,
-                        "raw": "8"
+                        "raw": "8",
+                        "start": 7304,
+                        "end": 7305
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 7300,
+                      "end": 7306
+                    },
+                    "start": 7299,
+                    "end": 7307
+                  },
+                  "start": 7027,
+                  "end": 7307
                 }
-              ]
-            }
+              ],
+              "start": 7010,
+              "end": 7308
+            },
+            "start": 7004,
+            "end": 7309
           }
-        ]
+        ],
+        "start": 7000,
+        "end": 7311
       },
-      "alternate": null
+      "alternate": null,
+      "start": 6979,
+      "end": 7311
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 7312
 }

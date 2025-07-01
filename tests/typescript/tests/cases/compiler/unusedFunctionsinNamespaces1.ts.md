@@ -2,39 +2,31 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 57,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 57,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 20,
         "decorators": [],
         "name": "Validation",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 57,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 27,
-            "end": 55,
             "id": {
               "type": "Identifier",
-              "start": 36,
-              "end": 45,
               "decorators": [],
               "name": "function1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 45
             },
             "generator": false,
             "async": false,
@@ -44,20 +36,28 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 48,
-              "end": 55,
-              "body": []
+              "end": 55
             },
-            "expression": false
+            "expression": false,
+            "start": 27,
+            "end": 55
           }
-        ]
+        ],
+        "start": 21,
+        "end": 57
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 57
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 57
 }
 ```

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 147,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 20,
-      "end": 49,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 26,
-        "end": 28,
         "decorators": [],
         "name": "c1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 26,
+        "end": 28
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 29,
-        "end": 49,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 31,
-            "end": 47,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 38,
-              "end": 41,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 38,
+              "end": 41
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 41,
-              "end": 47,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,68 +45,74 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 44,
-                "end": 47,
-                "body": []
+                "end": 47
               },
-              "expression": false
+              "expression": false,
+              "start": 41,
+              "end": 47
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 31,
+            "end": 47
           }
-        ]
+        ],
+        "start": 29,
+        "end": 49
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 20,
+      "end": 49
     },
     {
       "type": "VariableDeclaration",
-      "start": 50,
-      "end": 61,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 54,
-          "end": 60,
           "id": {
             "type": "Identifier",
-            "start": 54,
-            "end": 56,
             "decorators": [],
             "name": "c1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 54,
+            "end": 56
           },
           "init": {
             "type": "Literal",
-            "start": 59,
-            "end": 60,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 59,
+            "end": 60
           },
-          "definite": false
+          "definite": false,
+          "start": 54,
+          "end": 60
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 50,
+      "end": 61
     },
     {
       "type": "ClassDeclaration",
-      "start": 93,
-      "end": 122,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 99,
-        "end": 101,
         "decorators": [],
         "name": "c4",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 99,
+        "end": 101
       },
       "typeParameters": null,
       "superClass": null,
@@ -124,27 +120,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 102,
-        "end": 122,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 104,
-            "end": 120,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 111,
-              "end": 114,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 111,
+              "end": 114
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 114,
-              "end": 120,
               "id": null,
               "generator": false,
               "async": false,
@@ -154,65 +144,75 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 117,
-                "end": 120,
-                "body": []
+                "end": 120
               },
-              "expression": false
+              "expression": false,
+              "start": 114,
+              "end": 120
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 104,
+            "end": 120
           }
-        ]
+        ],
+        "start": 102,
+        "end": 122
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 93,
+      "end": 122
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 123,
-      "end": 138,
       "id": {
         "type": "Identifier",
-        "start": 128,
-        "end": 130,
         "decorators": [],
         "name": "c4",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 128,
+        "end": 130
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 131,
-        "end": 138,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 133,
-            "end": 136,
             "id": {
               "type": "Identifier",
-              "start": 133,
-              "end": 136,
               "decorators": [],
               "name": "One",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 133,
+              "end": 136
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 133,
+            "end": 136
           }
-        ]
+        ],
+        "start": 131,
+        "end": 138
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 123,
+      "end": 138
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 20,
+  "end": 147
 }
 ```

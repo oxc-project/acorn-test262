@@ -1,220 +1,220 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 713,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 339,
-      "end": 551,
       "expression": {
         "type": "CallExpression",
-        "start": 339,
-        "end": 550,
         "callee": {
           "type": "MemberExpression",
-          "start": 339,
-          "end": 355,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 339,
-            "end": 345,
-            "name": "assert"
+            "end": 345
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 346,
-            "end": 355,
-            "name": "sameValue"
+            "end": 355
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 339,
+          "end": 355
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 359,
-            "end": 440,
             "callee": {
               "type": "ParenthesizedExpression",
-              "start": 359,
-              "end": 432,
               "expression": {
                 "type": "NewExpression",
-                "start": 360,
-                "end": 431,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Function",
                   "start": 364,
-                  "end": 372,
-                  "name": "Function"
+                  "end": 372
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 373,
-                    "end": 384,
                     "value": "arg1,arg2",
-                    "raw": "\"arg1,arg2\""
+                    "raw": "\"arg1,arg2\"",
+                    "start": 373,
+                    "end": 384
                   },
                   {
                     "type": "Literal",
-                    "start": 386,
-                    "end": 430,
                     "value": "var x =arg1; this.y=arg2;return arg1+arg2;",
-                    "raw": "\"var x =arg1; this.y=arg2;return arg1+arg2;\""
+                    "raw": "\"var x =arg1; this.y=arg2;return arg1+arg2;\"",
+                    "start": 386,
+                    "end": 430
                   }
-                ]
-              }
+                ],
+                "start": 360,
+                "end": 431
+              },
+              "start": 359,
+              "end": 432
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 433,
-                "end": 436,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "start": 433,
+                "end": 436
               },
               {
                 "type": "Literal",
-                "start": 438,
-                "end": 439,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 438,
+                "end": 439
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 359,
+            "end": 440
           },
           {
             "type": "Literal",
-            "start": 444,
-            "end": 448,
             "value": "12",
-            "raw": "\"12\""
+            "raw": "\"12\"",
+            "start": 444,
+            "end": 448
           },
           {
             "type": "Literal",
-            "start": 452,
-            "end": 548,
             "value": "new Function(\"arg1,arg2\", \"var x =arg1; this.y=arg2;return arg1+arg2;\")(1, 2) must return \"12\"",
-            "raw": "'new Function(\"arg1,arg2\", \"var x =arg1; this.y=arg2;return arg1+arg2;\")(1, 2) must return \"12\"'"
+            "raw": "'new Function(\"arg1,arg2\", \"var x =arg1; this.y=arg2;return arg1+arg2;\")(1, 2) must return \"12\"'",
+            "start": 452,
+            "end": 548
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 339,
+        "end": 550
+      },
+      "start": 339,
+      "end": 551
     },
     {
       "type": "ExpressionStatement",
-      "start": 553,
-      "end": 650,
       "expression": {
         "type": "CallExpression",
-        "start": 553,
-        "end": 649,
         "callee": {
           "type": "MemberExpression",
-          "start": 553,
-          "end": 569,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 553,
-            "end": 559,
-            "name": "assert"
+            "end": 559
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 560,
-            "end": 569,
-            "name": "sameValue"
+            "end": 569
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 553,
+          "end": 569
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 570,
-            "end": 578,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "x",
               "start": 577,
-              "end": 578,
-              "name": "x"
+              "end": 578
             },
-            "prefix": true
+            "prefix": true,
+            "start": 570,
+            "end": 578
           },
           {
             "type": "Literal",
-            "start": 580,
-            "end": 591,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 580,
+            "end": 591
           },
           {
             "type": "Literal",
-            "start": 593,
-            "end": 648,
             "value": "The value of `typeof x` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof x` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof x` is expected to be \"undefined\"'",
+            "start": 593,
+            "end": 648
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 553,
+        "end": 649
+      },
+      "start": 553,
+      "end": 650
     },
     {
       "type": "ExpressionStatement",
-      "start": 651,
-      "end": 712,
       "expression": {
         "type": "CallExpression",
-        "start": 651,
-        "end": 711,
         "callee": {
           "type": "MemberExpression",
-          "start": 651,
-          "end": 667,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 651,
-            "end": 657,
-            "name": "assert"
+            "end": 657
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 658,
-            "end": 667,
-            "name": "sameValue"
+            "end": 667
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 651,
+          "end": 667
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "y",
             "start": 668,
-            "end": 669,
-            "name": "y"
+            "end": 669
           },
           {
             "type": "Literal",
-            "start": 671,
-            "end": 672,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 671,
+            "end": 672
           },
           {
             "type": "Literal",
-            "start": 674,
-            "end": 710,
             "value": "The value of y is expected to be 2",
-            "raw": "'The value of y is expected to be 2'"
+            "raw": "'The value of y is expected to be 2'",
+            "start": 674,
+            "end": 710
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 651,
+        "end": 711
+      },
+      "start": 651,
+      "end": 712
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 713
 }

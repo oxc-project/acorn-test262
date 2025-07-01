@@ -2,329 +2,329 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 167,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 49,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 15,
         "decorators": [],
         "name": "Tree1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 15
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 16,
-        "end": 49,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 22,
-            "end": 47,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 30,
               "decorators": [],
               "name": "children",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 22,
+              "end": 30
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 30,
-              "end": 46,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 32,
-                "end": 46,
                 "elementTypes": [
                   {
                     "type": "TSTypeReference",
-                    "start": 33,
-                    "end": 38,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 33,
-                      "end": 38,
                       "decorators": [],
                       "name": "Tree1",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 33,
+                      "end": 38
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 33,
+                    "end": 38
                   },
                   {
                     "type": "TSTypeReference",
-                    "start": 40,
-                    "end": 45,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 40,
-                      "end": 45,
                       "decorators": [],
                       "name": "Tree2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 40,
+                      "end": 45
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 40,
+                    "end": 45
                   }
-                ]
-              }
+                ],
+                "start": 32,
+                "end": 46
+              },
+              "start": 30,
+              "end": 46
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 22,
+            "end": 47
           }
-        ]
+        ],
+        "start": 16,
+        "end": 49
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 49
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 51,
-      "end": 100,
       "id": {
         "type": "Identifier",
-        "start": 61,
-        "end": 66,
         "decorators": [],
         "name": "Tree2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 61,
+        "end": 66
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 67,
-        "end": 100,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 73,
-            "end": 98,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 73,
-              "end": 81,
               "decorators": [],
               "name": "children",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 73,
+              "end": 81
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 81,
-              "end": 97,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 83,
-                "end": 97,
                 "elementTypes": [
                   {
                     "type": "TSTypeReference",
-                    "start": 84,
-                    "end": 89,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 84,
-                      "end": 89,
                       "decorators": [],
                       "name": "Tree2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 84,
+                      "end": 89
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 84,
+                    "end": 89
                   },
                   {
                     "type": "TSTypeReference",
-                    "start": 91,
-                    "end": 96,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 91,
-                      "end": 96,
                       "decorators": [],
                       "name": "Tree1",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 91,
+                      "end": 96
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 91,
+                    "end": 96
                   }
-                ]
-              }
+                ],
+                "start": 83,
+                "end": 97
+              },
+              "start": 81,
+              "end": 97
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 73,
+            "end": 98
           }
-        ]
+        ],
+        "start": 67,
+        "end": 100
       },
-      "declare": false
+      "declare": false,
+      "start": 51,
+      "end": 100
     },
     {
       "type": "VariableDeclaration",
-      "start": 102,
-      "end": 119,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 106,
-          "end": 118,
           "id": {
             "type": "Identifier",
-            "start": 106,
-            "end": 118,
             "decorators": [],
             "name": "tree1",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 111,
-              "end": 118,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 113,
-                "end": 118,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 113,
-                  "end": 118,
                   "decorators": [],
                   "name": "Tree1",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 113,
+                  "end": 118
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 113,
+                "end": 118
+              },
+              "start": 111,
+              "end": 118
+            },
+            "start": 106,
+            "end": 118
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 106,
+          "end": 118
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 102,
+      "end": 119
     },
     {
       "type": "VariableDeclaration",
-      "start": 120,
-      "end": 137,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 124,
-          "end": 136,
           "id": {
             "type": "Identifier",
-            "start": 124,
-            "end": 136,
             "decorators": [],
             "name": "tree2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 129,
-              "end": 136,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 131,
-                "end": 136,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 131,
-                  "end": 136,
                   "decorators": [],
                   "name": "Tree2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 131,
+                  "end": 136
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 131,
+                "end": 136
+              },
+              "start": 129,
+              "end": 136
+            },
+            "start": 124,
+            "end": 136
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 124,
+          "end": 136
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 120,
+      "end": 137
     },
     {
       "type": "ExpressionStatement",
-      "start": 138,
-      "end": 152,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 138,
-        "end": 151,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "tree1",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 138,
-          "end": 143,
-          "decorators": [],
-          "name": "tree1",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 143
         },
         "right": {
           "type": "Identifier",
-          "start": 146,
-          "end": 151,
           "decorators": [],
           "name": "tree2",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 146,
+          "end": 151
+        },
+        "start": 138,
+        "end": 151
       },
-      "directive": null
+      "directive": null,
+      "start": 138,
+      "end": 152
     },
     {
       "type": "ExpressionStatement",
-      "start": 153,
-      "end": 167,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 153,
-        "end": 166,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 153,
-          "end": 158,
           "decorators": [],
           "name": "tree2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 153,
+          "end": 158
         },
         "right": {
           "type": "Identifier",
-          "start": 161,
-          "end": 166,
           "decorators": [],
           "name": "tree1",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 161,
+          "end": 166
+        },
+        "start": 153,
+        "end": 166
       },
-      "directive": null
+      "directive": null,
+      "start": 153,
+      "end": 167
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 167
 }
 ```

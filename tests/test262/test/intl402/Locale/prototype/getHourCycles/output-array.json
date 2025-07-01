@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 495,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 433,
-      "end": 494,
       "expression": {
         "type": "CallExpression",
-        "start": 433,
-        "end": 493,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 433,
-          "end": 439,
-          "name": "assert"
+          "end": 439
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 440,
-            "end": 492,
             "callee": {
               "type": "MemberExpression",
-              "start": 440,
-              "end": 453,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 440,
-                "end": 445,
-                "name": "Array"
+                "end": 445
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 446,
-                "end": 453,
-                "name": "isArray"
+                "end": 453
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 440,
+              "end": 453
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 454,
-                "end": 491,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 454,
-                  "end": 489,
                   "object": {
                     "type": "NewExpression",
-                    "start": 454,
-                    "end": 475,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 458,
-                      "end": 469,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 458,
-                        "end": 462,
-                        "name": "Intl"
+                        "end": 462
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Locale",
                         "start": 463,
-                        "end": 469,
-                        "name": "Locale"
+                        "end": 469
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 458,
+                      "end": 469
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 470,
-                        "end": 474,
                         "value": "en",
-                        "raw": "'en'"
+                        "raw": "'en'",
+                        "start": 470,
+                        "end": 474
                       }
-                    ]
+                    ],
+                    "start": 454,
+                    "end": 475
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "getHourCycles",
                     "start": 476,
-                    "end": 489,
-                    "name": "getHourCycles"
+                    "end": 489
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 454,
+                  "end": 489
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 454,
+                "end": 491
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 440,
+            "end": 492
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 433,
+        "end": 493
+      },
+      "start": 433,
+      "end": 494
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 495
 }

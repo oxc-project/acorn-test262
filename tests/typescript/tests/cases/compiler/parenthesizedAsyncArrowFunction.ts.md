@@ -2,66 +2,66 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 22,
-  "end": 51,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 51,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 50,
           "id": {
             "type": "Identifier",
-            "start": 26,
-            "end": 29,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 26,
+            "end": 29
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 33,
-            "end": 49,
             "expression": true,
             "async": true,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 39,
-                "end": 42,
                 "decorators": [],
                 "name": "bar",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 39,
+                "end": 42
               }
             ],
             "returnType": null,
             "body": {
               "type": "Identifier",
-              "start": 46,
-              "end": 49,
               "decorators": [],
               "name": "bar",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 46,
+              "end": 49
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 33,
+            "end": 49
           },
-          "definite": false
+          "definite": false,
+          "start": 26,
+          "end": 50
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 22,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 22,
+  "end": 51
 }
 ```

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 221,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 50,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 10,
         "decorators": [],
         "name": "Base",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 10
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 11,
-        "end": 50,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 17,
-            "end": 48,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 17,
-              "end": 20,
               "decorators": [],
               "name": "bar",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 17,
+              "end": 20
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 20,
-              "end": 48,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,81 +45,79 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 23,
-                "end": 48,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 33,
-                    "end": 42,
                     "argument": {
                       "type": "Literal",
-                      "start": 40,
-                      "end": 41,
                       "value": 0,
-                      "raw": "0"
-                    }
+                      "raw": "0",
+                      "start": 40,
+                      "end": 41
+                    },
+                    "start": 33,
+                    "end": 42
                   }
-                ]
+                ],
+                "start": 23,
+                "end": 48
               },
-              "expression": false
+              "expression": false,
+              "start": 20,
+              "end": 48
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 17,
+            "end": 48
           }
-        ]
+        ],
+        "start": 11,
+        "end": 50
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 50
     },
     {
       "type": "ClassDeclaration",
-      "start": 51,
-      "end": 221,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 58,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 57,
+        "end": 58
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 67,
-        "end": 71,
         "decorators": [],
         "name": "Base",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 67,
+        "end": 71
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 72,
-        "end": 221,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 200,
-            "end": 219,
             "decorators": [],
             "key": {
               "type": "CallExpression",
-              "start": 201,
-              "end": 212,
               "callee": {
                 "type": "MemberExpression",
-                "start": 201,
-                "end": 210,
                 "object": {
                   "type": "Super",
                   "start": 201,
@@ -137,24 +125,26 @@ __ESTREE_TEST__:PASS:
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 207,
-                  "end": 210,
                   "decorators": [],
                   "name": "bar",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 207,
+                  "end": 210
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 201,
+                "end": 210
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 201,
+              "end": 212
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 213,
-              "end": 219,
               "id": null,
               "generator": false,
               "async": false,
@@ -164,26 +154,36 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 216,
-                "end": 219,
-                "body": []
+                "end": 219
               },
-              "expression": false
+              "expression": false,
+              "start": 213,
+              "end": 219
             },
             "kind": "method",
             "computed": true,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 200,
+            "end": 219
           }
-        ]
+        ],
+        "start": 72,
+        "end": 221
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 51,
+      "end": 221
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 221
 }
 ```

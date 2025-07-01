@@ -1,49 +1,49 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 791,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 765,
-      "end": 777,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 769,
-          "end": 776,
           "id": {
             "type": "Identifier",
+            "name": "test262",
             "start": 769,
-            "end": 776,
-            "name": "test262"
+            "end": 776
           },
-          "init": null
+          "init": null,
+          "start": 769,
+          "end": 776
         }
-      ]
+      ],
+      "start": 765,
+      "end": 777
     },
     {
       "type": "VariableDeclaration",
-      "start": 778,
-      "end": 790,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 782,
-          "end": 789,
           "id": {
             "type": "Identifier",
+            "name": "test262",
             "start": 782,
-            "end": 789,
-            "name": "test262"
+            "end": 789
           },
-          "init": null
+          "init": null,
+          "start": 782,
+          "end": 789
         }
-      ]
+      ],
+      "start": 778,
+      "end": 790
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 791
 }

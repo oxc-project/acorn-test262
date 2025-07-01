@@ -1,125 +1,125 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 606,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 494,
-      "end": 605,
       "expression": {
         "type": "CallExpression",
-        "start": 494,
-        "end": 604,
         "callee": {
           "type": "Identifier",
+          "name": "testWithBigIntTypedArrayConstructors",
           "start": 494,
-          "end": 530,
-          "name": "testWithBigIntTypedArrayConstructors"
+          "end": 530
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 531,
-            "end": 603,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "TA",
                 "start": 540,
-                "end": 542,
-                "name": "TA"
+                "end": 542
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 544,
-              "end": 603,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 548,
-                  "end": 601,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 548,
-                    "end": 600,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 548,
-                      "end": 561,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 548,
-                        "end": 554,
-                        "name": "assert"
+                        "end": 554
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "throws",
                         "start": 555,
-                        "end": 561,
-                        "name": "throws"
+                        "end": 561
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 548,
+                      "end": 561
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "TypeError",
                         "start": 562,
-                        "end": 571,
-                        "name": "TypeError"
+                        "end": 571
                       },
                       {
                         "type": "FunctionExpression",
-                        "start": 573,
-                        "end": 599,
                         "id": null,
                         "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 584,
-                          "end": 599,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 590,
-                              "end": 595,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 590,
-                                "end": 594,
                                 "callee": {
                                   "type": "Identifier",
+                                  "name": "TA",
                                   "start": 590,
-                                  "end": 592,
-                                  "name": "TA"
+                                  "end": 592
                                 },
                                 "arguments": [],
-                                "optional": false
-                              }
+                                "optional": false,
+                                "start": 590,
+                                "end": 594
+                              },
+                              "start": 590,
+                              "end": 595
                             }
-                          ]
+                          ],
+                          "start": 584,
+                          "end": 599
                         },
-                        "expression": false
+                        "expression": false,
+                        "start": 573,
+                        "end": 599
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 548,
+                    "end": 600
+                  },
+                  "start": 548,
+                  "end": 601
                 }
-              ]
+              ],
+              "start": 544,
+              "end": 603
             },
-            "expression": false
+            "expression": false,
+            "start": 531,
+            "end": 603
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 494,
+        "end": 604
+      },
+      "start": 494,
+      "end": 605
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 606
 }

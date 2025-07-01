@@ -1,158 +1,158 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 443,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 342,
-      "end": 396,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 346,
-          "end": 395,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 346,
-            "end": 349,
-            "name": "obj"
+            "end": 349
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 352,
-            "end": 395,
             "properties": [
               {
                 "type": "Property",
-                "start": 356,
-                "end": 393,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "method",
                   "start": 356,
-                  "end": 362,
-                  "name": "method"
+                  "end": 362
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 362,
-                  "end": 393,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [
                     {
                       "type": "Identifier",
+                      "name": "yield",
                       "start": 363,
-                      "end": 368,
-                      "name": "yield"
+                      "end": 368
                     }
                   ],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 370,
-                    "end": 393,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 376,
-                        "end": 389,
                         "argument": {
                           "type": "Identifier",
+                          "name": "yield",
                           "start": 383,
-                          "end": 388,
-                          "name": "yield"
-                        }
+                          "end": 388
+                        },
+                        "start": 376,
+                        "end": 389
                       }
-                    ]
+                    ],
+                    "start": 370,
+                    "end": 393
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 362,
+                  "end": 393
                 },
                 "method": true,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 356,
+                "end": 393
               }
-            ]
-          }
+            ],
+            "start": 352,
+            "end": 395
+          },
+          "start": 346,
+          "end": 395
         }
-      ]
+      ],
+      "start": 342,
+      "end": 396
     },
     {
       "type": "ExpressionStatement",
-      "start": 399,
-      "end": 442,
       "expression": {
         "type": "CallExpression",
-        "start": 399,
-        "end": 441,
         "callee": {
           "type": "MemberExpression",
-          "start": 399,
-          "end": 415,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 399,
-            "end": 405,
-            "name": "assert"
+            "end": 405
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 406,
-            "end": 415,
-            "name": "sameValue"
+            "end": 415
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 399,
+          "end": 415
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 416,
-            "end": 433,
             "callee": {
               "type": "MemberExpression",
-              "start": 416,
-              "end": 426,
               "object": {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 416,
-                "end": 419,
-                "name": "obj"
+                "end": 419
               },
               "property": {
                 "type": "Identifier",
+                "name": "method",
                 "start": 420,
-                "end": 426,
-                "name": "method"
+                "end": 426
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 416,
+              "end": 426
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 427,
-                "end": 432,
                 "value": "arg",
-                "raw": "'arg'"
+                "raw": "'arg'",
+                "start": 427,
+                "end": 432
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 416,
+            "end": 433
           },
           {
             "type": "Literal",
-            "start": 435,
-            "end": 440,
             "value": "arg",
-            "raw": "'arg'"
+            "raw": "'arg'",
+            "start": 435,
+            "end": 440
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 399,
+        "end": 441
+      },
+      "start": 399,
+      "end": 442
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 443
 }

@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 465,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 340,
-      "end": 464,
       "expression": {
         "type": "CallExpression",
-        "start": 340,
-        "end": 463,
         "callee": {
           "type": "MemberExpression",
-          "start": 340,
-          "end": 353,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 340,
-            "end": 346,
-            "name": "assert"
+            "end": 346
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 347,
-            "end": 353,
-            "name": "throws"
+            "end": 353
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 340,
+          "end": 353
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 354,
-            "end": 363,
-            "name": "TypeError"
+            "end": 363
           },
           {
             "type": "FunctionExpression",
-            "start": 365,
-            "end": 405,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 376,
-              "end": 405,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 380,
-                  "end": 403,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 380,
-                    "end": 402,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 384,
-                      "end": 402,
                       "object": {
                         "type": "Identifier",
+                        "name": "Function",
                         "start": 384,
-                        "end": 392,
-                        "name": "Function"
+                        "end": 392
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 393,
-                        "end": 402,
-                        "name": "prototype"
+                        "end": 402
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 384,
+                      "end": 402
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 380,
+                    "end": 402
+                  },
+                  "start": 380,
+                  "end": 403
                 }
-              ]
+              ],
+              "start": 376,
+              "end": 405
             },
-            "expression": false
+            "expression": false,
+            "start": 365,
+            "end": 405
           },
           {
             "type": "Literal",
-            "start": 407,
-            "end": 462,
             "value": "`new Function.prototype` throws a TypeError exception",
-            "raw": "'`new Function.prototype` throws a TypeError exception'"
+            "raw": "'`new Function.prototype` throws a TypeError exception'",
+            "start": 407,
+            "end": 462
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 340,
+        "end": 463
+      },
+      "start": 340,
+      "end": 464
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 465
 }

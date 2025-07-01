@@ -2,140 +2,140 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 36,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 36,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 15,
-            "end": 34,
             "id": {
               "type": "Identifier",
-              "start": 25,
-              "end": 26,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 25,
+              "end": 26
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 27,
-              "end": 34,
-              "body": []
+              "end": 34
             },
-            "declare": false
+            "declare": false,
+            "start": 15,
+            "end": 34
           }
-        ]
+        ],
+        "start": 9,
+        "end": 36
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 36
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 37,
-      "end": 67,
       "id": {
         "type": "Identifier",
-        "start": 59,
-        "end": 60,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 59,
+        "end": 60
       },
       "moduleReference": {
         "type": "TSQualifiedName",
-        "start": 63,
-        "end": 66,
         "left": {
           "type": "Identifier",
-          "start": 63,
-          "end": 64,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 63,
+          "end": 64
         },
         "right": {
           "type": "Identifier",
-          "start": 65,
-          "end": 66,
           "decorators": [],
           "name": "c",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 65,
+          "end": 66
+        },
+        "start": 63,
+        "end": 66
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 37,
+      "end": 67
     },
     {
       "type": "VariableDeclaration",
-      "start": 68,
-      "end": 77,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 72,
-          "end": 76,
           "id": {
             "type": "Identifier",
-            "start": 72,
-            "end": 76,
             "decorators": [],
             "name": "b",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 73,
-              "end": 76,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 75,
-                "end": 76,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 75,
-                  "end": 76,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 75,
+                  "end": 76
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 75,
+                "end": 76
+              },
+              "start": 73,
+              "end": 76
+            },
+            "start": 72,
+            "end": 76
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 72,
+          "end": 76
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 68,
+      "end": 77
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```

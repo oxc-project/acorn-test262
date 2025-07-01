@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 59,
-  "end": 177,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 59,
-      "end": 72,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 65,
-        "end": 68,
         "decorators": [],
         "name": "any",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 65,
+        "end": 68
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,26 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 69,
-        "end": 72,
-        "body": []
+        "end": 72
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 59,
+      "end": 72
     },
     {
       "type": "ClassDeclaration",
-      "start": 74,
-      "end": 90,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 80,
-        "end": 86,
         "decorators": [],
         "name": "number",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 80,
+        "end": 86
       },
       "typeParameters": null,
       "superClass": null,
@@ -52,26 +48,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 87,
-        "end": 90,
-        "body": []
+        "end": 90
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 74,
+      "end": 90
     },
     {
       "type": "ClassDeclaration",
-      "start": 92,
-      "end": 109,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 98,
-        "end": 105,
         "decorators": [],
         "name": "boolean",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 98,
+        "end": 105
       },
       "typeParameters": null,
       "superClass": null,
@@ -79,26 +75,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 106,
-        "end": 109,
-        "body": []
+        "end": 109
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 92,
+      "end": 109
     },
     {
       "type": "ClassDeclaration",
-      "start": 110,
-      "end": 124,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 116,
-        "end": 120,
         "decorators": [],
         "name": "bool",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 116,
+        "end": 120
       },
       "typeParameters": null,
       "superClass": null,
@@ -106,26 +102,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 121,
-        "end": 124,
-        "body": []
+        "end": 124
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 110,
+      "end": 124
     },
     {
       "type": "ClassDeclaration",
-      "start": 159,
-      "end": 175,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 165,
-        "end": 171,
         "decorators": [],
         "name": "string",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 165,
+        "end": 171
       },
       "typeParameters": null,
       "superClass": null,
@@ -133,15 +129,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 172,
-        "end": 175,
-        "body": []
+        "end": 175
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 159,
+      "end": 175
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 59,
+  "end": 177
 }
 ```

@@ -1,111 +1,111 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 396,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 294,
-      "end": 395,
       "expression": {
         "type": "CallExpression",
-        "start": 294,
-        "end": 394,
         "callee": {
           "type": "MemberExpression",
-          "start": 294,
-          "end": 310,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 294,
-            "end": 300,
-            "name": "assert"
+            "end": 300
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 301,
-            "end": 310,
-            "name": "sameValue"
+            "end": 310
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 294,
+          "end": 310
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 311,
-            "end": 348,
             "callee": {
               "type": "MemberExpression",
-              "start": 311,
-              "end": 329,
               "object": {
                 "type": "ArrayExpression",
-                "start": 311,
-                "end": 317,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 312,
-                    "end": 316,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 312,
+                    "end": 316
                   }
-                ]
+                ],
+                "start": 311,
+                "end": 317
               },
               "property": {
                 "type": "Identifier",
+                "name": "lastIndexOf",
                 "start": 318,
-                "end": 329,
-                "name": "lastIndexOf"
+                "end": 329
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 311,
+              "end": 329
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 330,
-                "end": 334,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 330,
+                "end": 334
               },
               {
                 "type": "Literal",
-                "start": 336,
-                "end": 347,
                 "value": "-Infinity",
-                "raw": "\"-Infinity\""
+                "raw": "\"-Infinity\"",
+                "start": 336,
+                "end": 347
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 311,
+            "end": 348
           },
           {
             "type": "UnaryExpression",
-            "start": 350,
-            "end": 352,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 351,
-              "end": 352,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 351,
+              "end": 352
             },
-            "prefix": true
+            "prefix": true,
+            "start": 350,
+            "end": 352
           },
           {
             "type": "Literal",
-            "start": 354,
-            "end": 393,
             "value": "[true].lastIndexOf(true, \"-Infinity\")",
-            "raw": "'[true].lastIndexOf(true, \"-Infinity\")'"
+            "raw": "'[true].lastIndexOf(true, \"-Infinity\")'",
+            "start": 354,
+            "end": 393
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 294,
+        "end": 394
+      },
+      "start": 294,
+      "end": 395
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 396
 }

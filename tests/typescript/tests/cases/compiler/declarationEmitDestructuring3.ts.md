@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 81,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 30,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,72 +21,72 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "ArrayPattern",
-          "start": 13,
-          "end": 25,
           "decorators": [],
           "elements": [
             {
               "type": "Identifier",
-              "start": 14,
-              "end": 15,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 15
             },
             {
               "type": "Identifier",
-              "start": 17,
-              "end": 18,
               "decorators": [],
               "name": "z",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 17,
+              "end": 18
             },
             {
               "type": "RestElement",
-              "start": 20,
-              "end": 24,
               "decorators": [],
               "argument": {
                 "type": "Identifier",
-                "start": 23,
-                "end": 24,
                 "decorators": [],
                 "name": "w",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 23,
+                "end": 24
               },
               "optional": false,
               "typeAnnotation": null,
-              "value": null
+              "value": null,
+              "start": 20,
+              "end": 24
             }
           ],
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 25
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 27,
-        "end": 30,
-        "body": []
+        "end": 30
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 30
     },
     {
       "type": "FunctionDeclaration",
-      "start": 31,
-      "end": 80,
       "id": {
         "type": "Identifier",
-        "start": 40,
-        "end": 43,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 40,
+        "end": 43
       },
       "generator": false,
       "async": false,
@@ -99,89 +95,93 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 44,
-          "end": 75,
           "decorators": [],
           "left": {
             "type": "ArrayPattern",
-            "start": 44,
-            "end": 53,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 45,
-                "end": 46,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 45,
+                "end": 46
               },
               {
                 "type": "RestElement",
-                "start": 48,
-                "end": 52,
                 "decorators": [],
                 "argument": {
                   "type": "Identifier",
-                  "start": 51,
-                  "end": 52,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 51,
+                  "end": 52
                 },
                 "optional": false,
                 "typeAnnotation": null,
-                "value": null
+                "value": null,
+                "start": 48,
+                "end": 52
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 44,
+            "end": 53
           },
           "right": {
             "type": "ArrayExpression",
-            "start": 56,
-            "end": 75,
             "elements": [
               {
                 "type": "Literal",
-                "start": 57,
-                "end": 58,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 57,
+                "end": 58
               },
               {
                 "type": "Literal",
-                "start": 60,
-                "end": 68,
                 "value": "string",
-                "raw": "\"string\""
+                "raw": "\"string\"",
+                "start": 60,
+                "end": 68
               },
               {
                 "type": "Literal",
-                "start": 70,
-                "end": 74,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 70,
+                "end": 74
               }
-            ]
+            ],
+            "start": 56,
+            "end": 75
           },
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 44,
+          "end": 75
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 77,
-        "end": 80,
-        "body": []
+        "end": 80
       },
-      "expression": false
+      "expression": false,
+      "start": 31,
+      "end": 80
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 81
 }
 ```

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 103,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 103,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,23 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 103,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 39,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "myField",
               "start": 14,
-              "end": 22,
-              "name": "myField"
+              "end": 22
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 25,
-              "end": 38,
               "value": "hello world",
-              "raw": "\"hello world\""
+              "raw": "\"hello world\"",
+              "start": 25,
+              "end": 38
             },
             "computed": false,
             "static": false,
@@ -54,26 +46,24 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 39
           },
           {
             "type": "MethodDefinition",
-            "start": 44,
-            "end": 101,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 44,
-              "end": 55,
               "decorators": [],
               "name": "constructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 44,
+              "end": 55
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 55,
-              "end": 101,
               "id": null,
               "generator": false,
               "async": false,
@@ -83,48 +73,40 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 58,
-                "end": 101,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 68,
-                    "end": 95,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 68,
-                      "end": 94,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 68,
-                        "end": 79,
                         "object": {
                           "type": "Identifier",
-                          "start": 68,
-                          "end": 75,
                           "decorators": [],
                           "name": "console",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 68,
+                          "end": 75
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 76,
-                          "end": 79,
                           "decorators": [],
                           "name": "log",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 76,
+                          "end": 79
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 68,
+                        "end": 79
                       },
                       "typeArguments": null,
                       "arguments": [
                         {
                           "type": "MemberExpression",
-                          "start": 80,
-                          "end": 93,
                           "object": {
                             "type": "ThisExpression",
                             "start": 80,
@@ -132,36 +114,54 @@ __ESTREE_TEST__:PASS:
                           },
                           "property": {
                             "type": "PrivateIdentifier",
+                            "name": "myField",
                             "start": 85,
-                            "end": 93,
-                            "name": "myField"
+                            "end": 93
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 80,
+                          "end": 93
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 68,
+                      "end": 94
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 68,
+                    "end": 95
                   }
-                ]
+                ],
+                "start": 58,
+                "end": 101
               },
-              "expression": false
+              "expression": false,
+              "start": 55,
+              "end": 101
             },
             "kind": "constructor",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 44,
+            "end": 101
           }
-        ]
+        ],
+        "start": 8,
+        "end": 103
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 103
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 103
 }
 ```

@@ -1,126 +1,126 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 669,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 350,
-      "end": 381,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 354,
-          "end": 380,
           "id": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 354,
-            "end": 359,
-            "name": "__obj"
+            "end": 359
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 360,
-            "end": 380,
             "properties": [
               {
                 "type": "Property",
-                "start": 361,
-                "end": 379,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "fooProp",
                   "start": 361,
-                  "end": 368,
-                  "name": "fooProp"
+                  "end": 368
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 369,
-                  "end": 379,
                   "value": "fooooooo",
-                  "raw": "\"fooooooo\""
+                  "raw": "\"fooooooo\"",
+                  "start": 369,
+                  "end": 379
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 361,
+                "end": 379
               }
-            ]
-          }
+            ],
+            "start": 360,
+            "end": 380
+          },
+          "start": 354,
+          "end": 380
         }
-      ]
+      ],
+      "start": 350,
+      "end": 381
     },
     {
       "type": "IfStatement",
-      "start": 472,
-      "end": 586,
       "test": {
         "type": "UnaryExpression",
-        "start": 476,
-        "end": 497,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 477,
-          "end": 497,
           "expression": {
             "type": "BinaryExpression",
-            "start": 478,
-            "end": 496,
             "left": {
               "type": "Literal",
-              "start": 478,
-              "end": 487,
               "value": "fooProp",
-              "raw": "\"fooProp\""
+              "raw": "\"fooProp\"",
+              "start": 478,
+              "end": 487
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
+              "name": "__obj",
               "start": 491,
-              "end": 496,
-              "name": "__obj"
-            }
-          }
+              "end": 496
+            },
+            "start": 478,
+            "end": 496
+          },
+          "start": 477,
+          "end": 497
         },
-        "prefix": true
+        "prefix": true,
+        "start": 476,
+        "end": 497
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 499,
-        "end": 586,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 503,
-            "end": 584,
             "argument": {
               "type": "NewExpression",
-              "start": 509,
-              "end": 583,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 513,
-                "end": 525,
-                "name": "Test262Error"
+                "end": 525
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 526,
-                  "end": 582,
                   "value": "#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj",
-                  "raw": "'#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj'"
+                  "raw": "'#1: var __obj={fooProp:\"fooooooo\"}; \"fooProp\" in __obj'",
+                  "start": 526,
+                  "end": 582
                 }
-              ]
-            }
+              ],
+              "start": 509,
+              "end": 583
+            },
+            "start": 503,
+            "end": 584
           }
-        ]
+        ],
+        "start": 499,
+        "end": 586
       },
-      "alternate": null
+      "alternate": null,
+      "start": 472,
+      "end": 586
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 669
 }

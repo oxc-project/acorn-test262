@@ -1,146 +1,146 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 338,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 223,
-      "end": 243,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 227,
-          "end": 242,
           "id": {
             "type": "Identifier",
+            "name": "arrObj",
             "start": 227,
-            "end": 233,
-            "name": "arrObj"
+            "end": 233
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 236,
-            "end": 242,
             "elements": [
               {
                 "type": "Literal",
-                "start": 237,
-                "end": 238,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 237,
+                "end": 238
               },
               {
                 "type": "Literal",
-                "start": 240,
-                "end": 241,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 240,
+                "end": 241
               }
-            ]
-          }
+            ],
+            "start": 236,
+            "end": 242
+          },
+          "start": 227,
+          "end": 242
         }
-      ]
+      ],
+      "start": 223,
+      "end": 243
     },
     {
       "type": "ExpressionStatement",
-      "start": 245,
-      "end": 267,
       "expression": {
         "type": "CallExpression",
-        "start": 245,
-        "end": 266,
         "callee": {
           "type": "MemberExpression",
-          "start": 245,
-          "end": 258,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 245,
-            "end": 251,
-            "name": "Object"
+            "end": 251
           },
           "property": {
             "type": "Identifier",
+            "name": "freeze",
             "start": 252,
-            "end": 258,
-            "name": "freeze"
+            "end": 258
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 245,
+          "end": 258
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "arrObj",
             "start": 259,
-            "end": 265,
-            "name": "arrObj"
+            "end": 265
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 245,
+        "end": 266
+      },
+      "start": 245,
+      "end": 267
     },
     {
       "type": "ExpressionStatement",
-      "start": 269,
-      "end": 337,
       "expression": {
         "type": "CallExpression",
-        "start": 269,
-        "end": 336,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 269,
-          "end": 275,
-          "name": "assert"
+          "end": 275
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 276,
-            "end": 299,
             "callee": {
               "type": "MemberExpression",
-              "start": 276,
-              "end": 291,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 276,
-                "end": 282,
-                "name": "Object"
+                "end": 282
               },
               "property": {
                 "type": "Identifier",
+                "name": "isFrozen",
                 "start": 283,
-                "end": 291,
-                "name": "isFrozen"
+                "end": 291
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 276,
+              "end": 291
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "arrObj",
                 "start": 292,
-                "end": 298,
-                "name": "arrObj"
+                "end": 298
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 276,
+            "end": 299
           },
           {
             "type": "Literal",
-            "start": 301,
-            "end": 335,
             "value": "Object.isFrozen(arrObj) !== true",
-            "raw": "'Object.isFrozen(arrObj) !== true'"
+            "raw": "'Object.isFrozen(arrObj) !== true'",
+            "start": 301,
+            "end": 335
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 269,
+        "end": 336
+      },
+      "start": 269,
+      "end": 337
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 338
 }

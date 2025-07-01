@@ -2,17 +2,11 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 24,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 23,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 23,
         "decorators": [],
         "id": null,
         "typeParameters": null,
@@ -21,35 +15,35 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 21,
-          "end": 23,
-          "body": []
+          "end": 23
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 23
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 23
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 24
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 28,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 15,
-        "end": 28,
         "id": null,
         "generator": false,
         "async": false,
@@ -59,16 +53,22 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 26,
-          "end": 28,
-          "body": []
+          "end": 28
         },
-        "expression": false
+        "expression": false,
+        "start": 15,
+        "end": 28
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 28
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```

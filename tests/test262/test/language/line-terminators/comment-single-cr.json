@@ -1,26 +1,26 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 852,
   "body": [
     {
       "type": "ThrowStatement",
-      "start": 826,
-      "end": 851,
       "argument": {
         "type": "NewExpression",
-        "start": 832,
-        "end": 850,
         "callee": {
           "type": "Identifier",
+          "name": "Test262Error",
           "start": 836,
-          "end": 848,
-          "name": "Test262Error"
+          "end": 848
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 832,
+        "end": 850
+      },
+      "start": 826,
+      "end": 851
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 852
 }

@@ -1,931 +1,931 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 7035,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 485,
-      "end": 7034,
       "expression": {
         "type": "CallExpression",
-        "start": 485,
-        "end": 7033,
         "callee": {
           "type": "Identifier",
+          "name": "testPropertyOfStrings",
           "start": 485,
-          "end": 506,
-          "name": "testPropertyOfStrings"
+          "end": 506
         },
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 507,
-            "end": 7032,
             "properties": [
               {
                 "type": "Property",
-                "start": 511,
-                "end": 538,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "regExp",
                   "start": 511,
-                  "end": 517,
-                  "name": "regExp"
+                  "end": 517
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 519,
-                  "end": 538,
                   "value": null,
                   "raw": "/^\\p{RGI_Emoji}+$/v",
                   "regex": {
                     "pattern": "^\\p{RGI_Emoji}+$",
                     "flags": "v"
-                  }
+                  },
+                  "start": 519,
+                  "end": 538
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 511,
+                "end": 538
               },
               {
                 "type": "Property",
-                "start": 542,
-                "end": 570,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "expression",
                   "start": 542,
-                  "end": 552,
-                  "name": "expression"
+                  "end": 552
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 554,
-                  "end": 570,
                   "value": "\\p{RGI_Emoji}",
-                  "raw": "\"\\\\p{RGI_Emoji}\""
+                  "raw": "\"\\\\p{RGI_Emoji}\"",
+                  "start": 554,
+                  "end": 570
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 542,
+                "end": 570
               },
               {
                 "type": "Property",
-                "start": 574,
-                "end": 7029,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "matchStrings",
                   "start": 574,
-                  "end": 586,
-                  "name": "matchStrings"
+                  "end": 586
                 },
                 "value": {
                   "type": "ArrayExpression",
-                  "start": 588,
-                  "end": 7029,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 594,
-                      "end": 623,
                       "value": "⛓️‍💥",
-                      "raw": "\"\\u26D3\\uFE0F\\u200D\\u{1F4A5}\""
+                      "raw": "\"\\u26D3\\uFE0F\\u200D\\u{1F4A5}\"",
+                      "start": 594,
+                      "end": 623
                     },
                     {
                       "type": "Literal",
-                      "start": 629,
-                      "end": 655,
                       "value": "🍄‍🟫",
-                      "raw": "\"\\u{1F344}\\u200D\\u{1F7EB}\""
+                      "raw": "\"\\u{1F344}\\u200D\\u{1F7EB}\"",
+                      "start": 629,
+                      "end": 655
                     },
                     {
                       "type": "Literal",
-                      "start": 661,
-                      "end": 687,
                       "value": "🍋‍🟩",
-                      "raw": "\"\\u{1F34B}\\u200D\\u{1F7E9}\""
+                      "raw": "\"\\u{1F34B}\\u200D\\u{1F7E9}\"",
+                      "start": 661,
+                      "end": 687
                     },
                     {
                       "type": "Literal",
-                      "start": 693,
-                      "end": 740,
                       "value": "🏃‍♀️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 693,
+                      "end": 740
                     },
                     {
                       "type": "Literal",
-                      "start": 746,
-                      "end": 793,
                       "value": "🏃‍♂️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 746,
+                      "end": 793
                     },
                     {
                       "type": "Literal",
-                      "start": 799,
-                      "end": 828,
                       "value": "🏃‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 799,
+                      "end": 828
                     },
                     {
                       "type": "Literal",
-                      "start": 834,
-                      "end": 890,
                       "value": "🏃🏻‍♀️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FB}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FB}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 834,
+                      "end": 890
                     },
                     {
                       "type": "Literal",
-                      "start": 896,
-                      "end": 952,
                       "value": "🏃🏻‍♂️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FB}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FB}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 896,
+                      "end": 952
                     },
                     {
                       "type": "Literal",
-                      "start": 958,
-                      "end": 996,
                       "value": "🏃🏻‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FB}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FB}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 958,
+                      "end": 996
                     },
                     {
                       "type": "Literal",
-                      "start": 1002,
-                      "end": 1058,
                       "value": "🏃🏼‍♀️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FC}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FC}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1002,
+                      "end": 1058
                     },
                     {
                       "type": "Literal",
-                      "start": 1064,
-                      "end": 1120,
                       "value": "🏃🏼‍♂️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FC}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FC}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1064,
+                      "end": 1120
                     },
                     {
                       "type": "Literal",
-                      "start": 1126,
-                      "end": 1164,
                       "value": "🏃🏼‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1126,
+                      "end": 1164
                     },
                     {
                       "type": "Literal",
-                      "start": 1170,
-                      "end": 1226,
                       "value": "🏃🏽‍♀️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FD}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FD}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1170,
+                      "end": 1226
                     },
                     {
                       "type": "Literal",
-                      "start": 1232,
-                      "end": 1288,
                       "value": "🏃🏽‍♂️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FD}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FD}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1232,
+                      "end": 1288
                     },
                     {
                       "type": "Literal",
-                      "start": 1294,
-                      "end": 1332,
                       "value": "🏃🏽‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1294,
+                      "end": 1332
                     },
                     {
                       "type": "Literal",
-                      "start": 1338,
-                      "end": 1394,
                       "value": "🏃🏾‍♀️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FE}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FE}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1338,
+                      "end": 1394
                     },
                     {
                       "type": "Literal",
-                      "start": 1400,
-                      "end": 1456,
                       "value": "🏃🏾‍♂️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FE}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FE}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1400,
+                      "end": 1456
                     },
                     {
                       "type": "Literal",
-                      "start": 1462,
-                      "end": 1500,
                       "value": "🏃🏾‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FE}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FE}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1462,
+                      "end": 1500
                     },
                     {
                       "type": "Literal",
-                      "start": 1506,
-                      "end": 1562,
                       "value": "🏃🏿‍♀️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FF}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FF}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1506,
+                      "end": 1562
                     },
                     {
                       "type": "Literal",
-                      "start": 1568,
-                      "end": 1624,
                       "value": "🏃🏿‍♂️‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FF}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FF}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1568,
+                      "end": 1624
                     },
                     {
                       "type": "Literal",
-                      "start": 1630,
-                      "end": 1668,
                       "value": "🏃🏿‍➡️",
-                      "raw": "\"\\u{1F3C3}\\u{1F3FF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F3C3}\\u{1F3FF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1630,
+                      "end": 1668
                     },
                     {
                       "type": "Literal",
-                      "start": 1674,
-                      "end": 1700,
                       "value": "🐦‍🔥",
-                      "raw": "\"\\u{1F426}\\u200D\\u{1F525}\""
+                      "raw": "\"\\u{1F426}\\u200D\\u{1F525}\"",
+                      "start": 1674,
+                      "end": 1700
                     },
                     {
                       "type": "Literal",
-                      "start": 1706,
-                      "end": 1750,
                       "value": "👨‍🦯‍➡️",
-                      "raw": "\"\\u{1F468}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1706,
+                      "end": 1750
                     },
                     {
                       "type": "Literal",
-                      "start": 1756,
-                      "end": 1800,
                       "value": "👨‍🦼‍➡️",
-                      "raw": "\"\\u{1F468}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1756,
+                      "end": 1800
                     },
                     {
                       "type": "Literal",
-                      "start": 1806,
-                      "end": 1850,
                       "value": "👨‍🦽‍➡️",
-                      "raw": "\"\\u{1F468}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1806,
+                      "end": 1850
                     },
                     {
                       "type": "Literal",
-                      "start": 1856,
-                      "end": 1909,
                       "value": "👨🏻‍🦯‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1856,
+                      "end": 1909
                     },
                     {
                       "type": "Literal",
-                      "start": 1915,
-                      "end": 1968,
                       "value": "👨🏻‍🦼‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1915,
+                      "end": 1968
                     },
                     {
                       "type": "Literal",
-                      "start": 1974,
-                      "end": 2027,
                       "value": "👨🏻‍🦽‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FB}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 1974,
+                      "end": 2027
                     },
                     {
                       "type": "Literal",
-                      "start": 2033,
-                      "end": 2086,
                       "value": "👨🏼‍🦯‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2033,
+                      "end": 2086
                     },
                     {
                       "type": "Literal",
-                      "start": 2092,
-                      "end": 2145,
                       "value": "👨🏼‍🦼‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2092,
+                      "end": 2145
                     },
                     {
                       "type": "Literal",
-                      "start": 2151,
-                      "end": 2204,
                       "value": "👨🏼‍🦽‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FC}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2151,
+                      "end": 2204
                     },
                     {
                       "type": "Literal",
-                      "start": 2210,
-                      "end": 2263,
                       "value": "👨🏽‍🦯‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2210,
+                      "end": 2263
                     },
                     {
                       "type": "Literal",
-                      "start": 2269,
-                      "end": 2322,
                       "value": "👨🏽‍🦼‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2269,
+                      "end": 2322
                     },
                     {
                       "type": "Literal",
-                      "start": 2328,
-                      "end": 2381,
                       "value": "👨🏽‍🦽‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FD}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2328,
+                      "end": 2381
                     },
                     {
                       "type": "Literal",
-                      "start": 2387,
-                      "end": 2440,
                       "value": "👨🏾‍🦯‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2387,
+                      "end": 2440
                     },
                     {
                       "type": "Literal",
-                      "start": 2446,
-                      "end": 2499,
                       "value": "👨🏾‍🦼‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2446,
+                      "end": 2499
                     },
                     {
                       "type": "Literal",
-                      "start": 2505,
-                      "end": 2558,
                       "value": "👨🏾‍🦽‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FE}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2505,
+                      "end": 2558
                     },
                     {
                       "type": "Literal",
-                      "start": 2564,
-                      "end": 2617,
                       "value": "👨🏿‍🦯‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2564,
+                      "end": 2617
                     },
                     {
                       "type": "Literal",
-                      "start": 2623,
-                      "end": 2676,
                       "value": "👨🏿‍🦼‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2623,
+                      "end": 2676
                     },
                     {
                       "type": "Literal",
-                      "start": 2682,
-                      "end": 2735,
                       "value": "👨🏿‍🦽‍➡️",
-                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F468}\\u{1F3FF}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2682,
+                      "end": 2735
                     },
                     {
                       "type": "Literal",
-                      "start": 2741,
-                      "end": 2785,
                       "value": "👩‍🦯‍➡️",
-                      "raw": "\"\\u{1F469}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2741,
+                      "end": 2785
                     },
                     {
                       "type": "Literal",
-                      "start": 2791,
-                      "end": 2835,
                       "value": "👩‍🦼‍➡️",
-                      "raw": "\"\\u{1F469}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2791,
+                      "end": 2835
                     },
                     {
                       "type": "Literal",
-                      "start": 2841,
-                      "end": 2885,
                       "value": "👩‍🦽‍➡️",
-                      "raw": "\"\\u{1F469}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2841,
+                      "end": 2885
                     },
                     {
                       "type": "Literal",
-                      "start": 2891,
-                      "end": 2944,
                       "value": "👩🏻‍🦯‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2891,
+                      "end": 2944
                     },
                     {
                       "type": "Literal",
-                      "start": 2950,
-                      "end": 3003,
                       "value": "👩🏻‍🦼‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 2950,
+                      "end": 3003
                     },
                     {
                       "type": "Literal",
-                      "start": 3009,
-                      "end": 3062,
                       "value": "👩🏻‍🦽‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FB}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3009,
+                      "end": 3062
                     },
                     {
                       "type": "Literal",
-                      "start": 3068,
-                      "end": 3121,
                       "value": "👩🏼‍🦯‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3068,
+                      "end": 3121
                     },
                     {
                       "type": "Literal",
-                      "start": 3127,
-                      "end": 3180,
                       "value": "👩🏼‍🦼‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3127,
+                      "end": 3180
                     },
                     {
                       "type": "Literal",
-                      "start": 3186,
-                      "end": 3239,
                       "value": "👩🏼‍🦽‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FC}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3186,
+                      "end": 3239
                     },
                     {
                       "type": "Literal",
-                      "start": 3245,
-                      "end": 3298,
                       "value": "👩🏽‍🦯‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3245,
+                      "end": 3298
                     },
                     {
                       "type": "Literal",
-                      "start": 3304,
-                      "end": 3357,
                       "value": "👩🏽‍🦼‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3304,
+                      "end": 3357
                     },
                     {
                       "type": "Literal",
-                      "start": 3363,
-                      "end": 3416,
                       "value": "👩🏽‍🦽‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FD}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3363,
+                      "end": 3416
                     },
                     {
                       "type": "Literal",
-                      "start": 3422,
-                      "end": 3475,
                       "value": "👩🏾‍🦯‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3422,
+                      "end": 3475
                     },
                     {
                       "type": "Literal",
-                      "start": 3481,
-                      "end": 3534,
                       "value": "👩🏾‍🦼‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3481,
+                      "end": 3534
                     },
                     {
                       "type": "Literal",
-                      "start": 3540,
-                      "end": 3593,
                       "value": "👩🏾‍🦽‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FE}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3540,
+                      "end": 3593
                     },
                     {
                       "type": "Literal",
-                      "start": 3599,
-                      "end": 3652,
                       "value": "👩🏿‍🦯‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3599,
+                      "end": 3652
                     },
                     {
                       "type": "Literal",
-                      "start": 3658,
-                      "end": 3711,
                       "value": "👩🏿‍🦼‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3658,
+                      "end": 3711
                     },
                     {
                       "type": "Literal",
-                      "start": 3717,
-                      "end": 3770,
                       "value": "👩🏿‍🦽‍➡️",
-                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F469}\\u{1F3FF}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3717,
+                      "end": 3770
                     },
                     {
                       "type": "Literal",
-                      "start": 3776,
-                      "end": 3805,
                       "value": "🙂‍↔️",
-                      "raw": "\"\\u{1F642}\\u200D\\u2194\\uFE0F\""
+                      "raw": "\"\\u{1F642}\\u200D\\u2194\\uFE0F\"",
+                      "start": 3776,
+                      "end": 3805
                     },
                     {
                       "type": "Literal",
-                      "start": 3811,
-                      "end": 3840,
                       "value": "🙂‍↕️",
-                      "raw": "\"\\u{1F642}\\u200D\\u2195\\uFE0F\""
+                      "raw": "\"\\u{1F642}\\u200D\\u2195\\uFE0F\"",
+                      "start": 3811,
+                      "end": 3840
                     },
                     {
                       "type": "Literal",
-                      "start": 3846,
-                      "end": 3893,
                       "value": "🚶‍♀️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3846,
+                      "end": 3893
                     },
                     {
                       "type": "Literal",
-                      "start": 3899,
-                      "end": 3946,
                       "value": "🚶‍♂️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3899,
+                      "end": 3946
                     },
                     {
                       "type": "Literal",
-                      "start": 3952,
-                      "end": 3981,
                       "value": "🚶‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3952,
+                      "end": 3981
                     },
                     {
                       "type": "Literal",
-                      "start": 3987,
-                      "end": 4043,
                       "value": "🚶🏻‍♀️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FB}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FB}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 3987,
+                      "end": 4043
                     },
                     {
                       "type": "Literal",
-                      "start": 4049,
-                      "end": 4105,
                       "value": "🚶🏻‍♂️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FB}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FB}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4049,
+                      "end": 4105
                     },
                     {
                       "type": "Literal",
-                      "start": 4111,
-                      "end": 4149,
                       "value": "🚶🏻‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FB}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FB}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4111,
+                      "end": 4149
                     },
                     {
                       "type": "Literal",
-                      "start": 4155,
-                      "end": 4211,
                       "value": "🚶🏼‍♀️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FC}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FC}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4155,
+                      "end": 4211
                     },
                     {
                       "type": "Literal",
-                      "start": 4217,
-                      "end": 4273,
                       "value": "🚶🏼‍♂️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FC}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FC}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4217,
+                      "end": 4273
                     },
                     {
                       "type": "Literal",
-                      "start": 4279,
-                      "end": 4317,
                       "value": "🚶🏼‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4279,
+                      "end": 4317
                     },
                     {
                       "type": "Literal",
-                      "start": 4323,
-                      "end": 4379,
                       "value": "🚶🏽‍♀️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FD}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FD}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4323,
+                      "end": 4379
                     },
                     {
                       "type": "Literal",
-                      "start": 4385,
-                      "end": 4441,
                       "value": "🚶🏽‍♂️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FD}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FD}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4385,
+                      "end": 4441
                     },
                     {
                       "type": "Literal",
-                      "start": 4447,
-                      "end": 4485,
                       "value": "🚶🏽‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4447,
+                      "end": 4485
                     },
                     {
                       "type": "Literal",
-                      "start": 4491,
-                      "end": 4547,
                       "value": "🚶🏾‍♀️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FE}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FE}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4491,
+                      "end": 4547
                     },
                     {
                       "type": "Literal",
-                      "start": 4553,
-                      "end": 4609,
                       "value": "🚶🏾‍♂️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FE}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FE}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4553,
+                      "end": 4609
                     },
                     {
                       "type": "Literal",
-                      "start": 4615,
-                      "end": 4653,
                       "value": "🚶🏾‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FE}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FE}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4615,
+                      "end": 4653
                     },
                     {
                       "type": "Literal",
-                      "start": 4659,
-                      "end": 4715,
                       "value": "🚶🏿‍♀️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FF}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FF}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4659,
+                      "end": 4715
                     },
                     {
                       "type": "Literal",
-                      "start": 4721,
-                      "end": 4777,
                       "value": "🚶🏿‍♂️‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FF}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FF}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4721,
+                      "end": 4777
                     },
                     {
                       "type": "Literal",
-                      "start": 4783,
-                      "end": 4821,
                       "value": "🚶🏿‍➡️",
-                      "raw": "\"\\u{1F6B6}\\u{1F3FF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F6B6}\\u{1F3FF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4783,
+                      "end": 4821
                     },
                     {
                       "type": "Literal",
-                      "start": 4827,
-                      "end": 4874,
                       "value": "🧎‍♀️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4827,
+                      "end": 4874
                     },
                     {
                       "type": "Literal",
-                      "start": 4880,
-                      "end": 4927,
                       "value": "🧎‍♂️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4880,
+                      "end": 4927
                     },
                     {
                       "type": "Literal",
-                      "start": 4933,
-                      "end": 4962,
                       "value": "🧎‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4933,
+                      "end": 4962
                     },
                     {
                       "type": "Literal",
-                      "start": 4968,
-                      "end": 5024,
                       "value": "🧎🏻‍♀️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FB}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FB}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 4968,
+                      "end": 5024
                     },
                     {
                       "type": "Literal",
-                      "start": 5030,
-                      "end": 5086,
                       "value": "🧎🏻‍♂️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FB}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FB}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5030,
+                      "end": 5086
                     },
                     {
                       "type": "Literal",
-                      "start": 5092,
-                      "end": 5130,
                       "value": "🧎🏻‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FB}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FB}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5092,
+                      "end": 5130
                     },
                     {
                       "type": "Literal",
-                      "start": 5136,
-                      "end": 5192,
                       "value": "🧎🏼‍♀️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FC}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FC}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5136,
+                      "end": 5192
                     },
                     {
                       "type": "Literal",
-                      "start": 5198,
-                      "end": 5254,
                       "value": "🧎🏼‍♂️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FC}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FC}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5198,
+                      "end": 5254
                     },
                     {
                       "type": "Literal",
-                      "start": 5260,
-                      "end": 5298,
                       "value": "🧎🏼‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5260,
+                      "end": 5298
                     },
                     {
                       "type": "Literal",
-                      "start": 5304,
-                      "end": 5360,
                       "value": "🧎🏽‍♀️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FD}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FD}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5304,
+                      "end": 5360
                     },
                     {
                       "type": "Literal",
-                      "start": 5366,
-                      "end": 5422,
                       "value": "🧎🏽‍♂️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FD}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FD}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5366,
+                      "end": 5422
                     },
                     {
                       "type": "Literal",
-                      "start": 5428,
-                      "end": 5466,
                       "value": "🧎🏽‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5428,
+                      "end": 5466
                     },
                     {
                       "type": "Literal",
-                      "start": 5472,
-                      "end": 5528,
                       "value": "🧎🏾‍♀️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FE}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FE}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5472,
+                      "end": 5528
                     },
                     {
                       "type": "Literal",
-                      "start": 5534,
-                      "end": 5590,
                       "value": "🧎🏾‍♂️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FE}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FE}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5534,
+                      "end": 5590
                     },
                     {
                       "type": "Literal",
-                      "start": 5596,
-                      "end": 5634,
                       "value": "🧎🏾‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FE}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FE}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5596,
+                      "end": 5634
                     },
                     {
                       "type": "Literal",
-                      "start": 5640,
-                      "end": 5696,
                       "value": "🧎🏿‍♀️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FF}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FF}\\u200D\\u2640\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5640,
+                      "end": 5696
                     },
                     {
                       "type": "Literal",
-                      "start": 5702,
-                      "end": 5758,
                       "value": "🧎🏿‍♂️‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FF}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FF}\\u200D\\u2642\\uFE0F\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5702,
+                      "end": 5758
                     },
                     {
                       "type": "Literal",
-                      "start": 5764,
-                      "end": 5802,
                       "value": "🧎🏿‍➡️",
-                      "raw": "\"\\u{1F9CE}\\u{1F3FF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9CE}\\u{1F3FF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5764,
+                      "end": 5802
                     },
                     {
                       "type": "Literal",
-                      "start": 5808,
-                      "end": 5852,
                       "value": "🧑‍🦯‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5808,
+                      "end": 5852
                     },
                     {
                       "type": "Literal",
-                      "start": 5858,
-                      "end": 5902,
                       "value": "🧑‍🦼‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5858,
+                      "end": 5902
                     },
                     {
                       "type": "Literal",
-                      "start": 5908,
-                      "end": 5952,
                       "value": "🧑‍🦽‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 5908,
+                      "end": 5952
                     },
                     {
                       "type": "Literal",
-                      "start": 5958,
-                      "end": 5999,
                       "value": "🧑‍🧑‍🧒",
-                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9D1}\\u200D\\u{1F9D2}\""
+                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9D1}\\u200D\\u{1F9D2}\"",
+                      "start": 5958,
+                      "end": 5999
                     },
                     {
                       "type": "Literal",
-                      "start": 6005,
-                      "end": 6061,
                       "value": "🧑‍🧑‍🧒‍🧒",
-                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9D1}\\u200D\\u{1F9D2}\\u200D\\u{1F9D2}\""
+                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9D1}\\u200D\\u{1F9D2}\\u200D\\u{1F9D2}\"",
+                      "start": 6005,
+                      "end": 6061
                     },
                     {
                       "type": "Literal",
-                      "start": 6067,
-                      "end": 6093,
                       "value": "🧑‍🧒",
-                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9D2}\""
+                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9D2}\"",
+                      "start": 6067,
+                      "end": 6093
                     },
                     {
                       "type": "Literal",
-                      "start": 6099,
-                      "end": 6140,
                       "value": "🧑‍🧒‍🧒",
-                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9D2}\\u200D\\u{1F9D2}\""
+                      "raw": "\"\\u{1F9D1}\\u200D\\u{1F9D2}\\u200D\\u{1F9D2}\"",
+                      "start": 6099,
+                      "end": 6140
                     },
                     {
                       "type": "Literal",
-                      "start": 6146,
-                      "end": 6199,
                       "value": "🧑🏻‍🦯‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6146,
+                      "end": 6199
                     },
                     {
                       "type": "Literal",
-                      "start": 6205,
-                      "end": 6258,
                       "value": "🧑🏻‍🦼‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6205,
+                      "end": 6258
                     },
                     {
                       "type": "Literal",
-                      "start": 6264,
-                      "end": 6317,
                       "value": "🧑🏻‍🦽‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FB}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6264,
+                      "end": 6317
                     },
                     {
                       "type": "Literal",
-                      "start": 6323,
-                      "end": 6376,
                       "value": "🧑🏼‍🦯‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6323,
+                      "end": 6376
                     },
                     {
                       "type": "Literal",
-                      "start": 6382,
-                      "end": 6435,
                       "value": "🧑🏼‍🦼‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6382,
+                      "end": 6435
                     },
                     {
                       "type": "Literal",
-                      "start": 6441,
-                      "end": 6494,
                       "value": "🧑🏼‍🦽‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FC}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6441,
+                      "end": 6494
                     },
                     {
                       "type": "Literal",
-                      "start": 6500,
-                      "end": 6553,
                       "value": "🧑🏽‍🦯‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6500,
+                      "end": 6553
                     },
                     {
                       "type": "Literal",
-                      "start": 6559,
-                      "end": 6612,
                       "value": "🧑🏽‍🦼‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6559,
+                      "end": 6612
                     },
                     {
                       "type": "Literal",
-                      "start": 6618,
-                      "end": 6671,
                       "value": "🧑🏽‍🦽‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FD}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6618,
+                      "end": 6671
                     },
                     {
                       "type": "Literal",
-                      "start": 6677,
-                      "end": 6730,
                       "value": "🧑🏾‍🦯‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6677,
+                      "end": 6730
                     },
                     {
                       "type": "Literal",
-                      "start": 6736,
-                      "end": 6789,
                       "value": "🧑🏾‍🦼‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6736,
+                      "end": 6789
                     },
                     {
                       "type": "Literal",
-                      "start": 6795,
-                      "end": 6848,
                       "value": "🧑🏾‍🦽‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FE}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6795,
+                      "end": 6848
                     },
                     {
                       "type": "Literal",
-                      "start": 6854,
-                      "end": 6907,
                       "value": "🧑🏿‍🦯‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F9AF}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6854,
+                      "end": 6907
                     },
                     {
                       "type": "Literal",
-                      "start": 6913,
-                      "end": 6966,
                       "value": "🧑🏿‍🦼‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F9BC}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6913,
+                      "end": 6966
                     },
                     {
                       "type": "Literal",
-                      "start": 6972,
-                      "end": 7025,
                       "value": "🧑🏿‍🦽‍➡️",
-                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\""
+                      "raw": "\"\\u{1F9D1}\\u{1F3FF}\\u200D\\u{1F9BD}\\u200D\\u27A1\\uFE0F\"",
+                      "start": 6972,
+                      "end": 7025
                     }
-                  ]
+                  ],
+                  "start": 588,
+                  "end": 7029
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 574,
+                "end": 7029
               }
-            ]
+            ],
+            "start": 507,
+            "end": 7032
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 485,
+        "end": 7033
+      },
+      "start": 485,
+      "end": 7034
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 7035
 }

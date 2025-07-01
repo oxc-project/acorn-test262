@@ -1,208 +1,208 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 835,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 665,
-      "end": 689,
       "id": {
         "type": "Identifier",
+        "name": "Superclass",
         "start": 674,
-        "end": 684,
-        "name": "Superclass"
+        "end": 684
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 687,
-        "end": 689,
-        "body": []
+        "end": 689
       },
-      "expression": false
+      "expression": false,
+      "start": 665,
+      "end": 689
     },
     {
       "type": "ExpressionStatement",
-      "start": 690,
-      "end": 728,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 690,
-        "end": 727,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 690,
-          "end": 710,
           "object": {
             "type": "Identifier",
+            "name": "Superclass",
             "start": 690,
-            "end": 700,
-            "name": "Superclass"
+            "end": 700
           },
           "property": {
             "type": "Identifier",
+            "name": "prototype",
             "start": 701,
-            "end": 710,
-            "name": "prototype"
+            "end": 710
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 690,
+          "end": 710
         },
         "right": {
           "type": "MemberExpression",
-          "start": 713,
-          "end": 727,
           "object": {
             "type": "Identifier",
+            "name": "$262",
             "start": 713,
-            "end": 717,
-            "name": "$262"
+            "end": 717
           },
           "property": {
             "type": "Identifier",
+            "name": "IsHTMLDDA",
             "start": 718,
-            "end": 727,
-            "name": "IsHTMLDDA"
+            "end": 727
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 713,
+          "end": 727
+        },
+        "start": 690,
+        "end": 727
+      },
+      "start": 690,
+      "end": 728
     },
     {
       "type": "ClassDeclaration",
-      "start": 730,
-      "end": 759,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 736,
-        "end": 737,
-        "name": "C"
+        "end": 737
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Superclass",
         "start": 746,
-        "end": 756,
-        "name": "Superclass"
+        "end": 756
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 757,
-        "end": 759,
-        "body": []
-      }
+        "end": 759
+      },
+      "start": 730,
+      "end": 759
     },
     {
       "type": "VariableDeclaration",
-      "start": 760,
-      "end": 776,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 764,
-          "end": 775,
           "id": {
             "type": "Identifier",
+            "name": "c",
             "start": 764,
-            "end": 765,
-            "name": "c"
+            "end": 765
           },
           "init": {
             "type": "NewExpression",
-            "start": 768,
-            "end": 775,
             "callee": {
               "type": "Identifier",
+              "name": "C",
               "start": 772,
-              "end": 773,
-              "name": "C"
+              "end": 773
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 768,
+            "end": 775
+          },
+          "start": 764,
+          "end": 775
         }
-      ]
+      ],
+      "start": 760,
+      "end": 776
     },
     {
       "type": "ExpressionStatement",
-      "start": 778,
-      "end": 801,
       "expression": {
         "type": "CallExpression",
-        "start": 778,
-        "end": 800,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 778,
-          "end": 784,
-          "name": "assert"
+          "end": 784
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 785,
-            "end": 799,
             "left": {
               "type": "Identifier",
+              "name": "c",
               "start": 785,
-              "end": 786,
-              "name": "c"
+              "end": 786
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "C",
               "start": 798,
-              "end": 799,
-              "name": "C"
-            }
+              "end": 799
+            },
+            "start": 785,
+            "end": 799
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 778,
+        "end": 800
+      },
+      "start": 778,
+      "end": 801
     },
     {
       "type": "ExpressionStatement",
-      "start": 802,
-      "end": 834,
       "expression": {
         "type": "CallExpression",
-        "start": 802,
-        "end": 833,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 802,
-          "end": 808,
-          "name": "assert"
+          "end": 808
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 809,
-            "end": 832,
             "left": {
               "type": "Identifier",
+              "name": "c",
               "start": 809,
-              "end": 810,
-              "name": "c"
+              "end": 810
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Superclass",
               "start": 822,
-              "end": 832,
-              "name": "Superclass"
-            }
+              "end": 832
+            },
+            "start": 809,
+            "end": 832
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 802,
+        "end": 833
+      },
+      "start": 802,
+      "end": 834
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 835
 }

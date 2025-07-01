@@ -2,41 +2,35 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 13,
   "body": [
     {
       "type": "TSExportAssignment",
-      "start": 0,
-      "end": 12,
       "expression": {
         "type": "Literal",
-        "start": 9,
-        "end": 11,
         "value": 42,
-        "raw": "42"
-      }
+        "raw": "42",
+        "start": 9,
+        "end": 11
+      },
+      "start": 0,
+      "end": 12
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 13
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 81,
   "body": [
     {
       "type": "TSExportAssignment",
-      "start": 0,
-      "end": 81,
       "expression": {
         "type": "FunctionExpression",
-        "start": 9,
-        "end": 80,
         "id": null,
         "generator": false,
         "async": true,
@@ -46,59 +40,65 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 26,
-          "end": 80,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 32,
-              "end": 78,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 38,
-                  "end": 77,
                   "id": {
                     "type": "Identifier",
-                    "start": 38,
-                    "end": 47,
                     "decorators": [],
                     "name": "something",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 38,
+                    "end": 47
                   },
                   "init": {
                     "type": "AwaitExpression",
-                    "start": 50,
-                    "end": 77,
                     "argument": {
                       "type": "ImportExpression",
-                      "start": 56,
-                      "end": 77,
                       "source": {
                         "type": "Literal",
-                        "start": 63,
-                        "end": 76,
                         "value": "./something",
-                        "raw": "\"./something\""
+                        "raw": "\"./something\"",
+                        "start": 63,
+                        "end": 76
                       },
                       "options": null,
-                      "phase": null
-                    }
+                      "phase": null,
+                      "start": 56,
+                      "end": 77
+                    },
+                    "start": 50,
+                    "end": 77
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 38,
+                  "end": 77
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 32,
+              "end": 78
             }
-          ]
+          ],
+          "start": 26,
+          "end": 80
         },
-        "expression": false
-      }
+        "expression": false,
+        "start": 9,
+        "end": 80
+      },
+      "start": 0,
+      "end": 81
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 81
 }
 ```

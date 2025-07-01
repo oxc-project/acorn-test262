@@ -1,226 +1,226 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 856,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 317,
-      "end": 358,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 321,
-          "end": 357,
           "id": {
             "type": "Identifier",
+            "name": "__str",
             "start": 321,
-            "end": 326,
-            "name": "__str"
+            "end": 326
           },
           "init": {
             "type": "Literal",
-            "start": 329,
-            "end": 357,
             "value": "aaaaaaaaaa,aaaaaaaaaaaaaaa",
-            "raw": "\"aaaaaaaaaa,aaaaaaaaaaaaaaa\""
-          }
+            "raw": "\"aaaaaaaaaa,aaaaaaaaaaaaaaa\"",
+            "start": 329,
+            "end": 357
+          },
+          "start": 321,
+          "end": 357
         }
-      ]
+      ],
+      "start": 317,
+      "end": 358
     },
     {
       "type": "VariableDeclaration",
-      "start": 359,
-      "end": 391,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 363,
-          "end": 390,
           "id": {
             "type": "Identifier",
+            "name": "__pattern",
             "start": 363,
-            "end": 372,
-            "name": "__pattern"
+            "end": 372
           },
           "init": {
             "type": "Literal",
-            "start": 375,
-            "end": 390,
             "value": null,
             "raw": "/^(a+)\\1*,\\1+$/",
             "regex": {
               "pattern": "^(a+)\\1*,\\1+$",
               "flags": ""
-            }
-          }
+            },
+            "start": 375,
+            "end": 390
+          },
+          "start": 363,
+          "end": 390
         }
-      ]
+      ],
+      "start": 359,
+      "end": 391
     },
     {
       "type": "VariableDeclaration",
-      "start": 392,
-      "end": 410,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 396,
-          "end": 409,
           "id": {
             "type": "Identifier",
+            "name": "__repl",
             "start": 396,
-            "end": 402,
-            "name": "__repl"
+            "end": 402
           },
           "init": {
             "type": "Literal",
-            "start": 405,
-            "end": 409,
             "value": "$1",
-            "raw": "\"$1\""
-          }
+            "raw": "\"$1\"",
+            "start": 405,
+            "end": 409
+          },
+          "start": 396,
+          "end": 409
         }
-      ]
+      ],
+      "start": 392,
+      "end": 410
     },
     {
       "type": "IfStatement",
-      "start": 501,
-      "end": 773,
       "test": {
         "type": "BinaryExpression",
-        "start": 505,
-        "end": 549,
         "left": {
           "type": "CallExpression",
-          "start": 505,
-          "end": 537,
           "callee": {
             "type": "MemberExpression",
-            "start": 505,
-            "end": 518,
             "object": {
               "type": "Identifier",
+              "name": "__str",
               "start": 505,
-              "end": 510,
-              "name": "__str"
+              "end": 510
             },
             "property": {
               "type": "Identifier",
+              "name": "replace",
               "start": 511,
-              "end": 518,
-              "name": "replace"
+              "end": 518
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 505,
+            "end": 518
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "__pattern",
               "start": 519,
-              "end": 528,
-              "name": "__pattern"
+              "end": 528
             },
             {
               "type": "Identifier",
+              "name": "__repl",
               "start": 530,
-              "end": 536,
-              "name": "__repl"
+              "end": 536
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 505,
+          "end": 537
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 542,
-          "end": 549,
           "value": "aaaaa",
-          "raw": "'aaaaa'"
-        }
+          "raw": "'aaaaa'",
+          "start": 542,
+          "end": 549
+        },
+        "start": 505,
+        "end": 549
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 551,
-        "end": 773,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 555,
-            "end": 771,
             "argument": {
               "type": "NewExpression",
-              "start": 561,
-              "end": 770,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 565,
-                "end": 577,
-                "name": "Test262Error"
+                "end": 577
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 578,
-                  "end": 769,
                   "left": {
                     "type": "Literal",
-                    "start": 578,
-                    "end": 734,
                     "value": "#1: var __str = \"aaaaaaaaaa,aaaaaaaaaaaaaaa\"; var __pattern = /^(a+)\\1*,\\1+$/; var __repl = \"$1\"; __str.replace(__pattern, __repl)==='aaaaa'. Actual: ",
-                    "raw": "'#1: var __str = \"aaaaaaaaaa,aaaaaaaaaaaaaaa\"; var __pattern = /^(a+)\\\\1*,\\\\1+$/; var __repl = \"$1\"; __str.replace(__pattern, __repl)===\\'aaaaa\\'. Actual: '"
+                    "raw": "'#1: var __str = \"aaaaaaaaaa,aaaaaaaaaaaaaaa\"; var __pattern = /^(a+)\\\\1*,\\\\1+$/; var __repl = \"$1\"; __str.replace(__pattern, __repl)===\\'aaaaa\\'. Actual: '",
+                    "start": 578,
+                    "end": 734
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 737,
-                    "end": 769,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 737,
-                      "end": 750,
                       "object": {
                         "type": "Identifier",
+                        "name": "__str",
                         "start": 737,
-                        "end": 742,
-                        "name": "__str"
+                        "end": 742
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "replace",
                         "start": 743,
-                        "end": 750,
-                        "name": "replace"
+                        "end": 750
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 737,
+                      "end": 750
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "__pattern",
                         "start": 751,
-                        "end": 760,
-                        "name": "__pattern"
+                        "end": 760
                       },
                       {
                         "type": "Identifier",
+                        "name": "__repl",
                         "start": 762,
-                        "end": 768,
-                        "name": "__repl"
+                        "end": 768
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 737,
+                    "end": 769
+                  },
+                  "start": 578,
+                  "end": 769
                 }
-              ]
-            }
+              ],
+              "start": 561,
+              "end": 770
+            },
+            "start": 555,
+            "end": 771
           }
-        ]
+        ],
+        "start": 551,
+        "end": 773
       },
-      "alternate": null
+      "alternate": null,
+      "start": 501,
+      "end": 773
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 856
 }

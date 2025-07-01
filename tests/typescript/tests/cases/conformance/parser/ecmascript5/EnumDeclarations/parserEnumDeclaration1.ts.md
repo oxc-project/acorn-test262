@@ -2,72 +2,72 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 27,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 7,
-        "end": 27,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 11,
-            "end": 18,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 14,
               "decorators": [],
               "name": "Foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 14
             },
             "initializer": {
               "type": "Literal",
-              "start": 17,
-              "end": 18,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 17,
+              "end": 18
             },
-            "computed": false
+            "computed": false,
+            "start": 11,
+            "end": 18
           },
           {
             "type": "TSEnumMember",
-            "start": 22,
-            "end": 25,
             "id": {
               "type": "Identifier",
-              "start": 22,
-              "end": 25,
               "decorators": [],
               "name": "Bar",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 22,
+              "end": 25
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 22,
+            "end": 25
           }
-        ]
+        ],
+        "start": 7,
+        "end": 27
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 27
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 27
 }
 ```

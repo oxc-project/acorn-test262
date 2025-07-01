@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 885,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 821,
-      "end": 884,
       "expression": {
         "type": "CallExpression",
-        "start": 821,
-        "end": 883,
         "callee": {
           "type": "MemberExpression",
-          "start": 821,
-          "end": 834,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 821,
-            "end": 827,
-            "name": "assert"
+            "end": 827
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 828,
-            "end": 834,
-            "name": "throws"
+            "end": 834
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 821,
+          "end": 834
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 835,
-            "end": 844,
-            "name": "TypeError"
+            "end": 844
           },
           {
             "type": "FunctionExpression",
-            "start": 846,
-            "end": 882,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 857,
-              "end": 882,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 861,
-                  "end": 880,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 865,
-                      "end": 879,
                       "id": {
                         "type": "ObjectPattern",
+                        "properties": [],
                         "start": 865,
-                        "end": 867,
-                        "properties": []
+                        "end": 867
                       },
                       "init": {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 870,
-                        "end": 879,
-                        "name": "undefined"
-                      }
+                        "end": 879
+                      },
+                      "start": 865,
+                      "end": 879
                     }
-                  ]
+                  ],
+                  "start": 861,
+                  "end": 880
                 }
-              ]
+              ],
+              "start": 857,
+              "end": 882
             },
-            "expression": false
+            "expression": false,
+            "start": 846,
+            "end": 882
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 821,
+        "end": 883
+      },
+      "start": 821,
+      "end": 884
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 885
 }

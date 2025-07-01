@@ -1,378 +1,378 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1067,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 612,
-      "end": 648,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 616,
-          "end": 647,
           "id": {
             "type": "Identifier",
+            "name": "objectProxy",
             "start": 616,
-            "end": 627,
-            "name": "objectProxy"
+            "end": 627
           },
           "init": {
             "type": "NewExpression",
-            "start": 630,
-            "end": 647,
             "callee": {
               "type": "Identifier",
+              "name": "Proxy",
               "start": 634,
-              "end": 639,
-              "name": "Proxy"
+              "end": 639
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 640,
-                "end": 642,
-                "properties": []
+                "end": 642
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 644,
-                "end": 646,
-                "properties": []
+                "end": 646
               }
-            ]
-          }
+            ],
+            "start": 630,
+            "end": 647
+          },
+          "start": 616,
+          "end": 647
         }
-      ]
+      ],
+      "start": 612,
+      "end": 648
     },
     {
       "type": "VariableDeclaration",
-      "start": 649,
-      "end": 684,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 653,
-          "end": 683,
           "id": {
             "type": "Identifier",
+            "name": "arrayProxy",
             "start": 653,
-            "end": 663,
-            "name": "arrayProxy"
+            "end": 663
           },
           "init": {
             "type": "NewExpression",
-            "start": 666,
-            "end": 683,
             "callee": {
               "type": "Identifier",
+              "name": "Proxy",
               "start": 670,
-              "end": 675,
-              "name": "Proxy"
+              "end": 675
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
+                "elements": [],
                 "start": 676,
-                "end": 678,
-                "elements": []
+                "end": 678
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 680,
-                "end": 682,
-                "properties": []
+                "end": 682
               }
-            ]
-          }
+            ],
+            "start": 666,
+            "end": 683
+          },
+          "start": 653,
+          "end": 683
         }
-      ]
+      ],
+      "start": 649,
+      "end": 684
     },
     {
       "type": "VariableDeclaration",
-      "start": 685,
-      "end": 733,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 689,
-          "end": 732,
           "id": {
             "type": "Identifier",
+            "name": "arrayProxyProxy",
             "start": 689,
-            "end": 704,
-            "name": "arrayProxyProxy"
+            "end": 704
           },
           "init": {
             "type": "NewExpression",
-            "start": 707,
-            "end": 732,
             "callee": {
               "type": "Identifier",
+              "name": "Proxy",
               "start": 711,
-              "end": 716,
-              "name": "Proxy"
+              "end": 716
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "arrayProxy",
                 "start": 717,
-                "end": 727,
-                "name": "arrayProxy"
+                "end": 727
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 729,
-                "end": 731,
-                "properties": []
+                "end": 731
               }
-            ]
-          }
+            ],
+            "start": 707,
+            "end": 732
+          },
+          "start": 689,
+          "end": 732
         }
-      ]
+      ],
+      "start": 685,
+      "end": 733
     },
     {
       "type": "ExpressionStatement",
-      "start": 735,
-      "end": 841,
       "expression": {
         "type": "CallExpression",
-        "start": 735,
-        "end": 840,
         "callee": {
           "type": "MemberExpression",
-          "start": 735,
-          "end": 751,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 735,
-            "end": 741,
-            "name": "assert"
+            "end": 741
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 742,
-            "end": 751,
-            "name": "sameValue"
+            "end": 751
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 735,
+          "end": 751
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 752,
-            "end": 778,
             "callee": {
               "type": "MemberExpression",
-              "start": 752,
-              "end": 765,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 752,
-                "end": 757,
-                "name": "Array"
+                "end": 757
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 758,
-                "end": 765,
-                "name": "isArray"
+                "end": 765
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 752,
+              "end": 765
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "objectProxy",
                 "start": 766,
-                "end": 777,
-                "name": "objectProxy"
+                "end": 777
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 752,
+            "end": 778
           },
           {
             "type": "Literal",
-            "start": 780,
-            "end": 785,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 780,
+            "end": 785
           },
           {
             "type": "Literal",
-            "start": 787,
-            "end": 839,
             "value": "Array.isArray(new Proxy({}, {})) must return false",
-            "raw": "'Array.isArray(new Proxy({}, {})) must return false'"
+            "raw": "'Array.isArray(new Proxy({}, {})) must return false'",
+            "start": 787,
+            "end": 839
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 735,
+        "end": 840
+      },
+      "start": 735,
+      "end": 841
     },
     {
       "type": "ExpressionStatement",
-      "start": 842,
-      "end": 945,
       "expression": {
         "type": "CallExpression",
-        "start": 842,
-        "end": 944,
         "callee": {
           "type": "MemberExpression",
-          "start": 842,
-          "end": 858,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 842,
-            "end": 848,
-            "name": "assert"
+            "end": 848
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 849,
-            "end": 858,
-            "name": "sameValue"
+            "end": 858
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 842,
+          "end": 858
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 859,
-            "end": 884,
             "callee": {
               "type": "MemberExpression",
-              "start": 859,
-              "end": 872,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 859,
-                "end": 864,
-                "name": "Array"
+                "end": 864
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 865,
-                "end": 872,
-                "name": "isArray"
+                "end": 872
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 859,
+              "end": 872
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "arrayProxy",
                 "start": 873,
-                "end": 883,
-                "name": "arrayProxy"
+                "end": 883
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 859,
+            "end": 884
           },
           {
             "type": "Literal",
-            "start": 886,
-            "end": 890,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 886,
+            "end": 890
           },
           {
             "type": "Literal",
-            "start": 892,
-            "end": 943,
             "value": "Array.isArray(new Proxy([], {})) must return true",
-            "raw": "'Array.isArray(new Proxy([], {})) must return true'"
+            "raw": "'Array.isArray(new Proxy([], {})) must return true'",
+            "start": 892,
+            "end": 943
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 842,
+        "end": 944
+      },
+      "start": 842,
+      "end": 945
     },
     {
       "type": "ExpressionStatement",
-      "start": 946,
-      "end": 1066,
       "expression": {
         "type": "CallExpression",
-        "start": 946,
-        "end": 1065,
         "callee": {
           "type": "MemberExpression",
-          "start": 946,
-          "end": 962,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 946,
-            "end": 952,
-            "name": "assert"
+            "end": 952
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 953,
-            "end": 962,
-            "name": "sameValue"
+            "end": 962
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 946,
+          "end": 962
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 966,
-            "end": 996,
             "callee": {
               "type": "MemberExpression",
-              "start": 966,
-              "end": 979,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 966,
-                "end": 971,
-                "name": "Array"
+                "end": 971
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 972,
-                "end": 979,
-                "name": "isArray"
+                "end": 979
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 966,
+              "end": 979
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "arrayProxyProxy",
                 "start": 980,
-                "end": 995,
-                "name": "arrayProxyProxy"
+                "end": 995
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 966,
+            "end": 996
           },
           {
             "type": "Literal",
-            "start": 998,
-            "end": 1002,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 998,
+            "end": 1002
           },
           {
             "type": "Literal",
-            "start": 1004,
-            "end": 1063,
             "value": "Array.isArray(new Proxy(arrayProxy, {})) must return true",
-            "raw": "'Array.isArray(new Proxy(arrayProxy, {})) must return true'"
+            "raw": "'Array.isArray(new Proxy(arrayProxy, {})) must return true'",
+            "start": 1004,
+            "end": 1063
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 946,
+        "end": 1065
+      },
+      "start": 946,
+      "end": 1066
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1067
 }

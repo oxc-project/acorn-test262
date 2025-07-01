@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 55,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,90 +21,94 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 13,
-          "end": 17,
           "decorators": [],
           "name": "name",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 17
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 19,
-        "end": 55,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 25,
-            "end": 53,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 29,
-                "end": 53,
                 "id": {
                   "type": "Identifier",
-                  "start": 29,
-                  "end": 30,
                   "decorators": [],
                   "name": "s",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 29,
+                  "end": 30
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 33,
-                  "end": 53,
                   "callee": {
                     "type": "Identifier",
-                    "start": 33,
-                    "end": 40,
                     "decorators": [],
                     "name": "require",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 33,
+                    "end": 40
                   },
                   "typeArguments": null,
                   "arguments": [
                     {
                       "type": "BinaryExpression",
-                      "start": 41,
-                      "end": 52,
                       "left": {
                         "type": "Literal",
-                        "start": 41,
-                        "end": 45,
                         "value": "t/",
-                        "raw": "\"t/\""
+                        "raw": "\"t/\"",
+                        "start": 41,
+                        "end": 45
                       },
                       "operator": "+",
                       "right": {
                         "type": "Identifier",
-                        "start": 48,
-                        "end": 52,
                         "decorators": [],
                         "name": "name",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 48,
+                        "end": 52
+                      },
+                      "start": 41,
+                      "end": 52
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 33,
+                  "end": 53
                 },
-                "definite": false
+                "definite": false,
+                "start": 29,
+                "end": 53
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 25,
+            "end": 53
           }
-        ]
+        ],
+        "start": 19,
+        "end": 55
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 55
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 55
 }
 ```

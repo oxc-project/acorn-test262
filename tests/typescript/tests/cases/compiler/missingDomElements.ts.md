@@ -2,430 +2,428 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 444,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 20,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 17,
         "decorators": [],
         "name": "Element",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 17
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 18,
-        "end": 20,
-        "body": []
+        "end": 20
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 20
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 21,
-      "end": 45,
       "id": {
         "type": "Identifier",
-        "start": 31,
-        "end": 42,
         "decorators": [],
         "name": "EventTarget",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 31,
+        "end": 42
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 43,
-        "end": 45,
-        "body": []
+        "end": 45
       },
-      "declare": false
+      "declare": false,
+      "start": 21,
+      "end": 45
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 46,
-      "end": 70,
       "id": {
         "type": "Identifier",
-        "start": 56,
-        "end": 67,
         "decorators": [],
         "name": "HTMLElement",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 56,
+        "end": 67
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 68,
-        "end": 70,
-        "body": []
+        "end": 70
       },
-      "declare": false
+      "declare": false,
+      "start": 46,
+      "end": 70
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 71,
-      "end": 100,
       "id": {
         "type": "Identifier",
-        "start": 81,
-        "end": 97,
         "decorators": [],
         "name": "HTMLInputElement",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 81,
+        "end": 97
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 98,
-        "end": 100,
-        "body": []
+        "end": 100
       },
-      "declare": false
+      "declare": false,
+      "start": 71,
+      "end": 100
     },
     {
       "type": "ExpressionStatement",
-      "start": 102,
-      "end": 137,
       "expression": {
         "type": "MemberExpression",
-        "start": 102,
-        "end": 136,
         "object": {
           "type": "TSAsExpression",
-          "start": 103,
-          "end": 123,
           "expression": {
             "type": "TSAsExpression",
-            "start": 103,
-            "end": 112,
             "expression": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 103,
-              "end": 105,
-              "properties": []
+              "end": 105
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 109,
               "end": 112
-            }
+            },
+            "start": 103,
+            "end": 112
           },
           "typeAnnotation": {
             "type": "TSTypeReference",
-            "start": 116,
-            "end": 123,
             "typeName": {
               "type": "Identifier",
-              "start": 116,
-              "end": 123,
               "decorators": [],
               "name": "Element",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 116,
+              "end": 123
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "start": 116,
+            "end": 123
+          },
+          "start": 103,
+          "end": 123
         },
         "property": {
           "type": "Identifier",
-          "start": 125,
-          "end": 136,
           "decorators": [],
           "name": "textContent",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 125,
+          "end": 136
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 102,
+        "end": 136
       },
-      "directive": null
+      "directive": null,
+      "start": 102,
+      "end": 137
     },
     {
       "type": "ExpressionStatement",
-      "start": 138,
-      "end": 177,
       "expression": {
         "type": "MemberExpression",
-        "start": 138,
-        "end": 176,
         "object": {
           "type": "TSAsExpression",
-          "start": 139,
-          "end": 163,
           "expression": {
             "type": "TSAsExpression",
-            "start": 139,
-            "end": 148,
             "expression": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 139,
-              "end": 141,
-              "properties": []
+              "end": 141
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 145,
               "end": 148
-            }
+            },
+            "start": 139,
+            "end": 148
           },
           "typeAnnotation": {
             "type": "TSTypeReference",
-            "start": 152,
-            "end": 163,
             "typeName": {
               "type": "Identifier",
-              "start": 152,
-              "end": 163,
               "decorators": [],
               "name": "HTMLElement",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 152,
+              "end": 163
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "start": 152,
+            "end": 163
+          },
+          "start": 139,
+          "end": 163
         },
         "property": {
           "type": "Identifier",
-          "start": 165,
-          "end": 176,
           "decorators": [],
           "name": "textContent",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 165,
+          "end": 176
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 138,
+        "end": 176
       },
-      "directive": null
+      "directive": null,
+      "start": 138,
+      "end": 177
     },
     {
       "type": "ExpressionStatement",
-      "start": 178,
-      "end": 222,
       "expression": {
         "type": "MemberExpression",
-        "start": 178,
-        "end": 221,
         "object": {
           "type": "TSAsExpression",
-          "start": 179,
-          "end": 208,
           "expression": {
             "type": "TSAsExpression",
-            "start": 179,
-            "end": 188,
             "expression": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 179,
-              "end": 181,
-              "properties": []
+              "end": 181
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 185,
               "end": 188
-            }
+            },
+            "start": 179,
+            "end": 188
           },
           "typeAnnotation": {
             "type": "TSTypeReference",
-            "start": 192,
-            "end": 208,
             "typeName": {
               "type": "Identifier",
-              "start": 192,
-              "end": 208,
               "decorators": [],
               "name": "HTMLInputElement",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 192,
+              "end": 208
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "start": 192,
+            "end": 208
+          },
+          "start": 179,
+          "end": 208
         },
         "property": {
           "type": "Identifier",
-          "start": 210,
-          "end": 221,
           "decorators": [],
           "name": "textContent",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 210,
+          "end": 221
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 178,
+        "end": 221
       },
-      "directive": null
+      "directive": null,
+      "start": 178,
+      "end": 222
     },
     {
       "type": "ExpressionStatement",
-      "start": 223,
-      "end": 280,
       "expression": {
         "type": "MemberExpression",
-        "start": 223,
-        "end": 280,
         "object": {
           "type": "TSAsExpression",
-          "start": 224,
-          "end": 267,
           "expression": {
             "type": "TSAsExpression",
-            "start": 224,
-            "end": 233,
             "expression": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 224,
-              "end": 226,
-              "properties": []
+              "end": 226
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 230,
               "end": 233
-            }
+            },
+            "start": 224,
+            "end": 233
           },
           "typeAnnotation": {
             "type": "TSIntersectionType",
-            "start": 237,
-            "end": 267,
             "types": [
               {
                 "type": "TSTypeReference",
-                "start": 237,
-                "end": 248,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 237,
-                  "end": 248,
                   "decorators": [],
                   "name": "EventTarget",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 237,
+                  "end": 248
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 237,
+                "end": 248
               },
               {
                 "type": "TSTypeReference",
-                "start": 251,
-                "end": 267,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 251,
-                  "end": 267,
                   "decorators": [],
                   "name": "HTMLInputElement",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 251,
+                  "end": 267
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 251,
+                "end": 267
               }
-            ]
-          }
+            ],
+            "start": 237,
+            "end": 267
+          },
+          "start": 224,
+          "end": 267
         },
         "property": {
           "type": "Identifier",
-          "start": 269,
-          "end": 280,
           "decorators": [],
           "name": "textContent",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 269,
+          "end": 280
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 223,
+        "end": 280
       },
-      "directive": null
+      "directive": null,
+      "start": 223,
+      "end": 280
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 282,
-      "end": 310,
       "id": {
         "type": "Identifier",
-        "start": 292,
-        "end": 307,
         "decorators": [],
         "name": "HTMLElementFake",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 292,
+        "end": 307
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 308,
-        "end": 310,
-        "body": []
+        "end": 310
       },
-      "declare": false
+      "declare": false,
+      "start": 282,
+      "end": 310
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 311,
-      "end": 365,
       "id": {
         "type": "Identifier",
-        "start": 321,
-        "end": 325,
         "decorators": [],
         "name": "Node",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 321,
+        "end": 325
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 326,
-        "end": 365,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 332,
-            "end": 359,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 332,
-              "end": 350,
               "decorators": [],
               "name": "actuallyNotTheSame",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 332,
+              "end": 350
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 350,
-              "end": 358,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 352,
                 "end": 358
-              }
+              },
+              "start": 350,
+              "end": 358
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 332,
+            "end": 359
           }
-        ]
+        ],
+        "start": 326,
+        "end": 365
       },
-      "declare": false
+      "declare": false,
+      "start": 311,
+      "end": 365
     },
     {
       "type": "EmptyStatement",
@@ -434,122 +432,124 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExpressionStatement",
-      "start": 368,
-      "end": 411,
       "expression": {
         "type": "MemberExpression",
-        "start": 368,
-        "end": 410,
         "object": {
           "type": "TSAsExpression",
-          "start": 369,
-          "end": 397,
           "expression": {
             "type": "TSAsExpression",
-            "start": 369,
-            "end": 378,
             "expression": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 369,
-              "end": 371,
-              "properties": []
+              "end": 371
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 375,
               "end": 378
-            }
+            },
+            "start": 369,
+            "end": 378
           },
           "typeAnnotation": {
             "type": "TSTypeReference",
-            "start": 382,
-            "end": 397,
             "typeName": {
               "type": "Identifier",
-              "start": 382,
-              "end": 397,
               "decorators": [],
               "name": "HTMLElementFake",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 382,
+              "end": 397
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "start": 382,
+            "end": 397
+          },
+          "start": 369,
+          "end": 397
         },
         "property": {
           "type": "Identifier",
-          "start": 399,
-          "end": 410,
           "decorators": [],
           "name": "textContent",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 399,
+          "end": 410
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 368,
+        "end": 410
       },
-      "directive": null
+      "directive": null,
+      "start": 368,
+      "end": 411
     },
     {
       "type": "ExpressionStatement",
-      "start": 412,
-      "end": 444,
       "expression": {
         "type": "MemberExpression",
-        "start": 412,
-        "end": 443,
         "object": {
           "type": "TSAsExpression",
-          "start": 413,
-          "end": 430,
           "expression": {
             "type": "TSAsExpression",
-            "start": 413,
-            "end": 422,
             "expression": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 413,
-              "end": 415,
-              "properties": []
+              "end": 415
             },
             "typeAnnotation": {
               "type": "TSAnyKeyword",
               "start": 419,
               "end": 422
-            }
+            },
+            "start": 413,
+            "end": 422
           },
           "typeAnnotation": {
             "type": "TSTypeReference",
-            "start": 426,
-            "end": 430,
             "typeName": {
               "type": "Identifier",
-              "start": 426,
-              "end": 430,
               "decorators": [],
               "name": "Node",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 426,
+              "end": 430
             },
-            "typeArguments": null
-          }
+            "typeArguments": null,
+            "start": 426,
+            "end": 430
+          },
+          "start": 413,
+          "end": 430
         },
         "property": {
           "type": "Identifier",
-          "start": 432,
-          "end": 443,
           "decorators": [],
           "name": "textContent",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 432,
+          "end": 443
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 412,
+        "end": 443
       },
-      "directive": null
+      "directive": null,
+      "start": 412,
+      "end": 444
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 444
 }
 ```

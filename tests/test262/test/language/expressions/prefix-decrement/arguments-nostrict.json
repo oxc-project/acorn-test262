@@ -1,47 +1,47 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 805,
   "body": [
     {
       "type": "IfStatement",
-      "start": 775,
-      "end": 804,
       "test": {
         "type": "Literal",
-        "start": 779,
-        "end": 784,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 779,
+        "end": 784
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 786,
-        "end": 804,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 790,
-            "end": 802,
             "expression": {
               "type": "UpdateExpression",
-              "start": 790,
-              "end": 801,
               "operator": "--",
               "prefix": true,
               "argument": {
                 "type": "Identifier",
+                "name": "arguments",
                 "start": 792,
-                "end": 801,
-                "name": "arguments"
-              }
-            }
+                "end": 801
+              },
+              "start": 790,
+              "end": 801
+            },
+            "start": 790,
+            "end": 802
           }
-        ]
+        ],
+        "start": 786,
+        "end": 804
       },
-      "alternate": null
+      "alternate": null,
+      "start": 775,
+      "end": 804
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 805
 }

@@ -1,146 +1,146 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 555,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 458,
-      "end": 469,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 462,
-          "end": 468,
           "id": {
             "type": "Identifier",
+            "name": "of",
             "start": 462,
-            "end": 464,
-            "name": "of"
+            "end": 464
           },
           "init": {
             "type": "Literal",
-            "start": 467,
-            "end": 468,
             "value": 4,
-            "raw": "4"
-          }
+            "raw": "4",
+            "start": 467,
+            "end": 468
+          },
+          "start": 462,
+          "end": 468
         }
-      ]
+      ],
+      "start": 458,
+      "end": 469
     },
     {
       "type": "VariableDeclaration",
-      "start": 470,
-      "end": 480,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 474,
-          "end": 479,
           "id": {
             "type": "Identifier",
+            "name": "g",
             "start": 474,
-            "end": 475,
-            "name": "g"
+            "end": 475
           },
           "init": {
             "type": "Literal",
-            "start": 478,
-            "end": 479,
             "value": 2,
-            "raw": "2"
-          }
+            "raw": "2",
+            "start": 478,
+            "end": 479
+          },
+          "start": 474,
+          "end": 479
         }
-      ]
+      ],
+      "start": 470,
+      "end": 480
     },
     {
       "type": "VariableDeclaration",
-      "start": 482,
-      "end": 520,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 486,
-          "end": 519,
           "id": {
             "type": "Identifier",
+            "name": "notRegExp",
             "start": 486,
-            "end": 495,
-            "name": "notRegExp"
+            "end": 495
           },
           "init": {
             "type": "CallExpression",
-            "start": 498,
-            "end": 519,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 498,
-              "end": 502,
-              "name": "eval"
+              "end": 502
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 503,
-                "end": 518,
                 "value": "{[42]}.8/of/g",
-                "raw": "'{[42]}.8/of/g'"
+                "raw": "'{[42]}.8/of/g'",
+                "start": 503,
+                "end": 518
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 498,
+            "end": 519
+          },
+          "start": 486,
+          "end": 519
         }
-      ]
+      ],
+      "start": 482,
+      "end": 520
     },
     {
       "type": "ExpressionStatement",
-      "start": 522,
-      "end": 554,
       "expression": {
         "type": "CallExpression",
-        "start": 522,
-        "end": 553,
         "callee": {
           "type": "MemberExpression",
-          "start": 522,
-          "end": 538,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 522,
-            "end": 528,
-            "name": "assert"
+            "end": 528
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 529,
-            "end": 538,
-            "name": "sameValue"
+            "end": 538
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 522,
+          "end": 538
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "notRegExp",
             "start": 539,
-            "end": 548,
-            "name": "notRegExp"
+            "end": 548
           },
           {
             "type": "Literal",
-            "start": 550,
-            "end": 552,
             "value": 0.1,
-            "raw": ".1"
+            "raw": ".1",
+            "start": 550,
+            "end": 552
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 522,
+        "end": 553
+      },
+      "start": 522,
+      "end": 554
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 555
 }

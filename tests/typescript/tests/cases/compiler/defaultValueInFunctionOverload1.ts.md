@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 54,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 29,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,54 +21,54 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 13,
-          "end": 27,
           "decorators": [],
           "left": {
             "type": "Identifier",
-            "start": 13,
-            "end": 22,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 14,
-              "end": 22,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 16,
                 "end": 22
-              }
-            }
+              },
+              "start": 14,
+              "end": 22
+            },
+            "start": 13,
+            "end": 22
           },
           "right": {
             "type": "Literal",
-            "start": 25,
-            "end": 27,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 25,
+            "end": 27
           },
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 27
         }
       ],
       "returnType": null,
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 29
     },
     {
       "type": "FunctionDeclaration",
-      "start": 30,
-      "end": 54,
       "id": {
         "type": "Identifier",
-        "start": 39,
-        "end": 42,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 39,
+        "end": 42
       },
       "generator": false,
       "async": false,
@@ -81,40 +77,44 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 43,
-          "end": 49,
           "decorators": [],
           "left": {
             "type": "Identifier",
-            "start": 43,
-            "end": 44,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 44
           },
           "right": {
             "type": "Literal",
-            "start": 47,
-            "end": 49,
             "value": "",
-            "raw": "''"
+            "raw": "''",
+            "start": 47,
+            "end": 49
           },
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 43,
+          "end": 49
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 51,
-        "end": 54,
-        "body": []
+        "end": 54
       },
-      "expression": false
+      "expression": false,
+      "start": 30,
+      "end": 54
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 54
 }
 ```

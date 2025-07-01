@@ -2,186 +2,186 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 139,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 86,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 14,
         "decorators": [],
         "name": "AgeGroups",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 14
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 15,
-        "end": 86,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 17,
-            "end": 23,
             "id": {
               "type": "Literal",
-              "start": 17,
-              "end": 23,
               "value": "0-17",
-              "raw": "\"0-17\""
+              "raw": "\"0-17\"",
+              "start": 17,
+              "end": 23
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 17,
+            "end": 23
           },
           {
             "type": "TSEnumMember",
-            "start": 26,
-            "end": 33,
             "id": {
               "type": "Literal",
-              "start": 26,
-              "end": 33,
               "value": "18-22",
-              "raw": "\"18-22\""
+              "raw": "\"18-22\"",
+              "start": 26,
+              "end": 33
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 26,
+            "end": 33
           },
           {
             "type": "TSEnumMember",
-            "start": 36,
-            "end": 43,
             "id": {
               "type": "Literal",
-              "start": 36,
-              "end": 43,
               "value": "23-27",
-              "raw": "\"23-27\""
+              "raw": "\"23-27\"",
+              "start": 36,
+              "end": 43
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 36,
+            "end": 43
           },
           {
             "type": "TSEnumMember",
-            "start": 46,
-            "end": 53,
             "id": {
               "type": "Literal",
-              "start": 46,
-              "end": 53,
               "value": "28-34",
-              "raw": "\"28-34\""
+              "raw": "\"28-34\"",
+              "start": 46,
+              "end": 53
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 46,
+            "end": 53
           },
           {
             "type": "TSEnumMember",
-            "start": 56,
-            "end": 63,
             "id": {
               "type": "Literal",
-              "start": 56,
-              "end": 63,
               "value": "35-44",
-              "raw": "\"35-44\""
+              "raw": "\"35-44\"",
+              "start": 56,
+              "end": 63
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 56,
+            "end": 63
           },
           {
             "type": "TSEnumMember",
-            "start": 66,
-            "end": 73,
             "id": {
               "type": "Literal",
-              "start": 66,
-              "end": 73,
               "value": "45-59",
-              "raw": "\"45-59\""
+              "raw": "\"45-59\"",
+              "start": 66,
+              "end": 73
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 66,
+            "end": 73
           },
           {
             "type": "TSEnumMember",
-            "start": 76,
-            "end": 84,
             "id": {
               "type": "Literal",
-              "start": 76,
-              "end": 84,
               "value": "60-150",
-              "raw": "\"60-150\""
+              "raw": "\"60-150\"",
+              "start": 76,
+              "end": 84
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 76,
+            "end": 84
           }
-        ]
+        ],
+        "start": 15,
+        "end": 86
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 86
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 87,
-      "end": 139,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 94,
-        "end": 139,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 100,
-            "end": 138,
             "id": {
               "type": "Identifier",
-              "start": 100,
-              "end": 119,
               "decorators": [],
               "name": "SpotifyAgeGroupEnum",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 100,
+              "end": 119
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 122,
-              "end": 138,
               "properties": [
                 {
                   "type": "SpreadElement",
-                  "start": 124,
-                  "end": 136,
                   "argument": {
                     "type": "Identifier",
-                    "start": 127,
-                    "end": 136,
                     "decorators": [],
                     "name": "AgeGroups",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "start": 127,
+                    "end": 136
+                  },
+                  "start": 124,
+                  "end": 136
                 }
-              ]
+              ],
+              "start": 122,
+              "end": 138
             },
-            "definite": false
+            "definite": false,
+            "start": 100,
+            "end": 138
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 94,
+        "end": 139
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 87,
+      "end": 139
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 139
 }
 ```

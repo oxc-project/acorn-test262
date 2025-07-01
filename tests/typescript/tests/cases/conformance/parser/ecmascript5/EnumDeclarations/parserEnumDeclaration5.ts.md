@@ -2,110 +2,110 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 45,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 45,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 7,
-        "end": 45,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 13,
-            "end": 18,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 14,
               "decorators": [],
               "name": "A",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 13,
+              "end": 14
             },
             "initializer": {
               "type": "Literal",
-              "start": 17,
-              "end": 18,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 17,
+              "end": 18
             },
-            "computed": false
+            "computed": false,
+            "start": 13,
+            "end": 18
           },
           {
             "type": "TSEnumMember",
-            "start": 24,
-            "end": 25,
             "id": {
               "type": "Identifier",
-              "start": 24,
-              "end": 25,
               "decorators": [],
               "name": "B",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 24,
+              "end": 25
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 24,
+            "end": 25
           },
           {
             "type": "TSEnumMember",
-            "start": 31,
-            "end": 36,
             "id": {
               "type": "Identifier",
-              "start": 31,
-              "end": 32,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 31,
+              "end": 32
             },
             "initializer": {
               "type": "Literal",
-              "start": 35,
-              "end": 36,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 35,
+              "end": 36
             },
-            "computed": false
+            "computed": false,
+            "start": 31,
+            "end": 36
           },
           {
             "type": "TSEnumMember",
-            "start": 42,
-            "end": 43,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 43,
               "decorators": [],
               "name": "D",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 43
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 42,
+            "end": 43
           }
-        ]
+        ],
+        "start": 7,
+        "end": 45
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 45
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 45
 }
 ```

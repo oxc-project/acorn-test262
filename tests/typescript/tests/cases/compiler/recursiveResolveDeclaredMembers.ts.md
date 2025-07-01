@@ -2,167 +2,167 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 10,
-  "end": 83,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 10,
-      "end": 43,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 17,
-        "end": 43,
         "id": {
           "type": "Identifier",
-          "start": 27,
-          "end": 28,
           "decorators": [],
           "name": "F",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 27,
+          "end": 28
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 29,
-          "end": 43,
           "body": [
             {
               "type": "TSCallSignatureDeclaration",
-              "start": 35,
-              "end": 41,
               "typeParameters": null,
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 37,
-                "end": 40,
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 39,
-                  "end": 40,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 39,
-                    "end": 40,
                     "decorators": [],
                     "name": "E",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 39,
+                    "end": 40
                   },
-                  "typeArguments": null
-                }
-              }
+                  "typeArguments": null,
+                  "start": 39,
+                  "end": 40
+                },
+                "start": 37,
+                "end": 40
+              },
+              "start": 35,
+              "end": 41
             }
-          ]
+          ],
+          "start": 29,
+          "end": 43
         },
-        "declare": false
+        "declare": false,
+        "start": 17,
+        "end": 43
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 10,
+      "end": 43
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 44,
-      "end": 82,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 51,
-        "end": 82,
         "id": {
           "type": "Identifier",
-          "start": 61,
-          "end": 62,
           "decorators": [],
           "name": "D",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 61,
+          "end": 62
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
-          "start": 62,
-          "end": 79,
           "params": [
             {
               "type": "TSTypeParameter",
-              "start": 63,
-              "end": 78,
               "name": {
                 "type": "Identifier",
-                "start": 63,
-                "end": 64,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 63,
+                "end": 64
               },
               "constraint": {
                 "type": "TSTypeReference",
-                "start": 73,
-                "end": 74,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 73,
-                  "end": 74,
                   "decorators": [],
                   "name": "F",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 73,
+                  "end": 74
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 73,
+                "end": 74
               },
               "default": {
                 "type": "TSTypeReference",
-                "start": 77,
-                "end": 78,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 77,
-                  "end": 78,
                   "decorators": [],
                   "name": "F",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 77,
+                  "end": 78
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 77,
+                "end": 78
               },
               "in": false,
               "out": false,
-              "const": false
+              "const": false,
+              "start": 63,
+              "end": 78
             }
-          ]
+          ],
+          "start": 62,
+          "end": 79
         },
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 80,
-          "end": 82,
-          "body": []
+          "end": 82
         },
-        "declare": false
+        "declare": false,
+        "start": 51,
+        "end": 82
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 44,
+      "end": 82
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 10,
+  "end": 83
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 39,
-  "end": 39,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 39,
+  "end": 39
 }
 ```

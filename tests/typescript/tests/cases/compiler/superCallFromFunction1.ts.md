@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 53,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -26,17 +22,11 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 15,
-        "end": 53,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 21,
-            "end": 51,
             "expression": {
               "type": "CallExpression",
-              "start": 21,
-              "end": 50,
               "callee": {
                 "type": "Super",
                 "start": 21,
@@ -46,64 +36,74 @@ __ESTREE_TEST__:PASS:
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 27,
-                  "end": 49,
                   "expression": true,
                   "async": false,
                   "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 27,
-                      "end": 32,
                       "decorators": [],
                       "name": "value",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 27,
+                      "end": 32
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "CallExpression",
-                    "start": 36,
-                    "end": 49,
                     "callee": {
                       "type": "Identifier",
-                      "start": 36,
-                      "end": 42,
                       "decorators": [],
                       "name": "String",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 36,
+                      "end": 42
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Identifier",
-                        "start": 43,
-                        "end": 48,
                         "decorators": [],
                         "name": "value",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 43,
+                        "end": 48
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 36,
+                    "end": 49
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 27,
+                  "end": 49
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 21,
+              "end": 50
             },
-            "directive": null
+            "directive": null,
+            "start": 21,
+            "end": 51
           }
-        ]
+        ],
+        "start": 15,
+        "end": 53
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 53
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

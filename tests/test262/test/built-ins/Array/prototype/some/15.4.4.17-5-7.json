@@ -1,53 +1,43 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 399,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 258,
-      "end": 320,
       "id": {
         "type": "Identifier",
+        "name": "callbackfn",
         "start": 267,
-        "end": 277,
-        "name": "callbackfn"
+        "end": 277
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "val",
           "start": 278,
-          "end": 281,
-          "name": "val"
+          "end": 281
         },
         {
           "type": "Identifier",
+          "name": "idx",
           "start": 283,
-          "end": 286,
-          "name": "idx"
+          "end": 286
         },
         {
           "type": "Identifier",
+          "name": "obj",
           "start": 288,
-          "end": 291,
-          "name": "obj"
+          "end": 291
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 293,
-        "end": 320,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 297,
-            "end": 318,
             "argument": {
               "type": "BinaryExpression",
-              "start": 304,
-              "end": 317,
               "left": {
                 "type": "ThisExpression",
                 "start": 304,
@@ -56,90 +46,100 @@
               "operator": "===",
               "right": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 313,
-                "end": 317,
-                "name": "eval"
-              }
-            }
+                "end": 317
+              },
+              "start": 304,
+              "end": 317
+            },
+            "start": 297,
+            "end": 318
           }
-        ]
+        ],
+        "start": 293,
+        "end": 320
       },
-      "expression": false
+      "expression": false,
+      "start": 258,
+      "end": 320
     },
     {
       "type": "ExpressionStatement",
-      "start": 322,
-      "end": 398,
       "expression": {
         "type": "CallExpression",
-        "start": 322,
-        "end": 397,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 322,
-          "end": 328,
-          "name": "assert"
+          "end": 328
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 329,
-            "end": 356,
             "callee": {
               "type": "MemberExpression",
-              "start": 329,
-              "end": 338,
               "object": {
                 "type": "ArrayExpression",
-                "start": 329,
-                "end": 333,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 330,
-                    "end": 332,
                     "value": 11,
-                    "raw": "11"
+                    "raw": "11",
+                    "start": 330,
+                    "end": 332
                   }
-                ]
+                ],
+                "start": 329,
+                "end": 333
               },
               "property": {
                 "type": "Identifier",
+                "name": "some",
                 "start": 334,
-                "end": 338,
-                "name": "some"
+                "end": 338
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 329,
+              "end": 338
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "callbackfn",
                 "start": 339,
-                "end": 349,
-                "name": "callbackfn"
+                "end": 349
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 351,
-                "end": 355,
-                "name": "eval"
+                "end": 355
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 329,
+            "end": 356
           },
           {
             "type": "Literal",
-            "start": 358,
-            "end": 396,
             "value": "[11].some(callbackfn, eval) !== true",
-            "raw": "'[11].some(callbackfn, eval) !== true'"
+            "raw": "'[11].some(callbackfn, eval) !== true'",
+            "start": 358,
+            "end": 396
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 322,
+        "end": 397
+      },
+      "start": 322,
+      "end": 398
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 399
 }

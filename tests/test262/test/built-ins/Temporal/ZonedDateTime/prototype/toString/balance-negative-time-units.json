@@ -1,159 +1,159 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2252,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2073,
-      "end": 2134,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2079,
-          "end": 2133,
           "id": {
             "type": "Identifier",
+            "name": "datetime",
             "start": 2079,
-            "end": 2087,
-            "name": "datetime"
+            "end": 2087
           },
           "init": {
             "type": "NewExpression",
-            "start": 2090,
-            "end": 2133,
             "callee": {
               "type": "MemberExpression",
-              "start": 2094,
-              "end": 2116,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 2094,
-                "end": 2102,
-                "name": "Temporal"
+                "end": 2102
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 2103,
-                "end": 2116,
-                "name": "ZonedDateTime"
+                "end": 2116
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2094,
+              "end": 2116
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2117,
-                "end": 2122,
                 "value": null,
                 "raw": "1001n",
-                "bigint": "1001"
+                "bigint": "1001",
+                "start": 2117,
+                "end": 2122
               },
               {
                 "type": "Literal",
-                "start": 2124,
-                "end": 2132,
                 "value": "-00:02",
-                "raw": "\"-00:02\""
+                "raw": "\"-00:02\"",
+                "start": 2124,
+                "end": 2132
               }
-            ]
-          }
+            ],
+            "start": 2090,
+            "end": 2133
+          },
+          "start": 2079,
+          "end": 2133
         }
-      ]
+      ],
+      "start": 2073,
+      "end": 2134
     },
     {
       "type": "VariableDeclaration",
-      "start": 2136,
-      "end": 2174,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2142,
-          "end": 2173,
           "id": {
             "type": "Identifier",
+            "name": "isoString",
             "start": 2142,
-            "end": 2151,
-            "name": "isoString"
+            "end": 2151
           },
           "init": {
             "type": "CallExpression",
-            "start": 2154,
-            "end": 2173,
             "callee": {
               "type": "MemberExpression",
-              "start": 2154,
-              "end": 2171,
               "object": {
                 "type": "Identifier",
+                "name": "datetime",
                 "start": 2154,
-                "end": 2162,
-                "name": "datetime"
+                "end": 2162
               },
               "property": {
                 "type": "Identifier",
+                "name": "toString",
                 "start": 2163,
-                "end": 2171,
-                "name": "toString"
+                "end": 2171
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2154,
+              "end": 2171
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 2154,
+            "end": 2173
+          },
+          "start": 2142,
+          "end": 2173
         }
-      ]
+      ],
+      "start": 2136,
+      "end": 2174
     },
     {
       "type": "ExpressionStatement",
-      "start": 2176,
-      "end": 2251,
       "expression": {
         "type": "CallExpression",
-        "start": 2176,
-        "end": 2250,
         "callee": {
           "type": "MemberExpression",
-          "start": 2176,
-          "end": 2192,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2176,
-            "end": 2182,
-            "name": "assert"
+            "end": 2182
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2183,
-            "end": 2192,
-            "name": "sameValue"
+            "end": 2192
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2176,
+          "end": 2192
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "isoString",
             "start": 2193,
-            "end": 2202,
-            "name": "isoString"
+            "end": 2202
           },
           {
             "type": "Literal",
-            "start": 2204,
-            "end": 2249,
             "value": "1969-12-31T23:58:00.000001001-00:02[-00:02]",
-            "raw": "\"1969-12-31T23:58:00.000001001-00:02[-00:02]\""
+            "raw": "\"1969-12-31T23:58:00.000001001-00:02[-00:02]\"",
+            "start": 2204,
+            "end": 2249
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2176,
+        "end": 2250
+      },
+      "start": 2176,
+      "end": 2251
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2252
 }

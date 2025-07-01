@@ -1,74 +1,74 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 726,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 578,
-      "end": 725,
       "expression": {
         "type": "CallExpression",
-        "start": 578,
-        "end": 724,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 578,
-          "end": 582,
-          "name": "eval"
+          "end": 582
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 586,
-            "end": 722,
             "left": {
               "type": "BinaryExpression",
-              "start": 586,
-              "end": 710,
               "left": {
                 "type": "BinaryExpression",
-                "start": 586,
-                "end": 682,
                 "left": {
                   "type": "Literal",
-                  "start": 586,
-                  "end": 666,
                   "value": "assert.sameValue(f, undefined);    {    function f() {}  }switch (1) {",
-                  "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }switch (1) {'"
+                  "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }switch (1) {'",
+                  "start": 586,
+                  "end": 666
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 671,
-                  "end": 682,
                   "value": "  case 1:",
-                  "raw": "'  case 1:'"
-                }
+                  "raw": "'  case 1:'",
+                  "start": 671,
+                  "end": 682
+                },
+                "start": 586,
+                "end": 682
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 687,
-                "end": 710,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
-              }
+                "raw": "'    function f() {  }'",
+                "start": 687,
+                "end": 710
+              },
+              "start": 586,
+              "end": 710
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 715,
-              "end": 722,
               "value": "}  ",
-              "raw": "'}\\\n  '"
-            }
+              "raw": "'}\\\n  '",
+              "start": 715,
+              "end": 722
+            },
+            "start": 586,
+            "end": 722
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 578,
+        "end": 724
+      },
+      "start": 578,
+      "end": 725
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 726
 }

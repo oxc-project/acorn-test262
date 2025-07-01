@@ -1,943 +1,943 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1144,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 356,
-      "end": 380,
       "id": {
         "type": "Identifier",
+        "name": "empty",
         "start": 365,
-        "end": 370,
-        "name": "empty"
+        "end": 370
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 371,
-          "end": 376,
           "argument": {
             "type": "ArrayPattern",
+            "elements": [],
             "start": 374,
-            "end": 376,
-            "elements": []
-          }
+            "end": 376
+          },
+          "start": 371,
+          "end": 376
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 378,
-        "end": 380,
-        "body": []
+        "end": 380
       },
-      "expression": false
+      "expression": false,
+      "start": 356,
+      "end": 380
     },
     {
       "type": "FunctionDeclaration",
-      "start": 382,
-      "end": 417,
       "id": {
         "type": "Identifier",
+        "name": "emptyWithArray",
         "start": 391,
-        "end": 405,
-        "name": "emptyWithArray"
+        "end": 405
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 406,
-          "end": 413,
           "argument": {
             "type": "ArrayPattern",
-            "start": 409,
-            "end": 413,
             "elements": [
               {
                 "type": "ArrayPattern",
+                "elements": [],
                 "start": 410,
-                "end": 412,
-                "elements": []
+                "end": 412
               }
-            ]
-          }
+            ],
+            "start": 409,
+            "end": 413
+          },
+          "start": 406,
+          "end": 413
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 415,
-        "end": 417,
-        "body": []
+        "end": 417
       },
-      "expression": false
+      "expression": false,
+      "start": 382,
+      "end": 417
     },
     {
       "type": "FunctionDeclaration",
-      "start": 419,
-      "end": 455,
       "id": {
         "type": "Identifier",
+        "name": "emptyWithObject",
         "start": 428,
-        "end": 443,
-        "name": "emptyWithObject"
+        "end": 443
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 444,
-          "end": 451,
           "argument": {
             "type": "ArrayPattern",
-            "start": 447,
-            "end": 451,
             "elements": [
               {
                 "type": "ObjectPattern",
+                "properties": [],
                 "start": 448,
-                "end": 450,
-                "properties": []
+                "end": 450
               }
-            ]
-          }
+            ],
+            "start": 447,
+            "end": 451
+          },
+          "start": 444,
+          "end": 451
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 453,
-        "end": 455,
-        "body": []
+        "end": 455
       },
-      "expression": false
+      "expression": false,
+      "start": 419,
+      "end": 455
     },
     {
       "type": "FunctionDeclaration",
-      "start": 457,
-      "end": 494,
       "id": {
         "type": "Identifier",
+        "name": "emptyWithRest",
         "start": 466,
-        "end": 479,
-        "name": "emptyWithRest"
+        "end": 479
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 480,
-          "end": 490,
           "argument": {
             "type": "ArrayPattern",
-            "start": 483,
-            "end": 490,
             "elements": [
               {
                 "type": "RestElement",
-                "start": 484,
-                "end": 489,
                 "argument": {
                   "type": "ArrayPattern",
+                  "elements": [],
                   "start": 487,
-                  "end": 489,
-                  "elements": []
-                }
+                  "end": 489
+                },
+                "start": 484,
+                "end": 489
               }
-            ]
-          }
+            ],
+            "start": 483,
+            "end": 490
+          },
+          "start": 480,
+          "end": 490
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 492,
-        "end": 494,
-        "body": []
+        "end": 494
       },
-      "expression": false
+      "expression": false,
+      "start": 457,
+      "end": 494
     },
     {
       "type": "FunctionDeclaration",
-      "start": 496,
-      "end": 534,
       "id": {
         "type": "Identifier",
+        "name": "emptyWithLeading",
         "start": 505,
-        "end": 521,
-        "name": "emptyWithLeading"
+        "end": 521
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "x",
           "start": 522,
-          "end": 523,
-          "name": "x"
+          "end": 523
         },
         {
           "type": "RestElement",
-          "start": 525,
-          "end": 530,
           "argument": {
             "type": "ArrayPattern",
+            "elements": [],
             "start": 528,
-            "end": 530,
-            "elements": []
-          }
+            "end": 530
+          },
+          "start": 525,
+          "end": 530
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 532,
-        "end": 534,
-        "body": []
+        "end": 534
       },
-      "expression": false
+      "expression": false,
+      "start": 496,
+      "end": 534
     },
     {
       "type": "FunctionDeclaration",
-      "start": 537,
-      "end": 570,
       "id": {
         "type": "Identifier",
+        "name": "singleElement",
         "start": 546,
-        "end": 559,
-        "name": "singleElement"
+        "end": 559
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 560,
-          "end": 566,
           "argument": {
             "type": "ArrayPattern",
-            "start": 563,
-            "end": 566,
             "elements": [
               {
                 "type": "Identifier",
+                "name": "a",
                 "start": 564,
-                "end": 565,
-                "name": "a"
+                "end": 565
               }
-            ]
-          }
+            ],
+            "start": 563,
+            "end": 566
+          },
+          "start": 560,
+          "end": 566
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 568,
-        "end": 570,
-        "body": []
+        "end": 570
       },
-      "expression": false
+      "expression": false,
+      "start": 537,
+      "end": 570
     },
     {
       "type": "FunctionDeclaration",
-      "start": 572,
-      "end": 624,
       "id": {
         "type": "Identifier",
+        "name": "singleElementWithInitializer",
         "start": 581,
-        "end": 609,
-        "name": "singleElementWithInitializer"
+        "end": 609
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 610,
-          "end": 620,
           "argument": {
             "type": "ArrayPattern",
-            "start": 613,
-            "end": 620,
             "elements": [
               {
                 "type": "AssignmentPattern",
-                "start": 614,
-                "end": 619,
                 "left": {
                   "type": "Identifier",
+                  "name": "a",
                   "start": 614,
-                  "end": 615,
-                  "name": "a"
+                  "end": 615
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 618,
-                  "end": 619,
                   "value": 0,
-                  "raw": "0"
-                }
+                  "raw": "0",
+                  "start": 618,
+                  "end": 619
+                },
+                "start": 614,
+                "end": 619
               }
-            ]
-          }
+            ],
+            "start": 613,
+            "end": 620
+          },
+          "start": 610,
+          "end": 620
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 622,
-        "end": 624,
-        "body": []
+        "end": 624
       },
-      "expression": false
+      "expression": false,
+      "start": 572,
+      "end": 624
     },
     {
       "type": "FunctionDeclaration",
-      "start": 626,
-      "end": 670,
       "id": {
         "type": "Identifier",
+        "name": "singleElementWithArray",
         "start": 635,
-        "end": 657,
-        "name": "singleElementWithArray"
+        "end": 657
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 658,
-          "end": 666,
           "argument": {
             "type": "ArrayPattern",
-            "start": 661,
-            "end": 666,
             "elements": [
               {
                 "type": "ArrayPattern",
-                "start": 662,
-                "end": 665,
                 "elements": [
                   {
                     "type": "Identifier",
+                    "name": "a",
                     "start": 663,
-                    "end": 664,
-                    "name": "a"
+                    "end": 664
                   }
-                ]
+                ],
+                "start": 662,
+                "end": 665
               }
-            ]
-          }
+            ],
+            "start": 661,
+            "end": 666
+          },
+          "start": 658,
+          "end": 666
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 668,
-        "end": 670,
-        "body": []
+        "end": 670
       },
-      "expression": false
+      "expression": false,
+      "start": 626,
+      "end": 670
     },
     {
       "type": "FunctionDeclaration",
-      "start": 672,
-      "end": 720,
       "id": {
         "type": "Identifier",
+        "name": "singleElementWithObject",
         "start": 681,
-        "end": 704,
-        "name": "singleElementWithObject"
+        "end": 704
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 705,
-          "end": 716,
           "argument": {
             "type": "ArrayPattern",
-            "start": 708,
-            "end": 716,
             "elements": [
               {
                 "type": "ObjectPattern",
-                "start": 709,
-                "end": 715,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 710,
-                    "end": 714,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "p",
                       "start": 710,
-                      "end": 711,
-                      "name": "p"
+                      "end": 711
                     },
                     "value": {
                       "type": "Identifier",
+                      "name": "q",
                       "start": 713,
-                      "end": 714,
-                      "name": "q"
+                      "end": 714
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 710,
+                    "end": 714
                   }
-                ]
+                ],
+                "start": 709,
+                "end": 715
               }
-            ]
-          }
+            ],
+            "start": 708,
+            "end": 716
+          },
+          "start": 705,
+          "end": 716
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 718,
-        "end": 720,
-        "body": []
+        "end": 720
       },
-      "expression": false
+      "expression": false,
+      "start": 672,
+      "end": 720
     },
     {
       "type": "FunctionDeclaration",
-      "start": 722,
-      "end": 766,
       "id": {
         "type": "Identifier",
+        "name": "singleElementWithRest",
         "start": 731,
-        "end": 752,
-        "name": "singleElementWithRest"
+        "end": 752
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 753,
-          "end": 762,
           "argument": {
             "type": "ArrayPattern",
-            "start": 756,
-            "end": 762,
             "elements": [
               {
                 "type": "RestElement",
-                "start": 757,
-                "end": 761,
                 "argument": {
                   "type": "Identifier",
+                  "name": "a",
                   "start": 760,
-                  "end": 761,
-                  "name": "a"
-                }
+                  "end": 761
+                },
+                "start": 757,
+                "end": 761
               }
-            ]
-          }
+            ],
+            "start": 756,
+            "end": 762
+          },
+          "start": 753,
+          "end": 762
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 764,
-        "end": 766,
-        "body": []
+        "end": 766
       },
-      "expression": false
+      "expression": false,
+      "start": 722,
+      "end": 766
     },
     {
       "type": "FunctionDeclaration",
-      "start": 768,
-      "end": 815,
       "id": {
         "type": "Identifier",
+        "name": "singleElementWithLeading",
         "start": 777,
-        "end": 801,
-        "name": "singleElementWithLeading"
+        "end": 801
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "x",
           "start": 802,
-          "end": 803,
-          "name": "x"
+          "end": 803
         },
         {
           "type": "RestElement",
-          "start": 805,
-          "end": 811,
           "argument": {
             "type": "ArrayPattern",
-            "start": 808,
-            "end": 811,
             "elements": [
               {
                 "type": "Identifier",
+                "name": "a",
                 "start": 809,
-                "end": 810,
-                "name": "a"
+                "end": 810
               }
-            ]
-          }
+            ],
+            "start": 808,
+            "end": 811
+          },
+          "start": 805,
+          "end": 811
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 813,
-        "end": 815,
-        "body": []
+        "end": 815
       },
-      "expression": false
+      "expression": false,
+      "start": 768,
+      "end": 815
     },
     {
       "type": "FunctionDeclaration",
-      "start": 818,
-      "end": 856,
       "id": {
         "type": "Identifier",
+        "name": "multiElement",
         "start": 827,
-        "end": 839,
-        "name": "multiElement"
+        "end": 839
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 840,
-          "end": 852,
           "argument": {
             "type": "ArrayPattern",
-            "start": 843,
-            "end": 852,
             "elements": [
               {
                 "type": "Identifier",
+                "name": "a",
                 "start": 844,
-                "end": 845,
-                "name": "a"
+                "end": 845
               },
               {
                 "type": "Identifier",
+                "name": "b",
                 "start": 847,
-                "end": 848,
-                "name": "b"
+                "end": 848
               },
               {
                 "type": "Identifier",
+                "name": "c",
                 "start": 850,
-                "end": 851,
-                "name": "c"
+                "end": 851
               }
-            ]
-          }
+            ],
+            "start": 843,
+            "end": 852
+          },
+          "start": 840,
+          "end": 852
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 854,
-        "end": 856,
-        "body": []
+        "end": 856
       },
-      "expression": false
+      "expression": false,
+      "start": 818,
+      "end": 856
     },
     {
       "type": "FunctionDeclaration",
-      "start": 858,
-      "end": 919,
       "id": {
         "type": "Identifier",
+        "name": "multiElementWithInitializer",
         "start": 867,
-        "end": 894,
-        "name": "multiElementWithInitializer"
+        "end": 894
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 895,
-          "end": 915,
           "argument": {
             "type": "ArrayPattern",
-            "start": 898,
-            "end": 915,
             "elements": [
               {
                 "type": "AssignmentPattern",
-                "start": 899,
-                "end": 904,
                 "left": {
                   "type": "Identifier",
+                  "name": "a",
                   "start": 899,
-                  "end": 900,
-                  "name": "a"
+                  "end": 900
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 903,
-                  "end": 904,
                   "value": 0,
-                  "raw": "0"
-                }
+                  "raw": "0",
+                  "start": 903,
+                  "end": 904
+                },
+                "start": 899,
+                "end": 904
               },
               {
                 "type": "Identifier",
+                "name": "b",
                 "start": 906,
-                "end": 907,
-                "name": "b"
+                "end": 907
               },
               {
                 "type": "AssignmentPattern",
-                "start": 909,
-                "end": 914,
                 "left": {
                   "type": "Identifier",
+                  "name": "c",
                   "start": 909,
-                  "end": 910,
-                  "name": "c"
+                  "end": 910
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 913,
-                  "end": 914,
                   "value": 1,
-                  "raw": "1"
-                }
+                  "raw": "1",
+                  "start": 913,
+                  "end": 914
+                },
+                "start": 909,
+                "end": 914
               }
-            ]
-          }
+            ],
+            "start": 898,
+            "end": 915
+          },
+          "start": 895,
+          "end": 915
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 917,
-        "end": 919,
-        "body": []
+        "end": 919
       },
-      "expression": false
+      "expression": false,
+      "start": 858,
+      "end": 919
     },
     {
       "type": "FunctionDeclaration",
-      "start": 921,
-      "end": 972,
       "id": {
         "type": "Identifier",
+        "name": "multiElementWithArray",
         "start": 930,
-        "end": 951,
-        "name": "multiElementWithArray"
+        "end": 951
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 952,
-          "end": 968,
           "argument": {
             "type": "ArrayPattern",
-            "start": 955,
-            "end": 968,
             "elements": [
               {
                 "type": "ArrayPattern",
-                "start": 956,
-                "end": 959,
                 "elements": [
                   {
                     "type": "Identifier",
+                    "name": "a",
                     "start": 957,
-                    "end": 958,
-                    "name": "a"
+                    "end": 958
                   }
-                ]
+                ],
+                "start": 956,
+                "end": 959
               },
               {
                 "type": "Identifier",
+                "name": "b",
                 "start": 961,
-                "end": 962,
-                "name": "b"
+                "end": 962
               },
               {
                 "type": "ArrayPattern",
-                "start": 964,
-                "end": 967,
                 "elements": [
                   {
                     "type": "Identifier",
+                    "name": "c",
                     "start": 965,
-                    "end": 966,
-                    "name": "c"
+                    "end": 966
                   }
-                ]
+                ],
+                "start": 964,
+                "end": 967
               }
-            ]
-          }
+            ],
+            "start": 955,
+            "end": 968
+          },
+          "start": 952,
+          "end": 968
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 970,
-        "end": 972,
-        "body": []
+        "end": 972
       },
-      "expression": false
+      "expression": false,
+      "start": 921,
+      "end": 972
     },
     {
       "type": "FunctionDeclaration",
-      "start": 974,
-      "end": 1035,
       "id": {
         "type": "Identifier",
+        "name": "multiElementWithObject",
         "start": 983,
-        "end": 1005,
-        "name": "multiElementWithObject"
+        "end": 1005
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 1006,
-          "end": 1031,
           "argument": {
             "type": "ArrayPattern",
-            "start": 1009,
-            "end": 1031,
             "elements": [
               {
                 "type": "ObjectPattern",
-                "start": 1010,
-                "end": 1016,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1011,
-                    "end": 1015,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "p",
                       "start": 1011,
-                      "end": 1012,
-                      "name": "p"
+                      "end": 1012
                     },
                     "value": {
                       "type": "Identifier",
+                      "name": "q",
                       "start": 1014,
-                      "end": 1015,
-                      "name": "q"
+                      "end": 1015
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1011,
+                    "end": 1015
                   }
-                ]
+                ],
+                "start": 1010,
+                "end": 1016
               },
               {
                 "type": "ObjectPattern",
-                "start": 1018,
-                "end": 1021,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1019,
-                    "end": 1020,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "r",
                       "start": 1019,
-                      "end": 1020,
-                      "name": "r"
+                      "end": 1020
                     },
                     "value": {
                       "type": "Identifier",
+                      "name": "r",
                       "start": 1019,
-                      "end": 1020,
-                      "name": "r"
+                      "end": 1020
                     },
                     "method": false,
                     "shorthand": true,
-                    "computed": false
+                    "computed": false,
+                    "start": 1019,
+                    "end": 1020
                   }
-                ]
+                ],
+                "start": 1018,
+                "end": 1021
               },
               {
                 "type": "ObjectPattern",
-                "start": 1023,
-                "end": 1030,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1024,
-                    "end": 1029,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "s",
                       "start": 1024,
-                      "end": 1025,
-                      "name": "s"
+                      "end": 1025
                     },
                     "value": {
                       "type": "AssignmentPattern",
-                      "start": 1024,
-                      "end": 1029,
                       "left": {
                         "type": "Identifier",
+                        "name": "s",
                         "start": 1024,
-                        "end": 1025,
-                        "name": "s"
+                        "end": 1025
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 1028,
-                        "end": 1029,
                         "value": 0,
-                        "raw": "0"
-                      }
+                        "raw": "0",
+                        "start": 1028,
+                        "end": 1029
+                      },
+                      "start": 1024,
+                      "end": 1029
                     },
                     "method": false,
                     "shorthand": true,
-                    "computed": false
+                    "computed": false,
+                    "start": 1024,
+                    "end": 1029
                   }
-                ]
+                ],
+                "start": 1023,
+                "end": 1030
               }
-            ]
-          }
+            ],
+            "start": 1009,
+            "end": 1031
+          },
+          "start": 1006,
+          "end": 1031
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1033,
-        "end": 1035,
-        "body": []
+        "end": 1035
       },
-      "expression": false
+      "expression": false,
+      "start": 974,
+      "end": 1035
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1037,
-      "end": 1086,
       "id": {
         "type": "Identifier",
+        "name": "multiElementWithRest",
         "start": 1046,
-        "end": 1066,
-        "name": "multiElementWithRest"
+        "end": 1066
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "RestElement",
-          "start": 1067,
-          "end": 1082,
           "argument": {
             "type": "ArrayPattern",
-            "start": 1070,
-            "end": 1082,
             "elements": [
               {
                 "type": "Identifier",
+                "name": "a",
                 "start": 1071,
-                "end": 1072,
-                "name": "a"
+                "end": 1072
               },
               {
                 "type": "Identifier",
+                "name": "b",
                 "start": 1074,
-                "end": 1075,
-                "name": "b"
+                "end": 1075
               },
               {
                 "type": "RestElement",
-                "start": 1077,
-                "end": 1081,
                 "argument": {
                   "type": "Identifier",
+                  "name": "c",
                   "start": 1080,
-                  "end": 1081,
-                  "name": "c"
-                }
+                  "end": 1081
+                },
+                "start": 1077,
+                "end": 1081
               }
-            ]
-          }
+            ],
+            "start": 1070,
+            "end": 1082
+          },
+          "start": 1067,
+          "end": 1082
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1084,
-        "end": 1086,
-        "body": []
+        "end": 1086
       },
-      "expression": false
+      "expression": false,
+      "start": 1037,
+      "end": 1086
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1088,
-      "end": 1143,
       "id": {
         "type": "Identifier",
+        "name": "multiElementWithLeading",
         "start": 1097,
-        "end": 1120,
-        "name": "multiElementWithLeading"
+        "end": 1120
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "x",
           "start": 1121,
-          "end": 1122,
-          "name": "x"
+          "end": 1122
         },
         {
           "type": "Identifier",
+          "name": "y",
           "start": 1124,
-          "end": 1125,
-          "name": "y"
+          "end": 1125
         },
         {
           "type": "RestElement",
-          "start": 1127,
-          "end": 1139,
           "argument": {
             "type": "ArrayPattern",
-            "start": 1130,
-            "end": 1139,
             "elements": [
               {
                 "type": "Identifier",
+                "name": "a",
                 "start": 1131,
-                "end": 1132,
-                "name": "a"
+                "end": 1132
               },
               {
                 "type": "Identifier",
+                "name": "b",
                 "start": 1134,
-                "end": 1135,
-                "name": "b"
+                "end": 1135
               },
               {
                 "type": "Identifier",
+                "name": "c",
                 "start": 1137,
-                "end": 1138,
-                "name": "c"
+                "end": 1138
               }
-            ]
-          }
+            ],
+            "start": 1130,
+            "end": 1139
+          },
+          "start": 1127,
+          "end": 1139
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1141,
-        "end": 1143,
-        "body": []
+        "end": 1143
       },
-      "expression": false
+      "expression": false,
+      "start": 1088,
+      "end": 1143
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1144
 }

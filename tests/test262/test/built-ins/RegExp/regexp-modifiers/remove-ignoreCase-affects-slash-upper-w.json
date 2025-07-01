@@ -1,159 +1,159 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2825,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2691,
-      "end": 2714,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2695,
-          "end": 2713,
           "id": {
             "type": "Identifier",
+            "name": "re1",
             "start": 2695,
-            "end": 2698,
-            "name": "re1"
+            "end": 2698
           },
           "init": {
             "type": "Literal",
-            "start": 2701,
-            "end": 2713,
             "value": null,
             "raw": "/(?-i:\\W)/ui",
             "regex": {
               "pattern": "(?-i:\\W)",
               "flags": "iu"
-            }
-          }
+            },
+            "start": 2701,
+            "end": 2713
+          },
+          "start": 2695,
+          "end": 2713
         }
-      ]
+      ],
+      "start": 2691,
+      "end": 2714
     },
     {
       "type": "ExpressionStatement",
-      "start": 2715,
-      "end": 2769,
       "expression": {
         "type": "CallExpression",
-        "start": 2715,
-        "end": 2768,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2715,
-          "end": 2721,
-          "name": "assert"
+          "end": 2721
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2722,
-            "end": 2740,
             "callee": {
               "type": "MemberExpression",
-              "start": 2722,
-              "end": 2730,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2722,
-                "end": 2725,
-                "name": "re1"
+                "end": 2725
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2726,
-                "end": 2730,
-                "name": "test"
+                "end": 2730
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2722,
+              "end": 2730
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2731,
-                "end": 2739,
                 "value": "ſ",
-                "raw": "\"\\u017f\""
+                "raw": "\"\\u017f\"",
+                "start": 2731,
+                "end": 2739
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2722,
+            "end": 2740
           },
           {
             "type": "Literal",
-            "start": 2742,
-            "end": 2767,
             "value": "\\W should match ſ",
-            "raw": "\"\\\\W should match \\u017f\""
+            "raw": "\"\\\\W should match \\u017f\"",
+            "start": 2742,
+            "end": 2767
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2715,
+        "end": 2768
+      },
+      "start": 2715,
+      "end": 2769
     },
     {
       "type": "ExpressionStatement",
-      "start": 2770,
-      "end": 2824,
       "expression": {
         "type": "CallExpression",
-        "start": 2770,
-        "end": 2823,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2770,
-          "end": 2776,
-          "name": "assert"
+          "end": 2776
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2777,
-            "end": 2795,
             "callee": {
               "type": "MemberExpression",
-              "start": 2777,
-              "end": 2785,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2777,
-                "end": 2780,
-                "name": "re1"
+                "end": 2780
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2781,
-                "end": 2785,
-                "name": "test"
+                "end": 2785
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2777,
+              "end": 2785
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2786,
-                "end": 2794,
                 "value": "K",
-                "raw": "\"\\u212a\""
+                "raw": "\"\\u212a\"",
+                "start": 2786,
+                "end": 2794
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2777,
+            "end": 2795
           },
           {
             "type": "Literal",
-            "start": 2797,
-            "end": 2822,
             "value": "\\W should match K",
-            "raw": "\"\\\\W should match \\u212a\""
+            "raw": "\"\\\\W should match \\u212a\"",
+            "start": 2797,
+            "end": 2822
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2770,
+        "end": 2823
+      },
+      "start": 2770,
+      "end": 2824
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2825
 }

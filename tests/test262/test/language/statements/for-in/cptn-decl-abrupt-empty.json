@@ -1,247 +1,247 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1405,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1024,
-      "end": 1099,
       "expression": {
         "type": "CallExpression",
-        "start": 1024,
-        "end": 1098,
         "callee": {
           "type": "MemberExpression",
-          "start": 1024,
-          "end": 1040,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1024,
-            "end": 1030,
-            "name": "assert"
+            "end": 1030
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1031,
-            "end": 1040,
-            "name": "sameValue"
+            "end": 1040
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1024,
+          "end": 1040
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1041,
-            "end": 1086,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 1041,
-              "end": 1045,
-              "name": "eval"
+              "end": 1045
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1046,
-                "end": 1085,
                 "value": "1; for (var a in { x: 0 }) { break; }",
-                "raw": "'1; for (var a in { x: 0 }) { break; }'"
+                "raw": "'1; for (var a in { x: 0 }) { break; }'",
+                "start": 1046,
+                "end": 1085
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1041,
+            "end": 1086
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 1088,
-            "end": 1097,
-            "name": "undefined"
+            "end": 1097
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1024,
+        "end": 1098
+      },
+      "start": 1024,
+      "end": 1099
     },
     {
       "type": "ExpressionStatement",
-      "start": 1100,
-      "end": 1170,
       "expression": {
         "type": "CallExpression",
-        "start": 1100,
-        "end": 1169,
         "callee": {
           "type": "MemberExpression",
-          "start": 1100,
-          "end": 1116,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1100,
-            "end": 1106,
-            "name": "assert"
+            "end": 1106
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1107,
-            "end": 1116,
-            "name": "sameValue"
+            "end": 1116
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1100,
+          "end": 1116
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1117,
-            "end": 1165,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 1117,
-              "end": 1121,
-              "name": "eval"
+              "end": 1121
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1122,
-                "end": 1164,
                 "value": "2; for (var b in { x: 0 }) { 3; break; }",
-                "raw": "'2; for (var b in { x: 0 }) { 3; break; }'"
+                "raw": "'2; for (var b in { x: 0 }) { 3; break; }'",
+                "start": 1122,
+                "end": 1164
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1117,
+            "end": 1165
           },
           {
             "type": "Literal",
-            "start": 1167,
-            "end": 1168,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 1167,
+            "end": 1168
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1100,
+        "end": 1169
+      },
+      "start": 1100,
+      "end": 1170
     },
     {
       "type": "ExpressionStatement",
-      "start": 1172,
-      "end": 1290,
       "expression": {
         "type": "CallExpression",
-        "start": 1172,
-        "end": 1289,
         "callee": {
           "type": "MemberExpression",
-          "start": 1172,
-          "end": 1188,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1172,
-            "end": 1178,
-            "name": "assert"
+            "end": 1178
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1179,
-            "end": 1188,
-            "name": "sameValue"
+            "end": 1188
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1172,
+          "end": 1188
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1192,
-            "end": 1274,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 1192,
-              "end": 1196,
-              "name": "eval"
+              "end": 1196
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1197,
-                "end": 1273,
                 "value": "4; outer: do { for (var a in { x: 0 }) { continue outer; } } while (false)",
-                "raw": "'4; outer: do { for (var a in { x: 0 }) { continue outer; } } while (false)'"
+                "raw": "'4; outer: do { for (var a in { x: 0 }) { continue outer; } } while (false)'",
+                "start": 1197,
+                "end": 1273
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1192,
+            "end": 1274
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 1278,
-            "end": 1287,
-            "name": "undefined"
+            "end": 1287
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1172,
+        "end": 1289
+      },
+      "start": 1172,
+      "end": 1290
     },
     {
       "type": "ExpressionStatement",
-      "start": 1291,
-      "end": 1404,
       "expression": {
         "type": "CallExpression",
-        "start": 1291,
-        "end": 1403,
         "callee": {
           "type": "MemberExpression",
-          "start": 1291,
-          "end": 1307,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1291,
-            "end": 1297,
-            "name": "assert"
+            "end": 1297
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1298,
-            "end": 1307,
-            "name": "sameValue"
+            "end": 1307
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1291,
+          "end": 1307
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1311,
-            "end": 1396,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 1311,
-              "end": 1315,
-              "name": "eval"
+              "end": 1315
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1316,
-                "end": 1395,
                 "value": "5; outer: do { for (var b in { x: 0 }) { 6; continue outer; } } while (false)",
-                "raw": "'5; outer: do { for (var b in { x: 0 }) { 6; continue outer; } } while (false)'"
+                "raw": "'5; outer: do { for (var b in { x: 0 }) { 6; continue outer; } } while (false)'",
+                "start": 1316,
+                "end": 1395
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1311,
+            "end": 1396
           },
           {
             "type": "Literal",
-            "start": 1400,
-            "end": 1401,
             "value": 6,
-            "raw": "6"
+            "raw": "6",
+            "start": 1400,
+            "end": 1401
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1291,
+        "end": 1403
+      },
+      "start": 1291,
+      "end": 1404
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1405
 }

@@ -1,454 +1,454 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1514,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 426,
-      "end": 439,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 430,
-          "end": 438,
           "id": {
             "type": "Identifier",
+            "name": "__map",
             "start": 430,
-            "end": 435,
-            "name": "__map"
+            "end": 435
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 436,
-            "end": 438,
-            "properties": []
-          }
+            "end": 438
+          },
+          "start": 430,
+          "end": 438
         }
-      ]
+      ],
+      "start": 426,
+      "end": 439
     },
     {
       "type": "ExpressionStatement",
-      "start": 440,
-      "end": 455,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 440,
-        "end": 454,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 440,
-          "end": 448,
           "object": {
             "type": "Identifier",
+            "name": "__map",
             "start": 440,
-            "end": 445,
-            "name": "__map"
+            "end": 445
           },
           "property": {
             "type": "Literal",
+            "value": 1,
+            "raw": "1",
             "start": 446,
-            "end": 447,
-            "value": 1,
-            "raw": "1"
+            "end": 447
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 440,
+          "end": 448
         },
         "right": {
           "type": "Literal",
+          "value": "one",
+          "raw": "\"one\"",
           "start": 449,
-          "end": 454,
-          "value": "one",
-          "raw": "\"one\""
-        }
-      }
+          "end": 454
+        },
+        "start": 440,
+        "end": 454
+      },
+      "start": 440,
+      "end": 455
     },
     {
       "type": "ExpressionStatement",
-      "start": 456,
-      "end": 471,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 456,
-        "end": 470,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 456,
-          "end": 468,
           "object": {
             "type": "Identifier",
+            "name": "__map",
             "start": 456,
-            "end": 461,
-            "name": "__map"
+            "end": 461
           },
           "property": {
             "type": "Literal",
-            "start": 462,
-            "end": 467,
             "value": "two",
-            "raw": "\"two\""
+            "raw": "\"two\"",
+            "start": 462,
+            "end": 467
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 456,
+          "end": 468
         },
         "right": {
           "type": "Literal",
-          "start": 469,
-          "end": 470,
           "value": 2,
-          "raw": "2"
-        }
-      }
+          "raw": "2",
+          "start": 469,
+          "end": 470
+        },
+        "start": 456,
+        "end": 470
+      },
+      "start": 456,
+      "end": 471
     },
     {
       "type": "ExpressionStatement",
-      "start": 472,
-      "end": 489,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 472,
-        "end": 488,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 472,
-          "end": 482,
           "object": {
             "type": "Identifier",
+            "name": "__map",
             "start": 472,
-            "end": 477,
-            "name": "__map"
+            "end": 477
           },
           "property": {
             "type": "Literal",
+            "value": "3",
+            "raw": "\"3\"",
             "start": 478,
-            "end": 481,
-            "value": "3",
-            "raw": "\"3\""
+            "end": 481
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 472,
+          "end": 482
         },
         "right": {
           "type": "Literal",
+          "value": "tre",
+          "raw": "\"tre\"",
           "start": 483,
-          "end": 488,
-          "value": "tre",
-          "raw": "\"tre\""
-        }
-      }
+          "end": 488
+        },
+        "start": 472,
+        "end": 488
+      },
+      "start": 472,
+      "end": 489
     },
     {
       "type": "IfStatement",
-      "start": 580,
-      "end": 745,
       "test": {
         "type": "BinaryExpression",
-        "start": 584,
-        "end": 602,
         "left": {
           "type": "MemberExpression",
-          "start": 584,
-          "end": 592,
           "object": {
             "type": "Identifier",
+            "name": "__map",
             "start": 584,
-            "end": 589,
-            "name": "__map"
+            "end": 589
           },
           "property": {
             "type": "Literal",
-            "start": 590,
-            "end": 591,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 590,
+            "end": 591
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 584,
+          "end": 592
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 597,
-          "end": 602,
           "value": "one",
-          "raw": "\"one\""
-        }
+          "raw": "\"one\"",
+          "start": 597,
+          "end": 602
+        },
+        "start": 584,
+        "end": 602
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 604,
-        "end": 745,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 607,
-            "end": 743,
             "argument": {
               "type": "NewExpression",
-              "start": 613,
-              "end": 742,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 617,
-                "end": 629,
-                "name": "Test262Error"
+                "end": 629
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 630,
-                  "end": 741,
                   "left": {
                     "type": "Literal",
-                    "start": 630,
-                    "end": 728,
                     "value": "#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: ",
-                    "raw": "'#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: '"
+                    "raw": "'#1: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[1] === \"one\". Actual: '",
+                    "start": 630,
+                    "end": 728
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 731,
-                    "end": 741,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 732,
-                      "end": 740,
                       "object": {
                         "type": "Identifier",
+                        "name": "__map",
                         "start": 732,
-                        "end": 737,
-                        "name": "__map"
+                        "end": 737
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 738,
-                        "end": 739,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 738,
+                        "end": 739
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 732,
+                      "end": 740
+                    },
+                    "start": 731,
+                    "end": 741
+                  },
+                  "start": 630,
+                  "end": 741
                 }
-              ]
-            }
+              ],
+              "start": 613,
+              "end": 742
+            },
+            "start": 607,
+            "end": 743
           }
-        ]
+        ],
+        "start": 604,
+        "end": 745
       },
-      "alternate": null
+      "alternate": null,
+      "start": 580,
+      "end": 745
     },
     {
       "type": "IfStatement",
-      "start": 918,
-      "end": 1087,
       "test": {
         "type": "BinaryExpression",
-        "start": 922,
-        "end": 940,
         "left": {
           "type": "MemberExpression",
-          "start": 922,
-          "end": 934,
           "object": {
             "type": "Identifier",
+            "name": "__map",
             "start": 922,
-            "end": 927,
-            "name": "__map"
+            "end": 927
           },
           "property": {
             "type": "Literal",
-            "start": 928,
-            "end": 933,
             "value": "two",
-            "raw": "\"two\""
+            "raw": "\"two\"",
+            "start": 928,
+            "end": 933
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 922,
+          "end": 934
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 939,
-          "end": 940,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 939,
+          "end": 940
+        },
+        "start": 922,
+        "end": 940
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 942,
-        "end": 1087,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 945,
-            "end": 1085,
             "argument": {
               "type": "NewExpression",
-              "start": 951,
-              "end": 1084,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 955,
-                "end": 967,
-                "name": "Test262Error"
+                "end": 967
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 968,
-                  "end": 1083,
                   "left": {
                     "type": "Literal",
-                    "start": 968,
-                    "end": 1066,
                     "value": "#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: ",
-                    "raw": "'#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: '"
+                    "raw": "'#2: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"two\"] === 2. Actual: '",
+                    "start": 968,
+                    "end": 1066
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 1069,
-                    "end": 1083,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 1070,
-                      "end": 1082,
                       "object": {
                         "type": "Identifier",
+                        "name": "__map",
                         "start": 1070,
-                        "end": 1075,
-                        "name": "__map"
+                        "end": 1075
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 1076,
-                        "end": 1081,
                         "value": "two",
-                        "raw": "\"two\""
+                        "raw": "\"two\"",
+                        "start": 1076,
+                        "end": 1081
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 1070,
+                      "end": 1082
+                    },
+                    "start": 1069,
+                    "end": 1083
+                  },
+                  "start": 968,
+                  "end": 1083
                 }
-              ]
-            }
+              ],
+              "start": 951,
+              "end": 1084
+            },
+            "start": 945,
+            "end": 1085
           }
-        ]
+        ],
+        "start": 942,
+        "end": 1087
       },
-      "alternate": null
+      "alternate": null,
+      "start": 918,
+      "end": 1087
     },
     {
       "type": "IfStatement",
-      "start": 1260,
-      "end": 1431,
       "test": {
         "type": "BinaryExpression",
-        "start": 1264,
-        "end": 1284,
         "left": {
           "type": "MemberExpression",
-          "start": 1264,
-          "end": 1274,
           "object": {
             "type": "Identifier",
+            "name": "__map",
             "start": 1264,
-            "end": 1269,
-            "name": "__map"
+            "end": 1269
           },
           "property": {
             "type": "Literal",
-            "start": 1270,
-            "end": 1273,
             "value": "3",
-            "raw": "\"3\""
+            "raw": "\"3\"",
+            "start": 1270,
+            "end": 1273
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 1264,
+          "end": 1274
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1279,
-          "end": 1284,
           "value": "tre",
-          "raw": "\"tre\""
-        }
+          "raw": "\"tre\"",
+          "start": 1279,
+          "end": 1284
+        },
+        "start": 1264,
+        "end": 1284
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1286,
-        "end": 1431,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1289,
-            "end": 1429,
             "argument": {
               "type": "NewExpression",
-              "start": 1295,
-              "end": 1428,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1299,
-                "end": 1311,
-                "name": "Test262Error"
+                "end": 1311
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1312,
-                  "end": 1427,
                   "left": {
                     "type": "Literal",
-                    "start": 1312,
-                    "end": 1412,
                     "value": "#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: ",
-                    "raw": "'#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: '"
+                    "raw": "'#3: var __map={}; __map[1]=\"one\"; __map[\"two\"]=2; __map[\"3\"]=\"tre\"; __map[\"3\"] === \"tre\". Actual: '",
+                    "start": 1312,
+                    "end": 1412
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 1415,
-                    "end": 1427,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 1416,
-                      "end": 1426,
                       "object": {
                         "type": "Identifier",
+                        "name": "__map",
                         "start": 1416,
-                        "end": 1421,
-                        "name": "__map"
+                        "end": 1421
                       },
                       "property": {
                         "type": "Literal",
-                        "start": 1422,
-                        "end": 1425,
                         "value": "3",
-                        "raw": "\"3\""
+                        "raw": "\"3\"",
+                        "start": 1422,
+                        "end": 1425
                       },
                       "optional": false,
-                      "computed": true
-                    }
-                  }
+                      "computed": true,
+                      "start": 1416,
+                      "end": 1426
+                    },
+                    "start": 1415,
+                    "end": 1427
+                  },
+                  "start": 1312,
+                  "end": 1427
                 }
-              ]
-            }
+              ],
+              "start": 1295,
+              "end": 1428
+            },
+            "start": 1289,
+            "end": 1429
           }
-        ]
+        ],
+        "start": 1286,
+        "end": 1431
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1260,
+      "end": 1431
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1514
 }

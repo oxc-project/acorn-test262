@@ -1,94 +1,94 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1167,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 1044,
-      "end": 1124,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1051,
-          "end": 1058,
           "local": {
             "type": "Identifier",
+            "name": "ns",
             "start": 1056,
-            "end": 1058,
-            "name": "ns"
-          }
+            "end": 1058
+          },
+          "start": 1051,
+          "end": 1058
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1064,
-        "end": 1123,
         "value": "./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js",
-        "raw": "'./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js'"
+        "raw": "'./instn-star-props-dflt-keep-indirect-reexport_FIXTURE.js'",
+        "start": 1064,
+        "end": 1123
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1044,
+      "end": 1124
     },
     {
       "type": "ExpressionStatement",
-      "start": 1126,
-      "end": 1166,
       "expression": {
         "type": "CallExpression",
-        "start": 1126,
-        "end": 1165,
         "callee": {
           "type": "MemberExpression",
-          "start": 1126,
-          "end": 1142,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1126,
-            "end": 1132,
-            "name": "assert"
+            "end": 1132
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1133,
-            "end": 1142,
-            "name": "sameValue"
+            "end": 1142
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1126,
+          "end": 1142
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1143,
-            "end": 1158,
             "left": {
               "type": "Literal",
-              "start": 1143,
-              "end": 1152,
               "value": "default",
-              "raw": "'default'"
+              "raw": "'default'",
+              "start": 1143,
+              "end": 1152
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
+              "name": "ns",
               "start": 1156,
-              "end": 1158,
-              "name": "ns"
-            }
+              "end": 1158
+            },
+            "start": 1143,
+            "end": 1158
           },
           {
             "type": "Literal",
-            "start": 1160,
-            "end": 1164,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1160,
+            "end": 1164
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1126,
+        "end": 1165
+      },
+      "start": 1126,
+      "end": 1166
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1167
 }

@@ -2,55 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 97,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 97,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 96,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 12,
             "decorators": [],
             "name": "promise1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 12
           },
           "init": {
             "type": "CallExpression",
-            "start": 15,
-            "end": 96,
             "callee": {
               "type": "MemberExpression",
-              "start": 15,
-              "end": 81,
               "object": {
                 "type": "NewExpression",
-                "start": 15,
-                "end": 56,
                 "callee": {
                   "type": "Identifier",
-                  "start": 19,
-                  "end": 26,
                   "decorators": [],
                   "name": "Promise",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 19,
+                  "end": 26
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "FunctionExpression",
-                    "start": 27,
-                    "end": 55,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -59,52 +45,56 @@ __ESTREE_TEST__:PASS:
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 36,
-                        "end": 43,
                         "decorators": [],
                         "name": "resolve",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 36,
+                        "end": 43
                       },
                       {
                         "type": "Identifier",
-                        "start": 45,
-                        "end": 51,
                         "decorators": [],
                         "name": "reject",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 45,
+                        "end": 51
                       }
                     ],
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 53,
-                      "end": 55,
-                      "body": []
+                      "end": 55
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 27,
+                    "end": 55
                   }
-                ]
+                ],
+                "start": 15,
+                "end": 56
               },
               "property": {
                 "type": "Identifier",
-                "start": 74,
-                "end": 81,
                 "decorators": [],
                 "name": "finally",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 74,
+                "end": 81
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 15,
+              "end": 81
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 82,
-                "end": 95,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -114,22 +104,32 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 93,
-                  "end": 95,
-                  "body": []
+                  "end": 95
                 },
-                "expression": false
+                "expression": false,
+                "start": 82,
+                "end": 95
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 15,
+            "end": 96
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 96
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 97
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 97
 }
 ```

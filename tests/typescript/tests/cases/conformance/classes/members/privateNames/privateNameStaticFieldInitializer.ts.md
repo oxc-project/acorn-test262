@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 62,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 62,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,23 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 62,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 33,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "field",
               "start": 21,
-              "end": 27,
-              "name": "field"
+              "end": 27
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 30,
-              "end": 32,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 30,
+              "end": 32
             },
             "computed": false,
             "static": true,
@@ -54,18 +46,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 33
           },
           {
             "type": "PropertyDefinition",
-            "start": 38,
-            "end": 60,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "uninitialized",
               "start": 45,
-              "end": 59,
-              "name": "uninitialized"
+              "end": 59
             },
             "typeAnnotation": null,
             "value": null,
@@ -76,15 +68,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 38,
+            "end": 60
           }
-        ]
+        ],
+        "start": 8,
+        "end": 62
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 62
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 62
 }
 ```

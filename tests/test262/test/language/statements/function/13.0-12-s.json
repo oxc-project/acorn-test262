@@ -1,73 +1,73 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 555,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 488,
-      "end": 538,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 492,
-          "end": 537,
           "id": {
             "type": "Identifier",
+            "name": "_13_0_12_fun",
             "start": 492,
-            "end": 504,
-            "name": "_13_0_12_fun"
+            "end": 504
           },
           "init": {
             "type": "NewExpression",
-            "start": 507,
-            "end": 537,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 511,
-              "end": 519,
-              "name": "Function"
+              "end": 519
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 520,
-                "end": 523,
                 "value": " ",
-                "raw": "\" \""
+                "raw": "\" \"",
+                "start": 520,
+                "end": 523
               },
               {
                 "type": "Literal",
-                "start": 524,
-                "end": 536,
                 "value": "eval = 42;",
-                "raw": "\"eval = 42;\""
+                "raw": "\"eval = 42;\"",
+                "start": 524,
+                "end": 536
               }
-            ]
-          }
+            ],
+            "start": 507,
+            "end": 537
+          },
+          "start": 492,
+          "end": 537
         }
-      ]
+      ],
+      "start": 488,
+      "end": 538
     },
     {
       "type": "ExpressionStatement",
-      "start": 539,
-      "end": 554,
       "expression": {
         "type": "CallExpression",
-        "start": 539,
-        "end": 553,
         "callee": {
           "type": "Identifier",
+          "name": "_13_0_12_fun",
           "start": 539,
-          "end": 551,
-          "name": "_13_0_12_fun"
+          "end": 551
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 539,
+        "end": 553
+      },
+      "start": 539,
+      "end": 554
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 555
 }

@@ -1,321 +1,321 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 801,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 554,
-      "end": 597,
       "expression": {
         "type": "CallExpression",
-        "start": 554,
-        "end": 596,
         "callee": {
           "type": "MemberExpression",
-          "start": 554,
-          "end": 570,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 554,
-            "end": 560,
-            "name": "assert"
+            "end": 560
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 561,
-            "end": 570,
-            "name": "sameValue"
+            "end": 570
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 554,
+          "end": 570
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 571,
-            "end": 590,
             "callee": {
               "type": "Identifier",
+              "name": "BigInt",
               "start": 571,
-              "end": 577,
-              "name": "BigInt"
+              "end": 577
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 578,
-                "end": 589,
                 "value": "   0b1111",
-                "raw": "\"   0b1111\""
+                "raw": "\"   0b1111\"",
+                "start": 578,
+                "end": 589
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 571,
+            "end": 590
           },
           {
             "type": "Literal",
-            "start": 592,
-            "end": 595,
             "value": null,
             "raw": "15n",
-            "bigint": "15"
+            "bigint": "15",
+            "start": 592,
+            "end": 595
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 554,
+        "end": 596
+      },
+      "start": 554,
+      "end": 597
     },
     {
       "type": "ExpressionStatement",
-      "start": 598,
-      "end": 673,
       "expression": {
         "type": "CallExpression",
-        "start": 598,
-        "end": 672,
         "callee": {
           "type": "MemberExpression",
-          "start": 598,
-          "end": 614,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 598,
-            "end": 604,
-            "name": "assert"
+            "end": 604
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 605,
-            "end": 614,
-            "name": "sameValue"
+            "end": 614
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 598,
+          "end": 614
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 615,
-            "end": 648,
             "callee": {
               "type": "Identifier",
+              "name": "BigInt",
               "start": 615,
-              "end": 621,
-              "name": "BigInt"
+              "end": 621
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 622,
-                "end": 647,
                 "value": "18446744073709551616   ",
-                "raw": "\"18446744073709551616   \""
+                "raw": "\"18446744073709551616   \"",
+                "start": 622,
+                "end": 647
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 615,
+            "end": 648
           },
           {
             "type": "Literal",
-            "start": 650,
-            "end": 671,
             "value": null,
             "raw": "18446744073709551616n",
-            "bigint": "18446744073709551616"
+            "bigint": "18446744073709551616",
+            "start": 650,
+            "end": 671
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 598,
+        "end": 672
+      },
+      "start": 598,
+      "end": 673
     },
     {
       "type": "ExpressionStatement",
-      "start": 674,
-      "end": 714,
       "expression": {
         "type": "CallExpression",
-        "start": 674,
-        "end": 713,
         "callee": {
           "type": "MemberExpression",
-          "start": 674,
-          "end": 690,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 674,
-            "end": 680,
-            "name": "assert"
+            "end": 680
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 681,
-            "end": 690,
-            "name": "sameValue"
+            "end": 690
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 674,
+          "end": 690
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 691,
-            "end": 708,
             "callee": {
               "type": "Identifier",
+              "name": "BigInt",
               "start": 691,
-              "end": 697,
-              "name": "BigInt"
+              "end": 697
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 698,
-                "end": 707,
                 "value": "   7   ",
-                "raw": "\"   7   \""
+                "raw": "\"   7   \"",
+                "start": 698,
+                "end": 707
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 691,
+            "end": 708
           },
           {
             "type": "Literal",
-            "start": 710,
-            "end": 712,
             "value": null,
             "raw": "7n",
-            "bigint": "7"
+            "bigint": "7",
+            "start": 710,
+            "end": 712
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 674,
+        "end": 713
+      },
+      "start": 674,
+      "end": 714
     },
     {
       "type": "ExpressionStatement",
-      "start": 715,
-      "end": 761,
       "expression": {
         "type": "CallExpression",
-        "start": 715,
-        "end": 760,
         "callee": {
           "type": "MemberExpression",
-          "start": 715,
-          "end": 731,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 715,
-            "end": 721,
-            "name": "assert"
+            "end": 721
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 722,
-            "end": 731,
-            "name": "sameValue"
+            "end": 731
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 715,
+          "end": 731
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 732,
-            "end": 752,
             "callee": {
               "type": "Identifier",
+              "name": "BigInt",
               "start": 732,
-              "end": 738,
-              "name": "BigInt"
+              "end": 738
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 739,
-                "end": 751,
                 "value": "   -197   ",
-                "raw": "\"   -197   \""
+                "raw": "\"   -197   \"",
+                "start": 739,
+                "end": 751
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 732,
+            "end": 752
           },
           {
             "type": "UnaryExpression",
-            "start": 754,
-            "end": 759,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 755,
-              "end": 759,
               "value": null,
               "raw": "197n",
-              "bigint": "197"
+              "bigint": "197",
+              "start": 755,
+              "end": 759
             },
-            "prefix": true
+            "prefix": true,
+            "start": 754,
+            "end": 759
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 715,
+        "end": 760
+      },
+      "start": 715,
+      "end": 761
     },
     {
       "type": "ExpressionStatement",
-      "start": 762,
-      "end": 800,
       "expression": {
         "type": "CallExpression",
-        "start": 762,
-        "end": 799,
         "callee": {
           "type": "MemberExpression",
-          "start": 762,
-          "end": 778,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 762,
-            "end": 768,
-            "name": "assert"
+            "end": 768
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 769,
-            "end": 778,
-            "name": "sameValue"
+            "end": 778
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 762,
+          "end": 778
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 779,
-            "end": 794,
             "callee": {
               "type": "Identifier",
+              "name": "BigInt",
               "start": 779,
-              "end": 785,
-              "name": "BigInt"
+              "end": 785
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 786,
-                "end": 793,
                 "value": "     ",
-                "raw": "\"     \""
+                "raw": "\"     \"",
+                "start": 786,
+                "end": 793
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 779,
+            "end": 794
           },
           {
             "type": "Literal",
-            "start": 796,
-            "end": 798,
             "value": null,
             "raw": "0n",
-            "bigint": "0"
+            "bigint": "0",
+            "start": 796,
+            "end": 798
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 762,
+        "end": 799
+      },
+      "start": 762,
+      "end": 800
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 801
 }

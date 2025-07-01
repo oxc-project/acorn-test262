@@ -2,43 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 54,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 54,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 54,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 15,
-            "end": 52,
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 22,
-              "end": 52,
               "id": {
                 "type": "Identifier",
-                "start": 32,
-                "end": 41,
                 "decorators": [],
                 "name": "generator",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 32,
+                "end": 41
               },
               "generator": true,
               "async": false,
@@ -47,35 +37,45 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 43,
-                "end": 48,
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
                   "start": 45,
                   "end": 48
-                }
+                },
+                "start": 43,
+                "end": 48
               },
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 49,
-                "end": 52,
-                "body": []
+                "end": 52
               },
-              "expression": false
+              "expression": false,
+              "start": 22,
+              "end": 52
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 15,
+            "end": 52
           }
-        ]
+        ],
+        "start": 9,
+        "end": 54
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 54
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 54
 }
 ```

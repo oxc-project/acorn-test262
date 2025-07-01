@@ -1,136 +1,136 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 456,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 327,
-      "end": 333,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 331,
-          "end": 332,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 331,
-            "end": 332,
-            "name": "x"
+            "end": 332
           },
-          "init": null
+          "init": null,
+          "start": 331,
+          "end": 332
         }
-      ]
+      ],
+      "start": 327,
+      "end": 333
     },
     {
       "type": "ExpressionStatement",
-      "start": 334,
-      "end": 357,
       "expression": {
         "type": "CallExpression",
-        "start": 334,
-        "end": 356,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 334,
-          "end": 338,
-          "name": "eval"
+          "end": 338
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 339,
-            "end": 346,
             "value": "x = 1",
-            "raw": "\"x = 1\""
+            "raw": "\"x = 1\"",
+            "start": 339,
+            "end": 346
           },
           {
             "type": "Literal",
-            "start": 348,
-            "end": 355,
             "value": "x = 2",
-            "raw": "\"x = 2\""
+            "raw": "\"x = 2\"",
+            "start": 348,
+            "end": 355
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 334,
+        "end": 356
+      },
+      "start": 334,
+      "end": 357
     },
     {
       "type": "IfStatement",
-      "start": 358,
-      "end": 455,
       "test": {
         "type": "BinaryExpression",
-        "start": 362,
-        "end": 369,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 362,
-          "end": 363,
-          "name": "x"
+          "end": 363
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 368,
-          "end": 369,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 368,
+          "end": 369
+        },
+        "start": 362,
+        "end": 369
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 371,
-        "end": 455,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 375,
-            "end": 453,
             "argument": {
               "type": "NewExpression",
-              "start": 381,
-              "end": 452,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 385,
-                "end": 397,
-                "name": "Test262Error"
+                "end": 397
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 398,
-                  "end": 451,
                   "left": {
                     "type": "Literal",
-                    "start": 398,
-                    "end": 445,
                     "value": "#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: ",
-                    "raw": "'#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: '"
+                    "raw": "'#1: eval(\"x = 1\", \"x = 2\"); x === 1. Actual: '",
+                    "start": 398,
+                    "end": 445
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 448,
-                    "end": 451,
                     "expression": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 449,
-                      "end": 450,
-                      "name": "x"
-                    }
-                  }
+                      "end": 450
+                    },
+                    "start": 448,
+                    "end": 451
+                  },
+                  "start": 398,
+                  "end": 451
                 }
-              ]
-            }
+              ],
+              "start": 381,
+              "end": 452
+            },
+            "start": 375,
+            "end": 453
           }
-        ]
+        ],
+        "start": 371,
+        "end": 455
       },
-      "alternate": null
+      "alternate": null,
+      "start": 358,
+      "end": 455
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 456
 }

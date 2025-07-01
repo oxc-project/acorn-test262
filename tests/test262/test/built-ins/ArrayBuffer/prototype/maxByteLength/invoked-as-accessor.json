@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 542,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 461,
-      "end": 541,
       "expression": {
         "type": "CallExpression",
-        "start": 461,
-        "end": 540,
         "callee": {
           "type": "MemberExpression",
-          "start": 461,
-          "end": 474,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 461,
-            "end": 467,
-            "name": "assert"
+            "end": 467
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 468,
-            "end": 474,
-            "name": "throws"
+            "end": 474
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 461,
+          "end": 474
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 475,
-            "end": 484,
-            "name": "TypeError"
+            "end": 484
           },
           {
             "type": "FunctionExpression",
-            "start": 486,
-            "end": 539,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 497,
-              "end": 539,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 501,
-                  "end": 537,
                   "expression": {
                     "type": "MemberExpression",
-                    "start": 501,
-                    "end": 536,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 501,
-                      "end": 522,
                       "object": {
                         "type": "Identifier",
+                        "name": "ArrayBuffer",
                         "start": 501,
-                        "end": 512,
-                        "name": "ArrayBuffer"
+                        "end": 512
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 513,
-                        "end": 522,
-                        "name": "prototype"
+                        "end": 522
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 501,
+                      "end": 522
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "maxByteLength",
                       "start": 523,
-                      "end": 536,
-                      "name": "maxByteLength"
+                      "end": 536
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 501,
+                    "end": 536
+                  },
+                  "start": 501,
+                  "end": 537
                 }
-              ]
+              ],
+              "start": 497,
+              "end": 539
             },
-            "expression": false
+            "expression": false,
+            "start": 486,
+            "end": 539
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 461,
+        "end": 540
+      },
+      "start": 461,
+      "end": 541
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 542
 }

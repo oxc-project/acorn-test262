@@ -1,178 +1,178 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 451,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 246,
-      "end": 328,
       "id": {
         "type": "Identifier",
+        "name": "callbackfn",
         "start": 255,
-        "end": 265,
-        "name": "callbackfn"
+        "end": 265
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "prevVal",
           "start": 266,
-          "end": 273,
-          "name": "prevVal"
+          "end": 273
         },
         {
           "type": "Identifier",
+          "name": "curVal",
           "start": 275,
-          "end": 281,
-          "name": "curVal"
+          "end": 281
         },
         {
           "type": "Identifier",
+          "name": "idx",
           "start": 283,
-          "end": 286,
-          "name": "idx"
+          "end": 286
         },
         {
           "type": "Identifier",
+          "name": "obj",
           "start": 288,
-          "end": 291,
-          "name": "obj"
+          "end": 291
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 293,
-        "end": 328,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 297,
-            "end": 326,
             "argument": {
               "type": "BinaryExpression",
-              "start": 304,
-              "end": 325,
               "left": {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 304,
-                "end": 307,
-                "name": "obj"
+                "end": 307
               },
               "operator": "instanceof",
               "right": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 319,
-                "end": 325,
-                "name": "String"
-              }
-            }
+                "end": 325
+              },
+              "start": 304,
+              "end": 325
+            },
+            "start": 297,
+            "end": 326
           }
-        ]
+        ],
+        "start": 293,
+        "end": 328
       },
-      "expression": false
+      "expression": false,
+      "start": 246,
+      "end": 328
     },
     {
       "type": "ExpressionStatement",
-      "start": 330,
-      "end": 450,
       "expression": {
         "type": "CallExpression",
-        "start": 330,
-        "end": 449,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 330,
-          "end": 336,
-          "name": "assert"
+          "end": 336
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 337,
-            "end": 386,
             "callee": {
               "type": "MemberExpression",
-              "start": 337,
-              "end": 364,
               "object": {
                 "type": "MemberExpression",
-                "start": 337,
-                "end": 359,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 337,
-                  "end": 352,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 337,
-                    "end": 342,
-                    "name": "Array"
+                    "end": 342
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 343,
-                    "end": 352,
-                    "name": "prototype"
+                    "end": 352
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 337,
+                  "end": 352
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "reduce",
                   "start": 353,
-                  "end": 359,
-                  "name": "reduce"
+                  "end": 359
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 337,
+                "end": 359
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 360,
-                "end": 364,
-                "name": "call"
+                "end": 364
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 337,
+              "end": 364
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 365,
-                "end": 370,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "start": 365,
+                "end": 370
               },
               {
                 "type": "Identifier",
+                "name": "callbackfn",
                 "start": 372,
-                "end": 382,
-                "name": "callbackfn"
+                "end": 382
               },
               {
                 "type": "Literal",
-                "start": 384,
-                "end": 385,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 384,
+                "end": 385
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 337,
+            "end": 386
           },
           {
             "type": "Literal",
-            "start": 388,
-            "end": 448,
             "value": "Array.prototype.reduce.call(\"abc\", callbackfn, 1) !== true",
-            "raw": "'Array.prototype.reduce.call(\"abc\", callbackfn, 1) !== true'"
+            "raw": "'Array.prototype.reduce.call(\"abc\", callbackfn, 1) !== true'",
+            "start": 388,
+            "end": 448
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 330,
+        "end": 449
+      },
+      "start": 330,
+      "end": 450
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 451
 }

@@ -2,991 +2,991 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 405,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 23,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 7,
         "decorators": [],
         "name": "T1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 7
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 8,
-        "end": 23,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 14,
-            "end": 21,
             "id": {
               "type": "Identifier",
-              "start": 14,
-              "end": 15,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 14,
+              "end": 15
             },
             "initializer": {
               "type": "TemplateLiteral",
-              "start": 18,
-              "end": 21,
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 18,
-                  "end": 21,
                   "value": {
                     "raw": "1",
                     "cooked": "1"
                   },
-                  "tail": true
+                  "tail": true,
+                  "start": 18,
+                  "end": 21
                 }
               ],
-              "expressions": []
+              "expressions": [],
+              "start": 18,
+              "end": 21
             },
-            "computed": false
+            "computed": false,
+            "start": 14,
+            "end": 21
           }
-        ]
+        ],
+        "start": 8,
+        "end": 23
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 23
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 25,
-      "end": 72,
       "id": {
         "type": "Identifier",
-        "start": 30,
-        "end": 32,
         "decorators": [],
         "name": "T2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 30,
+        "end": 32
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 33,
-        "end": 72,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 39,
-            "end": 46,
             "id": {
               "type": "Identifier",
-              "start": 39,
-              "end": 40,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 39,
+              "end": 40
             },
             "initializer": {
               "type": "TemplateLiteral",
-              "start": 43,
-              "end": 46,
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 43,
-                  "end": 46,
                   "value": {
                     "raw": "1",
                     "cooked": "1"
                   },
-                  "tail": true
+                  "tail": true,
+                  "start": 43,
+                  "end": 46
                 }
               ],
-              "expressions": []
+              "expressions": [],
+              "start": 43,
+              "end": 46
             },
-            "computed": false
+            "computed": false,
+            "start": 39,
+            "end": 46
           },
           {
             "type": "TSEnumMember",
-            "start": 52,
-            "end": 59,
             "id": {
               "type": "Identifier",
-              "start": 52,
-              "end": 53,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 52,
+              "end": 53
             },
             "initializer": {
               "type": "Literal",
-              "start": 56,
-              "end": 59,
               "value": "2",
-              "raw": "\"2\""
+              "raw": "\"2\"",
+              "start": 56,
+              "end": 59
             },
-            "computed": false
+            "computed": false,
+            "start": 52,
+            "end": 59
           },
           {
             "type": "TSEnumMember",
-            "start": 65,
-            "end": 70,
             "id": {
               "type": "Identifier",
-              "start": 65,
-              "end": 66,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 65,
+              "end": 66
             },
             "initializer": {
               "type": "Literal",
-              "start": 69,
-              "end": 70,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "start": 69,
+              "end": 70
             },
-            "computed": false
+            "computed": false,
+            "start": 65,
+            "end": 70
           }
-        ]
+        ],
+        "start": 33,
+        "end": 72
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 25,
+      "end": 72
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 74,
-      "end": 103,
       "id": {
         "type": "Identifier",
-        "start": 79,
-        "end": 81,
         "decorators": [],
         "name": "T3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 79,
+        "end": 81
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 82,
-        "end": 103,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 88,
-            "end": 101,
             "id": {
               "type": "Identifier",
-              "start": 88,
-              "end": 89,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 88,
+              "end": 89
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 92,
-              "end": 101,
               "left": {
                 "type": "TemplateLiteral",
-                "start": 92,
-                "end": 95,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 92,
-                    "end": 95,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 92,
+                    "end": 95
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 92,
+                "end": 95
               },
               "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
-                "start": 98,
-                "end": 101,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 98,
-                    "end": 101,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 98,
+                    "end": 101
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 98,
+                "end": 101
+              },
+              "start": 92,
+              "end": 101
             },
-            "computed": false
+            "computed": false,
+            "start": 88,
+            "end": 101
           }
-        ]
+        ],
+        "start": 82,
+        "end": 103
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 74,
+      "end": 103
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 105,
-      "end": 210,
       "id": {
         "type": "Identifier",
-        "start": 110,
-        "end": 112,
         "decorators": [],
         "name": "T4",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 110,
+        "end": 112
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 113,
-        "end": 210,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 119,
-            "end": 126,
             "id": {
               "type": "Identifier",
-              "start": 119,
-              "end": 120,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 119,
+              "end": 120
             },
             "initializer": {
               "type": "TemplateLiteral",
-              "start": 123,
-              "end": 126,
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 123,
-                  "end": 126,
                   "value": {
                     "raw": "1",
                     "cooked": "1"
                   },
-                  "tail": true
+                  "tail": true,
+                  "start": 123,
+                  "end": 126
                 }
               ],
-              "expressions": []
+              "expressions": [],
+              "start": 123,
+              "end": 126
             },
-            "computed": false
+            "computed": false,
+            "start": 119,
+            "end": 126
           },
           {
             "type": "TSEnumMember",
-            "start": 132,
-            "end": 145,
             "id": {
               "type": "Identifier",
-              "start": 132,
-              "end": 133,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 132,
+              "end": 133
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 136,
-              "end": 145,
               "left": {
                 "type": "TemplateLiteral",
-                "start": 136,
-                "end": 139,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 136,
-                    "end": 139,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 136,
+                    "end": 139
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 136,
+                "end": 139
               },
               "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
-                "start": 142,
-                "end": 145,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 142,
-                    "end": 145,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 142,
+                    "end": 145
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 142,
+                "end": 145
+              },
+              "start": 136,
+              "end": 145
             },
-            "computed": false
+            "computed": false,
+            "start": 132,
+            "end": 145
           },
           {
             "type": "TSEnumMember",
-            "start": 151,
-            "end": 164,
             "id": {
               "type": "Identifier",
-              "start": 151,
-              "end": 152,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 151,
+              "end": 152
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 155,
-              "end": 164,
               "left": {
                 "type": "TemplateLiteral",
-                "start": 155,
-                "end": 158,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 155,
-                    "end": 158,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 155,
+                    "end": 158
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 155,
+                "end": 158
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 161,
-                "end": 164,
                 "value": "2",
-                "raw": "\"2\""
-              }
+                "raw": "\"2\"",
+                "start": 161,
+                "end": 164
+              },
+              "start": 155,
+              "end": 164
             },
-            "computed": false
+            "computed": false,
+            "start": 151,
+            "end": 164
           },
           {
             "type": "TSEnumMember",
-            "start": 170,
-            "end": 183,
             "id": {
               "type": "Identifier",
-              "start": 170,
-              "end": 171,
               "decorators": [],
               "name": "d",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 170,
+              "end": 171
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 174,
-              "end": 183,
               "left": {
                 "type": "Literal",
-                "start": 174,
-                "end": 177,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "start": 174,
+                "end": 177
               },
               "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
-                "start": 180,
-                "end": 183,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 180,
-                    "end": 183,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 180,
+                    "end": 183
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 180,
+                "end": 183
+              },
+              "start": 174,
+              "end": 183
             },
-            "computed": false
+            "computed": false,
+            "start": 170,
+            "end": 183
           },
           {
             "type": "TSEnumMember",
-            "start": 189,
-            "end": 208,
             "id": {
               "type": "Identifier",
-              "start": 189,
-              "end": 190,
               "decorators": [],
               "name": "e",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 189,
+              "end": 190
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 193,
-              "end": 208,
               "left": {
                 "type": "BinaryExpression",
-                "start": 193,
-                "end": 202,
                 "left": {
                   "type": "Literal",
-                  "start": 193,
-                  "end": 196,
                   "value": "2",
-                  "raw": "\"2\""
+                  "raw": "\"2\"",
+                  "start": 193,
+                  "end": 196
                 },
                 "operator": "+",
                 "right": {
                   "type": "TemplateLiteral",
-                  "start": 199,
-                  "end": 202,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 199,
-                      "end": 202,
                       "value": {
                         "raw": "1",
                         "cooked": "1"
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 199,
+                      "end": 202
                     }
                   ],
-                  "expressions": []
-                }
+                  "expressions": [],
+                  "start": 199,
+                  "end": 202
+                },
+                "start": 193,
+                "end": 202
               },
               "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
-                "start": 205,
-                "end": 208,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 205,
-                    "end": 208,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 205,
+                    "end": 208
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 205,
+                "end": 208
+              },
+              "start": 193,
+              "end": 208
             },
-            "computed": false
+            "computed": false,
+            "start": 189,
+            "end": 208
           }
-        ]
+        ],
+        "start": 113,
+        "end": 210
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 105,
+      "end": 210
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 212,
-      "end": 290,
       "id": {
         "type": "Identifier",
-        "start": 217,
-        "end": 219,
         "decorators": [],
         "name": "T5",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 217,
+        "end": 219
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 220,
-        "end": 290,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 226,
-            "end": 233,
             "id": {
               "type": "Identifier",
-              "start": 226,
-              "end": 227,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 226,
+              "end": 227
             },
             "initializer": {
               "type": "TemplateLiteral",
-              "start": 230,
-              "end": 233,
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 230,
-                  "end": 233,
                   "value": {
                     "raw": "1",
                     "cooked": "1"
                   },
-                  "tail": true
+                  "tail": true,
+                  "start": 230,
+                  "end": 233
                 }
               ],
-              "expressions": []
+              "expressions": [],
+              "start": 230,
+              "end": 233
             },
-            "computed": false
+            "computed": false,
+            "start": 226,
+            "end": 233
           },
           {
             "type": "TSEnumMember",
-            "start": 239,
-            "end": 252,
             "id": {
               "type": "Identifier",
-              "start": 239,
-              "end": 240,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 239,
+              "end": 240
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 243,
-              "end": 252,
               "left": {
                 "type": "TemplateLiteral",
-                "start": 243,
-                "end": 246,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 243,
-                    "end": 246,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 243,
+                    "end": 246
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 243,
+                "end": 246
               },
               "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
-                "start": 249,
-                "end": 252,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 249,
-                    "end": 252,
                     "value": {
                       "raw": "2",
                       "cooked": "2"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 249,
+                    "end": 252
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 249,
+                "end": 252
+              },
+              "start": 243,
+              "end": 252
             },
-            "computed": false
+            "computed": false,
+            "start": 239,
+            "end": 252
           },
           {
             "type": "TSEnumMember",
-            "start": 258,
-            "end": 277,
             "id": {
               "type": "Identifier",
-              "start": 258,
-              "end": 259,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 258,
+              "end": 259
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 262,
-              "end": 277,
               "left": {
                 "type": "BinaryExpression",
-                "start": 262,
-                "end": 271,
                 "left": {
                   "type": "TemplateLiteral",
-                  "start": 262,
-                  "end": 265,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 262,
-                      "end": 265,
                       "value": {
                         "raw": "1",
                         "cooked": "1"
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 262,
+                      "end": 265
                     }
                   ],
-                  "expressions": []
+                  "expressions": [],
+                  "start": 262,
+                  "end": 265
                 },
                 "operator": "+",
                 "right": {
                   "type": "TemplateLiteral",
-                  "start": 268,
-                  "end": 271,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 268,
-                      "end": 271,
                       "value": {
                         "raw": "2",
                         "cooked": "2"
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 268,
+                      "end": 271
                     }
                   ],
-                  "expressions": []
-                }
+                  "expressions": [],
+                  "start": 268,
+                  "end": 271
+                },
+                "start": 262,
+                "end": 271
               },
               "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
-                "start": 274,
-                "end": 277,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 274,
-                    "end": 277,
                     "value": {
                       "raw": "3",
                       "cooked": "3"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 274,
+                    "end": 277
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 274,
+                "end": 277
+              },
+              "start": 262,
+              "end": 277
             },
-            "computed": false
+            "computed": false,
+            "start": 258,
+            "end": 277
           },
           {
             "type": "TSEnumMember",
-            "start": 283,
-            "end": 288,
             "id": {
               "type": "Identifier",
-              "start": 283,
-              "end": 284,
               "decorators": [],
               "name": "d",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 283,
+              "end": 284
             },
             "initializer": {
               "type": "Literal",
-              "start": 287,
-              "end": 288,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 287,
+              "end": 288
             },
-            "computed": false
+            "computed": false,
+            "start": 283,
+            "end": 288
           }
-        ]
+        ],
+        "start": 220,
+        "end": 290
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 212,
+      "end": 290
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 292,
-      "end": 334,
       "id": {
         "type": "Identifier",
-        "start": 297,
-        "end": 299,
         "decorators": [],
         "name": "T6",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 297,
+        "end": 299
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 300,
-        "end": 334,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 306,
-            "end": 311,
             "id": {
               "type": "Identifier",
-              "start": 306,
-              "end": 307,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 306,
+              "end": 307
             },
             "initializer": {
               "type": "Literal",
-              "start": 310,
-              "end": 311,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 310,
+              "end": 311
             },
-            "computed": false
+            "computed": false,
+            "start": 306,
+            "end": 311
           },
           {
             "type": "TSEnumMember",
-            "start": 317,
-            "end": 332,
             "id": {
               "type": "Identifier",
-              "start": 317,
-              "end": 318,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 317,
+              "end": 318
             },
             "initializer": {
               "type": "MemberExpression",
-              "start": 321,
-              "end": 332,
               "object": {
                 "type": "TemplateLiteral",
-                "start": 321,
-                "end": 325,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 321,
-                    "end": 325,
                     "value": {
                       "raw": "12",
                       "cooked": "12"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 321,
+                    "end": 325
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 321,
+                "end": 325
               },
               "property": {
                 "type": "Identifier",
-                "start": 326,
-                "end": 332,
                 "decorators": [],
                 "name": "length",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 326,
+                "end": 332
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 321,
+              "end": 332
             },
-            "computed": false
+            "computed": false,
+            "start": 317,
+            "end": 332
           }
-        ]
+        ],
+        "start": 300,
+        "end": 334
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 292,
+      "end": 334
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 336,
-      "end": 405,
       "id": {
         "type": "Identifier",
-        "start": 349,
-        "end": 351,
         "decorators": [],
         "name": "T7",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 349,
+        "end": 351
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 352,
-        "end": 405,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 358,
-            "end": 365,
             "id": {
               "type": "Identifier",
-              "start": 358,
-              "end": 359,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 358,
+              "end": 359
             },
             "initializer": {
               "type": "TemplateLiteral",
-              "start": 362,
-              "end": 365,
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 362,
-                  "end": 365,
                   "value": {
                     "raw": "1",
                     "cooked": "1"
                   },
-                  "tail": true
+                  "tail": true,
+                  "start": 362,
+                  "end": 365
                 }
               ],
-              "expressions": []
+              "expressions": [],
+              "start": 362,
+              "end": 365
             },
-            "computed": false
+            "computed": false,
+            "start": 358,
+            "end": 365
           },
           {
             "type": "TSEnumMember",
-            "start": 371,
-            "end": 384,
             "id": {
               "type": "Identifier",
-              "start": 371,
-              "end": 372,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 371,
+              "end": 372
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 375,
-              "end": 384,
               "left": {
                 "type": "TemplateLiteral",
-                "start": 375,
-                "end": 378,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 375,
-                    "end": 378,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 375,
+                    "end": 378
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 375,
+                "end": 378
               },
               "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
-                "start": 381,
-                "end": 384,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 381,
-                    "end": 384,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 381,
+                    "end": 384
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 381,
+                "end": 384
+              },
+              "start": 375,
+              "end": 384
             },
-            "computed": false
+            "computed": false,
+            "start": 371,
+            "end": 384
           },
           {
             "type": "TSEnumMember",
-            "start": 390,
-            "end": 403,
             "id": {
               "type": "Identifier",
-              "start": 390,
-              "end": 391,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 390,
+              "end": 391
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 394,
-              "end": 403,
               "left": {
                 "type": "Literal",
-                "start": 394,
-                "end": 397,
                 "value": "2",
-                "raw": "\"2\""
+                "raw": "\"2\"",
+                "start": 394,
+                "end": 397
               },
               "operator": "+",
               "right": {
                 "type": "TemplateLiteral",
-                "start": 400,
-                "end": 403,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 400,
-                    "end": 403,
                     "value": {
                       "raw": "1",
                       "cooked": "1"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 400,
+                    "end": 403
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 400,
+                "end": 403
+              },
+              "start": 394,
+              "end": 403
             },
-            "computed": false
+            "computed": false,
+            "start": 390,
+            "end": 403
           }
-        ]
+        ],
+        "start": 352,
+        "end": 405
       },
       "const": false,
-      "declare": true
+      "declare": true,
+      "start": 336,
+      "end": 405
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 405
 }
 ```

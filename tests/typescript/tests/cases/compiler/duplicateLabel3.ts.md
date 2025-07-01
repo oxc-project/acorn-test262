@@ -2,50 +2,40 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 82,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 82,
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 6,
         "decorators": [],
         "name": "target",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 6
       },
       "body": {
         "type": "WhileStatement",
-        "start": 8,
-        "end": 82,
         "test": {
           "type": "Literal",
-          "start": 15,
-          "end": 19,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 15,
+          "end": 19
         },
         "body": {
           "type": "BlockStatement",
-          "start": 21,
-          "end": 82,
           "body": [
             {
               "type": "FunctionDeclaration",
-              "start": 25,
-              "end": 80,
               "id": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 35,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 34,
+                "end": 35
               },
               "generator": false,
               "async": false,
@@ -55,51 +45,61 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 38,
-                "end": 80,
                 "body": [
                   {
                     "type": "LabeledStatement",
-                    "start": 44,
-                    "end": 76,
                     "label": {
                       "type": "Identifier",
-                      "start": 44,
-                      "end": 50,
                       "decorators": [],
                       "name": "target",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 44,
+                      "end": 50
                     },
                     "body": {
                       "type": "WhileStatement",
-                      "start": 56,
-                      "end": 76,
                       "test": {
                         "type": "Literal",
-                        "start": 63,
-                        "end": 67,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "start": 63,
+                        "end": 67
                       },
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 69,
-                        "end": 76,
-                        "body": []
-                      }
-                    }
+                        "end": 76
+                      },
+                      "start": 56,
+                      "end": 76
+                    },
+                    "start": 44,
+                    "end": 76
                   }
-                ]
+                ],
+                "start": 38,
+                "end": 80
               },
-              "expression": false
+              "expression": false,
+              "start": 25,
+              "end": 80
             }
-          ]
-        }
-      }
+          ],
+          "start": 21,
+          "end": 82
+        },
+        "start": 8,
+        "end": 82
+      },
+      "start": 0,
+      "end": 82
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 82
 }
 ```

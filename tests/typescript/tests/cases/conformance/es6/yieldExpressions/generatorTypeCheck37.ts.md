@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 43,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "generator": true,
       "async": false,
@@ -26,39 +22,43 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 43,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 20,
-            "end": 41,
             "argument": {
               "type": "YieldExpression",
-              "start": 27,
-              "end": 40,
               "delegate": false,
               "argument": {
                 "type": "YieldExpression",
-                "start": 33,
-                "end": 40,
                 "delegate": false,
                 "argument": {
                   "type": "Literal",
-                  "start": 39,
-                  "end": 40,
                   "value": 0,
-                  "raw": "0"
-                }
-              }
-            }
+                  "raw": "0",
+                  "start": 39,
+                  "end": 40
+                },
+                "start": 33,
+                "end": 40
+              },
+              "start": 27,
+              "end": 40
+            },
+            "start": 20,
+            "end": 41
           }
-        ]
+        ],
+        "start": 14,
+        "end": 43
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 43
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```

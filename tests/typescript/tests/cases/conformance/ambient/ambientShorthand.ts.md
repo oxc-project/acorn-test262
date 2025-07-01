@@ -2,217 +2,217 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 70,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 23,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 23,
         "value": "jquery",
-        "raw": "\"jquery\""
+        "raw": "\"jquery\"",
+        "start": 15,
+        "end": 23
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 23
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 49,
-      "end": 69,
       "id": {
         "type": "Literal",
-        "start": 64,
-        "end": 68,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 64,
+        "end": 68
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 49,
+      "end": 69
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 70
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 41,
-  "end": 154,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 41,
-      "end": 73,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 48,
-          "end": 51,
           "local": {
             "type": "Identifier",
-            "start": 48,
-            "end": 51,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 48,
+            "end": 51
+          },
+          "start": 48,
+          "end": 51
         },
         {
           "type": "ImportSpecifier",
-          "start": 54,
-          "end": 57,
           "imported": {
             "type": "Identifier",
-            "start": 54,
-            "end": 57,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 54,
+            "end": 57
           },
           "local": {
             "type": "Identifier",
-            "start": 54,
-            "end": 57,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 54,
+            "end": 57
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 54,
+          "end": 57
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 64,
-        "end": 72,
         "value": "jquery",
-        "raw": "\"jquery\""
+        "raw": "\"jquery\"",
+        "start": 64,
+        "end": 72
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 41,
+      "end": 73
     },
     {
       "type": "ImportDeclaration",
-      "start": 74,
-      "end": 100,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 81,
-          "end": 89,
           "local": {
             "type": "Identifier",
-            "start": 86,
-            "end": 89,
             "decorators": [],
             "name": "baz",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 86,
+            "end": 89
+          },
+          "start": 81,
+          "end": 89
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 95,
-        "end": 99,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 95,
+        "end": 99
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 74,
+      "end": 100
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 101,
-      "end": 133,
       "id": {
         "type": "Identifier",
-        "start": 108,
-        "end": 112,
         "decorators": [],
         "name": "boom",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 108,
+        "end": 112
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 115,
-        "end": 132,
         "expression": {
           "type": "Literal",
-          "start": 123,
-          "end": 131,
           "value": "jquery",
-          "raw": "\"jquery\""
-        }
+          "raw": "\"jquery\"",
+          "start": 123,
+          "end": 131
+        },
+        "start": 115,
+        "end": 132
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 101,
+      "end": 133
     },
     {
       "type": "ExpressionStatement",
-      "start": 134,
-      "end": 154,
       "expression": {
         "type": "CallExpression",
-        "start": 134,
-        "end": 153,
         "callee": {
           "type": "Identifier",
-          "start": 134,
-          "end": 137,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 134,
+          "end": 137
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 138,
-            "end": 141,
             "decorators": [],
             "name": "bar",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 138,
+            "end": 141
           },
           {
             "type": "Identifier",
-            "start": 143,
-            "end": 146,
             "decorators": [],
             "name": "baz",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 143,
+            "end": 146
           },
           {
             "type": "Identifier",
-            "start": 148,
-            "end": 152,
             "decorators": [],
             "name": "boom",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 148,
+            "end": 152
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 134,
+        "end": 153
       },
-      "directive": null
+      "directive": null,
+      "start": 134,
+      "end": 154
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 41,
+  "end": 154
 }
 ```

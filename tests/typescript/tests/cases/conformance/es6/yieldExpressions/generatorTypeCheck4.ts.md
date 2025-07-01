@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 22,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 12,
         "decorators": [],
         "name": "g1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 12
       },
       "generator": true,
       "async": false,
@@ -25,25 +21,29 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 14,
-        "end": 18,
         "typeAnnotation": {
           "type": "TSTypeLiteral",
+          "members": [],
           "start": 16,
-          "end": 18,
-          "members": []
-        }
+          "end": 18
+        },
+        "start": 14,
+        "end": 18
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 19,
-        "end": 22,
-        "body": []
+        "end": 22
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 22
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```

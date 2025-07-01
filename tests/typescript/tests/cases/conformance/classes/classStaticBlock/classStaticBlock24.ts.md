@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 66,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 66,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 66,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 14
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,32 +23,28 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 15,
-          "end": 66,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 19,
-              "end": 36,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 27,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 26,
+                "end": 27
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 27,
-                "end": 35,
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
                   "start": 29,
                   "end": 35
-                }
+                },
+                "start": 27,
+                "end": 35
               },
               "value": null,
               "computed": false,
@@ -64,71 +54,81 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 19,
+              "end": 36
             },
             {
               "type": "StaticBlock",
-              "start": 39,
-              "end": 64,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 52,
-                  "end": 60,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 52,
-                    "end": 59,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 52,
-                      "end": 55,
                       "object": {
                         "type": "Identifier",
-                        "start": 52,
-                        "end": 53,
                         "decorators": [],
                         "name": "C",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 52,
+                        "end": 53
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 54,
-                        "end": 55,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 54,
+                        "end": 55
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 52,
+                      "end": 55
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 58,
-                      "end": 59,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 58,
+                      "end": 59
+                    },
+                    "start": 52,
+                    "end": 59
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 52,
+                  "end": 60
                 }
-              ]
+              ],
+              "start": 39,
+              "end": 64
             }
-          ]
+          ],
+          "start": 15,
+          "end": 66
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 66
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 66
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 66
 }
 ```

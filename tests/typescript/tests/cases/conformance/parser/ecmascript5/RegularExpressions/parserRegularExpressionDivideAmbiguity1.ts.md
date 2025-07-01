@@ -2,78 +2,78 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 21,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 21,
       "expression": {
         "type": "BinaryExpression",
-        "start": 0,
-        "end": 20,
         "left": {
           "type": "BinaryExpression",
-          "start": 0,
-          "end": 12,
           "left": {
             "type": "Literal",
-            "start": 0,
-            "end": 1,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 0,
+            "end": 1
           },
           "operator": "/",
           "right": {
             "type": "Identifier",
-            "start": 3,
-            "end": 12,
             "decorators": [],
             "name": "notregexp",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 3,
+            "end": 12
+          },
+          "start": 0,
+          "end": 12
         },
         "operator": "/",
         "right": {
           "type": "CallExpression",
-          "start": 13,
-          "end": 20,
           "callee": {
             "type": "MemberExpression",
-            "start": 13,
-            "end": 18,
             "object": {
               "type": "Identifier",
-              "start": 13,
-              "end": 14,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 13,
+              "end": 14
             },
             "property": {
               "type": "Identifier",
-              "start": 15,
-              "end": 18,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 15,
+              "end": 18
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 13,
+            "end": 18
           },
           "typeArguments": null,
           "arguments": [],
-          "optional": false
-        }
+          "optional": false,
+          "start": 13,
+          "end": 20
+        },
+        "start": 0,
+        "end": 20
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 21
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 21
 }
 ```

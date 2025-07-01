@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 497,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 385,
-      "end": 423,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 389,
-          "end": 422,
           "id": {
             "type": "Identifier",
+            "name": "__executed",
             "start": 389,
-            "end": 399,
-            "name": "__executed"
+            "end": 399
           },
           "init": {
             "type": "CallExpression",
-            "start": 402,
-            "end": 422,
             "callee": {
               "type": "MemberExpression",
-              "start": 402,
-              "end": 413,
               "object": {
                 "type": "Literal",
-                "start": 402,
-                "end": 408,
                 "value": null,
                 "raw": "/^xxx/",
                 "regex": {
                   "pattern": "^xxx",
                   "flags": ""
-                }
+                },
+                "start": 402,
+                "end": 408
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 409,
-                "end": 413,
-                "name": "test"
+                "end": 413
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 402,
+              "end": 413
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 414,
-                "end": 421,
                 "value": "yyyyy",
-                "raw": "\"yyyyy\""
+                "raw": "\"yyyyy\"",
+                "start": 414,
+                "end": 421
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 402,
+            "end": 422
+          },
+          "start": 389,
+          "end": 422
         }
-      ]
+      ],
+      "start": 385,
+      "end": 423
     },
     {
       "type": "ExpressionStatement",
-      "start": 425,
-      "end": 496,
       "expression": {
         "type": "CallExpression",
-        "start": 425,
-        "end": 495,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 425,
-          "end": 431,
-          "name": "assert"
+          "end": 431
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 432,
-            "end": 443,
             "operator": "!",
             "argument": {
               "type": "Identifier",
+              "name": "__executed",
               "start": 433,
-              "end": 443,
-              "name": "__executed"
+              "end": 443
             },
-            "prefix": true
+            "prefix": true,
+            "start": 432,
+            "end": 443
           },
           {
             "type": "Literal",
-            "start": 445,
-            "end": 494,
             "value": "The value of !__executed is expected to be true",
-            "raw": "'The value of !__executed is expected to be true'"
+            "raw": "'The value of !__executed is expected to be true'",
+            "start": 445,
+            "end": 494
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 425,
+        "end": 495
+      },
+      "start": 425,
+      "end": 496
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 497
 }

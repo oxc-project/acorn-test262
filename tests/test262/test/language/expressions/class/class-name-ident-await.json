@@ -1,47 +1,47 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 412,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 388,
-      "end": 411,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 392,
-          "end": 410,
           "id": {
             "type": "Identifier",
+            "name": "C",
             "start": 392,
-            "end": 393,
-            "name": "C"
+            "end": 393
           },
           "init": {
             "type": "ClassExpression",
-            "start": 396,
-            "end": 410,
             "decorators": [],
             "id": {
               "type": "Identifier",
+              "name": "await",
               "start": 402,
-              "end": 407,
-              "name": "await"
+              "end": 407
             },
             "superClass": null,
             "body": {
               "type": "ClassBody",
+              "body": [],
               "start": 408,
-              "end": 410,
-              "body": []
-            }
-          }
+              "end": 410
+            },
+            "start": 396,
+            "end": 410
+          },
+          "start": 392,
+          "end": 410
         }
-      ]
+      ],
+      "start": 388,
+      "end": 411
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 412
 }

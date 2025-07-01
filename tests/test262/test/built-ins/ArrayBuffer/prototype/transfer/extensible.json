@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 568,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 507,
-      "end": 567,
       "expression": {
         "type": "CallExpression",
-        "start": 507,
-        "end": 566,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 507,
-          "end": 513,
-          "name": "assert"
+          "end": 513
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 514,
-            "end": 565,
             "callee": {
               "type": "MemberExpression",
-              "start": 514,
-              "end": 533,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 514,
-                "end": 520,
-                "name": "Object"
+                "end": 520
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 521,
-                "end": 533,
-                "name": "isExtensible"
+                "end": 533
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 514,
+              "end": 533
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 534,
-                "end": 564,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 534,
-                  "end": 555,
                   "object": {
                     "type": "Identifier",
+                    "name": "ArrayBuffer",
                     "start": 534,
-                    "end": 545,
-                    "name": "ArrayBuffer"
+                    "end": 545
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 546,
-                    "end": 555,
-                    "name": "prototype"
+                    "end": 555
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 534,
+                  "end": 555
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "transfer",
                   "start": 556,
-                  "end": 564,
-                  "name": "transfer"
+                  "end": 564
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 534,
+                "end": 564
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 514,
+            "end": 565
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 507,
+        "end": 566
+      },
+      "start": 507,
+      "end": 567
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 568
 }

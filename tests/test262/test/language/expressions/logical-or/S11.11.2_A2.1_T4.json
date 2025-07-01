@@ -1,84 +1,84 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 372,
   "body": [
     {
       "type": "IfStatement",
-      "start": 288,
-      "end": 371,
       "test": {
         "type": "BinaryExpression",
-        "start": 292,
-        "end": 312,
         "left": {
           "type": "ParenthesizedExpression",
-          "start": 292,
-          "end": 303,
           "expression": {
             "type": "LogicalExpression",
-            "start": 293,
-            "end": 302,
             "left": {
               "type": "Literal",
-              "start": 293,
-              "end": 297,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "start": 293,
+              "end": 297
             },
             "operator": "||",
             "right": {
               "type": "Identifier",
+              "name": "x",
               "start": 301,
-              "end": 302,
-              "name": "x"
-            }
-          }
+              "end": 302
+            },
+            "start": 293,
+            "end": 302
+          },
+          "start": 292,
+          "end": 303
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 308,
-          "end": 312,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 308,
+          "end": 312
+        },
+        "start": 292,
+        "end": 312
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 314,
-        "end": 371,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 318,
-            "end": 369,
             "argument": {
               "type": "NewExpression",
-              "start": 324,
-              "end": 368,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 328,
-                "end": 340,
-                "name": "Test262Error"
+                "end": 340
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 341,
-                  "end": 367,
                   "value": "#1: (true || x) === true",
-                  "raw": "'#1: (true || x) === true'"
+                  "raw": "'#1: (true || x) === true'",
+                  "start": 341,
+                  "end": 367
                 }
-              ]
-            }
+              ],
+              "start": 324,
+              "end": 368
+            },
+            "start": 318,
+            "end": 369
           }
-        ]
+        ],
+        "start": 314,
+        "end": 371
       },
-      "alternate": null
+      "alternate": null,
+      "start": 288,
+      "end": 371
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 372
 }

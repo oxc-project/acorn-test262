@@ -2,105 +2,105 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 52,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 52,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 7,
-        "end": 52,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 13,
-            "end": 24,
             "id": {
               "type": "Literal",
-              "start": 13,
-              "end": 20,
               "value": "__foo",
-              "raw": "\"__foo\""
+              "raw": "\"__foo\"",
+              "start": 13,
+              "end": 20
             },
             "initializer": {
               "type": "Literal",
-              "start": 23,
-              "end": 24,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 23,
+              "end": 24
             },
-            "computed": false
+            "computed": false,
+            "start": 13,
+            "end": 24
           },
           {
             "type": "TSEnumMember",
-            "start": 30,
-            "end": 50,
             "id": {
               "type": "Identifier",
-              "start": 30,
-              "end": 33,
               "decorators": [],
               "name": "bar",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 30,
+              "end": 33
             },
             "initializer": {
               "type": "BinaryExpression",
-              "start": 36,
-              "end": 50,
               "left": {
                 "type": "MemberExpression",
-                "start": 36,
-                "end": 46,
                 "object": {
                   "type": "Identifier",
-                  "start": 36,
-                  "end": 37,
                   "decorators": [],
                   "name": "E",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 36,
+                  "end": 37
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 38,
-                  "end": 45,
                   "value": "__foo",
-                  "raw": "\"__foo\""
+                  "raw": "\"__foo\"",
+                  "start": 38,
+                  "end": 45
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 36,
+                "end": 46
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 49,
-                "end": 50,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 49,
+                "end": 50
+              },
+              "start": 36,
+              "end": 50
             },
-            "computed": false
+            "computed": false,
+            "start": 30,
+            "end": 50
           }
-        ]
+        ],
+        "start": 7,
+        "end": 52
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 52
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 52
 }
 ```

@@ -1,143 +1,143 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 617,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 437,
-      "end": 525,
       "expression": {
         "type": "CallExpression",
-        "start": 437,
-        "end": 524,
         "callee": {
           "type": "MemberExpression",
-          "start": 437,
-          "end": 453,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 437,
-            "end": 443,
-            "name": "assert"
+            "end": 443
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 444,
-            "end": 453,
-            "name": "sameValue"
+            "end": 453
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 437,
+          "end": 453
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 454,
-            "end": 470,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 454,
-              "end": 460,
-              "name": "Number"
+              "end": 460
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 461,
-                "end": 469,
                 "value": "1234e5",
-                "raw": "\"1234e5\""
+                "raw": "\"1234e5\"",
+                "start": 461,
+                "end": 469
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 454,
+            "end": 470
           },
           {
             "type": "Literal",
-            "start": 472,
-            "end": 481,
             "value": 123400000,
-            "raw": "123400000"
+            "raw": "123400000",
+            "start": 472,
+            "end": 481
           },
           {
             "type": "Literal",
-            "start": 483,
-            "end": 523,
             "value": "Number(\"1234e5\") must return 123400000",
-            "raw": "'Number(\"1234e5\") must return 123400000'"
+            "raw": "'Number(\"1234e5\") must return 123400000'",
+            "start": 483,
+            "end": 523
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 437,
+        "end": 524
+      },
+      "start": 437,
+      "end": 525
     },
     {
       "type": "ExpressionStatement",
-      "start": 526,
-      "end": 616,
       "expression": {
         "type": "CallExpression",
-        "start": 526,
-        "end": 615,
         "callee": {
           "type": "MemberExpression",
-          "start": 526,
-          "end": 542,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 526,
-            "end": 532,
-            "name": "assert"
+            "end": 532
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 533,
-            "end": 542,
-            "name": "sameValue"
+            "end": 542
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 526,
+          "end": 542
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 543,
-            "end": 560,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 543,
-              "end": 549,
-              "name": "Number"
+              "end": 549
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 550,
-                "end": 559,
                 "value": "1234.e5",
-                "raw": "\"1234.e5\""
+                "raw": "\"1234.e5\"",
+                "start": 550,
+                "end": 559
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 543,
+            "end": 560
           },
           {
             "type": "Literal",
-            "start": 562,
-            "end": 571,
             "value": 123400000,
-            "raw": "123400000"
+            "raw": "123400000",
+            "start": 562,
+            "end": 571
           },
           {
             "type": "Literal",
-            "start": 573,
-            "end": 614,
             "value": "Number(\"1234.e5\") must return 123400000",
-            "raw": "'Number(\"1234.e5\") must return 123400000'"
+            "raw": "'Number(\"1234.e5\") must return 123400000'",
+            "start": 573,
+            "end": 614
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 526,
+        "end": 615
+      },
+      "start": 526,
+      "end": 616
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 617
 }

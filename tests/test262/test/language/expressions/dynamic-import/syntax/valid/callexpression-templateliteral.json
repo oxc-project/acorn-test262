@@ -1,318 +1,318 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 670,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 435,
-      "end": 507,
       "expression": {
         "type": "CallExpression",
-        "start": 435,
-        "end": 506,
         "callee": {
           "type": "MemberExpression",
-          "start": 435,
-          "end": 448,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 435,
-            "end": 441,
-            "name": "assert"
+            "end": 441
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 442,
-            "end": 448,
-            "name": "throws"
+            "end": 448
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 435,
+          "end": 448
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 449,
-            "end": 458,
-            "name": "TypeError"
+            "end": 458
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 460,
-            "end": 505,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 466,
-              "end": 505,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 472,
-                  "end": 503,
                   "expression": {
                     "type": "TaggedTemplateExpression",
-                    "start": 472,
-                    "end": 502,
                     "tag": {
                       "type": "ImportExpression",
-                      "start": 472,
-                      "end": 500,
                       "source": {
                         "type": "Literal",
-                        "start": 479,
-                        "end": 499,
                         "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "raw": "'./empty_FIXTURE.js'",
+                        "start": 479,
+                        "end": 499
                       },
                       "options": null,
-                      "phase": null
+                      "phase": null,
+                      "start": 472,
+                      "end": 500
                     },
                     "quasi": {
                       "type": "TemplateLiteral",
-                      "start": 500,
-                      "end": 502,
                       "quasis": [
                         {
                           "type": "TemplateElement",
-                          "start": 501,
-                          "end": 501,
                           "value": {
                             "raw": "",
                             "cooked": ""
                           },
-                          "tail": true
+                          "tail": true,
+                          "start": 501,
+                          "end": 501
                         }
                       ],
-                      "expressions": []
-                    }
-                  }
+                      "expressions": [],
+                      "start": 500,
+                      "end": 502
+                    },
+                    "start": 472,
+                    "end": 502
+                  },
+                  "start": 472,
+                  "end": 503
                 }
-              ]
+              ],
+              "start": 466,
+              "end": 505
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 460,
+            "end": 505
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 435,
+        "end": 506
+      },
+      "start": 435,
+      "end": 507
     },
     {
       "type": "ExpressionStatement",
-      "start": 509,
-      "end": 590,
       "expression": {
         "type": "CallExpression",
-        "start": 509,
-        "end": 589,
         "callee": {
           "type": "MemberExpression",
-          "start": 509,
-          "end": 522,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 509,
-            "end": 515,
-            "name": "assert"
+            "end": 515
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 516,
-            "end": 522,
-            "name": "throws"
+            "end": 522
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 509,
+          "end": 522
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 523,
-            "end": 532,
-            "name": "TypeError"
+            "end": 532
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 534,
-            "end": 588,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 540,
-              "end": 588,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 546,
-                  "end": 586,
                   "expression": {
                     "type": "TaggedTemplateExpression",
-                    "start": 546,
-                    "end": 585,
                     "tag": {
                       "type": "ImportExpression",
-                      "start": 546,
-                      "end": 574,
                       "source": {
                         "type": "Literal",
-                        "start": 553,
-                        "end": 573,
                         "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "raw": "'./empty_FIXTURE.js'",
+                        "start": 553,
+                        "end": 573
                       },
                       "options": null,
-                      "phase": null
+                      "phase": null,
+                      "start": 546,
+                      "end": 574
                     },
                     "quasi": {
                       "type": "TemplateLiteral",
-                      "start": 574,
-                      "end": 585,
                       "quasis": [
                         {
                           "type": "TemplateElement",
-                          "start": 575,
-                          "end": 584,
                           "value": {
                             "raw": "something",
                             "cooked": "something"
                           },
-                          "tail": true
+                          "tail": true,
+                          "start": 575,
+                          "end": 584
                         }
                       ],
-                      "expressions": []
-                    }
-                  }
+                      "expressions": [],
+                      "start": 574,
+                      "end": 585
+                    },
+                    "start": 546,
+                    "end": 585
+                  },
+                  "start": 546,
+                  "end": 586
                 }
-              ]
+              ],
+              "start": 540,
+              "end": 588
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 534,
+            "end": 588
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 509,
+        "end": 589
+      },
+      "start": 509,
+      "end": 590
     },
     {
       "type": "ExpressionStatement",
-      "start": 592,
-      "end": 669,
       "expression": {
         "type": "CallExpression",
-        "start": 592,
-        "end": 668,
         "callee": {
           "type": "MemberExpression",
-          "start": 592,
-          "end": 605,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 592,
-            "end": 598,
-            "name": "assert"
+            "end": 598
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 599,
-            "end": 605,
-            "name": "throws"
+            "end": 605
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 592,
+          "end": 605
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 606,
-            "end": 615,
-            "name": "TypeError"
+            "end": 615
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 617,
-            "end": 667,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 623,
-              "end": 667,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 629,
-                  "end": 665,
                   "expression": {
                     "type": "TaggedTemplateExpression",
-                    "start": 629,
-                    "end": 664,
                     "tag": {
                       "type": "ImportExpression",
-                      "start": 629,
-                      "end": 657,
                       "source": {
                         "type": "Literal",
-                        "start": 636,
-                        "end": 656,
                         "value": "./empty_FIXTURE.js",
-                        "raw": "'./empty_FIXTURE.js'"
+                        "raw": "'./empty_FIXTURE.js'",
+                        "start": 636,
+                        "end": 656
                       },
                       "options": null,
-                      "phase": null
+                      "phase": null,
+                      "start": 629,
+                      "end": 657
                     },
                     "quasi": {
                       "type": "TemplateLiteral",
-                      "start": 657,
-                      "end": 664,
                       "quasis": [
                         {
                           "type": "TemplateElement",
-                          "start": 658,
-                          "end": 658,
                           "value": {
                             "raw": "",
                             "cooked": ""
                           },
-                          "tail": false
+                          "tail": false,
+                          "start": 658,
+                          "end": 658
                         },
                         {
                           "type": "TemplateElement",
-                          "start": 663,
-                          "end": 663,
                           "value": {
                             "raw": "",
                             "cooked": ""
                           },
-                          "tail": true
+                          "tail": true,
+                          "start": 663,
+                          "end": 663
                         }
                       ],
                       "expressions": [
                         {
                           "type": "Literal",
-                          "start": 660,
-                          "end": 662,
                           "value": 42,
-                          "raw": "42"
+                          "raw": "42",
+                          "start": 660,
+                          "end": 662
                         }
-                      ]
-                    }
-                  }
+                      ],
+                      "start": 657,
+                      "end": 664
+                    },
+                    "start": 629,
+                    "end": 664
+                  },
+                  "start": 629,
+                  "end": 665
                 }
-              ]
+              ],
+              "start": 623,
+              "end": 667
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 617,
+            "end": 667
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 592,
+        "end": 668
+      },
+      "start": 592,
+      "end": 669
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 670
 }

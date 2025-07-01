@@ -1,110 +1,110 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 569,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 506,
-      "end": 516,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 510,
-          "end": 515,
           "id": {
             "type": "Identifier",
+            "name": "async",
             "start": 510,
-            "end": 515,
-            "name": "async"
+            "end": 515
           },
-          "init": null
+          "init": null,
+          "start": 510,
+          "end": 515
         }
-      ]
+      ],
+      "start": 506,
+      "end": 516
     },
     {
       "type": "ForOfStatement",
-      "start": 518,
-      "end": 539,
       "await": false,
       "left": {
         "type": "ParenthesizedExpression",
-        "start": 523,
-        "end": 530,
         "expression": {
           "type": "Identifier",
+          "name": "async",
           "start": 524,
-          "end": 529,
-          "name": "async"
-        }
+          "end": 529
+        },
+        "start": 523,
+        "end": 530
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 534,
-        "end": 537,
         "elements": [
           {
             "type": "Literal",
-            "start": 535,
-            "end": 536,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "start": 535,
+            "end": 536
           }
-        ]
+        ],
+        "start": 534,
+        "end": 537
       },
       "body": {
         "type": "EmptyStatement",
         "start": 538,
         "end": 539
-      }
+      },
+      "start": 518,
+      "end": 539
     },
     {
       "type": "ExpressionStatement",
-      "start": 541,
-      "end": 568,
       "expression": {
         "type": "CallExpression",
-        "start": 541,
-        "end": 567,
         "callee": {
           "type": "MemberExpression",
-          "start": 541,
-          "end": 557,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 541,
-            "end": 547,
-            "name": "assert"
+            "end": 547
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 548,
-            "end": 557,
-            "name": "sameValue"
+            "end": 557
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 541,
+          "end": 557
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "async",
             "start": 558,
-            "end": 563,
-            "name": "async"
+            "end": 563
           },
           {
             "type": "Literal",
-            "start": 565,
-            "end": 566,
             "value": 7,
-            "raw": "7"
+            "raw": "7",
+            "start": 565,
+            "end": 566
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 541,
+        "end": 567
+      },
+      "start": 541,
+      "end": 568
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 569
 }

@@ -2,155 +2,155 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 153,
   "body": [
     {
       "type": "TryStatement",
-      "start": 0,
-      "end": 35,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 4,
-        "end": 7,
-        "body": []
+        "end": 7
       },
       "handler": {
         "type": "CatchClause",
-        "start": 8,
-        "end": 35,
         "param": {
           "type": "Identifier",
-          "start": 14,
-          "end": 17,
           "decorators": [],
           "name": "ex1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 14,
+          "end": 17
         },
         "body": {
           "type": "BlockStatement",
-          "start": 19,
-          "end": 35,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 23,
-              "end": 33,
               "argument": {
                 "type": "Identifier",
-                "start": 29,
-                "end": 32,
                 "decorators": [],
                 "name": "ex1",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 29,
+                "end": 32
+              },
+              "start": 23,
+              "end": 33
             }
-          ]
-        }
+          ],
+          "start": 19,
+          "end": 35
+        },
+        "start": 8,
+        "end": 35
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 0,
+      "end": 35
     },
     {
       "type": "TryStatement",
-      "start": 37,
-      "end": 59,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 41,
-        "end": 44,
-        "body": []
+        "end": 44
       },
       "handler": {
         "type": "CatchClause",
-        "start": 45,
-        "end": 59,
         "param": {
           "type": "Identifier",
-          "start": 51,
-          "end": 54,
           "decorators": [],
           "name": "ex1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 51,
+          "end": 54
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 56,
-          "end": 59,
-          "body": []
-        }
+          "end": 59
+        },
+        "start": 45,
+        "end": 59
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 37,
+      "end": 59
     },
     {
       "type": "TryStatement",
-      "start": 81,
-      "end": 103,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 85,
-        "end": 88,
-        "body": []
+        "end": 88
       },
       "handler": {
         "type": "CatchClause",
-        "start": 89,
-        "end": 103,
         "param": {
           "type": "Identifier",
-          "start": 95,
-          "end": 98,
           "decorators": [],
           "name": "ex1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 95,
+          "end": 98
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 100,
-          "end": 103,
-          "body": []
-        }
+          "end": 103
+        },
+        "start": 89,
+        "end": 103
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 81,
+      "end": 103
     },
     {
       "type": "VariableDeclaration",
-      "start": 125,
-      "end": 137,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 129,
-          "end": 136,
           "id": {
             "type": "Identifier",
-            "start": 129,
-            "end": 130,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 129,
+            "end": 130
           },
           "init": {
             "type": "Identifier",
-            "start": 133,
-            "end": 136,
             "decorators": [],
             "name": "ex1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 133,
+            "end": 136
           },
-          "definite": false
+          "definite": false,
+          "start": 129,
+          "end": 136
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 125,
+      "end": 137
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 153
 }
 ```

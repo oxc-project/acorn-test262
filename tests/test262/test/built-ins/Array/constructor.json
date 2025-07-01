@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 340,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 236,
-      "end": 339,
       "expression": {
         "type": "CallExpression",
-        "start": 236,
-        "end": 338,
         "callee": {
           "type": "MemberExpression",
-          "start": 236,
-          "end": 252,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 236,
-            "end": 242,
-            "name": "assert"
+            "end": 242
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 243,
-            "end": 252,
-            "name": "sameValue"
+            "end": 252
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 236,
+          "end": 252
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 253,
-            "end": 265,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "Array",
               "start": 260,
-              "end": 265,
-              "name": "Array"
+              "end": 265
             },
-            "prefix": true
+            "prefix": true,
+            "start": 253,
+            "end": 265
           },
           {
             "type": "Literal",
-            "start": 267,
-            "end": 277,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 267,
+            "end": 277
           },
           {
             "type": "Literal",
-            "start": 279,
-            "end": 337,
             "value": "The value of `typeof Array` is expected to be \"function\"",
-            "raw": "'The value of `typeof Array` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Array` is expected to be \"function\"'",
+            "start": 279,
+            "end": 337
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 236,
+        "end": 338
+      },
+      "start": 236,
+      "end": 339
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 340
 }

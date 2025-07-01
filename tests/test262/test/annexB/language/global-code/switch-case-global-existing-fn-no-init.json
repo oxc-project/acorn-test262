@@ -1,157 +1,157 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 746,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 579,
-      "end": 622,
       "expression": {
         "type": "CallExpression",
-        "start": 579,
-        "end": 621,
         "callee": {
           "type": "MemberExpression",
-          "start": 579,
-          "end": 595,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 579,
-            "end": 585,
-            "name": "assert"
+            "end": 585
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 586,
-            "end": 595,
-            "name": "sameValue"
+            "end": 595
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 579,
+          "end": 595
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 596,
-            "end": 599,
             "callee": {
               "type": "Identifier",
+              "name": "f",
               "start": 596,
-              "end": 597,
-              "name": "f"
+              "end": 597
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 596,
+            "end": 599
           },
           {
             "type": "Literal",
-            "start": 601,
-            "end": 620,
             "value": "outer declaration",
-            "raw": "'outer declaration'"
+            "raw": "'outer declaration'",
+            "start": 601,
+            "end": 620
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 579,
+        "end": 621
+      },
+      "start": 579,
+      "end": 622
     },
     {
       "type": "SwitchStatement",
-      "start": 624,
-      "end": 697,
       "discriminant": {
         "type": "Literal",
-        "start": 632,
-        "end": 633,
         "value": 1,
-        "raw": "1"
+        "raw": "1",
+        "start": 632,
+        "end": 633
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 639,
-          "end": 695,
           "test": {
             "type": "Literal",
-            "start": 644,
-            "end": 645,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 644,
+            "end": 645
           },
           "consequent": [
             {
               "type": "FunctionDeclaration",
-              "start": 651,
-              "end": 695,
               "id": {
                 "type": "Identifier",
+                "name": "f",
                 "start": 660,
-                "end": 661,
-                "name": "f"
+                "end": 661
               },
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 664,
-                "end": 695,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 666,
-                    "end": 693,
                     "argument": {
                       "type": "Literal",
-                      "start": 673,
-                      "end": 692,
                       "value": "inner declaration",
-                      "raw": "'inner declaration'"
-                    }
+                      "raw": "'inner declaration'",
+                      "start": 673,
+                      "end": 692
+                    },
+                    "start": 666,
+                    "end": 693
                   }
-                ]
+                ],
+                "start": 664,
+                "end": 695
               },
-              "expression": false
+              "expression": false,
+              "start": 651,
+              "end": 695
             }
-          ]
+          ],
+          "start": 639,
+          "end": 695
         }
-      ]
+      ],
+      "start": 624,
+      "end": 697
     },
     {
       "type": "FunctionDeclaration",
-      "start": 699,
-      "end": 745,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 708,
-        "end": 709,
-        "name": "f"
+        "end": 709
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 712,
-        "end": 745,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 716,
-            "end": 743,
             "argument": {
               "type": "Literal",
-              "start": 723,
-              "end": 742,
               "value": "outer declaration",
-              "raw": "'outer declaration'"
-            }
+              "raw": "'outer declaration'",
+              "start": 723,
+              "end": 742
+            },
+            "start": 716,
+            "end": 743
           }
-        ]
+        ],
+        "start": 712,
+        "end": 745
       },
-      "expression": false
+      "expression": false,
+      "start": 699,
+      "end": 745
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 746
 }

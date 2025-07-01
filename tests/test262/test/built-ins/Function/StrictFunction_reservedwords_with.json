@@ -1,96 +1,96 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 914,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 743,
-      "end": 913,
       "expression": {
         "type": "CallExpression",
-        "start": 743,
-        "end": 912,
         "callee": {
           "type": "MemberExpression",
-          "start": 743,
-          "end": 756,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 743,
-            "end": 749,
-            "name": "assert"
+            "end": 749
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 750,
-            "end": 756,
-            "name": "throws"
+            "end": 756
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 743,
+          "end": 756
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 757,
-            "end": 768,
-            "name": "SyntaxError"
+            "end": 768
           },
           {
             "type": "FunctionExpression",
-            "start": 770,
-            "end": 830,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 781,
-              "end": 830,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 785,
-                  "end": 828,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 785,
-                    "end": 827,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Function",
                       "start": 789,
-                      "end": 797,
-                      "name": "Function"
+                      "end": 797
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 798,
-                        "end": 826,
                         "value": "'use strict'; with ({}) {}",
-                        "raw": "\"'use strict'; with ({}) {}\""
+                        "raw": "\"'use strict'; with ({}) {}\"",
+                        "start": 798,
+                        "end": 826
                       }
-                    ]
-                  }
+                    ],
+                    "start": 785,
+                    "end": 827
+                  },
+                  "start": 785,
+                  "end": 828
                 }
-              ]
+              ],
+              "start": 781,
+              "end": 830
             },
-            "expression": false
+            "expression": false,
+            "start": 770,
+            "end": 830
           },
           {
             "type": "Literal",
-            "start": 832,
-            "end": 911,
             "value": "`new Function(\"'use strict'; with ({}) {}\")` throws a SyntaxError exception",
-            "raw": "'`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception'"
+            "raw": "'`new Function(\"\\'use strict\\'; with ({}) {}\")` throws a SyntaxError exception'",
+            "start": 832,
+            "end": 911
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 743,
+        "end": 912
+      },
+      "start": 743,
+      "end": 913
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 914
 }

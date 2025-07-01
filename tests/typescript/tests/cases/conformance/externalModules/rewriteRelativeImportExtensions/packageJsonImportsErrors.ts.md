@@ -2,103 +2,103 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 11
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 11
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 110,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 25,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 15,
-        "end": 24,
         "value": "#foo.ts",
-        "raw": "\"#foo.ts\""
+        "raw": "\"#foo.ts\"",
+        "start": 15,
+        "end": 24
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 25
     },
     {
       "type": "ImportDeclaration",
-      "start": 32,
-      "end": 66,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 47,
-        "end": 65,
         "value": "#internal/foo.ts",
-        "raw": "\"#internal/foo.ts\""
+        "raw": "\"#internal/foo.ts\"",
+        "start": 47,
+        "end": 65
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 32,
+      "end": 66
     },
     {
       "type": "ImportDeclaration",
-      "start": 76,
-      "end": 104,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 91,
-        "end": 103,
         "value": "pkg/foo.ts",
-        "raw": "\"pkg/foo.ts\""
+        "raw": "\"pkg/foo.ts\"",
+        "start": 91,
+        "end": 103
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 76,
+      "end": 104
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 110
 }
 ```

@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 966,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 913,
-      "end": 965,
       "expression": {
         "type": "CallExpression",
-        "start": 913,
-        "end": 964,
         "callee": {
           "type": "MemberExpression",
-          "start": 913,
-          "end": 929,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 913,
-            "end": 919,
-            "name": "assert"
+            "end": 919
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 920,
-            "end": 929,
-            "name": "sameValue"
+            "end": 929
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 913,
+          "end": 929
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 930,
-            "end": 953,
             "object": {
               "type": "CallExpression",
-              "start": 930,
-              "end": 946,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 930,
-                "end": 934,
-                "name": "eval"
+                "end": 934
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 935,
-                  "end": 945,
                   "value": "/᠎/",
-                  "raw": "\"/\\u180E/\""
+                  "raw": "\"/\\u180E/\"",
+                  "start": 935,
+                  "end": 945
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 930,
+              "end": 946
             },
             "property": {
               "type": "Identifier",
+              "name": "source",
               "start": 947,
-              "end": 953,
-              "name": "source"
+              "end": 953
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 930,
+            "end": 953
           },
           {
             "type": "Literal",
-            "start": 955,
-            "end": 963,
             "value": "᠎",
-            "raw": "\"\\u180E\""
+            "raw": "\"\\u180E\"",
+            "start": 955,
+            "end": 963
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 913,
+        "end": 964
+      },
+      "start": 913,
+      "end": 965
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 966
 }

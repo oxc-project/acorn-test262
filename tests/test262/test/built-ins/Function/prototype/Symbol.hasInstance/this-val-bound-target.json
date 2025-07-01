@@ -1,205 +1,205 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 724,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 602,
-      "end": 625,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 606,
-          "end": 624,
           "id": {
             "type": "Identifier",
+            "name": "BC",
             "start": 606,
-            "end": 608,
-            "name": "BC"
+            "end": 608
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 611,
-            "end": 624,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 622,
-              "end": 624,
-              "body": []
+              "end": 624
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 611,
+            "end": 624
+          },
+          "start": 606,
+          "end": 624
         }
-      ]
+      ],
+      "start": 602,
+      "end": 625
     },
     {
       "type": "VariableDeclaration",
-      "start": 626,
-      "end": 644,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 630,
-          "end": 643,
           "id": {
             "type": "Identifier",
+            "name": "bc",
             "start": 630,
-            "end": 632,
-            "name": "bc"
+            "end": 632
           },
           "init": {
             "type": "NewExpression",
-            "start": 635,
-            "end": 643,
             "callee": {
               "type": "Identifier",
+              "name": "BC",
               "start": 639,
-              "end": 641,
-              "name": "BC"
+              "end": 641
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 635,
+            "end": 643
+          },
+          "start": 630,
+          "end": 643
         }
-      ]
+      ],
+      "start": 626,
+      "end": 644
     },
     {
       "type": "VariableDeclaration",
-      "start": 645,
-      "end": 667,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 649,
-          "end": 666,
           "id": {
             "type": "Identifier",
+            "name": "bound",
             "start": 649,
-            "end": 654,
-            "name": "bound"
+            "end": 654
           },
           "init": {
             "type": "CallExpression",
-            "start": 657,
-            "end": 666,
             "callee": {
               "type": "MemberExpression",
-              "start": 657,
-              "end": 664,
               "object": {
                 "type": "Identifier",
+                "name": "BC",
                 "start": 657,
-                "end": 659,
-                "name": "BC"
+                "end": 659
               },
               "property": {
                 "type": "Identifier",
+                "name": "bind",
                 "start": 660,
-                "end": 664,
-                "name": "bind"
+                "end": 664
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 657,
+              "end": 664
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 657,
+            "end": 666
+          },
+          "start": 649,
+          "end": 666
         }
-      ]
+      ],
+      "start": 645,
+      "end": 667
     },
     {
       "type": "ExpressionStatement",
-      "start": 669,
-      "end": 723,
       "expression": {
         "type": "CallExpression",
-        "start": 669,
-        "end": 722,
         "callee": {
           "type": "MemberExpression",
-          "start": 669,
-          "end": 685,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 669,
-            "end": 675,
-            "name": "assert"
+            "end": 675
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 676,
-            "end": 685,
-            "name": "sameValue"
+            "end": 685
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 669,
+          "end": 685
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 686,
-            "end": 715,
             "callee": {
               "type": "MemberExpression",
-              "start": 686,
-              "end": 711,
               "object": {
                 "type": "Identifier",
+                "name": "bound",
                 "start": 686,
-                "end": 691,
-                "name": "bound"
+                "end": 691
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 692,
-                "end": 710,
                 "object": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 692,
-                  "end": 698,
-                  "name": "Symbol"
+                  "end": 698
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasInstance",
                   "start": 699,
-                  "end": 710,
-                  "name": "hasInstance"
+                  "end": 710
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 692,
+                "end": 710
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 686,
+              "end": 711
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "bc",
                 "start": 712,
-                "end": 714,
-                "name": "bc"
+                "end": 714
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 686,
+            "end": 715
           },
           {
             "type": "Literal",
-            "start": 717,
-            "end": 721,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 717,
+            "end": 721
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 669,
+        "end": 722
+      },
+      "start": 669,
+      "end": 723
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 724
 }

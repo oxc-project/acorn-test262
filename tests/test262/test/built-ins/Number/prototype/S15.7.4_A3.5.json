@@ -1,102 +1,102 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 413,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 274,
-      "end": 412,
       "expression": {
         "type": "CallExpression",
-        "start": 274,
-        "end": 411,
         "callee": {
           "type": "MemberExpression",
-          "start": 274,
-          "end": 290,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 274,
-            "end": 280,
-            "name": "assert"
+            "end": 280
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 281,
-            "end": 290,
-            "name": "sameValue"
+            "end": 290
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 274,
+          "end": 290
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 294,
-            "end": 336,
             "callee": {
               "type": "MemberExpression",
-              "start": 294,
-              "end": 325,
               "object": {
                 "type": "MemberExpression",
-                "start": 294,
-                "end": 310,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 294,
-                  "end": 300,
-                  "name": "Number"
+                  "end": 300
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 301,
-                  "end": 310,
-                  "name": "prototype"
+                  "end": 310
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 294,
+                "end": 310
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 311,
-                "end": 325,
-                "name": "hasOwnProperty"
+                "end": 325
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 294,
+              "end": 325
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 326,
-                "end": 335,
                 "value": "toFixed",
-                "raw": "\"toFixed\""
+                "raw": "\"toFixed\"",
+                "start": 326,
+                "end": 335
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 294,
+            "end": 336
           },
           {
             "type": "Literal",
-            "start": 340,
-            "end": 344,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 340,
+            "end": 344
           },
           {
             "type": "Literal",
-            "start": 348,
-            "end": 409,
             "value": "Number.prototype.hasOwnProperty(\"toFixed\") must return true",
-            "raw": "'Number.prototype.hasOwnProperty(\"toFixed\") must return true'"
+            "raw": "'Number.prototype.hasOwnProperty(\"toFixed\") must return true'",
+            "start": 348,
+            "end": 409
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 274,
+        "end": 411
+      },
+      "start": 274,
+      "end": 412
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 413
 }

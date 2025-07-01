@@ -1,264 +1,264 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1112,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 924,
-      "end": 938,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 928,
-          "end": 937,
           "id": {
             "type": "Identifier",
+            "name": "root",
             "start": 928,
-            "end": 932,
-            "name": "root"
+            "end": 932
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 935,
-            "end": 937,
-            "properties": []
-          }
+            "end": 937
+          },
+          "start": 928,
+          "end": 937
         }
-      ]
+      ],
+      "start": 924,
+      "end": 938
     },
     {
       "type": "VariableDeclaration",
-      "start": 939,
-      "end": 993,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 943,
-          "end": 992,
           "id": {
             "type": "Identifier",
+            "name": "intermediary",
             "start": 943,
-            "end": 955,
-            "name": "intermediary"
+            "end": 955
           },
           "init": {
             "type": "NewExpression",
-            "start": 958,
-            "end": 992,
             "callee": {
               "type": "Identifier",
+              "name": "Proxy",
               "start": 962,
-              "end": 967,
-              "name": "Proxy"
+              "end": 967
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 968,
-                "end": 987,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 968,
-                  "end": 981,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 968,
-                    "end": 974,
-                    "name": "Object"
+                    "end": 974
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "create",
                     "start": 975,
-                    "end": 981,
-                    "name": "create"
+                    "end": 981
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 968,
+                  "end": 981
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "root",
                     "start": 982,
-                    "end": 986,
-                    "name": "root"
+                    "end": 986
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 968,
+                "end": 987
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 989,
-                "end": 991,
-                "properties": []
+                "end": 991
               }
-            ]
-          }
+            ],
+            "start": 958,
+            "end": 992
+          },
+          "start": 943,
+          "end": 992
         }
-      ]
+      ],
+      "start": 939,
+      "end": 993
     },
     {
       "type": "VariableDeclaration",
-      "start": 994,
-      "end": 1033,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 998,
-          "end": 1032,
           "id": {
             "type": "Identifier",
+            "name": "leaf",
             "start": 998,
-            "end": 1002,
-            "name": "leaf"
+            "end": 1002
           },
           "init": {
             "type": "CallExpression",
-            "start": 1005,
-            "end": 1032,
             "callee": {
               "type": "MemberExpression",
-              "start": 1005,
-              "end": 1018,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 1005,
-                "end": 1011,
-                "name": "Object"
+                "end": 1011
               },
               "property": {
                 "type": "Identifier",
+                "name": "create",
                 "start": 1012,
-                "end": 1018,
-                "name": "create"
+                "end": 1018
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1005,
+              "end": 1018
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "intermediary",
                 "start": 1019,
-                "end": 1031,
-                "name": "intermediary"
+                "end": 1031
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1005,
+            "end": 1032
+          },
+          "start": 998,
+          "end": 1032
         }
-      ]
+      ],
+      "start": 994,
+      "end": 1033
     },
     {
       "type": "ExpressionStatement",
-      "start": 1035,
-      "end": 1057,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 1035,
-        "end": 1056,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 1035,
-          "end": 1049,
           "object": {
             "type": "Identifier",
+            "name": "root",
             "start": 1035,
-            "end": 1039,
-            "name": "root"
+            "end": 1039
           },
           "property": {
             "type": "Identifier",
+            "name": "__proto__",
             "start": 1040,
-            "end": 1049,
-            "name": "__proto__"
+            "end": 1049
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1035,
+          "end": 1049
         },
         "right": {
           "type": "Identifier",
+          "name": "leaf",
           "start": 1052,
-          "end": 1056,
-          "name": "leaf"
-        }
-      }
+          "end": 1056
+        },
+        "start": 1035,
+        "end": 1056
+      },
+      "start": 1035,
+      "end": 1057
     },
     {
       "type": "ExpressionStatement",
-      "start": 1059,
-      "end": 1111,
       "expression": {
         "type": "CallExpression",
-        "start": 1059,
-        "end": 1110,
         "callee": {
           "type": "MemberExpression",
-          "start": 1059,
-          "end": 1075,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1059,
-            "end": 1065,
-            "name": "assert"
+            "end": 1065
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1066,
-            "end": 1075,
-            "name": "sameValue"
+            "end": 1075
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1059,
+          "end": 1075
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1076,
-            "end": 1103,
             "callee": {
               "type": "MemberExpression",
-              "start": 1076,
-              "end": 1097,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 1076,
-                "end": 1082,
-                "name": "Object"
+                "end": 1082
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 1083,
-                "end": 1097,
-                "name": "getPrototypeOf"
+                "end": 1097
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1076,
+              "end": 1097
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "root",
                 "start": 1098,
-                "end": 1102,
-                "name": "root"
+                "end": 1102
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1076,
+            "end": 1103
           },
           {
             "type": "Identifier",
+            "name": "leaf",
             "start": 1105,
-            "end": 1109,
-            "name": "leaf"
+            "end": 1109
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1059,
+        "end": 1110
+      },
+      "start": 1059,
+      "end": 1111
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1112
 }

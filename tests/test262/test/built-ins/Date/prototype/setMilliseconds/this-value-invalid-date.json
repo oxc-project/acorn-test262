@@ -1,240 +1,240 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 790,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 599,
-      "end": 624,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 603,
-          "end": 623,
           "id": {
             "type": "Identifier",
+            "name": "date",
             "start": 603,
-            "end": 607,
-            "name": "date"
+            "end": 607
           },
           "init": {
             "type": "NewExpression",
-            "start": 610,
-            "end": 623,
             "callee": {
               "type": "Identifier",
+              "name": "Date",
               "start": 614,
-              "end": 618,
-              "name": "Date"
+              "end": 618
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 619,
-                "end": 622,
-                "name": "NaN"
+                "end": 622
               }
-            ]
-          }
+            ],
+            "start": 610,
+            "end": 623
+          },
+          "start": 603,
+          "end": 623
         }
-      ]
+      ],
+      "start": 599,
+      "end": 624
     },
     {
       "type": "VariableDeclaration",
-      "start": 625,
-      "end": 636,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 629,
-          "end": 635,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 629,
-            "end": 635,
-            "name": "result"
+            "end": 635
           },
-          "init": null
+          "init": null,
+          "start": 629,
+          "end": 635
         }
-      ]
+      ],
+      "start": 625,
+      "end": 636
     },
     {
       "type": "ExpressionStatement",
-      "start": 638,
-      "end": 671,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 638,
-        "end": 670,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "result",
           "start": 638,
-          "end": 644,
-          "name": "result"
+          "end": 644
         },
         "right": {
           "type": "CallExpression",
-          "start": 647,
-          "end": 670,
           "callee": {
             "type": "MemberExpression",
-            "start": 647,
-            "end": 667,
             "object": {
               "type": "Identifier",
+              "name": "date",
               "start": 647,
-              "end": 651,
-              "name": "date"
+              "end": 651
             },
             "property": {
               "type": "Identifier",
+              "name": "setMilliseconds",
               "start": 652,
-              "end": 667,
-              "name": "setMilliseconds"
+              "end": 667
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 647,
+            "end": 667
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 668,
-              "end": 669,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 668,
+              "end": 669
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 647,
+          "end": 670
+        },
+        "start": 638,
+        "end": 670
+      },
+      "start": 638,
+      "end": 671
     },
     {
       "type": "ExpressionStatement",
-      "start": 673,
-      "end": 719,
       "expression": {
         "type": "CallExpression",
-        "start": 673,
-        "end": 718,
         "callee": {
           "type": "MemberExpression",
-          "start": 673,
-          "end": 689,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 673,
-            "end": 679,
-            "name": "assert"
+            "end": 679
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 680,
-            "end": 689,
-            "name": "sameValue"
+            "end": 689
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 673,
+          "end": 689
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 690,
-            "end": 696,
-            "name": "result"
+            "end": 696
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 698,
-            "end": 701,
-            "name": "NaN"
+            "end": 701
           },
           {
             "type": "Literal",
-            "start": 703,
-            "end": 717,
             "value": "return value",
-            "raw": "'return value'"
+            "raw": "'return value'",
+            "start": 703,
+            "end": 717
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 673,
+        "end": 718
+      },
+      "start": 673,
+      "end": 719
     },
     {
       "type": "ExpressionStatement",
-      "start": 720,
-      "end": 789,
       "expression": {
         "type": "CallExpression",
-        "start": 720,
-        "end": 788,
         "callee": {
           "type": "MemberExpression",
-          "start": 720,
-          "end": 736,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 720,
-            "end": 726,
-            "name": "assert"
+            "end": 726
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 727,
-            "end": 736,
-            "name": "sameValue"
+            "end": 736
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 720,
+          "end": 736
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 737,
-            "end": 751,
             "callee": {
               "type": "MemberExpression",
-              "start": 737,
-              "end": 749,
               "object": {
                 "type": "Identifier",
+                "name": "date",
                 "start": 737,
-                "end": 741,
-                "name": "date"
+                "end": 741
               },
               "property": {
                 "type": "Identifier",
+                "name": "getTime",
                 "start": 742,
-                "end": 749,
-                "name": "getTime"
+                "end": 749
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 737,
+              "end": 749
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 737,
+            "end": 751
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 753,
-            "end": 756,
-            "name": "NaN"
+            "end": 756
           },
           {
             "type": "Literal",
-            "start": 758,
-            "end": 787,
             "value": "[[DateValue]] internal slot",
-            "raw": "'[[DateValue]] internal slot'"
+            "raw": "'[[DateValue]] internal slot'",
+            "start": 758,
+            "end": 787
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 720,
+        "end": 788
+      },
+      "start": 720,
+      "end": 789
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 790
 }

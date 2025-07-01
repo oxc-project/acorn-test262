@@ -2,100 +2,100 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 22,
       "expression": {
         "type": "BinaryExpression",
-        "start": 0,
-        "end": 21,
         "left": {
           "type": "BinaryExpression",
-          "start": 0,
-          "end": 9,
           "left": {
             "type": "MemberExpression",
-            "start": 0,
-            "end": 7,
             "object": {
               "type": "Identifier",
-              "start": 0,
-              "end": 1,
               "decorators": [],
               "name": "m",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 0,
+              "end": 1
             },
             "property": {
               "type": "Identifier",
-              "start": 2,
-              "end": 7,
               "decorators": [],
               "name": "index",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 2,
+              "end": 7
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 0,
+            "end": 7
           },
           "operator": "+",
           "right": {
             "type": "Literal",
-            "start": 8,
-            "end": 9,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 8,
+            "end": 9
+          },
+          "start": 0,
+          "end": 9
         },
         "operator": "+",
         "right": {
           "type": "MemberExpression",
-          "start": 10,
-          "end": 21,
           "object": {
             "type": "MemberExpression",
-            "start": 10,
-            "end": 14,
             "object": {
               "type": "Identifier",
-              "start": 10,
-              "end": 11,
               "decorators": [],
               "name": "m",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 10,
+              "end": 11
             },
             "property": {
               "type": "Literal",
-              "start": 12,
-              "end": 13,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 12,
+              "end": 13
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 10,
+            "end": 14
           },
           "property": {
             "type": "Identifier",
-            "start": 15,
-            "end": 21,
             "decorators": [],
             "name": "length",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 21
           },
           "optional": false,
-          "computed": false
-        }
+          "computed": false,
+          "start": 10,
+          "end": 21
+        },
+        "start": 0,
+        "end": 21
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 22
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```

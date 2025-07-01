@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 744,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 668,
-      "end": 743,
       "expression": {
         "type": "CallExpression",
-        "start": 668,
-        "end": 742,
         "callee": {
           "type": "MemberExpression",
-          "start": 668,
-          "end": 681,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 668,
-            "end": 674,
-            "name": "assert"
+            "end": 674
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 675,
-            "end": 681,
-            "name": "throws"
+            "end": 681
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 668,
+          "end": 681
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 682,
-            "end": 693,
-            "name": "SyntaxError"
+            "end": 693
           },
           {
             "type": "FunctionExpression",
-            "start": 695,
-            "end": 741,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 706,
-              "end": 741,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 710,
-                  "end": 739,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 710,
-                    "end": 738,
                     "callee": {
                       "type": "Identifier",
+                      "name": "eval",
                       "start": 710,
-                      "end": 714,
-                      "name": "eval"
+                      "end": 714
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 715,
-                        "end": 737,
                         "value": "export default null;",
-                        "raw": "'export default null;'"
+                        "raw": "'export default null;'",
+                        "start": 715,
+                        "end": 737
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 710,
+                    "end": 738
+                  },
+                  "start": 710,
+                  "end": 739
                 }
-              ]
+              ],
+              "start": 706,
+              "end": 741
             },
-            "expression": false
+            "expression": false,
+            "start": 695,
+            "end": 741
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 668,
+        "end": 742
+      },
+      "start": 668,
+      "end": 743
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 744
 }

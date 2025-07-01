@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 60,
-  "end": 110,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 60,
-      "end": 110,
       "id": {
         "type": "Identifier",
-        "start": 69,
-        "end": 72,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 69,
+        "end": 72
       },
       "generator": false,
       "async": false,
@@ -25,99 +21,103 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 73,
-          "end": 75,
           "decorators": [],
           "name": "𝑚",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 73,
+          "end": 75
         },
         {
           "type": "Identifier",
-          "start": 77,
-          "end": 79,
           "decorators": [],
           "name": "𝑀",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 77,
+          "end": 79
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 81,
-        "end": 110,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 87,
-            "end": 108,
             "expression": {
               "type": "CallExpression",
-              "start": 87,
-              "end": 107,
               "callee": {
                 "type": "MemberExpression",
-                "start": 87,
-                "end": 98,
                 "object": {
                   "type": "Identifier",
-                  "start": 87,
-                  "end": 94,
                   "decorators": [],
                   "name": "console",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 87,
+                  "end": 94
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 95,
-                  "end": 98,
                   "decorators": [],
                   "name": "log",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 95,
+                  "end": 98
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 87,
+                "end": 98
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 99,
-                  "end": 106,
                   "left": {
                     "type": "Identifier",
-                    "start": 99,
-                    "end": 101,
                     "decorators": [],
                     "name": "𝑀",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 99,
+                    "end": 101
                   },
                   "operator": "+",
                   "right": {
                     "type": "Identifier",
-                    "start": 104,
-                    "end": 106,
                     "decorators": [],
                     "name": "𝑚",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "start": 104,
+                    "end": 106
+                  },
+                  "start": 99,
+                  "end": 106
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 87,
+              "end": 107
             },
-            "directive": null
+            "directive": null,
+            "start": 87,
+            "end": 108
           }
-        ]
+        ],
+        "start": 81,
+        "end": 110
       },
-      "expression": false
+      "expression": false,
+      "start": 60,
+      "end": 110
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 60,
+  "end": 110
 }
 ```

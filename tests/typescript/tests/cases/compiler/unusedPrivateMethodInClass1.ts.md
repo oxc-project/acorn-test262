@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 69,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "greeter",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 13
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 14,
-        "end": 69,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 20,
-            "end": 67,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 28,
-              "end": 37,
               "decorators": [],
               "name": "function1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 28,
+              "end": 37
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 37,
-              "end": 67,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,58 +45,68 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 40,
-                "end": 67,
                 "body": [
                   {
                     "type": "VariableDeclaration",
-                    "start": 50,
-                    "end": 61,
                     "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
-                        "start": 54,
-                        "end": 60,
                         "id": {
                           "type": "Identifier",
-                          "start": 54,
-                          "end": 55,
                           "decorators": [],
                           "name": "y",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 54,
+                          "end": 55
                         },
                         "init": {
                           "type": "Literal",
-                          "start": 58,
-                          "end": 60,
                           "value": 10,
-                          "raw": "10"
+                          "raw": "10",
+                          "start": 58,
+                          "end": 60
                         },
-                        "definite": false
+                        "definite": false,
+                        "start": 54,
+                        "end": 60
                       }
                     ],
-                    "declare": false
+                    "declare": false,
+                    "start": 50,
+                    "end": 61
                   }
-                ]
+                ],
+                "start": 40,
+                "end": 67
               },
-              "expression": false
+              "expression": false,
+              "start": 37,
+              "end": 67
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 20,
+            "end": 67
           }
-        ]
+        ],
+        "start": 14,
+        "end": 69
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 69
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```

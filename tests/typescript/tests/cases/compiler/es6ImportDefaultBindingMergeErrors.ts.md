@@ -2,280 +2,280 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 30,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 11,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 10,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "Literal",
-            "start": 8,
-            "end": 10,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 8,
+            "end": 10
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 10
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 12,
-      "end": 29,
       "declaration": {
         "type": "Identifier",
-        "start": 27,
-        "end": 28,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 27,
+        "end": 28
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 12,
+      "end": 29
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 30
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 440,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 68,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 21,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 21,
             "decorators": [],
             "name": "defaultBinding",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 21
+          },
+          "start": 7,
+          "end": 21
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 27,
-        "end": 67,
         "value": "./es6ImportDefaultBindingMergeErrors_0",
-        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\""
+        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
+        "start": 27,
+        "end": 67
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 68
     },
     {
       "type": "TSInterfaceDeclaration",
-      "start": 69,
-      "end": 111,
       "id": {
         "type": "Identifier",
-        "start": 79,
-        "end": 93,
         "decorators": [],
         "name": "defaultBinding",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 79,
+        "end": 93
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 94,
-        "end": 111,
-        "body": []
+        "end": 111
       },
-      "declare": false
+      "declare": false,
+      "start": 69,
+      "end": 111
     },
     {
       "type": "VariableDeclaration",
-      "start": 112,
-      "end": 135,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 116,
-          "end": 134,
           "id": {
             "type": "Identifier",
-            "start": 116,
-            "end": 117,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 116,
+            "end": 117
           },
           "init": {
             "type": "Identifier",
-            "start": 120,
-            "end": 134,
             "decorators": [],
             "name": "defaultBinding",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 120,
+            "end": 134
           },
-          "definite": false
+          "definite": false,
+          "start": 116,
+          "end": 134
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 112,
+      "end": 135
     },
     {
       "type": "ImportDeclaration",
-      "start": 136,
-      "end": 205,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 143,
-          "end": 158,
           "local": {
             "type": "Identifier",
-            "start": 143,
-            "end": 158,
             "decorators": [],
             "name": "defaultBinding2",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 143,
+            "end": 158
+          },
+          "start": 143,
+          "end": 158
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 164,
-        "end": 204,
         "value": "./es6ImportDefaultBindingMergeErrors_0",
-        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\""
+        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
+        "start": 164,
+        "end": 204
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 136,
+      "end": 205
     },
     {
       "type": "VariableDeclaration",
-      "start": 225,
-      "end": 261,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 229,
-          "end": 260,
           "id": {
             "type": "Identifier",
-            "start": 229,
-            "end": 244,
             "decorators": [],
             "name": "defaultBinding2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 229,
+            "end": 244
           },
           "init": {
             "type": "Literal",
-            "start": 247,
-            "end": 260,
             "value": "hello world",
-            "raw": "\"hello world\""
+            "raw": "\"hello world\"",
+            "start": 247,
+            "end": 260
           },
-          "definite": false
+          "definite": false,
+          "start": 229,
+          "end": 260
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 225,
+      "end": 261
     },
     {
       "type": "ImportDeclaration",
-      "start": 263,
-      "end": 332,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 270,
-          "end": 285,
           "local": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "defaultBinding3",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 270,
-            "end": 285,
-            "decorators": [],
-            "name": "defaultBinding3",
-            "optional": false,
-            "typeAnnotation": null
-          }
+            "end": 285
+          },
+          "start": 270,
+          "end": 285
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 291,
-        "end": 331,
         "value": "./es6ImportDefaultBindingMergeErrors_0",
-        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\""
+        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
+        "start": 291,
+        "end": 331
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 263,
+      "end": 332
     },
     {
       "type": "ImportDeclaration",
-      "start": 352,
-      "end": 421,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 359,
-          "end": 374,
           "local": {
             "type": "Identifier",
-            "start": 359,
-            "end": 374,
             "decorators": [],
             "name": "defaultBinding3",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 359,
+            "end": 374
+          },
+          "start": 359,
+          "end": 374
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 380,
-        "end": 420,
         "value": "./es6ImportDefaultBindingMergeErrors_0",
-        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\""
+        "raw": "\"./es6ImportDefaultBindingMergeErrors_0\"",
+        "start": 380,
+        "end": 420
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 352,
+      "end": 421
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 440
 }
 ```

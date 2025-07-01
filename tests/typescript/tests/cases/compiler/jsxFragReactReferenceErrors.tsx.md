@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 103,
-  "end": 150,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 103,
-      "end": 150,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 110,
-        "end": 150,
         "id": {
           "type": "Identifier",
-          "start": 119,
-          "end": 128,
           "decorators": [],
           "name": "Component",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 119,
+          "end": 128
         },
         "generator": false,
         "async": false,
@@ -30,17 +24,11 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 130,
-          "end": 150,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 133,
-              "end": 148,
               "argument": {
                 "type": "JSXFragment",
-                "start": 140,
-                "end": 148,
                 "openingFragment": {
                   "type": "JSXOpeningFragment",
                   "start": 140,
@@ -49,30 +37,42 @@ __ESTREE_TEST__:PASS:
                 "children": [
                   {
                     "type": "JSXText",
-                    "start": 142,
-                    "end": 145,
                     "value": "\n  ",
-                    "raw": "\n  "
+                    "raw": "\n  ",
+                    "start": 142,
+                    "end": 145
                   }
                 ],
                 "closingFragment": {
                   "type": "JSXClosingFragment",
                   "start": 145,
                   "end": 148
-                }
-              }
+                },
+                "start": 140,
+                "end": 148
+              },
+              "start": 133,
+              "end": 148
             }
-          ]
+          ],
+          "start": 130,
+          "end": 150
         },
-        "expression": false
+        "expression": false,
+        "start": 110,
+        "end": 150
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 103,
+      "end": 150
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 103,
+  "end": 150
 }
 ```

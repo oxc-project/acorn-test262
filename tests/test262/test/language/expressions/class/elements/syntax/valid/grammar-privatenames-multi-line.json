@@ -1,73 +1,73 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 656,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 627,
-      "end": 655,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 631,
-          "end": 654,
           "id": {
             "type": "Identifier",
+            "name": "C",
             "start": 631,
-            "end": 632,
-            "name": "C"
+            "end": 632
           },
           "init": {
             "type": "ClassExpression",
-            "start": 635,
-            "end": 654,
             "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
               "type": "ClassBody",
-              "start": 641,
-              "end": 654,
               "body": [
                 {
                   "type": "PropertyDefinition",
-                  "start": 645,
-                  "end": 647,
                   "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
+                    "name": "x",
                     "start": 645,
-                    "end": 647,
-                    "name": "x"
+                    "end": 647
                   },
                   "value": null,
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 645,
+                  "end": 647
                 },
                 {
                   "type": "PropertyDefinition",
-                  "start": 650,
-                  "end": 652,
                   "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
+                    "name": "y",
                     "start": 650,
-                    "end": 652,
-                    "name": "y"
+                    "end": 652
                   },
                   "value": null,
                   "computed": false,
-                  "static": false
+                  "static": false,
+                  "start": 650,
+                  "end": 652
                 }
-              ]
-            }
-          }
+              ],
+              "start": 641,
+              "end": 654
+            },
+            "start": 635,
+            "end": 654
+          },
+          "start": 631,
+          "end": 654
         }
-      ]
+      ],
+      "start": 627,
+      "end": 655
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 656
 }

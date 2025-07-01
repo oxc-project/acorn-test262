@@ -2,53 +2,53 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 13,
       "id": {
         "type": "Literal",
-        "start": 7,
-        "end": 10,
         "value": "M",
-        "raw": "'M'"
+        "raw": "'M'",
+        "start": 7,
+        "end": 10
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 11,
-        "end": 13,
-        "body": []
+        "end": 13
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 13
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 15,
-      "end": 37,
       "id": {
         "type": "Literal",
-        "start": 30,
-        "end": 34,
         "value": "M2",
-        "raw": "'M2'"
+        "raw": "'M2'",
+        "start": 30,
+        "end": 34
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 35,
-        "end": 37,
-        "body": []
+        "end": 37
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 15,
+      "end": 37
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 37
 }
 ```

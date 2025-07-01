@@ -1,299 +1,299 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 731,
   "body": [
     {
       "type": "IfStatement",
-      "start": 352,
-      "end": 535,
       "test": {
         "type": "BinaryExpression",
-        "start": 356,
-        "end": 423,
         "left": {
           "type": "CallExpression",
-          "start": 356,
-          "end": 414,
           "callee": {
             "type": "Identifier",
+            "name": "isNaN",
             "start": 356,
-            "end": 361,
-            "name": "isNaN"
+            "end": 361
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 362,
-              "end": 413,
               "left": {
                 "type": "MemberExpression",
-                "start": 362,
-                "end": 386,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 362,
-                  "end": 368,
-                  "name": "Number"
+                  "end": 368
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "POSITIVE_INFINITY",
                   "start": 369,
-                  "end": 386,
-                  "name": "POSITIVE_INFINITY"
+                  "end": 386
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 362,
+                "end": 386
               },
               "operator": "+",
               "right": {
                 "type": "MemberExpression",
-                "start": 389,
-                "end": 413,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 389,
-                  "end": 395,
-                  "name": "Number"
+                  "end": 395
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "NEGATIVE_INFINITY",
                   "start": 396,
-                  "end": 413,
-                  "name": "NEGATIVE_INFINITY"
+                  "end": 413
                 },
                 "optional": false,
-                "computed": false
-              }
+                "computed": false,
+                "start": 389,
+                "end": 413
+              },
+              "start": 362,
+              "end": 413
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 356,
+          "end": 414
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 419,
-          "end": 423,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 419,
+          "end": 423
+        },
+        "start": 356,
+        "end": 423
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 426,
-        "end": 535,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 430,
-            "end": 533,
             "argument": {
               "type": "NewExpression",
-              "start": 436,
-              "end": 532,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 440,
-                "end": 452,
-                "name": "Test262Error"
+                "end": 452
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 453,
-                  "end": 531,
                   "left": {
                     "type": "Literal",
-                    "start": 453,
-                    "end": 506,
                     "value": "#1: Infinity + -Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#1: Infinity + -Infinity === Not-a-Number. Actual: '"
+                    "raw": "'#1: Infinity + -Infinity === Not-a-Number. Actual: '",
+                    "start": 453,
+                    "end": 506
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 509,
-                    "end": 531,
                     "expression": {
                       "type": "BinaryExpression",
-                      "start": 510,
-                      "end": 530,
                       "left": {
                         "type": "Identifier",
+                        "name": "Infinity",
                         "start": 510,
-                        "end": 518,
-                        "name": "Infinity"
+                        "end": 518
                       },
                       "operator": "+",
                       "right": {
                         "type": "UnaryExpression",
-                        "start": 521,
-                        "end": 530,
                         "operator": "-",
                         "argument": {
                           "type": "Identifier",
+                          "name": "Infinity",
                           "start": 522,
-                          "end": 530,
-                          "name": "Infinity"
+                          "end": 530
                         },
-                        "prefix": true
-                      }
-                    }
-                  }
+                        "prefix": true,
+                        "start": 521,
+                        "end": 530
+                      },
+                      "start": 510,
+                      "end": 530
+                    },
+                    "start": 509,
+                    "end": 531
+                  },
+                  "start": 453,
+                  "end": 531
                 }
-              ]
-            }
+              ],
+              "start": 436,
+              "end": 532
+            },
+            "start": 430,
+            "end": 533
           }
-        ]
+        ],
+        "start": 426,
+        "end": 535
       },
-      "alternate": null
+      "alternate": null,
+      "start": 352,
+      "end": 535
     },
     {
       "type": "IfStatement",
-      "start": 547,
-      "end": 730,
       "test": {
         "type": "BinaryExpression",
-        "start": 551,
-        "end": 618,
         "left": {
           "type": "CallExpression",
-          "start": 551,
-          "end": 609,
           "callee": {
             "type": "Identifier",
+            "name": "isNaN",
             "start": 551,
-            "end": 556,
-            "name": "isNaN"
+            "end": 556
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 557,
-              "end": 608,
               "left": {
                 "type": "MemberExpression",
-                "start": 557,
-                "end": 581,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 557,
-                  "end": 563,
-                  "name": "Number"
+                  "end": 563
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "NEGATIVE_INFINITY",
                   "start": 564,
-                  "end": 581,
-                  "name": "NEGATIVE_INFINITY"
+                  "end": 581
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 557,
+                "end": 581
               },
               "operator": "+",
               "right": {
                 "type": "MemberExpression",
-                "start": 584,
-                "end": 608,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 584,
-                  "end": 590,
-                  "name": "Number"
+                  "end": 590
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "POSITIVE_INFINITY",
                   "start": 591,
-                  "end": 608,
-                  "name": "POSITIVE_INFINITY"
+                  "end": 608
                 },
                 "optional": false,
-                "computed": false
-              }
+                "computed": false,
+                "start": 584,
+                "end": 608
+              },
+              "start": 557,
+              "end": 608
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 551,
+          "end": 609
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 614,
-          "end": 618,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 614,
+          "end": 618
+        },
+        "start": 551,
+        "end": 618
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 621,
-        "end": 730,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 625,
-            "end": 728,
             "argument": {
               "type": "NewExpression",
-              "start": 631,
-              "end": 727,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 635,
-                "end": 647,
-                "name": "Test262Error"
+                "end": 647
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 648,
-                  "end": 726,
                   "left": {
                     "type": "Literal",
-                    "start": 648,
-                    "end": 701,
                     "value": "#2: -Infinity + Infinity === Not-a-Number. Actual: ",
-                    "raw": "'#2: -Infinity + Infinity === Not-a-Number. Actual: '"
+                    "raw": "'#2: -Infinity + Infinity === Not-a-Number. Actual: '",
+                    "start": 648,
+                    "end": 701
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 704,
-                    "end": 726,
                     "expression": {
                       "type": "BinaryExpression",
-                      "start": 705,
-                      "end": 725,
                       "left": {
                         "type": "UnaryExpression",
-                        "start": 705,
-                        "end": 714,
                         "operator": "-",
                         "argument": {
                           "type": "Identifier",
+                          "name": "Infinity",
                           "start": 706,
-                          "end": 714,
-                          "name": "Infinity"
+                          "end": 714
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 705,
+                        "end": 714
                       },
                       "operator": "+",
                       "right": {
                         "type": "Identifier",
+                        "name": "Infinity",
                         "start": 717,
-                        "end": 725,
-                        "name": "Infinity"
-                      }
-                    }
-                  }
+                        "end": 725
+                      },
+                      "start": 705,
+                      "end": 725
+                    },
+                    "start": 704,
+                    "end": 726
+                  },
+                  "start": 648,
+                  "end": 726
                 }
-              ]
-            }
+              ],
+              "start": 631,
+              "end": 727
+            },
+            "start": 625,
+            "end": 728
           }
-        ]
+        ],
+        "start": 621,
+        "end": 730
       },
-      "alternate": null
+      "alternate": null,
+      "start": 547,
+      "end": 730
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 731
 }

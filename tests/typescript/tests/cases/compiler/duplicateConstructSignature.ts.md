@@ -2,69 +2,69 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 47,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 47,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 47,
         "body": [
           {
             "type": "TSCallSignatureDeclaration",
-            "start": 18,
-            "end": 29,
             "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 20,
-              "end": 28,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 22,
                 "end": 28
-              }
-            }
+              },
+              "start": 20,
+              "end": 28
+            },
+            "start": 18,
+            "end": 29
           },
           {
             "type": "TSCallSignatureDeclaration",
-            "start": 34,
-            "end": 45,
             "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 36,
-              "end": 44,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 38,
                 "end": 44
-              }
-            }
+              },
+              "start": 36,
+              "end": 44
+            },
+            "start": 34,
+            "end": 45
           }
-        ]
+        ],
+        "start": 12,
+        "end": 47
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 47
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 47
 }
 ```

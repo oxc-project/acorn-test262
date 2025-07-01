@@ -2,138 +2,138 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 124,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 25,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 21,
         "value": "http",
-        "raw": "\"http\""
+        "raw": "\"http\"",
+        "start": 15,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 22,
-        "end": 25,
-        "body": []
+        "end": 25
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 25
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 27,
-      "end": 123,
       "id": {
         "type": "Literal",
-        "start": 42,
-        "end": 65,
         "value": "intern/dojo/node!http",
-        "raw": "'intern/dojo/node!http'"
+        "raw": "'intern/dojo/node!http'",
+        "start": 42,
+        "end": 65
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 66,
-        "end": 123,
         "body": [
           {
             "type": "TSImportEqualsDeclaration",
-            "start": 72,
-            "end": 102,
             "id": {
               "type": "Identifier",
-              "start": 79,
-              "end": 83,
               "decorators": [],
               "name": "http",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 79,
+              "end": 83
             },
             "moduleReference": {
               "type": "TSExternalModuleReference",
-              "start": 86,
-              "end": 101,
               "expression": {
                 "type": "Literal",
-                "start": 94,
-                "end": 100,
                 "value": "http",
-                "raw": "'http'"
-              }
+                "raw": "'http'",
+                "start": 94,
+                "end": 100
+              },
+              "start": 86,
+              "end": 101
             },
-            "importKind": "value"
+            "importKind": "value",
+            "start": 72,
+            "end": 102
           },
           {
             "type": "TSExportAssignment",
-            "start": 107,
-            "end": 121,
             "expression": {
               "type": "Identifier",
-              "start": 116,
-              "end": 120,
               "decorators": [],
               "name": "http",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 116,
+              "end": 120
+            },
+            "start": 107,
+            "end": 121
           }
-        ]
+        ],
+        "start": 66,
+        "end": 123
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 27,
+      "end": 123
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 124
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 32,
-  "end": 78,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 32,
-      "end": 78,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 39,
-          "end": 48,
           "local": {
             "type": "Identifier",
-            "start": 44,
-            "end": 48,
             "decorators": [],
             "name": "http",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 44,
+            "end": 48
+          },
+          "start": 39,
+          "end": 48
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 54,
-        "end": 77,
         "value": "intern/dojo/node!http",
-        "raw": "'intern/dojo/node!http'"
+        "raw": "'intern/dojo/node!http'",
+        "start": 54,
+        "end": 77
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 32,
+      "end": 78
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 32,
+  "end": 78
 }
 ```

@@ -1,182 +1,182 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 744,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 484,
-      "end": 743,
       "expression": {
         "type": "CallExpression",
-        "start": 484,
-        "end": 742,
         "callee": {
           "type": "Identifier",
+          "name": "testExtendedCharacterClass",
           "start": 484,
-          "end": 510,
-          "name": "testExtendedCharacterClass"
+          "end": 510
         },
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 511,
-            "end": 741,
             "properties": [
               {
                 "type": "Property",
-                "start": 515,
-                "end": 539,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "regExp",
                   "start": 515,
-                  "end": 521,
-                  "name": "regExp"
+                  "end": 521
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 523,
-                  "end": 539,
                   "value": null,
                   "raw": "/^[_&&[0-9]]+$/v",
                   "regex": {
                     "pattern": "^[_&&[0-9]]+$",
                     "flags": "v"
-                  }
+                  },
+                  "start": 523,
+                  "end": 539
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 515,
+                "end": 539
               },
               {
                 "type": "Property",
-                "start": 543,
-                "end": 567,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "expression",
                   "start": 543,
-                  "end": 553,
-                  "name": "expression"
+                  "end": 553
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 555,
-                  "end": 567,
                   "value": "[_&&[0-9]]",
-                  "raw": "\"[_&&[0-9]]\""
+                  "raw": "\"[_&&[0-9]]\"",
+                  "start": 555,
+                  "end": 567
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 543,
+                "end": 567
               },
               {
                 "type": "Property",
-                "start": 571,
-                "end": 587,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "matchStrings",
                   "start": 571,
-                  "end": 583,
-                  "name": "matchStrings"
+                  "end": 583
                 },
                 "value": {
                   "type": "ArrayExpression",
+                  "elements": [],
                   "start": 585,
-                  "end": 587,
-                  "elements": []
+                  "end": 587
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 571,
+                "end": 587
               },
               {
                 "type": "Property",
-                "start": 591,
-                "end": 738,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "nonMatchStrings",
                   "start": 591,
-                  "end": 606,
-                  "name": "nonMatchStrings"
+                  "end": 606
                 },
                 "value": {
                   "type": "ArrayExpression",
-                  "start": 608,
-                  "end": 738,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 614,
-                      "end": 629,
                       "value": "6️⃣",
-                      "raw": "\"6\\uFE0F\\u20E3\""
+                      "raw": "\"6\\uFE0F\\u20E3\"",
+                      "start": 614,
+                      "end": 629
                     },
                     {
                       "type": "Literal",
-                      "start": 635,
-                      "end": 638,
                       "value": "7",
-                      "raw": "\"7\""
+                      "raw": "\"7\"",
+                      "start": 635,
+                      "end": 638
                     },
                     {
                       "type": "Literal",
-                      "start": 644,
-                      "end": 659,
                       "value": "9️⃣",
-                      "raw": "\"9\\uFE0F\\u20E3\""
+                      "raw": "\"9\\uFE0F\\u20E3\"",
+                      "start": 644,
+                      "end": 659
                     },
                     {
                       "type": "Literal",
-                      "start": 665,
-                      "end": 668,
                       "value": "C",
-                      "raw": "\"C\""
+                      "raw": "\"C\"",
+                      "start": 665,
+                      "end": 668
                     },
                     {
                       "type": "Literal",
-                      "start": 674,
-                      "end": 677,
                       "value": "_",
-                      "raw": "\"_\""
+                      "raw": "\"_\"",
+                      "start": 674,
+                      "end": 677
                     },
                     {
                       "type": "Literal",
-                      "start": 683,
-                      "end": 691,
                       "value": "☃",
-                      "raw": "\"\\u2603\""
+                      "raw": "\"\\u2603\"",
+                      "start": 683,
+                      "end": 691
                     },
                     {
                       "type": "Literal",
-                      "start": 697,
-                      "end": 708,
                       "value": "𝌆",
-                      "raw": "\"\\u{1D306}\""
+                      "raw": "\"\\u{1D306}\"",
+                      "start": 697,
+                      "end": 708
                     },
                     {
                       "type": "Literal",
-                      "start": 714,
-                      "end": 734,
                       "value": "🇧🇪",
-                      "raw": "\"\\u{1F1E7}\\u{1F1EA}\""
+                      "raw": "\"\\u{1F1E7}\\u{1F1EA}\"",
+                      "start": 714,
+                      "end": 734
                     }
-                  ]
+                  ],
+                  "start": 608,
+                  "end": 738
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 591,
+                "end": 738
               }
-            ]
+            ],
+            "start": 511,
+            "end": 741
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 484,
+        "end": 742
+      },
+      "start": 484,
+      "end": 743
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 744
 }

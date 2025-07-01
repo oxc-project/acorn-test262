@@ -1,195 +1,195 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 923,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 736,
-      "end": 751,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 740,
-          "end": 750,
           "id": {
             "type": "Identifier",
+            "name": "value",
             "start": 740,
-            "end": 745,
-            "name": "value"
+            "end": 745
           },
           "init": {
             "type": "Literal",
-            "start": 748,
-            "end": 750,
             "value": null,
             "raw": "0n",
-            "bigint": "0"
-          }
+            "bigint": "0",
+            "start": 748,
+            "end": 750
+          },
+          "start": 740,
+          "end": 750
         }
-      ]
+      ],
+      "start": 736,
+      "end": 751
     },
     {
       "type": "ExpressionStatement",
-      "start": 752,
-      "end": 830,
       "expression": {
         "type": "CallExpression",
-        "start": 752,
-        "end": 829,
         "callee": {
           "type": "MemberExpression",
-          "start": 752,
-          "end": 768,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 752,
-            "end": 758,
-            "name": "assert"
+            "end": 758
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 759,
-            "end": 768,
-            "name": "sameValue"
+            "end": 768
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 752,
+          "end": 768
         },
         "arguments": [
           {
             "type": "AssignmentExpression",
-            "start": 769,
-            "end": 781,
             "operator": "||=",
             "left": {
               "type": "Identifier",
+              "name": "value",
               "start": 769,
-              "end": 774,
-              "name": "value"
+              "end": 774
             },
             "right": {
               "type": "Literal",
-              "start": 779,
-              "end": 781,
               "value": null,
               "raw": "1n",
-              "bigint": "1"
-            }
+              "bigint": "1",
+              "start": 779,
+              "end": 781
+            },
+            "start": 769,
+            "end": 781
           },
           {
             "type": "Literal",
-            "start": 783,
-            "end": 785,
             "value": null,
             "raw": "1n",
-            "bigint": "1"
+            "bigint": "1",
+            "start": 783,
+            "end": 785
           },
           {
             "type": "Literal",
-            "start": 787,
-            "end": 828,
             "value": "(value ||= 1n) === 1n; where value = 0n",
-            "raw": "\"(value ||= 1n) === 1n; where value = 0n\""
+            "raw": "\"(value ||= 1n) === 1n; where value = 0n\"",
+            "start": 787,
+            "end": 828
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 752,
+        "end": 829
+      },
+      "start": 752,
+      "end": 830
     },
     {
       "type": "ExpressionStatement",
-      "start": 832,
-      "end": 843,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 832,
-        "end": 842,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "value",
           "start": 832,
-          "end": 837,
-          "name": "value"
+          "end": 837
         },
         "right": {
           "type": "Literal",
-          "start": 840,
-          "end": 842,
           "value": null,
           "raw": "2n",
-          "bigint": "2"
-        }
-      }
+          "bigint": "2",
+          "start": 840,
+          "end": 842
+        },
+        "start": 832,
+        "end": 842
+      },
+      "start": 832,
+      "end": 843
     },
     {
       "type": "ExpressionStatement",
-      "start": 844,
-      "end": 922,
       "expression": {
         "type": "CallExpression",
-        "start": 844,
-        "end": 921,
         "callee": {
           "type": "MemberExpression",
-          "start": 844,
-          "end": 860,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 844,
-            "end": 850,
-            "name": "assert"
+            "end": 850
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 851,
-            "end": 860,
-            "name": "sameValue"
+            "end": 860
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 844,
+          "end": 860
         },
         "arguments": [
           {
             "type": "AssignmentExpression",
-            "start": 861,
-            "end": 873,
             "operator": "||=",
             "left": {
               "type": "Identifier",
+              "name": "value",
               "start": 861,
-              "end": 866,
-              "name": "value"
+              "end": 866
             },
             "right": {
               "type": "Literal",
-              "start": 871,
-              "end": 873,
               "value": null,
               "raw": "1n",
-              "bigint": "1"
-            }
+              "bigint": "1",
+              "start": 871,
+              "end": 873
+            },
+            "start": 861,
+            "end": 873
           },
           {
             "type": "Literal",
-            "start": 875,
-            "end": 877,
             "value": null,
             "raw": "2n",
-            "bigint": "2"
+            "bigint": "2",
+            "start": 875,
+            "end": 877
           },
           {
             "type": "Literal",
-            "start": 879,
-            "end": 920,
             "value": "(value ||= 1n) === 2n; where value = 2n",
-            "raw": "\"(value ||= 1n) === 2n; where value = 2n\""
+            "raw": "\"(value ||= 1n) === 2n; where value = 2n\"",
+            "start": 879,
+            "end": 920
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 844,
+        "end": 921
+      },
+      "start": 844,
+      "end": 922
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 923
 }

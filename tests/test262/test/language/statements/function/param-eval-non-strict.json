@@ -1,35 +1,33 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 303,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 281,
-      "end": 301,
       "id": {
         "type": "Identifier",
+        "name": "foo",
         "start": 290,
-        "end": 293,
-        "name": "foo"
+        "end": 293
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "eval",
           "start": 294,
-          "end": 298,
-          "name": "eval"
+          "end": 298
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 299,
-        "end": 301,
-        "body": []
+        "end": 301
       },
-      "expression": false
+      "expression": false,
+      "start": 281,
+      "end": 301
     },
     {
       "type": "EmptyStatement",
@@ -38,5 +36,7 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 303
 }

@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 55,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 16,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -26,58 +22,62 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 13,
-        "end": 16,
-        "body": []
+        "end": 16
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 16
     },
     {
       "type": "ExpressionStatement",
-      "start": 39,
-      "end": 55,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 39,
-        "end": 55,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 39,
-          "end": 50,
           "object": {
             "type": "Identifier",
-            "start": 39,
-            "end": 40,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 39,
+            "end": 40
           },
           "property": {
             "type": "Identifier",
-            "start": 41,
-            "end": 50,
             "decorators": [],
             "name": "prototype",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 41,
+            "end": 50
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 39,
+          "end": 50
         },
         "right": {
           "type": "Literal",
-          "start": 53,
-          "end": 55,
           "value": 12,
-          "raw": "12"
-        }
+          "raw": "12",
+          "start": 53,
+          "end": 55
+        },
+        "start": 39,
+        "end": 55
       },
-      "directive": null
+      "directive": null,
+      "start": 39,
+      "end": 55
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 55
 }
 ```

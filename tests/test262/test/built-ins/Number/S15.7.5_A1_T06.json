@@ -1,201 +1,201 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 675,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 327,
-      "end": 475,
       "expression": {
         "type": "CallExpression",
-        "start": 327,
-        "end": 474,
         "callee": {
           "type": "MemberExpression",
-          "start": 327,
-          "end": 343,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 327,
-            "end": 333,
-            "name": "assert"
+            "end": 333
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 334,
-            "end": 343,
-            "name": "sameValue"
+            "end": 343
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 327,
+          "end": 343
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 347,
-            "end": 393,
             "callee": {
               "type": "MemberExpression",
-              "start": 347,
-              "end": 376,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 347,
-                "end": 361,
                 "expression": {
                   "type": "NewExpression",
-                  "start": 348,
-                  "end": 360,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Number",
                     "start": 352,
-                    "end": 358,
-                    "name": "Number"
+                    "end": 358
                   },
-                  "arguments": []
-                }
+                  "arguments": [],
+                  "start": 348,
+                  "end": 360
+                },
+                "start": 347,
+                "end": 361
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 362,
-                "end": 376,
-                "name": "hasOwnProperty"
+                "end": 376
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 347,
+              "end": 376
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 377,
-                "end": 392,
                 "value": "toExponential",
-                "raw": "\"toExponential\""
+                "raw": "\"toExponential\"",
+                "start": 377,
+                "end": 392
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 347,
+            "end": 393
           },
           {
             "type": "Literal",
-            "start": 397,
-            "end": 402,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 397,
+            "end": 402
           },
           {
             "type": "Literal",
-            "start": 406,
-            "end": 472,
             "value": "(new Number()).hasOwnProperty(\"toExponential\") must return false",
-            "raw": "'(new Number()).hasOwnProperty(\"toExponential\") must return false'"
+            "raw": "'(new Number()).hasOwnProperty(\"toExponential\") must return false'",
+            "start": 406,
+            "end": 472
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 327,
+        "end": 474
+      },
+      "start": 327,
+      "end": 475
     },
     {
       "type": "ExpressionStatement",
-      "start": 477,
-      "end": 674,
       "expression": {
         "type": "CallExpression",
-        "start": 477,
-        "end": 673,
         "callee": {
           "type": "MemberExpression",
-          "start": 477,
-          "end": 493,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 477,
-            "end": 483,
-            "name": "assert"
+            "end": 483
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 484,
-            "end": 493,
-            "name": "sameValue"
+            "end": 493
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 477,
+          "end": 493
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 497,
-            "end": 525,
             "object": {
               "type": "ParenthesizedExpression",
-              "start": 497,
-              "end": 511,
               "expression": {
                 "type": "NewExpression",
-                "start": 498,
-                "end": 510,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 502,
-                  "end": 508,
-                  "name": "Number"
+                  "end": 508
                 },
-                "arguments": []
-              }
+                "arguments": [],
+                "start": 498,
+                "end": 510
+              },
+              "start": 497,
+              "end": 511
             },
             "property": {
               "type": "Identifier",
+              "name": "toExponential",
               "start": 512,
-              "end": 525,
-              "name": "toExponential"
+              "end": 525
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 497,
+            "end": 525
           },
           {
             "type": "MemberExpression",
-            "start": 529,
-            "end": 559,
             "object": {
               "type": "MemberExpression",
-              "start": 529,
-              "end": 545,
               "object": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 529,
-                "end": 535,
-                "name": "Number"
+                "end": 535
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 536,
-                "end": 545,
-                "name": "prototype"
+                "end": 545
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 529,
+              "end": 545
             },
             "property": {
               "type": "Identifier",
+              "name": "toExponential",
               "start": 546,
-              "end": 559,
-              "name": "toExponential"
+              "end": 559
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 529,
+            "end": 559
           },
           {
             "type": "Literal",
-            "start": 563,
-            "end": 671,
             "value": "The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential",
-            "raw": "'The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential'"
+            "raw": "'The value of (new Number()).toExponential is expected to equal the value of Number.prototype.toExponential'",
+            "start": 563,
+            "end": 671
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 477,
+        "end": 673
+      },
+      "start": 477,
+      "end": 674
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 675
 }

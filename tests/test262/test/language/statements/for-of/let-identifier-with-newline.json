@@ -1,76 +1,76 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 515,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 479,
-      "end": 500,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 484,
-        "end": 489,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 488,
-            "end": 489,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 488,
-              "end": 489,
-              "name": "x"
+              "end": 489
             },
-            "init": null
+            "init": null,
+            "start": 488,
+            "end": 489
           }
-        ]
+        ],
+        "start": 484,
+        "end": 489
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 493,
-        "end": 495,
-        "elements": []
+        "end": 495
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 497,
-        "end": 500,
         "expression": {
           "type": "Identifier",
+          "name": "let",
           "start": 497,
-          "end": 500,
-          "name": "let"
-        }
-      }
+          "end": 500
+        },
+        "start": 497,
+        "end": 500
+      },
+      "start": 479,
+      "end": 500
     },
     {
       "type": "ExpressionStatement",
-      "start": 508,
-      "end": 514,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 508,
-        "end": 513,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 508,
-          "end": 509,
-          "name": "x"
+          "end": 509
         },
         "right": {
           "type": "Literal",
-          "start": 512,
-          "end": 513,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 512,
+          "end": 513
+        },
+        "start": 508,
+        "end": 513
+      },
+      "start": 508,
+      "end": 514
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 515
 }

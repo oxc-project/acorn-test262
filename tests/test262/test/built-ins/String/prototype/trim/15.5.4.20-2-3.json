@@ -1,114 +1,114 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 379,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 286,
-      "end": 378,
       "expression": {
         "type": "CallExpression",
-        "start": 286,
-        "end": 377,
         "callee": {
           "type": "MemberExpression",
-          "start": 286,
-          "end": 302,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 286,
-            "end": 292,
-            "name": "assert"
+            "end": 292
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 293,
-            "end": 302,
-            "name": "sameValue"
+            "end": 302
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 286,
+          "end": 302
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 303,
-            "end": 334,
             "callee": {
               "type": "MemberExpression",
-              "start": 303,
-              "end": 329,
               "object": {
                 "type": "MemberExpression",
-                "start": 303,
-                "end": 324,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 303,
-                  "end": 319,
                   "object": {
                     "type": "Identifier",
+                    "name": "String",
                     "start": 303,
-                    "end": 309,
-                    "name": "String"
+                    "end": 309
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 310,
-                    "end": 319,
-                    "name": "prototype"
+                    "end": 319
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 303,
+                  "end": 319
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "trim",
                   "start": 320,
-                  "end": 324,
-                  "name": "trim"
+                  "end": 324
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 303,
+                "end": 324
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 325,
-                "end": 329,
-                "name": "call"
+                "end": 329
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 303,
+              "end": 329
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 330,
-                "end": 333,
-                "name": "NaN"
+                "end": 333
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 303,
+            "end": 334
           },
           {
             "type": "Literal",
-            "start": 336,
-            "end": 341,
             "value": "NaN",
-            "raw": "\"NaN\""
+            "raw": "\"NaN\"",
+            "start": 336,
+            "end": 341
           },
           {
             "type": "Literal",
-            "start": 343,
-            "end": 376,
             "value": "String.prototype.trim.call(NaN)",
-            "raw": "'String.prototype.trim.call(NaN)'"
+            "raw": "'String.prototype.trim.call(NaN)'",
+            "start": 343,
+            "end": 376
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 286,
+        "end": 377
+      },
+      "start": 286,
+      "end": 378
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 379
 }

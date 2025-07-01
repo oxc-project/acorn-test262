@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 284,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 284,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,30 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 284,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 268,
-            "end": 281,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 275,
-              "end": 276,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 275,
+              "end": 276
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 279,
-              "end": 280,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 279,
+              "end": 280
             },
             "computed": false,
             "static": true,
@@ -57,15 +49,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 268,
+            "end": 281
           }
-        ]
+        ],
+        "start": 10,
+        "end": 284
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 284
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 284
 }
 ```

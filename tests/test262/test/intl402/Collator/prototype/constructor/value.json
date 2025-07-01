@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 385,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 243,
-      "end": 384,
       "expression": {
         "type": "CallExpression",
-        "start": 243,
-        "end": 383,
         "callee": {
           "type": "MemberExpression",
-          "start": 243,
-          "end": 259,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 243,
-            "end": 249,
-            "name": "assert"
+            "end": 249
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 250,
-            "end": 259,
-            "name": "sameValue"
+            "end": 259
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 243,
+          "end": 259
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 260,
-            "end": 295,
             "object": {
               "type": "MemberExpression",
-              "start": 260,
-              "end": 283,
               "object": {
                 "type": "MemberExpression",
-                "start": 260,
-                "end": 273,
                 "object": {
                   "type": "Identifier",
+                  "name": "Intl",
                   "start": 260,
-                  "end": 264,
-                  "name": "Intl"
+                  "end": 264
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Collator",
                   "start": 265,
-                  "end": 273,
-                  "name": "Collator"
+                  "end": 273
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 260,
+                "end": 273
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 274,
-                "end": 283,
-                "name": "prototype"
+                "end": 283
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 260,
+              "end": 283
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 284,
-              "end": 295,
-              "name": "constructor"
+              "end": 295
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 260,
+            "end": 295
           },
           {
             "type": "MemberExpression",
-            "start": 297,
-            "end": 310,
             "object": {
               "type": "Identifier",
+              "name": "Intl",
               "start": 297,
-              "end": 301,
-              "name": "Intl"
+              "end": 301
             },
             "property": {
               "type": "Identifier",
+              "name": "Collator",
               "start": 302,
-              "end": 310,
-              "name": "Collator"
+              "end": 310
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 297,
+            "end": 310
           },
           {
             "type": "Literal",
-            "start": 312,
-            "end": 382,
             "value": "Intl.Collator.prototype.constructor is not the same as Intl.Collator",
-            "raw": "\"Intl.Collator.prototype.constructor is not the same as Intl.Collator\""
+            "raw": "\"Intl.Collator.prototype.constructor is not the same as Intl.Collator\"",
+            "start": 312,
+            "end": 382
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 243,
+        "end": 383
+      },
+      "start": 243,
+      "end": 384
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 385
 }

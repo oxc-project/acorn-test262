@@ -2,193 +2,193 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 136,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 13,
         "value": 1000000000,
-        "raw": "1_000_000_000"
+        "raw": "1_000_000_000",
+        "start": 0,
+        "end": 13
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 13
     },
     {
       "type": "ExpressionStatement",
-      "start": 14,
-      "end": 23,
       "expression": {
         "type": "Literal",
-        "start": 14,
-        "end": 23,
         "value": 1.10001,
-        "raw": "1.1_00_01"
+        "raw": "1.1_00_01",
+        "start": 14,
+        "end": 23
       },
-      "directive": null
+      "directive": null,
+      "start": 14,
+      "end": 23
     },
     {
       "type": "ExpressionStatement",
-      "start": 24,
-      "end": 29,
       "expression": {
         "type": "Literal",
+        "value": 10000000000,
+        "raw": "1e1_0",
         "start": 24,
-        "end": 29,
-        "value": 10000000000,
-        "raw": "1e1_0"
+        "end": 29
       },
-      "directive": null
+      "directive": null,
+      "start": 24,
+      "end": 29
     },
     {
       "type": "ExpressionStatement",
-      "start": 30,
-      "end": 36,
       "expression": {
         "type": "Literal",
+        "value": 10000000000,
+        "raw": "1e+1_0",
         "start": 30,
-        "end": 36,
-        "value": 10000000000,
-        "raw": "1e+1_0"
+        "end": 36
       },
-      "directive": null
+      "directive": null,
+      "start": 30,
+      "end": 36
     },
     {
       "type": "ExpressionStatement",
-      "start": 37,
-      "end": 43,
       "expression": {
         "type": "Literal",
-        "start": 37,
-        "end": 43,
         "value": 1e-10,
-        "raw": "1e-1_0"
+        "raw": "1e-1_0",
+        "start": 37,
+        "end": 43
       },
-      "directive": null
+      "directive": null,
+      "start": 37,
+      "end": 43
     },
     {
       "type": "ExpressionStatement",
-      "start": 44,
-      "end": 52,
       "expression": {
         "type": "Literal",
+        "value": 1.1e+100,
+        "raw": "1.1e10_0",
         "start": 44,
-        "end": 52,
-        "value": 1.1e+100,
-        "raw": "1.1e10_0"
+        "end": 52
       },
-      "directive": null
+      "directive": null,
+      "start": 44,
+      "end": 52
     },
     {
       "type": "ExpressionStatement",
-      "start": 53,
-      "end": 62,
       "expression": {
         "type": "Literal",
+        "value": 1.1e+100,
+        "raw": "1.1e+10_0",
         "start": 53,
-        "end": 62,
-        "value": 1.1e+100,
-        "raw": "1.1e+10_0"
+        "end": 62
       },
-      "directive": null
+      "directive": null,
+      "start": 53,
+      "end": 62
     },
     {
       "type": "ExpressionStatement",
-      "start": 63,
-      "end": 72,
       "expression": {
         "type": "Literal",
-        "start": 63,
-        "end": 72,
         "value": 1.1e-100,
-        "raw": "1.1e-10_0"
+        "raw": "1.1e-10_0",
+        "start": 63,
+        "end": 72
       },
-      "directive": null
+      "directive": null,
+      "start": 63,
+      "end": 72
     },
     {
       "type": "ExpressionStatement",
-      "start": 73,
-      "end": 81,
       "expression": {
         "type": "Literal",
-        "start": 73,
-        "end": 81,
         "value": 123456,
-        "raw": "12_34_56"
+        "raw": "12_34_56",
+        "start": 73,
+        "end": 81
       },
-      "directive": null
+      "directive": null,
+      "start": 73,
+      "end": 81
     },
     {
       "type": "ExpressionStatement",
-      "start": 82,
-      "end": 90,
       "expression": {
         "type": "Literal",
-        "start": 82,
-        "end": 90,
         "value": 122333,
-        "raw": "1_22_333"
+        "raw": "1_22_333",
+        "start": 82,
+        "end": 90
       },
-      "directive": null
+      "directive": null,
+      "start": 82,
+      "end": 90
     },
     {
       "type": "ExpressionStatement",
-      "start": 91,
-      "end": 98,
       "expression": {
         "type": "Literal",
-        "start": 91,
-        "end": 98,
         "value": 12.34,
-        "raw": "1_2.3_4"
+        "raw": "1_2.3_4",
+        "start": 91,
+        "end": 98
       },
-      "directive": null
+      "directive": null,
+      "start": 91,
+      "end": 98
     },
     {
       "type": "ExpressionStatement",
-      "start": 99,
-      "end": 110,
       "expression": {
         "type": "Literal",
+        "value": 1.234e+57,
+        "raw": "1_2.3_4e5_6",
         "start": 99,
-        "end": 110,
-        "value": 1.234e+57,
-        "raw": "1_2.3_4e5_6"
+        "end": 110
       },
-      "directive": null
+      "directive": null,
+      "start": 99,
+      "end": 110
     },
     {
       "type": "ExpressionStatement",
-      "start": 111,
-      "end": 123,
       "expression": {
         "type": "Literal",
+        "value": 1.234e+57,
+        "raw": "1_2.3_4e+5_6",
         "start": 111,
-        "end": 123,
-        "value": 1.234e+57,
-        "raw": "1_2.3_4e+5_6"
+        "end": 123
       },
-      "directive": null
+      "directive": null,
+      "start": 111,
+      "end": 123
     },
     {
       "type": "ExpressionStatement",
-      "start": 124,
-      "end": 136,
       "expression": {
         "type": "Literal",
-        "start": 124,
-        "end": 136,
         "value": 1.234e-55,
-        "raw": "1_2.3_4e-5_6"
+        "raw": "1_2.3_4e-5_6",
+        "start": 124,
+        "end": 136
       },
-      "directive": null
+      "directive": null,
+      "start": 124,
+      "end": 136
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 136
 }
 ```

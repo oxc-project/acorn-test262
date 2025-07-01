@@ -1,165 +1,165 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 462,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 253,
-      "end": 323,
       "id": {
         "type": "Identifier",
+        "name": "callbackfn",
         "start": 262,
-        "end": 272,
-        "name": "callbackfn"
+        "end": 272
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "val",
           "start": 273,
-          "end": 276,
-          "name": "val"
+          "end": 276
         },
         {
           "type": "Identifier",
+          "name": "idx",
           "start": 278,
-          "end": 281,
-          "name": "idx"
+          "end": 281
         },
         {
           "type": "Identifier",
+          "name": "obj",
           "start": 283,
-          "end": 286,
-          "name": "obj"
+          "end": 286
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 288,
-        "end": 323,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 292,
-            "end": 321,
             "argument": {
               "type": "BinaryExpression",
-              "start": 299,
-              "end": 320,
               "left": {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 299,
-                "end": 302,
-                "name": "obj"
+                "end": 302
               },
               "operator": "instanceof",
               "right": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 314,
-                "end": 320,
-                "name": "String"
-              }
-            }
+                "end": 320
+              },
+              "start": 299,
+              "end": 320
+            },
+            "start": 292,
+            "end": 321
           }
-        ]
+        ],
+        "start": 288,
+        "end": 323
       },
-      "expression": false
+      "expression": false,
+      "start": 253,
+      "end": 323
     },
     {
       "type": "ExpressionStatement",
-      "start": 325,
-      "end": 461,
       "expression": {
         "type": "CallExpression",
-        "start": 325,
-        "end": 460,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 325,
-          "end": 331,
-          "name": "assert"
+          "end": 331
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 332,
-            "end": 389,
             "callee": {
               "type": "MemberExpression",
-              "start": 332,
-              "end": 357,
               "object": {
                 "type": "MemberExpression",
-                "start": 332,
-                "end": 352,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 332,
-                  "end": 347,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 332,
-                    "end": 337,
-                    "name": "Array"
+                    "end": 337
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 338,
-                    "end": 347,
-                    "name": "prototype"
+                    "end": 347
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 332,
+                  "end": 347
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "some",
                   "start": 348,
-                  "end": 352,
-                  "name": "some"
+                  "end": 352
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 332,
+                "end": 352
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 353,
-                "end": 357,
-                "name": "call"
+                "end": 357
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 332,
+              "end": 357
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 358,
-                "end": 376,
                 "value": "hello\nw_orld\\!",
-                "raw": "\"hello\\nw_orld\\\\!\""
+                "raw": "\"hello\\nw_orld\\\\!\"",
+                "start": 358,
+                "end": 376
               },
               {
                 "type": "Identifier",
+                "name": "callbackfn",
                 "start": 378,
-                "end": 388,
-                "name": "callbackfn"
+                "end": 388
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 332,
+            "end": 389
           },
           {
             "type": "Literal",
-            "start": 391,
-            "end": 459,
             "value": "Array.prototype.some.call(\"hello\nw_orld\\!\", callbackfn) !== true",
-            "raw": "'Array.prototype.some.call(\"hello\\nw_orld\\\\!\", callbackfn) !== true'"
+            "raw": "'Array.prototype.some.call(\"hello\\nw_orld\\\\!\", callbackfn) !== true'",
+            "start": 391,
+            "end": 459
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 325,
+        "end": 460
+      },
+      "start": 325,
+      "end": 461
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 462
 }

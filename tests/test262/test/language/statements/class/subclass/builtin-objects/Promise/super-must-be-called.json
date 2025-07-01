@@ -1,197 +1,181 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 906,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 689,
-      "end": 739,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "Prom1",
         "start": 695,
-        "end": 700,
-        "name": "Prom1"
+        "end": 700
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Promise",
         "start": 709,
-        "end": 716,
-        "name": "Promise"
+        "end": 716
       },
       "body": {
         "type": "ClassBody",
-        "start": 717,
-        "end": 739,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 721,
-            "end": 737,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 721,
-              "end": 732,
-              "name": "constructor"
+              "end": 732
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 732,
-              "end": 737,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 735,
-                "end": 737,
-                "body": []
+                "end": 737
               },
-              "expression": false
+              "expression": false,
+              "start": 732,
+              "end": 737
             },
             "kind": "constructor",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 721,
+            "end": 737
           }
-        ]
-      }
+        ],
+        "start": 717,
+        "end": 739
+      },
+      "start": 689,
+      "end": 739
     },
     {
       "type": "ExpressionStatement",
-      "start": 741,
-      "end": 802,
       "expression": {
         "type": "CallExpression",
-        "start": 741,
-        "end": 801,
         "callee": {
           "type": "MemberExpression",
-          "start": 741,
-          "end": 754,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 741,
-            "end": 747,
-            "name": "assert"
+            "end": 747
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 748,
-            "end": 754,
-            "name": "throws"
+            "end": 754
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 741,
+          "end": 754
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 755,
-            "end": 769,
-            "name": "ReferenceError"
+            "end": 769
           },
           {
             "type": "FunctionExpression",
-            "start": 771,
-            "end": 800,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 782,
-              "end": 800,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 786,
-                  "end": 798,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 786,
-                    "end": 797,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Prom1",
                       "start": 790,
-                      "end": 795,
-                      "name": "Prom1"
+                      "end": 795
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 786,
+                    "end": 797
+                  },
+                  "start": 786,
+                  "end": 798
                 }
-              ]
+              ],
+              "start": 782,
+              "end": 800
             },
-            "expression": false
+            "expression": false,
+            "start": 771,
+            "end": 800
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 741,
+        "end": 801
+      },
+      "start": 741,
+      "end": 802
     },
     {
       "type": "ClassDeclaration",
-      "start": 804,
-      "end": 878,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "Prom2",
         "start": 810,
-        "end": 815,
-        "name": "Prom2"
+        "end": 815
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Promise",
         "start": 824,
-        "end": 831,
-        "name": "Promise"
+        "end": 831
       },
       "body": {
         "type": "ClassBody",
-        "start": 832,
-        "end": 878,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 836,
-            "end": 876,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 836,
-              "end": 847,
-              "name": "constructor"
+              "end": 847
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 847,
-              "end": 876,
               "id": null,
               "generator": false,
               "async": false,
               "params": [
                 {
                   "type": "Identifier",
+                  "name": "exec",
                   "start": 848,
-                  "end": 852,
-                  "name": "exec"
+                  "end": 852
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 854,
-                "end": 876,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 860,
-                    "end": 872,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 860,
-                      "end": 871,
                       "callee": {
                         "type": "Super",
                         "start": 860,
@@ -200,60 +184,76 @@
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "exec",
                           "start": 866,
-                          "end": 870,
-                          "name": "exec"
+                          "end": 870
                         }
                       ],
-                      "optional": false
-                    }
+                      "optional": false,
+                      "start": 860,
+                      "end": 871
+                    },
+                    "start": 860,
+                    "end": 872
                   }
-                ]
+                ],
+                "start": 854,
+                "end": 876
               },
-              "expression": false
+              "expression": false,
+              "start": 847,
+              "end": 876
             },
             "kind": "constructor",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 836,
+            "end": 876
           }
-        ]
-      }
+        ],
+        "start": 832,
+        "end": 878
+      },
+      "start": 804,
+      "end": 878
     },
     {
       "type": "ExpressionStatement",
-      "start": 880,
-      "end": 905,
       "expression": {
         "type": "NewExpression",
-        "start": 880,
-        "end": 904,
         "callee": {
           "type": "Identifier",
+          "name": "Prom2",
           "start": 884,
-          "end": 889,
-          "name": "Prom2"
+          "end": 889
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 890,
-            "end": 903,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 901,
-              "end": 903,
-              "body": []
+              "end": 903
             },
-            "expression": false
+            "expression": false,
+            "start": 890,
+            "end": 903
           }
-        ]
-      }
+        ],
+        "start": 880,
+        "end": 904
+      },
+      "start": 880,
+      "end": 905
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 906
 }

@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 28,
-  "end": 67,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 28,
-      "end": 67,
       "id": {
         "type": "Identifier",
-        "start": 37,
-        "end": 38,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 37,
+        "end": 38
       },
       "generator": false,
       "async": false,
@@ -25,50 +21,54 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "RestElement",
-          "start": 39,
-          "end": 43,
           "decorators": [],
           "argument": {
             "type": "Identifier",
-            "start": 42,
-            "end": 43,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 42,
+            "end": 43
           },
           "optional": false,
           "typeAnnotation": null,
-          "value": null
+          "value": null,
+          "start": 39,
+          "end": 43
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 45,
-        "end": 67,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 51,
-            "end": 53,
             "expression": {
               "type": "Identifier",
-              "start": 51,
-              "end": 52,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 51,
+              "end": 52
             },
-            "directive": null
+            "directive": null,
+            "start": 51,
+            "end": 53
           }
-        ]
+        ],
+        "start": 45,
+        "end": 67
       },
-      "expression": false
+      "expression": false,
+      "start": 28,
+      "end": 67
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 28,
+  "end": 67
 }
 ```

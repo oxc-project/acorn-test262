@@ -2,88 +2,88 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 59,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 16,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 13,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 13
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 14,
-        "end": 16,
-        "body": []
+        "end": 16
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 16
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 17,
-      "end": 39,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 24,
-        "end": 39,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 30,
-            "end": 38,
             "id": {
               "type": "Identifier",
-              "start": 30,
-              "end": 33,
               "decorators": [],
               "name": "Foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 30,
+              "end": 33
             },
             "init": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 36,
-              "end": 38,
-              "properties": []
+              "end": 38
             },
-            "definite": false
+            "definite": false,
+            "start": 30,
+            "end": 38
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 24,
+        "end": 39
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 17,
+      "end": 39
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 40,
-      "end": 59,
       "declaration": {
         "type": "Identifier",
-        "start": 55,
-        "end": 58,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 55,
+        "end": 58
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 40,
+      "end": 59
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 59
 }
 ```

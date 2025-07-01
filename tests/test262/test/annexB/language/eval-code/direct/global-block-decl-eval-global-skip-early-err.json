@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 876,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 685,
-      "end": 875,
       "expression": {
         "type": "CallExpression",
-        "start": 685,
-        "end": 874,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 685,
-          "end": 689,
-          "name": "eval"
+          "end": 689
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 693,
-            "end": 872,
             "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");",
-            "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
+            "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");'",
+            "start": 693,
+            "end": 872
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 685,
+        "end": 874
+      },
+      "start": 685,
+      "end": 875
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 876
 }

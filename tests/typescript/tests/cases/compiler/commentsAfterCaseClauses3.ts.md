@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 350,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 350,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 20,
         "decorators": [],
         "name": "getSecurity",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 20
       },
       "generator": false,
       "async": false,
@@ -25,166 +21,170 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 21,
-          "end": 26,
           "decorators": [],
           "name": "level",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 21,
+          "end": 26
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 28,
-        "end": 350,
         "body": [
           {
             "type": "SwitchStatement",
-            "start": 34,
-            "end": 343,
             "discriminant": {
               "type": "Identifier",
-              "start": 41,
-              "end": 46,
               "decorators": [],
               "name": "level",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 41,
+              "end": 46
             },
             "cases": [
               {
                 "type": "SwitchCase",
-                "start": 57,
-                "end": 64,
                 "test": {
                   "type": "Literal",
-                  "start": 62,
-                  "end": 63,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 62,
+                  "end": 63
                 },
-                "consequent": []
+                "consequent": [],
+                "start": 57,
+                "end": 64
               },
               {
                 "type": "SwitchCase",
-                "start": 82,
-                "end": 89,
                 "test": {
                   "type": "Literal",
-                  "start": 87,
-                  "end": 88,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 87,
+                  "end": 88
                 },
-                "consequent": []
+                "consequent": [],
+                "start": 82,
+                "end": 89
               },
               {
                 "type": "SwitchCase",
-                "start": 107,
-                "end": 179,
                 "test": {
                   "type": "Literal",
-                  "start": 112,
-                  "end": 113,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "start": 112,
+                  "end": 113
                 },
                 "consequent": [
                   {
                     "type": "ReturnStatement",
-                    "start": 167,
-                    "end": 179,
                     "argument": {
                       "type": "Literal",
-                      "start": 174,
-                      "end": 178,
                       "value": "Hi",
-                      "raw": "\"Hi\""
-                    }
+                      "raw": "\"Hi\"",
+                      "start": 174,
+                      "end": 178
+                    },
+                    "start": 167,
+                    "end": 179
                   }
-                ]
+                ],
+                "start": 107,
+                "end": 179
               },
               {
                 "type": "SwitchCase",
-                "start": 188,
-                "end": 195,
                 "test": {
                   "type": "Literal",
-                  "start": 193,
-                  "end": 194,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "start": 193,
+                  "end": 194
                 },
-                "consequent": []
+                "consequent": [],
+                "start": 188,
+                "end": 195
               },
               {
                 "type": "SwitchCase",
-                "start": 214,
-                "end": 258,
                 "test": {
                   "type": "Literal",
-                  "start": 219,
-                  "end": 220,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "start": 219,
+                  "end": 220
                 },
                 "consequent": [
                   {
                     "type": "ReturnStatement",
-                    "start": 243,
-                    "end": 258,
                     "argument": {
                       "type": "Literal",
-                      "start": 250,
-                      "end": 257,
                       "value": "hello",
-                      "raw": "\"hello\""
-                    }
+                      "raw": "\"hello\"",
+                      "start": 250,
+                      "end": 257
+                    },
+                    "start": 243,
+                    "end": 258
                   }
-                ]
+                ],
+                "start": 214,
+                "end": 258
               },
               {
                 "type": "SwitchCase",
-                "start": 267,
-                "end": 274,
                 "test": {
                   "type": "Literal",
-                  "start": 272,
-                  "end": 273,
                   "value": 5,
-                  "raw": "5"
+                  "raw": "5",
+                  "start": 272,
+                  "end": 273
                 },
-                "consequent": []
+                "consequent": [],
+                "start": 267,
+                "end": 274
               },
               {
                 "type": "SwitchCase",
-                "start": 292,
-                "end": 337,
                 "test": null,
                 "consequent": [
                   {
                     "type": "ReturnStatement",
-                    "start": 322,
-                    "end": 337,
                     "argument": {
                       "type": "Literal",
-                      "start": 329,
-                      "end": 336,
                       "value": "world",
-                      "raw": "\"world\""
-                    }
+                      "raw": "\"world\"",
+                      "start": 329,
+                      "end": 336
+                    },
+                    "start": 322,
+                    "end": 337
                   }
-                ]
+                ],
+                "start": 292,
+                "end": 337
               }
-            ]
+            ],
+            "start": 34,
+            "end": 343
           }
-        ]
+        ],
+        "start": 28,
+        "end": 350
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 350
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 350
 }
 ```

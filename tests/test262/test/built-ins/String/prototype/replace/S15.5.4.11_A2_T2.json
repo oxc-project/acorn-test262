@@ -1,228 +1,228 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 977,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 412,
-      "end": 463,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 416,
-          "end": 462,
           "id": {
             "type": "Identifier",
+            "name": "__str",
             "start": 416,
-            "end": 421,
-            "name": "__str"
+            "end": 421
           },
           "init": {
             "type": "Literal",
-            "start": 424,
-            "end": 462,
             "value": "She sells seashells by the seashore.",
-            "raw": "'She sells seashells by the seashore.'"
-          }
+            "raw": "'She sells seashells by the seashore.'",
+            "start": 424,
+            "end": 462
+          },
+          "start": 416,
+          "end": 462
         }
-      ]
+      ],
+      "start": 412,
+      "end": 463
     },
     {
       "type": "VariableDeclaration",
-      "start": 464,
-      "end": 481,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 468,
-          "end": 480,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 468,
-            "end": 472,
-            "name": "__re"
+            "end": 472
           },
           "init": {
             "type": "Literal",
-            "start": 475,
-            "end": 480,
             "value": null,
             "raw": "/sh/g",
             "regex": {
               "pattern": "sh",
               "flags": "g"
-            }
-          }
+            },
+            "start": 475,
+            "end": 480
+          },
+          "start": 468,
+          "end": 480
         }
-      ]
+      ],
+      "start": 464,
+      "end": 481
     },
     {
       "type": "IfStatement",
-      "start": 572,
-      "end": 894,
       "test": {
         "type": "BinaryExpression",
-        "start": 576,
-        "end": 656,
         "left": {
           "type": "CallExpression",
-          "start": 576,
-          "end": 609,
           "callee": {
             "type": "MemberExpression",
-            "start": 576,
-            "end": 589,
             "object": {
               "type": "Identifier",
+              "name": "__str",
               "start": 576,
-              "end": 581,
-              "name": "__str"
+              "end": 581
             },
             "property": {
               "type": "Identifier",
+              "name": "replace",
               "start": 582,
-              "end": 589,
-              "name": "replace"
+              "end": 589
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 576,
+            "end": 589
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "__re",
               "start": 590,
-              "end": 594,
-              "name": "__re"
+              "end": 594
             },
             {
               "type": "BinaryExpression",
-              "start": 596,
-              "end": 608,
               "left": {
                 "type": "Literal",
-                "start": 596,
-                "end": 600,
                 "value": "$$",
-                "raw": "\"$$\""
+                "raw": "\"$$\"",
+                "start": 596,
+                "end": 600
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 603,
-                "end": 608,
                 "value": "sch",
-                "raw": "'sch'"
-              }
+                "raw": "'sch'",
+                "start": 603,
+                "end": 608
+              },
+              "start": 596,
+              "end": 608
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 576,
+          "end": 609
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 614,
-          "end": 656,
           "value": "She sells sea$schells by the sea$schore.",
-          "raw": "'She sells sea$schells by the sea$schore.'"
-        }
+          "raw": "'She sells sea$schells by the sea$schore.'",
+          "start": 614,
+          "end": 656
+        },
+        "start": 576,
+        "end": 656
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 658,
-        "end": 894,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 662,
-            "end": 892,
             "argument": {
               "type": "NewExpression",
-              "start": 668,
-              "end": 891,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 672,
-                "end": 684,
-                "name": "Test262Error"
+                "end": 684
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 685,
-                  "end": 890,
                   "left": {
                     "type": "Literal",
-                    "start": 685,
-                    "end": 854,
                     "value": "#1: var __str = 'She sells seashells by the seashore.'; var __re = /sh/g; __str.replace(__re,\"$$\" + 'sch')==='She sells sea$schells by the sea$schore.'. Actual: ",
-                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/g; __str.replace(__re,\"$$\" + \\'sch\\')===\\'She sells sea$schells by the sea$schore.\\'. Actual: '"
+                    "raw": "'#1: var __str = \\'She sells seashells by the seashore.\\'; var __re = /sh/g; __str.replace(__re,\"$$\" + \\'sch\\')===\\'She sells sea$schells by the sea$schore.\\'. Actual: '",
+                    "start": 685,
+                    "end": 854
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 857,
-                    "end": 890,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 857,
-                      "end": 870,
                       "object": {
                         "type": "Identifier",
+                        "name": "__str",
                         "start": 857,
-                        "end": 862,
-                        "name": "__str"
+                        "end": 862
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "replace",
                         "start": 863,
-                        "end": 870,
-                        "name": "replace"
+                        "end": 870
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 857,
+                      "end": 870
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "__re",
                         "start": 871,
-                        "end": 875,
-                        "name": "__re"
+                        "end": 875
                       },
                       {
                         "type": "BinaryExpression",
-                        "start": 877,
-                        "end": 889,
                         "left": {
                           "type": "Literal",
-                          "start": 877,
-                          "end": 881,
                           "value": "$$",
-                          "raw": "\"$$\""
+                          "raw": "\"$$\"",
+                          "start": 877,
+                          "end": 881
                         },
                         "operator": "+",
                         "right": {
                           "type": "Literal",
-                          "start": 884,
-                          "end": 889,
                           "value": "sch",
-                          "raw": "'sch'"
-                        }
+                          "raw": "'sch'",
+                          "start": 884,
+                          "end": 889
+                        },
+                        "start": 877,
+                        "end": 889
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 857,
+                    "end": 890
+                  },
+                  "start": 685,
+                  "end": 890
                 }
-              ]
-            }
+              ],
+              "start": 668,
+              "end": 891
+            },
+            "start": 662,
+            "end": 892
           }
-        ]
+        ],
+        "start": 658,
+        "end": 894
       },
-      "alternate": null
+      "alternate": null,
+      "start": 572,
+      "end": 894
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 977
 }

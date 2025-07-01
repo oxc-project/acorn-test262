@@ -1,104 +1,104 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 804,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 745,
-      "end": 803,
       "expression": {
         "type": "CallExpression",
-        "start": 745,
-        "end": 802,
         "callee": {
           "type": "MemberExpression",
-          "start": 745,
-          "end": 758,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 745,
-            "end": 751,
-            "name": "assert"
+            "end": 751
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 752,
-            "end": 758,
-            "name": "throws"
+            "end": 758
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 745,
+          "end": 758
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 759,
-            "end": 768,
-            "name": "TypeError"
+            "end": 768
           },
           {
             "type": "FunctionExpression",
-            "start": 770,
-            "end": 801,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 781,
-              "end": 801,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 785,
-                  "end": 799,
                   "expression": {
                     "type": "SequenceExpression",
-                    "start": 785,
-                    "end": 798,
                     "expressions": [
                       {
                         "type": "Literal",
-                        "start": 785,
-                        "end": 786,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 785,
+                        "end": 786
                       },
                       {
                         "type": "AssignmentExpression",
-                        "start": 788,
-                        "end": 798,
                         "operator": "=",
                         "left": {
                           "type": "ArrayPattern",
-                          "start": 788,
-                          "end": 791,
                           "elements": [
                             null
-                          ]
+                          ],
+                          "start": 788,
+                          "end": 791
                         },
                         "right": {
                           "type": "Literal",
-                          "start": 794,
-                          "end": 798,
                           "value": null,
-                          "raw": "null"
-                        }
+                          "raw": "null",
+                          "start": 794,
+                          "end": 798
+                        },
+                        "start": 788,
+                        "end": 798
                       }
-                    ]
-                  }
+                    ],
+                    "start": 785,
+                    "end": 798
+                  },
+                  "start": 785,
+                  "end": 799
                 }
-              ]
+              ],
+              "start": 781,
+              "end": 801
             },
-            "expression": false
+            "expression": false,
+            "start": 770,
+            "end": 801
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 745,
+        "end": 802
+      },
+      "start": 745,
+      "end": 803
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 804
 }

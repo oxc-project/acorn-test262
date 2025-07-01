@@ -1,305 +1,305 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 739,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 336,
-      "end": 364,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 340,
-          "end": 363,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 340,
-            "end": 344,
-            "name": "__re"
+            "end": 344
           },
           "init": {
             "type": "MemberExpression",
-            "start": 347,
-            "end": 363,
             "object": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 347,
-              "end": 353,
-              "name": "RegExp"
+              "end": 353
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 354,
-              "end": 363,
-              "name": "prototype"
+              "end": 363
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 347,
+            "end": 363
+          },
+          "start": 340,
+          "end": 363
         }
-      ]
+      ],
+      "start": 336,
+      "end": 364
     },
     {
       "type": "ExpressionStatement",
-      "start": 366,
-      "end": 480,
       "expression": {
         "type": "CallExpression",
-        "start": 366,
-        "end": 479,
         "callee": {
           "type": "MemberExpression",
-          "start": 366,
-          "end": 382,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 366,
-            "end": 372,
-            "name": "assert"
+            "end": 372
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 373,
-            "end": 382,
-            "name": "sameValue"
+            "end": 382
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 366,
+          "end": 382
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 383,
-            "end": 416,
             "callee": {
               "type": "MemberExpression",
-              "start": 383,
-              "end": 402,
               "object": {
                 "type": "Identifier",
+                "name": "__re",
                 "start": 383,
-                "end": 387,
-                "name": "__re"
+                "end": 387
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 388,
-                "end": 402,
-                "name": "hasOwnProperty"
+                "end": 402
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 383,
+              "end": 402
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 403,
-                "end": 415,
                 "value": "ignoreCase",
-                "raw": "'ignoreCase'"
+                "raw": "'ignoreCase'",
+                "start": 403,
+                "end": 415
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 383,
+            "end": 416
           },
           {
             "type": "Literal",
-            "start": 418,
-            "end": 422,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 418,
+            "end": 422
           },
           {
             "type": "Literal",
-            "start": 424,
-            "end": 478,
             "value": "__re.hasOwnProperty('ignoreCase') must return true",
-            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'"
+            "raw": "'__re.hasOwnProperty(\\'ignoreCase\\') must return true'",
+            "start": 424,
+            "end": 478
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 366,
+        "end": 479
+      },
+      "start": 366,
+      "end": 480
     },
     {
       "type": "VariableDeclaration",
-      "start": 482,
-      "end": 505,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 486,
-          "end": 504,
           "id": {
             "type": "Identifier",
+            "name": "__sample",
             "start": 486,
-            "end": 494,
-            "name": "__sample"
+            "end": 494
           },
           "init": {
             "type": "Literal",
-            "start": 497,
-            "end": 504,
             "value": null,
             "raw": "/a|b|c/",
             "regex": {
               "pattern": "a|b|c",
               "flags": ""
-            }
-          }
+            },
+            "start": 497,
+            "end": 504
+          },
+          "start": 486,
+          "end": 504
         }
-      ]
+      ],
+      "start": 482,
+      "end": 505
     },
     {
       "type": "VariableDeclaration",
-      "start": 506,
-      "end": 538,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 510,
-          "end": 537,
           "id": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 510,
-            "end": 515,
-            "name": "__obj"
+            "end": 515
           },
           "init": {
             "type": "MemberExpression",
-            "start": 518,
-            "end": 537,
             "object": {
               "type": "Identifier",
+              "name": "__sample",
               "start": 518,
-              "end": 526,
-              "name": "__sample"
+              "end": 526
             },
             "property": {
               "type": "Identifier",
+              "name": "ignoreCase",
               "start": 527,
-              "end": 537,
-              "name": "ignoreCase"
+              "end": 537
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 518,
+            "end": 537
+          },
+          "start": 510,
+          "end": 537
         }
-      ]
+      ],
+      "start": 506,
+      "end": 538
     },
     {
       "type": "ExpressionStatement",
-      "start": 540,
-      "end": 607,
       "expression": {
         "type": "CallExpression",
-        "start": 540,
-        "end": 606,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotWritable",
           "start": 540,
-          "end": 557,
-          "name": "verifyNotWritable"
+          "end": 557
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "__sample",
             "start": 558,
-            "end": 566,
-            "name": "__sample"
+            "end": 566
           },
           {
             "type": "Literal",
+            "value": "ignoreCase",
+            "raw": "\"ignoreCase\"",
             "start": 568,
-            "end": 580,
-            "value": "ignoreCase",
-            "raw": "\"ignoreCase\""
+            "end": 580
           },
           {
             "type": "Literal",
+            "value": "ignoreCase",
+            "raw": "\"ignoreCase\"",
             "start": 582,
-            "end": 594,
-            "value": "ignoreCase",
-            "raw": "\"ignoreCase\""
+            "end": 594
           },
           {
             "type": "Literal",
-            "start": 596,
-            "end": 605,
             "value": "shifted",
-            "raw": "\"shifted\""
+            "raw": "\"shifted\"",
+            "start": 596,
+            "end": 605
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 540,
+        "end": 606
+      },
+      "start": 540,
+      "end": 607
     },
     {
       "type": "ExpressionStatement",
-      "start": 609,
-      "end": 738,
       "expression": {
         "type": "CallExpression",
-        "start": 609,
-        "end": 737,
         "callee": {
           "type": "MemberExpression",
-          "start": 609,
-          "end": 625,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 609,
-            "end": 615,
-            "name": "assert"
+            "end": 615
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 616,
-            "end": 625,
-            "name": "sameValue"
+            "end": 625
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 609,
+          "end": 625
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 629,
-            "end": 648,
             "object": {
               "type": "Identifier",
+              "name": "__sample",
               "start": 629,
-              "end": 637,
-              "name": "__sample"
+              "end": 637
             },
             "property": {
               "type": "Identifier",
+              "name": "ignoreCase",
               "start": 638,
-              "end": 648,
-              "name": "ignoreCase"
+              "end": 648
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 629,
+            "end": 648
           },
           {
             "type": "Identifier",
+            "name": "__obj",
             "start": 652,
-            "end": 657,
-            "name": "__obj"
+            "end": 657
           },
           {
             "type": "Literal",
-            "start": 661,
-            "end": 735,
             "value": "The value of __sample.ignoreCase is expected to equal the value of __obj",
-            "raw": "'The value of __sample.ignoreCase is expected to equal the value of __obj'"
+            "raw": "'The value of __sample.ignoreCase is expected to equal the value of __obj'",
+            "start": 661,
+            "end": 735
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 609,
+        "end": 737
+      },
+      "start": 609,
+      "end": 738
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 739
 }

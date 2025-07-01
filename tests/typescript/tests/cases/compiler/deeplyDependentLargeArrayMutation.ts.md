@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 21,
-  "end": 841,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 21,
-      "end": 841,
       "id": {
         "type": "Identifier",
-        "start": 30,
-        "end": 35,
         "decorators": [],
         "name": "build",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 30,
+        "end": 35
       },
       "generator": false,
       "async": false,
@@ -26,1545 +22,1549 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 38,
-        "end": 841,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 44,
-            "end": 57,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 48,
-                "end": 56,
                 "id": {
                   "type": "Identifier",
-                  "start": 48,
-                  "end": 51,
                   "decorators": [],
                   "name": "arr",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 48,
+                  "end": 51
                 },
                 "init": {
                   "type": "ArrayExpression",
+                  "elements": [],
                   "start": 54,
-                  "end": 56,
-                  "elements": []
+                  "end": 56
                 },
-                "definite": false
+                "definite": false,
+                "start": 48,
+                "end": 56
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 44,
+            "end": 57
           },
           {
             "type": "ExpressionStatement",
-            "start": 63,
-            "end": 89,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 63,
-              "end": 88,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 63,
-                "end": 78,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 63,
-                  "end": 66,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 66
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 67,
-                  "end": 77,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 67,
-                    "end": 70,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 70
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 71,
-                    "end": 77,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 77
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 67,
+                  "end": 77
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 63,
+                "end": 78
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 81,
-                "end": 88,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 88
+              },
+              "start": 63,
+              "end": 88
             },
-            "directive": null
+            "directive": null,
+            "start": 63,
+            "end": 89
           },
           {
             "type": "ExpressionStatement",
-            "start": 95,
-            "end": 121,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 95,
-              "end": 120,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 95,
-                "end": 110,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 95,
-                  "end": 98,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 98
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 99,
-                  "end": 109,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 99,
-                    "end": 102,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 102
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 103,
-                    "end": 109,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 109
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 99,
+                  "end": 109
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 95,
+                "end": 110
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 113,
-                "end": 120,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 120
+              },
+              "start": 95,
+              "end": 120
             },
-            "directive": null
+            "directive": null,
+            "start": 95,
+            "end": 121
           },
           {
             "type": "ExpressionStatement",
-            "start": 127,
-            "end": 153,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 127,
-              "end": 152,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 127,
-                "end": 142,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 127,
-                  "end": 130,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 130
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 131,
-                  "end": 141,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 131,
-                    "end": 134,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 134
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 135,
-                    "end": 141,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 141
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 131,
+                  "end": 141
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 127,
+                "end": 142
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 145,
-                "end": 152,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 152
+              },
+              "start": 127,
+              "end": 152
             },
-            "directive": null
+            "directive": null,
+            "start": 127,
+            "end": 153
           },
           {
             "type": "ExpressionStatement",
-            "start": 158,
-            "end": 184,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 158,
-              "end": 183,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 158,
-                "end": 173,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 158,
-                  "end": 161,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 161
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 162,
-                  "end": 172,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 162,
-                    "end": 165,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 165
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 166,
-                    "end": 172,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 172
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 162,
+                  "end": 172
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 158,
+                "end": 173
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 176,
-                "end": 183,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 183
+              },
+              "start": 158,
+              "end": 183
             },
-            "directive": null
+            "directive": null,
+            "start": 158,
+            "end": 184
           },
           {
             "type": "ExpressionStatement",
-            "start": 189,
-            "end": 215,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 189,
-              "end": 214,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 189,
-                "end": 204,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 189,
-                  "end": 192,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 192
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 193,
-                  "end": 203,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 193,
-                    "end": 196,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 196
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 197,
-                    "end": 203,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 203
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 193,
+                  "end": 203
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 189,
+                "end": 204
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 207,
-                "end": 214,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 214
+              },
+              "start": 189,
+              "end": 214
             },
-            "directive": null
+            "directive": null,
+            "start": 189,
+            "end": 215
           },
           {
             "type": "ExpressionStatement",
-            "start": 220,
-            "end": 246,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 220,
-              "end": 245,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 220,
-                "end": 235,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 220,
-                  "end": 223,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 223
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 224,
-                  "end": 234,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 224,
-                    "end": 227,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 227
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 228,
-                    "end": 234,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 234
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 224,
+                  "end": 234
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 220,
+                "end": 235
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 238,
-                "end": 245,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 245
+              },
+              "start": 220,
+              "end": 245
             },
-            "directive": null
+            "directive": null,
+            "start": 220,
+            "end": 246
           },
           {
             "type": "ExpressionStatement",
-            "start": 251,
-            "end": 277,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 251,
-              "end": 276,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 251,
-                "end": 266,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 251,
-                  "end": 254,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 254
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 255,
-                  "end": 265,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 255,
-                    "end": 258,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 258
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 259,
-                    "end": 265,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 265
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 255,
+                  "end": 265
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 251,
+                "end": 266
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 269,
-                "end": 276,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 276
+              },
+              "start": 251,
+              "end": 276
             },
-            "directive": null
+            "directive": null,
+            "start": 251,
+            "end": 277
           },
           {
             "type": "ExpressionStatement",
-            "start": 283,
-            "end": 309,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 283,
-              "end": 308,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 283,
-                "end": 298,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 283,
-                  "end": 286,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 286
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 287,
-                  "end": 297,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 287,
-                    "end": 290,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 290
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 291,
-                    "end": 297,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 297
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 287,
+                  "end": 297
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 283,
+                "end": 298
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 301,
-                "end": 308,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 308
+              },
+              "start": 283,
+              "end": 308
             },
-            "directive": null
+            "directive": null,
+            "start": 283,
+            "end": 309
           },
           {
             "type": "ExpressionStatement",
-            "start": 315,
-            "end": 341,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 315,
-              "end": 340,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 315,
-                "end": 330,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 315,
-                  "end": 318,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 318
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 319,
-                  "end": 329,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 319,
-                    "end": 322,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 322
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 323,
-                    "end": 329,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 329
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 319,
+                  "end": 329
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 315,
+                "end": 330
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 333,
-                "end": 340,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 340
+              },
+              "start": 315,
+              "end": 340
             },
-            "directive": null
+            "directive": null,
+            "start": 315,
+            "end": 341
           },
           {
             "type": "ExpressionStatement",
-            "start": 346,
-            "end": 372,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 346,
-              "end": 371,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 346,
-                "end": 361,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 346,
-                  "end": 349,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 349
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 350,
-                  "end": 360,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 350,
-                    "end": 353,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 353
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 354,
-                    "end": 360,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 360
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 350,
+                  "end": 360
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 346,
+                "end": 361
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 364,
-                "end": 371,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 371
+              },
+              "start": 346,
+              "end": 371
             },
-            "directive": null
+            "directive": null,
+            "start": 346,
+            "end": 372
           },
           {
             "type": "ExpressionStatement",
-            "start": 377,
-            "end": 403,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 377,
-              "end": 402,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 377,
-                "end": 392,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 377,
-                  "end": 380,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 380
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 381,
-                  "end": 391,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 381,
-                    "end": 384,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 384
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 385,
-                    "end": 391,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 391
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 381,
+                  "end": 391
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 377,
+                "end": 392
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 395,
-                "end": 402,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 402
+              },
+              "start": 377,
+              "end": 402
             },
-            "directive": null
+            "directive": null,
+            "start": 377,
+            "end": 403
           },
           {
             "type": "ExpressionStatement",
-            "start": 408,
-            "end": 434,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 408,
-              "end": 433,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 408,
-                "end": 423,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 408,
-                  "end": 411,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 411
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 412,
-                  "end": 422,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 412,
-                    "end": 415,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 415
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 416,
-                    "end": 422,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 422
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 412,
+                  "end": 422
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 408,
+                "end": 423
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 426,
-                "end": 433,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 433
+              },
+              "start": 408,
+              "end": 433
             },
-            "directive": null
+            "directive": null,
+            "start": 408,
+            "end": 434
           },
           {
             "type": "ExpressionStatement",
-            "start": 439,
-            "end": 465,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 439,
-              "end": 464,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 439,
-                "end": 454,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 439,
-                  "end": 442,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 442
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 443,
-                  "end": 453,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 443,
-                    "end": 446,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 446
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 447,
-                    "end": 453,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 453
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 443,
+                  "end": 453
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 439,
+                "end": 454
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 457,
-                "end": 464,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 464
+              },
+              "start": 439,
+              "end": 464
             },
-            "directive": null
+            "directive": null,
+            "start": 439,
+            "end": 465
           },
           {
             "type": "ExpressionStatement",
-            "start": 470,
-            "end": 496,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 470,
-              "end": 495,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 470,
-                "end": 485,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 470,
-                  "end": 473,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 473
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 474,
-                  "end": 484,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 474,
-                    "end": 477,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 477
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 478,
-                    "end": 484,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 484
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 474,
+                  "end": 484
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 470,
+                "end": 485
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 488,
-                "end": 495,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 495
+              },
+              "start": 470,
+              "end": 495
             },
-            "directive": null
+            "directive": null,
+            "start": 470,
+            "end": 496
           },
           {
             "type": "ExpressionStatement",
-            "start": 501,
-            "end": 527,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 501,
-              "end": 526,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 501,
-                "end": 516,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 501,
-                  "end": 504,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 504
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 505,
-                  "end": 515,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 505,
-                    "end": 508,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 508
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 509,
-                    "end": 515,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 515
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 505,
+                  "end": 515
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 501,
+                "end": 516
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 519,
-                "end": 526,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 526
+              },
+              "start": 501,
+              "end": 526
             },
-            "directive": null
+            "directive": null,
+            "start": 501,
+            "end": 527
           },
           {
             "type": "ExpressionStatement",
-            "start": 532,
-            "end": 558,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 532,
-              "end": 557,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 532,
-                "end": 547,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 532,
-                  "end": 535,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 535
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 536,
-                  "end": 546,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 536,
-                    "end": 539,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 539
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 540,
-                    "end": 546,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 546
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 536,
+                  "end": 546
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 532,
+                "end": 547
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 550,
-                "end": 557,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 557
+              },
+              "start": 532,
+              "end": 557
             },
-            "directive": null
+            "directive": null,
+            "start": 532,
+            "end": 558
           },
           {
             "type": "ExpressionStatement",
-            "start": 564,
-            "end": 590,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 564,
-              "end": 589,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 564,
-                "end": 579,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 564,
-                  "end": 567,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 567
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 568,
-                  "end": 578,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 568,
-                    "end": 571,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 571
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 572,
-                    "end": 578,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 578
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 568,
+                  "end": 578
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 564,
+                "end": 579
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 582,
-                "end": 589,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 589
+              },
+              "start": 564,
+              "end": 589
             },
-            "directive": null
+            "directive": null,
+            "start": 564,
+            "end": 590
           },
           {
             "type": "ExpressionStatement",
-            "start": 595,
-            "end": 621,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 595,
-              "end": 620,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 595,
-                "end": 610,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 595,
-                  "end": 598,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 598
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 599,
-                  "end": 609,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 599,
-                    "end": 602,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 602
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 603,
-                    "end": 609,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 609
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 599,
+                  "end": 609
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 595,
+                "end": 610
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 613,
-                "end": 620,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 620
+              },
+              "start": 595,
+              "end": 620
             },
-            "directive": null
+            "directive": null,
+            "start": 595,
+            "end": 621
           },
           {
             "type": "ExpressionStatement",
-            "start": 626,
-            "end": 652,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 626,
-              "end": 651,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 626,
-                "end": 641,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 626,
-                  "end": 629,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 629
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 630,
-                  "end": 640,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 630,
-                    "end": 633,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 633
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 634,
-                    "end": 640,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 640
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 630,
+                  "end": 640
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 626,
+                "end": 641
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 644,
-                "end": 651,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 651
+              },
+              "start": 626,
+              "end": 651
             },
-            "directive": null
+            "directive": null,
+            "start": 626,
+            "end": 652
           },
           {
             "type": "ExpressionStatement",
-            "start": 657,
-            "end": 683,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 657,
-              "end": 682,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 657,
-                "end": 672,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 657,
-                  "end": 660,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 660
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 661,
-                  "end": 671,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 661,
-                    "end": 664,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 664
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 665,
-                    "end": 671,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 671
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 661,
+                  "end": 671
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 657,
+                "end": 672
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 675,
-                "end": 682,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 682
+              },
+              "start": 657,
+              "end": 682
             },
-            "directive": null
+            "directive": null,
+            "start": 657,
+            "end": 683
           },
           {
             "type": "ExpressionStatement",
-            "start": 688,
-            "end": 714,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 688,
-              "end": 713,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 688,
-                "end": 703,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 688,
-                  "end": 691,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 691
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 692,
-                  "end": 702,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 692,
-                    "end": 695,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 695
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 696,
-                    "end": 702,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 702
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 692,
+                  "end": 702
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 688,
+                "end": 703
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 706,
-                "end": 713,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 713
+              },
+              "start": 688,
+              "end": 713
             },
-            "directive": null
+            "directive": null,
+            "start": 688,
+            "end": 714
           },
           {
             "type": "ExpressionStatement",
-            "start": 719,
-            "end": 745,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 719,
-              "end": 744,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 719,
-                "end": 734,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 719,
-                  "end": 722,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 722
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 723,
-                  "end": 733,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 723,
-                    "end": 726,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 726
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 727,
-                    "end": 733,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 733
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 723,
+                  "end": 733
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 719,
+                "end": 734
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 737,
-                "end": 744,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 744
+              },
+              "start": 719,
+              "end": 744
             },
-            "directive": null
+            "directive": null,
+            "start": 719,
+            "end": 745
           },
           {
             "type": "ExpressionStatement",
-            "start": 750,
-            "end": 776,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 750,
-              "end": 775,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 750,
-                "end": 765,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 750,
-                  "end": 753,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 753
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 754,
-                  "end": 764,
                   "object": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "arr",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 754,
-                    "end": 757,
-                    "decorators": [],
-                    "name": "arr",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 757
                   },
                   "property": {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "length",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 758,
-                    "end": 764,
-                    "decorators": [],
-                    "name": "length",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 764
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 754,
+                  "end": 764
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 750,
+                "end": 765
               },
               "right": {
                 "type": "Literal",
+                "value": "value",
+                "raw": "'value'",
                 "start": 768,
-                "end": 775,
-                "value": "value",
-                "raw": "'value'"
-              }
+                "end": 775
+              },
+              "start": 750,
+              "end": 775
             },
-            "directive": null
+            "directive": null,
+            "start": 750,
+            "end": 776
           },
           {
             "type": "ExpressionStatement",
-            "start": 781,
-            "end": 807,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 781,
-              "end": 806,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 781,
-                "end": 796,
                 "object": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "arr",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 781,
-                  "end": 784,
-                  "decorators": [],
-                  "name": "arr",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 784
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 785,
-                  "end": 795,
                   "object": {
                     "type": "Identifier",
-                    "start": 785,
-                    "end": 788,
                     "decorators": [],
                     "name": "arr",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 785,
+                    "end": 788
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 789,
-                    "end": 795,
                     "decorators": [],
                     "name": "length",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 789,
+                    "end": 795
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 785,
+                  "end": 795
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 781,
+                "end": 796
               },
               "right": {
                 "type": "Literal",
-                "start": 799,
-                "end": 806,
                 "value": "value",
-                "raw": "'value'"
-              }
+                "raw": "'value'",
+                "start": 799,
+                "end": 806
+              },
+              "start": 781,
+              "end": 806
             },
-            "directive": null
+            "directive": null,
+            "start": 781,
+            "end": 807
           },
           {
             "type": "ExpressionStatement",
-            "start": 812,
-            "end": 838,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 812,
-              "end": 837,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 812,
-                "end": 827,
                 "object": {
                   "type": "Identifier",
-                  "start": 812,
-                  "end": 815,
                   "decorators": [],
                   "name": "arr",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 812,
+                  "end": 815
                 },
                 "property": {
                   "type": "MemberExpression",
-                  "start": 816,
-                  "end": 826,
                   "object": {
                     "type": "Identifier",
-                    "start": 816,
-                    "end": 819,
                     "decorators": [],
                     "name": "arr",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 816,
+                    "end": 819
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 820,
-                    "end": 826,
                     "decorators": [],
                     "name": "length",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 820,
+                    "end": 826
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 816,
+                  "end": 826
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 812,
+                "end": 827
               },
               "right": {
                 "type": "Literal",
-                "start": 830,
-                "end": 837,
                 "value": "value",
-                "raw": "'value'"
-              }
+                "raw": "'value'",
+                "start": 830,
+                "end": 837
+              },
+              "start": 812,
+              "end": 837
             },
-            "directive": null
+            "directive": null,
+            "start": 812,
+            "end": 838
           }
-        ]
+        ],
+        "start": 38,
+        "end": 841
       },
-      "expression": false
+      "expression": false,
+      "start": 21,
+      "end": 841
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 21,
+  "end": 841
 }
 ```

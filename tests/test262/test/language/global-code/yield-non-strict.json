@@ -1,63 +1,63 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 552,
   "body": [
     {
       "type": "TryStatement",
-      "start": 518,
-      "end": 551,
       "block": {
         "type": "BlockStatement",
-        "start": 522,
-        "end": 538,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 526,
-            "end": 536,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 526,
-              "end": 535,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "yield",
                 "start": 526,
-                "end": 531,
-                "name": "yield"
+                "end": 531
               },
               "right": {
                 "type": "Literal",
-                "start": 534,
-                "end": 535,
                 "value": 0,
-                "raw": "0"
-              }
-            }
+                "raw": "0",
+                "start": 534,
+                "end": 535
+              },
+              "start": 526,
+              "end": 535
+            },
+            "start": 526,
+            "end": 536
           }
-        ]
+        ],
+        "start": 522,
+        "end": 538
       },
       "handler": {
         "type": "CatchClause",
-        "start": 539,
-        "end": 551,
         "param": {
           "type": "Identifier",
+          "name": "_",
           "start": 546,
-          "end": 547,
-          "name": "_"
+          "end": 547
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 549,
-          "end": 551,
-          "body": []
-        }
+          "end": 551
+        },
+        "start": 539,
+        "end": 551
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 518,
+      "end": 551
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 552
 }

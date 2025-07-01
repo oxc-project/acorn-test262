@@ -1,111 +1,111 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 345,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 263,
-      "end": 344,
       "expression": {
         "type": "CallExpression",
-        "start": 263,
-        "end": 343,
         "callee": {
           "type": "MemberExpression",
-          "start": 263,
-          "end": 279,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 263,
-            "end": 269,
-            "name": "assert"
+            "end": 269
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 270,
-            "end": 279,
-            "name": "sameValue"
+            "end": 279
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 263,
+          "end": 279
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 280,
-            "end": 307,
             "callee": {
               "type": "MemberExpression",
-              "start": 280,
-              "end": 296,
               "object": {
                 "type": "ArrayExpression",
-                "start": 280,
-                "end": 288,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 281,
-                    "end": 282,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 281,
+                    "end": 282
                   },
                   null,
                   {
                     "type": "Literal",
-                    "start": 286,
-                    "end": 287,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "start": 286,
+                    "end": 287
                   }
-                ]
+                ],
+                "start": 280,
+                "end": 288
               },
               "property": {
                 "type": "Identifier",
+                "name": "indexOf",
                 "start": 289,
-                "end": 296,
-                "name": "indexOf"
+                "end": 296
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 280,
+              "end": 296
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 297,
-                "end": 306,
-                "name": "undefined"
+                "end": 306
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 280,
+            "end": 307
           },
           {
             "type": "UnaryExpression",
-            "start": 309,
-            "end": 311,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 310,
-              "end": 311,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 310,
+              "end": 311
             },
-            "prefix": true
+            "prefix": true,
+            "start": 309,
+            "end": 311
           },
           {
             "type": "Literal",
-            "start": 313,
-            "end": 342,
             "value": "[0, , 2].indexOf(undefined)",
-            "raw": "'[0, , 2].indexOf(undefined)'"
+            "raw": "'[0, , 2].indexOf(undefined)'",
+            "start": 313,
+            "end": 342
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 263,
+        "end": 343
+      },
+      "start": 263,
+      "end": 344
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 345
 }

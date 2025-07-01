@@ -2,495 +2,495 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 617,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 230,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 229,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 23,
             "decorators": [],
             "name": "regexes",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 23,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 15,
-                "end": 23,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 15,
-                  "end": 21,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 15,
-                    "end": 21,
                     "decorators": [],
                     "name": "RegExp",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 15,
+                    "end": 21
                   },
-                  "typeArguments": null
-                }
-              }
-            }
+                  "typeArguments": null,
+                  "start": 15,
+                  "end": 21
+                },
+                "start": 15,
+                "end": 23
+              },
+              "start": 13,
+              "end": 23
+            },
+            "start": 6,
+            "end": 23
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 26,
-            "end": 229,
             "elements": [
               {
                 "type": "Literal",
-                "start": 30,
-                "end": 62,
                 "value": null,
                 "raw": "/\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s/",
                 "regex": {
                   "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s",
                   "flags": ""
-                }
+                },
+                "start": 30,
+                "end": 62
               },
               {
                 "type": "Literal",
-                "start": 66,
-                "end": 100,
                 "value": null,
                 "raw": "/[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]/",
                 "regex": {
                   "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]",
                   "flags": ""
-                }
+                },
+                "start": 66,
+                "end": 100
               },
               {
                 "type": "Literal",
-                "start": 104,
-                "end": 116,
                 "value": null,
                 "raw": "/\\P[\\P\\w-_]/",
                 "regex": {
                   "pattern": "\\P[\\P\\w-_]",
                   "flags": ""
-                }
+                },
+                "start": 104,
+                "end": 116
               },
               {
                 "type": "Literal",
-                "start": 137,
-                "end": 170,
                 "value": null,
                 "raw": "/\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s/u",
                 "regex": {
                   "pattern": "\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s",
                   "flags": "u"
-                }
+                },
+                "start": 137,
+                "end": 170
               },
               {
                 "type": "Literal",
-                "start": 174,
-                "end": 209,
                 "value": null,
                 "raw": "/[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]/u",
                 "regex": {
                   "pattern": "[\\q\\u\\i\\c\\k\\_\\f\\o\\x\\-\\j\\u\\m\\p\\s]",
                   "flags": "u"
-                }
+                },
+                "start": 174,
+                "end": 209
               },
               {
                 "type": "Literal",
-                "start": 213,
-                "end": 226,
                 "value": null,
                 "raw": "/\\P[\\P\\w-_]/u",
                 "regex": {
                   "pattern": "\\P[\\P\\w-_]",
                   "flags": "u"
-                }
+                },
+                "start": 213,
+                "end": 226
               }
-            ]
+            ],
+            "start": 26,
+            "end": 229
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 229
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 230
     },
     {
       "type": "VariableDeclaration",
-      "start": 232,
-      "end": 617,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 238,
-          "end": 616,
           "id": {
             "type": "Identifier",
-            "start": 238,
-            "end": 265,
             "decorators": [],
             "name": "regexesWithBraces",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 255,
-              "end": 265,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 257,
-                "end": 265,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 257,
-                  "end": 263,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 257,
-                    "end": 263,
                     "decorators": [],
                     "name": "RegExp",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 257,
+                    "end": 263
                   },
-                  "typeArguments": null
-                }
-              }
-            }
+                  "typeArguments": null,
+                  "start": 257,
+                  "end": 263
+                },
+                "start": 257,
+                "end": 265
+              },
+              "start": 255,
+              "end": 265
+            },
+            "start": 238,
+            "end": 265
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 268,
-            "end": 616,
             "elements": [
               {
                 "type": "Literal",
-                "start": 272,
-                "end": 277,
                 "value": null,
                 "raw": "/{??/",
                 "regex": {
                   "pattern": "{??",
                   "flags": ""
-                }
+                },
+                "start": 272,
+                "end": 277
               },
               {
                 "type": "Literal",
-                "start": 281,
-                "end": 287,
                 "value": null,
                 "raw": "/{,??/",
                 "regex": {
                   "pattern": "{,??",
                   "flags": ""
-                }
+                },
+                "start": 281,
+                "end": 287
               },
               {
                 "type": "Literal",
-                "start": 291,
-                "end": 298,
                 "value": null,
                 "raw": "/{,1??/",
                 "regex": {
                   "pattern": "{,1??",
                   "flags": ""
-                }
+                },
+                "start": 291,
+                "end": 298
               },
               {
                 "type": "Literal",
-                "start": 302,
-                "end": 308,
                 "value": null,
                 "raw": "/{1??/",
                 "regex": {
                   "pattern": "{1??",
                   "flags": ""
-                }
+                },
+                "start": 302,
+                "end": 308
               },
               {
                 "type": "Literal",
-                "start": 312,
-                "end": 319,
                 "value": null,
                 "raw": "/{1,??/",
                 "regex": {
                   "pattern": "{1,??",
                   "flags": ""
-                }
+                },
+                "start": 312,
+                "end": 319
               },
               {
                 "type": "Literal",
-                "start": 323,
-                "end": 331,
                 "value": null,
                 "raw": "/{1,2??/",
                 "regex": {
                   "pattern": "{1,2??",
                   "flags": ""
-                }
+                },
+                "start": 323,
+                "end": 331
               },
               {
                 "type": "Literal",
-                "start": 335,
-                "end": 343,
                 "value": null,
                 "raw": "/{2,1??/",
                 "regex": {
                   "pattern": "{2,1??",
                   "flags": ""
-                }
+                },
+                "start": 335,
+                "end": 343
               },
               {
                 "type": "Literal",
-                "start": 347,
-                "end": 353,
                 "value": null,
                 "raw": "/{}??/",
                 "regex": {
                   "pattern": "{}??",
                   "flags": ""
-                }
+                },
+                "start": 347,
+                "end": 353
               },
               {
                 "type": "Literal",
-                "start": 357,
-                "end": 364,
                 "value": null,
                 "raw": "/{,}??/",
                 "regex": {
                   "pattern": "{,}??",
                   "flags": ""
-                }
+                },
+                "start": 357,
+                "end": 364
               },
               {
                 "type": "Literal",
-                "start": 368,
-                "end": 376,
                 "value": null,
                 "raw": "/{,1}??/",
                 "regex": {
                   "pattern": "{,1}??",
                   "flags": ""
-                }
+                },
+                "start": 368,
+                "end": 376
               },
               {
                 "type": "Literal",
-                "start": 380,
-                "end": 387,
                 "value": null,
                 "raw": "/{1}??/",
                 "regex": {
                   "pattern": "{1}??",
                   "flags": ""
-                }
+                },
+                "start": 380,
+                "end": 387
               },
               {
                 "type": "Literal",
-                "start": 391,
-                "end": 399,
                 "value": null,
                 "raw": "/{1,}??/",
                 "regex": {
                   "pattern": "{1,}??",
                   "flags": ""
-                }
+                },
+                "start": 391,
+                "end": 399
               },
               {
                 "type": "Literal",
-                "start": 403,
-                "end": 412,
                 "value": null,
                 "raw": "/{1,2}??/",
                 "regex": {
                   "pattern": "{1,2}??",
                   "flags": ""
-                }
+                },
+                "start": 403,
+                "end": 412
               },
               {
                 "type": "Literal",
-                "start": 416,
-                "end": 425,
                 "value": null,
                 "raw": "/{2,1}??/",
                 "regex": {
                   "pattern": "{2,1}??",
                   "flags": ""
-                }
+                },
+                "start": 416,
+                "end": 425
               },
               {
                 "type": "Literal",
-                "start": 446,
-                "end": 452,
                 "value": null,
                 "raw": "/{??/u",
                 "regex": {
                   "pattern": "{??",
                   "flags": "u"
-                }
+                },
+                "start": 446,
+                "end": 452
               },
               {
                 "type": "Literal",
-                "start": 456,
-                "end": 463,
                 "value": null,
                 "raw": "/{,??/u",
                 "regex": {
                   "pattern": "{,??",
                   "flags": "u"
-                }
+                },
+                "start": 456,
+                "end": 463
               },
               {
                 "type": "Literal",
-                "start": 467,
-                "end": 475,
                 "value": null,
                 "raw": "/{,1??/u",
                 "regex": {
                   "pattern": "{,1??",
                   "flags": "u"
-                }
+                },
+                "start": 467,
+                "end": 475
               },
               {
                 "type": "Literal",
-                "start": 479,
-                "end": 486,
                 "value": null,
                 "raw": "/{1??/u",
                 "regex": {
                   "pattern": "{1??",
                   "flags": "u"
-                }
+                },
+                "start": 479,
+                "end": 486
               },
               {
                 "type": "Literal",
-                "start": 490,
-                "end": 498,
                 "value": null,
                 "raw": "/{1,??/u",
                 "regex": {
                   "pattern": "{1,??",
                   "flags": "u"
-                }
+                },
+                "start": 490,
+                "end": 498
               },
               {
                 "type": "Literal",
-                "start": 502,
-                "end": 511,
                 "value": null,
                 "raw": "/{1,2??/u",
                 "regex": {
                   "pattern": "{1,2??",
                   "flags": "u"
-                }
+                },
+                "start": 502,
+                "end": 511
               },
               {
                 "type": "Literal",
-                "start": 515,
-                "end": 524,
                 "value": null,
                 "raw": "/{2,1??/u",
                 "regex": {
                   "pattern": "{2,1??",
                   "flags": "u"
-                }
+                },
+                "start": 515,
+                "end": 524
               },
               {
                 "type": "Literal",
-                "start": 528,
-                "end": 535,
                 "value": null,
                 "raw": "/{}??/u",
                 "regex": {
                   "pattern": "{}??",
                   "flags": "u"
-                }
+                },
+                "start": 528,
+                "end": 535
               },
               {
                 "type": "Literal",
-                "start": 539,
-                "end": 547,
                 "value": null,
                 "raw": "/{,}??/u",
                 "regex": {
                   "pattern": "{,}??",
                   "flags": "u"
-                }
+                },
+                "start": 539,
+                "end": 547
               },
               {
                 "type": "Literal",
-                "start": 551,
-                "end": 560,
                 "value": null,
                 "raw": "/{,1}??/u",
                 "regex": {
                   "pattern": "{,1}??",
                   "flags": "u"
-                }
+                },
+                "start": 551,
+                "end": 560
               },
               {
                 "type": "Literal",
-                "start": 564,
-                "end": 572,
                 "value": null,
                 "raw": "/{1}??/u",
                 "regex": {
                   "pattern": "{1}??",
                   "flags": "u"
-                }
+                },
+                "start": 564,
+                "end": 572
               },
               {
                 "type": "Literal",
-                "start": 576,
-                "end": 585,
                 "value": null,
                 "raw": "/{1,}??/u",
                 "regex": {
                   "pattern": "{1,}??",
                   "flags": "u"
-                }
+                },
+                "start": 576,
+                "end": 585
               },
               {
                 "type": "Literal",
-                "start": 589,
-                "end": 599,
                 "value": null,
                 "raw": "/{1,2}??/u",
                 "regex": {
                   "pattern": "{1,2}??",
                   "flags": "u"
-                }
+                },
+                "start": 589,
+                "end": 599
               },
               {
                 "type": "Literal",
-                "start": 603,
-                "end": 613,
                 "value": null,
                 "raw": "/{2,1}??/u",
                 "regex": {
                   "pattern": "{2,1}??",
                   "flags": "u"
-                }
+                },
+                "start": 603,
+                "end": 613
               }
-            ]
+            ],
+            "start": 268,
+            "end": 616
           },
-          "definite": false
+          "definite": false,
+          "start": 238,
+          "end": 616
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 232,
+      "end": 617
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 617
 }
 ```

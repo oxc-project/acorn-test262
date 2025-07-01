@@ -2,101 +2,91 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 40,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 8,
-          "end": 15,
           "imported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 15,
             "decorators": [],
             "name": "element",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 15
           },
           "local": {
             "type": "Identifier",
-            "start": 8,
-            "end": 15,
             "decorators": [],
             "name": "element",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 15
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 8,
+          "end": 15
         },
         {
           "type": "ImportSpecifier",
-          "start": 17,
-          "end": 25,
           "imported": {
             "type": "Identifier",
-            "start": 17,
-            "end": 25,
             "decorators": [],
             "name": "fragment",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 17,
+            "end": 25
           },
           "local": {
             "type": "Identifier",
-            "start": 17,
-            "end": 25,
             "decorators": [],
             "name": "fragment",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 17,
+            "end": 25
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 17,
+          "end": 25
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 32,
-        "end": 39,
         "value": "./jsx",
-        "raw": "\"./jsx\""
+        "raw": "\"./jsx\"",
+        "start": 32,
+        "end": 39
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 40
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 42,
-      "end": 77,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 49,
-        "end": 77,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 55,
-            "end": 77,
             "id": {
               "type": "Identifier",
-              "start": 55,
-              "end": 56,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 55,
+              "end": 56
             },
             "init": {
               "type": "JSXFragment",
-              "start": 59,
-              "end": 77,
               "openingFragment": {
                 "type": "JSXOpeningFragment",
                 "start": 59,
@@ -105,56 +95,60 @@ __ESTREE_TEST__:PASS:
               "children": [
                 {
                   "type": "JSXText",
-                  "start": 61,
-                  "end": 74,
                   "value": "fragment text",
-                  "raw": "fragment text"
+                  "raw": "fragment text",
+                  "start": 61,
+                  "end": 74
                 }
               ],
               "closingFragment": {
                 "type": "JSXClosingFragment",
                 "start": 74,
                 "end": 77
-              }
+              },
+              "start": 59,
+              "end": 77
             },
-            "definite": false
+            "definite": false,
+            "start": 55,
+            "end": 77
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 49,
+        "end": 77
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 42,
+      "end": 77
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 78
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 59,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 28,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 28,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 23,
           "decorators": [],
           "name": "element",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 23
         },
         "generator": false,
         "async": false,
@@ -164,33 +158,33 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 26,
-          "end": 28,
-          "body": []
+          "end": 28
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 28
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 30,
-      "end": 59,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 37,
-        "end": 59,
         "id": {
           "type": "Identifier",
-          "start": 46,
-          "end": 54,
           "decorators": [],
           "name": "fragment",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 46,
+          "end": 54
         },
         "generator": false,
         "async": false,
@@ -200,19 +194,25 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 57,
-          "end": 59,
-          "body": []
+          "end": 59
         },
-        "expression": false
+        "expression": false,
+        "start": 37,
+        "end": 59
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 30,
+      "end": 59
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 59
 }
 ```

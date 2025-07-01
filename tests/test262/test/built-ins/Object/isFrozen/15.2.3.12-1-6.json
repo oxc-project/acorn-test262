@@ -1,196 +1,196 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 388,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 223,
-      "end": 246,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 227,
-          "end": 245,
           "id": {
             "type": "Identifier",
+            "name": "sparseArr",
             "start": 227,
-            "end": 236,
-            "name": "sparseArr"
+            "end": 236
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 239,
-            "end": 245,
             "elements": [
               {
                 "type": "Literal",
-                "start": 240,
-                "end": 241,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 240,
+                "end": 241
               },
               {
                 "type": "Literal",
-                "start": 243,
-                "end": 244,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 243,
+                "end": 244
               }
-            ]
-          }
+            ],
+            "start": 239,
+            "end": 245
+          },
+          "start": 227,
+          "end": 245
         }
-      ]
+      ],
+      "start": 223,
+      "end": 246
     },
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 272,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 247,
-        "end": 271,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 247,
-          "end": 263,
           "object": {
             "type": "Identifier",
+            "name": "sparseArr",
             "start": 247,
-            "end": 256,
-            "name": "sparseArr"
+            "end": 256
           },
           "property": {
             "type": "Literal",
-            "start": 257,
-            "end": 262,
             "value": 10000,
-            "raw": "10000"
+            "raw": "10000",
+            "start": 257,
+            "end": 262
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 247,
+          "end": 263
         },
         "right": {
           "type": "Literal",
-          "start": 266,
-          "end": 271,
           "value": 10000,
-          "raw": "10000"
-        }
-      }
+          "raw": "10000",
+          "start": 266,
+          "end": 271
+        },
+        "start": 247,
+        "end": 271
+      },
+      "start": 247,
+      "end": 272
     },
     {
       "type": "ExpressionStatement",
-      "start": 274,
-      "end": 311,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 274,
-        "end": 310,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "sparseArr",
           "start": 274,
-          "end": 283,
-          "name": "sparseArr"
+          "end": 283
         },
         "right": {
           "type": "CallExpression",
-          "start": 286,
-          "end": 310,
           "callee": {
             "type": "MemberExpression",
-            "start": 286,
-            "end": 299,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 286,
-              "end": 292,
-              "name": "Object"
+              "end": 292
             },
             "property": {
               "type": "Identifier",
+              "name": "freeze",
               "start": 293,
-              "end": 299,
-              "name": "freeze"
+              "end": 299
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 286,
+            "end": 299
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "sparseArr",
               "start": 300,
-              "end": 309,
-              "name": "sparseArr"
+              "end": 309
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 286,
+          "end": 310
+        },
+        "start": 274,
+        "end": 310
+      },
+      "start": 274,
+      "end": 311
     },
     {
       "type": "ExpressionStatement",
-      "start": 313,
-      "end": 387,
       "expression": {
         "type": "CallExpression",
-        "start": 313,
-        "end": 386,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 313,
-          "end": 319,
-          "name": "assert"
+          "end": 319
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 320,
-            "end": 346,
             "callee": {
               "type": "MemberExpression",
-              "start": 320,
-              "end": 335,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 320,
-                "end": 326,
-                "name": "Object"
+                "end": 326
               },
               "property": {
                 "type": "Identifier",
+                "name": "isFrozen",
                 "start": 327,
-                "end": 335,
-                "name": "isFrozen"
+                "end": 335
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 320,
+              "end": 335
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "sparseArr",
                 "start": 336,
-                "end": 345,
-                "name": "sparseArr"
+                "end": 345
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 320,
+            "end": 346
           },
           {
             "type": "Literal",
-            "start": 348,
-            "end": 385,
             "value": "Object.isFrozen(sparseArr) !== true",
-            "raw": "'Object.isFrozen(sparseArr) !== true'"
+            "raw": "'Object.isFrozen(sparseArr) !== true'",
+            "start": 348,
+            "end": 385
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 313,
+        "end": 386
+      },
+      "start": 313,
+      "end": 387
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 388
 }

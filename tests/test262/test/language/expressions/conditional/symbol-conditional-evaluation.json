@@ -1,190 +1,190 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 372,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 233,
-      "end": 252,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 237,
-          "end": 251,
           "id": {
             "type": "Identifier",
+            "name": "sym",
             "start": 237,
-            "end": 240,
-            "name": "sym"
+            "end": 240
           },
           "init": {
             "type": "CallExpression",
-            "start": 243,
-            "end": 251,
             "callee": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 243,
-              "end": 249,
-              "name": "Symbol"
+              "end": 249
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 243,
+            "end": 251
+          },
+          "start": 237,
+          "end": 251
         }
-      ]
+      ],
+      "start": 233,
+      "end": 252
     },
     {
       "type": "ExpressionStatement",
-      "start": 254,
-      "end": 311,
       "expression": {
         "type": "CallExpression",
-        "start": 254,
-        "end": 310,
         "callee": {
           "type": "MemberExpression",
-          "start": 254,
-          "end": 270,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 254,
-            "end": 260,
-            "name": "assert"
+            "end": 260
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 261,
-            "end": 270,
-            "name": "sameValue"
+            "end": 270
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 254,
+          "end": 270
         },
         "arguments": [
           {
             "type": "ConditionalExpression",
-            "start": 271,
-            "end": 282,
             "test": {
               "type": "Identifier",
+              "name": "sym",
               "start": 271,
-              "end": 274,
-              "name": "sym"
+              "end": 274
             },
             "consequent": {
               "type": "Literal",
-              "start": 277,
-              "end": 278,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 277,
+              "end": 278
             },
             "alternate": {
               "type": "Literal",
-              "start": 281,
-              "end": 282,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 281,
+              "end": 282
+            },
+            "start": 271,
+            "end": 282
           },
           {
             "type": "Literal",
-            "start": 284,
-            "end": 285,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 284,
+            "end": 285
           },
           {
             "type": "Literal",
-            "start": 287,
-            "end": 309,
             "value": "`sym ? 1 : 2` is `1`",
-            "raw": "\"`sym ? 1 : 2` is `1`\""
+            "raw": "\"`sym ? 1 : 2` is `1`\"",
+            "start": 287,
+            "end": 309
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 254,
+        "end": 310
+      },
+      "start": 254,
+      "end": 311
     },
     {
       "type": "ExpressionStatement",
-      "start": 312,
-      "end": 371,
       "expression": {
         "type": "CallExpression",
-        "start": 312,
-        "end": 370,
         "callee": {
           "type": "MemberExpression",
-          "start": 312,
-          "end": 328,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 312,
-            "end": 318,
-            "name": "assert"
+            "end": 318
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 319,
-            "end": 328,
-            "name": "sameValue"
+            "end": 328
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 312,
+          "end": 328
         },
         "arguments": [
           {
             "type": "ConditionalExpression",
-            "start": 329,
-            "end": 341,
             "test": {
               "type": "UnaryExpression",
-              "start": 329,
-              "end": 333,
               "operator": "!",
               "argument": {
                 "type": "Identifier",
+                "name": "sym",
                 "start": 330,
-                "end": 333,
-                "name": "sym"
+                "end": 333
               },
-              "prefix": true
+              "prefix": true,
+              "start": 329,
+              "end": 333
             },
             "consequent": {
               "type": "Literal",
-              "start": 336,
-              "end": 337,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 336,
+              "end": 337
             },
             "alternate": {
               "type": "Literal",
-              "start": 340,
-              "end": 341,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 340,
+              "end": 341
+            },
+            "start": 329,
+            "end": 341
           },
           {
             "type": "Literal",
-            "start": 343,
-            "end": 344,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 343,
+            "end": 344
           },
           {
             "type": "Literal",
-            "start": 346,
-            "end": 369,
             "value": "`!sym ? 1 : 2` is `2`",
-            "raw": "\"`!sym ? 1 : 2` is `2`\""
+            "raw": "\"`!sym ? 1 : 2` is `2`\"",
+            "start": 346,
+            "end": 369
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 312,
+        "end": 370
+      },
+      "start": 312,
+      "end": 371
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 372
 }

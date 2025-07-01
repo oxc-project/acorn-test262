@@ -1,109 +1,109 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1076,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1000,
-      "end": 1075,
       "expression": {
         "type": "CallExpression",
-        "start": 1000,
-        "end": 1074,
         "callee": {
           "type": "MemberExpression",
-          "start": 1000,
-          "end": 1013,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1000,
-            "end": 1006,
-            "name": "assert"
+            "end": 1006
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1007,
-            "end": 1013,
-            "name": "throws"
+            "end": 1013
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1000,
+          "end": 1013
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 1014,
-            "end": 1023,
-            "name": "TypeError"
+            "end": 1023
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 1025,
-            "end": 1065,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1031,
-              "end": 1065,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1035,
-                  "end": 1063,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 1035,
-                    "end": 1062,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1039,
-                      "end": 1056,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 1039,
-                        "end": 1043,
-                        "name": "Intl"
+                        "end": 1043
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "DisplayNames",
                         "start": 1044,
-                        "end": 1056,
-                        "name": "DisplayNames"
+                        "end": 1056
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1039,
+                      "end": 1056
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1057,
-                        "end": 1061,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 1057,
+                        "end": 1061
                       }
-                    ]
-                  }
+                    ],
+                    "start": 1035,
+                    "end": 1062
+                  },
+                  "start": 1035,
+                  "end": 1063
                 }
-              ]
+              ],
+              "start": 1031,
+              "end": 1065
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 1025,
+            "end": 1065
           },
           {
             "type": "Literal",
-            "start": 1067,
-            "end": 1073,
             "value": "null",
-            "raw": "'null'"
+            "raw": "'null'",
+            "start": 1067,
+            "end": 1073
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1000,
+        "end": 1074
+      },
+      "start": 1000,
+      "end": 1075
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1076
 }

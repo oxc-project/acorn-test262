@@ -1,97 +1,97 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 470,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 396,
-      "end": 439,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 400,
-          "end": 438,
           "id": {
             "type": "Identifier",
+            "name": "regExpObj",
             "start": 400,
-            "end": 409,
-            "name": "regExpObj"
+            "end": 409
           },
           "init": {
             "type": "NewExpression",
-            "start": 412,
-            "end": 438,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 416,
-              "end": 422,
-              "name": "RegExp"
+              "end": 422
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 423,
-                "end": 432,
                 "value": null,
                 "raw": "/\\u0042/i",
                 "regex": {
                   "pattern": "\\u0042",
                   "flags": "i"
-                }
+                },
+                "start": 423,
+                "end": 432
               },
               {
                 "type": "Literal",
-                "start": 434,
-                "end": 437,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "start": 434,
+                "end": 437
               }
-            ]
-          }
+            ],
+            "start": 412,
+            "end": 438
+          },
+          "start": 400,
+          "end": 438
         }
-      ]
+      ],
+      "start": 396,
+      "end": 439
     },
     {
       "type": "ExpressionStatement",
-      "start": 440,
-      "end": 469,
       "expression": {
         "type": "CallExpression",
-        "start": 440,
-        "end": 468,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 440,
-          "end": 446,
-          "name": "assert"
+          "end": 446
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 447,
-            "end": 467,
             "object": {
               "type": "Identifier",
+              "name": "regExpObj",
               "start": 447,
-              "end": 456,
-              "name": "regExpObj"
+              "end": 456
             },
             "property": {
               "type": "Identifier",
+              "name": "ignoreCase",
               "start": 457,
-              "end": 467,
-              "name": "ignoreCase"
+              "end": 467
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 447,
+            "end": 467
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 440,
+        "end": 468
+      },
+      "start": 440,
+      "end": 469
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 470
 }

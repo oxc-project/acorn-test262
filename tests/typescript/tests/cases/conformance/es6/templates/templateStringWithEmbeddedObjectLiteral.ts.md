@@ -2,123 +2,123 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 38,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 38,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 37,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 8,
-            "end": 37,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 8,
+                "end": 14
               },
               {
                 "type": "TemplateElement",
-                "start": 32,
-                "end": 37,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": true
+                "tail": true,
+                "start": 32,
+                "end": 37
               }
             ],
             "expressions": [
               {
                 "type": "ObjectExpression",
-                "start": 15,
-                "end": 31,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 17,
-                    "end": 22,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 17,
-                      "end": 18,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 17,
+                      "end": 18
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 20,
-                      "end": 22,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "start": 20,
+                      "end": 22
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 17,
+                    "end": 22
                   },
                   {
                     "type": "Property",
-                    "start": 24,
-                    "end": 29,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 24,
-                      "end": 25,
                       "decorators": [],
                       "name": "y",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 24,
+                      "end": 25
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 27,
-                      "end": 29,
                       "value": 20,
-                      "raw": "20"
+                      "raw": "20",
+                      "start": 27,
+                      "end": 29
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 24,
+                    "end": 29
                   }
-                ]
+                ],
+                "start": 15,
+                "end": 31
               }
-            ]
+            ],
+            "start": 8,
+            "end": 37
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 37
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 38
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 38
 }
 ```

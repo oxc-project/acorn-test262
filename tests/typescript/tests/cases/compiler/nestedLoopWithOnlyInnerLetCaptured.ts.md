@@ -2,148 +2,136 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 108,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 24,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 23,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 23,
             "decorators": [],
             "name": "doSomething",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 23
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 23
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 24
     },
     {
       "type": "ForOfStatement",
-      "start": 26,
-      "end": 108,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 31,
-        "end": 37,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 35,
-            "end": 37,
             "id": {
               "type": "Identifier",
-              "start": 35,
-              "end": 37,
               "decorators": [],
               "name": "a1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 35,
+              "end": 37
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 35,
+            "end": 37
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 31,
+        "end": 37
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 41,
-        "end": 43,
-        "elements": []
+        "end": 43
       },
       "body": {
         "type": "ForOfStatement",
-        "start": 49,
-        "end": 108,
         "await": false,
         "left": {
           "type": "VariableDeclaration",
-          "start": 54,
-          "end": 60,
           "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 58,
-              "end": 60,
               "id": {
                 "type": "Identifier",
-                "start": 58,
-                "end": 60,
                 "decorators": [],
                 "name": "a2",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 58,
+                "end": 60
               },
               "init": null,
-              "definite": false
+              "definite": false,
+              "start": 58,
+              "end": 60
             }
           ],
-          "declare": false
+          "declare": false,
+          "start": 54,
+          "end": 60
         },
         "right": {
           "type": "MemberExpression",
-          "start": 64,
-          "end": 76,
           "object": {
             "type": "Identifier",
-            "start": 64,
-            "end": 66,
             "decorators": [],
             "name": "a1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 64,
+            "end": 66
           },
           "property": {
             "type": "Identifier",
-            "start": 67,
-            "end": 76,
             "decorators": [],
             "name": "someArray",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 67,
+            "end": 76
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 64,
+          "end": 76
         },
         "body": {
           "type": "ExpressionStatement",
-          "start": 86,
-          "end": 108,
           "expression": {
             "type": "CallExpression",
-            "start": 86,
-            "end": 107,
             "callee": {
               "type": "Identifier",
-              "start": 86,
-              "end": 97,
               "decorators": [],
               "name": "doSomething",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 86,
+              "end": 97
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "ArrowFunctionExpression",
-                "start": 98,
-                "end": 106,
                 "expression": true,
                 "async": false,
                 "typeParameters": null,
@@ -151,25 +139,37 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "Identifier",
-                  "start": 104,
-                  "end": 106,
                   "decorators": [],
                   "name": "a2",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 104,
+                  "end": 106
                 },
                 "id": null,
-                "generator": false
+                "generator": false,
+                "start": 98,
+                "end": 106
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 86,
+            "end": 107
           },
-          "directive": null
-        }
-      }
+          "directive": null,
+          "start": 86,
+          "end": 108
+        },
+        "start": 49,
+        "end": 108
+      },
+      "start": 26,
+      "end": 108
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 108
 }
 ```

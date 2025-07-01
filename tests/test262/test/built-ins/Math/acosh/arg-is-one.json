@@ -1,96 +1,96 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 333,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 258,
-      "end": 332,
       "expression": {
         "type": "CallExpression",
-        "start": 258,
-        "end": 331,
         "callee": {
           "type": "MemberExpression",
-          "start": 258,
-          "end": 274,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 258,
-            "end": 264,
-            "name": "assert"
+            "end": 264
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 265,
-            "end": 274,
-            "name": "sameValue"
+            "end": 274
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 258,
+          "end": 274
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 275,
-            "end": 289,
             "callee": {
               "type": "MemberExpression",
-              "start": 275,
-              "end": 285,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 275,
-                "end": 279,
-                "name": "Math"
+                "end": 279
               },
               "property": {
                 "type": "Identifier",
+                "name": "acosh",
                 "start": 280,
-                "end": 285,
-                "name": "acosh"
+                "end": 285
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 275,
+              "end": 285
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 286,
-                "end": 288,
                 "operator": "+",
                 "argument": {
                   "type": "Literal",
-                  "start": 287,
-                  "end": 288,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 287,
+                  "end": 288
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 286,
+                "end": 288
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 275,
+            "end": 289
           },
           {
             "type": "Literal",
-            "start": 291,
-            "end": 292,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 291,
+            "end": 292
           },
           {
             "type": "Literal",
-            "start": 294,
-            "end": 330,
             "value": "Math.acosh should produce 0 for +1",
-            "raw": "\"Math.acosh should produce 0 for +1\""
+            "raw": "\"Math.acosh should produce 0 for +1\"",
+            "start": 294,
+            "end": 330
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 258,
+        "end": 331
+      },
+      "start": 258,
+      "end": 332
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 333
 }

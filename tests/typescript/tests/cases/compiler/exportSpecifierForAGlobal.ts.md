@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 20,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 19,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 14,
-        "end": 15,
         "decorators": [],
         "name": "X",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 14,
+        "end": 15
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,76 +21,74 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 16,
-        "end": 19,
-        "body": []
+        "end": 19
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 19
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 20
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 64,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 11,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 8,
-          "end": 9,
           "local": {
             "type": "Identifier",
-            "start": 8,
-            "end": 9,
             "decorators": [],
             "name": "X",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 9
           },
           "exported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 9,
             "decorators": [],
             "name": "X",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 9
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 8,
+          "end": 9
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 11
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 12,
-      "end": 63,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 19,
-        "end": 63,
         "id": {
           "type": "Identifier",
-          "start": 28,
-          "end": 29,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 28,
+          "end": 29
         },
         "generator": false,
         "async": false,
@@ -104,78 +98,84 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 32,
-          "end": 63,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 38,
-              "end": 47,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 42,
-                  "end": 46,
                   "id": {
                     "type": "Identifier",
-                    "start": 42,
-                    "end": 46,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 43,
-                      "end": 46,
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 45,
-                        "end": 46,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 45,
-                          "end": 46,
                           "decorators": [],
                           "name": "X",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 45,
+                          "end": 46
                         },
-                        "typeArguments": null
-                      }
-                    }
+                        "typeArguments": null,
+                        "start": 45,
+                        "end": 46
+                      },
+                      "start": 43,
+                      "end": 46
+                    },
+                    "start": 42,
+                    "end": 46
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 42,
+                  "end": 46
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 38,
+              "end": 47
             },
             {
               "type": "ReturnStatement",
-              "start": 52,
-              "end": 61,
               "argument": {
                 "type": "Identifier",
-                "start": 59,
-                "end": 60,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 59,
+                "end": 60
+              },
+              "start": 52,
+              "end": 61
             }
-          ]
+          ],
+          "start": 32,
+          "end": 63
         },
-        "expression": false
+        "expression": false,
+        "start": 19,
+        "end": 63
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 12,
+      "end": 63
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 64
 }
 ```

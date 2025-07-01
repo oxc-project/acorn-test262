@@ -2,83 +2,83 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 46,
-  "end": 79,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 46,
-      "end": 52,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 50,
-          "end": 51,
           "id": {
             "type": "Identifier",
-            "start": 50,
-            "end": 51,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 51
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 50,
+          "end": 51
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 46,
+      "end": 52
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 53,
-      "end": 65,
       "id": {
         "type": "Identifier",
-        "start": 60,
-        "end": 61,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 60,
+        "end": 61
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 62,
-        "end": 65,
-        "body": []
+        "end": 65
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 53,
+      "end": 65
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 66,
-      "end": 79,
       "id": {
         "type": "Identifier",
-        "start": 73,
-        "end": 74,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 73,
+        "end": 74
       },
       "moduleReference": {
         "type": "Identifier",
-        "start": 77,
-        "end": 78,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 77,
+        "end": 78
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 66,
+      "end": 79
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 46,
+  "end": 79
 }
 ```

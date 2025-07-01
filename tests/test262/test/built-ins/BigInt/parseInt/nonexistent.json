@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 265,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 221,
-      "end": 264,
       "expression": {
         "type": "CallExpression",
-        "start": 221,
-        "end": 263,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 221,
-          "end": 227,
-          "name": "assert"
+          "end": 227
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 228,
-            "end": 262,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 229,
-              "end": 262,
               "callee": {
                 "type": "MemberExpression",
-                "start": 229,
-                "end": 250,
                 "object": {
                   "type": "Identifier",
+                  "name": "BigInt",
                   "start": 229,
-                  "end": 235,
-                  "name": "BigInt"
+                  "end": 235
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasOwnProperty",
                   "start": 236,
-                  "end": 250,
-                  "name": "hasOwnProperty"
+                  "end": 250
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 229,
+                "end": 250
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 251,
-                  "end": 261,
                   "value": "parseInt",
-                  "raw": "\"parseInt\""
+                  "raw": "\"parseInt\"",
+                  "start": 251,
+                  "end": 261
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 229,
+              "end": 262
             },
-            "prefix": true
+            "prefix": true,
+            "start": 228,
+            "end": 262
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 221,
+        "end": 263
+      },
+      "start": 221,
+      "end": 264
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 265
 }

@@ -2,381 +2,381 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 167,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 21,
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 9
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "A",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 9
+          },
+          "importKind": "value",
           "start": 8,
-          "end": 9,
-          "imported": {
-            "type": "Identifier",
-            "start": 8,
-            "end": 9,
-            "decorators": [],
-            "name": "A",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "local": {
-            "type": "Identifier",
-            "start": 8,
-            "end": 9,
-            "decorators": [],
-            "name": "A",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "importKind": "value"
+          "end": 9
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "f1",
+        "raw": "\"f1\"",
         "start": 16,
-        "end": 20,
-        "value": "f1",
-        "raw": "\"f1\""
+        "end": 20
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 21
     },
     {
       "type": "ImportDeclaration",
-      "start": 22,
-      "end": 43,
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "B",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 30,
+            "end": 31
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "B",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 30,
+            "end": 31
+          },
+          "importKind": "value",
           "start": 30,
-          "end": 31,
-          "imported": {
-            "type": "Identifier",
-            "start": 30,
-            "end": 31,
-            "decorators": [],
-            "name": "B",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "local": {
-            "type": "Identifier",
-            "start": 30,
-            "end": 31,
-            "decorators": [],
-            "name": "B",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "importKind": "value"
+          "end": 31
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "f2",
+        "raw": "\"f2\"",
         "start": 38,
-        "end": 42,
-        "value": "f2",
-        "raw": "\"f2\""
+        "end": 42
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 22,
+      "end": 43
     },
     {
       "type": "ImportDeclaration",
-      "start": 44,
-      "end": 65,
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "C",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 52,
+            "end": 53
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "C",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 52,
+            "end": 53
+          },
+          "importKind": "value",
           "start": 52,
-          "end": 53,
-          "imported": {
-            "type": "Identifier",
-            "start": 52,
-            "end": 53,
-            "decorators": [],
-            "name": "C",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "local": {
-            "type": "Identifier",
-            "start": 52,
-            "end": 53,
-            "decorators": [],
-            "name": "C",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "importKind": "value"
+          "end": 53
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 60,
-        "end": 64,
         "value": "f3",
-        "raw": "\"f3\""
+        "raw": "\"f3\"",
+        "start": 60,
+        "end": 64
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 44,
+      "end": 65
     },
     {
       "type": "ImportDeclaration",
-      "start": 66,
-      "end": 87,
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "D",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 74,
+            "end": 75
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "D",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 74,
+            "end": 75
+          },
+          "importKind": "value",
           "start": 74,
-          "end": 75,
-          "imported": {
-            "type": "Identifier",
-            "start": 74,
-            "end": 75,
-            "decorators": [],
-            "name": "D",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "local": {
-            "type": "Identifier",
-            "start": 74,
-            "end": 75,
-            "decorators": [],
-            "name": "D",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "importKind": "value"
+          "end": 75
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "f2",
+        "raw": "'f2'",
         "start": 82,
-        "end": 86,
-        "value": "f2",
-        "raw": "'f2'"
+        "end": 86
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 66,
+      "end": 87
     },
     {
       "type": "ImportDeclaration",
-      "start": 88,
-      "end": 109,
       "specifiers": [
         {
           "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "E",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 96,
+            "end": 97
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "E",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 96,
+            "end": 97
+          },
+          "importKind": "value",
           "start": 96,
-          "end": 97,
-          "imported": {
-            "type": "Identifier",
-            "start": 96,
-            "end": 97,
-            "decorators": [],
-            "name": "E",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "local": {
-            "type": "Identifier",
-            "start": 96,
-            "end": 97,
-            "decorators": [],
-            "name": "E",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "importKind": "value"
+          "end": 97
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 104,
-        "end": 108,
         "value": "f2",
-        "raw": "\"f2\""
+        "raw": "\"f2\"",
+        "start": 104,
+        "end": 108
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 88,
+      "end": 109
     },
     {
       "type": "ImportDeclaration",
-      "start": 110,
-      "end": 131,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 118,
-          "end": 119,
           "imported": {
             "type": "Identifier",
-            "start": 118,
-            "end": 119,
             "decorators": [],
             "name": "F",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 118,
+            "end": 119
           },
           "local": {
             "type": "Identifier",
-            "start": 118,
-            "end": 119,
             "decorators": [],
             "name": "F",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 118,
+            "end": 119
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 118,
+          "end": 119
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 126,
-        "end": 130,
         "value": "f1",
-        "raw": "'f1'"
+        "raw": "'f1'",
+        "start": 126,
+        "end": 130
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 110,
+      "end": 131
     },
     {
       "type": "ExpressionStatement",
-      "start": 133,
-      "end": 167,
       "expression": {
         "type": "CallExpression",
-        "start": 133,
-        "end": 167,
         "callee": {
           "type": "MemberExpression",
-          "start": 133,
-          "end": 144,
           "object": {
             "type": "Identifier",
-            "start": 133,
-            "end": 140,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 133,
+            "end": 140
           },
           "property": {
             "type": "Identifier",
-            "start": 141,
-            "end": 144,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 141,
+            "end": 144
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 133,
+          "end": 144
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 145,
-            "end": 166,
             "left": {
               "type": "BinaryExpression",
-              "start": 145,
-              "end": 162,
               "left": {
                 "type": "BinaryExpression",
-                "start": 145,
-                "end": 158,
                 "left": {
                   "type": "BinaryExpression",
-                  "start": 145,
-                  "end": 154,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 145,
-                    "end": 150,
                     "left": {
                       "type": "Identifier",
-                      "start": 145,
-                      "end": 146,
                       "decorators": [],
                       "name": "A",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 145,
+                      "end": 146
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
-                      "start": 149,
-                      "end": 150,
                       "decorators": [],
                       "name": "B",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 149,
+                      "end": 150
+                    },
+                    "start": 145,
+                    "end": 150
                   },
                   "operator": "+",
                   "right": {
                     "type": "Identifier",
-                    "start": 153,
-                    "end": 154,
                     "decorators": [],
                     "name": "C",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "start": 153,
+                    "end": 154
+                  },
+                  "start": 145,
+                  "end": 154
                 },
                 "operator": "+",
                 "right": {
                   "type": "Identifier",
-                  "start": 157,
-                  "end": 158,
                   "decorators": [],
                   "name": "D",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 157,
+                  "end": 158
+                },
+                "start": 145,
+                "end": 158
               },
               "operator": "+",
               "right": {
                 "type": "Identifier",
-                "start": 161,
-                "end": 162,
                 "decorators": [],
                 "name": "E",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 161,
+                "end": 162
+              },
+              "start": 145,
+              "end": 162
             },
             "operator": "+",
             "right": {
               "type": "Identifier",
-              "start": 165,
-              "end": 166,
               "decorators": [],
               "name": "F",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 165,
+              "end": 166
+            },
+            "start": 145,
+            "end": 166
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 133,
+        "end": 167
       },
-      "directive": null
+      "directive": null,
+      "start": 133,
+      "end": 167
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 167
 }
 ```

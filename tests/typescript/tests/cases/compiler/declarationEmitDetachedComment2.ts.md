@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 61,
-  "end": 78,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 61,
-      "end": 77,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 67,
-        "end": 72,
         "decorators": [],
         "name": "Hello",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 67,
+        "end": 72
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,38 +21,38 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 73,
-        "end": 77,
-        "body": []
+        "end": 77
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 61,
+      "end": 77
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 61,
+  "end": 78
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 61,
-  "end": 75,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 61,
-      "end": 74,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 67,
-        "end": 69,
         "decorators": [],
         "name": "Hi",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 67,
+        "end": 69
       },
       "typeParameters": null,
       "superClass": null,
@@ -64,38 +60,38 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 70,
-        "end": 74,
-        "body": []
+        "end": 74
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 61,
+      "end": 74
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 61,
+  "end": 75
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 69,
-  "end": 84,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 69,
-      "end": 84,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 75,
-        "end": 79,
         "decorators": [],
         "name": "Hola",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 75,
+        "end": 79
       },
       "typeParameters": null,
       "superClass": null,
@@ -103,15 +99,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 80,
-        "end": 84,
-        "body": []
+        "end": 84
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 69,
+      "end": 84
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 69,
+  "end": 84
 }
 ```

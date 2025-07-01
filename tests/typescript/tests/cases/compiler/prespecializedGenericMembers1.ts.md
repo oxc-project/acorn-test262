@@ -2,125 +2,113 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 297,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 32,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 32,
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 23,
           "decorators": [],
           "name": "IKitty",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 23
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 24,
-          "end": 32,
-          "body": []
+          "end": 32
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 32
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 32
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 34,
-      "end": 109,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 41,
-        "end": 109,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 47,
-          "end": 50,
           "decorators": [],
           "name": "Cat",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 47,
+          "end": 50
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
-          "start": 50,
-          "end": 74,
           "params": [
             {
               "type": "TSTypeParameter",
-              "start": 51,
-              "end": 73,
               "name": {
                 "type": "Identifier",
-                "start": 51,
-                "end": 58,
                 "decorators": [],
                 "name": "CatType",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 51,
+                "end": 58
               },
               "constraint": {
                 "type": "TSTypeReference",
-                "start": 67,
-                "end": 73,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 67,
-                  "end": 73,
                   "decorators": [],
                   "name": "IKitty",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 67,
+                  "end": 73
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 67,
+                "end": 73
               },
               "default": null,
               "in": false,
               "out": false,
-              "const": false
+              "const": false,
+              "start": 51,
+              "end": 73
             }
-          ]
+          ],
+          "start": 50,
+          "end": 74
         },
         "superClass": null,
         "superTypeArguments": null,
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 75,
-          "end": 109,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 81,
-              "end": 107,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 81,
-                "end": 92,
                 "decorators": [],
                 "name": "constructor",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 81,
+                "end": 92
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 92,
-                "end": 107,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -130,46 +118,52 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 95,
-                  "end": 107,
-                  "body": []
+                  "end": 107
                 },
-                "expression": false
+                "expression": false,
+                "start": 92,
+                "end": 107
               },
               "kind": "constructor",
               "computed": false,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 81,
+              "end": 107
             }
-          ]
+          ],
+          "start": 75,
+          "end": 109
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 41,
+        "end": 109
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 34,
+      "end": 109
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 111,
-      "end": 198,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 118,
-        "end": 198,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 124,
-          "end": 130,
           "decorators": [],
           "name": "CatBag",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 124,
+          "end": 130
         },
         "typeParameters": null,
         "superClass": null,
@@ -177,27 +171,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 131,
-          "end": 198,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 137,
-              "end": 196,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 137,
-                "end": 148,
                 "decorators": [],
                 "name": "constructor",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 137,
+                "end": 148
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 148,
-                "end": 196,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -206,283 +194,295 @@ __ESTREE_TEST__:PASS:
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 149,
-                    "end": 178,
                     "decorators": [],
                     "name": "cats",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 153,
-                      "end": 178,
                       "typeAnnotation": {
                         "type": "TSTypeLiteral",
-                        "start": 155,
-                        "end": 178,
                         "members": [
                           {
                             "type": "TSPropertySignature",
-                            "start": 157,
-                            "end": 176,
                             "computed": false,
                             "optional": false,
                             "readonly": false,
                             "key": {
                               "type": "Identifier",
-                              "start": 157,
-                              "end": 162,
                               "decorators": [],
                               "name": "barry",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 157,
+                              "end": 162
                             },
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
-                              "start": 162,
-                              "end": 175,
                               "typeAnnotation": {
                                 "type": "TSTypeReference",
-                                "start": 164,
-                                "end": 175,
                                 "typeName": {
                                   "type": "Identifier",
-                                  "start": 164,
-                                  "end": 167,
                                   "decorators": [],
                                   "name": "Cat",
                                   "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "start": 164,
+                                  "end": 167
                                 },
                                 "typeArguments": {
                                   "type": "TSTypeParameterInstantiation",
-                                  "start": 167,
-                                  "end": 175,
                                   "params": [
                                     {
                                       "type": "TSTypeReference",
-                                      "start": 168,
-                                      "end": 174,
                                       "typeName": {
                                         "type": "Identifier",
-                                        "start": 168,
-                                        "end": 174,
                                         "decorators": [],
                                         "name": "IKitty",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 168,
+                                        "end": 174
                                       },
-                                      "typeArguments": null
+                                      "typeArguments": null,
+                                      "start": 168,
+                                      "end": 174
                                     }
-                                  ]
-                                }
-                              }
+                                  ],
+                                  "start": 167,
+                                  "end": 175
+                                },
+                                "start": 164,
+                                "end": 175
+                              },
+                              "start": 162,
+                              "end": 175
                             },
                             "accessibility": null,
-                            "static": false
+                            "static": false,
+                            "start": 157,
+                            "end": 176
                           }
-                        ]
-                      }
-                    }
+                        ],
+                        "start": 155,
+                        "end": 178
+                      },
+                      "start": 153,
+                      "end": 178
+                    },
+                    "start": 149,
+                    "end": 178
                   }
                 ],
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 180,
-                  "end": 196,
-                  "body": []
+                  "end": 196
                 },
-                "expression": false
+                "expression": false,
+                "start": 148,
+                "end": 196
               },
               "kind": "constructor",
               "computed": false,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 137,
+              "end": 196
             }
-          ]
+          ],
+          "start": 131,
+          "end": 198
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 118,
+        "end": 198
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 111,
+      "end": 198
     },
     {
       "type": "VariableDeclaration",
-      "start": 199,
-      "end": 227,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 203,
-          "end": 226,
           "id": {
             "type": "Identifier",
-            "start": 203,
-            "end": 206,
             "decorators": [],
             "name": "cat",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 203,
+            "end": 206
           },
           "init": {
             "type": "NewExpression",
-            "start": 209,
-            "end": 226,
             "callee": {
               "type": "Identifier",
-              "start": 213,
-              "end": 216,
               "decorators": [],
               "name": "Cat",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 213,
+              "end": 216
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 216,
-              "end": 224,
               "params": [
                 {
                   "type": "TSTypeReference",
-                  "start": 217,
-                  "end": 223,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 217,
-                    "end": 223,
                     "decorators": [],
                     "name": "IKitty",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 217,
+                    "end": 223
                   },
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "start": 217,
+                  "end": 223
                 }
-              ]
+              ],
+              "start": 216,
+              "end": 224
             },
-            "arguments": []
+            "arguments": [],
+            "start": 209,
+            "end": 226
           },
-          "definite": false
+          "definite": false,
+          "start": 203,
+          "end": 226
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 199,
+      "end": 227
     },
     {
       "type": "VariableDeclaration",
-      "start": 228,
-      "end": 262,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 232,
-          "end": 261,
           "id": {
             "type": "Identifier",
-            "start": 232,
-            "end": 240,
             "decorators": [],
             "name": "catThing",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 232,
+            "end": 240
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 243,
-            "end": 261,
             "properties": [
               {
                 "type": "Property",
-                "start": 249,
-                "end": 259,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 249,
-                  "end": 254,
                   "decorators": [],
                   "name": "barry",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 249,
+                  "end": 254
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 256,
-                  "end": 259,
                   "decorators": [],
                   "name": "cat",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 256,
+                  "end": 259
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 249,
+                "end": 259
               }
-            ]
+            ],
+            "start": 243,
+            "end": 261
           },
-          "definite": false
+          "definite": false,
+          "start": 232,
+          "end": 261
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 228,
+      "end": 262
     },
     {
       "type": "VariableDeclaration",
-      "start": 263,
-      "end": 297,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 267,
-          "end": 296,
           "id": {
             "type": "Identifier",
-            "start": 267,
-            "end": 273,
             "decorators": [],
             "name": "catBag",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 267,
+            "end": 273
           },
           "init": {
             "type": "NewExpression",
-            "start": 276,
-            "end": 296,
             "callee": {
               "type": "Identifier",
-              "start": 280,
-              "end": 286,
               "decorators": [],
               "name": "CatBag",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 280,
+              "end": 286
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Identifier",
-                "start": 287,
-                "end": 295,
                 "decorators": [],
                 "name": "catThing",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 287,
+                "end": 295
               }
-            ]
+            ],
+            "start": 276,
+            "end": 296
           },
-          "definite": false
+          "definite": false,
+          "start": 267,
+          "end": 296
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 263,
+      "end": 297
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 297
 }
 ```

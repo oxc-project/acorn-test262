@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 80,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 80,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 80,
         "id": {
           "type": "Identifier",
-          "start": 22,
-          "end": 25,
           "decorators": [],
           "name": "get",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 22,
+          "end": 25
         },
         "generator": false,
         "async": true,
@@ -29,96 +23,102 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 27,
-          "end": 40,
           "typeAnnotation": {
             "type": "TSTypeReference",
-            "start": 29,
-            "end": 40,
             "typeName": {
               "type": "Identifier",
-              "start": 29,
-              "end": 36,
               "decorators": [],
               "name": "Promise",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 29,
+              "end": 36
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 36,
-              "end": 40,
               "params": [
                 {
                   "type": "TSTupleType",
+                  "elementTypes": [],
                   "start": 37,
-                  "end": 39,
-                  "elementTypes": []
+                  "end": 39
                 }
-              ]
-            }
-          }
+              ],
+              "start": 36,
+              "end": 40
+            },
+            "start": 29,
+            "end": 40
+          },
+          "start": 27,
+          "end": 40
         },
         "body": {
           "type": "BlockStatement",
-          "start": 41,
-          "end": 80,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 45,
-              "end": 61,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 49,
-                  "end": 60,
                   "id": {
                     "type": "Identifier",
-                    "start": 49,
-                    "end": 55,
                     "decorators": [],
                     "name": "emails",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 49,
+                    "end": 55
                   },
                   "init": {
                     "type": "ArrayExpression",
+                    "elements": [],
                     "start": 58,
-                    "end": 60,
-                    "elements": []
+                    "end": 60
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 49,
+                  "end": 60
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 45,
+              "end": 61
             },
             {
               "type": "ReturnStatement",
-              "start": 64,
-              "end": 78,
               "argument": {
                 "type": "Identifier",
-                "start": 71,
-                "end": 77,
                 "decorators": [],
                 "name": "emails",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 71,
+                "end": 77
+              },
+              "start": 64,
+              "end": 78
             }
-          ]
+          ],
+          "start": 41,
+          "end": 80
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 80
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 80
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 80
 }
 ```

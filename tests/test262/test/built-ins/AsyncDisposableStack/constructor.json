@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 517,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 409,
-      "end": 516,
       "expression": {
         "type": "CallExpression",
-        "start": 409,
-        "end": 515,
         "callee": {
           "type": "MemberExpression",
-          "start": 409,
-          "end": 425,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 409,
-            "end": 415,
-            "name": "assert"
+            "end": 415
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 416,
-            "end": 425,
-            "name": "sameValue"
+            "end": 425
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 409,
+          "end": 425
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 429,
-            "end": 456,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "AsyncDisposableStack",
               "start": 436,
-              "end": 456,
-              "name": "AsyncDisposableStack"
+              "end": 456
             },
-            "prefix": true
+            "prefix": true,
+            "start": 429,
+            "end": 456
           },
           {
             "type": "Literal",
-            "start": 458,
-            "end": 468,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 458,
+            "end": 468
           },
           {
             "type": "Literal",
-            "start": 472,
-            "end": 513,
             "value": "typeof AsyncDisposableStack is function",
-            "raw": "'typeof AsyncDisposableStack is function'"
+            "raw": "'typeof AsyncDisposableStack is function'",
+            "start": 472,
+            "end": 513
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 409,
+        "end": 515
+      },
+      "start": 409,
+      "end": 516
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 517
 }

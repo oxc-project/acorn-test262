@@ -1,776 +1,776 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1054,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 335,
-      "end": 357,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 339,
-          "end": 356,
           "id": {
             "type": "Identifier",
+            "name": "s1",
             "start": 339,
-            "end": 341,
-            "name": "s1"
+            "end": 341
           },
           "init": {
             "type": "NewExpression",
-            "start": 344,
-            "end": 356,
             "callee": {
               "type": "Identifier",
+              "name": "Set",
               "start": 348,
-              "end": 351,
-              "name": "Set"
+              "end": 351
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 352,
-                "end": 355,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 353,
-                    "end": 354,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 353,
+                    "end": 354
                   }
-                ]
+                ],
+                "start": 352,
+                "end": 355
               }
-            ]
-          }
+            ],
+            "start": 344,
+            "end": 356
+          },
+          "start": 339,
+          "end": 356
         }
-      ]
+      ],
+      "start": 335,
+      "end": 357
     },
     {
       "type": "ExpressionStatement",
-      "start": 358,
-      "end": 451,
       "expression": {
         "type": "CallExpression",
-        "start": 358,
-        "end": 450,
         "callee": {
           "type": "MemberExpression",
-          "start": 358,
-          "end": 371,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 358,
-            "end": 364,
-            "name": "assert"
+            "end": 364
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 365,
-            "end": 371,
-            "name": "throws"
+            "end": 371
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 358,
+          "end": 371
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 375,
-            "end": 384,
-            "name": "TypeError"
+            "end": 384
           },
           {
             "type": "FunctionExpression",
-            "start": 388,
-            "end": 436,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 400,
-              "end": 436,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 406,
-                  "end": 432,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 406,
-                    "end": 431,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 406,
-                      "end": 428,
                       "object": {
                         "type": "Identifier",
+                        "name": "s1",
                         "start": 406,
-                        "end": 408,
-                        "name": "s1"
+                        "end": 408
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "symmetricDifference",
                         "start": 409,
-                        "end": 428,
-                        "name": "symmetricDifference"
+                        "end": 428
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 406,
+                      "end": 428
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 429,
-                        "end": 430,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 429,
+                        "end": 430
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 406,
+                    "end": 431
+                  },
+                  "start": 406,
+                  "end": 432
                 }
-              ]
+              ],
+              "start": 400,
+              "end": 436
             },
-            "expression": false
+            "expression": false,
+            "start": 388,
+            "end": 436
           },
           {
             "type": "Literal",
-            "start": 440,
-            "end": 448,
             "value": "number",
-            "raw": "\"number\""
+            "raw": "\"number\"",
+            "start": 440,
+            "end": 448
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 358,
+        "end": 450
+      },
+      "start": 358,
+      "end": 451
     },
     {
       "type": "ExpressionStatement",
-      "start": 453,
-      "end": 547,
       "expression": {
         "type": "CallExpression",
-        "start": 453,
-        "end": 546,
         "callee": {
           "type": "MemberExpression",
-          "start": 453,
-          "end": 466,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 453,
-            "end": 459,
-            "name": "assert"
+            "end": 459
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 460,
-            "end": 466,
-            "name": "throws"
+            "end": 466
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 453,
+          "end": 466
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 470,
-            "end": 479,
-            "name": "TypeError"
+            "end": 479
           },
           {
             "type": "FunctionExpression",
-            "start": 483,
-            "end": 532,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 495,
-              "end": 532,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 501,
-                  "end": 528,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 501,
-                    "end": 527,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 501,
-                      "end": 523,
                       "object": {
                         "type": "Identifier",
+                        "name": "s1",
                         "start": 501,
-                        "end": 503,
-                        "name": "s1"
+                        "end": 503
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "symmetricDifference",
                         "start": 504,
-                        "end": 523,
-                        "name": "symmetricDifference"
+                        "end": 523
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 501,
+                      "end": 523
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 524,
-                        "end": 526,
                         "value": "",
-                        "raw": "\"\""
+                        "raw": "\"\"",
+                        "start": 524,
+                        "end": 526
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 501,
+                    "end": 527
+                  },
+                  "start": 501,
+                  "end": 528
                 }
-              ]
+              ],
+              "start": 495,
+              "end": 532
             },
-            "expression": false
+            "expression": false,
+            "start": 483,
+            "end": 532
           },
           {
             "type": "Literal",
-            "start": 536,
-            "end": 544,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "start": 536,
+            "end": 544
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 453,
+        "end": 546
+      },
+      "start": 453,
+      "end": 547
     },
     {
       "type": "ExpressionStatement",
-      "start": 549,
-      "end": 643,
       "expression": {
         "type": "CallExpression",
-        "start": 549,
-        "end": 642,
         "callee": {
           "type": "MemberExpression",
-          "start": 549,
-          "end": 562,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 549,
-            "end": 555,
-            "name": "assert"
+            "end": 555
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 556,
-            "end": 562,
-            "name": "throws"
+            "end": 562
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 549,
+          "end": 562
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 566,
-            "end": 575,
-            "name": "TypeError"
+            "end": 575
           },
           {
             "type": "FunctionExpression",
-            "start": 579,
-            "end": 628,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 591,
-              "end": 628,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 597,
-                  "end": 624,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 597,
-                    "end": 623,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 597,
-                      "end": 619,
                       "object": {
                         "type": "Identifier",
+                        "name": "s1",
                         "start": 597,
-                        "end": 599,
-                        "name": "s1"
+                        "end": 599
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "symmetricDifference",
                         "start": 600,
-                        "end": 619,
-                        "name": "symmetricDifference"
+                        "end": 619
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 597,
+                      "end": 619
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 620,
-                        "end": 622,
                         "value": null,
                         "raw": "1n",
-                        "bigint": "1"
+                        "bigint": "1",
+                        "start": 620,
+                        "end": 622
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 597,
+                    "end": 623
+                  },
+                  "start": 597,
+                  "end": 624
                 }
-              ]
+              ],
+              "start": 591,
+              "end": 628
             },
-            "expression": false
+            "expression": false,
+            "start": 579,
+            "end": 628
           },
           {
             "type": "Literal",
-            "start": 632,
-            "end": 640,
             "value": "bigint",
-            "raw": "\"bigint\""
+            "raw": "\"bigint\"",
+            "start": 632,
+            "end": 640
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 549,
+        "end": 642
+      },
+      "start": 549,
+      "end": 643
     },
     {
       "type": "ExpressionStatement",
-      "start": 645,
-      "end": 743,
       "expression": {
         "type": "CallExpression",
-        "start": 645,
-        "end": 742,
         "callee": {
           "type": "MemberExpression",
-          "start": 645,
-          "end": 658,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 645,
-            "end": 651,
-            "name": "assert"
+            "end": 651
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 652,
-            "end": 658,
-            "name": "throws"
+            "end": 658
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 645,
+          "end": 658
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 662,
-            "end": 671,
-            "name": "TypeError"
+            "end": 671
           },
           {
             "type": "FunctionExpression",
-            "start": 675,
-            "end": 727,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 687,
-              "end": 727,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 693,
-                  "end": 723,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 693,
-                    "end": 722,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 693,
-                      "end": 715,
                       "object": {
                         "type": "Identifier",
+                        "name": "s1",
                         "start": 693,
-                        "end": 695,
-                        "name": "s1"
+                        "end": 695
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "symmetricDifference",
                         "start": 696,
-                        "end": 715,
-                        "name": "symmetricDifference"
+                        "end": 715
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 693,
+                      "end": 715
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 716,
-                        "end": 721,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "start": 716,
+                        "end": 721
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 693,
+                    "end": 722
+                  },
+                  "start": 693,
+                  "end": 723
                 }
-              ]
+              ],
+              "start": 687,
+              "end": 727
             },
-            "expression": false
+            "expression": false,
+            "start": 675,
+            "end": 727
           },
           {
             "type": "Literal",
-            "start": 731,
-            "end": 740,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "start": 731,
+            "end": 740
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 645,
+        "end": 742
+      },
+      "start": 645,
+      "end": 743
     },
     {
       "type": "ExpressionStatement",
-      "start": 745,
-      "end": 849,
       "expression": {
         "type": "CallExpression",
-        "start": 745,
-        "end": 848,
         "callee": {
           "type": "MemberExpression",
-          "start": 745,
-          "end": 758,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 745,
-            "end": 751,
-            "name": "assert"
+            "end": 751
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 752,
-            "end": 758,
-            "name": "throws"
+            "end": 758
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 745,
+          "end": 758
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 762,
-            "end": 771,
-            "name": "TypeError"
+            "end": 771
           },
           {
             "type": "FunctionExpression",
-            "start": 775,
-            "end": 831,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 787,
-              "end": 831,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 793,
-                  "end": 827,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 793,
-                    "end": 826,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 793,
-                      "end": 815,
                       "object": {
                         "type": "Identifier",
+                        "name": "s1",
                         "start": 793,
-                        "end": 795,
-                        "name": "s1"
+                        "end": 795
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "symmetricDifference",
                         "start": 796,
-                        "end": 815,
-                        "name": "symmetricDifference"
+                        "end": 815
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 793,
+                      "end": 815
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 816,
-                        "end": 825,
-                        "name": "undefined"
+                        "end": 825
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 793,
+                    "end": 826
+                  },
+                  "start": 793,
+                  "end": 827
                 }
-              ]
+              ],
+              "start": 787,
+              "end": 831
             },
-            "expression": false
+            "expression": false,
+            "start": 775,
+            "end": 831
           },
           {
             "type": "Literal",
-            "start": 835,
-            "end": 846,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 835,
+            "end": 846
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 745,
+        "end": 848
+      },
+      "start": 745,
+      "end": 849
     },
     {
       "type": "ExpressionStatement",
-      "start": 851,
-      "end": 945,
       "expression": {
         "type": "CallExpression",
-        "start": 851,
-        "end": 944,
         "callee": {
           "type": "MemberExpression",
-          "start": 851,
-          "end": 864,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 851,
-            "end": 857,
-            "name": "assert"
+            "end": 857
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 858,
-            "end": 864,
-            "name": "throws"
+            "end": 864
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 851,
+          "end": 864
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 868,
-            "end": 877,
-            "name": "TypeError"
+            "end": 877
           },
           {
             "type": "FunctionExpression",
-            "start": 881,
-            "end": 932,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 893,
-              "end": 932,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 899,
-                  "end": 928,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 899,
-                    "end": 927,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 899,
-                      "end": 921,
                       "object": {
                         "type": "Identifier",
+                        "name": "s1",
                         "start": 899,
-                        "end": 901,
-                        "name": "s1"
+                        "end": 901
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "symmetricDifference",
                         "start": 902,
-                        "end": 921,
-                        "name": "symmetricDifference"
+                        "end": 921
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 899,
+                      "end": 921
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 922,
-                        "end": 926,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 922,
+                        "end": 926
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 899,
+                    "end": 927
+                  },
+                  "start": 899,
+                  "end": 928
                 }
-              ]
+              ],
+              "start": 893,
+              "end": 932
             },
-            "expression": false
+            "expression": false,
+            "start": 881,
+            "end": 932
           },
           {
             "type": "Literal",
-            "start": 936,
-            "end": 942,
             "value": "null",
-            "raw": "\"null\""
+            "raw": "\"null\"",
+            "start": 936,
+            "end": 942
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 851,
+        "end": 944
+      },
+      "start": 851,
+      "end": 945
     },
     {
       "type": "ExpressionStatement",
-      "start": 947,
-      "end": 1053,
       "expression": {
         "type": "CallExpression",
-        "start": 947,
-        "end": 1052,
         "callee": {
           "type": "MemberExpression",
-          "start": 947,
-          "end": 960,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 947,
-            "end": 953,
-            "name": "assert"
+            "end": 953
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 954,
-            "end": 960,
-            "name": "throws"
+            "end": 960
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 947,
+          "end": 960
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 964,
-            "end": 973,
-            "name": "TypeError"
+            "end": 973
           },
           {
             "type": "FunctionExpression",
-            "start": 977,
-            "end": 1038,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 989,
-              "end": 1038,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 995,
-                  "end": 1034,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 995,
-                    "end": 1033,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 995,
-                      "end": 1017,
                       "object": {
                         "type": "Identifier",
+                        "name": "s1",
                         "start": 995,
-                        "end": 997,
-                        "name": "s1"
+                        "end": 997
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "symmetricDifference",
                         "start": 998,
-                        "end": 1017,
-                        "name": "symmetricDifference"
+                        "end": 1017
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 995,
+                      "end": 1017
                     },
                     "arguments": [
                       {
                         "type": "CallExpression",
-                        "start": 1018,
-                        "end": 1032,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Symbol",
                           "start": 1018,
-                          "end": 1024,
-                          "name": "Symbol"
+                          "end": 1024
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 1025,
-                            "end": 1031,
                             "value": "test",
-                            "raw": "\"test\""
+                            "raw": "\"test\"",
+                            "start": 1025,
+                            "end": 1031
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 1018,
+                        "end": 1032
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 995,
+                    "end": 1033
+                  },
+                  "start": 995,
+                  "end": 1034
                 }
-              ]
+              ],
+              "start": 989,
+              "end": 1038
             },
-            "expression": false
+            "expression": false,
+            "start": 977,
+            "end": 1038
           },
           {
             "type": "Literal",
-            "start": 1042,
-            "end": 1050,
             "value": "symbol",
-            "raw": "\"symbol\""
+            "raw": "\"symbol\"",
+            "start": 1042,
+            "end": 1050
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 947,
+        "end": 1052
+      },
+      "start": 947,
+      "end": 1053
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1054
 }

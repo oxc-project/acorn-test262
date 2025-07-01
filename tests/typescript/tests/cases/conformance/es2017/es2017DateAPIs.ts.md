@@ -2,58 +2,58 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 15,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 15,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 14,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 8,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 4,
             "decorators": [],
             "name": "Date",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 4
           },
           "property": {
             "type": "Identifier",
-            "start": 5,
-            "end": 8,
             "decorators": [],
             "name": "UTC",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 5,
+            "end": 8
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 8
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 9,
-            "end": 13,
             "value": 2017,
-            "raw": "2017"
+            "raw": "2017",
+            "start": 9,
+            "end": 13
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 14
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 15
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 15
 }
 ```

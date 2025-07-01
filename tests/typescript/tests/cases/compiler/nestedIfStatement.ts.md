@@ -2,89 +2,89 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 67,
   "body": [
     {
       "type": "IfStatement",
-      "start": 0,
-      "end": 67,
       "test": {
         "type": "Literal",
-        "start": 4,
-        "end": 5,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "start": 4,
+        "end": 5
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 7,
-        "end": 10,
-        "body": []
+        "end": 10
       },
       "alternate": {
         "type": "IfStatement",
-        "start": 16,
-        "end": 67,
         "test": {
           "type": "Literal",
-          "start": 20,
-          "end": 21,
           "value": 1,
-          "raw": "1"
+          "raw": "1",
+          "start": 20,
+          "end": 21
         },
         "consequent": {
           "type": "BlockStatement",
+          "body": [],
           "start": 23,
-          "end": 26,
-          "body": []
+          "end": 26
         },
         "alternate": {
           "type": "IfStatement",
-          "start": 32,
-          "end": 67,
           "test": {
             "type": "Literal",
-            "start": 36,
-            "end": 37,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 36,
+            "end": 37
           },
           "consequent": {
             "type": "BlockStatement",
+            "body": [],
             "start": 39,
-            "end": 42,
-            "body": []
+            "end": 42
           },
           "alternate": {
             "type": "IfStatement",
-            "start": 48,
-            "end": 67,
             "test": {
               "type": "Literal",
-              "start": 52,
-              "end": 53,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "start": 52,
+              "end": 53
             },
             "consequent": {
               "type": "BlockStatement",
+              "body": [],
               "start": 55,
-              "end": 58,
-              "body": []
+              "end": 58
             },
             "alternate": {
               "type": "BlockStatement",
+              "body": [],
               "start": 64,
-              "end": 67,
-              "body": []
-            }
-          }
-        }
-      }
+              "end": 67
+            },
+            "start": 48,
+            "end": 67
+          },
+          "start": 32,
+          "end": 67
+        },
+        "start": 16,
+        "end": 67
+      },
+      "start": 0,
+      "end": 67
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 67
 }
 ```

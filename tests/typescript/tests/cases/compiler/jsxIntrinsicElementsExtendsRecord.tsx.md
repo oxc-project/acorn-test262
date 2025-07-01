@@ -2,59 +2,47 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 94,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 86,
       "id": {
         "type": "Identifier",
-        "start": 18,
-        "end": 21,
         "decorators": [],
         "name": "JSX",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 18,
+        "end": 21
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 22,
-        "end": 86,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 26,
-            "end": 84,
             "id": {
               "type": "Identifier",
-              "start": 36,
-              "end": 53,
               "decorators": [],
               "name": "IntrinsicElements",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 53
             },
             "typeParameters": null,
             "extends": [
               {
                 "type": "TSInterfaceHeritage",
-                "start": 62,
-                "end": 81,
                 "expression": {
                   "type": "Identifier",
-                  "start": 62,
-                  "end": 68,
                   "decorators": [],
                   "name": "Record",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 62,
+                  "end": 68
                 },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
-                  "start": 68,
-                  "end": 81,
                   "params": [
                     {
                       "type": "TSStringKeyword",
@@ -66,53 +54,65 @@ __ESTREE_TEST__:PASS:
                       "start": 77,
                       "end": 80
                     }
-                  ]
-                }
+                  ],
+                  "start": 68,
+                  "end": 81
+                },
+                "start": 62,
+                "end": 81
               }
             ],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 82,
-              "end": 84,
-              "body": []
+              "end": 84
             },
-            "declare": false
+            "declare": false,
+            "start": 26,
+            "end": 84
           }
-        ]
+        ],
+        "start": 22,
+        "end": 86
       },
       "kind": "namespace",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 86
     },
     {
       "type": "ExpressionStatement",
-      "start": 88,
-      "end": 94,
       "expression": {
         "type": "JSXElement",
-        "start": 88,
-        "end": 93,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 88,
-          "end": 93,
           "name": {
             "type": "JSXIdentifier",
+            "name": "a",
             "start": 89,
-            "end": 90,
-            "name": "a"
+            "end": 90
           },
           "typeArguments": null,
           "attributes": [],
-          "selfClosing": true
+          "selfClosing": true,
+          "start": 88,
+          "end": 93
         },
         "children": [],
-        "closingElement": null
+        "closingElement": null,
+        "start": 88,
+        "end": 93
       },
-      "directive": null
+      "directive": null,
+      "start": 88,
+      "end": 94
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 94
 }
 ```

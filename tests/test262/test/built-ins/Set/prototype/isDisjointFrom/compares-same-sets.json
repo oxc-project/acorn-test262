@@ -1,187 +1,187 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 416,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 311,
-      "end": 338,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 317,
-          "end": 337,
           "id": {
             "type": "Identifier",
+            "name": "s1",
             "start": 317,
-            "end": 319,
-            "name": "s1"
+            "end": 319
           },
           "init": {
             "type": "NewExpression",
-            "start": 322,
-            "end": 337,
             "callee": {
               "type": "Identifier",
+              "name": "Set",
               "start": 326,
-              "end": 329,
-              "name": "Set"
+              "end": 329
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 330,
-                "end": 336,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 331,
-                    "end": 332,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 331,
+                    "end": 332
                   },
                   {
                     "type": "Literal",
-                    "start": 334,
-                    "end": 335,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "start": 334,
+                    "end": 335
                   }
-                ]
+                ],
+                "start": 330,
+                "end": 336
               }
-            ]
-          }
+            ],
+            "start": 322,
+            "end": 337
+          },
+          "start": 317,
+          "end": 337
         }
-      ]
+      ],
+      "start": 311,
+      "end": 338
     },
     {
       "type": "VariableDeclaration",
-      "start": 339,
-      "end": 366,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 345,
-          "end": 365,
           "id": {
             "type": "Identifier",
+            "name": "s2",
             "start": 345,
-            "end": 347,
-            "name": "s2"
+            "end": 347
           },
           "init": {
             "type": "NewExpression",
-            "start": 350,
-            "end": 365,
             "callee": {
               "type": "Identifier",
+              "name": "Set",
               "start": 354,
-              "end": 357,
-              "name": "Set"
+              "end": 357
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 358,
-                "end": 364,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 359,
-                    "end": 360,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 359,
+                    "end": 360
                   },
                   {
                     "type": "Literal",
-                    "start": 362,
-                    "end": 363,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "start": 362,
+                    "end": 363
                   }
-                ]
+                ],
+                "start": 358,
+                "end": 364
               }
-            ]
-          }
+            ],
+            "start": 350,
+            "end": 365
+          },
+          "start": 345,
+          "end": 365
         }
-      ]
+      ],
+      "start": 339,
+      "end": 366
     },
     {
       "type": "ExpressionStatement",
-      "start": 368,
-      "end": 415,
       "expression": {
         "type": "CallExpression",
-        "start": 368,
-        "end": 414,
         "callee": {
           "type": "MemberExpression",
-          "start": 368,
-          "end": 384,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 368,
-            "end": 374,
-            "name": "assert"
+            "end": 374
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 375,
-            "end": 384,
-            "name": "sameValue"
+            "end": 384
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 368,
+          "end": 384
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 385,
-            "end": 406,
             "callee": {
               "type": "MemberExpression",
-              "start": 385,
-              "end": 402,
               "object": {
                 "type": "Identifier",
+                "name": "s1",
                 "start": 385,
-                "end": 387,
-                "name": "s1"
+                "end": 387
               },
               "property": {
                 "type": "Identifier",
+                "name": "isDisjointFrom",
                 "start": 388,
-                "end": 402,
-                "name": "isDisjointFrom"
+                "end": 402
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 385,
+              "end": 402
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "s2",
                 "start": 403,
-                "end": 405,
-                "name": "s2"
+                "end": 405
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 385,
+            "end": 406
           },
           {
             "type": "Literal",
-            "start": 408,
-            "end": 413,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 408,
+            "end": 413
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 368,
+        "end": 414
+      },
+      "start": 368,
+      "end": 415
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 416
 }

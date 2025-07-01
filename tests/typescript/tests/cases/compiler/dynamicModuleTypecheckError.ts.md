@@ -2,175 +2,175 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 104,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 17,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 17,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 16,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 16,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 15,
+              "end": 16
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 16
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 17
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 17
     },
     {
       "type": "ForStatement",
-      "start": 20,
-      "end": 104,
       "init": {
         "type": "VariableDeclaration",
-        "start": 24,
-        "end": 33,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 28,
-            "end": 33,
             "id": {
               "type": "Identifier",
-              "start": 28,
-              "end": 29,
               "decorators": [],
               "name": "i",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 28,
+              "end": 29
             },
             "init": {
               "type": "Literal",
-              "start": 32,
-              "end": 33,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 32,
+              "end": 33
             },
-            "definite": false
+            "definite": false,
+            "start": 28,
+            "end": 33
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 24,
+        "end": 33
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 35,
-        "end": 41,
         "left": {
           "type": "Identifier",
-          "start": 35,
-          "end": 36,
           "decorators": [],
           "name": "i",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 35,
+          "end": 36
         },
         "operator": "<",
         "right": {
           "type": "Literal",
-          "start": 39,
-          "end": 41,
           "value": 30,
-          "raw": "30"
-        }
+          "raw": "30",
+          "start": 39,
+          "end": 41
+        },
+        "start": 35,
+        "end": 41
       },
       "update": {
         "type": "UpdateExpression",
-        "start": 43,
-        "end": 46,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "Identifier",
-          "start": 43,
-          "end": 44,
           "decorators": [],
           "name": "i",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 43,
+          "end": 44
+        },
+        "start": 43,
+        "end": 46
       },
       "body": {
         "type": "BlockStatement",
-        "start": 48,
-        "end": 104,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 56,
-            "end": 69,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 56,
-              "end": 68,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 56,
-                "end": 57,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 56,
+                "end": 57
               },
               "right": {
                 "type": "BinaryExpression",
-                "start": 60,
-                "end": 68,
                 "left": {
                   "type": "Identifier",
-                  "start": 60,
-                  "end": 61,
                   "decorators": [],
                   "name": "i",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 60,
+                  "end": 61
                 },
                 "operator": "*",
                 "right": {
                   "type": "Literal",
-                  "start": 64,
-                  "end": 68,
                   "value": 1000,
-                  "raw": "1000"
-                }
-              }
+                  "raw": "1000",
+                  "start": 64,
+                  "end": 68
+                },
+                "start": 60,
+                "end": 68
+              },
+              "start": 56,
+              "end": 68
             },
-            "directive": null
+            "directive": null,
+            "start": 56,
+            "end": 69
           }
-        ]
-      }
+        ],
+        "start": 48,
+        "end": 104
+      },
+      "start": 20,
+      "end": 104
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 104
 }
 ```

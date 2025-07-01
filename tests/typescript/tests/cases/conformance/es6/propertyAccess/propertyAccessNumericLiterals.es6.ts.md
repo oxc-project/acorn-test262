@@ -2,196 +2,196 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 99,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 22,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 21,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 19,
           "object": {
             "type": "Literal",
-            "start": 0,
-            "end": 10,
             "value": 4294967295,
-            "raw": "0xffffffff"
+            "raw": "0xffffffff",
+            "start": 0,
+            "end": 10
           },
           "property": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "toString",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 11,
-            "end": 19,
-            "decorators": [],
-            "name": "toString",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 19
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 19
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 21
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 22
     },
     {
       "type": "ExpressionStatement",
-      "start": 23,
-      "end": 42,
       "expression": {
         "type": "CallExpression",
-        "start": 23,
-        "end": 41,
         "callee": {
           "type": "MemberExpression",
-          "start": 23,
-          "end": 39,
           "object": {
             "type": "Literal",
-            "start": 23,
-            "end": 30,
             "value": 668,
-            "raw": "0o01234"
+            "raw": "0o01234",
+            "start": 23,
+            "end": 30
           },
           "property": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "toString",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 31,
-            "end": 39,
-            "decorators": [],
-            "name": "toString",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 39
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 23,
+          "end": 39
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 23,
+        "end": 41
       },
-      "directive": null
+      "directive": null,
+      "start": 23,
+      "end": 42
     },
     {
       "type": "ExpressionStatement",
-      "start": 43,
-      "end": 65,
       "expression": {
         "type": "CallExpression",
-        "start": 43,
-        "end": 64,
         "callee": {
           "type": "MemberExpression",
-          "start": 43,
-          "end": 62,
           "object": {
             "type": "Literal",
-            "start": 43,
-            "end": 53,
             "value": 109,
-            "raw": "0b01101101"
+            "raw": "0b01101101",
+            "start": 43,
+            "end": 53
           },
           "property": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "toString",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 54,
-            "end": 62,
-            "decorators": [],
-            "name": "toString",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 62
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 43,
+          "end": 62
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 43,
+        "end": 64
       },
-      "directive": null
+      "directive": null,
+      "start": 43,
+      "end": 65
     },
     {
       "type": "ExpressionStatement",
-      "start": 66,
-      "end": 83,
       "expression": {
         "type": "CallExpression",
-        "start": 66,
-        "end": 82,
         "callee": {
           "type": "MemberExpression",
-          "start": 66,
-          "end": 80,
           "object": {
             "type": "Literal",
-            "start": 66,
-            "end": 71,
             "value": 1234,
-            "raw": "1234."
+            "raw": "1234.",
+            "start": 66,
+            "end": 71
           },
           "property": {
             "type": "Identifier",
-            "start": 72,
-            "end": 80,
             "decorators": [],
             "name": "toString",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 72,
+            "end": 80
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 66,
+          "end": 80
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 66,
+        "end": 82
       },
-      "directive": null
+      "directive": null,
+      "start": 66,
+      "end": 83
     },
     {
       "type": "ExpressionStatement",
-      "start": 84,
-      "end": 99,
       "expression": {
         "type": "CallExpression",
-        "start": 84,
-        "end": 98,
         "callee": {
           "type": "MemberExpression",
-          "start": 84,
-          "end": 96,
           "object": {
             "type": "Literal",
-            "start": 84,
-            "end": 87,
             "value": 1,
-            "raw": "1e0"
+            "raw": "1e0",
+            "start": 84,
+            "end": 87
           },
           "property": {
             "type": "Identifier",
-            "start": 88,
-            "end": 96,
             "decorators": [],
             "name": "toString",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 88,
+            "end": 96
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 84,
+          "end": 96
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 84,
+        "end": 98
       },
-      "directive": null
+      "directive": null,
+      "start": 84,
+      "end": 99
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 99
 }
 ```

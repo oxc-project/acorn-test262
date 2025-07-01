@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 665,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 555,
-      "end": 664,
       "expression": {
         "type": "CallExpression",
-        "start": 555,
-        "end": 663,
         "callee": {
           "type": "MemberExpression",
-          "start": 555,
-          "end": 571,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 555,
-            "end": 561,
-            "name": "assert"
+            "end": 561
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 562,
-            "end": 571,
-            "name": "sameValue"
+            "end": 571
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 555,
+          "end": 571
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 572,
-            "end": 605,
             "callee": {
               "type": "MemberExpression",
-              "start": 572,
-              "end": 598,
               "object": {
                 "type": "Literal",
-                "start": 572,
-                "end": 580,
                 "value": "İ",
-                "raw": "\"\\u0130\""
+                "raw": "\"\\u0130\"",
+                "start": 572,
+                "end": 580
               },
               "property": {
                 "type": "Identifier",
+                "name": "toLocaleLowerCase",
                 "start": 581,
-                "end": 598,
-                "name": "toLocaleLowerCase"
+                "end": 598
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 572,
+              "end": 598
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 599,
-                "end": 604,
                 "value": "und",
-                "raw": "\"und\""
+                "raw": "\"und\"",
+                "start": 599,
+                "end": 604
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 572,
+            "end": 605
           },
           {
             "type": "Literal",
-            "start": 607,
-            "end": 621,
             "value": "i̇",
-            "raw": "\"\\u0069\\u0307\""
+            "raw": "\"\\u0069\\u0307\"",
+            "start": 607,
+            "end": 621
           },
           {
             "type": "Literal",
-            "start": 623,
-            "end": 662,
             "value": "LATIN CAPITAL LETTER I WITH DOT ABOVE",
-            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\""
+            "raw": "\"LATIN CAPITAL LETTER I WITH DOT ABOVE\"",
+            "start": 623,
+            "end": 662
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 555,
+        "end": 663
+      },
+      "start": 555,
+      "end": 664
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 665
 }

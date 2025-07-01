@@ -1,117 +1,117 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 331,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 246,
-      "end": 285,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 252,
-          "end": 284,
           "id": {
             "type": "Identifier",
+            "name": "instant",
             "start": 252,
-            "end": 259,
-            "name": "instant"
+            "end": 259
           },
           "init": {
             "type": "CallExpression",
-            "start": 262,
-            "end": 284,
             "callee": {
               "type": "MemberExpression",
-              "start": 262,
-              "end": 282,
               "object": {
                 "type": "MemberExpression",
-                "start": 262,
-                "end": 274,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 262,
-                  "end": 270,
-                  "name": "Temporal"
+                  "end": 270
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Now",
                   "start": 271,
-                  "end": 274,
-                  "name": "Now"
+                  "end": 274
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 262,
+                "end": 274
               },
               "property": {
                 "type": "Identifier",
+                "name": "instant",
                 "start": 275,
-                "end": 282,
-                "name": "instant"
+                "end": 282
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 262,
+              "end": 282
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 262,
+            "end": 284
+          },
+          "start": 252,
+          "end": 284
         }
-      ]
+      ],
+      "start": 246,
+      "end": 285
     },
     {
       "type": "ExpressionStatement",
-      "start": 286,
-      "end": 330,
       "expression": {
         "type": "CallExpression",
-        "start": 286,
-        "end": 329,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 286,
-          "end": 292,
-          "name": "assert"
+          "end": 292
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 293,
-            "end": 328,
             "left": {
               "type": "Identifier",
+              "name": "instant",
               "start": 293,
-              "end": 300,
-              "name": "instant"
+              "end": 300
             },
             "operator": "instanceof",
             "right": {
               "type": "MemberExpression",
-              "start": 312,
-              "end": 328,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 312,
-                "end": 320,
-                "name": "Temporal"
+                "end": 320
               },
               "property": {
                 "type": "Identifier",
+                "name": "Instant",
                 "start": 321,
-                "end": 328,
-                "name": "Instant"
+                "end": 328
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 312,
+              "end": 328
+            },
+            "start": 293,
+            "end": 328
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 286,
+        "end": 329
+      },
+      "start": 286,
+      "end": 330
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 331
 }

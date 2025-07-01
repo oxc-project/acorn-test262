@@ -1,118 +1,118 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 517,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 443,
-      "end": 461,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 452,
-        "end": 454,
-        "name": "fn"
+        "end": 454
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "ObjectPattern",
+          "properties": [],
           "start": 455,
-          "end": 457,
-          "properties": []
+          "end": 457
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 459,
-        "end": 461,
-        "body": []
+        "end": 461
       },
-      "expression": false
+      "expression": false,
+      "start": 443,
+      "end": 461
     },
     {
       "type": "ExpressionStatement",
-      "start": 463,
-      "end": 516,
       "expression": {
         "type": "CallExpression",
-        "start": 463,
-        "end": 515,
         "callee": {
           "type": "MemberExpression",
-          "start": 463,
-          "end": 476,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 463,
-            "end": 469,
-            "name": "assert"
+            "end": 469
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 470,
-            "end": 476,
-            "name": "throws"
+            "end": 476
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 463,
+          "end": 476
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 477,
-            "end": 486,
-            "name": "TypeError"
+            "end": 486
           },
           {
             "type": "FunctionExpression",
-            "start": 488,
-            "end": 514,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 499,
-              "end": 514,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 503,
-                  "end": 512,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 503,
-                    "end": 511,
                     "callee": {
                       "type": "Identifier",
+                      "name": "fn",
                       "start": 503,
-                      "end": 505,
-                      "name": "fn"
+                      "end": 505
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 506,
-                        "end": 510,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 506,
+                        "end": 510
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 503,
+                    "end": 511
+                  },
+                  "start": 503,
+                  "end": 512
                 }
-              ]
+              ],
+              "start": 499,
+              "end": 514
             },
-            "expression": false
+            "expression": false,
+            "start": 488,
+            "end": 514
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 463,
+        "end": 515
+      },
+      "start": 463,
+      "end": 516
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 517
 }

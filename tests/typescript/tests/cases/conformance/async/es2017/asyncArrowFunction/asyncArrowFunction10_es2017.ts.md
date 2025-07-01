@@ -2,128 +2,128 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 103,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 103,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 103,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 7
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 10,
-            "end": 103,
             "expression": false,
             "async": true,
             "typeParameters": null,
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 18,
-              "end": 33,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 20,
-                "end": 33,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 20,
-                  "end": 27,
                   "decorators": [],
                   "name": "Promise",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 20,
+                  "end": 27
                 },
                 "typeArguments": {
                   "type": "TSTypeParameterInstantiation",
-                  "start": 27,
-                  "end": 33,
                   "params": [
                     {
                       "type": "TSVoidKeyword",
                       "start": 28,
                       "end": 32
                     }
-                  ]
-                }
-              }
+                  ],
+                  "start": 27,
+                  "end": 33
+                },
+                "start": 20,
+                "end": 33
+              },
+              "start": 18,
+              "end": 33
             },
             "body": {
               "type": "BlockStatement",
-              "start": 37,
-              "end": 103,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 88,
-                  "end": 101,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 92,
-                      "end": 100,
                       "id": {
                         "type": "Identifier",
-                        "start": 92,
-                        "end": 100,
                         "decorators": [],
                         "name": "v",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 93,
-                          "end": 100,
                           "typeAnnotation": {
                             "type": "TSTypeReference",
-                            "start": 95,
-                            "end": 100,
                             "typeName": {
                               "type": "Identifier",
-                              "start": 95,
-                              "end": 100,
                               "decorators": [],
                               "name": "await",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 95,
+                              "end": 100
                             },
-                            "typeArguments": null
-                          }
-                        }
+                            "typeArguments": null,
+                            "start": 95,
+                            "end": 100
+                          },
+                          "start": 93,
+                          "end": 100
+                        },
+                        "start": 92,
+                        "end": 100
                       },
                       "init": null,
-                      "definite": false
+                      "definite": false,
+                      "start": 92,
+                      "end": 100
                     }
                   ],
-                  "declare": false
+                  "declare": false,
+                  "start": 88,
+                  "end": 101
                 }
-              ]
+              ],
+              "start": 37,
+              "end": 103
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 10,
+            "end": 103
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 103
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 103
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 103
 }
 ```

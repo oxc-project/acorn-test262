@@ -2,63 +2,63 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 8,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 7,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 7
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 8
     },
     {
       "type": "ForOfStatement",
-      "start": 9,
-      "end": 26,
       "await": false,
       "left": {
         "type": "Identifier",
-        "start": 14,
-        "end": 15,
         "decorators": [],
         "name": "v",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 14,
+        "end": 15
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 19,
-        "end": 21,
-        "elements": []
+        "end": 21
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 23,
-        "end": 26,
-        "body": []
-      }
+        "end": 26
+      },
+      "start": 9,
+      "end": 26
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 26
 }
 ```

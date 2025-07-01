@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 192,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 73,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 13,
         "decorators": [],
         "name": "salt",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 13
       },
       "generator": false,
       "async": false,
@@ -26,21 +22,17 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 16,
-        "end": 73,
         "body": [
           {
             "type": "FunctionDeclaration",
-            "start": 20,
-            "end": 50,
             "id": {
               "type": "Identifier",
-              "start": 29,
-              "end": 35,
               "decorators": [],
               "name": "pepper",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 29,
+              "end": 35
             },
             "generator": false,
             "async": false,
@@ -50,85 +42,83 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 38,
-              "end": 50,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 40,
-                  "end": 49,
                   "argument": {
                     "type": "Literal",
-                    "start": 47,
-                    "end": 48,
                     "value": 5,
-                    "raw": "5"
-                  }
+                    "raw": "5",
+                    "start": 47,
+                    "end": 48
+                  },
+                  "start": 40,
+                  "end": 49
                 }
-              ]
+              ],
+              "start": 38,
+              "end": 50
             },
-            "expression": false
+            "expression": false,
+            "start": 20,
+            "end": 50
           },
           {
             "type": "ReturnStatement",
-            "start": 53,
-            "end": 69,
             "argument": {
               "type": "CallExpression",
-              "start": 60,
-              "end": 68,
               "callee": {
                 "type": "Identifier",
-                "start": 60,
-                "end": 66,
                 "decorators": [],
                 "name": "pepper",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 60,
+                "end": 66
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
-            }
+              "optional": false,
+              "start": 60,
+              "end": 68
+            },
+            "start": 53,
+            "end": 69
           }
-        ]
+        ],
+        "start": 16,
+        "end": 73
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 73
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 75,
-      "end": 192,
       "id": {
         "type": "Identifier",
-        "start": 82,
-        "end": 83,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 82,
+        "end": 83
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 84,
-        "end": 192,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 90,
-            "end": 190,
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 97,
-              "end": 190,
               "id": {
                 "type": "Identifier",
-                "start": 106,
-                "end": 114,
                 "decorators": [],
                 "name": "tungsten",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 106,
+                "end": 114
               },
               "generator": false,
               "async": false,
@@ -138,21 +128,17 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 117,
-                "end": 190,
                 "body": [
                   {
                     "type": "FunctionDeclaration",
-                    "start": 127,
-                    "end": 158,
                     "id": {
                       "type": "Identifier",
-                      "start": 136,
-                      "end": 142,
                       "decorators": [],
                       "name": "oxygen",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 136,
+                      "end": 142
                     },
                     "generator": false,
                     "async": false,
@@ -162,24 +148,26 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
-                      "start": 145,
-                      "end": 158,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 147,
-                          "end": 156,
                           "argument": {
                             "type": "Literal",
-                            "start": 154,
-                            "end": 155,
                             "value": 6,
-                            "raw": "6"
-                          }
+                            "raw": "6",
+                            "start": 154,
+                            "end": 155
+                          },
+                          "start": 147,
+                          "end": 156
                         }
-                      ]
+                      ],
+                      "start": 145,
+                      "end": 158
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 127,
+                    "end": 158
                   },
                   {
                     "type": "EmptyStatement",
@@ -188,43 +176,55 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "ReturnStatement",
-                    "start": 168,
-                    "end": 184,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 175,
-                      "end": 183,
                       "callee": {
                         "type": "Identifier",
-                        "start": 175,
-                        "end": 181,
                         "decorators": [],
                         "name": "oxygen",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 175,
+                        "end": 181
                       },
                       "typeArguments": null,
                       "arguments": [],
-                      "optional": false
-                    }
+                      "optional": false,
+                      "start": 175,
+                      "end": 183
+                    },
+                    "start": 168,
+                    "end": 184
                   }
-                ]
+                ],
+                "start": 117,
+                "end": 190
               },
-              "expression": false
+              "expression": false,
+              "start": 97,
+              "end": 190
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 90,
+            "end": 190
           }
-        ]
+        ],
+        "start": 84,
+        "end": 192
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 75,
+      "end": 192
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 192
 }
 ```

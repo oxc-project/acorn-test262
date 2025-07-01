@@ -1,104 +1,104 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 564,
   "body": [
     {
       "type": "IfStatement",
-      "start": 338,
-      "end": 481,
       "test": {
         "type": "BinaryExpression",
-        "start": 342,
-        "end": 361,
         "left": {
           "type": "MemberExpression",
-          "start": 342,
-          "end": 355,
           "object": {
             "type": "Identifier",
+            "name": "String",
             "start": 342,
-            "end": 348,
-            "name": "String"
+            "end": 348
           },
           "property": {
             "type": "Identifier",
+            "name": "length",
             "start": 349,
-            "end": 355,
-            "name": "length"
+            "end": 355
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 342,
+          "end": 355
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 360,
-          "end": 361,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 360,
+          "end": 361
+        },
+        "start": 342,
+        "end": 361
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 363,
-        "end": 481,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 367,
-            "end": 479,
             "argument": {
               "type": "NewExpression",
-              "start": 373,
-              "end": 478,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 377,
-                "end": 389,
-                "name": "Test262Error"
+                "end": 389
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 390,
-                  "end": 477,
                   "left": {
                     "type": "Literal",
-                    "start": 390,
-                    "end": 461,
                     "value": "String has length property whose value is 1. Actual: String.length===",
-                    "raw": "'String has length property whose value is 1. Actual: String.length==='"
+                    "raw": "'String has length property whose value is 1. Actual: String.length==='",
+                    "start": 390,
+                    "end": 461
                   },
                   "operator": "+",
                   "right": {
                     "type": "MemberExpression",
-                    "start": 464,
-                    "end": 477,
                     "object": {
                       "type": "Identifier",
+                      "name": "String",
                       "start": 464,
-                      "end": 470,
-                      "name": "String"
+                      "end": 470
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "length",
                       "start": 471,
-                      "end": 477,
-                      "name": "length"
+                      "end": 477
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 464,
+                    "end": 477
+                  },
+                  "start": 390,
+                  "end": 477
                 }
-              ]
-            }
+              ],
+              "start": 373,
+              "end": 478
+            },
+            "start": 367,
+            "end": 479
           }
-        ]
+        ],
+        "start": 363,
+        "end": 481
       },
-      "alternate": null
+      "alternate": null,
+      "start": 338,
+      "end": 481
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 564
 }

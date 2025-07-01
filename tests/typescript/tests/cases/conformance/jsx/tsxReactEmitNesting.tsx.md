@@ -2,1349 +2,1315 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 1550,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 22,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 21,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 21,
             "decorators": [],
             "name": "vdom",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 16,
-              "end": 21,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 18,
                 "end": 21
-              }
-            }
+              },
+              "start": 16,
+              "end": 21
+            },
+            "start": 12,
+            "end": 21
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 21
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 22
     },
     {
       "type": "VariableDeclaration",
-      "start": 23,
-      "end": 45,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 35,
-          "end": 44,
           "id": {
             "type": "Identifier",
-            "start": 35,
-            "end": 44,
             "decorators": [],
             "name": "ctrl",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 39,
-              "end": 44,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 41,
                 "end": 44
-              }
-            }
+              },
+              "start": 39,
+              "end": 44
+            },
+            "start": 35,
+            "end": 44
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 35,
+          "end": 44
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 23,
+      "end": 45
     },
     {
       "type": "VariableDeclaration",
-      "start": 46,
-      "end": 69,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 58,
-          "end": 68,
           "id": {
             "type": "Identifier",
-            "start": 58,
-            "end": 68,
             "decorators": [],
             "name": "model",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 63,
-              "end": 68,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 65,
                 "end": 68
-              }
-            }
+              },
+              "start": 63,
+              "end": 68
+            },
+            "start": 58,
+            "end": 68
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 58,
+          "end": 68
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 46,
+      "end": 69
     },
     {
       "type": "VariableDeclaration",
-      "start": 135,
-      "end": 1549,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 139,
-          "end": 1549,
           "id": {
             "type": "Identifier",
-            "start": 139,
-            "end": 145,
             "decorators": [],
             "name": "render",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 139,
+            "end": 145
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 148,
-            "end": 1549,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 149,
-                "end": 153,
                 "decorators": [],
                 "name": "ctrl",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 149,
+                "end": 153
               },
               {
                 "type": "Identifier",
-                "start": 155,
-                "end": 160,
                 "decorators": [],
                 "name": "model",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 155,
+                "end": 160
               }
             ],
             "returnType": null,
             "body": {
               "type": "JSXElement",
-              "start": 169,
-              "end": 1549,
               "openingElement": {
                 "type": "JSXOpeningElement",
-                "start": 169,
-                "end": 194,
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "section",
                   "start": 170,
-                  "end": 177,
-                  "name": "section"
+                  "end": 177
                 },
                 "typeArguments": null,
                 "attributes": [
                   {
                     "type": "JSXAttribute",
-                    "start": 178,
-                    "end": 193,
                     "name": {
                       "type": "JSXIdentifier",
+                      "name": "class",
                       "start": 178,
-                      "end": 183,
-                      "name": "class"
+                      "end": 183
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 184,
-                      "end": 193,
                       "value": "todoapp",
-                      "raw": "\"todoapp\""
-                    }
+                      "raw": "\"todoapp\"",
+                      "start": 184,
+                      "end": 193
+                    },
+                    "start": 178,
+                    "end": 193
                   }
                 ],
-                "selfClosing": false
+                "selfClosing": false,
+                "start": 169,
+                "end": 194
               },
               "children": [
                 {
                   "type": "JSXText",
-                  "start": 194,
-                  "end": 203,
                   "value": "\n        ",
-                  "raw": "\n        "
+                  "raw": "\n        ",
+                  "start": 194,
+                  "end": 203
                 },
                 {
                   "type": "JSXElement",
-                  "start": 203,
-                  "end": 449,
                   "openingElement": {
                     "type": "JSXOpeningElement",
-                    "start": 203,
-                    "end": 226,
                     "name": {
                       "type": "JSXIdentifier",
+                      "name": "header",
                       "start": 204,
-                      "end": 210,
-                      "name": "header"
+                      "end": 210
                     },
                     "typeArguments": null,
                     "attributes": [
                       {
                         "type": "JSXAttribute",
-                        "start": 211,
-                        "end": 225,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "class",
                           "start": 211,
-                          "end": 216,
-                          "name": "class"
+                          "end": 216
                         },
                         "value": {
                           "type": "Literal",
-                          "start": 217,
-                          "end": 225,
                           "value": "header",
-                          "raw": "\"header\""
-                        }
+                          "raw": "\"header\"",
+                          "start": 217,
+                          "end": 225
+                        },
+                        "start": 211,
+                        "end": 225
                       }
                     ],
-                    "selfClosing": false
+                    "selfClosing": false,
+                    "start": 203,
+                    "end": 226
                   },
                   "children": [
                     {
                       "type": "JSXText",
-                      "start": 226,
-                      "end": 239,
                       "value": "\n            ",
-                      "raw": "\n            "
+                      "raw": "\n            ",
+                      "start": 226,
+                      "end": 239
                     },
                     {
                       "type": "JSXElement",
-                      "start": 239,
-                      "end": 263,
                       "openingElement": {
                         "type": "JSXOpeningElement",
-                        "start": 239,
-                        "end": 243,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "h1",
                           "start": 240,
-                          "end": 242,
-                          "name": "h1"
+                          "end": 242
                         },
                         "typeArguments": null,
                         "attributes": [],
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "start": 239,
+                        "end": 243
                       },
                       "children": [
                         {
                           "type": "JSXText",
-                          "start": 243,
-                          "end": 258,
                           "value": "todos <x>",
-                          "raw": "todos &lt;x&gt;"
+                          "raw": "todos &lt;x&gt;",
+                          "start": 243,
+                          "end": 258
                         }
                       ],
                       "closingElement": {
                         "type": "JSXClosingElement",
-                        "start": 258,
-                        "end": 263,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "h1",
                           "start": 260,
-                          "end": 262,
-                          "name": "h1"
-                        }
-                      }
+                          "end": 262
+                        },
+                        "start": 258,
+                        "end": 263
+                      },
+                      "start": 239,
+                      "end": 263
                     },
                     {
                       "type": "JSXText",
-                      "start": 263,
-                      "end": 276,
                       "value": "\n            ",
-                      "raw": "\n            "
+                      "raw": "\n            ",
+                      "start": 263,
+                      "end": 276
                     },
                     {
                       "type": "JSXElement",
-                      "start": 276,
-                      "end": 431,
                       "openingElement": {
                         "type": "JSXOpeningElement",
-                        "start": 276,
-                        "end": 431,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "input",
                           "start": 277,
-                          "end": 282,
-                          "name": "input"
+                          "end": 282
                         },
                         "typeArguments": null,
                         "attributes": [
                           {
                             "type": "JSXAttribute",
-                            "start": 283,
-                            "end": 299,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "class",
                               "start": 283,
-                              "end": 288,
-                              "name": "class"
+                              "end": 288
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 289,
-                              "end": 299,
                               "value": "new-todo",
-                              "raw": "\"new-todo\""
-                            }
+                              "raw": "\"new-todo\"",
+                              "start": 289,
+                              "end": 299
+                            },
+                            "start": 283,
+                            "end": 299
                           },
                           {
                             "type": "JSXAttribute",
-                            "start": 300,
-                            "end": 309,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "autofocus",
                               "start": 300,
-                              "end": 309,
-                              "name": "autofocus"
+                              "end": 309
                             },
-                            "value": null
+                            "value": null,
+                            "start": 300,
+                            "end": 309
                           },
                           {
                             "type": "JSXAttribute",
-                            "start": 310,
-                            "end": 328,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "autocomplete",
                               "start": 310,
-                              "end": 322,
-                              "name": "autocomplete"
+                              "end": 322
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 323,
-                              "end": 328,
                               "value": "off",
-                              "raw": "\"off\""
-                            }
+                              "raw": "\"off\"",
+                              "start": 323,
+                              "end": 328
+                            },
+                            "start": 310,
+                            "end": 328
                           },
                           {
                             "type": "JSXAttribute",
-                            "start": 329,
-                            "end": 365,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "placeholder",
                               "start": 329,
-                              "end": 340,
-                              "name": "placeholder"
+                              "end": 340
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 341,
-                              "end": 365,
                               "value": "What needs to be done?",
-                              "raw": "\"What needs to be done?\""
-                            }
+                              "raw": "\"What needs to be done?\"",
+                              "start": 341,
+                              "end": 365
+                            },
+                            "start": 329,
+                            "end": 365
                           },
                           {
                             "type": "JSXAttribute",
-                            "start": 366,
-                            "end": 387,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "value",
                               "start": 366,
-                              "end": 371,
-                              "name": "value"
+                              "end": 371
                             },
                             "value": {
                               "type": "JSXExpressionContainer",
-                              "start": 372,
-                              "end": 387,
                               "expression": {
                                 "type": "MemberExpression",
-                                "start": 373,
-                                "end": 386,
                                 "object": {
                                   "type": "Identifier",
-                                  "start": 373,
-                                  "end": 378,
                                   "decorators": [],
                                   "name": "model",
                                   "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "start": 373,
+                                  "end": 378
                                 },
                                 "property": {
                                   "type": "Identifier",
-                                  "start": 379,
-                                  "end": 386,
                                   "decorators": [],
                                   "name": "newTodo",
                                   "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "start": 379,
+                                  "end": 386
                                 },
                                 "optional": false,
-                                "computed": false
-                              }
-                            }
+                                "computed": false,
+                                "start": 373,
+                                "end": 386
+                              },
+                              "start": 372,
+                              "end": 387
+                            },
+                            "start": 366,
+                            "end": 387
                           },
                           {
                             "type": "JSXAttribute",
-                            "start": 388,
-                            "end": 428,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "onKeyup",
                               "start": 388,
-                              "end": 395,
-                              "name": "onKeyup"
+                              "end": 395
                             },
                             "value": {
                               "type": "JSXExpressionContainer",
-                              "start": 396,
-                              "end": 428,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 397,
-                                "end": 427,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 397,
-                                  "end": 414,
                                   "object": {
                                     "type": "MemberExpression",
-                                    "start": 397,
-                                    "end": 409,
                                     "object": {
                                       "type": "Identifier",
-                                      "start": 397,
-                                      "end": 401,
                                       "decorators": [],
                                       "name": "ctrl",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 397,
+                                      "end": 401
                                     },
                                     "property": {
                                       "type": "Identifier",
-                                      "start": 402,
-                                      "end": 409,
                                       "decorators": [],
                                       "name": "addTodo",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 402,
+                                      "end": 409
                                     },
                                     "optional": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 397,
+                                    "end": 409
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 410,
-                                    "end": 414,
                                     "decorators": [],
                                     "name": "bind",
                                     "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "start": 410,
+                                    "end": 414
                                   },
                                   "optional": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 397,
+                                  "end": 414
                                 },
                                 "typeArguments": null,
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 415,
-                                    "end": 419,
                                     "decorators": [],
                                     "name": "ctrl",
                                     "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "start": 415,
+                                    "end": 419
                                   },
                                   {
                                     "type": "Identifier",
-                                    "start": 421,
-                                    "end": 426,
                                     "decorators": [],
                                     "name": "model",
                                     "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "start": 421,
+                                    "end": 426
                                   }
                                 ],
-                                "optional": false
-                              }
-                            }
+                                "optional": false,
+                                "start": 397,
+                                "end": 427
+                              },
+                              "start": 396,
+                              "end": 428
+                            },
+                            "start": 388,
+                            "end": 428
                           }
                         ],
-                        "selfClosing": true
+                        "selfClosing": true,
+                        "start": 276,
+                        "end": 431
                       },
                       "children": [],
-                      "closingElement": null
+                      "closingElement": null,
+                      "start": 276,
+                      "end": 431
                     },
                     {
                       "type": "JSXText",
-                      "start": 431,
-                      "end": 440,
                       "value": "\n        ",
-                      "raw": "\n        "
+                      "raw": "\n        ",
+                      "start": 431,
+                      "end": 440
                     }
                   ],
                   "closingElement": {
                     "type": "JSXClosingElement",
-                    "start": 440,
-                    "end": 449,
                     "name": {
                       "type": "JSXIdentifier",
+                      "name": "header",
                       "start": 442,
-                      "end": 448,
-                      "name": "header"
-                    }
-                  }
+                      "end": 448
+                    },
+                    "start": 440,
+                    "end": 449
+                  },
+                  "start": 203,
+                  "end": 449
                 },
                 {
                   "type": "JSXText",
-                  "start": 449,
-                  "end": 458,
                   "value": "\n        ",
-                  "raw": "\n        "
+                  "raw": "\n        ",
+                  "start": 449,
+                  "end": 458
                 },
                 {
                   "type": "JSXElement",
-                  "start": 458,
-                  "end": 1534,
                   "openingElement": {
                     "type": "JSXOpeningElement",
-                    "start": 458,
-                    "end": 553,
                     "name": {
                       "type": "JSXIdentifier",
+                      "name": "section",
                       "start": 459,
-                      "end": 466,
-                      "name": "section"
+                      "end": 466
                     },
                     "typeArguments": null,
                     "attributes": [
                       {
                         "type": "JSXAttribute",
-                        "start": 467,
-                        "end": 479,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "class",
                           "start": 467,
-                          "end": 472,
-                          "name": "class"
+                          "end": 472
                         },
                         "value": {
                           "type": "Literal",
-                          "start": 473,
-                          "end": 479,
                           "value": "main",
-                          "raw": "\"main\""
-                        }
+                          "raw": "\"main\"",
+                          "start": 473,
+                          "end": 479
+                        },
+                        "start": 467,
+                        "end": 479
                       },
                       {
                         "type": "JSXAttribute",
-                        "start": 480,
-                        "end": 552,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "style",
                           "start": 480,
-                          "end": 485,
-                          "name": "style"
+                          "end": 485
                         },
                         "value": {
                           "type": "JSXExpressionContainer",
-                          "start": 486,
-                          "end": 552,
                           "expression": {
                             "type": "ObjectExpression",
-                            "start": 487,
-                            "end": 551,
                             "properties": [
                               {
                                 "type": "Property",
-                                "start": 488,
-                                "end": 550,
                                 "kind": "init",
                                 "key": {
                                   "type": "Identifier",
-                                  "start": 488,
-                                  "end": 495,
                                   "decorators": [],
                                   "name": "display",
                                   "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "start": 488,
+                                  "end": 495
                                 },
                                 "value": {
                                   "type": "ConditionalExpression",
-                                  "start": 496,
-                                  "end": 550,
                                   "test": {
                                     "type": "LogicalExpression",
-                                    "start": 497,
-                                    "end": 530,
                                     "left": {
                                       "type": "MemberExpression",
-                                      "start": 497,
-                                      "end": 508,
                                       "object": {
                                         "type": "Identifier",
-                                        "start": 497,
-                                        "end": 502,
                                         "decorators": [],
                                         "name": "model",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 497,
+                                        "end": 502
                                       },
                                       "property": {
                                         "type": "Identifier",
-                                        "start": 503,
-                                        "end": 508,
                                         "decorators": [],
                                         "name": "todos",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 503,
+                                        "end": 508
                                       },
                                       "optional": false,
-                                      "computed": false
+                                      "computed": false,
+                                      "start": 497,
+                                      "end": 508
                                     },
                                     "operator": "&&",
                                     "right": {
                                       "type": "MemberExpression",
-                                      "start": 512,
-                                      "end": 530,
                                       "object": {
                                         "type": "MemberExpression",
-                                        "start": 512,
-                                        "end": 523,
                                         "object": {
                                           "type": "Identifier",
-                                          "start": 512,
-                                          "end": 517,
                                           "decorators": [],
                                           "name": "model",
                                           "optional": false,
-                                          "typeAnnotation": null
+                                          "typeAnnotation": null,
+                                          "start": 512,
+                                          "end": 517
                                         },
                                         "property": {
                                           "type": "Identifier",
-                                          "start": 518,
-                                          "end": 523,
                                           "decorators": [],
                                           "name": "todos",
                                           "optional": false,
-                                          "typeAnnotation": null
+                                          "typeAnnotation": null,
+                                          "start": 518,
+                                          "end": 523
                                         },
                                         "optional": false,
-                                        "computed": false
+                                        "computed": false,
+                                        "start": 512,
+                                        "end": 523
                                       },
                                       "property": {
                                         "type": "Identifier",
-                                        "start": 524,
-                                        "end": 530,
                                         "decorators": [],
                                         "name": "length",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 524,
+                                        "end": 530
                                       },
                                       "optional": false,
-                                      "computed": false
-                                    }
+                                      "computed": false,
+                                      "start": 512,
+                                      "end": 530
+                                    },
+                                    "start": 497,
+                                    "end": 530
                                   },
                                   "consequent": {
                                     "type": "Literal",
-                                    "start": 534,
-                                    "end": 541,
                                     "value": "block",
-                                    "raw": "\"block\""
+                                    "raw": "\"block\"",
+                                    "start": 534,
+                                    "end": 541
                                   },
                                   "alternate": {
                                     "type": "Literal",
-                                    "start": 544,
-                                    "end": 550,
                                     "value": "none",
-                                    "raw": "\"none\""
-                                  }
+                                    "raw": "\"none\"",
+                                    "start": 544,
+                                    "end": 550
+                                  },
+                                  "start": 496,
+                                  "end": 550
                                 },
                                 "method": false,
                                 "shorthand": false,
                                 "computed": false,
-                                "optional": false
+                                "optional": false,
+                                "start": 488,
+                                "end": 550
                               }
-                            ]
-                          }
-                        }
+                            ],
+                            "start": 487,
+                            "end": 551
+                          },
+                          "start": 486,
+                          "end": 552
+                        },
+                        "start": 480,
+                        "end": 552
                       }
                     ],
-                    "selfClosing": false
+                    "selfClosing": false,
+                    "start": 458,
+                    "end": 553
                   },
                   "children": [
                     {
                       "type": "JSXText",
-                      "start": 553,
-                      "end": 566,
                       "value": "\n            ",
-                      "raw": "\n            "
+                      "raw": "\n            ",
+                      "start": 553,
+                      "end": 566
                     },
                     {
                       "type": "JSXElement",
-                      "start": 566,
-                      "end": 646,
                       "openingElement": {
                         "type": "JSXOpeningElement",
-                        "start": 566,
-                        "end": 646,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "input",
                           "start": 567,
-                          "end": 572,
-                          "name": "input"
+                          "end": 572
                         },
                         "typeArguments": null,
                         "attributes": [
                           {
                             "type": "JSXAttribute",
-                            "start": 573,
-                            "end": 591,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "class",
                               "start": 573,
-                              "end": 578,
-                              "name": "class"
+                              "end": 578
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 579,
-                              "end": 591,
                               "value": "toggle-all",
-                              "raw": "\"toggle-all\""
-                            }
+                              "raw": "\"toggle-all\"",
+                              "start": 579,
+                              "end": 591
+                            },
+                            "start": 573,
+                            "end": 591
                           },
                           {
                             "type": "JSXAttribute",
-                            "start": 592,
-                            "end": 607,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "type",
                               "start": 592,
-                              "end": 596,
-                              "name": "type"
+                              "end": 596
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 597,
-                              "end": 607,
                               "value": "checkbox",
-                              "raw": "\"checkbox\""
-                            }
+                              "raw": "\"checkbox\"",
+                              "start": 597,
+                              "end": 607
+                            },
+                            "start": 592,
+                            "end": 607
                           },
                           {
                             "type": "JSXAttribute",
-                            "start": 608,
-                            "end": 644,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "onChange",
                               "start": 608,
-                              "end": 616,
-                              "name": "onChange"
+                              "end": 616
                             },
                             "value": {
                               "type": "JSXExpressionContainer",
-                              "start": 617,
-                              "end": 644,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 618,
-                                "end": 643,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 618,
-                                  "end": 637,
                                   "object": {
                                     "type": "MemberExpression",
-                                    "start": 618,
-                                    "end": 632,
                                     "object": {
                                       "type": "Identifier",
-                                      "start": 618,
-                                      "end": 622,
                                       "decorators": [],
                                       "name": "ctrl",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 618,
+                                      "end": 622
                                     },
                                     "property": {
                                       "type": "Identifier",
-                                      "start": 623,
-                                      "end": 632,
                                       "decorators": [],
                                       "name": "toggleAll",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 623,
+                                      "end": 632
                                     },
                                     "optional": false,
-                                    "computed": false
+                                    "computed": false,
+                                    "start": 618,
+                                    "end": 632
                                   },
                                   "property": {
                                     "type": "Identifier",
-                                    "start": 633,
-                                    "end": 637,
                                     "decorators": [],
                                     "name": "bind",
                                     "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "start": 633,
+                                    "end": 637
                                   },
                                   "optional": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 618,
+                                  "end": 637
                                 },
                                 "typeArguments": null,
                                 "arguments": [
                                   {
                                     "type": "Identifier",
-                                    "start": 638,
-                                    "end": 642,
                                     "decorators": [],
                                     "name": "ctrl",
                                     "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "start": 638,
+                                    "end": 642
                                   }
                                 ],
-                                "optional": false
-                              }
-                            }
+                                "optional": false,
+                                "start": 618,
+                                "end": 643
+                              },
+                              "start": 617,
+                              "end": 644
+                            },
+                            "start": 608,
+                            "end": 644
                           }
                         ],
-                        "selfClosing": true
+                        "selfClosing": true,
+                        "start": 566,
+                        "end": 646
                       },
                       "children": [],
-                      "closingElement": null
+                      "closingElement": null,
+                      "start": 566,
+                      "end": 646
                     },
                     {
                       "type": "JSXText",
-                      "start": 646,
-                      "end": 659,
                       "value": "\n            ",
-                      "raw": "\n            "
+                      "raw": "\n            ",
+                      "start": 646,
+                      "end": 659
                     },
                     {
                       "type": "JSXElement",
-                      "start": 659,
-                      "end": 1515,
                       "openingElement": {
                         "type": "JSXOpeningElement",
-                        "start": 659,
-                        "end": 681,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "ul",
                           "start": 660,
-                          "end": 662,
-                          "name": "ul"
+                          "end": 662
                         },
                         "typeArguments": null,
                         "attributes": [
                           {
                             "type": "JSXAttribute",
-                            "start": 663,
-                            "end": 680,
                             "name": {
                               "type": "JSXIdentifier",
+                              "name": "class",
                               "start": 663,
-                              "end": 668,
-                              "name": "class"
+                              "end": 668
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 669,
-                              "end": 680,
                               "value": "todo-list",
-                              "raw": "\"todo-list\""
-                            }
+                              "raw": "\"todo-list\"",
+                              "start": 669,
+                              "end": 680
+                            },
+                            "start": 663,
+                            "end": 680
                           }
                         ],
-                        "selfClosing": false
+                        "selfClosing": false,
+                        "start": 659,
+                        "end": 681
                       },
                       "children": [
                         {
                           "type": "JSXText",
-                          "start": 681,
-                          "end": 698,
                           "value": "\n                ",
-                          "raw": "\n                "
+                          "raw": "\n                ",
+                          "start": 681,
+                          "end": 698
                         },
                         {
                           "type": "JSXExpressionContainer",
-                          "start": 698,
-                          "end": 1497,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 699,
-                            "end": 1496,
                             "callee": {
                               "type": "MemberExpression",
-                              "start": 699,
-                              "end": 722,
                               "object": {
                                 "type": "MemberExpression",
-                                "start": 699,
-                                "end": 718,
                                 "object": {
                                   "type": "Identifier",
-                                  "start": 699,
-                                  "end": 704,
                                   "decorators": [],
                                   "name": "model",
                                   "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "start": 699,
+                                  "end": 704
                                 },
                                 "property": {
                                   "type": "Identifier",
-                                  "start": 705,
-                                  "end": 718,
                                   "decorators": [],
                                   "name": "filteredTodos",
                                   "optional": false,
-                                  "typeAnnotation": null
+                                  "typeAnnotation": null,
+                                  "start": 705,
+                                  "end": 718
                                 },
                                 "optional": false,
-                                "computed": false
+                                "computed": false,
+                                "start": 699,
+                                "end": 718
                               },
                               "property": {
                                 "type": "Identifier",
-                                "start": 719,
-                                "end": 722,
                                 "decorators": [],
                                 "name": "map",
                                 "optional": false,
-                                "typeAnnotation": null
+                                "typeAnnotation": null,
+                                "start": 719,
+                                "end": 722
                               },
                               "optional": false,
-                              "computed": false
+                              "computed": false,
+                              "start": 699,
+                              "end": 722
                             },
                             "typeArguments": null,
                             "arguments": [
                               {
                                 "type": "ArrowFunctionExpression",
-                                "start": 723,
-                                "end": 1478,
                                 "expression": true,
                                 "async": false,
                                 "typeParameters": null,
                                 "params": [
                                   {
                                     "type": "Identifier",
-                                    "start": 724,
-                                    "end": 728,
                                     "decorators": [],
                                     "name": "todo",
                                     "optional": false,
-                                    "typeAnnotation": null
+                                    "typeAnnotation": null,
+                                    "start": 724,
+                                    "end": 728
                                   }
                                 ],
                                 "returnType": null,
                                 "body": {
                                   "type": "JSXElement",
-                                  "start": 753,
-                                  "end": 1478,
                                   "openingElement": {
                                     "type": "JSXOpeningElement",
-                                    "start": 753,
-                                    "end": 840,
                                     "name": {
                                       "type": "JSXIdentifier",
+                                      "name": "li",
                                       "start": 754,
-                                      "end": 756,
-                                      "name": "li"
+                                      "end": 756
                                     },
                                     "typeArguments": null,
                                     "attributes": [
                                       {
                                         "type": "JSXAttribute",
-                                        "start": 757,
-                                        "end": 839,
                                         "name": {
                                           "type": "JSXIdentifier",
+                                          "name": "class",
                                           "start": 757,
-                                          "end": 762,
-                                          "name": "class"
+                                          "end": 762
                                         },
                                         "value": {
                                           "type": "JSXExpressionContainer",
-                                          "start": 763,
-                                          "end": 839,
                                           "expression": {
                                             "type": "ObjectExpression",
-                                            "start": 764,
-                                            "end": 838,
                                             "properties": [
                                               {
                                                 "type": "Property",
-                                                "start": 765,
-                                                "end": 775,
                                                 "kind": "init",
                                                 "key": {
                                                   "type": "Identifier",
-                                                  "start": 765,
-                                                  "end": 769,
                                                   "decorators": [],
                                                   "name": "todo",
                                                   "optional": false,
-                                                  "typeAnnotation": null
+                                                  "typeAnnotation": null,
+                                                  "start": 765,
+                                                  "end": 769
                                                 },
                                                 "value": {
                                                   "type": "Literal",
-                                                  "start": 771,
-                                                  "end": 775,
                                                   "value": true,
-                                                  "raw": "true"
+                                                  "raw": "true",
+                                                  "start": 771,
+                                                  "end": 775
                                                 },
                                                 "method": false,
                                                 "shorthand": false,
                                                 "computed": false,
-                                                "optional": false
+                                                "optional": false,
+                                                "start": 765,
+                                                "end": 775
                                               },
                                               {
                                                 "type": "Property",
-                                                "start": 777,
-                                                "end": 802,
                                                 "kind": "init",
                                                 "key": {
                                                   "type": "Identifier",
-                                                  "start": 777,
-                                                  "end": 786,
                                                   "decorators": [],
                                                   "name": "completed",
                                                   "optional": false,
-                                                  "typeAnnotation": null
+                                                  "typeAnnotation": null,
+                                                  "start": 777,
+                                                  "end": 786
                                                 },
                                                 "value": {
                                                   "type": "MemberExpression",
-                                                  "start": 788,
-                                                  "end": 802,
                                                   "object": {
                                                     "type": "Identifier",
-                                                    "start": 788,
-                                                    "end": 792,
                                                     "decorators": [],
                                                     "name": "todo",
                                                     "optional": false,
-                                                    "typeAnnotation": null
+                                                    "typeAnnotation": null,
+                                                    "start": 788,
+                                                    "end": 792
                                                   },
                                                   "property": {
                                                     "type": "Identifier",
-                                                    "start": 793,
-                                                    "end": 802,
                                                     "decorators": [],
                                                     "name": "completed",
                                                     "optional": false,
-                                                    "typeAnnotation": null
+                                                    "typeAnnotation": null,
+                                                    "start": 793,
+                                                    "end": 802
                                                   },
                                                   "optional": false,
-                                                  "computed": false
+                                                  "computed": false,
+                                                  "start": 788,
+                                                  "end": 802
                                                 },
                                                 "method": false,
                                                 "shorthand": false,
                                                 "computed": false,
-                                                "optional": false
+                                                "optional": false,
+                                                "start": 777,
+                                                "end": 802
                                               },
                                               {
                                                 "type": "Property",
-                                                "start": 804,
-                                                "end": 837,
                                                 "kind": "init",
                                                 "key": {
                                                   "type": "Identifier",
-                                                  "start": 804,
-                                                  "end": 811,
                                                   "decorators": [],
                                                   "name": "editing",
                                                   "optional": false,
-                                                  "typeAnnotation": null
+                                                  "typeAnnotation": null,
+                                                  "start": 804,
+                                                  "end": 811
                                                 },
                                                 "value": {
                                                   "type": "BinaryExpression",
-                                                  "start": 813,
-                                                  "end": 837,
                                                   "left": {
                                                     "type": "Identifier",
-                                                    "start": 813,
-                                                    "end": 817,
                                                     "decorators": [],
                                                     "name": "todo",
                                                     "optional": false,
-                                                    "typeAnnotation": null
+                                                    "typeAnnotation": null,
+                                                    "start": 813,
+                                                    "end": 817
                                                   },
                                                   "operator": "==",
                                                   "right": {
                                                     "type": "MemberExpression",
-                                                    "start": 821,
-                                                    "end": 837,
                                                     "object": {
                                                       "type": "Identifier",
-                                                      "start": 821,
-                                                      "end": 826,
                                                       "decorators": [],
                                                       "name": "model",
                                                       "optional": false,
-                                                      "typeAnnotation": null
+                                                      "typeAnnotation": null,
+                                                      "start": 821,
+                                                      "end": 826
                                                     },
                                                     "property": {
                                                       "type": "Identifier",
-                                                      "start": 827,
-                                                      "end": 837,
                                                       "decorators": [],
                                                       "name": "editedTodo",
                                                       "optional": false,
-                                                      "typeAnnotation": null
+                                                      "typeAnnotation": null,
+                                                      "start": 827,
+                                                      "end": 837
                                                     },
                                                     "optional": false,
-                                                    "computed": false
-                                                  }
+                                                    "computed": false,
+                                                    "start": 821,
+                                                    "end": 837
+                                                  },
+                                                  "start": 813,
+                                                  "end": 837
                                                 },
                                                 "method": false,
                                                 "shorthand": false,
                                                 "computed": false,
-                                                "optional": false
+                                                "optional": false,
+                                                "start": 804,
+                                                "end": 837
                                               }
-                                            ]
-                                          }
-                                        }
+                                            ],
+                                            "start": 764,
+                                            "end": 838
+                                          },
+                                          "start": 763,
+                                          "end": 839
+                                        },
+                                        "start": 757,
+                                        "end": 839
                                       }
                                     ],
-                                    "selfClosing": false
+                                    "selfClosing": false,
+                                    "start": 753,
+                                    "end": 840
                                   },
                                   "children": [
                                     {
                                       "type": "JSXText",
-                                      "start": 840,
-                                      "end": 865,
                                       "value": "\n                        ",
-                                      "raw": "\n                        "
+                                      "raw": "\n                        ",
+                                      "start": 840,
+                                      "end": 865
                                     },
                                     {
                                       "type": "JSXElement",
-                                      "start": 865,
-                                      "end": 1452,
                                       "openingElement": {
                                         "type": "JSXOpeningElement",
-                                        "start": 865,
-                                        "end": 883,
                                         "name": {
                                           "type": "JSXIdentifier",
+                                          "name": "div",
                                           "start": 866,
-                                          "end": 869,
-                                          "name": "div"
+                                          "end": 869
                                         },
                                         "typeArguments": null,
                                         "attributes": [
                                           {
                                             "type": "JSXAttribute",
-                                            "start": 870,
-                                            "end": 882,
                                             "name": {
                                               "type": "JSXIdentifier",
+                                              "name": "class",
                                               "start": 870,
-                                              "end": 875,
-                                              "name": "class"
+                                              "end": 875
                                             },
                                             "value": {
                                               "type": "Literal",
-                                              "start": 876,
-                                              "end": 882,
                                               "value": "view",
-                                              "raw": "\"view\""
-                                            }
+                                              "raw": "\"view\"",
+                                              "start": 876,
+                                              "end": 882
+                                            },
+                                            "start": 870,
+                                            "end": 882
                                           }
                                         ],
-                                        "selfClosing": false
+                                        "selfClosing": false,
+                                        "start": 865,
+                                        "end": 883
                                       },
                                       "children": [
                                         {
                                           "type": "JSXText",
-                                          "start": 883,
-                                          "end": 912,
                                           "value": "\n                            ",
-                                          "raw": "\n                            "
+                                          "raw": "\n                            ",
+                                          "start": 883,
+                                          "end": 912
                                         },
                                         {
                                           "type": "JSXExpressionContainer",
-                                          "start": 912,
-                                          "end": 1079,
                                           "expression": {
                                             "type": "ConditionalExpression",
-                                            "start": 913,
-                                            "end": 1049,
                                             "test": {
                                               "type": "UnaryExpression",
-                                              "start": 914,
-                                              "end": 928,
                                               "operator": "!",
                                               "argument": {
                                                 "type": "MemberExpression",
-                                                "start": 915,
-                                                "end": 928,
                                                 "object": {
                                                   "type": "Identifier",
-                                                  "start": 915,
-                                                  "end": 919,
                                                   "decorators": [],
                                                   "name": "todo",
                                                   "optional": false,
-                                                  "typeAnnotation": null
+                                                  "typeAnnotation": null,
+                                                  "start": 915,
+                                                  "end": 919
                                                 },
                                                 "property": {
                                                   "type": "Identifier",
-                                                  "start": 920,
-                                                  "end": 928,
                                                   "decorators": [],
                                                   "name": "editable",
                                                   "optional": false,
-                                                  "typeAnnotation": null
+                                                  "typeAnnotation": null,
+                                                  "start": 920,
+                                                  "end": 928
                                                 },
                                                 "optional": false,
-                                                "computed": false
+                                                "computed": false,
+                                                "start": 915,
+                                                "end": 928
                                               },
-                                              "prefix": true
+                                              "prefix": true,
+                                              "start": 914,
+                                              "end": 928
                                             },
                                             "consequent": {
                                               "type": "JSXElement",
-                                              "start": 964,
-                                              "end": 1010,
                                               "openingElement": {
                                                 "type": "JSXOpeningElement",
-                                                "start": 964,
-                                                "end": 1002,
                                                 "name": {
                                                   "type": "JSXIdentifier",
+                                                  "name": "input",
                                                   "start": 965,
-                                                  "end": 970,
-                                                  "name": "input"
+                                                  "end": 970
                                                 },
                                                 "typeArguments": null,
                                                 "attributes": [
                                                   {
                                                     "type": "JSXAttribute",
-                                                    "start": 971,
-                                                    "end": 985,
                                                     "name": {
                                                       "type": "JSXIdentifier",
+                                                      "name": "class",
                                                       "start": 971,
-                                                      "end": 976,
-                                                      "name": "class"
+                                                      "end": 976
                                                     },
                                                     "value": {
                                                       "type": "Literal",
-                                                      "start": 977,
-                                                      "end": 985,
                                                       "value": "toggle",
-                                                      "raw": "\"toggle\""
-                                                    }
+                                                      "raw": "\"toggle\"",
+                                                      "start": 977,
+                                                      "end": 985
+                                                    },
+                                                    "start": 971,
+                                                    "end": 985
                                                   },
                                                   {
                                                     "type": "JSXAttribute",
-                                                    "start": 986,
-                                                    "end": 1001,
                                                     "name": {
                                                       "type": "JSXIdentifier",
+                                                      "name": "type",
                                                       "start": 986,
-                                                      "end": 990,
-                                                      "name": "type"
+                                                      "end": 990
                                                     },
                                                     "value": {
                                                       "type": "Literal",
-                                                      "start": 991,
-                                                      "end": 1001,
                                                       "value": "checkbox",
-                                                      "raw": "\"checkbox\""
-                                                    }
+                                                      "raw": "\"checkbox\"",
+                                                      "start": 991,
+                                                      "end": 1001
+                                                    },
+                                                    "start": 986,
+                                                    "end": 1001
                                                   }
                                                 ],
-                                                "selfClosing": false
+                                                "selfClosing": false,
+                                                "start": 964,
+                                                "end": 1002
                                               },
                                               "children": [],
                                               "closingElement": {
                                                 "type": "JSXClosingElement",
-                                                "start": 1002,
-                                                "end": 1010,
                                                 "name": {
                                                   "type": "JSXIdentifier",
+                                                  "name": "input",
                                                   "start": 1004,
-                                                  "end": 1009,
-                                                  "name": "input"
-                                                }
-                                              }
+                                                  "end": 1009
+                                                },
+                                                "start": 1002,
+                                                "end": 1010
+                                              },
+                                              "start": 964,
+                                              "end": 1010
                                             },
                                             "alternate": {
                                               "type": "Literal",
-                                              "start": 1045,
-                                              "end": 1049,
                                               "value": null,
-                                              "raw": "null"
-                                            }
-                                          }
+                                              "raw": "null",
+                                              "start": 1045,
+                                              "end": 1049
+                                            },
+                                            "start": 913,
+                                            "end": 1049
+                                          },
+                                          "start": 912,
+                                          "end": 1079
                                         },
                                         {
                                           "type": "JSXText",
-                                          "start": 1079,
-                                          "end": 1108,
                                           "value": "\n                            ",
-                                          "raw": "\n                            "
+                                          "raw": "\n                            ",
+                                          "start": 1079,
+                                          "end": 1108
                                         },
                                         {
                                           "type": "JSXElement",
-                                          "start": 1108,
-                                          "end": 1177,
                                           "openingElement": {
                                             "type": "JSXOpeningElement",
-                                            "start": 1108,
-                                            "end": 1157,
                                             "name": {
                                               "type": "JSXIdentifier",
+                                              "name": "label",
                                               "start": 1109,
-                                              "end": 1114,
-                                              "name": "label"
+                                              "end": 1114
                                             },
                                             "typeArguments": null,
                                             "attributes": [
                                               {
                                                 "type": "JSXAttribute",
-                                                "start": 1115,
-                                                "end": 1156,
                                                 "name": {
                                                   "type": "JSXIdentifier",
+                                                  "name": "onDoubleClick",
                                                   "start": 1115,
-                                                  "end": 1128,
-                                                  "name": "onDoubleClick"
+                                                  "end": 1128
                                                 },
                                                 "value": {
                                                   "type": "JSXExpressionContainer",
-                                                  "start": 1129,
-                                                  "end": 1156,
                                                   "expression": {
                                                     "type": "ArrowFunctionExpression",
-                                                    "start": 1130,
-                                                    "end": 1155,
                                                     "expression": false,
                                                     "async": false,
                                                     "typeParameters": null,
@@ -1352,482 +1318,516 @@ __ESTREE_TEST__:PASS:
                                                     "returnType": null,
                                                     "body": {
                                                       "type": "BlockStatement",
-                                                      "start": 1134,
-                                                      "end": 1155,
                                                       "body": [
                                                         {
                                                           "type": "ExpressionStatement",
-                                                          "start": 1135,
-                                                          "end": 1154,
                                                           "expression": {
                                                             "type": "CallExpression",
-                                                            "start": 1135,
-                                                            "end": 1154,
                                                             "callee": {
                                                               "type": "MemberExpression",
-                                                              "start": 1135,
-                                                              "end": 1148,
                                                               "object": {
                                                                 "type": "Identifier",
-                                                                "start": 1135,
-                                                                "end": 1139,
                                                                 "decorators": [],
                                                                 "name": "ctrl",
                                                                 "optional": false,
-                                                                "typeAnnotation": null
+                                                                "typeAnnotation": null,
+                                                                "start": 1135,
+                                                                "end": 1139
                                                               },
                                                               "property": {
                                                                 "type": "Identifier",
-                                                                "start": 1140,
-                                                                "end": 1148,
                                                                 "decorators": [],
                                                                 "name": "editTodo",
                                                                 "optional": false,
-                                                                "typeAnnotation": null
+                                                                "typeAnnotation": null,
+                                                                "start": 1140,
+                                                                "end": 1148
                                                               },
                                                               "optional": false,
-                                                              "computed": false
+                                                              "computed": false,
+                                                              "start": 1135,
+                                                              "end": 1148
                                                             },
                                                             "typeArguments": null,
                                                             "arguments": [
                                                               {
                                                                 "type": "Identifier",
-                                                                "start": 1149,
-                                                                "end": 1153,
                                                                 "decorators": [],
                                                                 "name": "todo",
                                                                 "optional": false,
-                                                                "typeAnnotation": null
+                                                                "typeAnnotation": null,
+                                                                "start": 1149,
+                                                                "end": 1153
                                                               }
                                                             ],
-                                                            "optional": false
+                                                            "optional": false,
+                                                            "start": 1135,
+                                                            "end": 1154
                                                           },
-                                                          "directive": null
+                                                          "directive": null,
+                                                          "start": 1135,
+                                                          "end": 1154
                                                         }
-                                                      ]
+                                                      ],
+                                                      "start": 1134,
+                                                      "end": 1155
                                                     },
                                                     "id": null,
-                                                    "generator": false
-                                                  }
-                                                }
+                                                    "generator": false,
+                                                    "start": 1130,
+                                                    "end": 1155
+                                                  },
+                                                  "start": 1129,
+                                                  "end": 1156
+                                                },
+                                                "start": 1115,
+                                                "end": 1156
                                               }
                                             ],
-                                            "selfClosing": false
+                                            "selfClosing": false,
+                                            "start": 1108,
+                                            "end": 1157
                                           },
                                           "children": [
                                             {
                                               "type": "JSXExpressionContainer",
-                                              "start": 1157,
-                                              "end": 1169,
                                               "expression": {
                                                 "type": "MemberExpression",
-                                                "start": 1158,
-                                                "end": 1168,
                                                 "object": {
                                                   "type": "Identifier",
-                                                  "start": 1158,
-                                                  "end": 1162,
                                                   "decorators": [],
                                                   "name": "todo",
                                                   "optional": false,
-                                                  "typeAnnotation": null
+                                                  "typeAnnotation": null,
+                                                  "start": 1158,
+                                                  "end": 1162
                                                 },
                                                 "property": {
                                                   "type": "Identifier",
-                                                  "start": 1163,
-                                                  "end": 1168,
                                                   "decorators": [],
                                                   "name": "title",
                                                   "optional": false,
-                                                  "typeAnnotation": null
+                                                  "typeAnnotation": null,
+                                                  "start": 1163,
+                                                  "end": 1168
                                                 },
                                                 "optional": false,
-                                                "computed": false
-                                              }
+                                                "computed": false,
+                                                "start": 1158,
+                                                "end": 1168
+                                              },
+                                              "start": 1157,
+                                              "end": 1169
                                             }
                                           ],
                                           "closingElement": {
                                             "type": "JSXClosingElement",
-                                            "start": 1169,
-                                            "end": 1177,
                                             "name": {
                                               "type": "JSXIdentifier",
+                                              "name": "label",
                                               "start": 1171,
-                                              "end": 1176,
-                                              "name": "label"
-                                            }
-                                          }
+                                              "end": 1176
+                                            },
+                                            "start": 1169,
+                                            "end": 1177
+                                          },
+                                          "start": 1108,
+                                          "end": 1177
                                         },
                                         {
                                           "type": "JSXText",
-                                          "start": 1177,
-                                          "end": 1206,
                                           "value": "\n                            ",
-                                          "raw": "\n                            "
+                                          "raw": "\n                            ",
+                                          "start": 1177,
+                                          "end": 1206
                                         },
                                         {
                                           "type": "JSXElement",
-                                          "start": 1206,
-                                          "end": 1281,
                                           "openingElement": {
                                             "type": "JSXOpeningElement",
-                                            "start": 1206,
-                                            "end": 1272,
                                             "name": {
                                               "type": "JSXIdentifier",
+                                              "name": "button",
                                               "start": 1207,
-                                              "end": 1213,
-                                              "name": "button"
+                                              "end": 1213
                                             },
                                             "typeArguments": null,
                                             "attributes": [
                                               {
                                                 "type": "JSXAttribute",
-                                                "start": 1214,
-                                                "end": 1229,
                                                 "name": {
                                                   "type": "JSXIdentifier",
+                                                  "name": "class",
                                                   "start": 1214,
-                                                  "end": 1219,
-                                                  "name": "class"
+                                                  "end": 1219
                                                 },
                                                 "value": {
                                                   "type": "Literal",
-                                                  "start": 1220,
-                                                  "end": 1229,
                                                   "value": "destroy",
-                                                  "raw": "\"destroy\""
-                                                }
+                                                  "raw": "\"destroy\"",
+                                                  "start": 1220,
+                                                  "end": 1229
+                                                },
+                                                "start": 1214,
+                                                "end": 1229
                                               },
                                               {
                                                 "type": "JSXAttribute",
-                                                "start": 1230,
-                                                "end": 1271,
                                                 "name": {
                                                   "type": "JSXIdentifier",
+                                                  "name": "onClick",
                                                   "start": 1230,
-                                                  "end": 1237,
-                                                  "name": "onClick"
+                                                  "end": 1237
                                                 },
                                                 "value": {
                                                   "type": "JSXExpressionContainer",
-                                                  "start": 1238,
-                                                  "end": 1271,
                                                   "expression": {
                                                     "type": "CallExpression",
-                                                    "start": 1239,
-                                                    "end": 1270,
                                                     "callee": {
                                                       "type": "MemberExpression",
-                                                      "start": 1239,
-                                                      "end": 1259,
                                                       "object": {
                                                         "type": "MemberExpression",
-                                                        "start": 1239,
-                                                        "end": 1254,
                                                         "object": {
                                                           "type": "Identifier",
-                                                          "start": 1239,
-                                                          "end": 1243,
                                                           "decorators": [],
                                                           "name": "ctrl",
                                                           "optional": false,
-                                                          "typeAnnotation": null
+                                                          "typeAnnotation": null,
+                                                          "start": 1239,
+                                                          "end": 1243
                                                         },
                                                         "property": {
                                                           "type": "Identifier",
-                                                          "start": 1244,
-                                                          "end": 1254,
                                                           "decorators": [],
                                                           "name": "removeTodo",
                                                           "optional": false,
-                                                          "typeAnnotation": null
+                                                          "typeAnnotation": null,
+                                                          "start": 1244,
+                                                          "end": 1254
                                                         },
                                                         "optional": false,
-                                                        "computed": false
+                                                        "computed": false,
+                                                        "start": 1239,
+                                                        "end": 1254
                                                       },
                                                       "property": {
                                                         "type": "Identifier",
-                                                        "start": 1255,
-                                                        "end": 1259,
                                                         "decorators": [],
                                                         "name": "bind",
                                                         "optional": false,
-                                                        "typeAnnotation": null
+                                                        "typeAnnotation": null,
+                                                        "start": 1255,
+                                                        "end": 1259
                                                       },
                                                       "optional": false,
-                                                      "computed": false
+                                                      "computed": false,
+                                                      "start": 1239,
+                                                      "end": 1259
                                                     },
                                                     "typeArguments": null,
                                                     "arguments": [
                                                       {
                                                         "type": "Identifier",
-                                                        "start": 1260,
-                                                        "end": 1264,
                                                         "decorators": [],
                                                         "name": "ctrl",
                                                         "optional": false,
-                                                        "typeAnnotation": null
+                                                        "typeAnnotation": null,
+                                                        "start": 1260,
+                                                        "end": 1264
                                                       },
                                                       {
                                                         "type": "Identifier",
-                                                        "start": 1265,
-                                                        "end": 1269,
                                                         "decorators": [],
                                                         "name": "todo",
                                                         "optional": false,
-                                                        "typeAnnotation": null
+                                                        "typeAnnotation": null,
+                                                        "start": 1265,
+                                                        "end": 1269
                                                       }
                                                     ],
-                                                    "optional": false
-                                                  }
-                                                }
+                                                    "optional": false,
+                                                    "start": 1239,
+                                                    "end": 1270
+                                                  },
+                                                  "start": 1238,
+                                                  "end": 1271
+                                                },
+                                                "start": 1230,
+                                                "end": 1271
                                               }
                                             ],
-                                            "selfClosing": false
+                                            "selfClosing": false,
+                                            "start": 1206,
+                                            "end": 1272
                                           },
                                           "children": [],
                                           "closingElement": {
                                             "type": "JSXClosingElement",
-                                            "start": 1272,
-                                            "end": 1281,
                                             "name": {
                                               "type": "JSXIdentifier",
+                                              "name": "button",
                                               "start": 1274,
-                                              "end": 1280,
-                                              "name": "button"
-                                            }
-                                          }
+                                              "end": 1280
+                                            },
+                                            "start": 1272,
+                                            "end": 1281
+                                          },
+                                          "start": 1206,
+                                          "end": 1281
                                         },
                                         {
                                           "type": "JSXText",
-                                          "start": 1281,
-                                          "end": 1310,
                                           "value": "\n                            ",
-                                          "raw": "\n                            "
+                                          "raw": "\n                            ",
+                                          "start": 1281,
+                                          "end": 1310
                                         },
                                         {
                                           "type": "JSXElement",
-                                          "start": 1310,
-                                          "end": 1421,
                                           "openingElement": {
                                             "type": "JSXOpeningElement",
-                                            "start": 1310,
-                                            "end": 1334,
                                             "name": {
                                               "type": "JSXIdentifier",
+                                              "name": "div",
                                               "start": 1311,
-                                              "end": 1314,
-                                              "name": "div"
+                                              "end": 1314
                                             },
                                             "typeArguments": null,
                                             "attributes": [
                                               {
                                                 "type": "JSXAttribute",
-                                                "start": 1315,
-                                                "end": 1333,
                                                 "name": {
                                                   "type": "JSXIdentifier",
+                                                  "name": "class",
                                                   "start": 1315,
-                                                  "end": 1320,
-                                                  "name": "class"
+                                                  "end": 1320
                                                 },
                                                 "value": {
                                                   "type": "Literal",
-                                                  "start": 1321,
-                                                  "end": 1333,
                                                   "value": "iconBorder",
-                                                  "raw": "\"iconBorder\""
-                                                }
+                                                  "raw": "\"iconBorder\"",
+                                                  "start": 1321,
+                                                  "end": 1333
+                                                },
+                                                "start": 1315,
+                                                "end": 1333
                                               }
                                             ],
-                                            "selfClosing": false
+                                            "selfClosing": false,
+                                            "start": 1310,
+                                            "end": 1334
                                           },
                                           "children": [
                                             {
                                               "type": "JSXText",
-                                              "start": 1334,
-                                              "end": 1367,
                                               "value": "\n                                ",
-                                              "raw": "\n                                "
+                                              "raw": "\n                                ",
+                                              "start": 1334,
+                                              "end": 1367
                                             },
                                             {
                                               "type": "JSXElement",
-                                              "start": 1367,
-                                              "end": 1386,
                                               "openingElement": {
                                                 "type": "JSXOpeningElement",
-                                                "start": 1367,
-                                                "end": 1386,
                                                 "name": {
                                                   "type": "JSXIdentifier",
+                                                  "name": "div",
                                                   "start": 1368,
-                                                  "end": 1371,
-                                                  "name": "div"
+                                                  "end": 1371
                                                 },
                                                 "typeArguments": null,
                                                 "attributes": [
                                                   {
                                                     "type": "JSXAttribute",
-                                                    "start": 1372,
-                                                    "end": 1384,
                                                     "name": {
                                                       "type": "JSXIdentifier",
+                                                      "name": "class",
                                                       "start": 1372,
-                                                      "end": 1377,
-                                                      "name": "class"
+                                                      "end": 1377
                                                     },
                                                     "value": {
                                                       "type": "Literal",
-                                                      "start": 1378,
-                                                      "end": 1384,
                                                       "value": "icon",
-                                                      "raw": "\"icon\""
-                                                    }
+                                                      "raw": "\"icon\"",
+                                                      "start": 1378,
+                                                      "end": 1384
+                                                    },
+                                                    "start": 1372,
+                                                    "end": 1384
                                                   }
                                                 ],
-                                                "selfClosing": true
+                                                "selfClosing": true,
+                                                "start": 1367,
+                                                "end": 1386
                                               },
                                               "children": [],
-                                              "closingElement": null
+                                              "closingElement": null,
+                                              "start": 1367,
+                                              "end": 1386
                                             },
                                             {
                                               "type": "JSXText",
-                                              "start": 1386,
-                                              "end": 1415,
                                               "value": "\n                            ",
-                                              "raw": "\n                            "
+                                              "raw": "\n                            ",
+                                              "start": 1386,
+                                              "end": 1415
                                             }
                                           ],
                                           "closingElement": {
                                             "type": "JSXClosingElement",
-                                            "start": 1415,
-                                            "end": 1421,
                                             "name": {
                                               "type": "JSXIdentifier",
+                                              "name": "div",
                                               "start": 1417,
-                                              "end": 1420,
-                                              "name": "div"
-                                            }
-                                          }
+                                              "end": 1420
+                                            },
+                                            "start": 1415,
+                                            "end": 1421
+                                          },
+                                          "start": 1310,
+                                          "end": 1421
                                         },
                                         {
                                           "type": "JSXText",
-                                          "start": 1421,
-                                          "end": 1446,
                                           "value": "\n                        ",
-                                          "raw": "\n                        "
+                                          "raw": "\n                        ",
+                                          "start": 1421,
+                                          "end": 1446
                                         }
                                       ],
                                       "closingElement": {
                                         "type": "JSXClosingElement",
-                                        "start": 1446,
-                                        "end": 1452,
                                         "name": {
                                           "type": "JSXIdentifier",
+                                          "name": "div",
                                           "start": 1448,
-                                          "end": 1451,
-                                          "name": "div"
-                                        }
-                                      }
+                                          "end": 1451
+                                        },
+                                        "start": 1446,
+                                        "end": 1452
+                                      },
+                                      "start": 865,
+                                      "end": 1452
                                     },
                                     {
                                       "type": "JSXText",
-                                      "start": 1452,
-                                      "end": 1473,
                                       "value": "\n                    ",
-                                      "raw": "\n                    "
+                                      "raw": "\n                    ",
+                                      "start": 1452,
+                                      "end": 1473
                                     }
                                   ],
                                   "closingElement": {
                                     "type": "JSXClosingElement",
-                                    "start": 1473,
-                                    "end": 1478,
                                     "name": {
                                       "type": "JSXIdentifier",
+                                      "name": "li",
                                       "start": 1475,
-                                      "end": 1477,
-                                      "name": "li"
-                                    }
-                                  }
+                                      "end": 1477
+                                    },
+                                    "start": 1473,
+                                    "end": 1478
+                                  },
+                                  "start": 753,
+                                  "end": 1478
                                 },
                                 "id": null,
-                                "generator": false
+                                "generator": false,
+                                "start": 723,
+                                "end": 1478
                               }
                             ],
-                            "optional": false
-                          }
+                            "optional": false,
+                            "start": 699,
+                            "end": 1496
+                          },
+                          "start": 698,
+                          "end": 1497
                         },
                         {
                           "type": "JSXText",
-                          "start": 1497,
-                          "end": 1510,
                           "value": "\n            ",
-                          "raw": "\n            "
+                          "raw": "\n            ",
+                          "start": 1497,
+                          "end": 1510
                         }
                       ],
                       "closingElement": {
                         "type": "JSXClosingElement",
-                        "start": 1510,
-                        "end": 1515,
                         "name": {
                           "type": "JSXIdentifier",
+                          "name": "ul",
                           "start": 1512,
-                          "end": 1514,
-                          "name": "ul"
-                        }
-                      }
+                          "end": 1514
+                        },
+                        "start": 1510,
+                        "end": 1515
+                      },
+                      "start": 659,
+                      "end": 1515
                     },
                     {
                       "type": "JSXText",
-                      "start": 1515,
-                      "end": 1524,
                       "value": "\n        ",
-                      "raw": "\n        "
+                      "raw": "\n        ",
+                      "start": 1515,
+                      "end": 1524
                     }
                   ],
                   "closingElement": {
                     "type": "JSXClosingElement",
-                    "start": 1524,
-                    "end": 1534,
                     "name": {
                       "type": "JSXIdentifier",
+                      "name": "section",
                       "start": 1526,
-                      "end": 1533,
-                      "name": "section"
-                    }
-                  }
+                      "end": 1533
+                    },
+                    "start": 1524,
+                    "end": 1534
+                  },
+                  "start": 458,
+                  "end": 1534
                 },
                 {
                   "type": "JSXText",
-                  "start": 1534,
-                  "end": 1539,
                   "value": "\n    ",
-                  "raw": "\n    "
+                  "raw": "\n    ",
+                  "start": 1534,
+                  "end": 1539
                 }
               ],
               "closingElement": {
                 "type": "JSXClosingElement",
-                "start": 1539,
-                "end": 1549,
                 "name": {
                   "type": "JSXIdentifier",
+                  "name": "section",
                   "start": 1541,
-                  "end": 1548,
-                  "name": "section"
-                }
-              }
+                  "end": 1548
+                },
+                "start": 1539,
+                "end": 1549
+              },
+              "start": 169,
+              "end": 1549
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 148,
+            "end": 1549
           },
-          "definite": false
+          "definite": false,
+          "start": 139,
+          "end": 1549
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 135,
+      "end": 1549
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1550
 }
 ```

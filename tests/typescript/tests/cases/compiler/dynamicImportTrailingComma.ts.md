@@ -2,64 +2,64 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 36,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 21,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 20,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 10,
             "decorators": [],
             "name": "path",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 10
           },
           "init": {
             "type": "Literal",
-            "start": 13,
-            "end": 20,
             "value": "./foo",
-            "raw": "'./foo'"
+            "raw": "'./foo'",
+            "start": 13,
+            "end": 20
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 20
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 21
     },
     {
       "type": "ExpressionStatement",
-      "start": 22,
-      "end": 36,
       "expression": {
         "type": "ImportExpression",
-        "start": 22,
-        "end": 35,
         "source": {
           "type": "Identifier",
-          "start": 29,
-          "end": 33,
           "decorators": [],
           "name": "path",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 29,
+          "end": 33
         },
         "options": null,
-        "phase": null
+        "phase": null,
+        "start": 22,
+        "end": 35
       },
-      "directive": null
+      "directive": null,
+      "start": 22,
+      "end": 36
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 36
 }
 ```

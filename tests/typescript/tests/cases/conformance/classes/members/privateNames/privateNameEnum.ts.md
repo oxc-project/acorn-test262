@@ -2,47 +2,47 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 17,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 7,
-        "end": 17,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 13,
-            "end": 15,
             "id": {
               "type": "PrivateIdentifier",
+              "name": "x",
               "start": 13,
-              "end": 15,
-              "name": "x"
+              "end": 15
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 13,
+            "end": 15
           }
-        ]
+        ],
+        "start": 7,
+        "end": 17
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 17
 }
 ```

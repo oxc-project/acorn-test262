@@ -1,100 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 553,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 403,
-      "end": 552,
       "expression": {
         "type": "CallExpression",
-        "start": 403,
-        "end": 551,
         "callee": {
           "type": "MemberExpression",
-          "start": 403,
-          "end": 419,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 403,
-            "end": 409,
-            "name": "assert"
+            "end": 409
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 410,
-            "end": 419,
-            "name": "sameValue"
+            "end": 419
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 403,
+          "end": 419
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 423,
-            "end": 453,
             "callee": {
               "type": "MemberExpression",
-              "start": 423,
-              "end": 444,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 423,
-                "end": 429,
-                "name": "Object"
+                "end": 429
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 430,
-                "end": 444,
-                "name": "getPrototypeOf"
+                "end": 444
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 423,
+              "end": 444
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 445,
-                "end": 452,
-                "name": "Atomics"
+                "end": 452
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 423,
+            "end": 453
           },
           {
             "type": "MemberExpression",
-            "start": 457,
-            "end": 473,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 457,
-              "end": 463,
-              "name": "Object"
+              "end": 463
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 464,
-              "end": 473,
-              "name": "prototype"
+              "end": 473
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 457,
+            "end": 473
           },
           {
             "type": "Literal",
-            "start": 477,
-            "end": 549,
             "value": "Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`",
-            "raw": "'Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`'"
+            "raw": "'Object.getPrototypeOf(Atomics) returns the value of `Object.prototype`'",
+            "start": 477,
+            "end": 549
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 403,
+        "end": 551
+      },
+      "start": 403,
+      "end": 552
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 553
 }

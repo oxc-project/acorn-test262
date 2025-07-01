@@ -1,370 +1,370 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 617,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 309,
-      "end": 336,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 313,
-          "end": 335,
           "id": {
             "type": "Identifier",
+            "name": "denseArray",
             "start": 313,
-            "end": 323,
-            "name": "denseArray"
+            "end": 323
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 326,
-            "end": 335,
             "elements": [
               {
                 "type": "Literal",
-                "start": 327,
-                "end": 328,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 327,
+                "end": 328
               },
               {
                 "type": "Literal",
-                "start": 330,
-                "end": 331,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 330,
+                "end": 331
               },
               {
                 "type": "Literal",
-                "start": 333,
-                "end": 334,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 333,
+                "end": 334
               }
-            ]
-          }
+            ],
+            "start": 326,
+            "end": 335
+          },
+          "start": 313,
+          "end": 335
         }
-      ]
+      ],
+      "start": 309,
+      "end": 336
     },
     {
       "type": "VariableDeclaration",
-      "start": 338,
-      "end": 357,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 342,
-          "end": 356,
           "id": {
             "type": "Identifier",
+            "name": "tempArray",
             "start": 342,
-            "end": 351,
-            "name": "tempArray"
+            "end": 351
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 354,
-            "end": 356,
-            "elements": []
-          }
+            "end": 356
+          },
+          "start": 342,
+          "end": 356
         }
-      ]
+      ],
+      "start": 338,
+      "end": 357
     },
     {
       "type": "ForInStatement",
-      "start": 358,
-      "end": 452,
       "left": {
         "type": "VariableDeclaration",
-        "start": 363,
-        "end": 368,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 367,
-            "end": 368,
             "id": {
               "type": "Identifier",
+              "name": "p",
               "start": 367,
-              "end": 368,
-              "name": "p"
+              "end": 368
             },
-            "init": null
+            "init": null,
+            "start": 367,
+            "end": 368
           }
-        ]
+        ],
+        "start": 363,
+        "end": 368
       },
       "right": {
         "type": "Identifier",
+        "name": "denseArray",
         "start": 372,
-        "end": 382,
-        "name": "denseArray"
+        "end": 382
       },
       "body": {
         "type": "BlockStatement",
-        "start": 384,
-        "end": 452,
         "body": [
           {
             "type": "IfStatement",
-            "start": 388,
-            "end": 450,
             "test": {
               "type": "CallExpression",
-              "start": 392,
-              "end": 420,
               "callee": {
                 "type": "MemberExpression",
-                "start": 392,
-                "end": 417,
                 "object": {
                   "type": "Identifier",
+                  "name": "denseArray",
                   "start": 392,
-                  "end": 402,
-                  "name": "denseArray"
+                  "end": 402
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasOwnProperty",
                   "start": 403,
-                  "end": 417,
-                  "name": "hasOwnProperty"
+                  "end": 417
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 392,
+                "end": 417
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "p",
                   "start": 418,
-                  "end": 419,
-                  "name": "p"
+                  "end": 419
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 392,
+              "end": 420
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 422,
-              "end": 450,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 428,
-                  "end": 446,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 428,
-                    "end": 445,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 428,
-                      "end": 442,
                       "object": {
                         "type": "Identifier",
+                        "name": "tempArray",
                         "start": 428,
-                        "end": 437,
-                        "name": "tempArray"
+                        "end": 437
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "push",
                         "start": 438,
-                        "end": 442,
-                        "name": "push"
+                        "end": 442
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 428,
+                      "end": 442
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "p",
                         "start": 443,
-                        "end": 444,
-                        "name": "p"
+                        "end": 444
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 428,
+                    "end": 445
+                  },
+                  "start": 428,
+                  "end": 446
                 }
-              ]
+              ],
+              "start": 422,
+              "end": 450
             },
-            "alternate": null
+            "alternate": null,
+            "start": 388,
+            "end": 450
           }
-        ]
-      }
+        ],
+        "start": 384,
+        "end": 452
+      },
+      "start": 358,
+      "end": 452
     },
     {
       "type": "VariableDeclaration",
-      "start": 454,
-      "end": 498,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 458,
-          "end": 497,
           "id": {
             "type": "Identifier",
+            "name": "returnedArray",
             "start": 458,
-            "end": 471,
-            "name": "returnedArray"
+            "end": 471
           },
           "init": {
             "type": "CallExpression",
-            "start": 474,
-            "end": 497,
             "callee": {
               "type": "MemberExpression",
-              "start": 474,
-              "end": 485,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 474,
-                "end": 480,
-                "name": "Object"
+                "end": 480
               },
               "property": {
                 "type": "Identifier",
+                "name": "keys",
                 "start": 481,
-                "end": 485,
-                "name": "keys"
+                "end": 485
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 474,
+              "end": 485
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "denseArray",
                 "start": 486,
-                "end": 496,
-                "name": "denseArray"
+                "end": 496
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 474,
+            "end": 497
+          },
+          "start": 458,
+          "end": 497
         }
-      ]
+      ],
+      "start": 454,
+      "end": 498
     },
     {
       "type": "ForInStatement",
-      "start": 500,
-      "end": 616,
       "left": {
         "type": "VariableDeclaration",
-        "start": 505,
-        "end": 514,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 509,
-            "end": 514,
             "id": {
               "type": "Identifier",
+              "name": "index",
               "start": 509,
-              "end": 514,
-              "name": "index"
+              "end": 514
             },
-            "init": null
+            "init": null,
+            "start": 509,
+            "end": 514
           }
-        ]
+        ],
+        "start": 505,
+        "end": 514
       },
       "right": {
         "type": "Identifier",
+        "name": "returnedArray",
         "start": 518,
-        "end": 531,
-        "name": "returnedArray"
+        "end": 531
       },
       "body": {
         "type": "BlockStatement",
-        "start": 533,
-        "end": 616,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 537,
-            "end": 614,
             "expression": {
               "type": "CallExpression",
-              "start": 537,
-              "end": 613,
               "callee": {
                 "type": "MemberExpression",
-                "start": 537,
-                "end": 553,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 537,
-                  "end": 543,
-                  "name": "assert"
+                  "end": 543
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 544,
-                  "end": 553,
-                  "name": "sameValue"
+                  "end": 553
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 537,
+                "end": 553
               },
               "arguments": [
                 {
                   "type": "MemberExpression",
-                  "start": 554,
-                  "end": 570,
                   "object": {
                     "type": "Identifier",
+                    "name": "tempArray",
                     "start": 554,
-                    "end": 563,
-                    "name": "tempArray"
+                    "end": 563
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "index",
                     "start": 564,
-                    "end": 569,
-                    "name": "index"
+                    "end": 569
                   },
                   "optional": false,
-                  "computed": true
+                  "computed": true,
+                  "start": 554,
+                  "end": 570
                 },
                 {
                   "type": "MemberExpression",
-                  "start": 572,
-                  "end": 592,
                   "object": {
                     "type": "Identifier",
+                    "name": "returnedArray",
                     "start": 572,
-                    "end": 585,
-                    "name": "returnedArray"
+                    "end": 585
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "index",
                     "start": 586,
-                    "end": 591,
-                    "name": "index"
+                    "end": 591
                   },
                   "optional": false,
-                  "computed": true
+                  "computed": true,
+                  "start": 572,
+                  "end": 592
                 },
                 {
                   "type": "Literal",
-                  "start": 594,
-                  "end": 612,
                   "value": "tempArray[index]",
-                  "raw": "'tempArray[index]'"
+                  "raw": "'tempArray[index]'",
+                  "start": 594,
+                  "end": 612
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 537,
+              "end": 613
+            },
+            "start": 537,
+            "end": 614
           }
-        ]
-      }
+        ],
+        "start": 533,
+        "end": 616
+      },
+      "start": 500,
+      "end": 616
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 617
 }

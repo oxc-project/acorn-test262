@@ -2,51 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 121,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 121,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 120,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "o",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 120,
             "properties": [
               {
                 "type": "Property",
-                "start": 16,
-                "end": 118,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 16,
-                  "end": 17,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 16,
+                  "end": 17
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 17,
-                  "end": 118,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -56,22 +44,14 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 20,
-                    "end": 118,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 101,
-                        "end": 112,
                         "expression": {
                           "type": "AssignmentExpression",
-                          "start": 101,
-                          "end": 111,
                           "operator": "=",
                           "left": {
                             "type": "MemberExpression",
-                            "start": 101,
-                            "end": 107,
                             "object": {
                               "type": "ThisExpression",
                               "start": 101,
@@ -79,44 +59,64 @@ __ESTREE_TEST__:PASS:
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 106,
-                              "end": 107,
                               "decorators": [],
                               "name": "a",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 106,
+                              "end": 107
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 101,
+                            "end": 107
                           },
                           "right": {
                             "type": "Literal",
-                            "start": 110,
-                            "end": 111,
                             "value": 0,
-                            "raw": "0"
-                          }
+                            "raw": "0",
+                            "start": 110,
+                            "end": 111
+                          },
+                          "start": 101,
+                          "end": 111
                         },
-                        "directive": null
+                        "directive": null,
+                        "start": 101,
+                        "end": 112
                       }
-                    ]
+                    ],
+                    "start": 20,
+                    "end": 118
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 17,
+                  "end": 118
                 },
                 "method": true,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 16,
+                "end": 118
               }
-            ]
+            ],
+            "start": 10,
+            "end": 120
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 120
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 121
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 121
 }
 ```

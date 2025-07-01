@@ -2,119 +2,119 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 38,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 10,
         "decorators": [],
         "name": "Baz",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 10
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 11,
-        "end": 38,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 13,
-            "end": 36,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 20,
-              "end": 36,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 24,
-                  "end": 35,
                   "id": {
                     "type": "Identifier",
-                    "start": 24,
-                    "end": 25,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 24,
+                    "end": 25
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 28,
-                    "end": 35,
                     "value": "hello",
-                    "raw": "\"hello\""
+                    "raw": "\"hello\"",
+                    "start": 28,
+                    "end": 35
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 24,
+                  "end": 35
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 20,
+              "end": 36
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 13,
+            "end": 36
           }
-        ]
+        ],
+        "start": 11,
+        "end": 38
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 38
     },
     {
       "type": "ExpressionStatement",
-      "start": 40,
-      "end": 58,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 40,
-        "end": 57,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 40,
-          "end": 45,
           "object": {
             "type": "Identifier",
-            "start": 40,
-            "end": 43,
             "decorators": [],
             "name": "Baz",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 43
           },
           "property": {
             "type": "Identifier",
-            "start": 44,
-            "end": 45,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 44,
+            "end": 45
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 40,
+          "end": 45
         },
         "right": {
           "type": "Literal",
-          "start": 48,
-          "end": 57,
           "value": "goodbye",
-          "raw": "\"goodbye\""
-        }
+          "raw": "\"goodbye\"",
+          "start": 48,
+          "end": 57
+        },
+        "start": 40,
+        "end": 57
       },
-      "directive": null
+      "directive": null,
+      "start": 40,
+      "end": 58
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```

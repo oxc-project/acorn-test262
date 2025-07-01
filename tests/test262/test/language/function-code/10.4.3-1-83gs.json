@@ -1,34 +1,24 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 490,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 328,
-      "end": 367,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 337,
-        "end": 338,
-        "name": "f"
+        "end": 338
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 341,
-        "end": 367,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 342,
-            "end": 366,
             "argument": {
               "type": "BinaryExpression",
-              "start": 349,
-              "end": 365,
               "left": {
                 "type": "ThisExpression",
                 "start": 349,
@@ -37,15 +27,23 @@
               "operator": "!==",
               "right": {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 356,
-                "end": 365,
-                "name": "undefined"
-              }
-            }
+                "end": 365
+              },
+              "start": 349,
+              "end": 365
+            },
+            "start": 342,
+            "end": 366
           }
-        ]
+        ],
+        "start": 341,
+        "end": 367
       },
-      "expression": false
+      "expression": false,
+      "start": 328,
+      "end": 367
     },
     {
       "type": "EmptyStatement",
@@ -54,104 +52,106 @@
     },
     {
       "type": "IfStatement",
-      "start": 369,
-      "end": 489,
       "test": {
         "type": "UnaryExpression",
-        "start": 373,
-        "end": 443,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 375,
-          "end": 443,
           "expression": {
             "type": "CallExpression",
-            "start": 376,
-            "end": 442,
             "callee": {
               "type": "ParenthesizedExpression",
-              "start": 376,
-              "end": 440,
               "expression": {
                 "type": "FunctionExpression",
-                "start": 377,
-                "end": 439,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 389,
-                  "end": 439,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 390,
-                      "end": 438,
                       "argument": {
                         "type": "CallExpression",
-                        "start": 397,
-                        "end": 437,
                         "callee": {
                           "type": "CallExpression",
-                          "start": 397,
-                          "end": 435,
                           "callee": {
                             "type": "Identifier",
+                            "name": "Function",
                             "start": 397,
-                            "end": 405,
-                            "name": "Function"
+                            "end": 405
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 406,
-                              "end": 434,
                               "value": "\"use strict\";return f();",
-                              "raw": "\"\\\"use strict\\\";return f();\""
+                              "raw": "\"\\\"use strict\\\";return f();\"",
+                              "start": 406,
+                              "end": 434
                             }
                           ],
-                          "optional": false
+                          "optional": false,
+                          "start": 397,
+                          "end": 435
                         },
                         "arguments": [],
-                        "optional": false
-                      }
+                        "optional": false,
+                        "start": 397,
+                        "end": 437
+                      },
+                      "start": 390,
+                      "end": 438
                     }
-                  ]
+                  ],
+                  "start": 389,
+                  "end": 439
                 },
-                "expression": false
-              }
+                "expression": false,
+                "start": 377,
+                "end": 439
+              },
+              "start": 376,
+              "end": 440
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 376,
+            "end": 442
+          },
+          "start": 375,
+          "end": 443
         },
-        "prefix": true
+        "prefix": true,
+        "start": 373,
+        "end": 443
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 445,
-        "end": 489,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 451,
-            "end": 487,
             "argument": {
               "type": "Literal",
-              "start": 457,
-              "end": 486,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
-            }
+              "raw": "\"'this' had incorrect value!\"",
+              "start": 457,
+              "end": 486
+            },
+            "start": 451,
+            "end": 487
           }
-        ]
+        ],
+        "start": 445,
+        "end": 489
       },
-      "alternate": null
+      "alternate": null,
+      "start": 369,
+      "end": 489
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 490
 }

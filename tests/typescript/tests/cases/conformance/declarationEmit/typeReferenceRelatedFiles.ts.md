@@ -2,134 +2,128 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 32,
-  "end": 32,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 32,
+  "end": 32
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 50,
       "id": {
         "type": "Literal",
-        "start": 15,
-        "end": 19,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 15,
+        "end": 19
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 20,
-        "end": 50,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 26,
-            "end": 48,
             "id": {
               "type": "Identifier",
-              "start": 36,
-              "end": 45,
               "decorators": [],
               "name": "FSWatcher",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 45
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 46,
-              "end": 48,
-              "body": []
+              "end": 48
             },
-            "declare": false
+            "declare": false,
+            "start": 26,
+            "end": 48
           }
-        ]
+        ],
+        "start": 20,
+        "end": 50
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 50
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 50
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 31,
-  "end": 114,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 31,
-      "end": 62,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 40,
-          "end": 49,
           "imported": {
             "type": "Identifier",
-            "start": 40,
-            "end": 49,
             "decorators": [],
             "name": "FSWatcher",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 49
           },
           "local": {
             "type": "Identifier",
-            "start": 40,
-            "end": 49,
             "decorators": [],
             "name": "FSWatcher",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 49
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 40,
+          "end": 49
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 57,
-        "end": 61,
         "value": "fs",
-        "raw": "\"fs\""
+        "raw": "\"fs\"",
+        "start": 57,
+        "end": 61
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 31,
+      "end": 62
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 63,
-      "end": 114,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 70,
-        "end": 114,
         "id": {
           "type": "Identifier",
-          "start": 79,
-          "end": 80,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 79,
+          "end": 80
         },
         "generator": false,
         "async": false,
@@ -139,51 +133,57 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 83,
-          "end": 114,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 89,
-              "end": 112,
               "argument": {
                 "type": "TSAsExpression",
-                "start": 96,
-                "end": 111,
                 "expression": {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 96,
-                  "end": 98,
-                  "properties": []
+                  "end": 98
                 },
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 102,
-                  "end": 111,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 102,
-                    "end": 111,
                     "decorators": [],
                     "name": "FSWatcher",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 102,
+                    "end": 111
                   },
-                  "typeArguments": null
-                }
-              }
+                  "typeArguments": null,
+                  "start": 102,
+                  "end": 111
+                },
+                "start": 96,
+                "end": 111
+              },
+              "start": 89,
+              "end": 112
             }
-          ]
+          ],
+          "start": 83,
+          "end": 114
         },
-        "expression": false
+        "expression": false,
+        "start": 70,
+        "end": 114
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 63,
+      "end": 114
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 31,
+  "end": 114
 }
 ```

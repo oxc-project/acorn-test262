@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 356,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 273,
-      "end": 355,
       "expression": {
         "type": "CallExpression",
-        "start": 273,
-        "end": 354,
         "callee": {
           "type": "MemberExpression",
-          "start": 273,
-          "end": 289,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 273,
-            "end": 279,
-            "name": "assert"
+            "end": 279
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 280,
-            "end": 289,
-            "name": "sameValue"
+            "end": 289
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 273,
+          "end": 289
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 290,
-            "end": 316,
             "callee": {
               "type": "MemberExpression",
-              "start": 290,
-              "end": 314,
               "object": {
                 "type": "Literal",
-                "start": 290,
-                "end": 309,
                 "value": " \tabc \t",
-                "raw": "\" \\u0009abc \\u0009\""
+                "raw": "\" \\u0009abc \\u0009\"",
+                "start": 290,
+                "end": 309
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 310,
-                "end": 314,
-                "name": "trim"
+                "end": 314
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 290,
+              "end": 314
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 290,
+            "end": 316
           },
           {
             "type": "Literal",
-            "start": 318,
-            "end": 323,
             "value": "abc",
-            "raw": "\"abc\""
+            "raw": "\"abc\"",
+            "start": 318,
+            "end": 323
           },
           {
             "type": "Literal",
-            "start": 325,
-            "end": 353,
             "value": "\" \tabc \t\".trim()",
-            "raw": "'\" \\u0009abc \\u0009\".trim()'"
+            "raw": "'\" \\u0009abc \\u0009\".trim()'",
+            "start": 325,
+            "end": 353
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 273,
+        "end": 354
+      },
+      "start": 273,
+      "end": 355
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 356
 }

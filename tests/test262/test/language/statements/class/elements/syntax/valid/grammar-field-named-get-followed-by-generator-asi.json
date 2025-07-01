@@ -1,413 +1,413 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1330,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 897,
-      "end": 924,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "A",
         "start": 903,
-        "end": 904,
-        "name": "A"
+        "end": 904
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 905,
-        "end": 924,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 909,
-            "end": 912,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "get",
               "start": 909,
-              "end": 912,
-              "name": "get"
+              "end": 912
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 909,
+            "end": 912
           },
           {
             "type": "MethodDefinition",
-            "start": 915,
-            "end": 922,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "a",
               "start": 916,
-              "end": 917,
-              "name": "a"
+              "end": 917
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 917,
-              "end": 922,
               "id": null,
               "generator": true,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 920,
-                "end": 922,
-                "body": []
+                "end": 922
               },
-              "expression": false
+              "expression": false,
+              "start": 917,
+              "end": 922
             },
             "kind": "method",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 915,
+            "end": 922
           }
-        ]
-      }
+        ],
+        "start": 905,
+        "end": 924
+      },
+      "start": 897,
+      "end": 924
     },
     {
       "type": "ClassDeclaration",
-      "start": 926,
-      "end": 960,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "B",
         "start": 932,
-        "end": 933,
-        "name": "B"
+        "end": 933
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 934,
-        "end": 960,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 938,
-            "end": 948,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "get",
               "start": 945,
-              "end": 948,
-              "name": "get"
+              "end": 948
             },
             "value": null,
             "computed": false,
-            "static": true
+            "static": true,
+            "start": 938,
+            "end": 948
           },
           {
             "type": "MethodDefinition",
-            "start": 951,
-            "end": 958,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "a",
               "start": 952,
-              "end": 953,
-              "name": "a"
+              "end": 953
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 953,
-              "end": 958,
               "id": null,
               "generator": true,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 956,
-                "end": 958,
-                "body": []
+                "end": 958
               },
-              "expression": false
+              "expression": false,
+              "start": 953,
+              "end": 958
             },
             "kind": "method",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 951,
+            "end": 958
           }
-        ]
-      }
+        ],
+        "start": 934,
+        "end": 960
+      },
+      "start": 926,
+      "end": 960
     },
     {
       "type": "ExpressionStatement",
-      "start": 962,
-      "end": 1059,
       "expression": {
         "type": "CallExpression",
-        "start": 962,
-        "end": 1058,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 962,
-          "end": 968,
-          "name": "assert"
+          "end": 968
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 972,
-            "end": 1003,
             "callee": {
               "type": "MemberExpression",
-              "start": 972,
-              "end": 998,
               "object": {
                 "type": "MemberExpression",
-                "start": 972,
-                "end": 983,
                 "object": {
                   "type": "Identifier",
+                  "name": "A",
                   "start": 972,
-                  "end": 973,
-                  "name": "A"
+                  "end": 973
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 974,
-                  "end": 983,
-                  "name": "prototype"
+                  "end": 983
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 972,
+                "end": 983
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 984,
-                "end": 998,
-                "name": "hasOwnProperty"
+                "end": 998
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 972,
+              "end": 998
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 999,
-                "end": 1002,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "start": 999,
+                "end": 1002
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 972,
+            "end": 1003
           },
           {
             "type": "Literal",
-            "start": 1007,
-            "end": 1056,
             "value": "(A) The generator is installed on the prototype",
-            "raw": "\"(A) The generator is installed on the prototype\""
+            "raw": "\"(A) The generator is installed on the prototype\"",
+            "start": 1007,
+            "end": 1056
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 962,
+        "end": 1058
+      },
+      "start": 962,
+      "end": 1059
     },
     {
       "type": "ExpressionStatement",
-      "start": 1060,
-      "end": 1153,
       "expression": {
         "type": "CallExpression",
-        "start": 1060,
-        "end": 1152,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1060,
-          "end": 1066,
-          "name": "assert"
+          "end": 1066
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1070,
-            "end": 1099,
             "callee": {
               "type": "MemberExpression",
-              "start": 1070,
-              "end": 1092,
               "object": {
                 "type": "NewExpression",
-                "start": 1070,
-                "end": 1077,
                 "callee": {
                   "type": "Identifier",
+                  "name": "A",
                   "start": 1074,
-                  "end": 1075,
-                  "name": "A"
+                  "end": 1075
                 },
-                "arguments": []
+                "arguments": [],
+                "start": 1070,
+                "end": 1077
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 1078,
-                "end": 1092,
-                "name": "hasOwnProperty"
+                "end": 1092
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1070,
+              "end": 1092
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1093,
-                "end": 1098,
                 "value": "get",
-                "raw": "\"get\""
+                "raw": "\"get\"",
+                "start": 1093,
+                "end": 1098
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1070,
+            "end": 1099
           },
           {
             "type": "Literal",
-            "start": 1103,
-            "end": 1150,
             "value": "(A) The field is installed on class instances",
-            "raw": "\"(A) The field is installed on class instances\""
+            "raw": "\"(A) The field is installed on class instances\"",
+            "start": 1103,
+            "end": 1150
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1060,
+        "end": 1152
+      },
+      "start": 1060,
+      "end": 1153
     },
     {
       "type": "ExpressionStatement",
-      "start": 1154,
-      "end": 1251,
       "expression": {
         "type": "CallExpression",
-        "start": 1154,
-        "end": 1250,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1154,
-          "end": 1160,
-          "name": "assert"
+          "end": 1160
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1164,
-            "end": 1195,
             "callee": {
               "type": "MemberExpression",
-              "start": 1164,
-              "end": 1190,
               "object": {
                 "type": "MemberExpression",
-                "start": 1164,
-                "end": 1175,
                 "object": {
                   "type": "Identifier",
+                  "name": "B",
                   "start": 1164,
-                  "end": 1165,
-                  "name": "B"
+                  "end": 1165
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 1166,
-                  "end": 1175,
-                  "name": "prototype"
+                  "end": 1175
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1164,
+                "end": 1175
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 1176,
-                "end": 1190,
-                "name": "hasOwnProperty"
+                "end": 1190
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1164,
+              "end": 1190
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1191,
-                "end": 1194,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "start": 1191,
+                "end": 1194
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1164,
+            "end": 1195
           },
           {
             "type": "Literal",
-            "start": 1199,
-            "end": 1248,
             "value": "(B) The generator is installed on the prototype",
-            "raw": "\"(B) The generator is installed on the prototype\""
+            "raw": "\"(B) The generator is installed on the prototype\"",
+            "start": 1199,
+            "end": 1248
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1154,
+        "end": 1250
+      },
+      "start": 1154,
+      "end": 1251
     },
     {
       "type": "ExpressionStatement",
-      "start": 1252,
-      "end": 1329,
       "expression": {
         "type": "CallExpression",
-        "start": 1252,
-        "end": 1328,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1252,
-          "end": 1258,
-          "name": "assert"
+          "end": 1258
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1262,
-            "end": 1285,
             "callee": {
               "type": "MemberExpression",
-              "start": 1262,
-              "end": 1278,
               "object": {
                 "type": "Identifier",
+                "name": "B",
                 "start": 1262,
-                "end": 1263,
-                "name": "B"
+                "end": 1263
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 1264,
-                "end": 1278,
-                "name": "hasOwnProperty"
+                "end": 1278
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1262,
+              "end": 1278
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1279,
-                "end": 1284,
                 "value": "get",
-                "raw": "\"get\""
+                "raw": "\"get\"",
+                "start": 1279,
+                "end": 1284
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1262,
+            "end": 1285
           },
           {
             "type": "Literal",
-            "start": 1289,
-            "end": 1326,
             "value": "(B) The field is installed on class",
-            "raw": "\"(B) The field is installed on class\""
+            "raw": "\"(B) The field is installed on class\"",
+            "start": 1289,
+            "end": 1326
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1252,
+        "end": 1328
+      },
+      "start": 1252,
+      "end": 1329
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1330
 }

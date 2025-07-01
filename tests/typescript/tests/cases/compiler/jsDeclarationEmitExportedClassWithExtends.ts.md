@@ -2,80 +2,74 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "ExportAllDeclaration",
-      "start": 0,
-      "end": 43,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 42,
         "value": "lit-element/lit-element.js",
-        "raw": "\"lit-element/lit-element.js\""
+        "raw": "\"lit-element/lit-element.js\"",
+        "start": 14,
+        "end": 42
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 43
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
   "body": [
     {
       "type": "ExportAllDeclaration",
-      "start": 0,
-      "end": 33,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 14,
-        "end": 32,
         "value": "./lit-element.js",
-        "raw": "\"./lit-element.js\""
+        "raw": "\"./lit-element.js\"",
+        "start": 14,
+        "end": 32
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 33
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 33
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 26,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 26,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 23,
           "decorators": [],
           "name": "LitElement",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 23
         },
         "typeParameters": null,
         "superClass": null,
@@ -83,185 +77,191 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 24,
-          "end": 26,
-          "body": []
+          "end": 26
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 26
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 26
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 26
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 149,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 60,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 9,
-          "end": 19,
           "imported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 19,
             "decorators": [],
             "name": "LitElement",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 19
           },
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 19,
             "decorators": [],
             "name": "LitElement",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 19
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 9,
+          "end": 19
         },
         {
           "type": "ImportSpecifier",
-          "start": 21,
-          "end": 46,
           "imported": {
             "type": "Identifier",
-            "start": 21,
-            "end": 31,
             "decorators": [],
             "name": "LitElement",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 21,
+            "end": 31
           },
           "local": {
             "type": "Identifier",
-            "start": 35,
-            "end": 46,
             "decorators": [],
             "name": "LitElement2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 35,
+            "end": 46
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 21,
+          "end": 46
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 54,
-        "end": 59,
         "value": "lit",
-        "raw": "\"lit\""
+        "raw": "\"lit\"",
+        "start": 54,
+        "end": 59
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 60
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 61,
-      "end": 104,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 68,
-        "end": 104,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 74,
-          "end": 82,
           "decorators": [],
           "name": "ElementB",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 74,
+          "end": 82
         },
         "typeParameters": null,
         "superClass": {
           "type": "Identifier",
-          "start": 91,
-          "end": 101,
           "decorators": [],
           "name": "LitElement",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 91,
+          "end": 101
         },
         "superTypeArguments": null,
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 102,
-          "end": 104,
-          "body": []
+          "end": 104
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 68,
+        "end": 104
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 61,
+      "end": 104
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 105,
-      "end": 149,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 112,
-        "end": 149,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 118,
-          "end": 126,
           "decorators": [],
           "name": "ElementC",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 118,
+          "end": 126
         },
         "typeParameters": null,
         "superClass": {
           "type": "Identifier",
-          "start": 135,
-          "end": 146,
           "decorators": [],
           "name": "LitElement2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 135,
+          "end": 146
         },
         "superTypeArguments": null,
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 147,
-          "end": 149,
-          "body": []
+          "end": 149
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 112,
+        "end": 149
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 105,
+      "end": 149
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 149
 }
 ```

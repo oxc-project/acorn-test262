@@ -1,1431 +1,1431 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1890,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 397,
       "expression": {
         "type": "CallExpression",
-        "start": 267,
-        "end": 396,
         "callee": {
           "type": "MemberExpression",
-          "start": 267,
-          "end": 283,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 267,
-            "end": 273,
-            "name": "assert"
+            "end": 273
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 274,
-            "end": 283,
-            "name": "sameValue"
+            "end": 283
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 267,
+          "end": 283
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 287,
-            "end": 326,
             "callee": {
               "type": "MemberExpression",
-              "start": 287,
-              "end": 305,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 287,
-                "end": 294,
-                "name": "Atomics"
+                "end": 294
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 295,
-                "end": 305,
-                "name": "isLockFree"
+                "end": 305
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 287,
+              "end": 305
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 306,
-                "end": 325,
                 "callee": {
                   "type": "Identifier",
+                  "name": "hide",
                   "start": 306,
-                  "end": 310,
-                  "name": "hide"
+                  "end": 310
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 311,
-                    "end": 312,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "start": 311,
+                    "end": 312
                   },
                   {
                     "type": "MemberExpression",
-                    "start": 314,
-                    "end": 324,
                     "object": {
                       "type": "Identifier",
+                      "name": "Number",
                       "start": 314,
-                      "end": 320,
-                      "name": "Number"
+                      "end": 320
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "NaN",
                       "start": 321,
-                      "end": 324,
-                      "name": "NaN"
+                      "end": 324
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 314,
+                    "end": 324
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 306,
+                "end": 325
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 287,
+            "end": 326
           },
           {
             "type": "Literal",
-            "start": 330,
-            "end": 335,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 330,
+            "end": 335
           },
           {
             "type": "Literal",
-            "start": 339,
-            "end": 394,
             "value": "Atomics.isLockFree(hide(3, Number.NaN)) returns false",
-            "raw": "'Atomics.isLockFree(hide(3, Number.NaN)) returns false'"
+            "raw": "'Atomics.isLockFree(hide(3, Number.NaN)) returns false'",
+            "start": 339,
+            "end": 394
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 267,
+        "end": 396
+      },
+      "start": 267,
+      "end": 397
     },
     {
       "type": "ExpressionStatement",
-      "start": 398,
-      "end": 512,
       "expression": {
         "type": "CallExpression",
-        "start": 398,
-        "end": 511,
         "callee": {
           "type": "MemberExpression",
-          "start": 398,
-          "end": 414,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 398,
-            "end": 404,
-            "name": "assert"
+            "end": 404
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 405,
-            "end": 414,
-            "name": "sameValue"
+            "end": 414
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 398,
+          "end": 414
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 418,
-            "end": 449,
             "callee": {
               "type": "MemberExpression",
-              "start": 418,
-              "end": 436,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 418,
-                "end": 425,
-                "name": "Atomics"
+                "end": 425
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 426,
-                "end": 436,
-                "name": "isLockFree"
+                "end": 436
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 418,
+              "end": 436
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 437,
-                "end": 448,
                 "callee": {
                   "type": "Identifier",
+                  "name": "hide",
                   "start": 437,
-                  "end": 441,
-                  "name": "hide"
+                  "end": 441
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 442,
-                    "end": 443,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "start": 442,
+                    "end": 443
                   },
                   {
                     "type": "UnaryExpression",
-                    "start": 445,
-                    "end": 447,
                     "operator": "-",
                     "argument": {
                       "type": "Literal",
-                      "start": 446,
-                      "end": 447,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "start": 446,
+                      "end": 447
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 445,
+                    "end": 447
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 437,
+                "end": 448
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 418,
+            "end": 449
           },
           {
             "type": "Literal",
+            "value": false,
+            "raw": "false",
             "start": 453,
-            "end": 458,
-            "value": false,
-            "raw": "false"
+            "end": 458
           },
           {
             "type": "Literal",
-            "start": 462,
-            "end": 509,
             "value": "Atomics.isLockFree(hide(3, -1)) returns false",
-            "raw": "'Atomics.isLockFree(hide(3, -1)) returns false'"
+            "raw": "'Atomics.isLockFree(hide(3, -1)) returns false'",
+            "start": 462,
+            "end": 509
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 398,
+        "end": 511
+      },
+      "start": 398,
+      "end": 512
     },
     {
       "type": "ExpressionStatement",
-      "start": 513,
-      "end": 631,
       "expression": {
         "type": "CallExpression",
-        "start": 513,
-        "end": 630,
         "callee": {
           "type": "MemberExpression",
-          "start": 513,
-          "end": 529,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 513,
-            "end": 519,
-            "name": "assert"
+            "end": 519
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 520,
-            "end": 529,
-            "name": "sameValue"
+            "end": 529
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 513,
+          "end": 529
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 533,
-            "end": 566,
             "callee": {
               "type": "MemberExpression",
-              "start": 533,
-              "end": 551,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 533,
-                "end": 540,
-                "name": "Atomics"
+                "end": 540
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 541,
-                "end": 551,
-                "name": "isLockFree"
+                "end": 551
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 533,
+              "end": 551
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 552,
-                "end": 565,
                 "callee": {
                   "type": "Identifier",
+                  "name": "hide",
                   "start": 552,
-                  "end": 556,
-                  "name": "hide"
+                  "end": 556
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 557,
-                    "end": 558,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "start": 557,
+                    "end": 558
                   },
                   {
                     "type": "Literal",
-                    "start": 560,
-                    "end": 564,
                     "value": 3.14,
-                    "raw": "3.14"
+                    "raw": "3.14",
+                    "start": 560,
+                    "end": 564
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 552,
+                "end": 565
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 533,
+            "end": 566
           },
           {
             "type": "Literal",
-            "start": 570,
-            "end": 575,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 570,
+            "end": 575
           },
           {
             "type": "Literal",
-            "start": 579,
-            "end": 628,
             "value": "Atomics.isLockFree(hide(3, 3.14)) returns false",
-            "raw": "'Atomics.isLockFree(hide(3, 3.14)) returns false'"
+            "raw": "'Atomics.isLockFree(hide(3, 3.14)) returns false'",
+            "start": 579,
+            "end": 628
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 513,
+        "end": 630
+      },
+      "start": 513,
+      "end": 631
     },
     {
       "type": "ExpressionStatement",
-      "start": 632,
-      "end": 744,
       "expression": {
         "type": "CallExpression",
-        "start": 632,
-        "end": 743,
         "callee": {
           "type": "MemberExpression",
-          "start": 632,
-          "end": 648,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 632,
-            "end": 638,
-            "name": "assert"
+            "end": 638
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 639,
-            "end": 648,
-            "name": "sameValue"
+            "end": 648
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 632,
+          "end": 648
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 652,
-            "end": 682,
             "callee": {
               "type": "MemberExpression",
-              "start": 652,
-              "end": 670,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 652,
-                "end": 659,
-                "name": "Atomics"
+                "end": 659
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 660,
-                "end": 670,
-                "name": "isLockFree"
+                "end": 670
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 652,
+              "end": 670
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 671,
-                "end": 681,
                 "callee": {
                   "type": "Identifier",
+                  "name": "hide",
                   "start": 671,
-                  "end": 675,
-                  "name": "hide"
+                  "end": 675
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 676,
-                    "end": 677,
                     "value": 3,
-                    "raw": "3"
+                    "raw": "3",
+                    "start": 676,
+                    "end": 677
                   },
                   {
                     "type": "Literal",
-                    "start": 679,
-                    "end": 680,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 679,
+                    "end": 680
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 671,
+                "end": 681
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 652,
+            "end": 682
           },
           {
             "type": "Literal",
-            "start": 686,
-            "end": 691,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 686,
+            "end": 691
           },
           {
             "type": "Literal",
-            "start": 695,
-            "end": 741,
             "value": "Atomics.isLockFree(hide(3, 0)) returns false",
-            "raw": "'Atomics.isLockFree(hide(3, 0)) returns false'"
+            "raw": "'Atomics.isLockFree(hide(3, 0)) returns false'",
+            "start": 695,
+            "end": 741
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 632,
+        "end": 743
+      },
+      "start": 632,
+      "end": 744
     },
     {
       "type": "ExpressionStatement",
-      "start": 746,
-      "end": 878,
       "expression": {
         "type": "CallExpression",
-        "start": 746,
-        "end": 877,
         "callee": {
           "type": "MemberExpression",
-          "start": 746,
-          "end": 762,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 746,
-            "end": 752,
-            "name": "assert"
+            "end": 752
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 753,
-            "end": 762,
-            "name": "sameValue"
+            "end": 762
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 746,
+          "end": 762
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 766,
-            "end": 789,
             "callee": {
               "type": "MemberExpression",
-              "start": 766,
-              "end": 784,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 766,
-                "end": 773,
-                "name": "Atomics"
+                "end": 773
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 774,
-                "end": 784,
-                "name": "isLockFree"
+                "end": 784
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 766,
+              "end": 784
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 785,
-                "end": 788,
                 "value": "1",
-                "raw": "'1'"
+                "raw": "'1'",
+                "start": 785,
+                "end": 788
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 766,
+            "end": 789
           },
           {
             "type": "CallExpression",
-            "start": 793,
-            "end": 814,
             "callee": {
               "type": "MemberExpression",
-              "start": 793,
-              "end": 811,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 793,
-                "end": 800,
-                "name": "Atomics"
+                "end": 800
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 801,
-                "end": 811,
-                "name": "isLockFree"
+                "end": 811
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 793,
+              "end": 811
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": 1,
+                "raw": "1",
                 "start": 812,
-                "end": 813,
-                "value": 1,
-                "raw": "1"
+                "end": 813
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 793,
+            "end": 814
           },
           {
             "type": "Literal",
-            "start": 818,
-            "end": 875,
             "value": "Atomics.isLockFree('1') returns Atomics.isLockFree(1)",
-            "raw": "'Atomics.isLockFree(\\'1\\') returns Atomics.isLockFree(1)'"
+            "raw": "'Atomics.isLockFree(\\'1\\') returns Atomics.isLockFree(1)'",
+            "start": 818,
+            "end": 875
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 746,
+        "end": 877
+      },
+      "start": 746,
+      "end": 878
     },
     {
       "type": "ExpressionStatement",
-      "start": 879,
-      "end": 1011,
       "expression": {
         "type": "CallExpression",
-        "start": 879,
-        "end": 1010,
         "callee": {
           "type": "MemberExpression",
-          "start": 879,
-          "end": 895,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 879,
-            "end": 885,
-            "name": "assert"
+            "end": 885
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 886,
-            "end": 895,
-            "name": "sameValue"
+            "end": 895
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 879,
+          "end": 895
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 899,
-            "end": 922,
             "callee": {
               "type": "MemberExpression",
-              "start": 899,
-              "end": 917,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 899,
-                "end": 906,
-                "name": "Atomics"
+                "end": 906
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 907,
-                "end": 917,
-                "name": "isLockFree"
+                "end": 917
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 899,
+              "end": 917
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 918,
-                "end": 921,
                 "value": "3",
-                "raw": "'3'"
+                "raw": "'3'",
+                "start": 918,
+                "end": 921
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 899,
+            "end": 922
           },
           {
             "type": "CallExpression",
-            "start": 926,
-            "end": 947,
             "callee": {
               "type": "MemberExpression",
-              "start": 926,
-              "end": 944,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 926,
-                "end": 933,
-                "name": "Atomics"
+                "end": 933
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 934,
-                "end": 944,
-                "name": "isLockFree"
+                "end": 944
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 926,
+              "end": 944
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": 3,
+                "raw": "3",
                 "start": 945,
-                "end": 946,
-                "value": 3,
-                "raw": "3"
+                "end": 946
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 926,
+            "end": 947
           },
           {
             "type": "Literal",
-            "start": 951,
-            "end": 1008,
             "value": "Atomics.isLockFree('3') returns Atomics.isLockFree(3)",
-            "raw": "'Atomics.isLockFree(\\'3\\') returns Atomics.isLockFree(3)'"
+            "raw": "'Atomics.isLockFree(\\'3\\') returns Atomics.isLockFree(3)'",
+            "start": 951,
+            "end": 1008
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 879,
+        "end": 1010
+      },
+      "start": 879,
+      "end": 1011
     },
     {
       "type": "ExpressionStatement",
-      "start": 1013,
-      "end": 1145,
       "expression": {
         "type": "CallExpression",
-        "start": 1013,
-        "end": 1144,
         "callee": {
           "type": "MemberExpression",
-          "start": 1013,
-          "end": 1029,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1013,
-            "end": 1019,
-            "name": "assert"
+            "end": 1019
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1020,
-            "end": 1029,
-            "name": "sameValue"
+            "end": 1029
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1013,
+          "end": 1029
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1033,
-            "end": 1057,
             "callee": {
               "type": "MemberExpression",
-              "start": 1033,
-              "end": 1051,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1033,
-                "end": 1040,
-                "name": "Atomics"
+                "end": 1040
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1041,
-                "end": 1051,
-                "name": "isLockFree"
+                "end": 1051
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1033,
+              "end": 1051
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1052,
-                "end": 1056,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 1052,
+                "end": 1056
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1033,
+            "end": 1057
           },
           {
             "type": "CallExpression",
-            "start": 1061,
-            "end": 1082,
             "callee": {
               "type": "MemberExpression",
-              "start": 1061,
-              "end": 1079,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1061,
-                "end": 1068,
-                "name": "Atomics"
+                "end": 1068
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1069,
-                "end": 1079,
-                "name": "isLockFree"
+                "end": 1079
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1061,
+              "end": 1079
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": 1,
+                "raw": "1",
                 "start": 1080,
-                "end": 1081,
-                "value": 1,
-                "raw": "1"
+                "end": 1081
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1061,
+            "end": 1082
           },
           {
             "type": "Literal",
-            "start": 1086,
-            "end": 1142,
             "value": "Atomics.isLockFree(true) returns Atomics.isLockFree(1)",
-            "raw": "'Atomics.isLockFree(true) returns Atomics.isLockFree(1)'"
+            "raw": "'Atomics.isLockFree(true) returns Atomics.isLockFree(1)'",
+            "start": 1086,
+            "end": 1142
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1013,
+        "end": 1144
+      },
+      "start": 1013,
+      "end": 1145
     },
     {
       "type": "ExpressionStatement",
-      "start": 1147,
-      "end": 1307,
       "expression": {
         "type": "CallExpression",
-        "start": 1147,
-        "end": 1306,
         "callee": {
           "type": "MemberExpression",
-          "start": 1147,
-          "end": 1163,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1147,
-            "end": 1153,
-            "name": "assert"
+            "end": 1153
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1154,
-            "end": 1163,
-            "name": "sameValue"
+            "end": 1163
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1147,
+          "end": 1163
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1167,
-            "end": 1188,
             "callee": {
               "type": "MemberExpression",
-              "start": 1167,
-              "end": 1185,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1167,
-                "end": 1174,
-                "name": "Atomics"
+                "end": 1174
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1175,
-                "end": 1185,
-                "name": "isLockFree"
+                "end": 1185
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1167,
+              "end": 1185
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": 1,
+                "raw": "1",
                 "start": 1186,
-                "end": 1187,
-                "value": 1,
-                "raw": "1"
+                "end": 1187
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1167,
+            "end": 1188
           },
           {
             "type": "CallExpression",
-            "start": 1192,
-            "end": 1230,
             "callee": {
               "type": "MemberExpression",
-              "start": 1192,
-              "end": 1210,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1192,
-                "end": 1199,
-                "name": "Atomics"
+                "end": 1199
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1200,
-                "end": 1210,
-                "name": "isLockFree"
+                "end": 1210
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1192,
+              "end": 1210
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 1211,
-                "end": 1229,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1212,
-                    "end": 1228,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "valueOf",
                       "start": 1212,
-                      "end": 1219,
-                      "name": "valueOf"
+                      "end": 1219
                     },
                     "value": {
                       "type": "ArrowFunctionExpression",
-                      "start": 1221,
-                      "end": 1228,
                       "expression": true,
                       "async": false,
                       "params": [],
                       "body": {
                         "type": "Literal",
-                        "start": 1227,
-                        "end": 1228,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 1227,
+                        "end": 1228
                       },
                       "id": null,
-                      "generator": false
+                      "generator": false,
+                      "start": 1221,
+                      "end": 1228
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1212,
+                    "end": 1228
                   }
-                ]
+                ],
+                "start": 1211,
+                "end": 1229
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1192,
+            "end": 1230
           },
           {
             "type": "Literal",
-            "start": 1234,
-            "end": 1304,
             "value": "Atomics.isLockFree(1) returns Atomics.isLockFree({valueOf: () => 1})",
-            "raw": "'Atomics.isLockFree(1) returns Atomics.isLockFree({valueOf: () => 1})'"
+            "raw": "'Atomics.isLockFree(1) returns Atomics.isLockFree({valueOf: () => 1})'",
+            "start": 1234,
+            "end": 1304
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1147,
+        "end": 1306
+      },
+      "start": 1147,
+      "end": 1307
     },
     {
       "type": "ExpressionStatement",
-      "start": 1308,
-      "end": 1468,
       "expression": {
         "type": "CallExpression",
-        "start": 1308,
-        "end": 1467,
         "callee": {
           "type": "MemberExpression",
-          "start": 1308,
-          "end": 1324,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1308,
-            "end": 1314,
-            "name": "assert"
+            "end": 1314
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1315,
-            "end": 1324,
-            "name": "sameValue"
+            "end": 1324
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1308,
+          "end": 1324
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1328,
-            "end": 1349,
             "callee": {
               "type": "MemberExpression",
-              "start": 1328,
-              "end": 1346,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1328,
-                "end": 1335,
-                "name": "Atomics"
+                "end": 1335
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1336,
-                "end": 1346,
-                "name": "isLockFree"
+                "end": 1346
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1328,
+              "end": 1346
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": 3,
+                "raw": "3",
                 "start": 1347,
-                "end": 1348,
-                "value": 3,
-                "raw": "3"
+                "end": 1348
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1328,
+            "end": 1349
           },
           {
             "type": "CallExpression",
-            "start": 1353,
-            "end": 1391,
             "callee": {
               "type": "MemberExpression",
-              "start": 1353,
-              "end": 1371,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1353,
-                "end": 1360,
-                "name": "Atomics"
+                "end": 1360
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1361,
-                "end": 1371,
-                "name": "isLockFree"
+                "end": 1371
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1353,
+              "end": 1371
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 1372,
-                "end": 1390,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1373,
-                    "end": 1389,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "valueOf",
                       "start": 1373,
-                      "end": 1380,
-                      "name": "valueOf"
+                      "end": 1380
                     },
                     "value": {
                       "type": "ArrowFunctionExpression",
-                      "start": 1382,
-                      "end": 1389,
                       "expression": true,
                       "async": false,
                       "params": [],
                       "body": {
                         "type": "Literal",
-                        "start": 1388,
-                        "end": 1389,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "start": 1388,
+                        "end": 1389
                       },
                       "id": null,
-                      "generator": false
+                      "generator": false,
+                      "start": 1382,
+                      "end": 1389
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1373,
+                    "end": 1389
                   }
-                ]
+                ],
+                "start": 1372,
+                "end": 1390
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1353,
+            "end": 1391
           },
           {
             "type": "Literal",
-            "start": 1395,
-            "end": 1465,
             "value": "Atomics.isLockFree(3) returns Atomics.isLockFree({valueOf: () => 3})",
-            "raw": "'Atomics.isLockFree(3) returns Atomics.isLockFree({valueOf: () => 3})'"
+            "raw": "'Atomics.isLockFree(3) returns Atomics.isLockFree({valueOf: () => 3})'",
+            "start": 1395,
+            "end": 1465
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1308,
+        "end": 1467
+      },
+      "start": 1308,
+      "end": 1468
     },
     {
       "type": "ExpressionStatement",
-      "start": 1469,
-      "end": 1637,
       "expression": {
         "type": "CallExpression",
-        "start": 1469,
-        "end": 1636,
         "callee": {
           "type": "MemberExpression",
-          "start": 1469,
-          "end": 1485,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1469,
-            "end": 1475,
-            "name": "assert"
+            "end": 1475
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1476,
-            "end": 1485,
-            "name": "sameValue"
+            "end": 1485
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1469,
+          "end": 1485
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1489,
-            "end": 1510,
             "callee": {
               "type": "MemberExpression",
-              "start": 1489,
-              "end": 1507,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1489,
-                "end": 1496,
-                "name": "Atomics"
+                "end": 1496
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1497,
-                "end": 1507,
-                "name": "isLockFree"
+                "end": 1507
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1489,
+              "end": 1507
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1508,
-                "end": 1509,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 1508,
+                "end": 1509
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1489,
+            "end": 1510
           },
           {
             "type": "CallExpression",
-            "start": 1514,
-            "end": 1555,
             "callee": {
               "type": "MemberExpression",
-              "start": 1514,
-              "end": 1532,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1514,
-                "end": 1521,
-                "name": "Atomics"
+                "end": 1521
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1522,
-                "end": 1532,
-                "name": "isLockFree"
+                "end": 1532
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1514,
+              "end": 1532
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 1533,
-                "end": 1554,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1534,
-                    "end": 1553,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "toString",
                       "start": 1534,
-                      "end": 1542,
-                      "name": "toString"
+                      "end": 1542
                     },
                     "value": {
                       "type": "ArrowFunctionExpression",
-                      "start": 1544,
-                      "end": 1553,
                       "expression": true,
                       "async": false,
                       "params": [],
                       "body": {
                         "type": "Literal",
-                        "start": 1550,
-                        "end": 1553,
                         "value": "1",
-                        "raw": "'1'"
+                        "raw": "'1'",
+                        "start": 1550,
+                        "end": 1553
                       },
                       "id": null,
-                      "generator": false
+                      "generator": false,
+                      "start": 1544,
+                      "end": 1553
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1534,
+                    "end": 1553
                   }
-                ]
+                ],
+                "start": 1533,
+                "end": 1554
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1514,
+            "end": 1555
           },
           {
             "type": "Literal",
-            "start": 1559,
-            "end": 1634,
             "value": "Atomics.isLockFree(1) returns Atomics.isLockFree({toString: () => '1'})",
-            "raw": "'Atomics.isLockFree(1) returns Atomics.isLockFree({toString: () => \\'1\\'})'"
+            "raw": "'Atomics.isLockFree(1) returns Atomics.isLockFree({toString: () => \\'1\\'})'",
+            "start": 1559,
+            "end": 1634
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1469,
+        "end": 1636
+      },
+      "start": 1469,
+      "end": 1637
     },
     {
       "type": "ExpressionStatement",
-      "start": 1638,
-      "end": 1806,
       "expression": {
         "type": "CallExpression",
-        "start": 1638,
-        "end": 1805,
         "callee": {
           "type": "MemberExpression",
-          "start": 1638,
-          "end": 1654,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1638,
-            "end": 1644,
-            "name": "assert"
+            "end": 1644
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1645,
-            "end": 1654,
-            "name": "sameValue"
+            "end": 1654
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1638,
+          "end": 1654
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1658,
-            "end": 1679,
             "callee": {
               "type": "MemberExpression",
-              "start": 1658,
-              "end": 1676,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1658,
-                "end": 1665,
-                "name": "Atomics"
+                "end": 1665
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1666,
-                "end": 1676,
-                "name": "isLockFree"
+                "end": 1676
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1658,
+              "end": 1676
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1677,
-                "end": 1678,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 1677,
+                "end": 1678
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1658,
+            "end": 1679
           },
           {
             "type": "CallExpression",
-            "start": 1683,
-            "end": 1724,
             "callee": {
               "type": "MemberExpression",
-              "start": 1683,
-              "end": 1701,
               "object": {
                 "type": "Identifier",
+                "name": "Atomics",
                 "start": 1683,
-                "end": 1690,
-                "name": "Atomics"
+                "end": 1690
               },
               "property": {
                 "type": "Identifier",
+                "name": "isLockFree",
                 "start": 1691,
-                "end": 1701,
-                "name": "isLockFree"
+                "end": 1701
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1683,
+              "end": 1701
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 1702,
-                "end": 1723,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 1703,
-                    "end": 1722,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
+                      "name": "toString",
                       "start": 1703,
-                      "end": 1711,
-                      "name": "toString"
+                      "end": 1711
                     },
                     "value": {
                       "type": "ArrowFunctionExpression",
-                      "start": 1713,
-                      "end": 1722,
                       "expression": true,
                       "async": false,
                       "params": [],
                       "body": {
                         "type": "Literal",
-                        "start": 1719,
-                        "end": 1722,
                         "value": "3",
-                        "raw": "'3'"
+                        "raw": "'3'",
+                        "start": 1719,
+                        "end": 1722
                       },
                       "id": null,
-                      "generator": false
+                      "generator": false,
+                      "start": 1713,
+                      "end": 1722
                     },
                     "method": false,
                     "shorthand": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1703,
+                    "end": 1722
                   }
-                ]
+                ],
+                "start": 1702,
+                "end": 1723
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1683,
+            "end": 1724
           },
           {
             "type": "Literal",
-            "start": 1728,
-            "end": 1803,
             "value": "Atomics.isLockFree(3) returns Atomics.isLockFree({toString: () => '3'})",
-            "raw": "'Atomics.isLockFree(3) returns Atomics.isLockFree({toString: () => \\'3\\'})'"
+            "raw": "'Atomics.isLockFree(3) returns Atomics.isLockFree({toString: () => \\'3\\'})'",
+            "start": 1728,
+            "end": 1803
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1638,
+        "end": 1805
+      },
+      "start": 1638,
+      "end": 1806
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1808,
-      "end": 1889,
       "id": {
         "type": "Identifier",
+        "name": "hide",
         "start": 1817,
-        "end": 1821,
-        "name": "hide"
+        "end": 1821
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "k",
           "start": 1822,
-          "end": 1823,
-          "name": "k"
+          "end": 1823
         },
         {
           "type": "Identifier",
+          "name": "x",
           "start": 1825,
-          "end": 1826,
-          "name": "x"
+          "end": 1826
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 1828,
-        "end": 1889,
         "body": [
           {
             "type": "IfStatement",
-            "start": 1832,
-            "end": 1875,
             "test": {
               "type": "Identifier",
+              "name": "k",
               "start": 1836,
-              "end": 1837,
-              "name": "k"
+              "end": 1837
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 1839,
-              "end": 1875,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 1845,
-                  "end": 1871,
                   "argument": {
                     "type": "BinaryExpression",
-                    "start": 1852,
-                    "end": 1870,
                     "left": {
                       "type": "CallExpression",
-                      "start": 1852,
-                      "end": 1866,
                       "callee": {
                         "type": "Identifier",
+                        "name": "hide",
                         "start": 1852,
-                        "end": 1856,
-                        "name": "hide"
+                        "end": 1856
                       },
                       "arguments": [
                         {
                           "type": "BinaryExpression",
-                          "start": 1857,
-                          "end": 1862,
                           "left": {
                             "type": "Identifier",
+                            "name": "k",
                             "start": 1857,
-                            "end": 1858,
-                            "name": "k"
+                            "end": 1858
                           },
                           "operator": "-",
                           "right": {
                             "type": "Literal",
-                            "start": 1861,
-                            "end": 1862,
                             "value": 3,
-                            "raw": "3"
-                          }
+                            "raw": "3",
+                            "start": 1861,
+                            "end": 1862
+                          },
+                          "start": 1857,
+                          "end": 1862
                         },
                         {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 1864,
-                          "end": 1865,
-                          "name": "x"
+                          "end": 1865
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 1852,
+                      "end": 1866
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
+                      "name": "x",
                       "start": 1869,
-                      "end": 1870,
-                      "name": "x"
-                    }
-                  }
+                      "end": 1870
+                    },
+                    "start": 1852,
+                    "end": 1870
+                  },
+                  "start": 1845,
+                  "end": 1871
                 }
-              ]
+              ],
+              "start": 1839,
+              "end": 1875
             },
-            "alternate": null
+            "alternate": null,
+            "start": 1832,
+            "end": 1875
           },
           {
             "type": "ReturnStatement",
-            "start": 1878,
-            "end": 1887,
             "argument": {
               "type": "Literal",
-              "start": 1885,
-              "end": 1886,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 1885,
+              "end": 1886
+            },
+            "start": 1878,
+            "end": 1887
           }
-        ]
+        ],
+        "start": 1828,
+        "end": 1889
       },
-      "expression": false
+      "expression": false,
+      "start": 1808,
+      "end": 1889
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1890
 }

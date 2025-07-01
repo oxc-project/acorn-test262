@@ -2,65 +2,59 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 90,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 24,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 13,
         "decorators": [],
         "name": "SomeEnum",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 13
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 14,
-        "end": 24,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 18,
-            "end": 21,
             "id": {
               "type": "Identifier",
-              "start": 18,
-              "end": 21,
               "decorators": [],
               "name": "one",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 18,
+              "end": 21
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 18,
+            "end": 21
           }
-        ]
+        ],
+        "start": 14,
+        "end": 24
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 24
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 25,
-      "end": 89,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 40,
-        "end": 89,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 46,
-          "end": 55,
           "decorators": [],
           "name": "SomeClass",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 46,
+          "end": 55
         },
         "typeParameters": null,
         "superClass": null,
@@ -68,32 +62,28 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 56,
-          "end": 89,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 60,
-              "end": 87,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 74,
-                "end": 75,
                 "decorators": [],
                 "name": "E",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 74,
+                "end": 75
               },
               "typeAnnotation": null,
               "value": {
                 "type": "Identifier",
-                "start": 78,
-                "end": 86,
                 "decorators": [],
                 "name": "SomeEnum",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 78,
+                "end": 86
               },
               "computed": false,
               "static": true,
@@ -102,135 +92,145 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": "public"
+              "accessibility": "public",
+              "start": 60,
+              "end": 87
             }
-          ]
+          ],
+          "start": 56,
+          "end": 89
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 40,
+        "end": 89
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 25,
+      "end": 89
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 90
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 34,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 8,
-          "end": 22,
           "imported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 15,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 15
           },
           "local": {
             "type": "Identifier",
-            "start": 19,
-            "end": 22,
             "decorators": [],
             "name": "Def",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 19,
+            "end": 22
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 8,
+          "end": 22
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 29,
-        "end": 34,
         "value": "./a",
-        "raw": "\"./a\""
+        "raw": "\"./a\"",
+        "start": 29,
+        "end": 34
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 34
     },
     {
       "type": "VariableDeclaration",
-      "start": 35,
-      "end": 53,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 39,
-          "end": 52,
           "id": {
             "type": "Identifier",
-            "start": 39,
-            "end": 40,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 39,
+            "end": 40
           },
           "init": {
             "type": "MemberExpression",
-            "start": 43,
-            "end": 52,
             "object": {
               "type": "MemberExpression",
-              "start": 43,
-              "end": 48,
               "object": {
                 "type": "Identifier",
-                "start": 43,
-                "end": 46,
                 "decorators": [],
                 "name": "Def",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 43,
+                "end": 46
               },
               "property": {
                 "type": "Identifier",
-                "start": 47,
-                "end": 48,
                 "decorators": [],
                 "name": "E",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 47,
+                "end": 48
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 43,
+              "end": 48
             },
             "property": {
               "type": "Identifier",
-              "start": 49,
-              "end": 52,
               "decorators": [],
               "name": "one",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 49,
+              "end": 52
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 43,
+            "end": 52
           },
-          "definite": false
+          "definite": false,
+          "start": 39,
+          "end": 52
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 35,
+      "end": 53
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

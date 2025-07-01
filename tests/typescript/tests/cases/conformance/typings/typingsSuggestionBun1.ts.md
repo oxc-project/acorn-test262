@@ -2,76 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 31,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 30,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 10,
             "decorators": [],
             "name": "file",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 10
           },
           "init": {
             "type": "CallExpression",
-            "start": 13,
-            "end": 30,
             "callee": {
               "type": "MemberExpression",
-              "start": 13,
-              "end": 21,
               "object": {
                 "type": "Identifier",
-                "start": 13,
-                "end": 16,
                 "decorators": [],
                 "name": "Bun",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 13,
+                "end": 16
               },
               "property": {
                 "type": "Identifier",
-                "start": 17,
-                "end": 21,
                 "decorators": [],
                 "name": "file",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 17,
+                "end": 21
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 13,
+              "end": 21
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 22,
-                "end": 29,
                 "value": "/a.ts",
-                "raw": "\"/a.ts\""
+                "raw": "\"/a.ts\"",
+                "start": 22,
+                "end": 29
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 13,
+            "end": 30
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 30
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 31
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```

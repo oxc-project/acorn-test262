@@ -1,480 +1,480 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1065,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 274,
-      "end": 404,
       "expression": {
         "type": "CallExpression",
-        "start": 274,
-        "end": 403,
         "callee": {
           "type": "MemberExpression",
-          "start": 274,
-          "end": 290,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 274,
-            "end": 280,
-            "name": "assert"
+            "end": 280
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 281,
-            "end": 290,
-            "name": "sameValue"
+            "end": 290
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 274,
+          "end": 290
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 291,
-            "end": 310,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 291,
-              "end": 299,
-              "name": "parseInt"
+              "end": 299
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": " 1",
+                "raw": "\"\\u00201\"",
                 "start": 300,
-                "end": 309,
-                "value": " 1",
-                "raw": "\"\\u00201\""
+                "end": 309
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 291,
+            "end": 310
           },
           {
             "type": "CallExpression",
-            "start": 312,
-            "end": 325,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 312,
-              "end": 320,
-              "name": "parseInt"
+              "end": 320
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "1",
+                "raw": "\"1\"",
                 "start": 321,
-                "end": 324,
-                "value": "1",
-                "raw": "\"1\""
+                "end": 324
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 312,
+            "end": 325
           },
           {
             "type": "Literal",
-            "start": 327,
-            "end": 402,
             "value": "parseInt(\"\\u00201\") must return the same value returned by parseInt(\"1\")",
-            "raw": "'parseInt(\"\\\\u00201\") must return the same value returned by parseInt(\"1\")'"
+            "raw": "'parseInt(\"\\\\u00201\") must return the same value returned by parseInt(\"1\")'",
+            "start": 327,
+            "end": 402
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 274,
+        "end": 403
+      },
+      "start": 274,
+      "end": 404
     },
     {
       "type": "ExpressionStatement",
-      "start": 405,
-      "end": 552,
       "expression": {
         "type": "CallExpression",
-        "start": 405,
-        "end": 551,
         "callee": {
           "type": "MemberExpression",
-          "start": 405,
-          "end": 421,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 405,
-            "end": 411,
-            "name": "assert"
+            "end": 411
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 412,
-            "end": 421,
-            "name": "sameValue"
+            "end": 421
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 405,
+          "end": 421
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 422,
-            "end": 448,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 422,
-              "end": 430,
-              "name": "parseInt"
+              "end": 430
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 431,
-                "end": 447,
                 "value": "  -1",
-                "raw": "\"\\u0020\\u0020-1\""
+                "raw": "\"\\u0020\\u0020-1\"",
+                "start": 431,
+                "end": 447
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 422,
+            "end": 448
           },
           {
             "type": "CallExpression",
-            "start": 450,
-            "end": 464,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 450,
-              "end": 458,
-              "name": "parseInt"
+              "end": 458
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "-1",
+                "raw": "\"-1\"",
                 "start": 459,
-                "end": 463,
-                "value": "-1",
-                "raw": "\"-1\""
+                "end": 463
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 450,
+            "end": 464
           },
           {
             "type": "Literal",
-            "start": 466,
-            "end": 550,
             "value": "parseInt(\"\\u0020\\u0020-1\") must return the same value returned by parseInt(\"-1\")",
-            "raw": "'parseInt(\"\\\\u0020\\\\u0020-1\") must return the same value returned by parseInt(\"-1\")'"
+            "raw": "'parseInt(\"\\\\u0020\\\\u0020-1\") must return the same value returned by parseInt(\"-1\")'",
+            "start": 466,
+            "end": 550
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 405,
+        "end": 551
+      },
+      "start": 405,
+      "end": 552
     },
     {
       "type": "ExpressionStatement",
-      "start": 553,
-      "end": 672,
       "expression": {
         "type": "CallExpression",
-        "start": 553,
-        "end": 671,
         "callee": {
           "type": "MemberExpression",
-          "start": 553,
-          "end": 569,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 553,
-            "end": 559,
-            "name": "assert"
+            "end": 559
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 560,
-            "end": 569,
-            "name": "sameValue"
+            "end": 569
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 553,
+          "end": 569
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 570,
-            "end": 584,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 570,
-              "end": 578,
-              "name": "parseInt"
+              "end": 578
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 579,
-                "end": 583,
                 "value": " 1",
-                "raw": "\" 1\""
+                "raw": "\" 1\"",
+                "start": 579,
+                "end": 583
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 570,
+            "end": 584
           },
           {
             "type": "CallExpression",
-            "start": 586,
-            "end": 599,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 586,
-              "end": 594,
-              "name": "parseInt"
+              "end": 594
             },
             "arguments": [
               {
                 "type": "Literal",
+                "value": "1",
+                "raw": "\"1\"",
                 "start": 595,
-                "end": 598,
-                "value": "1",
-                "raw": "\"1\""
+                "end": 598
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 586,
+            "end": 599
           },
           {
             "type": "Literal",
+            "value": "parseInt(\" 1\") must return the same value returned by parseInt(\"1\")",
+            "raw": "'parseInt(\" 1\") must return the same value returned by parseInt(\"1\")'",
             "start": 601,
-            "end": 670,
-            "value": "parseInt(\" 1\") must return the same value returned by parseInt(\"1\")",
-            "raw": "'parseInt(\" 1\") must return the same value returned by parseInt(\"1\")'"
+            "end": 670
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 553,
+        "end": 671
+      },
+      "start": 553,
+      "end": 672
     },
     {
       "type": "ExpressionStatement",
-      "start": 673,
-      "end": 798,
       "expression": {
         "type": "CallExpression",
-        "start": 673,
-        "end": 797,
         "callee": {
           "type": "MemberExpression",
-          "start": 673,
-          "end": 689,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 673,
-            "end": 679,
-            "name": "assert"
+            "end": 679
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 680,
-            "end": 689,
-            "name": "sameValue"
+            "end": 689
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 673,
+          "end": 689
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 690,
-            "end": 710,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 690,
-              "end": 698,
-              "name": "parseInt"
+              "end": 698
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 699,
-                "end": 709,
                 "value": "       1",
-                "raw": "\"       1\""
+                "raw": "\"       1\"",
+                "start": 699,
+                "end": 709
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 690,
+            "end": 710
           },
           {
             "type": "CallExpression",
-            "start": 712,
-            "end": 725,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 712,
-              "end": 720,
-              "name": "parseInt"
+              "end": 720
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 721,
-                "end": 724,
                 "value": "1",
-                "raw": "\"1\""
+                "raw": "\"1\"",
+                "start": 721,
+                "end": 724
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 712,
+            "end": 725
           },
           {
             "type": "Literal",
-            "start": 727,
-            "end": 796,
             "value": "parseInt(\" 1\") must return the same value returned by parseInt(\"1\")",
-            "raw": "'parseInt(\" 1\") must return the same value returned by parseInt(\"1\")'"
+            "raw": "'parseInt(\" 1\") must return the same value returned by parseInt(\"1\")'",
+            "start": 727,
+            "end": 796
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 673,
+        "end": 797
+      },
+      "start": 673,
+      "end": 798
     },
     {
       "type": "ExpressionStatement",
-      "start": 800,
-      "end": 971,
       "expression": {
         "type": "CallExpression",
-        "start": 800,
-        "end": 970,
         "callee": {
           "type": "MemberExpression",
-          "start": 800,
-          "end": 816,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 800,
-            "end": 806,
-            "name": "assert"
+            "end": 806
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 807,
-            "end": 816,
-            "name": "sameValue"
+            "end": 816
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 800,
+          "end": 816
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 820,
-            "end": 860,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 820,
-              "end": 828,
-              "name": "parseInt"
+              "end": 828
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 829,
-                "end": 859,
                 "value": "                -1",
-                "raw": "\"       \\u0020       \\u0020-1\""
+                "raw": "\"       \\u0020       \\u0020-1\"",
+                "start": 829,
+                "end": 859
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 820,
+            "end": 860
           },
           {
             "type": "CallExpression",
-            "start": 864,
-            "end": 878,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 864,
-              "end": 872,
-              "name": "parseInt"
+              "end": 872
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 873,
-                "end": 877,
                 "value": "-1",
-                "raw": "\"-1\""
+                "raw": "\"-1\"",
+                "start": 873,
+                "end": 877
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 864,
+            "end": 878
           },
           {
             "type": "Literal",
-            "start": 882,
-            "end": 968,
             "value": "parseInt(\" \\u0020 \\u0020-1\") must return the same value returned by parseInt(\"-1\")",
-            "raw": "'parseInt(\" \\\\u0020 \\\\u0020-1\") must return the same value returned by parseInt(\"-1\")'"
+            "raw": "'parseInt(\" \\\\u0020 \\\\u0020-1\") must return the same value returned by parseInt(\"-1\")'",
+            "start": 882,
+            "end": 968
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 800,
+        "end": 970
+      },
+      "start": 800,
+      "end": 971
     },
     {
       "type": "ExpressionStatement",
-      "start": 983,
-      "end": 1064,
       "expression": {
         "type": "CallExpression",
-        "start": 983,
-        "end": 1063,
         "callee": {
           "type": "MemberExpression",
-          "start": 983,
-          "end": 999,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 983,
-            "end": 989,
-            "name": "assert"
+            "end": 989
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 990,
-            "end": 999,
-            "name": "sameValue"
+            "end": 999
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 983,
+          "end": 999
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1000,
-            "end": 1018,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 1000,
-              "end": 1008,
-              "name": "parseInt"
+              "end": 1008
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1009,
-                "end": 1017,
                 "value": " ",
-                "raw": "\"\\u0020\""
+                "raw": "\"\\u0020\"",
+                "start": 1009,
+                "end": 1017
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1000,
+            "end": 1018
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 1020,
-            "end": 1023,
-            "name": "NaN"
+            "end": 1023
           },
           {
             "type": "Literal",
-            "start": 1025,
-            "end": 1062,
             "value": "parseInt(\"\\u0020\") must return NaN",
-            "raw": "'parseInt(\"\\\\u0020\") must return NaN'"
+            "raw": "'parseInt(\"\\\\u0020\") must return NaN'",
+            "start": 1025,
+            "end": 1062
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 983,
+        "end": 1063
+      },
+      "start": 983,
+      "end": 1064
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1065
 }

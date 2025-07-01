@@ -1,225 +1,225 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 944,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 509,
-      "end": 660,
       "expression": {
         "type": "CallExpression",
-        "start": 509,
-        "end": 659,
         "callee": {
           "type": "MemberExpression",
-          "start": 509,
-          "end": 525,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 509,
-            "end": 515,
-            "name": "assert"
+            "end": 515
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 516,
-            "end": 525,
-            "name": "sameValue"
+            "end": 525
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 509,
+          "end": 525
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 529,
-            "end": 566,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 536,
-              "end": 566,
               "object": {
                 "type": "MemberExpression",
-                "start": 536,
-                "end": 557,
                 "object": {
                   "type": "Identifier",
+                  "name": "ShadowRealm",
                   "start": 536,
-                  "end": 547,
-                  "name": "ShadowRealm"
+                  "end": 547
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 548,
-                  "end": 557,
-                  "name": "prototype"
+                  "end": 557
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 536,
+                "end": 557
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 558,
-                "end": 566,
-                "name": "evaluate"
+                "end": 566
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 536,
+              "end": 566
             },
-            "prefix": true
+            "prefix": true,
+            "start": 529,
+            "end": 566
           },
           {
             "type": "Literal",
-            "start": 570,
-            "end": 580,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 570,
+            "end": 580
           },
           {
             "type": "Literal",
-            "start": 584,
-            "end": 657,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "start": 584,
+            "end": 657
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 509,
+        "end": 659
+      },
+      "start": 509,
+      "end": 660
     },
     {
       "type": "VariableDeclaration",
-      "start": 662,
-      "end": 690,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 668,
-          "end": 689,
           "id": {
             "type": "Identifier",
+            "name": "r",
             "start": 668,
-            "end": 669,
-            "name": "r"
+            "end": 669
           },
           "init": {
             "type": "NewExpression",
-            "start": 672,
-            "end": 689,
             "callee": {
               "type": "Identifier",
+              "name": "ShadowRealm",
               "start": 676,
-              "end": 687,
-              "name": "ShadowRealm"
+              "end": 687
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 672,
+            "end": 689
+          },
+          "start": 668,
+          "end": 689
         }
-      ]
+      ],
+      "start": 662,
+      "end": 690
     },
     {
       "type": "ExpressionStatement",
-      "start": 692,
-      "end": 943,
       "expression": {
         "type": "CallExpression",
-        "start": 692,
-        "end": 942,
         "callee": {
           "type": "MemberExpression",
-          "start": 692,
-          "end": 705,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 692,
-            "end": 698,
-            "name": "assert"
+            "end": 698
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 699,
-            "end": 705,
-            "name": "throws"
+            "end": 705
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 692,
+          "end": 705
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 706,
-            "end": 715,
-            "name": "TypeError"
+            "end": 715
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 717,
-            "end": 893,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 723,
-              "end": 893,
               "callee": {
                 "type": "MemberExpression",
-                "start": 723,
-                "end": 733,
                 "object": {
                   "type": "Identifier",
+                  "name": "r",
                   "start": 723,
-                  "end": 724,
-                  "name": "r"
+                  "end": 724
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "evaluate",
                   "start": 725,
-                  "end": 733,
-                  "name": "evaluate"
+                  "end": 733
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 723,
+                "end": 733
               },
               "arguments": [
                 {
                   "type": "TemplateLiteral",
-                  "start": 734,
-                  "end": 892,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 735,
-                      "end": 891,
                       "value": {
                         "raw": "\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => {\n    throw new Error('blah');\n  },\n  enumerable: false,\n  configurable: true,\n});\nfn;\n",
                         "cooked": "\nfunction fn() {}\nObject.defineProperty(fn, 'length', {\n  get: () => {\n    throw new Error('blah');\n  },\n  enumerable: false,\n  configurable: true,\n});\nfn;\n"
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 735,
+                      "end": 891
                     }
                   ],
-                  "expressions": []
+                  "expressions": [],
+                  "start": 734,
+                  "end": 892
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 723,
+              "end": 893
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 717,
+            "end": 893
           },
           {
             "type": "Literal",
-            "start": 895,
-            "end": 941,
             "value": "expect a TypeError on length getter throwing",
-            "raw": "'expect a TypeError on length getter throwing'"
+            "raw": "'expect a TypeError on length getter throwing'",
+            "start": 895,
+            "end": 941
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 692,
+        "end": 942
+      },
+      "start": 692,
+      "end": 943
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 944
 }

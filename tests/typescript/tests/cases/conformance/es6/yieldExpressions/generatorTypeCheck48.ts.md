@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 68,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 28,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "generator": true,
       "async": false,
@@ -26,38 +22,38 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 28,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 20,
-            "end": 26,
             "expression": {
               "type": "YieldExpression",
-              "start": 20,
-              "end": 25,
               "delegate": false,
-              "argument": null
+              "argument": null,
+              "start": 20,
+              "end": 25
             },
-            "directive": null
+            "directive": null,
+            "start": 20,
+            "end": 26
           }
-        ]
+        ],
+        "start": 14,
+        "end": 28
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 28
     },
     {
       "type": "FunctionDeclaration",
-      "start": 30,
-      "end": 68,
       "id": {
         "type": "Identifier",
-        "start": 40,
-        "end": 41,
         "decorators": [],
         "name": "h",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 40,
+        "end": 41
       },
       "generator": true,
       "async": false,
@@ -67,36 +63,40 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 44,
-        "end": 68,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 50,
-            "end": 66,
             "expression": {
               "type": "YieldExpression",
-              "start": 50,
-              "end": 65,
               "delegate": false,
               "argument": {
                 "type": "Identifier",
-                "start": 56,
-                "end": 65,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 56,
+                "end": 65
+              },
+              "start": 50,
+              "end": 65
             },
-            "directive": null
+            "directive": null,
+            "start": 50,
+            "end": 66
           }
-        ]
+        ],
+        "start": 44,
+        "end": 68
       },
-      "expression": false
+      "expression": false,
+      "start": 30,
+      "end": 68
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 68
 }
 ```

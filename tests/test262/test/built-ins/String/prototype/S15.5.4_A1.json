@@ -1,214 +1,214 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 896,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 427,
-      "end": 460,
       "expression": {
         "type": "UnaryExpression",
-        "start": 427,
-        "end": 459,
         "operator": "delete",
         "argument": {
           "type": "MemberExpression",
-          "start": 434,
-          "end": 459,
           "object": {
             "type": "MemberExpression",
-            "start": 434,
-            "end": 450,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 434,
-              "end": 440,
-              "name": "String"
+              "end": 440
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 441,
-              "end": 450,
-              "name": "prototype"
+              "end": 450
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 434,
+            "end": 450
           },
           "property": {
             "type": "Identifier",
+            "name": "toString",
             "start": 451,
-            "end": 459,
-            "name": "toString"
+            "end": 459
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 434,
+          "end": 459
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 427,
+        "end": 459
+      },
+      "start": 427,
+      "end": 460
     },
     {
       "type": "IfStatement",
-      "start": 551,
-      "end": 813,
       "test": {
         "type": "BinaryExpression",
-        "start": 555,
-        "end": 614,
         "left": {
           "type": "CallExpression",
-          "start": 555,
-          "end": 582,
           "callee": {
             "type": "MemberExpression",
-            "start": 555,
-            "end": 580,
             "object": {
               "type": "MemberExpression",
-              "start": 555,
-              "end": 571,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 555,
-                "end": 561,
-                "name": "String"
+                "end": 561
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 562,
-                "end": 571,
-                "name": "prototype"
+                "end": 571
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 555,
+              "end": 571
             },
             "property": {
               "type": "Identifier",
+              "name": "toString",
               "start": 572,
-              "end": 580,
-              "name": "toString"
+              "end": 580
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 555,
+            "end": 580
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 555,
+          "end": 582
         },
         "operator": "!==",
         "right": {
           "type": "BinaryExpression",
-          "start": 587,
-          "end": 614,
           "left": {
             "type": "BinaryExpression",
-            "start": 587,
-            "end": 608,
             "left": {
               "type": "Literal",
-              "start": 587,
-              "end": 597,
               "value": "[object ",
-              "raw": "\"[object \""
+              "raw": "\"[object \"",
+              "start": 587,
+              "end": 597
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 600,
-              "end": 608,
               "value": "String",
-              "raw": "\"String\""
-            }
+              "raw": "\"String\"",
+              "start": 600,
+              "end": 608
+            },
+            "start": 587,
+            "end": 608
           },
           "operator": "+",
           "right": {
             "type": "Literal",
-            "start": 611,
-            "end": 614,
             "value": "]",
-            "raw": "\"]\""
-          }
-        }
+            "raw": "\"]\"",
+            "start": 611,
+            "end": 614
+          },
+          "start": 587,
+          "end": 614
+        },
+        "start": 555,
+        "end": 614
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 616,
-        "end": 813,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 620,
-            "end": 811,
             "argument": {
               "type": "NewExpression",
-              "start": 626,
-              "end": 810,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 630,
-                "end": 642,
-                "name": "Test262Error"
+                "end": 642
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 643,
-                  "end": 809,
                   "left": {
                     "type": "Literal",
-                    "start": 643,
-                    "end": 779,
                     "value": "#1: delete String.prototype.toString; String.prototype.toString() === \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() ===",
-                    "raw": "'#1: delete String.prototype.toString; String.prototype.toString() === \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() ==='"
+                    "raw": "'#1: delete String.prototype.toString; String.prototype.toString() === \"[object \"+\"String\"+\"]\". Actual: String.prototype.toString() ==='",
+                    "start": 643,
+                    "end": 779
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 782,
-                    "end": 809,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 782,
-                      "end": 807,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 782,
-                        "end": 798,
                         "object": {
                           "type": "Identifier",
+                          "name": "String",
                           "start": 782,
-                          "end": 788,
-                          "name": "String"
+                          "end": 788
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "prototype",
                           "start": 789,
-                          "end": 798,
-                          "name": "prototype"
+                          "end": 798
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 782,
+                        "end": 798
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "toString",
                         "start": 799,
-                        "end": 807,
-                        "name": "toString"
+                        "end": 807
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 782,
+                      "end": 807
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 782,
+                    "end": 809
+                  },
+                  "start": 643,
+                  "end": 809
                 }
-              ]
-            }
+              ],
+              "start": 626,
+              "end": 810
+            },
+            "start": 620,
+            "end": 811
           }
-        ]
+        ],
+        "start": 616,
+        "end": 813
       },
-      "alternate": null
+      "alternate": null,
+      "start": 551,
+      "end": 813
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 896
 }

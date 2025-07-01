@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 638,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 529,
-      "end": 556,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 533,
-          "end": 555,
           "id": {
             "type": "Identifier",
+            "name": "p1",
             "start": 533,
-            "end": 535,
-            "name": "p1"
+            "end": 535
           },
           "init": {
             "type": "NewExpression",
-            "start": 538,
-            "end": 555,
             "callee": {
               "type": "Identifier",
+              "name": "Proxy",
               "start": 542,
-              "end": 547,
-              "name": "Proxy"
+              "end": 547
             },
             "arguments": [
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 548,
-                "end": 550,
-                "properties": []
+                "end": 550
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 552,
-                "end": 554,
-                "properties": []
+                "end": 554
               }
-            ]
-          }
+            ],
+            "start": 538,
+            "end": 555
+          },
+          "start": 533,
+          "end": 555
         }
-      ]
+      ],
+      "start": 529,
+      "end": 556
     },
     {
       "type": "ExpressionStatement",
-      "start": 558,
-      "end": 637,
       "expression": {
         "type": "CallExpression",
-        "start": 558,
-        "end": 636,
         "callee": {
           "type": "MemberExpression",
-          "start": 558,
-          "end": 574,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 558,
-            "end": 564,
-            "name": "assert"
+            "end": 564
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 565,
-            "end": 574,
-            "name": "sameValue"
+            "end": 574
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 558,
+          "end": 574
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 578,
-            "end": 587,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "p1",
               "start": 585,
-              "end": 587,
-              "name": "p1"
+              "end": 587
             },
-            "prefix": true
+            "prefix": true,
+            "start": 578,
+            "end": 587
           },
           {
             "type": "Literal",
-            "start": 591,
-            "end": 599,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "start": 591,
+            "end": 599
           },
           {
             "type": "Literal",
-            "start": 603,
-            "end": 634,
             "value": "Return a newly created Object",
-            "raw": "'Return a newly created Object'"
+            "raw": "'Return a newly created Object'",
+            "start": 603,
+            "end": 634
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 558,
+        "end": 636
+      },
+      "start": 558,
+      "end": 637
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 638
 }

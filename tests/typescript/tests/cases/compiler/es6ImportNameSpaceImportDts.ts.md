@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 18,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 18,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "c",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 14
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,17 +23,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 15,
-          "end": 18,
-          "body": []
+          "end": 18
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 18
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 18
     },
     {
       "type": "EmptyStatement",
@@ -48,145 +46,147 @@ __ESTREE_TEST__:PASS:
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 149,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 45,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 7,
-          "end": 28,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 28,
             "decorators": [],
             "name": "nameSpaceBinding",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 28
+          },
+          "start": 7,
+          "end": 28
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 34,
-        "end": 44,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 34,
+        "end": 44
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 45
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 46,
-      "end": 86,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 53,
-        "end": 86,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 57,
-            "end": 85,
             "id": {
               "type": "Identifier",
-              "start": 57,
-              "end": 58,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 57,
+              "end": 58
             },
             "init": {
               "type": "NewExpression",
-              "start": 61,
-              "end": 85,
               "callee": {
                 "type": "MemberExpression",
-                "start": 65,
-                "end": 83,
                 "object": {
                   "type": "Identifier",
-                  "start": 65,
-                  "end": 81,
                   "decorators": [],
                   "name": "nameSpaceBinding",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 65,
+                  "end": 81
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 82,
-                  "end": 83,
                   "decorators": [],
                   "name": "c",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 82,
+                  "end": 83
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 65,
+                "end": 83
               },
               "typeArguments": null,
-              "arguments": []
+              "arguments": [],
+              "start": 61,
+              "end": 85
             },
-            "definite": false
+            "definite": false,
+            "start": 57,
+            "end": 85
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 53,
+        "end": 86
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 46,
+      "end": 86
     },
     {
       "type": "ImportDeclaration",
-      "start": 87,
-      "end": 133,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 94,
-          "end": 116,
           "local": {
             "type": "Identifier",
-            "start": 99,
-            "end": 116,
             "decorators": [],
             "name": "nameSpaceBinding2",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 99,
+            "end": 116
+          },
+          "start": 94,
+          "end": 116
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 122,
-        "end": 132,
         "value": "./server",
-        "raw": "\"./server\""
+        "raw": "\"./server\"",
+        "start": 122,
+        "end": 132
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 87,
+      "end": 133
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 149
 }
 ```

@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 85,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 85,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 85,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 24,
           "decorators": [],
           "name": "Enhancement",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 24
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,27 +23,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 25,
-          "end": 85,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 31,
-              "end": 83,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 45,
-                "end": 52,
                 "decorators": [],
                 "name": "getType",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 45,
+                "end": 52
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 52,
-                "end": 83,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -59,42 +47,54 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 55,
-                  "end": 83,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 65,
-                      "end": 77,
                       "argument": {
                         "type": "ThisExpression",
                         "start": 72,
                         "end": 76
-                      }
+                      },
+                      "start": 65,
+                      "end": 77
                     }
-                  ]
+                  ],
+                  "start": 55,
+                  "end": 83
                 },
-                "expression": false
+                "expression": false,
+                "start": 52,
+                "end": 83
               },
               "kind": "method",
               "computed": false,
               "static": true,
               "override": false,
               "optional": false,
-              "accessibility": "public"
+              "accessibility": "public",
+              "start": 31,
+              "end": 83
             }
-          ]
+          ],
+          "start": 25,
+          "end": 85
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 85
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 85
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 85
 }
 ```

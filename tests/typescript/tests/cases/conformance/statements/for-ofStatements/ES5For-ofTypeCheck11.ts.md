@@ -2,34 +2,22 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 29,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 28,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 28,
             "decorators": [],
             "name": "union",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 9,
-              "end": 28,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 11,
-                "end": 28,
                 "types": [
                   {
                     "type": "TSStringKeyword",
@@ -38,90 +26,102 @@ __ESTREE_TEST__:PASS:
                   },
                   {
                     "type": "TSArrayType",
-                    "start": 20,
-                    "end": 28,
                     "elementType": {
                       "type": "TSNumberKeyword",
                       "start": 20,
                       "end": 26
-                    }
+                    },
+                    "start": 20,
+                    "end": 28
                   }
-                ]
-              }
-            }
+                ],
+                "start": 11,
+                "end": 28
+              },
+              "start": 9,
+              "end": 28
+            },
+            "start": 4,
+            "end": 28
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 28
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 29
     },
     {
       "type": "VariableDeclaration",
-      "start": 30,
-      "end": 44,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 34,
-          "end": 43,
           "id": {
             "type": "Identifier",
-            "start": 34,
-            "end": 43,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 35,
-              "end": 43,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 37,
                 "end": 43
-              }
-            }
+              },
+              "start": 35,
+              "end": 43
+            },
+            "start": 34,
+            "end": 43
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 34,
+          "end": 43
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 30,
+      "end": 44
     },
     {
       "type": "ForOfStatement",
-      "start": 45,
-      "end": 65,
       "await": false,
       "left": {
         "type": "Identifier",
-        "start": 50,
-        "end": 51,
         "decorators": [],
         "name": "v",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 50,
+        "end": 51
       },
       "right": {
         "type": "Identifier",
-        "start": 55,
-        "end": 60,
         "decorators": [],
         "name": "union",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 55,
+        "end": 60
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 62,
-        "end": 65,
-        "body": []
-      }
+        "end": 65
+      },
+      "start": 45,
+      "end": 65
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 65
 }
 ```

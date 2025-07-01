@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 308,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 237,
-      "end": 307,
       "expression": {
         "type": "CallExpression",
-        "start": 237,
-        "end": 306,
         "callee": {
           "type": "MemberExpression",
-          "start": 237,
-          "end": 253,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 237,
-            "end": 243,
-            "name": "assert"
+            "end": 243
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 244,
-            "end": 253,
-            "name": "sameValue"
+            "end": 253
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 237,
+          "end": 253
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 254,
-            "end": 276,
             "callee": {
               "type": "MemberExpression",
-              "start": 254,
-              "end": 264,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 254,
-                "end": 258,
-                "name": "Math"
+                "end": 258
               },
               "property": {
                 "type": "Identifier",
+                "name": "clz32",
                 "start": 259,
-                "end": 264,
-                "name": "clz32"
+                "end": 264
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 254,
+              "end": 264
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 265,
-                "end": 275,
                 "value": 2147483648,
-                "raw": "2147483648"
+                "raw": "2147483648",
+                "start": 265,
+                "end": 275
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 254,
+            "end": 276
           },
           {
             "type": "Literal",
-            "start": 278,
-            "end": 279,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 278,
+            "end": 279
           },
           {
             "type": "Literal",
-            "start": 281,
-            "end": 305,
             "value": "Math.clz32(2147483648)",
-            "raw": "'Math.clz32(2147483648)'"
+            "raw": "'Math.clz32(2147483648)'",
+            "start": 281,
+            "end": 305
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 237,
+        "end": 306
+      },
+      "start": 237,
+      "end": 307
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 308
 }

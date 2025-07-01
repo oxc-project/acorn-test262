@@ -1,95 +1,95 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 421,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 355,
-      "end": 420,
       "expression": {
         "type": "CallExpression",
-        "start": 355,
-        "end": 419,
         "callee": {
           "type": "MemberExpression",
-          "start": 355,
-          "end": 368,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 355,
-            "end": 361,
-            "name": "assert"
+            "end": 361
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 362,
-            "end": 368,
-            "name": "throws"
+            "end": 368
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 355,
+          "end": 368
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 369,
-            "end": 378,
-            "name": "TypeError"
+            "end": 378
           },
           {
             "type": "FunctionExpression",
-            "start": 380,
-            "end": 418,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 391,
-              "end": 418,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 395,
-                  "end": 416,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 399,
-                      "end": 415,
                       "id": {
                         "type": "Identifier",
+                        "name": "objMath",
                         "start": 399,
-                        "end": 406,
-                        "name": "objMath"
+                        "end": 406
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 407,
-                        "end": 415,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Math",
                           "start": 411,
-                          "end": 415,
-                          "name": "Math"
+                          "end": 415
                         },
-                        "arguments": []
-                      }
+                        "arguments": [],
+                        "start": 407,
+                        "end": 415
+                      },
+                      "start": 399,
+                      "end": 415
                     }
-                  ]
+                  ],
+                  "start": 395,
+                  "end": 416
                 }
-              ]
+              ],
+              "start": 391,
+              "end": 418
             },
-            "expression": false
+            "expression": false,
+            "start": 380,
+            "end": 418
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 355,
+        "end": 419
+      },
+      "start": 355,
+      "end": 420
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 421
 }

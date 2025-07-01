@@ -1,86 +1,84 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 616,
   "body": [
     {
       "type": "TryStatement",
-      "start": 365,
-      "end": 489,
       "block": {
         "type": "BlockStatement",
-        "start": 368,
-        "end": 395,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 371,
-            "end": 393,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 371,
-              "end": 392,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "infor_var",
                 "start": 371,
-                "end": 380,
-                "name": "infor_var"
+                "end": 380
               },
               "right": {
                 "type": "Identifier",
+                "name": "infor_var",
                 "start": 383,
-                "end": 392,
-                "name": "infor_var"
-              }
-            }
+                "end": 392
+              },
+              "start": 371,
+              "end": 392
+            },
+            "start": 371,
+            "end": 393
           }
-        ]
+        ],
+        "start": 368,
+        "end": 395
       },
       "handler": {
         "type": "CatchClause",
-        "start": 395,
-        "end": 489,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 401,
-          "end": 402,
-          "name": "e"
+          "end": 402
         },
         "body": {
           "type": "BlockStatement",
-          "start": 403,
-          "end": 489,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 406,
-              "end": 487,
               "argument": {
                 "type": "NewExpression",
-                "start": 412,
-                "end": 486,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 416,
-                  "end": 428,
-                  "name": "Test262Error"
+                  "end": 428
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 429,
-                    "end": 485,
                     "value": "#1: Variable declaration inside \"for\" loop is admitted",
-                    "raw": "'#1: Variable declaration inside \"for\" loop is admitted'"
+                    "raw": "'#1: Variable declaration inside \"for\" loop is admitted'",
+                    "start": 429,
+                    "end": 485
                   }
-                ]
-              }
+                ],
+                "start": 412,
+                "end": 486
+              },
+              "start": 406,
+              "end": 487
             }
-          ]
-        }
+          ],
+          "start": 403,
+          "end": 489
+        },
+        "start": 395,
+        "end": 489
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 365,
+      "end": 489
     },
     {
       "type": "EmptyStatement",
@@ -89,46 +87,48 @@
     },
     {
       "type": "ForStatement",
-      "start": 574,
-      "end": 615,
       "init": null,
       "test": null,
       "update": null,
       "body": {
         "type": "BlockStatement",
-        "start": 582,
-        "end": 615,
         "body": [
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 588,
-            "end": 594,
-            "label": null
+            "end": 594
           },
           {
             "type": "VariableDeclaration",
-            "start": 599,
-            "end": 613,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 603,
-                "end": 612,
                 "id": {
                   "type": "Identifier",
+                  "name": "infor_var",
                   "start": 603,
-                  "end": 612,
-                  "name": "infor_var"
+                  "end": 612
                 },
-                "init": null
+                "init": null,
+                "start": 603,
+                "end": 612
               }
-            ]
+            ],
+            "start": 599,
+            "end": 613
           }
-        ]
-      }
+        ],
+        "start": 582,
+        "end": 615
+      },
+      "start": 574,
+      "end": 615
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 616
 }

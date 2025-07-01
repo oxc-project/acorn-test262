@@ -1,469 +1,469 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 884,
   "body": [
     {
       "type": "IfStatement",
-      "start": 357,
-      "end": 460,
       "test": {
         "type": "BinaryExpression",
-        "start": 361,
-        "end": 378,
         "left": {
           "type": "BinaryExpression",
-          "start": 361,
-          "end": 372,
           "left": {
             "type": "Literal",
+            "value": true,
+            "raw": "true",
             "start": 361,
-            "end": 365,
-            "value": true,
-            "raw": "true"
+            "end": 365
           },
           "operator": "*",
           "right": {
             "type": "Literal",
+            "value": null,
+            "raw": "null",
             "start": 368,
-            "end": 372,
-            "value": null,
-            "raw": "null"
-          }
+            "end": 372
+          },
+          "start": 361,
+          "end": 372
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": 0,
+          "raw": "0",
           "start": 377,
-          "end": 378,
-          "value": 0,
-          "raw": "0"
-        }
+          "end": 378
+        },
+        "start": 361,
+        "end": 378
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 380,
-        "end": 460,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 384,
-            "end": 458,
             "argument": {
               "type": "NewExpression",
-              "start": 390,
-              "end": 457,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 394,
-                "end": 406,
-                "name": "Test262Error"
+                "end": 406
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 407,
-                  "end": 456,
                   "left": {
                     "type": "Literal",
-                    "start": 407,
-                    "end": 440,
                     "value": "#1: true * null === 0. Actual: ",
-                    "raw": "'#1: true * null === 0. Actual: '"
+                    "raw": "'#1: true * null === 0. Actual: '",
+                    "start": 407,
+                    "end": 440
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 443,
-                    "end": 456,
                     "expression": {
                       "type": "BinaryExpression",
-                      "start": 444,
-                      "end": 455,
                       "left": {
                         "type": "Literal",
+                        "value": true,
+                        "raw": "true",
                         "start": 444,
-                        "end": 448,
-                        "value": true,
-                        "raw": "true"
+                        "end": 448
                       },
                       "operator": "*",
                       "right": {
                         "type": "Literal",
+                        "value": null,
+                        "raw": "null",
                         "start": 451,
-                        "end": 455,
-                        "value": null,
-                        "raw": "null"
-                      }
-                    }
-                  }
+                        "end": 455
+                      },
+                      "start": 444,
+                      "end": 455
+                    },
+                    "start": 443,
+                    "end": 456
+                  },
+                  "start": 407,
+                  "end": 456
                 }
-              ]
-            }
+              ],
+              "start": 390,
+              "end": 457
+            },
+            "start": 384,
+            "end": 458
           }
-        ]
+        ],
+        "start": 380,
+        "end": 460
       },
-      "alternate": null
+      "alternate": null,
+      "start": 357,
+      "end": 460
     },
     {
       "type": "IfStatement",
-      "start": 472,
-      "end": 575,
       "test": {
         "type": "BinaryExpression",
-        "start": 476,
-        "end": 493,
         "left": {
           "type": "BinaryExpression",
-          "start": 476,
-          "end": 487,
           "left": {
             "type": "Literal",
+            "value": null,
+            "raw": "null",
             "start": 476,
-            "end": 480,
-            "value": null,
-            "raw": "null"
+            "end": 480
           },
           "operator": "*",
           "right": {
             "type": "Literal",
-            "start": 483,
-            "end": 487,
             "value": true,
-            "raw": "true"
-          }
+            "raw": "true",
+            "start": 483,
+            "end": 487
+          },
+          "start": 476,
+          "end": 487
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": 0,
+          "raw": "0",
           "start": 492,
-          "end": 493,
-          "value": 0,
-          "raw": "0"
-        }
+          "end": 493
+        },
+        "start": 476,
+        "end": 493
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 495,
-        "end": 575,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 499,
-            "end": 573,
             "argument": {
               "type": "NewExpression",
-              "start": 505,
-              "end": 572,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 509,
-                "end": 521,
-                "name": "Test262Error"
+                "end": 521
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 522,
-                  "end": 571,
                   "left": {
                     "type": "Literal",
-                    "start": 522,
-                    "end": 555,
                     "value": "#2: null * true === 0. Actual: ",
-                    "raw": "'#2: null * true === 0. Actual: '"
+                    "raw": "'#2: null * true === 0. Actual: '",
+                    "start": 522,
+                    "end": 555
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 558,
-                    "end": 571,
                     "expression": {
                       "type": "BinaryExpression",
-                      "start": 559,
-                      "end": 570,
                       "left": {
                         "type": "Literal",
+                        "value": null,
+                        "raw": "null",
                         "start": 559,
-                        "end": 563,
-                        "value": null,
-                        "raw": "null"
+                        "end": 563
                       },
                       "operator": "*",
                       "right": {
                         "type": "Literal",
-                        "start": 566,
-                        "end": 570,
                         "value": true,
-                        "raw": "true"
-                      }
-                    }
-                  }
+                        "raw": "true",
+                        "start": 566,
+                        "end": 570
+                      },
+                      "start": 559,
+                      "end": 570
+                    },
+                    "start": 558,
+                    "end": 571
+                  },
+                  "start": 522,
+                  "end": 571
                 }
-              ]
-            }
+              ],
+              "start": 505,
+              "end": 572
+            },
+            "start": 499,
+            "end": 573
           }
-        ]
+        ],
+        "start": 495,
+        "end": 575
       },
-      "alternate": null
+      "alternate": null,
+      "start": 472,
+      "end": 575
     },
     {
       "type": "IfStatement",
-      "start": 587,
-      "end": 729,
       "test": {
         "type": "BinaryExpression",
-        "start": 591,
-        "end": 621,
         "left": {
           "type": "BinaryExpression",
-          "start": 591,
-          "end": 615,
           "left": {
             "type": "NewExpression",
-            "start": 591,
-            "end": 608,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 595,
-              "end": 602,
-              "name": "Boolean"
+              "end": 602
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 603,
-                "end": 607,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 603,
+                "end": 607
               }
-            ]
+            ],
+            "start": 591,
+            "end": 608
           },
           "operator": "*",
           "right": {
             "type": "Literal",
-            "start": 611,
-            "end": 615,
             "value": null,
-            "raw": "null"
-          }
+            "raw": "null",
+            "start": 611,
+            "end": 615
+          },
+          "start": 591,
+          "end": 615
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 620,
-          "end": 621,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 620,
+          "end": 621
+        },
+        "start": 591,
+        "end": 621
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 623,
-        "end": 729,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 627,
-            "end": 727,
             "argument": {
               "type": "NewExpression",
-              "start": 633,
-              "end": 726,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 637,
-                "end": 649,
-                "name": "Test262Error"
+                "end": 649
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 650,
-                  "end": 725,
                   "left": {
                     "type": "Literal",
-                    "start": 650,
-                    "end": 696,
                     "value": "#3: new Boolean(true) * null === 0. Actual: ",
-                    "raw": "'#3: new Boolean(true) * null === 0. Actual: '"
+                    "raw": "'#3: new Boolean(true) * null === 0. Actual: '",
+                    "start": 650,
+                    "end": 696
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 699,
-                    "end": 725,
                     "expression": {
                       "type": "BinaryExpression",
-                      "start": 700,
-                      "end": 724,
                       "left": {
                         "type": "NewExpression",
-                        "start": 700,
-                        "end": 717,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Boolean",
                           "start": 704,
-                          "end": 711,
-                          "name": "Boolean"
+                          "end": 711
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 712,
-                            "end": 716,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "start": 712,
+                            "end": 716
                           }
-                        ]
+                        ],
+                        "start": 700,
+                        "end": 717
                       },
                       "operator": "*",
                       "right": {
                         "type": "Literal",
-                        "start": 720,
-                        "end": 724,
                         "value": null,
-                        "raw": "null"
-                      }
-                    }
-                  }
+                        "raw": "null",
+                        "start": 720,
+                        "end": 724
+                      },
+                      "start": 700,
+                      "end": 724
+                    },
+                    "start": 699,
+                    "end": 725
+                  },
+                  "start": 650,
+                  "end": 725
                 }
-              ]
-            }
+              ],
+              "start": 633,
+              "end": 726
+            },
+            "start": 627,
+            "end": 727
           }
-        ]
+        ],
+        "start": 623,
+        "end": 729
       },
-      "alternate": null
+      "alternate": null,
+      "start": 587,
+      "end": 729
     },
     {
       "type": "IfStatement",
-      "start": 741,
-      "end": 883,
       "test": {
         "type": "BinaryExpression",
-        "start": 745,
-        "end": 775,
         "left": {
           "type": "BinaryExpression",
-          "start": 745,
-          "end": 769,
           "left": {
             "type": "Literal",
-            "start": 745,
-            "end": 749,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 745,
+            "end": 749
           },
           "operator": "*",
           "right": {
             "type": "NewExpression",
-            "start": 752,
-            "end": 769,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 756,
-              "end": 763,
-              "name": "Boolean"
+              "end": 763
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 764,
-                "end": 768,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 764,
+                "end": 768
               }
-            ]
-          }
+            ],
+            "start": 752,
+            "end": 769
+          },
+          "start": 745,
+          "end": 769
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 774,
-          "end": 775,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 774,
+          "end": 775
+        },
+        "start": 745,
+        "end": 775
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 777,
-        "end": 883,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 781,
-            "end": 881,
             "argument": {
               "type": "NewExpression",
-              "start": 787,
-              "end": 880,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 791,
-                "end": 803,
-                "name": "Test262Error"
+                "end": 803
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 804,
-                  "end": 879,
                   "left": {
                     "type": "Literal",
-                    "start": 804,
-                    "end": 850,
                     "value": "#4: null * new Boolean(true) === 0. Actual: ",
-                    "raw": "'#4: null * new Boolean(true) === 0. Actual: '"
+                    "raw": "'#4: null * new Boolean(true) === 0. Actual: '",
+                    "start": 804,
+                    "end": 850
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 853,
-                    "end": 879,
                     "expression": {
                       "type": "BinaryExpression",
-                      "start": 854,
-                      "end": 878,
                       "left": {
                         "type": "Literal",
-                        "start": 854,
-                        "end": 858,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 854,
+                        "end": 858
                       },
                       "operator": "*",
                       "right": {
                         "type": "NewExpression",
-                        "start": 861,
-                        "end": 878,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Boolean",
                           "start": 865,
-                          "end": 872,
-                          "name": "Boolean"
+                          "end": 872
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 873,
-                            "end": 877,
                             "value": true,
-                            "raw": "true"
+                            "raw": "true",
+                            "start": 873,
+                            "end": 877
                           }
-                        ]
-                      }
-                    }
-                  }
+                        ],
+                        "start": 861,
+                        "end": 878
+                      },
+                      "start": 854,
+                      "end": 878
+                    },
+                    "start": 853,
+                    "end": 879
+                  },
+                  "start": 804,
+                  "end": 879
                 }
-              ]
-            }
+              ],
+              "start": 787,
+              "end": 880
+            },
+            "start": 781,
+            "end": 881
           }
-        ]
+        ],
+        "start": 777,
+        "end": 883
       },
-      "alternate": null
+      "alternate": null,
+      "start": 741,
+      "end": 883
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 884
 }

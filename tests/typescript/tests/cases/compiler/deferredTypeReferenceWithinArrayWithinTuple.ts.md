@@ -2,145 +2,145 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 176,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 149,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 18,
         "decorators": [],
         "name": "TypeStructure",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 18
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 23,
-        "end": 149,
         "types": [
           {
             "type": "TSTupleType",
-            "start": 25,
-            "end": 48,
             "elementTypes": [
               {
                 "type": "TSLiteralType",
-                "start": 26,
-                "end": 30,
                 "literal": {
                   "type": "Literal",
-                  "start": 26,
-                  "end": 30,
                   "value": "or",
-                  "raw": "\"or\""
-                }
+                  "raw": "\"or\"",
+                  "start": 26,
+                  "end": 30
+                },
+                "start": 26,
+                "end": 30
               },
               {
                 "type": "TSArrayType",
-                "start": 32,
-                "end": 47,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 32,
-                  "end": 45,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 32,
-                    "end": 45,
                     "decorators": [],
                     "name": "TypeStructure",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 32,
+                    "end": 45
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "start": 32,
+                  "end": 45
+                },
+                "start": 32,
+                "end": 47
               }
-            ]
+            ],
+            "start": 25,
+            "end": 48
           },
           {
             "type": "TSTupleType",
-            "start": 95,
-            "end": 105,
             "elementTypes": [
               {
                 "type": "TSLiteralType",
-                "start": 96,
-                "end": 104,
                 "literal": {
                   "type": "Literal",
-                  "start": 96,
-                  "end": 104,
                   "value": "string",
-                  "raw": "\"string\""
-                }
+                  "raw": "\"string\"",
+                  "start": 96,
+                  "end": 104
+                },
+                "start": 96,
+                "end": 104
               }
-            ]
+            ],
+            "start": 95,
+            "end": 105
           },
           {
             "type": "TSTupleType",
-            "start": 110,
-            "end": 120,
             "elementTypes": [
               {
                 "type": "TSLiteralType",
-                "start": 111,
-                "end": 119,
                 "literal": {
                   "type": "Literal",
-                  "start": 111,
-                  "end": 119,
                   "value": "number",
-                  "raw": "\"number\""
-                }
+                  "raw": "\"number\"",
+                  "start": 111,
+                  "end": 119
+                },
+                "start": 111,
+                "end": 119
               }
-            ]
+            ],
+            "start": 110,
+            "end": 120
           },
           {
             "type": "TSTupleType",
-            "start": 126,
-            "end": 149,
             "elementTypes": [
               {
                 "type": "TSLiteralType",
-                "start": 127,
-                "end": 133,
                 "literal": {
                   "type": "Literal",
-                  "start": 127,
-                  "end": 133,
                   "value": "list",
-                  "raw": "\"list\""
-                }
+                  "raw": "\"list\"",
+                  "start": 127,
+                  "end": 133
+                },
+                "start": 127,
+                "end": 133
               },
               {
                 "type": "TSTypeReference",
-                "start": 135,
-                "end": 148,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 135,
-                  "end": 148,
                   "decorators": [],
                   "name": "TypeStructure",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 135,
+                  "end": 148
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 135,
+                "end": 148
               }
-            ]
+            ],
+            "start": 126,
+            "end": 149
           }
-        ]
+        ],
+        "start": 23,
+        "end": 149
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 149
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 176
 }
 ```

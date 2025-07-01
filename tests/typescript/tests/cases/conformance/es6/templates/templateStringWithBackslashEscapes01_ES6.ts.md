@@ -2,179 +2,179 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 97,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 22,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 21,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 8,
-            "end": 21,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 8,
-                "end": 21,
                 "value": {
                   "raw": "hello\\world",
                   "cooked": "helloworld"
                 },
-                "tail": true
+                "tail": true,
+                "start": 8,
+                "end": 21
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 8,
+            "end": 21
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 21
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 22
     },
     {
       "type": "VariableDeclaration",
-      "start": 23,
-      "end": 46,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 27,
-          "end": 45,
           "id": {
             "type": "Identifier",
-            "start": 27,
-            "end": 28,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 28
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 31,
-            "end": 45,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 31,
-                "end": 45,
                 "value": {
                   "raw": "hello\\\\world",
                   "cooked": "hello\\world"
                 },
-                "tail": true
+                "tail": true,
+                "start": 31,
+                "end": 45
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 31,
+            "end": 45
           },
-          "definite": false
+          "definite": false,
+          "start": 27,
+          "end": 45
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 23,
+      "end": 46
     },
     {
       "type": "VariableDeclaration",
-      "start": 47,
-      "end": 71,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 51,
-          "end": 70,
           "id": {
             "type": "Identifier",
-            "start": 51,
-            "end": 52,
             "decorators": [],
             "name": "c",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 51,
+            "end": 52
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 55,
-            "end": 70,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 55,
-                "end": 70,
                 "value": {
                   "raw": "hello\\\\\\world",
                   "cooked": "hello\\world"
                 },
-                "tail": true
+                "tail": true,
+                "start": 55,
+                "end": 70
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 55,
+            "end": 70
           },
-          "definite": false
+          "definite": false,
+          "start": 51,
+          "end": 70
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 47,
+      "end": 71
     },
     {
       "type": "VariableDeclaration",
-      "start": 72,
-      "end": 97,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 76,
-          "end": 96,
           "id": {
             "type": "Identifier",
-            "start": 76,
-            "end": 77,
             "decorators": [],
             "name": "d",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 76,
+            "end": 77
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 80,
-            "end": 96,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 80,
-                "end": 96,
                 "value": {
                   "raw": "hello\\\\\\\\world",
                   "cooked": "hello\\\\world"
                 },
-                "tail": true
+                "tail": true,
+                "start": 80,
+                "end": 96
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 80,
+            "end": 96
           },
-          "definite": false
+          "definite": false,
+          "start": 76,
+          "end": 96
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 72,
+      "end": 97
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 97
 }
 ```

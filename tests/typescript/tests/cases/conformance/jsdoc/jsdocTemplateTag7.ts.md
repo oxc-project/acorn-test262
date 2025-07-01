@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 79,
-  "end": 186,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 79,
-      "end": 90,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 85,
-        "end": 86,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 85,
+        "end": 86
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,25 +21,25 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 87,
-        "end": 90,
-        "body": []
+        "end": 90
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 79,
+      "end": 90
     },
     {
       "type": "FunctionDeclaration",
-      "start": 155,
-      "end": 186,
       "id": {
         "type": "Identifier",
-        "start": 164,
-        "end": 165,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 164,
+        "end": 165
       },
       "generator": false,
       "async": false,
@@ -52,40 +48,44 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 166,
-          "end": 167,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 166,
+          "end": 167
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 169,
-        "end": 186,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 175,
-            "end": 184,
             "argument": {
               "type": "Identifier",
-              "start": 182,
-              "end": 183,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 182,
+              "end": 183
+            },
+            "start": 175,
+            "end": 184
           }
-        ]
+        ],
+        "start": 169,
+        "end": 186
       },
-      "expression": false
+      "expression": false,
+      "start": 155,
+      "end": 186
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 79,
+  "end": 186
 }
 ```

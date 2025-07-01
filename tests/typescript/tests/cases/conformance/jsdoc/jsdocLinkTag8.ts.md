@@ -2,72 +2,72 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 26,
-  "end": 57,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 26,
-      "end": 57,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 32,
-          "end": 57,
           "id": {
             "type": "Identifier",
-            "start": 32,
-            "end": 38,
             "decorators": [],
             "name": "remove",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 32,
+            "end": 38
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 41,
-            "end": 57,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 42,
-                "end": 45,
                 "decorators": [],
                 "name": "map",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 42,
+                "end": 45
               },
               {
                 "type": "Identifier",
-                "start": 47,
-                "end": 50,
                 "decorators": [],
                 "name": "key",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 47,
+                "end": 50
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 55,
-              "end": 57,
-              "body": []
+              "end": 57
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 41,
+            "end": 57
           },
-          "definite": false
+          "definite": false,
+          "start": 32,
+          "end": 57
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 26,
+      "end": 57
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 26,
+  "end": 57
 }
 ```

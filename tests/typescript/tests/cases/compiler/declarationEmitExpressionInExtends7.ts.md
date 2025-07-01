@@ -2,44 +2,44 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 53,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 15,
-        "end": 53,
         "decorators": [],
         "id": null,
         "typeParameters": null,
         "superClass": {
           "type": "Identifier",
-          "start": 29,
-          "end": 50,
           "decorators": [],
           "name": "SomeUndefinedFunction",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 29,
+          "end": 50
         },
         "superTypeArguments": null,
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 51,
-          "end": 53,
-          "body": []
+          "end": 53
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 53
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 53
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

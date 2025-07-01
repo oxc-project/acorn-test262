@@ -1,107 +1,107 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 356,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 275,
-      "end": 304,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 279,
-          "end": 304,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 279,
-            "end": 280,
-            "name": "s"
+            "end": 280
           },
           "init": {
             "type": "Literal",
-            "start": 283,
-            "end": 304,
             "value": "\ta bc \t",
-            "raw": "\"\\u0009a b\\\nc \\u0009\""
-          }
+            "raw": "\"\\u0009a b\\\nc \\u0009\"",
+            "start": 283,
+            "end": 304
+          },
+          "start": 279,
+          "end": 304
         }
-      ]
+      ],
+      "start": 275,
+      "end": 304
     },
     {
       "type": "ExpressionStatement",
-      "start": 308,
-      "end": 355,
       "expression": {
         "type": "CallExpression",
-        "start": 308,
-        "end": 354,
         "callee": {
           "type": "MemberExpression",
-          "start": 308,
-          "end": 324,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 308,
-            "end": 314,
-            "name": "assert"
+            "end": 314
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 315,
-            "end": 324,
-            "name": "sameValue"
+            "end": 324
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 308,
+          "end": 324
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 325,
-            "end": 333,
             "callee": {
               "type": "MemberExpression",
-              "start": 325,
-              "end": 331,
               "object": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 325,
-                "end": 326,
-                "name": "s"
+                "end": 326
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 327,
-                "end": 331,
-                "name": "trim"
+                "end": 331
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 325,
+              "end": 331
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 325,
+            "end": 333
           },
           {
             "type": "Literal",
-            "start": 335,
-            "end": 341,
             "value": "a bc",
-            "raw": "\"a bc\""
+            "raw": "\"a bc\"",
+            "start": 335,
+            "end": 341
           },
           {
             "type": "Literal",
-            "start": 343,
-            "end": 353,
             "value": "s.trim()",
-            "raw": "'s.trim()'"
+            "raw": "'s.trim()'",
+            "start": 343,
+            "end": 353
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 308,
+        "end": 354
+      },
+      "start": 308,
+      "end": 355
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 356
 }

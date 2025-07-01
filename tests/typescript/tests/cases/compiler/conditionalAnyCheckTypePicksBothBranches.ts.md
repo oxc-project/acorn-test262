@@ -2,27 +2,21 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 151,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 36,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "T",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 9,
-        "end": 35,
         "checkType": {
           "type": "TSAnyKeyword",
           "start": 9,
@@ -35,302 +29,308 @@ __ESTREE_TEST__:PASS:
         },
         "trueType": {
           "type": "TSLiteralType",
-          "start": 30,
-          "end": 31,
           "literal": {
             "type": "Literal",
-            "start": 30,
-            "end": 31,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 30,
+            "end": 31
+          },
+          "start": 30,
+          "end": 31
         },
         "falseType": {
           "type": "TSLiteralType",
-          "start": 34,
-          "end": 35,
           "literal": {
             "type": "Literal",
-            "start": 34,
-            "end": 35,
             "value": 0,
-            "raw": "0"
-          }
-        }
+            "raw": "0",
+            "start": 34,
+            "end": 35
+          },
+          "start": 34,
+          "end": 35
+        },
+        "start": 9,
+        "end": 35
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 36
     },
     {
       "type": "VariableDeclaration",
-      "start": 37,
-      "end": 46,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 41,
-          "end": 45,
           "id": {
             "type": "Identifier",
-            "start": 41,
-            "end": 45,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 42,
-              "end": 45,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 44,
-                "end": 45,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 44,
-                  "end": 45,
                   "decorators": [],
                   "name": "T",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 44,
+                  "end": 45
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 44,
+                "end": 45
+              },
+              "start": 42,
+              "end": 45
+            },
+            "start": 41,
+            "end": 45
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 41,
+          "end": 45
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 37,
+      "end": 46
     },
     {
       "type": "ExpressionStatement",
-      "start": 47,
-      "end": 53,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 47,
-        "end": 52,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "x",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 47,
-          "end": 48,
-          "decorators": [],
-          "name": "x",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 48
         },
         "right": {
           "type": "Literal",
-          "start": 51,
-          "end": 52,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 51,
+          "end": 52
+        },
+        "start": 47,
+        "end": 52
       },
-      "directive": null
+      "directive": null,
+      "start": 47,
+      "end": 53
     },
     {
       "type": "ExpressionStatement",
-      "start": 54,
-      "end": 60,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 54,
-        "end": 59,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 54,
-          "end": 55,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 54,
+          "end": 55
         },
         "right": {
           "type": "Literal",
-          "start": 58,
-          "end": 59,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 58,
+          "end": 59
+        },
+        "start": 54,
+        "end": 59
       },
-      "directive": null
+      "directive": null,
+      "start": 54,
+      "end": 60
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 78,
-      "end": 118,
       "id": {
         "type": "Identifier",
-        "start": 83,
-        "end": 84,
         "decorators": [],
         "name": "U",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 83,
+        "end": 84
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 87,
-        "end": 117,
         "checkType": {
           "type": "TSTupleType",
-          "start": 87,
-          "end": 92,
           "elementTypes": [
             {
               "type": "TSAnyKeyword",
               "start": 88,
               "end": 91
             }
-          ]
+          ],
+          "start": 87,
+          "end": 92
         },
         "extendsType": {
           "type": "TSTupleType",
-          "start": 101,
-          "end": 109,
           "elementTypes": [
             {
               "type": "TSNumberKeyword",
               "start": 102,
               "end": 108
             }
-          ]
+          ],
+          "start": 101,
+          "end": 109
         },
         "trueType": {
           "type": "TSLiteralType",
-          "start": 112,
-          "end": 113,
           "literal": {
             "type": "Literal",
-            "start": 112,
-            "end": 113,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 112,
+            "end": 113
+          },
+          "start": 112,
+          "end": 113
         },
         "falseType": {
           "type": "TSLiteralType",
-          "start": 116,
-          "end": 117,
           "literal": {
             "type": "Literal",
-            "start": 116,
-            "end": 117,
             "value": 0,
-            "raw": "0"
-          }
-        }
+            "raw": "0",
+            "start": 116,
+            "end": 117
+          },
+          "start": 116,
+          "end": 117
+        },
+        "start": 87,
+        "end": 117
       },
-      "declare": false
+      "declare": false,
+      "start": 78,
+      "end": 118
     },
     {
       "type": "VariableDeclaration",
-      "start": 119,
-      "end": 128,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 123,
-          "end": 127,
           "id": {
             "type": "Identifier",
-            "start": 123,
-            "end": 127,
             "decorators": [],
             "name": "y",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 124,
-              "end": 127,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 126,
-                "end": 127,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 126,
-                  "end": 127,
                   "decorators": [],
                   "name": "U",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 126,
+                  "end": 127
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 126,
+                "end": 127
+              },
+              "start": 124,
+              "end": 127
+            },
+            "start": 123,
+            "end": 127
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 123,
+          "end": 127
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 119,
+      "end": 128
     },
     {
       "type": "ExpressionStatement",
-      "start": 129,
-      "end": 135,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 129,
-        "end": 134,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "y",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 129,
-          "end": 130,
-          "decorators": [],
-          "name": "y",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 130
         },
         "right": {
           "type": "Literal",
-          "start": 133,
-          "end": 134,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 133,
+          "end": 134
+        },
+        "start": 129,
+        "end": 134
       },
-      "directive": null
+      "directive": null,
+      "start": 129,
+      "end": 135
     },
     {
       "type": "ExpressionStatement",
-      "start": 136,
-      "end": 142,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 136,
-        "end": 141,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 136,
-          "end": 137,
           "decorators": [],
           "name": "y",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 136,
+          "end": 137
         },
         "right": {
           "type": "Literal",
-          "start": 140,
-          "end": 141,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 140,
+          "end": 141
+        },
+        "start": 136,
+        "end": 141
       },
-      "directive": null
+      "directive": null,
+      "start": 136,
+      "end": 142
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 151
 }
 ```

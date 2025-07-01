@@ -1,101 +1,101 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 473,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 358,
-      "end": 472,
       "expression": {
         "type": "CallExpression",
-        "start": 358,
-        "end": 471,
         "callee": {
           "type": "MemberExpression",
-          "start": 358,
-          "end": 371,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 358,
-            "end": 364,
-            "name": "assert"
+            "end": 364
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 365,
-            "end": 371,
-            "name": "throws"
+            "end": 371
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 358,
+          "end": 371
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 372,
-            "end": 386,
-            "name": "ReferenceError"
+            "end": 386
           },
           {
             "type": "FunctionExpression",
-            "start": 388,
-            "end": 470,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 400,
-              "end": 470,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 414,
-                  "end": 427,
                   "expression": {
                     "type": "Literal",
-                    "start": 414,
-                    "end": 426,
                     "value": "use strict",
-                    "raw": "\"use strict\""
+                    "raw": "\"use strict\"",
+                    "start": 414,
+                    "end": 426
                   },
-                  "directive": "use strict"
+                  "directive": "use strict",
+                  "start": 414,
+                  "end": 427
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 441,
-                  "end": 468,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 441,
-                    "end": 467,
                     "operator": "=",
                     "left": {
                       "type": "Identifier",
+                      "name": "test262unresolvable",
                       "start": 441,
-                      "end": 460,
-                      "name": "test262unresolvable"
+                      "end": 460
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 463,
-                      "end": 467,
                       "value": null,
-                      "raw": "null"
-                    }
-                  }
+                      "raw": "null",
+                      "start": 463,
+                      "end": 467
+                    },
+                    "start": 441,
+                    "end": 467
+                  },
+                  "start": 441,
+                  "end": 468
                 }
-              ]
+              ],
+              "start": 400,
+              "end": 470
             },
-            "expression": false
+            "expression": false,
+            "start": 388,
+            "end": 470
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 358,
+        "end": 471
+      },
+      "start": 358,
+      "end": 472
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 473
 }

@@ -1,145 +1,145 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 467,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 323,
-      "end": 363,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "Subclass",
         "start": 329,
-        "end": 337,
-        "name": "Subclass"
+        "end": 337
       },
       "superClass": {
         "type": "Identifier",
+        "name": "AggregateError",
         "start": 346,
-        "end": 360,
-        "name": "AggregateError"
+        "end": 360
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 361,
-        "end": 363,
-        "body": []
-      }
+        "end": 363
+      },
+      "start": 323,
+      "end": 363
     },
     {
       "type": "VariableDeclaration",
-      "start": 365,
-      "end": 394,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 371,
-          "end": 393,
           "id": {
             "type": "Identifier",
+            "name": "sub",
             "start": 371,
-            "end": 374,
-            "name": "sub"
+            "end": 374
           },
           "init": {
             "type": "NewExpression",
-            "start": 377,
-            "end": 393,
             "callee": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 381,
-              "end": 389,
-              "name": "Subclass"
+              "end": 389
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
+                "elements": [],
                 "start": 390,
-                "end": 392,
-                "elements": []
+                "end": 392
               }
-            ]
-          }
+            ],
+            "start": 377,
+            "end": 393
+          },
+          "start": 371,
+          "end": 393
         }
-      ]
+      ],
+      "start": 365,
+      "end": 394
     },
     {
       "type": "ExpressionStatement",
-      "start": 395,
-      "end": 427,
       "expression": {
         "type": "CallExpression",
-        "start": 395,
-        "end": 426,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 395,
-          "end": 401,
-          "name": "assert"
+          "end": 401
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 402,
-            "end": 425,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 402,
-              "end": 405,
-              "name": "sub"
+              "end": 405
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Subclass",
               "start": 417,
-              "end": 425,
-              "name": "Subclass"
-            }
+              "end": 425
+            },
+            "start": 402,
+            "end": 425
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 395,
+        "end": 426
+      },
+      "start": 395,
+      "end": 427
     },
     {
       "type": "ExpressionStatement",
-      "start": 428,
-      "end": 466,
       "expression": {
         "type": "CallExpression",
-        "start": 428,
-        "end": 465,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 428,
-          "end": 434,
-          "name": "assert"
+          "end": 434
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 435,
-            "end": 464,
             "left": {
               "type": "Identifier",
+              "name": "sub",
               "start": 435,
-              "end": 438,
-              "name": "sub"
+              "end": 438
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "AggregateError",
               "start": 450,
-              "end": 464,
-              "name": "AggregateError"
-            }
+              "end": 464
+            },
+            "start": 435,
+            "end": 464
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 428,
+        "end": 465
+      },
+      "start": 428,
+      "end": 466
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 467
 }

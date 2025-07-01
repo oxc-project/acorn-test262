@@ -1,131 +1,131 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 390,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 273,
-      "end": 295,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 277,
-          "end": 294,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 277,
-            "end": 280,
-            "name": "obj"
+            "end": 280
           },
           "init": {
             "type": "NewExpression",
-            "start": 283,
-            "end": 294,
             "callee": {
               "type": "Identifier",
+              "name": "Error",
               "start": 287,
-              "end": 292,
-              "name": "Error"
+              "end": 292
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 283,
+            "end": 294
+          },
+          "start": 277,
+          "end": 294
         }
-      ]
+      ],
+      "start": 273,
+      "end": 295
     },
     {
       "type": "ExpressionStatement",
-      "start": 297,
-      "end": 389,
       "expression": {
         "type": "CallExpression",
-        "start": 297,
-        "end": 388,
         "callee": {
           "type": "MemberExpression",
-          "start": 297,
-          "end": 313,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 297,
-            "end": 303,
-            "name": "assert"
+            "end": 303
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 304,
-            "end": 313,
-            "name": "sameValue"
+            "end": 313
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 297,
+          "end": 313
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 314,
-            "end": 340,
             "callee": {
               "type": "MemberExpression",
-              "start": 314,
-              "end": 335,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 314,
-                "end": 320,
-                "name": "Object"
+                "end": 320
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 321,
-                "end": 335,
-                "name": "getPrototypeOf"
+                "end": 335
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 314,
+              "end": 335
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 336,
-                "end": 339,
-                "name": "obj"
+                "end": 339
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 314,
+            "end": 340
           },
           {
             "type": "MemberExpression",
-            "start": 342,
-            "end": 357,
             "object": {
               "type": "Identifier",
+              "name": "Error",
               "start": 342,
-              "end": 347,
-              "name": "Error"
+              "end": 347
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 348,
-              "end": 357,
-              "name": "prototype"
+              "end": 357
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 342,
+            "end": 357
           },
           {
             "type": "Literal",
-            "start": 359,
-            "end": 387,
             "value": "Object.getPrototypeOf(obj)",
-            "raw": "'Object.getPrototypeOf(obj)'"
+            "raw": "'Object.getPrototypeOf(obj)'",
+            "start": 359,
+            "end": 387
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 297,
+        "end": 388
+      },
+      "start": 297,
+      "end": 389
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 390
 }

@@ -1,147 +1,147 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 902,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 774,
-      "end": 793,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 778,
-          "end": 792,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 778,
-            "end": 784,
-            "name": "result"
+            "end": 784
           },
           "init": {
             "type": "Literal",
-            "start": 787,
-            "end": 792,
             "value": false,
-            "raw": "false"
-          }
+            "raw": "false",
+            "start": 787,
+            "end": 792
+          },
+          "start": 778,
+          "end": 792
         }
-      ]
+      ],
+      "start": 774,
+      "end": 793
     },
     {
       "type": "IfStatement",
-      "start": 794,
-      "end": 884,
       "test": {
         "type": "MemberExpression",
-        "start": 798,
-        "end": 812,
         "object": {
           "type": "Identifier",
+          "name": "$262",
           "start": 798,
-          "end": 802,
-          "name": "$262"
+          "end": 802
         },
         "property": {
           "type": "Identifier",
+          "name": "IsHTMLDDA",
           "start": 803,
-          "end": 812,
-          "name": "IsHTMLDDA"
+          "end": 812
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 798,
+        "end": 812
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 814,
-        "end": 858,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 818,
-            "end": 856,
             "argument": {
               "type": "NewExpression",
-              "start": 824,
-              "end": 855,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 828,
-                "end": 840,
-                "name": "Test262Error"
+                "end": 840
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 841,
-                  "end": 854,
                   "value": "unreachable",
-                  "raw": "\"unreachable\""
+                  "raw": "\"unreachable\"",
+                  "start": 841,
+                  "end": 854
                 }
-              ]
-            }
+              ],
+              "start": 824,
+              "end": 855
+            },
+            "start": 818,
+            "end": 856
           }
-        ]
+        ],
+        "start": 814,
+        "end": 858
       },
       "alternate": {
         "type": "BlockStatement",
-        "start": 864,
-        "end": 884,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 868,
-            "end": 882,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 868,
-              "end": 881,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "result",
                 "start": 868,
-                "end": 874,
-                "name": "result"
+                "end": 874
               },
               "right": {
                 "type": "Literal",
-                "start": 877,
-                "end": 881,
                 "value": true,
-                "raw": "true"
-              }
-            }
+                "raw": "true",
+                "start": 877,
+                "end": 881
+              },
+              "start": 868,
+              "end": 881
+            },
+            "start": 868,
+            "end": 882
           }
-        ]
-      }
+        ],
+        "start": 864,
+        "end": 884
+      },
+      "start": 794,
+      "end": 884
     },
     {
       "type": "ExpressionStatement",
-      "start": 886,
-      "end": 901,
       "expression": {
         "type": "CallExpression",
-        "start": 886,
-        "end": 900,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 886,
-          "end": 892,
-          "name": "assert"
+          "end": 892
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 893,
-            "end": 899,
-            "name": "result"
+            "end": 899
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 886,
+        "end": 900
+      },
+      "start": 886,
+      "end": 901
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 902
 }

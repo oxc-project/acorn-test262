@@ -1,44 +1,42 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1067,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 1041,
-      "end": 1065,
       "label": {
         "type": "Identifier",
+        "name": "label",
         "start": 1041,
-        "end": 1046,
-        "name": "label"
+        "end": 1046
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1048,
-        "end": 1065,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1052,
-            "end": 1063,
             "expression": {
               "type": "ImportExpression",
-              "start": 1052,
-              "end": 1062,
               "source": {
                 "type": "Literal",
-                "start": 1059,
-                "end": 1061,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "start": 1059,
+                "end": 1061
               },
               "options": null,
-              "phase": null
-            }
+              "phase": null,
+              "start": 1052,
+              "end": 1062
+            },
+            "start": 1052,
+            "end": 1063
           }
-        ]
-      }
+        ],
+        "start": 1048,
+        "end": 1065
+      },
+      "start": 1041,
+      "end": 1065
     },
     {
       "type": "EmptyStatement",
@@ -47,5 +45,7 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1067
 }

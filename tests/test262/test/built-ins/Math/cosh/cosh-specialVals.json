@@ -1,475 +1,475 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 788,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 203,
-      "end": 297,
       "expression": {
         "type": "CallExpression",
-        "start": 203,
-        "end": 296,
         "callee": {
           "type": "MemberExpression",
-          "start": 203,
-          "end": 219,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 203,
-            "end": 209,
-            "name": "assert"
+            "end": 209
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 210,
-            "end": 219,
-            "name": "sameValue"
+            "end": 219
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 203,
+          "end": 219
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 220,
-            "end": 234,
             "callee": {
               "type": "MemberExpression",
-              "start": 220,
-              "end": 229,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 220,
-                "end": 224,
-                "name": "Math"
+                "end": 224
               },
               "property": {
                 "type": "Identifier",
+                "name": "cosh",
                 "start": 225,
-                "end": 229,
-                "name": "cosh"
+                "end": 229
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 220,
+              "end": 229
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 230,
-                "end": 233,
-                "name": "NaN"
+                "end": 233
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 220,
+            "end": 234
           },
           {
             "type": "MemberExpression",
-            "start": 236,
-            "end": 246,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 236,
-              "end": 242,
-              "name": "Number"
+              "end": 242
             },
             "property": {
               "type": "Identifier",
+              "name": "NaN",
               "start": 243,
-              "end": 246,
-              "name": "NaN"
+              "end": 246
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 236,
+            "end": 246
           },
           {
             "type": "Literal",
-            "start": 250,
-            "end": 295,
             "value": "Math.cosh produces incorrect output for NaN",
-            "raw": "\"Math.cosh produces incorrect output for NaN\""
+            "raw": "\"Math.cosh produces incorrect output for NaN\"",
+            "start": 250,
+            "end": 295
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 203,
+        "end": 296
+      },
+      "start": 203,
+      "end": 297
     },
     {
       "type": "ExpressionStatement",
-      "start": 298,
-      "end": 376,
       "expression": {
         "type": "CallExpression",
-        "start": 298,
-        "end": 375,
         "callee": {
           "type": "MemberExpression",
-          "start": 298,
-          "end": 314,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 298,
-            "end": 304,
-            "name": "assert"
+            "end": 304
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 305,
-            "end": 314,
-            "name": "sameValue"
+            "end": 314
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 298,
+          "end": 314
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 315,
-            "end": 327,
             "callee": {
               "type": "MemberExpression",
-              "start": 315,
-              "end": 324,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 315,
-                "end": 319,
-                "name": "Math"
+                "end": 319
               },
               "property": {
                 "type": "Identifier",
+                "name": "cosh",
                 "start": 320,
-                "end": 324,
-                "name": "cosh"
+                "end": 324
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 315,
+              "end": 324
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 325,
-                "end": 326,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 325,
+                "end": 326
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 315,
+            "end": 327
           },
           {
             "type": "Literal",
-            "start": 329,
-            "end": 330,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 329,
+            "end": 330
           },
           {
             "type": "Literal",
-            "start": 332,
-            "end": 374,
             "value": "Math.cosh should produce 1 for input = 0",
-            "raw": "\"Math.cosh should produce 1 for input = 0\""
+            "raw": "\"Math.cosh should produce 1 for input = 0\"",
+            "start": 332,
+            "end": 374
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 298,
+        "end": 375
+      },
+      "start": 298,
+      "end": 376
     },
     {
       "type": "ExpressionStatement",
-      "start": 377,
-      "end": 457,
       "expression": {
         "type": "CallExpression",
-        "start": 377,
-        "end": 456,
         "callee": {
           "type": "MemberExpression",
-          "start": 377,
-          "end": 393,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 377,
-            "end": 383,
-            "name": "assert"
+            "end": 383
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 384,
-            "end": 393,
-            "name": "sameValue"
+            "end": 393
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 377,
+          "end": 393
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 394,
-            "end": 407,
             "callee": {
               "type": "MemberExpression",
-              "start": 394,
-              "end": 403,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 394,
-                "end": 398,
-                "name": "Math"
+                "end": 398
               },
               "property": {
                 "type": "Identifier",
+                "name": "cosh",
                 "start": 399,
-                "end": 403,
-                "name": "cosh"
+                "end": 403
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 394,
+              "end": 403
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 404,
-                "end": 406,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 405,
-                  "end": 406,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 405,
+                  "end": 406
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 404,
+                "end": 406
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 394,
+            "end": 407
           },
           {
             "type": "Literal",
-            "start": 409,
-            "end": 410,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 409,
+            "end": 410
           },
           {
             "type": "Literal",
-            "start": 412,
-            "end": 455,
             "value": "Math.cosh should produce 1 for input = -0",
-            "raw": "\"Math.cosh should produce 1 for input = -0\""
+            "raw": "\"Math.cosh should produce 1 for input = -0\"",
+            "start": 412,
+            "end": 455
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 377,
+        "end": 456
+      },
+      "start": 377,
+      "end": 457
     },
     {
       "type": "ExpressionStatement",
-      "start": 458,
-      "end": 622,
       "expression": {
         "type": "CallExpression",
-        "start": 458,
-        "end": 621,
         "callee": {
           "type": "MemberExpression",
-          "start": 458,
-          "end": 474,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 458,
-            "end": 464,
-            "name": "assert"
+            "end": 464
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 465,
-            "end": 474,
-            "name": "sameValue"
+            "end": 474
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 458,
+          "end": 474
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 475,
-            "end": 510,
             "callee": {
               "type": "MemberExpression",
-              "start": 475,
-              "end": 484,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 475,
-                "end": 479,
-                "name": "Math"
+                "end": 479
               },
               "property": {
                 "type": "Identifier",
+                "name": "cosh",
                 "start": 480,
-                "end": 484,
-                "name": "cosh"
+                "end": 484
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 475,
+              "end": 484
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 485,
-                "end": 509,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 485,
-                  "end": 491,
-                  "name": "Number"
+                  "end": 491
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "NEGATIVE_INFINITY",
                   "start": 492,
-                  "end": 509,
-                  "name": "NEGATIVE_INFINITY"
+                  "end": 509
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 485,
+                "end": 509
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 475,
+            "end": 510
           },
           {
             "type": "MemberExpression",
-            "start": 512,
-            "end": 536,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 512,
-              "end": 518,
-              "name": "Number"
+              "end": 518
             },
             "property": {
               "type": "Identifier",
+              "name": "POSITIVE_INFINITY",
               "start": 519,
-              "end": 536,
-              "name": "POSITIVE_INFINITY"
+              "end": 536
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 512,
+            "end": 536
           },
           {
             "type": "Literal",
-            "start": 540,
-            "end": 620,
             "value": "Math.cosh should produce Number.POSITIVE_INFINITY for Number.NEGATIVE_INFINITY",
-            "raw": "\"Math.cosh should produce Number.POSITIVE_INFINITY for Number.NEGATIVE_INFINITY\""
+            "raw": "\"Math.cosh should produce Number.POSITIVE_INFINITY for Number.NEGATIVE_INFINITY\"",
+            "start": 540,
+            "end": 620
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 458,
+        "end": 621
+      },
+      "start": 458,
+      "end": 622
     },
     {
       "type": "ExpressionStatement",
-      "start": 623,
-      "end": 787,
       "expression": {
         "type": "CallExpression",
-        "start": 623,
-        "end": 786,
         "callee": {
           "type": "MemberExpression",
-          "start": 623,
-          "end": 639,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 623,
-            "end": 629,
-            "name": "assert"
+            "end": 629
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 630,
-            "end": 639,
-            "name": "sameValue"
+            "end": 639
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 623,
+          "end": 639
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 640,
-            "end": 675,
             "callee": {
               "type": "MemberExpression",
-              "start": 640,
-              "end": 649,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 640,
-                "end": 644,
-                "name": "Math"
+                "end": 644
               },
               "property": {
                 "type": "Identifier",
+                "name": "cosh",
                 "start": 645,
-                "end": 649,
-                "name": "cosh"
+                "end": 649
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 640,
+              "end": 649
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 650,
-                "end": 674,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 650,
-                  "end": 656,
-                  "name": "Number"
+                  "end": 656
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "POSITIVE_INFINITY",
                   "start": 657,
-                  "end": 674,
-                  "name": "POSITIVE_INFINITY"
+                  "end": 674
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 650,
+                "end": 674
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 640,
+            "end": 675
           },
           {
             "type": "MemberExpression",
-            "start": 677,
-            "end": 701,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 677,
-              "end": 683,
-              "name": "Number"
+              "end": 683
             },
             "property": {
               "type": "Identifier",
+              "name": "POSITIVE_INFINITY",
               "start": 684,
-              "end": 701,
-              "name": "POSITIVE_INFINITY"
+              "end": 701
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 677,
+            "end": 701
           },
           {
             "type": "Literal",
-            "start": 705,
-            "end": 785,
             "value": "Math.cosh should produce Number.POSITIVE_INFINITY for Number.POSITIVE_INFINITY",
-            "raw": "\"Math.cosh should produce Number.POSITIVE_INFINITY for Number.POSITIVE_INFINITY\""
+            "raw": "\"Math.cosh should produce Number.POSITIVE_INFINITY for Number.POSITIVE_INFINITY\"",
+            "start": 705,
+            "end": 785
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 623,
+        "end": 786
+      },
+      "start": 623,
+      "end": 787
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 788
 }

@@ -1,155 +1,155 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 430,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 293,
-      "end": 327,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "Foo",
         "start": 299,
-        "end": 302,
-        "name": "Foo"
+        "end": 302
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 303,
-        "end": 327,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 307,
-            "end": 324,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "method",
               "start": 313,
-              "end": 319,
-              "name": "method"
+              "end": 319
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 319,
-              "end": 324,
               "id": null,
               "generator": false,
               "async": true,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 322,
-                "end": 324,
-                "body": []
+                "end": 324
               },
-              "expression": false
+              "expression": false,
+              "start": 319,
+              "end": 324
             },
             "kind": "method",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 307,
+            "end": 324
           }
-        ]
-      }
+        ],
+        "start": 303,
+        "end": 327
+      },
+      "start": 293,
+      "end": 327
     },
     {
       "type": "VariableDeclaration",
-      "start": 328,
-      "end": 355,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 332,
-          "end": 354,
           "id": {
             "type": "Identifier",
+            "name": "p",
             "start": 332,
-            "end": 333,
-            "name": "p"
+            "end": 333
           },
           "init": {
             "type": "CallExpression",
-            "start": 336,
-            "end": 354,
             "callee": {
               "type": "MemberExpression",
-              "start": 336,
-              "end": 352,
               "object": {
                 "type": "NewExpression",
-                "start": 336,
-                "end": 345,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Foo",
                   "start": 340,
-                  "end": 343,
-                  "name": "Foo"
+                  "end": 343
                 },
-                "arguments": []
+                "arguments": [],
+                "start": 336,
+                "end": 345
               },
               "property": {
                 "type": "Identifier",
+                "name": "method",
                 "start": 346,
-                "end": 352,
-                "name": "method"
+                "end": 352
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 336,
+              "end": 352
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 336,
+            "end": 354
+          },
+          "start": 332,
+          "end": 354
         }
-      ]
+      ],
+      "start": 328,
+      "end": 355
     },
     {
       "type": "ExpressionStatement",
-      "start": 356,
-      "end": 429,
       "expression": {
         "type": "CallExpression",
-        "start": 356,
-        "end": 428,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 356,
-          "end": 362,
-          "name": "assert"
+          "end": 362
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 363,
-            "end": 383,
             "left": {
               "type": "Identifier",
+              "name": "p",
               "start": 363,
-              "end": 364,
-              "name": "p"
+              "end": 364
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Promise",
               "start": 376,
-              "end": 383,
-              "name": "Promise"
-            }
+              "end": 383
+            },
+            "start": 363,
+            "end": 383
           },
           {
             "type": "Literal",
-            "start": 385,
-            "end": 427,
             "value": "async functions return promise instances",
-            "raw": "\"async functions return promise instances\""
+            "raw": "\"async functions return promise instances\"",
+            "start": 385,
+            "end": 427
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 356,
+        "end": 428
+      },
+      "start": 356,
+      "end": 429
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 430
 }

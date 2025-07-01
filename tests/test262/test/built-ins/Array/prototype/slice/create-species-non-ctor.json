@@ -1,291 +1,291 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1010,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 719,
-      "end": 835,
       "expression": {
         "type": "CallExpression",
-        "start": 719,
-        "end": 834,
         "callee": {
           "type": "MemberExpression",
-          "start": 719,
-          "end": 735,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 719,
-            "end": 725,
-            "name": "assert"
+            "end": 725
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 726,
-            "end": 735,
-            "name": "sameValue"
+            "end": 735
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 719,
+          "end": 735
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 739,
-            "end": 762,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 739,
-              "end": 752,
-              "name": "isConstructor"
+              "end": 752
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "parseInt",
                 "start": 753,
-                "end": 761,
-                "name": "parseInt"
+                "end": 761
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 739,
+            "end": 762
           },
           {
             "type": "Literal",
-            "start": 766,
-            "end": 771,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 766,
+            "end": 771
           },
           {
             "type": "Literal",
-            "start": 775,
-            "end": 832,
             "value": "precondition: isConstructor(parseInt) must return false",
-            "raw": "'precondition: isConstructor(parseInt) must return false'"
+            "raw": "'precondition: isConstructor(parseInt) must return false'",
+            "start": 775,
+            "end": 832
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 719,
+        "end": 834
+      },
+      "start": 719,
+      "end": 835
     },
     {
       "type": "VariableDeclaration",
-      "start": 837,
-      "end": 848,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 841,
-          "end": 847,
           "id": {
             "type": "Identifier",
+            "name": "a",
             "start": 841,
-            "end": 842,
-            "name": "a"
+            "end": 842
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 845,
-            "end": 847,
-            "elements": []
-          }
+            "end": 847
+          },
+          "start": 841,
+          "end": 847
         }
-      ]
+      ],
+      "start": 837,
+      "end": 848
     },
     {
       "type": "ExpressionStatement",
-      "start": 850,
-      "end": 869,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 850,
-        "end": 868,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 850,
-          "end": 863,
           "object": {
             "type": "Identifier",
+            "name": "a",
             "start": 850,
-            "end": 851,
-            "name": "a"
+            "end": 851
           },
           "property": {
             "type": "Identifier",
+            "name": "constructor",
             "start": 852,
-            "end": 863,
-            "name": "constructor"
+            "end": 863
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 850,
+          "end": 863
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 866,
-          "end": 868,
-          "properties": []
-        }
-      }
+          "end": 868
+        },
+        "start": 850,
+        "end": 868
+      },
+      "start": 850,
+      "end": 869
     },
     {
       "type": "ExpressionStatement",
-      "start": 870,
-      "end": 911,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 870,
-        "end": 910,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 870,
-          "end": 899,
           "object": {
             "type": "MemberExpression",
-            "start": 870,
-            "end": 883,
             "object": {
               "type": "Identifier",
+              "name": "a",
               "start": 870,
-              "end": 871,
-              "name": "a"
+              "end": 871
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 872,
-              "end": 883,
-              "name": "constructor"
+              "end": 883
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 870,
+            "end": 883
           },
           "property": {
             "type": "MemberExpression",
-            "start": 884,
-            "end": 898,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 884,
-              "end": 890,
-              "name": "Symbol"
+              "end": 890
             },
             "property": {
               "type": "Identifier",
+              "name": "species",
               "start": 891,
-              "end": 898,
-              "name": "species"
+              "end": 898
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 884,
+            "end": 898
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 870,
+          "end": 899
         },
         "right": {
           "type": "Identifier",
+          "name": "parseInt",
           "start": 902,
-          "end": 910,
-          "name": "parseInt"
-        }
-      }
+          "end": 910
+        },
+        "start": 870,
+        "end": 910
+      },
+      "start": 870,
+      "end": 911
     },
     {
       "type": "ExpressionStatement",
-      "start": 913,
-      "end": 1009,
       "expression": {
         "type": "CallExpression",
-        "start": 913,
-        "end": 1008,
         "callee": {
           "type": "MemberExpression",
-          "start": 913,
-          "end": 926,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 913,
-            "end": 919,
-            "name": "assert"
+            "end": 919
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 920,
-            "end": 926,
-            "name": "throws"
+            "end": 926
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 913,
+          "end": 926
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 927,
-            "end": 936,
-            "name": "TypeError"
+            "end": 936
           },
           {
             "type": "FunctionExpression",
-            "start": 938,
-            "end": 965,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 949,
-              "end": 965,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 953,
-                  "end": 963,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 953,
-                    "end": 962,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 953,
-                      "end": 960,
                       "object": {
                         "type": "Identifier",
+                        "name": "a",
                         "start": 953,
-                        "end": 954,
-                        "name": "a"
+                        "end": 954
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "slice",
                         "start": 955,
-                        "end": 960,
-                        "name": "slice"
+                        "end": 960
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 953,
+                      "end": 960
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 953,
+                    "end": 962
+                  },
+                  "start": 953,
+                  "end": 963
                 }
-              ]
+              ],
+              "start": 949,
+              "end": 965
             },
-            "expression": false
+            "expression": false,
+            "start": 938,
+            "end": 965
           },
           {
             "type": "Literal",
-            "start": 967,
-            "end": 1007,
             "value": "a.slice() throws a TypeError exception",
-            "raw": "'a.slice() throws a TypeError exception'"
+            "raw": "'a.slice() throws a TypeError exception'",
+            "start": 967,
+            "end": 1007
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 913,
+        "end": 1008
+      },
+      "start": 913,
+      "end": 1009
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1010
 }

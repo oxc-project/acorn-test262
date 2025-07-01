@@ -1,181 +1,181 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 914,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 792,
-      "end": 805,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 796,
-          "end": 804,
           "id": {
             "type": "Identifier",
+            "name": "arg",
             "start": 796,
-            "end": 799,
-            "name": "arg"
+            "end": 799
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 802,
-            "end": 804,
-            "elements": []
-          }
+            "end": 804
+          },
+          "start": 796,
+          "end": 804
         }
-      ]
+      ],
+      "start": 792,
+      "end": 805
     },
     {
       "type": "ExpressionStatement",
-      "start": 807,
-      "end": 913,
       "expression": {
         "type": "CallExpression",
-        "start": 807,
-        "end": 912,
         "callee": {
           "type": "MemberExpression",
-          "start": 807,
-          "end": 898,
           "object": {
             "type": "CallExpression",
-            "start": 807,
-            "end": 893,
             "callee": {
               "type": "MemberExpression",
-              "start": 807,
-              "end": 835,
               "object": {
                 "type": "CallExpression",
-                "start": 807,
-                "end": 830,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 807,
-                  "end": 825,
                   "object": {
                     "type": "Identifier",
+                    "name": "Promise",
                     "start": 807,
-                    "end": 814,
-                    "name": "Promise"
+                    "end": 814
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "allSettled",
                     "start": 815,
-                    "end": 825,
-                    "name": "allSettled"
+                    "end": 825
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 807,
+                  "end": 825
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "arg",
                     "start": 826,
-                    "end": 829,
-                    "name": "arg"
+                    "end": 829
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 807,
+                "end": 830
               },
               "property": {
                 "type": "Identifier",
+                "name": "then",
                 "start": 831,
-                "end": 835,
-                "name": "then"
+                "end": 835
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 807,
+              "end": 835
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 836,
-                "end": 892,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [
                   {
                     "type": "Identifier",
+                    "name": "result",
                     "start": 845,
-                    "end": 851,
-                    "name": "result"
+                    "end": 851
                   }
                 ],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 853,
-                  "end": 892,
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 857,
-                      "end": 890,
                       "expression": {
                         "type": "CallExpression",
-                        "start": 857,
-                        "end": 889,
                         "callee": {
                           "type": "Identifier",
+                          "name": "checkSettledPromises",
                           "start": 857,
-                          "end": 877,
-                          "name": "checkSettledPromises"
+                          "end": 877
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
+                            "name": "result",
                             "start": 878,
-                            "end": 884,
-                            "name": "result"
+                            "end": 884
                           },
                           {
                             "type": "ArrayExpression",
+                            "elements": [],
                             "start": 886,
-                            "end": 888,
-                            "elements": []
+                            "end": 888
                           }
                         ],
-                        "optional": false
-                      }
+                        "optional": false,
+                        "start": 857,
+                        "end": 889
+                      },
+                      "start": 857,
+                      "end": 890
                     }
-                  ]
+                  ],
+                  "start": 853,
+                  "end": 892
                 },
-                "expression": false
+                "expression": false,
+                "start": 836,
+                "end": 892
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 807,
+            "end": 893
           },
           "property": {
             "type": "Identifier",
+            "name": "then",
             "start": 894,
-            "end": 898,
-            "name": "then"
+            "end": 898
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 807,
+          "end": 898
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "$DONE",
             "start": 899,
-            "end": 904,
-            "name": "$DONE"
+            "end": 904
           },
           {
             "type": "Identifier",
+            "name": "$DONE",
             "start": 906,
-            "end": 911,
-            "name": "$DONE"
+            "end": 911
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 807,
+        "end": 912
+      },
+      "start": 807,
+      "end": 913
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 914
 }

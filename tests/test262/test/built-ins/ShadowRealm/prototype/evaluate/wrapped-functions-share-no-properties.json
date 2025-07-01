@@ -1,298 +1,298 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 672,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 292,
-      "end": 443,
       "expression": {
         "type": "CallExpression",
-        "start": 292,
-        "end": 442,
         "callee": {
           "type": "MemberExpression",
-          "start": 292,
-          "end": 308,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 292,
-            "end": 298,
-            "name": "assert"
+            "end": 298
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 299,
-            "end": 308,
-            "name": "sameValue"
+            "end": 308
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 292,
+          "end": 308
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 312,
-            "end": 349,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 319,
-              "end": 349,
               "object": {
                 "type": "MemberExpression",
-                "start": 319,
-                "end": 340,
                 "object": {
                   "type": "Identifier",
+                  "name": "ShadowRealm",
                   "start": 319,
-                  "end": 330,
-                  "name": "ShadowRealm"
+                  "end": 330
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 331,
-                  "end": 340,
-                  "name": "prototype"
+                  "end": 340
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 319,
+                "end": 340
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 341,
-                "end": 349,
-                "name": "evaluate"
+                "end": 349
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 319,
+              "end": 349
             },
-            "prefix": true
+            "prefix": true,
+            "start": 312,
+            "end": 349
           },
           {
             "type": "Literal",
-            "start": 353,
-            "end": 363,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 353,
+            "end": 363
           },
           {
             "type": "Literal",
-            "start": 367,
-            "end": 440,
             "value": "This test must fail if ShadowRealm.prototype.evaluate is not a function",
-            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'"
+            "raw": "'This test must fail if ShadowRealm.prototype.evaluate is not a function'",
+            "start": 367,
+            "end": 440
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 292,
+        "end": 442
+      },
+      "start": 292,
+      "end": 443
     },
     {
       "type": "VariableDeclaration",
-      "start": 445,
-      "end": 473,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 451,
-          "end": 472,
           "id": {
             "type": "Identifier",
+            "name": "r",
             "start": 451,
-            "end": 452,
-            "name": "r"
+            "end": 452
           },
           "init": {
             "type": "NewExpression",
-            "start": 455,
-            "end": 472,
             "callee": {
               "type": "Identifier",
+              "name": "ShadowRealm",
               "start": 459,
-              "end": 470,
-              "name": "ShadowRealm"
+              "end": 470
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 455,
+            "end": 472
+          },
+          "start": 451,
+          "end": 472
         }
-      ]
+      ],
+      "start": 445,
+      "end": 473
     },
     {
       "type": "VariableDeclaration",
-      "start": 475,
-      "end": 580,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 481,
-          "end": 579,
           "id": {
             "type": "Identifier",
+            "name": "wrapped",
             "start": 481,
-            "end": 488,
-            "name": "wrapped"
+            "end": 488
           },
           "init": {
             "type": "CallExpression",
-            "start": 491,
-            "end": 579,
             "callee": {
               "type": "MemberExpression",
-              "start": 491,
-              "end": 501,
               "object": {
                 "type": "Identifier",
+                "name": "r",
                 "start": 491,
-                "end": 492,
-                "name": "r"
+                "end": 492
               },
               "property": {
                 "type": "Identifier",
+                "name": "evaluate",
                 "start": 493,
-                "end": 501,
-                "name": "evaluate"
+                "end": 501
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 491,
+              "end": 501
             },
             "arguments": [
               {
                 "type": "TemplateLiteral",
-                "start": 502,
-                "end": 578,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 503,
-                    "end": 577,
                     "value": {
                       "raw": "\nfunction fn() {\n    return fn.secret;\n}\n\nfn.secret = 'confidential';\nfn;\n",
                       "cooked": "\nfunction fn() {\n    return fn.secret;\n}\n\nfn.secret = 'confidential';\nfn;\n"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 503,
+                    "end": 577
                   }
                 ],
-                "expressions": []
+                "expressions": [],
+                "start": 502,
+                "end": 578
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 491,
+            "end": 579
+          },
+          "start": 481,
+          "end": 579
         }
-      ]
+      ],
+      "start": 475,
+      "end": 580
     },
     {
       "type": "ExpressionStatement",
-      "start": 582,
-      "end": 626,
       "expression": {
         "type": "CallExpression",
-        "start": 582,
-        "end": 625,
         "callee": {
           "type": "MemberExpression",
-          "start": 582,
-          "end": 598,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 582,
-            "end": 588,
-            "name": "assert"
+            "end": 588
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 589,
-            "end": 598,
-            "name": "sameValue"
+            "end": 598
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 582,
+          "end": 598
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 599,
-            "end": 613,
             "object": {
               "type": "Identifier",
+              "name": "wrapped",
               "start": 599,
-              "end": 606,
-              "name": "wrapped"
+              "end": 606
             },
             "property": {
               "type": "Identifier",
+              "name": "secret",
               "start": 607,
-              "end": 613,
-              "name": "secret"
+              "end": 613
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 599,
+            "end": 613
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 615,
-            "end": 624,
-            "name": "undefined"
+            "end": 624
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 582,
+        "end": 625
+      },
+      "start": 582,
+      "end": 626
     },
     {
       "type": "ExpressionStatement",
-      "start": 627,
-      "end": 671,
       "expression": {
         "type": "CallExpression",
-        "start": 627,
-        "end": 670,
         "callee": {
           "type": "MemberExpression",
-          "start": 627,
-          "end": 643,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 627,
-            "end": 633,
-            "name": "assert"
+            "end": 633
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 634,
-            "end": 643,
-            "name": "sameValue"
+            "end": 643
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 627,
+          "end": 643
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 644,
-            "end": 653,
             "callee": {
               "type": "Identifier",
+              "name": "wrapped",
               "start": 644,
-              "end": 651,
-              "name": "wrapped"
+              "end": 651
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 644,
+            "end": 653
           },
           {
             "type": "Literal",
-            "start": 655,
-            "end": 669,
             "value": "confidential",
-            "raw": "'confidential'"
+            "raw": "'confidential'",
+            "start": 655,
+            "end": 669
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 627,
+        "end": 670
+      },
+      "start": 627,
+      "end": 671
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 672
 }

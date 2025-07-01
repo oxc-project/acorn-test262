@@ -1,198 +1,198 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 804,
   "body": [
     {
       "type": "TryStatement",
-      "start": 436,
-      "end": 758,
       "block": {
         "type": "BlockStatement",
-        "start": 440,
-        "end": 598,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 446,
-            "end": 596,
             "argument": {
               "type": "NewExpression",
-              "start": 452,
-              "end": 595,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 456,
-                "end": 468,
-                "name": "Test262Error"
+                "end": 468
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 469,
-                  "end": 594,
                   "left": {
                     "type": "Literal",
-                    "start": 469,
-                    "end": 547,
                     "value": "#1.1: new RegExp(\"$sup\",{toString:function(){}}) throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"$sup\",{toString:function(){}}) throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: new RegExp(\"$sup\",{toString:function(){}}) throw SyntaxError. Actual: '",
+                    "start": 469,
+                    "end": 547
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 550,
-                    "end": 594,
                     "expression": {
                       "type": "NewExpression",
-                      "start": 551,
-                      "end": 593,
                       "callee": {
                         "type": "Identifier",
+                        "name": "RegExp",
                         "start": 555,
-                        "end": 561,
-                        "name": "RegExp"
+                        "end": 561
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 562,
-                          "end": 568,
                           "value": "$sup",
-                          "raw": "\"$sup\""
+                          "raw": "\"$sup\"",
+                          "start": 562,
+                          "end": 568
                         },
                         {
                           "type": "ObjectExpression",
-                          "start": 569,
-                          "end": 592,
                           "properties": [
                             {
                               "type": "Property",
-                              "start": 570,
-                              "end": 591,
                               "kind": "init",
                               "key": {
                                 "type": "Identifier",
+                                "name": "toString",
                                 "start": 570,
-                                "end": 578,
-                                "name": "toString"
+                                "end": 578
                               },
                               "value": {
                                 "type": "FunctionExpression",
-                                "start": 579,
-                                "end": 591,
                                 "id": null,
                                 "generator": false,
                                 "async": false,
                                 "params": [],
                                 "body": {
                                   "type": "BlockStatement",
+                                  "body": [],
                                   "start": 589,
-                                  "end": 591,
-                                  "body": []
+                                  "end": 591
                                 },
-                                "expression": false
+                                "expression": false,
+                                "start": 579,
+                                "end": 591
                               },
                               "method": false,
                               "shorthand": false,
-                              "computed": false
+                              "computed": false,
+                              "start": 570,
+                              "end": 591
                             }
-                          ]
+                          ],
+                          "start": 569,
+                          "end": 592
                         }
-                      ]
-                    }
-                  }
+                      ],
+                      "start": 551,
+                      "end": 593
+                    },
+                    "start": 550,
+                    "end": 594
+                  },
+                  "start": 469,
+                  "end": 594
                 }
-              ]
-            }
+              ],
+              "start": 452,
+              "end": 595
+            },
+            "start": 446,
+            "end": 596
           }
-        ]
+        ],
+        "start": 440,
+        "end": 598
       },
       "handler": {
         "type": "CatchClause",
-        "start": 599,
-        "end": 758,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 606,
-          "end": 607,
-          "name": "e"
+          "end": 607
         },
         "body": {
           "type": "BlockStatement",
-          "start": 609,
-          "end": 758,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 613,
-              "end": 756,
               "expression": {
                 "type": "CallExpression",
-                "start": 613,
-                "end": 755,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 613,
-                  "end": 629,
                   "object": {
                     "type": "Identifier",
+                    "name": "assert",
                     "start": 613,
-                    "end": 619,
-                    "name": "assert"
+                    "end": 619
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "sameValue",
                     "start": 620,
-                    "end": 629,
-                    "name": "sameValue"
+                    "end": 629
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 613,
+                  "end": 629
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 635,
-                    "end": 659,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 635,
-                      "end": 636,
-                      "name": "e"
+                      "end": 636
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "SyntaxError",
                       "start": 648,
-                      "end": 659,
-                      "name": "SyntaxError"
-                    }
+                      "end": 659
+                    },
+                    "start": 635,
+                    "end": 659
                   },
                   {
                     "type": "Literal",
-                    "start": 665,
-                    "end": 669,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 665,
+                    "end": 669
                   },
                   {
                     "type": "Literal",
-                    "start": 675,
-                    "end": 751,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "start": 675,
+                    "end": 751
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 613,
+                "end": 755
+              },
+              "start": 613,
+              "end": 756
             }
-          ]
-        }
+          ],
+          "start": 609,
+          "end": 758
+        },
+        "start": 599,
+        "end": 758
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 436,
+      "end": 758
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 804
 }

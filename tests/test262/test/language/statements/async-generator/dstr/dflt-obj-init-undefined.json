@@ -1,46 +1,44 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 967,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 875,
-      "end": 915,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 891,
-        "end": 892,
-        "name": "f"
+        "end": 892
       },
       "generator": true,
       "async": true,
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 893,
-          "end": 907,
           "left": {
             "type": "ObjectPattern",
+            "properties": [],
             "start": 893,
-            "end": 895,
-            "properties": []
+            "end": 895
           },
           "right": {
             "type": "Identifier",
+            "name": "undefined",
             "start": 898,
-            "end": 907,
-            "name": "undefined"
-          }
+            "end": 907
+          },
+          "start": 893,
+          "end": 907
         }
       ],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 909,
-        "end": 915,
-        "body": []
+        "end": 915
       },
-      "expression": false
+      "expression": false,
+      "start": 875,
+      "end": 915
     },
     {
       "type": "EmptyStatement",
@@ -49,78 +47,80 @@
     },
     {
       "type": "ExpressionStatement",
-      "start": 918,
-      "end": 966,
       "expression": {
         "type": "CallExpression",
-        "start": 918,
-        "end": 965,
         "callee": {
           "type": "MemberExpression",
-          "start": 918,
-          "end": 931,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 918,
-            "end": 924,
-            "name": "assert"
+            "end": 924
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 925,
-            "end": 931,
-            "name": "throws"
+            "end": 931
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 918,
+          "end": 931
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 932,
-            "end": 941,
-            "name": "TypeError"
+            "end": 941
           },
           {
             "type": "FunctionExpression",
-            "start": 943,
-            "end": 964,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 954,
-              "end": 964,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 958,
-                  "end": 962,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 958,
-                    "end": 961,
                     "callee": {
                       "type": "Identifier",
+                      "name": "f",
                       "start": 958,
-                      "end": 959,
-                      "name": "f"
+                      "end": 959
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 958,
+                    "end": 961
+                  },
+                  "start": 958,
+                  "end": 962
                 }
-              ]
+              ],
+              "start": 954,
+              "end": 964
             },
-            "expression": false
+            "expression": false,
+            "start": 943,
+            "end": 964
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 918,
+        "end": 965
+      },
+      "start": 918,
+      "end": 966
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 967
 }

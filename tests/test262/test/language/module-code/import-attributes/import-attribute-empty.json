@@ -1,110 +1,110 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 801,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 608,
-      "end": 664,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 615,
-          "end": 616,
           "local": {
             "type": "Identifier",
+            "name": "x",
             "start": 615,
-            "end": 616,
-            "name": "x"
-          }
+            "end": 616
+          },
+          "start": 615,
+          "end": 616
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 622,
-        "end": 655,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "start": 622,
+        "end": 655
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 608,
+      "end": 664
     },
     {
       "type": "ImportDeclaration",
-      "start": 665,
-      "end": 714,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 672,
-        "end": 705,
         "value": "./import-attribute-2_FIXTURE.js",
-        "raw": "'./import-attribute-2_FIXTURE.js'"
+        "raw": "'./import-attribute-2_FIXTURE.js'",
+        "start": 672,
+        "end": 705
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 665,
+      "end": 714
     },
     {
       "type": "ExportAllDeclaration",
-      "start": 715,
-      "end": 771,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 729,
-        "end": 762,
         "value": "./import-attribute-3_FIXTURE.js",
-        "raw": "'./import-attribute-3_FIXTURE.js'"
+        "raw": "'./import-attribute-3_FIXTURE.js'",
+        "start": 729,
+        "end": 762
       },
-      "attributes": []
+      "attributes": [],
+      "start": 715,
+      "end": 771
     },
     {
       "type": "ExpressionStatement",
-      "start": 773,
-      "end": 800,
       "expression": {
         "type": "CallExpression",
-        "start": 773,
-        "end": 799,
         "callee": {
           "type": "MemberExpression",
-          "start": 773,
-          "end": 789,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 773,
-            "end": 779,
-            "name": "assert"
+            "end": 779
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 780,
-            "end": 789,
-            "name": "sameValue"
+            "end": 789
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 773,
+          "end": 789
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "x",
             "start": 790,
-            "end": 791,
-            "name": "x"
+            "end": 791
           },
           {
             "type": "Literal",
-            "start": 793,
-            "end": 798,
             "value": 262.1,
-            "raw": "262.1"
+            "raw": "262.1",
+            "start": 793,
+            "end": 798
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 773,
+        "end": 799
+      },
+      "start": 773,
+      "end": 800
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 801
 }

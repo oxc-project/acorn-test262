@@ -1,781 +1,781 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 969,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 399,
-      "end": 581,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 403,
-          "end": 580,
           "id": {
             "type": "Identifier",
+            "name": "alphabetR",
             "start": 403,
-            "end": 412,
-            "name": "alphabetR"
+            "end": 412
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 415,
-            "end": 580,
             "elements": [
               {
                 "type": "Literal",
-                "start": 416,
-                "end": 419,
                 "value": "ё",
-                "raw": "\"ё\""
+                "raw": "\"ё\"",
+                "start": 416,
+                "end": 419
               },
               {
                 "type": "Literal",
-                "start": 421,
-                "end": 424,
                 "value": "я",
-                "raw": "\"я\""
+                "raw": "\"я\"",
+                "start": 421,
+                "end": 424
               },
               {
                 "type": "Literal",
-                "start": 426,
-                "end": 429,
                 "value": "ю",
-                "raw": "\"ю\""
+                "raw": "\"ю\"",
+                "start": 426,
+                "end": 429
               },
               {
                 "type": "Literal",
-                "start": 431,
-                "end": 434,
                 "value": "э",
-                "raw": "\"э\""
+                "raw": "\"э\"",
+                "start": 431,
+                "end": 434
               },
               {
                 "type": "Literal",
-                "start": 436,
-                "end": 439,
                 "value": "ь",
-                "raw": "\"ь\""
+                "raw": "\"ь\"",
+                "start": 436,
+                "end": 439
               },
               {
                 "type": "Literal",
-                "start": 441,
-                "end": 444,
                 "value": "ы",
-                "raw": "\"ы\""
+                "raw": "\"ы\"",
+                "start": 441,
+                "end": 444
               },
               {
                 "type": "Literal",
-                "start": 446,
-                "end": 449,
                 "value": "ъ",
-                "raw": "\"ъ\""
+                "raw": "\"ъ\"",
+                "start": 446,
+                "end": 449
               },
               {
                 "type": "Literal",
-                "start": 451,
-                "end": 454,
                 "value": "щ",
-                "raw": "\"щ\""
+                "raw": "\"щ\"",
+                "start": 451,
+                "end": 454
               },
               {
                 "type": "Literal",
-                "start": 456,
-                "end": 459,
                 "value": "ш",
-                "raw": "\"ш\""
+                "raw": "\"ш\"",
+                "start": 456,
+                "end": 459
               },
               {
                 "type": "Literal",
-                "start": 461,
-                "end": 464,
                 "value": "ч",
-                "raw": "\"ч\""
+                "raw": "\"ч\"",
+                "start": 461,
+                "end": 464
               },
               {
                 "type": "Literal",
-                "start": 466,
-                "end": 469,
                 "value": "ц",
-                "raw": "\"ц\""
+                "raw": "\"ц\"",
+                "start": 466,
+                "end": 469
               },
               {
                 "type": "Literal",
-                "start": 471,
-                "end": 474,
                 "value": "х",
-                "raw": "\"х\""
+                "raw": "\"х\"",
+                "start": 471,
+                "end": 474
               },
               {
                 "type": "Literal",
-                "start": 476,
-                "end": 479,
                 "value": "ф",
-                "raw": "\"ф\""
+                "raw": "\"ф\"",
+                "start": 476,
+                "end": 479
               },
               {
                 "type": "Literal",
-                "start": 481,
-                "end": 484,
                 "value": "у",
-                "raw": "\"у\""
+                "raw": "\"у\"",
+                "start": 481,
+                "end": 484
               },
               {
                 "type": "Literal",
-                "start": 486,
-                "end": 489,
                 "value": "т",
-                "raw": "\"т\""
+                "raw": "\"т\"",
+                "start": 486,
+                "end": 489
               },
               {
                 "type": "Literal",
-                "start": 491,
-                "end": 494,
                 "value": "с",
-                "raw": "\"с\""
+                "raw": "\"с\"",
+                "start": 491,
+                "end": 494
               },
               {
                 "type": "Literal",
-                "start": 496,
-                "end": 499,
                 "value": "р",
-                "raw": "\"р\""
+                "raw": "\"р\"",
+                "start": 496,
+                "end": 499
               },
               {
                 "type": "Literal",
-                "start": 501,
-                "end": 504,
                 "value": "П",
-                "raw": "\"П\""
+                "raw": "\"П\"",
+                "start": 501,
+                "end": 504
               },
               {
                 "type": "Literal",
-                "start": 506,
-                "end": 509,
                 "value": "О",
-                "raw": "\"О\""
+                "raw": "\"О\"",
+                "start": 506,
+                "end": 509
               },
               {
                 "type": "Literal",
-                "start": 511,
-                "end": 514,
                 "value": "Н",
-                "raw": "\"Н\""
+                "raw": "\"Н\"",
+                "start": 511,
+                "end": 514
               },
               {
                 "type": "Literal",
-                "start": 516,
-                "end": 519,
                 "value": "М",
-                "raw": "\"М\""
+                "raw": "\"М\"",
+                "start": 516,
+                "end": 519
               },
               {
                 "type": "Literal",
-                "start": 521,
-                "end": 524,
                 "value": "Л",
-                "raw": "\"Л\""
+                "raw": "\"Л\"",
+                "start": 521,
+                "end": 524
               },
               {
                 "type": "Literal",
-                "start": 526,
-                "end": 529,
                 "value": "К",
-                "raw": "\"К\""
+                "raw": "\"К\"",
+                "start": 526,
+                "end": 529
               },
               {
                 "type": "Literal",
-                "start": 531,
-                "end": 534,
                 "value": "Й",
-                "raw": "\"Й\""
+                "raw": "\"Й\"",
+                "start": 531,
+                "end": 534
               },
               {
                 "type": "Literal",
-                "start": 536,
-                "end": 539,
                 "value": "И",
-                "raw": "\"И\""
+                "raw": "\"И\"",
+                "start": 536,
+                "end": 539
               },
               {
                 "type": "Literal",
-                "start": 541,
-                "end": 544,
                 "value": "З",
-                "raw": "\"З\""
+                "raw": "\"З\"",
+                "start": 541,
+                "end": 544
               },
               {
                 "type": "Literal",
-                "start": 546,
-                "end": 549,
                 "value": "Ж",
-                "raw": "\"Ж\""
+                "raw": "\"Ж\"",
+                "start": 546,
+                "end": 549
               },
               {
                 "type": "Literal",
-                "start": 551,
-                "end": 554,
                 "value": "Е",
-                "raw": "\"Е\""
+                "raw": "\"Е\"",
+                "start": 551,
+                "end": 554
               },
               {
                 "type": "Literal",
-                "start": 556,
-                "end": 559,
                 "value": "Д",
-                "raw": "\"Д\""
+                "raw": "\"Д\"",
+                "start": 556,
+                "end": 559
               },
               {
                 "type": "Literal",
-                "start": 561,
-                "end": 564,
                 "value": "Г",
-                "raw": "\"Г\""
+                "raw": "\"Г\"",
+                "start": 561,
+                "end": 564
               },
               {
                 "type": "Literal",
-                "start": 566,
-                "end": 569,
                 "value": "В",
-                "raw": "\"В\""
+                "raw": "\"В\"",
+                "start": 566,
+                "end": 569
               },
               {
                 "type": "Literal",
-                "start": 571,
-                "end": 574,
                 "value": "Б",
-                "raw": "\"Б\""
+                "raw": "\"Б\"",
+                "start": 571,
+                "end": 574
               },
               {
                 "type": "Literal",
-                "start": 576,
-                "end": 579,
                 "value": "А",
-                "raw": "\"А\""
+                "raw": "\"А\"",
+                "start": 576,
+                "end": 579
               }
-            ]
-          }
+            ],
+            "start": 415,
+            "end": 580
+          },
+          "start": 403,
+          "end": 580
         }
-      ]
+      ],
+      "start": 399,
+      "end": 581
     },
     {
       "type": "VariableDeclaration",
-      "start": 582,
-      "end": 763,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 586,
-          "end": 762,
           "id": {
             "type": "Identifier",
+            "name": "alphabet",
             "start": 586,
-            "end": 594,
-            "name": "alphabet"
+            "end": 594
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 597,
-            "end": 762,
             "elements": [
               {
                 "type": "Literal",
-                "start": 598,
-                "end": 601,
                 "value": "А",
-                "raw": "\"А\""
+                "raw": "\"А\"",
+                "start": 598,
+                "end": 601
               },
               {
                 "type": "Literal",
-                "start": 603,
-                "end": 606,
                 "value": "Б",
-                "raw": "\"Б\""
+                "raw": "\"Б\"",
+                "start": 603,
+                "end": 606
               },
               {
                 "type": "Literal",
-                "start": 608,
-                "end": 611,
                 "value": "В",
-                "raw": "\"В\""
+                "raw": "\"В\"",
+                "start": 608,
+                "end": 611
               },
               {
                 "type": "Literal",
-                "start": 613,
-                "end": 616,
                 "value": "Г",
-                "raw": "\"Г\""
+                "raw": "\"Г\"",
+                "start": 613,
+                "end": 616
               },
               {
                 "type": "Literal",
-                "start": 618,
-                "end": 621,
                 "value": "Д",
-                "raw": "\"Д\""
+                "raw": "\"Д\"",
+                "start": 618,
+                "end": 621
               },
               {
                 "type": "Literal",
-                "start": 623,
-                "end": 626,
                 "value": "Е",
-                "raw": "\"Е\""
+                "raw": "\"Е\"",
+                "start": 623,
+                "end": 626
               },
               {
                 "type": "Literal",
-                "start": 628,
-                "end": 631,
                 "value": "Ж",
-                "raw": "\"Ж\""
+                "raw": "\"Ж\"",
+                "start": 628,
+                "end": 631
               },
               {
                 "type": "Literal",
-                "start": 633,
-                "end": 636,
                 "value": "З",
-                "raw": "\"З\""
+                "raw": "\"З\"",
+                "start": 633,
+                "end": 636
               },
               {
                 "type": "Literal",
-                "start": 638,
-                "end": 641,
                 "value": "И",
-                "raw": "\"И\""
+                "raw": "\"И\"",
+                "start": 638,
+                "end": 641
               },
               {
                 "type": "Literal",
-                "start": 643,
-                "end": 646,
                 "value": "Й",
-                "raw": "\"Й\""
+                "raw": "\"Й\"",
+                "start": 643,
+                "end": 646
               },
               {
                 "type": "Literal",
-                "start": 648,
-                "end": 651,
                 "value": "К",
-                "raw": "\"К\""
+                "raw": "\"К\"",
+                "start": 648,
+                "end": 651
               },
               {
                 "type": "Literal",
-                "start": 653,
-                "end": 656,
                 "value": "Л",
-                "raw": "\"Л\""
+                "raw": "\"Л\"",
+                "start": 653,
+                "end": 656
               },
               {
                 "type": "Literal",
-                "start": 658,
-                "end": 661,
                 "value": "М",
-                "raw": "\"М\""
+                "raw": "\"М\"",
+                "start": 658,
+                "end": 661
               },
               {
                 "type": "Literal",
-                "start": 663,
-                "end": 666,
                 "value": "Н",
-                "raw": "\"Н\""
+                "raw": "\"Н\"",
+                "start": 663,
+                "end": 666
               },
               {
                 "type": "Literal",
-                "start": 668,
-                "end": 671,
                 "value": "О",
-                "raw": "\"О\""
+                "raw": "\"О\"",
+                "start": 668,
+                "end": 671
               },
               {
                 "type": "Literal",
-                "start": 673,
-                "end": 676,
                 "value": "П",
-                "raw": "\"П\""
+                "raw": "\"П\"",
+                "start": 673,
+                "end": 676
               },
               {
                 "type": "Literal",
-                "start": 678,
-                "end": 681,
                 "value": "р",
-                "raw": "\"р\""
+                "raw": "\"р\"",
+                "start": 678,
+                "end": 681
               },
               {
                 "type": "Literal",
-                "start": 683,
-                "end": 686,
                 "value": "с",
-                "raw": "\"с\""
+                "raw": "\"с\"",
+                "start": 683,
+                "end": 686
               },
               {
                 "type": "Literal",
-                "start": 688,
-                "end": 691,
                 "value": "т",
-                "raw": "\"т\""
+                "raw": "\"т\"",
+                "start": 688,
+                "end": 691
               },
               {
                 "type": "Literal",
-                "start": 693,
-                "end": 696,
                 "value": "у",
-                "raw": "\"у\""
+                "raw": "\"у\"",
+                "start": 693,
+                "end": 696
               },
               {
                 "type": "Literal",
-                "start": 698,
-                "end": 701,
                 "value": "ф",
-                "raw": "\"ф\""
+                "raw": "\"ф\"",
+                "start": 698,
+                "end": 701
               },
               {
                 "type": "Literal",
-                "start": 703,
-                "end": 706,
                 "value": "х",
-                "raw": "\"х\""
+                "raw": "\"х\"",
+                "start": 703,
+                "end": 706
               },
               {
                 "type": "Literal",
-                "start": 708,
-                "end": 711,
                 "value": "ц",
-                "raw": "\"ц\""
+                "raw": "\"ц\"",
+                "start": 708,
+                "end": 711
               },
               {
                 "type": "Literal",
-                "start": 713,
-                "end": 716,
                 "value": "ч",
-                "raw": "\"ч\""
+                "raw": "\"ч\"",
+                "start": 713,
+                "end": 716
               },
               {
                 "type": "Literal",
-                "start": 718,
-                "end": 721,
                 "value": "ш",
-                "raw": "\"ш\""
+                "raw": "\"ш\"",
+                "start": 718,
+                "end": 721
               },
               {
                 "type": "Literal",
-                "start": 723,
-                "end": 726,
                 "value": "щ",
-                "raw": "\"щ\""
+                "raw": "\"щ\"",
+                "start": 723,
+                "end": 726
               },
               {
                 "type": "Literal",
-                "start": 728,
-                "end": 731,
                 "value": "ъ",
-                "raw": "\"ъ\""
+                "raw": "\"ъ\"",
+                "start": 728,
+                "end": 731
               },
               {
                 "type": "Literal",
-                "start": 733,
-                "end": 736,
                 "value": "ы",
-                "raw": "\"ы\""
+                "raw": "\"ы\"",
+                "start": 733,
+                "end": 736
               },
               {
                 "type": "Literal",
-                "start": 738,
-                "end": 741,
                 "value": "ь",
-                "raw": "\"ь\""
+                "raw": "\"ь\"",
+                "start": 738,
+                "end": 741
               },
               {
                 "type": "Literal",
-                "start": 743,
-                "end": 746,
                 "value": "э",
-                "raw": "\"э\""
+                "raw": "\"э\"",
+                "start": 743,
+                "end": 746
               },
               {
                 "type": "Literal",
-                "start": 748,
-                "end": 751,
                 "value": "ю",
-                "raw": "\"ю\""
+                "raw": "\"ю\"",
+                "start": 748,
+                "end": 751
               },
               {
                 "type": "Literal",
-                "start": 753,
-                "end": 756,
                 "value": "я",
-                "raw": "\"я\""
+                "raw": "\"я\"",
+                "start": 753,
+                "end": 756
               },
               {
                 "type": "Literal",
-                "start": 758,
-                "end": 761,
                 "value": "ё",
-                "raw": "\"ё\""
+                "raw": "\"ё\"",
+                "start": 758,
+                "end": 761
               }
-            ]
-          }
+            ],
+            "start": 597,
+            "end": 762
+          },
+          "start": 586,
+          "end": 762
         }
-      ]
+      ],
+      "start": 582,
+      "end": 763
     },
     {
       "type": "ExpressionStatement",
-      "start": 765,
-      "end": 782,
       "expression": {
         "type": "CallExpression",
-        "start": 765,
-        "end": 781,
         "callee": {
           "type": "MemberExpression",
-          "start": 765,
-          "end": 779,
           "object": {
             "type": "Identifier",
+            "name": "alphabetR",
             "start": 765,
-            "end": 774,
-            "name": "alphabetR"
+            "end": 774
           },
           "property": {
             "type": "Identifier",
+            "name": "sort",
             "start": 775,
-            "end": 779,
-            "name": "sort"
+            "end": 779
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 765,
+          "end": 779
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 765,
+        "end": 781
+      },
+      "start": 765,
+      "end": 782
     },
     {
       "type": "VariableDeclaration",
-      "start": 783,
-      "end": 801,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 787,
-          "end": 800,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 787,
-            "end": 793,
-            "name": "result"
+            "end": 793
           },
           "init": {
             "type": "Literal",
-            "start": 796,
-            "end": 800,
             "value": true,
-            "raw": "true"
-          }
+            "raw": "true",
+            "start": 796,
+            "end": 800
+          },
+          "start": 787,
+          "end": 800
         }
-      ]
+      ],
+      "start": 783,
+      "end": 801
     },
     {
       "type": "ForStatement",
-      "start": 802,
-      "end": 886,
       "init": {
         "type": "VariableDeclaration",
-        "start": 807,
-        "end": 816,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 811,
-            "end": 816,
             "id": {
               "type": "Identifier",
+              "name": "i",
               "start": 811,
-              "end": 812,
-              "name": "i"
+              "end": 812
             },
             "init": {
               "type": "Literal",
-              "start": 815,
-              "end": 816,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 815,
+              "end": 816
+            },
+            "start": 811,
+            "end": 816
           }
-        ]
+        ],
+        "start": 807,
+        "end": 816
       },
       "test": {
         "type": "BinaryExpression",
-        "start": 818,
-        "end": 824,
         "left": {
           "type": "Identifier",
+          "name": "i",
           "start": 818,
-          "end": 819,
-          "name": "i"
+          "end": 819
         },
         "operator": "<",
         "right": {
           "type": "Literal",
-          "start": 822,
-          "end": 824,
           "value": 26,
-          "raw": "26"
-        }
+          "raw": "26",
+          "start": 822,
+          "end": 824
+        },
+        "start": 818,
+        "end": 824
       },
       "update": {
         "type": "UpdateExpression",
-        "start": 826,
-        "end": 829,
         "operator": "++",
         "prefix": false,
         "argument": {
           "type": "Identifier",
+          "name": "i",
           "start": 826,
-          "end": 827,
-          "name": "i"
-        }
+          "end": 827
+        },
+        "start": 826,
+        "end": 829
       },
       "body": {
         "type": "BlockStatement",
-        "start": 831,
-        "end": 886,
         "body": [
           {
             "type": "IfStatement",
-            "start": 835,
-            "end": 884,
             "test": {
               "type": "BinaryExpression",
-              "start": 839,
-              "end": 867,
               "left": {
                 "type": "MemberExpression",
-                "start": 839,
-                "end": 851,
                 "object": {
                   "type": "Identifier",
+                  "name": "alphabetR",
                   "start": 839,
-                  "end": 848,
-                  "name": "alphabetR"
+                  "end": 848
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "i",
                   "start": 849,
-                  "end": 850,
-                  "name": "i"
+                  "end": 850
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 839,
+                "end": 851
               },
               "operator": "!==",
               "right": {
                 "type": "MemberExpression",
-                "start": 856,
-                "end": 867,
                 "object": {
                   "type": "Identifier",
+                  "name": "alphabet",
                   "start": 856,
-                  "end": 864,
-                  "name": "alphabet"
+                  "end": 864
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "i",
                   "start": 865,
-                  "end": 866,
-                  "name": "i"
+                  "end": 866
                 },
                 "optional": false,
-                "computed": true
-              }
+                "computed": true,
+                "start": 856,
+                "end": 867
+              },
+              "start": 839,
+              "end": 867
             },
             "consequent": {
               "type": "ExpressionStatement",
-              "start": 869,
-              "end": 884,
               "expression": {
                 "type": "AssignmentExpression",
-                "start": 869,
-                "end": 883,
                 "operator": "=",
                 "left": {
                   "type": "Identifier",
+                  "name": "result",
                   "start": 869,
-                  "end": 875,
-                  "name": "result"
+                  "end": 875
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 878,
-                  "end": 883,
                   "value": false,
-                  "raw": "false"
-                }
-              }
+                  "raw": "false",
+                  "start": 878,
+                  "end": 883
+                },
+                "start": 869,
+                "end": 883
+              },
+              "start": 869,
+              "end": 884
             },
-            "alternate": null
+            "alternate": null,
+            "start": 835,
+            "end": 884
           }
-        ]
-      }
+        ],
+        "start": 831,
+        "end": 886
+      },
+      "start": 802,
+      "end": 886
     },
     {
       "type": "IfStatement",
-      "start": 888,
-      "end": 968,
       "test": {
         "type": "BinaryExpression",
-        "start": 892,
-        "end": 907,
         "left": {
           "type": "Identifier",
+          "name": "result",
           "start": 892,
-          "end": 898,
-          "name": "result"
+          "end": 898
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 903,
-          "end": 907,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 903,
+          "end": 907
+        },
+        "start": 892,
+        "end": 907
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 909,
-        "end": 968,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 913,
-            "end": 966,
             "argument": {
               "type": "NewExpression",
-              "start": 919,
-              "end": 965,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 923,
-                "end": 935,
-                "name": "Test262Error"
+                "end": 935
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 936,
-                  "end": 964,
                   "value": "#1: CHECK RUSSIAN ALPHABET",
-                  "raw": "'#1: CHECK RUSSIAN ALPHABET'"
+                  "raw": "'#1: CHECK RUSSIAN ALPHABET'",
+                  "start": 936,
+                  "end": 964
                 }
-              ]
-            }
+              ],
+              "start": 919,
+              "end": 965
+            },
+            "start": 913,
+            "end": 966
           }
-        ]
+        ],
+        "start": 909,
+        "end": 968
       },
-      "alternate": null
+      "alternate": null,
+      "start": 888,
+      "end": 968
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 969
 }

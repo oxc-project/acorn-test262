@@ -1,184 +1,184 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 564,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 293,
-      "end": 435,
       "expression": {
         "type": "CallExpression",
-        "start": 293,
-        "end": 434,
         "callee": {
           "type": "MemberExpression",
-          "start": 293,
-          "end": 309,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 293,
-            "end": 299,
-            "name": "assert"
+            "end": 299
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 300,
-            "end": 309,
-            "name": "sameValue"
+            "end": 309
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 293,
+          "end": 309
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 313,
-            "end": 358,
             "left": {
               "type": "MemberExpression",
-              "start": 313,
-              "end": 338,
               "object": {
                 "type": "MemberExpression",
-                "start": 313,
-                "end": 330,
                 "object": {
                   "type": "Identifier",
+                  "name": "Promise",
                   "start": 313,
-                  "end": 320,
-                  "name": "Promise"
+                  "end": 320
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 321,
-                  "end": 330,
-                  "name": "prototype"
+                  "end": 330
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 313,
+                "end": 330
               },
               "property": {
                 "type": "Identifier",
+                "name": "finally",
                 "start": 331,
-                "end": 338,
-                "name": "finally"
+                "end": 338
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 313,
+              "end": 338
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Function",
               "start": 350,
-              "end": 358,
-              "name": "Function"
-            }
+              "end": 358
+            },
+            "start": 313,
+            "end": 358
           },
           {
             "type": "Literal",
-            "start": 362,
-            "end": 366,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 362,
+            "end": 366
           },
           {
             "type": "Literal",
-            "start": 370,
-            "end": 432,
             "value": "Expected Promise.prototype.finally to be instanceof Function",
-            "raw": "'Expected Promise.prototype.finally to be instanceof Function'"
+            "raw": "'Expected Promise.prototype.finally to be instanceof Function'",
+            "start": 370,
+            "end": 432
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 293,
+        "end": 434
+      },
+      "start": 293,
+      "end": 435
     },
     {
       "type": "ExpressionStatement",
-      "start": 437,
-      "end": 563,
       "expression": {
         "type": "CallExpression",
-        "start": 437,
-        "end": 562,
         "callee": {
           "type": "MemberExpression",
-          "start": 437,
-          "end": 453,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 437,
-            "end": 443,
-            "name": "assert"
+            "end": 443
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 444,
-            "end": 453,
-            "name": "sameValue"
+            "end": 453
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 437,
+          "end": 453
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 457,
-            "end": 489,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 464,
-              "end": 489,
               "object": {
                 "type": "MemberExpression",
-                "start": 464,
-                "end": 481,
                 "object": {
                   "type": "Identifier",
+                  "name": "Promise",
                   "start": 464,
-                  "end": 471,
-                  "name": "Promise"
+                  "end": 471
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 472,
-                  "end": 481,
-                  "name": "prototype"
+                  "end": 481
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 464,
+                "end": 481
               },
               "property": {
                 "type": "Identifier",
+                "name": "finally",
                 "start": 482,
-                "end": 489,
-                "name": "finally"
+                "end": 489
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 464,
+              "end": 489
             },
-            "prefix": true
+            "prefix": true,
+            "start": 457,
+            "end": 489
           },
           {
             "type": "Literal",
-            "start": 493,
-            "end": 503,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 493,
+            "end": 503
           },
           {
             "type": "Literal",
-            "start": 507,
-            "end": 560,
             "value": "Expected Promise.prototype.finally to be a function",
-            "raw": "'Expected Promise.prototype.finally to be a function'"
+            "raw": "'Expected Promise.prototype.finally to be a function'",
+            "start": 507,
+            "end": 560
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 437,
+        "end": 562
+      },
+      "start": 437,
+      "end": 563
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 564
 }

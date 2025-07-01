@@ -2,86 +2,86 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 47,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 47,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 46,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 8,
-            "end": 46,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 8,
-                "end": 14,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 8,
+                "end": 14
               },
               {
                 "type": "TemplateElement",
-                "start": 41,
-                "end": 46,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": true
+                "tail": true,
+                "start": 41,
+                "end": 46
               }
             ],
             "expressions": [
               {
                 "type": "BinaryExpression",
-                "start": 15,
-                "end": 40,
                 "left": {
                   "type": "Literal",
-                  "start": 15,
-                  "end": 22,
                   "value": "hello",
-                  "raw": "\"hello\""
+                  "raw": "\"hello\"",
+                  "start": 15,
+                  "end": 22
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
-                  "start": 34,
-                  "end": 40,
                   "decorators": [],
                   "name": "String",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 34,
+                  "end": 40
+                },
+                "start": 15,
+                "end": 40
               }
-            ]
+            ],
+            "start": 8,
+            "end": 46
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 46
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 47
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 47
 }
 ```

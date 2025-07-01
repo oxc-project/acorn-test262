@@ -2,69 +2,69 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 93,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 57,
-      "end": 93,
       "body": [
         {
           "type": "ForOfStatement",
-          "start": 61,
-          "end": 90,
           "await": false,
           "left": {
             "type": "VariableDeclaration",
-            "start": 66,
-            "end": 80,
             "kind": "await using",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 78,
-                "end": 80,
                 "id": {
                   "type": "Identifier",
-                  "start": 78,
-                  "end": 80,
                   "decorators": [],
                   "name": "of",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 78,
+                  "end": 80
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 78,
+                "end": 80
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 66,
+            "end": 80
           },
           "right": {
             "type": "Identifier",
-            "start": 84,
-            "end": 86,
             "decorators": [],
             "name": "of",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 84,
+            "end": 86
           },
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 88,
-            "end": 90,
-            "body": []
-          }
+            "end": 90
+          },
+          "start": 61,
+          "end": 90
         },
         {
           "type": "EmptyStatement",
           "start": 90,
           "end": 91
         }
-      ]
+      ],
+      "start": 57,
+      "end": 93
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 93
 }
 ```

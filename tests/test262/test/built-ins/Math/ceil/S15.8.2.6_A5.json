@@ -1,126 +1,126 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 408,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 300,
-      "end": 318,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 304,
-          "end": 317,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 304,
-            "end": 305,
-            "name": "x"
+            "end": 305
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 308,
-            "end": 317,
             "operator": "-",
             "argument": {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 309,
-              "end": 317,
-              "name": "Infinity"
+              "end": 317
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 308,
+            "end": 317
+          },
+          "start": 304,
+          "end": 317
         }
-      ]
+      ],
+      "start": 300,
+      "end": 318
     },
     {
       "type": "ExpressionStatement",
-      "start": 319,
-      "end": 407,
       "expression": {
         "type": "CallExpression",
-        "start": 319,
-        "end": 406,
         "callee": {
           "type": "MemberExpression",
-          "start": 319,
-          "end": 335,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 319,
-            "end": 325,
-            "name": "assert"
+            "end": 325
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 326,
-            "end": 335,
-            "name": "sameValue"
+            "end": 335
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 319,
+          "end": 335
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 336,
-            "end": 348,
             "callee": {
               "type": "MemberExpression",
-              "start": 336,
-              "end": 345,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 336,
-                "end": 340,
-                "name": "Math"
+                "end": 340
               },
               "property": {
                 "type": "Identifier",
+                "name": "ceil",
                 "start": 341,
-                "end": 345,
-                "name": "ceil"
+                "end": 345
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 336,
+              "end": 345
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "x",
                 "start": 346,
-                "end": 347,
-                "name": "x"
+                "end": 347
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 336,
+            "end": 348
           },
           {
             "type": "UnaryExpression",
-            "start": 350,
-            "end": 359,
             "operator": "-",
             "argument": {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 351,
-              "end": 359,
-              "name": "Infinity"
+              "end": 359
             },
-            "prefix": true
+            "prefix": true,
+            "start": 350,
+            "end": 359
           },
           {
             "type": "Literal",
-            "start": 361,
-            "end": 405,
             "value": "Math.ceil(-Infinity) must return -Infinity",
-            "raw": "'Math.ceil(-Infinity) must return -Infinity'"
+            "raw": "'Math.ceil(-Infinity) must return -Infinity'",
+            "start": 361,
+            "end": 405
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 319,
+        "end": 406
+      },
+      "start": 319,
+      "end": 407
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 408
 }

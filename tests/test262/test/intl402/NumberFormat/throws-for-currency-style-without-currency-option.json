@@ -1,369 +1,369 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 791,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 288,
-      "end": 357,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 292,
-          "end": 356,
           "id": {
             "type": "Identifier",
+            "name": "defaultLocale",
             "start": 292,
-            "end": 305,
-            "name": "defaultLocale"
+            "end": 305
           },
           "init": {
             "type": "MemberExpression",
-            "start": 308,
-            "end": 356,
             "object": {
               "type": "CallExpression",
-              "start": 308,
-              "end": 349,
               "callee": {
                 "type": "MemberExpression",
-                "start": 308,
-                "end": 347,
                 "object": {
                   "type": "NewExpression",
-                  "start": 308,
-                  "end": 331,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 312,
-                    "end": 329,
                     "object": {
                       "type": "Identifier",
+                      "name": "Intl",
                       "start": 312,
-                      "end": 316,
-                      "name": "Intl"
+                      "end": 316
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "NumberFormat",
                       "start": 317,
-                      "end": 329,
-                      "name": "NumberFormat"
+                      "end": 329
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 312,
+                    "end": 329
                   },
-                  "arguments": []
+                  "arguments": [],
+                  "start": 308,
+                  "end": 331
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 332,
-                  "end": 347,
-                  "name": "resolvedOptions"
+                  "end": 347
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 308,
+                "end": 347
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 308,
+              "end": 349
             },
             "property": {
               "type": "Identifier",
+              "name": "locale",
               "start": 350,
-              "end": 356,
-              "name": "locale"
+              "end": 356
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 308,
+            "end": 356
+          },
+          "start": 292,
+          "end": 356
         }
-      ]
+      ],
+      "start": 288,
+      "end": 357
     },
     {
       "type": "ExpressionStatement",
-      "start": 359,
-      "end": 534,
       "expression": {
         "type": "CallExpression",
-        "start": 359,
-        "end": 533,
         "callee": {
           "type": "MemberExpression",
-          "start": 359,
-          "end": 372,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 359,
-            "end": 365,
-            "name": "assert"
+            "end": 365
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 366,
-            "end": 372,
-            "name": "throws"
+            "end": 372
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 359,
+          "end": 372
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 373,
-            "end": 382,
-            "name": "TypeError"
+            "end": 382
           },
           {
             "type": "FunctionExpression",
-            "start": 384,
-            "end": 475,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 396,
-              "end": 475,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 406,
-                  "end": 473,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 413,
-                    "end": 472,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 417,
-                      "end": 434,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 417,
-                        "end": 421,
-                        "name": "Intl"
+                        "end": 421
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "NumberFormat",
                         "start": 422,
-                        "end": 434,
-                        "name": "NumberFormat"
+                        "end": 434
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 417,
+                      "end": 434
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
-                        "start": 435,
-                        "end": 450,
                         "elements": [
                           {
                             "type": "Identifier",
+                            "name": "defaultLocale",
                             "start": 436,
-                            "end": 449,
-                            "name": "defaultLocale"
+                            "end": 449
                           }
-                        ]
+                        ],
+                        "start": 435,
+                        "end": 450
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 452,
-                        "end": 471,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 453,
-                            "end": 470,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "style",
                               "start": 453,
-                              "end": 458,
-                              "name": "style"
+                              "end": 458
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 460,
-                              "end": 470,
                               "value": "currency",
-                              "raw": "\"currency\""
+                              "raw": "\"currency\"",
+                              "start": 460,
+                              "end": 470
                             },
                             "method": false,
                             "shorthand": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 453,
+                            "end": 470
                           }
-                        ]
+                        ],
+                        "start": 452,
+                        "end": 471
                       }
-                    ]
-                  }
+                    ],
+                    "start": 413,
+                    "end": 472
+                  },
+                  "start": 406,
+                  "end": 473
                 }
-              ]
+              ],
+              "start": 396,
+              "end": 475
             },
-            "expression": false
+            "expression": false,
+            "start": 384,
+            "end": 475
           },
           {
             "type": "Literal",
-            "start": 477,
-            "end": 532,
             "value": "Throws TypeError when currency code is not specified.",
-            "raw": "\"Throws TypeError when currency code is not specified.\""
+            "raw": "\"Throws TypeError when currency code is not specified.\"",
+            "start": 477,
+            "end": 532
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 359,
+        "end": 533
+      },
+      "start": 359,
+      "end": 534
     },
     {
       "type": "ExpressionStatement",
-      "start": 536,
-      "end": 790,
       "expression": {
         "type": "CallExpression",
-        "start": 536,
-        "end": 789,
         "callee": {
           "type": "MemberExpression",
-          "start": 536,
-          "end": 549,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 536,
-            "end": 542,
-            "name": "assert"
+            "end": 542
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 543,
-            "end": 549,
-            "name": "throws"
+            "end": 549
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 536,
+          "end": 549
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 550,
-            "end": 559,
-            "name": "TypeError"
+            "end": 559
           },
           {
             "type": "FunctionExpression",
-            "start": 561,
-            "end": 666,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 573,
-              "end": 666,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 583,
-                  "end": 664,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 590,
-                    "end": 663,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 594,
-                      "end": 611,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 594,
-                        "end": 598,
-                        "name": "Intl"
+                        "end": 598
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "NumberFormat",
                         "start": 599,
-                        "end": 611,
-                        "name": "NumberFormat"
+                        "end": 611
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 594,
+                      "end": 611
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
-                        "start": 612,
-                        "end": 641,
                         "elements": [
                           {
                             "type": "BinaryExpression",
-                            "start": 613,
-                            "end": 640,
                             "left": {
                               "type": "Identifier",
+                              "name": "defaultLocale",
                               "start": 613,
-                              "end": 626,
-                              "name": "defaultLocale"
+                              "end": 626
                             },
                             "operator": "+",
                             "right": {
                               "type": "Literal",
-                              "start": 629,
-                              "end": 640,
                               "value": "-u-cu-krw",
-                              "raw": "\"-u-cu-krw\""
-                            }
+                              "raw": "\"-u-cu-krw\"",
+                              "start": 629,
+                              "end": 640
+                            },
+                            "start": 613,
+                            "end": 640
                           }
-                        ]
+                        ],
+                        "start": 612,
+                        "end": 641
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 643,
-                        "end": 662,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 644,
-                            "end": 661,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "style",
                               "start": 644,
-                              "end": 649,
-                              "name": "style"
+                              "end": 649
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 651,
-                              "end": 661,
                               "value": "currency",
-                              "raw": "\"currency\""
+                              "raw": "\"currency\"",
+                              "start": 651,
+                              "end": 661
                             },
                             "method": false,
                             "shorthand": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 644,
+                            "end": 661
                           }
-                        ]
+                        ],
+                        "start": 643,
+                        "end": 662
                       }
-                    ]
-                  }
+                    ],
+                    "start": 590,
+                    "end": 663
+                  },
+                  "start": 583,
+                  "end": 664
                 }
-              ]
+              ],
+              "start": 573,
+              "end": 666
             },
-            "expression": false
+            "expression": false,
+            "start": 561,
+            "end": 666
           },
           {
             "type": "Literal",
-            "start": 668,
-            "end": 788,
             "value": "Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.",
-            "raw": "\"Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.\""
+            "raw": "\"Throws TypeError when currency code is not specified; Currenty code from Unicode locale extension sequence is ignored.\"",
+            "start": 668,
+            "end": 788
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 536,
+        "end": 789
+      },
+      "start": 536,
+      "end": 790
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 791
 }

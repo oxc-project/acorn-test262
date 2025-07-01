@@ -2,32 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 12,
   "body": [
     {
       "type": "IfStatement",
-      "start": 0,
-      "end": 12,
       "test": {
         "type": "Identifier",
-        "start": 4,
-        "end": 7,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 4,
+        "end": 7
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 9,
-        "end": 12,
-        "body": []
+        "end": 12
       },
-      "alternate": null
+      "alternate": null,
+      "start": 0,
+      "end": 12
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 12
 }
 ```

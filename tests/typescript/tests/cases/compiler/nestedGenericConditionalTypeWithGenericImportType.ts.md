@@ -2,119 +2,113 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 11,
-  "end": 38,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 11,
-      "end": 37,
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 18,
-        "end": 37,
         "id": {
           "type": "Identifier",
-          "start": 23,
-          "end": 27,
           "decorators": [],
           "name": "Name",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 23,
+          "end": 27
         },
         "typeParameters": {
           "type": "TSTypeParameterDeclaration",
-          "start": 27,
-          "end": 30,
           "params": [
             {
               "type": "TSTypeParameter",
-              "start": 28,
-              "end": 29,
               "name": {
                 "type": "Identifier",
-                "start": 28,
-                "end": 29,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 28,
+                "end": 29
               },
               "constraint": null,
               "default": null,
               "in": false,
               "out": false,
-              "const": false
+              "const": false,
+              "start": 28,
+              "end": 29
             }
-          ]
+          ],
+          "start": 27,
+          "end": 30
         },
         "typeAnnotation": {
           "type": "TSAnyKeyword",
           "start": 33,
           "end": 36
         },
-        "declare": false
+        "declare": false,
+        "start": 18,
+        "end": 37
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 11,
+      "end": 37
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 11,
+  "end": 38
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 120,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 120,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "T",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 6,
-        "end": 9,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 7,
-            "end": 8,
             "name": {
               "type": "Identifier",
-              "start": 7,
-              "end": 8,
               "decorators": [],
               "name": "X",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 7,
+              "end": 8
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 7,
+            "end": 8
           }
-        ]
+        ],
+        "start": 6,
+        "end": 9
       },
       "typeAnnotation": {
         "type": "TSConditionalType",
-        "start": 12,
-        "end": 119,
         "checkType": {
           "type": "TSAnyKeyword",
           "start": 12,
@@ -122,12 +116,8 @@ __ESTREE_TEST__:PASS:
         },
         "extendsType": {
           "type": "TSConditionalType",
-          "start": 25,
-          "end": 102,
           "checkType": {
             "type": "TSConditionalType",
-            "start": 26,
-            "end": 56,
             "checkType": {
               "type": "TSAnyKeyword",
               "start": 26,
@@ -147,7 +137,9 @@ __ESTREE_TEST__:PASS:
               "type": "TSStringKeyword",
               "start": 50,
               "end": 56
-            }
+            },
+            "start": 26,
+            "end": 56
           },
           "extendsType": {
             "type": "TSAnyKeyword",
@@ -156,58 +148,60 @@ __ESTREE_TEST__:PASS:
           },
           "trueType": {
             "type": "TSImportType",
-            "start": 72,
-            "end": 96,
             "argument": {
               "type": "TSLiteralType",
-              "start": 79,
-              "end": 87,
               "literal": {
                 "type": "Literal",
-                "start": 79,
-                "end": 87,
                 "value": "./name",
-                "raw": "\"./name\""
-              }
+                "raw": "\"./name\"",
+                "start": 79,
+                "end": 87
+              },
+              "start": 79,
+              "end": 87
             },
             "options": null,
             "qualifier": {
               "type": "Identifier",
-              "start": 89,
-              "end": 93,
               "decorators": [],
               "name": "Name",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 89,
+              "end": 93
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 93,
-              "end": 96,
               "params": [
                 {
                   "type": "TSTypeReference",
-                  "start": 94,
-                  "end": 95,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 94,
-                    "end": 95,
                     "decorators": [],
                     "name": "X",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 94,
+                    "end": 95
                   },
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "start": 94,
+                  "end": 95
                 }
-              ]
-            }
+              ],
+              "start": 93,
+              "end": 96
+            },
+            "start": 72,
+            "end": 96
           },
           "falseType": {
             "type": "TSAnyKeyword",
             "start": 99,
             "end": 102
-          }
+          },
+          "start": 25,
+          "end": 102
         },
         "trueType": {
           "type": "TSAnyKeyword",
@@ -218,12 +212,18 @@ __ESTREE_TEST__:PASS:
           "type": "TSAnyKeyword",
           "start": 116,
           "end": 119
-        }
+        },
+        "start": 12,
+        "end": 119
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 120
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 120
 }
 ```

@@ -2,123 +2,123 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 62,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 18,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 17,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "name": "loop1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 9
           },
           "init": {
             "type": "Identifier",
-            "start": 12,
-            "end": 17,
             "decorators": [],
             "name": "loop2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 17
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 17
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 18
     },
     {
       "type": "VariableDeclaration",
-      "start": 19,
-      "end": 37,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 23,
-          "end": 36,
           "id": {
             "type": "Identifier",
-            "start": 23,
-            "end": 28,
             "decorators": [],
             "name": "loop2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 23,
+            "end": 28
           },
           "init": {
             "type": "Identifier",
-            "start": 31,
-            "end": 36,
             "decorators": [],
             "name": "loop1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 31,
+            "end": 36
           },
-          "definite": false
+          "definite": false,
+          "start": 23,
+          "end": 36
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 19,
+      "end": 37
     },
     {
       "type": "ExpressionStatement",
-      "start": 39,
-      "end": 62,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 39,
-        "end": 61,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 39,
-          "end": 53,
           "object": {
             "type": "Identifier",
-            "start": 39,
-            "end": 45,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 39,
+            "end": 45
           },
           "property": {
             "type": "Identifier",
-            "start": 46,
-            "end": 53,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 46,
+            "end": 53
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 39,
+          "end": 53
         },
         "right": {
           "type": "Identifier",
-          "start": 56,
-          "end": 61,
           "decorators": [],
           "name": "loop2",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 56,
+          "end": 61
+        },
+        "start": 39,
+        "end": 61
       },
-      "directive": null
+      "directive": null,
+      "start": 39,
+      "end": 62
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 62
 }
 ```

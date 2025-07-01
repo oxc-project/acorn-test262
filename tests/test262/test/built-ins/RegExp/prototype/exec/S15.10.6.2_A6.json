@@ -1,99 +1,99 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 423,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 274,
-      "end": 422,
       "expression": {
         "type": "CallExpression",
-        "start": 274,
-        "end": 421,
         "callee": {
           "type": "MemberExpression",
-          "start": 274,
-          "end": 290,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 274,
-            "end": 280,
-            "name": "assert"
+            "end": 280
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 281,
-            "end": 290,
-            "name": "sameValue"
+            "end": 290
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 274,
+          "end": 290
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 294,
-            "end": 325,
             "object": {
               "type": "MemberExpression",
-              "start": 294,
-              "end": 315,
               "object": {
                 "type": "MemberExpression",
-                "start": 294,
-                "end": 310,
                 "object": {
                   "type": "Identifier",
+                  "name": "RegExp",
                   "start": 294,
-                  "end": 300,
-                  "name": "RegExp"
+                  "end": 300
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 301,
-                  "end": 310,
-                  "name": "prototype"
+                  "end": 310
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 294,
+                "end": 310
               },
               "property": {
                 "type": "Identifier",
+                "name": "exec",
                 "start": 311,
-                "end": 315,
-                "name": "exec"
+                "end": 315
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 294,
+              "end": 315
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 316,
-              "end": 325,
-              "name": "prototype"
+              "end": 325
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 294,
+            "end": 325
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 329,
-            "end": 338,
-            "name": "undefined"
+            "end": 338
           },
           {
             "type": "Literal",
-            "start": 342,
-            "end": 419,
             "value": "The value of RegExp.prototype.exec.prototype is expected to equal undefined",
-            "raw": "'The value of RegExp.prototype.exec.prototype is expected to equal undefined'"
+            "raw": "'The value of RegExp.prototype.exec.prototype is expected to equal undefined'",
+            "start": 342,
+            "end": 419
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 274,
+        "end": 421
+      },
+      "start": 274,
+      "end": 422
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 423
 }

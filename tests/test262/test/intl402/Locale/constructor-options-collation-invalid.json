@@ -1,230 +1,230 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 866,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 597,
-      "end": 688,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 603,
-          "end": 687,
           "id": {
             "type": "Identifier",
+            "name": "invalidCollationOptions",
             "start": 603,
-            "end": 626,
-            "name": "invalidCollationOptions"
+            "end": 626
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 629,
-            "end": 687,
             "elements": [
               {
                 "type": "Literal",
-                "start": 633,
-                "end": 635,
                 "value": "",
-                "raw": "\"\""
+                "raw": "\"\"",
+                "start": 633,
+                "end": 635
               },
               {
                 "type": "Literal",
-                "start": 639,
-                "end": 642,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "start": 639,
+                "end": 642
               },
               {
                 "type": "Literal",
-                "start": 646,
-                "end": 650,
                 "value": "ab",
-                "raw": "\"ab\""
+                "raw": "\"ab\"",
+                "start": 646,
+                "end": 650
               },
               {
                 "type": "Literal",
-                "start": 654,
-                "end": 665,
                 "value": "abcdefghi",
-                "raw": "\"abcdefghi\""
+                "raw": "\"abcdefghi\"",
+                "start": 654,
+                "end": 665
               },
               {
                 "type": "Literal",
-                "start": 669,
-                "end": 684,
                 "value": "abc-abcdefghi",
-                "raw": "\"abc-abcdefghi\""
+                "raw": "\"abc-abcdefghi\"",
+                "start": 669,
+                "end": 684
               }
-            ]
-          }
+            ],
+            "start": 629,
+            "end": 687
+          },
+          "start": 603,
+          "end": 687
         }
-      ]
+      ],
+      "start": 597,
+      "end": 688
     },
     {
       "type": "ForOfStatement",
-      "start": 689,
-      "end": 865,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 694,
-        "end": 722,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 700,
-            "end": 722,
             "id": {
               "type": "Identifier",
+              "name": "invalidCollationOption",
               "start": 700,
-              "end": 722,
-              "name": "invalidCollationOption"
+              "end": 722
             },
-            "init": null
+            "init": null,
+            "start": 700,
+            "end": 722
           }
-        ]
+        ],
+        "start": 694,
+        "end": 722
       },
       "right": {
         "type": "Identifier",
+        "name": "invalidCollationOptions",
         "start": 726,
-        "end": 749,
-        "name": "invalidCollationOptions"
+        "end": 749
       },
       "body": {
         "type": "BlockStatement",
-        "start": 751,
-        "end": 865,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 755,
-            "end": 863,
             "expression": {
               "type": "CallExpression",
-              "start": 755,
-              "end": 862,
               "callee": {
                 "type": "MemberExpression",
-                "start": 755,
-                "end": 768,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 755,
-                  "end": 761,
-                  "name": "assert"
+                  "end": 761
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "throws",
                   "start": 762,
-                  "end": 768,
-                  "name": "throws"
+                  "end": 768
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 755,
+                "end": 768
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "RangeError",
                   "start": 769,
-                  "end": 779,
-                  "name": "RangeError"
+                  "end": 779
                 },
                 {
                   "type": "FunctionExpression",
-                  "start": 781,
-                  "end": 861,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 792,
-                    "end": 861,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 798,
-                        "end": 857,
                         "expression": {
                           "type": "NewExpression",
-                          "start": 798,
-                          "end": 856,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 802,
-                            "end": 813,
                             "object": {
                               "type": "Identifier",
+                              "name": "Intl",
                               "start": 802,
-                              "end": 806,
-                              "name": "Intl"
+                              "end": 806
                             },
                             "property": {
                               "type": "Identifier",
+                              "name": "Locale",
                               "start": 807,
-                              "end": 813,
-                              "name": "Locale"
+                              "end": 813
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 802,
+                            "end": 813
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 814,
-                              "end": 818,
                               "value": "en",
-                              "raw": "\"en\""
+                              "raw": "\"en\"",
+                              "start": 814,
+                              "end": 818
                             },
                             {
                               "type": "ObjectExpression",
-                              "start": 820,
-                              "end": 855,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 821,
-                                  "end": 854,
                                   "kind": "init",
                                   "key": {
                                     "type": "Identifier",
+                                    "name": "collation",
                                     "start": 821,
-                                    "end": 830,
-                                    "name": "collation"
+                                    "end": 830
                                   },
                                   "value": {
                                     "type": "Identifier",
+                                    "name": "invalidCollationOption",
                                     "start": 832,
-                                    "end": 854,
-                                    "name": "invalidCollationOption"
+                                    "end": 854
                                   },
                                   "method": false,
                                   "shorthand": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 821,
+                                  "end": 854
                                 }
-                              ]
+                              ],
+                              "start": 820,
+                              "end": 855
                             }
-                          ]
-                        }
+                          ],
+                          "start": 798,
+                          "end": 856
+                        },
+                        "start": 798,
+                        "end": 857
                       }
-                    ]
+                    ],
+                    "start": 792,
+                    "end": 861
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 781,
+                  "end": 861
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 755,
+              "end": 862
+            },
+            "start": 755,
+            "end": 863
           }
-        ]
-      }
+        ],
+        "start": 751,
+        "end": 865
+      },
+      "start": 689,
+      "end": 865
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 866
 }

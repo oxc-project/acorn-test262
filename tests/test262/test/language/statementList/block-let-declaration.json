@@ -1,76 +1,76 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 773,
   "body": [
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 751,
-      "end": 753,
-      "body": []
+      "end": 753
     },
     {
       "type": "VariableDeclaration",
-      "start": 753,
-      "end": 770,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 757,
-          "end": 758,
           "id": {
             "type": "Identifier",
+            "name": "a",
             "start": 757,
-            "end": 758,
-            "name": "a"
+            "end": 758
           },
-          "init": null
+          "init": null,
+          "start": 757,
+          "end": 758
         },
         {
           "type": "VariableDeclarator",
-          "start": 760,
-          "end": 766,
           "id": {
             "type": "Identifier",
+            "name": "b",
             "start": 760,
-            "end": 761,
-            "name": "b"
+            "end": 761
           },
           "init": {
             "type": "Literal",
-            "start": 764,
-            "end": 766,
             "value": 42,
-            "raw": "42"
-          }
+            "raw": "42",
+            "start": 764,
+            "end": 766
+          },
+          "start": 760,
+          "end": 766
         },
         {
           "type": "VariableDeclarator",
-          "start": 768,
-          "end": 769,
           "id": {
             "type": "Identifier",
+            "name": "c",
             "start": 768,
-            "end": 769,
-            "name": "c"
+            "end": 769
           },
-          "init": null
+          "init": null,
+          "start": 768,
+          "end": 769
         }
-      ]
+      ],
+      "start": 753,
+      "end": 770
     },
     {
       "type": "ExpressionStatement",
-      "start": 770,
-      "end": 772,
       "expression": {
         "type": "Identifier",
+        "name": "b",
         "start": 770,
-        "end": 771,
-        "name": "b"
-      }
+        "end": 771
+      },
+      "start": 770,
+      "end": 772
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 773
 }

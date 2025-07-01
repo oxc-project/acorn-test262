@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 34,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,25 +21,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 34,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 14,
-            "end": 18,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 14,
-              "end": 15,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 14,
+              "end": 15
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 15,
-              "end": 18,
               "id": null,
               "generator": false,
               "async": false,
@@ -52,31 +42,31 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 15,
+              "end": 18
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 18
           },
           {
             "type": "MethodDefinition",
-            "start": 23,
-            "end": 32,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 23,
-              "end": 26,
               "value": "0",
-              "raw": "\"0\""
+              "raw": "\"0\"",
+              "start": 23,
+              "end": 26
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 26,
-              "end": 32,
               "id": null,
               "generator": false,
               "async": false,
@@ -86,26 +76,36 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 29,
-                "end": 32,
-                "body": []
+                "end": 32
               },
-              "expression": false
+              "expression": false,
+              "start": 26,
+              "end": 32
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 23,
+            "end": 32
           }
-        ]
+        ],
+        "start": 8,
+        "end": 34
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 34
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 34
 }
 ```

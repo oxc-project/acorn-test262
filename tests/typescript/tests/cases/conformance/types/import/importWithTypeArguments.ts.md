@@ -2,83 +2,73 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 9,
       "expression": {
         "type": "TSInstantiationExpression",
-        "start": 0,
-        "end": 9,
         "expression": {
           "type": "TSImportKeyword",
-          "start": 0,
-          "end": 6,
           "id": 0,
-          "emitNode": null
+          "emitNode": null,
+          "start": 0,
+          "end": 6
         },
         "typeArguments": {
           "type": "TSTypeParameterInstantiation",
-          "start": 6,
-          "end": 9,
           "params": [
             {
               "type": "TSTypeReference",
-              "start": 7,
-              "end": 8,
               "typeName": {
                 "type": "Identifier",
-                "start": 7,
-                "end": 8,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 7,
+                "end": 8
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 7,
+              "end": 8
             }
-          ]
-        }
+          ],
+          "start": 6,
+          "end": 9
+        },
+        "start": 0,
+        "end": 9
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 9
     },
     {
       "type": "VariableDeclaration",
-      "start": 10,
-      "end": 42,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 16,
-          "end": 42,
           "id": {
             "type": "Identifier",
-            "start": 16,
-            "end": 17,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 16,
+            "end": 17
           },
           "init": {
             "type": "TSInstantiationExpression",
-            "start": 20,
-            "end": 42,
             "expression": {
               "type": "TSImportKeyword",
-              "start": 20,
-              "end": 26,
               "id": 0,
-              "emitNode": null
+              "emitNode": null,
+              "start": 20,
+              "end": 26
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 26,
-              "end": 42,
               "params": [
                 {
                   "type": "TSStringKeyword",
@@ -90,16 +80,26 @@ __ESTREE_TEST__:PASS:
                   "start": 35,
                   "end": 41
                 }
-              ]
-            }
+              ],
+              "start": 26,
+              "end": 42
+            },
+            "start": 20,
+            "end": 42
           },
-          "definite": false
+          "definite": false,
+          "start": 16,
+          "end": 42
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 10,
+      "end": 42
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

@@ -1,107 +1,107 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 559,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 424,
-      "end": 558,
       "expression": {
         "type": "CallExpression",
-        "start": 424,
-        "end": 557,
         "callee": {
           "type": "MemberExpression",
-          "start": 424,
-          "end": 440,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 424,
-            "end": 430,
-            "name": "assert"
+            "end": 430
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 431,
-            "end": 440,
-            "name": "sameValue"
+            "end": 440
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 424,
+          "end": 440
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 444,
-            "end": 486,
             "callee": {
               "type": "MemberExpression",
-              "start": 444,
-              "end": 463,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 444,
-                "end": 450,
-                "name": "Object"
+                "end": 450
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 451,
-                "end": 463,
-                "name": "isExtensible"
+                "end": 463
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 444,
+              "end": 463
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 464,
-                "end": 485,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 468,
-                  "end": 483,
                   "object": {
                     "type": "Identifier",
+                    "name": "Intl",
                     "start": 468,
-                    "end": 472,
-                    "name": "Intl"
+                    "end": 472
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "ListFormat",
                     "start": 473,
-                    "end": 483,
-                    "name": "ListFormat"
+                    "end": 483
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 468,
+                  "end": 483
                 },
-                "arguments": []
+                "arguments": [],
+                "start": 464,
+                "end": 485
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 444,
+            "end": 486
           },
           {
             "type": "Literal",
-            "start": 490,
-            "end": 494,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 490,
+            "end": 494
           },
           {
             "type": "Literal",
-            "start": 498,
-            "end": 555,
             "value": "Object.isExtensible(new Intl.ListFormat()) returns true",
-            "raw": "\"Object.isExtensible(new Intl.ListFormat()) returns true\""
+            "raw": "\"Object.isExtensible(new Intl.ListFormat()) returns true\"",
+            "start": 498,
+            "end": 555
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 424,
+        "end": 557
+      },
+      "start": 424,
+      "end": 558
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 559
 }

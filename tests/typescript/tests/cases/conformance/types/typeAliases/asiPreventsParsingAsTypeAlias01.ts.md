@@ -2,131 +2,131 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 9,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 8,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 8,
             "decorators": [],
             "name": "type",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 8
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 8
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 9
     },
     {
       "type": "VariableDeclaration",
-      "start": 10,
-      "end": 21,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 14,
-          "end": 20,
           "id": {
             "type": "Identifier",
-            "start": 14,
-            "end": 20,
             "decorators": [],
             "name": "string",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 14,
+            "end": 20
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 14,
+          "end": 20
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 10,
+      "end": 21
     },
     {
       "type": "VariableDeclaration",
-      "start": 22,
-      "end": 30,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 29,
           "id": {
             "type": "Identifier",
-            "start": 26,
-            "end": 29,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 26,
+            "end": 29
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 26,
+          "end": 29
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 22,
+      "end": 30
     },
     {
       "type": "ExpressionStatement",
-      "start": 32,
-      "end": 36,
       "expression": {
         "type": "Identifier",
-        "start": 32,
-        "end": 36,
         "decorators": [],
         "name": "type",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 32,
+        "end": 36
       },
-      "directive": null
+      "directive": null,
+      "start": 32,
+      "end": 36
     },
     {
       "type": "ExpressionStatement",
-      "start": 37,
-      "end": 50,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 37,
-        "end": 49,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 37,
-          "end": 40,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 37,
+          "end": 40
         },
         "right": {
           "type": "Identifier",
-          "start": 43,
-          "end": 49,
           "decorators": [],
           "name": "string",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 43,
+          "end": 49
+        },
+        "start": 37,
+        "end": 49
       },
-      "directive": null
+      "directive": null,
+      "start": 37,
+      "end": 50
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 50
 }
 ```

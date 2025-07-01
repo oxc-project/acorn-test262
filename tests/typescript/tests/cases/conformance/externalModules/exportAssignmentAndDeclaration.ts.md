@@ -2,102 +2,98 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 106,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 25,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 25,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 14,
           "decorators": [],
           "name": "E1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 14
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 15,
-          "end": 25,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 18,
-              "end": 19,
               "id": {
                 "type": "Identifier",
-                "start": 18,
-                "end": 19,
                 "decorators": [],
                 "name": "A",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 18,
+                "end": 19
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 18,
+              "end": 19
             },
             {
               "type": "TSEnumMember",
-              "start": 20,
-              "end": 21,
               "id": {
                 "type": "Identifier",
-                "start": 20,
-                "end": 21,
                 "decorators": [],
                 "name": "B",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 20,
+                "end": 21
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 20,
+              "end": 21
             },
             {
               "type": "TSEnumMember",
-              "start": 22,
-              "end": 23,
               "id": {
                 "type": "Identifier",
-                "start": 22,
-                "end": 23,
                 "decorators": [],
                 "name": "C",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 22,
+                "end": 23
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 22,
+              "end": 23
             }
-          ]
+          ],
+          "start": 15,
+          "end": 25
         },
         "const": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 25
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 25
     },
     {
       "type": "ClassDeclaration",
-      "start": 27,
-      "end": 40,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 35,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 33,
+        "end": 35
       },
       "typeParameters": null,
       "superClass": null,
@@ -105,29 +101,33 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 36,
-        "end": 40,
-        "body": []
+        "end": 40
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 27,
+      "end": 40
     },
     {
       "type": "TSExportAssignment",
-      "start": 94,
-      "end": 106,
       "expression": {
         "type": "Identifier",
-        "start": 103,
-        "end": 105,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 103,
+        "end": 105
+      },
+      "start": 94,
+      "end": 106
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 106
 }
 ```

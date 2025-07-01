@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 311,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 256,
-      "end": 310,
       "expression": {
         "type": "CallExpression",
-        "start": 256,
-        "end": 309,
         "callee": {
           "type": "MemberExpression",
-          "start": 256,
-          "end": 272,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 256,
-            "end": 262,
-            "name": "assert"
+            "end": 262
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 263,
-            "end": 272,
-            "name": "sameValue"
+            "end": 272
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 256,
+          "end": 272
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 273,
-            "end": 287,
             "callee": {
               "type": "MemberExpression",
-              "start": 273,
-              "end": 283,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 273,
-                "end": 277,
-                "name": "Math"
+                "end": 277
               },
               "property": {
                 "type": "Identifier",
+                "name": "trunc",
                 "start": 278,
-                "end": 283,
-                "name": "trunc"
+                "end": 283
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 273,
+              "end": 283
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 284,
-                "end": 286,
                 "value": 0.9,
-                "raw": ".9"
+                "raw": ".9",
+                "start": 284,
+                "end": 286
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 273,
+            "end": 287
           },
           {
             "type": "Literal",
-            "start": 289,
-            "end": 290,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 289,
+            "end": 290
           },
           {
             "type": "Literal",
-            "start": 292,
-            "end": 308,
             "value": "Math.trunc(.9)",
-            "raw": "'Math.trunc(.9)'"
+            "raw": "'Math.trunc(.9)'",
+            "start": 292,
+            "end": 308
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 256,
+        "end": 309
+      },
+      "start": 256,
+      "end": 310
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 311
 }

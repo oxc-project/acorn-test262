@@ -1,237 +1,237 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2996,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2437,
-      "end": 2449,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2441,
-          "end": 2448,
           "id": {
             "type": "Identifier",
+            "name": "binding",
             "start": 2441,
-            "end": 2448,
-            "name": "binding"
+            "end": 2448
           },
-          "init": null
+          "init": null,
+          "start": 2441,
+          "end": 2448
         }
-      ]
+      ],
+      "start": 2437,
+      "end": 2449
     },
     {
       "type": "ForInStatement",
-      "start": 2591,
-      "end": 2647,
       "left": {
         "type": "Identifier",
+        "name": "binding",
         "start": 2596,
-        "end": 2603,
-        "name": "binding"
+        "end": 2603
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 2607,
-        "end": 2619,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 2608,
-            "end": 2618,
             "argument": {
               "type": "Literal",
-              "start": 2614,
-              "end": 2618,
               "value": null,
-              "raw": "null"
-            }
+              "raw": "null",
+              "start": 2614,
+              "end": 2618
+            },
+            "start": 2608,
+            "end": 2618
           }
-        ]
+        ],
+        "start": 2607,
+        "end": 2619
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2621,
-        "end": 2647,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2625,
-            "end": 2636,
             "expression": {
               "type": "AwaitExpression",
-              "start": 2625,
-              "end": 2635,
               "argument": {
                 "type": "Literal",
-                "start": 2631,
-                "end": 2635,
                 "value": null,
-                "raw": "null"
-              }
-            }
+                "raw": "null",
+                "start": 2631,
+                "end": 2635
+              },
+              "start": 2625,
+              "end": 2635
+            },
+            "start": 2625,
+            "end": 2636
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 2639,
-            "end": 2645,
-            "label": null
+            "end": 2645
           }
-        ]
-      }
+        ],
+        "start": 2621,
+        "end": 2647
+      },
+      "start": 2591,
+      "end": 2647
     },
     {
       "type": "ForInStatement",
-      "start": 2761,
-      "end": 2821,
       "left": {
         "type": "VariableDeclaration",
-        "start": 2766,
-        "end": 2777,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2770,
-            "end": 2777,
             "id": {
               "type": "Identifier",
+              "name": "binding",
               "start": 2770,
-              "end": 2777,
-              "name": "binding"
+              "end": 2777
             },
-            "init": null
+            "init": null,
+            "start": 2770,
+            "end": 2777
           }
-        ]
+        ],
+        "start": 2766,
+        "end": 2777
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 2781,
-        "end": 2793,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 2782,
-            "end": 2792,
             "argument": {
               "type": "Literal",
-              "start": 2788,
-              "end": 2792,
               "value": null,
-              "raw": "null"
-            }
+              "raw": "null",
+              "start": 2788,
+              "end": 2792
+            },
+            "start": 2782,
+            "end": 2792
           }
-        ]
+        ],
+        "start": 2781,
+        "end": 2793
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2795,
-        "end": 2821,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2799,
-            "end": 2810,
             "expression": {
               "type": "AwaitExpression",
-              "start": 2799,
-              "end": 2809,
               "argument": {
                 "type": "Literal",
-                "start": 2805,
-                "end": 2809,
                 "value": null,
-                "raw": "null"
-              }
-            }
+                "raw": "null",
+                "start": 2805,
+                "end": 2809
+              },
+              "start": 2799,
+              "end": 2809
+            },
+            "start": 2799,
+            "end": 2810
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 2813,
-            "end": 2819,
-            "label": null
+            "end": 2819
           }
-        ]
-      }
+        ],
+        "start": 2795,
+        "end": 2821
+      },
+      "start": 2761,
+      "end": 2821
     },
     {
       "type": "ForInStatement",
-      "start": 2935,
-      "end": 2995,
       "left": {
         "type": "VariableDeclaration",
-        "start": 2940,
-        "end": 2951,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2944,
-            "end": 2951,
             "id": {
               "type": "Identifier",
+              "name": "binding",
               "start": 2944,
-              "end": 2951,
-              "name": "binding"
+              "end": 2951
             },
-            "init": null
+            "init": null,
+            "start": 2944,
+            "end": 2951
           }
-        ]
+        ],
+        "start": 2940,
+        "end": 2951
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 2955,
-        "end": 2967,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 2956,
-            "end": 2966,
             "argument": {
               "type": "Literal",
-              "start": 2962,
-              "end": 2966,
               "value": null,
-              "raw": "null"
-            }
+              "raw": "null",
+              "start": 2962,
+              "end": 2966
+            },
+            "start": 2956,
+            "end": 2966
           }
-        ]
+        ],
+        "start": 2955,
+        "end": 2967
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2969,
-        "end": 2995,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2973,
-            "end": 2984,
             "expression": {
               "type": "AwaitExpression",
-              "start": 2973,
-              "end": 2983,
               "argument": {
                 "type": "Literal",
-                "start": 2979,
-                "end": 2983,
                 "value": null,
-                "raw": "null"
-              }
-            }
+                "raw": "null",
+                "start": 2979,
+                "end": 2983
+              },
+              "start": 2973,
+              "end": 2983
+            },
+            "start": 2973,
+            "end": 2984
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 2987,
-            "end": 2993,
-            "label": null
+            "end": 2993
           }
-        ]
-      }
+        ],
+        "start": 2969,
+        "end": 2995
+      },
+      "start": 2935,
+      "end": 2995
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2996
 }

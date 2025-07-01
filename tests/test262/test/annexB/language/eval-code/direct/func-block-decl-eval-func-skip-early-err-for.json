@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1336,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 701,
-      "end": 1335,
       "expression": {
         "type": "ParenthesizedExpression",
-        "start": 701,
-        "end": 1334,
         "expression": {
           "type": "CallExpression",
-          "start": 702,
-          "end": 1333,
           "callee": {
             "type": "FunctionExpression",
-            "start": 702,
-            "end": 1331,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 713,
-              "end": 1331,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 717,
-                  "end": 1329,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 717,
-                    "end": 1328,
                     "callee": {
                       "type": "Identifier",
+                      "name": "eval",
                       "start": 717,
-                      "end": 721,
-                      "name": "eval"
+                      "end": 721
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 727,
-                        "end": 1324,
                         "value": "assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created prior to evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created prior to evaluation\"    );        for (let f; ; ) {{ function f() {  } }break;    }        assert.throws(ReferenceError, function() {      f;    }, \"An initialized binding is not created following evaluation\");    assert.sameValue(      typeof f,      \"undefined\",      \"An uninitialized binding is not created following evaluation\"    );",
-                        "raw": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    for (let f; ; ) {{ function f() {  } }break;\\\n    }\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'"
+                        "raw": "'assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created prior to evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created prior to evaluation\"\\\n    );\\\n    \\\n    for (let f; ; ) {{ function f() {  } }break;\\\n    }\\\n    \\\n    assert.throws(ReferenceError, function() {\\\n      f;\\\n    }, \"An initialized binding is not created following evaluation\");\\\n    assert.sameValue(\\\n      typeof f,\\\n      \"undefined\",\\\n      \"An uninitialized binding is not created following evaluation\"\\\n    );'",
+                        "start": 727,
+                        "end": 1324
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 717,
+                    "end": 1328
+                  },
+                  "start": 717,
+                  "end": 1329
                 }
-              ]
+              ],
+              "start": 713,
+              "end": 1331
             },
-            "expression": false
+            "expression": false,
+            "start": 702,
+            "end": 1331
           },
           "arguments": [],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 702,
+          "end": 1333
+        },
+        "start": 701,
+        "end": 1334
+      },
+      "start": 701,
+      "end": 1335
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1336
 }

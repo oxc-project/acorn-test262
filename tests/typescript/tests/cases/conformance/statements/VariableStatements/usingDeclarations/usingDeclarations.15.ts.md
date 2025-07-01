@@ -2,77 +2,65 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     },
     {
       "type": "VariableDeclaration",
-      "start": 12,
-      "end": 48,
       "kind": "using",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 18,
-          "end": 47,
           "id": {
             "type": "Identifier",
-            "start": 18,
-            "end": 19,
             "decorators": [],
             "name": "_",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 18,
+            "end": 19
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 22,
-            "end": 47,
             "properties": [
               {
                 "type": "Property",
-                "start": 24,
-                "end": 45,
                 "kind": "init",
                 "key": {
                   "type": "MemberExpression",
-                  "start": 25,
-                  "end": 39,
                   "object": {
                     "type": "Identifier",
-                    "start": 25,
-                    "end": 31,
                     "decorators": [],
                     "name": "Symbol",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 25,
+                    "end": 31
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 32,
-                    "end": 39,
                     "decorators": [],
                     "name": "dispose",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 32,
+                    "end": 39
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 25,
+                  "end": 39
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 40,
-                  "end": 45,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -82,26 +70,38 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 43,
-                    "end": 45,
-                    "body": []
+                    "end": 45
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 40,
+                  "end": 45
                 },
                 "method": true,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 24,
+                "end": 45
               }
-            ]
+            ],
+            "start": 22,
+            "end": 47
           },
-          "definite": false
+          "definite": false,
+          "start": 18,
+          "end": 47
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 12,
+      "end": 48
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 48
 }
 ```

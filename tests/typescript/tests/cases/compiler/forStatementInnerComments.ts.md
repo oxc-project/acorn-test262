@@ -2,224 +2,224 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 345,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 14,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 13,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 13
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 13
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "ForInStatement",
-      "start": 21,
-      "end": 83,
       "left": {
         "type": "VariableDeclaration",
-        "start": 39,
-        "end": 50,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 49,
-            "end": 50,
             "id": {
               "type": "Identifier",
-              "start": 49,
-              "end": 50,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 49,
+              "end": 50
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 49,
+            "end": 50
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 39,
+        "end": 50
       },
       "right": {
         "type": "Identifier",
-        "start": 66,
-        "end": 67,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 66,
+        "end": 67
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 81,
-        "end": 83,
-        "body": []
-      }
+        "end": 83
+      },
+      "start": 21,
+      "end": 83
     },
     {
       "type": "ForOfStatement",
-      "start": 90,
-      "end": 152,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 108,
-        "end": 119,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 118,
-            "end": 119,
             "id": {
               "type": "Identifier",
-              "start": 118,
-              "end": 119,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 118,
+              "end": 119
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 118,
+            "end": 119
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 108,
+        "end": 119
       },
       "right": {
         "type": "Identifier",
-        "start": 135,
-        "end": 136,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 135,
+        "end": 136
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 150,
-        "end": 152,
-        "body": []
-      }
+        "end": 152
+      },
+      "start": 90,
+      "end": 152
     },
     {
       "type": "ForInStatement",
-      "start": 159,
-      "end": 211,
       "left": {
         "type": "Identifier",
-        "start": 177,
-        "end": 178,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 177,
+        "end": 178
       },
       "right": {
         "type": "Identifier",
-        "start": 194,
-        "end": 195,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 194,
+        "end": 195
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 209,
-        "end": 211,
-        "body": []
-      }
+        "end": 211
+      },
+      "start": 159,
+      "end": 211
     },
     {
       "type": "ForOfStatement",
-      "start": 218,
-      "end": 270,
       "await": false,
       "left": {
         "type": "Identifier",
-        "start": 236,
-        "end": 237,
         "decorators": [],
         "name": "y",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 236,
+        "end": 237
       },
       "right": {
         "type": "Identifier",
-        "start": 253,
-        "end": 254,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 253,
+        "end": 254
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 268,
-        "end": 270,
-        "body": []
-      }
+        "end": 270
+      },
+      "start": 218,
+      "end": 270
     },
     {
       "type": "ForStatement",
-      "start": 277,
-      "end": 345,
       "init": {
         "type": "Identifier",
-        "start": 295,
-        "end": 296,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 295,
+        "end": 296
       },
       "test": {
         "type": "Identifier",
-        "start": 311,
-        "end": 312,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 311,
+        "end": 312
       },
       "update": {
         "type": "Identifier",
-        "start": 328,
-        "end": 329,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 328,
+        "end": 329
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 343,
-        "end": 345,
-        "body": []
-      }
+        "end": 345
+      },
+      "start": 277,
+      "end": 345
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 345
 }
 ```

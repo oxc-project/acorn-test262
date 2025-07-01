@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 339,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 255,
-      "end": 338,
       "expression": {
         "type": "CallExpression",
-        "start": 255,
-        "end": 337,
         "callee": {
           "type": "MemberExpression",
-          "start": 255,
-          "end": 271,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 255,
-            "end": 261,
-            "name": "assert"
+            "end": 261
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 262,
-            "end": 271,
-            "name": "sameValue"
+            "end": 271
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 255,
+          "end": 271
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 272,
-            "end": 289,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "Uint8Array",
               "start": 279,
-              "end": 289,
-              "name": "Uint8Array"
+              "end": 289
             },
-            "prefix": true
+            "prefix": true,
+            "start": 272,
+            "end": 289
           },
           {
             "type": "Literal",
-            "start": 291,
-            "end": 301,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 291,
+            "end": 301
           },
           {
             "type": "Literal",
-            "start": 303,
-            "end": 336,
             "value": "typeof Uint8Array is \"function\"",
-            "raw": "'typeof Uint8Array is \"function\"'"
+            "raw": "'typeof Uint8Array is \"function\"'",
+            "start": 303,
+            "end": 336
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 255,
+        "end": 337
+      },
+      "start": 255,
+      "end": 338
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 339
 }

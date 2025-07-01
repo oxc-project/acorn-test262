@@ -1,394 +1,394 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 868,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 332,
-      "end": 366,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 336,
-          "end": 365,
           "id": {
             "type": "Identifier",
+            "name": "spreadablePoisonedGetter",
             "start": 336,
-            "end": 360,
-            "name": "spreadablePoisonedGetter"
+            "end": 360
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 363,
-            "end": 365,
-            "properties": []
-          }
+            "end": 365
+          },
+          "start": 336,
+          "end": 365
         }
-      ]
+      ],
+      "start": 332,
+      "end": 366
     },
     {
       "type": "ExpressionStatement",
-      "start": 367,
-      "end": 501,
       "expression": {
         "type": "CallExpression",
-        "start": 367,
-        "end": 500,
         "callee": {
           "type": "MemberExpression",
-          "start": 367,
-          "end": 388,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 367,
-            "end": 373,
-            "name": "Object"
+            "end": 373
           },
           "property": {
             "type": "Identifier",
+            "name": "defineProperty",
             "start": 374,
-            "end": 388,
-            "name": "defineProperty"
+            "end": 388
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 367,
+          "end": 388
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "spreadablePoisonedGetter",
             "start": 389,
-            "end": 413,
-            "name": "spreadablePoisonedGetter"
+            "end": 413
           },
           {
             "type": "MemberExpression",
-            "start": 415,
-            "end": 440,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 415,
-              "end": 421,
-              "name": "Symbol"
+              "end": 421
             },
             "property": {
               "type": "Identifier",
+              "name": "isConcatSpreadable",
               "start": 422,
-              "end": 440,
-              "name": "isConcatSpreadable"
+              "end": 440
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 415,
+            "end": 440
           },
           {
             "type": "ObjectExpression",
-            "start": 442,
-            "end": 499,
             "properties": [
               {
                 "type": "Property",
-                "start": 446,
-                "end": 497,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "get",
                   "start": 446,
-                  "end": 449,
-                  "name": "get"
+                  "end": 449
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 451,
-                  "end": 497,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 462,
-                    "end": 497,
                     "body": [
                       {
                         "type": "ThrowStatement",
-                        "start": 468,
-                        "end": 493,
                         "argument": {
                           "type": "NewExpression",
-                          "start": 474,
-                          "end": 492,
                           "callee": {
                             "type": "Identifier",
+                            "name": "Test262Error",
                             "start": 478,
-                            "end": 490,
-                            "name": "Test262Error"
+                            "end": 490
                           },
-                          "arguments": []
-                        }
+                          "arguments": [],
+                          "start": 474,
+                          "end": 492
+                        },
+                        "start": 468,
+                        "end": 493
                       }
-                    ]
+                    ],
+                    "start": 462,
+                    "end": 497
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 451,
+                  "end": 497
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 446,
+                "end": 497
               }
-            ]
+            ],
+            "start": 442,
+            "end": 499
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 367,
+        "end": 500
+      },
+      "start": 367,
+      "end": 501
     },
     {
       "type": "ExpressionStatement",
-      "start": 503,
-      "end": 657,
       "expression": {
         "type": "CallExpression",
-        "start": 503,
-        "end": 656,
         "callee": {
           "type": "MemberExpression",
-          "start": 503,
-          "end": 516,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 503,
-            "end": 509,
-            "name": "assert"
+            "end": 509
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 510,
-            "end": 516,
-            "name": "throws"
+            "end": 516
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 503,
+          "end": 516
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 517,
-            "end": 529,
-            "name": "Test262Error"
+            "end": 529
           },
           {
             "type": "FunctionExpression",
-            "start": 531,
-            "end": 584,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 542,
-              "end": 584,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 546,
-                  "end": 582,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 546,
-                    "end": 581,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 546,
-                      "end": 555,
                       "object": {
                         "type": "ArrayExpression",
+                        "elements": [],
                         "start": 546,
-                        "end": 548,
-                        "elements": []
+                        "end": 548
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "concat",
                         "start": 549,
-                        "end": 555,
-                        "name": "concat"
+                        "end": 555
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 546,
+                      "end": 555
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "spreadablePoisonedGetter",
                         "start": 556,
-                        "end": 580,
-                        "name": "spreadablePoisonedGetter"
+                        "end": 580
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 546,
+                    "end": 581
+                  },
+                  "start": 546,
+                  "end": 582
                 }
-              ]
+              ],
+              "start": 542,
+              "end": 584
             },
-            "expression": false
+            "expression": false,
+            "start": 531,
+            "end": 584
           },
           {
             "type": "Literal",
-            "start": 586,
-            "end": 655,
             "value": "[].concat(spreadablePoisonedGetter) throws a Test262Error exception",
-            "raw": "'[].concat(spreadablePoisonedGetter) throws a Test262Error exception'"
+            "raw": "'[].concat(spreadablePoisonedGetter) throws a Test262Error exception'",
+            "start": 586,
+            "end": 655
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 503,
+        "end": 656
+      },
+      "start": 503,
+      "end": 657
     },
     {
       "type": "ExpressionStatement",
-      "start": 659,
-      "end": 867,
       "expression": {
         "type": "CallExpression",
-        "start": 659,
-        "end": 866,
         "callee": {
           "type": "MemberExpression",
-          "start": 659,
-          "end": 672,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 659,
-            "end": 665,
-            "name": "assert"
+            "end": 665
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 666,
-            "end": 672,
-            "name": "throws"
+            "end": 672
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 659,
+          "end": 672
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 673,
-            "end": 685,
-            "name": "Test262Error"
+            "end": 685
           },
           {
             "type": "FunctionExpression",
-            "start": 687,
-            "end": 767,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 698,
-              "end": 767,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 702,
-                  "end": 765,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 702,
-                    "end": 764,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 702,
-                      "end": 729,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 702,
-                        "end": 724,
                         "object": {
                           "type": "MemberExpression",
-                          "start": 702,
-                          "end": 717,
                           "object": {
                             "type": "Identifier",
+                            "name": "Array",
                             "start": 702,
-                            "end": 707,
-                            "name": "Array"
+                            "end": 707
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "prototype",
                             "start": 708,
-                            "end": 717,
-                            "name": "prototype"
+                            "end": 717
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 702,
+                          "end": 717
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "concat",
                           "start": 718,
-                          "end": 724,
-                          "name": "concat"
+                          "end": 724
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 702,
+                        "end": 724
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "call",
                         "start": 725,
-                        "end": 729,
-                        "name": "call"
+                        "end": 729
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 702,
+                      "end": 729
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "spreadablePoisonedGetter",
                         "start": 730,
-                        "end": 754,
-                        "name": "spreadablePoisonedGetter"
+                        "end": 754
                       },
                       {
                         "type": "Literal",
-                        "start": 756,
-                        "end": 757,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 756,
+                        "end": 757
                       },
                       {
                         "type": "Literal",
-                        "start": 759,
-                        "end": 760,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 759,
+                        "end": 760
                       },
                       {
                         "type": "Literal",
-                        "start": 762,
-                        "end": 763,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "start": 762,
+                        "end": 763
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 702,
+                    "end": 764
+                  },
+                  "start": 702,
+                  "end": 765
                 }
-              ]
+              ],
+              "start": 698,
+              "end": 767
             },
-            "expression": false
+            "expression": false,
+            "start": 687,
+            "end": 767
           },
           {
             "type": "Literal",
-            "start": 769,
-            "end": 865,
             "value": "Array.prototype.concat.call(spreadablePoisonedGetter, 1, 2, 3) throws a Test262Error exception",
-            "raw": "'Array.prototype.concat.call(spreadablePoisonedGetter, 1, 2, 3) throws a Test262Error exception'"
+            "raw": "'Array.prototype.concat.call(spreadablePoisonedGetter, 1, 2, 3) throws a Test262Error exception'",
+            "start": 769,
+            "end": 865
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 659,
+        "end": 866
+      },
+      "start": 659,
+      "end": 867
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 868
 }

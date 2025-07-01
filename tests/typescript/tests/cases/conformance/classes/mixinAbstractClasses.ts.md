@@ -2,41 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 799,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 15,
         "decorators": [],
         "name": "Mixin",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 15
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 16,
-        "end": 44,
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 22,
-            "end": 42,
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 33,
               "decorators": [],
               "name": "mixinMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 22,
+              "end": 33
             },
             "computed": false,
             "optional": false,
@@ -45,292 +37,286 @@ __ESTREE_TEST__:PASS:
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 35,
-              "end": 41,
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
                 "start": 37,
                 "end": 41
-              }
+              },
+              "start": 35,
+              "end": 41
             },
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 22,
+            "end": 42
           }
-        ]
+        ],
+        "start": 16,
+        "end": 44
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 44
     },
     {
       "type": "FunctionDeclaration",
-      "start": 46,
-      "end": 325,
       "id": {
         "type": "Identifier",
-        "start": 55,
-        "end": 60,
         "decorators": [],
         "name": "Mixin",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 55,
+        "end": 60
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 60,
-        "end": 115,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 61,
-            "end": 114,
             "name": {
               "type": "Identifier",
-              "start": 61,
-              "end": 71,
               "decorators": [],
               "name": "TBaseClass",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 61,
+              "end": 71
             },
             "constraint": {
               "type": "TSConstructorType",
-              "start": 80,
-              "end": 114,
               "abstract": true,
               "typeParameters": null,
               "params": [
                 {
                   "type": "RestElement",
-                  "start": 94,
-                  "end": 106,
                   "decorators": [],
                   "argument": {
                     "type": "Identifier",
-                    "start": 97,
-                    "end": 101,
                     "decorators": [],
                     "name": "args",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 97,
+                    "end": 101
                   },
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 101,
-                    "end": 106,
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
                       "start": 103,
                       "end": 106
-                    }
+                    },
+                    "start": 101,
+                    "end": 106
                   },
-                  "value": null
+                  "value": null,
+                  "start": 94,
+                  "end": 106
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 108,
-                "end": 114,
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
                   "start": 111,
                   "end": 114
-                }
-              }
+                },
+                "start": 108,
+                "end": 114
+              },
+              "start": 80,
+              "end": 114
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 61,
+            "end": 114
           }
-        ]
+        ],
+        "start": 60,
+        "end": 115
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 116,
-          "end": 137,
           "decorators": [],
           "name": "baseClass",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 125,
-            "end": 137,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 127,
-              "end": 137,
               "typeName": {
                 "type": "Identifier",
-                "start": 127,
-                "end": 137,
                 "decorators": [],
                 "name": "TBaseClass",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 127,
+                "end": 137
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 127,
+              "end": 137
+            },
+            "start": 125,
+            "end": 137
+          },
+          "start": 116,
+          "end": 137
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 138,
-        "end": 191,
         "typeAnnotation": {
           "type": "TSIntersectionType",
-          "start": 140,
-          "end": 191,
           "types": [
             {
               "type": "TSTypeReference",
-              "start": 140,
-              "end": 150,
               "typeName": {
                 "type": "Identifier",
-                "start": 140,
-                "end": 150,
                 "decorators": [],
                 "name": "TBaseClass",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 140,
+                "end": 150
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 140,
+              "end": 150
             },
             {
               "type": "TSConstructorType",
-              "start": 154,
-              "end": 190,
               "abstract": true,
               "typeParameters": null,
               "params": [
                 {
                   "type": "RestElement",
-                  "start": 168,
-                  "end": 180,
                   "decorators": [],
                   "argument": {
                     "type": "Identifier",
-                    "start": 171,
-                    "end": 175,
                     "decorators": [],
                     "name": "args",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 171,
+                    "end": 175
                   },
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 175,
-                    "end": 180,
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
                       "start": 177,
                       "end": 180
-                    }
+                    },
+                    "start": 175,
+                    "end": 180
                   },
-                  "value": null
+                  "value": null,
+                  "start": 168,
+                  "end": 180
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 182,
-                "end": 190,
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 185,
-                  "end": 190,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 185,
-                    "end": 190,
                     "decorators": [],
                     "name": "Mixin",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 185,
+                    "end": 190
                   },
-                  "typeArguments": null
-                }
-              }
+                  "typeArguments": null,
+                  "start": 185,
+                  "end": 190
+                },
+                "start": 182,
+                "end": 190
+              },
+              "start": 154,
+              "end": 190
             }
-          ]
-        }
+          ],
+          "start": 140,
+          "end": 191
+        },
+        "start": 138,
+        "end": 191
       },
       "body": {
         "type": "BlockStatement",
-        "start": 192,
-        "end": 325,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 198,
-            "end": 300,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 213,
-              "end": 223,
               "decorators": [],
               "name": "MixinClass",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 213,
+              "end": 223
             },
             "typeParameters": null,
             "superClass": {
               "type": "Identifier",
-              "start": 232,
-              "end": 241,
               "decorators": [],
               "name": "baseClass",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 232,
+              "end": 241
             },
             "superTypeArguments": null,
             "implements": [
               {
                 "type": "TSClassImplements",
-                "start": 253,
-                "end": 258,
                 "expression": {
                   "type": "Identifier",
-                  "start": 253,
-                  "end": 258,
                   "decorators": [],
                   "name": "Mixin",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 253,
+                  "end": 258
                 },
-                "typeArguments": null
+                "typeArguments": null,
+                "start": 253,
+                "end": 258
               }
             ],
             "body": {
               "type": "ClassBody",
-              "start": 259,
-              "end": 300,
               "body": [
                 {
                   "type": "MethodDefinition",
-                  "start": 269,
-                  "end": 294,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
-                    "start": 269,
-                    "end": 280,
                     "decorators": [],
                     "name": "mixinMethod",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 269,
+                    "end": 280
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 280,
-                    "end": 294,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -340,55 +326,65 @@ __ESTREE_TEST__:PASS:
                     "returnType": null,
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 283,
-                      "end": 294,
-                      "body": []
+                      "end": 294
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 280,
+                    "end": 294
                   },
                   "kind": "method",
                   "computed": false,
                   "static": false,
                   "override": false,
                   "optional": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 269,
+                  "end": 294
                 }
-              ]
+              ],
+              "start": 259,
+              "end": 300
             },
             "abstract": true,
-            "declare": false
+            "declare": false,
+            "start": 198,
+            "end": 300
           },
           {
             "type": "ReturnStatement",
-            "start": 305,
-            "end": 323,
             "argument": {
               "type": "Identifier",
-              "start": 312,
-              "end": 322,
               "decorators": [],
               "name": "MixinClass",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 312,
+              "end": 322
+            },
+            "start": 305,
+            "end": 323
           }
-        ]
+        ],
+        "start": 192,
+        "end": 325
       },
-      "expression": false
+      "expression": false,
+      "start": 46,
+      "end": 325
     },
     {
       "type": "ClassDeclaration",
-      "start": 327,
-      "end": 369,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 333,
-        "end": 345,
         "decorators": [],
         "name": "ConcreteBase",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 333,
+        "end": 345
       },
       "typeParameters": null,
       "superClass": null,
@@ -396,27 +392,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 346,
-        "end": 369,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 352,
-            "end": 367,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 352,
-              "end": 362,
               "decorators": [],
               "name": "baseMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 352,
+              "end": 362
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 362,
-              "end": 367,
               "id": null,
               "generator": false,
               "async": false,
@@ -426,37 +416,43 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 365,
-                "end": 367,
-                "body": []
+                "end": 367
               },
-              "expression": false
+              "expression": false,
+              "start": 362,
+              "end": 367
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 352,
+            "end": 367
           }
-        ]
+        ],
+        "start": 346,
+        "end": 369
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 327,
+      "end": 369
     },
     {
       "type": "ClassDeclaration",
-      "start": 371,
-      "end": 443,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 386,
-        "end": 398,
         "decorators": [],
         "name": "AbstractBase",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 386,
+        "end": 398
       },
       "typeParameters": null,
       "superClass": null,
@@ -464,27 +460,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 399,
-        "end": 443,
         "body": [
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 405,
-            "end": 441,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 414,
-              "end": 432,
               "decorators": [],
               "name": "abstractBaseMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 414,
+              "end": 432
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 432,
-              "end": 441,
               "id": null,
               "generator": false,
               "async": false,
@@ -493,267 +483,267 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 434,
-                "end": 440,
                 "typeAnnotation": {
                   "type": "TSVoidKeyword",
                   "start": 436,
                   "end": 440
-                }
+                },
+                "start": 434,
+                "end": 440
               },
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 432,
+              "end": 441
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 405,
+            "end": 441
           }
-        ]
+        ],
+        "start": 399,
+        "end": 443
       },
       "abstract": true,
-      "declare": false
+      "declare": false,
+      "start": 371,
+      "end": 443
     },
     {
       "type": "ClassDeclaration",
-      "start": 445,
-      "end": 502,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 451,
-        "end": 470,
         "decorators": [],
         "name": "DerivedFromConcrete",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 451,
+        "end": 470
       },
       "typeParameters": null,
       "superClass": {
         "type": "CallExpression",
-        "start": 479,
-        "end": 498,
         "callee": {
           "type": "Identifier",
-          "start": 479,
-          "end": 484,
           "decorators": [],
           "name": "Mixin",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 479,
+          "end": 484
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 485,
-            "end": 497,
             "decorators": [],
             "name": "ConcreteBase",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 485,
+            "end": 497
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 479,
+        "end": 498
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 499,
-        "end": 502,
-        "body": []
+        "end": 502
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 445,
+      "end": 502
     },
     {
       "type": "VariableDeclaration",
-      "start": 504,
-      "end": 550,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 510,
-          "end": 549,
           "id": {
             "type": "Identifier",
-            "start": 510,
-            "end": 521,
             "decorators": [],
             "name": "wasConcrete",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 510,
+            "end": 521
           },
           "init": {
             "type": "NewExpression",
-            "start": 524,
-            "end": 549,
             "callee": {
               "type": "Identifier",
-              "start": 528,
-              "end": 547,
               "decorators": [],
               "name": "DerivedFromConcrete",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 528,
+              "end": 547
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 524,
+            "end": 549
           },
-          "definite": false
+          "definite": false,
+          "start": 510,
+          "end": 549
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 504,
+      "end": 550
     },
     {
       "type": "ExpressionStatement",
-      "start": 551,
-      "end": 576,
       "expression": {
         "type": "CallExpression",
-        "start": 551,
-        "end": 575,
         "callee": {
           "type": "MemberExpression",
-          "start": 551,
-          "end": 573,
           "object": {
             "type": "Identifier",
-            "start": 551,
-            "end": 562,
             "decorators": [],
             "name": "wasConcrete",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 551,
+            "end": 562
           },
           "property": {
             "type": "Identifier",
-            "start": 563,
-            "end": 573,
             "decorators": [],
             "name": "baseMethod",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 563,
+            "end": 573
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 551,
+          "end": 573
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 551,
+        "end": 575
       },
-      "directive": null
+      "directive": null,
+      "start": 551,
+      "end": 576
     },
     {
       "type": "ExpressionStatement",
-      "start": 577,
-      "end": 603,
       "expression": {
         "type": "CallExpression",
-        "start": 577,
-        "end": 602,
         "callee": {
           "type": "MemberExpression",
-          "start": 577,
-          "end": 600,
           "object": {
             "type": "Identifier",
-            "start": 577,
-            "end": 588,
             "decorators": [],
             "name": "wasConcrete",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 577,
+            "end": 588
           },
           "property": {
             "type": "Identifier",
-            "start": 589,
-            "end": 600,
             "decorators": [],
             "name": "mixinMethod",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 589,
+            "end": 600
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 577,
+          "end": 600
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 577,
+        "end": 602
       },
-      "directive": null
+      "directive": null,
+      "start": 577,
+      "end": 603
     },
     {
       "type": "ClassDeclaration",
-      "start": 605,
-      "end": 690,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 611,
-        "end": 630,
         "decorators": [],
         "name": "DerivedFromAbstract",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 611,
+        "end": 630
       },
       "typeParameters": null,
       "superClass": {
         "type": "CallExpression",
-        "start": 639,
-        "end": 658,
         "callee": {
           "type": "Identifier",
-          "start": 639,
-          "end": 644,
           "decorators": [],
           "name": "Mixin",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 639,
+          "end": 644
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 645,
-            "end": 657,
             "decorators": [],
             "name": "AbstractBase",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 645,
+            "end": 657
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 639,
+        "end": 658
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 659,
-        "end": 690,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 665,
-            "end": 688,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 665,
-              "end": 683,
               "decorators": [],
               "name": "abstractBaseMethod",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 665,
+              "end": 683
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 683,
-              "end": 688,
               "id": null,
               "generator": false,
               "async": false,
@@ -763,144 +753,154 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 686,
-                "end": 688,
-                "body": []
+                "end": 688
               },
-              "expression": false
+              "expression": false,
+              "start": 683,
+              "end": 688
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 665,
+            "end": 688
           }
-        ]
+        ],
+        "start": 659,
+        "end": 690
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 605,
+      "end": 690
     },
     {
       "type": "VariableDeclaration",
-      "start": 692,
-      "end": 738,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 698,
-          "end": 737,
           "id": {
             "type": "Identifier",
-            "start": 698,
-            "end": 709,
             "decorators": [],
             "name": "wasAbstract",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 698,
+            "end": 709
           },
           "init": {
             "type": "NewExpression",
-            "start": 712,
-            "end": 737,
             "callee": {
               "type": "Identifier",
-              "start": 716,
-              "end": 735,
               "decorators": [],
               "name": "DerivedFromAbstract",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 716,
+              "end": 735
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 712,
+            "end": 737
           },
-          "definite": false
+          "definite": false,
+          "start": 698,
+          "end": 737
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 692,
+      "end": 738
     },
     {
       "type": "ExpressionStatement",
-      "start": 739,
-      "end": 772,
       "expression": {
         "type": "CallExpression",
-        "start": 739,
-        "end": 771,
         "callee": {
           "type": "MemberExpression",
-          "start": 739,
-          "end": 769,
           "object": {
             "type": "Identifier",
-            "start": 739,
-            "end": 750,
             "decorators": [],
             "name": "wasAbstract",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 739,
+            "end": 750
           },
           "property": {
             "type": "Identifier",
-            "start": 751,
-            "end": 769,
             "decorators": [],
             "name": "abstractBaseMethod",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 751,
+            "end": 769
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 739,
+          "end": 769
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 739,
+        "end": 771
       },
-      "directive": null
+      "directive": null,
+      "start": 739,
+      "end": 772
     },
     {
       "type": "ExpressionStatement",
-      "start": 773,
-      "end": 799,
       "expression": {
         "type": "CallExpression",
-        "start": 773,
-        "end": 798,
         "callee": {
           "type": "MemberExpression",
-          "start": 773,
-          "end": 796,
           "object": {
             "type": "Identifier",
-            "start": 773,
-            "end": 784,
             "decorators": [],
             "name": "wasAbstract",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 773,
+            "end": 784
           },
           "property": {
             "type": "Identifier",
-            "start": 785,
-            "end": 796,
             "decorators": [],
             "name": "mixinMethod",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 785,
+            "end": 796
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 773,
+          "end": 796
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 773,
+        "end": 798
       },
-      "directive": null
+      "directive": null,
+      "start": 773,
+      "end": 799
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 799
 }
 ```

@@ -1,40 +1,30 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2268,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 2202,
-      "end": 2238,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 2208,
-        "end": 2209,
-        "name": "C"
+        "end": 2209
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 2210,
-        "end": 2238,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 2214,
-            "end": 2236,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "f",
               "start": 2221,
-              "end": 2222,
-              "name": "f"
+              "end": 2222
             },
             "value": {
               "type": "ArrowFunctionExpression",
-              "start": 2225,
-              "end": 2235,
               "expression": true,
               "async": false,
               "params": [],
@@ -44,79 +34,89 @@
                 "end": 2235
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 2225,
+              "end": 2235
             },
             "computed": false,
-            "static": true
+            "static": true,
+            "start": 2214,
+            "end": 2236
           }
-        ]
-      }
+        ],
+        "start": 2210,
+        "end": 2238
+      },
+      "start": 2202,
+      "end": 2238
     },
     {
       "type": "ExpressionStatement",
-      "start": 2240,
-      "end": 2267,
       "expression": {
         "type": "CallExpression",
-        "start": 2240,
-        "end": 2266,
         "callee": {
           "type": "MemberExpression",
-          "start": 2240,
-          "end": 2256,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2240,
-            "end": 2246,
-            "name": "assert"
+            "end": 2246
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 2247,
-            "end": 2256,
-            "name": "sameValue"
+            "end": 2256
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2240,
+          "end": 2256
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2257,
-            "end": 2262,
             "callee": {
               "type": "MemberExpression",
-              "start": 2257,
-              "end": 2260,
               "object": {
                 "type": "Identifier",
+                "name": "C",
                 "start": 2257,
-                "end": 2258,
-                "name": "C"
+                "end": 2258
               },
               "property": {
                 "type": "Identifier",
+                "name": "f",
                 "start": 2259,
-                "end": 2260,
-                "name": "f"
+                "end": 2260
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2257,
+              "end": 2260
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 2257,
+            "end": 2262
           },
           {
             "type": "Identifier",
+            "name": "C",
             "start": 2264,
-            "end": 2265,
-            "name": "C"
+            "end": 2265
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2240,
+        "end": 2266
+      },
+      "start": 2240,
+      "end": 2267
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2268
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 30,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Car",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,32 +21,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 30,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 16,
-            "end": 28,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 16,
-              "end": 19,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 16,
+              "end": 19
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 19,
-              "end": 27,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 21,
                 "end": 27
-              }
+              },
+              "start": 19,
+              "end": 27
             },
             "value": null,
             "computed": false,
@@ -60,79 +52,83 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 16,
+            "end": 28
           }
-        ]
+        ],
+        "start": 10,
+        "end": 30
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 30
     },
     {
       "type": "TSExportAssignment",
-      "start": 32,
-      "end": 45,
       "expression": {
         "type": "Identifier",
-        "start": 41,
-        "end": 44,
         "decorators": [],
         "name": "Car",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 41,
+        "end": 44
+      },
+      "start": 32,
+      "end": 45
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 46
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 49,
-  "end": 223,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 49,
-      "end": 98,
       "id": {
         "type": "Identifier",
-        "start": 56,
-        "end": 59,
         "decorators": [],
         "name": "Car",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 56,
+        "end": 59
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 62,
-        "end": 97,
         "expression": {
           "type": "Literal",
-          "start": 70,
-          "end": 96,
           "value": "./arrayOfExportedClass_0",
-          "raw": "'./arrayOfExportedClass_0'"
-        }
+          "raw": "'./arrayOfExportedClass_0'",
+          "start": 70,
+          "end": 96
+        },
+        "start": 62,
+        "end": 97
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 49,
+      "end": 98
     },
     {
       "type": "ClassDeclaration",
-      "start": 100,
-      "end": 207,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 106,
-        "end": 110,
         "decorators": [],
         "name": "Road",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 106,
+        "end": 110
       },
       "typeParameters": null,
       "superClass": null,
@@ -140,47 +136,43 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 111,
-        "end": 207,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 118,
-            "end": 137,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 125,
-              "end": 129,
               "decorators": [],
               "name": "cars",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 125,
+              "end": 129
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 129,
-              "end": 136,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 131,
-                "end": 136,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 131,
-                  "end": 134,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 131,
-                    "end": 134,
                     "decorators": [],
                     "name": "Car",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 131,
+                    "end": 134
                   },
-                  "typeArguments": null
-                }
-              }
+                  "typeArguments": null,
+                  "start": 131,
+                  "end": 134
+                },
+                "start": 131,
+                "end": 136
+              },
+              "start": 129,
+              "end": 136
             },
             "value": null,
             "computed": false,
@@ -190,26 +182,24 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 118,
+            "end": 137
           },
           {
             "type": "MethodDefinition",
-            "start": 143,
-            "end": 205,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 150,
-              "end": 157,
               "decorators": [],
               "name": "AddCars",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 150,
+              "end": 157
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 157,
-              "end": 205,
               "id": null,
               "generator": false,
               "async": false,
@@ -218,57 +208,49 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 158,
-                  "end": 169,
                   "decorators": [],
                   "name": "cars",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 162,
-                    "end": 169,
                     "typeAnnotation": {
                       "type": "TSArrayType",
-                      "start": 164,
-                      "end": 169,
                       "elementType": {
                         "type": "TSTypeReference",
-                        "start": 164,
-                        "end": 167,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 164,
-                          "end": 167,
                           "decorators": [],
                           "name": "Car",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 164,
+                          "end": 167
                         },
-                        "typeArguments": null
-                      }
-                    }
-                  }
+                        "typeArguments": null,
+                        "start": 164,
+                        "end": 167
+                      },
+                      "start": 164,
+                      "end": 169
+                    },
+                    "start": 162,
+                    "end": 169
+                  },
+                  "start": 158,
+                  "end": 169
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 171,
-                "end": 205,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 182,
-                    "end": 199,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 182,
-                      "end": 198,
                       "operator": "=",
                       "left": {
                         "type": "MemberExpression",
-                        "start": 182,
-                        "end": 191,
                         "object": {
                           "type": "ThisExpression",
                           "start": 182,
@@ -276,60 +258,78 @@ __ESTREE_TEST__:PASS:
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 187,
-                          "end": 191,
                           "decorators": [],
                           "name": "cars",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 187,
+                          "end": 191
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 182,
+                        "end": 191
                       },
                       "right": {
                         "type": "Identifier",
-                        "start": 194,
-                        "end": 198,
                         "decorators": [],
                         "name": "cars",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 194,
+                        "end": 198
+                      },
+                      "start": 182,
+                      "end": 198
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 182,
+                    "end": 199
                   }
-                ]
+                ],
+                "start": 171,
+                "end": 205
               },
-              "expression": false
+              "expression": false,
+              "start": 157,
+              "end": 205
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 143,
+            "end": 205
           }
-        ]
+        ],
+        "start": 111,
+        "end": 207
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 100,
+      "end": 207
     },
     {
       "type": "TSExportAssignment",
-      "start": 209,
-      "end": 223,
       "expression": {
         "type": "Identifier",
-        "start": 218,
-        "end": 222,
         "decorators": [],
         "name": "Road",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 218,
+        "end": 222
+      },
+      "start": 209,
+      "end": 223
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 49,
+  "end": 223
 }
 ```

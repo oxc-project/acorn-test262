@@ -1,236 +1,236 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 673,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 462,
-      "end": 515,
       "expression": {
         "type": "CallExpression",
-        "start": 462,
-        "end": 514,
         "callee": {
           "type": "MemberExpression",
-          "start": 462,
-          "end": 478,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 462,
-            "end": 468,
-            "name": "assert"
+            "end": 468
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 469,
-            "end": 478,
-            "name": "sameValue"
+            "end": 478
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 462,
+          "end": 478
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 479,
-            "end": 499,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 479,
-              "end": 485,
-              "name": "String"
+              "end": 485
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 486,
-                "end": 498,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 486,
-                  "end": 492,
-                  "name": "Symbol"
+                  "end": 492
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 493,
-                    "end": 497,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "start": 493,
+                    "end": 497
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 486,
+                "end": 498
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 479,
+            "end": 499
           },
           {
             "type": "Literal",
-            "start": 501,
-            "end": 513,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "start": 501,
+            "end": 513
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 462,
+        "end": 514
+      },
+      "start": 462,
+      "end": 515
     },
     {
       "type": "ExpressionStatement",
-      "start": 516,
-      "end": 587,
       "expression": {
         "type": "CallExpression",
-        "start": 516,
-        "end": 586,
         "callee": {
           "type": "MemberExpression",
-          "start": 516,
-          "end": 532,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 516,
-            "end": 522,
-            "name": "assert"
+            "end": 522
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 523,
-            "end": 532,
-            "name": "sameValue"
+            "end": 532
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 516,
+          "end": 532
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 533,
-            "end": 549,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 533,
-              "end": 539,
-              "name": "String"
+              "end": 539
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 540,
-                "end": 548,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 540,
-                  "end": 546,
-                  "name": "Symbol"
+                  "end": 546
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 540,
+                "end": 548
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 533,
+            "end": 549
           },
           {
             "type": "Literal",
-            "start": 551,
-            "end": 561,
             "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "raw": "'Symbol()'",
+            "start": 551,
+            "end": 561
           },
           {
             "type": "Literal",
-            "start": 563,
-            "end": 585,
             "value": "implicit `undefined`",
-            "raw": "'implicit `undefined`'"
+            "raw": "'implicit `undefined`'",
+            "start": 563,
+            "end": 585
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 516,
+        "end": 586
+      },
+      "start": 516,
+      "end": 587
     },
     {
       "type": "ExpressionStatement",
-      "start": 588,
-      "end": 672,
       "expression": {
         "type": "CallExpression",
-        "start": 588,
-        "end": 671,
         "callee": {
           "type": "MemberExpression",
-          "start": 588,
-          "end": 604,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 588,
-            "end": 594,
-            "name": "assert"
+            "end": 594
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 595,
-            "end": 604,
-            "name": "sameValue"
+            "end": 604
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 588,
+          "end": 604
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 608,
-            "end": 633,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 608,
-              "end": 614,
-              "name": "String"
+              "end": 614
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 615,
-                "end": 632,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 615,
-                  "end": 621,
-                  "name": "Symbol"
+                  "end": 621
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "undefined",
                     "start": 622,
-                    "end": 631,
-                    "name": "undefined"
+                    "end": 631
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 615,
+                "end": 632
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 608,
+            "end": 633
           },
           {
             "type": "Literal",
-            "start": 635,
-            "end": 645,
             "value": "Symbol()",
-            "raw": "'Symbol()'"
+            "raw": "'Symbol()'",
+            "start": 635,
+            "end": 645
           },
           {
             "type": "Literal",
-            "start": 647,
-            "end": 669,
             "value": "explicit `undefined`",
-            "raw": "'explicit `undefined`'"
+            "raw": "'explicit `undefined`'",
+            "start": 647,
+            "end": 669
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 588,
+        "end": 671
+      },
+      "start": 588,
+      "end": 672
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 673
 }

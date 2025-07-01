@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 24,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 14,
         "decorators": [],
         "name": "undefined",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 14
       },
       "typeParameters": null,
       "typeAnnotation": {
@@ -24,20 +20,20 @@ __ESTREE_TEST__:PASS:
         "start": 17,
         "end": 23
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 24
     },
     {
       "type": "FunctionDeclaration",
-      "start": 25,
-      "end": 77,
       "id": {
         "type": "Identifier",
-        "start": 34,
-        "end": 35,
         "decorators": [],
         "name": "p",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 34,
+        "end": 35
       },
       "generator": false,
       "async": false,
@@ -46,55 +42,59 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 36,
-          "end": 53,
           "decorators": [],
           "left": {
             "type": "Identifier",
-            "start": 36,
-            "end": 45,
             "decorators": [],
             "name": "undefined",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 36,
+            "end": 45
           },
           "right": {
             "type": "Literal",
-            "start": 48,
-            "end": 53,
             "value": "wat",
-            "raw": "\"wat\""
+            "raw": "\"wat\"",
+            "start": 48,
+            "end": 53
           },
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 36,
+          "end": 53
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 55,
-        "end": 77,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 58,
-            "end": 75,
             "argument": {
               "type": "Identifier",
-              "start": 65,
-              "end": 74,
               "decorators": [],
               "name": "undefined",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 65,
+              "end": 74
+            },
+            "start": 58,
+            "end": 75
           }
-        ]
+        ],
+        "start": 55,
+        "end": 77
       },
-      "expression": false
+      "expression": false,
+      "start": 25,
+      "end": 77
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```

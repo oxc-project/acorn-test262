@@ -1,119 +1,119 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 409,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 305,
-      "end": 364,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 309,
-          "end": 363,
           "id": {
             "type": "Identifier",
+            "name": "desc",
             "start": 309,
-            "end": 313,
-            "name": "desc"
+            "end": 313
           },
           "init": {
             "type": "CallExpression",
-            "start": 316,
-            "end": 363,
             "callee": {
               "type": "MemberExpression",
-              "start": 316,
-              "end": 347,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 316,
-                "end": 322,
-                "name": "Object"
+                "end": 322
               },
               "property": {
                 "type": "Identifier",
+                "name": "getOwnPropertyDescriptor",
                 "start": 323,
-                "end": 347,
-                "name": "getOwnPropertyDescriptor"
+                "end": 347
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 316,
+              "end": 347
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 348,
-                "end": 352,
-                "name": "Math"
+                "end": 352
               },
               {
                 "type": "Literal",
-                "start": 354,
-                "end": 362,
                 "value": "caller",
-                "raw": "\"caller\""
+                "raw": "\"caller\"",
+                "start": 354,
+                "end": 362
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 316,
+            "end": 363
+          },
+          "start": 309,
+          "end": 363
         }
-      ]
+      ],
+      "start": 305,
+      "end": 364
     },
     {
       "type": "ExpressionStatement",
-      "start": 366,
-      "end": 408,
       "expression": {
         "type": "CallExpression",
-        "start": 366,
-        "end": 407,
         "callee": {
           "type": "MemberExpression",
-          "start": 366,
-          "end": 382,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 366,
-            "end": 372,
-            "name": "assert"
+            "end": 372
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 373,
-            "end": 382,
-            "name": "sameValue"
+            "end": 382
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 366,
+          "end": 382
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "desc",
             "start": 383,
-            "end": 387,
-            "name": "desc"
+            "end": 387
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 389,
-            "end": 398,
-            "name": "undefined"
+            "end": 398
           },
           {
             "type": "Literal",
-            "start": 400,
-            "end": 406,
             "value": "desc",
-            "raw": "'desc'"
+            "raw": "'desc'",
+            "start": 400,
+            "end": 406
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 366,
+        "end": 407
+      },
+      "start": 366,
+      "end": 408
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 409
 }

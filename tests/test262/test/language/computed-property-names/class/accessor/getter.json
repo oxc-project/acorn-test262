@@ -1,145 +1,145 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 338,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 219,
-      "end": 266,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 225,
-        "end": 226,
-        "name": "C"
+        "end": 226
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 227,
-        "end": 266,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 231,
-            "end": 264,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 236,
-              "end": 239,
               "value": "a",
-              "raw": "'a'"
+              "raw": "'a'",
+              "start": 236,
+              "end": 239
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 240,
-              "end": 264,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 243,
-                "end": 264,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 249,
-                    "end": 260,
                     "argument": {
                       "type": "Literal",
-                      "start": 256,
-                      "end": 259,
                       "value": "A",
-                      "raw": "'A'"
-                    }
+                      "raw": "'A'",
+                      "start": 256,
+                      "end": 259
+                    },
+                    "start": 249,
+                    "end": 260
                   }
-                ]
+                ],
+                "start": 243,
+                "end": 264
               },
-              "expression": false
+              "expression": false,
+              "start": 240,
+              "end": 264
             },
             "kind": "get",
             "computed": true,
-            "static": false
+            "static": false,
+            "start": 231,
+            "end": 264
           }
-        ]
-      }
+        ],
+        "start": 227,
+        "end": 266
+      },
+      "start": 219,
+      "end": 266
     },
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 337,
       "expression": {
         "type": "CallExpression",
-        "start": 267,
-        "end": 336,
         "callee": {
           "type": "MemberExpression",
-          "start": 267,
-          "end": 283,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 267,
-            "end": 273,
-            "name": "assert"
+            "end": 273
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 274,
-            "end": 283,
-            "name": "sameValue"
+            "end": 283
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 267,
+          "end": 283
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 284,
-            "end": 293,
             "object": {
               "type": "NewExpression",
-              "start": 284,
-              "end": 291,
               "callee": {
                 "type": "Identifier",
+                "name": "C",
                 "start": 288,
-                "end": 289,
-                "name": "C"
+                "end": 289
               },
-              "arguments": []
+              "arguments": [],
+              "start": 284,
+              "end": 291
             },
             "property": {
               "type": "Identifier",
+              "name": "a",
               "start": 292,
-              "end": 293,
-              "name": "a"
+              "end": 293
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 284,
+            "end": 293
           },
           {
             "type": "Literal",
-            "start": 295,
-            "end": 298,
             "value": "A",
-            "raw": "'A'"
+            "raw": "'A'",
+            "start": 295,
+            "end": 298
           },
           {
             "type": "Literal",
-            "start": 300,
-            "end": 335,
             "value": "The value of `new C().a` is `'A'`",
-            "raw": "\"The value of `new C().a` is `'A'`\""
+            "raw": "\"The value of `new C().a` is `'A'`\"",
+            "start": 300,
+            "end": 335
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 267,
+        "end": 336
+      },
+      "start": 267,
+      "end": 337
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 338
 }

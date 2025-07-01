@@ -1,193 +1,193 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2451,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 2124,
-      "end": 2450,
       "expression": {
         "type": "CallExpression",
-        "start": 2124,
-        "end": 2449,
         "callee": {
           "type": "Identifier",
+          "name": "asyncTest",
           "start": 2124,
-          "end": 2133,
-          "name": "asyncTest"
+          "end": 2133
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 2134,
-            "end": 2448,
             "id": null,
             "generator": false,
             "async": true,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2152,
-              "end": 2448,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2156,
-                  "end": 2299,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 2156,
-                    "end": 2298,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 2162,
-                      "end": 2298,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 2162,
-                        "end": 2180,
                         "object": {
                           "type": "Identifier",
+                          "name": "assert",
                           "start": 2162,
-                          "end": 2168,
-                          "name": "assert"
+                          "end": 2168
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "throwsAsync",
                           "start": 2169,
-                          "end": 2180,
-                          "name": "throwsAsync"
+                          "end": 2180
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 2162,
+                        "end": 2180
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "Error",
                           "start": 2186,
-                          "end": 2191,
-                          "name": "Error"
+                          "end": 2191
                         },
                         {
                           "type": "ArrowFunctionExpression",
-                          "start": 2197,
-                          "end": 2247,
                           "expression": true,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "ImportExpression",
-                            "start": 2203,
-                            "end": 2247,
                             "source": {
                               "type": "Literal",
-                              "start": 2210,
-                              "end": 2246,
                               "value": "./import-errored-module_FIXTURE.js",
-                              "raw": "'./import-errored-module_FIXTURE.js'"
+                              "raw": "'./import-errored-module_FIXTURE.js'",
+                              "start": 2210,
+                              "end": 2246
                             },
                             "options": null,
-                            "phase": null
+                            "phase": null,
+                            "start": 2203,
+                            "end": 2247
                           },
                           "id": null,
-                          "generator": false
+                          "generator": false,
+                          "start": 2197,
+                          "end": 2247
                         },
                         {
                           "type": "Literal",
-                          "start": 2253,
-                          "end": 2294,
                           "value": "The import should reject (first import)",
-                          "raw": "'The import should reject (first import)'"
+                          "raw": "'The import should reject (first import)'",
+                          "start": 2253,
+                          "end": 2294
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 2162,
+                      "end": 2298
+                    },
+                    "start": 2156,
+                    "end": 2298
+                  },
+                  "start": 2156,
+                  "end": 2299
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 2302,
-                  "end": 2446,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 2302,
-                    "end": 2445,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 2308,
-                      "end": 2445,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 2308,
-                        "end": 2326,
                         "object": {
                           "type": "Identifier",
+                          "name": "assert",
                           "start": 2308,
-                          "end": 2314,
-                          "name": "assert"
+                          "end": 2314
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "throwsAsync",
                           "start": 2315,
-                          "end": 2326,
-                          "name": "throwsAsync"
+                          "end": 2326
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 2308,
+                        "end": 2326
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "Error",
                           "start": 2332,
-                          "end": 2337,
-                          "name": "Error"
+                          "end": 2337
                         },
                         {
                           "type": "ArrowFunctionExpression",
-                          "start": 2343,
-                          "end": 2393,
                           "expression": true,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "ImportExpression",
-                            "start": 2349,
-                            "end": 2393,
                             "source": {
                               "type": "Literal",
-                              "start": 2356,
-                              "end": 2392,
                               "value": "./import-errored-module_FIXTURE.js",
-                              "raw": "'./import-errored-module_FIXTURE.js'"
+                              "raw": "'./import-errored-module_FIXTURE.js'",
+                              "start": 2356,
+                              "end": 2392
                             },
                             "options": null,
-                            "phase": null
+                            "phase": null,
+                            "start": 2349,
+                            "end": 2393
                           },
                           "id": null,
-                          "generator": false
+                          "generator": false,
+                          "start": 2343,
+                          "end": 2393
                         },
                         {
                           "type": "Literal",
-                          "start": 2399,
-                          "end": 2441,
                           "value": "The import should reject (second import)",
-                          "raw": "'The import should reject (second import)'"
+                          "raw": "'The import should reject (second import)'",
+                          "start": 2399,
+                          "end": 2441
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 2308,
+                      "end": 2445
+                    },
+                    "start": 2302,
+                    "end": 2445
+                  },
+                  "start": 2302,
+                  "end": 2446
                 }
-              ]
+              ],
+              "start": 2152,
+              "end": 2448
             },
-            "expression": false
+            "expression": false,
+            "start": 2134,
+            "end": 2448
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2124,
+        "end": 2449
+      },
+      "start": 2124,
+      "end": 2450
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2451
 }

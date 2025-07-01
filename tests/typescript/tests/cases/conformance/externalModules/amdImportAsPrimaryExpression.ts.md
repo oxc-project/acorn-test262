@@ -2,196 +2,196 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 25,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 25,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 14,
           "decorators": [],
           "name": "E1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 14
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 15,
-          "end": 25,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 18,
-              "end": 19,
               "id": {
                 "type": "Identifier",
-                "start": 18,
-                "end": 19,
                 "decorators": [],
                 "name": "A",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 18,
+                "end": 19
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 18,
+              "end": 19
             },
             {
               "type": "TSEnumMember",
-              "start": 20,
-              "end": 21,
               "id": {
                 "type": "Identifier",
-                "start": 20,
-                "end": 21,
                 "decorators": [],
                 "name": "B",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 20,
+                "end": 21
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 20,
+              "end": 21
             },
             {
               "type": "TSEnumMember",
-              "start": 22,
-              "end": 23,
               "id": {
                 "type": "Identifier",
-                "start": 22,
-                "end": 23,
                 "decorators": [],
                 "name": "C",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 22,
+                "end": 23
               },
               "initializer": null,
-              "computed": false
+              "computed": false,
+              "start": 22,
+              "end": 23
             }
-          ]
+          ],
+          "start": 15,
+          "end": 25
         },
         "const": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 25
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 25
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 26
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 148,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 32,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 10,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 10
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 13,
-        "end": 31,
         "expression": {
           "type": "Literal",
-          "start": 21,
-          "end": 30,
           "value": "./foo_0",
-          "raw": "\"./foo_0\""
-        }
+          "raw": "\"./foo_0\"",
+          "start": 21,
+          "end": 30
+        },
+        "start": 13,
+        "end": 31
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 32
     },
     {
       "type": "IfStatement",
-      "start": 33,
-      "end": 148,
       "test": {
         "type": "BinaryExpression",
-        "start": 36,
-        "end": 50,
         "left": {
           "type": "MemberExpression",
-          "start": 36,
-          "end": 44,
           "object": {
             "type": "MemberExpression",
-            "start": 36,
-            "end": 42,
             "object": {
               "type": "Identifier",
-              "start": 36,
-              "end": 39,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 39
             },
             "property": {
               "type": "Identifier",
-              "start": 40,
-              "end": 42,
               "decorators": [],
               "name": "E1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 40,
+              "end": 42
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 36,
+            "end": 42
           },
           "property": {
             "type": "Identifier",
-            "start": 43,
-            "end": 44,
             "decorators": [],
             "name": "A",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 44
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 36,
+          "end": 44
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 49,
-          "end": 50,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 49,
+          "end": 50
+        },
+        "start": 36,
+        "end": 50
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 51,
-        "end": 148,
-        "body": []
+        "end": 148
       },
-      "alternate": null
+      "alternate": null,
+      "start": 33,
+      "end": 148
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 148
 }
 ```

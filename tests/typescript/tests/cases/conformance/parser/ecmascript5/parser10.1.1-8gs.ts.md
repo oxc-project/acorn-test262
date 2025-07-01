@@ -2,82 +2,82 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 586,
-  "end": 650,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 586,
-      "end": 599,
       "expression": {
         "type": "Literal",
-        "start": 586,
-        "end": 598,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 586,
+        "end": 598
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 586,
+      "end": 599
     },
     {
       "type": "ExpressionStatement",
-      "start": 600,
-      "end": 613,
       "expression": {
         "type": "Literal",
-        "start": 600,
-        "end": 612,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 600,
+        "end": 612
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 600,
+      "end": 613
     },
     {
       "type": "ThrowStatement",
-      "start": 614,
-      "end": 634,
       "argument": {
         "type": "Identifier",
-        "start": 620,
-        "end": 633,
         "decorators": [],
         "name": "NotEarlyError",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 620,
+        "end": 633
+      },
+      "start": 614,
+      "end": 634
     },
     {
       "type": "VariableDeclaration",
-      "start": 635,
-      "end": 650,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 639,
-          "end": 649,
           "id": {
             "type": "Identifier",
-            "start": 639,
-            "end": 645,
             "decorators": [],
             "name": "public",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 639,
+            "end": 645
           },
           "init": {
             "type": "Literal",
-            "start": 648,
-            "end": 649,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 648,
+            "end": 649
           },
-          "definite": false
+          "definite": false,
+          "start": 639,
+          "end": 649
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 635,
+      "end": 650
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 586,
+  "end": 650
 }
 ```

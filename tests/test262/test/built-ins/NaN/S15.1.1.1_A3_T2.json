@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 373,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 237,
-      "end": 326,
       "expression": {
         "type": "CallExpression",
-        "start": 237,
-        "end": 325,
         "callee": {
           "type": "MemberExpression",
-          "start": 237,
-          "end": 253,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 237,
-            "end": 243,
-            "name": "assert"
+            "end": 243
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 244,
-            "end": 253,
-            "name": "sameValue"
+            "end": 253
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 237,
+          "end": 253
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 254,
-            "end": 264,
             "operator": "delete",
             "argument": {
               "type": "Identifier",
+              "name": "NaN",
               "start": 261,
-              "end": 264,
-              "name": "NaN"
+              "end": 264
             },
-            "prefix": true
+            "prefix": true,
+            "start": 254,
+            "end": 264
           },
           {
             "type": "Literal",
-            "start": 266,
-            "end": 271,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 266,
+            "end": 271
           },
           {
             "type": "Literal",
-            "start": 273,
-            "end": 324,
             "value": "The value of `delete NaN` is expected to be false",
-            "raw": "'The value of `delete NaN` is expected to be false'"
+            "raw": "'The value of `delete NaN` is expected to be false'",
+            "start": 273,
+            "end": 324
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 237,
+        "end": 325
+      },
+      "start": 237,
+      "end": 326
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 373
 }

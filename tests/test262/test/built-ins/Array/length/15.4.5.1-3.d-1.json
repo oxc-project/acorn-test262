@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 446,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 321,
-      "end": 445,
       "expression": {
         "type": "CallExpression",
-        "start": 321,
-        "end": 444,
         "callee": {
           "type": "MemberExpression",
-          "start": 321,
-          "end": 334,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 321,
-            "end": 327,
-            "name": "assert"
+            "end": 327
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 328,
-            "end": 334,
-            "name": "throws"
+            "end": 334
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 321,
+          "end": 334
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 335,
-            "end": 345,
-            "name": "RangeError"
+            "end": 345
           },
           {
             "type": "FunctionExpression",
-            "start": 347,
-            "end": 387,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 358,
-              "end": 387,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 362,
-                  "end": 385,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 362,
-                    "end": 384,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 362,
-                      "end": 371,
                       "object": {
                         "type": "ArrayExpression",
+                        "elements": [],
                         "start": 362,
-                        "end": 364,
-                        "elements": []
+                        "end": 364
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "length",
                         "start": 365,
-                        "end": 371,
-                        "name": "length"
+                        "end": 371
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 362,
+                      "end": 371
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 374,
-                      "end": 384,
                       "value": 4294967296,
-                      "raw": "4294967296"
-                    }
-                  }
+                      "raw": "4294967296",
+                      "start": 374,
+                      "end": 384
+                    },
+                    "start": 362,
+                    "end": 384
+                  },
+                  "start": 362,
+                  "end": 385
                 }
-              ]
+              ],
+              "start": 358,
+              "end": 387
             },
-            "expression": false
+            "expression": false,
+            "start": 347,
+            "end": 387
           },
           {
             "type": "Literal",
-            "start": 389,
-            "end": 443,
             "value": "[].length = 4294967296 throws a RangeError exception",
-            "raw": "'[].length = 4294967296 throws a RangeError exception'"
+            "raw": "'[].length = 4294967296 throws a RangeError exception'",
+            "start": 389,
+            "end": 443
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 321,
+        "end": 444
+      },
+      "start": 321,
+      "end": 445
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 446
 }

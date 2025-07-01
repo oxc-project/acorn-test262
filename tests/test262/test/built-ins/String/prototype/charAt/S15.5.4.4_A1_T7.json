@@ -1,162 +1,162 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 732,
   "body": [
     {
       "type": "IfStatement",
-      "start": 445,
-      "end": 649,
       "test": {
         "type": "BinaryExpression",
-        "start": 449,
-        "end": 489,
         "left": {
           "type": "CallExpression",
-          "start": 449,
-          "end": 481,
           "callee": {
             "type": "MemberExpression",
-            "start": 449,
-            "end": 470,
             "object": {
               "type": "CallExpression",
-              "start": 449,
-              "end": 463,
               "callee": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 449,
-                "end": 455,
-                "name": "String"
+                "end": 455
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 456,
-                  "end": 462,
                   "value": "lego",
-                  "raw": "\"lego\""
+                  "raw": "\"lego\"",
+                  "start": 456,
+                  "end": 462
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 449,
+              "end": 463
             },
             "property": {
               "type": "Identifier",
+              "name": "charAt",
               "start": 464,
-              "end": 470,
-              "name": "charAt"
+              "end": 470
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 449,
+            "end": 470
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "undefined",
               "start": 471,
-              "end": 480,
-              "name": "undefined"
+              "end": 480
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 449,
+          "end": 481
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 486,
-          "end": 489,
           "value": "l",
-          "raw": "\"l\""
-        }
+          "raw": "\"l\"",
+          "start": 486,
+          "end": 489
+        },
+        "start": 449,
+        "end": 489
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 491,
-        "end": 649,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 495,
-            "end": 647,
             "argument": {
               "type": "NewExpression",
-              "start": 501,
-              "end": 646,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 505,
-                "end": 517,
-                "name": "Test262Error"
+                "end": 517
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 518,
-                  "end": 645,
                   "left": {
                     "type": "Literal",
-                    "start": 518,
-                    "end": 610,
                     "value": "#1: String(\"lego\").charAt(undefined) === \"l\". Actual: String(\"lego\").charAt(undefined) ===",
-                    "raw": "'#1: String(\"lego\").charAt(undefined) === \"l\". Actual: String(\"lego\").charAt(undefined) ==='"
+                    "raw": "'#1: String(\"lego\").charAt(undefined) === \"l\". Actual: String(\"lego\").charAt(undefined) ==='",
+                    "start": 518,
+                    "end": 610
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 613,
-                    "end": 645,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 613,
-                      "end": 634,
                       "object": {
                         "type": "CallExpression",
-                        "start": 613,
-                        "end": 627,
                         "callee": {
                           "type": "Identifier",
+                          "name": "String",
                           "start": 613,
-                          "end": 619,
-                          "name": "String"
+                          "end": 619
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 620,
-                            "end": 626,
                             "value": "lego",
-                            "raw": "\"lego\""
+                            "raw": "\"lego\"",
+                            "start": 620,
+                            "end": 626
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 613,
+                        "end": 627
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "charAt",
                         "start": 628,
-                        "end": 634,
-                        "name": "charAt"
+                        "end": 634
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 613,
+                      "end": 634
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 635,
-                        "end": 644,
-                        "name": "undefined"
+                        "end": 644
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 613,
+                    "end": 645
+                  },
+                  "start": 518,
+                  "end": 645
                 }
-              ]
-            }
+              ],
+              "start": 501,
+              "end": 646
+            },
+            "start": 495,
+            "end": 647
           }
-        ]
+        ],
+        "start": 491,
+        "end": 649
       },
-      "alternate": null
+      "alternate": null,
+      "start": 445,
+      "end": 649
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 732
 }

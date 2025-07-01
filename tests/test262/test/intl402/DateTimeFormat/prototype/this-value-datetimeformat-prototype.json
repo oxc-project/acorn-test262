@@ -1,124 +1,124 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 664,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 473,
-      "end": 663,
       "expression": {
         "type": "CallExpression",
-        "start": 473,
-        "end": 662,
         "callee": {
           "type": "MemberExpression",
-          "start": 473,
-          "end": 486,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 473,
-            "end": 479,
-            "name": "assert"
+            "end": 479
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 480,
-            "end": 486,
-            "name": "throws"
+            "end": 486
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 473,
+          "end": 486
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 487,
-            "end": 496,
-            "name": "TypeError"
+            "end": 496
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 498,
-            "end": 543,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 504,
-              "end": 543,
               "callee": {
                 "type": "MemberExpression",
-                "start": 504,
-                "end": 540,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 504,
-                  "end": 533,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 504,
-                    "end": 523,
                     "object": {
                       "type": "Identifier",
+                      "name": "Intl",
                       "start": 504,
-                      "end": 508,
-                      "name": "Intl"
+                      "end": 508
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "DateTimeFormat",
                       "start": 509,
-                      "end": 523,
-                      "name": "DateTimeFormat"
+                      "end": 523
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 504,
+                    "end": 523
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 524,
-                    "end": 533,
-                    "name": "prototype"
+                    "end": 533
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 504,
+                  "end": 533
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "format",
                   "start": 534,
-                  "end": 540,
-                  "name": "format"
+                  "end": 540
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 504,
+                "end": 540
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 541,
-                  "end": 542,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 541,
+                  "end": 542
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 504,
+              "end": 543
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 498,
+            "end": 543
           },
           {
             "type": "Literal",
-            "start": 559,
-            "end": 661,
             "value": "Intl.DateTimeFormat's prototype is not an object that has been initialized as an Intl.DateTimeFormat",
-            "raw": "\"Intl.DateTimeFormat's prototype is not an object that has been initialized as an Intl.DateTimeFormat\""
+            "raw": "\"Intl.DateTimeFormat's prototype is not an object that has been initialized as an Intl.DateTimeFormat\"",
+            "start": 559,
+            "end": 661
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 473,
+        "end": 662
+      },
+      "start": 473,
+      "end": 663
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 664
 }

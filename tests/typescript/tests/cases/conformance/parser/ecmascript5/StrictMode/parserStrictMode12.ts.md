@@ -2,64 +2,52 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 43,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 13
     },
     {
       "type": "VariableDeclaration",
-      "start": 14,
-      "end": 43,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 18,
-          "end": 43,
           "id": {
             "type": "Identifier",
-            "start": 18,
-            "end": 19,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 18,
+            "end": 19
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 22,
-            "end": 43,
             "properties": [
               {
                 "type": "Property",
-                "start": 24,
-                "end": 41,
                 "kind": "set",
                 "key": {
                   "type": "Identifier",
-                  "start": 28,
-                  "end": 31,
                   "decorators": [],
                   "name": "foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 28,
+                  "end": 31
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 31,
-                  "end": 41,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -68,37 +56,49 @@ __ESTREE_TEST__:PASS:
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 32,
-                      "end": 36,
                       "decorators": [],
                       "name": "eval",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 32,
+                      "end": 36
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 38,
-                    "end": 41,
-                    "body": []
+                    "end": 41
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 31,
+                  "end": 41
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 24,
+                "end": 41
               }
-            ]
+            ],
+            "start": 22,
+            "end": 43
           },
-          "definite": false
+          "definite": false,
+          "start": 18,
+          "end": 43
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 14,
+      "end": 43
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 43
 }
 ```

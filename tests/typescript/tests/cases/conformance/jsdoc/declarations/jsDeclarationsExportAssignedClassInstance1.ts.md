@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 12,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,68 +21,72 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 10,
-        "end": 12,
-        "body": []
+        "end": 12
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 12
     },
     {
       "type": "ExpressionStatement",
-      "start": 14,
-      "end": 41,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 14,
-        "end": 40,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 14,
-          "end": 28,
           "object": {
             "type": "Identifier",
-            "start": 14,
-            "end": 20,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 14,
+            "end": 20
           },
           "property": {
             "type": "Identifier",
-            "start": 21,
-            "end": 28,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 21,
+            "end": 28
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 14,
+          "end": 28
         },
         "right": {
           "type": "NewExpression",
-          "start": 31,
-          "end": 40,
           "callee": {
             "type": "Identifier",
-            "start": 35,
-            "end": 38,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 35,
+            "end": 38
           },
           "typeArguments": null,
-          "arguments": []
-        }
+          "arguments": [],
+          "start": 31,
+          "end": 40
+        },
+        "start": 14,
+        "end": 40
       },
-      "directive": null
+      "directive": null,
+      "start": 14,
+      "end": 41
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 41
 }
 ```

@@ -2,90 +2,90 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 15,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 14,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 14,
             "decorators": [],
             "name": "Route",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 9,
-              "end": 14,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 11,
                 "end": 14
-              }
-            }
+              },
+              "start": 9,
+              "end": 14
+            },
+            "start": 4,
+            "end": 14
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 14
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 40,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 39,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 27,
             "decorators": [],
             "name": "routes1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 20,
+            "end": 27
           },
           "init": {
             "type": "JSXElement",
-            "start": 30,
-            "end": 39,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 30,
-              "end": 39,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "Route",
                 "start": 31,
-                "end": 36,
-                "name": "Route"
+                "end": 36
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": true
+              "selfClosing": true,
+              "start": 30,
+              "end": 39
             },
             "children": [],
-            "closingElement": null
+            "closingElement": null,
+            "start": 30,
+            "end": 39
           },
-          "definite": false
+          "definite": false,
+          "start": 20,
+          "end": 39
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 16,
+      "end": 40
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

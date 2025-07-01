@@ -2,191 +2,191 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 108,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 53,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 0,
-        "end": 53,
         "test": {
           "type": "Literal",
-          "start": 0,
-          "end": 4,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 0,
+          "end": 4
         },
         "consequent": {
           "type": "ConditionalExpression",
-          "start": 7,
-          "end": 46,
           "test": {
             "type": "Literal",
-            "start": 7,
-            "end": 12,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 7,
+            "end": 12
           },
           "consequent": {
             "type": "ArrowFunctionExpression",
-            "start": 15,
-            "end": 39,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 16,
-                "end": 21,
                 "decorators": [],
                 "name": "param",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 16,
+                "end": 21
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 22,
-              "end": 30,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 24,
                 "end": 30
-              }
+              },
+              "start": 22,
+              "end": 30
             },
             "body": {
               "type": "Identifier",
-              "start": 34,
-              "end": 39,
               "decorators": [],
               "name": "param",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 34,
+              "end": 39
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 15,
+            "end": 39
           },
           "alternate": {
             "type": "Literal",
-            "start": 42,
-            "end": 46,
             "value": null,
-            "raw": "null"
-          }
+            "raw": "null",
+            "start": 42,
+            "end": 46
+          },
+          "start": 7,
+          "end": 46
         },
         "alternate": {
           "type": "Literal",
-          "start": 49,
-          "end": 53,
           "value": null,
-          "raw": "null"
-        }
+          "raw": "null",
+          "start": 49,
+          "end": 53
+        },
+        "start": 0,
+        "end": 53
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 53
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 108
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 53,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 0,
-        "end": 53,
         "test": {
           "type": "Literal",
-          "start": 0,
-          "end": 4,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 0,
+          "end": 4
         },
         "consequent": {
           "type": "ConditionalExpression",
-          "start": 7,
-          "end": 46,
           "test": {
             "type": "Literal",
-            "start": 7,
-            "end": 12,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 7,
+            "end": 12
           },
           "consequent": {
             "type": "ArrowFunctionExpression",
-            "start": 15,
-            "end": 39,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 16,
-                "end": 21,
                 "decorators": [],
                 "name": "param",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 16,
+                "end": 21
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 22,
-              "end": 30,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 24,
                 "end": 30
-              }
+              },
+              "start": 22,
+              "end": 30
             },
             "body": {
               "type": "Identifier",
-              "start": 34,
-              "end": 39,
               "decorators": [],
               "name": "param",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 34,
+              "end": 39
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 15,
+            "end": 39
           },
           "alternate": {
             "type": "Literal",
-            "start": 42,
-            "end": 46,
             "value": null,
-            "raw": "null"
-          }
+            "raw": "null",
+            "start": 42,
+            "end": 46
+          },
+          "start": 7,
+          "end": 46
         },
         "alternate": {
           "type": "Literal",
-          "start": 49,
-          "end": 53,
           "value": null,
-          "raw": "null"
-        }
+          "raw": "null",
+          "start": 49,
+          "end": 53
+        },
+        "start": 0,
+        "end": 53
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 53
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```

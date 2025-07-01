@@ -2,152 +2,152 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 139,
-  "end": 279,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 139,
-      "end": 256,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 150,
-          "end": 164,
           "imported": {
             "type": "Literal",
-            "start": 150,
-            "end": 159,
             "value": "missing",
-            "raw": "\"missing\""
+            "raw": "\"missing\"",
+            "start": 150,
+            "end": 159
           },
           "local": {
             "type": "Identifier",
-            "start": 163,
-            "end": 164,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 163,
+            "end": 164
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 150,
+          "end": 164
         },
         {
           "type": "ImportSpecifier",
-          "start": 168,
-          "end": 184,
           "imported": {
             "type": "Literal",
-            "start": 168,
-            "end": 179,
             "value": "(missing)",
-            "raw": "\"(missing)\""
+            "raw": "\"(missing)\"",
+            "start": 168,
+            "end": 179
           },
           "local": {
             "type": "Identifier",
-            "start": 183,
-            "end": 184,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 183,
+            "end": 184
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 168,
+          "end": 184
         },
         {
           "type": "ImportSpecifier",
-          "start": 188,
-          "end": 195,
           "imported": {
             "type": "Literal",
-            "start": 188,
-            "end": 190,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "start": 188,
+            "end": 190
           },
           "local": {
             "type": "Identifier",
-            "start": 194,
-            "end": 195,
             "decorators": [],
             "name": "z",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 194,
+            "end": 195
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 188,
+          "end": 195
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 204,
-        "end": 255,
         "value": "./arbitraryModuleNamespaceIdentifiers_importEmpty",
-        "raw": "\"./arbitraryModuleNamespaceIdentifiers_importEmpty\""
+        "raw": "\"./arbitraryModuleNamespaceIdentifiers_importEmpty\"",
+        "start": 204,
+        "end": 255
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 139,
+      "end": 256
     },
     {
       "type": "VariableDeclaration",
-      "start": 257,
-      "end": 279,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 263,
-          "end": 278,
           "id": {
             "type": "Identifier",
-            "start": 263,
-            "end": 266,
             "decorators": [],
             "name": "xyz",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 263,
+            "end": 266
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 269,
-            "end": 278,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 270,
-                "end": 271,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 270,
+                "end": 271
               },
               {
                 "type": "Identifier",
-                "start": 273,
-                "end": 274,
                 "decorators": [],
                 "name": "y",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 273,
+                "end": 274
               },
               {
                 "type": "Identifier",
-                "start": 276,
-                "end": 277,
                 "decorators": [],
                 "name": "z",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 276,
+                "end": 277
               }
-            ]
+            ],
+            "start": 269,
+            "end": 278
           },
-          "definite": false
+          "definite": false,
+          "start": 263,
+          "end": 278
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 257,
+      "end": 279
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 139,
+  "end": 279
 }
 ```

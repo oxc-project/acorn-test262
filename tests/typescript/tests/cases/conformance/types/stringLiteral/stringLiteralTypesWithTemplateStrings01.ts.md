@@ -2,226 +2,226 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 120,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 23,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 22,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 14,
             "decorators": [],
             "name": "ABC",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 7,
-              "end": 14,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 9,
-                "end": 14,
                 "literal": {
                   "type": "Literal",
-                  "start": 9,
-                  "end": 14,
                   "value": "ABC",
-                  "raw": "\"ABC\""
-                }
-              }
-            }
+                  "raw": "\"ABC\"",
+                  "start": 9,
+                  "end": 14
+                },
+                "start": 9,
+                "end": 14
+              },
+              "start": 7,
+              "end": 14
+            },
+            "start": 4,
+            "end": 14
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 17,
-            "end": 22,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 17,
-                "end": 22,
                 "value": {
                   "raw": "ABC",
                   "cooked": "ABC"
                 },
-                "tail": true
+                "tail": true,
+                "start": 17,
+                "end": 22
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 17,
+            "end": 22
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 22
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 23
     },
     {
       "type": "VariableDeclaration",
-      "start": 24,
-      "end": 59,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 28,
-          "end": 58,
           "id": {
             "type": "Identifier",
-            "start": 28,
-            "end": 49,
             "decorators": [],
             "name": "DE_NEWLINE_F",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 40,
-              "end": 49,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 42,
-                "end": 49,
                 "literal": {
                   "type": "Literal",
-                  "start": 42,
-                  "end": 49,
                   "value": "DE\nF",
-                  "raw": "\"DE\\nF\""
-                }
-              }
-            }
+                  "raw": "\"DE\\nF\"",
+                  "start": 42,
+                  "end": 49
+                },
+                "start": 42,
+                "end": 49
+              },
+              "start": 40,
+              "end": 49
+            },
+            "start": 28,
+            "end": 49
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 52,
-            "end": 58,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 52,
-                "end": 58,
                 "value": {
                   "raw": "DE\nF",
                   "cooked": "DE\nF"
                 },
-                "tail": true
+                "tail": true,
+                "start": 52,
+                "end": 58
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 52,
+            "end": 58
           },
-          "definite": false
+          "definite": false,
+          "start": 28,
+          "end": 58
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 24,
+      "end": 59
     },
     {
       "type": "VariableDeclaration",
-      "start": 60,
-      "end": 83,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 64,
-          "end": 82,
           "id": {
             "type": "Identifier",
-            "start": 64,
-            "end": 82,
             "decorators": [],
             "name": "G_QUOTE_HI",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 74,
-              "end": 82,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 76,
-                "end": 82,
                 "literal": {
                   "type": "Literal",
-                  "start": 76,
-                  "end": 82,
                   "value": "G\"HI",
-                  "raw": "'G\"HI'"
-                }
-              }
-            }
+                  "raw": "'G\"HI'",
+                  "start": 76,
+                  "end": 82
+                },
+                "start": 76,
+                "end": 82
+              },
+              "start": 74,
+              "end": 82
+            },
+            "start": 64,
+            "end": 82
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 64,
+          "end": 82
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 60,
+      "end": 83
     },
     {
       "type": "VariableDeclaration",
-      "start": 84,
-      "end": 120,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 88,
-          "end": 119,
           "id": {
             "type": "Identifier",
-            "start": 88,
-            "end": 109,
             "decorators": [],
             "name": "JK_BACKTICK_L",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 101,
-              "end": 109,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 103,
-                "end": 109,
                 "literal": {
                   "type": "Literal",
-                  "start": 103,
-                  "end": 109,
                   "value": "JK`L",
-                  "raw": "\"JK`L\""
-                }
-              }
-            }
+                  "raw": "\"JK`L\"",
+                  "start": 103,
+                  "end": 109
+                },
+                "start": 103,
+                "end": 109
+              },
+              "start": 101,
+              "end": 109
+            },
+            "start": 88,
+            "end": 109
           },
           "init": {
             "type": "TemplateLiteral",
-            "start": 112,
-            "end": 119,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 112,
-                "end": 119,
                 "value": {
                   "raw": "JK\\`L",
                   "cooked": "JK`L"
                 },
-                "tail": true
+                "tail": true,
+                "start": 112,
+                "end": 119
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 112,
+            "end": 119
           },
-          "definite": false
+          "definite": false,
+          "start": 88,
+          "end": 119
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 84,
+      "end": 120
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 120
 }
 ```

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 10,
-  "end": 49,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 10,
-      "end": 21,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 16,
-        "end": 17,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 16,
+        "end": 17
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,87 +21,91 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 18,
-        "end": 21,
-        "body": []
+        "end": 21
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 10,
+      "end": 21
     },
     {
       "type": "ExpressionStatement",
-      "start": 22,
-      "end": 49,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 22,
-        "end": 48,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 22,
-          "end": 36,
           "object": {
             "type": "Identifier",
-            "start": 22,
-            "end": 28,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 28
           },
           "property": {
             "type": "Identifier",
-            "start": 29,
-            "end": 36,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 29,
+            "end": 36
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 22,
+          "end": 36
         },
         "right": {
           "type": "ObjectExpression",
-          "start": 39,
-          "end": 48,
           "properties": [
             {
               "type": "Property",
-              "start": 45,
-              "end": 46,
               "kind": "init",
               "key": {
                 "type": "Identifier",
-                "start": 45,
-                "end": 46,
                 "decorators": [],
                 "name": "C",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 45,
+                "end": 46
               },
               "value": {
                 "type": "Identifier",
-                "start": 45,
-                "end": 46,
                 "decorators": [],
                 "name": "C",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 45,
+                "end": 46
               },
               "method": false,
               "shorthand": true,
               "computed": false,
-              "optional": false
+              "optional": false,
+              "start": 45,
+              "end": 46
             }
-          ]
-        }
+          ],
+          "start": 39,
+          "end": 48
+        },
+        "start": 22,
+        "end": 48
       },
-      "directive": null
+      "directive": null,
+      "start": 22,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 10,
+  "end": 49
 }
 ```

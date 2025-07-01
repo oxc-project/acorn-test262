@@ -1,61 +1,61 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1188,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1160,
-      "end": 1187,
       "expression": {
         "type": "CallExpression",
-        "start": 1160,
-        "end": 1186,
         "callee": {
           "type": "MemberExpression",
-          "start": 1160,
-          "end": 1171,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 1160,
-            "end": 1166,
-            "name": "Object"
+            "end": 1166
           },
           "property": {
             "type": "Identifier",
+            "name": "seal",
             "start": 1167,
-            "end": 1171,
-            "name": "seal"
+            "end": 1171
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1160,
+          "end": 1171
         },
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 1172,
-            "end": 1185,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 1176,
-              "end": 1182,
-              "name": "Number"
+              "end": 1182
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1183,
-                "end": 1184,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 1183,
+                "end": 1184
               }
-            ]
+            ],
+            "start": 1172,
+            "end": 1185
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1160,
+        "end": 1186
+      },
+      "start": 1160,
+      "end": 1187
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1188
 }

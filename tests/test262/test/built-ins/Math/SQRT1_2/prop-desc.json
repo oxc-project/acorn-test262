@@ -1,105 +1,105 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 481,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 367,
-      "end": 404,
       "expression": {
         "type": "CallExpression",
-        "start": 367,
-        "end": 403,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotEnumerable",
           "start": 367,
-          "end": 386,
-          "name": "verifyNotEnumerable"
+          "end": 386
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Math",
             "start": 387,
-            "end": 391,
-            "name": "Math"
+            "end": 391
           },
           {
             "type": "Literal",
+            "value": "SQRT1_2",
+            "raw": "'SQRT1_2'",
             "start": 393,
-            "end": 402,
-            "value": "SQRT1_2",
-            "raw": "'SQRT1_2'"
+            "end": 402
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 367,
+        "end": 403
+      },
+      "start": 367,
+      "end": 404
     },
     {
       "type": "ExpressionStatement",
-      "start": 405,
-      "end": 440,
       "expression": {
         "type": "CallExpression",
-        "start": 405,
-        "end": 439,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotWritable",
           "start": 405,
-          "end": 422,
-          "name": "verifyNotWritable"
+          "end": 422
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Math",
             "start": 423,
-            "end": 427,
-            "name": "Math"
+            "end": 427
           },
           {
             "type": "Literal",
-            "start": 429,
-            "end": 438,
             "value": "SQRT1_2",
-            "raw": "'SQRT1_2'"
+            "raw": "'SQRT1_2'",
+            "start": 429,
+            "end": 438
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 405,
+        "end": 439
+      },
+      "start": 405,
+      "end": 440
     },
     {
       "type": "ExpressionStatement",
-      "start": 441,
-      "end": 480,
       "expression": {
         "type": "CallExpression",
-        "start": 441,
-        "end": 479,
         "callee": {
           "type": "Identifier",
+          "name": "verifyNotConfigurable",
           "start": 441,
-          "end": 462,
-          "name": "verifyNotConfigurable"
+          "end": 462
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Math",
             "start": 463,
-            "end": 467,
-            "name": "Math"
+            "end": 467
           },
           {
             "type": "Literal",
-            "start": 469,
-            "end": 478,
             "value": "SQRT1_2",
-            "raw": "'SQRT1_2'"
+            "raw": "'SQRT1_2'",
+            "start": 469,
+            "end": 478
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 441,
+        "end": 479
+      },
+      "start": 441,
+      "end": 480
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 481
 }

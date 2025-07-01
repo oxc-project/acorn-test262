@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 40,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 40,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 13,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 13
       },
       "generator": true,
       "async": false,
@@ -26,59 +22,63 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 16,
-        "end": 40,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 22,
-            "end": 38,
             "expression": {
               "type": "YieldExpression",
-              "start": 22,
-              "end": 37,
               "delegate": false,
               "argument": {
                 "type": "ConditionalExpression",
-                "start": 28,
-                "end": 37,
                 "test": {
                   "type": "Identifier",
-                  "start": 28,
-                  "end": 29,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 28,
+                  "end": 29
                 },
                 "consequent": {
                   "type": "Identifier",
-                  "start": 32,
-                  "end": 33,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 32,
+                  "end": 33
                 },
                 "alternate": {
                   "type": "Identifier",
-                  "start": 36,
-                  "end": 37,
                   "decorators": [],
                   "name": "c",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 36,
+                  "end": 37
+                },
+                "start": 28,
+                "end": 37
+              },
+              "start": 22,
+              "end": 37
             },
-            "directive": null
+            "directive": null,
+            "start": 22,
+            "end": 38
           }
-        ]
+        ],
+        "start": 16,
+        "end": 40
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 40
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 40
 }
 ```

@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 338,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 234,
-      "end": 337,
       "expression": {
         "type": "CallExpression",
-        "start": 234,
-        "end": 336,
         "callee": {
           "type": "MemberExpression",
-          "start": 234,
-          "end": 250,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 234,
-            "end": 240,
-            "name": "assert"
+            "end": 240
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 241,
-            "end": 250,
-            "name": "sameValue"
+            "end": 250
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 234,
+          "end": 250
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 251,
-            "end": 285,
             "operator": "typeof",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 257,
-              "end": 285,
               "expression": {
                 "type": "MemberExpression",
-                "start": 258,
-                "end": 284,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 258,
-                  "end": 264,
-                  "name": "Object"
+                  "end": 264
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getOwnPropertyNames",
                   "start": 265,
-                  "end": 284,
-                  "name": "getOwnPropertyNames"
+                  "end": 284
                 },
                 "optional": false,
-                "computed": false
-              }
+                "computed": false,
+                "start": 258,
+                "end": 284
+              },
+              "start": 257,
+              "end": 285
             },
-            "prefix": true
+            "prefix": true,
+            "start": 251,
+            "end": 285
           },
           {
             "type": "Literal",
-            "start": 287,
-            "end": 297,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 287,
+            "end": 297
           },
           {
             "type": "Literal",
-            "start": 299,
-            "end": 335,
             "value": "typeof(Object.getOwnPropertyNames)",
-            "raw": "'typeof(Object.getOwnPropertyNames)'"
+            "raw": "'typeof(Object.getOwnPropertyNames)'",
+            "start": 299,
+            "end": 335
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 234,
+        "end": 336
+      },
+      "start": 234,
+      "end": 337
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 338
 }

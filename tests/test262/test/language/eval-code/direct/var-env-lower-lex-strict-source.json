@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 392,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 337,
-      "end": 391,
       "body": [
         {
           "type": "VariableDeclaration",
-          "start": 341,
-          "end": 347,
           "kind": "let",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 345,
-              "end": 346,
               "id": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 345,
-                "end": 346,
-                "name": "x"
+                "end": 346
               },
-              "init": null
+              "init": null,
+              "start": 345,
+              "end": 346
             }
-          ]
+          ],
+          "start": 341,
+          "end": 347
         },
         {
           "type": "BlockStatement",
-          "start": 350,
-          "end": 389,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 356,
-              "end": 385,
               "expression": {
                 "type": "CallExpression",
-                "start": 356,
-                "end": 384,
                 "callee": {
                   "type": "Identifier",
+                  "name": "eval",
                   "start": 356,
-                  "end": 360,
-                  "name": "eval"
+                  "end": 360
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 361,
-                    "end": 383,
                     "value": "\"use strict\"; var x;",
-                    "raw": "'\"use strict\"; var x;'"
+                    "raw": "'\"use strict\"; var x;'",
+                    "start": 361,
+                    "end": 383
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 356,
+                "end": 384
+              },
+              "start": 356,
+              "end": 385
             }
-          ]
+          ],
+          "start": 350,
+          "end": 389
         }
-      ]
+      ],
+      "start": 337,
+      "end": 391
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 392
 }

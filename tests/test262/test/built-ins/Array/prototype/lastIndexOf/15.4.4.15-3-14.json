@@ -1,222 +1,222 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 480,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 291,
-      "end": 354,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 295,
-          "end": 353,
           "id": {
             "type": "Identifier",
+            "name": "objThree",
             "start": 295,
-            "end": 303,
-            "name": "objThree"
+            "end": 303
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 306,
-            "end": 353,
             "properties": [
               {
                 "type": "Property",
-                "start": 310,
-                "end": 317,
                 "kind": "init",
                 "key": {
                   "type": "Literal",
-                  "start": 310,
-                  "end": 311,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 310,
+                  "end": 311
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 313,
-                  "end": 317,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 313,
+                  "end": 317
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 310,
+                "end": 317
               },
               {
                 "type": "Property",
-                "start": 321,
-                "end": 328,
                 "kind": "init",
                 "key": {
                   "type": "Literal",
-                  "start": 321,
-                  "end": 322,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 321,
+                  "end": 322
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 324,
-                  "end": 328,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 324,
+                  "end": 328
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 321,
+                "end": 328
               },
               {
                 "type": "Property",
-                "start": 332,
-                "end": 351,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "length",
                   "start": 332,
-                  "end": 338,
-                  "name": "length"
+                  "end": 338
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 340,
-                  "end": 351,
                   "value": "-Infinity",
-                  "raw": "\"-Infinity\""
+                  "raw": "\"-Infinity\"",
+                  "start": 340,
+                  "end": 351
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 332,
+                "end": 351
               }
-            ]
-          }
+            ],
+            "start": 306,
+            "end": 353
+          },
+          "start": 295,
+          "end": 353
         }
-      ]
+      ],
+      "start": 291,
+      "end": 354
     },
     {
       "type": "ExpressionStatement",
-      "start": 356,
-      "end": 479,
       "expression": {
         "type": "CallExpression",
-        "start": 356,
-        "end": 478,
         "callee": {
           "type": "MemberExpression",
-          "start": 356,
-          "end": 372,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 356,
-            "end": 362,
-            "name": "assert"
+            "end": 362
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 363,
-            "end": 372,
-            "name": "sameValue"
+            "end": 372
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 356,
+          "end": 372
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 373,
-            "end": 421,
             "callee": {
               "type": "MemberExpression",
-              "start": 373,
-              "end": 405,
               "object": {
                 "type": "MemberExpression",
-                "start": 373,
-                "end": 400,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 373,
-                  "end": 388,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 373,
-                    "end": 378,
-                    "name": "Array"
+                    "end": 378
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 379,
-                    "end": 388,
-                    "name": "prototype"
+                    "end": 388
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 373,
+                  "end": 388
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "lastIndexOf",
                   "start": 389,
-                  "end": 400,
-                  "name": "lastIndexOf"
+                  "end": 400
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 373,
+                "end": 400
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 401,
-                "end": 405,
-                "name": "call"
+                "end": 405
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 373,
+              "end": 405
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "objThree",
                 "start": 406,
-                "end": 414,
-                "name": "objThree"
+                "end": 414
               },
               {
                 "type": "Literal",
-                "start": 416,
-                "end": 420,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 416,
+                "end": 420
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 373,
+            "end": 421
           },
           {
             "type": "UnaryExpression",
-            "start": 423,
-            "end": 425,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 424,
-              "end": 425,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 424,
+              "end": 425
             },
-            "prefix": true
+            "prefix": true,
+            "start": 423,
+            "end": 425
           },
           {
             "type": "Literal",
-            "start": 427,
-            "end": 477,
             "value": "Array.prototype.lastIndexOf.call(objThree, true)",
-            "raw": "'Array.prototype.lastIndexOf.call(objThree, true)'"
+            "raw": "'Array.prototype.lastIndexOf.call(objThree, true)'",
+            "start": 427,
+            "end": 477
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 356,
+        "end": 478
+      },
+      "start": 356,
+      "end": 479
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 480
 }

@@ -1,183 +1,183 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 356,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 243,
-      "end": 297,
       "expression": {
         "type": "CallExpression",
-        "start": 243,
-        "end": 296,
         "callee": {
           "type": "MemberExpression",
-          "start": 243,
-          "end": 259,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 243,
-            "end": 249,
-            "name": "assert"
+            "end": 249
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 250,
-            "end": 259,
-            "name": "sameValue"
+            "end": 259
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 243,
+          "end": 259
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 260,
-            "end": 274,
             "callee": {
               "type": "MemberExpression",
-              "start": 260,
-              "end": 271,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 260,
-                "end": 264,
-                "name": "Math"
+                "end": 264
               },
               "property": {
                 "type": "Identifier",
+                "name": "fround",
                 "start": 265,
-                "end": 271,
-                "name": "fround"
+                "end": 271
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 260,
+              "end": 271
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 272,
-                "end": 273,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 272,
+                "end": 273
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 260,
+            "end": 274
           },
           {
             "type": "Literal",
-            "start": 276,
-            "end": 277,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 276,
+            "end": 277
           },
           {
             "type": "Literal",
-            "start": 279,
-            "end": 295,
             "value": "Math.fround(0)",
-            "raw": "'Math.fround(0)'"
+            "raw": "'Math.fround(0)'",
+            "start": 279,
+            "end": 295
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 243,
+        "end": 296
+      },
+      "start": 243,
+      "end": 297
     },
     {
       "type": "ExpressionStatement",
-      "start": 298,
-      "end": 355,
       "expression": {
         "type": "CallExpression",
-        "start": 298,
-        "end": 354,
         "callee": {
           "type": "MemberExpression",
-          "start": 298,
-          "end": 314,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 298,
-            "end": 304,
-            "name": "assert"
+            "end": 304
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 305,
-            "end": 314,
-            "name": "sameValue"
+            "end": 314
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 298,
+          "end": 314
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 315,
-            "end": 330,
             "callee": {
               "type": "MemberExpression",
-              "start": 315,
-              "end": 326,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 315,
-                "end": 319,
-                "name": "Math"
+                "end": 319
               },
               "property": {
                 "type": "Identifier",
+                "name": "fround",
                 "start": 320,
-                "end": 326,
-                "name": "fround"
+                "end": 326
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 315,
+              "end": 326
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 327,
-                "end": 329,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 328,
-                  "end": 329,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 328,
+                  "end": 329
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 327,
+                "end": 329
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 315,
+            "end": 330
           },
           {
             "type": "UnaryExpression",
-            "start": 332,
-            "end": 334,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 333,
-              "end": 334,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 333,
+              "end": 334
             },
-            "prefix": true
+            "prefix": true,
+            "start": 332,
+            "end": 334
           },
           {
             "type": "Literal",
-            "start": 336,
-            "end": 353,
             "value": "Math.fround(-0)",
-            "raw": "'Math.fround(-0)'"
+            "raw": "'Math.fround(-0)'",
+            "start": 336,
+            "end": 353
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 298,
+        "end": 354
+      },
+      "start": 298,
+      "end": 355
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 356
 }

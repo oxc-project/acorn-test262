@@ -1,131 +1,131 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 472,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 383,
-      "end": 431,
       "expression": {
         "type": "CallExpression",
-        "start": 383,
-        "end": 430,
         "callee": {
           "type": "MemberExpression",
-          "start": 383,
-          "end": 399,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 383,
-            "end": 389,
-            "name": "assert"
+            "end": 389
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 390,
-            "end": 399,
-            "name": "sameValue"
+            "end": 399
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 383,
+          "end": 399
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 400,
-            "end": 419,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 407,
-              "end": 419,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 407,
-                "end": 411,
-                "name": "Math"
+                "end": 411
               },
               "property": {
                 "type": "Identifier",
+                "name": "SQRT1_2",
                 "start": 412,
-                "end": 419,
-                "name": "SQRT1_2"
+                "end": 419
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 407,
+              "end": 419
             },
-            "prefix": true
+            "prefix": true,
+            "start": 400,
+            "end": 419
           },
           {
             "type": "Literal",
-            "start": 421,
-            "end": 429,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "start": 421,
+            "end": 429
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 383,
+        "end": 430
+      },
+      "start": 383,
+      "end": 431
     },
     {
       "type": "ExpressionStatement",
-      "start": 432,
-      "end": 471,
       "expression": {
         "type": "CallExpression",
-        "start": 432,
-        "end": 470,
         "callee": {
           "type": "MemberExpression",
-          "start": 432,
-          "end": 451,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 432,
-            "end": 438,
-            "name": "assert"
+            "end": 438
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 439,
-            "end": 451,
-            "name": "notSameValue"
+            "end": 451
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 432,
+          "end": 451
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 452,
-            "end": 464,
             "object": {
               "type": "Identifier",
+              "name": "Math",
               "start": 452,
-              "end": 456,
-              "name": "Math"
+              "end": 456
             },
             "property": {
               "type": "Identifier",
+              "name": "SQRT1_2",
               "start": 457,
-              "end": 464,
-              "name": "SQRT1_2"
+              "end": 464
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 452,
+            "end": 464
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 466,
-            "end": 469,
-            "name": "NaN"
+            "end": 469
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 432,
+        "end": 470
+      },
+      "start": 432,
+      "end": 471
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 472
 }

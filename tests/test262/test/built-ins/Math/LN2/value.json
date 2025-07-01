@@ -1,131 +1,131 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 458,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 377,
-      "end": 421,
       "expression": {
         "type": "CallExpression",
-        "start": 377,
-        "end": 420,
         "callee": {
           "type": "MemberExpression",
-          "start": 377,
-          "end": 393,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 377,
-            "end": 383,
-            "name": "assert"
+            "end": 383
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 384,
-            "end": 393,
-            "name": "sameValue"
+            "end": 393
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 377,
+          "end": 393
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 394,
-            "end": 409,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 401,
-              "end": 409,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 401,
-                "end": 405,
-                "name": "Math"
+                "end": 405
               },
               "property": {
                 "type": "Identifier",
+                "name": "LN2",
                 "start": 406,
-                "end": 409,
-                "name": "LN2"
+                "end": 409
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 401,
+              "end": 409
             },
-            "prefix": true
+            "prefix": true,
+            "start": 394,
+            "end": 409
           },
           {
             "type": "Literal",
-            "start": 411,
-            "end": 419,
             "value": "number",
-            "raw": "'number'"
+            "raw": "'number'",
+            "start": 411,
+            "end": 419
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 377,
+        "end": 420
+      },
+      "start": 377,
+      "end": 421
     },
     {
       "type": "ExpressionStatement",
-      "start": 422,
-      "end": 457,
       "expression": {
         "type": "CallExpression",
-        "start": 422,
-        "end": 456,
         "callee": {
           "type": "MemberExpression",
-          "start": 422,
-          "end": 441,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 422,
-            "end": 428,
-            "name": "assert"
+            "end": 428
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 429,
-            "end": 441,
-            "name": "notSameValue"
+            "end": 441
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 422,
+          "end": 441
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 442,
-            "end": 450,
             "object": {
               "type": "Identifier",
+              "name": "Math",
               "start": 442,
-              "end": 446,
-              "name": "Math"
+              "end": 446
             },
             "property": {
               "type": "Identifier",
+              "name": "LN2",
               "start": 447,
-              "end": 450,
-              "name": "LN2"
+              "end": 450
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 442,
+            "end": 450
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 452,
-            "end": 455,
-            "name": "NaN"
+            "end": 455
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 422,
+        "end": 456
+      },
+      "start": 422,
+      "end": 457
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 458
 }

@@ -2,197 +2,197 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 62,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 11,
-      "end": 62,
       "id": {
         "type": "Identifier",
-        "start": 19,
-        "end": 25,
         "decorators": [],
         "name": "global",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 19,
+        "end": 25
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 26,
-        "end": 62,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 32,
-            "end": 60,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 57,
               "decorators": [],
               "name": "ImportInterface",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 57
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 58,
-              "end": 60,
-              "body": []
+              "end": 60
             },
-            "declare": false
+            "declare": false,
+            "start": 32,
+            "end": 60
           }
-        ]
+        ],
+        "start": 26,
+        "end": 62
       },
       "kind": "global",
       "declare": true,
-      "global": true
+      "global": true,
+      "start": 11,
+      "end": 62
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 62
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 63,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 11,
-      "end": 63,
       "id": {
         "type": "Identifier",
-        "start": 19,
-        "end": 25,
         "decorators": [],
         "name": "global",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 19,
+        "end": 25
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 26,
-        "end": 63,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 32,
-            "end": 61,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 58,
               "decorators": [],
               "name": "RequireInterface",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 58
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 59,
-              "end": 61,
-              "body": []
+              "end": 61
             },
-            "declare": false
+            "declare": false,
+            "start": 32,
+            "end": 61
           }
-        ]
+        ],
+        "start": 26,
+        "end": 63
       },
       "kind": "global",
       "declare": true,
-      "global": true
+      "global": true,
+      "start": 11,
+      "end": 63
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 63
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 71,
-  "end": 129,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 71,
-      "end": 129,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 78,
-        "end": 129,
         "id": {
           "type": "Identifier",
-          "start": 88,
-          "end": 102,
           "decorators": [],
           "name": "LocalInterface",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 88,
+          "end": 102
         },
         "typeParameters": null,
         "extends": [
           {
             "type": "TSInterfaceHeritage",
-            "start": 111,
-            "end": 126,
             "expression": {
               "type": "Identifier",
-              "start": 111,
-              "end": 126,
               "decorators": [],
               "name": "ImportInterface",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 111,
+              "end": 126
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 111,
+            "end": 126
           }
         ],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 127,
-          "end": 129,
-          "body": []
+          "end": 129
         },
-        "declare": false
+        "declare": false,
+        "start": 78,
+        "end": 129
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 71,
+      "end": 129
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 71,
+  "end": 129
 }
 ```

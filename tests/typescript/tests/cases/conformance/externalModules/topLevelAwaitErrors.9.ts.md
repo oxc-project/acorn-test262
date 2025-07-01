@@ -2,133 +2,133 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 46,
-  "end": 79,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 46,
-      "end": 78,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 55,
-          "end": 60,
           "imported": {
             "type": "Identifier",
-            "start": 55,
-            "end": 60,
             "decorators": [],
             "name": "await",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 55,
+            "end": 60
           },
           "local": {
             "type": "Identifier",
-            "start": 55,
-            "end": 60,
             "decorators": [],
             "name": "await",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 55,
+            "end": 60
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 55,
+          "end": 60
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 68,
-        "end": 77,
         "value": "./other",
-        "raw": "\"./other\""
+        "raw": "\"./other\"",
+        "start": 68,
+        "end": 77
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 46,
+      "end": 78
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 46,
+  "end": 79
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 54,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 26,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 14,
-          "end": 25,
           "id": {
             "type": "Identifier",
-            "start": 14,
-            "end": 25,
             "decorators": [],
             "name": "_await",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 20,
-              "end": 25,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 22,
                 "end": 25
-              }
-            }
+              },
+              "start": 20,
+              "end": 25
+            },
+            "start": 14,
+            "end": 25
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 14,
+          "end": 25
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 27,
-      "end": 54,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 36,
-          "end": 51,
           "local": {
             "type": "Identifier",
-            "start": 36,
-            "end": 42,
             "decorators": [],
             "name": "_await",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 36,
+            "end": 42
           },
           "exported": {
             "type": "Identifier",
-            "start": 46,
-            "end": 51,
             "decorators": [],
             "name": "await",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 46,
+            "end": 51
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 36,
+          "end": 51
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 27,
+      "end": 54
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 54
 }
 ```

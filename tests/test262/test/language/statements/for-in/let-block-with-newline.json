@@ -1,58 +1,58 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 494,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 460,
-      "end": 483,
       "left": {
         "type": "VariableDeclaration",
-        "start": 465,
-        "end": 470,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 469,
-            "end": 470,
             "id": {
               "type": "Identifier",
+              "name": "x",
               "start": 469,
-              "end": 470,
-              "name": "x"
+              "end": 470
             },
-            "init": null
+            "init": null,
+            "start": 469,
+            "end": 470
           }
-        ]
+        ],
+        "start": 465,
+        "end": 470
       },
       "right": {
         "type": "Literal",
-        "start": 474,
-        "end": 478,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "start": 474,
+        "end": 478
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 480,
-        "end": 483,
         "expression": {
           "type": "Identifier",
+          "name": "let",
           "start": 480,
-          "end": 483,
-          "name": "let"
-        }
-      }
+          "end": 483
+        },
+        "start": 480,
+        "end": 483
+      },
+      "start": 460,
+      "end": 483
     },
     {
       "type": "BlockStatement",
+      "body": [],
       "start": 491,
-      "end": 493,
-      "body": []
+      "end": 493
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 494
 }

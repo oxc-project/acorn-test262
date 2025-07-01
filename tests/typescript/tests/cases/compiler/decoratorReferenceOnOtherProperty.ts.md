@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 77,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 56,
-      "end": 76,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 63,
-        "end": 76,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 69,
-          "end": 73,
           "decorators": [],
           "name": "Yoha",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 69,
+          "end": 73
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,83 +23,85 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 74,
-          "end": 76,
-          "body": []
+          "end": 76
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 63,
+        "end": 76
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 56,
+      "end": 76
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 56,
+  "end": 77
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 137,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 28,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 8,
-          "end": 12,
           "imported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 12,
             "decorators": [],
             "name": "Yoha",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 12
           },
           "local": {
             "type": "Identifier",
-            "start": 8,
-            "end": 12,
             "decorators": [],
             "name": "Yoha",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 12
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 8,
+          "end": 12
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 19,
-        "end": 27,
         "value": "./yoha",
-        "raw": "'./yoha'"
+        "raw": "'./yoha'",
+        "start": 19,
+        "end": 27
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 28
     },
     {
       "type": "FunctionDeclaration",
-      "start": 30,
-      "end": 61,
       "id": {
         "type": "Identifier",
-        "start": 39,
-        "end": 42,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 39,
+        "end": 42
       },
       "generator": false,
       "async": false,
@@ -114,59 +110,59 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "RestElement",
-          "start": 43,
-          "end": 57,
           "decorators": [],
           "argument": {
             "type": "Identifier",
-            "start": 46,
-            "end": 50,
             "decorators": [],
             "name": "args",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 46,
+            "end": 50
           },
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 50,
-            "end": 57,
             "typeAnnotation": {
               "type": "TSArrayType",
-              "start": 52,
-              "end": 57,
               "elementType": {
                 "type": "TSAnyKeyword",
                 "start": 52,
                 "end": 55
-              }
-            }
+              },
+              "start": 52,
+              "end": 57
+            },
+            "start": 50,
+            "end": 57
           },
-          "value": null
+          "value": null,
+          "start": 43,
+          "end": 57
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 59,
-        "end": 61,
-        "body": []
+        "end": 61
       },
-      "expression": false
+      "expression": false,
+      "start": 30,
+      "end": 61
     },
     {
       "type": "ClassDeclaration",
-      "start": 63,
-      "end": 136,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 69,
-        "end": 72,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 69,
+        "end": 72
       },
       "typeParameters": null,
       "superClass": null,
@@ -174,27 +170,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 73,
-        "end": 136,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 77,
-            "end": 106,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 77,
-              "end": 81,
               "decorators": [],
               "name": "yoha",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 77,
+              "end": 81
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 81,
-              "end": 106,
               "id": null,
               "generator": false,
               "async": false,
@@ -203,143 +193,149 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 87,
-                  "end": 91,
                   "decorators": [
                     {
                       "type": "Decorator",
-                      "start": 82,
-                      "end": 86,
                       "expression": {
                         "type": "Identifier",
-                        "start": 83,
-                        "end": 86,
                         "decorators": [],
                         "name": "foo",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 83,
+                        "end": 86
+                      },
+                      "start": 82,
+                      "end": 86
                     }
                   ],
                   "name": "yoha",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 87,
+                  "end": 91
                 },
                 {
                   "type": "Identifier",
-                  "start": 93,
-                  "end": 102,
                   "decorators": [],
                   "name": "bar",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 96,
-                    "end": 102,
                     "typeAnnotation": {
                       "type": "TSTypeReference",
-                      "start": 98,
-                      "end": 102,
                       "typeName": {
                         "type": "Identifier",
-                        "start": 98,
-                        "end": 102,
                         "decorators": [],
                         "name": "Yoha",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 98,
+                        "end": 102
                       },
-                      "typeArguments": null
-                    }
-                  }
+                      "typeArguments": null,
+                      "start": 98,
+                      "end": 102
+                    },
+                    "start": 96,
+                    "end": 102
+                  },
+                  "start": 93,
+                  "end": 102
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 104,
-                "end": 106,
-                "body": []
+                "end": 106
               },
-              "expression": false
+              "expression": false,
+              "start": 81,
+              "end": 106
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 77,
+            "end": 106
           }
-        ]
+        ],
+        "start": 73,
+        "end": 136
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 63,
+      "end": 136
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 137
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 144,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 28,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 8,
-          "end": 12,
           "imported": {
             "type": "Identifier",
-            "start": 8,
-            "end": 12,
             "decorators": [],
             "name": "Yoha",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 12
           },
           "local": {
             "type": "Identifier",
-            "start": 8,
-            "end": 12,
             "decorators": [],
             "name": "Yoha",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 12
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 8,
+          "end": 12
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 19,
-        "end": 27,
         "value": "./yoha",
-        "raw": "'./yoha'"
+        "raw": "'./yoha'",
+        "start": 19,
+        "end": 27
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 28
     },
     {
       "type": "FunctionDeclaration",
-      "start": 30,
-      "end": 61,
       "id": {
         "type": "Identifier",
-        "start": 39,
-        "end": 42,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 39,
+        "end": 42
       },
       "generator": false,
       "async": false,
@@ -348,59 +344,59 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "RestElement",
-          "start": 43,
-          "end": 57,
           "decorators": [],
           "argument": {
             "type": "Identifier",
-            "start": 46,
-            "end": 50,
             "decorators": [],
             "name": "args",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 46,
+            "end": 50
           },
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 50,
-            "end": 57,
             "typeAnnotation": {
               "type": "TSArrayType",
-              "start": 52,
-              "end": 57,
               "elementType": {
                 "type": "TSAnyKeyword",
                 "start": 52,
                 "end": 55
-              }
-            }
+              },
+              "start": 52,
+              "end": 57
+            },
+            "start": 50,
+            "end": 57
           },
-          "value": null
+          "value": null,
+          "start": 43,
+          "end": 57
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 59,
-        "end": 61,
-        "body": []
+        "end": 61
       },
-      "expression": false
+      "expression": false,
+      "start": 30,
+      "end": 61
     },
     {
       "type": "ClassDeclaration",
-      "start": 63,
-      "end": 144,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 69,
-        "end": 72,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 69,
+        "end": 72
       },
       "typeParameters": null,
       "superClass": null,
@@ -408,27 +404,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 73,
-        "end": 144,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 77,
-            "end": 111,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 77,
-              "end": 81,
               "decorators": [],
               "name": "yoha",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 77,
+              "end": 81
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 81,
-              "end": 111,
               "id": null,
               "generator": false,
               "async": false,
@@ -437,94 +427,104 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 87,
-                  "end": 91,
                   "decorators": [
                     {
                       "type": "Decorator",
-                      "start": 82,
-                      "end": 86,
                       "expression": {
                         "type": "Identifier",
-                        "start": 83,
-                        "end": 86,
                         "decorators": [],
                         "name": "foo",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 83,
+                        "end": 86
+                      },
+                      "start": 82,
+                      "end": 86
                     }
                   ],
                   "name": "yoha",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 87,
+                  "end": 91
                 },
                 {
                   "type": "RestElement",
-                  "start": 93,
-                  "end": 107,
                   "decorators": [],
                   "argument": {
                     "type": "Identifier",
-                    "start": 96,
-                    "end": 99,
                     "decorators": [],
                     "name": "bar",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 96,
+                    "end": 99
                   },
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 99,
-                    "end": 107,
                     "typeAnnotation": {
                       "type": "TSArrayType",
-                      "start": 101,
-                      "end": 107,
                       "elementType": {
                         "type": "TSTypeReference",
-                        "start": 101,
-                        "end": 105,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 101,
-                          "end": 105,
                           "decorators": [],
                           "name": "Yoha",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 101,
+                          "end": 105
                         },
-                        "typeArguments": null
-                      }
-                    }
+                        "typeArguments": null,
+                        "start": 101,
+                        "end": 105
+                      },
+                      "start": 101,
+                      "end": 107
+                    },
+                    "start": 99,
+                    "end": 107
                   },
-                  "value": null
+                  "value": null,
+                  "start": 93,
+                  "end": 107
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 109,
-                "end": 111,
-                "body": []
+                "end": 111
               },
-              "expression": false
+              "expression": false,
+              "start": 81,
+              "end": 111
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 77,
+            "end": 111
           }
-        ]
+        ],
+        "start": 73,
+        "end": 144
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 63,
+      "end": 144
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 144
 }
 ```

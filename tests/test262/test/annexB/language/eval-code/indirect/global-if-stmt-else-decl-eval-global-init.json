@@ -1,54 +1,54 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1437,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1166,
-      "end": 1436,
       "expression": {
         "type": "CallExpression",
-        "start": 1166,
-        "end": 1435,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 1166,
-          "end": 1174,
           "expression": {
             "type": "SequenceExpression",
-            "start": 1167,
-            "end": 1173,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 1167,
-                "end": 1168,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 1167,
+                "end": 1168
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 1169,
-                "end": 1173,
-                "name": "eval"
+                "end": 1173
               }
-            ]
-          }
+            ],
+            "start": 1167,
+            "end": 1173
+          },
+          "start": 1166,
+          "end": 1174
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1178,
-            "end": 1433,
             "value": "var global = fnGlobalObject();  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");    verifyProperty(global, \"f\", {    enumerable: true,    writable: true,    configurable: true  });if (false) ; else function f() {  }",
-            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });if (false) ; else function f() {  }'"
+            "raw": "'var global = fnGlobalObject();\\\n  assert.sameValue(f, undefined, \"binding is initialized to `undefined`\");\\\n  \\\n  verifyProperty(global, \"f\", {\\\n    enumerable: true,\\\n    writable: true,\\\n    configurable: true\\\n  });if (false) ; else function f() {  }'",
+            "start": 1178,
+            "end": 1433
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1166,
+        "end": 1435
+      },
+      "start": 1166,
+      "end": 1436
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1437
 }

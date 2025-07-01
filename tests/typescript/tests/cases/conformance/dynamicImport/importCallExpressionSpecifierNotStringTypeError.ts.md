@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 381,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 41,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 29,
         "decorators": [],
         "name": "getSpecifier",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 29
       },
       "generator": false,
       "async": false,
@@ -25,384 +21,378 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 31,
-        "end": 40,
         "typeAnnotation": {
           "type": "TSBooleanKeyword",
           "start": 33,
           "end": 40
-        }
+        },
+        "start": 31,
+        "end": 40
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 41
     },
     {
       "type": "VariableDeclaration",
-      "start": 42,
-      "end": 74,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 54,
-          "end": 73,
           "id": {
             "type": "Identifier",
-            "start": 54,
-            "end": 73,
             "decorators": [],
             "name": "whatToLoad",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 64,
-              "end": 73,
               "typeAnnotation": {
                 "type": "TSBooleanKeyword",
                 "start": 66,
                 "end": 73
-              }
-            }
+              },
+              "start": 64,
+              "end": 73
+            },
+            "start": 54,
+            "end": 73
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 54,
+          "end": 73
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 42,
+      "end": 74
     },
     {
       "type": "ExpressionStatement",
-      "start": 123,
-      "end": 146,
       "expression": {
         "type": "ImportExpression",
-        "start": 123,
-        "end": 145,
         "source": {
           "type": "CallExpression",
-          "start": 130,
-          "end": 144,
           "callee": {
             "type": "Identifier",
-            "start": 130,
-            "end": 142,
             "decorators": [],
             "name": "getSpecifier",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 130,
+            "end": 142
           },
           "typeArguments": null,
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 130,
+          "end": 144
         },
         "options": null,
-        "phase": null
+        "phase": null,
+        "start": 123,
+        "end": 145
       },
-      "directive": null
+      "directive": null,
+      "start": 123,
+      "end": 146
     },
     {
       "type": "VariableDeclaration",
-      "start": 147,
-      "end": 179,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 151,
-          "end": 178,
           "id": {
             "type": "Identifier",
-            "start": 151,
-            "end": 153,
             "decorators": [],
             "name": "p1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 151,
+            "end": 153
           },
           "init": {
             "type": "ImportExpression",
-            "start": 156,
-            "end": 178,
             "source": {
               "type": "CallExpression",
-              "start": 163,
-              "end": 177,
               "callee": {
                 "type": "Identifier",
-                "start": 163,
-                "end": 175,
                 "decorators": [],
                 "name": "getSpecifier",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 163,
+                "end": 175
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 163,
+              "end": 177
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 156,
+            "end": 178
           },
-          "definite": false
+          "definite": false,
+          "start": 151,
+          "end": 178
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 147,
+      "end": 179
     },
     {
       "type": "VariableDeclaration",
-      "start": 180,
-      "end": 241,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 186,
-          "end": 241,
           "id": {
             "type": "Identifier",
-            "start": 186,
-            "end": 188,
             "decorators": [],
             "name": "p2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 186,
+            "end": 188
           },
           "init": {
             "type": "ImportExpression",
-            "start": 191,
-            "end": 241,
             "source": {
               "type": "ConditionalExpression",
-              "start": 198,
-              "end": 240,
               "test": {
                 "type": "Identifier",
-                "start": 198,
-                "end": 208,
                 "decorators": [],
                 "name": "whatToLoad",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 198,
+                "end": 208
               },
               "consequent": {
                 "type": "CallExpression",
-                "start": 211,
-                "end": 225,
                 "callee": {
                   "type": "Identifier",
-                  "start": 211,
-                  "end": 223,
                   "decorators": [],
                   "name": "getSpecifier",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 211,
+                  "end": 223
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 211,
+                "end": 225
               },
               "alternate": {
                 "type": "Literal",
-                "start": 228,
-                "end": 240,
                 "value": "defaulPath",
-                "raw": "\"defaulPath\""
-              }
+                "raw": "\"defaulPath\"",
+                "start": 228,
+                "end": 240
+              },
+              "start": 198,
+              "end": 240
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 191,
+            "end": 241
           },
-          "definite": false
+          "definite": false,
+          "start": 186,
+          "end": 241
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 180,
+      "end": 241
     },
     {
       "type": "ExpressionStatement",
-      "start": 242,
-      "end": 306,
       "expression": {
         "type": "CallExpression",
-        "start": 242,
-        "end": 305,
         "callee": {
           "type": "MemberExpression",
-          "start": 242,
-          "end": 249,
           "object": {
             "type": "Identifier",
-            "start": 242,
-            "end": 244,
             "decorators": [],
             "name": "p1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 242,
+            "end": 244
           },
           "property": {
             "type": "Identifier",
-            "start": 245,
-            "end": 249,
             "decorators": [],
             "name": "then",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 245,
+            "end": 249
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 242,
+          "end": 249
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 250,
-            "end": 304,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 250,
-                "end": 254,
                 "decorators": [],
                 "name": "zero",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 250,
+                "end": 254
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 258,
-              "end": 304,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 264,
-                  "end": 282,
                   "argument": {
                     "type": "CallExpression",
-                    "start": 271,
-                    "end": 281,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 271,
-                      "end": 279,
                       "object": {
                         "type": "Identifier",
-                        "start": 271,
-                        "end": 275,
                         "decorators": [],
                         "name": "zero",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 271,
+                        "end": 275
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 276,
-                        "end": 279,
                         "decorators": [],
                         "name": "foo",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 276,
+                        "end": 279
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 271,
+                      "end": 279
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 271,
+                    "end": 281
+                  },
+                  "start": 264,
+                  "end": 282
                 }
-              ]
+              ],
+              "start": 258,
+              "end": 304
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 250,
+            "end": 304
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 242,
+        "end": 305
       },
-      "directive": null
+      "directive": null,
+      "start": 242,
+      "end": 306
     },
     {
       "type": "VariableDeclaration",
-      "start": 308,
-      "end": 344,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 312,
-          "end": 343,
           "id": {
             "type": "Identifier",
-            "start": 312,
-            "end": 314,
             "decorators": [],
             "name": "p3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 312,
+            "end": 314
           },
           "init": {
             "type": "ImportExpression",
-            "start": 317,
-            "end": 343,
             "source": {
               "type": "ArrayExpression",
-              "start": 324,
-              "end": 342,
               "elements": [
                 {
                   "type": "Literal",
-                  "start": 325,
-                  "end": 332,
                   "value": "path1",
-                  "raw": "\"path1\""
+                  "raw": "\"path1\"",
+                  "start": 325,
+                  "end": 332
                 },
                 {
                   "type": "Literal",
-                  "start": 334,
-                  "end": 341,
                   "value": "path2",
-                  "raw": "\"path2\""
+                  "raw": "\"path2\"",
+                  "start": 334,
+                  "end": 341
                 }
-              ]
+              ],
+              "start": 324,
+              "end": 342
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 317,
+            "end": 343
           },
-          "definite": false
+          "definite": false,
+          "start": 312,
+          "end": 343
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 308,
+      "end": 344
     },
     {
       "type": "VariableDeclaration",
-      "start": 345,
-      "end": 381,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 349,
-          "end": 380,
           "id": {
             "type": "Identifier",
-            "start": 349,
-            "end": 351,
             "decorators": [],
             "name": "p4",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 349,
+            "end": 351
           },
           "init": {
             "type": "ImportExpression",
-            "start": 354,
-            "end": 380,
             "source": {
               "type": "ArrowFunctionExpression",
-              "start": 361,
-              "end": 379,
               "expression": true,
               "async": false,
               "typeParameters": null,
@@ -410,24 +400,34 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "Literal",
-                "start": 365,
-                "end": 379,
                 "value": "PathToModule",
-                "raw": "\"PathToModule\""
+                "raw": "\"PathToModule\"",
+                "start": 365,
+                "end": 379
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 361,
+              "end": 379
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 354,
+            "end": 380
           },
-          "definite": false
+          "definite": false,
+          "start": 349,
+          "end": 380
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 345,
+      "end": 381
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 381
 }
 ```

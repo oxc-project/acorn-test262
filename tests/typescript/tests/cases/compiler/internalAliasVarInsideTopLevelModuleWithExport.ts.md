@@ -2,173 +2,173 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 88,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 42,
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 7,
-        "end": 42,
         "id": {
           "type": "Identifier",
-          "start": 14,
-          "end": 15,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 14,
+          "end": 15
         },
         "body": {
           "type": "TSModuleBlock",
-          "start": 16,
-          "end": 42,
           "body": [
             {
               "type": "ExportNamedDeclaration",
-              "start": 22,
-              "end": 40,
               "declaration": {
                 "type": "VariableDeclaration",
-                "start": 29,
-                "end": 40,
                 "kind": "var",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 33,
-                    "end": 39,
                     "id": {
                       "type": "Identifier",
-                      "start": 33,
-                      "end": 34,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 33,
+                      "end": 34
                     },
                     "init": {
                       "type": "Literal",
-                      "start": 37,
-                      "end": 39,
                       "value": 10,
-                      "raw": "10"
+                      "raw": "10",
+                      "start": 37,
+                      "end": 39
                     },
-                    "definite": false
+                    "definite": false,
+                    "start": 33,
+                    "end": 39
                   }
                 ],
-                "declare": false
+                "declare": false,
+                "start": 29,
+                "end": 40
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
-              "attributes": []
+              "attributes": [],
+              "start": 22,
+              "end": 40
             }
-          ]
+          ],
+          "start": 16,
+          "end": 42
         },
         "kind": "module",
         "declare": false,
-        "global": false
+        "global": false,
+        "start": 7,
+        "end": 42
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 42
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 44,
-      "end": 66,
       "declaration": {
         "type": "TSImportEqualsDeclaration",
-        "start": 51,
-        "end": 66,
         "id": {
           "type": "Identifier",
-          "start": 58,
-          "end": 59,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 58,
+          "end": 59
         },
         "moduleReference": {
           "type": "TSQualifiedName",
-          "start": 62,
-          "end": 65,
           "left": {
             "type": "Identifier",
-            "start": 62,
-            "end": 63,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 62,
+            "end": 63
           },
           "right": {
             "type": "Identifier",
-            "start": 64,
-            "end": 65,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 64,
+            "end": 65
+          },
+          "start": 62,
+          "end": 65
         },
-        "importKind": "value"
+        "importKind": "value",
+        "start": 51,
+        "end": 66
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 44,
+      "end": 66
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 67,
-      "end": 87,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 74,
-        "end": 87,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 78,
-            "end": 86,
             "id": {
               "type": "Identifier",
-              "start": 78,
-              "end": 82,
               "decorators": [],
               "name": "bVal",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 78,
+              "end": 82
             },
             "init": {
               "type": "Identifier",
-              "start": 85,
-              "end": 86,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 85,
+              "end": 86
             },
-            "definite": false
+            "definite": false,
+            "start": 78,
+            "end": 86
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 74,
+        "end": 87
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 67,
+      "end": 87
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 88
 }
 ```

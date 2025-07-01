@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 205,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 205,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -25,89 +21,93 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 11,
-          "end": 28,
           "decorators": [],
           "name": "interface",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 20,
-            "end": 28,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
               "start": 22,
               "end": 28
-            }
-          }
+            },
+            "start": 20,
+            "end": 28
+          },
+          "start": 11,
+          "end": 28
         },
         {
           "type": "Identifier",
-          "start": 30,
-          "end": 39,
           "decorators": [],
           "name": "I",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 31,
-            "end": 39,
             "typeAnnotation": {
               "type": "TSStringKeyword",
               "start": 33,
               "end": 39
-            }
-          }
+            },
+            "start": 31,
+            "end": 39
+          },
+          "start": 30,
+          "end": 39
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 41,
-        "end": 205,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 47,
-            "end": 56,
             "expression": {
               "type": "Identifier",
-              "start": 47,
-              "end": 56,
               "decorators": [],
               "name": "interface",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 47,
+              "end": 56
             },
-            "directive": null
+            "directive": null,
+            "start": 47,
+            "end": 56
           },
           {
             "type": "ExpressionStatement",
-            "start": 108,
-            "end": 109,
             "expression": {
               "type": "Identifier",
-              "start": 108,
-              "end": 109,
               "decorators": [],
               "name": "I",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 108,
+              "end": 109
             },
-            "directive": null
+            "directive": null,
+            "start": 108,
+            "end": 109
           },
           {
             "type": "BlockStatement",
+            "body": [],
             "start": 161,
-            "end": 163,
-            "body": []
+            "end": 163
           }
-        ]
+        ],
+        "start": 41,
+        "end": 205
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 205
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 205
 }
 ```

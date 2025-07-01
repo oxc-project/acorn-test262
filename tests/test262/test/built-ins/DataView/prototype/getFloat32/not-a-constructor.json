@@ -1,253 +1,253 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 979,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 724,
-      "end": 868,
       "expression": {
         "type": "CallExpression",
-        "start": 724,
-        "end": 867,
         "callee": {
           "type": "MemberExpression",
-          "start": 724,
-          "end": 740,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 724,
-            "end": 730,
-            "name": "assert"
+            "end": 730
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 731,
-            "end": 740,
-            "name": "sameValue"
+            "end": 740
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 724,
+          "end": 740
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 744,
-            "end": 788,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 744,
-              "end": 757,
-              "name": "isConstructor"
+              "end": 757
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 758,
-                "end": 787,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 758,
-                  "end": 776,
                   "object": {
                     "type": "Identifier",
+                    "name": "DataView",
                     "start": 758,
-                    "end": 766,
-                    "name": "DataView"
+                    "end": 766
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 767,
-                    "end": 776,
-                    "name": "prototype"
+                    "end": 776
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 758,
+                  "end": 776
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getFloat32",
                   "start": 777,
-                  "end": 787,
-                  "name": "getFloat32"
+                  "end": 787
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 758,
+                "end": 787
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 744,
+            "end": 788
           },
           {
             "type": "Literal",
-            "start": 792,
-            "end": 797,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 792,
+            "end": 797
           },
           {
             "type": "Literal",
-            "start": 801,
-            "end": 865,
             "value": "isConstructor(DataView.prototype.getFloat32) must return false",
-            "raw": "'isConstructor(DataView.prototype.getFloat32) must return false'"
+            "raw": "'isConstructor(DataView.prototype.getFloat32) must return false'",
+            "start": 801,
+            "end": 865
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 724,
+        "end": 867
+      },
+      "start": 724,
+      "end": 868
     },
     {
       "type": "ExpressionStatement",
-      "start": 870,
-      "end": 977,
       "expression": {
         "type": "CallExpression",
-        "start": 870,
-        "end": 976,
         "callee": {
           "type": "MemberExpression",
-          "start": 870,
-          "end": 883,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 870,
-            "end": 876,
-            "name": "assert"
+            "end": 876
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 877,
-            "end": 883,
-            "name": "throws"
+            "end": 883
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 870,
+          "end": 883
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 884,
-            "end": 893,
-            "name": "TypeError"
+            "end": 893
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 895,
-            "end": 975,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 901,
-              "end": 975,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 905,
-                  "end": 948,
                   "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 909,
-                      "end": 947,
                       "id": {
                         "type": "Identifier",
+                        "name": "dv",
                         "start": 909,
-                        "end": 911,
-                        "name": "dv"
+                        "end": 911
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 914,
-                        "end": 947,
                         "callee": {
                           "type": "Identifier",
+                          "name": "DataView",
                           "start": 918,
-                          "end": 926,
-                          "name": "DataView"
+                          "end": 926
                         },
                         "arguments": [
                           {
                             "type": "NewExpression",
-                            "start": 927,
-                            "end": 946,
                             "callee": {
                               "type": "Identifier",
+                              "name": "ArrayBuffer",
                               "start": 931,
-                              "end": 942,
-                              "name": "ArrayBuffer"
+                              "end": 942
                             },
                             "arguments": [
                               {
                                 "type": "Literal",
-                                "start": 943,
-                                "end": 945,
                                 "value": 16,
-                                "raw": "16"
+                                "raw": "16",
+                                "start": 943,
+                                "end": 945
                               }
-                            ]
+                            ],
+                            "start": 927,
+                            "end": 946
                           }
-                        ]
-                      }
+                        ],
+                        "start": 914,
+                        "end": 947
+                      },
+                      "start": 909,
+                      "end": 947
                     }
-                  ]
+                  ],
+                  "start": 905,
+                  "end": 948
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 949,
-                  "end": 973,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 949,
-                    "end": 972,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 953,
-                      "end": 966,
                       "object": {
                         "type": "Identifier",
+                        "name": "dv",
                         "start": 953,
-                        "end": 955,
-                        "name": "dv"
+                        "end": 955
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "getFloat32",
                         "start": 956,
-                        "end": 966,
-                        "name": "getFloat32"
+                        "end": 966
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 953,
+                      "end": 966
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 967,
-                        "end": 968,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 967,
+                        "end": 968
                       },
                       {
                         "type": "Literal",
-                        "start": 970,
-                        "end": 971,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 970,
+                        "end": 971
                       }
-                    ]
-                  }
+                    ],
+                    "start": 949,
+                    "end": 972
+                  },
+                  "start": 949,
+                  "end": 973
                 }
-              ]
+              ],
+              "start": 901,
+              "end": 975
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 895,
+            "end": 975
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 870,
+        "end": 976
+      },
+      "start": 870,
+      "end": 977
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 979
 }

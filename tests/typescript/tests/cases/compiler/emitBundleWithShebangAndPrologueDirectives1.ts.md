@@ -2,35 +2,31 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 72,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 31,
       "expression": {
         "type": "Literal",
-        "start": 19,
-        "end": 31,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 19,
+        "end": 31
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 19,
+      "end": 31
     },
     {
       "type": "ClassDeclaration",
-      "start": 32,
-      "end": 44,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 38,
-        "end": 41,
         "decorators": [],
         "name": "Doo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 38,
+        "end": 41
       },
       "typeParameters": null,
       "superClass": null,
@@ -38,50 +34,54 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 42,
-        "end": 44,
-        "body": []
+        "end": 44
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 32,
+      "end": 44
     },
     {
       "type": "ClassDeclaration",
-      "start": 45,
-      "end": 72,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 51,
-        "end": 57,
         "decorators": [],
         "name": "Scooby",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 51,
+        "end": 57
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 66,
-        "end": 69,
         "decorators": [],
         "name": "Doo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 66,
+        "end": 69
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 70,
-        "end": 72,
-        "body": []
+        "end": 72
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 45,
+      "end": 72
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 19,
+  "end": 72
 }
 ```

@@ -1,238 +1,238 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 504,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 286,
-      "end": 321,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "SubPromise",
         "start": 292,
-        "end": 302,
-        "name": "SubPromise"
+        "end": 302
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Promise",
         "start": 311,
-        "end": 318,
-        "name": "Promise"
+        "end": 318
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 319,
-        "end": 321,
-        "body": []
-      }
+        "end": 321
+      },
+      "start": 286,
+      "end": 321
     },
     {
       "type": "VariableDeclaration",
-      "start": 323,
-      "end": 377,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 327,
-          "end": 376,
           "id": {
             "type": "Identifier",
+            "name": "instance",
             "start": 327,
-            "end": 335,
-            "name": "instance"
+            "end": 335
           },
           "init": {
             "type": "CallExpression",
-            "start": 338,
-            "end": 376,
             "callee": {
               "type": "MemberExpression",
-              "start": 338,
-              "end": 364,
               "object": {
                 "type": "MemberExpression",
-                "start": 338,
-                "end": 359,
                 "object": {
                   "type": "Identifier",
+                  "name": "Promise",
                   "start": 338,
-                  "end": 345,
-                  "name": "Promise"
+                  "end": 345
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "withResolvers",
                   "start": 346,
-                  "end": 359,
-                  "name": "withResolvers"
+                  "end": 359
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 338,
+                "end": 359
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 360,
-                "end": 364,
-                "name": "call"
+                "end": 364
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 338,
+              "end": 364
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "SubPromise",
                 "start": 365,
-                "end": 375,
-                "name": "SubPromise"
+                "end": 375
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 338,
+            "end": 376
+          },
+          "start": 327,
+          "end": 376
         }
-      ]
+      ],
+      "start": 323,
+      "end": 377
     },
     {
       "type": "ExpressionStatement",
-      "start": 379,
-      "end": 438,
       "expression": {
         "type": "CallExpression",
-        "start": 379,
-        "end": 437,
         "callee": {
           "type": "MemberExpression",
-          "start": 379,
-          "end": 395,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 379,
-            "end": 385,
-            "name": "assert"
+            "end": 385
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 386,
-            "end": 395,
-            "name": "sameValue"
+            "end": 395
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 379,
+          "end": 395
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 396,
-            "end": 424,
             "object": {
               "type": "MemberExpression",
-              "start": 396,
-              "end": 412,
               "object": {
                 "type": "Identifier",
+                "name": "instance",
                 "start": 396,
-                "end": 404,
-                "name": "instance"
+                "end": 404
               },
               "property": {
                 "type": "Identifier",
+                "name": "promise",
                 "start": 405,
-                "end": 412,
-                "name": "promise"
+                "end": 412
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 396,
+              "end": 412
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 413,
-              "end": 424,
-              "name": "constructor"
+              "end": 424
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 396,
+            "end": 424
           },
           {
             "type": "Identifier",
+            "name": "SubPromise",
             "start": 426,
-            "end": 436,
-            "name": "SubPromise"
+            "end": 436
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 379,
+        "end": 437
+      },
+      "start": 379,
+      "end": 438
     },
     {
       "type": "ExpressionStatement",
-      "start": 439,
-      "end": 502,
       "expression": {
         "type": "CallExpression",
-        "start": 439,
-        "end": 501,
         "callee": {
           "type": "MemberExpression",
-          "start": 439,
-          "end": 455,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 439,
-            "end": 445,
-            "name": "assert"
+            "end": 445
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 446,
-            "end": 455,
-            "name": "sameValue"
+            "end": 455
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 439,
+          "end": 455
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 456,
-            "end": 494,
             "left": {
               "type": "MemberExpression",
-              "start": 456,
-              "end": 472,
               "object": {
                 "type": "Identifier",
+                "name": "instance",
                 "start": 456,
-                "end": 464,
-                "name": "instance"
+                "end": 464
               },
               "property": {
                 "type": "Identifier",
+                "name": "promise",
                 "start": 465,
-                "end": 472,
-                "name": "promise"
+                "end": 472
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 456,
+              "end": 472
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "SubPromise",
               "start": 484,
-              "end": 494,
-              "name": "SubPromise"
-            }
+              "end": 494
+            },
+            "start": 456,
+            "end": 494
           },
           {
             "type": "Literal",
-            "start": 496,
-            "end": 500,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 496,
+            "end": 500
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 439,
+        "end": 501
+      },
+      "start": 439,
+      "end": 502
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 504
 }

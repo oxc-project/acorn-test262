@@ -1,104 +1,104 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 893,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 833,
-      "end": 844,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 837,
-          "end": 843,
           "id": {
             "type": "Identifier",
+            "name": "y",
             "start": 837,
-            "end": 838,
-            "name": "y"
+            "end": 838
           },
           "init": {
             "type": "Literal",
-            "start": 841,
-            "end": 843,
             "value": 42,
-            "raw": "42"
-          }
+            "raw": "42",
+            "start": 841,
+            "end": 843
+          },
+          "start": 837,
+          "end": 843
         }
-      ]
+      ],
+      "start": 833,
+      "end": 844
     },
     {
       "type": "VariableDeclaration",
-      "start": 845,
-      "end": 866,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 849,
-          "end": 865,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 849,
-            "end": 850,
-            "name": "x"
+            "end": 850
           },
           "init": {
             "type": "Identifier",
+            "name": "y",
             "start": 864,
-            "end": 865,
-            "name": "y"
-          }
+            "end": 865
+          },
+          "start": 849,
+          "end": 865
         }
-      ]
+      ],
+      "start": 845,
+      "end": 866
     },
     {
       "type": "ExpressionStatement",
-      "start": 868,
-      "end": 891,
       "expression": {
         "type": "CallExpression",
-        "start": 868,
-        "end": 890,
         "callee": {
           "type": "MemberExpression",
-          "start": 868,
-          "end": 884,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 868,
-            "end": 874,
-            "name": "assert"
+            "end": 874
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 875,
-            "end": 884,
-            "name": "sameValue"
+            "end": 884
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 868,
+          "end": 884
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "x",
             "start": 885,
-            "end": 886,
-            "name": "x"
+            "end": 886
           },
           {
             "type": "Identifier",
+            "name": "y",
             "start": 888,
-            "end": 889,
-            "name": "y"
+            "end": 889
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 868,
+        "end": 890
+      },
+      "start": 868,
+      "end": 891
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 893
 }

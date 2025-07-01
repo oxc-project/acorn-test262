@@ -1,185 +1,185 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 958,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 811,
-      "end": 854,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 815,
-          "end": 853,
           "id": {
             "type": "Identifier",
+            "name": "reverse",
             "start": 815,
-            "end": 822,
-            "name": "reverse"
+            "end": 822
           },
           "init": {
             "type": "MemberExpression",
-            "start": 825,
-            "end": 853,
             "object": {
               "type": "MemberExpression",
-              "start": 825,
-              "end": 845,
               "object": {
                 "type": "Identifier",
+                "name": "TypedArray",
                 "start": 825,
-                "end": 835,
-                "name": "TypedArray"
+                "end": 835
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 836,
-                "end": 845,
-                "name": "prototype"
+                "end": 845
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 825,
+              "end": 845
             },
             "property": {
               "type": "Identifier",
+              "name": "reverse",
               "start": 846,
-              "end": 853,
-              "name": "reverse"
+              "end": 853
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 825,
+            "end": 853
+          },
+          "start": 815,
+          "end": 853
         }
-      ]
+      ],
+      "start": 811,
+      "end": 854
     },
     {
       "type": "ExpressionStatement",
-      "start": 856,
-      "end": 901,
       "expression": {
         "type": "CallExpression",
-        "start": 856,
-        "end": 900,
         "callee": {
           "type": "MemberExpression",
-          "start": 856,
-          "end": 872,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 856,
-            "end": 862,
-            "name": "assert"
+            "end": 862
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 863,
-            "end": 872,
-            "name": "sameValue"
+            "end": 872
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 856,
+          "end": 872
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 873,
-            "end": 887,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "reverse",
               "start": 880,
-              "end": 887,
-              "name": "reverse"
+              "end": 887
             },
-            "prefix": true
+            "prefix": true,
+            "start": 873,
+            "end": 887
           },
           {
             "type": "Literal",
-            "start": 889,
-            "end": 899,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 889,
+            "end": 899
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 856,
+        "end": 900
+      },
+      "start": 856,
+      "end": 901
     },
     {
       "type": "ExpressionStatement",
-      "start": 903,
-      "end": 957,
       "expression": {
         "type": "CallExpression",
-        "start": 903,
-        "end": 956,
         "callee": {
           "type": "MemberExpression",
-          "start": 903,
-          "end": 916,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 903,
-            "end": 909,
-            "name": "assert"
+            "end": 909
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 910,
-            "end": 916,
-            "name": "throws"
+            "end": 916
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 903,
+          "end": 916
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 917,
-            "end": 926,
-            "name": "TypeError"
+            "end": 926
           },
           {
             "type": "FunctionExpression",
-            "start": 928,
-            "end": 955,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 939,
-              "end": 955,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 943,
-                  "end": 953,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 943,
-                    "end": 952,
                     "callee": {
                       "type": "Identifier",
+                      "name": "reverse",
                       "start": 943,
-                      "end": 950,
-                      "name": "reverse"
+                      "end": 950
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 943,
+                    "end": 952
+                  },
+                  "start": 943,
+                  "end": 953
                 }
-              ]
+              ],
+              "start": 939,
+              "end": 955
             },
-            "expression": false
+            "expression": false,
+            "start": 928,
+            "end": 955
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 903,
+        "end": 956
+      },
+      "start": 903,
+      "end": 957
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 958
 }

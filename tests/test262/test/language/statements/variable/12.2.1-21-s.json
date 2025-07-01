@@ -1,60 +1,60 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 303,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 265,
-      "end": 278,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 269,
-          "end": 277,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 269,
-            "end": 270,
-            "name": "s"
+            "end": 270
           },
           "init": {
             "type": "Identifier",
+            "name": "eval",
             "start": 273,
-            "end": 277,
-            "name": "eval"
-          }
+            "end": 277
+          },
+          "start": 269,
+          "end": 277
         }
-      ]
+      ],
+      "start": 265,
+      "end": 278
     },
     {
       "type": "ExpressionStatement",
-      "start": 281,
-      "end": 302,
       "expression": {
         "type": "CallExpression",
-        "start": 281,
-        "end": 301,
         "callee": {
           "type": "Identifier",
+          "name": "s",
           "start": 281,
-          "end": 282,
-          "name": "s"
+          "end": 282
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 283,
-            "end": 300,
             "value": "arguments = 42;",
-            "raw": "'arguments = 42;'"
+            "raw": "'arguments = 42;'",
+            "start": 283,
+            "end": 300
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 281,
+        "end": 301
+      },
+      "start": 281,
+      "end": 302
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 303
 }

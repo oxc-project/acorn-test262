@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 304,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 240,
-      "end": 303,
       "expression": {
         "type": "CallExpression",
-        "start": 240,
-        "end": 302,
         "callee": {
           "type": "MemberExpression",
-          "start": 240,
-          "end": 256,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 240,
-            "end": 246,
-            "name": "assert"
+            "end": 246
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 247,
-            "end": 256,
-            "name": "sameValue"
+            "end": 256
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 240,
+          "end": 256
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 257,
-            "end": 274,
             "callee": {
               "type": "MemberExpression",
-              "start": 257,
-              "end": 269,
               "object": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 257,
-                "end": 263,
-                "name": "Number"
+                "end": 263
               },
               "property": {
                 "type": "Identifier",
+                "name": "isNaN",
                 "start": 264,
-                "end": 269,
-                "name": "isNaN"
+                "end": 269
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 257,
+              "end": 269
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 270,
-                "end": 273,
-                "name": "NaN"
+                "end": 273
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 257,
+            "end": 274
           },
           {
             "type": "Literal",
-            "start": 276,
-            "end": 280,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 276,
+            "end": 280
           },
           {
             "type": "Literal",
-            "start": 282,
-            "end": 301,
             "value": "Number.isNaN(NaN)",
-            "raw": "'Number.isNaN(NaN)'"
+            "raw": "'Number.isNaN(NaN)'",
+            "start": 282,
+            "end": 301
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 240,
+        "end": 302
+      },
+      "start": 240,
+      "end": 303
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 304
 }

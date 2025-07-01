@@ -1,181 +1,181 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 697,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 300,
-      "end": 340,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 304,
-          "end": 339,
           "id": {
             "type": "Identifier",
+            "name": "aString",
             "start": 304,
-            "end": 311,
-            "name": "aString"
+            "end": 311
           },
           "init": {
             "type": "NewExpression",
-            "start": 314,
-            "end": 339,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 318,
-              "end": 324,
-              "name": "String"
+              "end": 324
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 325,
-                "end": 338,
                 "value": "test string",
-                "raw": "\"test string\""
+                "raw": "\"test string\"",
+                "start": 325,
+                "end": 338
               }
-            ]
-          }
+            ],
+            "start": 314,
+            "end": 339
+          },
+          "start": 304,
+          "end": 339
         }
-      ]
+      ],
+      "start": 300,
+      "end": 340
     },
     {
       "type": "IfStatement",
-      "start": 431,
-      "end": 614,
       "test": {
         "type": "BinaryExpression",
-        "start": 435,
-        "end": 466,
         "left": {
           "type": "CallExpression",
-          "start": 435,
-          "end": 460,
           "callee": {
             "type": "MemberExpression",
-            "start": 435,
-            "end": 449,
             "object": {
               "type": "Identifier",
+              "name": "aString",
               "start": 435,
-              "end": 442,
-              "name": "aString"
+              "end": 442
             },
             "property": {
               "type": "Identifier",
+              "name": "search",
               "start": 443,
-              "end": 449,
-              "name": "search"
+              "end": 449
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 435,
+            "end": 449
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 450,
-              "end": 459,
               "value": null,
               "raw": "/String/i",
               "regex": {
                 "pattern": "String",
                 "flags": "i"
-              }
+              },
+              "start": 450,
+              "end": 459
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 435,
+          "end": 460
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 465,
-          "end": 466,
           "value": 5,
-          "raw": "5"
-        }
+          "raw": "5",
+          "start": 465,
+          "end": 466
+        },
+        "start": 435,
+        "end": 466
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 468,
-        "end": 614,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 472,
-            "end": 612,
             "argument": {
               "type": "NewExpression",
-              "start": 478,
-              "end": 611,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 482,
-                "end": 494,
-                "name": "Test262Error"
+                "end": 494
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 495,
-                  "end": 610,
                   "left": {
                     "type": "Literal",
-                    "start": 495,
-                    "end": 582,
                     "value": "#1: var aString = new String(\"test string\"); aString.search(/String/i)=== 5. Actual: ",
-                    "raw": "'#1: var aString = new String(\"test string\"); aString.search(/String/i)=== 5. Actual: '"
+                    "raw": "'#1: var aString = new String(\"test string\"); aString.search(/String/i)=== 5. Actual: '",
+                    "start": 495,
+                    "end": 582
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 585,
-                    "end": 610,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 585,
-                      "end": 599,
                       "object": {
                         "type": "Identifier",
+                        "name": "aString",
                         "start": 585,
-                        "end": 592,
-                        "name": "aString"
+                        "end": 592
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "search",
                         "start": 593,
-                        "end": 599,
-                        "name": "search"
+                        "end": 599
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 585,
+                      "end": 599
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 600,
-                        "end": 609,
                         "value": null,
                         "raw": "/String/i",
                         "regex": {
                           "pattern": "String",
                           "flags": "i"
-                        }
+                        },
+                        "start": 600,
+                        "end": 609
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 585,
+                    "end": 610
+                  },
+                  "start": 495,
+                  "end": 610
                 }
-              ]
-            }
+              ],
+              "start": 478,
+              "end": 611
+            },
+            "start": 472,
+            "end": 612
           }
-        ]
+        ],
+        "start": 468,
+        "end": 614
       },
-      "alternate": null
+      "alternate": null,
+      "start": 431,
+      "end": 614
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 697
 }

@@ -1,82 +1,82 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 447,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 379,
-      "end": 446,
       "expression": {
         "type": "CallExpression",
-        "start": 379,
-        "end": 445,
         "callee": {
           "type": "MemberExpression",
-          "start": 379,
-          "end": 392,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 379,
-            "end": 385,
-            "name": "assert"
+            "end": 385
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 386,
-            "end": 392,
-            "name": "throws"
+            "end": 392
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 379,
+          "end": 392
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 393,
-            "end": 402,
-            "name": "TypeError"
+            "end": 402
           },
           {
             "type": "FunctionExpression",
-            "start": 404,
-            "end": 444,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 415,
-              "end": 444,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 419,
-                  "end": 442,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 419,
-                    "end": 441,
                     "callee": {
                       "type": "Identifier",
+                      "name": "AsyncDisposableStack",
                       "start": 419,
-                      "end": 439,
-                      "name": "AsyncDisposableStack"
+                      "end": 439
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 419,
+                    "end": 441
+                  },
+                  "start": 419,
+                  "end": 442
                 }
-              ]
+              ],
+              "start": 415,
+              "end": 444
             },
-            "expression": false
+            "expression": false,
+            "start": 404,
+            "end": 444
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 379,
+        "end": 445
+      },
+      "start": 379,
+      "end": 446
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 447
 }

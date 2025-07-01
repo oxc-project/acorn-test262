@@ -2,95 +2,95 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 34,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 33,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 11,
           "object": {
             "type": "Identifier",
-            "start": 0,
-            "end": 7,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 0,
+            "end": 7
           },
           "property": {
             "type": "Identifier",
-            "start": 8,
-            "end": 11,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 11
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 11
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 12,
-            "end": 32,
             "left": {
               "type": "Literal",
-              "start": 12,
-              "end": 15,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "start": 12,
+              "end": 15
             },
             "operator": "in",
             "right": {
               "type": "ObjectExpression",
-              "start": 19,
-              "end": 32,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 21,
-                  "end": 30,
                   "kind": "init",
                   "key": {
                     "type": "Literal",
-                    "start": 21,
-                    "end": 24,
                     "value": "a",
-                    "raw": "\"a\""
+                    "raw": "\"a\"",
+                    "start": 21,
+                    "end": 24
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 26,
-                    "end": 30,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 26,
+                    "end": 30
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "start": 21,
+                  "end": 30
                 }
-              ]
-            }
+              ],
+              "start": 19,
+              "end": 32
+            },
+            "start": 12,
+            "end": 32
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 33
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 34
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 34
 }
 ```

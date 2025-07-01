@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 80,
-  "end": 227,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 80,
-      "end": 110,
       "id": {
         "type": "Identifier",
-        "start": 89,
-        "end": 90,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 89,
+        "end": 90
       },
       "generator": false,
       "async": false,
@@ -26,37 +22,37 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 93,
-        "end": 110,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 99,
-            "end": 108,
             "argument": {
               "type": "Literal",
-              "start": 106,
-              "end": 107,
               "value": 5,
-              "raw": "5"
-            }
+              "raw": "5",
+              "start": 106,
+              "end": 107
+            },
+            "start": 99,
+            "end": 108
           }
-        ]
+        ],
+        "start": 93,
+        "end": 110
       },
-      "expression": false
+      "expression": false,
+      "start": 80,
+      "end": 110
     },
     {
       "type": "FunctionDeclaration",
-      "start": 188,
-      "end": 227,
       "id": {
         "type": "Identifier",
-        "start": 197,
-        "end": 199,
         "decorators": [],
         "name": "f1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 197,
+        "end": 199
       },
       "generator": false,
       "async": false,
@@ -66,40 +62,44 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 202,
-        "end": 227,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 208,
-            "end": 225,
             "argument": {
               "type": "LogicalExpression",
-              "start": 215,
-              "end": 224,
               "left": {
                 "type": "Literal",
-                "start": 215,
-                "end": 216,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "start": 215,
+                "end": 216
               },
               "operator": "||",
               "right": {
                 "type": "Literal",
-                "start": 220,
-                "end": 224,
                 "value": true,
-                "raw": "true"
-              }
-            }
+                "raw": "true",
+                "start": 220,
+                "end": 224
+              },
+              "start": 215,
+              "end": 224
+            },
+            "start": 208,
+            "end": 225
           }
-        ]
+        ],
+        "start": 202,
+        "end": 227
       },
-      "expression": false
+      "expression": false,
+      "start": 188,
+      "end": 227
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 80,
+  "end": 227
 }
 ```

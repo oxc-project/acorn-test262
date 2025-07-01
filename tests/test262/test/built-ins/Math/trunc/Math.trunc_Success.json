@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 322,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 246,
-      "end": 321,
       "expression": {
         "type": "CallExpression",
-        "start": 246,
-        "end": 320,
         "callee": {
           "type": "MemberExpression",
-          "start": 246,
-          "end": 262,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 246,
-            "end": 252,
-            "name": "assert"
+            "end": 252
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 253,
-            "end": 262,
-            "name": "sameValue"
+            "end": 262
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 246,
+          "end": 262
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 263,
-            "end": 286,
             "callee": {
               "type": "MemberExpression",
-              "start": 263,
-              "end": 273,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 263,
-                "end": 267,
-                "name": "Math"
+                "end": 267
               },
               "property": {
                 "type": "Identifier",
+                "name": "trunc",
                 "start": 268,
-                "end": 273,
-                "name": "trunc"
+                "end": 273
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 263,
+              "end": 273
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 274,
-                "end": 285,
                 "value": 4578.584949,
-                "raw": "4578.584949"
+                "raw": "4578.584949",
+                "start": 274,
+                "end": 285
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 263,
+            "end": 286
           },
           {
             "type": "Literal",
-            "start": 288,
-            "end": 292,
             "value": 4578,
-            "raw": "4578"
+            "raw": "4578",
+            "start": 288,
+            "end": 292
           },
           {
             "type": "Literal",
-            "start": 294,
-            "end": 319,
             "value": "Math.trunc(4578.584949)",
-            "raw": "'Math.trunc(4578.584949)'"
+            "raw": "'Math.trunc(4578.584949)'",
+            "start": 294,
+            "end": 319
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 246,
+        "end": 320
+      },
+      "start": 246,
+      "end": 321
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 322
 }

@@ -1,229 +1,229 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 552,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 280,
-      "end": 333,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 286,
-          "end": 332,
           "id": {
             "type": "Identifier",
+            "name": "zdt",
             "start": 286,
-            "end": 289,
-            "name": "zdt"
+            "end": 289
           },
           "init": {
             "type": "NewExpression",
-            "start": 292,
-            "end": 332,
             "callee": {
               "type": "MemberExpression",
-              "start": 296,
-              "end": 318,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 296,
-                "end": 304,
-                "name": "Temporal"
+                "end": 304
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 305,
-                "end": 318,
-                "name": "ZonedDateTime"
+                "end": 318
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 296,
+              "end": 318
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 319,
-                "end": 321,
                 "value": null,
                 "raw": "0n",
-                "bigint": "0"
+                "bigint": "0",
+                "start": 319,
+                "end": 321
               },
               {
                 "type": "Literal",
-                "start": 323,
-                "end": 331,
                 "value": "-10:00",
-                "raw": "\"-10:00\""
+                "raw": "\"-10:00\"",
+                "start": 323,
+                "end": 331
               }
-            ]
-          }
+            ],
+            "start": 292,
+            "end": 332
+          },
+          "start": 286,
+          "end": 332
         }
-      ]
+      ],
+      "start": 280,
+      "end": 333
     },
     {
       "type": "ExpressionStatement",
-      "start": 334,
-      "end": 438,
       "expression": {
         "type": "CallExpression",
-        "start": 334,
-        "end": 437,
         "callee": {
           "type": "MemberExpression",
-          "start": 334,
-          "end": 350,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 334,
-            "end": 340,
-            "name": "assert"
+            "end": 340
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 341,
-            "end": 350,
-            "name": "sameValue"
+            "end": 350
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 334,
+          "end": 350
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 351,
-            "end": 384,
             "callee": {
               "type": "MemberExpression",
-              "start": 351,
-              "end": 376,
               "object": {
                 "type": "Identifier",
+                "name": "zdt",
                 "start": 351,
-                "end": 354,
-                "name": "zdt"
+                "end": 354
               },
               "property": {
                 "type": "Identifier",
+                "name": "getTimeZoneTransition",
                 "start": 355,
-                "end": 376,
-                "name": "getTimeZoneTransition"
+                "end": 376
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 351,
+              "end": 376
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 377,
-                "end": 383,
                 "value": "next",
-                "raw": "\"next\""
+                "raw": "\"next\"",
+                "start": 377,
+                "end": 383
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 351,
+            "end": 384
           },
           {
             "type": "Literal",
-            "start": 386,
-            "end": 390,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 386,
+            "end": 390
           },
           {
             "type": "Literal",
-            "start": 392,
-            "end": 436,
             "value": "An offset time zone has no next transition",
-            "raw": "\"An offset time zone has no next transition\""
+            "raw": "\"An offset time zone has no next transition\"",
+            "start": 392,
+            "end": 436
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 334,
+        "end": 437
+      },
+      "start": 334,
+      "end": 438
     },
     {
       "type": "ExpressionStatement",
-      "start": 439,
-      "end": 551,
       "expression": {
         "type": "CallExpression",
-        "start": 439,
-        "end": 550,
         "callee": {
           "type": "MemberExpression",
-          "start": 439,
-          "end": 455,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 439,
-            "end": 445,
-            "name": "assert"
+            "end": 445
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 446,
-            "end": 455,
-            "name": "sameValue"
+            "end": 455
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 439,
+          "end": 455
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 456,
-            "end": 493,
             "callee": {
               "type": "MemberExpression",
-              "start": 456,
-              "end": 481,
               "object": {
                 "type": "Identifier",
+                "name": "zdt",
                 "start": 456,
-                "end": 459,
-                "name": "zdt"
+                "end": 459
               },
               "property": {
                 "type": "Identifier",
+                "name": "getTimeZoneTransition",
                 "start": 460,
-                "end": 481,
-                "name": "getTimeZoneTransition"
+                "end": 481
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 456,
+              "end": 481
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 482,
-                "end": 492,
                 "value": "previous",
-                "raw": "\"previous\""
+                "raw": "\"previous\"",
+                "start": 482,
+                "end": 492
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 456,
+            "end": 493
           },
           {
             "type": "Literal",
-            "start": 495,
-            "end": 499,
             "value": null,
-            "raw": "null"
+            "raw": "null",
+            "start": 495,
+            "end": 499
           },
           {
             "type": "Literal",
-            "start": 501,
-            "end": 549,
             "value": "An offset time zone has no previous transition",
-            "raw": "\"An offset time zone has no previous transition\""
+            "raw": "\"An offset time zone has no previous transition\"",
+            "start": 501,
+            "end": 549
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 439,
+        "end": 550
+      },
+      "start": 439,
+      "end": 551
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 552
 }

@@ -1,154 +1,154 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 437,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 355,
-      "end": 384,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 359,
-          "end": 383,
           "id": {
             "type": "Identifier",
+            "name": "bbc",
             "start": 359,
-            "end": 362,
-            "name": "bbc"
+            "end": 362
           },
           "init": {
             "type": "CallExpression",
-            "start": 365,
-            "end": 383,
             "callee": {
               "type": "MemberExpression",
-              "start": 365,
-              "end": 377,
               "object": {
                 "type": "Identifier",
+                "name": "Boolean",
                 "start": 365,
-                "end": 372,
-                "name": "Boolean"
+                "end": 372
               },
               "property": {
                 "type": "Identifier",
+                "name": "bind",
                 "start": 373,
-                "end": 377,
-                "name": "bind"
+                "end": 377
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 365,
+              "end": 377
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 378,
-                "end": 382,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 378,
+                "end": 382
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 365,
+            "end": 383
+          },
+          "start": 359,
+          "end": 383
         }
-      ]
+      ],
+      "start": 355,
+      "end": 384
     },
     {
       "type": "VariableDeclaration",
-      "start": 385,
-      "end": 403,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 389,
-          "end": 402,
           "id": {
             "type": "Identifier",
+            "name": "b",
             "start": 389,
-            "end": 390,
-            "name": "b"
+            "end": 390
           },
           "init": {
             "type": "CallExpression",
-            "start": 393,
-            "end": 402,
             "callee": {
               "type": "Identifier",
+              "name": "bbc",
               "start": 393,
-              "end": 396,
-              "name": "bbc"
+              "end": 396
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 397,
-                "end": 401,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 397,
+                "end": 401
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 393,
+            "end": 402
+          },
+          "start": 389,
+          "end": 402
         }
-      ]
+      ],
+      "start": 385,
+      "end": 403
     },
     {
       "type": "ExpressionStatement",
-      "start": 405,
-      "end": 436,
       "expression": {
         "type": "CallExpression",
-        "start": 405,
-        "end": 435,
         "callee": {
           "type": "MemberExpression",
-          "start": 405,
-          "end": 421,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 405,
-            "end": 411,
-            "name": "assert"
+            "end": 411
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 412,
-            "end": 421,
-            "name": "sameValue"
+            "end": 421
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 405,
+          "end": 421
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "b",
             "start": 422,
-            "end": 423,
-            "name": "b"
+            "end": 423
           },
           {
             "type": "Literal",
-            "start": 425,
-            "end": 429,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 425,
+            "end": 429
           },
           {
             "type": "Literal",
-            "start": 431,
-            "end": 434,
             "value": "b",
-            "raw": "'b'"
+            "raw": "'b'",
+            "start": 431,
+            "end": 434
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 405,
+        "end": 435
+      },
+      "start": 405,
+      "end": 436
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 437
 }

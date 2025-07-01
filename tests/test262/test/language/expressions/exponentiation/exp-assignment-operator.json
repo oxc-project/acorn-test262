@@ -1,114 +1,114 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 925,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 832,
-      "end": 846,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 836,
-          "end": 845,
           "id": {
             "type": "Identifier",
+            "name": "base",
             "start": 836,
-            "end": 840,
-            "name": "base"
+            "end": 840
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 843,
-            "end": 845,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 844,
-              "end": 845,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "start": 844,
+              "end": 845
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 843,
+            "end": 845
+          },
+          "start": 836,
+          "end": 845
         }
-      ]
+      ],
+      "start": 832,
+      "end": 846
     },
     {
       "type": "ExpressionStatement",
-      "start": 848,
-      "end": 924,
       "expression": {
         "type": "CallExpression",
-        "start": 848,
-        "end": 923,
         "callee": {
           "type": "MemberExpression",
-          "start": 848,
-          "end": 864,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 848,
-            "end": 854,
-            "name": "assert"
+            "end": 854
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 855,
-            "end": 864,
-            "name": "sameValue"
+            "end": 864
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 848,
+          "end": 864
         },
         "arguments": [
           {
             "type": "AssignmentExpression",
-            "start": 865,
-            "end": 875,
             "operator": "**=",
             "left": {
               "type": "Identifier",
+              "name": "base",
               "start": 865,
-              "end": 869,
-              "name": "base"
+              "end": 869
             },
             "right": {
               "type": "Literal",
-              "start": 874,
-              "end": 875,
               "value": 3,
-              "raw": "3"
-            }
+              "raw": "3",
+              "start": 874,
+              "end": 875
+            },
+            "start": 865,
+            "end": 875
           },
           {
             "type": "UnaryExpression",
-            "start": 877,
-            "end": 880,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 878,
-              "end": 880,
               "value": 27,
-              "raw": "27"
+              "raw": "27",
+              "start": 878,
+              "end": 880
             },
-            "prefix": true
+            "prefix": true,
+            "start": 877,
+            "end": 880
           },
           {
             "type": "Literal",
-            "start": 882,
-            "end": 922,
             "value": "(base **= 3) === -27; where base is -3",
-            "raw": "\"(base **= 3) === -27; where base is -3\""
+            "raw": "\"(base **= 3) === -27; where base is -3\"",
+            "start": 882,
+            "end": 922
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 848,
+        "end": 923
+      },
+      "start": 848,
+      "end": 924
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 925
 }

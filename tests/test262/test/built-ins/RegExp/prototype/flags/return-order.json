@@ -1,181 +1,181 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1363,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1195,
-      "end": 1278,
       "expression": {
         "type": "CallExpression",
-        "start": 1195,
-        "end": 1277,
         "callee": {
           "type": "MemberExpression",
-          "start": 1195,
-          "end": 1211,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1195,
-            "end": 1201,
-            "name": "assert"
+            "end": 1201
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1202,
-            "end": 1211,
-            "name": "sameValue"
+            "end": 1211
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1195,
+          "end": 1211
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1212,
-            "end": 1243,
             "object": {
               "type": "NewExpression",
-              "start": 1212,
-              "end": 1237,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1216,
-                "end": 1222,
-                "name": "RegExp"
+                "end": 1222
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1223,
-                  "end": 1225,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "start": 1223,
+                  "end": 1225
                 },
                 {
                   "type": "Literal",
-                  "start": 1227,
-                  "end": 1236,
                   "value": "dgimsuy",
-                  "raw": "\"dgimsuy\""
+                  "raw": "\"dgimsuy\"",
+                  "start": 1227,
+                  "end": 1236
                 }
-              ]
+              ],
+              "start": 1212,
+              "end": 1237
             },
             "property": {
               "type": "Identifier",
+              "name": "flags",
               "start": 1238,
-              "end": 1243,
-              "name": "flags"
+              "end": 1243
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1212,
+            "end": 1243
           },
           {
             "type": "Literal",
-            "start": 1245,
-            "end": 1254,
             "value": "dgimsuy",
-            "raw": "\"dgimsuy\""
+            "raw": "\"dgimsuy\"",
+            "start": 1245,
+            "end": 1254
           },
           {
             "type": "Literal",
-            "start": 1256,
-            "end": 1276,
             "value": "dgimsuy => dgimsuy",
-            "raw": "\"dgimsuy => dgimsuy\""
+            "raw": "\"dgimsuy => dgimsuy\"",
+            "start": 1256,
+            "end": 1276
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1195,
+        "end": 1277
+      },
+      "start": 1195,
+      "end": 1278
     },
     {
       "type": "ExpressionStatement",
-      "start": 1279,
-      "end": 1362,
       "expression": {
         "type": "CallExpression",
-        "start": 1279,
-        "end": 1361,
         "callee": {
           "type": "MemberExpression",
-          "start": 1279,
-          "end": 1295,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1279,
-            "end": 1285,
-            "name": "assert"
+            "end": 1285
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1286,
-            "end": 1295,
-            "name": "sameValue"
+            "end": 1295
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1279,
+          "end": 1295
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1296,
-            "end": 1327,
             "object": {
               "type": "NewExpression",
-              "start": 1296,
-              "end": 1321,
               "callee": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1300,
-                "end": 1306,
-                "name": "RegExp"
+                "end": 1306
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1307,
-                  "end": 1309,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "start": 1307,
+                  "end": 1309
                 },
                 {
                   "type": "Literal",
-                  "start": 1311,
-                  "end": 1320,
                   "value": "yusmigd",
-                  "raw": "\"yusmigd\""
+                  "raw": "\"yusmigd\"",
+                  "start": 1311,
+                  "end": 1320
                 }
-              ]
+              ],
+              "start": 1296,
+              "end": 1321
             },
             "property": {
               "type": "Identifier",
+              "name": "flags",
               "start": 1322,
-              "end": 1327,
-              "name": "flags"
+              "end": 1327
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1296,
+            "end": 1327
           },
           {
             "type": "Literal",
-            "start": 1329,
-            "end": 1338,
             "value": "dgimsuy",
-            "raw": "\"dgimsuy\""
+            "raw": "\"dgimsuy\"",
+            "start": 1329,
+            "end": 1338
           },
           {
             "type": "Literal",
-            "start": 1340,
-            "end": 1360,
             "value": "yusmigd => dgimsuy",
-            "raw": "\"yusmigd => dgimsuy\""
+            "raw": "\"yusmigd => dgimsuy\"",
+            "start": 1340,
+            "end": 1360
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1279,
+        "end": 1361
+      },
+      "start": 1279,
+      "end": 1362
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1363
 }

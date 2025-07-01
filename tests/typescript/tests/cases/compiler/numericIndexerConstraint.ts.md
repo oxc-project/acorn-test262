@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 51,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,30 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 51,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 24,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 14,
-              "end": 15,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 14,
+              "end": 15
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 15,
-              "end": 23,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 17,
                 "end": 23
-              }
+              },
+              "start": 15,
+              "end": 23
             },
             "value": null,
             "computed": false,
@@ -58,63 +50,71 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 24
           },
           {
             "type": "TSIndexSignature",
-            "start": 29,
-            "end": 49,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 30,
-                "end": 39,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 31,
-                  "end": 39,
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
                     "start": 33,
                     "end": 39
-                  }
-                }
+                  },
+                  "start": 31,
+                  "end": 39
+                },
+                "start": 30,
+                "end": 39
               }
             ],
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 40,
-              "end": 48,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 42,
-                "end": 48,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 42,
-                  "end": 48,
                   "decorators": [],
                   "name": "RegExp",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 42,
+                  "end": 48
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 42,
+                "end": 48
+              },
+              "start": 40,
+              "end": 48
             },
             "readonly": false,
             "static": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 29,
+            "end": 49
           }
-        ]
+        ],
+        "start": 8,
+        "end": 51
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```

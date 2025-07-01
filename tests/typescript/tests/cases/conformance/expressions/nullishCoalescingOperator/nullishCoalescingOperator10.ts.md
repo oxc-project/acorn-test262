@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 41,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 18,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 18
       },
       "generator": false,
       "async": false,
@@ -25,12 +21,8 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 20,
-        "end": 40,
         "typeAnnotation": {
           "type": "TSUnionType",
-          "start": 22,
-          "end": 40,
           "types": [
             {
               "type": "TSStringKeyword",
@@ -42,68 +34,76 @@ __ESTREE_TEST__:PASS:
               "start": 31,
               "end": 40
             }
-          ]
-        }
+          ],
+          "start": 22,
+          "end": 40
+        },
+        "start": 20,
+        "end": 40
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 41
     },
     {
       "type": "VariableDeclaration",
-      "start": 43,
-      "end": 64,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 47,
-          "end": 64,
           "id": {
             "type": "Identifier",
-            "start": 47,
-            "end": 49,
             "decorators": [],
             "name": "gg",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 49
           },
           "init": {
             "type": "LogicalExpression",
-            "start": 52,
-            "end": 64,
             "left": {
               "type": "CallExpression",
-              "start": 52,
-              "end": 55,
               "callee": {
                 "type": "Identifier",
-                "start": 52,
-                "end": 53,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 52,
+                "end": 53
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 52,
+              "end": 55
             },
             "operator": "??",
             "right": {
               "type": "Literal",
-              "start": 59,
-              "end": 64,
               "value": "foo",
-              "raw": "'foo'"
-            }
+              "raw": "'foo'",
+              "start": 59,
+              "end": 64
+            },
+            "start": 52,
+            "end": 64
           },
-          "definite": false
+          "definite": false,
+          "start": 47,
+          "end": 64
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 43,
+      "end": 64
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 65
 }
 ```

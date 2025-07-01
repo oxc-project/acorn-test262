@@ -2,96 +2,92 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 146,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 126,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "m",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 16
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 17,
-        "end": 126,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 23,
-            "end": 29,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 27,
-                "end": 28,
                 "id": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 27,
+                  "end": 28
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 27,
+                "end": 28
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 23,
+            "end": 29
           },
           {
             "type": "VariableDeclaration",
-            "start": 34,
-            "end": 48,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 38,
-                "end": 47,
                 "id": {
                   "type": "Identifier",
-                  "start": 38,
-                  "end": 47,
                   "decorators": [],
                   "name": "prototype",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 38,
+                  "end": 47
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 38,
+                "end": 47
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 34,
+            "end": 48
           }
-        ]
+        ],
+        "start": 17,
+        "end": 126
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 126
     },
     {
       "type": "ClassDeclaration",
-      "start": 127,
-      "end": 146,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 141,
-        "end": 142,
         "decorators": [],
         "name": "m",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 141,
+        "end": 142
       },
       "typeParameters": null,
       "superClass": null,
@@ -99,15 +95,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 143,
-        "end": 146,
-        "body": []
+        "end": 146
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 127,
+      "end": 146
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 146
 }
 ```

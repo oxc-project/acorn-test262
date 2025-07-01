@@ -1,127 +1,127 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 517,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 400,
-      "end": 417,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 404,
-          "end": 416,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 404,
-            "end": 405,
-            "name": "s"
+            "end": 405
           },
           "init": {
             "type": "CallExpression",
-            "start": 408,
-            "end": 416,
             "callee": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 408,
-              "end": 414,
-              "name": "Symbol"
+              "end": 414
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 408,
+            "end": 416
+          },
+          "start": 404,
+          "end": 416
         }
-      ]
+      ],
+      "start": 400,
+      "end": 417
     },
     {
       "type": "ExpressionStatement",
-      "start": 419,
-      "end": 516,
       "expression": {
         "type": "CallExpression",
-        "start": 419,
-        "end": 515,
         "callee": {
           "type": "MemberExpression",
-          "start": 419,
-          "end": 432,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 419,
-            "end": 425,
-            "name": "assert"
+            "end": 425
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 426,
-            "end": 432,
-            "name": "throws"
+            "end": 432
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 419,
+          "end": 432
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 433,
-            "end": 442,
-            "name": "TypeError"
+            "end": 442
           },
           {
             "type": "FunctionExpression",
-            "start": 444,
-            "end": 480,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 455,
-              "end": 480,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 459,
-                  "end": 478,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 459,
-                    "end": 477,
                     "callee": {
                       "type": "Identifier",
+                      "name": "ArrayBuffer",
                       "start": 463,
-                      "end": 474,
-                      "name": "ArrayBuffer"
+                      "end": 474
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "s",
                         "start": 475,
-                        "end": 476,
-                        "name": "s"
+                        "end": 476
                       }
-                    ]
-                  }
+                    ],
+                    "start": 459,
+                    "end": 477
+                  },
+                  "start": 459,
+                  "end": 478
                 }
-              ]
+              ],
+              "start": 455,
+              "end": 480
             },
-            "expression": false
+            "expression": false,
+            "start": 444,
+            "end": 480
           },
           {
             "type": "Literal",
-            "start": 482,
-            "end": 514,
             "value": "`length` parameter is a Symbol",
-            "raw": "\"`length` parameter is a Symbol\""
+            "raw": "\"`length` parameter is a Symbol\"",
+            "start": 482,
+            "end": 514
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 419,
+        "end": 515
+      },
+      "start": 419,
+      "end": 516
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 517
 }

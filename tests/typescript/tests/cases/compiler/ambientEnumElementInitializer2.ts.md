@@ -2,63 +2,63 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 38,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 38,
       "id": {
         "type": "Identifier",
-        "start": 13,
-        "end": 14,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 13,
+        "end": 14
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 15,
-        "end": 38,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 18,
-            "end": 24,
             "id": {
               "type": "Identifier",
-              "start": 18,
-              "end": 19,
               "decorators": [],
               "name": "e",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 18,
+              "end": 19
             },
             "initializer": {
               "type": "UnaryExpression",
-              "start": 22,
-              "end": 24,
               "operator": "-",
               "argument": {
                 "type": "Literal",
-                "start": 23,
-                "end": 24,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 23,
+                "end": 24
               },
-              "prefix": true
+              "prefix": true,
+              "start": 22,
+              "end": 24
             },
-            "computed": false
+            "computed": false,
+            "start": 18,
+            "end": 24
           }
-        ]
+        ],
+        "start": 15,
+        "end": 38
       },
       "const": false,
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 38
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 38
 }
 ```

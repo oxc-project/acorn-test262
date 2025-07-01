@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 974,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 731,
-      "end": 973,
       "expression": {
         "type": "CallExpression",
-        "start": 731,
-        "end": 972,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 731,
-          "end": 739,
           "expression": {
             "type": "SequenceExpression",
-            "start": 732,
-            "end": 738,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 732,
-                "end": 733,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 732,
+                "end": 733
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 734,
-                "end": 738,
-                "name": "eval"
+                "end": 738
               }
-            ]
-          }
+            ],
+            "start": 732,
+            "end": 738
+          },
+          "start": 731,
+          "end": 739
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 743,
-            "end": 970,
             "left": {
               "type": "BinaryExpression",
-              "start": 743,
-              "end": 888,
               "left": {
                 "type": "BinaryExpression",
-                "start": 743,
-                "end": 860,
                 "left": {
                   "type": "Literal",
-                  "start": 743,
-                  "end": 843,
                   "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {",
-                  "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {'"
+                  "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");switch (1) {'",
+                  "start": 743,
+                  "end": 843
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 848,
-                  "end": 860,
                   "value": "  default:",
-                  "raw": "'  default:'"
-                }
+                  "raw": "'  default:'",
+                  "start": 848,
+                  "end": 860
+                },
+                "start": 743,
+                "end": 860
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 865,
-                "end": 888,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
-              }
+                "raw": "'    function f() {  }'",
+                "start": 865,
+                "end": 888
+              },
+              "start": 743,
+              "end": 888
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 893,
-              "end": 970,
               "value": "}  assert.sameValue(f, 123, \"value is not updated following evaluation\");",
-              "raw": "'}\\\n  assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
-            }
+              "raw": "'}\\\n  assert.sameValue(f, 123, \"value is not updated following evaluation\");'",
+              "start": 893,
+              "end": 970
+            },
+            "start": 743,
+            "end": 970
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 731,
+        "end": 972
+      },
+      "start": 731,
+      "end": 973
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 974
 }

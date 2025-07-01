@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 56,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 56,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,23 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 56,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 12,
-            "end": 26,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "x",
               "start": 19,
-              "end": 21,
-              "name": "x"
+              "end": 21
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 24,
-              "end": 25,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 24,
+              "end": 25
             },
             "computed": false,
             "static": true,
@@ -54,50 +46,58 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 12,
+            "end": 26
           },
           {
             "type": "StaticBlock",
-            "start": 32,
-            "end": 54,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 45,
-                "end": 50,
                 "expression": {
                   "type": "MemberExpression",
-                  "start": 45,
-                  "end": 49,
                   "object": {
                     "type": "Identifier",
-                    "start": 45,
-                    "end": 46,
                     "decorators": [],
                     "name": "C",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 45,
+                    "end": 46
                   },
                   "property": {
                     "type": "PrivateIdentifier",
+                    "name": "x",
                     "start": 47,
-                    "end": 49,
-                    "name": "x"
+                    "end": 49
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 45,
+                  "end": 49
                 },
-                "directive": null
+                "directive": null,
+                "start": 45,
+                "end": 50
               }
-            ]
+            ],
+            "start": 32,
+            "end": 54
           }
-        ]
+        ],
+        "start": 8,
+        "end": 56
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 56
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 56
 }
 ```

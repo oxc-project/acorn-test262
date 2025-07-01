@@ -1,21 +1,13 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 953,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 322,
-      "end": 333,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 322,
-        "end": 332,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 322,
-          "end": 328,
           "object": {
             "type": "ThisExpression",
             "start": 322,
@@ -23,43 +15,39 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "y",
             "start": 327,
-            "end": 328,
-            "name": "y"
+            "end": 328
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 322,
+          "end": 328
         },
         "right": {
           "type": "Literal",
-          "start": 331,
-          "end": 332,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 331,
+          "end": 332
+        },
+        "start": 322,
+        "end": 332
+      },
+      "start": 322,
+      "end": 333
     },
     {
       "type": "IfStatement",
-      "start": 423,
-      "end": 554,
       "test": {
         "type": "BinaryExpression",
-        "start": 426,
-        "end": 450,
         "left": {
           "type": "ParenthesizedExpression",
-          "start": 426,
-          "end": 441,
           "expression": {
             "type": "UnaryExpression",
-            "start": 427,
-            "end": 440,
             "operator": "delete",
             "argument": {
               "type": "MemberExpression",
-              "start": 434,
-              "end": 440,
               "object": {
                 "type": "ThisExpression",
                 "start": 434,
@@ -67,74 +55,66 @@
               },
               "property": {
                 "type": "Identifier",
+                "name": "y",
                 "start": 439,
-                "end": 440,
-                "name": "y"
+                "end": 440
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 434,
+              "end": 440
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 427,
+            "end": 440
+          },
+          "start": 426,
+          "end": 441
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 446,
-          "end": 450,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 446,
+          "end": 450
+        },
+        "start": 426,
+        "end": 450
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 451,
-        "end": 554,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 455,
-            "end": 552,
             "argument": {
               "type": "NewExpression",
-              "start": 461,
-              "end": 551,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 465,
-                "end": 477,
-                "name": "Test262Error"
+                "end": 477
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 478,
-                  "end": 550,
                   "left": {
                     "type": "Literal",
-                    "start": 478,
-                    "end": 530,
                     "value": "#1: this.y = 1; (delete this.y) === true. Actual: ",
-                    "raw": "'#1: this.y = 1; (delete this.y) === true. Actual: '"
+                    "raw": "'#1: this.y = 1; (delete this.y) === true. Actual: '",
+                    "start": 478,
+                    "end": 530
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 533,
-                    "end": 550,
                     "expression": {
                       "type": "ParenthesizedExpression",
-                      "start": 534,
-                      "end": 549,
                       "expression": {
                         "type": "UnaryExpression",
-                        "start": 535,
-                        "end": 548,
                         "operator": "delete",
                         "argument": {
                           "type": "MemberExpression",
-                          "start": 542,
-                          "end": 548,
                           "object": {
                             "type": "ThisExpression",
                             "start": 542,
@@ -142,24 +122,42 @@
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "y",
                             "start": 547,
-                            "end": 548,
-                            "name": "y"
+                            "end": 548
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 542,
+                          "end": 548
                         },
-                        "prefix": true
-                      }
-                    }
-                  }
+                        "prefix": true,
+                        "start": 535,
+                        "end": 548
+                      },
+                      "start": 534,
+                      "end": 549
+                    },
+                    "start": 533,
+                    "end": 550
+                  },
+                  "start": 478,
+                  "end": 550
                 }
-              ]
-            }
+              ],
+              "start": 461,
+              "end": 551
+            },
+            "start": 455,
+            "end": 552
           }
-        ]
+        ],
+        "start": 451,
+        "end": 554
       },
-      "alternate": null
+      "alternate": null,
+      "start": 423,
+      "end": 554
     },
     {
       "type": "EmptyStatement",
@@ -168,16 +166,10 @@
     },
     {
       "type": "IfStatement",
-      "start": 729,
-      "end": 870,
       "test": {
         "type": "BinaryExpression",
-        "start": 733,
-        "end": 753,
         "left": {
           "type": "MemberExpression",
-          "start": 733,
-          "end": 739,
           "object": {
             "type": "ThisExpression",
             "start": 733,
@@ -185,61 +177,53 @@
           },
           "property": {
             "type": "Identifier",
+            "name": "y",
             "start": 738,
-            "end": 739,
-            "name": "y"
+            "end": 739
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 733,
+          "end": 739
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 744,
-          "end": 753,
-          "name": "undefined"
-        }
+          "end": 753
+        },
+        "start": 733,
+        "end": 753
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 754,
-        "end": 870,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 758,
-            "end": 868,
             "argument": {
               "type": "NewExpression",
-              "start": 764,
-              "end": 867,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 768,
-                "end": 780,
-                "name": "Test262Error"
+                "end": 780
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 781,
-                  "end": 866,
                   "left": {
                     "type": "Literal",
-                    "start": 781,
-                    "end": 855,
                     "value": "#2: this.y = 1; (delete this.y) === true; this.y === undefined. Actual: ",
-                    "raw": "'#2: this.y = 1; (delete this.y) === true; this.y === undefined. Actual: '"
+                    "raw": "'#2: this.y = 1; (delete this.y) === true; this.y === undefined. Actual: '",
+                    "start": 781,
+                    "end": 855
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 858,
-                    "end": 866,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 859,
-                      "end": 865,
                       "object": {
                         "type": "ThisExpression",
                         "start": 859,
@@ -247,23 +231,39 @@
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "y",
                         "start": 864,
-                        "end": 865,
-                        "name": "y"
+                        "end": 865
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 859,
+                      "end": 865
+                    },
+                    "start": 858,
+                    "end": 866
+                  },
+                  "start": 781,
+                  "end": 866
                 }
-              ]
-            }
+              ],
+              "start": 764,
+              "end": 867
+            },
+            "start": 758,
+            "end": 868
           }
-        ]
+        ],
+        "start": 754,
+        "end": 870
       },
-      "alternate": null
+      "alternate": null,
+      "start": 729,
+      "end": 870
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 953
 }

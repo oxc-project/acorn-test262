@@ -1,384 +1,384 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 718,
   "body": [
     {
       "type": "IfStatement",
-      "start": 308,
-      "end": 375,
       "test": {
         "type": "BinaryExpression",
-        "start": 312,
-        "end": 332,
         "left": {
           "type": "MemberExpression",
-          "start": 312,
-          "end": 323,
           "object": {
             "type": "Literal",
-            "start": 312,
-            "end": 316,
             "value": null,
             "raw": "/1a/",
             "regex": {
               "pattern": "1a",
               "flags": ""
-            }
+            },
+            "start": 312,
+            "end": 316
           },
           "property": {
             "type": "Identifier",
+            "name": "source",
             "start": 317,
-            "end": 323,
-            "name": "source"
+            "end": 323
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 312,
+          "end": 323
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 328,
-          "end": 332,
           "value": "1a",
-          "raw": "\"1a\""
-        }
+          "raw": "\"1a\"",
+          "start": 328,
+          "end": 332
+        },
+        "start": 312,
+        "end": 332
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 334,
-        "end": 375,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 338,
-            "end": 373,
             "argument": {
               "type": "NewExpression",
-              "start": 344,
-              "end": 372,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 348,
-                "end": 360,
-                "name": "Test262Error"
+                "end": 360
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 361,
-                  "end": 371,
                   "value": "#1: /1a/",
-                  "raw": "'#1: /1a/'"
+                  "raw": "'#1: /1a/'",
+                  "start": 361,
+                  "end": 371
                 }
-              ]
-            }
+              ],
+              "start": 344,
+              "end": 372
+            },
+            "start": 338,
+            "end": 373
           }
-        ]
+        ],
+        "start": 334,
+        "end": 375
       },
-      "alternate": null
+      "alternate": null,
+      "start": 308,
+      "end": 375
     },
     {
       "type": "IfStatement",
-      "start": 390,
-      "end": 457,
       "test": {
         "type": "BinaryExpression",
-        "start": 394,
-        "end": 414,
         "left": {
           "type": "MemberExpression",
-          "start": 394,
-          "end": 405,
           "object": {
             "type": "Literal",
-            "start": 394,
-            "end": 398,
             "value": null,
             "raw": "/aa/",
             "regex": {
               "pattern": "aa",
               "flags": ""
-            }
+            },
+            "start": 394,
+            "end": 398
           },
           "property": {
             "type": "Identifier",
+            "name": "source",
             "start": 399,
-            "end": 405,
-            "name": "source"
+            "end": 405
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 394,
+          "end": 405
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 410,
-          "end": 414,
           "value": "aa",
-          "raw": "\"aa\""
-        }
+          "raw": "\"aa\"",
+          "start": 410,
+          "end": 414
+        },
+        "start": 394,
+        "end": 414
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 416,
-        "end": 457,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 420,
-            "end": 455,
             "argument": {
               "type": "NewExpression",
-              "start": 426,
-              "end": 454,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 430,
-                "end": 442,
-                "name": "Test262Error"
+                "end": 442
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 443,
-                  "end": 453,
                   "value": "#2: /aa/",
-                  "raw": "'#2: /aa/'"
+                  "raw": "'#2: /aa/'",
+                  "start": 443,
+                  "end": 453
                 }
-              ]
-            }
+              ],
+              "start": 426,
+              "end": 454
+            },
+            "start": 420,
+            "end": 455
           }
-        ]
+        ],
+        "start": 416,
+        "end": 457
       },
-      "alternate": null
+      "alternate": null,
+      "start": 390,
+      "end": 457
     },
     {
       "type": "IfStatement",
-      "start": 469,
-      "end": 536,
       "test": {
         "type": "BinaryExpression",
-        "start": 473,
-        "end": 493,
         "left": {
           "type": "MemberExpression",
-          "start": 473,
-          "end": 484,
           "object": {
             "type": "Literal",
-            "start": 473,
-            "end": 477,
             "value": null,
             "raw": "/,;/",
             "regex": {
               "pattern": ",;",
               "flags": ""
-            }
+            },
+            "start": 473,
+            "end": 477
           },
           "property": {
             "type": "Identifier",
+            "name": "source",
             "start": 478,
-            "end": 484,
-            "name": "source"
+            "end": 484
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 473,
+          "end": 484
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 489,
-          "end": 493,
           "value": ",;",
-          "raw": "\",;\""
-        }
+          "raw": "\",;\"",
+          "start": 489,
+          "end": 493
+        },
+        "start": 473,
+        "end": 493
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 495,
-        "end": 536,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 499,
-            "end": 534,
             "argument": {
               "type": "NewExpression",
-              "start": 505,
-              "end": 533,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 509,
-                "end": 521,
-                "name": "Test262Error"
+                "end": 521
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 522,
-                  "end": 532,
                   "value": "#3: /,;/",
-                  "raw": "'#3: /,;/'"
+                  "raw": "'#3: /,;/'",
+                  "start": 522,
+                  "end": 532
                 }
-              ]
-            }
+              ],
+              "start": 505,
+              "end": 533
+            },
+            "start": 499,
+            "end": 534
           }
-        ]
+        ],
+        "start": 495,
+        "end": 536
       },
-      "alternate": null
+      "alternate": null,
+      "start": 469,
+      "end": 536
     },
     {
       "type": "IfStatement",
-      "start": 548,
-      "end": 615,
       "test": {
         "type": "BinaryExpression",
-        "start": 552,
-        "end": 572,
         "left": {
           "type": "MemberExpression",
-          "start": 552,
-          "end": 563,
           "object": {
             "type": "Literal",
-            "start": 552,
-            "end": 556,
             "value": null,
             "raw": "/  /",
             "regex": {
               "pattern": "  ",
               "flags": ""
-            }
+            },
+            "start": 552,
+            "end": 556
           },
           "property": {
             "type": "Identifier",
+            "name": "source",
             "start": 557,
-            "end": 563,
-            "name": "source"
+            "end": 563
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 552,
+          "end": 563
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 568,
-          "end": 572,
           "value": "  ",
-          "raw": "\"  \""
-        }
+          "raw": "\"  \"",
+          "start": 568,
+          "end": 572
+        },
+        "start": 552,
+        "end": 572
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 574,
-        "end": 615,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 578,
-            "end": 613,
             "argument": {
               "type": "NewExpression",
-              "start": 584,
-              "end": 612,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 588,
-                "end": 600,
-                "name": "Test262Error"
+                "end": 600
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 601,
-                  "end": 611,
                   "value": "#4: /  /",
-                  "raw": "'#4: /  /'"
+                  "raw": "'#4: /  /'",
+                  "start": 601,
+                  "end": 611
                 }
-              ]
-            }
+              ],
+              "start": 584,
+              "end": 612
+            },
+            "start": 578,
+            "end": 613
           }
-        ]
+        ],
+        "start": 574,
+        "end": 615
       },
-      "alternate": null
+      "alternate": null,
+      "start": 548,
+      "end": 615
     },
     {
       "type": "IfStatement",
-      "start": 633,
-      "end": 717,
       "test": {
         "type": "BinaryExpression",
-        "start": 637,
-        "end": 668,
         "left": {
           "type": "MemberExpression",
-          "start": 637,
-          "end": 653,
           "object": {
             "type": "Literal",
-            "start": 637,
-            "end": 646,
             "value": null,
             "raw": "/a\\u0041/",
             "regex": {
               "pattern": "a\\u0041",
               "flags": ""
-            }
+            },
+            "start": 637,
+            "end": 646
           },
           "property": {
             "type": "Identifier",
+            "name": "source",
             "start": 647,
-            "end": 653,
-            "name": "source"
+            "end": 653
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 637,
+          "end": 653
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 658,
-          "end": 668,
           "value": "a\\u0041",
-          "raw": "\"a\\\\u0041\""
-        }
+          "raw": "\"a\\\\u0041\"",
+          "start": 658,
+          "end": 668
+        },
+        "start": 637,
+        "end": 668
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 670,
-        "end": 717,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 674,
-            "end": 715,
             "argument": {
               "type": "NewExpression",
-              "start": 680,
-              "end": 714,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 684,
-                "end": 696,
-                "name": "Test262Error"
+                "end": 696
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 697,
-                  "end": 713,
                   "value": "#5: /a\\u0041/",
-                  "raw": "'#5: /a\\\\u0041/'"
+                  "raw": "'#5: /a\\\\u0041/'",
+                  "start": 697,
+                  "end": 713
                 }
-              ]
-            }
+              ],
+              "start": 680,
+              "end": 714
+            },
+            "start": 674,
+            "end": 715
           }
-        ]
+        ],
+        "start": 670,
+        "end": 717
       },
-      "alternate": null
+      "alternate": null,
+      "start": 633,
+      "end": 717
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 718
 }

@@ -1,66 +1,66 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 387,
   "body": [
     {
       "type": "IfStatement",
-      "start": 298,
-      "end": 386,
       "test": {
         "type": "BinaryExpression",
-        "start": 302,
-        "end": 340,
         "left": {
           "type": "CallExpression",
-          "start": 302,
-          "end": 331,
           "callee": {
             "type": "Identifier",
+            "name": "eval",
             "start": 302,
-            "end": 306,
-            "name": "eval"
+            "end": 306
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 307,
-              "end": 330,
               "value": "\"use strict\";\nthis",
-              "raw": "\"\\\"use strict\\\";\\nthis\""
+              "raw": "\"\\\"use strict\\\";\\nthis\"",
+              "start": 307,
+              "end": 330
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 302,
+          "end": 331
         },
         "operator": "!==",
         "right": {
           "type": "ThisExpression",
           "start": 336,
           "end": 340
-        }
+        },
+        "start": 302,
+        "end": 340
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 342,
-        "end": 386,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 348,
-            "end": 384,
             "argument": {
               "type": "Literal",
-              "start": 354,
-              "end": 383,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
-            }
+              "raw": "\"'this' had incorrect value!\"",
+              "start": 354,
+              "end": 383
+            },
+            "start": 348,
+            "end": 384
           }
-        ]
+        ],
+        "start": 342,
+        "end": 386
       },
-      "alternate": null
+      "alternate": null,
+      "start": 298,
+      "end": 386
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 387
 }

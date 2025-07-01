@@ -2,41 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 18,
         "decorators": [],
         "name": "abstract",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 18
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 19,
-        "end": 44,
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 25,
-            "end": 42,
             "key": {
               "type": "Identifier",
-              "start": 25,
-              "end": 33,
               "decorators": [],
               "name": "abstract",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 25,
+              "end": 33
             },
             "computed": false,
             "optional": false,
@@ -45,24 +37,32 @@ __ESTREE_TEST__:PASS:
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 35,
-              "end": 41,
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
                 "start": 37,
                 "end": 41
-              }
+              },
+              "start": 35,
+              "end": 41
             },
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 25,
+            "end": 42
           }
-        ]
+        ],
+        "start": 19,
+        "end": 44
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 44
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```

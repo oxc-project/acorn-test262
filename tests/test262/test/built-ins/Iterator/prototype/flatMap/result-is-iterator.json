@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 508,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 374,
-      "end": 507,
       "expression": {
         "type": "CallExpression",
-        "start": 374,
-        "end": 506,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 374,
-          "end": 380,
-          "name": "assert"
+          "end": 380
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 384,
-            "end": 441,
             "left": {
               "type": "CallExpression",
-              "start": 384,
-              "end": 421,
               "callee": {
                 "type": "MemberExpression",
-                "start": 384,
-                "end": 411,
                 "object": {
                   "type": "CallExpression",
-                  "start": 384,
-                  "end": 403,
                   "callee": {
                     "type": "ParenthesizedExpression",
-                    "start": 384,
-                    "end": 401,
                     "expression": {
                       "type": "FunctionExpression",
-                      "start": 385,
-                      "end": 400,
                       "id": null,
                       "generator": true,
                       "async": false,
                       "params": [],
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 398,
-                        "end": 400,
-                        "body": []
+                        "end": 400
                       },
-                      "expression": false
-                    }
+                      "expression": false,
+                      "start": 385,
+                      "end": 400
+                    },
+                    "start": 384,
+                    "end": 401
                   },
                   "arguments": [],
-                  "optional": false
+                  "optional": false,
+                  "start": 384,
+                  "end": 403
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "flatMap",
                   "start": 404,
-                  "end": 411,
-                  "name": "flatMap"
+                  "end": 411
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 384,
+                "end": 411
               },
               "arguments": [
                 {
                   "type": "ArrowFunctionExpression",
-                  "start": 412,
-                  "end": 420,
                   "expression": true,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "ArrayExpression",
+                    "elements": [],
                     "start": 418,
-                    "end": 420,
-                    "elements": []
+                    "end": 420
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 412,
+                  "end": 420
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 384,
+              "end": 421
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "Iterator",
               "start": 433,
-              "end": 441,
-              "name": "Iterator"
-            }
+              "end": 441
+            },
+            "start": 384,
+            "end": 441
           },
           {
             "type": "Literal",
-            "start": 445,
-            "end": 504,
             "value": "function*(){}().flatMap(() => []) must return an Iterator",
-            "raw": "'function*(){}().flatMap(() => []) must return an Iterator'"
+            "raw": "'function*(){}().flatMap(() => []) must return an Iterator'",
+            "start": 445,
+            "end": 504
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 374,
+        "end": 506
+      },
+      "start": 374,
+      "end": 507
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 508
 }

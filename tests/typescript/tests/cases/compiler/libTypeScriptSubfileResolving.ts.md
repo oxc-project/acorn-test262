@@ -2,194 +2,194 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 7,
-  "end": 7,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 7,
+  "end": 7
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 37,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 21,
         "decorators": [],
         "name": "DOMIterable",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 21
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 22,
-        "end": 37,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 24,
-            "end": 35,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 24,
-              "end": 27,
               "decorators": [],
               "name": "abc",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 24,
+              "end": 27
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 27,
-              "end": 35,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 29,
                 "end": 35
-              }
+              },
+              "start": 27,
+              "end": 35
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 24,
+            "end": 35
           }
-        ]
+        ],
+        "start": 22,
+        "end": 37
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 37
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 37
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 37,
-  "end": 175,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 37,
-      "end": 76,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 43,
-          "end": 76,
           "id": {
             "type": "Identifier",
-            "start": 43,
-            "end": 57,
             "decorators": [],
             "name": "a",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 44,
-              "end": 57,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 46,
-                "end": 57,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 46,
-                  "end": 57,
                   "decorators": [],
                   "name": "DOMIterable",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 46,
+                  "end": 57
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 46,
+                "end": 57
+              },
+              "start": 44,
+              "end": 57
+            },
+            "start": 43,
+            "end": 57
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 60,
-            "end": 76,
             "properties": [
               {
                 "type": "Property",
-                "start": 62,
-                "end": 74,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 62,
-                  "end": 65,
                   "decorators": [],
                   "name": "abc",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 62,
+                  "end": 65
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 67,
-                  "end": 74,
                   "value": "Hello",
-                  "raw": "\"Hello\""
+                  "raw": "\"Hello\"",
+                  "start": 67,
+                  "end": 74
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 62,
+                "end": 74
               }
-            ]
+            ],
+            "start": 60,
+            "end": 76
           },
-          "definite": false
+          "definite": false,
+          "start": 43,
+          "end": 76
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 37,
+      "end": 76
     },
     {
       "type": "ExpressionStatement",
-      "start": 156,
-      "end": 175,
       "expression": {
         "type": "MemberExpression",
-        "start": 156,
-        "end": 175,
         "object": {
           "type": "Identifier",
-          "start": 156,
-          "end": 162,
           "decorators": [],
           "name": "window",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 156,
+          "end": 162
         },
         "property": {
           "type": "Identifier",
-          "start": 163,
-          "end": 175,
           "decorators": [],
           "name": "localStorage",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 163,
+          "end": 175
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 156,
+        "end": 175
       },
-      "directive": null
+      "directive": null,
+      "start": 156,
+      "end": 175
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 37,
+  "end": 175
 }
 ```

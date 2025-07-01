@@ -1,349 +1,349 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 642,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 276,
-      "end": 348,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 280,
-          "end": 347,
           "id": {
             "type": "Identifier",
+            "name": "zdt",
             "start": 280,
-            "end": 283,
-            "name": "zdt"
+            "end": 283
           },
           "init": {
             "type": "CallExpression",
-            "start": 286,
-            "end": 347,
             "callee": {
               "type": "MemberExpression",
-              "start": 286,
-              "end": 313,
               "object": {
                 "type": "MemberExpression",
-                "start": 286,
-                "end": 308,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 286,
-                  "end": 294,
-                  "name": "Temporal"
+                  "end": 294
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "ZonedDateTime",
                   "start": 295,
-                  "end": 308,
-                  "name": "ZonedDateTime"
+                  "end": 308
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 286,
+                "end": 308
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 309,
-                "end": 313,
-                "name": "from"
+                "end": 313
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 286,
+              "end": 313
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 314,
-                "end": 346,
                 "value": "0000-02-29T00:00-00:01[-00:01]",
-                "raw": "\"0000-02-29T00:00-00:01[-00:01]\""
+                "raw": "\"0000-02-29T00:00-00:01[-00:01]\"",
+                "start": 314,
+                "end": 346
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 286,
+            "end": 347
+          },
+          "start": 280,
+          "end": 347
         }
-      ]
+      ],
+      "start": 276,
+      "end": 348
     },
     {
       "type": "ExpressionStatement",
-      "start": 349,
-      "end": 458,
       "expression": {
         "type": "CallExpression",
-        "start": 349,
-        "end": 457,
         "callee": {
           "type": "MemberExpression",
-          "start": 349,
-          "end": 384,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 349,
-            "end": 364,
-            "name": "TemporalHelpers"
+            "end": 364
           },
           "property": {
             "type": "Identifier",
+            "name": "assertInstantsEqual",
             "start": 365,
-            "end": 384,
-            "name": "assertInstantsEqual"
+            "end": 384
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 349,
+          "end": 384
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 390,
-            "end": 405,
             "callee": {
               "type": "MemberExpression",
-              "start": 390,
-              "end": 403,
               "object": {
                 "type": "Identifier",
+                "name": "zdt",
                 "start": 390,
-                "end": 393,
-                "name": "zdt"
+                "end": 393
               },
               "property": {
                 "type": "Identifier",
+                "name": "toInstant",
                 "start": 394,
-                "end": 403,
-                "name": "toInstant"
+                "end": 403
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 390,
+              "end": 403
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 390,
+            "end": 405
           },
           {
             "type": "CallExpression",
-            "start": 411,
-            "end": 456,
             "callee": {
               "type": "MemberExpression",
-              "start": 411,
-              "end": 432,
               "object": {
                 "type": "MemberExpression",
-                "start": 411,
-                "end": 427,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 411,
-                  "end": 419,
-                  "name": "Temporal"
+                  "end": 419
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Instant",
                   "start": 420,
-                  "end": 427,
-                  "name": "Instant"
+                  "end": 427
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 411,
+                "end": 427
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 428,
-                "end": 432,
-                "name": "from"
+                "end": 432
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 411,
+              "end": 432
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 433,
-                "end": 455,
                 "value": "0000-02-29T00:01:00Z",
-                "raw": "\"0000-02-29T00:01:00Z\""
+                "raw": "\"0000-02-29T00:01:00Z\"",
+                "start": 433,
+                "end": 455
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 411,
+            "end": 456
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 349,
+        "end": 457
+      },
+      "start": 349,
+      "end": 458
     },
     {
       "type": "ExpressionStatement",
-      "start": 460,
-      "end": 531,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 460,
-        "end": 530,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "zdt",
           "start": 460,
-          "end": 463,
-          "name": "zdt"
+          "end": 463
         },
         "right": {
           "type": "CallExpression",
-          "start": 466,
-          "end": 530,
           "callee": {
             "type": "MemberExpression",
-            "start": 466,
-            "end": 493,
             "object": {
               "type": "MemberExpression",
-              "start": 466,
-              "end": 488,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 466,
-                "end": 474,
-                "name": "Temporal"
+                "end": 474
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 475,
-                "end": 488,
-                "name": "ZonedDateTime"
+                "end": 488
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 466,
+              "end": 488
             },
             "property": {
               "type": "Identifier",
+              "name": "from",
               "start": 489,
-              "end": 493,
-              "name": "from"
+              "end": 493
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 466,
+            "end": 493
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 494,
-              "end": 529,
               "value": "+000000-02-29T00:00-00:01[-00:01]",
-              "raw": "\"+000000-02-29T00:00-00:01[-00:01]\""
+              "raw": "\"+000000-02-29T00:00-00:01[-00:01]\"",
+              "start": 494,
+              "end": 529
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 466,
+          "end": 530
+        },
+        "start": 460,
+        "end": 530
+      },
+      "start": 460,
+      "end": 531
     },
     {
       "type": "ExpressionStatement",
-      "start": 532,
-      "end": 641,
       "expression": {
         "type": "CallExpression",
-        "start": 532,
-        "end": 640,
         "callee": {
           "type": "MemberExpression",
-          "start": 532,
-          "end": 567,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 532,
-            "end": 547,
-            "name": "TemporalHelpers"
+            "end": 547
           },
           "property": {
             "type": "Identifier",
+            "name": "assertInstantsEqual",
             "start": 548,
-            "end": 567,
-            "name": "assertInstantsEqual"
+            "end": 567
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 532,
+          "end": 567
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 573,
-            "end": 588,
             "callee": {
               "type": "MemberExpression",
-              "start": 573,
-              "end": 586,
               "object": {
                 "type": "Identifier",
+                "name": "zdt",
                 "start": 573,
-                "end": 576,
-                "name": "zdt"
+                "end": 576
               },
               "property": {
                 "type": "Identifier",
+                "name": "toInstant",
                 "start": 577,
-                "end": 586,
-                "name": "toInstant"
+                "end": 586
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 573,
+              "end": 586
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 573,
+            "end": 588
           },
           {
             "type": "CallExpression",
-            "start": 594,
-            "end": 639,
             "callee": {
               "type": "MemberExpression",
-              "start": 594,
-              "end": 615,
               "object": {
                 "type": "MemberExpression",
-                "start": 594,
-                "end": 610,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 594,
-                  "end": 602,
-                  "name": "Temporal"
+                  "end": 602
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Instant",
                   "start": 603,
-                  "end": 610,
-                  "name": "Instant"
+                  "end": 610
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 594,
+                "end": 610
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 611,
-                "end": 615,
-                "name": "from"
+                "end": 615
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 594,
+              "end": 615
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 616,
-                "end": 638,
                 "value": "0000-02-29T00:01:00Z",
-                "raw": "\"0000-02-29T00:01:00Z\""
+                "raw": "\"0000-02-29T00:01:00Z\"",
+                "start": 616,
+                "end": 638
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 594,
+            "end": 639
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 532,
+        "end": 640
+      },
+      "start": 532,
+      "end": 641
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 642
 }

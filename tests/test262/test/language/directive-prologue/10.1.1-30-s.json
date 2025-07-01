@@ -1,128 +1,128 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 493,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 345,
-      "end": 492,
       "expression": {
         "type": "CallExpression",
-        "start": 345,
-        "end": 491,
         "callee": {
           "type": "MemberExpression",
-          "start": 345,
-          "end": 358,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 345,
-            "end": 351,
-            "name": "assert"
+            "end": 351
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 352,
-            "end": 358,
-            "name": "throws"
+            "end": 358
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 345,
+          "end": 358
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 359,
-            "end": 370,
-            "name": "SyntaxError"
+            "end": 370
           },
           {
             "type": "FunctionExpression",
-            "start": 372,
-            "end": 490,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 383,
-              "end": 490,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 397,
-                  "end": 466,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 401,
-                      "end": 465,
                       "id": {
                         "type": "Identifier",
+                        "name": "funObj",
                         "start": 401,
-                        "end": 407,
-                        "name": "funObj"
+                        "end": 407
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 410,
-                        "end": 465,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Function",
                           "start": 414,
-                          "end": 422,
-                          "name": "Function"
+                          "end": 422
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 423,
-                            "end": 426,
                             "value": "a",
-                            "raw": "\"a\""
+                            "raw": "\"a\"",
+                            "start": 423,
+                            "end": 426
                           },
                           {
                             "type": "Literal",
-                            "start": 428,
-                            "end": 464,
                             "value": "'use strict'; eval('public = 1;');",
-                            "raw": "\"'use strict'; eval('public = 1;');\""
+                            "raw": "\"'use strict'; eval('public = 1;');\"",
+                            "start": 428,
+                            "end": 464
                           }
-                        ]
-                      }
+                        ],
+                        "start": 410,
+                        "end": 465
+                      },
+                      "start": 401,
+                      "end": 465
                     }
-                  ]
+                  ],
+                  "start": 397,
+                  "end": 466
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 479,
-                  "end": 488,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 479,
-                    "end": 487,
                     "callee": {
                       "type": "Identifier",
+                      "name": "funObj",
                       "start": 479,
-                      "end": 485,
-                      "name": "funObj"
+                      "end": 485
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 479,
+                    "end": 487
+                  },
+                  "start": 479,
+                  "end": 488
                 }
-              ]
+              ],
+              "start": 383,
+              "end": 490
             },
-            "expression": false
+            "expression": false,
+            "start": 372,
+            "end": 490
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 345,
+        "end": 491
+      },
+      "start": 345,
+      "end": 492
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 493
 }

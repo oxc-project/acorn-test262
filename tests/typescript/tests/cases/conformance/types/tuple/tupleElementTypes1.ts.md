@@ -2,53 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 51,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 50,
           "id": {
             "type": "ArrayPattern",
-            "start": 4,
-            "end": 25,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 5,
-                "end": 6,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 5,
+                "end": 6
               },
               {
                 "type": "Identifier",
-                "start": 8,
-                "end": 9,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 8,
+                "end": 9
               }
             ],
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 10,
-              "end": 25,
               "typeAnnotation": {
                 "type": "TSTupleType",
-                "start": 12,
-                "end": 25,
                 "elementTypes": [
                   {
                     "type": "TSNumberKeyword",
@@ -60,42 +48,54 @@ __ESTREE_TEST__:PASS:
                     "start": 21,
                     "end": 24
                   }
-                ]
-              }
-            }
+                ],
+                "start": 12,
+                "end": 25
+              },
+              "start": 10,
+              "end": 25
+            },
+            "start": 4,
+            "end": 25
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 28,
-            "end": 50,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 29,
-                "end": 38,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 29,
+                "end": 38
               },
               {
                 "type": "Identifier",
-                "start": 40,
-                "end": 49,
                 "decorators": [],
                 "name": "undefined",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 40,
+                "end": 49
               }
-            ]
+            ],
+            "start": 28,
+            "end": 50
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 50
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```

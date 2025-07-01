@@ -2,56 +2,56 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 37,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 13,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 13
     },
     {
       "type": "TryStatement",
-      "start": 14,
-      "end": 37,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 18,
-        "end": 21,
-        "body": []
+        "end": 21
       },
       "handler": {
         "type": "CatchClause",
-        "start": 22,
-        "end": 37,
         "param": {
           "type": "Identifier",
-          "start": 28,
-          "end": 32,
           "decorators": [],
           "name": "eval",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 28,
+          "end": 32
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 34,
-          "end": 37,
-          "body": []
-        }
+          "end": 37
+        },
+        "start": 22,
+        "end": 37
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 14,
+      "end": 37
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 37
 }
 ```

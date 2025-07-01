@@ -1,226 +1,226 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 719,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 349,
-      "end": 368,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 353,
-          "end": 367,
           "id": {
             "type": "Identifier",
+            "name": "__re",
             "start": 353,
-            "end": 357,
-            "name": "__re"
+            "end": 357
           },
           "init": {
             "type": "Literal",
-            "start": 360,
-            "end": 367,
             "value": null,
             "raw": "/[^a]*/",
             "regex": {
               "pattern": "[^a]*",
               "flags": ""
-            }
-          }
+            },
+            "start": 360,
+            "end": 367
+          },
+          "start": 353,
+          "end": 367
         }
-      ]
+      ],
+      "start": 349,
+      "end": 368
     },
     {
       "type": "ExpressionStatement",
-      "start": 370,
-      "end": 467,
       "expression": {
         "type": "CallExpression",
-        "start": 370,
-        "end": 466,
         "callee": {
           "type": "MemberExpression",
-          "start": 370,
-          "end": 386,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 370,
-            "end": 376,
-            "name": "assert"
+            "end": 376
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 377,
-            "end": 386,
-            "name": "sameValue"
+            "end": 386
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 370,
+          "end": 386
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 387,
-            "end": 398,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "__re",
               "start": 394,
-              "end": 398,
-              "name": "__re"
+              "end": 398
             },
-            "prefix": true
+            "prefix": true,
+            "start": 387,
+            "end": 398
           },
           {
             "type": "Literal",
-            "start": 400,
-            "end": 408,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 400,
+            "end": 408
           },
           {
             "type": "Literal",
-            "start": 410,
-            "end": 465,
             "value": "The value of `typeof __re` is expected to be \"object\"",
-            "raw": "'The value of `typeof __re` is expected to be \"object\"'"
+            "raw": "'The value of `typeof __re` is expected to be \"object\"'",
+            "start": 410,
+            "end": 465
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 370,
+        "end": 466
+      },
+      "start": 370,
+      "end": 467
     },
     {
       "type": "ExpressionStatement",
-      "start": 468,
-      "end": 585,
       "expression": {
         "type": "CallExpression",
-        "start": 468,
-        "end": 584,
         "callee": {
           "type": "MemberExpression",
-          "start": 468,
-          "end": 484,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 468,
-            "end": 474,
-            "name": "assert"
+            "end": 474
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 475,
-            "end": 484,
-            "name": "sameValue"
+            "end": 484
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 468,
+          "end": 484
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 485,
-            "end": 501,
             "object": {
               "type": "Identifier",
+              "name": "__re",
               "start": 485,
-              "end": 489,
-              "name": "__re"
+              "end": 489
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 490,
-              "end": 501,
-              "name": "constructor"
+              "end": 501
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 485,
+            "end": 501
           },
           {
             "type": "Identifier",
+            "name": "RegExp",
             "start": 503,
-            "end": 509,
-            "name": "RegExp"
+            "end": 509
           },
           {
             "type": "Literal",
-            "start": 511,
-            "end": 583,
             "value": "The value of __re.constructor is expected to equal the value of RegExp",
-            "raw": "'The value of __re.constructor is expected to equal the value of RegExp'"
+            "raw": "'The value of __re.constructor is expected to equal the value of RegExp'",
+            "start": 511,
+            "end": 583
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 468,
+        "end": 584
+      },
+      "start": 468,
+      "end": 585
     },
     {
       "type": "ExpressionStatement",
-      "start": 587,
-      "end": 718,
       "expression": {
         "type": "CallExpression",
-        "start": 587,
-        "end": 717,
         "callee": {
           "type": "MemberExpression",
-          "start": 587,
-          "end": 603,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 587,
-            "end": 593,
-            "name": "assert"
+            "end": 593
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 594,
-            "end": 603,
-            "name": "sameValue"
+            "end": 603
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 587,
+          "end": 603
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 607,
-            "end": 629,
             "left": {
               "type": "Identifier",
+              "name": "__re",
               "start": 607,
-              "end": 611,
-              "name": "__re"
+              "end": 611
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 623,
-              "end": 629,
-              "name": "RegExp"
-            }
+              "end": 629
+            },
+            "start": 607,
+            "end": 629
           },
           {
             "type": "Literal",
-            "start": 633,
-            "end": 637,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 633,
+            "end": 637
           },
           {
             "type": "Literal",
-            "start": 641,
-            "end": 715,
             "value": "The result of evaluating (__re instanceof RegExp) is expected to be true",
-            "raw": "'The result of evaluating (__re instanceof RegExp) is expected to be true'"
+            "raw": "'The result of evaluating (__re instanceof RegExp) is expected to be true'",
+            "start": 641,
+            "end": 715
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 587,
+        "end": 717
+      },
+      "start": 587,
+      "end": 718
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 719
 }

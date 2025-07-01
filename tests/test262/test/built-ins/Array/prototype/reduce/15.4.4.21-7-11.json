@@ -1,130 +1,130 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 377,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 250,
-      "end": 290,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 254,
-          "end": 289,
           "id": {
             "type": "Identifier",
+            "name": "str",
             "start": 254,
-            "end": 257,
-            "name": "str"
+            "end": 257
           },
           "init": {
             "type": "Literal",
-            "start": 260,
-            "end": 289,
             "value": "initialValue is not present",
-            "raw": "\"initialValue is not present\""
-          }
+            "raw": "\"initialValue is not present\"",
+            "start": 260,
+            "end": 289
+          },
+          "start": 254,
+          "end": 289
         }
-      ]
+      ],
+      "start": 250,
+      "end": 290
     },
     {
       "type": "ExpressionStatement",
-      "start": 292,
-      "end": 376,
       "expression": {
         "type": "CallExpression",
-        "start": 292,
-        "end": 375,
         "callee": {
           "type": "MemberExpression",
-          "start": 292,
-          "end": 308,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 292,
-            "end": 298,
-            "name": "assert"
+            "end": 298
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 299,
-            "end": 308,
-            "name": "sameValue"
+            "end": 308
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 292,
+          "end": 308
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 309,
-            "end": 336,
             "callee": {
               "type": "MemberExpression",
-              "start": 309,
-              "end": 321,
               "object": {
                 "type": "ArrayExpression",
-                "start": 309,
-                "end": 314,
                 "elements": [
                   {
                     "type": "Identifier",
+                    "name": "str",
                     "start": 310,
-                    "end": 313,
-                    "name": "str"
+                    "end": 313
                   }
-                ]
+                ],
+                "start": 309,
+                "end": 314
               },
               "property": {
                 "type": "Identifier",
+                "name": "reduce",
                 "start": 315,
-                "end": 321,
-                "name": "reduce"
+                "end": 321
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 309,
+              "end": 321
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 322,
-                "end": 335,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 333,
-                  "end": 335,
-                  "body": []
+                  "end": 335
                 },
-                "expression": false
+                "expression": false,
+                "start": 322,
+                "end": 335
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 309,
+            "end": 336
           },
           {
             "type": "Identifier",
+            "name": "str",
             "start": 338,
-            "end": 341,
-            "name": "str"
+            "end": 341
           },
           {
             "type": "Literal",
-            "start": 343,
-            "end": 374,
             "value": "[str].reduce(function () { })",
-            "raw": "'[str].reduce(function () { })'"
+            "raw": "'[str].reduce(function () { })'",
+            "start": 343,
+            "end": 374
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 292,
+        "end": 375
+      },
+      "start": 292,
+      "end": 376
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 377
 }

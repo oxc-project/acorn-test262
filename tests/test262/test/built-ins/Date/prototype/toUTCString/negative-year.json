@@ -1,957 +1,957 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2014,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 542,
-      "end": 627,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 546,
-          "end": 626,
           "id": {
             "type": "Identifier",
+            "name": "negative1DigitYearToUTCString",
             "start": 546,
-            "end": 575,
-            "name": "negative1DigitYearToUTCString"
+            "end": 575
           },
           "init": {
             "type": "CallExpression",
-            "start": 578,
-            "end": 626,
             "callee": {
               "type": "MemberExpression",
-              "start": 578,
-              "end": 624,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 578,
-                "end": 612,
                 "expression": {
                   "type": "NewExpression",
-                  "start": 579,
-                  "end": 611,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 583,
-                    "end": 587,
-                    "name": "Date"
+                    "end": 587
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 588,
-                      "end": 610,
                       "value": "-000001-07-01T00:00Z",
-                      "raw": "'-000001-07-01T00:00Z'"
+                      "raw": "'-000001-07-01T00:00Z'",
+                      "start": 588,
+                      "end": 610
                     }
-                  ]
-                }
+                  ],
+                  "start": 579,
+                  "end": 611
+                },
+                "start": 578,
+                "end": 612
               },
               "property": {
                 "type": "Identifier",
+                "name": "toUTCString",
                 "start": 613,
-                "end": 624,
-                "name": "toUTCString"
+                "end": 624
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 578,
+              "end": 624
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 578,
+            "end": 626
+          },
+          "start": 546,
+          "end": 626
         }
-      ]
+      ],
+      "start": 542,
+      "end": 627
     },
     {
       "type": "VariableDeclaration",
-      "start": 628,
-      "end": 713,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 632,
-          "end": 712,
           "id": {
             "type": "Identifier",
+            "name": "negative2DigitYearToUTCString",
             "start": 632,
-            "end": 661,
-            "name": "negative2DigitYearToUTCString"
+            "end": 661
           },
           "init": {
             "type": "CallExpression",
-            "start": 664,
-            "end": 712,
             "callee": {
               "type": "MemberExpression",
-              "start": 664,
-              "end": 710,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 664,
-                "end": 698,
                 "expression": {
                   "type": "NewExpression",
-                  "start": 665,
-                  "end": 697,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 669,
-                    "end": 673,
-                    "name": "Date"
+                    "end": 673
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 674,
-                      "end": 696,
                       "value": "-000012-07-01T00:00Z",
-                      "raw": "'-000012-07-01T00:00Z'"
+                      "raw": "'-000012-07-01T00:00Z'",
+                      "start": 674,
+                      "end": 696
                     }
-                  ]
-                }
+                  ],
+                  "start": 665,
+                  "end": 697
+                },
+                "start": 664,
+                "end": 698
               },
               "property": {
                 "type": "Identifier",
+                "name": "toUTCString",
                 "start": 699,
-                "end": 710,
-                "name": "toUTCString"
+                "end": 710
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 664,
+              "end": 710
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 664,
+            "end": 712
+          },
+          "start": 632,
+          "end": 712
         }
-      ]
+      ],
+      "start": 628,
+      "end": 713
     },
     {
       "type": "VariableDeclaration",
-      "start": 714,
-      "end": 799,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 718,
-          "end": 798,
           "id": {
             "type": "Identifier",
+            "name": "negative3DigitYearToUTCString",
             "start": 718,
-            "end": 747,
-            "name": "negative3DigitYearToUTCString"
+            "end": 747
           },
           "init": {
             "type": "CallExpression",
-            "start": 750,
-            "end": 798,
             "callee": {
               "type": "MemberExpression",
-              "start": 750,
-              "end": 796,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 750,
-                "end": 784,
                 "expression": {
                   "type": "NewExpression",
-                  "start": 751,
-                  "end": 783,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 755,
-                    "end": 759,
-                    "name": "Date"
+                    "end": 759
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 760,
-                      "end": 782,
                       "value": "-000123-07-01T00:00Z",
-                      "raw": "'-000123-07-01T00:00Z'"
+                      "raw": "'-000123-07-01T00:00Z'",
+                      "start": 760,
+                      "end": 782
                     }
-                  ]
-                }
+                  ],
+                  "start": 751,
+                  "end": 783
+                },
+                "start": 750,
+                "end": 784
               },
               "property": {
                 "type": "Identifier",
+                "name": "toUTCString",
                 "start": 785,
-                "end": 796,
-                "name": "toUTCString"
+                "end": 796
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 750,
+              "end": 796
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 750,
+            "end": 798
+          },
+          "start": 718,
+          "end": 798
         }
-      ]
+      ],
+      "start": 714,
+      "end": 799
     },
     {
       "type": "VariableDeclaration",
-      "start": 800,
-      "end": 885,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 804,
-          "end": 884,
           "id": {
             "type": "Identifier",
+            "name": "negative4DigitYearToUTCString",
             "start": 804,
-            "end": 833,
-            "name": "negative4DigitYearToUTCString"
+            "end": 833
           },
           "init": {
             "type": "CallExpression",
-            "start": 836,
-            "end": 884,
             "callee": {
               "type": "MemberExpression",
-              "start": 836,
-              "end": 882,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 836,
-                "end": 870,
                 "expression": {
                   "type": "NewExpression",
-                  "start": 837,
-                  "end": 869,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 841,
-                    "end": 845,
-                    "name": "Date"
+                    "end": 845
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 846,
-                      "end": 868,
                       "value": "-001234-07-01T00:00Z",
-                      "raw": "'-001234-07-01T00:00Z'"
+                      "raw": "'-001234-07-01T00:00Z'",
+                      "start": 846,
+                      "end": 868
                     }
-                  ]
-                }
+                  ],
+                  "start": 837,
+                  "end": 869
+                },
+                "start": 836,
+                "end": 870
               },
               "property": {
                 "type": "Identifier",
+                "name": "toUTCString",
                 "start": 871,
-                "end": 882,
-                "name": "toUTCString"
+                "end": 882
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 836,
+              "end": 882
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 836,
+            "end": 884
+          },
+          "start": 804,
+          "end": 884
         }
-      ]
+      ],
+      "start": 800,
+      "end": 885
     },
     {
       "type": "VariableDeclaration",
-      "start": 886,
-      "end": 971,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 890,
-          "end": 970,
           "id": {
             "type": "Identifier",
+            "name": "negative5DigitYearToUTCString",
             "start": 890,
-            "end": 919,
-            "name": "negative5DigitYearToUTCString"
+            "end": 919
           },
           "init": {
             "type": "CallExpression",
-            "start": 922,
-            "end": 970,
             "callee": {
               "type": "MemberExpression",
-              "start": 922,
-              "end": 968,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 922,
-                "end": 956,
                 "expression": {
                   "type": "NewExpression",
-                  "start": 923,
-                  "end": 955,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 927,
-                    "end": 931,
-                    "name": "Date"
+                    "end": 931
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 932,
-                      "end": 954,
                       "value": "-012345-07-01T00:00Z",
-                      "raw": "'-012345-07-01T00:00Z'"
+                      "raw": "'-012345-07-01T00:00Z'",
+                      "start": 932,
+                      "end": 954
                     }
-                  ]
-                }
+                  ],
+                  "start": 923,
+                  "end": 955
+                },
+                "start": 922,
+                "end": 956
               },
               "property": {
                 "type": "Identifier",
+                "name": "toUTCString",
                 "start": 957,
-                "end": 968,
-                "name": "toUTCString"
+                "end": 968
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 922,
+              "end": 968
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 922,
+            "end": 970
+          },
+          "start": 890,
+          "end": 970
         }
-      ]
+      ],
+      "start": 886,
+      "end": 971
     },
     {
       "type": "VariableDeclaration",
-      "start": 972,
-      "end": 1057,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 976,
-          "end": 1056,
           "id": {
             "type": "Identifier",
+            "name": "negative6DigitYearToUTCString",
             "start": 976,
-            "end": 1005,
-            "name": "negative6DigitYearToUTCString"
+            "end": 1005
           },
           "init": {
             "type": "CallExpression",
-            "start": 1008,
-            "end": 1056,
             "callee": {
               "type": "MemberExpression",
-              "start": 1008,
-              "end": 1054,
               "object": {
                 "type": "ParenthesizedExpression",
-                "start": 1008,
-                "end": 1042,
                 "expression": {
                   "type": "NewExpression",
-                  "start": 1009,
-                  "end": 1041,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Date",
                     "start": 1013,
-                    "end": 1017,
-                    "name": "Date"
+                    "end": 1017
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 1018,
-                      "end": 1040,
                       "value": "-123456-07-01T00:00Z",
-                      "raw": "'-123456-07-01T00:00Z'"
+                      "raw": "'-123456-07-01T00:00Z'",
+                      "start": 1018,
+                      "end": 1040
                     }
-                  ]
-                }
+                  ],
+                  "start": 1009,
+                  "end": 1041
+                },
+                "start": 1008,
+                "end": 1042
               },
               "property": {
                 "type": "Identifier",
+                "name": "toUTCString",
                 "start": 1043,
-                "end": 1054,
-                "name": "toUTCString"
+                "end": 1054
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1008,
+              "end": 1054
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1008,
+            "end": 1056
+          },
+          "start": 976,
+          "end": 1056
         }
-      ]
+      ],
+      "start": 972,
+      "end": 1057
     },
     {
       "type": "ExpressionStatement",
-      "start": 1177,
-      "end": 1312,
       "expression": {
         "type": "CallExpression",
-        "start": 1177,
-        "end": 1311,
         "callee": {
           "type": "MemberExpression",
-          "start": 1177,
-          "end": 1193,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1177,
-            "end": 1183,
-            "name": "assert"
+            "end": 1183
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1184,
-            "end": 1193,
-            "name": "sameValue"
+            "end": 1193
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1177,
+          "end": 1193
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1194,
-            "end": 1237,
             "object": {
               "type": "CallExpression",
-              "start": 1194,
-              "end": 1234,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1194,
-                "end": 1229,
                 "object": {
                   "type": "Identifier",
+                  "name": "negative1DigitYearToUTCString",
                   "start": 1194,
-                  "end": 1223,
-                  "name": "negative1DigitYearToUTCString"
+                  "end": 1223
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "split",
                   "start": 1224,
-                  "end": 1229,
-                  "name": "split"
+                  "end": 1229
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1194,
+                "end": 1229
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": " ",
+                  "raw": "' '",
                   "start": 1230,
-                  "end": 1233,
-                  "value": " ",
-                  "raw": "' '"
+                  "end": 1233
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1194,
+              "end": 1234
             },
             "property": {
               "type": "Literal",
+              "value": 3,
+              "raw": "3",
               "start": 1235,
-              "end": 1236,
-              "value": 3,
-              "raw": "3"
+              "end": 1236
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1194,
+            "end": 1237
           },
           {
             "type": "Literal",
-            "start": 1239,
-            "end": 1246,
             "value": "-0001",
-            "raw": "'-0001'"
+            "raw": "'-0001'",
+            "start": 1239,
+            "end": 1246
           },
           {
             "type": "Literal",
-            "start": 1252,
-            "end": 1310,
             "value": "Date.prototype.toUTCString serializes year -1 to \"-0001\"",
-            "raw": "'Date.prototype.toUTCString serializes year -1 to \"-0001\"'"
+            "raw": "'Date.prototype.toUTCString serializes year -1 to \"-0001\"'",
+            "start": 1252,
+            "end": 1310
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1177,
+        "end": 1311
+      },
+      "start": 1177,
+      "end": 1312
     },
     {
       "type": "ExpressionStatement",
-      "start": 1313,
-      "end": 1449,
       "expression": {
         "type": "CallExpression",
-        "start": 1313,
-        "end": 1448,
         "callee": {
           "type": "MemberExpression",
-          "start": 1313,
-          "end": 1329,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1313,
-            "end": 1319,
-            "name": "assert"
+            "end": 1319
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1320,
-            "end": 1329,
-            "name": "sameValue"
+            "end": 1329
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1313,
+          "end": 1329
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1330,
-            "end": 1373,
             "object": {
               "type": "CallExpression",
-              "start": 1330,
-              "end": 1370,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1330,
-                "end": 1365,
                 "object": {
                   "type": "Identifier",
+                  "name": "negative2DigitYearToUTCString",
                   "start": 1330,
-                  "end": 1359,
-                  "name": "negative2DigitYearToUTCString"
+                  "end": 1359
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "split",
                   "start": 1360,
-                  "end": 1365,
-                  "name": "split"
+                  "end": 1365
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1330,
+                "end": 1365
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": " ",
+                  "raw": "' '",
                   "start": 1366,
-                  "end": 1369,
-                  "value": " ",
-                  "raw": "' '"
+                  "end": 1369
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1330,
+              "end": 1370
             },
             "property": {
               "type": "Literal",
+              "value": 3,
+              "raw": "3",
               "start": 1371,
-              "end": 1372,
-              "value": 3,
-              "raw": "3"
+              "end": 1372
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1330,
+            "end": 1373
           },
           {
             "type": "Literal",
-            "start": 1375,
-            "end": 1382,
             "value": "-0012",
-            "raw": "'-0012'"
+            "raw": "'-0012'",
+            "start": 1375,
+            "end": 1382
           },
           {
             "type": "Literal",
-            "start": 1388,
-            "end": 1447,
             "value": "Date.prototype.toUTCString serializes year -12 to \"-0012\"",
-            "raw": "'Date.prototype.toUTCString serializes year -12 to \"-0012\"'"
+            "raw": "'Date.prototype.toUTCString serializes year -12 to \"-0012\"'",
+            "start": 1388,
+            "end": 1447
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1313,
+        "end": 1448
+      },
+      "start": 1313,
+      "end": 1449
     },
     {
       "type": "ExpressionStatement",
-      "start": 1450,
-      "end": 1587,
       "expression": {
         "type": "CallExpression",
-        "start": 1450,
-        "end": 1586,
         "callee": {
           "type": "MemberExpression",
-          "start": 1450,
-          "end": 1466,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1450,
-            "end": 1456,
-            "name": "assert"
+            "end": 1456
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1457,
-            "end": 1466,
-            "name": "sameValue"
+            "end": 1466
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1450,
+          "end": 1466
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1467,
-            "end": 1510,
             "object": {
               "type": "CallExpression",
-              "start": 1467,
-              "end": 1507,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1467,
-                "end": 1502,
                 "object": {
                   "type": "Identifier",
+                  "name": "negative3DigitYearToUTCString",
                   "start": 1467,
-                  "end": 1496,
-                  "name": "negative3DigitYearToUTCString"
+                  "end": 1496
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "split",
                   "start": 1497,
-                  "end": 1502,
-                  "name": "split"
+                  "end": 1502
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1467,
+                "end": 1502
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": " ",
+                  "raw": "' '",
                   "start": 1503,
-                  "end": 1506,
-                  "value": " ",
-                  "raw": "' '"
+                  "end": 1506
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1467,
+              "end": 1507
             },
             "property": {
               "type": "Literal",
+              "value": 3,
+              "raw": "3",
               "start": 1508,
-              "end": 1509,
-              "value": 3,
-              "raw": "3"
+              "end": 1509
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1467,
+            "end": 1510
           },
           {
             "type": "Literal",
-            "start": 1512,
-            "end": 1519,
             "value": "-0123",
-            "raw": "'-0123'"
+            "raw": "'-0123'",
+            "start": 1512,
+            "end": 1519
           },
           {
             "type": "Literal",
-            "start": 1525,
-            "end": 1585,
             "value": "Date.prototype.toUTCString serializes year -123 to \"-0123\"",
-            "raw": "'Date.prototype.toUTCString serializes year -123 to \"-0123\"'"
+            "raw": "'Date.prototype.toUTCString serializes year -123 to \"-0123\"'",
+            "start": 1525,
+            "end": 1585
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1450,
+        "end": 1586
+      },
+      "start": 1450,
+      "end": 1587
     },
     {
       "type": "ExpressionStatement",
-      "start": 1588,
-      "end": 1726,
       "expression": {
         "type": "CallExpression",
-        "start": 1588,
-        "end": 1725,
         "callee": {
           "type": "MemberExpression",
-          "start": 1588,
-          "end": 1604,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1588,
-            "end": 1594,
-            "name": "assert"
+            "end": 1594
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1595,
-            "end": 1604,
-            "name": "sameValue"
+            "end": 1604
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1588,
+          "end": 1604
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1605,
-            "end": 1648,
             "object": {
               "type": "CallExpression",
-              "start": 1605,
-              "end": 1645,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1605,
-                "end": 1640,
                 "object": {
                   "type": "Identifier",
+                  "name": "negative4DigitYearToUTCString",
                   "start": 1605,
-                  "end": 1634,
-                  "name": "negative4DigitYearToUTCString"
+                  "end": 1634
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "split",
                   "start": 1635,
-                  "end": 1640,
-                  "name": "split"
+                  "end": 1640
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1605,
+                "end": 1640
               },
               "arguments": [
                 {
                   "type": "Literal",
+                  "value": " ",
+                  "raw": "' '",
                   "start": 1641,
-                  "end": 1644,
-                  "value": " ",
-                  "raw": "' '"
+                  "end": 1644
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1605,
+              "end": 1645
             },
             "property": {
               "type": "Literal",
+              "value": 3,
+              "raw": "3",
               "start": 1646,
-              "end": 1647,
-              "value": 3,
-              "raw": "3"
+              "end": 1647
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1605,
+            "end": 1648
           },
           {
             "type": "Literal",
-            "start": 1650,
-            "end": 1657,
             "value": "-1234",
-            "raw": "'-1234'"
+            "raw": "'-1234'",
+            "start": 1650,
+            "end": 1657
           },
           {
             "type": "Literal",
-            "start": 1663,
-            "end": 1724,
             "value": "Date.prototype.toUTCString serializes year -1234 to \"-1234\"",
-            "raw": "'Date.prototype.toUTCString serializes year -1234 to \"-1234\"'"
+            "raw": "'Date.prototype.toUTCString serializes year -1234 to \"-1234\"'",
+            "start": 1663,
+            "end": 1724
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1588,
+        "end": 1725
+      },
+      "start": 1588,
+      "end": 1726
     },
     {
       "type": "ExpressionStatement",
-      "start": 1727,
-      "end": 1868,
       "expression": {
         "type": "CallExpression",
-        "start": 1727,
-        "end": 1867,
         "callee": {
           "type": "MemberExpression",
-          "start": 1727,
-          "end": 1743,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1727,
-            "end": 1733,
-            "name": "assert"
+            "end": 1733
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1734,
-            "end": 1743,
-            "name": "sameValue"
+            "end": 1743
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1727,
+          "end": 1743
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1744,
-            "end": 1787,
             "object": {
               "type": "CallExpression",
-              "start": 1744,
-              "end": 1784,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1744,
-                "end": 1779,
                 "object": {
                   "type": "Identifier",
+                  "name": "negative5DigitYearToUTCString",
                   "start": 1744,
-                  "end": 1773,
-                  "name": "negative5DigitYearToUTCString"
+                  "end": 1773
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "split",
                   "start": 1774,
-                  "end": 1779,
-                  "name": "split"
+                  "end": 1779
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1744,
+                "end": 1779
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1780,
-                  "end": 1783,
                   "value": " ",
-                  "raw": "' '"
+                  "raw": "' '",
+                  "start": 1780,
+                  "end": 1783
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1744,
+              "end": 1784
             },
             "property": {
               "type": "Literal",
-              "start": 1785,
-              "end": 1786,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "start": 1785,
+              "end": 1786
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1744,
+            "end": 1787
           },
           {
             "type": "Literal",
-            "start": 1789,
-            "end": 1797,
             "value": "-12345",
-            "raw": "'-12345'"
+            "raw": "'-12345'",
+            "start": 1789,
+            "end": 1797
           },
           {
             "type": "Literal",
-            "start": 1803,
-            "end": 1866,
             "value": "Date.prototype.toUTCString serializes year -12345 to \"-12345\"",
-            "raw": "'Date.prototype.toUTCString serializes year -12345 to \"-12345\"'"
+            "raw": "'Date.prototype.toUTCString serializes year -12345 to \"-12345\"'",
+            "start": 1803,
+            "end": 1866
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1727,
+        "end": 1867
+      },
+      "start": 1727,
+      "end": 1868
     },
     {
       "type": "ExpressionStatement",
-      "start": 1869,
-      "end": 2013,
       "expression": {
         "type": "CallExpression",
-        "start": 1869,
-        "end": 2012,
         "callee": {
           "type": "MemberExpression",
-          "start": 1869,
-          "end": 1885,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1869,
-            "end": 1875,
-            "name": "assert"
+            "end": 1875
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1876,
-            "end": 1885,
-            "name": "sameValue"
+            "end": 1885
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1869,
+          "end": 1885
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 1886,
-            "end": 1929,
             "object": {
               "type": "CallExpression",
-              "start": 1886,
-              "end": 1926,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1886,
-                "end": 1921,
                 "object": {
                   "type": "Identifier",
+                  "name": "negative6DigitYearToUTCString",
                   "start": 1886,
-                  "end": 1915,
-                  "name": "negative6DigitYearToUTCString"
+                  "end": 1915
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "split",
                   "start": 1916,
-                  "end": 1921,
-                  "name": "split"
+                  "end": 1921
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1886,
+                "end": 1921
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1922,
-                  "end": 1925,
                   "value": " ",
-                  "raw": "' '"
+                  "raw": "' '",
+                  "start": 1922,
+                  "end": 1925
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1886,
+              "end": 1926
             },
             "property": {
               "type": "Literal",
-              "start": 1927,
-              "end": 1928,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "start": 1927,
+              "end": 1928
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1886,
+            "end": 1929
           },
           {
             "type": "Literal",
-            "start": 1931,
-            "end": 1940,
             "value": "-123456",
-            "raw": "'-123456'"
+            "raw": "'-123456'",
+            "start": 1931,
+            "end": 1940
           },
           {
             "type": "Literal",
-            "start": 1946,
-            "end": 2011,
             "value": "Date.prototype.toUTCString serializes year -123456 to \"-123456\"",
-            "raw": "'Date.prototype.toUTCString serializes year -123456 to \"-123456\"'"
+            "raw": "'Date.prototype.toUTCString serializes year -123456 to \"-123456\"'",
+            "start": 1946,
+            "end": 2011
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1869,
+        "end": 2012
+      },
+      "start": 1869,
+      "end": 2013
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2014
 }

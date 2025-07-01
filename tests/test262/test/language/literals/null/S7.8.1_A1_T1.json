@@ -1,67 +1,67 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 309,
   "body": [
     {
       "type": "IfStatement",
-      "start": 239,
-      "end": 308,
       "test": {
         "type": "BinaryExpression",
-        "start": 243,
-        "end": 256,
         "left": {
           "type": "Literal",
-          "start": 243,
-          "end": 247,
           "value": null,
-          "raw": "null"
+          "raw": "null",
+          "start": 243,
+          "end": 247
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 252,
-          "end": 256,
           "value": null,
-          "raw": "null"
-        }
+          "raw": "null",
+          "start": 252,
+          "end": 256
+        },
+        "start": 243,
+        "end": 256
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 258,
-        "end": 308,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 262,
-            "end": 306,
             "argument": {
               "type": "NewExpression",
-              "start": 268,
-              "end": 305,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 272,
-                "end": 284,
-                "name": "Test262Error"
+                "end": 284
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 285,
-                  "end": 304,
                   "value": "#1: null === null",
-                  "raw": "'#1: null === null'"
+                  "raw": "'#1: null === null'",
+                  "start": 285,
+                  "end": 304
                 }
-              ]
-            }
+              ],
+              "start": 268,
+              "end": 305
+            },
+            "start": 262,
+            "end": 306
           }
-        ]
+        ],
+        "start": 258,
+        "end": 308
       },
-      "alternate": null
+      "alternate": null,
+      "start": 239,
+      "end": 308
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 309
 }

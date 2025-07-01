@@ -2,76 +2,76 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 26,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 26,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "E",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 7,
-        "end": 26,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 11,
-            "end": 14,
             "id": {
               "type": "Literal",
-              "start": 11,
-              "end": 14,
               "value": "A",
-              "raw": "\"A\""
+              "raw": "\"A\"",
+              "start": 11,
+              "end": 14
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 11,
+            "end": 14
           },
           {
             "type": "TSEnumMember",
-            "start": 16,
-            "end": 19,
             "id": {
               "type": "Literal",
-              "start": 16,
-              "end": 19,
               "value": "B",
-              "raw": "\"B\""
+              "raw": "\"B\"",
+              "start": 16,
+              "end": 19
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 16,
+            "end": 19
           },
           {
             "type": "TSEnumMember",
-            "start": 21,
-            "end": 24,
             "id": {
               "type": "Literal",
-              "start": 21,
-              "end": 24,
               "value": "C",
-              "raw": "\"C\""
+              "raw": "\"C\"",
+              "start": 21,
+              "end": 24
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 21,
+            "end": 24
           }
-        ]
+        ],
+        "start": 7,
+        "end": 26
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 26
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 26
 }
 ```

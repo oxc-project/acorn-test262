@@ -1,67 +1,67 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 819,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 781,
-      "end": 818,
       "expression": {
         "type": "CallExpression",
-        "start": 781,
-        "end": 817,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 781,
-          "end": 787,
-          "name": "assert"
+          "end": 787
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 788,
-            "end": 816,
             "callee": {
               "type": "MemberExpression",
-              "start": 788,
-              "end": 800,
               "object": {
                 "type": "Literal",
-                "start": 788,
-                "end": 795,
                 "value": null,
                 "raw": "/^\\S$/u",
                 "regex": {
                   "pattern": "^\\S$",
                   "flags": "u"
-                }
+                },
+                "start": 788,
+                "end": 795
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 796,
-                "end": 800,
-                "name": "test"
+                "end": 800
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 788,
+              "end": 800
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 801,
-                "end": 815,
                 "value": "𐀀",
-                "raw": "'\\ud800\\udc00'"
+                "raw": "'\\ud800\\udc00'",
+                "start": 801,
+                "end": 815
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 788,
+            "end": 816
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 781,
+        "end": 817
+      },
+      "start": 781,
+      "end": 818
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 819
 }

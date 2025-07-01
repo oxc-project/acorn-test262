@@ -1,139 +1,139 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 519,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 316,
-      "end": 393,
       "expression": {
         "type": "CallExpression",
-        "start": 316,
-        "end": 392,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 316,
-          "end": 320,
-          "name": "eval"
+          "end": 320
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 321,
-            "end": 391,
             "value": "var public = 1; 'use strict'; var anotherVariableNotReserveWord = 2;",
-            "raw": "\"var public = 1; 'use strict'; var anotherVariableNotReserveWord = 2;\""
+            "raw": "\"var public = 1; 'use strict'; var anotherVariableNotReserveWord = 2;\"",
+            "start": 321,
+            "end": 391
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 316,
+        "end": 392
+      },
+      "start": 316,
+      "end": 393
     },
     {
       "type": "ExpressionStatement",
-      "start": 395,
-      "end": 433,
       "expression": {
         "type": "CallExpression",
-        "start": 395,
-        "end": 432,
         "callee": {
           "type": "MemberExpression",
-          "start": 395,
-          "end": 411,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 395,
-            "end": 401,
-            "name": "assert"
+            "end": 401
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 402,
-            "end": 411,
-            "name": "sameValue"
+            "end": 411
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 395,
+          "end": 411
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "public",
             "start": 412,
-            "end": 418,
-            "name": "public"
+            "end": 418
           },
           {
             "type": "Literal",
-            "start": 420,
-            "end": 421,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 420,
+            "end": 421
           },
           {
             "type": "Literal",
-            "start": 423,
-            "end": 431,
             "value": "public",
-            "raw": "'public'"
+            "raw": "'public'",
+            "start": 423,
+            "end": 431
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 395,
+        "end": 432
+      },
+      "start": 395,
+      "end": 433
     },
     {
       "type": "ExpressionStatement",
-      "start": 434,
-      "end": 518,
       "expression": {
         "type": "CallExpression",
-        "start": 434,
-        "end": 517,
         "callee": {
           "type": "MemberExpression",
-          "start": 434,
-          "end": 450,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 434,
-            "end": 440,
-            "name": "assert"
+            "end": 440
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 441,
-            "end": 450,
-            "name": "sameValue"
+            "end": 450
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 434,
+          "end": 450
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "anotherVariableNotReserveWord",
             "start": 451,
-            "end": 480,
-            "name": "anotherVariableNotReserveWord"
+            "end": 480
           },
           {
             "type": "Literal",
-            "start": 482,
-            "end": 483,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 482,
+            "end": 483
           },
           {
             "type": "Literal",
-            "start": 485,
-            "end": 516,
             "value": "anotherVariableNotReserveWord",
-            "raw": "'anotherVariableNotReserveWord'"
+            "raw": "'anotherVariableNotReserveWord'",
+            "start": 485,
+            "end": 516
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 434,
+        "end": 517
+      },
+      "start": 434,
+      "end": 518
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 519
 }

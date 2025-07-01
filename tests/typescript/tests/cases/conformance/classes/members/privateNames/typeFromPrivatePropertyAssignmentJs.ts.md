@@ -2,33 +2,29 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 0,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 0
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 207,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 207,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -36,19 +32,15 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 207,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 63,
-            "end": 66,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "a",
               "start": 63,
-              "end": 65,
-              "name": "a"
+              "end": 65
             },
             "typeAnnotation": null,
             "value": null,
@@ -59,18 +51,18 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 63,
+            "end": 66
           },
           {
             "type": "PropertyDefinition",
-            "start": 120,
-            "end": 123,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "b",
               "start": 120,
-              "end": 122,
-              "name": "b"
+              "end": 122
             },
             "typeAnnotation": null,
             "value": null,
@@ -81,26 +73,24 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 120,
+            "end": 123
           },
           {
             "type": "MethodDefinition",
-            "start": 128,
-            "end": 205,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 128,
-              "end": 129,
               "decorators": [],
               "name": "m",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 128,
+              "end": 129
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 129,
-              "end": 205,
               "id": null,
               "generator": false,
               "async": false,
@@ -110,36 +100,26 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 132,
-                "end": 205,
                 "body": [
                   {
                     "type": "VariableDeclaration",
-                    "start": 142,
-                    "end": 166,
                     "kind": "const",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
-                        "start": 148,
-                        "end": 165,
                         "id": {
                           "type": "Identifier",
-                          "start": 148,
-                          "end": 149,
                           "decorators": [],
                           "name": "a",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 148,
+                          "end": 149
                         },
                         "init": {
                           "type": "LogicalExpression",
-                          "start": 152,
-                          "end": 165,
                           "left": {
                             "type": "MemberExpression",
-                            "start": 152,
-                            "end": 159,
                             "object": {
                               "type": "ThisExpression",
                               "start": 152,
@@ -147,39 +127,41 @@ __ESTREE_TEST__:PASS:
                             },
                             "property": {
                               "type": "PrivateIdentifier",
+                              "name": "a",
                               "start": 157,
-                              "end": 159,
-                              "name": "a"
+                              "end": 159
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 152,
+                            "end": 159
                           },
                           "operator": "||",
                           "right": {
                             "type": "ObjectExpression",
+                            "properties": [],
                             "start": 163,
-                            "end": 165,
-                            "properties": []
-                          }
+                            "end": 165
+                          },
+                          "start": 152,
+                          "end": 165
                         },
-                        "definite": false
+                        "definite": false,
+                        "start": 148,
+                        "end": 165
                       }
                     ],
-                    "declare": false
+                    "declare": false,
+                    "start": 142,
+                    "end": 166
                   },
                   {
                     "type": "ExpressionStatement",
-                    "start": 175,
-                    "end": 199,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 175,
-                      "end": 198,
                       "operator": "=",
                       "left": {
                         "type": "MemberExpression",
-                        "start": 175,
-                        "end": 182,
                         "object": {
                           "type": "ThisExpression",
                           "start": 175,
@@ -187,21 +169,19 @@ __ESTREE_TEST__:PASS:
                         },
                         "property": {
                           "type": "PrivateIdentifier",
+                          "name": "b",
                           "start": 180,
-                          "end": 182,
-                          "name": "b"
+                          "end": 182
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 175,
+                        "end": 182
                       },
                       "right": {
                         "type": "LogicalExpression",
-                        "start": 185,
-                        "end": 198,
                         "left": {
                           "type": "MemberExpression",
-                          "start": 185,
-                          "end": 192,
                           "object": {
                             "type": "ThisExpression",
                             "start": 185,
@@ -209,42 +189,62 @@ __ESTREE_TEST__:PASS:
                           },
                           "property": {
                             "type": "PrivateIdentifier",
+                            "name": "b",
                             "start": 190,
-                            "end": 192,
-                            "name": "b"
+                            "end": 192
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 185,
+                          "end": 192
                         },
                         "operator": "||",
                         "right": {
                           "type": "ObjectExpression",
+                          "properties": [],
                           "start": 196,
-                          "end": 198,
-                          "properties": []
-                        }
-                      }
+                          "end": 198
+                        },
+                        "start": 185,
+                        "end": 198
+                      },
+                      "start": 175,
+                      "end": 198
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 175,
+                    "end": 199
                   }
-                ]
+                ],
+                "start": 132,
+                "end": 205
               },
-              "expression": false
+              "expression": false,
+              "start": 129,
+              "end": 205
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 128,
+            "end": 205
           }
-        ]
+        ],
+        "start": 8,
+        "end": 207
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 207
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 207
 }
 ```

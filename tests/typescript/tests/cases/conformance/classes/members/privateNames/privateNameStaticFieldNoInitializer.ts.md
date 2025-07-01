@@ -2,32 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 63,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 34,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 34,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "C",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": {
             "type": "ClassExpression",
-            "start": 10,
-            "end": 34,
             "decorators": [],
             "id": null,
             "typeParameters": null,
@@ -36,19 +28,15 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
-              "start": 16,
-              "end": 34,
               "body": [
                 {
                   "type": "PropertyDefinition",
-                  "start": 22,
-                  "end": 32,
                   "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
+                    "name": "x",
                     "start": 29,
-                    "end": 31,
-                    "name": "x"
+                    "end": 31
                   },
                   "typeAnnotation": null,
                   "value": null,
@@ -59,31 +47,39 @@ __ESTREE_TEST__:PASS:
                   "optional": false,
                   "definite": false,
                   "readonly": false,
-                  "accessibility": null
+                  "accessibility": null,
+                  "start": 22,
+                  "end": 32
                 }
-              ]
+              ],
+              "start": 16,
+              "end": 34
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 10,
+            "end": 34
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 34
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 34
     },
     {
       "type": "ClassDeclaration",
-      "start": 36,
-      "end": 63,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 42,
-        "end": 44,
         "decorators": [],
         "name": "C2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 42,
+        "end": 44
       },
       "typeParameters": null,
       "superClass": null,
@@ -91,19 +87,15 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 45,
-        "end": 63,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 51,
-            "end": 61,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "x",
               "start": 58,
-              "end": 60,
-              "name": "x"
+              "end": 60
             },
             "typeAnnotation": null,
             "value": null,
@@ -114,15 +106,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 51,
+            "end": 61
           }
-        ]
+        ],
+        "start": 45,
+        "end": 63
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 36,
+      "end": 63
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 63
 }
 ```

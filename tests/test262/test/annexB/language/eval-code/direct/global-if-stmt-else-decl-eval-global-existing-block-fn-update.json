@@ -1,180 +1,180 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1776,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 1555,
-      "end": 1611,
       "body": [
         {
           "type": "FunctionDeclaration",
-          "start": 1559,
-          "end": 1609,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 1568,
-            "end": 1569,
-            "name": "f"
+            "end": 1569
           },
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 1572,
-            "end": 1609,
             "body": [
               {
                 "type": "ReturnStatement",
-                "start": 1578,
-                "end": 1605,
                 "argument": {
                   "type": "Literal",
-                  "start": 1585,
-                  "end": 1604,
                   "value": "first declaration",
-                  "raw": "'first declaration'"
-                }
+                  "raw": "'first declaration'",
+                  "start": 1585,
+                  "end": 1604
+                },
+                "start": 1578,
+                "end": 1605
               }
-            ]
+            ],
+            "start": 1572,
+            "end": 1609
           },
-          "expression": false
+          "expression": false,
+          "start": 1559,
+          "end": 1609
         }
-      ]
+      ],
+      "start": 1555,
+      "end": 1611
     },
     {
       "type": "ExpressionStatement",
-      "start": 1613,
-      "end": 1689,
       "expression": {
         "type": "CallExpression",
-        "start": 1613,
-        "end": 1688,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 1613,
-          "end": 1617,
-          "name": "eval"
+          "end": 1617
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1621,
-            "end": 1686,
             "value": "if (false) ; else function f() { return \"second declaration\"; }",
-            "raw": "'if (false) ; else function f() { return \"second declaration\"; }'"
+            "raw": "'if (false) ; else function f() { return \"second declaration\"; }'",
+            "start": 1621,
+            "end": 1686
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1613,
+        "end": 1688
+      },
+      "start": 1613,
+      "end": 1689
     },
     {
       "type": "ExpressionStatement",
-      "start": 1691,
-      "end": 1730,
       "expression": {
         "type": "CallExpression",
-        "start": 1691,
-        "end": 1729,
         "callee": {
           "type": "MemberExpression",
-          "start": 1691,
-          "end": 1707,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1691,
-            "end": 1697,
-            "name": "assert"
+            "end": 1697
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1698,
-            "end": 1707,
-            "name": "sameValue"
+            "end": 1707
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1691,
+          "end": 1707
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1708,
-            "end": 1716,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "f",
               "start": 1715,
-              "end": 1716,
-              "name": "f"
+              "end": 1716
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1708,
+            "end": 1716
           },
           {
             "type": "Literal",
-            "start": 1718,
-            "end": 1728,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 1718,
+            "end": 1728
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1691,
+        "end": 1729
+      },
+      "start": 1691,
+      "end": 1730
     },
     {
       "type": "ExpressionStatement",
-      "start": 1731,
-      "end": 1775,
       "expression": {
         "type": "CallExpression",
-        "start": 1731,
-        "end": 1774,
         "callee": {
           "type": "MemberExpression",
-          "start": 1731,
-          "end": 1747,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1731,
-            "end": 1737,
-            "name": "assert"
+            "end": 1737
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1738,
-            "end": 1747,
-            "name": "sameValue"
+            "end": 1747
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1731,
+          "end": 1747
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1748,
-            "end": 1751,
             "callee": {
               "type": "Identifier",
+              "name": "f",
               "start": 1748,
-              "end": 1749,
-              "name": "f"
+              "end": 1749
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1748,
+            "end": 1751
           },
           {
             "type": "Literal",
-            "start": 1753,
-            "end": 1773,
             "value": "second declaration",
-            "raw": "'second declaration'"
+            "raw": "'second declaration'",
+            "start": 1753,
+            "end": 1773
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1731,
+        "end": 1774
+      },
+      "start": 1731,
+      "end": 1775
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1776
 }

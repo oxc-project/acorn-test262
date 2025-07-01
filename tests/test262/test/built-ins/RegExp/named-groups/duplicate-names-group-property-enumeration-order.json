@@ -1,307 +1,307 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 718,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 324,
-      "end": 369,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 328,
-          "end": 368,
           "id": {
             "type": "Identifier",
+            "name": "regexp",
             "start": 328,
-            "end": 334,
-            "name": "regexp"
+            "end": 334
           },
           "init": {
             "type": "Literal",
-            "start": 337,
-            "end": 368,
             "value": null,
             "raw": "/(?<y>a)(?<x>a)|(?<x>b)(?<y>b)/",
             "regex": {
               "pattern": "(?<y>a)(?<x>a)|(?<x>b)(?<y>b)",
               "flags": ""
-            }
-          }
+            },
+            "start": 337,
+            "end": 368
+          },
+          "start": 328,
+          "end": 368
         }
-      ]
+      ],
+      "start": 324,
+      "end": 369
     },
     {
       "type": "ExpressionStatement",
-      "start": 371,
-      "end": 543,
       "expression": {
         "type": "CallExpression",
-        "start": 371,
-        "end": 542,
         "callee": {
           "type": "MemberExpression",
-          "start": 371,
-          "end": 390,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 371,
-            "end": 377,
-            "name": "assert"
+            "end": 377
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 378,
-            "end": 390,
-            "name": "compareArray"
+            "end": 390
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 371,
+          "end": 390
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 394,
-            "end": 431,
             "callee": {
               "type": "MemberExpression",
-              "start": 394,
-              "end": 405,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 394,
-                "end": 400,
-                "name": "Object"
+                "end": 400
               },
               "property": {
                 "type": "Identifier",
+                "name": "keys",
                 "start": 401,
-                "end": 405,
-                "name": "keys"
+                "end": 405
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 394,
+              "end": 405
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 406,
-                "end": 430,
                 "object": {
                   "type": "CallExpression",
-                  "start": 406,
-                  "end": 423,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 406,
-                    "end": 417,
                     "object": {
                       "type": "Identifier",
+                      "name": "regexp",
                       "start": 406,
-                      "end": 412,
-                      "name": "regexp"
+                      "end": 412
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "exec",
                       "start": 413,
-                      "end": 417,
-                      "name": "exec"
+                      "end": 417
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 406,
+                    "end": 417
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 418,
-                      "end": 422,
                       "value": "aa",
-                      "raw": "\"aa\""
+                      "raw": "\"aa\"",
+                      "start": 418,
+                      "end": 422
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 406,
+                  "end": 423
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "groups",
                   "start": 424,
-                  "end": 430,
-                  "name": "groups"
+                  "end": 430
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 406,
+                "end": 430
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 394,
+            "end": 431
           },
           {
             "type": "ArrayExpression",
-            "start": 435,
-            "end": 445,
             "elements": [
               {
                 "type": "Literal",
-                "start": 436,
-                "end": 439,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "start": 436,
+                "end": 439
               },
               {
                 "type": "Literal",
-                "start": 441,
-                "end": 444,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "start": 441,
+                "end": 444
               }
-            ]
+            ],
+            "start": 435,
+            "end": 445
           },
           {
             "type": "Literal",
-            "start": 449,
-            "end": 540,
             "value": "property enumeration order of the groups object is based on source order, not match order",
-            "raw": "\"property enumeration order of the groups object is based on source order, not match order\""
+            "raw": "\"property enumeration order of the groups object is based on source order, not match order\"",
+            "start": 449,
+            "end": 540
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 371,
+        "end": 542
+      },
+      "start": 371,
+      "end": 543
     },
     {
       "type": "ExpressionStatement",
-      "start": 545,
-      "end": 717,
       "expression": {
         "type": "CallExpression",
-        "start": 545,
-        "end": 716,
         "callee": {
           "type": "MemberExpression",
-          "start": 545,
-          "end": 564,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 545,
-            "end": 551,
-            "name": "assert"
+            "end": 551
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 552,
-            "end": 564,
-            "name": "compareArray"
+            "end": 564
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 545,
+          "end": 564
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 568,
-            "end": 605,
             "callee": {
               "type": "MemberExpression",
-              "start": 568,
-              "end": 579,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 568,
-                "end": 574,
-                "name": "Object"
+                "end": 574
               },
               "property": {
                 "type": "Identifier",
+                "name": "keys",
                 "start": 575,
-                "end": 579,
-                "name": "keys"
+                "end": 579
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 568,
+              "end": 579
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 580,
-                "end": 604,
                 "object": {
                   "type": "CallExpression",
-                  "start": 580,
-                  "end": 597,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 580,
-                    "end": 591,
                     "object": {
                       "type": "Identifier",
+                      "name": "regexp",
                       "start": 580,
-                      "end": 586,
-                      "name": "regexp"
+                      "end": 586
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "exec",
                       "start": 587,
-                      "end": 591,
-                      "name": "exec"
+                      "end": 591
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 580,
+                    "end": 591
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 592,
-                      "end": 596,
                       "value": "bb",
-                      "raw": "\"bb\""
+                      "raw": "\"bb\"",
+                      "start": 592,
+                      "end": 596
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 580,
+                  "end": 597
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "groups",
                   "start": 598,
-                  "end": 604,
-                  "name": "groups"
+                  "end": 604
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 580,
+                "end": 604
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 568,
+            "end": 605
           },
           {
             "type": "ArrayExpression",
-            "start": 609,
-            "end": 619,
             "elements": [
               {
                 "type": "Literal",
-                "start": 610,
-                "end": 613,
                 "value": "y",
-                "raw": "\"y\""
+                "raw": "\"y\"",
+                "start": 610,
+                "end": 613
               },
               {
                 "type": "Literal",
-                "start": 615,
-                "end": 618,
                 "value": "x",
-                "raw": "\"x\""
+                "raw": "\"x\"",
+                "start": 615,
+                "end": 618
               }
-            ]
+            ],
+            "start": 609,
+            "end": 619
           },
           {
             "type": "Literal",
-            "start": 623,
-            "end": 714,
             "value": "property enumeration order of the groups object is based on source order, not match order",
-            "raw": "\"property enumeration order of the groups object is based on source order, not match order\""
+            "raw": "\"property enumeration order of the groups object is based on source order, not match order\"",
+            "start": 623,
+            "end": 714
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 545,
+        "end": 716
+      },
+      "start": 545,
+      "end": 717
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 718
 }

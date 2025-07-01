@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 74,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 74,
       "id": {
         "type": "Identifier",
-        "start": 16,
-        "end": 19,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 16,
+        "end": 19
       },
       "generator": true,
       "async": true,
@@ -26,69 +22,73 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 22,
-        "end": 74,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 28,
-            "end": 72,
             "expression": {
               "type": "ImportExpression",
-              "start": 28,
-              "end": 71,
               "source": {
                 "type": "MemberExpression",
-                "start": 35,
-                "end": 70,
                 "object": {
                   "type": "AwaitExpression",
-                  "start": 36,
-                  "end": 61,
                   "argument": {
                     "type": "ImportExpression",
-                    "start": 42,
-                    "end": 61,
                     "source": {
                       "type": "YieldExpression",
-                      "start": 49,
-                      "end": 60,
                       "delegate": false,
                       "argument": {
                         "type": "Literal",
-                        "start": 55,
-                        "end": 60,
                         "value": "foo",
-                        "raw": "\"foo\""
-                      }
+                        "raw": "\"foo\"",
+                        "start": 55,
+                        "end": 60
+                      },
+                      "start": 49,
+                      "end": 60
                     },
                     "options": null,
-                    "phase": null
-                  }
+                    "phase": null,
+                    "start": 42,
+                    "end": 61
+                  },
+                  "start": 36,
+                  "end": 61
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 63,
-                  "end": 70,
                   "decorators": [],
                   "name": "default",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 63,
+                  "end": 70
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 35,
+                "end": 70
               },
               "options": null,
-              "phase": null
+              "phase": null,
+              "start": 28,
+              "end": 71
             },
-            "directive": null
+            "directive": null,
+            "start": 28,
+            "end": 72
           }
-        ]
+        ],
+        "start": 22,
+        "end": 74
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 74
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 74
 }
 ```

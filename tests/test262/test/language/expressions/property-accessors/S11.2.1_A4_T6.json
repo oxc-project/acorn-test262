@@ -1,977 +1,977 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1676,
   "body": [
     {
       "type": "IfStatement",
-      "start": 272,
-      "end": 426,
       "test": {
         "type": "BinaryExpression",
-        "start": 276,
-        "end": 314,
         "left": {
           "type": "UnaryExpression",
-          "start": 276,
-          "end": 300,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 283,
-            "end": 300,
             "object": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 283,
-              "end": 290,
-              "name": "Boolean"
+              "end": 290
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 291,
-              "end": 300,
-              "name": "prototype"
+              "end": 300
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 283,
+            "end": 300
           },
-          "prefix": true
+          "prefix": true,
+          "start": 276,
+          "end": 300
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "object",
+          "raw": "\"object\"",
           "start": 306,
-          "end": 314,
-          "value": "object",
-          "raw": "\"object\""
-        }
+          "end": 314
+        },
+        "start": 276,
+        "end": 314
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 318,
-        "end": 426,
         "argument": {
           "type": "NewExpression",
-          "start": 324,
-          "end": 425,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 328,
-            "end": 340,
-            "name": "Test262Error"
+            "end": 340
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 341,
-              "end": 424,
               "left": {
                 "type": "Literal",
-                "start": 341,
-                "end": 394,
                 "value": "#1: typeof Boolean.prototype === \"object\". Actual: ",
-                "raw": "'#1: typeof Boolean.prototype === \"object\". Actual: '"
+                "raw": "'#1: typeof Boolean.prototype === \"object\". Actual: '",
+                "start": 341,
+                "end": 394
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 397,
-                "end": 424,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 398,
-                  "end": 422,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 405,
-                    "end": 422,
                     "object": {
                       "type": "Identifier",
+                      "name": "Boolean",
                       "start": 405,
-                      "end": 412,
-                      "name": "Boolean"
+                      "end": 412
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 413,
-                      "end": 422,
-                      "name": "prototype"
+                      "end": 422
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 405,
+                    "end": 422
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 398,
+                  "end": 422
+                },
+                "start": 397,
+                "end": 424
+              },
+              "start": 341,
+              "end": 424
             }
-          ]
-        }
+          ],
+          "start": 324,
+          "end": 425
+        },
+        "start": 318,
+        "end": 426
       },
-      "alternate": null
+      "alternate": null,
+      "start": 272,
+      "end": 426
     },
     {
       "type": "IfStatement",
-      "start": 427,
-      "end": 589,
       "test": {
         "type": "BinaryExpression",
-        "start": 431,
-        "end": 472,
         "left": {
           "type": "UnaryExpression",
-          "start": 431,
-          "end": 458,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 438,
-            "end": 458,
             "object": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 438,
-              "end": 445,
-              "name": "Boolean"
+              "end": 445
             },
             "property": {
               "type": "Literal",
-              "start": 446,
-              "end": 457,
               "value": "prototype",
-              "raw": "'prototype'"
+              "raw": "'prototype'",
+              "start": 446,
+              "end": 457
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 438,
+            "end": 458
           },
-          "prefix": true
+          "prefix": true,
+          "start": 431,
+          "end": 458
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 464,
-          "end": 472,
           "value": "object",
-          "raw": "\"object\""
-        }
+          "raw": "\"object\"",
+          "start": 464,
+          "end": 472
+        },
+        "start": 431,
+        "end": 472
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 475,
-        "end": 589,
         "argument": {
           "type": "NewExpression",
-          "start": 481,
-          "end": 588,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 485,
-            "end": 497,
-            "name": "Test262Error"
+            "end": 497
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 498,
-              "end": 587,
               "left": {
                 "type": "Literal",
-                "start": 498,
-                "end": 554,
                 "value": "#2: typeof Boolean[\"prototype\"] === \"object\". Actual: ",
-                "raw": "'#2: typeof Boolean[\"prototype\"] === \"object\". Actual: '"
+                "raw": "'#2: typeof Boolean[\"prototype\"] === \"object\". Actual: '",
+                "start": 498,
+                "end": 554
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 557,
-                "end": 587,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 558,
-                  "end": 585,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 565,
-                    "end": 585,
                     "object": {
                       "type": "Identifier",
+                      "name": "Boolean",
                       "start": 565,
-                      "end": 572,
-                      "name": "Boolean"
+                      "end": 572
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 573,
-                      "end": 584,
                       "value": "prototype",
-                      "raw": "\"prototype\""
+                      "raw": "\"prototype\"",
+                      "start": 573,
+                      "end": 584
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 565,
+                    "end": 585
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 558,
+                  "end": 585
+                },
+                "start": 557,
+                "end": 587
+              },
+              "start": 498,
+              "end": 587
             }
-          ]
-        }
+          ],
+          "start": 481,
+          "end": 588
+        },
+        "start": 475,
+        "end": 589
       },
-      "alternate": null
+      "alternate": null,
+      "start": 427,
+      "end": 589
     },
     {
       "type": "IfStatement",
-      "start": 590,
-      "end": 753,
       "test": {
         "type": "BinaryExpression",
-        "start": 594,
-        "end": 636,
         "left": {
           "type": "UnaryExpression",
-          "start": 594,
-          "end": 620,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 601,
-            "end": 620,
             "object": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 601,
-              "end": 608,
-              "name": "Boolean"
+              "end": 608
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 609,
-              "end": 620,
-              "name": "constructor"
+              "end": 620
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 601,
+            "end": 620
           },
-          "prefix": true
+          "prefix": true,
+          "start": 594,
+          "end": 620
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 626,
-          "end": 636,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 636
+        },
+        "start": 594,
+        "end": 636
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 639,
-        "end": 753,
         "argument": {
           "type": "NewExpression",
-          "start": 645,
-          "end": 752,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 649,
-            "end": 661,
-            "name": "Test262Error"
+            "end": 661
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 662,
-              "end": 751,
               "left": {
                 "type": "Literal",
-                "start": 662,
-                "end": 719,
                 "value": "#3: typeof Boolean.constructor === \"function\". Actual: ",
-                "raw": "'#3: typeof Boolean.constructor === \"function\". Actual: '"
+                "raw": "'#3: typeof Boolean.constructor === \"function\". Actual: '",
+                "start": 662,
+                "end": 719
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 722,
-                "end": 751,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 723,
-                  "end": 749,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 730,
-                    "end": 749,
                     "object": {
                       "type": "Identifier",
+                      "name": "Boolean",
                       "start": 730,
-                      "end": 737,
-                      "name": "Boolean"
+                      "end": 737
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "constructor",
                       "start": 738,
-                      "end": 749,
-                      "name": "constructor"
+                      "end": 749
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 730,
+                    "end": 749
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 723,
+                  "end": 749
+                },
+                "start": 722,
+                "end": 751
+              },
+              "start": 662,
+              "end": 751
             }
-          ]
-        }
+          ],
+          "start": 645,
+          "end": 752
+        },
+        "start": 639,
+        "end": 753
       },
-      "alternate": null
+      "alternate": null,
+      "start": 590,
+      "end": 753
     },
     {
       "type": "IfStatement",
-      "start": 754,
-      "end": 926,
       "test": {
         "type": "BinaryExpression",
-        "start": 758,
-        "end": 803,
         "left": {
           "type": "UnaryExpression",
-          "start": 758,
-          "end": 787,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 765,
-            "end": 787,
             "object": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 765,
-              "end": 772,
-              "name": "Boolean"
+              "end": 772
             },
             "property": {
               "type": "Literal",
-              "start": 773,
-              "end": 786,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "start": 773,
+              "end": 786
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 765,
+            "end": 787
           },
-          "prefix": true
+          "prefix": true,
+          "start": 758,
+          "end": 787
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 793,
-          "end": 803,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 803
+        },
+        "start": 758,
+        "end": 803
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 806,
-        "end": 926,
         "argument": {
           "type": "NewExpression",
-          "start": 812,
-          "end": 925,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 816,
-            "end": 828,
-            "name": "Test262Error"
+            "end": 828
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 829,
-              "end": 924,
               "left": {
                 "type": "Literal",
-                "start": 829,
-                "end": 889,
                 "value": "#4: typeof Boolean[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#4: typeof Boolean[\"constructor\"] === \"function\". Actual: '"
+                "raw": "'#4: typeof Boolean[\"constructor\"] === \"function\". Actual: '",
+                "start": 829,
+                "end": 889
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 892,
-                "end": 924,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 893,
-                  "end": 922,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 900,
-                    "end": 922,
                     "object": {
                       "type": "Identifier",
+                      "name": "Boolean",
                       "start": 900,
-                      "end": 907,
-                      "name": "Boolean"
+                      "end": 907
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 908,
-                      "end": 921,
                       "value": "constructor",
-                      "raw": "\"constructor\""
+                      "raw": "\"constructor\"",
+                      "start": 908,
+                      "end": 921
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 900,
+                    "end": 922
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 893,
+                  "end": 922
+                },
+                "start": 892,
+                "end": 924
+              },
+              "start": 829,
+              "end": 924
             }
-          ]
-        }
+          ],
+          "start": 812,
+          "end": 925
+        },
+        "start": 806,
+        "end": 926
       },
-      "alternate": null
+      "alternate": null,
+      "start": 754,
+      "end": 926
     },
     {
       "type": "IfStatement",
-      "start": 927,
-      "end": 1108,
       "test": {
         "type": "BinaryExpression",
-        "start": 931,
-        "end": 979,
         "left": {
           "type": "UnaryExpression",
-          "start": 931,
-          "end": 963,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 938,
-            "end": 963,
             "object": {
               "type": "MemberExpression",
-              "start": 938,
-              "end": 955,
               "object": {
                 "type": "Identifier",
+                "name": "Boolean",
                 "start": 938,
-                "end": 945,
-                "name": "Boolean"
+                "end": 945
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 946,
-                "end": 955,
-                "name": "prototype"
+                "end": 955
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 938,
+              "end": 955
             },
             "property": {
               "type": "Identifier",
+              "name": "valueOf",
               "start": 956,
-              "end": 963,
-              "name": "valueOf"
+              "end": 963
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 938,
+            "end": 963
           },
-          "prefix": true
+          "prefix": true,
+          "start": 931,
+          "end": 963
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 969,
-          "end": 979,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 969,
+          "end": 979
+        },
+        "start": 931,
+        "end": 979
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 982,
-        "end": 1108,
         "argument": {
           "type": "NewExpression",
-          "start": 988,
-          "end": 1107,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 992,
-            "end": 1004,
-            "name": "Test262Error"
+            "end": 1004
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1005,
-              "end": 1106,
               "left": {
                 "type": "Literal",
-                "start": 1005,
-                "end": 1068,
                 "value": "#5: typeof Boolean.prototype.valueOf === \"function\". Actual: ",
-                "raw": "'#5: typeof Boolean.prototype.valueOf === \"function\". Actual: '"
+                "raw": "'#5: typeof Boolean.prototype.valueOf === \"function\". Actual: '",
+                "start": 1005,
+                "end": 1068
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1071,
-                "end": 1106,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1072,
-                  "end": 1104,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1079,
-                    "end": 1104,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1079,
-                      "end": 1096,
                       "object": {
                         "type": "Identifier",
+                        "name": "Boolean",
                         "start": 1079,
-                        "end": 1086,
-                        "name": "Boolean"
+                        "end": 1086
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1087,
-                        "end": 1096,
-                        "name": "prototype"
+                        "end": 1096
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1079,
+                      "end": 1096
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "valueOf",
                       "start": 1097,
-                      "end": 1104,
-                      "name": "valueOf"
+                      "end": 1104
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1079,
+                    "end": 1104
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1072,
+                  "end": 1104
+                },
+                "start": 1071,
+                "end": 1106
+              },
+              "start": 1005,
+              "end": 1106
             }
-          ]
-        }
+          ],
+          "start": 988,
+          "end": 1107
+        },
+        "start": 982,
+        "end": 1108
       },
-      "alternate": null
+      "alternate": null,
+      "start": 927,
+      "end": 1108
     },
     {
       "type": "IfStatement",
-      "start": 1109,
-      "end": 1298,
       "test": {
         "type": "BinaryExpression",
-        "start": 1113,
-        "end": 1163,
         "left": {
           "type": "UnaryExpression",
-          "start": 1113,
-          "end": 1148,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1120,
-            "end": 1148,
             "object": {
               "type": "MemberExpression",
-              "start": 1120,
-              "end": 1137,
               "object": {
                 "type": "Identifier",
+                "name": "Boolean",
                 "start": 1120,
-                "end": 1127,
-                "name": "Boolean"
+                "end": 1127
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 1128,
-                "end": 1137,
-                "name": "prototype"
+                "end": 1137
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1120,
+              "end": 1137
             },
             "property": {
               "type": "Literal",
-              "start": 1138,
-              "end": 1147,
               "value": "valueOf",
-              "raw": "'valueOf'"
+              "raw": "'valueOf'",
+              "start": 1138,
+              "end": 1147
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1120,
+            "end": 1148
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1113,
+          "end": 1148
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1153,
-          "end": 1163,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 1153,
+          "end": 1163
+        },
+        "start": 1113,
+        "end": 1163
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1166,
-        "end": 1298,
         "argument": {
           "type": "NewExpression",
-          "start": 1172,
-          "end": 1297,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1176,
-            "end": 1188,
-            "name": "Test262Error"
+            "end": 1188
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1189,
-              "end": 1296,
               "left": {
                 "type": "Literal",
-                "start": 1189,
-                "end": 1255,
                 "value": "#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: '"
+                "raw": "'#6: typeof Boolean.prototype[\"valueOf\"] === \"function\". Actual: '",
+                "start": 1189,
+                "end": 1255
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1258,
-                "end": 1296,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1259,
-                  "end": 1294,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1266,
-                    "end": 1294,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1266,
-                      "end": 1283,
                       "object": {
                         "type": "Identifier",
+                        "name": "Boolean",
                         "start": 1266,
-                        "end": 1273,
-                        "name": "Boolean"
+                        "end": 1273
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1274,
-                        "end": 1283,
-                        "name": "prototype"
+                        "end": 1283
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1266,
+                      "end": 1283
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 1284,
-                      "end": 1293,
                       "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "raw": "\"valueOf\"",
+                      "start": 1284,
+                      "end": 1293
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 1266,
+                    "end": 1294
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1259,
+                  "end": 1294
+                },
+                "start": 1258,
+                "end": 1296
+              },
+              "start": 1189,
+              "end": 1296
             }
-          ]
-        }
+          ],
+          "start": 1172,
+          "end": 1297
+        },
+        "start": 1166,
+        "end": 1298
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1109,
+      "end": 1298
     },
     {
       "type": "IfStatement",
-      "start": 1299,
-      "end": 1482,
       "test": {
         "type": "BinaryExpression",
-        "start": 1303,
-        "end": 1351,
         "left": {
           "type": "UnaryExpression",
-          "start": 1303,
-          "end": 1336,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1310,
-            "end": 1336,
             "object": {
               "type": "MemberExpression",
-              "start": 1310,
-              "end": 1327,
               "object": {
                 "type": "Identifier",
+                "name": "Boolean",
                 "start": 1310,
-                "end": 1317,
-                "name": "Boolean"
+                "end": 1317
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 1318,
-                "end": 1327,
-                "name": "prototype"
+                "end": 1327
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1310,
+              "end": 1327
             },
             "property": {
               "type": "Identifier",
+              "name": "toString",
               "start": 1328,
-              "end": 1336,
-              "name": "toString"
+              "end": 1336
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1310,
+            "end": 1336
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1303,
+          "end": 1336
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1341,
-          "end": 1351,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 1341,
+          "end": 1351
+        },
+        "start": 1303,
+        "end": 1351
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1354,
-        "end": 1482,
         "argument": {
           "type": "NewExpression",
-          "start": 1360,
-          "end": 1481,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1364,
-            "end": 1376,
-            "name": "Test262Error"
+            "end": 1376
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1377,
-              "end": 1480,
               "left": {
                 "type": "Literal",
-                "start": 1377,
-                "end": 1441,
                 "value": "#7: typeof Boolean.prototype.toString === \"function\". Actual: ",
-                "raw": "'#7: typeof Boolean.prototype.toString === \"function\". Actual: '"
+                "raw": "'#7: typeof Boolean.prototype.toString === \"function\". Actual: '",
+                "start": 1377,
+                "end": 1441
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1444,
-                "end": 1480,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1445,
-                  "end": 1478,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1452,
-                    "end": 1478,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1452,
-                      "end": 1469,
                       "object": {
                         "type": "Identifier",
+                        "name": "Boolean",
                         "start": 1452,
-                        "end": 1459,
-                        "name": "Boolean"
+                        "end": 1459
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1460,
-                        "end": 1469,
-                        "name": "prototype"
+                        "end": 1469
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1452,
+                      "end": 1469
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "toString",
                       "start": 1470,
-                      "end": 1478,
-                      "name": "toString"
+                      "end": 1478
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1452,
+                    "end": 1478
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1445,
+                  "end": 1478
+                },
+                "start": 1444,
+                "end": 1480
+              },
+              "start": 1377,
+              "end": 1480
             }
-          ]
-        }
+          ],
+          "start": 1360,
+          "end": 1481
+        },
+        "start": 1354,
+        "end": 1482
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1299,
+      "end": 1482
     },
     {
       "type": "IfStatement",
-      "start": 1483,
-      "end": 1675,
       "test": {
         "type": "BinaryExpression",
-        "start": 1487,
-        "end": 1538,
         "left": {
           "type": "UnaryExpression",
-          "start": 1487,
-          "end": 1523,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1494,
-            "end": 1523,
             "object": {
               "type": "MemberExpression",
-              "start": 1494,
-              "end": 1511,
               "object": {
                 "type": "Identifier",
+                "name": "Boolean",
                 "start": 1494,
-                "end": 1501,
-                "name": "Boolean"
+                "end": 1501
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 1502,
-                "end": 1511,
-                "name": "prototype"
+                "end": 1511
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1494,
+              "end": 1511
             },
             "property": {
               "type": "Literal",
-              "start": 1512,
-              "end": 1522,
               "value": "toString",
-              "raw": "'toString'"
+              "raw": "'toString'",
+              "start": 1512,
+              "end": 1522
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1494,
+            "end": 1523
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1487,
+          "end": 1523
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 1528,
-          "end": 1538,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 1528,
+          "end": 1538
+        },
+        "start": 1487,
+        "end": 1538
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1541,
-        "end": 1675,
         "argument": {
           "type": "NewExpression",
-          "start": 1547,
-          "end": 1674,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1551,
-            "end": 1563,
-            "name": "Test262Error"
+            "end": 1563
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1564,
-              "end": 1673,
               "left": {
                 "type": "Literal",
-                "start": 1564,
-                "end": 1631,
                 "value": "#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: '"
+                "raw": "'#8: typeof Boolean.prototype[\"toString\"] === \"function\". Actual: '",
+                "start": 1564,
+                "end": 1631
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1634,
-                "end": 1673,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1635,
-                  "end": 1671,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1642,
-                    "end": 1671,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1642,
-                      "end": 1659,
                       "object": {
                         "type": "Identifier",
+                        "name": "Boolean",
                         "start": 1642,
-                        "end": 1649,
-                        "name": "Boolean"
+                        "end": 1649
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1650,
-                        "end": 1659,
-                        "name": "prototype"
+                        "end": 1659
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1642,
+                      "end": 1659
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 1660,
-                      "end": 1670,
                       "value": "toString",
-                      "raw": "\"toString\""
+                      "raw": "\"toString\"",
+                      "start": 1660,
+                      "end": 1670
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 1642,
+                    "end": 1671
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1635,
+                  "end": 1671
+                },
+                "start": 1634,
+                "end": 1673
+              },
+              "start": 1564,
+              "end": 1673
             }
-          ]
-        }
+          ],
+          "start": 1547,
+          "end": 1674
+        },
+        "start": 1541,
+        "end": 1675
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1483,
+      "end": 1675
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1676
 }

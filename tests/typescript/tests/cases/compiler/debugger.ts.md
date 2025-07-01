@@ -2,8 +2,6 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "DebuggerStatement",
@@ -12,16 +10,14 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "FunctionDeclaration",
-      "start": 11,
-      "end": 44,
       "id": {
         "type": "Identifier",
-        "start": 20,
-        "end": 23,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 20,
+        "end": 23
       },
       "generator": false,
       "async": false,
@@ -31,20 +27,24 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 26,
-        "end": 44,
         "body": [
           {
             "type": "DebuggerStatement",
             "start": 32,
             "end": 41
           }
-        ]
+        ],
+        "start": 26,
+        "end": 44
       },
-      "expression": false
+      "expression": false,
+      "start": 11,
+      "end": 44
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```

@@ -2,62 +2,58 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 88,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 17,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 17,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 16,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 16,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 15,
+              "end": 16
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 16
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 17
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 17
     },
     {
       "type": "ClassDeclaration",
-      "start": 18,
-      "end": 47,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 24,
-        "end": 26,
         "decorators": [],
         "name": "c5",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 24,
+        "end": 26
       },
       "typeParameters": null,
       "superClass": null,
@@ -65,27 +61,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 27,
-        "end": 47,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 29,
-            "end": 45,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 36,
-              "end": 39,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 39
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 39,
-              "end": 45,
               "id": null,
               "generator": false,
               "async": false,
@@ -95,49 +85,59 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 42,
-                "end": 45,
-                "body": []
+                "end": 45
               },
-              "expression": false
+              "expression": false,
+              "start": 39,
+              "end": 45
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 29,
+            "end": 45
           }
-        ]
+        ],
+        "start": 27,
+        "end": 47
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 18,
+      "end": 47
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 48,
-      "end": 61,
       "id": {
         "type": "Identifier",
-        "start": 55,
-        "end": 57,
         "decorators": [],
         "name": "c5",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 55,
+        "end": 57
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 58,
-        "end": 61,
-        "body": []
+        "end": 61
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 48,
+      "end": 61
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 88
 }
 ```

@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 404,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 403,
       "expression": {
         "type": "CallExpression",
-        "start": 267,
-        "end": 402,
         "callee": {
           "type": "MemberExpression",
-          "start": 267,
-          "end": 283,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 267,
-            "end": 273,
-            "name": "assert"
+            "end": 273
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 274,
-            "end": 283,
-            "name": "sameValue"
+            "end": 283
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 267,
+          "end": 283
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 287,
-            "end": 319,
             "callee": {
               "type": "MemberExpression",
-              "start": 287,
-              "end": 308,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 287,
-                "end": 293,
-                "name": "Object"
+                "end": 293
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 294,
-                "end": 308,
-                "name": "getPrototypeOf"
+                "end": 308
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 287,
+              "end": 308
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 309,
-                "end": 318,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Map",
                   "start": 313,
-                  "end": 316,
-                  "name": "Map"
+                  "end": 316
                 },
-                "arguments": []
+                "arguments": [],
+                "start": 309,
+                "end": 318
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 287,
+            "end": 319
           },
           {
             "type": "MemberExpression",
-            "start": 323,
-            "end": 336,
             "object": {
               "type": "Identifier",
+              "name": "Map",
               "start": 323,
-              "end": 326,
-              "name": "Map"
+              "end": 326
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 327,
-              "end": 336,
-              "name": "prototype"
+              "end": 336
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 323,
+            "end": 336
           },
           {
             "type": "Literal",
-            "start": 340,
-            "end": 400,
             "value": "`Object.getPrototypeOf(new Map())` returns `Map.prototype`",
-            "raw": "'`Object.getPrototypeOf(new Map())` returns `Map.prototype`'"
+            "raw": "'`Object.getPrototypeOf(new Map())` returns `Map.prototype`'",
+            "start": 340,
+            "end": 400
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 267,
+        "end": 402
+      },
+      "start": 267,
+      "end": 403
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 404
 }

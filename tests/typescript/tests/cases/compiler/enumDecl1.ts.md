@@ -2,106 +2,106 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 78,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 78,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 23,
         "decorators": [],
         "name": "mAmbient",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 23
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 24,
-        "end": 78,
         "body": [
           {
             "type": "TSEnumDeclaration",
-            "start": 30,
-            "end": 76,
             "id": {
               "type": "Identifier",
-              "start": 35,
-              "end": 36,
               "decorators": [],
               "name": "e",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 35,
+              "end": 36
             },
             "body": {
               "type": "TSEnumBody",
-              "start": 37,
-              "end": 76,
               "members": [
                 {
                   "type": "TSEnumMember",
-                  "start": 47,
-                  "end": 48,
                   "id": {
                     "type": "Identifier",
-                    "start": 47,
-                    "end": 48,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 47,
+                    "end": 48
                   },
                   "initializer": null,
-                  "computed": false
+                  "computed": false,
+                  "start": 47,
+                  "end": 48
                 },
                 {
                   "type": "TSEnumMember",
-                  "start": 58,
-                  "end": 59,
                   "id": {
                     "type": "Identifier",
-                    "start": 58,
-                    "end": 59,
                     "decorators": [],
                     "name": "y",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 58,
+                    "end": 59
                   },
                   "initializer": null,
-                  "computed": false
+                  "computed": false,
+                  "start": 58,
+                  "end": 59
                 },
                 {
                   "type": "TSEnumMember",
-                  "start": 69,
-                  "end": 70,
                   "id": {
                     "type": "Identifier",
-                    "start": 69,
-                    "end": 70,
                     "decorators": [],
                     "name": "z",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 69,
+                    "end": 70
                   },
                   "initializer": null,
-                  "computed": false
+                  "computed": false,
+                  "start": 69,
+                  "end": 70
                 }
-              ]
+              ],
+              "start": 37,
+              "end": 76
             },
             "const": false,
-            "declare": false
+            "declare": false,
+            "start": 30,
+            "end": 76
           }
-        ]
+        ],
+        "start": 24,
+        "end": 78
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 78
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 78
 }
 ```

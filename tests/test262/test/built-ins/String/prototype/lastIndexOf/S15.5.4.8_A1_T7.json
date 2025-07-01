@@ -1,162 +1,162 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 823,
   "body": [
     {
       "type": "IfStatement",
-      "start": 546,
-      "end": 740,
       "test": {
         "type": "BinaryExpression",
-        "start": 550,
-        "end": 598,
         "left": {
           "type": "CallExpression",
-          "start": 550,
-          "end": 592,
           "callee": {
             "type": "MemberExpression",
-            "start": 550,
-            "end": 581,
             "object": {
               "type": "CallExpression",
-              "start": 550,
-              "end": 569,
               "callee": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 550,
-                "end": 556,
-                "name": "String"
+                "end": 556
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 557,
-                  "end": 568,
                   "value": "undefined",
-                  "raw": "\"undefined\""
+                  "raw": "\"undefined\"",
+                  "start": 557,
+                  "end": 568
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 550,
+              "end": 569
             },
             "property": {
               "type": "Identifier",
+              "name": "lastIndexOf",
               "start": 570,
-              "end": 581,
-              "name": "lastIndexOf"
+              "end": 581
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 550,
+            "end": 581
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "undefined",
               "start": 582,
-              "end": 591,
-              "name": "undefined"
+              "end": 591
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 550,
+          "end": 592
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 597,
-          "end": 598,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 597,
+          "end": 598
+        },
+        "start": 550,
+        "end": 598
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 600,
-        "end": 740,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 604,
-            "end": 738,
             "argument": {
               "type": "NewExpression",
-              "start": 610,
-              "end": 737,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 614,
-                "end": 626,
-                "name": "Test262Error"
+                "end": 626
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 627,
-                  "end": 736,
                   "left": {
                     "type": "Literal",
-                    "start": 627,
-                    "end": 691,
                     "value": "#1: String(\"undefined\").lastIndexOf(undefined) === 0. Actual: ",
-                    "raw": "'#1: String(\"undefined\").lastIndexOf(undefined) === 0. Actual: '"
+                    "raw": "'#1: String(\"undefined\").lastIndexOf(undefined) === 0. Actual: '",
+                    "start": 627,
+                    "end": 691
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 694,
-                    "end": 736,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 694,
-                      "end": 725,
                       "object": {
                         "type": "CallExpression",
-                        "start": 694,
-                        "end": 713,
                         "callee": {
                           "type": "Identifier",
+                          "name": "String",
                           "start": 694,
-                          "end": 700,
-                          "name": "String"
+                          "end": 700
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 701,
-                            "end": 712,
                             "value": "undefined",
-                            "raw": "\"undefined\""
+                            "raw": "\"undefined\"",
+                            "start": 701,
+                            "end": 712
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 694,
+                        "end": 713
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "lastIndexOf",
                         "start": 714,
-                        "end": 725,
-                        "name": "lastIndexOf"
+                        "end": 725
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 694,
+                      "end": 725
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 726,
-                        "end": 735,
-                        "name": "undefined"
+                        "end": 735
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 694,
+                    "end": 736
+                  },
+                  "start": 627,
+                  "end": 736
                 }
-              ]
-            }
+              ],
+              "start": 610,
+              "end": 737
+            },
+            "start": 604,
+            "end": 738
           }
-        ]
+        ],
+        "start": 600,
+        "end": 740
       },
-      "alternate": null
+      "alternate": null,
+      "start": 546,
+      "end": 740
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 823
 }

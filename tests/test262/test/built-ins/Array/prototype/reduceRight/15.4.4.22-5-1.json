@@ -1,123 +1,123 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 379,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 298,
-      "end": 314,
       "id": {
         "type": "Identifier",
+        "name": "cb",
         "start": 307,
-        "end": 309,
-        "name": "cb"
+        "end": 309
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 312,
-        "end": 314,
-        "body": []
+        "end": 314
       },
-      "expression": false
+      "expression": false,
+      "start": 298,
+      "end": 314
     },
     {
       "type": "ExpressionStatement",
-      "start": 315,
-      "end": 378,
       "expression": {
         "type": "CallExpression",
-        "start": 315,
-        "end": 377,
         "callee": {
           "type": "MemberExpression",
-          "start": 315,
-          "end": 328,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 315,
-            "end": 321,
-            "name": "assert"
+            "end": 321
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 322,
-            "end": 328,
-            "name": "throws"
+            "end": 328
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 315,
+          "end": 328
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 329,
-            "end": 338,
-            "name": "TypeError"
+            "end": 338
           },
           {
             "type": "FunctionExpression",
-            "start": 340,
-            "end": 376,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 351,
-              "end": 376,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 355,
-                  "end": 374,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 355,
-                    "end": 373,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 355,
-                      "end": 369,
                       "object": {
                         "type": "ArrayExpression",
+                        "elements": [],
                         "start": 355,
-                        "end": 357,
-                        "elements": []
+                        "end": 357
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "reduceRight",
                         "start": 358,
-                        "end": 369,
-                        "name": "reduceRight"
+                        "end": 369
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 355,
+                      "end": 369
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "cb",
                         "start": 370,
-                        "end": 372,
-                        "name": "cb"
+                        "end": 372
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 355,
+                    "end": 373
+                  },
+                  "start": 355,
+                  "end": 374
                 }
-              ]
+              ],
+              "start": 351,
+              "end": 376
             },
-            "expression": false
+            "expression": false,
+            "start": 340,
+            "end": 376
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 315,
+        "end": 377
+      },
+      "start": 315,
+      "end": 378
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 379
 }

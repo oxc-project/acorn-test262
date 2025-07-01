@@ -1,3643 +1,3643 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 5399,
   "body": [
     {
       "type": "IfStatement",
-      "start": 272,
-      "end": 422,
       "test": {
         "type": "BinaryExpression",
-        "start": 276,
-        "end": 313,
         "left": {
           "type": "UnaryExpression",
-          "start": 276,
-          "end": 299,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 283,
-            "end": 299,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 283,
-              "end": 289,
-              "name": "String"
+              "end": 289
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 290,
-              "end": 299,
-              "name": "prototype"
+              "end": 299
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 283,
+            "end": 299
           },
-          "prefix": true
+          "prefix": true,
+          "start": 276,
+          "end": 299
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "object",
+          "raw": "\"object\"",
           "start": 305,
-          "end": 313,
-          "value": "object",
-          "raw": "\"object\""
-        }
+          "end": 313
+        },
+        "start": 276,
+        "end": 313
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 316,
-        "end": 422,
         "argument": {
           "type": "NewExpression",
-          "start": 322,
-          "end": 421,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 326,
-            "end": 338,
-            "name": "Test262Error"
+            "end": 338
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 339,
-              "end": 420,
               "left": {
                 "type": "Literal",
-                "start": 339,
-                "end": 391,
                 "value": "#1: typeof String.prototype === \"object\". Actual: ",
-                "raw": "'#1: typeof String.prototype === \"object\". Actual: '"
+                "raw": "'#1: typeof String.prototype === \"object\". Actual: '",
+                "start": 339,
+                "end": 391
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 394,
-                "end": 420,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 395,
-                  "end": 418,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 402,
-                    "end": 418,
                     "object": {
                       "type": "Identifier",
+                      "name": "String",
                       "start": 402,
-                      "end": 408,
-                      "name": "String"
+                      "end": 408
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 409,
-                      "end": 418,
-                      "name": "prototype"
+                      "end": 418
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 402,
+                    "end": 418
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 395,
+                  "end": 418
+                },
+                "start": 394,
+                "end": 420
+              },
+              "start": 339,
+              "end": 420
             }
-          ]
-        }
+          ],
+          "start": 322,
+          "end": 421
+        },
+        "start": 316,
+        "end": 422
       },
-      "alternate": null
+      "alternate": null,
+      "start": 272,
+      "end": 422
     },
     {
       "type": "IfStatement",
-      "start": 423,
-      "end": 582,
       "test": {
         "type": "BinaryExpression",
-        "start": 427,
-        "end": 467,
         "left": {
           "type": "UnaryExpression",
-          "start": 427,
-          "end": 453,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 434,
-            "end": 453,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 434,
-              "end": 440,
-              "name": "String"
+              "end": 440
             },
             "property": {
               "type": "Literal",
-              "start": 441,
-              "end": 452,
               "value": "prototype",
-              "raw": "'prototype'"
+              "raw": "'prototype'",
+              "start": 441,
+              "end": 452
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 434,
+            "end": 453
           },
-          "prefix": true
+          "prefix": true,
+          "start": 427,
+          "end": 453
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 459,
-          "end": 467,
           "value": "object",
-          "raw": "\"object\""
-        }
+          "raw": "\"object\"",
+          "start": 459,
+          "end": 467
+        },
+        "start": 427,
+        "end": 467
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 470,
-        "end": 582,
         "argument": {
           "type": "NewExpression",
-          "start": 476,
-          "end": 581,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 480,
-            "end": 492,
-            "name": "Test262Error"
+            "end": 492
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 493,
-              "end": 580,
               "left": {
                 "type": "Literal",
-                "start": 493,
-                "end": 548,
                 "value": "#2: typeof String[\"prototype\"] === \"object\". Actual: ",
-                "raw": "'#2: typeof String[\"prototype\"] === \"object\". Actual: '"
+                "raw": "'#2: typeof String[\"prototype\"] === \"object\". Actual: '",
+                "start": 493,
+                "end": 548
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 551,
-                "end": 580,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 552,
-                  "end": 578,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 559,
-                    "end": 578,
                     "object": {
                       "type": "Identifier",
+                      "name": "String",
                       "start": 559,
-                      "end": 565,
-                      "name": "String"
+                      "end": 565
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 566,
-                      "end": 577,
                       "value": "prototype",
-                      "raw": "\"prototype\""
+                      "raw": "\"prototype\"",
+                      "start": 566,
+                      "end": 577
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 559,
+                    "end": 578
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 552,
+                  "end": 578
+                },
+                "start": 551,
+                "end": 580
+              },
+              "start": 493,
+              "end": 580
             }
-          ]
-        }
+          ],
+          "start": 476,
+          "end": 581
+        },
+        "start": 470,
+        "end": 582
       },
-      "alternate": null
+      "alternate": null,
+      "start": 423,
+      "end": 582
     },
     {
       "type": "IfStatement",
-      "start": 583,
-      "end": 746,
       "test": {
         "type": "BinaryExpression",
-        "start": 587,
-        "end": 629,
         "left": {
           "type": "UnaryExpression",
-          "start": 587,
-          "end": 613,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 594,
-            "end": 613,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 594,
-              "end": 600,
-              "name": "String"
+              "end": 600
             },
             "property": {
               "type": "Identifier",
+              "name": "fromCharCode",
               "start": 601,
-              "end": 613,
-              "name": "fromCharCode"
+              "end": 613
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 594,
+            "end": 613
           },
-          "prefix": true
+          "prefix": true,
+          "start": 587,
+          "end": 613
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 619,
-          "end": 629,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 629
+        },
+        "start": 587,
+        "end": 629
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 632,
-        "end": 746,
         "argument": {
           "type": "NewExpression",
-          "start": 638,
-          "end": 745,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 642,
-            "end": 654,
-            "name": "Test262Error"
+            "end": 654
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 655,
-              "end": 744,
               "left": {
                 "type": "Literal",
-                "start": 655,
-                "end": 712,
                 "value": "#3: typeof String.fromCharCode === \"function\". Actual: ",
-                "raw": "'#3: typeof String.fromCharCode === \"function\". Actual: '"
+                "raw": "'#3: typeof String.fromCharCode === \"function\". Actual: '",
+                "start": 655,
+                "end": 712
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 715,
-                "end": 744,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 716,
-                  "end": 742,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 723,
-                    "end": 742,
                     "object": {
                       "type": "Identifier",
+                      "name": "String",
                       "start": 723,
-                      "end": 729,
-                      "name": "String"
+                      "end": 729
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "fromCharCode",
                       "start": 730,
-                      "end": 742,
-                      "name": "fromCharCode"
+                      "end": 742
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 723,
+                    "end": 742
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 716,
+                  "end": 742
+                },
+                "start": 715,
+                "end": 744
+              },
+              "start": 655,
+              "end": 744
             }
-          ]
-        }
+          ],
+          "start": 638,
+          "end": 745
+        },
+        "start": 632,
+        "end": 746
       },
-      "alternate": null
+      "alternate": null,
+      "start": 583,
+      "end": 746
     },
     {
       "type": "IfStatement",
-      "start": 747,
-      "end": 919,
       "test": {
         "type": "BinaryExpression",
-        "start": 751,
-        "end": 796,
         "left": {
           "type": "UnaryExpression",
-          "start": 751,
-          "end": 780,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 758,
-            "end": 780,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 758,
-              "end": 764,
-              "name": "String"
+              "end": 764
             },
             "property": {
               "type": "Literal",
-              "start": 765,
-              "end": 779,
               "value": "fromCharCode",
-              "raw": "'fromCharCode'"
+              "raw": "'fromCharCode'",
+              "start": 765,
+              "end": 779
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 758,
+            "end": 780
           },
-          "prefix": true
+          "prefix": true,
+          "start": 751,
+          "end": 780
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 786,
-          "end": 796,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 796
+        },
+        "start": 751,
+        "end": 796
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 799,
-        "end": 919,
         "argument": {
           "type": "NewExpression",
-          "start": 805,
-          "end": 918,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 809,
-            "end": 821,
-            "name": "Test262Error"
+            "end": 821
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 822,
-              "end": 917,
               "left": {
                 "type": "Literal",
-                "start": 822,
-                "end": 882,
                 "value": "#4: typeof String[\"fromCharCode\"] === \"function\". Actual: ",
-                "raw": "'#4: typeof String[\"fromCharCode\"] === \"function\". Actual: '"
+                "raw": "'#4: typeof String[\"fromCharCode\"] === \"function\". Actual: '",
+                "start": 822,
+                "end": 882
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 885,
-                "end": 917,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 886,
-                  "end": 915,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 893,
-                    "end": 915,
                     "object": {
                       "type": "Identifier",
+                      "name": "String",
                       "start": 893,
-                      "end": 899,
-                      "name": "String"
+                      "end": 899
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 900,
-                      "end": 914,
                       "value": "fromCharCode",
-                      "raw": "\"fromCharCode\""
+                      "raw": "\"fromCharCode\"",
+                      "start": 900,
+                      "end": 914
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 893,
+                    "end": 915
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 886,
+                  "end": 915
+                },
+                "start": 885,
+                "end": 917
+              },
+              "start": 822,
+              "end": 917
             }
-          ]
-        }
+          ],
+          "start": 805,
+          "end": 918
+        },
+        "start": 799,
+        "end": 919
       },
-      "alternate": null
+      "alternate": null,
+      "start": 747,
+      "end": 919
     },
     {
       "type": "IfStatement",
-      "start": 920,
-      "end": 1101,
       "test": {
         "type": "BinaryExpression",
-        "start": 924,
-        "end": 972,
         "left": {
           "type": "UnaryExpression",
-          "start": 924,
-          "end": 956,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 931,
-            "end": 956,
             "object": {
               "type": "MemberExpression",
-              "start": 931,
-              "end": 947,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 931,
-                "end": 937,
-                "name": "String"
+                "end": 937
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 938,
-                "end": 947,
-                "name": "prototype"
+                "end": 947
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 931,
+              "end": 947
             },
             "property": {
               "type": "Identifier",
+              "name": "toString",
               "start": 948,
-              "end": 956,
-              "name": "toString"
+              "end": 956
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 931,
+            "end": 956
           },
-          "prefix": true
+          "prefix": true,
+          "start": 924,
+          "end": 956
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 962,
-          "end": 972,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 972
+        },
+        "start": 924,
+        "end": 972
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 975,
-        "end": 1101,
         "argument": {
           "type": "NewExpression",
-          "start": 981,
-          "end": 1100,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 985,
-            "end": 997,
-            "name": "Test262Error"
+            "end": 997
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 998,
-              "end": 1099,
               "left": {
                 "type": "Literal",
-                "start": 998,
-                "end": 1061,
                 "value": "#5: typeof String.prototype.toString === \"function\". Actual: ",
-                "raw": "'#5: typeof String.prototype.toString === \"function\". Actual: '"
+                "raw": "'#5: typeof String.prototype.toString === \"function\". Actual: '",
+                "start": 998,
+                "end": 1061
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1064,
-                "end": 1099,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1065,
-                  "end": 1097,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1072,
-                    "end": 1097,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1072,
-                      "end": 1088,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 1072,
-                        "end": 1078,
-                        "name": "String"
+                        "end": 1078
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1079,
-                        "end": 1088,
-                        "name": "prototype"
+                        "end": 1088
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1072,
+                      "end": 1088
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "toString",
                       "start": 1089,
-                      "end": 1097,
-                      "name": "toString"
+                      "end": 1097
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1072,
+                    "end": 1097
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1065,
+                  "end": 1097
+                },
+                "start": 1064,
+                "end": 1099
+              },
+              "start": 998,
+              "end": 1099
             }
-          ]
-        }
+          ],
+          "start": 981,
+          "end": 1100
+        },
+        "start": 975,
+        "end": 1101
       },
-      "alternate": null
+      "alternate": null,
+      "start": 920,
+      "end": 1101
     },
     {
       "type": "IfStatement",
-      "start": 1102,
-      "end": 1292,
       "test": {
         "type": "BinaryExpression",
-        "start": 1106,
-        "end": 1157,
         "left": {
           "type": "UnaryExpression",
-          "start": 1106,
-          "end": 1141,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1113,
-            "end": 1141,
             "object": {
               "type": "MemberExpression",
-              "start": 1113,
-              "end": 1129,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 1113,
-                "end": 1119,
-                "name": "String"
+                "end": 1119
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 1120,
-                "end": 1129,
-                "name": "prototype"
+                "end": 1129
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1113,
+              "end": 1129
             },
             "property": {
               "type": "Literal",
-              "start": 1130,
-              "end": 1140,
               "value": "toString",
-              "raw": "'toString'"
+              "raw": "'toString'",
+              "start": 1130,
+              "end": 1140
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1113,
+            "end": 1141
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1106,
+          "end": 1141
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 1147,
-          "end": 1157,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 1157
+        },
+        "start": 1106,
+        "end": 1157
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1160,
-        "end": 1292,
         "argument": {
           "type": "NewExpression",
-          "start": 1166,
-          "end": 1291,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1170,
-            "end": 1182,
-            "name": "Test262Error"
+            "end": 1182
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1183,
-              "end": 1290,
               "left": {
                 "type": "Literal",
-                "start": 1183,
-                "end": 1249,
                 "value": "#6: typeof String.prototype[\"toString\"] === \"function\". Actual: ",
-                "raw": "'#6: typeof String.prototype[\"toString\"] === \"function\". Actual: '"
+                "raw": "'#6: typeof String.prototype[\"toString\"] === \"function\". Actual: '",
+                "start": 1183,
+                "end": 1249
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1252,
-                "end": 1290,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1253,
-                  "end": 1288,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1260,
-                    "end": 1288,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1260,
-                      "end": 1276,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 1260,
-                        "end": 1266,
-                        "name": "String"
+                        "end": 1266
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1267,
-                        "end": 1276,
-                        "name": "prototype"
+                        "end": 1276
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1260,
+                      "end": 1276
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 1277,
-                      "end": 1287,
                       "value": "toString",
-                      "raw": "\"toString\""
+                      "raw": "\"toString\"",
+                      "start": 1277,
+                      "end": 1287
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 1260,
+                    "end": 1288
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1253,
+                  "end": 1288
+                },
+                "start": 1252,
+                "end": 1290
+              },
+              "start": 1183,
+              "end": 1290
             }
-          ]
-        }
+          ],
+          "start": 1166,
+          "end": 1291
+        },
+        "start": 1160,
+        "end": 1292
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1102,
+      "end": 1292
     },
     {
       "type": "IfStatement",
-      "start": 1293,
-      "end": 1483,
       "test": {
         "type": "BinaryExpression",
-        "start": 1297,
-        "end": 1348,
         "left": {
           "type": "UnaryExpression",
-          "start": 1297,
-          "end": 1332,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1304,
-            "end": 1332,
             "object": {
               "type": "MemberExpression",
-              "start": 1304,
-              "end": 1320,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 1304,
-                "end": 1310,
-                "name": "String"
+                "end": 1310
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 1311,
-                "end": 1320,
-                "name": "prototype"
+                "end": 1320
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1304,
+              "end": 1320
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 1321,
-              "end": 1332,
-              "name": "constructor"
+              "end": 1332
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1304,
+            "end": 1332
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1297,
+          "end": 1332
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 1338,
-          "end": 1348,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 1348
+        },
+        "start": 1297,
+        "end": 1348
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1351,
-        "end": 1483,
         "argument": {
           "type": "NewExpression",
-          "start": 1357,
-          "end": 1482,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1361,
-            "end": 1373,
-            "name": "Test262Error"
+            "end": 1373
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1374,
-              "end": 1481,
               "left": {
                 "type": "Literal",
-                "start": 1374,
-                "end": 1440,
                 "value": "#7: typeof String.prototype.constructor === \"function\". Actual: ",
-                "raw": "'#7: typeof String.prototype.constructor === \"function\". Actual: '"
+                "raw": "'#7: typeof String.prototype.constructor === \"function\". Actual: '",
+                "start": 1374,
+                "end": 1440
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1443,
-                "end": 1481,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1444,
-                  "end": 1479,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1451,
-                    "end": 1479,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1451,
-                      "end": 1467,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 1451,
-                        "end": 1457,
-                        "name": "String"
+                        "end": 1457
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1458,
-                        "end": 1467,
-                        "name": "prototype"
+                        "end": 1467
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1451,
+                      "end": 1467
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "constructor",
                       "start": 1468,
-                      "end": 1479,
-                      "name": "constructor"
+                      "end": 1479
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1451,
+                    "end": 1479
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1444,
+                  "end": 1479
+                },
+                "start": 1443,
+                "end": 1481
+              },
+              "start": 1374,
+              "end": 1481
             }
-          ]
-        }
+          ],
+          "start": 1357,
+          "end": 1482
+        },
+        "start": 1351,
+        "end": 1483
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1293,
+      "end": 1483
     },
     {
       "type": "IfStatement",
-      "start": 1484,
-      "end": 1683,
       "test": {
         "type": "BinaryExpression",
-        "start": 1488,
-        "end": 1542,
         "left": {
           "type": "UnaryExpression",
-          "start": 1488,
-          "end": 1526,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1495,
-            "end": 1526,
             "object": {
               "type": "MemberExpression",
-              "start": 1495,
-              "end": 1511,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 1495,
-                "end": 1501,
-                "name": "String"
+                "end": 1501
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 1502,
-                "end": 1511,
-                "name": "prototype"
+                "end": 1511
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1495,
+              "end": 1511
             },
             "property": {
               "type": "Literal",
-              "start": 1512,
-              "end": 1525,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "start": 1512,
+              "end": 1525
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1495,
+            "end": 1526
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1488,
+          "end": 1526
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 1532,
-          "end": 1542,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 1542
+        },
+        "start": 1488,
+        "end": 1542
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1545,
-        "end": 1683,
         "argument": {
           "type": "NewExpression",
-          "start": 1551,
-          "end": 1682,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1555,
-            "end": 1567,
-            "name": "Test262Error"
+            "end": 1567
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1568,
-              "end": 1681,
               "left": {
                 "type": "Literal",
-                "start": 1568,
-                "end": 1637,
                 "value": "#8: typeof String.prototype[\"constructor\"] === \"function\". Actual: ",
-                "raw": "'#8: typeof String.prototype[\"constructor\"] === \"function\". Actual: '"
+                "raw": "'#8: typeof String.prototype[\"constructor\"] === \"function\". Actual: '",
+                "start": 1568,
+                "end": 1637
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1640,
-                "end": 1681,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1641,
-                  "end": 1679,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1648,
-                    "end": 1679,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1648,
-                      "end": 1664,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 1648,
-                        "end": 1654,
-                        "name": "String"
+                        "end": 1654
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1655,
-                        "end": 1664,
-                        "name": "prototype"
+                        "end": 1664
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1648,
+                      "end": 1664
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 1665,
-                      "end": 1678,
                       "value": "constructor",
-                      "raw": "\"constructor\""
+                      "raw": "\"constructor\"",
+                      "start": 1665,
+                      "end": 1678
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 1648,
+                    "end": 1679
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1641,
+                  "end": 1679
+                },
+                "start": 1640,
+                "end": 1681
+              },
+              "start": 1568,
+              "end": 1681
             }
-          ]
-        }
+          ],
+          "start": 1551,
+          "end": 1682
+        },
+        "start": 1545,
+        "end": 1683
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1484,
+      "end": 1683
     },
     {
       "type": "IfStatement",
-      "start": 1684,
-      "end": 1862,
       "test": {
         "type": "BinaryExpression",
-        "start": 1688,
-        "end": 1735,
         "left": {
           "type": "UnaryExpression",
-          "start": 1688,
-          "end": 1719,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1695,
-            "end": 1719,
             "object": {
               "type": "MemberExpression",
-              "start": 1695,
-              "end": 1711,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 1695,
-                "end": 1701,
-                "name": "String"
+                "end": 1701
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 1702,
-                "end": 1711,
-                "name": "prototype"
+                "end": 1711
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1695,
+              "end": 1711
             },
             "property": {
               "type": "Identifier",
+              "name": "valueOf",
               "start": 1712,
-              "end": 1719,
-              "name": "valueOf"
+              "end": 1719
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1695,
+            "end": 1719
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1688,
+          "end": 1719
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 1725,
-          "end": 1735,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 1735
+        },
+        "start": 1688,
+        "end": 1735
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1738,
-        "end": 1862,
         "argument": {
           "type": "NewExpression",
-          "start": 1744,
-          "end": 1861,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1748,
-            "end": 1760,
-            "name": "Test262Error"
+            "end": 1760
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1761,
-              "end": 1860,
               "left": {
                 "type": "Literal",
-                "start": 1761,
-                "end": 1823,
                 "value": "#9: typeof String.prototype.valueOf === \"function\". Actual: ",
-                "raw": "'#9: typeof String.prototype.valueOf === \"function\". Actual: '"
+                "raw": "'#9: typeof String.prototype.valueOf === \"function\". Actual: '",
+                "start": 1761,
+                "end": 1823
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 1826,
-                "end": 1860,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 1827,
-                  "end": 1858,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 1834,
-                    "end": 1858,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 1834,
-                      "end": 1850,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 1834,
-                        "end": 1840,
-                        "name": "String"
+                        "end": 1840
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 1841,
-                        "end": 1850,
-                        "name": "prototype"
+                        "end": 1850
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1834,
+                      "end": 1850
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "valueOf",
                       "start": 1851,
-                      "end": 1858,
-                      "name": "valueOf"
+                      "end": 1858
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 1834,
+                    "end": 1858
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 1827,
+                  "end": 1858
+                },
+                "start": 1826,
+                "end": 1860
+              },
+              "start": 1761,
+              "end": 1860
             }
-          ]
-        }
+          ],
+          "start": 1744,
+          "end": 1861
+        },
+        "start": 1738,
+        "end": 1862
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1684,
+      "end": 1862
     },
     {
       "type": "IfStatement",
-      "start": 1863,
-      "end": 2051,
       "test": {
         "type": "BinaryExpression",
-        "start": 1867,
-        "end": 1917,
         "left": {
           "type": "UnaryExpression",
-          "start": 1867,
-          "end": 1901,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1874,
-            "end": 1901,
             "object": {
               "type": "MemberExpression",
-              "start": 1874,
-              "end": 1890,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 1874,
-                "end": 1880,
-                "name": "String"
+                "end": 1880
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 1881,
-                "end": 1890,
-                "name": "prototype"
+                "end": 1890
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1874,
+              "end": 1890
             },
             "property": {
               "type": "Literal",
-              "start": 1891,
-              "end": 1900,
               "value": "valueOf",
-              "raw": "'valueOf'"
+              "raw": "'valueOf'",
+              "start": 1891,
+              "end": 1900
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1874,
+            "end": 1901
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1867,
+          "end": 1901
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 1907,
-          "end": 1917,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 1917
+        },
+        "start": 1867,
+        "end": 1917
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1920,
-        "end": 2051,
         "argument": {
           "type": "NewExpression",
-          "start": 1926,
-          "end": 2050,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1930,
-            "end": 1942,
-            "name": "Test262Error"
+            "end": 1942
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 1943,
-              "end": 2049,
               "left": {
                 "type": "Literal",
-                "start": 1943,
-                "end": 2009,
                 "value": "#10: typeof String.prototype[\"valueOf\"] === \"function\". Actual: ",
-                "raw": "'#10: typeof String.prototype[\"valueOf\"] === \"function\". Actual: '"
+                "raw": "'#10: typeof String.prototype[\"valueOf\"] === \"function\". Actual: '",
+                "start": 1943,
+                "end": 2009
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 2012,
-                "end": 2049,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 2013,
-                  "end": 2047,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 2020,
-                    "end": 2047,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 2020,
-                      "end": 2036,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 2020,
-                        "end": 2026,
-                        "name": "String"
+                        "end": 2026
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 2027,
-                        "end": 2036,
-                        "name": "prototype"
+                        "end": 2036
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 2020,
+                      "end": 2036
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 2037,
-                      "end": 2046,
                       "value": "valueOf",
-                      "raw": "\"valueOf\""
+                      "raw": "\"valueOf\"",
+                      "start": 2037,
+                      "end": 2046
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 2020,
+                    "end": 2047
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 2013,
+                  "end": 2047
+                },
+                "start": 2012,
+                "end": 2049
+              },
+              "start": 1943,
+              "end": 2049
             }
-          ]
-        }
+          ],
+          "start": 1926,
+          "end": 2050
+        },
+        "start": 1920,
+        "end": 2051
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1863,
+      "end": 2051
     },
     {
       "type": "IfStatement",
-      "start": 2052,
-      "end": 2227,
       "test": {
         "type": "BinaryExpression",
-        "start": 2056,
-        "end": 2101,
         "left": {
           "type": "UnaryExpression",
-          "start": 2056,
-          "end": 2086,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2063,
-            "end": 2086,
             "object": {
               "type": "MemberExpression",
-              "start": 2063,
-              "end": 2079,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 2063,
-                "end": 2069,
-                "name": "String"
+                "end": 2069
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 2070,
-                "end": 2079,
-                "name": "prototype"
+                "end": 2079
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2063,
+              "end": 2079
             },
             "property": {
               "type": "Identifier",
+              "name": "charAt",
               "start": 2080,
-              "end": 2086,
-              "name": "charAt"
+              "end": 2086
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2063,
+            "end": 2086
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2056,
+          "end": 2086
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 2091,
-          "end": 2101,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 2101
+        },
+        "start": 2056,
+        "end": 2101
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2104,
-        "end": 2227,
         "argument": {
           "type": "NewExpression",
-          "start": 2110,
-          "end": 2226,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2114,
-            "end": 2126,
-            "name": "Test262Error"
+            "end": 2126
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 2127,
-              "end": 2225,
               "left": {
                 "type": "Literal",
-                "start": 2127,
-                "end": 2189,
                 "value": "#11: typeof String.prototype.charAt === \"function\". Actual: ",
-                "raw": "'#11: typeof String.prototype.charAt === \"function\". Actual: '"
+                "raw": "'#11: typeof String.prototype.charAt === \"function\". Actual: '",
+                "start": 2127,
+                "end": 2189
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 2192,
-                "end": 2225,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 2193,
-                  "end": 2223,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 2200,
-                    "end": 2223,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 2200,
-                      "end": 2216,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 2200,
-                        "end": 2206,
-                        "name": "String"
+                        "end": 2206
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 2207,
-                        "end": 2216,
-                        "name": "prototype"
+                        "end": 2216
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 2200,
+                      "end": 2216
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "charAt",
                       "start": 2217,
-                      "end": 2223,
-                      "name": "charAt"
+                      "end": 2223
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 2200,
+                    "end": 2223
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 2193,
+                  "end": 2223
+                },
+                "start": 2192,
+                "end": 2225
+              },
+              "start": 2127,
+              "end": 2225
             }
-          ]
-        }
+          ],
+          "start": 2110,
+          "end": 2226
+        },
+        "start": 2104,
+        "end": 2227
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2052,
+      "end": 2227
     },
     {
       "type": "IfStatement",
-      "start": 2228,
-      "end": 2412,
       "test": {
         "type": "BinaryExpression",
-        "start": 2232,
-        "end": 2280,
         "left": {
           "type": "UnaryExpression",
-          "start": 2232,
-          "end": 2265,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2239,
-            "end": 2265,
             "object": {
               "type": "MemberExpression",
-              "start": 2239,
-              "end": 2255,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 2239,
-                "end": 2245,
-                "name": "String"
+                "end": 2245
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 2246,
-                "end": 2255,
-                "name": "prototype"
+                "end": 2255
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2239,
+              "end": 2255
             },
             "property": {
               "type": "Literal",
-              "start": 2256,
-              "end": 2264,
               "value": "charAt",
-              "raw": "'charAt'"
+              "raw": "'charAt'",
+              "start": 2256,
+              "end": 2264
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 2239,
+            "end": 2265
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2232,
+          "end": 2265
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 2270,
-          "end": 2280,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 2280
+        },
+        "start": 2232,
+        "end": 2280
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2283,
-        "end": 2412,
         "argument": {
           "type": "NewExpression",
-          "start": 2289,
-          "end": 2411,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2293,
-            "end": 2305,
-            "name": "Test262Error"
+            "end": 2305
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 2306,
-              "end": 2410,
               "left": {
                 "type": "Literal",
-                "start": 2306,
-                "end": 2371,
                 "value": "#12: typeof String.prototype[\"charAt\"] === \"function\". Actual: ",
-                "raw": "'#12: typeof String.prototype[\"charAt\"] === \"function\". Actual: '"
+                "raw": "'#12: typeof String.prototype[\"charAt\"] === \"function\". Actual: '",
+                "start": 2306,
+                "end": 2371
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 2374,
-                "end": 2410,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 2375,
-                  "end": 2408,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 2382,
-                    "end": 2408,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 2382,
-                      "end": 2398,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 2382,
-                        "end": 2388,
-                        "name": "String"
+                        "end": 2388
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 2389,
-                        "end": 2398,
-                        "name": "prototype"
+                        "end": 2398
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 2382,
+                      "end": 2398
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 2399,
-                      "end": 2407,
                       "value": "charAt",
-                      "raw": "\"charAt\""
+                      "raw": "\"charAt\"",
+                      "start": 2399,
+                      "end": 2407
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 2382,
+                    "end": 2408
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 2375,
+                  "end": 2408
+                },
+                "start": 2374,
+                "end": 2410
+              },
+              "start": 2306,
+              "end": 2410
             }
-          ]
-        }
+          ],
+          "start": 2289,
+          "end": 2411
+        },
+        "start": 2283,
+        "end": 2412
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2228,
+      "end": 2412
     },
     {
       "type": "IfStatement",
-      "start": 2413,
-      "end": 2600,
       "test": {
         "type": "BinaryExpression",
-        "start": 2417,
-        "end": 2466,
         "left": {
           "type": "UnaryExpression",
-          "start": 2417,
-          "end": 2451,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2424,
-            "end": 2451,
             "object": {
               "type": "MemberExpression",
-              "start": 2424,
-              "end": 2440,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 2424,
-                "end": 2430,
-                "name": "String"
+                "end": 2430
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 2431,
-                "end": 2440,
-                "name": "prototype"
+                "end": 2440
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2424,
+              "end": 2440
             },
             "property": {
               "type": "Identifier",
+              "name": "charCodeAt",
               "start": 2441,
-              "end": 2451,
-              "name": "charCodeAt"
+              "end": 2451
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2424,
+            "end": 2451
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2417,
+          "end": 2451
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 2456,
-          "end": 2466,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 2466
+        },
+        "start": 2417,
+        "end": 2466
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2469,
-        "end": 2600,
         "argument": {
           "type": "NewExpression",
-          "start": 2475,
-          "end": 2599,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2479,
-            "end": 2491,
-            "name": "Test262Error"
+            "end": 2491
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 2492,
-              "end": 2598,
               "left": {
                 "type": "Literal",
-                "start": 2492,
-                "end": 2558,
                 "value": "#13: typeof String.prototype.charCodeAt === \"function\". Actual: ",
-                "raw": "'#13: typeof String.prototype.charCodeAt === \"function\". Actual: '"
+                "raw": "'#13: typeof String.prototype.charCodeAt === \"function\". Actual: '",
+                "start": 2492,
+                "end": 2558
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 2561,
-                "end": 2598,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 2562,
-                  "end": 2596,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 2569,
-                    "end": 2596,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 2569,
-                      "end": 2585,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 2569,
-                        "end": 2575,
-                        "name": "String"
+                        "end": 2575
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 2576,
-                        "end": 2585,
-                        "name": "prototype"
+                        "end": 2585
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 2569,
+                      "end": 2585
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "charCodeAt",
                       "start": 2586,
-                      "end": 2596,
-                      "name": "charCodeAt"
+                      "end": 2596
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 2569,
+                    "end": 2596
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 2562,
+                  "end": 2596
+                },
+                "start": 2561,
+                "end": 2598
+              },
+              "start": 2492,
+              "end": 2598
             }
-          ]
-        }
+          ],
+          "start": 2475,
+          "end": 2599
+        },
+        "start": 2469,
+        "end": 2600
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2413,
+      "end": 2600
     },
     {
       "type": "IfStatement",
-      "start": 2601,
-      "end": 2797,
       "test": {
         "type": "BinaryExpression",
-        "start": 2605,
-        "end": 2657,
         "left": {
           "type": "UnaryExpression",
-          "start": 2605,
-          "end": 2642,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2612,
-            "end": 2642,
             "object": {
               "type": "MemberExpression",
-              "start": 2612,
-              "end": 2628,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 2612,
-                "end": 2618,
-                "name": "String"
+                "end": 2618
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 2619,
-                "end": 2628,
-                "name": "prototype"
+                "end": 2628
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2612,
+              "end": 2628
             },
             "property": {
               "type": "Literal",
-              "start": 2629,
-              "end": 2641,
               "value": "charCodeAt",
-              "raw": "'charCodeAt'"
+              "raw": "'charCodeAt'",
+              "start": 2629,
+              "end": 2641
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 2612,
+            "end": 2642
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2605,
+          "end": 2642
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 2647,
-          "end": 2657,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 2657
+        },
+        "start": 2605,
+        "end": 2657
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2660,
-        "end": 2797,
         "argument": {
           "type": "NewExpression",
-          "start": 2666,
-          "end": 2796,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2670,
-            "end": 2682,
-            "name": "Test262Error"
+            "end": 2682
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 2683,
-              "end": 2795,
               "left": {
                 "type": "Literal",
-                "start": 2683,
-                "end": 2752,
                 "value": "#14: typeof String.prototype[\"charCodeAt\"] === \"function\". Actual: ",
-                "raw": "'#14: typeof String.prototype[\"charCodeAt\"] === \"function\". Actual: '"
+                "raw": "'#14: typeof String.prototype[\"charCodeAt\"] === \"function\". Actual: '",
+                "start": 2683,
+                "end": 2752
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 2755,
-                "end": 2795,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 2756,
-                  "end": 2793,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 2763,
-                    "end": 2793,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 2763,
-                      "end": 2779,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 2763,
-                        "end": 2769,
-                        "name": "String"
+                        "end": 2769
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 2770,
-                        "end": 2779,
-                        "name": "prototype"
+                        "end": 2779
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 2763,
+                      "end": 2779
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 2780,
-                      "end": 2792,
                       "value": "charCodeAt",
-                      "raw": "\"charCodeAt\""
+                      "raw": "\"charCodeAt\"",
+                      "start": 2780,
+                      "end": 2792
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 2763,
+                    "end": 2793
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 2756,
+                  "end": 2793
+                },
+                "start": 2755,
+                "end": 2795
+              },
+              "start": 2683,
+              "end": 2795
             }
-          ]
-        }
+          ],
+          "start": 2666,
+          "end": 2796
+        },
+        "start": 2660,
+        "end": 2797
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2601,
+      "end": 2797
     },
     {
       "type": "IfStatement",
-      "start": 2798,
-      "end": 2977,
       "test": {
         "type": "BinaryExpression",
-        "start": 2802,
-        "end": 2849,
         "left": {
           "type": "UnaryExpression",
-          "start": 2802,
-          "end": 2833,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2809,
-            "end": 2833,
             "object": {
               "type": "MemberExpression",
-              "start": 2809,
-              "end": 2825,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 2809,
-                "end": 2815,
-                "name": "String"
+                "end": 2815
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 2816,
-                "end": 2825,
-                "name": "prototype"
+                "end": 2825
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2809,
+              "end": 2825
             },
             "property": {
               "type": "Identifier",
+              "name": "indexOf",
               "start": 2826,
-              "end": 2833,
-              "name": "indexOf"
+              "end": 2833
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2809,
+            "end": 2833
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2802,
+          "end": 2833
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 2839,
-          "end": 2849,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 2849
+        },
+        "start": 2802,
+        "end": 2849
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2852,
-        "end": 2977,
         "argument": {
           "type": "NewExpression",
-          "start": 2858,
-          "end": 2976,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2862,
-            "end": 2874,
-            "name": "Test262Error"
+            "end": 2874
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 2875,
-              "end": 2975,
               "left": {
                 "type": "Literal",
-                "start": 2875,
-                "end": 2938,
                 "value": "#15: typeof String.prototype.indexOf === \"function\". Actual: ",
-                "raw": "'#15: typeof String.prototype.indexOf === \"function\". Actual: '"
+                "raw": "'#15: typeof String.prototype.indexOf === \"function\". Actual: '",
+                "start": 2875,
+                "end": 2938
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 2941,
-                "end": 2975,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 2942,
-                  "end": 2973,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 2949,
-                    "end": 2973,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 2949,
-                      "end": 2965,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 2949,
-                        "end": 2955,
-                        "name": "String"
+                        "end": 2955
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 2956,
-                        "end": 2965,
-                        "name": "prototype"
+                        "end": 2965
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 2949,
+                      "end": 2965
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "indexOf",
                       "start": 2966,
-                      "end": 2973,
-                      "name": "indexOf"
+                      "end": 2973
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 2949,
+                    "end": 2973
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 2942,
+                  "end": 2973
+                },
+                "start": 2941,
+                "end": 2975
+              },
+              "start": 2875,
+              "end": 2975
             }
-          ]
-        }
+          ],
+          "start": 2858,
+          "end": 2976
+        },
+        "start": 2852,
+        "end": 2977
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2798,
+      "end": 2977
     },
     {
       "type": "IfStatement",
-      "start": 2978,
-      "end": 3166,
       "test": {
         "type": "BinaryExpression",
-        "start": 2982,
-        "end": 3032,
         "left": {
           "type": "UnaryExpression",
-          "start": 2982,
-          "end": 3016,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2989,
-            "end": 3016,
             "object": {
               "type": "MemberExpression",
-              "start": 2989,
-              "end": 3005,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 2989,
-                "end": 2995,
-                "name": "String"
+                "end": 2995
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 2996,
-                "end": 3005,
-                "name": "prototype"
+                "end": 3005
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2989,
+              "end": 3005
             },
             "property": {
               "type": "Literal",
-              "start": 3006,
-              "end": 3015,
               "value": "indexOf",
-              "raw": "'indexOf'"
+              "raw": "'indexOf'",
+              "start": 3006,
+              "end": 3015
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 2989,
+            "end": 3016
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2982,
+          "end": 3016
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 3022,
-          "end": 3032,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 3032
+        },
+        "start": 2982,
+        "end": 3032
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3035,
-        "end": 3166,
         "argument": {
           "type": "NewExpression",
-          "start": 3041,
-          "end": 3165,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3045,
-            "end": 3057,
-            "name": "Test262Error"
+            "end": 3057
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 3058,
-              "end": 3164,
               "left": {
                 "type": "Literal",
-                "start": 3058,
-                "end": 3124,
                 "value": "#16: typeof String.prototype[\"indexOf\"] === \"function\". Actual: ",
-                "raw": "'#16: typeof String.prototype[\"indexOf\"] === \"function\". Actual: '"
+                "raw": "'#16: typeof String.prototype[\"indexOf\"] === \"function\". Actual: '",
+                "start": 3058,
+                "end": 3124
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 3127,
-                "end": 3164,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 3128,
-                  "end": 3162,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 3135,
-                    "end": 3162,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 3135,
-                      "end": 3151,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 3135,
-                        "end": 3141,
-                        "name": "String"
+                        "end": 3141
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 3142,
-                        "end": 3151,
-                        "name": "prototype"
+                        "end": 3151
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 3135,
+                      "end": 3151
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 3152,
-                      "end": 3161,
                       "value": "indexOf",
-                      "raw": "\"indexOf\""
+                      "raw": "\"indexOf\"",
+                      "start": 3152,
+                      "end": 3161
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 3135,
+                    "end": 3162
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 3128,
+                  "end": 3162
+                },
+                "start": 3127,
+                "end": 3164
+              },
+              "start": 3058,
+              "end": 3164
             }
-          ]
-        }
+          ],
+          "start": 3041,
+          "end": 3165
+        },
+        "start": 3035,
+        "end": 3166
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2978,
+      "end": 3166
     },
     {
       "type": "IfStatement",
-      "start": 3167,
-      "end": 3358,
       "test": {
         "type": "BinaryExpression",
-        "start": 3171,
-        "end": 3222,
         "left": {
           "type": "UnaryExpression",
-          "start": 3171,
-          "end": 3206,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 3178,
-            "end": 3206,
             "object": {
               "type": "MemberExpression",
-              "start": 3178,
-              "end": 3194,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 3178,
-                "end": 3184,
-                "name": "String"
+                "end": 3184
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 3185,
-                "end": 3194,
-                "name": "prototype"
+                "end": 3194
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3178,
+              "end": 3194
             },
             "property": {
               "type": "Identifier",
+              "name": "lastIndexOf",
               "start": 3195,
-              "end": 3206,
-              "name": "lastIndexOf"
+              "end": 3206
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 3178,
+            "end": 3206
           },
-          "prefix": true
+          "prefix": true,
+          "start": 3171,
+          "end": 3206
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 3212,
-          "end": 3222,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 3222
+        },
+        "start": 3171,
+        "end": 3222
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3225,
-        "end": 3358,
         "argument": {
           "type": "NewExpression",
-          "start": 3231,
-          "end": 3357,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3235,
-            "end": 3247,
-            "name": "Test262Error"
+            "end": 3247
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 3248,
-              "end": 3356,
               "left": {
                 "type": "Literal",
-                "start": 3248,
-                "end": 3315,
                 "value": "#17: typeof String.prototype.lastIndexOf === \"function\". Actual: ",
-                "raw": "'#17: typeof String.prototype.lastIndexOf === \"function\". Actual: '"
+                "raw": "'#17: typeof String.prototype.lastIndexOf === \"function\". Actual: '",
+                "start": 3248,
+                "end": 3315
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 3318,
-                "end": 3356,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 3319,
-                  "end": 3354,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 3326,
-                    "end": 3354,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 3326,
-                      "end": 3342,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 3326,
-                        "end": 3332,
-                        "name": "String"
+                        "end": 3332
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 3333,
-                        "end": 3342,
-                        "name": "prototype"
+                        "end": 3342
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 3326,
+                      "end": 3342
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "lastIndexOf",
                       "start": 3343,
-                      "end": 3354,
-                      "name": "lastIndexOf"
+                      "end": 3354
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 3326,
+                    "end": 3354
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 3319,
+                  "end": 3354
+                },
+                "start": 3318,
+                "end": 3356
+              },
+              "start": 3248,
+              "end": 3356
             }
-          ]
-        }
+          ],
+          "start": 3231,
+          "end": 3357
+        },
+        "start": 3225,
+        "end": 3358
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3167,
+      "end": 3358
     },
     {
       "type": "IfStatement",
-      "start": 3359,
-      "end": 3559,
       "test": {
         "type": "BinaryExpression",
-        "start": 3363,
-        "end": 3417,
         "left": {
           "type": "UnaryExpression",
-          "start": 3363,
-          "end": 3401,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 3370,
-            "end": 3401,
             "object": {
               "type": "MemberExpression",
-              "start": 3370,
-              "end": 3386,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 3370,
-                "end": 3376,
-                "name": "String"
+                "end": 3376
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 3377,
-                "end": 3386,
-                "name": "prototype"
+                "end": 3386
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3370,
+              "end": 3386
             },
             "property": {
               "type": "Literal",
-              "start": 3387,
-              "end": 3400,
               "value": "lastIndexOf",
-              "raw": "'lastIndexOf'"
+              "raw": "'lastIndexOf'",
+              "start": 3387,
+              "end": 3400
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 3370,
+            "end": 3401
           },
-          "prefix": true
+          "prefix": true,
+          "start": 3363,
+          "end": 3401
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 3407,
-          "end": 3417,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 3417
+        },
+        "start": 3363,
+        "end": 3417
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3420,
-        "end": 3559,
         "argument": {
           "type": "NewExpression",
-          "start": 3426,
-          "end": 3558,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3430,
-            "end": 3442,
-            "name": "Test262Error"
+            "end": 3442
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 3443,
-              "end": 3557,
               "left": {
                 "type": "Literal",
-                "start": 3443,
-                "end": 3513,
                 "value": "#18: typeof String.prototype[\"lastIndexOf\"] === \"function\". Actual: ",
-                "raw": "'#18: typeof String.prototype[\"lastIndexOf\"] === \"function\". Actual: '"
+                "raw": "'#18: typeof String.prototype[\"lastIndexOf\"] === \"function\". Actual: '",
+                "start": 3443,
+                "end": 3513
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 3516,
-                "end": 3557,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 3517,
-                  "end": 3555,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 3524,
-                    "end": 3555,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 3524,
-                      "end": 3540,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 3524,
-                        "end": 3530,
-                        "name": "String"
+                        "end": 3530
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 3531,
-                        "end": 3540,
-                        "name": "prototype"
+                        "end": 3540
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 3524,
+                      "end": 3540
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 3541,
-                      "end": 3554,
                       "value": "lastIndexOf",
-                      "raw": "\"lastIndexOf\""
+                      "raw": "\"lastIndexOf\"",
+                      "start": 3541,
+                      "end": 3554
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 3524,
+                    "end": 3555
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 3517,
+                  "end": 3555
+                },
+                "start": 3516,
+                "end": 3557
+              },
+              "start": 3443,
+              "end": 3557
             }
-          ]
-        }
+          ],
+          "start": 3426,
+          "end": 3558
+        },
+        "start": 3420,
+        "end": 3559
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3359,
+      "end": 3559
     },
     {
       "type": "IfStatement",
-      "start": 3560,
-      "end": 3732,
       "test": {
         "type": "BinaryExpression",
-        "start": 3564,
-        "end": 3608,
         "left": {
           "type": "UnaryExpression",
-          "start": 3564,
-          "end": 3593,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 3571,
-            "end": 3593,
             "object": {
               "type": "MemberExpression",
-              "start": 3571,
-              "end": 3587,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 3571,
-                "end": 3577,
-                "name": "String"
+                "end": 3577
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 3578,
-                "end": 3587,
-                "name": "prototype"
+                "end": 3587
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3571,
+              "end": 3587
             },
             "property": {
               "type": "Identifier",
+              "name": "split",
               "start": 3588,
-              "end": 3593,
-              "name": "split"
+              "end": 3593
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 3571,
+            "end": 3593
           },
-          "prefix": true
+          "prefix": true,
+          "start": 3564,
+          "end": 3593
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 3598,
-          "end": 3608,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 3608
+        },
+        "start": 3564,
+        "end": 3608
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3611,
-        "end": 3732,
         "argument": {
           "type": "NewExpression",
-          "start": 3617,
-          "end": 3731,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3621,
-            "end": 3633,
-            "name": "Test262Error"
+            "end": 3633
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 3634,
-              "end": 3730,
               "left": {
                 "type": "Literal",
-                "start": 3634,
-                "end": 3695,
                 "value": "#19: typeof String.prototype.split === \"function\". Actual: ",
-                "raw": "'#19: typeof String.prototype.split === \"function\". Actual: '"
+                "raw": "'#19: typeof String.prototype.split === \"function\". Actual: '",
+                "start": 3634,
+                "end": 3695
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 3698,
-                "end": 3730,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 3699,
-                  "end": 3728,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 3706,
-                    "end": 3728,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 3706,
-                      "end": 3722,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 3706,
-                        "end": 3712,
-                        "name": "String"
+                        "end": 3712
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 3713,
-                        "end": 3722,
-                        "name": "prototype"
+                        "end": 3722
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 3706,
+                      "end": 3722
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "split",
                       "start": 3723,
-                      "end": 3728,
-                      "name": "split"
+                      "end": 3728
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 3706,
+                    "end": 3728
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 3699,
+                  "end": 3728
+                },
+                "start": 3698,
+                "end": 3730
+              },
+              "start": 3634,
+              "end": 3730
             }
-          ]
-        }
+          ],
+          "start": 3617,
+          "end": 3731
+        },
+        "start": 3611,
+        "end": 3732
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3560,
+      "end": 3732
     },
     {
       "type": "IfStatement",
-      "start": 3733,
-      "end": 3914,
       "test": {
         "type": "BinaryExpression",
-        "start": 3737,
-        "end": 3784,
         "left": {
           "type": "UnaryExpression",
-          "start": 3737,
-          "end": 3769,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 3744,
-            "end": 3769,
             "object": {
               "type": "MemberExpression",
-              "start": 3744,
-              "end": 3760,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 3744,
-                "end": 3750,
-                "name": "String"
+                "end": 3750
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 3751,
-                "end": 3760,
-                "name": "prototype"
+                "end": 3760
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3744,
+              "end": 3760
             },
             "property": {
               "type": "Literal",
-              "start": 3761,
-              "end": 3768,
               "value": "split",
-              "raw": "'split'"
+              "raw": "'split'",
+              "start": 3761,
+              "end": 3768
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 3744,
+            "end": 3769
           },
-          "prefix": true
+          "prefix": true,
+          "start": 3737,
+          "end": 3769
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 3774,
-          "end": 3784,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 3784
+        },
+        "start": 3737,
+        "end": 3784
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3787,
-        "end": 3914,
         "argument": {
           "type": "NewExpression",
-          "start": 3793,
-          "end": 3913,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3797,
-            "end": 3809,
-            "name": "Test262Error"
+            "end": 3809
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 3810,
-              "end": 3912,
               "left": {
                 "type": "Literal",
-                "start": 3810,
-                "end": 3874,
                 "value": "#20: typeof String.prototype[\"split\"] === \"function\". Actual: ",
-                "raw": "'#20: typeof String.prototype[\"split\"] === \"function\". Actual: '"
+                "raw": "'#20: typeof String.prototype[\"split\"] === \"function\". Actual: '",
+                "start": 3810,
+                "end": 3874
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 3877,
-                "end": 3912,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 3878,
-                  "end": 3910,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 3885,
-                    "end": 3910,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 3885,
-                      "end": 3901,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 3885,
-                        "end": 3891,
-                        "name": "String"
+                        "end": 3891
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 3892,
-                        "end": 3901,
-                        "name": "prototype"
+                        "end": 3901
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 3885,
+                      "end": 3901
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 3902,
-                      "end": 3909,
                       "value": "split",
-                      "raw": "\"split\""
+                      "raw": "\"split\"",
+                      "start": 3902,
+                      "end": 3909
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 3885,
+                    "end": 3910
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 3878,
+                  "end": 3910
+                },
+                "start": 3877,
+                "end": 3912
+              },
+              "start": 3810,
+              "end": 3912
             }
-          ]
-        }
+          ],
+          "start": 3793,
+          "end": 3913
+        },
+        "start": 3787,
+        "end": 3914
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3733,
+      "end": 3914
     },
     {
       "type": "IfStatement",
-      "start": 3915,
-      "end": 4100,
       "test": {
         "type": "BinaryExpression",
-        "start": 3919,
-        "end": 3968,
         "left": {
           "type": "UnaryExpression",
-          "start": 3919,
-          "end": 3952,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 3926,
-            "end": 3952,
             "object": {
               "type": "MemberExpression",
-              "start": 3926,
-              "end": 3942,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 3926,
-                "end": 3932,
-                "name": "String"
+                "end": 3932
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 3933,
-                "end": 3942,
-                "name": "prototype"
+                "end": 3942
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 3926,
+              "end": 3942
             },
             "property": {
               "type": "Identifier",
+              "name": "substring",
               "start": 3943,
-              "end": 3952,
-              "name": "substring"
+              "end": 3952
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 3926,
+            "end": 3952
           },
-          "prefix": true
+          "prefix": true,
+          "start": 3919,
+          "end": 3952
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 3958,
-          "end": 3968,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 3968
+        },
+        "start": 3919,
+        "end": 3968
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3971,
-        "end": 4100,
         "argument": {
           "type": "NewExpression",
-          "start": 3977,
-          "end": 4099,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3981,
-            "end": 3993,
-            "name": "Test262Error"
+            "end": 3993
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 3994,
-              "end": 4098,
               "left": {
                 "type": "Literal",
-                "start": 3994,
-                "end": 4059,
                 "value": "#21: typeof String.prototype.substring === \"function\". Actual: ",
-                "raw": "'#21: typeof String.prototype.substring === \"function\". Actual: '"
+                "raw": "'#21: typeof String.prototype.substring === \"function\". Actual: '",
+                "start": 3994,
+                "end": 4059
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 4062,
-                "end": 4098,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 4063,
-                  "end": 4096,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 4070,
-                    "end": 4096,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 4070,
-                      "end": 4086,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 4070,
-                        "end": 4076,
-                        "name": "String"
+                        "end": 4076
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 4077,
-                        "end": 4086,
-                        "name": "prototype"
+                        "end": 4086
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 4070,
+                      "end": 4086
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "substring",
                       "start": 4087,
-                      "end": 4096,
-                      "name": "substring"
+                      "end": 4096
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 4070,
+                    "end": 4096
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 4063,
+                  "end": 4096
+                },
+                "start": 4062,
+                "end": 4098
+              },
+              "start": 3994,
+              "end": 4098
             }
-          ]
-        }
+          ],
+          "start": 3977,
+          "end": 4099
+        },
+        "start": 3971,
+        "end": 4100
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3915,
+      "end": 4100
     },
     {
       "type": "IfStatement",
-      "start": 4101,
-      "end": 4295,
       "test": {
         "type": "BinaryExpression",
-        "start": 4105,
-        "end": 4157,
         "left": {
           "type": "UnaryExpression",
-          "start": 4105,
-          "end": 4141,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 4112,
-            "end": 4141,
             "object": {
               "type": "MemberExpression",
-              "start": 4112,
-              "end": 4128,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 4112,
-                "end": 4118,
-                "name": "String"
+                "end": 4118
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 4119,
-                "end": 4128,
-                "name": "prototype"
+                "end": 4128
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4112,
+              "end": 4128
             },
             "property": {
               "type": "Literal",
-              "start": 4129,
-              "end": 4140,
               "value": "substring",
-              "raw": "'substring'"
+              "raw": "'substring'",
+              "start": 4129,
+              "end": 4140
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 4112,
+            "end": 4141
           },
-          "prefix": true
+          "prefix": true,
+          "start": 4105,
+          "end": 4141
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 4147,
-          "end": 4157,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 4157
+        },
+        "start": 4105,
+        "end": 4157
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 4160,
-        "end": 4295,
         "argument": {
           "type": "NewExpression",
-          "start": 4166,
-          "end": 4294,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 4170,
-            "end": 4182,
-            "name": "Test262Error"
+            "end": 4182
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 4183,
-              "end": 4293,
               "left": {
                 "type": "Literal",
-                "start": 4183,
-                "end": 4251,
                 "value": "#22: typeof String.prototype[\"substring\"] === \"function\". Actual: ",
-                "raw": "'#22: typeof String.prototype[\"substring\"] === \"function\". Actual: '"
+                "raw": "'#22: typeof String.prototype[\"substring\"] === \"function\". Actual: '",
+                "start": 4183,
+                "end": 4251
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 4254,
-                "end": 4293,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 4255,
-                  "end": 4291,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 4262,
-                    "end": 4291,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 4262,
-                      "end": 4278,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 4262,
-                        "end": 4268,
-                        "name": "String"
+                        "end": 4268
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 4269,
-                        "end": 4278,
-                        "name": "prototype"
+                        "end": 4278
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 4262,
+                      "end": 4278
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 4279,
-                      "end": 4290,
                       "value": "substring",
-                      "raw": "\"substring\""
+                      "raw": "\"substring\"",
+                      "start": 4279,
+                      "end": 4290
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 4262,
+                    "end": 4291
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 4255,
+                  "end": 4291
+                },
+                "start": 4254,
+                "end": 4293
+              },
+              "start": 4183,
+              "end": 4293
             }
-          ]
-        }
+          ],
+          "start": 4166,
+          "end": 4294
+        },
+        "start": 4160,
+        "end": 4295
       },
-      "alternate": null
+      "alternate": null,
+      "start": 4101,
+      "end": 4295
     },
     {
       "type": "IfStatement",
-      "start": 4296,
-      "end": 4486,
       "test": {
         "type": "BinaryExpression",
-        "start": 4300,
-        "end": 4350,
         "left": {
           "type": "UnaryExpression",
-          "start": 4300,
-          "end": 4335,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 4307,
-            "end": 4335,
             "object": {
               "type": "MemberExpression",
-              "start": 4307,
-              "end": 4323,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 4307,
-                "end": 4313,
-                "name": "String"
+                "end": 4313
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 4314,
-                "end": 4323,
-                "name": "prototype"
+                "end": 4323
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4307,
+              "end": 4323
             },
             "property": {
               "type": "Identifier",
+              "name": "toLowerCase",
               "start": 4324,
-              "end": 4335,
-              "name": "toLowerCase"
+              "end": 4335
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 4307,
+            "end": 4335
           },
-          "prefix": true
+          "prefix": true,
+          "start": 4300,
+          "end": 4335
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 4340,
-          "end": 4350,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 4350
+        },
+        "start": 4300,
+        "end": 4350
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 4353,
-        "end": 4486,
         "argument": {
           "type": "NewExpression",
-          "start": 4359,
-          "end": 4485,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 4363,
-            "end": 4375,
-            "name": "Test262Error"
+            "end": 4375
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 4376,
-              "end": 4484,
               "left": {
                 "type": "Literal",
-                "start": 4376,
-                "end": 4443,
                 "value": "#23: typeof String.prototype.toLowerCase === \"function\". Actual: ",
-                "raw": "'#23: typeof String.prototype.toLowerCase === \"function\". Actual: '"
+                "raw": "'#23: typeof String.prototype.toLowerCase === \"function\". Actual: '",
+                "start": 4376,
+                "end": 4443
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 4446,
-                "end": 4484,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 4447,
-                  "end": 4482,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 4454,
-                    "end": 4482,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 4454,
-                      "end": 4470,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 4454,
-                        "end": 4460,
-                        "name": "String"
+                        "end": 4460
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 4461,
-                        "end": 4470,
-                        "name": "prototype"
+                        "end": 4470
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 4454,
+                      "end": 4470
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "toLowerCase",
                       "start": 4471,
-                      "end": 4482,
-                      "name": "toLowerCase"
+                      "end": 4482
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 4454,
+                    "end": 4482
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 4447,
+                  "end": 4482
+                },
+                "start": 4446,
+                "end": 4484
+              },
+              "start": 4376,
+              "end": 4484
             }
-          ]
-        }
+          ],
+          "start": 4359,
+          "end": 4485
+        },
+        "start": 4353,
+        "end": 4486
       },
-      "alternate": null
+      "alternate": null,
+      "start": 4296,
+      "end": 4486
     },
     {
       "type": "IfStatement",
-      "start": 4487,
-      "end": 4686,
       "test": {
         "type": "BinaryExpression",
-        "start": 4491,
-        "end": 4544,
         "left": {
           "type": "UnaryExpression",
-          "start": 4491,
-          "end": 4529,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 4498,
-            "end": 4529,
             "object": {
               "type": "MemberExpression",
-              "start": 4498,
-              "end": 4514,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 4498,
-                "end": 4504,
-                "name": "String"
+                "end": 4504
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 4505,
-                "end": 4514,
-                "name": "prototype"
+                "end": 4514
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4498,
+              "end": 4514
             },
             "property": {
               "type": "Literal",
-              "start": 4515,
-              "end": 4528,
               "value": "toLowerCase",
-              "raw": "'toLowerCase'"
+              "raw": "'toLowerCase'",
+              "start": 4515,
+              "end": 4528
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 4498,
+            "end": 4529
           },
-          "prefix": true
+          "prefix": true,
+          "start": 4491,
+          "end": 4529
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
+          "value": "function",
+          "raw": "\"function\"",
           "start": 4534,
-          "end": 4544,
-          "value": "function",
-          "raw": "\"function\""
-        }
+          "end": 4544
+        },
+        "start": 4491,
+        "end": 4544
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 4547,
-        "end": 4686,
         "argument": {
           "type": "NewExpression",
-          "start": 4553,
-          "end": 4685,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 4557,
-            "end": 4569,
-            "name": "Test262Error"
+            "end": 4569
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 4570,
-              "end": 4684,
               "left": {
                 "type": "Literal",
-                "start": 4570,
-                "end": 4640,
                 "value": "#24: typeof String.prototype[\"toLowerCase\"] === \"function\". Actual: ",
-                "raw": "'#24: typeof String.prototype[\"toLowerCase\"] === \"function\". Actual: '"
+                "raw": "'#24: typeof String.prototype[\"toLowerCase\"] === \"function\". Actual: '",
+                "start": 4570,
+                "end": 4640
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 4643,
-                "end": 4684,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 4644,
-                  "end": 4682,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 4651,
-                    "end": 4682,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 4651,
-                      "end": 4667,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 4651,
-                        "end": 4657,
-                        "name": "String"
+                        "end": 4657
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 4658,
-                        "end": 4667,
-                        "name": "prototype"
+                        "end": 4667
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 4651,
+                      "end": 4667
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 4668,
-                      "end": 4681,
                       "value": "toLowerCase",
-                      "raw": "\"toLowerCase\""
+                      "raw": "\"toLowerCase\"",
+                      "start": 4668,
+                      "end": 4681
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 4651,
+                    "end": 4682
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 4644,
+                  "end": 4682
+                },
+                "start": 4643,
+                "end": 4684
+              },
+              "start": 4570,
+              "end": 4684
             }
-          ]
-        }
+          ],
+          "start": 4553,
+          "end": 4685
+        },
+        "start": 4547,
+        "end": 4686
       },
-      "alternate": null
+      "alternate": null,
+      "start": 4487,
+      "end": 4686
     },
     {
       "type": "IfStatement",
-      "start": 4687,
-      "end": 4877,
       "test": {
         "type": "BinaryExpression",
-        "start": 4691,
-        "end": 4741,
         "left": {
           "type": "UnaryExpression",
-          "start": 4691,
-          "end": 4726,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 4698,
-            "end": 4726,
             "object": {
               "type": "MemberExpression",
-              "start": 4698,
-              "end": 4714,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 4698,
-                "end": 4704,
-                "name": "String"
+                "end": 4704
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 4705,
-                "end": 4714,
-                "name": "prototype"
+                "end": 4714
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4698,
+              "end": 4714
             },
             "property": {
               "type": "Identifier",
+              "name": "toUpperCase",
               "start": 4715,
-              "end": 4726,
-              "name": "toUpperCase"
+              "end": 4726
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 4698,
+            "end": 4726
           },
-          "prefix": true
+          "prefix": true,
+          "start": 4691,
+          "end": 4726
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 4731,
-          "end": 4741,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 4731,
+          "end": 4741
+        },
+        "start": 4691,
+        "end": 4741
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 4744,
-        "end": 4877,
         "argument": {
           "type": "NewExpression",
-          "start": 4750,
-          "end": 4876,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 4754,
-            "end": 4766,
-            "name": "Test262Error"
+            "end": 4766
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 4767,
-              "end": 4875,
               "left": {
                 "type": "Literal",
-                "start": 4767,
-                "end": 4834,
                 "value": "#25: typeof String.prototype.toUpperCase === \"function\". Actual: ",
-                "raw": "'#25: typeof String.prototype.toUpperCase === \"function\". Actual: '"
+                "raw": "'#25: typeof String.prototype.toUpperCase === \"function\". Actual: '",
+                "start": 4767,
+                "end": 4834
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 4837,
-                "end": 4875,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 4838,
-                  "end": 4873,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 4845,
-                    "end": 4873,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 4845,
-                      "end": 4861,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 4845,
-                        "end": 4851,
-                        "name": "String"
+                        "end": 4851
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 4852,
-                        "end": 4861,
-                        "name": "prototype"
+                        "end": 4861
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 4845,
+                      "end": 4861
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "toUpperCase",
                       "start": 4862,
-                      "end": 4873,
-                      "name": "toUpperCase"
+                      "end": 4873
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 4845,
+                    "end": 4873
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 4838,
+                  "end": 4873
+                },
+                "start": 4837,
+                "end": 4875
+              },
+              "start": 4767,
+              "end": 4875
             }
-          ]
-        }
+          ],
+          "start": 4750,
+          "end": 4876
+        },
+        "start": 4744,
+        "end": 4877
       },
-      "alternate": null
+      "alternate": null,
+      "start": 4687,
+      "end": 4877
     },
     {
       "type": "IfStatement",
-      "start": 4878,
-      "end": 5043,
       "test": {
         "type": "BinaryExpression",
-        "start": 4882,
-        "end": 4935,
         "left": {
           "type": "UnaryExpression",
-          "start": 4882,
-          "end": 4920,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 4889,
-            "end": 4920,
             "object": {
               "type": "MemberExpression",
-              "start": 4889,
-              "end": 4905,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 4889,
-                "end": 4895,
-                "name": "String"
+                "end": 4895
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 4896,
-                "end": 4905,
-                "name": "prototype"
+                "end": 4905
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 4889,
+              "end": 4905
             },
             "property": {
               "type": "Literal",
-              "start": 4906,
-              "end": 4919,
               "value": "toUpperCase",
-              "raw": "'toUpperCase'"
+              "raw": "'toUpperCase'",
+              "start": 4906,
+              "end": 4919
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 4889,
+            "end": 4920
           },
-          "prefix": true
+          "prefix": true,
+          "start": 4882,
+          "end": 4920
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 4925,
-          "end": 4935,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 4925,
+          "end": 4935
+        },
+        "start": 4882,
+        "end": 4935
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 4938,
-        "end": 5043,
         "argument": {
           "type": "NewExpression",
-          "start": 4944,
-          "end": 5042,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 4948,
-            "end": 4960,
-            "name": "Test262Error"
+            "end": 4960
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 4961,
-              "end": 5041,
               "left": {
                 "type": "Literal",
-                "start": 4961,
-                "end": 5013,
                 "value": "#26: typeof Array.prototype === \"object\". Actual: ",
-                "raw": "'#26: typeof Array.prototype === \"object\". Actual: '"
+                "raw": "'#26: typeof Array.prototype === \"object\". Actual: '",
+                "start": 4961,
+                "end": 5013
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 5016,
-                "end": 5041,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 5017,
-                  "end": 5039,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 5024,
-                    "end": 5039,
                     "object": {
                       "type": "Identifier",
+                      "name": "Array",
                       "start": 5024,
-                      "end": 5029,
-                      "name": "Array"
+                      "end": 5029
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 5030,
-                      "end": 5039,
-                      "name": "prototype"
+                      "end": 5039
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 5024,
+                    "end": 5039
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 5017,
+                  "end": 5039
+                },
+                "start": 5016,
+                "end": 5041
+              },
+              "start": 4961,
+              "end": 5041
             }
-          ]
-        }
+          ],
+          "start": 4944,
+          "end": 5042
+        },
+        "start": 4938,
+        "end": 5043
       },
-      "alternate": null
+      "alternate": null,
+      "start": 4878,
+      "end": 5043
     },
     {
       "type": "IfStatement",
-      "start": 5044,
-      "end": 5216,
       "test": {
         "type": "BinaryExpression",
-        "start": 5048,
-        "end": 5092,
         "left": {
           "type": "UnaryExpression",
-          "start": 5048,
-          "end": 5078,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 5055,
-            "end": 5078,
             "object": {
               "type": "MemberExpression",
-              "start": 5055,
-              "end": 5071,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 5055,
-                "end": 5061,
-                "name": "String"
+                "end": 5061
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 5062,
-                "end": 5071,
-                "name": "prototype"
+                "end": 5071
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 5055,
+              "end": 5071
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 5072,
-              "end": 5078,
-              "name": "length"
+              "end": 5078
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 5055,
+            "end": 5078
           },
-          "prefix": true
+          "prefix": true,
+          "start": 5048,
+          "end": 5078
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 5084,
-          "end": 5092,
           "value": "number",
-          "raw": "\"number\""
-        }
+          "raw": "\"number\"",
+          "start": 5084,
+          "end": 5092
+        },
+        "start": 5048,
+        "end": 5092
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 5095,
-        "end": 5216,
         "argument": {
           "type": "NewExpression",
-          "start": 5101,
-          "end": 5215,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 5105,
-            "end": 5117,
-            "name": "Test262Error"
+            "end": 5117
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 5118,
-              "end": 5214,
               "left": {
                 "type": "Literal",
-                "start": 5118,
-                "end": 5178,
                 "value": "#27: typeof String.prototype.length === \"number\". Actual: ",
-                "raw": "'#27: typeof String.prototype.length === \"number\". Actual: '"
+                "raw": "'#27: typeof String.prototype.length === \"number\". Actual: '",
+                "start": 5118,
+                "end": 5178
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 5181,
-                "end": 5214,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 5182,
-                  "end": 5212,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 5189,
-                    "end": 5212,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 5189,
-                      "end": 5205,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 5189,
-                        "end": 5195,
-                        "name": "String"
+                        "end": 5195
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 5196,
-                        "end": 5205,
-                        "name": "prototype"
+                        "end": 5205
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 5189,
+                      "end": 5205
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "length",
                       "start": 5206,
-                      "end": 5212,
-                      "name": "length"
+                      "end": 5212
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 5189,
+                    "end": 5212
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 5182,
+                  "end": 5212
+                },
+                "start": 5181,
+                "end": 5214
+              },
+              "start": 5118,
+              "end": 5214
             }
-          ]
-        }
+          ],
+          "start": 5101,
+          "end": 5215
+        },
+        "start": 5095,
+        "end": 5216
       },
-      "alternate": null
+      "alternate": null,
+      "start": 5044,
+      "end": 5216
     },
     {
       "type": "IfStatement",
-      "start": 5217,
-      "end": 5398,
       "test": {
         "type": "BinaryExpression",
-        "start": 5221,
-        "end": 5268,
         "left": {
           "type": "UnaryExpression",
-          "start": 5221,
-          "end": 5254,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 5228,
-            "end": 5254,
             "object": {
               "type": "MemberExpression",
-              "start": 5228,
-              "end": 5244,
               "object": {
                 "type": "Identifier",
+                "name": "String",
                 "start": 5228,
-                "end": 5234,
-                "name": "String"
+                "end": 5234
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 5235,
-                "end": 5244,
-                "name": "prototype"
+                "end": 5244
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 5228,
+              "end": 5244
             },
             "property": {
               "type": "Literal",
-              "start": 5245,
-              "end": 5253,
               "value": "length",
-              "raw": "'length'"
+              "raw": "'length'",
+              "start": 5245,
+              "end": 5253
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 5228,
+            "end": 5254
           },
-          "prefix": true
+          "prefix": true,
+          "start": 5221,
+          "end": 5254
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 5260,
-          "end": 5268,
           "value": "number",
-          "raw": "\"number\""
-        }
+          "raw": "\"number\"",
+          "start": 5260,
+          "end": 5268
+        },
+        "start": 5221,
+        "end": 5268
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 5271,
-        "end": 5398,
         "argument": {
           "type": "NewExpression",
-          "start": 5277,
-          "end": 5397,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 5281,
-            "end": 5293,
-            "name": "Test262Error"
+            "end": 5293
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 5294,
-              "end": 5396,
               "left": {
                 "type": "Literal",
-                "start": 5294,
-                "end": 5357,
                 "value": "#28: typeof String.prototype[\"length\"] === \"number\". Actual: ",
-                "raw": "'#28: typeof String.prototype[\"length\"] === \"number\". Actual: '"
+                "raw": "'#28: typeof String.prototype[\"length\"] === \"number\". Actual: '",
+                "start": 5294,
+                "end": 5357
               },
               "operator": "+",
               "right": {
                 "type": "ParenthesizedExpression",
-                "start": 5360,
-                "end": 5396,
                 "expression": {
                   "type": "UnaryExpression",
-                  "start": 5361,
-                  "end": 5394,
                   "operator": "typeof",
                   "argument": {
                     "type": "MemberExpression",
-                    "start": 5368,
-                    "end": 5394,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 5368,
-                      "end": 5384,
                       "object": {
                         "type": "Identifier",
+                        "name": "String",
                         "start": 5368,
-                        "end": 5374,
-                        "name": "String"
+                        "end": 5374
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 5375,
-                        "end": 5384,
-                        "name": "prototype"
+                        "end": 5384
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 5368,
+                      "end": 5384
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 5385,
-                      "end": 5393,
                       "value": "length",
-                      "raw": "\"length\""
+                      "raw": "\"length\"",
+                      "start": 5385,
+                      "end": 5393
                     },
                     "optional": false,
-                    "computed": true
+                    "computed": true,
+                    "start": 5368,
+                    "end": 5394
                   },
-                  "prefix": true
-                }
-              }
+                  "prefix": true,
+                  "start": 5361,
+                  "end": 5394
+                },
+                "start": 5360,
+                "end": 5396
+              },
+              "start": 5294,
+              "end": 5396
             }
-          ]
-        }
+          ],
+          "start": 5277,
+          "end": 5397
+        },
+        "start": 5271,
+        "end": 5398
       },
-      "alternate": null
+      "alternate": null,
+      "start": 5217,
+      "end": 5398
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 5399
 }

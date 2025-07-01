@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 130,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 130,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,25 +21,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 130,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 31,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "foo",
               "start": 14,
-              "end": 18,
-              "name": "foo"
+              "end": 18
             },
             "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
-              "start": 21,
-              "end": 30,
               "object": {
                 "type": "ThisExpression",
                 "start": 21,
@@ -51,12 +41,14 @@ __ESTREE_TEST__:PASS:
               },
               "property": {
                 "type": "PrivateIdentifier",
+                "name": "bar",
                 "start": 26,
-                "end": 30,
-                "name": "bar"
+                "end": 30
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 21,
+              "end": 30
             },
             "computed": false,
             "static": false,
@@ -65,24 +57,22 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 14,
+            "end": 31
           },
           {
             "type": "PropertyDefinition",
-            "start": 36,
-            "end": 53,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "bar",
               "start": 36,
-              "end": 40,
-              "name": "bar"
+              "end": 40
             },
             "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
-              "start": 43,
-              "end": 52,
               "object": {
                 "type": "ThisExpression",
                 "start": 43,
@@ -90,12 +80,14 @@ __ESTREE_TEST__:PASS:
               },
               "property": {
                 "type": "PrivateIdentifier",
+                "name": "foo",
                 "start": 48,
-                "end": 52,
-                "name": "foo"
+                "end": 52
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 43,
+              "end": 52
             },
             "computed": false,
             "static": false,
@@ -104,25 +96,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 36,
+            "end": 53
           },
           {
             "type": "PropertyDefinition",
-            "start": 58,
-            "end": 82,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 59,
-              "end": 65,
               "value": "#baz",
-              "raw": "\"#baz\""
+              "raw": "\"#baz\"",
+              "start": 59,
+              "end": 65
             },
             "typeAnnotation": null,
             "value": {
               "type": "MemberExpression",
-              "start": 69,
-              "end": 81,
               "object": {
                 "type": "ThisExpression",
                 "start": 69,
@@ -130,13 +120,15 @@ __ESTREE_TEST__:PASS:
               },
               "property": {
                 "type": "Literal",
-                "start": 74,
-                "end": 80,
                 "value": "#baz",
-                "raw": "\"#baz\""
+                "raw": "\"#baz\"",
+                "start": 74,
+                "end": 80
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 69,
+              "end": 81
             },
             "computed": true,
             "static": false,
@@ -145,15 +137,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 58,
+            "end": 82
           }
-        ]
+        ],
+        "start": 8,
+        "end": 130
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 130
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 130
 }
 ```

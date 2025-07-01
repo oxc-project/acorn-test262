@@ -2,128 +2,128 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 75,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 75,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 12,
-        "end": 75,
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "start": 18,
-            "end": 73,
             "id": {
               "type": "Identifier",
-              "start": 26,
-              "end": 32,
               "decorators": [],
               "name": "global",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 26,
+              "end": 32
             },
             "body": {
               "type": "TSModuleBlock",
-              "start": 33,
-              "end": 73,
               "body": [
                 {
                   "type": "TSInterfaceDeclaration",
-                  "start": 43,
-                  "end": 67,
                   "id": {
                     "type": "Identifier",
-                    "start": 53,
-                    "end": 58,
                     "decorators": [],
                     "name": "Array",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 53,
+                    "end": 58
                   },
                   "typeParameters": {
                     "type": "TSTypeParameterDeclaration",
-                    "start": 58,
-                    "end": 61,
                     "params": [
                       {
                         "type": "TSTypeParameter",
-                        "start": 59,
-                        "end": 60,
                         "name": {
                           "type": "Identifier",
-                          "start": 59,
-                          "end": 60,
                           "decorators": [],
                           "name": "T",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 59,
+                          "end": 60
                         },
                         "constraint": null,
                         "default": null,
                         "in": false,
                         "out": false,
-                        "const": false
+                        "const": false,
+                        "start": 59,
+                        "end": 60
                       }
-                    ]
+                    ],
+                    "start": 58,
+                    "end": 61
                   },
                   "extends": [],
                   "body": {
                     "type": "TSInterfaceBody",
-                    "start": 62,
-                    "end": 67,
                     "body": [
                       {
                         "type": "TSPropertySignature",
-                        "start": 64,
-                        "end": 65,
                         "computed": false,
                         "optional": false,
                         "readonly": false,
                         "key": {
                           "type": "Identifier",
-                          "start": 64,
-                          "end": 65,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 64,
+                          "end": 65
                         },
                         "typeAnnotation": null,
                         "accessibility": null,
-                        "static": false
+                        "static": false,
+                        "start": 64,
+                        "end": 65
                       }
-                    ]
+                    ],
+                    "start": 62,
+                    "end": 67
                   },
-                  "declare": false
+                  "declare": false,
+                  "start": 43,
+                  "end": 67
                 }
-              ]
+              ],
+              "start": 33,
+              "end": 73
             },
             "kind": "global",
             "declare": true,
-            "global": true
+            "global": true,
+            "start": 18,
+            "end": 73
           }
-        ]
+        ],
+        "start": 12,
+        "end": 75
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 75
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 75
 }
 ```

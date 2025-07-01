@@ -2,62 +2,62 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 25,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 25,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 16,
-            "end": 23,
             "computed": false,
             "optional": true,
             "readonly": false,
             "key": {
               "type": "Literal",
-              "start": 16,
-              "end": 17,
               "value": 3,
-              "raw": "3"
+              "raw": "3",
+              "start": 16,
+              "end": 17
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 18,
-              "end": 22,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 19,
                 "end": 22
-              }
+              },
+              "start": 18,
+              "end": 22
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 16,
+            "end": 23
           }
-        ]
+        ],
+        "start": 12,
+        "end": 25
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 25
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 25
 }
 ```

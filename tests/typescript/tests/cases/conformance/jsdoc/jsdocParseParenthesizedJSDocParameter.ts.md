@@ -2,90 +2,90 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 42,
-  "end": 67,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 42,
-      "end": 67,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 46,
-          "end": 67,
           "id": {
             "type": "Identifier",
-            "start": 46,
-            "end": 47,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 46,
+            "end": 47
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 50,
-            "end": 67,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 50,
-                "end": 51,
                 "decorators": [],
                 "name": "s",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 50,
+                "end": 51
               }
             ],
             "returnType": null,
             "body": {
               "type": "CallExpression",
-              "start": 55,
-              "end": 67,
               "callee": {
                 "type": "MemberExpression",
-                "start": 55,
-                "end": 65,
                 "object": {
                   "type": "Identifier",
-                  "start": 55,
-                  "end": 56,
                   "decorators": [],
                   "name": "s",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 55,
+                  "end": 56
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 57,
-                  "end": 65,
                   "decorators": [],
                   "name": "toString",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 57,
+                  "end": 65
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 55,
+                "end": 65
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 55,
+              "end": 67
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 50,
+            "end": 67
           },
-          "definite": false
+          "definite": false,
+          "start": 46,
+          "end": 67
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 42,
+      "end": 67
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 42,
+  "end": 67
 }
 ```

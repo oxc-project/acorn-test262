@@ -2,246 +2,238 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 478,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 168,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 168,
         "body": [
           {
             "type": "TSCallSignatureDeclaration",
-            "start": 18,
-            "end": 76,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 19,
-                "end": 52,
                 "decorators": [],
                 "name": "stringParts",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 30,
-                  "end": 52,
                   "typeAnnotation": {
                     "type": "TSTypeReference",
-                    "start": 32,
-                    "end": 52,
                     "typeName": {
                       "type": "Identifier",
-                      "start": 32,
-                      "end": 52,
                       "decorators": [],
                       "name": "TemplateStringsArray",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 32,
+                      "end": 52
                     },
-                    "typeArguments": null
-                  }
-                }
+                    "typeArguments": null,
+                    "start": 32,
+                    "end": 52
+                  },
+                  "start": 30,
+                  "end": 52
+                },
+                "start": 19,
+                "end": 52
               },
               {
                 "type": "RestElement",
-                "start": 54,
-                "end": 71,
                 "decorators": [],
                 "argument": {
                   "type": "Identifier",
-                  "start": 57,
-                  "end": 61,
                   "decorators": [],
                   "name": "rest",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 57,
+                  "end": 61
                 },
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 61,
-                  "end": 71,
                   "typeAnnotation": {
                     "type": "TSArrayType",
-                    "start": 63,
-                    "end": 71,
                     "elementType": {
                       "type": "TSNumberKeyword",
                       "start": 63,
                       "end": 69
-                    }
-                  }
+                    },
+                    "start": 63,
+                    "end": 71
+                  },
+                  "start": 61,
+                  "end": 71
                 },
-                "value": null
+                "value": null,
+                "start": 54,
+                "end": 71
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 72,
-              "end": 75,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 74,
-                "end": 75,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 74,
-                  "end": 75,
                   "decorators": [],
                   "name": "I",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 74,
+                  "end": 75
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 74,
+                "end": 75
+              },
+              "start": 72,
+              "end": 75
+            },
+            "start": 18,
+            "end": 76
           },
           {
             "type": "TSPropertySignature",
-            "start": 81,
-            "end": 86,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 81,
-              "end": 82,
               "decorators": [],
               "name": "g",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 81,
+              "end": 82
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 82,
-              "end": 85,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 84,
-                "end": 85,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 84,
-                  "end": 85,
                   "decorators": [],
                   "name": "I",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 84,
+                  "end": 85
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 84,
+                "end": 85
+              },
+              "start": 82,
+              "end": 85
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 81,
+            "end": 86
           },
           {
             "type": "TSPropertySignature",
-            "start": 91,
-            "end": 96,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 91,
-              "end": 92,
               "decorators": [],
               "name": "h",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 91,
+              "end": 92
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 92,
-              "end": 95,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 94,
-                "end": 95,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 94,
-                  "end": 95,
                   "decorators": [],
                   "name": "I",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 94,
+                  "end": 95
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 94,
+                "end": 95
+              },
+              "start": 92,
+              "end": 95
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 91,
+            "end": 96
           },
           {
             "type": "TSPropertySignature",
-            "start": 101,
-            "end": 111,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 101,
-              "end": 107,
               "decorators": [],
               "name": "member",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 101,
+              "end": 107
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 107,
-              "end": 110,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 109,
-                "end": 110,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 109,
-                  "end": 110,
                   "decorators": [],
                   "name": "I",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 109,
+                  "end": 110
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 109,
+                "end": 110
+              },
+              "start": 107,
+              "end": 110
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 101,
+            "end": 111
           },
           {
             "type": "TSMethodSignature",
-            "start": 116,
-            "end": 146,
             "key": {
               "type": "Identifier",
-              "start": 116,
-              "end": 129,
               "decorators": [],
               "name": "thisIsNotATag",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 116,
+              "end": 129
             },
             "computed": false,
             "optional": false,
@@ -250,976 +242,984 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 130,
-                "end": 139,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 131,
-                  "end": 139,
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
                     "start": 133,
                     "end": 139
-                  }
-                }
+                  },
+                  "start": 131,
+                  "end": 139
+                },
+                "start": 130,
+                "end": 139
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 140,
-              "end": 146,
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
                 "start": 142,
                 "end": 146
-              }
+              },
+              "start": 140,
+              "end": 146
             },
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 116,
+            "end": 146
           },
           {
             "type": "TSIndexSignature",
-            "start": 151,
-            "end": 166,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 152,
-                "end": 161,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 153,
-                  "end": 161,
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
                     "start": 155,
                     "end": 161
-                  }
-                }
+                  },
+                  "start": 153,
+                  "end": 161
+                },
+                "start": 152,
+                "end": 161
               }
             ],
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 162,
-              "end": 165,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 164,
-                "end": 165,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 164,
-                  "end": 165,
                   "decorators": [],
                   "name": "I",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 164,
+                  "end": 165
                 },
-                "typeArguments": null
-              }
+                "typeArguments": null,
+                "start": 164,
+                "end": 165
+              },
+              "start": 162,
+              "end": 165
             },
             "readonly": false,
             "static": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 151,
+            "end": 166
           }
-        ]
+        ],
+        "start": 12,
+        "end": 168
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 168
     },
     {
       "type": "VariableDeclaration",
-      "start": 170,
-      "end": 179,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 174,
-          "end": 178,
           "id": {
             "type": "Identifier",
-            "start": 174,
-            "end": 178,
             "decorators": [],
             "name": "f",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 175,
-              "end": 178,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 177,
-                "end": 178,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 177,
-                  "end": 178,
                   "decorators": [],
                   "name": "I",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 177,
+                  "end": 178
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 177,
+                "end": 178
+              },
+              "start": 175,
+              "end": 178
+            },
+            "start": 174,
+            "end": 178
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 174,
+          "end": 178
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 170,
+      "end": 179
     },
     {
       "type": "ExpressionStatement",
-      "start": 181,
-      "end": 188,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 181,
-        "end": 188,
         "tag": {
           "type": "Identifier",
-          "start": 181,
-          "end": 182,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 181,
+          "end": 182
         },
         "typeArguments": null,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 183,
-          "end": 188,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 183,
-              "end": 188,
               "value": {
                 "raw": "abc",
                 "cooked": "abc"
               },
-              "tail": true
+              "tail": true,
+              "start": 183,
+              "end": 188
             }
           ],
-          "expressions": []
-        }
+          "expressions": [],
+          "start": 183,
+          "end": 188
+        },
+        "start": 181,
+        "end": 188
       },
-      "directive": null
+      "directive": null,
+      "start": 181,
+      "end": 188
     },
     {
       "type": "ExpressionStatement",
-      "start": 190,
-      "end": 212,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 190,
-        "end": 211,
         "tag": {
           "type": "Identifier",
-          "start": 190,
-          "end": 191,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 190,
+          "end": 191
         },
         "typeArguments": null,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 192,
-          "end": 211,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 192,
-              "end": 198,
               "value": {
                 "raw": "abc",
                 "cooked": "abc"
               },
-              "tail": false
+              "tail": false,
+              "start": 192,
+              "end": 198
             },
             {
               "type": "TemplateElement",
-              "start": 199,
-              "end": 205,
               "value": {
                 "raw": "def",
                 "cooked": "def"
               },
-              "tail": false
+              "tail": false,
+              "start": 199,
+              "end": 205
             },
             {
               "type": "TemplateElement",
-              "start": 206,
-              "end": 211,
               "value": {
                 "raw": "ghi",
                 "cooked": "ghi"
               },
-              "tail": true
+              "tail": true,
+              "start": 206,
+              "end": 211
             }
           ],
           "expressions": [
             {
               "type": "Literal",
-              "start": 198,
-              "end": 199,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 198,
+              "end": 199
             },
             {
               "type": "Literal",
-              "start": 205,
-              "end": 206,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 205,
+              "end": 206
             }
-          ]
-        }
+          ],
+          "start": 192,
+          "end": 211
+        },
+        "start": 190,
+        "end": 211
       },
-      "directive": null
+      "directive": null,
+      "start": 190,
+      "end": 212
     },
     {
       "type": "ExpressionStatement",
-      "start": 214,
-      "end": 228,
       "expression": {
         "type": "MemberExpression",
-        "start": 214,
-        "end": 228,
         "object": {
           "type": "TaggedTemplateExpression",
-          "start": 214,
-          "end": 221,
           "tag": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "f",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 214,
-            "end": 215,
-            "decorators": [],
-            "name": "f",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 215
           },
           "typeArguments": null,
           "quasi": {
             "type": "TemplateLiteral",
-            "start": 216,
-            "end": 221,
             "quasis": [
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "abc",
+                  "cooked": "abc"
+                },
+                "tail": true,
                 "start": 216,
-                "end": 221,
-                "value": {
-                  "raw": "abc",
-                  "cooked": "abc"
-                },
-                "tail": true
+                "end": 221
               }
             ],
-            "expressions": []
-          }
+            "expressions": [],
+            "start": 216,
+            "end": 221
+          },
+          "start": 214,
+          "end": 221
         },
         "property": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "member",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 222,
-          "end": 228,
-          "decorators": [],
-          "name": "member",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 228
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 214,
+        "end": 228
       },
-      "directive": null
+      "directive": null,
+      "start": 214,
+      "end": 228
     },
     {
       "type": "ExpressionStatement",
-      "start": 230,
-      "end": 259,
       "expression": {
         "type": "MemberExpression",
-        "start": 230,
-        "end": 258,
         "object": {
           "type": "TaggedTemplateExpression",
-          "start": 230,
-          "end": 251,
           "tag": {
             "type": "Identifier",
-            "start": 230,
-            "end": 231,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 230,
+            "end": 231
           },
           "typeArguments": null,
           "quasi": {
             "type": "TemplateLiteral",
-            "start": 232,
-            "end": 251,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 232,
-                "end": 238,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 232,
+                "end": 238
               },
               {
                 "type": "TemplateElement",
-                "start": 239,
-                "end": 245,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": false
+                "tail": false,
+                "start": 239,
+                "end": 245
               },
               {
                 "type": "TemplateElement",
-                "start": 246,
-                "end": 251,
                 "value": {
                   "raw": "ghi",
                   "cooked": "ghi"
                 },
-                "tail": true
+                "tail": true,
+                "start": 246,
+                "end": 251
               }
             ],
             "expressions": [
               {
                 "type": "Literal",
-                "start": 238,
-                "end": 239,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 238,
+                "end": 239
               },
               {
                 "type": "Literal",
-                "start": 245,
-                "end": 246,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 245,
+                "end": 246
               }
-            ]
-          }
+            ],
+            "start": 232,
+            "end": 251
+          },
+          "start": 230,
+          "end": 251
         },
         "property": {
           "type": "Identifier",
-          "start": 252,
-          "end": 258,
           "decorators": [],
           "name": "member",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 252,
+          "end": 258
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 230,
+        "end": 258
       },
-      "directive": null
+      "directive": null,
+      "start": 230,
+      "end": 259
     },
     {
       "type": "ExpressionStatement",
-      "start": 261,
-      "end": 279,
       "expression": {
         "type": "MemberExpression",
-        "start": 261,
-        "end": 278,
         "object": {
           "type": "TaggedTemplateExpression",
-          "start": 261,
-          "end": 268,
           "tag": {
             "type": "Identifier",
-            "start": 261,
-            "end": 262,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 261,
+            "end": 262
           },
           "typeArguments": null,
           "quasi": {
             "type": "TemplateLiteral",
-            "start": 263,
-            "end": 268,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 263,
-                "end": 268,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": true
+                "tail": true,
+                "start": 263,
+                "end": 268
               }
             ],
-            "expressions": []
-          }
+            "expressions": [],
+            "start": 263,
+            "end": 268
+          },
+          "start": 261,
+          "end": 268
         },
         "property": {
           "type": "Literal",
-          "start": 269,
-          "end": 277,
           "value": "member",
-          "raw": "\"member\""
+          "raw": "\"member\"",
+          "start": 269,
+          "end": 277
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 261,
+        "end": 278
       },
-      "directive": null
+      "directive": null,
+      "start": 261,
+      "end": 279
     },
     {
       "type": "ExpressionStatement",
-      "start": 281,
-      "end": 313,
       "expression": {
         "type": "MemberExpression",
-        "start": 281,
-        "end": 312,
         "object": {
           "type": "TaggedTemplateExpression",
-          "start": 281,
-          "end": 302,
           "tag": {
             "type": "Identifier",
-            "start": 281,
-            "end": 282,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 281,
+            "end": 282
           },
           "typeArguments": null,
           "quasi": {
             "type": "TemplateLiteral",
-            "start": 283,
-            "end": 302,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 283,
-                "end": 289,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 283,
+                "end": 289
               },
               {
                 "type": "TemplateElement",
-                "start": 290,
-                "end": 296,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": false
+                "tail": false,
+                "start": 290,
+                "end": 296
               },
               {
                 "type": "TemplateElement",
-                "start": 297,
-                "end": 302,
                 "value": {
                   "raw": "ghi",
                   "cooked": "ghi"
                 },
-                "tail": true
+                "tail": true,
+                "start": 297,
+                "end": 302
               }
             ],
             "expressions": [
               {
                 "type": "Literal",
-                "start": 289,
-                "end": 290,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 289,
+                "end": 290
               },
               {
                 "type": "Literal",
-                "start": 296,
-                "end": 297,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 296,
+                "end": 297
               }
-            ]
-          }
+            ],
+            "start": 283,
+            "end": 302
+          },
+          "start": 281,
+          "end": 302
         },
         "property": {
           "type": "Literal",
-          "start": 303,
-          "end": 311,
           "value": "member",
-          "raw": "\"member\""
+          "raw": "\"member\"",
+          "start": 303,
+          "end": 311
         },
         "optional": false,
-        "computed": true
+        "computed": true,
+        "start": 281,
+        "end": 312
       },
-      "directive": null
+      "directive": null,
+      "start": 281,
+      "end": 313
     },
     {
       "type": "ExpressionStatement",
-      "start": 315,
-      "end": 353,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 315,
-        "end": 352,
         "tag": {
           "type": "MemberExpression",
-          "start": 315,
-          "end": 332,
           "object": {
             "type": "MemberExpression",
-            "start": 315,
-            "end": 325,
             "object": {
               "type": "TaggedTemplateExpression",
-              "start": 315,
-              "end": 322,
               "tag": {
                 "type": "Identifier",
-                "start": 315,
-                "end": 316,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 315,
+                "end": 316
               },
               "typeArguments": null,
               "quasi": {
                 "type": "TemplateLiteral",
-                "start": 317,
-                "end": 322,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 317,
-                    "end": 322,
                     "value": {
                       "raw": "abc",
                       "cooked": "abc"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 317,
+                    "end": 322
                   }
                 ],
-                "expressions": []
-              }
+                "expressions": [],
+                "start": 317,
+                "end": 322
+              },
+              "start": 315,
+              "end": 322
             },
             "property": {
               "type": "Literal",
-              "start": 323,
-              "end": 324,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 323,
+              "end": 324
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 315,
+            "end": 325
           },
           "property": {
             "type": "Identifier",
-            "start": 326,
-            "end": 332,
             "decorators": [],
             "name": "member",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 326,
+            "end": 332
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 315,
+          "end": 332
         },
         "typeArguments": null,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 333,
-          "end": 352,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 333,
-              "end": 339,
               "value": {
                 "raw": "abc",
                 "cooked": "abc"
               },
-              "tail": false
+              "tail": false,
+              "start": 333,
+              "end": 339
             },
             {
               "type": "TemplateElement",
-              "start": 340,
-              "end": 346,
               "value": {
                 "raw": "def",
                 "cooked": "def"
               },
-              "tail": false
+              "tail": false,
+              "start": 340,
+              "end": 346
             },
             {
               "type": "TemplateElement",
-              "start": 347,
-              "end": 352,
               "value": {
                 "raw": "ghi",
                 "cooked": "ghi"
               },
-              "tail": true
+              "tail": true,
+              "start": 347,
+              "end": 352
             }
           ],
           "expressions": [
             {
               "type": "Literal",
-              "start": 339,
-              "end": 340,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 339,
+              "end": 340
             },
             {
               "type": "Literal",
-              "start": 346,
-              "end": 347,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 346,
+              "end": 347
             }
-          ]
-        }
+          ],
+          "start": 333,
+          "end": 352
+        },
+        "start": 315,
+        "end": 352
       },
-      "directive": null
+      "directive": null,
+      "start": 315,
+      "end": 353
     },
     {
       "type": "ExpressionStatement",
-      "start": 355,
-      "end": 414,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 355,
-        "end": 413,
         "tag": {
           "type": "MemberExpression",
-          "start": 355,
-          "end": 393,
           "object": {
             "type": "MemberExpression",
-            "start": 355,
-            "end": 386,
             "object": {
               "type": "TaggedTemplateExpression",
-              "start": 355,
-              "end": 376,
               "tag": {
                 "type": "Identifier",
-                "start": 355,
-                "end": 356,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 355,
+                "end": 356
               },
               "typeArguments": null,
               "quasi": {
                 "type": "TemplateLiteral",
-                "start": 357,
-                "end": 376,
                 "quasis": [
                   {
                     "type": "TemplateElement",
-                    "start": 357,
-                    "end": 363,
                     "value": {
                       "raw": "abc",
                       "cooked": "abc"
                     },
-                    "tail": false
+                    "tail": false,
+                    "start": 357,
+                    "end": 363
                   },
                   {
                     "type": "TemplateElement",
-                    "start": 364,
-                    "end": 370,
                     "value": {
                       "raw": "def",
                       "cooked": "def"
                     },
-                    "tail": false
+                    "tail": false,
+                    "start": 364,
+                    "end": 370
                   },
                   {
                     "type": "TemplateElement",
-                    "start": 371,
-                    "end": 376,
                     "value": {
                       "raw": "ghi",
                       "cooked": "ghi"
                     },
-                    "tail": true
+                    "tail": true,
+                    "start": 371,
+                    "end": 376
                   }
                 ],
                 "expressions": [
                   {
                     "type": "Literal",
-                    "start": 363,
-                    "end": 364,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 363,
+                    "end": 364
                   },
                   {
                     "type": "Literal",
-                    "start": 370,
-                    "end": 371,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "start": 370,
+                    "end": 371
                   }
-                ]
-              }
+                ],
+                "start": 357,
+                "end": 376
+              },
+              "start": 355,
+              "end": 376
             },
             "property": {
               "type": "Literal",
-              "start": 377,
-              "end": 385,
               "value": "member",
-              "raw": "\"member\""
+              "raw": "\"member\"",
+              "start": 377,
+              "end": 385
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 355,
+            "end": 386
           },
           "property": {
             "type": "Identifier",
-            "start": 387,
-            "end": 393,
             "decorators": [],
             "name": "member",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 387,
+            "end": 393
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 355,
+          "end": 393
         },
         "typeArguments": null,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 394,
-          "end": 413,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 394,
-              "end": 400,
               "value": {
                 "raw": "abc",
                 "cooked": "abc"
               },
-              "tail": false
+              "tail": false,
+              "start": 394,
+              "end": 400
             },
             {
               "type": "TemplateElement",
-              "start": 401,
-              "end": 407,
               "value": {
                 "raw": "def",
                 "cooked": "def"
               },
-              "tail": false
+              "tail": false,
+              "start": 401,
+              "end": 407
             },
             {
               "type": "TemplateElement",
-              "start": 408,
-              "end": 413,
               "value": {
                 "raw": "ghi",
                 "cooked": "ghi"
               },
-              "tail": true
+              "tail": true,
+              "start": 408,
+              "end": 413
             }
           ],
           "expressions": [
             {
               "type": "Literal",
-              "start": 400,
-              "end": 401,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 400,
+              "end": 401
             },
             {
               "type": "Literal",
-              "start": 407,
-              "end": 408,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 407,
+              "end": 408
             }
-          ]
-        }
+          ],
+          "start": 394,
+          "end": 413
+        },
+        "start": 355,
+        "end": 413
       },
-      "directive": null
+      "directive": null,
+      "start": 355,
+      "end": 414
     },
     {
       "type": "ExpressionStatement",
-      "start": 416,
-      "end": 439,
       "expression": {
         "type": "CallExpression",
-        "start": 416,
-        "end": 438,
         "callee": {
           "type": "MemberExpression",
-          "start": 416,
-          "end": 431,
           "object": {
             "type": "Identifier",
-            "start": 416,
-            "end": 417,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 416,
+            "end": 417
           },
           "property": {
             "type": "Identifier",
-            "start": 418,
-            "end": 431,
             "decorators": [],
             "name": "thisIsNotATag",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 418,
+            "end": 431
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 416,
+          "end": 431
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 432,
-            "end": 437,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 432,
-                "end": 437,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": true
+                "tail": true,
+                "start": 432,
+                "end": 437
               }
             ],
-            "expressions": []
+            "expressions": [],
+            "start": 432,
+            "end": 437
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 416,
+        "end": 438
       },
-      "directive": null
+      "directive": null,
+      "start": 416,
+      "end": 439
     },
     {
       "type": "ExpressionStatement",
-      "start": 441,
-      "end": 478,
       "expression": {
         "type": "CallExpression",
-        "start": 441,
-        "end": 477,
         "callee": {
           "type": "MemberExpression",
-          "start": 441,
-          "end": 456,
           "object": {
             "type": "Identifier",
-            "start": 441,
-            "end": 442,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 441,
+            "end": 442
           },
           "property": {
             "type": "Identifier",
-            "start": 443,
-            "end": 456,
             "decorators": [],
             "name": "thisIsNotATag",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 443,
+            "end": 456
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 441,
+          "end": 456
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 457,
-            "end": 476,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 457,
-                "end": 463,
                 "value": {
                   "raw": "abc",
                   "cooked": "abc"
                 },
-                "tail": false
+                "tail": false,
+                "start": 457,
+                "end": 463
               },
               {
                 "type": "TemplateElement",
-                "start": 464,
-                "end": 470,
                 "value": {
                   "raw": "def",
                   "cooked": "def"
                 },
-                "tail": false
+                "tail": false,
+                "start": 464,
+                "end": 470
               },
               {
                 "type": "TemplateElement",
-                "start": 471,
-                "end": 476,
                 "value": {
                   "raw": "ghi",
                   "cooked": "ghi"
                 },
-                "tail": true
+                "tail": true,
+                "start": 471,
+                "end": 476
               }
             ],
             "expressions": [
               {
                 "type": "Literal",
-                "start": 463,
-                "end": 464,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 463,
+                "end": 464
               },
               {
                 "type": "Literal",
-                "start": 470,
-                "end": 471,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 470,
+                "end": 471
               }
-            ]
+            ],
+            "start": 457,
+            "end": 476
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 441,
+        "end": 477
       },
-      "directive": null
+      "directive": null,
+      "start": 441,
+      "end": 478
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 478
 }
 ```

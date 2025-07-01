@@ -1,267 +1,267 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 763,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 494,
-      "end": 762,
       "expression": {
         "type": "CallExpression",
-        "start": 494,
-        "end": 761,
         "callee": {
           "type": "MemberExpression",
-          "start": 494,
-          "end": 513,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 494,
-            "end": 500,
-            "name": "assert"
+            "end": 500
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 501,
-            "end": 513,
-            "name": "compareArray"
+            "end": 513
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 494,
+          "end": 513
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 514,
-            "end": 687,
             "callee": {
               "type": "MemberExpression",
-              "start": 514,
-              "end": 538,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 514,
-                "end": 518,
-                "name": "Intl"
+                "end": 518
               },
               "property": {
                 "type": "Identifier",
+                "name": "getCanonicalLocales",
                 "start": 519,
-                "end": 538,
-                "name": "getCanonicalLocales"
+                "end": 538
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 514,
+              "end": 538
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 539,
-                "end": 686,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 543,
-                    "end": 550,
                     "value": "fr-CA",
-                    "raw": "\"fr-CA\""
+                    "raw": "\"fr-CA\"",
+                    "start": 543,
+                    "end": 550
                   },
                   {
                     "type": "NewExpression",
-                    "start": 554,
-                    "end": 587,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 558,
-                      "end": 569,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 558,
-                        "end": 562,
-                        "name": "Intl"
+                        "end": 562
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Locale",
                         "start": 563,
-                        "end": 569,
-                        "name": "Locale"
+                        "end": 569
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 558,
+                      "end": 569
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 570,
-                        "end": 586,
                         "value": "en-gb-oxendict",
-                        "raw": "\"en-gb-oxendict\""
+                        "raw": "\"en-gb-oxendict\"",
+                        "start": 570,
+                        "end": 586
                       }
-                    ]
+                    ],
+                    "start": 554,
+                    "end": 587
                   },
                   {
                     "type": "Literal",
-                    "start": 591,
-                    "end": 595,
                     "value": "de",
-                    "raw": "\"de\""
+                    "raw": "\"de\"",
+                    "start": 591,
+                    "end": 595
                   },
                   {
                     "type": "NewExpression",
-                    "start": 599,
-                    "end": 647,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 603,
-                      "end": 614,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 603,
-                        "end": 607,
-                        "name": "Intl"
+                        "end": 607
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Locale",
                         "start": 608,
-                        "end": 614,
-                        "name": "Locale"
+                        "end": 614
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 603,
+                      "end": 614
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 615,
-                        "end": 619,
                         "value": "jp",
-                        "raw": "\"jp\""
+                        "raw": "\"jp\"",
+                        "start": 615,
+                        "end": 619
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 621,
-                        "end": 646,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 623,
-                            "end": 644,
                             "kind": "init",
                             "key": {
                               "type": "Literal",
-                              "start": 623,
-                              "end": 633,
                               "value": "calendar",
-                              "raw": "\"calendar\""
+                              "raw": "\"calendar\"",
+                              "start": 623,
+                              "end": 633
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 635,
-                              "end": 644,
                               "value": "gregory",
-                              "raw": "\"gregory\""
+                              "raw": "\"gregory\"",
+                              "start": 635,
+                              "end": 644
                             },
                             "method": false,
                             "shorthand": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 623,
+                            "end": 644
                           }
-                        ]
+                        ],
+                        "start": 621,
+                        "end": 646
                       }
-                    ]
+                    ],
+                    "start": 599,
+                    "end": 647
                   },
                   {
                     "type": "Literal",
-                    "start": 651,
-                    "end": 655,
                     "value": "zh",
-                    "raw": "\"zh\""
+                    "raw": "\"zh\"",
+                    "start": 651,
+                    "end": 655
                   },
                   {
                     "type": "NewExpression",
-                    "start": 659,
-                    "end": 683,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 663,
-                      "end": 674,
                       "object": {
                         "type": "Identifier",
+                        "name": "Intl",
                         "start": 663,
-                        "end": 667,
-                        "name": "Intl"
+                        "end": 667
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "Locale",
                         "start": 668,
-                        "end": 674,
-                        "name": "Locale"
+                        "end": 674
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 663,
+                      "end": 674
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 675,
-                        "end": 682,
                         "value": "fr-CA",
-                        "raw": "\"fr-CA\""
+                        "raw": "\"fr-CA\"",
+                        "start": 675,
+                        "end": 682
                       }
-                    ]
+                    ],
+                    "start": 659,
+                    "end": 683
                   }
-                ]
+                ],
+                "start": 539,
+                "end": 686
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 514,
+            "end": 687
           },
           {
             "type": "ArrayExpression",
-            "start": 689,
-            "end": 760,
             "elements": [
               {
                 "type": "Literal",
-                "start": 693,
-                "end": 700,
                 "value": "fr-CA",
-                "raw": "\"fr-CA\""
+                "raw": "\"fr-CA\"",
+                "start": 693,
+                "end": 700
               },
               {
                 "type": "Literal",
-                "start": 704,
-                "end": 720,
                 "value": "en-GB-oxendict",
-                "raw": "\"en-GB-oxendict\""
+                "raw": "\"en-GB-oxendict\"",
+                "start": 704,
+                "end": 720
               },
               {
                 "type": "Literal",
-                "start": 724,
-                "end": 728,
                 "value": "de",
-                "raw": "\"de\""
+                "raw": "\"de\"",
+                "start": 724,
+                "end": 728
               },
               {
                 "type": "Literal",
-                "start": 732,
-                "end": 749,
                 "value": "jp-u-ca-gregory",
-                "raw": "\"jp-u-ca-gregory\""
+                "raw": "\"jp-u-ca-gregory\"",
+                "start": 732,
+                "end": 749
               },
               {
                 "type": "Literal",
-                "start": 753,
-                "end": 757,
                 "value": "zh",
-                "raw": "\"zh\""
+                "raw": "\"zh\"",
+                "start": 753,
+                "end": 757
               }
-            ]
+            ],
+            "start": 689,
+            "end": 760
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 494,
+        "end": 761
+      },
+      "start": 494,
+      "end": 762
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 763
 }

@@ -1,224 +1,224 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 900,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 366,
-      "end": 379,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 370,
-          "end": 378,
           "id": {
             "type": "Identifier",
+            "name": "__in__do",
             "start": 370,
-            "end": 378,
-            "name": "__in__do"
+            "end": 378
           },
-          "init": null
+          "init": null,
+          "start": 370,
+          "end": 378
         }
-      ]
+      ],
+      "start": 366,
+      "end": 379
     },
     {
       "type": "TryStatement",
-      "start": 381,
-      "end": 603,
       "block": {
         "type": "BlockStatement",
-        "start": 385,
-        "end": 545,
         "body": [
           {
             "type": "DoWhileStatement",
-            "start": 388,
-            "end": 434,
             "body": {
               "type": "ExpressionStatement",
-              "start": 391,
-              "end": 412,
               "expression": {
                 "type": "AssignmentExpression",
-                "start": 391,
-                "end": 411,
                 "operator": "=",
                 "left": {
                   "type": "Identifier",
+                  "name": "__in__do",
                   "start": 391,
-                  "end": 399,
-                  "name": "__in__do"
+                  "end": 399
                 },
                 "right": {
                   "type": "Literal",
-                  "start": 402,
-                  "end": 411,
                   "value": "reached",
-                  "raw": "\"reached\""
-                }
-              }
+                  "raw": "\"reached\"",
+                  "start": 402,
+                  "end": 411
+                },
+                "start": 391,
+                "end": 411
+              },
+              "start": 391,
+              "end": 412
             },
             "test": {
               "type": "Identifier",
+              "name": "abbracadabra",
               "start": 420,
-              "end": 432,
-              "name": "abbracadabra"
-            }
+              "end": 432
+            },
+            "start": 388,
+            "end": 434
           },
           {
             "type": "ThrowStatement",
-            "start": 436,
-            "end": 543,
             "argument": {
               "type": "NewExpression",
-              "start": 442,
-              "end": 542,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 446,
-                "end": 458,
-                "name": "Test262Error"
+                "end": 458
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 459,
-                  "end": 541,
                   "value": "#1: 'do __in__do = \"reached\"; while (abbracadabra)' lead to throwing exception",
-                  "raw": "'#1: \\'do __in__do = \"reached\"; while (abbracadabra)\\' lead to throwing exception'"
+                  "raw": "'#1: \\'do __in__do = \"reached\"; while (abbracadabra)\\' lead to throwing exception'",
+                  "start": 459,
+                  "end": 541
                 }
-              ]
-            }
+              ],
+              "start": 442,
+              "end": 542
+            },
+            "start": 436,
+            "end": 543
           }
-        ]
+        ],
+        "start": 385,
+        "end": 545
       },
       "handler": {
         "type": "CatchClause",
-        "start": 546,
-        "end": 603,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 553,
-          "end": 554,
-          "name": "e"
+          "end": 554
         },
         "body": {
           "type": "BlockStatement",
-          "start": 556,
-          "end": 603,
           "body": [
             {
               "type": "IfStatement",
-              "start": 562,
-              "end": 601,
               "test": {
                 "type": "BinaryExpression",
-                "start": 566,
-                "end": 591,
                 "left": {
                   "type": "Identifier",
+                  "name": "e",
                   "start": 566,
-                  "end": 567,
-                  "name": "e"
+                  "end": 567
                 },
                 "operator": "instanceof",
                 "right": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 579,
-                  "end": 591,
-                  "name": "Test262Error"
-                }
+                  "end": 591
+                },
+                "start": 566,
+                "end": 591
               },
               "consequent": {
                 "type": "ThrowStatement",
-                "start": 593,
-                "end": 601,
                 "argument": {
                   "type": "Identifier",
+                  "name": "e",
                   "start": 599,
-                  "end": 600,
-                  "name": "e"
-                }
+                  "end": 600
+                },
+                "start": 593,
+                "end": 601
               },
-              "alternate": null
+              "alternate": null,
+              "start": 562,
+              "end": 601
             }
-          ]
-        }
+          ],
+          "start": 556,
+          "end": 603
+        },
+        "start": 546,
+        "end": 603
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 381,
+      "end": 603
     },
     {
       "type": "IfStatement",
-      "start": 694,
-      "end": 817,
       "test": {
         "type": "BinaryExpression",
-        "start": 698,
-        "end": 720,
         "left": {
           "type": "Identifier",
+          "name": "__in__do",
           "start": 698,
-          "end": 706,
-          "name": "__in__do"
+          "end": 706
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 711,
-          "end": 720,
           "value": "reached",
-          "raw": "\"reached\""
-        }
+          "raw": "\"reached\"",
+          "start": 711,
+          "end": 720
+        },
+        "start": 698,
+        "end": 720
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 722,
-        "end": 817,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 725,
-            "end": 815,
             "argument": {
               "type": "NewExpression",
-              "start": 731,
-              "end": 814,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 735,
-                "end": 747,
-                "name": "Test262Error"
+                "end": 747
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 748,
-                  "end": 811,
                   "left": {
                     "type": "Literal",
-                    "start": 748,
-                    "end": 801,
                     "value": "#1.1: __in__do === \"reached\". Actual:  __in__do ===",
-                    "raw": "'#1.1: __in__do === \"reached\". Actual:  __in__do ==='"
+                    "raw": "'#1.1: __in__do === \"reached\". Actual:  __in__do ==='",
+                    "start": 748,
+                    "end": 801
                   },
                   "operator": "+",
                   "right": {
                     "type": "Identifier",
+                    "name": "__in__do",
                     "start": 803,
-                    "end": 811,
-                    "name": "__in__do"
-                  }
+                    "end": 811
+                  },
+                  "start": 748,
+                  "end": 811
                 }
-              ]
-            }
+              ],
+              "start": 731,
+              "end": 814
+            },
+            "start": 725,
+            "end": 815
           }
-        ]
+        ],
+        "start": 722,
+        "end": 817
       },
-      "alternate": null
+      "alternate": null,
+      "start": 694,
+      "end": 817
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 900
 }

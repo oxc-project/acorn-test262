@@ -2,64 +2,60 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 32,
-  "end": 128,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 32,
-      "end": 72,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 38,
-        "end": 45,
         "decorators": [],
         "name": "Derived",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 38,
+        "end": 45
       },
       "typeParameters": null,
       "superClass": {
         "type": "CallExpression",
-        "start": 54,
-        "end": 69,
         "callee": {
           "type": "Identifier",
-          "start": 54,
-          "end": 67,
           "decorators": [],
           "name": "makeBaseClass",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 54,
+          "end": 67
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 54,
+        "end": 69
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 70,
-        "end": 72,
-        "body": []
+        "end": 72
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 32,
+      "end": 72
     },
     {
       "type": "FunctionDeclaration",
-      "start": 74,
-      "end": 128,
       "id": {
         "type": "Identifier",
-        "start": 83,
-        "end": 96,
         "decorators": [],
         "name": "makeBaseClass",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 83,
+        "end": 96
       },
       "generator": false,
       "async": false,
@@ -69,26 +65,20 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 99,
-        "end": 128,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 105,
-            "end": 126,
             "argument": {
               "type": "ClassExpression",
-              "start": 112,
-              "end": 125,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 118,
-                "end": 122,
                 "decorators": [],
                 "name": "Base",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 118,
+                "end": 122
               },
               "typeParameters": null,
               "superClass": null,
@@ -96,20 +86,30 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
+                "body": [],
                 "start": 123,
-                "end": 125,
-                "body": []
+                "end": 125
               },
               "abstract": false,
-              "declare": false
-            }
+              "declare": false,
+              "start": 112,
+              "end": 125
+            },
+            "start": 105,
+            "end": 126
           }
-        ]
+        ],
+        "start": 99,
+        "end": 128
       },
-      "expression": false
+      "expression": false,
+      "start": 74,
+      "end": 128
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 32,
+  "end": 128
 }
 ```

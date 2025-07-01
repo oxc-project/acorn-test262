@@ -1,174 +1,174 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 603,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 489,
-      "end": 544,
       "expression": {
         "type": "CallExpression",
-        "start": 489,
-        "end": 543,
         "callee": {
           "type": "MemberExpression",
-          "start": 489,
-          "end": 505,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 489,
-            "end": 495,
-            "name": "assert"
+            "end": 495
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 496,
-            "end": 505,
-            "name": "sameValue"
+            "end": 505
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 489,
+          "end": 505
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 506,
-            "end": 526,
             "callee": {
               "type": "MemberExpression",
-              "start": 506,
-              "end": 516,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 506,
-                "end": 510,
-                "name": "Math"
+                "end": 510
               },
               "property": {
                 "type": "Identifier",
+                "name": "clz32",
                 "start": 511,
-                "end": 516,
-                "name": "clz32"
+                "end": 516
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 506,
+              "end": 516
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Infinity",
                 "start": 517,
-                "end": 525,
-                "name": "Infinity"
+                "end": 525
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 506,
+            "end": 526
           },
           {
             "type": "Literal",
-            "start": 528,
-            "end": 530,
             "value": 32,
-            "raw": "32"
+            "raw": "32",
+            "start": 528,
+            "end": 530
           },
           {
             "type": "Literal",
-            "start": 532,
-            "end": 542,
             "value": "Infinity",
-            "raw": "\"Infinity\""
+            "raw": "\"Infinity\"",
+            "start": 532,
+            "end": 542
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 489,
+        "end": 543
+      },
+      "start": 489,
+      "end": 544
     },
     {
       "type": "ExpressionStatement",
-      "start": 545,
-      "end": 602,
       "expression": {
         "type": "CallExpression",
-        "start": 545,
-        "end": 601,
         "callee": {
           "type": "MemberExpression",
-          "start": 545,
-          "end": 561,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 545,
-            "end": 551,
-            "name": "assert"
+            "end": 551
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 552,
-            "end": 561,
-            "name": "sameValue"
+            "end": 561
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 545,
+          "end": 561
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 562,
-            "end": 583,
             "callee": {
               "type": "MemberExpression",
-              "start": 562,
-              "end": 572,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 562,
-                "end": 566,
-                "name": "Math"
+                "end": 566
               },
               "property": {
                 "type": "Identifier",
+                "name": "clz32",
                 "start": 567,
-                "end": 572,
-                "name": "clz32"
+                "end": 572
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 562,
+              "end": 572
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 573,
-                "end": 582,
                 "operator": "-",
                 "argument": {
                   "type": "Identifier",
+                  "name": "Infinity",
                   "start": 574,
-                  "end": 582,
-                  "name": "Infinity"
+                  "end": 582
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 573,
+                "end": 582
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 562,
+            "end": 583
           },
           {
             "type": "Literal",
-            "start": 585,
-            "end": 587,
             "value": 32,
-            "raw": "32"
+            "raw": "32",
+            "start": 585,
+            "end": 587
           },
           {
             "type": "Literal",
-            "start": 589,
-            "end": 600,
             "value": "-Infinity",
-            "raw": "\"-Infinity\""
+            "raw": "\"-Infinity\"",
+            "start": 589,
+            "end": 600
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 545,
+        "end": 601
+      },
+      "start": 545,
+      "end": 602
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 603
 }

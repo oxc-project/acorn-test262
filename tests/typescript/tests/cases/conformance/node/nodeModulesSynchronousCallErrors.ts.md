@@ -2,161 +2,155 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 291,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 49,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 27,
-          "end": 28,
           "imported": {
             "type": "Identifier",
-            "start": 27,
-            "end": 28,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 28
           },
           "local": {
             "type": "Identifier",
-            "start": 27,
-            "end": 28,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 28
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 27,
+          "end": 28
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 35,
-        "end": 48,
         "value": "../index.js",
-        "raw": "\"../index.js\""
+        "raw": "\"../index.js\"",
+        "start": 35,
+        "end": 48
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 19,
+      "end": 49
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 50,
-      "end": 86,
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 60,
         "decorators": [],
         "name": "mod",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 57,
+        "end": 60
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 63,
-        "end": 85,
         "expression": {
           "type": "Literal",
-          "start": 71,
-          "end": 84,
           "value": "../index.js",
-          "raw": "\"../index.js\""
-        }
+          "raw": "\"../index.js\"",
+          "start": 71,
+          "end": 84
+        },
+        "start": 63,
+        "end": 85
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 50,
+      "end": 86
     },
     {
       "type": "ImportDeclaration",
-      "start": 87,
-      "end": 122,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 95,
-          "end": 102,
           "imported": {
             "type": "Identifier",
-            "start": 95,
-            "end": 96,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 95,
+            "end": 96
           },
           "local": {
             "type": "Identifier",
-            "start": 100,
-            "end": 102,
             "decorators": [],
             "name": "_f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 100,
+            "end": 102
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 95,
+          "end": 102
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 109,
-        "end": 121,
         "value": "./index.js",
-        "raw": "\"./index.js\""
+        "raw": "\"./index.js\"",
+        "start": 109,
+        "end": 121
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 87,
+      "end": 122
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 123,
-      "end": 159,
       "id": {
         "type": "Identifier",
-        "start": 130,
-        "end": 134,
         "decorators": [],
         "name": "mod2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 130,
+        "end": 134
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 137,
-        "end": 158,
         "expression": {
           "type": "Literal",
-          "start": 145,
-          "end": 157,
           "value": "./index.js",
-          "raw": "\"./index.js\""
-        }
+          "raw": "\"./index.js\"",
+          "start": 145,
+          "end": 157
+        },
+        "start": 137,
+        "end": 158
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 123,
+      "end": 159
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 160,
-      "end": 291,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 167,
-        "end": 291,
         "id": {
           "type": "Identifier",
-          "start": 182,
-          "end": 183,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 182,
+          "end": 183
         },
         "generator": false,
         "async": true,
@@ -166,291 +160,291 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 186,
-          "end": 291,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 192,
-              "end": 234,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 198,
-                  "end": 233,
                   "id": {
                     "type": "Identifier",
-                    "start": 198,
-                    "end": 202,
                     "decorators": [],
                     "name": "mod3",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 198,
+                    "end": 202
                   },
                   "init": {
                     "type": "AwaitExpression",
-                    "start": 205,
-                    "end": 233,
                     "argument": {
                       "type": "ImportExpression",
-                      "start": 211,
-                      "end": 233,
                       "source": {
                         "type": "Literal",
-                        "start": 219,
-                        "end": 232,
                         "value": "../index.js",
-                        "raw": "\"../index.js\""
+                        "raw": "\"../index.js\"",
+                        "start": 219,
+                        "end": 232
                       },
                       "options": null,
-                      "phase": null
-                    }
+                      "phase": null,
+                      "start": 211,
+                      "end": 233
+                    },
+                    "start": 205,
+                    "end": 233
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 198,
+                  "end": 233
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 192,
+              "end": 234
             },
             {
               "type": "VariableDeclaration",
-              "start": 239,
-              "end": 280,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 245,
-                  "end": 279,
                   "id": {
                     "type": "Identifier",
-                    "start": 245,
-                    "end": 249,
                     "decorators": [],
                     "name": "mod4",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 245,
+                    "end": 249
                   },
                   "init": {
                     "type": "AwaitExpression",
-                    "start": 252,
-                    "end": 279,
                     "argument": {
                       "type": "ImportExpression",
-                      "start": 258,
-                      "end": 279,
                       "source": {
                         "type": "Literal",
-                        "start": 266,
-                        "end": 278,
                         "value": "./index.js",
-                        "raw": "\"./index.js\""
+                        "raw": "\"./index.js\"",
+                        "start": 266,
+                        "end": 278
                       },
                       "options": null,
-                      "phase": null
-                    }
+                      "phase": null,
+                      "start": 258,
+                      "end": 279
+                    },
+                    "start": 252,
+                    "end": 279
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 245,
+                  "end": 279
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 239,
+              "end": 280
             },
             {
               "type": "ExpressionStatement",
-              "start": 285,
-              "end": 289,
               "expression": {
                 "type": "CallExpression",
-                "start": 285,
-                "end": 288,
                 "callee": {
                   "type": "Identifier",
-                  "start": 285,
-                  "end": 286,
                   "decorators": [],
                   "name": "h",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 285,
+                  "end": 286
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 285,
+                "end": 288
               },
-              "directive": null
+              "directive": null,
+              "start": 285,
+              "end": 289
             }
-          ]
+          ],
+          "start": 186,
+          "end": 291
         },
-        "expression": false
+        "expression": false,
+        "start": 167,
+        "end": 291
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 160,
+      "end": 291
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 19,
+  "end": 291
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 318,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 19,
-      "end": 54,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 27,
-          "end": 34,
           "imported": {
             "type": "Identifier",
-            "start": 27,
-            "end": 28,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 28
           },
           "local": {
             "type": "Identifier",
-            "start": 32,
-            "end": 34,
             "decorators": [],
             "name": "_h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 32,
+            "end": 34
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 27,
+          "end": 34
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 41,
-        "end": 53,
         "value": "./index.js",
-        "raw": "\"./index.js\""
+        "raw": "\"./index.js\"",
+        "start": 41,
+        "end": 53
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 19,
+      "end": 54
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 55,
-      "end": 90,
       "id": {
         "type": "Identifier",
-        "start": 62,
-        "end": 65,
         "decorators": [],
         "name": "mod",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 62,
+        "end": 65
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 68,
-        "end": 89,
         "expression": {
           "type": "Literal",
-          "start": 76,
-          "end": 88,
           "value": "./index.js",
-          "raw": "\"./index.js\""
-        }
+          "raw": "\"./index.js\"",
+          "start": 76,
+          "end": 88
+        },
+        "start": 68,
+        "end": 89
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 55,
+      "end": 90
     },
     {
       "type": "ImportDeclaration",
-      "start": 91,
-      "end": 130,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 99,
-          "end": 100,
           "imported": {
             "type": "Identifier",
-            "start": 99,
-            "end": 100,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 99,
+            "end": 100
           },
           "local": {
             "type": "Identifier",
-            "start": 99,
-            "end": 100,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 99,
+            "end": 100
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 99,
+          "end": 100
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 107,
-        "end": 129,
         "value": "./subfolder/index.js",
-        "raw": "\"./subfolder/index.js\""
+        "raw": "\"./subfolder/index.js\"",
+        "start": 107,
+        "end": 129
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 91,
+      "end": 130
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 131,
-      "end": 177,
       "id": {
         "type": "Identifier",
-        "start": 138,
-        "end": 142,
         "decorators": [],
         "name": "mod2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 138,
+        "end": 142
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 145,
-        "end": 176,
         "expression": {
           "type": "Literal",
-          "start": 153,
-          "end": 175,
           "value": "./subfolder/index.js",
-          "raw": "\"./subfolder/index.js\""
-        }
+          "raw": "\"./subfolder/index.js\"",
+          "start": 153,
+          "end": 175
+        },
+        "start": 145,
+        "end": 176
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 131,
+      "end": 177
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 178,
-      "end": 318,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 185,
-        "end": 318,
         "id": {
           "type": "Identifier",
-          "start": 200,
-          "end": 201,
           "decorators": [],
           "name": "h",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 200,
+          "end": 201
         },
         "generator": false,
         "async": true,
@@ -460,129 +454,135 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 204,
-          "end": 318,
           "body": [
             {
               "type": "VariableDeclaration",
-              "start": 210,
-              "end": 251,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 216,
-                  "end": 250,
                   "id": {
                     "type": "Identifier",
-                    "start": 216,
-                    "end": 220,
                     "decorators": [],
                     "name": "mod3",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 216,
+                    "end": 220
                   },
                   "init": {
                     "type": "AwaitExpression",
-                    "start": 223,
-                    "end": 250,
                     "argument": {
                       "type": "ImportExpression",
-                      "start": 229,
-                      "end": 250,
                       "source": {
                         "type": "Literal",
-                        "start": 237,
-                        "end": 249,
                         "value": "./index.js",
-                        "raw": "\"./index.js\""
+                        "raw": "\"./index.js\"",
+                        "start": 237,
+                        "end": 249
                       },
                       "options": null,
-                      "phase": null
-                    }
+                      "phase": null,
+                      "start": 229,
+                      "end": 250
+                    },
+                    "start": 223,
+                    "end": 250
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 216,
+                  "end": 250
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 210,
+              "end": 251
             },
             {
               "type": "VariableDeclaration",
-              "start": 256,
-              "end": 307,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 262,
-                  "end": 306,
                   "id": {
                     "type": "Identifier",
-                    "start": 262,
-                    "end": 266,
                     "decorators": [],
                     "name": "mod4",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 262,
+                    "end": 266
                   },
                   "init": {
                     "type": "AwaitExpression",
-                    "start": 269,
-                    "end": 306,
                     "argument": {
                       "type": "ImportExpression",
-                      "start": 275,
-                      "end": 306,
                       "source": {
                         "type": "Literal",
-                        "start": 283,
-                        "end": 305,
                         "value": "./subfolder/index.js",
-                        "raw": "\"./subfolder/index.js\""
+                        "raw": "\"./subfolder/index.js\"",
+                        "start": 283,
+                        "end": 305
                       },
                       "options": null,
-                      "phase": null
-                    }
+                      "phase": null,
+                      "start": 275,
+                      "end": 306
+                    },
+                    "start": 269,
+                    "end": 306
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 262,
+                  "end": 306
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 256,
+              "end": 307
             },
             {
               "type": "ExpressionStatement",
-              "start": 312,
-              "end": 316,
               "expression": {
                 "type": "CallExpression",
-                "start": 312,
-                "end": 315,
                 "callee": {
                   "type": "Identifier",
-                  "start": 312,
-                  "end": 313,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 312,
+                  "end": 313
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 312,
+                "end": 315
               },
-              "directive": null
+              "directive": null,
+              "start": 312,
+              "end": 316
             }
-          ]
+          ],
+          "start": 204,
+          "end": 318
         },
-        "expression": false
+        "expression": false,
+        "start": 185,
+        "end": 318
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 178,
+      "end": 318
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 19,
+  "end": 318
 }
 ```

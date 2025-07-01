@@ -1,221 +1,221 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 689,
   "body": [
     {
       "type": "TryStatement",
-      "start": 339,
-      "end": 643,
       "block": {
         "type": "BlockStatement",
-        "start": 343,
-        "end": 549,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 349,
-            "end": 547,
             "argument": {
               "type": "NewExpression",
-              "start": 355,
-              "end": 546,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 359,
-                "end": 371,
-                "name": "Test262Error"
+                "end": 371
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 372,
-                  "end": 545,
                   "left": {
                     "type": "Literal",
-                    "start": 372,
-                    "end": 473,
                     "value": "#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: ",
-                    "raw": "'#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '"
+                    "raw": "'#1.1: new RegExp({toString:void 0, valueOf:function(){throw \"invalof\";}}) throw \"invalof\". Actual: '",
+                    "start": 372,
+                    "end": 473
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 476,
-                    "end": 545,
                     "expression": {
                       "type": "NewExpression",
-                      "start": 477,
-                      "end": 544,
                       "callee": {
                         "type": "Identifier",
+                        "name": "RegExp",
                         "start": 481,
-                        "end": 487,
-                        "name": "RegExp"
+                        "end": 487
                       },
                       "arguments": [
                         {
                           "type": "ObjectExpression",
-                          "start": 488,
-                          "end": 543,
                           "properties": [
                             {
                               "type": "Property",
-                              "start": 489,
-                              "end": 504,
                               "kind": "init",
                               "key": {
                                 "type": "Identifier",
+                                "name": "toString",
                                 "start": 489,
-                                "end": 497,
-                                "name": "toString"
+                                "end": 497
                               },
                               "value": {
                                 "type": "UnaryExpression",
-                                "start": 498,
-                                "end": 504,
                                 "operator": "void",
                                 "argument": {
                                   "type": "Literal",
-                                  "start": 503,
-                                  "end": 504,
                                   "value": 0,
-                                  "raw": "0"
+                                  "raw": "0",
+                                  "start": 503,
+                                  "end": 504
                                 },
-                                "prefix": true
+                                "prefix": true,
+                                "start": 498,
+                                "end": 504
                               },
                               "method": false,
                               "shorthand": false,
-                              "computed": false
+                              "computed": false,
+                              "start": 489,
+                              "end": 504
                             },
                             {
                               "type": "Property",
-                              "start": 506,
-                              "end": 542,
                               "kind": "init",
                               "key": {
                                 "type": "Identifier",
+                                "name": "valueOf",
                                 "start": 506,
-                                "end": 513,
-                                "name": "valueOf"
+                                "end": 513
                               },
                               "value": {
                                 "type": "FunctionExpression",
-                                "start": 514,
-                                "end": 542,
                                 "id": null,
                                 "generator": false,
                                 "async": false,
                                 "params": [],
                                 "body": {
                                   "type": "BlockStatement",
-                                  "start": 524,
-                                  "end": 542,
                                   "body": [
                                     {
                                       "type": "ThrowStatement",
-                                      "start": 525,
-                                      "end": 541,
                                       "argument": {
                                         "type": "Literal",
-                                        "start": 531,
-                                        "end": 540,
                                         "value": "invalof",
-                                        "raw": "\"invalof\""
-                                      }
+                                        "raw": "\"invalof\"",
+                                        "start": 531,
+                                        "end": 540
+                                      },
+                                      "start": 525,
+                                      "end": 541
                                     }
-                                  ]
+                                  ],
+                                  "start": 524,
+                                  "end": 542
                                 },
-                                "expression": false
+                                "expression": false,
+                                "start": 514,
+                                "end": 542
                               },
                               "method": false,
                               "shorthand": false,
-                              "computed": false
+                              "computed": false,
+                              "start": 506,
+                              "end": 542
                             }
-                          ]
+                          ],
+                          "start": 488,
+                          "end": 543
                         }
-                      ]
-                    }
-                  }
+                      ],
+                      "start": 477,
+                      "end": 544
+                    },
+                    "start": 476,
+                    "end": 545
+                  },
+                  "start": 372,
+                  "end": 545
                 }
-              ]
-            }
+              ],
+              "start": 355,
+              "end": 546
+            },
+            "start": 349,
+            "end": 547
           }
-        ]
+        ],
+        "start": 343,
+        "end": 549
       },
       "handler": {
         "type": "CatchClause",
-        "start": 550,
-        "end": 643,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 557,
-          "end": 558,
-          "name": "e"
+          "end": 558
         },
         "body": {
           "type": "BlockStatement",
-          "start": 560,
-          "end": 643,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 564,
-              "end": 641,
               "expression": {
                 "type": "CallExpression",
-                "start": 564,
-                "end": 640,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 564,
-                  "end": 580,
                   "object": {
                     "type": "Identifier",
+                    "name": "assert",
                     "start": 564,
-                    "end": 570,
-                    "name": "assert"
+                    "end": 570
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "sameValue",
                     "start": 571,
-                    "end": 580,
-                    "name": "sameValue"
+                    "end": 580
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 564,
+                  "end": 580
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "e",
                     "start": 581,
-                    "end": 582,
-                    "name": "e"
+                    "end": 582
                   },
                   {
                     "type": "Literal",
-                    "start": 584,
-                    "end": 593,
                     "value": "invalof",
-                    "raw": "\"invalof\""
+                    "raw": "\"invalof\"",
+                    "start": 584,
+                    "end": 593
                   },
                   {
                     "type": "Literal",
-                    "start": 595,
-                    "end": 639,
                     "value": "The value of e is expected to be \"invalof\"",
-                    "raw": "'The value of e is expected to be \"invalof\"'"
+                    "raw": "'The value of e is expected to be \"invalof\"'",
+                    "start": 595,
+                    "end": 639
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 564,
+                "end": 640
+              },
+              "start": 564,
+              "end": 641
             }
-          ]
-        }
+          ],
+          "start": 560,
+          "end": 643
+        },
+        "start": 550,
+        "end": 643
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 339,
+      "end": 643
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 689
 }

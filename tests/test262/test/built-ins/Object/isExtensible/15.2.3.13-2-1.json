@@ -1,85 +1,85 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 307,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 250,
-      "end": 268,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 254,
-          "end": 267,
           "id": {
             "type": "Identifier",
+            "name": "global",
             "start": 254,
-            "end": 260,
-            "name": "global"
+            "end": 260
           },
           "init": {
             "type": "ThisExpression",
             "start": 263,
             "end": 267
-          }
+          },
+          "start": 254,
+          "end": 267
         }
-      ]
+      ],
+      "start": 250,
+      "end": 268
     },
     {
       "type": "ExpressionStatement",
-      "start": 270,
-      "end": 306,
       "expression": {
         "type": "CallExpression",
-        "start": 270,
-        "end": 305,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 270,
-          "end": 276,
-          "name": "assert"
+          "end": 276
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 277,
-            "end": 304,
             "callee": {
               "type": "MemberExpression",
-              "start": 277,
-              "end": 296,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 277,
-                "end": 283,
-                "name": "Object"
+                "end": 283
               },
               "property": {
                 "type": "Identifier",
+                "name": "isExtensible",
                 "start": 284,
-                "end": 296,
-                "name": "isExtensible"
+                "end": 296
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 277,
+              "end": 296
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "global",
                 "start": 297,
-                "end": 303,
-                "name": "global"
+                "end": 303
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 277,
+            "end": 304
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 270,
+        "end": 305
+      },
+      "start": 270,
+      "end": 306
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 307
 }

@@ -1,111 +1,111 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 439,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 297,
-      "end": 438,
       "expression": {
         "type": "CallExpression",
-        "start": 297,
-        "end": 437,
         "callee": {
           "type": "MemberExpression",
-          "start": 297,
-          "end": 310,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 297,
-            "end": 303,
-            "name": "assert"
+            "end": 303
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 304,
-            "end": 310,
-            "name": "throws"
+            "end": 310
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 297,
+          "end": 310
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 311,
-            "end": 321,
-            "name": "RangeError"
+            "end": 321
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 323,
-            "end": 370,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 329,
-              "end": 370,
               "callee": {
                 "type": "MemberExpression",
-                "start": 329,
-                "end": 352,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 329,
-                  "end": 347,
                   "object": {
                     "type": "Identifier",
+                    "name": "Temporal",
                     "start": 329,
-                    "end": 337,
-                    "name": "Temporal"
+                    "end": 337
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "PlainDate",
                     "start": 338,
-                    "end": 347,
-                    "name": "PlainDate"
+                    "end": 347
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 329,
+                  "end": 347
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "from",
                   "start": 348,
-                  "end": 352,
-                  "name": "from"
+                  "end": 352
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 329,
+                "end": 352
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 353,
-                  "end": 369,
                   "value": "1976-11-18junk",
-                  "raw": "\"1976-11-18junk\""
+                  "raw": "\"1976-11-18junk\"",
+                  "start": 353,
+                  "end": 369
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 329,
+              "end": 370
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 323,
+            "end": 370
           },
           {
             "type": "Literal",
-            "start": 374,
-            "end": 436,
             "value": "String with trailing junk should not be valid as a PlainDate",
-            "raw": "\"String with trailing junk should not be valid as a PlainDate\""
+            "raw": "\"String with trailing junk should not be valid as a PlainDate\"",
+            "start": 374,
+            "end": 436
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 297,
+        "end": 437
+      },
+      "start": 297,
+      "end": 438
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 439
 }

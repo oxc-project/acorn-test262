@@ -1,76 +1,76 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 562,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 487,
-      "end": 561,
       "expression": {
         "type": "CallExpression",
-        "start": 487,
-        "end": 560,
         "callee": {
           "type": "MemberExpression",
-          "start": 487,
-          "end": 503,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 487,
-            "end": 493,
-            "name": "assert"
+            "end": 493
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 494,
-            "end": 503,
-            "name": "sameValue"
+            "end": 503
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 487,
+          "end": 503
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 504,
-            "end": 519,
             "callee": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 504,
-              "end": 512,
-              "name": "parseInt"
+              "end": 512
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 513,
-                "end": 518,
                 "value": "010",
-                "raw": "'010'"
+                "raw": "'010'",
+                "start": 513,
+                "end": 518
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 504,
+            "end": 519
           },
           {
             "type": "Literal",
-            "start": 521,
-            "end": 523,
             "value": 10,
-            "raw": "10"
+            "raw": "10",
+            "start": 521,
+            "end": 523
           },
           {
             "type": "Literal",
-            "start": 525,
-            "end": 559,
             "value": "parseInt('010') must return 10",
-            "raw": "'parseInt(\\'010\\') must return 10'"
+            "raw": "'parseInt(\\'010\\') must return 10'",
+            "start": 525,
+            "end": 559
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 487,
+        "end": 560
+      },
+      "start": 487,
+      "end": 561
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 562
 }

@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 957,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 893,
-      "end": 956,
       "expression": {
         "type": "CallExpression",
-        "start": 893,
-        "end": 955,
         "callee": {
           "type": "MemberExpression",
-          "start": 893,
-          "end": 906,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 893,
-            "end": 899,
-            "name": "assert"
+            "end": 899
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 900,
-            "end": 906,
-            "name": "throws"
+            "end": 906
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 893,
+          "end": 906
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 907,
-            "end": 916,
-            "name": "TypeError"
+            "end": 916
           },
           {
             "type": "FunctionExpression",
-            "start": 918,
-            "end": 954,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 929,
-              "end": 954,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 933,
-                  "end": 952,
                   "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 937,
-                      "end": 951,
                       "id": {
                         "type": "ObjectPattern",
+                        "properties": [],
                         "start": 937,
-                        "end": 939,
-                        "properties": []
+                        "end": 939
                       },
                       "init": {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 942,
-                        "end": 951,
-                        "name": "undefined"
-                      }
+                        "end": 951
+                      },
+                      "start": 937,
+                      "end": 951
                     }
-                  ]
+                  ],
+                  "start": 933,
+                  "end": 952
                 }
-              ]
+              ],
+              "start": 929,
+              "end": 954
             },
-            "expression": false
+            "expression": false,
+            "start": 918,
+            "end": 954
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 893,
+        "end": 955
+      },
+      "start": 893,
+      "end": 956
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 957
 }

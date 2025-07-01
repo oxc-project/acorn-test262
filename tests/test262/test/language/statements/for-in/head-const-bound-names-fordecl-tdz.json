@@ -1,149 +1,149 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 338,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 250,
-      "end": 337,
       "expression": {
         "type": "CallExpression",
-        "start": 250,
-        "end": 336,
         "callee": {
           "type": "MemberExpression",
-          "start": 250,
-          "end": 263,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 250,
-            "end": 256,
-            "name": "assert"
+            "end": 256
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 257,
-            "end": 263,
-            "name": "throws"
+            "end": 263
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 250,
+          "end": 263
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 264,
-            "end": 278,
-            "name": "ReferenceError"
+            "end": 278
           },
           {
             "type": "FunctionExpression",
-            "start": 280,
-            "end": 335,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 291,
-              "end": 335,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 295,
-                  "end": 305,
                   "kind": "let",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 299,
-                      "end": 304,
                       "id": {
                         "type": "Identifier",
+                        "name": "x",
                         "start": 299,
-                        "end": 300,
-                        "name": "x"
+                        "end": 300
                       },
                       "init": {
                         "type": "Literal",
-                        "start": 303,
-                        "end": 304,
                         "value": 1,
-                        "raw": "1"
-                      }
+                        "raw": "1",
+                        "start": 303,
+                        "end": 304
+                      },
+                      "start": 299,
+                      "end": 304
                     }
-                  ]
+                  ],
+                  "start": 295,
+                  "end": 305
                 },
                 {
                   "type": "ForInStatement",
-                  "start": 308,
-                  "end": 333,
                   "left": {
                     "type": "VariableDeclaration",
-                    "start": 313,
-                    "end": 320,
                     "kind": "const",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
-                        "start": 319,
-                        "end": 320,
                         "id": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 319,
-                          "end": 320,
-                          "name": "x"
+                          "end": 320
                         },
-                        "init": null
+                        "init": null,
+                        "start": 319,
+                        "end": 320
                       }
-                    ]
+                    ],
+                    "start": 313,
+                    "end": 320
                   },
                   "right": {
                     "type": "ObjectExpression",
-                    "start": 324,
-                    "end": 329,
                     "properties": [
                       {
                         "type": "Property",
-                        "start": 326,
-                        "end": 327,
                         "kind": "init",
                         "key": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 326,
-                          "end": 327,
-                          "name": "x"
+                          "end": 327
                         },
                         "value": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 326,
-                          "end": 327,
-                          "name": "x"
+                          "end": 327
                         },
                         "method": false,
                         "shorthand": true,
-                        "computed": false
+                        "computed": false,
+                        "start": 326,
+                        "end": 327
                       }
-                    ]
+                    ],
+                    "start": 324,
+                    "end": 329
                   },
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 331,
-                    "end": 333,
-                    "body": []
-                  }
+                    "end": 333
+                  },
+                  "start": 308,
+                  "end": 333
                 }
-              ]
+              ],
+              "start": 291,
+              "end": 335
             },
-            "expression": false
+            "expression": false,
+            "start": 280,
+            "end": 335
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 250,
+        "end": 336
+      },
+      "start": 250,
+      "end": 337
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 338
 }

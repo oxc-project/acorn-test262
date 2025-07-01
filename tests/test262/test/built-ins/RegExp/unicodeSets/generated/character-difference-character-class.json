@@ -1,183 +1,183 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 746,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 484,
-      "end": 745,
       "expression": {
         "type": "CallExpression",
-        "start": 484,
-        "end": 744,
         "callee": {
           "type": "Identifier",
+          "name": "testExtendedCharacterClass",
           "start": 484,
-          "end": 510,
-          "name": "testExtendedCharacterClass"
+          "end": 510
         },
         "arguments": [
           {
             "type": "ObjectExpression",
-            "start": 511,
-            "end": 743,
             "properties": [
               {
                 "type": "Property",
-                "start": 515,
-                "end": 539,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "regExp",
                   "start": 515,
-                  "end": 521,
-                  "name": "regExp"
+                  "end": 521
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 523,
-                  "end": 539,
                   "value": null,
                   "raw": "/^[_--[0-9]]+$/v",
                   "regex": {
                     "pattern": "^[_--[0-9]]+$",
                     "flags": "v"
-                  }
+                  },
+                  "start": 523,
+                  "end": 539
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 515,
+                "end": 539
               },
               {
                 "type": "Property",
-                "start": 543,
-                "end": 567,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "expression",
                   "start": 543,
-                  "end": 553,
-                  "name": "expression"
+                  "end": 553
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 555,
-                  "end": 567,
                   "value": "[_--[0-9]]",
-                  "raw": "\"[_--[0-9]]\""
+                  "raw": "\"[_--[0-9]]\"",
+                  "start": 555,
+                  "end": 567
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 543,
+                "end": 567
               },
               {
                 "type": "Property",
-                "start": 571,
-                "end": 598,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "matchStrings",
                   "start": 571,
-                  "end": 583,
-                  "name": "matchStrings"
+                  "end": 583
                 },
                 "value": {
                   "type": "ArrayExpression",
-                  "start": 585,
-                  "end": 598,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 591,
-                      "end": 594,
                       "value": "_",
-                      "raw": "\"_\""
+                      "raw": "\"_\"",
+                      "start": 591,
+                      "end": 594
                     }
-                  ]
+                  ],
+                  "start": 585,
+                  "end": 598
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 571,
+                "end": 598
               },
               {
                 "type": "Property",
-                "start": 602,
-                "end": 740,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "nonMatchStrings",
                   "start": 602,
-                  "end": 617,
-                  "name": "nonMatchStrings"
+                  "end": 617
                 },
                 "value": {
                   "type": "ArrayExpression",
-                  "start": 619,
-                  "end": 740,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 625,
-                      "end": 640,
                       "value": "6️⃣",
-                      "raw": "\"6\\uFE0F\\u20E3\""
+                      "raw": "\"6\\uFE0F\\u20E3\"",
+                      "start": 625,
+                      "end": 640
                     },
                     {
                       "type": "Literal",
-                      "start": 646,
-                      "end": 649,
                       "value": "7",
-                      "raw": "\"7\""
+                      "raw": "\"7\"",
+                      "start": 646,
+                      "end": 649
                     },
                     {
                       "type": "Literal",
-                      "start": 655,
-                      "end": 670,
                       "value": "9️⃣",
-                      "raw": "\"9\\uFE0F\\u20E3\""
+                      "raw": "\"9\\uFE0F\\u20E3\"",
+                      "start": 655,
+                      "end": 670
                     },
                     {
                       "type": "Literal",
-                      "start": 676,
-                      "end": 679,
                       "value": "C",
-                      "raw": "\"C\""
+                      "raw": "\"C\"",
+                      "start": 676,
+                      "end": 679
                     },
                     {
                       "type": "Literal",
-                      "start": 685,
-                      "end": 693,
                       "value": "☃",
-                      "raw": "\"\\u2603\""
+                      "raw": "\"\\u2603\"",
+                      "start": 685,
+                      "end": 693
                     },
                     {
                       "type": "Literal",
-                      "start": 699,
-                      "end": 710,
                       "value": "𝌆",
-                      "raw": "\"\\u{1D306}\""
+                      "raw": "\"\\u{1D306}\"",
+                      "start": 699,
+                      "end": 710
                     },
                     {
                       "type": "Literal",
-                      "start": 716,
-                      "end": 736,
                       "value": "🇧🇪",
-                      "raw": "\"\\u{1F1E7}\\u{1F1EA}\""
+                      "raw": "\"\\u{1F1E7}\\u{1F1EA}\"",
+                      "start": 716,
+                      "end": 736
                     }
-                  ]
+                  ],
+                  "start": 619,
+                  "end": 740
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 602,
+                "end": 740
               }
-            ]
+            ],
+            "start": 511,
+            "end": 743
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 484,
+        "end": 744
+      },
+      "start": 484,
+      "end": 745
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 746
 }

@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 614,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 501,
-      "end": 613,
       "expression": {
         "type": "CallExpression",
-        "start": 501,
-        "end": 612,
         "callee": {
           "type": "MemberExpression",
-          "start": 501,
-          "end": 514,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 501,
-            "end": 507,
-            "name": "assert"
+            "end": 507
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 508,
-            "end": 514,
-            "name": "throws"
+            "end": 514
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 501,
+          "end": 514
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 515,
-            "end": 526,
-            "name": "SyntaxError"
+            "end": 526
           },
           {
             "type": "FunctionExpression",
-            "start": 528,
-            "end": 611,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 539,
-              "end": 611,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 545,
-                  "end": 609,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 545,
-                    "end": 608,
                     "callee": {
                       "type": "Identifier",
+                      "name": "eval",
                       "start": 545,
-                      "end": 549,
-                      "name": "eval"
+                      "end": 549
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 550,
-                        "end": 607,
                         "value": "          var o = {};          with (o) {}       ",
-                        "raw": "\"\\\n          var o = {};\\\n          with (o) {}\\\n       \""
+                        "raw": "\"\\\n          var o = {};\\\n          with (o) {}\\\n       \"",
+                        "start": 550,
+                        "end": 607
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 545,
+                    "end": 608
+                  },
+                  "start": 545,
+                  "end": 609
                 }
-              ]
+              ],
+              "start": 539,
+              "end": 611
             },
-            "expression": false
+            "expression": false,
+            "start": 528,
+            "end": 611
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 501,
+        "end": 612
+      },
+      "start": 501,
+      "end": 613
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 614
 }

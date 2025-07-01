@@ -1,155 +1,155 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 821,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 677,
-      "end": 765,
       "expression": {
         "type": "CallExpression",
-        "start": 677,
-        "end": 764,
         "callee": {
           "type": "MemberExpression",
-          "start": 677,
-          "end": 693,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 677,
-            "end": 683,
-            "name": "assert"
+            "end": 683
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 684,
-            "end": 693,
-            "name": "sameValue"
+            "end": 693
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 677,
+          "end": 693
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 694,
-            "end": 714,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 694,
-              "end": 707,
-              "name": "isConstructor"
+              "end": 707
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "isNaN",
                 "start": 708,
-                "end": 713,
-                "name": "isNaN"
+                "end": 713
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 694,
+            "end": 714
           },
           {
             "type": "Literal",
-            "start": 716,
-            "end": 721,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 716,
+            "end": 721
           },
           {
             "type": "Literal",
-            "start": 723,
-            "end": 763,
             "value": "isConstructor(isNaN) must return false",
-            "raw": "'isConstructor(isNaN) must return false'"
+            "raw": "'isConstructor(isNaN) must return false'",
+            "start": 723,
+            "end": 763
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 677,
+        "end": 764
+      },
+      "start": 677,
+      "end": 765
     },
     {
       "type": "ExpressionStatement",
-      "start": 767,
-      "end": 819,
       "expression": {
         "type": "CallExpression",
-        "start": 767,
-        "end": 818,
         "callee": {
           "type": "MemberExpression",
-          "start": 767,
-          "end": 780,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 767,
-            "end": 773,
-            "name": "assert"
+            "end": 773
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 774,
-            "end": 780,
-            "name": "throws"
+            "end": 780
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 767,
+          "end": 780
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 781,
-            "end": 790,
-            "name": "TypeError"
+            "end": 790
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 792,
-            "end": 817,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 798,
-              "end": 817,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 802,
-                  "end": 815,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 802,
-                    "end": 814,
                     "callee": {
                       "type": "Identifier",
+                      "name": "isNaN",
                       "start": 806,
-                      "end": 811,
-                      "name": "isNaN"
+                      "end": 811
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 812,
-                        "end": 813,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 812,
+                        "end": 813
                       }
-                    ]
-                  }
+                    ],
+                    "start": 802,
+                    "end": 814
+                  },
+                  "start": 802,
+                  "end": 815
                 }
-              ]
+              ],
+              "start": 798,
+              "end": 817
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 792,
+            "end": 817
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 767,
+        "end": 818
+      },
+      "start": 767,
+      "end": 819
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 821
 }

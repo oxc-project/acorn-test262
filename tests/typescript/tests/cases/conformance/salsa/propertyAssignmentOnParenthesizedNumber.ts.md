@@ -2,83 +2,83 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 94,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 11,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 10,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 8,
-            "end": 10,
-            "properties": []
+            "end": 10
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 10
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "ExpressionStatement",
-      "start": 83,
-      "end": 94,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 83,
-        "end": 93,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 83,
-          "end": 89,
           "object": {
             "type": "Identifier",
-            "start": 83,
-            "end": 84,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 83,
+            "end": 84
           },
           "property": {
             "type": "Literal",
-            "start": 86,
-            "end": 87,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 86,
+            "end": 87
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 83,
+          "end": 89
         },
         "right": {
           "type": "Literal",
-          "start": 92,
-          "end": 93,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 92,
+          "end": 93
+        },
+        "start": 83,
+        "end": 93
       },
-      "directive": null
+      "directive": null,
+      "start": 83,
+      "end": 94
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 94
 }
 ```

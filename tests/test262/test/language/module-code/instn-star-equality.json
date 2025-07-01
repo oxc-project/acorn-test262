@@ -1,425 +1,425 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1701,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 994,
-      "end": 1044,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1001,
-          "end": 1011,
           "local": {
             "type": "Identifier",
+            "name": "self1",
             "start": 1006,
-            "end": 1011,
-            "name": "self1"
-          }
+            "end": 1011
+          },
+          "start": 1001,
+          "end": 1011
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-equality.js",
+        "raw": "'./instn-star-equality.js'",
         "start": 1017,
-        "end": 1043,
-        "value": "./instn-star-equality.js",
-        "raw": "'./instn-star-equality.js'"
+        "end": 1043
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 994,
+      "end": 1044
     },
     {
       "type": "ImportDeclaration",
-      "start": 1045,
-      "end": 1095,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1052,
-          "end": 1062,
           "local": {
             "type": "Identifier",
+            "name": "self2",
             "start": 1057,
-            "end": 1062,
-            "name": "self2"
-          }
+            "end": 1062
+          },
+          "start": 1052,
+          "end": 1062
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-equality.js",
+        "raw": "'./instn-star-equality.js'",
         "start": 1068,
-        "end": 1094,
-        "value": "./instn-star-equality.js",
-        "raw": "'./instn-star-equality.js'"
+        "end": 1094
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1045,
+      "end": 1095
     },
     {
       "type": "ImportDeclaration",
-      "start": 1096,
-      "end": 1161,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1103,
-          "end": 1114,
           "local": {
             "type": "Identifier",
+            "name": "other1",
             "start": 1108,
-            "end": 1114,
-            "name": "other1"
-          }
+            "end": 1114
+          },
+          "start": 1103,
+          "end": 1114
         }
       ],
       "source": {
         "type": "Literal",
+        "value": "./instn-star-equality-other_FIXTURE.js",
+        "raw": "'./instn-star-equality-other_FIXTURE.js'",
         "start": 1120,
-        "end": 1160,
-        "value": "./instn-star-equality-other_FIXTURE.js",
-        "raw": "'./instn-star-equality-other_FIXTURE.js'"
+        "end": 1160
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1096,
+      "end": 1161
     },
     {
       "type": "ImportDeclaration",
-      "start": 1162,
-      "end": 1212,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1169,
-          "end": 1179,
           "local": {
             "type": "Identifier",
+            "name": "self3",
             "start": 1174,
-            "end": 1179,
-            "name": "self3"
-          }
+            "end": 1179
+          },
+          "start": 1169,
+          "end": 1179
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1185,
-        "end": 1211,
         "value": "./instn-star-equality.js",
-        "raw": "'./instn-star-equality.js'"
+        "raw": "'./instn-star-equality.js'",
+        "start": 1185,
+        "end": 1211
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1162,
+      "end": 1212
     },
     {
       "type": "ImportDeclaration",
-      "start": 1213,
-      "end": 1278,
       "specifiers": [
         {
           "type": "ImportNamespaceSpecifier",
-          "start": 1220,
-          "end": 1231,
           "local": {
             "type": "Identifier",
+            "name": "other2",
             "start": 1225,
-            "end": 1231,
-            "name": "other2"
-          }
+            "end": 1231
+          },
+          "start": 1220,
+          "end": 1231
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1237,
-        "end": 1277,
         "value": "./instn-star-equality-other_FIXTURE.js",
-        "raw": "'./instn-star-equality-other_FIXTURE.js'"
+        "raw": "'./instn-star-equality-other_FIXTURE.js'",
+        "start": 1237,
+        "end": 1277
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1213,
+      "end": 1278
     },
     {
       "type": "ImportDeclaration",
-      "start": 1279,
-      "end": 1343,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 1288,
-          "end": 1294,
           "imported": {
             "type": "Identifier",
+            "name": "testNs",
             "start": 1288,
-            "end": 1294,
-            "name": "testNs"
+            "end": 1294
           },
           "local": {
             "type": "Identifier",
+            "name": "testNs",
             "start": 1288,
-            "end": 1294,
-            "name": "testNs"
-          }
+            "end": 1294
+          },
+          "start": 1288,
+          "end": 1294
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 1302,
-        "end": 1342,
         "value": "./instn-star-equality-other_FIXTURE.js",
-        "raw": "'./instn-star-equality-other_FIXTURE.js'"
+        "raw": "'./instn-star-equality-other_FIXTURE.js'",
+        "start": 1302,
+        "end": 1342
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 1279,
+      "end": 1343
     },
     {
       "type": "ExpressionStatement",
-      "start": 1345,
-      "end": 1437,
       "expression": {
         "type": "CallExpression",
-        "start": 1345,
-        "end": 1436,
         "callee": {
           "type": "MemberExpression",
-          "start": 1345,
-          "end": 1361,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1345,
-            "end": 1351,
-            "name": "assert"
+            "end": 1351
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1352,
-            "end": 1361,
-            "name": "sameValue"
+            "end": 1361
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1345,
+          "end": 1361
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "self1",
             "start": 1365,
-            "end": 1370,
-            "name": "self1"
+            "end": 1370
           },
           {
             "type": "Identifier",
+            "name": "self2",
             "start": 1372,
-            "end": 1377,
-            "name": "self2"
+            "end": 1377
           },
           {
             "type": "Literal",
-            "start": 1379,
-            "end": 1434,
             "value": "Local namespace objects from consecutive declarations",
-            "raw": "'Local namespace objects from consecutive declarations'"
+            "raw": "'Local namespace objects from consecutive declarations'",
+            "start": 1379,
+            "end": 1434
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1345,
+        "end": 1436
+      },
+      "start": 1345,
+      "end": 1437
     },
     {
       "type": "ExpressionStatement",
-      "start": 1438,
-      "end": 1533,
       "expression": {
         "type": "CallExpression",
-        "start": 1438,
-        "end": 1532,
         "callee": {
           "type": "MemberExpression",
-          "start": 1438,
-          "end": 1454,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1438,
-            "end": 1444,
-            "name": "assert"
+            "end": 1444
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1445,
-            "end": 1454,
-            "name": "sameValue"
+            "end": 1454
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1438,
+          "end": 1454
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "self1",
             "start": 1458,
-            "end": 1463,
-            "name": "self1"
+            "end": 1463
           },
           {
             "type": "Identifier",
+            "name": "self3",
             "start": 1465,
-            "end": 1470,
-            "name": "self3"
+            "end": 1470
           },
           {
             "type": "Literal",
-            "start": 1472,
-            "end": 1530,
             "value": "Local namespace objects from non-consective declarations",
-            "raw": "'Local namespace objects from non-consective declarations'"
+            "raw": "'Local namespace objects from non-consective declarations'",
+            "start": 1472,
+            "end": 1530
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1438,
+        "end": 1532
+      },
+      "start": 1438,
+      "end": 1533
     },
     {
       "type": "ExpressionStatement",
-      "start": 1534,
-      "end": 1597,
       "expression": {
         "type": "CallExpression",
-        "start": 1534,
-        "end": 1596,
         "callee": {
           "type": "MemberExpression",
-          "start": 1534,
-          "end": 1550,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1534,
-            "end": 1540,
-            "name": "assert"
+            "end": 1540
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1541,
-            "end": 1550,
-            "name": "sameValue"
+            "end": 1550
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1534,
+          "end": 1550
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "other1",
             "start": 1551,
-            "end": 1557,
-            "name": "other1"
+            "end": 1557
           },
           {
             "type": "Identifier",
+            "name": "other2",
             "start": 1559,
-            "end": 1565,
-            "name": "other2"
+            "end": 1565
           },
           {
             "type": "Literal",
-            "start": 1567,
-            "end": 1595,
             "value": "External namespace objects",
-            "raw": "'External namespace objects'"
+            "raw": "'External namespace objects'",
+            "start": 1567,
+            "end": 1595
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1534,
+        "end": 1596
+      },
+      "start": 1534,
+      "end": 1597
     },
     {
       "type": "ExpressionStatement",
-      "start": 1598,
-      "end": 1663,
       "expression": {
         "type": "CallExpression",
-        "start": 1598,
-        "end": 1662,
         "callee": {
           "type": "MemberExpression",
-          "start": 1598,
-          "end": 1614,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1598,
-            "end": 1604,
-            "name": "assert"
+            "end": 1604
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1605,
-            "end": 1614,
-            "name": "sameValue"
+            "end": 1614
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1598,
+          "end": 1614
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "self1",
             "start": 1615,
-            "end": 1620,
-            "name": "self1"
+            "end": 1620
           },
           {
             "type": "Identifier",
+            "name": "testNs",
             "start": 1622,
-            "end": 1628,
-            "name": "testNs"
+            "end": 1628
           },
           {
             "type": "Literal",
-            "start": 1630,
-            "end": 1661,
             "value": "Re-exported namespace objects",
-            "raw": "'Re-exported namespace objects'"
+            "raw": "'Re-exported namespace objects'",
+            "start": 1630,
+            "end": 1661
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1598,
+        "end": 1662
+      },
+      "start": 1598,
+      "end": 1663
     },
     {
       "type": "ExpressionStatement",
-      "start": 1665,
-      "end": 1700,
       "expression": {
         "type": "CallExpression",
-        "start": 1665,
-        "end": 1699,
         "callee": {
           "type": "MemberExpression",
-          "start": 1665,
-          "end": 1684,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1665,
-            "end": 1671,
-            "name": "assert"
+            "end": 1671
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 1672,
-            "end": 1684,
-            "name": "notSameValue"
+            "end": 1684
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1665,
+          "end": 1684
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "self1",
             "start": 1685,
-            "end": 1690,
-            "name": "self1"
+            "end": 1690
           },
           {
             "type": "Identifier",
+            "name": "other1",
             "start": 1692,
-            "end": 1698,
-            "name": "other1"
+            "end": 1698
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1665,
+        "end": 1699
+      },
+      "start": 1665,
+      "end": 1700
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1701
 }

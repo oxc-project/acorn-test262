@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 345,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 345,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 16
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 17,
-        "end": 345,
         "body": [
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 23,
-            "end": 40,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 32,
-              "end": 37,
               "decorators": [],
               "name": "foo_a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 32,
+              "end": 37
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 37,
-              "end": 40,
               "id": null,
               "generator": false,
               "async": false,
@@ -54,33 +44,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 37,
+              "end": 40
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 23,
+            "end": 40
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 46,
-            "end": 70,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 62,
-              "end": 67,
               "decorators": [],
               "name": "foo_b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 62,
+              "end": 67
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 67,
-              "end": 70,
               "id": null,
               "generator": false,
               "async": false,
@@ -89,33 +79,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 67,
+              "end": 70
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 46,
+            "end": 70
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 75,
-            "end": 102,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 94,
-              "end": 99,
               "decorators": [],
               "name": "foo_c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 94,
+              "end": 99
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 99,
-              "end": 102,
               "id": null,
               "generator": false,
               "async": false,
@@ -124,33 +114,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 99,
+              "end": 102
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "protected"
+            "accessibility": "protected",
+            "start": 75,
+            "end": 102
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 107,
-            "end": 132,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 124,
-              "end": 129,
               "decorators": [],
               "name": "foo_d",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 124,
+              "end": 129
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 129,
-              "end": 132,
               "id": null,
               "generator": false,
               "async": false,
@@ -159,33 +149,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 129,
+              "end": 132
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 107,
+            "end": 132
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 138,
-            "end": 163,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 154,
-              "end": 160,
               "decorators": [],
               "name": "foo_bb",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 154,
+              "end": 160
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 160,
-              "end": 163,
               "id": null,
               "generator": false,
               "async": false,
@@ -194,33 +184,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 160,
+              "end": 163
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 138,
+            "end": 163
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 168,
-            "end": 196,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 187,
-              "end": 193,
               "decorators": [],
               "name": "foo_cc",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 187,
+              "end": 193
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 193,
-              "end": 196,
               "id": null,
               "generator": false,
               "async": false,
@@ -229,33 +219,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 193,
+              "end": 196
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "protected"
+            "accessibility": "protected",
+            "start": 168,
+            "end": 196
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 201,
-            "end": 227,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 218,
-              "end": 224,
               "decorators": [],
               "name": "foo_dd",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 218,
+              "end": 224
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 224,
-              "end": 227,
               "id": null,
               "generator": false,
               "async": false,
@@ -264,33 +254,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 224,
+              "end": 227
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 201,
+            "end": 227
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 233,
-            "end": 257,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 249,
-              "end": 254,
               "decorators": [],
               "name": "foo_d",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 249,
+              "end": 254
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 254,
-              "end": 257,
               "id": null,
               "generator": false,
               "async": false,
@@ -299,33 +289,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 254,
+              "end": 257
             },
             "kind": "method",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 233,
+            "end": 257
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 262,
-            "end": 286,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 278,
-              "end": 283,
               "decorators": [],
               "name": "foo_e",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 278,
+              "end": 283
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 283,
-              "end": 286,
               "id": null,
               "generator": false,
               "async": false,
@@ -334,33 +324,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 283,
+              "end": 286
             },
             "kind": "method",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 262,
+            "end": 286
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 292,
-            "end": 315,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 307,
-              "end": 312,
               "decorators": [],
               "name": "foo_f",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 307,
+              "end": 312
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 312,
-              "end": 315,
               "id": null,
               "generator": false,
               "async": true,
@@ -369,33 +359,33 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 312,
+              "end": 315
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 292,
+            "end": 315
           },
           {
             "type": "TSAbstractMethodDefinition",
-            "start": 320,
-            "end": 343,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 335,
-              "end": 340,
               "decorators": [],
               "name": "foo_g",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 335,
+              "end": 340
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 340,
-              "end": 343,
               "id": null,
               "generator": false,
               "async": true,
@@ -404,22 +394,32 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 340,
+              "end": 343
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 320,
+            "end": 343
           }
-        ]
+        ],
+        "start": 17,
+        "end": 345
       },
       "abstract": true,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 345
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 345
 }
 ```

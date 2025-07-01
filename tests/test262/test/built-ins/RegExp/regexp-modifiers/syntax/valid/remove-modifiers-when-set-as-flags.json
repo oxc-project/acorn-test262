@@ -1,729 +1,729 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2377,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1735,
-      "end": 1745,
       "expression": {
         "type": "Literal",
-        "start": 1735,
-        "end": 1744,
         "value": null,
         "raw": "/(?-i:)/i",
         "regex": {
           "pattern": "(?-i:)",
           "flags": "i"
-        }
-      }
+        },
+        "start": 1735,
+        "end": 1744
+      },
+      "start": 1735,
+      "end": 1745
     },
     {
       "type": "ExpressionStatement",
-      "start": 1746,
-      "end": 1758,
       "expression": {
         "type": "Literal",
-        "start": 1746,
-        "end": 1757,
         "value": null,
         "raw": "/(?-is:)/is",
         "regex": {
           "pattern": "(?-is:)",
           "flags": "is"
-        }
-      }
+        },
+        "start": 1746,
+        "end": 1757
+      },
+      "start": 1746,
+      "end": 1758
     },
     {
       "type": "ExpressionStatement",
-      "start": 1759,
-      "end": 1771,
       "expression": {
         "type": "Literal",
-        "start": 1759,
-        "end": 1770,
         "value": null,
         "raw": "/(?-im:)/im",
         "regex": {
           "pattern": "(?-im:)",
           "flags": "im"
-        }
-      }
+        },
+        "start": 1759,
+        "end": 1770
+      },
+      "start": 1759,
+      "end": 1771
     },
     {
       "type": "ExpressionStatement",
-      "start": 1772,
-      "end": 1782,
       "expression": {
         "type": "Literal",
-        "start": 1772,
-        "end": 1781,
         "value": null,
         "raw": "/(?-s:)/s",
         "regex": {
           "pattern": "(?-s:)",
           "flags": "s"
-        }
-      }
+        },
+        "start": 1772,
+        "end": 1781
+      },
+      "start": 1772,
+      "end": 1782
     },
     {
       "type": "ExpressionStatement",
-      "start": 1783,
-      "end": 1795,
       "expression": {
         "type": "Literal",
-        "start": 1783,
-        "end": 1794,
         "value": null,
         "raw": "/(?-si:)/si",
         "regex": {
           "pattern": "(?-si:)",
           "flags": "is"
-        }
-      }
+        },
+        "start": 1783,
+        "end": 1794
+      },
+      "start": 1783,
+      "end": 1795
     },
     {
       "type": "ExpressionStatement",
-      "start": 1796,
-      "end": 1808,
       "expression": {
         "type": "Literal",
-        "start": 1796,
-        "end": 1807,
         "value": null,
         "raw": "/(?-sm:)/sm",
         "regex": {
           "pattern": "(?-sm:)",
           "flags": "ms"
-        }
-      }
+        },
+        "start": 1796,
+        "end": 1807
+      },
+      "start": 1796,
+      "end": 1808
     },
     {
       "type": "ExpressionStatement",
-      "start": 1809,
-      "end": 1819,
       "expression": {
         "type": "Literal",
-        "start": 1809,
-        "end": 1818,
         "value": null,
         "raw": "/(?-m:)/m",
         "regex": {
           "pattern": "(?-m:)",
           "flags": "m"
-        }
-      }
+        },
+        "start": 1809,
+        "end": 1818
+      },
+      "start": 1809,
+      "end": 1819
     },
     {
       "type": "ExpressionStatement",
-      "start": 1820,
-      "end": 1832,
       "expression": {
         "type": "Literal",
-        "start": 1820,
-        "end": 1831,
         "value": null,
         "raw": "/(?-mi:)/mi",
         "regex": {
           "pattern": "(?-mi:)",
           "flags": "im"
-        }
-      }
+        },
+        "start": 1820,
+        "end": 1831
+      },
+      "start": 1820,
+      "end": 1832
     },
     {
       "type": "ExpressionStatement",
-      "start": 1833,
-      "end": 1845,
       "expression": {
         "type": "Literal",
-        "start": 1833,
-        "end": 1844,
         "value": null,
         "raw": "/(?-ms:)/ms",
         "regex": {
           "pattern": "(?-ms:)",
           "flags": "ms"
-        }
-      }
+        },
+        "start": 1833,
+        "end": 1844
+      },
+      "start": 1833,
+      "end": 1845
     },
     {
       "type": "ExpressionStatement",
-      "start": 1846,
-      "end": 1860,
       "expression": {
         "type": "Literal",
-        "start": 1846,
-        "end": 1859,
         "value": null,
         "raw": "/(?-ims:)/ims",
         "regex": {
           "pattern": "(?-ims:)",
           "flags": "ims"
-        }
-      }
+        },
+        "start": 1846,
+        "end": 1859
+      },
+      "start": 1846,
+      "end": 1860
     },
     {
       "type": "ExpressionStatement",
-      "start": 1861,
-      "end": 1875,
       "expression": {
         "type": "Literal",
-        "start": 1861,
-        "end": 1874,
         "value": null,
         "raw": "/(?-ism:)/ism",
         "regex": {
           "pattern": "(?-ism:)",
           "flags": "ims"
-        }
-      }
+        },
+        "start": 1861,
+        "end": 1874
+      },
+      "start": 1861,
+      "end": 1875
     },
     {
       "type": "ExpressionStatement",
-      "start": 1876,
-      "end": 1890,
       "expression": {
         "type": "Literal",
-        "start": 1876,
-        "end": 1889,
         "value": null,
         "raw": "/(?-sim:)/sim",
         "regex": {
           "pattern": "(?-sim:)",
           "flags": "ims"
-        }
-      }
+        },
+        "start": 1876,
+        "end": 1889
+      },
+      "start": 1876,
+      "end": 1890
     },
     {
       "type": "ExpressionStatement",
-      "start": 1891,
-      "end": 1905,
       "expression": {
         "type": "Literal",
-        "start": 1891,
-        "end": 1904,
         "value": null,
         "raw": "/(?-smi:)/smi",
         "regex": {
           "pattern": "(?-smi:)",
           "flags": "ims"
-        }
-      }
+        },
+        "start": 1891,
+        "end": 1904
+      },
+      "start": 1891,
+      "end": 1905
     },
     {
       "type": "ExpressionStatement",
-      "start": 1906,
-      "end": 1920,
       "expression": {
         "type": "Literal",
-        "start": 1906,
-        "end": 1919,
         "value": null,
         "raw": "/(?-mis:)/mis",
         "regex": {
           "pattern": "(?-mis:)",
           "flags": "ims"
-        }
-      }
+        },
+        "start": 1906,
+        "end": 1919
+      },
+      "start": 1906,
+      "end": 1920
     },
     {
       "type": "ExpressionStatement",
-      "start": 1921,
-      "end": 1935,
       "expression": {
         "type": "Literal",
-        "start": 1921,
-        "end": 1934,
         "value": null,
         "raw": "/(?-msi:)/msi",
         "regex": {
           "pattern": "(?-msi:)",
           "flags": "ims"
-        }
-      }
+        },
+        "start": 1921,
+        "end": 1934
+      },
+      "start": 1921,
+      "end": 1935
     },
     {
       "type": "ExpressionStatement",
-      "start": 1936,
-      "end": 1962,
       "expression": {
         "type": "NewExpression",
-        "start": 1936,
-        "end": 1961,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 1940,
-          "end": 1946,
-          "name": "RegExp"
+          "end": 1946
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1947,
-            "end": 1955,
             "value": "(?-i:)",
-            "raw": "\"(?-i:)\""
+            "raw": "\"(?-i:)\"",
+            "start": 1947,
+            "end": 1955
           },
           {
             "type": "Literal",
-            "start": 1957,
-            "end": 1960,
             "value": "i",
-            "raw": "\"i\""
+            "raw": "\"i\"",
+            "start": 1957,
+            "end": 1960
           }
-        ]
-      }
+        ],
+        "start": 1936,
+        "end": 1961
+      },
+      "start": 1936,
+      "end": 1962
     },
     {
       "type": "ExpressionStatement",
-      "start": 1963,
-      "end": 1991,
       "expression": {
         "type": "NewExpression",
-        "start": 1963,
-        "end": 1990,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 1967,
-          "end": 1973,
-          "name": "RegExp"
+          "end": 1973
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1974,
-            "end": 1983,
             "value": "(?-is:)",
-            "raw": "\"(?-is:)\""
+            "raw": "\"(?-is:)\"",
+            "start": 1974,
+            "end": 1983
           },
           {
             "type": "Literal",
-            "start": 1985,
-            "end": 1989,
             "value": "is",
-            "raw": "\"is\""
+            "raw": "\"is\"",
+            "start": 1985,
+            "end": 1989
           }
-        ]
-      }
+        ],
+        "start": 1963,
+        "end": 1990
+      },
+      "start": 1963,
+      "end": 1991
     },
     {
       "type": "ExpressionStatement",
-      "start": 1992,
-      "end": 2020,
       "expression": {
         "type": "NewExpression",
-        "start": 1992,
-        "end": 2019,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 1996,
-          "end": 2002,
-          "name": "RegExp"
+          "end": 2002
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2003,
-            "end": 2012,
             "value": "(?-im:)",
-            "raw": "\"(?-im:)\""
+            "raw": "\"(?-im:)\"",
+            "start": 2003,
+            "end": 2012
           },
           {
             "type": "Literal",
-            "start": 2014,
-            "end": 2018,
             "value": "im",
-            "raw": "\"im\""
+            "raw": "\"im\"",
+            "start": 2014,
+            "end": 2018
           }
-        ]
-      }
+        ],
+        "start": 1992,
+        "end": 2019
+      },
+      "start": 1992,
+      "end": 2020
     },
     {
       "type": "ExpressionStatement",
-      "start": 2021,
-      "end": 2047,
       "expression": {
         "type": "NewExpression",
-        "start": 2021,
-        "end": 2046,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2025,
-          "end": 2031,
-          "name": "RegExp"
+          "end": 2031
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2032,
-            "end": 2040,
             "value": "(?-s:)",
-            "raw": "\"(?-s:)\""
+            "raw": "\"(?-s:)\"",
+            "start": 2032,
+            "end": 2040
           },
           {
             "type": "Literal",
-            "start": 2042,
-            "end": 2045,
             "value": "s",
-            "raw": "\"s\""
+            "raw": "\"s\"",
+            "start": 2042,
+            "end": 2045
           }
-        ]
-      }
+        ],
+        "start": 2021,
+        "end": 2046
+      },
+      "start": 2021,
+      "end": 2047
     },
     {
       "type": "ExpressionStatement",
-      "start": 2048,
-      "end": 2076,
       "expression": {
         "type": "NewExpression",
-        "start": 2048,
-        "end": 2075,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2052,
-          "end": 2058,
-          "name": "RegExp"
+          "end": 2058
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2059,
-            "end": 2068,
             "value": "(?-si:)",
-            "raw": "\"(?-si:)\""
+            "raw": "\"(?-si:)\"",
+            "start": 2059,
+            "end": 2068
           },
           {
             "type": "Literal",
-            "start": 2070,
-            "end": 2074,
             "value": "si",
-            "raw": "\"si\""
+            "raw": "\"si\"",
+            "start": 2070,
+            "end": 2074
           }
-        ]
-      }
+        ],
+        "start": 2048,
+        "end": 2075
+      },
+      "start": 2048,
+      "end": 2076
     },
     {
       "type": "ExpressionStatement",
-      "start": 2077,
-      "end": 2105,
       "expression": {
         "type": "NewExpression",
-        "start": 2077,
-        "end": 2104,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2081,
-          "end": 2087,
-          "name": "RegExp"
+          "end": 2087
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2088,
-            "end": 2097,
             "value": "(?-sm:)",
-            "raw": "\"(?-sm:)\""
+            "raw": "\"(?-sm:)\"",
+            "start": 2088,
+            "end": 2097
           },
           {
             "type": "Literal",
-            "start": 2099,
-            "end": 2103,
             "value": "sm",
-            "raw": "\"sm\""
+            "raw": "\"sm\"",
+            "start": 2099,
+            "end": 2103
           }
-        ]
-      }
+        ],
+        "start": 2077,
+        "end": 2104
+      },
+      "start": 2077,
+      "end": 2105
     },
     {
       "type": "ExpressionStatement",
-      "start": 2106,
-      "end": 2132,
       "expression": {
         "type": "NewExpression",
-        "start": 2106,
-        "end": 2131,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2110,
-          "end": 2116,
-          "name": "RegExp"
+          "end": 2116
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2117,
-            "end": 2125,
             "value": "(?-m:)",
-            "raw": "\"(?-m:)\""
+            "raw": "\"(?-m:)\"",
+            "start": 2117,
+            "end": 2125
           },
           {
             "type": "Literal",
-            "start": 2127,
-            "end": 2130,
             "value": "m",
-            "raw": "\"m\""
+            "raw": "\"m\"",
+            "start": 2127,
+            "end": 2130
           }
-        ]
-      }
+        ],
+        "start": 2106,
+        "end": 2131
+      },
+      "start": 2106,
+      "end": 2132
     },
     {
       "type": "ExpressionStatement",
-      "start": 2133,
-      "end": 2161,
       "expression": {
         "type": "NewExpression",
-        "start": 2133,
-        "end": 2160,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2137,
-          "end": 2143,
-          "name": "RegExp"
+          "end": 2143
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2144,
-            "end": 2153,
             "value": "(?-mi:)",
-            "raw": "\"(?-mi:)\""
+            "raw": "\"(?-mi:)\"",
+            "start": 2144,
+            "end": 2153
           },
           {
             "type": "Literal",
-            "start": 2155,
-            "end": 2159,
             "value": "mi",
-            "raw": "\"mi\""
+            "raw": "\"mi\"",
+            "start": 2155,
+            "end": 2159
           }
-        ]
-      }
+        ],
+        "start": 2133,
+        "end": 2160
+      },
+      "start": 2133,
+      "end": 2161
     },
     {
       "type": "ExpressionStatement",
-      "start": 2162,
-      "end": 2190,
       "expression": {
         "type": "NewExpression",
-        "start": 2162,
-        "end": 2189,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2166,
-          "end": 2172,
-          "name": "RegExp"
+          "end": 2172
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2173,
-            "end": 2182,
             "value": "(?-ms:)",
-            "raw": "\"(?-ms:)\""
+            "raw": "\"(?-ms:)\"",
+            "start": 2173,
+            "end": 2182
           },
           {
             "type": "Literal",
-            "start": 2184,
-            "end": 2188,
             "value": "ms",
-            "raw": "\"ms\""
+            "raw": "\"ms\"",
+            "start": 2184,
+            "end": 2188
           }
-        ]
-      }
+        ],
+        "start": 2162,
+        "end": 2189
+      },
+      "start": 2162,
+      "end": 2190
     },
     {
       "type": "ExpressionStatement",
-      "start": 2191,
-      "end": 2221,
       "expression": {
         "type": "NewExpression",
-        "start": 2191,
-        "end": 2220,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2195,
-          "end": 2201,
-          "name": "RegExp"
+          "end": 2201
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2202,
-            "end": 2212,
             "value": "(?-ims:)",
-            "raw": "\"(?-ims:)\""
+            "raw": "\"(?-ims:)\"",
+            "start": 2202,
+            "end": 2212
           },
           {
             "type": "Literal",
-            "start": 2214,
-            "end": 2219,
             "value": "ims",
-            "raw": "\"ims\""
+            "raw": "\"ims\"",
+            "start": 2214,
+            "end": 2219
           }
-        ]
-      }
+        ],
+        "start": 2191,
+        "end": 2220
+      },
+      "start": 2191,
+      "end": 2221
     },
     {
       "type": "ExpressionStatement",
-      "start": 2222,
-      "end": 2252,
       "expression": {
         "type": "NewExpression",
-        "start": 2222,
-        "end": 2251,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2226,
-          "end": 2232,
-          "name": "RegExp"
+          "end": 2232
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2233,
-            "end": 2243,
             "value": "(?-ism:)",
-            "raw": "\"(?-ism:)\""
+            "raw": "\"(?-ism:)\"",
+            "start": 2233,
+            "end": 2243
           },
           {
             "type": "Literal",
-            "start": 2245,
-            "end": 2250,
             "value": "ism",
-            "raw": "\"ism\""
+            "raw": "\"ism\"",
+            "start": 2245,
+            "end": 2250
           }
-        ]
-      }
+        ],
+        "start": 2222,
+        "end": 2251
+      },
+      "start": 2222,
+      "end": 2252
     },
     {
       "type": "ExpressionStatement",
-      "start": 2253,
-      "end": 2283,
       "expression": {
         "type": "NewExpression",
-        "start": 2253,
-        "end": 2282,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2257,
-          "end": 2263,
-          "name": "RegExp"
+          "end": 2263
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2264,
-            "end": 2274,
             "value": "(?-sim:)",
-            "raw": "\"(?-sim:)\""
+            "raw": "\"(?-sim:)\"",
+            "start": 2264,
+            "end": 2274
           },
           {
             "type": "Literal",
-            "start": 2276,
-            "end": 2281,
             "value": "sim",
-            "raw": "\"sim\""
+            "raw": "\"sim\"",
+            "start": 2276,
+            "end": 2281
           }
-        ]
-      }
+        ],
+        "start": 2253,
+        "end": 2282
+      },
+      "start": 2253,
+      "end": 2283
     },
     {
       "type": "ExpressionStatement",
-      "start": 2284,
-      "end": 2314,
       "expression": {
         "type": "NewExpression",
-        "start": 2284,
-        "end": 2313,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2288,
-          "end": 2294,
-          "name": "RegExp"
+          "end": 2294
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2295,
-            "end": 2305,
             "value": "(?-smi:)",
-            "raw": "\"(?-smi:)\""
+            "raw": "\"(?-smi:)\"",
+            "start": 2295,
+            "end": 2305
           },
           {
             "type": "Literal",
-            "start": 2307,
-            "end": 2312,
             "value": "smi",
-            "raw": "\"smi\""
+            "raw": "\"smi\"",
+            "start": 2307,
+            "end": 2312
           }
-        ]
-      }
+        ],
+        "start": 2284,
+        "end": 2313
+      },
+      "start": 2284,
+      "end": 2314
     },
     {
       "type": "ExpressionStatement",
-      "start": 2315,
-      "end": 2345,
       "expression": {
         "type": "NewExpression",
-        "start": 2315,
-        "end": 2344,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2319,
-          "end": 2325,
-          "name": "RegExp"
+          "end": 2325
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2326,
-            "end": 2336,
             "value": "(?-mis:)",
-            "raw": "\"(?-mis:)\""
+            "raw": "\"(?-mis:)\"",
+            "start": 2326,
+            "end": 2336
           },
           {
             "type": "Literal",
-            "start": 2338,
-            "end": 2343,
             "value": "mis",
-            "raw": "\"mis\""
+            "raw": "\"mis\"",
+            "start": 2338,
+            "end": 2343
           }
-        ]
-      }
+        ],
+        "start": 2315,
+        "end": 2344
+      },
+      "start": 2315,
+      "end": 2345
     },
     {
       "type": "ExpressionStatement",
-      "start": 2346,
-      "end": 2376,
       "expression": {
         "type": "NewExpression",
-        "start": 2346,
-        "end": 2375,
         "callee": {
           "type": "Identifier",
+          "name": "RegExp",
           "start": 2350,
-          "end": 2356,
-          "name": "RegExp"
+          "end": 2356
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 2357,
-            "end": 2367,
             "value": "(?-msi:)",
-            "raw": "\"(?-msi:)\""
+            "raw": "\"(?-msi:)\"",
+            "start": 2357,
+            "end": 2367
           },
           {
             "type": "Literal",
-            "start": 2369,
-            "end": 2374,
             "value": "msi",
-            "raw": "\"msi\""
+            "raw": "\"msi\"",
+            "start": 2369,
+            "end": 2374
           }
-        ]
-      }
+        ],
+        "start": 2346,
+        "end": 2375
+      },
+      "start": 2346,
+      "end": 2376
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2377
 }

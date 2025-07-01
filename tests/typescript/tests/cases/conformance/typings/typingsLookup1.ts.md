@@ -2,119 +2,119 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 27,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 26,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 25,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 25,
             "decorators": [],
             "name": "$",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 25,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 15,
-                "end": 25,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 17,
-                    "end": 23,
                     "computed": false,
                     "optional": false,
                     "readonly": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 17,
-                      "end": 18,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 17,
+                      "end": 18
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 18,
-                      "end": 23,
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",
                         "start": 20,
                         "end": 23
-                      }
+                      },
+                      "start": 18,
+                      "end": 23
                     },
                     "accessibility": null,
-                    "static": false
+                    "static": false,
+                    "start": 17,
+                    "end": 23
                   }
-                ]
-              }
-            }
+                ],
+                "start": 15,
+                "end": 25
+              },
+              "start": 13,
+              "end": 25
+            },
+            "start": 12,
+            "end": 25
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 25
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 26
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 27
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 33,
-  "end": 37,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 33,
-      "end": 37,
       "expression": {
         "type": "MemberExpression",
-        "start": 33,
-        "end": 36,
         "object": {
           "type": "Identifier",
-          "start": 33,
-          "end": 34,
           "decorators": [],
           "name": "$",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 33,
+          "end": 34
         },
         "property": {
           "type": "Identifier",
-          "start": 35,
-          "end": 36,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 35,
+          "end": 36
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 33,
+        "end": 36
       },
-      "directive": null
+      "directive": null,
+      "start": 33,
+      "end": 37
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 33,
+  "end": 37
 }
 ```

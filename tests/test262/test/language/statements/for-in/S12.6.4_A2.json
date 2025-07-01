@@ -1,188 +1,188 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 874,
   "body": [
     {
       "type": "TryStatement",
-      "start": 366,
-      "end": 523,
       "block": {
         "type": "BlockStatement",
-        "start": 370,
-        "end": 418,
         "body": [
           {
             "type": "ForInStatement",
-            "start": 373,
-            "end": 415,
             "left": {
               "type": "Identifier",
+              "name": "__key",
               "start": 377,
-              "end": 382,
-              "name": "__key"
+              "end": 382
             },
             "right": {
               "type": "Literal",
-              "start": 386,
-              "end": 390,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "start": 386,
+              "end": 390
             },
             "body": {
               "type": "BlockStatement",
-              "start": 391,
-              "end": 415,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 398,
-                  "end": 412,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 402,
-                      "end": 411,
                       "id": {
                         "type": "Identifier",
+                        "name": "key",
                         "start": 402,
-                        "end": 405,
-                        "name": "key"
+                        "end": 405
                       },
                       "init": {
                         "type": "Identifier",
+                        "name": "__key",
                         "start": 406,
-                        "end": 411,
-                        "name": "__key"
-                      }
+                        "end": 411
+                      },
+                      "start": 402,
+                      "end": 411
                     }
-                  ]
+                  ],
+                  "start": 398,
+                  "end": 412
                 }
-              ]
-            }
+              ],
+              "start": 391,
+              "end": 415
+            },
+            "start": 373,
+            "end": 415
           },
           {
             "type": "EmptyStatement",
             "start": 415,
             "end": 416
           }
-        ]
+        ],
+        "start": 370,
+        "end": 418
       },
       "handler": {
         "type": "CatchClause",
-        "start": 419,
-        "end": 523,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 426,
-          "end": 427,
-          "name": "e"
+          "end": 427
         },
         "body": {
           "type": "BlockStatement",
-          "start": 429,
-          "end": 523,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 432,
-              "end": 521,
               "argument": {
                 "type": "NewExpression",
-                "start": 438,
-                "end": 520,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 442,
-                  "end": 454,
-                  "name": "Test262Error"
+                  "end": 454
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 455,
-                    "end": 519,
                     "value": "#1: \"for(__key in null){}\" does not lead to throwing exception",
-                    "raw": "'#1: \"for(__key in null){}\" does not lead to throwing exception'"
+                    "raw": "'#1: \"for(__key in null){}\" does not lead to throwing exception'",
+                    "start": 455,
+                    "end": 519
                   }
-                ]
-              }
+                ],
+                "start": 438,
+                "end": 520
+              },
+              "start": 432,
+              "end": 521
             }
-          ]
-        }
+          ],
+          "start": 429,
+          "end": 523
+        },
+        "start": 419,
+        "end": 523
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 366,
+      "end": 523
     },
     {
       "type": "IfStatement",
-      "start": 696,
-      "end": 791,
       "test": {
         "type": "BinaryExpression",
-        "start": 700,
-        "end": 715,
         "left": {
           "type": "Identifier",
+          "name": "key",
           "start": 700,
-          "end": 703,
-          "name": "key"
+          "end": 703
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 706,
-          "end": 715,
-          "name": "undefined"
-        }
+          "end": 715
+        },
+        "start": 700,
+        "end": 715
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 717,
-        "end": 791,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 720,
-            "end": 789,
             "argument": {
               "type": "NewExpression",
-              "start": 726,
-              "end": 788,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 730,
-                "end": 742,
-                "name": "Test262Error"
+                "end": 742
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 743,
-                  "end": 787,
                   "left": {
                     "type": "Literal",
-                    "start": 743,
-                    "end": 783,
                     "value": "#2: key === undefined. Actual: key ===",
-                    "raw": "'#2: key === undefined. Actual: key ==='"
+                    "raw": "'#2: key === undefined. Actual: key ==='",
+                    "start": 743,
+                    "end": 783
                   },
                   "operator": "+",
                   "right": {
                     "type": "Identifier",
+                    "name": "key",
                     "start": 784,
-                    "end": 787,
-                    "name": "key"
-                  }
+                    "end": 787
+                  },
+                  "start": 743,
+                  "end": 787
                 }
-              ]
-            }
+              ],
+              "start": 726,
+              "end": 788
+            },
+            "start": 720,
+            "end": 789
           }
-        ]
+        ],
+        "start": 717,
+        "end": 791
       },
-      "alternate": null
+      "alternate": null,
+      "start": 696,
+      "end": 791
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 874
 }

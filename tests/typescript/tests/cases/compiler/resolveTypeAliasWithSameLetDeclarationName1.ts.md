@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 39,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 11,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,90 +21,94 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 8,
-        "end": 11,
-        "body": []
+        "end": 11
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 11
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 12,
-      "end": 25,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 20,
         "decorators": [],
         "name": "baz",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 20
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeReference",
-        "start": 23,
-        "end": 24,
         "typeName": {
           "type": "Identifier",
-          "start": 23,
-          "end": 24,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 23,
+          "end": 24
         },
-        "typeArguments": null
+        "typeArguments": null,
+        "start": 23,
+        "end": 24
       },
-      "declare": false
+      "declare": false,
+      "start": 12,
+      "end": 25
     },
     {
       "type": "VariableDeclaration",
-      "start": 26,
-      "end": 39,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 30,
-          "end": 38,
           "id": {
             "type": "Identifier",
-            "start": 30,
-            "end": 38,
             "decorators": [],
             "name": "baz",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 33,
-              "end": 38,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 35,
-                "end": 38,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 35,
-                  "end": 38,
                   "decorators": [],
                   "name": "baz",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 35,
+                  "end": 38
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 35,
+                "end": 38
+              },
+              "start": 33,
+              "end": 38
+            },
+            "start": 30,
+            "end": 38
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 30,
+          "end": 38
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 26,
+      "end": 39
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 39
 }
 ```

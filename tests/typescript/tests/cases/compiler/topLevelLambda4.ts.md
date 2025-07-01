@@ -2,36 +2,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 33,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 33,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 32,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "ArrowFunctionExpression",
-              "start": 15,
-              "end": 32,
               "expression": true,
               "async": false,
               "typeParameters": null,
@@ -39,8 +29,6 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "MemberExpression",
-                "start": 21,
-                "end": 32,
                 "object": {
                   "type": "ThisExpression",
                   "start": 21,
@@ -48,31 +36,43 @@ __ESTREE_TEST__:PASS:
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 26,
-                  "end": 32,
                   "decorators": [],
                   "name": "window",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 26,
+                  "end": 32
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 21,
+                "end": 32
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 15,
+              "end": 32
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 32
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 33
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 33
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 33
 }
 ```

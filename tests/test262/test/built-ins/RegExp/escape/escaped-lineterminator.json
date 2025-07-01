@@ -1,329 +1,329 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2067,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1611,
-      "end": 1723,
       "expression": {
         "type": "CallExpression",
-        "start": 1611,
-        "end": 1722,
         "callee": {
           "type": "MemberExpression",
-          "start": 1611,
-          "end": 1627,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1611,
-            "end": 1617,
-            "name": "assert"
+            "end": 1617
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1618,
-            "end": 1627,
-            "name": "sameValue"
+            "end": 1627
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1611,
+          "end": 1627
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1628,
-            "end": 1651,
             "callee": {
               "type": "MemberExpression",
-              "start": 1628,
-              "end": 1641,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1628,
-                "end": 1634,
-                "name": "RegExp"
+                "end": 1634
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1635,
-                "end": 1641,
-                "name": "escape"
+                "end": 1641
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1628,
+              "end": 1641
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1642,
-                "end": 1650,
                 "value": " ",
-                "raw": "'\\u2028'"
+                "raw": "'\\u2028'",
+                "start": 1642,
+                "end": 1650
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1628,
+            "end": 1651
           },
           {
             "type": "Literal",
-            "start": 1653,
-            "end": 1662,
             "value": "\\u2028",
-            "raw": "'\\\\u2028'"
+            "raw": "'\\\\u2028'",
+            "start": 1653,
+            "end": 1662
           },
           {
             "type": "Literal",
-            "start": 1664,
-            "end": 1721,
             "value": "line terminator \\u2028 is escaped correctly to \\u2028",
-            "raw": "'line terminator \\\\u2028 is escaped correctly to \\\\u2028'"
+            "raw": "'line terminator \\\\u2028 is escaped correctly to \\\\u2028'",
+            "start": 1664,
+            "end": 1721
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1611,
+        "end": 1722
+      },
+      "start": 1611,
+      "end": 1723
     },
     {
       "type": "ExpressionStatement",
-      "start": 1724,
-      "end": 1836,
       "expression": {
         "type": "CallExpression",
-        "start": 1724,
-        "end": 1835,
         "callee": {
           "type": "MemberExpression",
-          "start": 1724,
-          "end": 1740,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1724,
-            "end": 1730,
-            "name": "assert"
+            "end": 1730
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1731,
-            "end": 1740,
-            "name": "sameValue"
+            "end": 1740
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1724,
+          "end": 1740
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1741,
-            "end": 1764,
             "callee": {
               "type": "MemberExpression",
-              "start": 1741,
-              "end": 1754,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1741,
-                "end": 1747,
-                "name": "RegExp"
+                "end": 1747
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1748,
-                "end": 1754,
-                "name": "escape"
+                "end": 1754
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1741,
+              "end": 1754
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1755,
-                "end": 1763,
                 "value": " ",
-                "raw": "'\\u2029'"
+                "raw": "'\\u2029'",
+                "start": 1755,
+                "end": 1763
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1741,
+            "end": 1764
           },
           {
             "type": "Literal",
-            "start": 1766,
-            "end": 1775,
             "value": "\\u2029",
-            "raw": "'\\\\u2029'"
+            "raw": "'\\\\u2029'",
+            "start": 1766,
+            "end": 1775
           },
           {
             "type": "Literal",
-            "start": 1777,
-            "end": 1834,
             "value": "line terminator \\u2029 is escaped correctly to \\u2029",
-            "raw": "'line terminator \\\\u2029 is escaped correctly to \\\\u2029'"
+            "raw": "'line terminator \\\\u2029 is escaped correctly to \\\\u2029'",
+            "start": 1777,
+            "end": 1834
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1724,
+        "end": 1835
+      },
+      "start": 1724,
+      "end": 1836
     },
     {
       "type": "ExpressionStatement",
-      "start": 1839,
-      "end": 1947,
       "expression": {
         "type": "CallExpression",
-        "start": 1839,
-        "end": 1946,
         "callee": {
           "type": "MemberExpression",
-          "start": 1839,
-          "end": 1855,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1839,
-            "end": 1845,
-            "name": "assert"
+            "end": 1845
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1846,
-            "end": 1855,
-            "name": "sameValue"
+            "end": 1855
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1839,
+          "end": 1855
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1856,
-            "end": 1885,
             "callee": {
               "type": "MemberExpression",
-              "start": 1856,
-              "end": 1869,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1856,
-                "end": 1862,
-                "name": "RegExp"
+                "end": 1862
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1863,
-                "end": 1869,
-                "name": "escape"
+                "end": 1869
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1856,
+              "end": 1869
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1870,
-                "end": 1884,
                 "value": "  ",
-                "raw": "'\\u2028\\u2029'"
+                "raw": "'\\u2028\\u2029'",
+                "start": 1870,
+                "end": 1884
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1856,
+            "end": 1885
           },
           {
             "type": "Literal",
-            "start": 1887,
-            "end": 1903,
             "value": "\\u2028\\u2029",
-            "raw": "'\\\\u2028\\\\u2029'"
+            "raw": "'\\\\u2028\\\\u2029'",
+            "start": 1887,
+            "end": 1903
           },
           {
             "type": "Literal",
-            "start": 1905,
-            "end": 1945,
             "value": "line terminators are escaped correctly",
-            "raw": "'line terminators are escaped correctly'"
+            "raw": "'line terminators are escaped correctly'",
+            "start": 1905,
+            "end": 1945
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1839,
+        "end": 1946
+      },
+      "start": 1839,
+      "end": 1947
     },
     {
       "type": "ExpressionStatement",
-      "start": 1948,
-      "end": 2066,
       "expression": {
         "type": "CallExpression",
-        "start": 1948,
-        "end": 2065,
         "callee": {
           "type": "MemberExpression",
-          "start": 1948,
-          "end": 1964,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1948,
-            "end": 1954,
-            "name": "assert"
+            "end": 1954
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1955,
-            "end": 1964,
-            "name": "sameValue"
+            "end": 1964
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1948,
+          "end": 1964
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1965,
-            "end": 1996,
             "callee": {
               "type": "MemberExpression",
-              "start": 1965,
-              "end": 1978,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 1965,
-                "end": 1971,
-                "name": "RegExp"
+                "end": 1971
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 1972,
-                "end": 1978,
-                "name": "escape"
+                "end": 1978
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1965,
+              "end": 1978
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1979,
-                "end": 1995,
                 "value": " a a",
-                "raw": "'\\u2028a\\u2029a'"
+                "raw": "'\\u2028a\\u2029a'",
+                "start": 1979,
+                "end": 1995
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1965,
+            "end": 1996
           },
           {
             "type": "Literal",
-            "start": 1998,
-            "end": 2016,
             "value": "\\u2028a\\u2029a",
-            "raw": "'\\\\u2028a\\\\u2029a'"
+            "raw": "'\\\\u2028a\\\\u2029a'",
+            "start": 1998,
+            "end": 2016
           },
           {
             "type": "Literal",
-            "start": 2018,
-            "end": 2064,
             "value": "mixed line terminators are escaped correctly",
-            "raw": "'mixed line terminators are escaped correctly'"
+            "raw": "'mixed line terminators are escaped correctly'",
+            "start": 2018,
+            "end": 2064
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1948,
+        "end": 2065
+      },
+      "start": 1948,
+      "end": 2066
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2067
 }

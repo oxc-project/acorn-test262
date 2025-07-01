@@ -1,175 +1,175 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2396,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 2171,
-      "end": 2191,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2175,
-          "end": 2190,
           "id": {
             "type": "Identifier",
+            "name": "re1",
             "start": 2175,
-            "end": 2178,
-            "name": "re1"
+            "end": 2178
           },
           "init": {
             "type": "Literal",
-            "start": 2181,
-            "end": 2190,
             "value": null,
             "raw": "/(?-i:)/i",
             "regex": {
               "pattern": "(?-i:)",
               "flags": "i"
-            }
-          }
+            },
+            "start": 2181,
+            "end": 2190
+          },
+          "start": 2175,
+          "end": 2190
         }
-      ]
+      ],
+      "start": 2171,
+      "end": 2191
     },
     {
       "type": "ExpressionStatement",
-      "start": 2192,
-      "end": 2274,
       "expression": {
         "type": "CallExpression",
-        "start": 2192,
-        "end": 2273,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2192,
-          "end": 2198,
-          "name": "assert"
+          "end": 2198
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2199,
-            "end": 2213,
             "object": {
               "type": "Identifier",
+              "name": "re1",
               "start": 2199,
-              "end": 2202,
-              "name": "re1"
+              "end": 2202
             },
             "property": {
               "type": "Identifier",
+              "name": "ignoreCase",
               "start": 2203,
-              "end": 2213,
-              "name": "ignoreCase"
+              "end": 2213
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2199,
+            "end": 2213
           },
           {
             "type": "Literal",
-            "start": 2215,
-            "end": 2272,
             "value": "RegExp instance ignoreCase property should still be set",
-            "raw": "\"RegExp instance ignoreCase property should still be set\""
+            "raw": "\"RegExp instance ignoreCase property should still be set\"",
+            "start": 2215,
+            "end": 2272
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2192,
+        "end": 2273
+      },
+      "start": 2192,
+      "end": 2274
     },
     {
       "type": "VariableDeclaration",
-      "start": 2276,
-      "end": 2312,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 2280,
-          "end": 2311,
           "id": {
             "type": "Identifier",
+            "name": "re2",
             "start": 2280,
-            "end": 2283,
-            "name": "re2"
+            "end": 2283
           },
           "init": {
             "type": "NewExpression",
-            "start": 2286,
-            "end": 2311,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 2290,
-              "end": 2296,
-              "name": "RegExp"
+              "end": 2296
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2297,
-                "end": 2305,
                 "value": "(?-i:)",
-                "raw": "\"(?-i:)\""
+                "raw": "\"(?-i:)\"",
+                "start": 2297,
+                "end": 2305
               },
               {
                 "type": "Literal",
-                "start": 2307,
-                "end": 2310,
                 "value": "i",
-                "raw": "\"i\""
+                "raw": "\"i\"",
+                "start": 2307,
+                "end": 2310
               }
-            ]
-          }
+            ],
+            "start": 2286,
+            "end": 2311
+          },
+          "start": 2280,
+          "end": 2311
         }
-      ]
+      ],
+      "start": 2276,
+      "end": 2312
     },
     {
       "type": "ExpressionStatement",
-      "start": 2313,
-      "end": 2395,
       "expression": {
         "type": "CallExpression",
-        "start": 2313,
-        "end": 2394,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2313,
-          "end": 2319,
-          "name": "assert"
+          "end": 2319
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 2320,
-            "end": 2334,
             "object": {
               "type": "Identifier",
+              "name": "re2",
               "start": 2320,
-              "end": 2323,
-              "name": "re2"
+              "end": 2323
             },
             "property": {
               "type": "Identifier",
+              "name": "ignoreCase",
               "start": 2324,
-              "end": 2334,
-              "name": "ignoreCase"
+              "end": 2334
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2320,
+            "end": 2334
           },
           {
             "type": "Literal",
-            "start": 2336,
-            "end": 2393,
             "value": "RegExp instance ignoreCase property should still be set",
-            "raw": "\"RegExp instance ignoreCase property should still be set\""
+            "raw": "\"RegExp instance ignoreCase property should still be set\"",
+            "start": 2336,
+            "end": 2393
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2313,
+        "end": 2394
+      },
+      "start": 2313,
+      "end": 2395
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2396
 }

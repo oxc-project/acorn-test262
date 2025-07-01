@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 509,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 401,
-      "end": 508,
       "expression": {
         "type": "CallExpression",
-        "start": 401,
-        "end": 507,
         "callee": {
           "type": "MemberExpression",
-          "start": 401,
-          "end": 417,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 401,
-            "end": 407,
-            "name": "assert"
+            "end": 407
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 408,
-            "end": 417,
-            "name": "sameValue"
+            "end": 417
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 401,
+          "end": 417
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 421,
-            "end": 448,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "FinalizationRegistry",
               "start": 428,
-              "end": 448,
-              "name": "FinalizationRegistry"
+              "end": 448
             },
-            "prefix": true
+            "prefix": true,
+            "start": 421,
+            "end": 448
           },
           {
             "type": "Literal",
-            "start": 450,
-            "end": 460,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 450,
+            "end": 460
           },
           {
             "type": "Literal",
-            "start": 464,
-            "end": 505,
             "value": "typeof FinalizationRegistry is function",
-            "raw": "'typeof FinalizationRegistry is function'"
+            "raw": "'typeof FinalizationRegistry is function'",
+            "start": 464,
+            "end": 505
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 401,
+        "end": 507
+      },
+      "start": 401,
+      "end": 508
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 509
 }

@@ -1,153 +1,153 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 388,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 311,
-      "end": 340,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 317,
-        "end": 318,
-        "name": "C"
+        "end": 318
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 319,
-        "end": 340,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 323,
-            "end": 338,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "x",
               "start": 323,
-              "end": 324,
-              "name": "x"
+              "end": 324
             },
             "value": {
               "type": "MemberExpression",
-              "start": 327,
-              "end": 338,
               "object": {
                 "type": "Literal",
-                "start": 327,
-                "end": 332,
                 "value": "lol",
-                "raw": "\"lol\""
+                "raw": "\"lol\"",
+                "start": 327,
+                "end": 332
               },
               "property": {
                 "type": "Literal",
-                "start": 336,
-                "end": 337,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 336,
+                "end": 337
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 327,
+              "end": 338
             },
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 323,
+            "end": 338
           }
-        ]
-      }
+        ],
+        "start": 319,
+        "end": 340
+      },
+      "start": 311,
+      "end": 340
     },
     {
       "type": "VariableDeclaration",
-      "start": 342,
-      "end": 358,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 346,
-          "end": 357,
           "id": {
             "type": "Identifier",
+            "name": "c",
             "start": 346,
-            "end": 347,
-            "name": "c"
+            "end": 347
           },
           "init": {
             "type": "NewExpression",
-            "start": 350,
-            "end": 357,
             "callee": {
               "type": "Identifier",
+              "name": "C",
               "start": 354,
-              "end": 355,
-              "name": "C"
+              "end": 355
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 350,
+            "end": 357
+          },
+          "start": 346,
+          "end": 357
         }
-      ]
+      ],
+      "start": 342,
+      "end": 358
     },
     {
       "type": "ExpressionStatement",
-      "start": 360,
-      "end": 387,
       "expression": {
         "type": "CallExpression",
-        "start": 360,
-        "end": 386,
         "callee": {
           "type": "MemberExpression",
-          "start": 360,
-          "end": 376,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 360,
-            "end": 366,
-            "name": "assert"
+            "end": 366
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 367,
-            "end": 376,
-            "name": "sameValue"
+            "end": 376
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 360,
+          "end": 376
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 377,
-            "end": 380,
             "object": {
               "type": "Identifier",
+              "name": "c",
               "start": 377,
-              "end": 378,
-              "name": "c"
+              "end": 378
             },
             "property": {
               "type": "Identifier",
+              "name": "x",
               "start": 379,
-              "end": 380,
-              "name": "x"
+              "end": 380
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 377,
+            "end": 380
           },
           {
             "type": "Literal",
-            "start": 382,
-            "end": 385,
             "value": "o",
-            "raw": "'o'"
+            "raw": "'o'",
+            "start": 382,
+            "end": 385
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 360,
+        "end": 386
+      },
+      "start": 360,
+      "end": 387
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 388
 }

@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 292,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 212,
-      "end": 291,
       "expression": {
         "type": "CallExpression",
-        "start": 212,
-        "end": 290,
         "callee": {
           "type": "MemberExpression",
-          "start": 212,
-          "end": 228,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 212,
-            "end": 218,
-            "name": "assert"
+            "end": 218
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 219,
-            "end": 228,
-            "name": "sameValue"
+            "end": 228
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 212,
+          "end": 228
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 229,
-            "end": 244,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "URIError",
               "start": 236,
-              "end": 244,
-              "name": "URIError"
+              "end": 244
             },
-            "prefix": true
+            "prefix": true,
+            "start": 229,
+            "end": 244
           },
           {
             "type": "Literal",
-            "start": 246,
-            "end": 256,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 246,
+            "end": 256
           },
           {
             "type": "Literal",
-            "start": 258,
-            "end": 289,
             "value": "typeof URIError is \"function\"",
-            "raw": "'typeof URIError is \"function\"'"
+            "raw": "'typeof URIError is \"function\"'",
+            "start": 258,
+            "end": 289
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 212,
+        "end": 290
+      },
+      "start": 212,
+      "end": 291
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 292
 }

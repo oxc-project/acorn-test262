@@ -2,80 +2,68 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 99,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 26,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 26,
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 23,
           "decorators": [],
           "name": "IPoint",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 23
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 24,
-          "end": 26,
-          "body": []
+          "end": 26
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 26
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 28,
-      "end": 98,
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 35,
-        "end": 98,
         "id": {
           "type": "Identifier",
-          "start": 42,
-          "end": 48,
           "decorators": [],
           "name": "Shapes",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 42,
+          "end": 48
         },
         "body": {
           "type": "TSModuleBlock",
-          "start": 49,
-          "end": 98,
           "body": [
             {
               "type": "ExportNamedDeclaration",
-              "start": 56,
-              "end": 95,
               "declaration": {
                 "type": "ClassDeclaration",
-                "start": 63,
-                "end": 95,
                 "decorators": [],
                 "id": {
                   "type": "Identifier",
-                  "start": 69,
-                  "end": 74,
                   "decorators": [],
                   "name": "Point",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 69,
+                  "end": 74
                 },
                 "typeParameters": null,
                 "superClass": null,
@@ -83,58 +71,70 @@ __ESTREE_TEST__:PASS:
                 "implements": [
                   {
                     "type": "TSClassImplements",
-                    "start": 86,
-                    "end": 92,
                     "expression": {
                       "type": "Identifier",
-                      "start": 86,
-                      "end": 92,
                       "decorators": [],
                       "name": "IPoint",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 86,
+                      "end": 92
                     },
-                    "typeArguments": null
+                    "typeArguments": null,
+                    "start": 86,
+                    "end": 92
                   }
                 ],
                 "body": {
                   "type": "ClassBody",
+                  "body": [],
                   "start": 93,
-                  "end": 95,
-                  "body": []
+                  "end": 95
                 },
                 "abstract": false,
-                "declare": false
+                "declare": false,
+                "start": 63,
+                "end": 95
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
-              "attributes": []
+              "attributes": [],
+              "start": 56,
+              "end": 95
             }
-          ]
+          ],
+          "start": 49,
+          "end": 98
         },
         "kind": "module",
         "declare": false,
-        "global": false
+        "global": false,
+        "start": 35,
+        "end": 98
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 28,
+      "end": 98
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 99
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 122,
-  "end": 122,
   "body": [],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 122,
+  "end": 122
 }
 ```

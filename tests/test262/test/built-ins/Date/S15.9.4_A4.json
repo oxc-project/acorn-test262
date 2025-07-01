@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 462,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 355,
-      "end": 461,
       "expression": {
         "type": "CallExpression",
-        "start": 355,
-        "end": 460,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 355,
-          "end": 361,
-          "name": "assert"
+          "end": 361
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 362,
-            "end": 400,
             "callee": {
               "type": "MemberExpression",
-              "start": 362,
-              "end": 394,
               "object": {
                 "type": "MemberExpression",
-                "start": 362,
-                "end": 380,
                 "object": {
                   "type": "Identifier",
+                  "name": "Function",
                   "start": 362,
-                  "end": 370,
-                  "name": "Function"
+                  "end": 370
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 371,
-                  "end": 380,
-                  "name": "prototype"
+                  "end": 380
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 362,
+                "end": 380
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 381,
-                "end": 394,
-                "name": "isPrototypeOf"
+                "end": 394
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 362,
+              "end": 394
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 395,
-                "end": 399,
-                "name": "Date"
+                "end": 399
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 362,
+            "end": 400
           },
           {
             "type": "Literal",
-            "start": 402,
-            "end": 459,
             "value": "Function.prototype.isPrototypeOf(Date) must return true",
-            "raw": "'Function.prototype.isPrototypeOf(Date) must return true'"
+            "raw": "'Function.prototype.isPrototypeOf(Date) must return true'",
+            "start": 402,
+            "end": 459
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 355,
+        "end": 460
+      },
+      "start": 355,
+      "end": 461
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 462
 }

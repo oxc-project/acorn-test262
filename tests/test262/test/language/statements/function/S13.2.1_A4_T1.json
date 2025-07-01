@@ -1,220 +1,220 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 738,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 386,
-      "end": 428,
       "id": {
         "type": "Identifier",
+        "name": "__func",
         "start": 395,
-        "end": 401,
-        "name": "__func"
+        "end": 401
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "__arg",
           "start": 402,
-          "end": 407,
-          "name": "__arg"
+          "end": 407
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 408,
-        "end": 428,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 414,
-            "end": 426,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 414,
-              "end": 425,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 414,
-                "end": 423,
                 "object": {
                   "type": "Identifier",
+                  "name": "__arg",
                   "start": 414,
-                  "end": 419,
-                  "name": "__arg"
+                  "end": 419
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "foo",
                   "start": 420,
-                  "end": 423,
-                  "name": "foo"
+                  "end": 423
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 414,
+                "end": 423
               },
               "right": {
                 "type": "Literal",
-                "start": 424,
-                "end": 425,
                 "value": 7,
-                "raw": "7"
-              }
-            }
+                "raw": "7",
+                "start": 424,
+                "end": 425
+              },
+              "start": 414,
+              "end": 425
+            },
+            "start": 414,
+            "end": 426
           }
-        ]
+        ],
+        "start": 408,
+        "end": 428
       },
-      "expression": false
+      "expression": false,
+      "start": 386,
+      "end": 428
     },
     {
       "type": "VariableDeclaration",
-      "start": 430,
-      "end": 443,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 434,
-          "end": 442,
           "id": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 434,
-            "end": 439,
-            "name": "__obj"
+            "end": 439
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 440,
-            "end": 442,
-            "properties": []
-          }
+            "end": 442
+          },
+          "start": 434,
+          "end": 442
         }
-      ]
+      ],
+      "start": 430,
+      "end": 443
     },
     {
       "type": "ExpressionStatement",
-      "start": 445,
-      "end": 459,
       "expression": {
         "type": "CallExpression",
-        "start": 445,
-        "end": 458,
         "callee": {
           "type": "Identifier",
+          "name": "__func",
           "start": 445,
-          "end": 451,
-          "name": "__func"
+          "end": 451
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "__obj",
             "start": 452,
-            "end": 457,
-            "name": "__obj"
+            "end": 457
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 445,
+        "end": 458
+      },
+      "start": 445,
+      "end": 459
     },
     {
       "type": "IfStatement",
-      "start": 550,
-      "end": 655,
       "test": {
         "type": "BinaryExpression",
-        "start": 554,
-        "end": 569,
         "left": {
           "type": "MemberExpression",
-          "start": 554,
-          "end": 563,
           "object": {
             "type": "Identifier",
+            "name": "__obj",
             "start": 554,
-            "end": 559,
-            "name": "__obj"
+            "end": 559
           },
           "property": {
             "type": "Identifier",
+            "name": "foo",
             "start": 560,
-            "end": 563,
-            "name": "foo"
+            "end": 563
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 554,
+          "end": 563
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 568,
-          "end": 569,
           "value": 7,
-          "raw": "7"
-        }
+          "raw": "7",
+          "start": 568,
+          "end": 569
+        },
+        "start": 554,
+        "end": 569
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 571,
-        "end": 655,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 574,
-            "end": 653,
             "argument": {
               "type": "NewExpression",
-              "start": 580,
-              "end": 652,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 584,
-                "end": 596,
-                "name": "Test262Error"
+                "end": 596
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 597,
-                  "end": 651,
                   "left": {
                     "type": "Literal",
-                    "start": 597,
-                    "end": 641,
                     "value": "#1: __obj.foo === 7. Actual: __obj.foo ===",
-                    "raw": "'#1: __obj.foo === 7. Actual: __obj.foo ==='"
+                    "raw": "'#1: __obj.foo === 7. Actual: __obj.foo ==='",
+                    "start": 597,
+                    "end": 641
                   },
                   "operator": "+",
                   "right": {
                     "type": "MemberExpression",
-                    "start": 642,
-                    "end": 651,
                     "object": {
                       "type": "Identifier",
+                      "name": "__obj",
                       "start": 642,
-                      "end": 647,
-                      "name": "__obj"
+                      "end": 647
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "foo",
                       "start": 648,
-                      "end": 651,
-                      "name": "foo"
+                      "end": 651
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 642,
+                    "end": 651
+                  },
+                  "start": 597,
+                  "end": 651
                 }
-              ]
-            }
+              ],
+              "start": 580,
+              "end": 652
+            },
+            "start": 574,
+            "end": 653
           }
-        ]
+        ],
+        "start": 571,
+        "end": 655
       },
-      "alternate": null
+      "alternate": null,
+      "start": 550,
+      "end": 655
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 738
 }

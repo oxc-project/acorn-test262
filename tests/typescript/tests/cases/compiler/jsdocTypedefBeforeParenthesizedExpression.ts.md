@@ -2,86 +2,82 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 63,
-  "end": 266,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 63,
-      "end": 71,
       "expression": {
         "type": "BinaryExpression",
-        "start": 64,
-        "end": 69,
         "left": {
           "type": "Literal",
-          "start": 64,
-          "end": 65,
           "value": 2,
-          "raw": "2"
+          "raw": "2",
+          "start": 64,
+          "end": 65
         },
         "operator": "*",
         "right": {
           "type": "Literal",
-          "start": 68,
-          "end": 69,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 68,
+          "end": 69
+        },
+        "start": 64,
+        "end": 69
       },
-      "directive": null
+      "directive": null,
+      "start": 63,
+      "end": 71
     },
     {
       "type": "ExpressionStatement",
-      "start": 117,
-      "end": 129,
       "expression": {
         "type": "BinaryExpression",
-        "start": 117,
-        "end": 128,
         "left": {
           "type": "BinaryExpression",
-          "start": 118,
-          "end": 123,
           "left": {
             "type": "Literal",
-            "start": 118,
-            "end": 119,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 118,
+            "end": 119
           },
           "operator": "*",
           "right": {
             "type": "Literal",
-            "start": 122,
-            "end": 123,
             "value": 2,
-            "raw": "2"
-          }
+            "raw": "2",
+            "start": 122,
+            "end": 123
+          },
+          "start": 118,
+          "end": 123
         },
         "operator": "+",
         "right": {
           "type": "Literal",
-          "start": 127,
-          "end": 128,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 127,
+          "end": 128
+        },
+        "start": 117,
+        "end": 128
       },
-      "directive": null
+      "directive": null,
+      "start": 117,
+      "end": 129
     },
     {
       "type": "FunctionDeclaration",
-      "start": 214,
-      "end": 266,
       "id": {
         "type": "Identifier",
-        "start": 223,
-        "end": 257,
         "decorators": [],
         "name": "makeSureTypedefsAreStillRecognized",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 223,
+        "end": 257
       },
       "generator": false,
       "async": false,
@@ -90,34 +86,38 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 258,
-          "end": 259,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 258,
+          "end": 259
         },
         {
           "type": "Identifier",
-          "start": 261,
-          "end": 262,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 261,
+          "end": 262
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 264,
-        "end": 266,
-        "body": []
+        "end": 266
       },
-      "expression": false
+      "expression": false,
+      "start": 214,
+      "end": 266
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 63,
+  "end": 266
 }
 ```

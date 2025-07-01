@@ -2,78 +2,78 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 17,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 13,
         "decorators": [],
         "name": "bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 13
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
+        "body": [],
         "start": 14,
-        "end": 17,
-        "body": []
+        "end": 17
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "VariableDeclaration",
-      "start": 18,
-      "end": 31,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 22,
-          "end": 30,
           "id": {
             "type": "Identifier",
-            "start": 22,
-            "end": 30,
             "decorators": [],
             "name": "bar",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 25,
-              "end": 30,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 27,
-                "end": 30,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 30,
                   "decorators": [],
                   "name": "bar",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 27,
+                  "end": 30
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 27,
+                "end": 30
+              },
+              "start": 25,
+              "end": 30
+            },
+            "start": 22,
+            "end": 30
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 22,
+          "end": 30
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 18,
+      "end": 31
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```

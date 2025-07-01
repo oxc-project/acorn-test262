@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 736,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 265,
-      "end": 295,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 269,
-          "end": 294,
           "id": {
             "type": "Identifier",
+            "name": "__reg",
             "start": 269,
-            "end": 274,
-            "name": "__reg"
+            "end": 274
           },
           "init": {
             "type": "NewExpression",
-            "start": 277,
-            "end": 294,
             "callee": {
               "type": "Identifier",
+              "name": "RegExp",
               "start": 281,
-              "end": 287,
-              "name": "RegExp"
+              "end": 287
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 288,
-                "end": 293,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "start": 288,
+                "end": 293
               }
-            ]
-          }
+            ],
+            "start": 277,
+            "end": 294
+          },
+          "start": 269,
+          "end": 294
         }
-      ]
+      ],
+      "start": 265,
+      "end": 295
     },
     {
       "type": "ExpressionStatement",
-      "start": 296,
-      "end": 345,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 296,
-        "end": 344,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 296,
-          "end": 313,
           "object": {
             "type": "Identifier",
+            "name": "__reg",
             "start": 296,
-            "end": 301,
-            "name": "__reg"
+            "end": 301
           },
           "property": {
             "type": "Identifier",
+            "name": "toUpperCase",
             "start": 302,
-            "end": 313,
-            "name": "toUpperCase"
+            "end": 313
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 296,
+          "end": 313
         },
         "right": {
           "type": "MemberExpression",
-          "start": 316,
-          "end": 344,
           "object": {
             "type": "MemberExpression",
-            "start": 316,
-            "end": 332,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 316,
-              "end": 322,
-              "name": "String"
+              "end": 322
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 323,
-              "end": 332,
-              "name": "prototype"
+              "end": 332
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 316,
+            "end": 332
           },
           "property": {
             "type": "Identifier",
+            "name": "toUpperCase",
             "start": 333,
-            "end": 344,
-            "name": "toUpperCase"
+            "end": 344
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 316,
+          "end": 344
+        },
+        "start": 296,
+        "end": 344
+      },
+      "start": 296,
+      "end": 345
     },
     {
       "type": "IfStatement",
-      "start": 435,
-      "end": 653,
       "test": {
         "type": "BinaryExpression",
-        "start": 439,
-        "end": 470,
         "left": {
           "type": "CallExpression",
-          "start": 439,
-          "end": 458,
           "callee": {
             "type": "MemberExpression",
-            "start": 439,
-            "end": 456,
             "object": {
               "type": "Identifier",
+              "name": "__reg",
               "start": 439,
-              "end": 444,
-              "name": "__reg"
+              "end": 444
             },
             "property": {
               "type": "Identifier",
+              "name": "toUpperCase",
               "start": 445,
-              "end": 456,
-              "name": "toUpperCase"
+              "end": 456
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 439,
+            "end": 456
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 439,
+          "end": 458
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 463,
-          "end": 470,
           "value": "/ABC/",
-          "raw": "\"/ABC/\""
-        }
+          "raw": "\"/ABC/\"",
+          "start": 463,
+          "end": 470
+        },
+        "start": 439,
+        "end": 470
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 472,
-        "end": 653,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 476,
-            "end": 651,
             "argument": {
               "type": "NewExpression",
-              "start": 482,
-              "end": 650,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 486,
-                "end": 498,
-                "name": "Test262Error"
+                "end": 498
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 499,
-                  "end": 649,
                   "left": {
                     "type": "Literal",
-                    "start": 499,
-                    "end": 627,
                     "value": "#1: var __reg = new RegExp(\"abc\"); __reg.toUpperCase = String.prototype.toUpperCase; __reg.toUpperCase() === \"/ABC/\". Actual: ",
-                    "raw": "'#1: var __reg = new RegExp(\"abc\"); __reg.toUpperCase = String.prototype.toUpperCase; __reg.toUpperCase() === \"/ABC/\". Actual: '"
+                    "raw": "'#1: var __reg = new RegExp(\"abc\"); __reg.toUpperCase = String.prototype.toUpperCase; __reg.toUpperCase() === \"/ABC/\". Actual: '",
+                    "start": 499,
+                    "end": 627
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 630,
-                    "end": 649,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 630,
-                      "end": 647,
                       "object": {
                         "type": "Identifier",
+                        "name": "__reg",
                         "start": 630,
-                        "end": 635,
-                        "name": "__reg"
+                        "end": 635
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "toUpperCase",
                         "start": 636,
-                        "end": 647,
-                        "name": "toUpperCase"
+                        "end": 647
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 630,
+                      "end": 647
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 630,
+                    "end": 649
+                  },
+                  "start": 499,
+                  "end": 649
                 }
-              ]
-            }
+              ],
+              "start": 482,
+              "end": 650
+            },
+            "start": 476,
+            "end": 651
           }
-        ]
+        ],
+        "start": 472,
+        "end": 653
       },
-      "alternate": null
+      "alternate": null,
+      "start": 435,
+      "end": 653
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 736
 }

@@ -1,56 +1,54 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 869,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 850,
-      "end": 860,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 856,
-        "end": 857,
-        "name": "C"
+        "end": 857
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 858,
-        "end": 860,
-        "body": []
-      }
+        "end": 860
+      },
+      "start": 850,
+      "end": 860
     },
     {
       "type": "BlockStatement",
-      "start": 860,
-      "end": 867,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 861,
-          "end": 866,
           "label": {
             "type": "Identifier",
+            "name": "x",
             "start": 861,
-            "end": 862,
-            "name": "x"
+            "end": 862
           },
           "body": {
             "type": "ExpressionStatement",
-            "start": 864,
-            "end": 866,
             "expression": {
               "type": "Literal",
-              "start": 864,
-              "end": 866,
               "value": 42,
-              "raw": "42"
-            }
-          }
+              "raw": "42",
+              "start": 864,
+              "end": 866
+            },
+            "start": 864,
+            "end": 866
+          },
+          "start": 861,
+          "end": 866
         }
-      ]
+      ],
+      "start": 860,
+      "end": 867
     },
     {
       "type": "EmptyStatement",
@@ -59,5 +57,7 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 869
 }

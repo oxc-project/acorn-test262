@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 171,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 41,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 13,
         "decorators": [],
         "name": "MyBrand",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 13
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,32 +21,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 14,
-        "end": 41,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 20,
-            "end": 39,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 28,
-              "end": 30,
               "decorators": [],
               "name": "_a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 28,
+              "end": 30
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 30,
-              "end": 38,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 32,
                 "end": 38
-              }
+              },
+              "start": 30,
+              "end": 38
             },
             "value": null,
             "computed": false,
@@ -60,25 +52,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 20,
+            "end": 39
           }
-        ]
+        ],
+        "start": 14,
+        "end": 41
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 41
     },
     {
       "type": "FunctionDeclaration",
-      "start": 43,
-      "end": 171,
       "id": {
         "type": "Identifier",
-        "start": 52,
-        "end": 56,
         "decorators": [],
         "name": "test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 52,
+        "end": 56
       },
       "generator": false,
       "async": false,
@@ -87,19 +83,13 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 57,
-          "end": 83,
           "decorators": [],
           "name": "strInput",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 65,
-            "end": 83,
             "typeAnnotation": {
               "type": "TSIntersectionType",
-              "start": 67,
-              "end": 83,
               "types": [
                 {
                   "type": "TSStringKeyword",
@@ -108,90 +98,100 @@ __ESTREE_TEST__:PASS:
                 },
                 {
                   "type": "TSTypeReference",
-                  "start": 76,
-                  "end": 83,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 76,
-                    "end": 83,
                     "decorators": [],
                     "name": "MyBrand",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 76,
+                    "end": 83
                   },
-                  "typeArguments": null
+                  "typeArguments": null,
+                  "start": 76,
+                  "end": 83
                 }
-              ]
-            }
-          }
+              ],
+              "start": 67,
+              "end": 83
+            },
+            "start": 65,
+            "end": 83
+          },
+          "start": 57,
+          "end": 83
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 85,
-        "end": 171,
         "body": [
           {
             "type": "SwitchStatement",
-            "start": 91,
-            "end": 155,
             "discriminant": {
               "type": "Identifier",
-              "start": 98,
-              "end": 106,
               "decorators": [],
               "name": "strInput",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 98,
+              "end": 106
             },
             "cases": [
               {
                 "type": "SwitchCase",
-                "start": 122,
-                "end": 149,
                 "test": {
                   "type": "Literal",
-                  "start": 127,
-                  "end": 130,
                   "value": "a",
-                  "raw": "\"a\""
+                  "raw": "\"a\"",
+                  "start": 127,
+                  "end": 130
                 },
                 "consequent": [
                   {
                     "type": "ReturnStatement",
-                    "start": 140,
-                    "end": 149,
                     "argument": {
                       "type": "Literal",
-                      "start": 147,
-                      "end": 148,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 147,
+                      "end": 148
+                    },
+                    "start": 140,
+                    "end": 149
                   }
-                ]
+                ],
+                "start": 122,
+                "end": 149
               }
-            ]
+            ],
+            "start": 91,
+            "end": 155
           },
           {
             "type": "ReturnStatement",
-            "start": 160,
-            "end": 169,
             "argument": {
               "type": "Literal",
-              "start": 167,
-              "end": 168,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 167,
+              "end": 168
+            },
+            "start": 160,
+            "end": 169
           }
-        ]
+        ],
+        "start": 85,
+        "end": 171
       },
-      "expression": false
+      "expression": false,
+      "start": 43,
+      "end": 171
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 171
 }
 ```

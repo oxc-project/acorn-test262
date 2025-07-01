@@ -1,30 +1,30 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2080,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2054,
-      "end": 2079,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2069,
-        "end": 2078,
         "argument": {
           "type": "Literal",
-          "start": 2075,
-          "end": 2078,
           "value": null,
           "raw": "/1/",
           "regex": {
             "pattern": "1",
             "flags": ""
-          }
-        }
-      }
+          },
+          "start": 2075,
+          "end": 2078
+        },
+        "start": 2069,
+        "end": 2078
+      },
+      "start": 2054,
+      "end": 2079
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2080
 }

@@ -1,95 +1,95 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 596,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 535,
-      "end": 595,
       "expression": {
         "type": "CallExpression",
-        "start": 535,
-        "end": 594,
         "callee": {
           "type": "MemberExpression",
-          "start": 535,
-          "end": 548,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 535,
-            "end": 541,
-            "name": "assert"
+            "end": 541
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 542,
-            "end": 548,
-            "name": "throws"
+            "end": 548
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 535,
+          "end": 548
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 549,
-            "end": 558,
-            "name": "TypeError"
+            "end": 558
           },
           {
             "type": "FunctionExpression",
-            "start": 560,
-            "end": 593,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 571,
-              "end": 593,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 575,
-                  "end": 591,
                   "expression": {
                     "type": "UnaryExpression",
-                    "start": 575,
-                    "end": 590,
                     "operator": "delete",
                     "argument": {
                       "type": "MemberExpression",
-                      "start": 582,
-                      "end": 590,
                       "object": {
                         "type": "Identifier",
+                        "name": "Math",
                         "start": 582,
-                        "end": 586,
-                        "name": "Math"
+                        "end": 586
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "LN2",
                         "start": 587,
-                        "end": 590,
-                        "name": "LN2"
+                        "end": 590
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 582,
+                      "end": 590
                     },
-                    "prefix": true
-                  }
+                    "prefix": true,
+                    "start": 575,
+                    "end": 590
+                  },
+                  "start": 575,
+                  "end": 591
                 }
-              ]
+              ],
+              "start": 571,
+              "end": 593
             },
-            "expression": false
+            "expression": false,
+            "start": 560,
+            "end": 593
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 535,
+        "end": 594
+      },
+      "start": 535,
+      "end": 595
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 596
 }

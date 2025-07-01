@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 41,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 17,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 14,
         "decorators": [],
         "name": "CtorDtor",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 14
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,41 +21,41 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 15,
-        "end": 17,
-        "body": []
+        "end": 17
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "ClassDeclaration",
-      "start": 19,
-      "end": 41,
       "decorators": [
         {
           "type": "Decorator",
-          "start": 19,
-          "end": 28,
           "expression": {
             "type": "Identifier",
-            "start": 20,
-            "end": 28,
             "decorators": [],
             "name": "CtorDtor",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 20,
+            "end": 28
+          },
+          "start": 19,
+          "end": 28
         }
       ],
       "id": {
         "type": "Identifier",
-        "start": 35,
-        "end": 36,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 35,
+        "end": 36
       },
       "typeParameters": null,
       "superClass": null,
@@ -67,15 +63,19 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 37,
-        "end": 41,
-        "body": []
+        "end": 41
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 19,
+      "end": 41
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 41
 }
 ```

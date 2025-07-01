@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 499,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 239,
-      "end": 367,
       "expression": {
         "type": "CallExpression",
-        "start": 239,
-        "end": 366,
         "callee": {
           "type": "MemberExpression",
-          "start": 239,
-          "end": 255,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 239,
-            "end": 245,
-            "name": "assert"
+            "end": 245
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 246,
-            "end": 255,
-            "name": "sameValue"
+            "end": 255
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 239,
+          "end": 255
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 259,
-            "end": 291,
             "callee": {
               "type": "MemberExpression",
-              "start": 259,
-              "end": 285,
               "object": {
                 "type": "MemberExpression",
-                "start": 259,
-                "end": 280,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 259,
-                  "end": 274,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 259,
-                    "end": 264,
-                    "name": "Array"
+                    "end": 264
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 265,
-                    "end": 274,
-                    "name": "prototype"
+                    "end": 274
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 259,
+                  "end": 274
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "shift",
                   "start": 275,
-                  "end": 280,
-                  "name": "shift"
+                  "end": 280
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 259,
+                "end": 280
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 281,
-                "end": 285,
-                "name": "call"
+                "end": 285
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 259,
+              "end": 285
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 286,
-                "end": 290,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 286,
+                "end": 290
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 259,
+            "end": 291
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 295,
-            "end": 304,
-            "name": "undefined"
+            "end": 304
           },
           {
             "type": "Literal",
-            "start": 308,
-            "end": 364,
             "value": "Array.prototype.shift.call(true) must return undefined",
-            "raw": "'Array.prototype.shift.call(true) must return undefined'"
+            "raw": "'Array.prototype.shift.call(true) must return undefined'",
+            "start": 308,
+            "end": 364
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 239,
+        "end": 366
+      },
+      "start": 239,
+      "end": 367
     },
     {
       "type": "ExpressionStatement",
-      "start": 368,
-      "end": 498,
       "expression": {
         "type": "CallExpression",
-        "start": 368,
-        "end": 497,
         "callee": {
           "type": "MemberExpression",
-          "start": 368,
-          "end": 384,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 368,
-            "end": 374,
-            "name": "assert"
+            "end": 374
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 375,
-            "end": 384,
-            "name": "sameValue"
+            "end": 384
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 368,
+          "end": 384
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 388,
-            "end": 421,
             "callee": {
               "type": "MemberExpression",
-              "start": 388,
-              "end": 414,
               "object": {
                 "type": "MemberExpression",
-                "start": 388,
-                "end": 409,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 388,
-                  "end": 403,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 388,
-                    "end": 393,
-                    "name": "Array"
+                    "end": 393
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 394,
-                    "end": 403,
-                    "name": "prototype"
+                    "end": 403
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 388,
+                  "end": 403
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "shift",
                   "start": 404,
-                  "end": 409,
-                  "name": "shift"
+                  "end": 409
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 388,
+                "end": 409
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 410,
-                "end": 414,
-                "name": "call"
+                "end": 414
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 388,
+              "end": 414
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 415,
-                "end": 420,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 415,
+                "end": 420
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 388,
+            "end": 421
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 425,
-            "end": 434,
-            "name": "undefined"
+            "end": 434
           },
           {
             "type": "Literal",
-            "start": 438,
-            "end": 495,
             "value": "Array.prototype.shift.call(false) must return undefined",
-            "raw": "'Array.prototype.shift.call(false) must return undefined'"
+            "raw": "'Array.prototype.shift.call(false) must return undefined'",
+            "start": 438,
+            "end": 495
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 368,
+        "end": 497
+      },
+      "start": 368,
+      "end": 498
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 499
 }

@@ -2,180 +2,180 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 95,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 95,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 94,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 10,
-            "end": 94,
             "expression": false,
             "async": false,
             "typeParameters": {
               "type": "TSTypeParameterDeclaration",
-              "start": 10,
-              "end": 46,
               "params": [
                 {
                   "type": "TSTypeParameter",
-                  "start": 11,
-                  "end": 35,
                   "name": {
                     "type": "Identifier",
-                    "start": 11,
-                    "end": 21,
                     "decorators": [],
                     "name": "TFirstArgs",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 11,
+                    "end": 21
                   },
                   "constraint": {
                     "type": "TSArrayType",
-                    "start": 30,
-                    "end": 35,
                     "elementType": {
                       "type": "TSAnyKeyword",
                       "start": 30,
                       "end": 33
-                    }
+                    },
+                    "start": 30,
+                    "end": 35
                   },
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
+                  "const": false,
+                  "start": 11,
+                  "end": 35
                 },
                 {
                   "type": "TSTypeParameter",
-                  "start": 37,
-                  "end": 45,
                   "name": {
                     "type": "Identifier",
-                    "start": 37,
-                    "end": 45,
                     "decorators": [],
                     "name": "TLastArg",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 37,
+                    "end": 45
                   },
                   "constraint": null,
                   "default": null,
                   "in": false,
                   "out": false,
-                  "const": false
+                  "const": false,
+                  "start": 37,
+                  "end": 45
                 }
-              ]
+              ],
+              "start": 10,
+              "end": 46
             },
             "params": [
               {
                 "type": "RestElement",
-                "start": 47,
-                "end": 81,
                 "decorators": [],
                 "argument": {
                   "type": "Identifier",
-                  "start": 50,
-                  "end": 54,
                   "decorators": [],
                   "name": "args",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 50,
+                  "end": 54
                 },
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 54,
-                  "end": 81,
                   "typeAnnotation": {
                     "type": "TSTupleType",
-                    "start": 56,
-                    "end": 81,
                     "elementTypes": [
                       {
                         "type": "TSRestType",
-                        "start": 57,
-                        "end": 70,
                         "typeAnnotation": {
                           "type": "TSTypeReference",
-                          "start": 60,
-                          "end": 70,
                           "typeName": {
                             "type": "Identifier",
-                            "start": 60,
-                            "end": 70,
                             "decorators": [],
                             "name": "TFirstArgs",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 60,
+                            "end": 70
                           },
-                          "typeArguments": null
-                        }
+                          "typeArguments": null,
+                          "start": 60,
+                          "end": 70
+                        },
+                        "start": 57,
+                        "end": 70
                       },
                       {
                         "type": "TSTypeReference",
-                        "start": 72,
-                        "end": 80,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 72,
-                          "end": 80,
                           "decorators": [],
                           "name": "TLastArg",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 72,
+                          "end": 80
                         },
-                        "typeArguments": null
+                        "typeArguments": null,
+                        "start": 72,
+                        "end": 80
                       }
-                    ]
-                  }
+                    ],
+                    "start": 56,
+                    "end": 81
+                  },
+                  "start": 54,
+                  "end": 81
                 },
-                "value": null
+                "value": null,
+                "start": 47,
+                "end": 81
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 82,
-              "end": 88,
               "typeAnnotation": {
                 "type": "TSVoidKeyword",
                 "start": 84,
                 "end": 88
-              }
+              },
+              "start": 82,
+              "end": 88
             },
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 92,
-              "end": 94,
-              "body": []
+              "end": 94
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 10,
+            "end": 94
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 94
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 95
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 95
 }
 ```

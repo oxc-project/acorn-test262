@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 69,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -25,43 +21,35 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 11,
-          "end": 20,
           "decorators": [],
           "name": "arguments",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 11,
+          "end": 20
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 22,
-        "end": 69,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 28,
-            "end": 67,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 32,
-                "end": 66,
                 "id": {
                   "type": "Identifier",
-                  "start": 32,
-                  "end": 33,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 32,
+                  "end": 33
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
-                  "start": 36,
-                  "end": 66,
                   "expression": true,
                   "async": false,
                   "typeParameters": null,
@@ -69,49 +57,61 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "ArrowFunctionExpression",
-                    "start": 42,
-                    "end": 66,
                     "expression": true,
                     "async": false,
                     "typeParameters": null,
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 43,
-                        "end": 52,
                         "decorators": [],
                         "name": "arguments",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 43,
+                        "end": 52
                       }
                     ],
                     "returnType": null,
                     "body": {
                       "type": "Identifier",
-                      "start": 57,
-                      "end": 66,
                       "decorators": [],
                       "name": "arguments",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 57,
+                      "end": 66
                     },
                     "id": null,
-                    "generator": false
+                    "generator": false,
+                    "start": 42,
+                    "end": 66
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 36,
+                  "end": 66
                 },
-                "definite": false
+                "definite": false,
+                "start": 32,
+                "end": 66
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 28,
+            "end": 67
           }
-        ]
+        ],
+        "start": 22,
+        "end": 69
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 69
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```

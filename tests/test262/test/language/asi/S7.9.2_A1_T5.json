@@ -1,161 +1,161 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 493,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 378,
-      "end": 394,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 382,
-          "end": 385,
           "id": {
             "type": "Identifier",
+            "name": "a",
             "start": 382,
-            "end": 383,
-            "name": "a"
+            "end": 383
           },
           "init": {
             "type": "Literal",
-            "start": 384,
-            "end": 385,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 384,
+            "end": 385
+          },
+          "start": 382,
+          "end": 385
         },
         {
           "type": "VariableDeclarator",
-          "start": 386,
-          "end": 389,
           "id": {
             "type": "Identifier",
+            "name": "b",
             "start": 386,
-            "end": 387,
-            "name": "b"
+            "end": 387
           },
           "init": {
             "type": "Literal",
-            "start": 388,
-            "end": 389,
             "value": 2,
-            "raw": "2"
-          }
+            "raw": "2",
+            "start": 388,
+            "end": 389
+          },
+          "start": 386,
+          "end": 389
         },
         {
           "type": "VariableDeclarator",
-          "start": 390,
-          "end": 393,
           "id": {
             "type": "Identifier",
+            "name": "c",
             "start": 390,
-            "end": 391,
-            "name": "c"
+            "end": 391
           },
           "init": {
             "type": "Literal",
-            "start": 392,
-            "end": 393,
             "value": 3,
-            "raw": "3"
-          }
+            "raw": "3",
+            "start": 392,
+            "end": 393
+          },
+          "start": 390,
+          "end": 393
         }
-      ]
+      ],
+      "start": 378,
+      "end": 394
     },
     {
       "type": "ExpressionStatement",
-      "start": 395,
-      "end": 398,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 395,
-        "end": 398,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "a",
           "start": 395,
-          "end": 396,
-          "name": "a"
+          "end": 396
         },
         "right": {
           "type": "Identifier",
+          "name": "b",
           "start": 397,
-          "end": 398,
-          "name": "b"
-        }
-      }
+          "end": 398
+        },
+        "start": 395,
+        "end": 398
+      },
+      "start": 395,
+      "end": 398
     },
     {
       "type": "ExpressionStatement",
-      "start": 399,
-      "end": 402,
       "expression": {
         "type": "UpdateExpression",
-        "start": 399,
-        "end": 402,
         "operator": "++",
         "prefix": true,
         "argument": {
           "type": "Identifier",
+          "name": "c",
           "start": 401,
-          "end": 402,
-          "name": "c"
-        }
-      }
+          "end": 402
+        },
+        "start": 399,
+        "end": 402
+      },
+      "start": 399,
+      "end": 402
     },
     {
       "type": "IfStatement",
-      "start": 404,
-      "end": 492,
       "test": {
         "type": "BinaryExpression",
-        "start": 408,
-        "end": 413,
         "left": {
           "type": "Identifier",
+          "name": "a",
           "start": 408,
-          "end": 409,
-          "name": "a"
+          "end": 409
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "b",
           "start": 412,
-          "end": 413,
-          "name": "b"
-        }
+          "end": 413
+        },
+        "start": 408,
+        "end": 413
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 415,
-        "end": 492,
         "argument": {
           "type": "NewExpression",
-          "start": 421,
-          "end": 491,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 425,
-            "end": 437,
-            "name": "Test262Error"
+            "end": 437
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 438,
-              "end": 490,
               "value": "#1: Automatic semicolon insertion not work with ++",
-              "raw": "'#1: Automatic semicolon insertion not work with ++'"
+              "raw": "'#1: Automatic semicolon insertion not work with ++'",
+              "start": 438,
+              "end": 490
             }
-          ]
-        }
+          ],
+          "start": 421,
+          "end": 491
+        },
+        "start": 415,
+        "end": 492
       },
-      "alternate": null
+      "alternate": null,
+      "start": 404,
+      "end": 492
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 493
 }

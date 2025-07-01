@@ -1,220 +1,220 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 812,
   "body": [
     {
       "type": "IfStatement",
-      "start": 444,
-      "end": 729,
       "test": {
         "type": "BinaryExpression",
-        "start": 448,
-        "end": 534,
         "left": {
           "type": "CallExpression",
-          "start": 448,
-          "end": 514,
           "callee": {
             "type": "MemberExpression",
-            "start": 448,
-            "end": 496,
             "object": {
               "type": "CallExpression",
-              "start": 448,
-              "end": 488,
               "callee": {
                 "type": "FunctionExpression",
-                "start": 448,
-                "end": 486,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 459,
-                  "end": 486,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 465,
-                      "end": 482,
                       "argument": {
                         "type": "Literal",
-                        "start": 472,
-                        "end": 482,
                         "value": "gnulluna",
-                        "raw": "\"gnulluna\""
-                      }
+                        "raw": "\"gnulluna\"",
+                        "start": 472,
+                        "end": 482
+                      },
+                      "start": 465,
+                      "end": 482
                     }
-                  ]
+                  ],
+                  "start": 459,
+                  "end": 486
                 },
-                "expression": false
+                "expression": false,
+                "start": 448,
+                "end": 486
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 448,
+              "end": 488
             },
             "property": {
               "type": "Identifier",
+              "name": "replace",
               "start": 489,
-              "end": 496,
-              "name": "replace"
+              "end": 496
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 448,
+            "end": 496
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 497,
-              "end": 501,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "start": 497,
+              "end": 501
             },
             {
               "type": "CallExpression",
-              "start": 503,
-              "end": 513,
               "callee": {
                 "type": "Identifier",
+                "name": "Function",
                 "start": 503,
-                "end": 511,
-                "name": "Function"
+                "end": 511
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 503,
+              "end": 513
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 448,
+          "end": 514
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 519,
-          "end": 534,
           "value": "gundefineduna",
-          "raw": "\"gundefineduna\""
-        }
+          "raw": "\"gundefineduna\"",
+          "start": 519,
+          "end": 534
+        },
+        "start": 448,
+        "end": 534
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 536,
-        "end": 729,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 540,
-            "end": 727,
             "argument": {
               "type": "NewExpression",
-              "start": 546,
-              "end": 726,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 550,
-                "end": 562,
-                "name": "Test262Error"
+                "end": 562
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 563,
-                  "end": 725,
                   "left": {
                     "type": "Literal",
-                    "start": 563,
-                    "end": 656,
                     "value": "#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: ",
-                    "raw": "'#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: '"
+                    "raw": "'#1: function(){return \"gnulluna\"}().replace(null, Function()) === \"gundefineduna\". Actual: '",
+                    "start": 563,
+                    "end": 656
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 659,
-                    "end": 725,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 659,
-                      "end": 707,
                       "object": {
                         "type": "CallExpression",
-                        "start": 659,
-                        "end": 699,
                         "callee": {
                           "type": "FunctionExpression",
-                          "start": 659,
-                          "end": 697,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 670,
-                            "end": 697,
                             "body": [
                               {
                                 "type": "ReturnStatement",
-                                "start": 676,
-                                "end": 693,
                                 "argument": {
                                   "type": "Literal",
-                                  "start": 683,
-                                  "end": 693,
                                   "value": "gnulluna",
-                                  "raw": "\"gnulluna\""
-                                }
+                                  "raw": "\"gnulluna\"",
+                                  "start": 683,
+                                  "end": 693
+                                },
+                                "start": 676,
+                                "end": 693
                               }
-                            ]
+                            ],
+                            "start": 670,
+                            "end": 697
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 659,
+                          "end": 697
                         },
                         "arguments": [],
-                        "optional": false
+                        "optional": false,
+                        "start": 659,
+                        "end": 699
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "replace",
                         "start": 700,
-                        "end": 707,
-                        "name": "replace"
+                        "end": 707
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 659,
+                      "end": 707
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 708,
-                        "end": 712,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 708,
+                        "end": 712
                       },
                       {
                         "type": "CallExpression",
-                        "start": 714,
-                        "end": 724,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Function",
                           "start": 714,
-                          "end": 722,
-                          "name": "Function"
+                          "end": 722
                         },
                         "arguments": [],
-                        "optional": false
+                        "optional": false,
+                        "start": 714,
+                        "end": 724
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 659,
+                    "end": 725
+                  },
+                  "start": 563,
+                  "end": 725
                 }
-              ]
-            }
+              ],
+              "start": 546,
+              "end": 726
+            },
+            "start": 540,
+            "end": 727
           }
-        ]
+        ],
+        "start": 536,
+        "end": 729
       },
-      "alternate": null
+      "alternate": null,
+      "start": 444,
+      "end": 729
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 812
 }

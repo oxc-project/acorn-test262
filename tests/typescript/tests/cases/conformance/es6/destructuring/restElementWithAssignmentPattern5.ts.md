@@ -2,150 +2,150 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 26,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 13,
             "decorators": [],
             "name": "s",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 13,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 7,
                 "end": 13
-              }
-            }
+              },
+              "start": 5,
+              "end": 13
+            },
+            "start": 4,
+            "end": 13
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 13
         },
         {
           "type": "VariableDeclarator",
-          "start": 15,
-          "end": 25,
           "id": {
             "type": "Identifier",
-            "start": 15,
-            "end": 25,
             "decorators": [],
             "name": "s2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 17,
-              "end": 25,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 19,
                 "end": 25
-              }
-            }
+              },
+              "start": 17,
+              "end": 25
+            },
+            "start": 15,
+            "end": 25
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 15,
+          "end": 25
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ExpressionStatement",
-      "start": 27,
-      "end": 51,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 27,
-        "end": 50,
         "operator": "=",
         "left": {
           "type": "ArrayPattern",
-          "start": 27,
-          "end": 39,
           "decorators": [],
           "elements": [
             {
               "type": "RestElement",
-              "start": 28,
-              "end": 38,
               "decorators": [],
               "argument": {
                 "type": "ArrayPattern",
-                "start": 31,
-                "end": 38,
                 "decorators": [],
                 "elements": [
                   {
                     "type": "Identifier",
-                    "start": 32,
-                    "end": 33,
                     "decorators": [],
                     "name": "s",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 32,
+                    "end": 33
                   },
                   {
                     "type": "Identifier",
-                    "start": 35,
-                    "end": 37,
                     "decorators": [],
                     "name": "s2",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 35,
+                    "end": 37
                   }
                 ],
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 31,
+                "end": 38
               },
               "optional": false,
               "typeAnnotation": null,
-              "value": null
+              "value": null,
+              "start": 28,
+              "end": 38
             }
           ],
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 27,
+          "end": 39
         },
         "right": {
           "type": "ArrayExpression",
-          "start": 42,
-          "end": 50,
           "elements": [
             {
               "type": "Literal",
-              "start": 43,
-              "end": 45,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "start": 43,
+              "end": 45
             },
             {
               "type": "Literal",
-              "start": 47,
-              "end": 49,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "start": 47,
+              "end": 49
             }
-          ]
-        }
+          ],
+          "start": 42,
+          "end": 50
+        },
+        "start": 27,
+        "end": 50
       },
-      "directive": null
+      "directive": null,
+      "start": 27,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```

@@ -2,60 +2,60 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 17,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 17,
             "decorators": [],
             "name": "v",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 17,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 7,
-                "end": 17,
                 "elementType": {
                   "type": "TSTypeQuery",
-                  "start": 7,
-                  "end": 15,
                   "exprName": {
                     "type": "Identifier",
-                    "start": 14,
-                    "end": 15,
                     "decorators": [],
                     "name": "A",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 14,
+                    "end": 15
                   },
-                  "typeArguments": null
-                }
-              }
-            }
+                  "typeArguments": null,
+                  "start": 7,
+                  "end": 15
+                },
+                "start": 7,
+                "end": 17
+              },
+              "start": 5,
+              "end": 17
+            },
+            "start": 4,
+            "end": 17
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 17
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 17
 }
 ```

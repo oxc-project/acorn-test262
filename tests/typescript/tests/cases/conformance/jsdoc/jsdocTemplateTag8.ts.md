@@ -2,640 +2,636 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 116,
-  "end": 1056,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 116,
-      "end": 147,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 120,
-          "end": 146,
           "id": {
             "type": "Identifier",
-            "start": 120,
-            "end": 135,
             "decorators": [],
             "name": "super_covariant",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 120,
+            "end": 135
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 138,
-            "end": 146,
             "properties": [
               {
                 "type": "Property",
-                "start": 140,
-                "end": 144,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 140,
-                  "end": 141,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 140,
+                  "end": 141
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 143,
-                  "end": 144,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 143,
+                  "end": 144
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 140,
+                "end": 144
               }
-            ]
+            ],
+            "start": 138,
+            "end": 146
           },
-          "definite": false
+          "definite": false,
+          "start": 120,
+          "end": 146
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 116,
+      "end": 147
     },
     {
       "type": "VariableDeclaration",
-      "start": 186,
-      "end": 216,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 190,
-          "end": 215,
           "id": {
             "type": "Identifier",
-            "start": 190,
-            "end": 203,
             "decorators": [],
             "name": "sub_covariant",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 190,
+            "end": 203
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 206,
-            "end": 215,
             "properties": [
               {
                 "type": "Property",
-                "start": 208,
-                "end": 213,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 208,
-                  "end": 209,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 208,
+                  "end": 209
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 211,
-                  "end": 213,
                   "value": "",
-                  "raw": "''"
+                  "raw": "''",
+                  "start": 211,
+                  "end": 213
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 208,
+                "end": 213
               }
-            ]
+            ],
+            "start": 206,
+            "end": 215
           },
-          "definite": false
+          "definite": false,
+          "start": 190,
+          "end": 215
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 186,
+      "end": 216
     },
     {
       "type": "ExpressionStatement",
-      "start": 218,
-      "end": 250,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 218,
-        "end": 249,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "super_covariant",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 218,
-          "end": 233,
-          "decorators": [],
-          "name": "super_covariant",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 233
         },
         "right": {
           "type": "Identifier",
-          "start": 236,
-          "end": 249,
           "decorators": [],
           "name": "sub_covariant",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 236,
+          "end": 249
+        },
+        "start": 218,
+        "end": 249
       },
-      "directive": null
+      "directive": null,
+      "start": 218,
+      "end": 250
     },
     {
       "type": "ExpressionStatement",
-      "start": 251,
-      "end": 285,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 251,
-        "end": 284,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 251,
-          "end": 264,
           "decorators": [],
           "name": "sub_covariant",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 251,
+          "end": 264
         },
         "right": {
           "type": "Identifier",
-          "start": 269,
-          "end": 284,
           "decorators": [],
           "name": "super_covariant",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 269,
+          "end": 284
+        },
+        "start": 251,
+        "end": 284
       },
-      "directive": null
+      "directive": null,
+      "start": 251,
+      "end": 285
     },
     {
       "type": "VariableDeclaration",
-      "start": 432,
-      "end": 475,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 436,
-          "end": 474,
           "id": {
             "type": "Identifier",
-            "start": 436,
-            "end": 455,
             "decorators": [],
             "name": "super_contravariant",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 436,
+            "end": 455
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 458,
-            "end": 474,
             "properties": [
               {
                 "type": "Property",
-                "start": 460,
-                "end": 472,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 460,
-                  "end": 461,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 460,
+                  "end": 461
                 },
                 "value": {
                   "type": "ArrowFunctionExpression",
-                  "start": 463,
-                  "end": 472,
                   "expression": false,
                   "async": false,
                   "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 464,
-                      "end": 465,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 464,
+                      "end": 465
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 470,
-                    "end": 472,
-                    "body": []
+                    "end": 472
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 463,
+                  "end": 472
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 460,
+                "end": 472
               }
-            ]
+            ],
+            "start": 458,
+            "end": 474
           },
-          "definite": false
+          "definite": false,
+          "start": 436,
+          "end": 474
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 432,
+      "end": 475
     },
     {
       "type": "VariableDeclaration",
-      "start": 518,
-      "end": 559,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 522,
-          "end": 558,
           "id": {
             "type": "Identifier",
-            "start": 522,
-            "end": 539,
             "decorators": [],
             "name": "sub_contravariant",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 522,
+            "end": 539
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 542,
-            "end": 558,
             "properties": [
               {
                 "type": "Property",
-                "start": 544,
-                "end": 556,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 544,
-                  "end": 545,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 544,
+                  "end": 545
                 },
                 "value": {
                   "type": "ArrowFunctionExpression",
-                  "start": 547,
-                  "end": 556,
                   "expression": false,
                   "async": false,
                   "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 548,
-                      "end": 549,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 548,
+                      "end": 549
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 554,
-                    "end": 556,
-                    "body": []
+                    "end": 556
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 547,
+                  "end": 556
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 544,
+                "end": 556
               }
-            ]
+            ],
+            "start": 542,
+            "end": 558
           },
-          "definite": false
+          "definite": false,
+          "start": 522,
+          "end": 558
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 518,
+      "end": 559
     },
     {
       "type": "ExpressionStatement",
-      "start": 561,
-      "end": 601,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 561,
-        "end": 600,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "super_contravariant",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 561,
-          "end": 580,
-          "decorators": [],
-          "name": "super_contravariant",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 580
         },
         "right": {
           "type": "Identifier",
-          "start": 583,
-          "end": 600,
           "decorators": [],
           "name": "sub_contravariant",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 583,
+          "end": 600
+        },
+        "start": 561,
+        "end": 600
       },
-      "directive": null
+      "directive": null,
+      "start": 561,
+      "end": 601
     },
     {
       "type": "ExpressionStatement",
-      "start": 612,
-      "end": 652,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 612,
-        "end": 651,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 612,
-          "end": 629,
           "decorators": [],
           "name": "sub_contravariant",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 612,
+          "end": 629
         },
         "right": {
           "type": "Identifier",
-          "start": 632,
-          "end": 651,
           "decorators": [],
           "name": "super_contravariant",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 632,
+          "end": 651
+        },
+        "start": 612,
+        "end": 651
       },
-      "directive": null
+      "directive": null,
+      "start": 612,
+      "end": 652
     },
     {
       "type": "VariableDeclaration",
-      "start": 783,
-      "end": 822,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 787,
-          "end": 821,
           "id": {
             "type": "Identifier",
-            "start": 787,
-            "end": 802,
             "decorators": [],
             "name": "super_invariant",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 787,
+            "end": 802
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 805,
-            "end": 821,
             "properties": [
               {
                 "type": "Property",
-                "start": 807,
-                "end": 819,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 807,
-                  "end": 808,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 807,
+                  "end": 808
                 },
                 "value": {
                   "type": "ArrowFunctionExpression",
-                  "start": 810,
-                  "end": 819,
                   "expression": false,
                   "async": false,
                   "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 811,
-                      "end": 812,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 811,
+                      "end": 812
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 817,
-                    "end": 819,
-                    "body": []
+                    "end": 819
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 810,
+                  "end": 819
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 807,
+                "end": 819
               }
-            ]
+            ],
+            "start": 805,
+            "end": 821
           },
-          "definite": false
+          "definite": false,
+          "start": 787,
+          "end": 821
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 783,
+      "end": 822
     },
     {
       "type": "VariableDeclaration",
-      "start": 861,
-      "end": 909,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 865,
-          "end": 908,
           "id": {
             "type": "Identifier",
-            "start": 865,
-            "end": 878,
             "decorators": [],
             "name": "sub_invariant",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 865,
+            "end": 878
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 881,
-            "end": 908,
             "properties": [
               {
                 "type": "Property",
-                "start": 883,
-                "end": 906,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 883,
-                  "end": 884,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 883,
+                  "end": 884
                 },
                 "value": {
                   "type": "ArrowFunctionExpression",
-                  "start": 886,
-                  "end": 906,
                   "expression": false,
                   "async": false,
                   "typeParameters": null,
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 887,
-                      "end": 888,
                       "decorators": [],
                       "name": "x",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 887,
+                      "end": 888
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 893,
-                    "end": 906,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 895,
-                        "end": 904,
                         "argument": {
                           "type": "Literal",
-                          "start": 902,
-                          "end": 904,
                           "value": "",
-                          "raw": "\"\""
-                        }
+                          "raw": "\"\"",
+                          "start": 902,
+                          "end": 904
+                        },
+                        "start": 895,
+                        "end": 904
                       }
-                    ]
+                    ],
+                    "start": 893,
+                    "end": 906
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 886,
+                  "end": 906
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 883,
+                "end": 906
               }
-            ]
+            ],
+            "start": 881,
+            "end": 908
           },
-          "definite": false
+          "definite": false,
+          "start": 865,
+          "end": 908
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 861,
+      "end": 909
     },
     {
       "type": "ExpressionStatement",
-      "start": 911,
-      "end": 943,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 911,
-        "end": 942,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "super_invariant",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 911,
-          "end": 926,
-          "decorators": [],
-          "name": "super_invariant",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 926
         },
         "right": {
           "type": "Identifier",
-          "start": 929,
-          "end": 942,
           "decorators": [],
           "name": "sub_invariant",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 929,
+          "end": 942
+        },
+        "start": 911,
+        "end": 942
       },
-      "directive": null
+      "directive": null,
+      "start": 911,
+      "end": 943
     },
     {
       "type": "ExpressionStatement",
-      "start": 954,
-      "end": 986,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 954,
-        "end": 985,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 954,
-          "end": 967,
           "decorators": [],
           "name": "sub_invariant",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 954,
+          "end": 967
         },
         "right": {
           "type": "Identifier",
-          "start": 970,
-          "end": 985,
           "decorators": [],
           "name": "super_invariant",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 970,
+          "end": 985
+        },
+        "start": 954,
+        "end": 985
       },
-      "directive": null
+      "directive": null,
+      "start": 954,
+      "end": 986
     },
     {
       "type": "FunctionDeclaration",
-      "start": 1040,
-      "end": 1056,
       "id": {
         "type": "Identifier",
-        "start": 1049,
-        "end": 1050,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1049,
+        "end": 1050
       },
       "generator": false,
       "async": false,
@@ -644,25 +640,29 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 1051,
-          "end": 1052,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 1051,
+          "end": 1052
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1054,
-        "end": 1056,
-        "body": []
+        "end": 1056
       },
-      "expression": false
+      "expression": false,
+      "start": 1040,
+      "end": 1056
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 116,
+  "end": 1056
 }
 ```

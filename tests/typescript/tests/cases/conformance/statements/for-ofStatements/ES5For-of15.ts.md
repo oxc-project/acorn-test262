@@ -2,147 +2,147 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 79,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 79,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 5,
-        "end": 10,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 9,
-            "end": 10,
             "id": {
               "type": "Identifier",
-              "start": 9,
-              "end": 10,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 9,
+              "end": 10
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 9,
+            "end": 10
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 5,
+        "end": 10
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 14,
-        "end": 16,
-        "elements": []
+        "end": 16
       },
       "body": {
         "type": "BlockStatement",
-        "start": 18,
-        "end": 79,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 24,
-            "end": 26,
             "expression": {
               "type": "Identifier",
-              "start": 24,
-              "end": 25,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 24,
+              "end": 25
             },
-            "directive": null
+            "directive": null,
+            "start": 24,
+            "end": 26
           },
           {
             "type": "ForOfStatement",
-            "start": 31,
-            "end": 77,
             "await": false,
             "left": {
               "type": "VariableDeclaration",
-              "start": 36,
-              "end": 43,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 42,
-                  "end": 43,
                   "id": {
                     "type": "Identifier",
-                    "start": 42,
-                    "end": 43,
                     "decorators": [],
                     "name": "v",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 42,
+                    "end": 43
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 42,
+                  "end": 43
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 36,
+              "end": 43
             },
             "right": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 47,
-              "end": 49,
-              "elements": []
+              "end": 49
             },
             "body": {
               "type": "BlockStatement",
-              "start": 51,
-              "end": 77,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 61,
-                  "end": 71,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 65,
-                      "end": 70,
                       "id": {
                         "type": "Identifier",
-                        "start": 65,
-                        "end": 66,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 65,
+                        "end": 66
                       },
                       "init": {
                         "type": "Identifier",
-                        "start": 69,
-                        "end": 70,
                         "decorators": [],
                         "name": "v",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 69,
+                        "end": 70
                       },
-                      "definite": false
+                      "definite": false,
+                      "start": 65,
+                      "end": 70
                     }
                   ],
-                  "declare": false
+                  "declare": false,
+                  "start": 61,
+                  "end": 71
                 }
-              ]
-            }
+              ],
+              "start": 51,
+              "end": 77
+            },
+            "start": 31,
+            "end": 77
           }
-        ]
-      }
+        ],
+        "start": 18,
+        "end": 79
+      },
+      "start": 0,
+      "end": 79
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 79
 }
 ```

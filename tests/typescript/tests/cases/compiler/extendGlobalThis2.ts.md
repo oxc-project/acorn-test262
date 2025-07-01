@@ -2,43 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 72,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 72,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 20,
         "decorators": [],
         "name": "globalThis",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 20
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 21,
-        "end": 72,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 27,
-            "end": 70,
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 34,
-              "end": 70,
               "id": {
                 "type": "Identifier",
-                "start": 43,
-                "end": 46,
                 "decorators": [],
                 "name": "foo",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 43,
+                "end": 46
               },
               "generator": false,
               "async": false,
@@ -48,73 +38,83 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 49,
-                "end": 70,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 51,
-                    "end": 68,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 51,
-                      "end": 67,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 51,
-                        "end": 62,
                         "object": {
                           "type": "Identifier",
-                          "start": 51,
-                          "end": 58,
                           "decorators": [],
                           "name": "console",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 51,
+                          "end": 58
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 59,
-                          "end": 62,
                           "decorators": [],
                           "name": "log",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 59,
+                          "end": 62
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 51,
+                        "end": 62
                       },
                       "typeArguments": null,
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 63,
-                          "end": 66,
                           "value": "x",
-                          "raw": "\"x\""
+                          "raw": "\"x\"",
+                          "start": 63,
+                          "end": 66
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 51,
+                      "end": 67
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 51,
+                    "end": 68
                   }
-                ]
+                ],
+                "start": 49,
+                "end": 70
               },
-              "expression": false
+              "expression": false,
+              "start": 34,
+              "end": 70
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 27,
+            "end": 70
           }
-        ]
+        ],
+        "start": 21,
+        "end": 72
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 72
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 72
 }
 ```

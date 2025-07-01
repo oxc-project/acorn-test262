@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 67,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 19,
-      "end": 29,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 25,
-        "end": 26,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 25,
+        "end": 26
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,25 +21,25 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 27,
-        "end": 29,
-        "body": []
+        "end": 29
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 19,
+      "end": 29
     },
     {
       "type": "FunctionDeclaration",
-      "start": 51,
-      "end": 67,
       "id": {
         "type": "Identifier",
-        "start": 60,
-        "end": 61,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 60,
+        "end": 61
       },
       "generator": false,
       "async": false,
@@ -52,25 +48,29 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 62,
-          "end": 63,
           "decorators": [],
           "name": "p",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 62,
+          "end": 63
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 65,
-        "end": 67,
-        "body": []
+        "end": 67
       },
-      "expression": false
+      "expression": false,
+      "start": 51,
+      "end": 67
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 19,
+  "end": 67
 }
 ```

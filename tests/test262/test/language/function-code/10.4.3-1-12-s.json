@@ -1,107 +1,107 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 401,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 307,
-      "end": 400,
       "expression": {
         "type": "CallExpression",
-        "start": 307,
-        "end": 399,
         "callee": {
           "type": "MemberExpression",
-          "start": 307,
-          "end": 323,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 307,
-            "end": 313,
-            "name": "assert"
+            "end": 313
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 314,
-            "end": 323,
-            "name": "sameValue"
+            "end": 323
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 307,
+          "end": 323
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 324,
-            "end": 385,
             "callee": {
               "type": "ParenthesizedExpression",
-              "start": 324,
-              "end": 383,
               "expression": {
                 "type": "FunctionExpression",
-                "start": 325,
-                "end": 382,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 337,
-                  "end": 382,
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 343,
-                      "end": 356,
                       "expression": {
                         "type": "Literal",
-                        "start": 343,
-                        "end": 355,
                         "value": "use strict",
-                        "raw": "\"use strict\""
+                        "raw": "\"use strict\"",
+                        "start": 343,
+                        "end": 355
                       },
-                      "directive": "use strict"
+                      "directive": "use strict",
+                      "start": 343,
+                      "end": 356
                     },
                     {
                       "type": "ReturnStatement",
-                      "start": 361,
-                      "end": 380,
                       "argument": {
                         "type": "UnaryExpression",
-                        "start": 368,
-                        "end": 379,
                         "operator": "typeof",
                         "argument": {
                           "type": "ThisExpression",
                           "start": 375,
                           "end": 379
                         },
-                        "prefix": true
-                      }
+                        "prefix": true,
+                        "start": 368,
+                        "end": 379
+                      },
+                      "start": 361,
+                      "end": 380
                     }
-                  ]
+                  ],
+                  "start": 337,
+                  "end": 382
                 },
-                "expression": false
-              }
+                "expression": false,
+                "start": 325,
+                "end": 382
+              },
+              "start": 324,
+              "end": 383
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 324,
+            "end": 385
           },
           {
             "type": "Literal",
-            "start": 387,
-            "end": 398,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 387,
+            "end": 398
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 307,
+        "end": 399
+      },
+      "start": 307,
+      "end": 400
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 401
 }

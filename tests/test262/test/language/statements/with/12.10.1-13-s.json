@@ -1,39 +1,39 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 352,
   "body": [
     {
       "type": "WithStatement",
-      "start": 304,
-      "end": 351,
       "object": {
         "type": "ObjectExpression",
+        "properties": [],
         "start": 310,
-        "end": 312,
-        "properties": []
+        "end": 312
       },
       "body": {
         "type": "BlockStatement",
-        "start": 314,
-        "end": 351,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 328,
-            "end": 341,
             "expression": {
               "type": "Literal",
-              "start": 328,
-              "end": 340,
               "value": "use strict",
-              "raw": "\"use strict\""
-            }
+              "raw": "\"use strict\"",
+              "start": 328,
+              "end": 340
+            },
+            "start": 328,
+            "end": 341
           }
-        ]
-      }
+        ],
+        "start": 314,
+        "end": 351
+      },
+      "start": 304,
+      "end": 351
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 352
 }

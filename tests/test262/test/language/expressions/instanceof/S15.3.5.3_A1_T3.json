@@ -1,149 +1,149 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 690,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 381,
-      "end": 393,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 385,
-          "end": 392,
           "id": {
             "type": "Identifier",
+            "name": "FACTORY",
             "start": 385,
-            "end": 392,
-            "name": "FACTORY"
+            "end": 392
           },
-          "init": null
+          "init": null,
+          "start": 385,
+          "end": 392
         }
-      ]
+      ],
+      "start": 381,
+      "end": 393
     },
     {
       "type": "ExpressionStatement",
-      "start": 394,
-      "end": 439,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 394,
-        "end": 438,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "FACTORY",
           "start": 394,
-          "end": 401,
-          "name": "FACTORY"
+          "end": 401
         },
         "right": {
           "type": "CallExpression",
-          "start": 404,
-          "end": 438,
           "callee": {
             "type": "Identifier",
+            "name": "Function",
             "start": 404,
-            "end": 412,
-            "name": "Function"
+            "end": 412
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 413,
-              "end": 419,
               "value": "name",
-              "raw": "\"name\""
+              "raw": "\"name\"",
+              "start": 413,
+              "end": 419
             },
             {
               "type": "Literal",
-              "start": 420,
-              "end": 437,
               "value": "this.name=name;",
-              "raw": "\"this.name=name;\""
+              "raw": "\"this.name=name;\"",
+              "start": 420,
+              "end": 437
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 404,
+          "end": 438
+        },
+        "start": 394,
+        "end": 438
+      },
+      "start": 394,
+      "end": 439
     },
     {
       "type": "IfStatement",
-      "start": 451,
-      "end": 689,
       "test": {
         "type": "BinaryExpression",
-        "start": 455,
-        "end": 489,
         "left": {
           "type": "ParenthesizedExpression",
-          "start": 455,
-          "end": 481,
           "expression": {
             "type": "BinaryExpression",
-            "start": 456,
-            "end": 480,
             "left": {
               "type": "Literal",
-              "start": 456,
-              "end": 460,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "start": 456,
+              "end": 460
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "FACTORY",
               "start": 473,
-              "end": 480,
-              "name": "FACTORY"
-            }
-          }
+              "end": 480
+            },
+            "start": 456,
+            "end": 480
+          },
+          "start": 455,
+          "end": 481
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 484,
-          "end": 489,
           "value": false,
-          "raw": "false"
-        }
+          "raw": "false",
+          "start": 484,
+          "end": 489
+        },
+        "start": 455,
+        "end": 489
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 491,
-        "end": 689,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 495,
-            "end": 687,
             "argument": {
               "type": "NewExpression",
-              "start": 501,
-              "end": 686,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 505,
-                "end": 517,
-                "name": "Test262Error"
+                "end": 517
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 518,
-                  "end": 685,
                   "value": "#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false",
-                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'"
+                  "raw": "'#1: Assume F is a Function object. When the [[HasInstance]] method of F is called with value V, the following steps are taken: i) If V is not an object, return false'",
+                  "start": 518,
+                  "end": 685
                 }
-              ]
-            }
+              ],
+              "start": 501,
+              "end": 686
+            },
+            "start": 495,
+            "end": 687
           }
-        ]
+        ],
+        "start": 491,
+        "end": 689
       },
-      "alternate": null
+      "alternate": null,
+      "start": 451,
+      "end": 689
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 690
 }

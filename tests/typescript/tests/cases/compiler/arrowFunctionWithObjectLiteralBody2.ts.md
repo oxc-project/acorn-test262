@@ -2,51 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 25,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 25,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 8,
-            "end": 25,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 8,
-                "end": 9,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 8,
+                "end": 9
               }
             ],
             "returnType": null,
             "body": {
               "type": "TSTypeAssertion",
-              "start": 13,
-              "end": 25,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 14,
@@ -54,8 +44,6 @@ __ESTREE_TEST__:PASS:
               },
               "expression": {
                 "type": "TSTypeAssertion",
-                "start": 18,
-                "end": 25,
                 "typeAnnotation": {
                   "type": "TSAnyKeyword",
                   "start": 19,
@@ -63,22 +51,34 @@ __ESTREE_TEST__:PASS:
                 },
                 "expression": {
                   "type": "ObjectExpression",
+                  "properties": [],
                   "start": 23,
-                  "end": 25,
-                  "properties": []
-                }
-              }
+                  "end": 25
+                },
+                "start": 18,
+                "end": 25
+              },
+              "start": 13,
+              "end": 25
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 8,
+            "end": 25
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 25
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 25
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 25
 }
 ```

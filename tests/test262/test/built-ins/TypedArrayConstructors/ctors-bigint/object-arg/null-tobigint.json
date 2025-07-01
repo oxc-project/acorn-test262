@@ -1,146 +1,146 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2241,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 2086,
-      "end": 2240,
       "expression": {
         "type": "CallExpression",
-        "start": 2086,
-        "end": 2239,
         "callee": {
           "type": "Identifier",
+          "name": "testWithBigIntTypedArrayConstructors",
           "start": 2086,
-          "end": 2122,
-          "name": "testWithBigIntTypedArrayConstructors"
+          "end": 2122
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 2123,
-            "end": 2238,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "TA",
                 "start": 2132,
-                "end": 2134,
-                "name": "TA"
+                "end": 2134
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 2136,
-              "end": 2238,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2141,
-                  "end": 2235,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2141,
-                    "end": 2234,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 2141,
-                      "end": 2154,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 2141,
-                        "end": 2147,
-                        "name": "assert"
+                        "end": 2147
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "throws",
                         "start": 2148,
-                        "end": 2154,
-                        "name": "throws"
+                        "end": 2154
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 2141,
+                      "end": 2154
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "TypeError",
                         "start": 2155,
-                        "end": 2164,
-                        "name": "TypeError"
+                        "end": 2164
                       },
                       {
                         "type": "FunctionExpression",
-                        "start": 2166,
-                        "end": 2202,
                         "id": null,
                         "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 2177,
-                          "end": 2202,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 2183,
-                              "end": 2198,
                               "expression": {
                                 "type": "NewExpression",
-                                "start": 2183,
-                                "end": 2197,
                                 "callee": {
                                   "type": "Identifier",
+                                  "name": "TA",
                                   "start": 2187,
-                                  "end": 2189,
-                                  "name": "TA"
+                                  "end": 2189
                                 },
                                 "arguments": [
                                   {
                                     "type": "ArrayExpression",
-                                    "start": 2190,
-                                    "end": 2196,
                                     "elements": [
                                       {
                                         "type": "Literal",
-                                        "start": 2191,
-                                        "end": 2195,
                                         "value": null,
-                                        "raw": "null"
+                                        "raw": "null",
+                                        "start": 2191,
+                                        "end": 2195
                                       }
-                                    ]
+                                    ],
+                                    "start": 2190,
+                                    "end": 2196
                                   }
-                                ]
-                              }
+                                ],
+                                "start": 2183,
+                                "end": 2197
+                              },
+                              "start": 2183,
+                              "end": 2198
                             }
-                          ]
+                          ],
+                          "start": 2177,
+                          "end": 2202
                         },
-                        "expression": false
+                        "expression": false,
+                        "start": 2166,
+                        "end": 2202
                       },
                       {
                         "type": "Literal",
-                        "start": 2204,
-                        "end": 2233,
                         "value": "abrupt completion from Null",
-                        "raw": "\"abrupt completion from Null\""
+                        "raw": "\"abrupt completion from Null\"",
+                        "start": 2204,
+                        "end": 2233
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2141,
+                    "end": 2234
+                  },
+                  "start": 2141,
+                  "end": 2235
                 }
-              ]
+              ],
+              "start": 2136,
+              "end": 2238
             },
-            "expression": false
+            "expression": false,
+            "start": 2123,
+            "end": 2238
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2086,
+        "end": 2239
+      },
+      "start": 2086,
+      "end": 2240
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2241
 }

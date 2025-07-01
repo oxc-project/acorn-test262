@@ -2,168 +2,168 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 69,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 39,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 16,
         "decorators": [],
         "name": "EnumExample",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 16
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 17,
-        "end": 39,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 23,
-            "end": 36,
             "id": {
               "type": "Identifier",
-              "start": 23,
-              "end": 27,
               "decorators": [],
               "name": "TEST",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 23,
+              "end": 27
             },
             "initializer": {
               "type": "Literal",
-              "start": 30,
-              "end": 36,
               "value": "TEST",
-              "raw": "'TEST'"
+              "raw": "'TEST'",
+              "start": 30,
+              "end": 36
             },
-            "computed": false
+            "computed": false,
+            "start": 23,
+            "end": 36
           }
-        ]
+        ],
+        "start": 17,
+        "end": 39
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 39
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 41,
-      "end": 68,
       "declaration": {
         "type": "Identifier",
-        "start": 56,
-        "end": 67,
         "decorators": [],
         "name": "EnumExample",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 56,
+        "end": 67
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 41,
+      "end": 68
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 69
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 89,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 40,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 7,
-          "end": 18,
           "local": {
             "type": "Identifier",
-            "start": 7,
-            "end": 18,
             "decorators": [],
             "name": "EnumExample",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 7,
+            "end": 18
+          },
+          "start": 7,
+          "end": 18
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 24,
-        "end": 39,
         "value": "./EnumExample",
-        "raw": "'./EnumExample'"
+        "raw": "'./EnumExample'",
+        "start": 24,
+        "end": 39
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 40
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 42,
-      "end": 89,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 57,
-        "end": 88,
         "properties": [
           {
             "type": "Property",
-            "start": 63,
-            "end": 85,
             "kind": "init",
             "key": {
               "type": "MemberExpression",
-              "start": 64,
-              "end": 80,
               "object": {
                 "type": "Identifier",
-                "start": 64,
-                "end": 75,
                 "decorators": [],
                 "name": "EnumExample",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 64,
+                "end": 75
               },
               "property": {
                 "type": "Identifier",
-                "start": 76,
-                "end": 80,
                 "decorators": [],
                 "name": "TEST",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 76,
+                "end": 80
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 64,
+              "end": 80
             },
             "value": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 83,
-              "end": 85,
-              "properties": []
+              "end": 85
             },
             "method": false,
             "shorthand": false,
             "computed": true,
-            "optional": false
+            "optional": false,
+            "start": 63,
+            "end": 85
           }
-        ]
+        ],
+        "start": 57,
+        "end": 88
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 42,
+      "end": 89
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 89
 }
 ```

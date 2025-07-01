@@ -2,89 +2,89 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 49,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 49,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 48,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 23,
             "decorators": [],
             "name": "autoToken",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 23,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 15,
-                "end": 23,
                 "elementType": {
                   "type": "TSNumberKeyword",
                   "start": 15,
                   "end": 21
-                }
-              }
-            }
+                },
+                "start": 15,
+                "end": 23
+              },
+              "start": 13,
+              "end": 23
+            },
+            "start": 4,
+            "end": 23
           },
           "init": {
             "type": "NewExpression",
-            "start": 26,
-            "end": 48,
             "callee": {
               "type": "Identifier",
-              "start": 30,
-              "end": 35,
               "decorators": [],
               "name": "Array",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 30,
+              "end": 35
             },
             "typeArguments": {
               "type": "TSTypeParameterInstantiation",
-              "start": 35,
-              "end": 45,
               "params": [
                 {
                   "type": "TSArrayType",
-                  "start": 36,
-                  "end": 44,
                   "elementType": {
                     "type": "TSNumberKeyword",
                     "start": 36,
                     "end": 42
-                  }
+                  },
+                  "start": 36,
+                  "end": 44
                 }
-              ]
+              ],
+              "start": 35,
+              "end": 45
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 46,
-                "end": 47,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 46,
+                "end": 47
               }
-            ]
+            ],
+            "start": 26,
+            "end": 48
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 48
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 49
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 49
 }
 ```

@@ -2,22 +2,14 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 19,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 19,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 19,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 15,
           "object": {
             "type": "ThisExpression",
             "start": 0,
@@ -25,39 +17,47 @@ __ESTREE_TEST__:PASS:
           },
           "property": {
             "type": "BinaryExpression",
-            "start": 5,
-            "end": 14,
             "left": {
               "type": "Literal",
-              "start": 5,
-              "end": 8,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "start": 5,
+              "end": 8
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 11,
-              "end": 14,
               "value": "b",
-              "raw": "\"b\""
-            }
+              "raw": "\"b\"",
+              "start": 11,
+              "end": 14
+            },
+            "start": 5,
+            "end": 14
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 0,
+          "end": 15
         },
         "right": {
           "type": "Literal",
-          "start": 18,
-          "end": 19,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 18,
+          "end": 19
+        },
+        "start": 0,
+        "end": 19
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 19
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 19
 }
 ```

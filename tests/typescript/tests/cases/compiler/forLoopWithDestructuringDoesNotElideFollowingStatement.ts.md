@@ -2,210 +2,210 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 26,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 26,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "name": "array",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 9
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 12,
-            "end": 26,
             "elements": [
               {
                 "type": "ObjectExpression",
-                "start": 13,
-                "end": 25,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 14,
-                    "end": 18,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 14,
-                      "end": 15,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 14,
+                      "end": 15
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 17,
-                      "end": 18,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "start": 17,
+                      "end": 18
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 14,
+                    "end": 18
                   },
                   {
                     "type": "Property",
-                    "start": 20,
-                    "end": 24,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 20,
-                      "end": 21,
                       "decorators": [],
                       "name": "b",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 20,
+                      "end": 21
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 23,
-                      "end": 24,
                       "value": 1,
-                      "raw": "1"
+                      "raw": "1",
+                      "start": 23,
+                      "end": 24
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 20,
+                    "end": 24
                   }
-                ]
+                ],
+                "start": 13,
+                "end": 25
               }
-            ]
+            ],
+            "start": 12,
+            "end": 26
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 26
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 26
     },
     {
       "type": "ForOfStatement",
-      "start": 27,
-      "end": 71,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 32,
-        "end": 50,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 36,
-            "end": 50,
             "id": {
               "type": "ObjectPattern",
-              "start": 36,
-              "end": 50,
               "decorators": [],
               "properties": [
                 {
                   "type": "Property",
-                  "start": 38,
-                  "end": 39,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 38,
-                    "end": 39,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 38,
+                    "end": 39
                   },
                   "value": {
                     "type": "Identifier",
-                    "start": 38,
-                    "end": 39,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 38,
+                    "end": 39
                   },
                   "method": false,
                   "shorthand": true,
                   "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "start": 38,
+                  "end": 39
                 },
                 {
                   "type": "RestElement",
-                  "start": 41,
-                  "end": 48,
                   "decorators": [],
                   "argument": {
                     "type": "Identifier",
-                    "start": 44,
-                    "end": 48,
                     "decorators": [],
                     "name": "rest",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 44,
+                    "end": 48
                   },
                   "optional": false,
                   "typeAnnotation": null,
-                  "value": null
+                  "value": null,
+                  "start": 41,
+                  "end": 48
                 }
               ],
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 50
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 36,
+            "end": 50
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 32,
+        "end": 50
       },
       "right": {
         "type": "Identifier",
-        "start": 54,
-        "end": 59,
         "decorators": [],
         "name": "array",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 54,
+        "end": 59
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 65,
-        "end": 71,
         "expression": {
           "type": "UnaryExpression",
-          "start": 65,
-          "end": 71,
           "operator": "void",
           "argument": {
             "type": "Identifier",
-            "start": 70,
-            "end": 71,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 70,
+            "end": 71
           },
-          "prefix": true
+          "prefix": true,
+          "start": 65,
+          "end": 71
         },
-        "directive": null
-      }
+        "directive": null,
+        "start": 65,
+        "end": 71
+      },
+      "start": 27,
+      "end": 71
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 71
 }
 ```

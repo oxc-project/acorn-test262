@@ -2,41 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 105,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 39,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 39,
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 18,
-            "end": 37,
             "key": {
               "type": "Identifier",
-              "start": 18,
-              "end": 21,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 18,
+              "end": 21
             },
             "computed": false,
             "optional": false,
@@ -45,45 +37,49 @@ __ESTREE_TEST__:PASS:
             "params": [
               {
                 "type": "Identifier",
-                "start": 22,
-                "end": 35,
                 "decorators": [],
                 "name": "value",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 27,
-                  "end": 35,
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
                     "start": 29,
                     "end": 35
-                  }
-                }
+                  },
+                  "start": 27,
+                  "end": 35
+                },
+                "start": 22,
+                "end": 35
               }
             ],
             "returnType": null,
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 18,
+            "end": 37
           }
-        ]
+        ],
+        "start": 12,
+        "end": 39
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 39
     },
     {
       "type": "ClassDeclaration",
-      "start": 41,
-      "end": 105,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 47,
-        "end": 50,
         "decorators": [],
         "name": "Bug",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 47,
+        "end": 50
       },
       "typeParameters": null,
       "superClass": null,
@@ -91,43 +87,37 @@ __ESTREE_TEST__:PASS:
       "implements": [
         {
           "type": "TSClassImplements",
-          "start": 62,
-          "end": 63,
           "expression": {
             "type": "Identifier",
-            "start": 62,
-            "end": 63,
             "decorators": [],
             "name": "I",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 62,
+            "end": 63
           },
-          "typeArguments": null
+          "typeArguments": null,
+          "start": 62,
+          "end": 63
         }
       ],
       "body": {
         "type": "ClassBody",
-        "start": 64,
-        "end": 105,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 70,
-            "end": 103,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 77,
-              "end": 80,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 77,
+              "end": 80
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 80,
-              "end": 103,
               "id": null,
               "generator": false,
               "async": false,
@@ -136,46 +126,56 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 81,
-                  "end": 94,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 86,
-                    "end": 94,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 88,
                       "end": 94
-                    }
-                  }
+                    },
+                    "start": 86,
+                    "end": 94
+                  },
+                  "start": 81,
+                  "end": 94
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 96,
-                "end": 103,
-                "body": []
+                "end": 103
               },
-              "expression": false
+              "expression": false,
+              "start": 80,
+              "end": 103
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 70,
+            "end": 103
           }
-        ]
+        ],
+        "start": 64,
+        "end": 105
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 41,
+      "end": 105
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 105
 }
 ```

@@ -1,93 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 755,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 602,
-      "end": 754,
       "expression": {
         "type": "CallExpression",
-        "start": 602,
-        "end": 753,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 602,
-          "end": 610,
           "expression": {
             "type": "SequenceExpression",
-            "start": 603,
-            "end": 609,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 603,
-                "end": 604,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 603,
+                "end": 604
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 605,
-                "end": 609,
-                "name": "eval"
+                "end": 609
               }
-            ]
-          }
+            ],
+            "start": 603,
+            "end": 609
+          },
+          "start": 602,
+          "end": 610
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 614,
-            "end": 751,
             "left": {
               "type": "BinaryExpression",
-              "start": 614,
-              "end": 739,
               "left": {
                 "type": "BinaryExpression",
-                "start": 614,
-                "end": 711,
                 "left": {
                   "type": "Literal",
-                  "start": 614,
-                  "end": 694,
                   "value": "assert.sameValue(f, undefined);    {    function f() {}  }switch (1) {",
-                  "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }switch (1) {'"
+                  "raw": "'assert.sameValue(f, undefined);\\\n  \\\n  {\\\n    function f() {}\\\n  }switch (1) {'",
+                  "start": 614,
+                  "end": 694
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 699,
-                  "end": 711,
                   "value": "  default:",
-                  "raw": "'  default:'"
-                }
+                  "raw": "'  default:'",
+                  "start": 699,
+                  "end": 711
+                },
+                "start": 614,
+                "end": 711
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 716,
-                "end": 739,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
-              }
+                "raw": "'    function f() {  }'",
+                "start": 716,
+                "end": 739
+              },
+              "start": 614,
+              "end": 739
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 744,
-              "end": 751,
               "value": "}  ",
-              "raw": "'}\\\n  '"
-            }
+              "raw": "'}\\\n  '",
+              "start": 744,
+              "end": 751
+            },
+            "start": 614,
+            "end": 751
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 602,
+        "end": 753
+      },
+      "start": 602,
+      "end": 754
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 755
 }

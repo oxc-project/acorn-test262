@@ -1,33 +1,33 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 560,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 534,
-      "end": 559,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "S",
         "start": 540,
-        "end": 541,
-        "name": "S"
+        "end": 541
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Symbol",
         "start": 550,
-        "end": 556,
-        "name": "Symbol"
+        "end": 556
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 557,
-        "end": 559,
-        "body": []
-      }
+        "end": 559
+      },
+      "start": 534,
+      "end": 559
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 560
 }

@@ -1,85 +1,85 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 901,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 847,
-      "end": 900,
       "expression": {
         "type": "CallExpression",
-        "start": 847,
-        "end": 899,
         "callee": {
           "type": "MemberExpression",
-          "start": 847,
-          "end": 863,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 847,
-            "end": 853,
-            "name": "assert"
+            "end": 853
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 854,
-            "end": 863,
-            "name": "sameValue"
+            "end": 863
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 847,
+          "end": 863
         },
         "arguments": [
           {
             "type": "ConditionalExpression",
-            "start": 864,
-            "end": 895,
             "test": {
               "type": "MemberExpression",
-              "start": 864,
-              "end": 878,
               "object": {
                 "type": "Identifier",
+                "name": "$262",
                 "start": 864,
-                "end": 868,
-                "name": "$262"
+                "end": 868
               },
               "property": {
                 "type": "Identifier",
+                "name": "IsHTMLDDA",
                 "start": 869,
-                "end": 878,
-                "name": "IsHTMLDDA"
+                "end": 878
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 864,
+              "end": 878
             },
             "consequent": {
               "type": "Identifier",
+              "name": "unresolved",
               "start": 881,
-              "end": 891,
-              "name": "unresolved"
+              "end": 891
             },
             "alternate": {
               "type": "Literal",
-              "start": 894,
-              "end": 895,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 894,
+              "end": 895
+            },
+            "start": 864,
+            "end": 895
           },
           {
             "type": "Literal",
-            "start": 897,
-            "end": 898,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 897,
+            "end": 898
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 847,
+        "end": 899
+      },
+      "start": 847,
+      "end": 900
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 901
 }

@@ -1,290 +1,290 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 532,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 283,
-      "end": 334,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 289,
-          "end": 333,
           "id": {
             "type": "Identifier",
+            "name": "jun13",
             "start": 289,
-            "end": 294,
-            "name": "jun13"
+            "end": 294
           },
           "init": {
             "type": "NewExpression",
-            "start": 297,
-            "end": 333,
             "callee": {
               "type": "MemberExpression",
-              "start": 301,
-              "end": 324,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 301,
-                "end": 309,
-                "name": "Temporal"
+                "end": 309
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainYearMonth",
                 "start": 310,
-                "end": 324,
-                "name": "PlainYearMonth"
+                "end": 324
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 301,
+              "end": 324
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 325,
-                "end": 329,
                 "value": 2013,
-                "raw": "2013"
+                "raw": "2013",
+                "start": 325,
+                "end": 329
               },
               {
                 "type": "Literal",
-                "start": 331,
-                "end": 332,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "start": 331,
+                "end": 332
               }
-            ]
-          }
+            ],
+            "start": 297,
+            "end": 333
+          },
+          "start": 289,
+          "end": 333
         }
-      ]
+      ],
+      "start": 283,
+      "end": 334
     },
     {
       "type": "ExpressionStatement",
-      "start": 336,
-      "end": 434,
       "expression": {
         "type": "CallExpression",
-        "start": 336,
-        "end": 433,
         "callee": {
           "type": "MemberExpression",
-          "start": 336,
-          "end": 349,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 336,
-            "end": 342,
-            "name": "assert"
+            "end": 342
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 343,
-            "end": 349,
-            "name": "throws"
+            "end": 349
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 336,
+          "end": 349
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 350,
-            "end": 359,
-            "name": "TypeError"
+            "end": 359
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 361,
-            "end": 394,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 367,
-              "end": 394,
               "callee": {
                 "type": "MemberExpression",
-                "start": 367,
-                "end": 378,
                 "object": {
                   "type": "Identifier",
+                  "name": "jun13",
                   "start": 367,
-                  "end": 372,
-                  "name": "jun13"
+                  "end": 372
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "since",
                   "start": 373,
-                  "end": 378,
-                  "name": "since"
+                  "end": 378
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 367,
+                "end": 378
               },
               "arguments": [
                 {
                   "type": "ObjectExpression",
-                  "start": 379,
-                  "end": 393,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 381,
-                      "end": 391,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "year",
                         "start": 381,
-                        "end": 385,
-                        "name": "year"
+                        "end": 385
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 387,
-                        "end": 391,
                         "value": 1994,
-                        "raw": "1994"
+                        "raw": "1994",
+                        "start": 387,
+                        "end": 391
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 381,
+                      "end": 391
                     }
-                  ]
+                  ],
+                  "start": 379,
+                  "end": 393
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 367,
+              "end": 394
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 361,
+            "end": 394
           },
           {
             "type": "Literal",
-            "start": 396,
-            "end": 432,
             "value": "Throws when missing required month",
-            "raw": "'Throws when missing required month'"
+            "raw": "'Throws when missing required month'",
+            "start": 396,
+            "end": 432
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 336,
+        "end": 433
+      },
+      "start": 336,
+      "end": 434
     },
     {
       "type": "ExpressionStatement",
-      "start": 435,
-      "end": 531,
       "expression": {
         "type": "CallExpression",
-        "start": 435,
-        "end": 530,
         "callee": {
           "type": "MemberExpression",
-          "start": 435,
-          "end": 448,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 435,
-            "end": 441,
-            "name": "assert"
+            "end": 441
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 442,
-            "end": 448,
-            "name": "throws"
+            "end": 448
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 435,
+          "end": 448
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 449,
-            "end": 458,
-            "name": "TypeError"
+            "end": 458
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 460,
-            "end": 492,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 466,
-              "end": 492,
               "callee": {
                 "type": "MemberExpression",
-                "start": 466,
-                "end": 477,
                 "object": {
                   "type": "Identifier",
+                  "name": "jun13",
                   "start": 466,
-                  "end": 471,
-                  "name": "jun13"
+                  "end": 471
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "since",
                   "start": 472,
-                  "end": 477,
-                  "name": "since"
+                  "end": 477
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 466,
+                "end": 477
               },
               "arguments": [
                 {
                   "type": "ObjectExpression",
-                  "start": 478,
-                  "end": 491,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 480,
-                      "end": 489,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "month",
                         "start": 480,
-                        "end": 485,
-                        "name": "month"
+                        "end": 485
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 487,
-                        "end": 489,
                         "value": 11,
-                        "raw": "11"
+                        "raw": "11",
+                        "start": 487,
+                        "end": 489
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 480,
+                      "end": 489
                     }
-                  ]
+                  ],
+                  "start": 478,
+                  "end": 491
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 466,
+              "end": 492
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 460,
+            "end": 492
           },
           {
             "type": "Literal",
-            "start": 494,
-            "end": 529,
             "value": "Throws when missing required year",
-            "raw": "'Throws when missing required year'"
+            "raw": "'Throws when missing required year'",
+            "start": 494,
+            "end": 529
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 435,
+        "end": 530
+      },
+      "start": 435,
+      "end": 531
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 532
 }

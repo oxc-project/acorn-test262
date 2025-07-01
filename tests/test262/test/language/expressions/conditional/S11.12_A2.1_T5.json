@@ -1,119 +1,119 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 416,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 288,
-      "end": 309,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 292,
-          "end": 308,
           "id": {
             "type": "Identifier",
+            "name": "y",
             "start": 292,
-            "end": 293,
-            "name": "y"
+            "end": 293
           },
           "init": {
             "type": "NewExpression",
-            "start": 296,
-            "end": 308,
             "callee": {
               "type": "Identifier",
+              "name": "Object",
               "start": 300,
-              "end": 306,
-              "name": "Object"
+              "end": 306
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 296,
+            "end": 308
+          },
+          "start": 292,
+          "end": 308
         }
-      ]
+      ],
+      "start": 288,
+      "end": 309
     },
     {
       "type": "IfStatement",
-      "start": 310,
-      "end": 415,
       "test": {
         "type": "BinaryExpression",
-        "start": 314,
-        "end": 334,
         "left": {
           "type": "ParenthesizedExpression",
-          "start": 314,
-          "end": 328,
           "expression": {
             "type": "ConditionalExpression",
-            "start": 315,
-            "end": 327,
             "test": {
               "type": "Literal",
-              "start": 315,
-              "end": 319,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "start": 315,
+              "end": 319
             },
             "consequent": {
               "type": "Identifier",
+              "name": "y",
               "start": 322,
-              "end": 323,
-              "name": "y"
+              "end": 323
             },
             "alternate": {
               "type": "Identifier",
+              "name": "z",
               "start": 326,
-              "end": 327,
-              "name": "z"
-            }
-          }
+              "end": 327
+            },
+            "start": 315,
+            "end": 327
+          },
+          "start": 314,
+          "end": 328
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "y",
           "start": 333,
-          "end": 334,
-          "name": "y"
-        }
+          "end": 334
+        },
+        "start": 314,
+        "end": 334
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 336,
-        "end": 415,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 340,
-            "end": 413,
             "argument": {
               "type": "NewExpression",
-              "start": 346,
-              "end": 412,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 350,
-                "end": 362,
-                "name": "Test262Error"
+                "end": 362
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 363,
-                  "end": 411,
                   "value": "#1: var y = new Object(); (true ? y : z) === y",
-                  "raw": "'#1: var y = new Object(); (true ? y : z) === y'"
+                  "raw": "'#1: var y = new Object(); (true ? y : z) === y'",
+                  "start": 363,
+                  "end": 411
                 }
-              ]
-            }
+              ],
+              "start": 346,
+              "end": 412
+            },
+            "start": 340,
+            "end": 413
           }
-        ]
+        ],
+        "start": 336,
+        "end": 415
       },
-      "alternate": null
+      "alternate": null,
+      "start": 310,
+      "end": 415
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 416
 }

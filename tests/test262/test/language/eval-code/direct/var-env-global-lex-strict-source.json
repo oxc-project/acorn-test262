@@ -1,55 +1,55 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 367,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 329,
-      "end": 335,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 333,
-          "end": 334,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 333,
-            "end": 334,
-            "name": "x"
+            "end": 334
           },
-          "init": null
+          "init": null,
+          "start": 333,
+          "end": 334
         }
-      ]
+      ],
+      "start": 329,
+      "end": 335
     },
     {
       "type": "ExpressionStatement",
-      "start": 337,
-      "end": 366,
       "expression": {
         "type": "CallExpression",
-        "start": 337,
-        "end": 365,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 337,
-          "end": 341,
-          "name": "eval"
+          "end": 341
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 342,
-            "end": 364,
             "value": "\"use strict\"; var x;",
-            "raw": "'\"use strict\"; var x;'"
+            "raw": "'\"use strict\"; var x;'",
+            "start": 342,
+            "end": 364
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 337,
+        "end": 365
+      },
+      "start": 337,
+      "end": 366
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 367
 }

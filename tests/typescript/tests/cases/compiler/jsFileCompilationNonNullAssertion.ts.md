@@ -2,29 +2,29 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 2,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 2,
       "expression": {
         "type": "TSNonNullExpression",
-        "start": 0,
-        "end": 2,
         "expression": {
           "type": "Literal",
-          "start": 0,
-          "end": 1,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 0,
+          "end": 1
+        },
+        "start": 0,
+        "end": 2
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 2
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2
 }
 ```

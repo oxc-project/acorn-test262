@@ -1,236 +1,236 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 594,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 365,
-      "end": 435,
       "expression": {
         "type": "CallExpression",
-        "start": 365,
-        "end": 434,
         "callee": {
           "type": "MemberExpression",
-          "start": 365,
-          "end": 381,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 365,
-            "end": 371,
-            "name": "assert"
+            "end": 371
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 372,
-            "end": 381,
-            "name": "sameValue"
+            "end": 381
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 365,
+          "end": 381
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 382,
-            "end": 393,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 382,
-              "end": 389,
-              "name": "Boolean"
+              "end": 389
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 390,
-                "end": 392,
                 "operator": "+",
                 "argument": {
                   "type": "Literal",
-                  "start": 391,
-                  "end": 392,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 391,
+                  "end": 392
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 390,
+                "end": 392
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 382,
+            "end": 393
           },
           {
             "type": "Literal",
-            "start": 395,
-            "end": 400,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 395,
+            "end": 400
           },
           {
             "type": "Literal",
-            "start": 402,
-            "end": 433,
             "value": "Boolean(+0) must return false",
-            "raw": "'Boolean(+0) must return false'"
+            "raw": "'Boolean(+0) must return false'",
+            "start": 402,
+            "end": 433
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 365,
+        "end": 434
+      },
+      "start": 365,
+      "end": 435
     },
     {
       "type": "ExpressionStatement",
-      "start": 436,
-      "end": 506,
       "expression": {
         "type": "CallExpression",
-        "start": 436,
-        "end": 505,
         "callee": {
           "type": "MemberExpression",
-          "start": 436,
-          "end": 452,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 436,
-            "end": 442,
-            "name": "assert"
+            "end": 442
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 443,
-            "end": 452,
-            "name": "sameValue"
+            "end": 452
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 436,
+          "end": 452
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 453,
-            "end": 464,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 453,
-              "end": 460,
-              "name": "Boolean"
+              "end": 460
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 461,
-                "end": 463,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 462,
-                  "end": 463,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 462,
+                  "end": 463
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 461,
+                "end": 463
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 453,
+            "end": 464
           },
           {
             "type": "Literal",
-            "start": 466,
-            "end": 471,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 466,
+            "end": 471
           },
           {
             "type": "Literal",
-            "start": 473,
-            "end": 504,
             "value": "Boolean(-0) must return false",
-            "raw": "'Boolean(-0) must return false'"
+            "raw": "'Boolean(-0) must return false'",
+            "start": 473,
+            "end": 504
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 436,
+        "end": 505
+      },
+      "start": 436,
+      "end": 506
     },
     {
       "type": "ExpressionStatement",
-      "start": 507,
-      "end": 593,
       "expression": {
         "type": "CallExpression",
-        "start": 507,
-        "end": 592,
         "callee": {
           "type": "MemberExpression",
-          "start": 507,
-          "end": 523,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 507,
-            "end": 513,
-            "name": "assert"
+            "end": 513
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 514,
-            "end": 523,
-            "name": "sameValue"
+            "end": 523
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 507,
+          "end": 523
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 524,
-            "end": 543,
             "callee": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 524,
-              "end": 531,
-              "name": "Boolean"
+              "end": 531
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 532,
-                "end": 542,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 532,
-                  "end": 538,
-                  "name": "Number"
+                  "end": 538
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "NaN",
                   "start": 539,
-                  "end": 542,
-                  "name": "NaN"
+                  "end": 542
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 532,
+                "end": 542
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 524,
+            "end": 543
           },
           {
             "type": "Literal",
-            "start": 545,
-            "end": 550,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 545,
+            "end": 550
           },
           {
             "type": "Literal",
-            "start": 552,
-            "end": 591,
             "value": "Boolean(Number.NaN) must return false",
-            "raw": "'Boolean(Number.NaN) must return false'"
+            "raw": "'Boolean(Number.NaN) must return false'",
+            "start": 552,
+            "end": 591
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 507,
+        "end": 592
+      },
+      "start": 507,
+      "end": 593
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 594
 }

@@ -2,129 +2,115 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 483,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 56,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 15,
         "decorators": [],
         "name": "Robot",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 15
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 16,
-        "end": 56,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 22,
-            "end": 35,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 26,
               "decorators": [],
               "name": "name",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 22,
+              "end": 26
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 26,
-              "end": 34,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 28,
                 "end": 34
-              }
+              },
+              "start": 26,
+              "end": 34
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 22,
+            "end": 35
           },
           {
             "type": "TSPropertySignature",
-            "start": 40,
-            "end": 54,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 40,
-              "end": 45,
               "decorators": [],
               "name": "skill",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 40,
+              "end": 45
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 45,
-              "end": 53,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 47,
                 "end": 53
-              }
+              },
+              "start": 45,
+              "end": 53
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 40,
+            "end": 54
           }
-        ]
+        ],
+        "start": 16,
+        "end": 56
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 56
     },
     {
       "type": "VariableDeclaration",
-      "start": 57,
-      "end": 109,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 69,
-          "end": 109,
           "id": {
             "type": "Identifier",
-            "start": 69,
-            "end": 109,
             "decorators": [],
             "name": "console",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 76,
-              "end": 109,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 78,
-                "end": 109,
                 "members": [
                   {
                     "type": "TSMethodSignature",
-                    "start": 84,
-                    "end": 107,
                     "key": {
                       "type": "Identifier",
-                      "start": 84,
-                      "end": 87,
                       "decorators": [],
                       "name": "log",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 84,
+                      "end": 87
                     },
                     "computed": false,
                     "optional": false,
@@ -133,717 +119,731 @@ __ESTREE_TEST__:PASS:
                     "params": [
                       {
                         "type": "Identifier",
-                        "start": 88,
-                        "end": 99,
                         "decorators": [],
                         "name": "msg",
                         "optional": false,
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 91,
-                          "end": 99,
                           "typeAnnotation": {
                             "type": "TSStringKeyword",
                             "start": 93,
                             "end": 99
-                          }
-                        }
+                          },
+                          "start": 91,
+                          "end": 99
+                        },
+                        "start": 88,
+                        "end": 99
                       }
                     ],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 100,
-                      "end": 106,
                       "typeAnnotation": {
                         "type": "TSVoidKeyword",
                         "start": 102,
                         "end": 106
-                      }
+                      },
+                      "start": 100,
+                      "end": 106
                     },
                     "accessibility": null,
                     "readonly": false,
-                    "static": false
+                    "static": false,
+                    "start": 84,
+                    "end": 107
                   }
-                ]
-              }
-            }
+                ],
+                "start": 78,
+                "end": 109
+              },
+              "start": 76,
+              "end": 109
+            },
+            "start": 69,
+            "end": 109
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 69,
+          "end": 109
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 57,
+      "end": 109
     },
     {
       "type": "VariableDeclaration",
-      "start": 110,
-      "end": 130,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 114,
-          "end": 129,
           "id": {
             "type": "Identifier",
-            "start": 114,
-            "end": 119,
             "decorators": [],
             "name": "hello",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 114,
+            "end": 119
           },
           "init": {
             "type": "Literal",
-            "start": 122,
-            "end": 129,
             "value": "hello",
-            "raw": "\"hello\""
+            "raw": "\"hello\"",
+            "start": 122,
+            "end": 129
           },
-          "definite": false
+          "definite": false,
+          "start": 114,
+          "end": 129
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 110,
+      "end": 130
     },
     {
       "type": "VariableDeclaration",
-      "start": 131,
-      "end": 186,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 135,
-          "end": 185,
           "id": {
             "type": "Identifier",
-            "start": 135,
-            "end": 148,
             "decorators": [],
             "name": "robotA",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 141,
-              "end": 148,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 143,
-                "end": 148,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 143,
-                  "end": 148,
                   "decorators": [],
                   "name": "Robot",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 143,
+                  "end": 148
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 143,
+                "end": 148
+              },
+              "start": 141,
+              "end": 148
+            },
+            "start": 135,
+            "end": 148
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 151,
-            "end": 185,
             "properties": [
               {
                 "type": "Property",
-                "start": 153,
-                "end": 166,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 153,
-                  "end": 157,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 153,
+                  "end": 157
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 159,
-                  "end": 166,
                   "value": "mower",
-                  "raw": "\"mower\""
+                  "raw": "\"mower\"",
+                  "start": 159,
+                  "end": 166
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 153,
+                "end": 166
               },
               {
                 "type": "Property",
-                "start": 168,
-                "end": 183,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 168,
-                  "end": 173,
                   "decorators": [],
                   "name": "skill",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 168,
+                  "end": 173
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 175,
-                  "end": 183,
                   "value": "mowing",
-                  "raw": "\"mowing\""
+                  "raw": "\"mowing\"",
+                  "start": 175,
+                  "end": 183
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 168,
+                "end": 183
               }
-            ]
+            ],
+            "start": 151,
+            "end": 185
           },
-          "definite": false
+          "definite": false,
+          "start": 135,
+          "end": 185
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 131,
+      "end": 186
     },
     {
       "type": "VariableDeclaration",
-      "start": 187,
-      "end": 246,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 191,
-          "end": 245,
           "id": {
             "type": "Identifier",
-            "start": 191,
-            "end": 204,
             "decorators": [],
             "name": "robotB",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 197,
-              "end": 204,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 199,
-                "end": 204,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 199,
-                  "end": 204,
                   "decorators": [],
                   "name": "Robot",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 199,
+                  "end": 204
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 199,
+                "end": 204
+              },
+              "start": 197,
+              "end": 204
+            },
+            "start": 191,
+            "end": 204
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 207,
-            "end": 245,
             "properties": [
               {
                 "type": "Property",
-                "start": 209,
-                "end": 224,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 209,
-                  "end": 213,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 209,
+                  "end": 213
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 215,
-                  "end": 224,
                   "value": "trimmer",
-                  "raw": "\"trimmer\""
+                  "raw": "\"trimmer\"",
+                  "start": 215,
+                  "end": 224
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 209,
+                "end": 224
               },
               {
                 "type": "Property",
-                "start": 226,
-                "end": 243,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 226,
-                  "end": 231,
                   "decorators": [],
                   "name": "skill",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 226,
+                  "end": 231
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 233,
-                  "end": 243,
                   "value": "trimming",
-                  "raw": "\"trimming\""
+                  "raw": "\"trimming\"",
+                  "start": 233,
+                  "end": 243
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 226,
+                "end": 243
               }
-            ]
+            ],
+            "start": 207,
+            "end": 245
           },
-          "definite": false
+          "definite": false,
+          "start": 191,
+          "end": 245
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 187,
+      "end": 246
     },
     {
       "type": "VariableDeclaration",
-      "start": 247,
-      "end": 276,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 251,
-          "end": 275,
           "id": {
             "type": "ObjectPattern",
-            "start": 251,
-            "end": 266,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 253,
-                "end": 264,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 253,
-                  "end": 257,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 253,
+                  "end": 257
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 259,
-                  "end": 264,
                   "decorators": [],
                   "name": "nameA",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 259,
+                  "end": 264
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 253,
+                "end": 264
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 251,
+            "end": 266
           },
           "init": {
             "type": "Identifier",
-            "start": 269,
-            "end": 275,
             "decorators": [],
             "name": "robotA",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 269,
+            "end": 275
           },
-          "definite": false
+          "definite": false,
+          "start": 251,
+          "end": 275
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 247,
+      "end": 276
     },
     {
       "type": "VariableDeclaration",
-      "start": 277,
-      "end": 321,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 281,
-          "end": 320,
           "id": {
             "type": "ObjectPattern",
-            "start": 281,
-            "end": 311,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 283,
-                "end": 294,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 283,
-                  "end": 287,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 283,
+                  "end": 287
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 289,
-                  "end": 294,
                   "decorators": [],
                   "name": "nameB",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 289,
+                  "end": 294
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 283,
+                "end": 294
               },
               {
                 "type": "Property",
-                "start": 296,
-                "end": 309,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 296,
-                  "end": 301,
                   "decorators": [],
                   "name": "skill",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 296,
+                  "end": 301
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 303,
-                  "end": 309,
                   "decorators": [],
                   "name": "skillB",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 303,
+                  "end": 309
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 296,
+                "end": 309
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 281,
+            "end": 311
           },
           "init": {
             "type": "Identifier",
-            "start": 314,
-            "end": 320,
             "decorators": [],
             "name": "robotB",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 314,
+            "end": 320
           },
-          "definite": false
+          "definite": false,
+          "start": 281,
+          "end": 320
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 277,
+      "end": 321
     },
     {
       "type": "VariableDeclaration",
-      "start": 322,
-      "end": 401,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 326,
-          "end": 400,
           "id": {
             "type": "ObjectPattern",
-            "start": 326,
-            "end": 356,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 328,
-                "end": 339,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 328,
-                  "end": 332,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 328,
+                  "end": 332
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 334,
-                  "end": 339,
                   "decorators": [],
                   "name": "nameC",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 334,
+                  "end": 339
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 328,
+                "end": 339
               },
               {
                 "type": "Property",
-                "start": 341,
-                "end": 354,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 341,
-                  "end": 346,
                   "decorators": [],
                   "name": "skill",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 341,
+                  "end": 346
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 348,
-                  "end": 354,
                   "decorators": [],
                   "name": "skillC",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 348,
+                  "end": 354
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 341,
+                "end": 354
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 326,
+            "end": 356
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 359,
-            "end": 400,
             "properties": [
               {
                 "type": "Property",
-                "start": 361,
-                "end": 374,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 361,
-                  "end": 365,
                   "decorators": [],
                   "name": "name",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 361,
+                  "end": 365
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 367,
-                  "end": 374,
                   "value": "Edger",
-                  "raw": "\"Edger\""
+                  "raw": "\"Edger\"",
+                  "start": 367,
+                  "end": 374
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 361,
+                "end": 374
               },
               {
                 "type": "Property",
-                "start": 376,
-                "end": 398,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 376,
-                  "end": 381,
                   "decorators": [],
                   "name": "skill",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 376,
+                  "end": 381
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 383,
-                  "end": 398,
                   "value": "cutting edges",
-                  "raw": "\"cutting edges\""
+                  "raw": "\"cutting edges\"",
+                  "start": 383,
+                  "end": 398
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 376,
+                "end": 398
               }
-            ]
+            ],
+            "start": 359,
+            "end": 400
           },
-          "definite": false
+          "definite": false,
+          "start": 326,
+          "end": 400
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 322,
+      "end": 401
     },
     {
       "type": "IfStatement",
-      "start": 402,
-      "end": 483,
       "test": {
         "type": "BinaryExpression",
-        "start": 406,
-        "end": 420,
         "left": {
           "type": "Identifier",
-          "start": 406,
-          "end": 411,
           "decorators": [],
           "name": "nameA",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 406,
+          "end": 411
         },
         "operator": "==",
         "right": {
           "type": "Identifier",
-          "start": 415,
-          "end": 420,
           "decorators": [],
           "name": "nameB",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 415,
+          "end": 420
+        },
+        "start": 406,
+        "end": 420
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 422,
-        "end": 450,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 428,
-            "end": 448,
             "expression": {
               "type": "CallExpression",
-              "start": 428,
-              "end": 447,
               "callee": {
                 "type": "MemberExpression",
-                "start": 428,
-                "end": 439,
                 "object": {
                   "type": "Identifier",
-                  "start": 428,
-                  "end": 435,
                   "decorators": [],
                   "name": "console",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 428,
+                  "end": 435
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 436,
-                  "end": 439,
                   "decorators": [],
                   "name": "log",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 436,
+                  "end": 439
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 428,
+                "end": 439
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 440,
-                  "end": 446,
                   "decorators": [],
                   "name": "skillB",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 440,
+                  "end": 446
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 428,
+              "end": 447
             },
-            "directive": null
+            "directive": null,
+            "start": 428,
+            "end": 448
           }
-        ]
+        ],
+        "start": 422,
+        "end": 450
       },
       "alternate": {
         "type": "BlockStatement",
-        "start": 456,
-        "end": 483,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 462,
-            "end": 481,
             "expression": {
               "type": "CallExpression",
-              "start": 462,
-              "end": 480,
               "callee": {
                 "type": "MemberExpression",
-                "start": 462,
-                "end": 473,
                 "object": {
                   "type": "Identifier",
-                  "start": 462,
-                  "end": 469,
                   "decorators": [],
                   "name": "console",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 462,
+                  "end": 469
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 470,
-                  "end": 473,
                   "decorators": [],
                   "name": "log",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 470,
+                  "end": 473
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 462,
+                "end": 473
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Identifier",
-                  "start": 474,
-                  "end": 479,
                   "decorators": [],
                   "name": "nameC",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 474,
+                  "end": 479
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 462,
+              "end": 480
             },
-            "directive": null
+            "directive": null,
+            "start": 462,
+            "end": 481
           }
-        ]
-      }
+        ],
+        "start": 456,
+        "end": 483
+      },
+      "start": 402,
+      "end": 483
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 483
 }
 ```

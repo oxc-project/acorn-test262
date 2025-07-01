@@ -1,197 +1,197 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 367,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 261,
-      "end": 277,
       "id": {
         "type": "Identifier",
+        "name": "g",
         "start": 271,
-        "end": 272,
-        "name": "g"
+        "end": 272
       },
       "generator": true,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 275,
-        "end": 277,
-        "body": []
+        "end": 277
       },
-      "expression": false
+      "expression": false,
+      "start": 261,
+      "end": 277
     },
     {
       "type": "ExpressionStatement",
-      "start": 278,
-      "end": 325,
       "expression": {
         "type": "CallExpression",
-        "start": 278,
-        "end": 324,
         "callee": {
           "type": "MemberExpression",
-          "start": 278,
-          "end": 309,
           "object": {
             "type": "MemberExpression",
-            "start": 278,
-            "end": 304,
             "object": {
               "type": "MemberExpression",
-              "start": 278,
-              "end": 296,
               "object": {
                 "type": "Identifier",
+                "name": "Iterator",
                 "start": 278,
-                "end": 286,
-                "name": "Iterator"
+                "end": 286
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 287,
-                "end": 296,
-                "name": "prototype"
+                "end": 296
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 278,
+              "end": 296
             },
             "property": {
               "type": "Identifier",
+              "name": "forEach",
               "start": 297,
-              "end": 304,
-              "name": "forEach"
+              "end": 304
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 278,
+            "end": 304
           },
           "property": {
             "type": "Identifier",
+            "name": "call",
             "start": 305,
-            "end": 309,
-            "name": "call"
+            "end": 309
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 278,
+          "end": 309
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 310,
-            "end": 313,
             "callee": {
               "type": "Identifier",
+              "name": "g",
               "start": 310,
-              "end": 311,
-              "name": "g"
+              "end": 311
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 310,
+            "end": 313
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 315,
-            "end": 323,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 321,
-              "end": 323,
-              "body": []
+              "end": 323
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 315,
+            "end": 323
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 278,
+        "end": 324
+      },
+      "start": 278,
+      "end": 325
     },
     {
       "type": "VariableDeclaration",
-      "start": 327,
-      "end": 342,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 331,
-          "end": 341,
           "id": {
             "type": "Identifier",
+            "name": "iter",
             "start": 331,
-            "end": 335,
-            "name": "iter"
+            "end": 335
           },
           "init": {
             "type": "CallExpression",
-            "start": 338,
-            "end": 341,
             "callee": {
               "type": "Identifier",
+              "name": "g",
               "start": 338,
-              "end": 339,
-              "name": "g"
+              "end": 339
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 338,
+            "end": 341
+          },
+          "start": 331,
+          "end": 341
         }
-      ]
+      ],
+      "start": 327,
+      "end": 342
     },
     {
       "type": "ExpressionStatement",
-      "start": 343,
-      "end": 366,
       "expression": {
         "type": "CallExpression",
-        "start": 343,
-        "end": 365,
         "callee": {
           "type": "MemberExpression",
-          "start": 343,
-          "end": 355,
           "object": {
             "type": "Identifier",
+            "name": "iter",
             "start": 343,
-            "end": 347,
-            "name": "iter"
+            "end": 347
           },
           "property": {
             "type": "Identifier",
+            "name": "forEach",
             "start": 348,
-            "end": 355,
-            "name": "forEach"
+            "end": 355
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 343,
+          "end": 355
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 356,
-            "end": 364,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 362,
-              "end": 364,
-              "body": []
+              "end": 364
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 356,
+            "end": 364
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 343,
+        "end": 365
+      },
+      "start": 343,
+      "end": 366
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 367
 }

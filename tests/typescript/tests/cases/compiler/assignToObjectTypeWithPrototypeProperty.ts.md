@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 86,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 15,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 12,
         "decorators": [],
         "name": "XEvent",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 12
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,166 +21,170 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 13,
-        "end": 15,
-        "body": []
+        "end": 15
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "VariableDeclaration",
-      "start": 16,
-      "end": 49,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 20,
-          "end": 48,
           "id": {
             "type": "Identifier",
-            "start": 20,
-            "end": 29,
             "decorators": [],
             "name": "p",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 21,
-              "end": 29,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 23,
-                "end": 29,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 23,
-                  "end": 29,
                   "decorators": [],
                   "name": "XEvent",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 23,
+                  "end": 29
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 23,
+                "end": 29
+              },
+              "start": 21,
+              "end": 29
+            },
+            "start": 20,
+            "end": 29
           },
           "init": {
             "type": "MemberExpression",
-            "start": 32,
-            "end": 48,
             "object": {
               "type": "Identifier",
-              "start": 32,
-              "end": 38,
               "decorators": [],
               "name": "XEvent",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 32,
+              "end": 38
             },
             "property": {
               "type": "Identifier",
-              "start": 39,
-              "end": 48,
               "decorators": [],
               "name": "prototype",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 39,
+              "end": 48
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 32,
+            "end": 48
           },
-          "definite": false
+          "definite": false,
+          "start": 20,
+          "end": 48
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 16,
+      "end": 49
     },
     {
       "type": "VariableDeclaration",
-      "start": 50,
-      "end": 86,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 54,
-          "end": 85,
           "id": {
             "type": "Identifier",
-            "start": 54,
-            "end": 76,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 55,
-              "end": 76,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 57,
-                "end": 76,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 58,
-                    "end": 75,
                     "computed": false,
                     "optional": false,
                     "readonly": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 58,
-                      "end": 67,
                       "decorators": [],
                       "name": "prototype",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 58,
+                      "end": 67
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 67,
-                      "end": 75,
                       "typeAnnotation": {
                         "type": "TSTypeReference",
-                        "start": 69,
-                        "end": 75,
                         "typeName": {
                           "type": "Identifier",
-                          "start": 69,
-                          "end": 75,
                           "decorators": [],
                           "name": "XEvent",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 69,
+                          "end": 75
                         },
-                        "typeArguments": null
-                      }
+                        "typeArguments": null,
+                        "start": 69,
+                        "end": 75
+                      },
+                      "start": 67,
+                      "end": 75
                     },
                     "accessibility": null,
-                    "static": false
+                    "static": false,
+                    "start": 58,
+                    "end": 75
                   }
-                ]
-              }
-            }
+                ],
+                "start": 57,
+                "end": 76
+              },
+              "start": 55,
+              "end": 76
+            },
+            "start": 54,
+            "end": 76
           },
           "init": {
             "type": "Identifier",
-            "start": 79,
-            "end": 85,
             "decorators": [],
             "name": "XEvent",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 79,
+            "end": 85
           },
-          "definite": false
+          "definite": false,
+          "start": 54,
+          "end": 85
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 50,
+      "end": 86
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 86
 }
 ```

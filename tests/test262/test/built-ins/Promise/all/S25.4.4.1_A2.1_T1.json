@@ -1,124 +1,124 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 345,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 222,
-      "end": 246,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 226,
-          "end": 245,
           "id": {
             "type": "Identifier",
+            "name": "p",
             "start": 226,
-            "end": 227,
-            "name": "p"
+            "end": 227
           },
           "init": {
             "type": "CallExpression",
-            "start": 230,
-            "end": 245,
             "callee": {
               "type": "MemberExpression",
-              "start": 230,
-              "end": 241,
               "object": {
                 "type": "Identifier",
+                "name": "Promise",
                 "start": 230,
-                "end": 237,
-                "name": "Promise"
+                "end": 237
               },
               "property": {
                 "type": "Identifier",
+                "name": "all",
                 "start": 238,
-                "end": 241,
-                "name": "all"
+                "end": 241
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 230,
+              "end": 241
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
+                "elements": [],
                 "start": 242,
-                "end": 244,
-                "elements": []
+                "end": 244
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 230,
+            "end": 245
+          },
+          "start": 226,
+          "end": 245
         }
-      ]
+      ],
+      "start": 222,
+      "end": 246
     },
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 344,
       "expression": {
         "type": "CallExpression",
-        "start": 247,
-        "end": 343,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 247,
-          "end": 253,
-          "name": "assert"
+          "end": 253
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 254,
-            "end": 278,
             "operator": "!",
             "argument": {
               "type": "UnaryExpression",
-              "start": 255,
-              "end": 278,
               "operator": "!",
               "argument": {
                 "type": "ParenthesizedExpression",
-                "start": 256,
-                "end": 278,
                 "expression": {
                   "type": "BinaryExpression",
-                  "start": 257,
-                  "end": 277,
                   "left": {
                     "type": "Identifier",
+                    "name": "p",
                     "start": 257,
-                    "end": 258,
-                    "name": "p"
+                    "end": 258
                   },
                   "operator": "instanceof",
                   "right": {
                     "type": "Identifier",
+                    "name": "Promise",
                     "start": 270,
-                    "end": 277,
-                    "name": "Promise"
-                  }
-                }
+                    "end": 277
+                  },
+                  "start": 257,
+                  "end": 277
+                },
+                "start": 256,
+                "end": 278
               },
-              "prefix": true
+              "prefix": true,
+              "start": 255,
+              "end": 278
             },
-            "prefix": true
+            "prefix": true,
+            "start": 254,
+            "end": 278
           },
           {
             "type": "Literal",
-            "start": 280,
-            "end": 342,
             "value": "The value of !!(p instanceof Promise) is expected to be true",
-            "raw": "'The value of !!(p instanceof Promise) is expected to be true'"
+            "raw": "'The value of !!(p instanceof Promise) is expected to be true'",
+            "start": 280,
+            "end": 342
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 247,
+        "end": 343
+      },
+      "start": 247,
+      "end": 344
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 345
 }

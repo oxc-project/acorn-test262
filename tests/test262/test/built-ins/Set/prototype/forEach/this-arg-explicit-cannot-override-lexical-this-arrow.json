@@ -1,178 +1,164 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 653,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 428,
-      "end": 449,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 432,
-          "end": 448,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 432,
-            "end": 433,
-            "name": "s"
+            "end": 433
           },
           "init": {
             "type": "NewExpression",
-            "start": 436,
-            "end": 448,
             "callee": {
               "type": "Identifier",
+              "name": "Set",
               "start": 440,
-              "end": 443,
-              "name": "Set"
+              "end": 443
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 444,
-                "end": 447,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 445,
-                    "end": 446,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 445,
+                    "end": 446
                   }
-                ]
+                ],
+                "start": 444,
+                "end": 447
               }
-            ]
-          }
+            ],
+            "start": 436,
+            "end": 448
+          },
+          "start": 432,
+          "end": 448
         }
-      ]
+      ],
+      "start": 428,
+      "end": 449
     },
     {
       "type": "VariableDeclaration",
-      "start": 450,
-      "end": 467,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 454,
-          "end": 466,
           "id": {
             "type": "Identifier",
+            "name": "usurper",
             "start": 454,
-            "end": 461,
-            "name": "usurper"
+            "end": 461
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 464,
-            "end": 466,
-            "properties": []
-          }
+            "end": 466
+          },
+          "start": 454,
+          "end": 466
         }
-      ]
+      ],
+      "start": 450,
+      "end": 467
     },
     {
       "type": "VariableDeclaration",
-      "start": 468,
-      "end": 484,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 472,
-          "end": 483,
           "id": {
             "type": "Identifier",
+            "name": "counter",
             "start": 472,
-            "end": 479,
-            "name": "counter"
+            "end": 479
           },
           "init": {
             "type": "Literal",
-            "start": 482,
-            "end": 483,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 482,
+            "end": 483
+          },
+          "start": 472,
+          "end": 483
         }
-      ]
+      ],
+      "start": 468,
+      "end": 484
     },
     {
       "type": "ExpressionStatement",
-      "start": 486,
-      "end": 593,
       "expression": {
         "type": "CallExpression",
-        "start": 486,
-        "end": 592,
         "callee": {
           "type": "MemberExpression",
-          "start": 486,
-          "end": 495,
           "object": {
             "type": "Identifier",
+            "name": "s",
             "start": 486,
-            "end": 487,
-            "name": "s"
+            "end": 487
           },
           "property": {
             "type": "Identifier",
+            "name": "forEach",
             "start": 488,
-            "end": 495,
-            "name": "forEach"
+            "end": 495
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 486,
+          "end": 495
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 496,
-            "end": 582,
             "expression": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "_",
                 "start": 496,
-                "end": 497,
-                "name": "_"
+                "end": 497
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 501,
-              "end": 582,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 505,
-                  "end": 567,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 505,
-                    "end": 566,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 505,
-                      "end": 524,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 505,
-                        "end": 511,
-                        "name": "assert"
+                        "end": 511
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "notSameValue",
                         "start": 512,
-                        "end": 524,
-                        "name": "notSameValue"
+                        "end": 524
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 505,
+                      "end": 524
                     },
                     "arguments": [
                       {
@@ -182,107 +168,121 @@
                       },
                       {
                         "type": "Identifier",
+                        "name": "usurper",
                         "start": 531,
-                        "end": 538,
-                        "name": "usurper"
+                        "end": 538
                       },
                       {
                         "type": "Literal",
-                        "start": 540,
-                        "end": 565,
                         "value": "`this` is not `usurper`",
-                        "raw": "\"`this` is not `usurper`\""
+                        "raw": "\"`this` is not `usurper`\"",
+                        "start": 540,
+                        "end": 565
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 505,
+                    "end": 566
+                  },
+                  "start": 505,
+                  "end": 567
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 570,
-                  "end": 580,
                   "expression": {
                     "type": "UpdateExpression",
-                    "start": 570,
-                    "end": 579,
                     "operator": "++",
                     "prefix": false,
                     "argument": {
                       "type": "Identifier",
+                      "name": "counter",
                       "start": 570,
-                      "end": 577,
-                      "name": "counter"
-                    }
-                  }
+                      "end": 577
+                    },
+                    "start": 570,
+                    "end": 579
+                  },
+                  "start": 570,
+                  "end": 580
                 }
-              ]
+              ],
+              "start": 501,
+              "end": 582
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 496,
+            "end": 582
           },
           {
             "type": "Identifier",
+            "name": "usurper",
             "start": 584,
-            "end": 591,
-            "name": "usurper"
+            "end": 591
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 486,
+        "end": 592
+      },
+      "start": 486,
+      "end": 593
     },
     {
       "type": "ExpressionStatement",
-      "start": 595,
-      "end": 652,
       "expression": {
         "type": "CallExpression",
-        "start": 595,
-        "end": 651,
         "callee": {
           "type": "MemberExpression",
-          "start": 595,
-          "end": 611,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 595,
-            "end": 601,
-            "name": "assert"
+            "end": 601
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 602,
-            "end": 611,
-            "name": "sameValue"
+            "end": 611
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 595,
+          "end": 611
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "counter",
             "start": 612,
-            "end": 619,
-            "name": "counter"
+            "end": 619
           },
           {
             "type": "Literal",
-            "start": 621,
-            "end": 622,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 621,
+            "end": 622
           },
           {
             "type": "Literal",
-            "start": 624,
-            "end": 650,
             "value": "`forEach` is not a no-op",
-            "raw": "\"`forEach` is not a no-op\""
+            "raw": "\"`forEach` is not a no-op\"",
+            "start": 624,
+            "end": 650
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 595,
+        "end": 651
+      },
+      "start": 595,
+      "end": 652
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 653
 }

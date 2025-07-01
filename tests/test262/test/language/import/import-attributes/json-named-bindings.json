@@ -1,79 +1,79 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 694,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 596,
-      "end": 613,
       "expression": {
         "type": "CallExpression",
-        "start": 596,
-        "end": 612,
         "callee": {
           "type": "Identifier",
+          "name": "$DONOTEVALUATE",
           "start": 596,
-          "end": 610,
-          "name": "$DONOTEVALUATE"
+          "end": 610
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 596,
+        "end": 612
+      },
+      "start": 596,
+      "end": 613
     },
     {
       "type": "ImportDeclaration",
-      "start": 615,
-      "end": 693,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 623,
-          "end": 627,
           "imported": {
             "type": "Identifier",
+            "name": "name",
             "start": 623,
-            "end": 627,
-            "name": "name"
+            "end": 627
           },
           "local": {
             "type": "Identifier",
+            "name": "name",
             "start": 623,
-            "end": 627,
-            "name": "name"
-          }
+            "end": 627
+          },
+          "start": 623,
+          "end": 627
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 634,
-        "end": 670,
         "value": "./json-named-bindings_FIXTURE.json",
-        "raw": "'./json-named-bindings_FIXTURE.json'"
+        "raw": "'./json-named-bindings_FIXTURE.json'",
+        "start": 634,
+        "end": 670
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 678,
-          "end": 690,
           "key": {
             "type": "Identifier",
+            "name": "type",
             "start": 678,
-            "end": 682,
-            "name": "type"
+            "end": 682
           },
           "value": {
             "type": "Literal",
-            "start": 684,
-            "end": 690,
             "value": "json",
-            "raw": "'json'"
-          }
+            "raw": "'json'",
+            "start": 684,
+            "end": 690
+          },
+          "start": 678,
+          "end": 690
         }
-      ]
+      ],
+      "start": 615,
+      "end": 693
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 694
 }

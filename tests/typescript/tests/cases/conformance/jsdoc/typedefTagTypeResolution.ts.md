@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 132,
-  "end": 383,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 132,
-      "end": 163,
       "id": {
         "type": "Identifier",
-        "start": 141,
-        "end": 142,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 141,
+        "end": 142
       },
       "generator": false,
       "async": false,
@@ -25,81 +21,81 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 143,
-          "end": 144,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 143,
+          "end": 144
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 146,
-        "end": 163,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 152,
-            "end": 161,
             "argument": {
               "type": "Identifier",
-              "start": 159,
-              "end": 160,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 159,
+              "end": 160
+            },
+            "start": 152,
+            "end": 161
           }
-        ]
+        ],
+        "start": 146,
+        "end": 163
       },
-      "expression": false
+      "expression": false,
+      "start": 132,
+      "end": 163
     },
     {
       "type": "VariableDeclaration",
-      "start": 218,
-      "end": 230,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 224,
-          "end": 229,
           "id": {
             "type": "Identifier",
-            "start": 224,
-            "end": 225,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 224,
+            "end": 225
           },
           "init": {
             "type": "Literal",
-            "start": 228,
-            "end": 229,
             "value": 3,
-            "raw": "3"
+            "raw": "3",
+            "start": 228,
+            "end": 229
           },
-          "definite": false
+          "definite": false,
+          "start": 224,
+          "end": 229
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 218,
+      "end": 230
     },
     {
       "type": "FunctionDeclaration",
-      "start": 324,
-      "end": 345,
       "id": {
         "type": "Identifier",
-        "start": 333,
-        "end": 334,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 333,
+        "end": 334
       },
       "generator": false,
       "async": false,
@@ -108,77 +104,81 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 335,
-          "end": 340,
           "decorators": [],
           "name": "vvvvv",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 335,
+          "end": 340
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 342,
-        "end": 345,
-        "body": []
+        "end": 345
       },
-      "expression": false
+      "expression": false,
+      "start": 324,
+      "end": 345
     },
     {
       "type": "VariableDeclaration",
-      "start": 365,
-      "end": 383,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 371,
-          "end": 383,
           "id": {
             "type": "Identifier",
-            "start": 371,
-            "end": 373,
             "decorators": [],
             "name": "cb",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 371,
+            "end": 373
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 376,
-            "end": 383,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 376,
-                "end": 377,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 376,
+                "end": 377
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 381,
-              "end": 383,
-              "body": []
+              "end": 383
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 376,
+            "end": 383
           },
-          "definite": false
+          "definite": false,
+          "start": 371,
+          "end": 383
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 365,
+      "end": 383
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 132,
+  "end": 383
 }
 ```

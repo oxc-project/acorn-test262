@@ -2,36 +2,26 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 10,
-  "end": 75,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 10,
-      "end": 37,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 14,
-          "end": 36,
           "id": {
             "type": "Identifier",
-            "start": 14,
-            "end": 16,
             "decorators": [],
             "name": "ns",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 14,
+            "end": 16
           },
           "init": {
             "type": "CallExpression",
-            "start": 19,
-            "end": 36,
             "callee": {
               "type": "FunctionExpression",
-              "start": 20,
-              "end": 33,
               "id": null,
               "generator": false,
               "async": false,
@@ -41,48 +31,58 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 31,
-                "end": 33,
-                "body": []
+                "end": 33
               },
-              "expression": false
+              "expression": false,
+              "start": 20,
+              "end": 33
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 19,
+            "end": 36
           },
-          "definite": false
+          "definite": false,
+          "start": 14,
+          "end": 36
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 10,
+      "end": 37
     },
     {
       "type": "VariableDeclaration",
-      "start": 65,
-      "end": 75,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 69,
-          "end": 74,
           "id": {
             "type": "Identifier",
-            "start": 69,
-            "end": 74,
             "decorators": [],
             "name": "crash",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 69,
+            "end": 74
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 69,
+          "end": 74
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 65,
+      "end": 75
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 10,
+  "end": 75
 }
 ```

@@ -1,103 +1,103 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 332,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 291,
-      "end": 331,
       "expression": {
         "type": "CallExpression",
-        "start": 291,
-        "end": 330,
         "callee": {
           "type": "MemberExpression",
-          "start": 291,
-          "end": 307,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 291,
-            "end": 297,
-            "name": "assert"
+            "end": 297
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 298,
-            "end": 307,
-            "name": "sameValue"
+            "end": 307
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 291,
+          "end": 307
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 308,
-            "end": 325,
             "callee": {
               "type": "MemberExpression",
-              "start": 308,
-              "end": 318,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 308,
-                "end": 312,
-                "name": "Math"
+                "end": 312
               },
               "property": {
                 "type": "Identifier",
+                "name": "atan2",
                 "start": 313,
-                "end": 318,
-                "name": "atan2"
+                "end": 318
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 308,
+              "end": 318
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 319,
-                "end": 321,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 320,
-                  "end": 321,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 320,
+                  "end": 321
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 319,
+                "end": 321
               },
               {
                 "type": "Literal",
-                "start": 323,
-                "end": 324,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 323,
+                "end": 324
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 308,
+            "end": 325
           },
           {
             "type": "UnaryExpression",
-            "start": 327,
-            "end": 329,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 328,
-              "end": 329,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 328,
+              "end": 329
             },
-            "prefix": true
+            "prefix": true,
+            "start": 327,
+            "end": 329
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 291,
+        "end": 330
+      },
+      "start": 291,
+      "end": 331
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 332
 }

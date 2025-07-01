@@ -1,202 +1,202 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 748,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 531,
-      "end": 747,
       "expression": {
         "type": "CallExpression",
-        "start": 531,
-        "end": 746,
         "callee": {
           "type": "Identifier",
+          "name": "asyncTest",
           "start": 531,
-          "end": 540,
-          "name": "asyncTest"
+          "end": 540
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 541,
-            "end": 745,
             "expression": false,
             "async": true,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 553,
-              "end": 745,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 557,
-                  "end": 743,
                   "expression": {
                     "type": "AwaitExpression",
-                    "start": 557,
-                    "end": 742,
                     "argument": {
                       "type": "CallExpression",
-                      "start": 563,
-                      "end": 742,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 563,
-                        "end": 581,
                         "object": {
                           "type": "Identifier",
+                          "name": "assert",
                           "start": 563,
-                          "end": 569,
-                          "name": "assert"
+                          "end": 569
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "throwsAsync",
                           "start": 570,
-                          "end": 581,
-                          "name": "throwsAsync"
+                          "end": 581
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 563,
+                        "end": 581
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
+                          "name": "Test262Error",
                           "start": 582,
-                          "end": 594,
-                          "name": "Test262Error"
+                          "end": 594
                         },
                         {
                           "type": "ArrowFunctionExpression",
-                          "start": 596,
-                          "end": 685,
                           "expression": true,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "CallExpression",
-                            "start": 602,
-                            "end": 685,
                             "callee": {
                               "type": "MemberExpression",
-                              "start": 602,
-                              "end": 617,
                               "object": {
                                 "type": "Identifier",
+                                "name": "Array",
                                 "start": 602,
-                                "end": 607,
-                                "name": "Array"
+                                "end": 607
                               },
                               "property": {
                                 "type": "Identifier",
+                                "name": "fromAsync",
                                 "start": 608,
-                                "end": 617,
-                                "name": "fromAsync"
+                                "end": 617
                               },
                               "optional": false,
-                              "computed": false
+                              "computed": false,
+                              "start": 602,
+                              "end": 617
                             },
                             "arguments": [
                               {
                                 "type": "ArrayExpression",
-                                "start": 618,
-                                "end": 627,
                                 "elements": [
                                   {
                                     "type": "Literal",
-                                    "start": 619,
-                                    "end": 620,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "start": 619,
+                                    "end": 620
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 622,
-                                    "end": 623,
                                     "value": 2,
-                                    "raw": "2"
+                                    "raw": "2",
+                                    "start": 622,
+                                    "end": 623
                                   },
                                   {
                                     "type": "Literal",
-                                    "start": 625,
-                                    "end": 626,
                                     "value": 3,
-                                    "raw": "3"
+                                    "raw": "3",
+                                    "start": 625,
+                                    "end": 626
                                   }
-                                ]
+                                ],
+                                "start": 618,
+                                "end": 627
                               },
                               {
                                 "type": "ArrowFunctionExpression",
-                                "start": 629,
-                                "end": 684,
                                 "expression": false,
                                 "async": false,
                                 "params": [],
                                 "body": {
                                   "type": "BlockStatement",
-                                  "start": 635,
-                                  "end": 684,
                                   "body": [
                                     {
                                       "type": "ThrowStatement",
-                                      "start": 641,
-                                      "end": 680,
                                       "argument": {
                                         "type": "NewExpression",
-                                        "start": 647,
-                                        "end": 679,
                                         "callee": {
                                           "type": "Identifier",
+                                          "name": "Test262Error",
                                           "start": 651,
-                                          "end": 663,
-                                          "name": "Test262Error"
+                                          "end": 663
                                         },
                                         "arguments": [
                                           {
                                             "type": "Literal",
-                                            "start": 664,
-                                            "end": 678,
                                             "value": "mapfn throws",
-                                            "raw": "\"mapfn throws\""
+                                            "raw": "\"mapfn throws\"",
+                                            "start": 664,
+                                            "end": 678
                                           }
-                                        ]
-                                      }
+                                        ],
+                                        "start": 647,
+                                        "end": 679
+                                      },
+                                      "start": 641,
+                                      "end": 680
                                     }
-                                  ]
+                                  ],
+                                  "start": 635,
+                                  "end": 684
                                 },
                                 "id": null,
-                                "generator": false
+                                "generator": false,
+                                "start": 629,
+                                "end": 684
                               }
                             ],
-                            "optional": false
+                            "optional": false,
+                            "start": 602,
+                            "end": 685
                           },
                           "id": null,
-                          "generator": false
+                          "generator": false,
+                          "start": 596,
+                          "end": 685
                         },
                         {
                           "type": "Literal",
-                          "start": 687,
-                          "end": 741,
                           "value": "sync mapfn throwing should cause fromAsync to reject",
-                          "raw": "\"sync mapfn throwing should cause fromAsync to reject\""
+                          "raw": "\"sync mapfn throwing should cause fromAsync to reject\"",
+                          "start": 687,
+                          "end": 741
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 563,
+                      "end": 742
+                    },
+                    "start": 557,
+                    "end": 742
+                  },
+                  "start": 557,
+                  "end": 743
                 }
-              ]
+              ],
+              "start": 553,
+              "end": 745
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 541,
+            "end": 745
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 531,
+        "end": 746
+      },
+      "start": 531,
+      "end": 747
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 748
 }

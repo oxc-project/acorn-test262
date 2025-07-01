@@ -1,286 +1,286 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 739,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 359,
-      "end": 413,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 363,
-          "end": 412,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 363,
-            "end": 364,
-            "name": "f"
+            "end": 364
           },
           "init": {
             "type": "CallExpression",
-            "start": 367,
-            "end": 412,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 367,
-              "end": 375,
-              "name": "Function"
+              "end": 375
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 376,
-                "end": 392,
                 "value": "arg1,arg2,arg3",
-                "raw": "\"arg1,arg2,arg3\""
+                "raw": "\"arg1,arg2,arg3\"",
+                "start": 376,
+                "end": 392
               },
               {
                 "type": "Literal",
-                "start": 394,
-                "end": 405,
                 "value": "arg4,arg5",
-                "raw": "\"arg4,arg5\""
+                "raw": "\"arg4,arg5\"",
+                "start": 394,
+                "end": 405
               },
               {
                 "type": "Literal",
-                "start": 407,
-                "end": 411,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 407,
+                "end": 411
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 367,
+            "end": 412
+          },
+          "start": 363,
+          "end": 412
         }
-      ]
+      ],
+      "start": 359,
+      "end": 413
     },
     {
       "type": "ExpressionStatement",
-      "start": 415,
-      "end": 499,
       "expression": {
         "type": "CallExpression",
-        "start": 415,
-        "end": 498,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 415,
-          "end": 421,
-          "name": "assert"
+          "end": 421
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 422,
-            "end": 448,
             "callee": {
               "type": "MemberExpression",
-              "start": 422,
-              "end": 438,
               "object": {
                 "type": "Identifier",
+                "name": "f",
                 "start": 422,
-                "end": 423,
-                "name": "f"
+                "end": 423
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 424,
-                "end": 438,
-                "name": "hasOwnProperty"
+                "end": 438
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 422,
+              "end": 438
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 439,
-                "end": 447,
                 "value": "length",
-                "raw": "'length'"
+                "raw": "'length'",
+                "start": 439,
+                "end": 447
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 422,
+            "end": 448
           },
           {
             "type": "Literal",
-            "start": 450,
-            "end": 497,
             "value": "f.hasOwnProperty('length') must return true",
-            "raw": "'f.hasOwnProperty(\\'length\\') must return true'"
+            "raw": "'f.hasOwnProperty(\\'length\\') must return true'",
+            "start": 450,
+            "end": 497
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 415,
+        "end": 498
+      },
+      "start": 415,
+      "end": 499
     },
     {
       "type": "ExpressionStatement",
-      "start": 501,
-      "end": 517,
       "expression": {
         "type": "UnaryExpression",
-        "start": 501,
-        "end": 516,
         "operator": "delete",
         "argument": {
           "type": "MemberExpression",
-          "start": 508,
-          "end": 516,
           "object": {
             "type": "Identifier",
+            "name": "f",
             "start": 508,
-            "end": 509,
-            "name": "f"
+            "end": 509
           },
           "property": {
             "type": "Identifier",
+            "name": "length",
             "start": 510,
-            "end": 516,
-            "name": "length"
+            "end": 516
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 508,
+          "end": 516
         },
-        "prefix": true
-      }
+        "prefix": true,
+        "start": 501,
+        "end": 516
+      },
+      "start": 501,
+      "end": 517
     },
     {
       "type": "ExpressionStatement",
-      "start": 519,
-      "end": 624,
       "expression": {
         "type": "CallExpression",
-        "start": 519,
-        "end": 623,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 519,
-          "end": 525,
-          "name": "assert"
+          "end": 525
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 526,
-            "end": 553,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 527,
-              "end": 553,
               "callee": {
                 "type": "MemberExpression",
-                "start": 527,
-                "end": 543,
                 "object": {
                   "type": "Identifier",
+                  "name": "f",
                   "start": 527,
-                  "end": 528,
-                  "name": "f"
+                  "end": 528
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasOwnProperty",
                   "start": 529,
-                  "end": 543,
-                  "name": "hasOwnProperty"
+                  "end": 543
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 527,
+                "end": 543
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 544,
-                  "end": 552,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "start": 544,
+                  "end": 552
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 527,
+              "end": 553
             },
-            "prefix": true
+            "prefix": true,
+            "start": 526,
+            "end": 553
           },
           {
             "type": "Literal",
-            "start": 555,
-            "end": 622,
             "value": "The value of !f.hasOwnProperty('length') is expected to be true",
-            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'"
+            "raw": "'The value of !f.hasOwnProperty(\\'length\\') is expected to be true'",
+            "start": 555,
+            "end": 622
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 519,
+        "end": 623
+      },
+      "start": 519,
+      "end": 624
     },
     {
       "type": "ExpressionStatement",
-      "start": 625,
-      "end": 692,
       "expression": {
         "type": "CallExpression",
-        "start": 625,
-        "end": 691,
         "callee": {
           "type": "MemberExpression",
-          "start": 625,
-          "end": 644,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 625,
-            "end": 631,
-            "name": "assert"
+            "end": 631
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 632,
-            "end": 644,
-            "name": "notSameValue"
+            "end": 644
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 625,
+          "end": 644
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 645,
-            "end": 653,
             "object": {
               "type": "Identifier",
+              "name": "f",
               "start": 645,
-              "end": 646,
-              "name": "f"
+              "end": 646
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 647,
-              "end": 653,
-              "name": "length"
+              "end": 653
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 645,
+            "end": 653
           },
           {
             "type": "Literal",
-            "start": 655,
-            "end": 656,
             "value": 5,
-            "raw": "5"
+            "raw": "5",
+            "start": 655,
+            "end": 656
           },
           {
             "type": "Literal",
-            "start": 658,
-            "end": 690,
             "value": "The value of f.length is not 5",
-            "raw": "'The value of f.length is not 5'"
+            "raw": "'The value of f.length is not 5'",
+            "start": 658,
+            "end": 690
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 625,
+        "end": 691
+      },
+      "start": 625,
+      "end": 692
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 739
 }

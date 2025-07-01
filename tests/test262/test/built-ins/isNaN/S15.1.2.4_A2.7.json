@@ -1,98 +1,98 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 420,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 340,
-      "end": 419,
       "expression": {
         "type": "CallExpression",
-        "start": 340,
-        "end": 418,
         "callee": {
           "type": "MemberExpression",
-          "start": 340,
-          "end": 353,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 340,
-            "end": 346,
-            "name": "assert"
+            "end": 346
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 347,
-            "end": 353,
-            "name": "throws"
+            "end": 353
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 340,
+          "end": 353
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 354,
-            "end": 363,
-            "name": "TypeError"
+            "end": 363
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 365,
-            "end": 417,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 371,
-              "end": 417,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 375,
-                  "end": 387,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 375,
-                    "end": 386,
                     "callee": {
                       "type": "Identifier",
+                      "name": "isNaN",
                       "start": 379,
-                      "end": 384,
-                      "name": "isNaN"
+                      "end": 384
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 375,
+                    "end": 386
+                  },
+                  "start": 375,
+                  "end": 387
                 },
                 {
                   "type": "ThrowStatement",
-                  "start": 390,
-                  "end": 415,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 396,
-                    "end": 414,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Test262Error",
                       "start": 400,
-                      "end": 412,
-                      "name": "Test262Error"
+                      "end": 412
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 396,
+                    "end": 414
+                  },
+                  "start": 390,
+                  "end": 415
                 }
-              ]
+              ],
+              "start": 371,
+              "end": 417
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 365,
+            "end": 417
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 340,
+        "end": 418
+      },
+      "start": 340,
+      "end": 419
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 420
 }

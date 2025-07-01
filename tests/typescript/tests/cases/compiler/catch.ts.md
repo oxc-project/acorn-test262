@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 64,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 64,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -26,79 +22,83 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 64,
         "body": [
           {
             "type": "TryStatement",
-            "start": 19,
-            "end": 38,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 23,
-              "end": 25,
-              "body": []
+              "end": 25
             },
             "handler": {
               "type": "CatchClause",
-              "start": 26,
-              "end": 38,
               "param": {
                 "type": "Identifier",
-                "start": 32,
-                "end": 33,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 32,
+                "end": 33
               },
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 35,
-                "end": 38,
-                "body": []
-              }
+                "end": 38
+              },
+              "start": 26,
+              "end": 38
             },
-            "finalizer": null
+            "finalizer": null,
+            "start": 19,
+            "end": 38
           },
           {
             "type": "TryStatement",
-            "start": 43,
-            "end": 62,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 47,
-              "end": 49,
-              "body": []
+              "end": 49
             },
             "handler": {
               "type": "CatchClause",
-              "start": 50,
-              "end": 62,
               "param": {
                 "type": "Identifier",
-                "start": 56,
-                "end": 57,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 56,
+                "end": 57
               },
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 59,
-                "end": 62,
-                "body": []
-              }
+                "end": 62
+              },
+              "start": 50,
+              "end": 62
             },
-            "finalizer": null
+            "finalizer": null,
+            "start": 43,
+            "end": 62
           }
-        ]
+        ],
+        "start": 13,
+        "end": 64
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 64
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 64
 }
 ```

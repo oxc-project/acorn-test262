@@ -2,53 +2,49 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 21,
-  "end": 89,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 21,
-      "end": 48,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 27,
-          "end": 48,
           "id": {
             "type": "Identifier",
-            "start": 27,
-            "end": 31,
             "decorators": [],
             "name": "LANG",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 31
           },
           "init": {
             "type": "Literal",
-            "start": 34,
-            "end": 48,
             "value": "Turbo Pascal",
-            "raw": "\"Turbo Pascal\""
+            "raw": "\"Turbo Pascal\"",
+            "start": 34,
+            "end": 48
           },
-          "definite": false
+          "definite": false,
+          "start": 27,
+          "end": 48
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 21,
+      "end": 48
     },
     {
       "type": "ClassDeclaration",
-      "start": 50,
-      "end": 89,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 56,
-        "end": 68,
         "decorators": [],
         "name": "BestLanguage",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 56,
+        "end": 68
       },
       "typeParameters": null,
       "superClass": null,
@@ -56,32 +52,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 69,
-        "end": 89,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 75,
-            "end": 87,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 75,
-              "end": 79,
               "decorators": [],
               "name": "name",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 75,
+              "end": 79
             },
             "typeAnnotation": null,
             "value": {
               "type": "Identifier",
-              "start": 82,
-              "end": 86,
               "decorators": [],
               "name": "LANG",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 82,
+              "end": 86
             },
             "computed": false,
             "static": false,
@@ -90,15 +82,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 75,
+            "end": 87
           }
-        ]
+        ],
+        "start": 69,
+        "end": 89
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 50,
+      "end": 89
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 21,
+  "end": 89
 }
 ```

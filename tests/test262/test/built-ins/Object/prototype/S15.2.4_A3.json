@@ -1,102 +1,102 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 444,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 329,
-      "end": 443,
       "expression": {
         "type": "CallExpression",
-        "start": 329,
-        "end": 442,
         "callee": {
           "type": "MemberExpression",
-          "start": 329,
-          "end": 342,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 329,
-            "end": 335,
-            "name": "assert"
+            "end": 335
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 336,
-            "end": 342,
-            "name": "throws"
+            "end": 342
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 329,
+          "end": 342
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 343,
-            "end": 352,
-            "name": "TypeError"
+            "end": 352
           },
           {
             "type": "FunctionExpression",
-            "start": 354,
-            "end": 390,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 365,
-              "end": 390,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 369,
-                  "end": 388,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 369,
-                    "end": 387,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 369,
-                      "end": 385,
                       "object": {
                         "type": "Identifier",
+                        "name": "Object",
                         "start": 369,
-                        "end": 375,
-                        "name": "Object"
+                        "end": 375
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 376,
-                        "end": 385,
-                        "name": "prototype"
+                        "end": 385
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 369,
+                      "end": 385
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 369,
+                    "end": 387
+                  },
+                  "start": 369,
+                  "end": 388
                 }
-              ]
+              ],
+              "start": 365,
+              "end": 390
             },
-            "expression": false
+            "expression": false,
+            "start": 354,
+            "end": 390
           },
           {
             "type": "Literal",
-            "start": 392,
-            "end": 441,
             "value": "Object.prototype() throws a TypeError exception",
-            "raw": "'Object.prototype() throws a TypeError exception'"
+            "raw": "'Object.prototype() throws a TypeError exception'",
+            "start": 392,
+            "end": 441
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 329,
+        "end": 442
+      },
+      "start": 329,
+      "end": 443
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 444
 }

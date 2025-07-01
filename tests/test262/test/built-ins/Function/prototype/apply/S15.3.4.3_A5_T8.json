@@ -1,138 +1,138 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 474,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 317,
-      "end": 338,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 321,
-          "end": 337,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 321,
-            "end": 324,
-            "name": "obj"
+            "end": 324
           },
           "init": {
             "type": "CallExpression",
-            "start": 327,
-            "end": 337,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 327,
-              "end": 335,
-              "name": "Function"
+              "end": 335
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 327,
+            "end": 337
+          },
+          "start": 321,
+          "end": 337
         }
-      ]
+      ],
+      "start": 317,
+      "end": 338
     },
     {
       "type": "ExpressionStatement",
-      "start": 340,
-      "end": 400,
       "expression": {
         "type": "CallExpression",
-        "start": 340,
-        "end": 399,
         "callee": {
           "type": "MemberExpression",
-          "start": 340,
-          "end": 394,
           "object": {
             "type": "NewExpression",
-            "start": 340,
-            "end": 388,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 344,
-              "end": 352,
-              "name": "Function"
+              "end": 352
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 353,
-                "end": 387,
                 "value": "this.touched= true; return this;",
-                "raw": "\"this.touched= true; return this;\""
+                "raw": "\"this.touched= true; return this;\"",
+                "start": 353,
+                "end": 387
               }
-            ]
+            ],
+            "start": 340,
+            "end": 388
           },
           "property": {
             "type": "Identifier",
+            "name": "apply",
             "start": 389,
-            "end": 394,
-            "name": "apply"
+            "end": 394
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 340,
+          "end": 394
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "obj",
             "start": 395,
-            "end": 398,
-            "name": "obj"
+            "end": 398
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 340,
+        "end": 399
+      },
+      "start": 340,
+      "end": 400
     },
     {
       "type": "ExpressionStatement",
-      "start": 402,
-      "end": 473,
       "expression": {
         "type": "CallExpression",
-        "start": 402,
-        "end": 472,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 402,
-          "end": 408,
-          "name": "assert"
+          "end": 408
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 409,
-            "end": 420,
             "object": {
               "type": "Identifier",
+              "name": "obj",
               "start": 409,
-              "end": 412,
-              "name": "obj"
+              "end": 412
             },
             "property": {
               "type": "Identifier",
+              "name": "touched",
               "start": 413,
-              "end": 420,
-              "name": "touched"
+              "end": 420
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 409,
+            "end": 420
           },
           {
             "type": "Literal",
-            "start": 422,
-            "end": 471,
             "value": "The value of obj.touched is expected to be true",
-            "raw": "'The value of obj.touched is expected to be true'"
+            "raw": "'The value of obj.touched is expected to be true'",
+            "start": 422,
+            "end": 471
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 402,
+        "end": 472
+      },
+      "start": 402,
+      "end": 473
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 474
 }

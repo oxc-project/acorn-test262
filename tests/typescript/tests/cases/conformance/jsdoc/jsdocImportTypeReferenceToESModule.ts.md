@@ -2,77 +2,73 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 21,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 21,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 21,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 21,
               "decorators": [],
               "name": "config",
               "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 17,
-                "end": 21,
                 "typeAnnotation": {
                   "type": "TSTypeLiteral",
+                  "members": [],
                   "start": 19,
-                  "end": 21,
-                  "members": []
-                }
-              }
+                  "end": 21
+                },
+                "start": 17,
+                "end": 21
+              },
+              "start": 11,
+              "end": 21
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 21
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 21
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 21
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 33,
-  "end": 66,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 33,
-      "end": 66,
       "id": {
         "type": "Identifier",
-        "start": 42,
-        "end": 46,
         "decorators": [],
         "name": "demo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 42,
+        "end": 46
       },
       "generator": false,
       "async": false,
@@ -81,57 +77,61 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 47,
-          "end": 48,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 47,
+          "end": 48
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 50,
-        "end": 66,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 56,
-            "end": 64,
             "expression": {
               "type": "MemberExpression",
-              "start": 56,
-              "end": 64,
               "object": {
                 "type": "Identifier",
-                "start": 56,
-                "end": 57,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 56,
+                "end": 57
               },
               "property": {
                 "type": "Identifier",
-                "start": 58,
-                "end": 64,
                 "decorators": [],
                 "name": "config",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 58,
+                "end": 64
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 56,
+              "end": 64
             },
-            "directive": null
+            "directive": null,
+            "start": 56,
+            "end": 64
           }
-        ]
+        ],
+        "start": 50,
+        "end": 66
       },
-      "expression": false
+      "expression": false,
+      "start": 33,
+      "end": 66
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 33,
+  "end": 66
 }
 ```

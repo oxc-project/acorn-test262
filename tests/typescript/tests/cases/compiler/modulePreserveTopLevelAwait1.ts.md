@@ -2,108 +2,108 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 28,
       "await": true,
       "left": {
         "type": "VariableDeclaration",
-        "start": 11,
-        "end": 18,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 17,
-            "end": 18,
             "id": {
               "type": "Identifier",
-              "start": 17,
-              "end": 18,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 17,
+              "end": 18
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 17,
+            "end": 18
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 11,
+        "end": 18
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 22,
-        "end": 24,
-        "elements": []
+        "end": 24
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 26,
-        "end": 28,
-        "body": []
-      }
+        "end": 28
+      },
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExpressionStatement",
-      "start": 29,
-      "end": 53,
       "expression": {
         "type": "AwaitExpression",
-        "start": 29,
-        "end": 52,
         "argument": {
           "type": "CallExpression",
-          "start": 35,
-          "end": 52,
           "callee": {
             "type": "MemberExpression",
-            "start": 35,
-            "end": 50,
             "object": {
               "type": "Identifier",
-              "start": 35,
-              "end": 42,
               "decorators": [],
               "name": "Promise",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 35,
+              "end": 42
             },
             "property": {
               "type": "Identifier",
-              "start": 43,
-              "end": 50,
               "decorators": [],
               "name": "resolve",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 43,
+              "end": 50
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 35,
+            "end": 50
           },
           "typeArguments": null,
           "arguments": [],
-          "optional": false
-        }
+          "optional": false,
+          "start": 35,
+          "end": 52
+        },
+        "start": 29,
+        "end": 52
       },
-      "directive": null
+      "directive": null,
+      "start": 29,
+      "end": 53
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 55,
-      "end": 65,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 55,
+      "end": 65
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 65
 }
 ```

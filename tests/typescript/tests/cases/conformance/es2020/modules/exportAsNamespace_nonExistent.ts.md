@@ -2,34 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 45,
   "body": [
     {
       "type": "ExportAllDeclaration",
-      "start": 0,
-      "end": 36,
       "exported": {
         "type": "Identifier",
-        "start": 12,
-        "end": 14,
         "decorators": [],
         "name": "ns",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 12,
+        "end": 14
       },
       "source": {
         "type": "Literal",
-        "start": 20,
-        "end": 35,
         "value": "./nonexistent",
-        "raw": "'./nonexistent'"
+        "raw": "'./nonexistent'",
+        "start": 20,
+        "end": 35
       },
       "attributes": [],
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 36
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 45
 }
 ```

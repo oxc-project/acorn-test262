@@ -1,101 +1,93 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 483,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 333,
-      "end": 381,
       "expression": {
         "type": "CallExpression",
-        "start": 333,
-        "end": 380,
         "callee": {
           "type": "MemberExpression",
-          "start": 333,
-          "end": 372,
           "object": {
             "type": "CallExpression",
-            "start": 333,
-            "end": 366,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 333,
-              "end": 341,
-              "name": "Function"
+              "end": 341
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 342,
-                "end": 365,
                 "value": "this.field=\"battle\"",
-                "raw": "\"this.field=\\\"battle\\\"\""
+                "raw": "\"this.field=\\\"battle\\\"\"",
+                "start": 342,
+                "end": 365
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 333,
+            "end": 366
           },
           "property": {
             "type": "Identifier",
+            "name": "apply",
             "start": 367,
-            "end": 372,
-            "name": "apply"
+            "end": 372
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 333,
+          "end": 372
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 373,
-            "end": 379,
             "operator": "void",
             "argument": {
               "type": "Literal",
-              "start": 378,
-              "end": 379,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 378,
+              "end": 379
             },
-            "prefix": true
+            "prefix": true,
+            "start": 373,
+            "end": 379
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 333,
+        "end": 380
+      },
+      "start": 333,
+      "end": 381
     },
     {
       "type": "ExpressionStatement",
-      "start": 383,
-      "end": 482,
       "expression": {
         "type": "CallExpression",
-        "start": 383,
-        "end": 481,
         "callee": {
           "type": "MemberExpression",
-          "start": 383,
-          "end": 399,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 383,
-            "end": 389,
-            "name": "assert"
+            "end": 389
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 390,
-            "end": 399,
-            "name": "sameValue"
+            "end": 399
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 383,
+          "end": 399
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 400,
-            "end": 413,
             "object": {
               "type": "ThisExpression",
               "start": 400,
@@ -103,33 +95,41 @@
             },
             "property": {
               "type": "Literal",
-              "start": 405,
-              "end": 412,
               "value": "field",
-              "raw": "\"field\""
+              "raw": "\"field\"",
+              "start": 405,
+              "end": 412
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 400,
+            "end": 413
           },
           {
             "type": "Literal",
-            "start": 415,
-            "end": 423,
             "value": "battle",
-            "raw": "\"battle\""
+            "raw": "\"battle\"",
+            "start": 415,
+            "end": 423
           },
           {
             "type": "Literal",
-            "start": 425,
-            "end": 480,
             "value": "The value of this[\"field\"] is expected to be \"battle\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"battle\"'"
+            "raw": "'The value of this[\"field\"] is expected to be \"battle\"'",
+            "start": 425,
+            "end": 480
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 383,
+        "end": 481
+      },
+      "start": 383,
+      "end": 482
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 483
 }

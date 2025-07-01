@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 305,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 261,
-      "end": 304,
       "expression": {
         "type": "CallExpression",
-        "start": 261,
-        "end": 303,
         "callee": {
           "type": "MemberExpression",
-          "start": 261,
-          "end": 277,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 261,
-            "end": 267,
-            "name": "assert"
+            "end": 267
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 268,
-            "end": 277,
-            "name": "sameValue"
+            "end": 277
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 261,
+          "end": 277
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 278,
-            "end": 297,
             "callee": {
               "type": "MemberExpression",
-              "start": 278,
-              "end": 286,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 278,
-                "end": 282,
-                "name": "Math"
+                "end": 282
               },
               "property": {
                 "type": "Identifier",
+                "name": "cos",
                 "start": 283,
-                "end": 286,
-                "name": "cos"
+                "end": 286
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 278,
+              "end": 286
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 287,
-                "end": 296,
                 "operator": "-",
                 "argument": {
                   "type": "Identifier",
+                  "name": "Infinity",
                   "start": 288,
-                  "end": 296,
-                  "name": "Infinity"
+                  "end": 296
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 287,
+                "end": 296
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 278,
+            "end": 297
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 299,
-            "end": 302,
-            "name": "NaN"
+            "end": 302
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 261,
+        "end": 303
+      },
+      "start": 261,
+      "end": 304
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 305
 }

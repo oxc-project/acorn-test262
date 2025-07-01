@@ -2,208 +2,208 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 209,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 49,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 15,
         "decorators": [],
         "name": "TShirtSize",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 15
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 16,
-        "end": 49,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 21,
-            "end": 26,
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 26,
               "decorators": [],
               "name": "Small",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 26
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 21,
+            "end": 26
           },
           {
             "type": "TSEnumMember",
-            "start": 31,
-            "end": 37,
             "id": {
               "type": "Identifier",
-              "start": 31,
-              "end": 37,
               "decorators": [],
               "name": "Medium",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 31,
+              "end": 37
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 31,
+            "end": 37
           },
           {
             "type": "TSEnumMember",
-            "start": 42,
-            "end": 47,
             "id": {
               "type": "Identifier",
-              "start": 42,
-              "end": 47,
               "decorators": [],
               "name": "Large",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 47
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 42,
+            "end": 47
           }
-        ]
+        ],
+        "start": 16,
+        "end": 49
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 49
     },
     {
       "type": "VariableDeclaration",
-      "start": 50,
-      "end": 80,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 54,
-          "end": 79,
           "id": {
             "type": "Identifier",
-            "start": 54,
-            "end": 60,
             "decorators": [],
             "name": "mySize",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 54,
+            "end": 60
           },
           "init": {
             "type": "MemberExpression",
-            "start": 63,
-            "end": 79,
             "object": {
               "type": "Identifier",
-              "start": 63,
-              "end": 73,
               "decorators": [],
               "name": "TShirtSize",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 63,
+              "end": 73
             },
             "property": {
               "type": "Identifier",
-              "start": 74,
-              "end": 79,
               "decorators": [],
               "name": "Large",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 74,
+              "end": 79
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 63,
+            "end": 79
           },
-          "definite": false
+          "definite": false,
+          "start": 54,
+          "end": 79
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 50,
+      "end": 80
     },
     {
       "type": "VariableDeclaration",
-      "start": 81,
-      "end": 111,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 85,
-          "end": 110,
           "id": {
             "type": "Identifier",
-            "start": 85,
-            "end": 89,
             "decorators": [],
             "name": "test",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 85,
+            "end": 89
           },
           "init": {
             "type": "MemberExpression",
-            "start": 92,
-            "end": 110,
             "object": {
               "type": "Identifier",
-              "start": 92,
-              "end": 102,
               "decorators": [],
               "name": "TShirtSize",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 92,
+              "end": 102
             },
             "property": {
               "type": "Identifier",
-              "start": 103,
-              "end": 109,
               "decorators": [],
               "name": "mySize",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 103,
+              "end": 109
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 92,
+            "end": 110
           },
-          "definite": false
+          "definite": false,
+          "start": 85,
+          "end": 110
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 81,
+      "end": 111
     },
     {
       "type": "ExpressionStatement",
-      "start": 200,
-      "end": 209,
       "expression": {
         "type": "BinaryExpression",
-        "start": 200,
-        "end": 209,
         "left": {
           "type": "Identifier",
-          "start": 200,
-          "end": 204,
           "decorators": [],
           "name": "test",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 200,
+          "end": 204
         },
         "operator": "+",
         "right": {
           "type": "Literal",
-          "start": 207,
-          "end": 209,
           "value": "",
-          "raw": "''"
-        }
+          "raw": "''",
+          "start": 207,
+          "end": 209
+        },
+        "start": 200,
+        "end": 209
       },
-      "directive": null
+      "directive": null,
+      "start": 200,
+      "end": 209
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 209
 }
 ```

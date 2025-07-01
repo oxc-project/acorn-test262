@@ -2,109 +2,109 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 16,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 16,
             "decorators": [],
             "name": "left",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 8,
-              "end": 16,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 10,
                 "end": 16
-              }
-            }
+              },
+              "start": 8,
+              "end": 16
+            },
+            "start": 4,
+            "end": 16
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 16
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "VariableDeclaration",
-      "start": 18,
-      "end": 33,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 22,
-          "end": 32,
           "id": {
             "type": "Identifier",
-            "start": 22,
-            "end": 32,
             "decorators": [],
             "name": "right",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 27,
-              "end": 32,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 29,
                 "end": 32
-              }
-            }
+              },
+              "start": 27,
+              "end": 32
+            },
+            "start": 22,
+            "end": 32
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 22,
+          "end": 32
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 18,
+      "end": 33
     },
     {
       "type": "ExpressionStatement",
-      "start": 34,
-      "end": 48,
       "expression": {
         "type": "BinaryExpression",
-        "start": 34,
-        "end": 47,
         "left": {
           "type": "Identifier",
-          "start": 34,
-          "end": 38,
           "decorators": [],
           "name": "left",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 34,
+          "end": 38
         },
         "operator": "in",
         "right": {
           "type": "Identifier",
-          "start": 42,
-          "end": 47,
           "decorators": [],
           "name": "right",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 42,
+          "end": 47
+        },
+        "start": 34,
+        "end": 47
       },
-      "directive": null
+      "directive": null,
+      "start": 34,
+      "end": 48
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 48
 }
 ```

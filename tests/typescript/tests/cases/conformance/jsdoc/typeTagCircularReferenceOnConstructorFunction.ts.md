@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 27,
-  "end": 73,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 27,
-      "end": 49,
       "id": {
         "type": "Identifier",
-        "start": 36,
-        "end": 43,
         "decorators": [],
         "name": "MyClass",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 36,
+        "end": 43
       },
       "generator": false,
       "async": false,
@@ -26,57 +22,61 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 46,
-        "end": 49,
-        "body": []
+        "end": 49
       },
-      "expression": false
+      "expression": false,
+      "start": 27,
+      "end": 49
     },
     {
       "type": "ExpressionStatement",
-      "start": 50,
-      "end": 73,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 50,
-        "end": 72,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 50,
-          "end": 67,
           "object": {
             "type": "Identifier",
-            "start": 50,
-            "end": 57,
             "decorators": [],
             "name": "MyClass",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 57
           },
           "property": {
             "type": "Identifier",
-            "start": 58,
-            "end": 67,
             "decorators": [],
             "name": "prototype",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 58,
+            "end": 67
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 50,
+          "end": 67
         },
         "right": {
           "type": "ObjectExpression",
+          "properties": [],
           "start": 70,
-          "end": 72,
-          "properties": []
-        }
+          "end": 72
+        },
+        "start": 50,
+        "end": 72
       },
-      "directive": null
+      "directive": null,
+      "start": 50,
+      "end": 73
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 27,
+  "end": 73
 }
 ```

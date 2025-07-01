@@ -1,67 +1,67 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 335,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 293,
-      "end": 334,
       "expression": {
         "type": "CallExpression",
-        "start": 293,
-        "end": 333,
         "callee": {
           "type": "MemberExpression",
-          "start": 293,
-          "end": 309,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 293,
-            "end": 299,
-            "name": "assert"
+            "end": 299
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 300,
-            "end": 309,
-            "name": "sameValue"
+            "end": 309
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 293,
+          "end": 309
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 310,
-            "end": 327,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 310,
-              "end": 316,
-              "name": "Number"
+              "end": 316
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 317,
-                "end": 326,
-                "name": "undefined"
+                "end": 326
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 310,
+            "end": 327
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 329,
-            "end": 332,
-            "name": "NaN"
+            "end": 332
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 293,
+        "end": 333
+      },
+      "start": 293,
+      "end": 334
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 335
 }

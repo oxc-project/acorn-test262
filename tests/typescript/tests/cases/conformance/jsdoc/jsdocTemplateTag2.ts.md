@@ -2,51 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 109,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 109,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 108,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 7,
             "decorators": [],
             "name": "obj",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 7
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 108,
             "properties": [
               {
                 "type": "Property",
-                "start": 73,
-                "end": 105,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 73,
-                  "end": 74,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 73,
+                  "end": 74
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 76,
-                  "end": 105,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -55,52 +43,64 @@ __ESTREE_TEST__:PASS:
                   "params": [
                     {
                       "type": "Identifier",
-                      "start": 86,
-                      "end": 87,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 86,
+                      "end": 87
                     }
                   ],
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 89,
-                    "end": 105,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 93,
-                        "end": 102,
                         "argument": {
                           "type": "Identifier",
-                          "start": 100,
-                          "end": 101,
                           "decorators": [],
                           "name": "a",
                           "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "start": 100,
+                          "end": 101
+                        },
+                        "start": 93,
+                        "end": 102
                       }
-                    ]
+                    ],
+                    "start": 89,
+                    "end": 105
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 76,
+                  "end": 105
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 73,
+                "end": 105
               }
-            ]
+            ],
+            "start": 10,
+            "end": 108
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 108
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 109
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 109
 }
 ```

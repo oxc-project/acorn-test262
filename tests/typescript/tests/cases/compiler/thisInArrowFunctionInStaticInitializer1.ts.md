@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 130,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 19,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "log",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,36 +21,36 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 13,
-          "end": 14,
           "decorators": [],
           "name": "a",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 14
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 16,
-        "end": 19,
-        "body": []
+        "end": 19
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 19
     },
     {
       "type": "ClassDeclaration",
-      "start": 21,
-      "end": 130,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 33,
         "decorators": [],
         "name": "Vector",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 27,
+        "end": 33
       },
       "typeParameters": null,
       "superClass": null,
@@ -62,28 +58,22 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 34,
-        "end": 130,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 37,
-            "end": 128,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 44,
-              "end": 47,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 44,
+              "end": 47
             },
             "typeAnnotation": null,
             "value": {
               "type": "ArrowFunctionExpression",
-              "start": 50,
-              "end": 128,
               "expression": false,
               "async": false,
               "typeParameters": null,
@@ -91,25 +81,19 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 56,
-                "end": 128,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 115,
-                    "end": 125,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 115,
-                      "end": 124,
                       "callee": {
                         "type": "Identifier",
-                        "start": 115,
-                        "end": 118,
                         "decorators": [],
                         "name": "log",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 115,
+                        "end": 118
                       },
                       "typeArguments": null,
                       "arguments": [
@@ -119,14 +103,22 @@ __ESTREE_TEST__:PASS:
                           "end": 123
                         }
                       ],
-                      "optional": false
+                      "optional": false,
+                      "start": 115,
+                      "end": 124
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 115,
+                    "end": 125
                   }
-                ]
+                ],
+                "start": 56,
+                "end": 128
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 50,
+              "end": 128
             },
             "computed": false,
             "static": true,
@@ -135,15 +127,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 37,
+            "end": 128
           }
-        ]
+        ],
+        "start": 34,
+        "end": 130
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 21,
+      "end": 130
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 130
 }
 ```

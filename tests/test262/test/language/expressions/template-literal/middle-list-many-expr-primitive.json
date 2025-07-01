@@ -1,241 +1,241 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 721,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 571,
-      "end": 639,
       "expression": {
         "type": "CallExpression",
-        "start": 571,
-        "end": 638,
         "callee": {
           "type": "MemberExpression",
-          "start": 571,
-          "end": 587,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 571,
-            "end": 577,
-            "name": "assert"
+            "end": 577
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 578,
-            "end": 587,
-            "name": "sameValue"
+            "end": 587
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 571,
+          "end": 587
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 588,
-            "end": 608,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 589,
-                "end": 589,
                 "value": {
                   "raw": "",
                   "cooked": ""
                 },
-                "tail": false
+                "tail": false,
+                "start": 589,
+                "end": 589
               },
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": " ",
+                  "cooked": " "
+                },
+                "tail": false,
                 "start": 593,
-                "end": 594,
+                "end": 594
+              },
+              {
+                "type": "TemplateElement",
                 "value": {
                   "raw": " ",
                   "cooked": " "
                 },
-                "tail": false
-              },
-              {
-                "type": "TemplateElement",
+                "tail": false,
                 "start": 598,
-                "end": 599,
-                "value": {
-                  "raw": " ",
-                  "cooked": " "
-                },
-                "tail": false
+                "end": 599
               },
               {
                 "type": "TemplateElement",
-                "start": 603,
-                "end": 607,
                 "value": {
                   "raw": " bar",
                   "cooked": " bar"
                 },
-                "tail": true
+                "tail": true,
+                "start": 603,
+                "end": 607
               }
             ],
             "expressions": [
               {
                 "type": "Literal",
-                "start": 591,
-                "end": 592,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 591,
+                "end": 592
               },
               {
                 "type": "Literal",
-                "start": 596,
-                "end": 597,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 596,
+                "end": 597
               },
               {
                 "type": "Literal",
-                "start": 601,
-                "end": 602,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "start": 601,
+                "end": 602
               }
-            ]
+            ],
+            "start": 588,
+            "end": 608
           },
           {
             "type": "Literal",
-            "start": 610,
-            "end": 621,
             "value": "0 1 5 bar",
-            "raw": "'0 1 5 bar'"
+            "raw": "'0 1 5 bar'",
+            "start": 610,
+            "end": 621
           },
           {
             "type": "Literal",
-            "start": 623,
-            "end": 637,
             "value": "number value",
-            "raw": "'number value'"
+            "raw": "'number value'",
+            "start": 623,
+            "end": 637
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 571,
+        "end": 638
+      },
+      "start": 571,
+      "end": 639
     },
     {
       "type": "ExpressionStatement",
-      "start": 640,
-      "end": 720,
       "expression": {
         "type": "CallExpression",
-        "start": 640,
-        "end": 719,
         "callee": {
           "type": "MemberExpression",
-          "start": 640,
-          "end": 656,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 640,
-            "end": 646,
-            "name": "assert"
+            "end": 646
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 647,
-            "end": 656,
-            "name": "sameValue"
+            "end": 656
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 640,
+          "end": 656
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 657,
-            "end": 684,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 658,
-                "end": 658,
                 "value": {
                   "raw": "",
                   "cooked": ""
                 },
-                "tail": false
+                "tail": false,
+                "start": 658,
+                "end": 658
               },
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": " ",
+                  "cooked": " "
+                },
+                "tail": false,
                 "start": 662,
-                "end": 663,
+                "end": 663
+              },
+              {
+                "type": "TemplateElement",
                 "value": {
                   "raw": " ",
                   "cooked": " "
                 },
-                "tail": false
-              },
-              {
-                "type": "TemplateElement",
+                "tail": false,
                 "start": 667,
-                "end": 668,
-                "value": {
-                  "raw": " ",
-                  "cooked": " "
-                },
-                "tail": false
+                "end": 668
               },
               {
                 "type": "TemplateElement",
-                "start": 679,
-                "end": 683,
                 "value": {
                   "raw": " bar",
                   "cooked": " bar"
                 },
-                "tail": true
+                "tail": true,
+                "start": 679,
+                "end": 683
               }
             ],
             "expressions": [
               {
                 "type": "Literal",
-                "start": 660,
-                "end": 661,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 660,
+                "end": 661
               },
               {
                 "type": "Literal",
-                "start": 665,
-                "end": 666,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 665,
+                "end": 666
               },
               {
                 "type": "Literal",
-                "start": 670,
-                "end": 678,
                 "value": "string",
-                "raw": "'string'"
+                "raw": "'string'",
+                "start": 670,
+                "end": 678
               }
-            ]
+            ],
+            "start": 657,
+            "end": 684
           },
           {
             "type": "Literal",
-            "start": 686,
-            "end": 702,
             "value": "0 1 string bar",
-            "raw": "'0 1 string bar'"
+            "raw": "'0 1 string bar'",
+            "start": 686,
+            "end": 702
           },
           {
             "type": "Literal",
-            "start": 704,
-            "end": 718,
             "value": "string value",
-            "raw": "'string value'"
+            "raw": "'string value'",
+            "start": 704,
+            "end": 718
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 640,
+        "end": 719
+      },
+      "start": 640,
+      "end": 720
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 721
 }

@@ -1,294 +1,294 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 860,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 362,
-      "end": 519,
       "expression": {
         "type": "CallExpression",
-        "start": 362,
-        "end": 518,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 362,
-          "end": 368,
-          "name": "assert"
+          "end": 368
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 372,
-            "end": 423,
             "operator": "!",
             "argument": {
               "type": "UnaryExpression",
-              "start": 373,
-              "end": 423,
               "operator": "!",
               "argument": {
                 "type": "CallExpression",
-                "start": 374,
-                "end": 423,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 374,
-                  "end": 413,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 374,
-                    "end": 398,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 374,
-                      "end": 390,
                       "object": {
                         "type": "Identifier",
+                        "name": "Object",
                         "start": 374,
-                        "end": 380,
-                        "name": "Object"
+                        "end": 380
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 381,
-                        "end": 390,
-                        "name": "prototype"
+                        "end": 390
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 374,
+                      "end": 390
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "valueOf",
                       "start": 391,
-                      "end": 398,
-                      "name": "valueOf"
+                      "end": 398
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 374,
+                    "end": 398
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "hasOwnProperty",
                     "start": 399,
-                    "end": 413,
-                    "name": "hasOwnProperty"
+                    "end": 413
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 374,
+                  "end": 413
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 414,
-                    "end": 422,
                     "value": "length",
-                    "raw": "'length'"
+                    "raw": "'length'",
+                    "start": 414,
+                    "end": 422
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 374,
+                "end": 423
               },
-              "prefix": true
+              "prefix": true,
+              "start": 373,
+              "end": 423
             },
-            "prefix": true
+            "prefix": true,
+            "start": 372,
+            "end": 423
           },
           {
             "type": "Literal",
-            "start": 427,
-            "end": 516,
             "value": "The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'"
+            "raw": "'The value of !!Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'",
+            "start": 427,
+            "end": 516
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 362,
+        "end": 518
+      },
+      "start": 362,
+      "end": 519
     },
     {
       "type": "ExpressionStatement",
-      "start": 521,
-      "end": 656,
       "expression": {
         "type": "CallExpression",
-        "start": 521,
-        "end": 655,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 521,
-          "end": 527,
-          "name": "assert"
+          "end": 527
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 531,
-            "end": 571,
             "operator": "!",
             "argument": {
               "type": "UnaryExpression",
-              "start": 532,
-              "end": 571,
               "operator": "!",
               "argument": {
                 "type": "UnaryExpression",
-                "start": 533,
-                "end": 571,
                 "operator": "delete",
                 "argument": {
                   "type": "MemberExpression",
-                  "start": 540,
-                  "end": 571,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 540,
-                    "end": 564,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 540,
-                      "end": 556,
                       "object": {
                         "type": "Identifier",
+                        "name": "Object",
                         "start": 540,
-                        "end": 546,
-                        "name": "Object"
+                        "end": 546
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "prototype",
                         "start": 547,
-                        "end": 556,
-                        "name": "prototype"
+                        "end": 556
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 540,
+                      "end": 556
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "valueOf",
                       "start": 557,
-                      "end": 564,
-                      "name": "valueOf"
+                      "end": 564
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 540,
+                    "end": 564
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "length",
                     "start": 565,
-                    "end": 571,
-                    "name": "length"
+                    "end": 571
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 540,
+                  "end": 571
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 533,
+                "end": 571
               },
-              "prefix": true
+              "prefix": true,
+              "start": 532,
+              "end": 571
             },
-            "prefix": true
+            "prefix": true,
+            "start": 531,
+            "end": 571
           },
           {
             "type": "Literal",
-            "start": 575,
-            "end": 653,
             "value": "The value of !!delete Object.prototype.valueOf.length is expected to be true",
-            "raw": "'The value of !!delete Object.prototype.valueOf.length is expected to be true'"
+            "raw": "'The value of !!delete Object.prototype.valueOf.length is expected to be true'",
+            "start": 575,
+            "end": 653
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 521,
+        "end": 655
+      },
+      "start": 521,
+      "end": 656
     },
     {
       "type": "ExpressionStatement",
-      "start": 658,
-      "end": 813,
       "expression": {
         "type": "CallExpression",
-        "start": 658,
-        "end": 812,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 658,
-          "end": 664,
-          "name": "assert"
+          "end": 664
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 668,
-            "end": 718,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 669,
-              "end": 718,
               "callee": {
                 "type": "MemberExpression",
-                "start": 669,
-                "end": 708,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 669,
-                  "end": 693,
                   "object": {
                     "type": "MemberExpression",
-                    "start": 669,
-                    "end": 685,
                     "object": {
                       "type": "Identifier",
+                      "name": "Object",
                       "start": 669,
-                      "end": 675,
-                      "name": "Object"
+                      "end": 675
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "prototype",
                       "start": 676,
-                      "end": 685,
-                      "name": "prototype"
+                      "end": 685
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 669,
+                    "end": 685
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "valueOf",
                     "start": 686,
-                    "end": 693,
-                    "name": "valueOf"
+                    "end": 693
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 669,
+                  "end": 693
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasOwnProperty",
                   "start": 694,
-                  "end": 708,
-                  "name": "hasOwnProperty"
+                  "end": 708
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 669,
+                "end": 708
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 709,
-                  "end": 717,
                   "value": "length",
-                  "raw": "'length'"
+                  "raw": "'length'",
+                  "start": 709,
+                  "end": 717
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 669,
+              "end": 718
             },
-            "prefix": true
+            "prefix": true,
+            "start": 668,
+            "end": 718
           },
           {
             "type": "Literal",
-            "start": 722,
-            "end": 810,
             "value": "The value of !Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true",
-            "raw": "'The value of !Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'"
+            "raw": "'The value of !Object.prototype.valueOf.hasOwnProperty(\"length\") is expected to be true'",
+            "start": 722,
+            "end": 810
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 658,
+        "end": 812
+      },
+      "start": 658,
+      "end": 813
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 860
 }

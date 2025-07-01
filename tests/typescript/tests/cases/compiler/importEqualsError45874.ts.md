@@ -2,199 +2,199 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 107,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 70,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 17,
         "decorators": [],
         "name": "globals",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 17
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 18,
-        "end": 70,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 22,
-            "end": 43,
             "declaration": {
               "type": "TSTypeAliasDeclaration",
-              "start": 29,
-              "end": 43,
               "id": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 37,
                 "decorators": [],
                 "name": "Foo",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 34,
+                "end": 37
               },
               "typeParameters": null,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
+                "members": [],
                 "start": 40,
-                "end": 42,
-                "members": []
+                "end": 42
               },
-              "declare": false
+              "declare": false,
+              "start": 29,
+              "end": 43
             },
             "specifiers": [],
             "source": null,
             "exportKind": "type",
-            "attributes": []
+            "attributes": [],
+            "start": 22,
+            "end": 43
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 46,
-            "end": 68,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 53,
-              "end": 68,
               "kind": "const",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 59,
-                  "end": 67,
                   "id": {
                     "type": "Identifier",
-                    "start": 59,
-                    "end": 62,
                     "decorators": [],
                     "name": "Bar",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 59,
+                    "end": 62
                   },
                   "init": {
                     "type": "ObjectExpression",
+                    "properties": [],
                     "start": 65,
-                    "end": 67,
-                    "properties": []
+                    "end": 67
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 59,
+                  "end": 67
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 53,
+              "end": 68
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 46,
+            "end": 68
           }
-        ]
+        ],
+        "start": 18,
+        "end": 70
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 70
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 71,
-      "end": 106,
       "id": {
         "type": "Identifier",
-        "start": 78,
-        "end": 81,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 78,
+        "end": 81
       },
       "moduleReference": {
         "type": "TSQualifiedName",
-        "start": 84,
-        "end": 105,
         "left": {
           "type": "TSQualifiedName",
-          "start": 84,
-          "end": 100,
           "left": {
             "type": "Identifier",
-            "start": 84,
-            "end": 91,
             "decorators": [],
             "name": "globals",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 84,
+            "end": 91
           },
           "right": {
             "type": "Identifier",
-            "start": 92,
-            "end": 100,
             "decorators": [],
             "name": "toString",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 92,
+            "end": 100
+          },
+          "start": 84,
+          "end": 100
         },
         "right": {
           "type": "Identifier",
-          "start": 101,
-          "end": 105,
           "decorators": [],
           "name": "Blah",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 101,
+          "end": 105
+        },
+        "start": 84,
+        "end": 105
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 71,
+      "end": 106
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 107
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 15,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 15,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 14,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 9
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 12,
-            "end": 14,
-            "properties": []
+            "end": 14
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 14
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 15
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 15
 }
 ```

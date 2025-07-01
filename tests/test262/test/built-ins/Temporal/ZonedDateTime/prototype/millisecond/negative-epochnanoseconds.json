@@ -1,134 +1,134 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 944,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 675,
-      "end": 750,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 681,
-          "end": 749,
           "id": {
             "type": "Identifier",
+            "name": "datetime",
             "start": 681,
-            "end": 689,
-            "name": "datetime"
+            "end": 689
           },
           "init": {
             "type": "NewExpression",
-            "start": 692,
-            "end": 749,
             "callee": {
               "type": "MemberExpression",
-              "start": 696,
-              "end": 718,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 696,
-                "end": 704,
-                "name": "Temporal"
+                "end": 704
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 705,
-                "end": 718,
-                "name": "ZonedDateTime"
+                "end": 718
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 696,
+              "end": 718
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 719,
-                "end": 741,
                 "operator": "-",
                 "argument": {
                   "type": "Literal",
-                  "start": 720,
-                  "end": 741,
                   "value": null,
                   "raw": "13849764_999_999_999n",
-                  "bigint": "13849764999999999"
+                  "bigint": "13849764999999999",
+                  "start": 720,
+                  "end": 741
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 719,
+                "end": 741
               },
               {
                 "type": "Literal",
-                "start": 743,
-                "end": 748,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "start": 743,
+                "end": 748
               }
-            ]
-          }
+            ],
+            "start": 692,
+            "end": 749
+          },
+          "start": 681,
+          "end": 749
         }
-      ]
+      ],
+      "start": 675,
+      "end": 750
     },
     {
       "type": "ExpressionStatement",
-      "start": 901,
-      "end": 943,
       "expression": {
         "type": "CallExpression",
-        "start": 901,
-        "end": 942,
         "callee": {
           "type": "MemberExpression",
-          "start": 901,
-          "end": 917,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 901,
-            "end": 907,
-            "name": "assert"
+            "end": 907
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 908,
-            "end": 917,
-            "name": "sameValue"
+            "end": 917
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 901,
+          "end": 917
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 918,
-            "end": 938,
             "object": {
               "type": "Identifier",
+              "name": "datetime",
               "start": 918,
-              "end": 926,
-              "name": "datetime"
+              "end": 926
             },
             "property": {
               "type": "Identifier",
+              "name": "millisecond",
               "start": 927,
-              "end": 938,
-              "name": "millisecond"
+              "end": 938
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 918,
+            "end": 938
           },
           {
             "type": "Literal",
-            "start": 940,
-            "end": 941,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 940,
+            "end": 941
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 901,
+        "end": 942
+      },
+      "start": 901,
+      "end": 943
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 944
 }

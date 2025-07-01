@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 860,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 721,
-      "end": 831,
       "expression": {
         "type": "CallExpression",
-        "start": 721,
-        "end": 830,
         "callee": {
           "type": "MemberExpression",
-          "start": 721,
-          "end": 737,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 721,
-            "end": 727,
-            "name": "assert"
+            "end": 727
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 728,
-            "end": 737,
-            "name": "sameValue"
+            "end": 737
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 721,
+          "end": 737
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 738,
-            "end": 770,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 738,
-              "end": 751,
-              "name": "isConstructor"
+              "end": 751
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Uint8ClampedArray",
                 "start": 752,
-                "end": 769,
-                "name": "Uint8ClampedArray"
+                "end": 769
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 738,
+            "end": 770
           },
           {
             "type": "Literal",
-            "start": 772,
-            "end": 776,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 772,
+            "end": 776
           },
           {
             "type": "Literal",
-            "start": 778,
-            "end": 829,
             "value": "isConstructor(Uint8ClampedArray) must return true",
-            "raw": "'isConstructor(Uint8ClampedArray) must return true'"
+            "raw": "'isConstructor(Uint8ClampedArray) must return true'",
+            "start": 778,
+            "end": 829
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 721,
+        "end": 830
+      },
+      "start": 721,
+      "end": 831
     },
     {
       "type": "ExpressionStatement",
-      "start": 832,
-      "end": 856,
       "expression": {
         "type": "NewExpression",
-        "start": 832,
-        "end": 855,
         "callee": {
           "type": "Identifier",
+          "name": "Uint8ClampedArray",
           "start": 836,
-          "end": 853,
-          "name": "Uint8ClampedArray"
+          "end": 853
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 832,
+        "end": 855
+      },
+      "start": 832,
+      "end": 856
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 860
 }

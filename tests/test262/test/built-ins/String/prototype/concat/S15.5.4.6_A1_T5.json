@@ -1,194 +1,194 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 780,
   "body": [
     {
       "type": "IfStatement",
-      "start": 473,
-      "end": 697,
       "test": {
         "type": "BinaryExpression",
-        "start": 477,
-        "end": 541,
         "left": {
           "type": "CallExpression",
-          "start": 477,
-          "end": 526,
           "callee": {
             "type": "MemberExpression",
-            "start": 477,
-            "end": 520,
             "object": {
               "type": "CallExpression",
-              "start": 477,
-              "end": 513,
               "callee": {
                 "type": "FunctionExpression",
-                "start": 477,
-                "end": 511,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 488,
-                  "end": 511,
                   "body": [
                     {
                       "type": "ReturnStatement",
-                      "start": 494,
-                      "end": 507,
                       "argument": {
                         "type": "Literal",
-                        "start": 501,
-                        "end": 507,
                         "value": "lego",
-                        "raw": "\"lego\""
-                      }
+                        "raw": "\"lego\"",
+                        "start": 501,
+                        "end": 507
+                      },
+                      "start": 494,
+                      "end": 507
                     }
-                  ]
+                  ],
+                  "start": 488,
+                  "end": 511
                 },
-                "expression": false
+                "expression": false,
+                "start": 477,
+                "end": 511
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 477,
+              "end": 513
             },
             "property": {
               "type": "Identifier",
+              "name": "concat",
               "start": 514,
-              "end": 520,
-              "name": "concat"
+              "end": 520
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 477,
+            "end": 520
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 521,
-              "end": 525,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "start": 521,
+              "end": 525
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 477,
+          "end": 526
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 531,
-          "end": 541,
           "value": "legonull",
-          "raw": "\"legonull\""
-        }
+          "raw": "\"legonull\"",
+          "start": 531,
+          "end": 541
+        },
+        "start": 477,
+        "end": 541
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 543,
-        "end": 697,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 547,
-            "end": 695,
             "argument": {
               "type": "NewExpression",
-              "start": 553,
-              "end": 694,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 557,
-                "end": 569,
-                "name": "Test262Error"
+                "end": 569
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 570,
-                  "end": 693,
                   "left": {
                     "type": "Literal",
-                    "start": 570,
-                    "end": 641,
                     "value": "#1: function(){return \"lego\"}().concat(null) === \"legonull\". Actual: ",
-                    "raw": "'#1: function(){return \"lego\"}().concat(null) === \"legonull\". Actual: '"
+                    "raw": "'#1: function(){return \"lego\"}().concat(null) === \"legonull\". Actual: '",
+                    "start": 570,
+                    "end": 641
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 644,
-                    "end": 693,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 644,
-                      "end": 687,
                       "object": {
                         "type": "CallExpression",
-                        "start": 644,
-                        "end": 680,
                         "callee": {
                           "type": "FunctionExpression",
-                          "start": 644,
-                          "end": 678,
                           "id": null,
                           "generator": false,
                           "async": false,
                           "params": [],
                           "body": {
                             "type": "BlockStatement",
-                            "start": 655,
-                            "end": 678,
                             "body": [
                               {
                                 "type": "ReturnStatement",
-                                "start": 661,
-                                "end": 674,
                                 "argument": {
                                   "type": "Literal",
-                                  "start": 668,
-                                  "end": 674,
                                   "value": "lego",
-                                  "raw": "\"lego\""
-                                }
+                                  "raw": "\"lego\"",
+                                  "start": 668,
+                                  "end": 674
+                                },
+                                "start": 661,
+                                "end": 674
                               }
-                            ]
+                            ],
+                            "start": 655,
+                            "end": 678
                           },
-                          "expression": false
+                          "expression": false,
+                          "start": 644,
+                          "end": 678
                         },
                         "arguments": [],
-                        "optional": false
+                        "optional": false,
+                        "start": 644,
+                        "end": 680
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "concat",
                         "start": 681,
-                        "end": 687,
-                        "name": "concat"
+                        "end": 687
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 644,
+                      "end": 687
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 688,
-                        "end": 692,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 688,
+                        "end": 692
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 644,
+                    "end": 693
+                  },
+                  "start": 570,
+                  "end": 693
                 }
-              ]
-            }
+              ],
+              "start": 553,
+              "end": 694
+            },
+            "start": 547,
+            "end": 695
           }
-        ]
+        ],
+        "start": 543,
+        "end": 697
       },
-      "alternate": null
+      "alternate": null,
+      "start": 473,
+      "end": 697
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 780
 }

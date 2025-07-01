@@ -2,77 +2,69 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 29,
-  "end": 83,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 29,
-      "end": 43,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 35,
-          "end": 42,
           "id": {
             "type": "Identifier",
-            "start": 35,
-            "end": 37,
             "decorators": [],
             "name": "ns",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 35,
+            "end": 37
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 40,
-            "end": 42,
-            "properties": []
+            "end": 42
           },
-          "definite": false
+          "definite": false,
+          "start": 35,
+          "end": 42
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 29,
+      "end": 43
     },
     {
       "type": "ExpressionStatement",
-      "start": 44,
-      "end": 61,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 44,
-        "end": 61,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 44,
-          "end": 50,
           "object": {
             "type": "Identifier",
-            "start": 44,
-            "end": 46,
             "decorators": [],
             "name": "ns",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 44,
+            "end": 46
           },
           "property": {
             "type": "Identifier",
-            "start": 47,
-            "end": 50,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 50
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 44,
+          "end": 50
         },
         "right": {
           "type": "ClassExpression",
-          "start": 53,
-          "end": 61,
           "decorators": [],
           "id": null,
           "typeParameters": null,
@@ -81,64 +73,72 @@ __ESTREE_TEST__:PASS:
           "implements": [],
           "body": {
             "type": "ClassBody",
+            "body": [],
             "start": 59,
-            "end": 61,
-            "body": []
+            "end": 61
           },
           "abstract": false,
-          "declare": false
-        }
+          "declare": false,
+          "start": 53,
+          "end": 61
+        },
+        "start": 44,
+        "end": 61
       },
-      "directive": null
+      "directive": null,
+      "start": 44,
+      "end": 61
     },
     {
       "type": "ExpressionStatement",
-      "start": 62,
-      "end": 82,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 62,
-        "end": 81,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 62,
-          "end": 76,
           "object": {
             "type": "Identifier",
-            "start": 62,
-            "end": 68,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 62,
+            "end": 68
           },
           "property": {
             "type": "Identifier",
-            "start": 69,
-            "end": 76,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 69,
+            "end": 76
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 62,
+          "end": 76
         },
         "right": {
           "type": "Identifier",
-          "start": 79,
-          "end": 81,
           "decorators": [],
           "name": "ns",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 79,
+          "end": 81
+        },
+        "start": 62,
+        "end": 81
       },
-      "directive": null
+      "directive": null,
+      "start": 62,
+      "end": 82
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 29,
+  "end": 83
 }
 ```

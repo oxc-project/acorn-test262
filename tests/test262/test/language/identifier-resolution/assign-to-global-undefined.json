@@ -1,36 +1,24 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 558,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 522,
-      "end": 557,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 522,
-        "end": 556,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "undeclared",
           "start": 522,
-          "end": 532,
-          "name": "undeclared"
+          "end": 532
         },
         "right": {
           "type": "ParenthesizedExpression",
-          "start": 535,
-          "end": 556,
           "expression": {
             "type": "AssignmentExpression",
-            "start": 536,
-            "end": 555,
             "operator": "=",
             "left": {
               "type": "MemberExpression",
-              "start": 536,
-              "end": 551,
               "object": {
                 "type": "ThisExpression",
                 "start": 536,
@@ -38,25 +26,37 @@
               },
               "property": {
                 "type": "Identifier",
+                "name": "undeclared",
                 "start": 541,
-                "end": 551,
-                "name": "undeclared"
+                "end": 551
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 536,
+              "end": 551
             },
             "right": {
               "type": "Literal",
-              "start": 554,
-              "end": 555,
               "value": 5,
-              "raw": "5"
-            }
-          }
-        }
-      }
+              "raw": "5",
+              "start": 554,
+              "end": 555
+            },
+            "start": 536,
+            "end": 555
+          },
+          "start": 535,
+          "end": 556
+        },
+        "start": 522,
+        "end": 556
+      },
+      "start": 522,
+      "end": 557
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 558
 }

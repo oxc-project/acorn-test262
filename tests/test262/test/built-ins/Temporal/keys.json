@@ -1,105 +1,105 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 335,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 268,
-      "end": 303,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 274,
-          "end": 302,
           "id": {
             "type": "Identifier",
+            "name": "keys",
             "start": 274,
-            "end": 278,
-            "name": "keys"
+            "end": 278
           },
           "init": {
             "type": "CallExpression",
-            "start": 281,
-            "end": 302,
             "callee": {
               "type": "MemberExpression",
-              "start": 281,
-              "end": 292,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 281,
-                "end": 287,
-                "name": "Object"
+                "end": 287
               },
               "property": {
                 "type": "Identifier",
+                "name": "keys",
                 "start": 288,
-                "end": 292,
-                "name": "keys"
+                "end": 292
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 281,
+              "end": 292
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 293,
-                "end": 301,
-                "name": "Temporal"
+                "end": 301
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 281,
+            "end": 302
+          },
+          "start": 274,
+          "end": 302
         }
-      ]
+      ],
+      "start": 268,
+      "end": 303
     },
     {
       "type": "ExpressionStatement",
-      "start": 304,
-      "end": 334,
       "expression": {
         "type": "CallExpression",
-        "start": 304,
-        "end": 333,
         "callee": {
           "type": "MemberExpression",
-          "start": 304,
-          "end": 323,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 304,
-            "end": 310,
-            "name": "assert"
+            "end": 310
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 311,
-            "end": 323,
-            "name": "compareArray"
+            "end": 323
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 304,
+          "end": 323
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "keys",
             "start": 324,
-            "end": 328,
-            "name": "keys"
+            "end": 328
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 330,
-            "end": 332,
-            "elements": []
+            "end": 332
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 304,
+        "end": 333
+      },
+      "start": 304,
+      "end": 334
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 335
 }

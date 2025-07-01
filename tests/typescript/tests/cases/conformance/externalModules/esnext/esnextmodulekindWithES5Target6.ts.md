@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 100,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 29,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 29,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 18,
           "decorators": [],
           "name": "f1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 18
         },
         "generator": false,
         "async": false,
@@ -29,59 +23,59 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "AssignmentPattern",
-            "start": 19,
-            "end": 24,
             "decorators": [],
             "left": {
               "type": "Identifier",
-              "start": 19,
-              "end": 20,
               "decorators": [],
               "name": "d",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 20
             },
             "right": {
               "type": "Literal",
-              "start": 23,
-              "end": 24,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 23,
+              "end": 24
             },
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 19,
+            "end": 24
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 26,
-          "end": 29,
-          "body": []
+          "end": 29
         },
-        "expression": false
+        "expression": false,
+        "start": 7,
+        "end": 29
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 29
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 31,
-      "end": 61,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 38,
-        "end": 61,
         "id": {
           "type": "Identifier",
-          "start": 47,
-          "end": 49,
           "decorators": [],
           "name": "f2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 47,
+          "end": 49
         },
         "generator": false,
         "async": false,
@@ -90,53 +84,53 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "RestElement",
-            "start": 50,
-            "end": 56,
             "decorators": [],
             "argument": {
               "type": "Identifier",
-              "start": 53,
-              "end": 56,
               "decorators": [],
               "name": "arg",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 53,
+              "end": 56
             },
             "optional": false,
             "typeAnnotation": null,
-            "value": null
+            "value": null,
+            "start": 50,
+            "end": 56
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 58,
-          "end": 61,
-          "body": []
+          "end": 61
         },
-        "expression": false
+        "expression": false,
+        "start": 38,
+        "end": 61
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 31,
+      "end": 61
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 63,
-      "end": 100,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 78,
-        "end": 100,
         "id": {
           "type": "Identifier",
-          "start": 87,
-          "end": 89,
           "decorators": [],
           "name": "f3",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 87,
+          "end": 89
         },
         "generator": false,
         "async": false,
@@ -145,42 +139,48 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "AssignmentPattern",
-            "start": 90,
-            "end": 95,
             "decorators": [],
             "left": {
               "type": "Identifier",
-              "start": 90,
-              "end": 91,
               "decorators": [],
               "name": "d",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 90,
+              "end": 91
             },
             "right": {
               "type": "Literal",
-              "start": 94,
-              "end": 95,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 94,
+              "end": 95
             },
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 90,
+            "end": 95
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 97,
-          "end": 100,
-          "body": []
+          "end": 100
         },
-        "expression": false
+        "expression": false,
+        "start": 78,
+        "end": 100
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 63,
+      "end": 100
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 100
 }
 ```

@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 60,
-  "end": 242,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 60,
-      "end": 101,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 67,
-        "end": 101,
         "id": {
           "type": "Identifier",
-          "start": 76,
-          "end": 80,
           "decorators": [],
           "name": "inJs",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 76,
+          "end": 80
         },
         "generator": false,
         "async": false,
@@ -29,174 +23,180 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "Identifier",
-            "start": 81,
-            "end": 82,
             "decorators": [],
             "name": "l",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 81,
+            "end": 82
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 84,
-          "end": 101,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 90,
-              "end": 99,
               "argument": {
                 "type": "Identifier",
-                "start": 97,
-                "end": 98,
                 "decorators": [],
                 "name": "l",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 97,
+                "end": 98
+              },
+              "start": 90,
+              "end": 99
             }
-          ]
+          ],
+          "start": 84,
+          "end": 101
         },
-        "expression": false
+        "expression": false,
+        "start": 67,
+        "end": 101
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 60,
+      "end": 101
     },
     {
       "type": "ExpressionStatement",
-      "start": 102,
-      "end": 110,
       "expression": {
         "type": "CallExpression",
-        "start": 102,
-        "end": 109,
         "callee": {
           "type": "Identifier",
-          "start": 102,
-          "end": 106,
           "decorators": [],
           "name": "inJs",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 102,
+          "end": 106
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 107,
-            "end": 108,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 107,
+            "end": 108
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 102,
+        "end": 109
       },
-      "directive": null
+      "directive": null,
+      "start": 102,
+      "end": 110
     },
     {
       "type": "VariableDeclaration",
-      "start": 150,
-      "end": 192,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 156,
-          "end": 192,
           "id": {
             "type": "Identifier",
-            "start": 156,
-            "end": 165,
             "decorators": [],
             "name": "inJsArrow",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 156,
+            "end": 165
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 168,
-            "end": 192,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 169,
-                "end": 170,
                 "decorators": [],
                 "name": "j",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 169,
+                "end": 170
               }
             ],
             "returnType": null,
             "body": {
               "type": "BlockStatement",
-              "start": 175,
-              "end": 192,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 181,
-                  "end": 190,
                   "argument": {
                     "type": "Identifier",
-                    "start": 188,
-                    "end": 189,
                     "decorators": [],
                     "name": "j",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "start": 188,
+                    "end": 189
+                  },
+                  "start": 181,
+                  "end": 190
                 }
-              ]
+              ],
+              "start": 175,
+              "end": 192
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 168,
+            "end": 192
           },
-          "definite": false
+          "definite": false,
+          "start": 156,
+          "end": 192
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 150,
+      "end": 192
     },
     {
       "type": "ExpressionStatement",
-      "start": 193,
-      "end": 206,
       "expression": {
         "type": "CallExpression",
-        "start": 193,
-        "end": 205,
         "callee": {
           "type": "Identifier",
-          "start": 193,
-          "end": 202,
           "decorators": [],
           "name": "inJsArrow",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 193,
+          "end": 202
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 203,
-            "end": 204,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 203,
+            "end": 204
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 193,
+        "end": 205
       },
-      "directive": null
+      "directive": null,
+      "start": 193,
+      "end": 206
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 60,
+  "end": 242
 }
 ```

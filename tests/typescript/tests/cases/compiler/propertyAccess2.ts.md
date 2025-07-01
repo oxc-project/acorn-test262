@@ -2,84 +2,84 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 29,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 16,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 15,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 15,
             "decorators": [],
             "name": "foo",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 7,
-              "end": 15,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 9,
                 "end": 15
-              }
-            }
+              },
+              "start": 7,
+              "end": 15
+            },
+            "start": 4,
+            "end": 15
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 15
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 16
     },
     {
       "type": "ExpressionStatement",
-      "start": 17,
-      "end": 29,
       "expression": {
         "type": "CallExpression",
-        "start": 17,
-        "end": 28,
         "callee": {
           "type": "MemberExpression",
-          "start": 17,
-          "end": 26,
           "object": {
             "type": "Identifier",
-            "start": 17,
-            "end": 20,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 17,
+            "end": 20
           },
           "property": {
             "type": "Identifier",
-            "start": 21,
-            "end": 26,
             "decorators": [],
             "name": "toBAZ",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 21,
+            "end": 26
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 17,
+          "end": 26
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 17,
+        "end": 28
       },
-      "directive": null
+      "directive": null,
+      "start": 17,
+      "end": 29
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 29
 }
 ```

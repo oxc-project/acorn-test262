@@ -1,244 +1,244 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 612,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 296,
-      "end": 405,
       "expression": {
         "type": "CallExpression",
-        "start": 296,
-        "end": 404,
         "callee": {
           "type": "MemberExpression",
-          "start": 296,
-          "end": 312,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 296,
-            "end": 302,
-            "name": "assert"
+            "end": 302
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 303,
-            "end": 312,
-            "name": "sameValue"
+            "end": 312
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 296,
+          "end": 312
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 313,
-            "end": 328,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 320,
-              "end": 328,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 320,
-                "end": 324,
-                "name": "Math"
+                "end": 324
               },
               "property": {
                 "type": "Identifier",
+                "name": "min",
                 "start": 325,
-                "end": 328,
-                "name": "min"
+                "end": 328
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 320,
+              "end": 328
             },
-            "prefix": true
+            "prefix": true,
+            "start": 313,
+            "end": 328
           },
           {
             "type": "Literal",
-            "start": 330,
-            "end": 340,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 330,
+            "end": 340
           },
           {
             "type": "Literal",
-            "start": 342,
-            "end": 403,
             "value": "The value of `typeof Math.min` is expected to be \"function\"",
-            "raw": "'The value of `typeof Math.min` is expected to be \"function\"'"
+            "raw": "'The value of `typeof Math.min` is expected to be \"function\"'",
+            "start": 342,
+            "end": 403
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 296,
+        "end": 404
+      },
+      "start": 296,
+      "end": 405
     },
     {
       "type": "ExpressionStatement",
-      "start": 406,
-      "end": 521,
       "expression": {
         "type": "CallExpression",
-        "start": 406,
-        "end": 520,
         "callee": {
           "type": "MemberExpression",
-          "start": 406,
-          "end": 425,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 406,
-            "end": 412,
-            "name": "assert"
+            "end": 412
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 413,
-            "end": 425,
-            "name": "notSameValue"
+            "end": 425
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 406,
+          "end": 425
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 426,
-            "end": 448,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 433,
-              "end": 448,
               "object": {
                 "type": "MemberExpression",
-                "start": 433,
-                "end": 441,
                 "object": {
                   "type": "Identifier",
+                  "name": "Math",
                   "start": 433,
-                  "end": 437,
-                  "name": "Math"
+                  "end": 437
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "min",
                   "start": 438,
-                  "end": 441,
-                  "name": "min"
+                  "end": 441
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 433,
+                "end": 441
               },
               "property": {
                 "type": "Identifier",
+                "name": "length",
                 "start": 442,
-                "end": 448,
-                "name": "length"
+                "end": 448
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 433,
+              "end": 448
             },
-            "prefix": true
+            "prefix": true,
+            "start": 426,
+            "end": 448
           },
           {
             "type": "Literal",
-            "start": 450,
-            "end": 461,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 450,
+            "end": 461
           },
           {
             "type": "Literal",
-            "start": 463,
-            "end": 519,
             "value": "The value of typeof Math.min.length is not \"undefined\"",
-            "raw": "'The value of typeof Math.min.length is not \"undefined\"'"
+            "raw": "'The value of typeof Math.min.length is not \"undefined\"'",
+            "start": 463,
+            "end": 519
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 406,
+        "end": 520
+      },
+      "start": 406,
+      "end": 521
     },
     {
       "type": "ExpressionStatement",
-      "start": 522,
-      "end": 611,
       "expression": {
         "type": "CallExpression",
-        "start": 522,
-        "end": 610,
         "callee": {
           "type": "MemberExpression",
-          "start": 522,
-          "end": 538,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 522,
-            "end": 528,
-            "name": "assert"
+            "end": 528
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 529,
-            "end": 538,
-            "name": "sameValue"
+            "end": 538
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 522,
+          "end": 538
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 539,
-            "end": 554,
             "object": {
               "type": "MemberExpression",
-              "start": 539,
-              "end": 547,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 539,
-                "end": 543,
-                "name": "Math"
+                "end": 543
               },
               "property": {
                 "type": "Identifier",
+                "name": "min",
                 "start": 544,
-                "end": 547,
-                "name": "min"
+                "end": 547
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 539,
+              "end": 547
             },
             "property": {
               "type": "Identifier",
+              "name": "length",
               "start": 548,
-              "end": 554,
-              "name": "length"
+              "end": 554
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 539,
+            "end": 554
           },
           {
             "type": "Literal",
-            "start": 556,
-            "end": 557,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 556,
+            "end": 557
           },
           {
             "type": "Literal",
-            "start": 559,
-            "end": 609,
             "value": "The value of Math.min.length is expected to be 2",
-            "raw": "'The value of Math.min.length is expected to be 2'"
+            "raw": "'The value of Math.min.length is expected to be 2'",
+            "start": 559,
+            "end": 609
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 522,
+        "end": 610
+      },
+      "start": 522,
+      "end": 611
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 612
 }

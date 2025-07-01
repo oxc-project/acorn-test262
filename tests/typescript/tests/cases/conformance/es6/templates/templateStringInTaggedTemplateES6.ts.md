@@ -2,135 +2,135 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 75,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 75,
       "expression": {
         "type": "TaggedTemplateExpression",
-        "start": 0,
-        "end": 75,
         "tag": {
           "type": "TemplateLiteral",
-          "start": 0,
-          "end": 37,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 0,
-              "end": 12,
               "value": {
                 "raw": "I AM THE ",
                 "cooked": "I AM THE "
               },
-              "tail": false
+              "tail": false,
+              "start": 0,
+              "end": 12
             },
             {
               "type": "TemplateElement",
-              "start": 27,
-              "end": 37,
               "value": {
                 "raw": " PORTION",
                 "cooked": " PORTION"
               },
-              "tail": true
+              "tail": true,
+              "start": 27,
+              "end": 37
             }
           ],
           "expressions": [
             {
               "type": "TemplateLiteral",
-              "start": 13,
-              "end": 26,
               "quasis": [
                 {
                   "type": "TemplateElement",
-                  "start": 13,
-                  "end": 16,
                   "value": {
                     "raw": "",
                     "cooked": ""
                   },
-                  "tail": false
+                  "tail": false,
+                  "start": 13,
+                  "end": 16
                 },
                 {
                   "type": "TemplateElement",
-                  "start": 23,
-                  "end": 26,
                   "value": {
                     "raw": " ",
                     "cooked": " "
                   },
-                  "tail": true
+                  "tail": true,
+                  "start": 23,
+                  "end": 26
                 }
               ],
               "expressions": [
                 {
                   "type": "TemplateLiteral",
-                  "start": 17,
-                  "end": 22,
                   "quasis": [
                     {
                       "type": "TemplateElement",
-                      "start": 17,
-                      "end": 22,
                       "value": {
                         "raw": "TAG",
                         "cooked": "TAG"
                       },
-                      "tail": true
+                      "tail": true,
+                      "start": 17,
+                      "end": 22
                     }
                   ],
-                  "expressions": []
+                  "expressions": [],
+                  "start": 17,
+                  "end": 22
                 }
-              ]
+              ],
+              "start": 13,
+              "end": 26
             }
-          ]
+          ],
+          "start": 0,
+          "end": 37
         },
         "typeArguments": null,
         "quasi": {
           "type": "TemplateLiteral",
-          "start": 41,
-          "end": 75,
           "quasis": [
             {
               "type": "TemplateElement",
-              "start": 41,
-              "end": 46,
               "value": {
                 "raw": "I ",
                 "cooked": "I "
               },
-              "tail": false
+              "tail": false,
+              "start": 41,
+              "end": 46
             },
             {
               "type": "TemplateElement",
-              "start": 52,
-              "end": 75,
               "value": {
                 "raw": " THE TEMPLATE PORTION",
                 "cooked": " THE TEMPLATE PORTION"
               },
-              "tail": true
+              "tail": true,
+              "start": 52,
+              "end": 75
             }
           ],
           "expressions": [
             {
               "type": "Literal",
-              "start": 47,
-              "end": 51,
               "value": "AM",
-              "raw": "\"AM\""
+              "raw": "\"AM\"",
+              "start": 47,
+              "end": 51
             }
-          ]
-        }
+          ],
+          "start": 41,
+          "end": 75
+        },
+        "start": 0,
+        "end": 75
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 75
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 75
 }
 ```

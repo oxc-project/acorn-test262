@@ -2,50 +2,38 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 42,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 42,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 42,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 12,
-            "end": 40,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 16,
-                "end": 40,
                 "id": {
                   "type": "Identifier",
-                  "start": 16,
-                  "end": 17,
                   "decorators": [],
                   "name": "f",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 16,
+                  "end": 17
                 },
                 "init": {
                   "type": "ArrowFunctionExpression",
-                  "start": 20,
-                  "end": 40,
                   "expression": false,
                   "async": false,
                   "typeParameters": null,
@@ -53,17 +41,11 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 26,
-                    "end": 40,
                     "body": [
                       {
                         "type": "ExpressionStatement",
-                        "start": 27,
-                        "end": 39,
                         "expression": {
                           "type": "MemberExpression",
-                          "start": 27,
-                          "end": 38,
                           "object": {
                             "type": "ThisExpression",
                             "start": 27,
@@ -71,36 +53,54 @@ __ESTREE_TEST__:PASS:
                           },
                           "property": {
                             "type": "Identifier",
-                            "start": 32,
-                            "end": 38,
                             "decorators": [],
                             "name": "window",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 32,
+                            "end": 38
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 27,
+                          "end": 38
                         },
-                        "directive": null
+                        "directive": null,
+                        "start": 27,
+                        "end": 39
                       }
-                    ]
+                    ],
+                    "start": 26,
+                    "end": 40
                   },
                   "id": null,
-                  "generator": false
+                  "generator": false,
+                  "start": 20,
+                  "end": 40
                 },
-                "definite": false
+                "definite": false,
+                "start": 16,
+                "end": 40
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 12,
+            "end": 40
           }
-        ]
+        ],
+        "start": 9,
+        "end": 42
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 42
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 42
 }
 ```

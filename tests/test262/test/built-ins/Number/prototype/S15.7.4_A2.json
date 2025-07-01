@@ -1,94 +1,94 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 493,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 360,
-      "end": 492,
       "expression": {
         "type": "CallExpression",
-        "start": 360,
-        "end": 491,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 360,
-          "end": 366,
-          "name": "assert"
+          "end": 366
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 370,
-            "end": 418,
             "callee": {
               "type": "MemberExpression",
-              "start": 370,
-              "end": 400,
               "object": {
                 "type": "MemberExpression",
-                "start": 370,
-                "end": 386,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 370,
-                  "end": 376,
-                  "name": "Object"
+                  "end": 376
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 377,
-                  "end": 386,
-                  "name": "prototype"
+                  "end": 386
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 370,
+                "end": 386
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 387,
-                "end": 400,
-                "name": "isPrototypeOf"
+                "end": 400
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 370,
+              "end": 400
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 401,
-                "end": 417,
                 "object": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 401,
-                  "end": 407,
-                  "name": "Number"
+                  "end": 407
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 408,
-                  "end": 417,
-                  "name": "prototype"
+                  "end": 417
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 401,
+                "end": 417
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 370,
+            "end": 418
           },
           {
             "type": "Literal",
-            "start": 422,
-            "end": 489,
             "value": "Object.prototype.isPrototypeOf(Number.prototype) must return true",
-            "raw": "'Object.prototype.isPrototypeOf(Number.prototype) must return true'"
+            "raw": "'Object.prototype.isPrototypeOf(Number.prototype) must return true'",
+            "start": 422,
+            "end": 489
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 360,
+        "end": 491
+      },
+      "start": 360,
+      "end": 492
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 493
 }

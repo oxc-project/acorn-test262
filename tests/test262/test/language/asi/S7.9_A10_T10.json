@@ -1,51 +1,51 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 296,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 287,
-      "end": 293,
       "body": [
         {
           "type": "LabeledStatement",
-          "start": 288,
-          "end": 291,
           "label": {
             "type": "Identifier",
+            "name": "a",
             "start": 288,
-            "end": 289,
-            "name": "a"
+            "end": 289
           },
           "body": {
             "type": "ExpressionStatement",
-            "start": 290,
-            "end": 291,
             "expression": {
               "type": "Literal",
-              "start": 290,
-              "end": 291,
               "value": 1,
-              "raw": "1"
-            }
-          }
+              "raw": "1",
+              "start": 290,
+              "end": 291
+            },
+            "start": 290,
+            "end": 291
+          },
+          "start": 288,
+          "end": 291
         }
-      ]
+      ],
+      "start": 287,
+      "end": 293
     },
     {
       "type": "ExpressionStatement",
-      "start": 294,
-      "end": 295,
       "expression": {
         "type": "Literal",
-        "start": 294,
-        "end": 295,
         "value": 3,
-        "raw": "3"
-      }
+        "raw": "3",
+        "start": 294,
+        "end": 295
+      },
+      "start": 294,
+      "end": 295
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 296
 }

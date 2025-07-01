@@ -1,60 +1,60 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 381,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 350,
-      "end": 367,
       "id": {
         "type": "Identifier",
+        "name": "foo",
         "start": 359,
-        "end": 362,
-        "name": "foo"
+        "end": 362
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 365,
-        "end": 367,
-        "body": []
+        "end": 367
       },
-      "expression": false
+      "expression": false,
+      "start": 350,
+      "end": 367
     },
     {
       "type": "ExpressionStatement",
-      "start": 368,
-      "end": 380,
       "expression": {
         "type": "CallExpression",
-        "start": 368,
-        "end": 379,
         "callee": {
           "type": "Identifier",
+          "name": "foo",
           "start": 368,
-          "end": 371,
-          "name": "foo"
+          "end": 371
         },
         "arguments": [
           {
             "type": "SpreadElement",
-            "start": 372,
-            "end": 377,
             "argument": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 375,
-              "end": 377,
-              "elements": []
-            }
+              "end": 377
+            },
+            "start": 372,
+            "end": 377
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 368,
+        "end": 379
+      },
+      "start": 368,
+      "end": 380
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 381
 }

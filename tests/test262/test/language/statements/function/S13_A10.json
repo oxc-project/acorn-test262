@@ -1,322 +1,322 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1050,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 240,
-      "end": 289,
       "id": {
         "type": "Identifier",
+        "name": "__ziggy__func",
         "start": 249,
-        "end": 262,
-        "name": "__ziggy__func"
+        "end": 262
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 264,
-        "end": 289,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 265,
-            "end": 288,
             "argument": {
               "type": "Literal",
-              "start": 272,
-              "end": 288,
               "value": "ziggy stardust",
-              "raw": "\"ziggy stardust\""
-            }
+              "raw": "\"ziggy stardust\"",
+              "start": 272,
+              "end": 288
+            },
+            "start": 265,
+            "end": 288
           }
-        ]
+        ],
+        "start": 264,
+        "end": 289
       },
-      "expression": false
+      "expression": false,
+      "start": 240,
+      "end": 289
     },
     {
       "type": "VariableDeclaration",
-      "start": 291,
-      "end": 310,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 295,
-          "end": 309,
           "id": {
             "type": "Identifier",
+            "name": "__music_box",
             "start": 295,
-            "end": 306,
-            "name": "__music_box"
+            "end": 306
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 307,
-            "end": 309,
-            "properties": []
-          }
+            "end": 309
+          },
+          "start": 295,
+          "end": 309
         }
-      ]
+      ],
+      "start": 291,
+      "end": 310
     },
     {
       "type": "ExpressionStatement",
-      "start": 312,
-      "end": 346,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 312,
-        "end": 345,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 312,
-          "end": 329,
           "object": {
             "type": "Identifier",
+            "name": "__music_box",
             "start": 312,
-            "end": 323,
-            "name": "__music_box"
+            "end": 323
           },
           "property": {
             "type": "Identifier",
+            "name": "ziggy",
             "start": 324,
-            "end": 329,
-            "name": "ziggy"
+            "end": 329
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 312,
+          "end": 329
         },
         "right": {
           "type": "Identifier",
+          "name": "__ziggy__func",
           "start": 332,
-          "end": 345,
-          "name": "__ziggy__func"
-        }
-      }
+          "end": 345
+        },
+        "start": 312,
+        "end": 345
+      },
+      "start": 312,
+      "end": 346
     },
     {
       "type": "IfStatement",
-      "start": 436,
-      "end": 619,
       "test": {
         "type": "BinaryExpression",
-        "start": 440,
-        "end": 479,
         "left": {
           "type": "UnaryExpression",
-          "start": 440,
-          "end": 464,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 447,
-            "end": 464,
             "object": {
               "type": "Identifier",
+              "name": "__music_box",
               "start": 447,
-              "end": 458,
-              "name": "__music_box"
+              "end": 458
             },
             "property": {
               "type": "Identifier",
+              "name": "ziggy",
               "start": 459,
-              "end": 464,
-              "name": "ziggy"
+              "end": 464
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 447,
+            "end": 464
           },
-          "prefix": true
+          "prefix": true,
+          "start": 440,
+          "end": 464
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 469,
-          "end": 479,
           "value": "function",
-          "raw": "\"function\""
-        }
+          "raw": "\"function\"",
+          "start": 469,
+          "end": 479
+        },
+        "start": 440,
+        "end": 479
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 481,
-        "end": 619,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 484,
-            "end": 617,
             "argument": {
               "type": "NewExpression",
-              "start": 490,
-              "end": 616,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 494,
-                "end": 506,
-                "name": "Test262Error"
+                "end": 506
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 507,
-                  "end": 615,
                   "left": {
                     "type": "Literal",
-                    "start": 507,
-                    "end": 590,
                     "value": "#1: typeof __music_box.ziggy === \"function\". Actual: typeof __music_box.ziggy ===",
-                    "raw": "'#1: typeof __music_box.ziggy === \"function\". Actual: typeof __music_box.ziggy ==='"
+                    "raw": "'#1: typeof __music_box.ziggy === \"function\". Actual: typeof __music_box.ziggy ==='",
+                    "start": 507,
+                    "end": 590
                   },
                   "operator": "+",
                   "right": {
                     "type": "UnaryExpression",
-                    "start": 591,
-                    "end": 615,
                     "operator": "typeof",
                     "argument": {
                       "type": "MemberExpression",
-                      "start": 598,
-                      "end": 615,
                       "object": {
                         "type": "Identifier",
+                        "name": "__music_box",
                         "start": 598,
-                        "end": 609,
-                        "name": "__music_box"
+                        "end": 609
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "ziggy",
                         "start": 610,
-                        "end": 615,
-                        "name": "ziggy"
+                        "end": 615
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 598,
+                      "end": 615
                     },
-                    "prefix": true
-                  }
+                    "prefix": true,
+                    "start": 591,
+                    "end": 615
+                  },
+                  "start": 507,
+                  "end": 615
                 }
-              ]
-            }
+              ],
+              "start": 490,
+              "end": 616
+            },
+            "start": 484,
+            "end": 617
           }
-        ]
+        ],
+        "start": 481,
+        "end": 619
       },
-      "alternate": null
+      "alternate": null,
+      "start": 436,
+      "end": 619
     },
     {
       "type": "IfStatement",
-      "start": 792,
-      "end": 967,
       "test": {
         "type": "BinaryExpression",
-        "start": 796,
-        "end": 836,
         "left": {
           "type": "CallExpression",
-          "start": 796,
-          "end": 815,
           "callee": {
             "type": "MemberExpression",
-            "start": 796,
-            "end": 813,
             "object": {
               "type": "Identifier",
+              "name": "__music_box",
               "start": 796,
-              "end": 807,
-              "name": "__music_box"
+              "end": 807
             },
             "property": {
               "type": "Identifier",
+              "name": "ziggy",
               "start": 808,
-              "end": 813,
-              "name": "ziggy"
+              "end": 813
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 796,
+            "end": 813
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 796,
+          "end": 815
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 820,
-          "end": 836,
           "value": "ziggy stardust",
-          "raw": "\"ziggy stardust\""
-        }
+          "raw": "\"ziggy stardust\"",
+          "start": 820,
+          "end": 836
+        },
+        "start": 796,
+        "end": 836
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 838,
-        "end": 967,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 841,
-            "end": 965,
             "argument": {
               "type": "NewExpression",
-              "start": 847,
-              "end": 964,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 851,
-                "end": 863,
-                "name": "Test262Error"
+                "end": 863
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 864,
-                  "end": 963,
                   "left": {
                     "type": "Literal",
-                    "start": 864,
-                    "end": 943,
                     "value": "#2: __music_box.ziggy() === \"ziggy stardust\". Actual: __music_box.ziggy() ===",
-                    "raw": "'#2: __music_box.ziggy() === \"ziggy stardust\". Actual: __music_box.ziggy() ==='"
+                    "raw": "'#2: __music_box.ziggy() === \"ziggy stardust\". Actual: __music_box.ziggy() ==='",
+                    "start": 864,
+                    "end": 943
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 944,
-                    "end": 963,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 944,
-                      "end": 961,
                       "object": {
                         "type": "Identifier",
+                        "name": "__music_box",
                         "start": 944,
-                        "end": 955,
-                        "name": "__music_box"
+                        "end": 955
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "ziggy",
                         "start": 956,
-                        "end": 961,
-                        "name": "ziggy"
+                        "end": 961
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 944,
+                      "end": 961
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 944,
+                    "end": 963
+                  },
+                  "start": 864,
+                  "end": 963
                 }
-              ]
-            }
+              ],
+              "start": 847,
+              "end": 964
+            },
+            "start": 841,
+            "end": 965
           }
-        ]
+        ],
+        "start": 838,
+        "end": 967
       },
-      "alternate": null
+      "alternate": null,
+      "start": 792,
+      "end": 967
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1050
 }

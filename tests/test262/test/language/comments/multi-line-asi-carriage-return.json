@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 542,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 532,
-      "end": 534,
       "expression": {
         "type": "Literal",
-        "start": 532,
-        "end": 534,
         "value": "",
-        "raw": "''"
+        "raw": "''",
+        "start": 532,
+        "end": 534
       },
-      "directive": ""
+      "directive": "",
+      "start": 532,
+      "end": 534
     },
     {
       "type": "ExpressionStatement",
-      "start": 539,
-      "end": 541,
       "expression": {
         "type": "Literal",
-        "start": 539,
-        "end": 541,
         "value": "",
-        "raw": "''"
+        "raw": "''",
+        "start": 539,
+        "end": 541
       },
-      "directive": ""
+      "directive": "",
+      "start": 539,
+      "end": 541
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 542
 }

@@ -1,170 +1,170 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 668,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 349,
-      "end": 422,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 353,
-          "end": 421,
           "id": {
             "type": "Identifier",
+            "name": "GeneratorFunction",
             "start": 353,
-            "end": 370,
-            "name": "GeneratorFunction"
+            "end": 370
           },
           "init": {
             "type": "MemberExpression",
-            "start": 373,
-            "end": 421,
             "object": {
               "type": "CallExpression",
-              "start": 373,
-              "end": 409,
               "callee": {
                 "type": "MemberExpression",
-                "start": 373,
-                "end": 394,
                 "object": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 373,
-                  "end": 379,
-                  "name": "Object"
+                  "end": 379
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "getPrototypeOf",
                   "start": 380,
-                  "end": 394,
-                  "name": "getPrototypeOf"
+                  "end": 394
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 373,
+                "end": 394
               },
               "arguments": [
                 {
                   "type": "FunctionExpression",
-                  "start": 395,
-                  "end": 408,
                   "id": null,
                   "generator": true,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 406,
-                    "end": 408,
-                    "body": []
+                    "end": 408
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 395,
+                  "end": 408
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 373,
+              "end": 409
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 410,
-              "end": 421,
-              "name": "constructor"
+              "end": 421
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 373,
+            "end": 421
+          },
+          "start": 353,
+          "end": 421
         }
-      ]
+      ],
+      "start": 349,
+      "end": 422
     },
     {
       "type": "VariableDeclaration",
-      "start": 423,
-      "end": 540,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 427,
-          "end": 528,
           "id": {
             "type": "Identifier",
+            "name": "g",
             "start": 427,
-            "end": 428,
-            "name": "g"
+            "end": 428
           },
           "init": {
             "type": "CallExpression",
-            "start": 443,
-            "end": 528,
             "callee": {
               "type": "Identifier",
+              "name": "GeneratorFunction",
               "start": 443,
-              "end": 460,
-              "name": "GeneratorFunction"
+              "end": 460
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 461,
-                "end": 464,
                 "value": "a",
-                "raw": "\"a\""
+                "raw": "\"a\"",
+                "start": 461,
+                "end": 464
               },
               {
                 "type": "Literal",
-                "start": 466,
-                "end": 492,
                 "value": " /* a */ b, c /* b */ //",
-                "raw": "\" /* a */ b, c /* b */ //\""
+                "raw": "\" /* a */ b, c /* b */ //\"",
+                "start": 466,
+                "end": 492
               },
               {
                 "type": "Literal",
-                "start": 494,
-                "end": 527,
                 "value": "/* c */ yield yield; /* d */ //",
-                "raw": "\"/* c */ yield yield; /* d */ //\""
+                "raw": "\"/* c */ yield yield; /* d */ //\"",
+                "start": 494,
+                "end": 527
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 443,
+            "end": 528
+          },
+          "start": 427,
+          "end": 528
         }
-      ]
+      ],
+      "start": 423,
+      "end": 540
     },
     {
       "type": "ExpressionStatement",
-      "start": 542,
-      "end": 667,
       "expression": {
         "type": "CallExpression",
-        "start": 542,
-        "end": 666,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 542,
-          "end": 572,
-          "name": "assertToStringOrNativeFunction"
+          "end": 572
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "g",
             "start": 573,
-            "end": 574,
-            "name": "g"
+            "end": 574
           },
           {
             "type": "Literal",
-            "start": 576,
-            "end": 665,
             "value": "function* anonymous(a, /* a */ b, c /* b */ //\n) {\n/* c */ yield yield; /* d */ //\n}",
-            "raw": "\"function* anonymous(a, /* a */ b, c /* b */ //\\n) {\\n/* c */ yield yield; /* d */ //\\n}\""
+            "raw": "\"function* anonymous(a, /* a */ b, c /* b */ //\\n) {\\n/* c */ yield yield; /* d */ //\\n}\"",
+            "start": 576,
+            "end": 665
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 542,
+        "end": 666
+      },
+      "start": 542,
+      "end": 667
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 668
 }

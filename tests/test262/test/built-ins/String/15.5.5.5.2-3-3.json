@@ -1,112 +1,112 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 507,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 424,
-      "end": 458,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 428,
-          "end": 457,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 428,
-            "end": 429,
-            "name": "s"
+            "end": 429
           },
           "init": {
             "type": "NewExpression",
-            "start": 432,
-            "end": 457,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 436,
-              "end": 442,
-              "name": "String"
+              "end": 442
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 443,
-                "end": 456,
                 "value": "hello world",
-                "raw": "\"hello world\""
+                "raw": "\"hello world\"",
+                "start": 443,
+                "end": 456
               }
-            ]
-          }
+            ],
+            "start": 432,
+            "end": 457
+          },
+          "start": 428,
+          "end": 457
         }
-      ]
+      ],
+      "start": 424,
+      "end": 458
     },
     {
       "type": "ExpressionStatement",
-      "start": 460,
-      "end": 506,
       "expression": {
         "type": "CallExpression",
-        "start": 460,
-        "end": 505,
         "callee": {
           "type": "MemberExpression",
-          "start": 460,
-          "end": 476,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 460,
-            "end": 466,
-            "name": "assert"
+            "end": 466
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 467,
-            "end": 476,
-            "name": "sameValue"
+            "end": 476
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 460,
+          "end": 476
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 477,
-            "end": 483,
             "object": {
               "type": "Identifier",
+              "name": "s",
               "start": 477,
-              "end": 478,
-              "name": "s"
+              "end": 478
             },
             "property": {
               "type": "Identifier",
+              "name": "NaN",
               "start": 479,
-              "end": 482,
-              "name": "NaN"
+              "end": 482
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 477,
+            "end": 483
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 485,
-            "end": 494,
-            "name": "undefined"
+            "end": 494
           },
           {
             "type": "Literal",
-            "start": 496,
-            "end": 504,
             "value": "s[NaN]",
-            "raw": "'s[NaN]'"
+            "raw": "'s[NaN]'",
+            "start": 496,
+            "end": 504
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 460,
+        "end": 505
+      },
+      "start": 460,
+      "end": 506
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 507
 }

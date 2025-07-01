@@ -1,178 +1,178 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 726,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 477,
-      "end": 540,
       "expression": {
         "type": "CallExpression",
-        "start": 477,
-        "end": 539,
         "callee": {
           "type": "MemberExpression",
-          "start": 477,
-          "end": 493,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 477,
-            "end": 483,
-            "name": "assert"
+            "end": 483
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 484,
-            "end": 493,
-            "name": "sameValue"
+            "end": 493
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 477,
+          "end": 493
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 494,
-            "end": 526,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 501,
-              "end": 526,
               "object": {
                 "type": "Identifier",
+                "name": "$262",
                 "start": 501,
-                "end": 505,
-                "name": "$262"
+                "end": 505
               },
               "property": {
                 "type": "Identifier",
+                "name": "AbstractModuleSource",
                 "start": 506,
-                "end": 526,
-                "name": "AbstractModuleSource"
+                "end": 526
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 501,
+              "end": 526
             },
-            "prefix": true
+            "prefix": true,
+            "start": 494,
+            "end": 526
           },
           {
             "type": "Literal",
-            "start": 528,
-            "end": 538,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 528,
+            "end": 538
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 477,
+        "end": 539
+      },
+      "start": 477,
+      "end": 540
     },
     {
       "type": "ExpressionStatement",
-      "start": 541,
-      "end": 725,
       "expression": {
         "type": "CallExpression",
-        "start": 541,
-        "end": 724,
         "callee": {
           "type": "MemberExpression",
-          "start": 541,
-          "end": 557,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 541,
-            "end": 547,
-            "name": "assert"
+            "end": 547
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 548,
-            "end": 557,
-            "name": "sameValue"
+            "end": 557
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 541,
+          "end": 557
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 561,
-            "end": 609,
             "callee": {
               "type": "MemberExpression",
-              "start": 561,
-              "end": 582,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 561,
-                "end": 567,
-                "name": "Object"
+                "end": 567
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 568,
-                "end": 582,
-                "name": "getPrototypeOf"
+                "end": 582
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 561,
+              "end": 582
             },
             "arguments": [
               {
                 "type": "MemberExpression",
-                "start": 583,
-                "end": 608,
                 "object": {
                   "type": "Identifier",
+                  "name": "$262",
                   "start": 583,
-                  "end": 587,
-                  "name": "$262"
+                  "end": 587
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "AbstractModuleSource",
                   "start": 588,
-                  "end": 608,
-                  "name": "AbstractModuleSource"
+                  "end": 608
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 583,
+                "end": 608
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 561,
+            "end": 609
           },
           {
             "type": "MemberExpression",
-            "start": 613,
-            "end": 631,
             "object": {
               "type": "Identifier",
+              "name": "Function",
               "start": 613,
-              "end": 621,
-              "name": "Function"
+              "end": 621
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 622,
-              "end": 631,
-              "name": "prototype"
+              "end": 631
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 613,
+            "end": 631
           },
           {
             "type": "Literal",
-            "start": 635,
-            "end": 722,
             "value": "Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`",
-            "raw": "'Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`'"
+            "raw": "'Object.getPrototypeOf(AbstractModuleSource) returns the value of `Function.prototype`'",
+            "start": 635,
+            "end": 722
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 541,
+        "end": 724
+      },
+      "start": 541,
+      "end": 725
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 726
 }

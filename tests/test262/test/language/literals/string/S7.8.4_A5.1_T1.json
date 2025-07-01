@@ -1,94 +1,94 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 363,
   "body": [
     {
       "type": "IfStatement",
-      "start": 246,
-      "end": 362,
       "test": {
         "type": "BinaryExpression",
-        "start": 250,
-        "end": 286,
         "left": {
           "type": "CallExpression",
-          "start": 250,
-          "end": 277,
           "callee": {
             "type": "MemberExpression",
-            "start": 250,
-            "end": 269,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 250,
-              "end": 256,
-              "name": "String"
+              "end": 256
             },
             "property": {
               "type": "Identifier",
+              "name": "fromCharCode",
               "start": 257,
-              "end": 269,
-              "name": "fromCharCode"
+              "end": 269
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 250,
+            "end": 269
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 270,
-              "end": 276,
               "value": 0,
-              "raw": "0x0000"
+              "raw": "0x0000",
+              "start": 270,
+              "end": 276
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 250,
+          "end": 277
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 282,
-          "end": 286,
           "value": "\u0000",
-          "raw": "\"\\0\""
-        }
+          "raw": "\"\\0\"",
+          "start": 282,
+          "end": 286
+        },
+        "start": 250,
+        "end": 286
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 288,
-        "end": 362,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 292,
-            "end": 360,
             "argument": {
               "type": "NewExpression",
-              "start": 298,
-              "end": 359,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 302,
-                "end": 314,
-                "name": "Test262Error"
+                "end": 314
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 315,
-                  "end": 358,
                   "value": "#1: String.fromCharCode(0x0000) === \"\\0\"",
-                  "raw": "'#1: String.fromCharCode(0x0000) === \"\\\\0\"'"
+                  "raw": "'#1: String.fromCharCode(0x0000) === \"\\\\0\"'",
+                  "start": 315,
+                  "end": 358
                 }
-              ]
-            }
+              ],
+              "start": 298,
+              "end": 359
+            },
+            "start": 292,
+            "end": 360
           }
-        ]
+        ],
+        "start": 288,
+        "end": 362
       },
-      "alternate": null
+      "alternate": null,
+      "start": 246,
+      "end": 362
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 363
 }

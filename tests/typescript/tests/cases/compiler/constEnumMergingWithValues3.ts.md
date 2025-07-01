@@ -2,127 +2,127 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 66,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 14,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 8,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 8
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 9,
-        "end": 14,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 11,
-            "end": 12,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "A",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 11,
+            "end": 12
           }
-        ]
+        ],
+        "start": 9,
+        "end": 14
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 15,
-      "end": 52,
       "id": {
         "type": "Identifier",
-        "start": 22,
-        "end": 25,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 22,
+        "end": 25
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 26,
-        "end": 52,
         "body": [
           {
             "type": "TSEnumDeclaration",
-            "start": 32,
-            "end": 50,
             "id": {
               "type": "Identifier",
-              "start": 43,
-              "end": 44,
               "decorators": [],
               "name": "E",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 43,
+              "end": 44
             },
             "body": {
               "type": "TSEnumBody",
-              "start": 45,
-              "end": 50,
               "members": [
                 {
                   "type": "TSEnumMember",
-                  "start": 47,
-                  "end": 48,
                   "id": {
                     "type": "Identifier",
-                    "start": 47,
-                    "end": 48,
                     "decorators": [],
                     "name": "X",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 47,
+                    "end": 48
                   },
                   "initializer": null,
-                  "computed": false
+                  "computed": false,
+                  "start": 47,
+                  "end": 48
                 }
-              ]
+              ],
+              "start": 45,
+              "end": 50
             },
             "const": true,
-            "declare": false
+            "declare": false,
+            "start": 32,
+            "end": 50
           }
-        ]
+        ],
+        "start": 26,
+        "end": 52
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 15,
+      "end": 52
     },
     {
       "type": "TSExportAssignment",
-      "start": 54,
-      "end": 66,
       "expression": {
         "type": "Identifier",
-        "start": 63,
-        "end": 66,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 63,
+        "end": 66
+      },
+      "start": 54,
+      "end": 66
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 66
 }
 ```

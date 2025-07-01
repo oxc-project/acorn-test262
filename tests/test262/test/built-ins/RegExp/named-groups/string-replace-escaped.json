@@ -1,213 +1,213 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 773,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 614,
-      "end": 639,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 618,
-          "end": 638,
           "id": {
             "type": "Identifier",
+            "name": "source",
             "start": 618,
-            "end": 624,
-            "name": "source"
+            "end": 624
           },
           "init": {
             "type": "Literal",
-            "start": 627,
-            "end": 638,
             "value": "(?<fst>.)",
-            "raw": "\"(?<fst>.)\""
-          }
+            "raw": "\"(?<fst>.)\"",
+            "start": 627,
+            "end": 638
+          },
+          "start": 618,
+          "end": 638
         }
-      ]
+      ],
+      "start": 614,
+      "end": 639
     },
     {
       "type": "ForOfStatement",
-      "start": 640,
-      "end": 772,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 645,
-        "end": 654,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 649,
-            "end": 654,
             "id": {
               "type": "Identifier",
+              "name": "flags",
               "start": 649,
-              "end": 654,
-              "name": "flags"
+              "end": 654
             },
-            "init": null
+            "init": null,
+            "start": 649,
+            "end": 654
           }
-        ]
+        ],
+        "start": 645,
+        "end": 654
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 658,
-        "end": 667,
         "elements": [
           {
             "type": "Literal",
-            "start": 659,
-            "end": 661,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "start": 659,
+            "end": 661
           },
           {
             "type": "Literal",
-            "start": 663,
-            "end": 666,
             "value": "u",
-            "raw": "\"u\""
+            "raw": "\"u\"",
+            "start": 663,
+            "end": 666
           }
-        ]
+        ],
+        "start": 658,
+        "end": 667
       },
       "body": {
         "type": "BlockStatement",
-        "start": 669,
-        "end": 772,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 673,
-            "end": 708,
             "kind": "let",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 677,
-                "end": 707,
                 "id": {
                   "type": "Identifier",
+                  "name": "re",
                   "start": 677,
-                  "end": 679,
-                  "name": "re"
+                  "end": 679
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 682,
-                  "end": 707,
                   "callee": {
                     "type": "Identifier",
+                    "name": "RegExp",
                     "start": 686,
-                    "end": 692,
-                    "name": "RegExp"
+                    "end": 692
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
+                      "name": "source",
                       "start": 693,
-                      "end": 699,
-                      "name": "source"
+                      "end": 699
                     },
                     {
                       "type": "Identifier",
+                      "name": "flags",
                       "start": 701,
-                      "end": 706,
-                      "name": "flags"
+                      "end": 706
                     }
-                  ]
-                }
+                  ],
+                  "start": 682,
+                  "end": 707
+                },
+                "start": 677,
+                "end": 707
               }
-            ]
+            ],
+            "start": 673,
+            "end": 708
           },
           {
             "type": "ExpressionStatement",
-            "start": 711,
-            "end": 770,
             "expression": {
               "type": "CallExpression",
-              "start": 711,
-              "end": 769,
               "callee": {
                 "type": "MemberExpression",
-                "start": 711,
-                "end": 727,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 711,
-                  "end": 717,
-                  "name": "assert"
+                  "end": 717
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 718,
-                  "end": 727,
-                  "name": "sameValue"
+                  "end": 727
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 711,
+                "end": 727
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 728,
-                  "end": 738,
                   "value": "$<fst>bc",
-                  "raw": "\"$<fst>bc\""
+                  "raw": "\"$<fst>bc\"",
+                  "start": 728,
+                  "end": 738
                 },
                 {
                   "type": "CallExpression",
-                  "start": 740,
-                  "end": 768,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 740,
-                    "end": 753,
                     "object": {
                       "type": "Literal",
-                      "start": 740,
-                      "end": 745,
                       "value": "abc",
-                      "raw": "\"abc\""
+                      "raw": "\"abc\"",
+                      "start": 740,
+                      "end": 745
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "replace",
                       "start": 746,
-                      "end": 753,
-                      "name": "replace"
+                      "end": 753
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 740,
+                    "end": 753
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
+                      "name": "re",
                       "start": 754,
-                      "end": 756,
-                      "name": "re"
+                      "end": 756
                     },
                     {
                       "type": "Literal",
-                      "start": 758,
-                      "end": 767,
                       "value": "$$<fst>",
-                      "raw": "\"$$<fst>\""
+                      "raw": "\"$$<fst>\"",
+                      "start": 758,
+                      "end": 767
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 740,
+                  "end": 768
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 711,
+              "end": 769
+            },
+            "start": 711,
+            "end": 770
           }
-        ]
-      }
+        ],
+        "start": 669,
+        "end": 772
+      },
+      "start": 640,
+      "end": 772
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 773
 }

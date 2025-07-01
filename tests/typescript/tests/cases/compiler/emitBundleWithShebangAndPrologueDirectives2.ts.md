@@ -2,35 +2,31 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 73,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 31,
       "expression": {
         "type": "Literal",
-        "start": 19,
-        "end": 31,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 19,
+        "end": 31
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 19,
+      "end": 31
     },
     {
       "type": "ClassDeclaration",
-      "start": 32,
-      "end": 44,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 38,
-        "end": 41,
         "decorators": [],
         "name": "Doo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 38,
+        "end": 41
       },
       "typeParameters": null,
       "superClass": null,
@@ -38,99 +34,99 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 42,
-        "end": 44,
-        "body": []
+        "end": 44
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 32,
+      "end": 44
     },
     {
       "type": "ClassDeclaration",
-      "start": 45,
-      "end": 72,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 51,
-        "end": 57,
         "decorators": [],
         "name": "Scooby",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 51,
+        "end": 57
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 66,
-        "end": 69,
         "decorators": [],
         "name": "Doo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 66,
+        "end": 69
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 70,
-        "end": 72,
-        "body": []
+        "end": 72
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 45,
+      "end": 72
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 19,
+  "end": 73
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 19,
-  "end": 94,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 31,
       "expression": {
         "type": "Literal",
-        "start": 19,
-        "end": 31,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 19,
+        "end": 31
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 19,
+      "end": 31
     },
     {
       "type": "ExpressionStatement",
-      "start": 32,
-      "end": 50,
       "expression": {
         "type": "Literal",
-        "start": 32,
-        "end": 50,
         "value": "Another prologue",
-        "raw": "\"Another prologue\""
+        "raw": "\"Another prologue\"",
+        "start": 32,
+        "end": 50
       },
-      "directive": "Another prologue"
+      "directive": "Another prologue",
+      "start": 32,
+      "end": 50
     },
     {
       "type": "ClassDeclaration",
-      "start": 51,
-      "end": 64,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 61,
         "decorators": [],
         "name": "Dood",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 57,
+        "end": 61
       },
       "typeParameters": null,
       "superClass": null,
@@ -138,50 +134,54 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 62,
-        "end": 64,
-        "body": []
+        "end": 64
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 51,
+      "end": 64
     },
     {
       "type": "ClassDeclaration",
-      "start": 65,
-      "end": 94,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 71,
-        "end": 78,
         "decorators": [],
         "name": "Scoobyd",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 71,
+        "end": 78
       },
       "typeParameters": null,
       "superClass": {
         "type": "Identifier",
-        "start": 87,
-        "end": 91,
         "decorators": [],
         "name": "Dood",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 87,
+        "end": 91
       },
       "superTypeArguments": null,
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 92,
-        "end": 94,
-        "body": []
+        "end": 94
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 65,
+      "end": 94
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 19,
+  "end": 94
 }
 ```

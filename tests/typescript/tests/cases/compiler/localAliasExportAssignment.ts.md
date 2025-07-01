@@ -2,140 +2,140 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 29,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 28,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 28,
             "decorators": [],
             "name": "server",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 10,
-              "end": 28,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 12,
-                "end": 28,
                 "members": [
                   {
                     "type": "TSCallSignatureDeclaration",
-                    "start": 18,
-                    "end": 26,
                     "typeParameters": null,
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 20,
-                      "end": 25,
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",
                         "start": 22,
                         "end": 25
-                      }
-                    }
+                      },
+                      "start": 20,
+                      "end": 25
+                    },
+                    "start": 18,
+                    "end": 26
                   }
-                ]
-              }
-            }
+                ],
+                "start": 12,
+                "end": 28
+              },
+              "start": 10,
+              "end": 28
+            },
+            "start": 4,
+            "end": 28
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 28
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 29
     },
     {
       "type": "TSExportAssignment",
-      "start": 31,
-      "end": 47,
       "expression": {
         "type": "Identifier",
-        "start": 40,
-        "end": 46,
         "decorators": [],
         "name": "server",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 40,
+        "end": 46
+      },
+      "start": 31,
+      "end": 47
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 48
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 55,
-  "end": 128,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 55,
-      "end": 114,
       "id": {
         "type": "Identifier",
-        "start": 62,
-        "end": 69,
         "decorators": [],
         "name": "connect",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 62,
+        "end": 69
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 72,
-        "end": 113,
         "expression": {
           "type": "Literal",
-          "start": 80,
-          "end": 112,
           "value": "./localAliasExportAssignment_0",
-          "raw": "'./localAliasExportAssignment_0'"
-        }
+          "raw": "'./localAliasExportAssignment_0'",
+          "start": 80,
+          "end": 112
+        },
+        "start": 72,
+        "end": 113
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 55,
+      "end": 114
     },
     {
       "type": "ExpressionStatement",
-      "start": 116,
-      "end": 126,
       "expression": {
         "type": "CallExpression",
-        "start": 116,
-        "end": 125,
         "callee": {
           "type": "Identifier",
-          "start": 116,
-          "end": 123,
           "decorators": [],
           "name": "connect",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 116,
+          "end": 123
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 116,
+        "end": 125
       },
-      "directive": null
+      "directive": null,
+      "start": 116,
+      "end": 126
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 55,
+  "end": 128
 }
 ```

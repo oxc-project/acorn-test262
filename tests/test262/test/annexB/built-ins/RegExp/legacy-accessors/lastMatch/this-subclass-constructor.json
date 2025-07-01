@@ -1,206 +1,206 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 890,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 600,
-      "end": 632,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "MyRegExp",
         "start": 606,
-        "end": 614,
-        "name": "MyRegExp"
+        "end": 614
       },
       "superClass": {
         "type": "Identifier",
+        "name": "RegExp",
         "start": 623,
-        "end": 629,
-        "name": "RegExp"
+        "end": 629
       },
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 630,
-        "end": 632,
-        "body": []
-      }
+        "end": 632
+      },
+      "start": 600,
+      "end": 632
     },
     {
       "type": "ExpressionStatement",
-      "start": 634,
-      "end": 766,
       "expression": {
         "type": "CallExpression",
-        "start": 634,
-        "end": 765,
         "callee": {
           "type": "MemberExpression",
-          "start": 634,
-          "end": 647,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 634,
-            "end": 640,
-            "name": "assert"
+            "end": 640
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 641,
-            "end": 647,
-            "name": "throws"
+            "end": 647
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 634,
+          "end": 647
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 651,
-            "end": 660,
-            "name": "TypeError"
+            "end": 660
           },
           {
             "type": "FunctionExpression",
-            "start": 664,
-            "end": 705,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 676,
-              "end": 705,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 682,
-                  "end": 701,
                   "expression": {
                     "type": "MemberExpression",
-                    "start": 682,
-                    "end": 700,
                     "object": {
                       "type": "Identifier",
+                      "name": "MyRegExp",
                       "start": 682,
-                      "end": 690,
-                      "name": "MyRegExp"
+                      "end": 690
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "lastMatch",
                       "start": 691,
-                      "end": 700,
-                      "name": "lastMatch"
+                      "end": 700
                     },
                     "optional": false,
-                    "computed": false
-                  }
+                    "computed": false,
+                    "start": 682,
+                    "end": 700
+                  },
+                  "start": 682,
+                  "end": 701
                 }
-              ]
+              ],
+              "start": 676,
+              "end": 705
             },
-            "expression": false
+            "expression": false,
+            "start": 664,
+            "end": 705
           },
           {
             "type": "Literal",
-            "start": 709,
-            "end": 763,
             "value": "RegExp.lastMatch getter throws for subclass receiver",
-            "raw": "\"RegExp.lastMatch getter throws for subclass receiver\""
+            "raw": "\"RegExp.lastMatch getter throws for subclass receiver\"",
+            "start": 709,
+            "end": 763
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 634,
+        "end": 765
+      },
+      "start": 634,
+      "end": 766
     },
     {
       "type": "ExpressionStatement",
-      "start": 768,
-      "end": 889,
       "expression": {
         "type": "CallExpression",
-        "start": 768,
-        "end": 888,
         "callee": {
           "type": "MemberExpression",
-          "start": 768,
-          "end": 781,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 768,
-            "end": 774,
-            "name": "assert"
+            "end": 774
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 775,
-            "end": 781,
-            "name": "throws"
+            "end": 781
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 768,
+          "end": 781
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 785,
-            "end": 794,
-            "name": "TypeError"
+            "end": 794
           },
           {
             "type": "FunctionExpression",
-            "start": 798,
-            "end": 835,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 810,
-              "end": 835,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 816,
-                  "end": 831,
                   "expression": {
                     "type": "MemberExpression",
-                    "start": 816,
-                    "end": 830,
                     "object": {
                       "type": "Identifier",
+                      "name": "MyRegExp",
                       "start": 816,
-                      "end": 824,
-                      "name": "MyRegExp"
+                      "end": 824
                     },
                     "property": {
                       "type": "Literal",
-                      "start": 825,
-                      "end": 829,
                       "value": "$&",
-                      "raw": "\"$&\""
+                      "raw": "\"$&\"",
+                      "start": 825,
+                      "end": 829
                     },
                     "optional": false,
-                    "computed": true
-                  }
+                    "computed": true,
+                    "start": 816,
+                    "end": 830
+                  },
+                  "start": 816,
+                  "end": 831
                 }
-              ]
+              ],
+              "start": 810,
+              "end": 835
             },
-            "expression": false
+            "expression": false,
+            "start": 798,
+            "end": 835
           },
           {
             "type": "Literal",
-            "start": 839,
-            "end": 886,
             "value": "RegExp.$& getter throws for subclass receiver",
-            "raw": "\"RegExp.$& getter throws for subclass receiver\""
+            "raw": "\"RegExp.$& getter throws for subclass receiver\"",
+            "start": 839,
+            "end": 886
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 768,
+        "end": 888
+      },
+      "start": 768,
+      "end": 889
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 890
 }

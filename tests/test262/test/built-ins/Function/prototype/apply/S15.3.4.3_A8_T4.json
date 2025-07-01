@@ -1,173 +1,173 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 588,
   "body": [
     {
       "type": "TryStatement",
-      "start": 313,
-      "end": 587,
       "block": {
         "type": "BlockStatement",
-        "start": 317,
-        "end": 463,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 321,
-            "end": 364,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 325,
-                "end": 363,
                 "id": {
                   "type": "Identifier",
+                  "name": "obj",
                   "start": 325,
-                  "end": 328,
-                  "name": "obj"
+                  "end": 328
                 },
                 "init": {
                   "type": "NewExpression",
-                  "start": 331,
-                  "end": 363,
                   "callee": {
                     "type": "ParenthesizedExpression",
-                    "start": 334,
-                    "end": 363,
                     "expression": {
                       "type": "MemberExpression",
-                      "start": 335,
-                      "end": 362,
                       "object": {
                         "type": "CallExpression",
-                        "start": 335,
-                        "end": 356,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Function",
                           "start": 335,
-                          "end": 343,
-                          "name": "Function"
+                          "end": 343
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 344,
-                            "end": 355,
                             "value": "this.p1=1",
-                            "raw": "\"this.p1=1\""
+                            "raw": "\"this.p1=1\"",
+                            "start": 344,
+                            "end": 355
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 335,
+                        "end": 356
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "apply",
                         "start": 357,
-                        "end": 362,
-                        "name": "apply"
+                        "end": 362
                       },
                       "optional": false,
-                      "computed": false
-                    }
+                      "computed": false,
+                      "start": 335,
+                      "end": 362
+                    },
+                    "start": 334,
+                    "end": 363
                   },
-                  "arguments": []
-                }
+                  "arguments": [],
+                  "start": 331,
+                  "end": 363
+                },
+                "start": 325,
+                "end": 363
               }
-            ]
+            ],
+            "start": 321,
+            "end": 364
           },
           {
             "type": "ThrowStatement",
-            "start": 367,
-            "end": 461,
             "argument": {
               "type": "NewExpression",
-              "start": 373,
-              "end": 460,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 377,
-                "end": 389,
-                "name": "Test262Error"
+                "end": 389
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 390,
-                  "end": 459,
                   "value": "#1: Function.prototype.apply can't be used as [[Construct]] caller",
-                  "raw": "'#1: Function.prototype.apply can\\'t be used as [[Construct]] caller'"
+                  "raw": "'#1: Function.prototype.apply can\\'t be used as [[Construct]] caller'",
+                  "start": 390,
+                  "end": 459
                 }
-              ]
-            }
+              ],
+              "start": 373,
+              "end": 460
+            },
+            "start": 367,
+            "end": 461
           }
-        ]
+        ],
+        "start": 317,
+        "end": 463
       },
       "handler": {
         "type": "CatchClause",
-        "start": 464,
-        "end": 587,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 471,
-          "end": 472,
-          "name": "e"
+          "end": 472
         },
         "body": {
           "type": "BlockStatement",
-          "start": 474,
-          "end": 587,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 478,
-              "end": 585,
               "expression": {
                 "type": "CallExpression",
-                "start": 478,
-                "end": 584,
                 "callee": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 478,
-                  "end": 484,
-                  "name": "assert"
+                  "end": 484
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 485,
-                    "end": 507,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 485,
-                      "end": 486,
-                      "name": "e"
+                      "end": 486
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "TypeError",
                       "start": 498,
-                      "end": 507,
-                      "name": "TypeError"
-                    }
+                      "end": 507
+                    },
+                    "start": 485,
+                    "end": 507
                   },
                   {
                     "type": "Literal",
-                    "start": 509,
-                    "end": 583,
                     "value": "The result of evaluating (e instanceof TypeError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof TypeError) is expected to be true'",
+                    "start": 509,
+                    "end": 583
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 478,
+                "end": 584
+              },
+              "start": 478,
+              "end": 585
             }
-          ]
-        }
+          ],
+          "start": 474,
+          "end": 587
+        },
+        "start": 464,
+        "end": 587
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 313,
+      "end": 587
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 588
 }

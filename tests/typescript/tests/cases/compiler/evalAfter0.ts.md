@@ -2,126 +2,126 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 164,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 15,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 14,
         "callee": {
           "type": "SequenceExpression",
-          "start": 1,
-          "end": 7,
           "expressions": [
             {
               "type": "Literal",
-              "start": 1,
-              "end": 2,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 1,
+              "end": 2
             },
             {
               "type": "Identifier",
-              "start": 3,
-              "end": 7,
               "decorators": [],
               "name": "eval",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 3,
+              "end": 7
             }
-          ]
+          ],
+          "start": 1,
+          "end": 7
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 9,
-            "end": 13,
             "value": "10",
-            "raw": "\"10\""
+            "raw": "\"10\"",
+            "start": 9,
+            "end": 13
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 14
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 15
     },
     {
       "type": "VariableDeclaration",
-      "start": 48,
-      "end": 64,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 60,
-          "end": 63,
           "id": {
             "type": "Identifier",
-            "start": 60,
-            "end": 63,
             "decorators": [],
             "name": "eva",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 60,
+            "end": 63
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 60,
+          "end": 63
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 48,
+      "end": 64
     },
     {
       "type": "ExpressionStatement",
-      "start": 65,
-      "end": 79,
       "expression": {
         "type": "CallExpression",
-        "start": 65,
-        "end": 78,
         "callee": {
           "type": "SequenceExpression",
-          "start": 66,
-          "end": 71,
           "expressions": [
             {
               "type": "Literal",
-              "start": 66,
-              "end": 67,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 66,
+              "end": 67
             },
             {
               "type": "Identifier",
-              "start": 68,
-              "end": 71,
               "decorators": [],
               "name": "eva",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 68,
+              "end": 71
             }
-          ]
+          ],
+          "start": 66,
+          "end": 71
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 73,
-            "end": 77,
             "value": "10",
-            "raw": "\"10\""
+            "raw": "\"10\"",
+            "start": 73,
+            "end": 77
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 65,
+        "end": 78
       },
-      "directive": null
+      "directive": null,
+      "start": 65,
+      "end": 79
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 164
 }
 ```

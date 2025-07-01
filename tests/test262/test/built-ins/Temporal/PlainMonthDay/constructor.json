@@ -1,98 +1,98 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 407,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 345,
-      "end": 406,
       "expression": {
         "type": "CallExpression",
-        "start": 345,
-        "end": 405,
         "callee": {
           "type": "MemberExpression",
-          "start": 345,
-          "end": 358,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 345,
-            "end": 351,
-            "name": "assert"
+            "end": 351
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 352,
-            "end": 358,
-            "name": "throws"
+            "end": 358
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 345,
+          "end": 358
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 359,
-            "end": 368,
-            "name": "TypeError"
+            "end": 368
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 370,
-            "end": 404,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 376,
-              "end": 404,
               "callee": {
                 "type": "MemberExpression",
-                "start": 376,
-                "end": 398,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 376,
-                  "end": 384,
-                  "name": "Temporal"
+                  "end": 384
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "PlainMonthDay",
                   "start": 385,
-                  "end": 398,
-                  "name": "PlainMonthDay"
+                  "end": 398
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 376,
+                "end": 398
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 399,
-                  "end": 400,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 399,
+                  "end": 400
                 },
                 {
                   "type": "Literal",
-                  "start": 402,
-                  "end": 403,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "start": 402,
+                  "end": 403
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 376,
+              "end": 404
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 370,
+            "end": 404
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 345,
+        "end": 405
+      },
+      "start": 345,
+      "end": 406
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 407
 }

@@ -2,179 +2,179 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 20,
-  "end": 135,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 20,
-      "end": 135,
       "id": {
         "type": "Identifier",
-        "start": 29,
-        "end": 32,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 29,
+        "end": 32
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 32,
-        "end": 53,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 33,
-            "end": 52,
             "name": {
               "type": "Identifier",
-              "start": 33,
-              "end": 34,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 34
             },
             "constraint": {
               "type": "TSUnionType",
-              "start": 43,
-              "end": 52,
               "types": [
                 {
                   "type": "TSLiteralType",
-                  "start": 43,
-                  "end": 46,
                   "literal": {
                     "type": "Literal",
-                    "start": 43,
-                    "end": 46,
                     "value": "a",
-                    "raw": "\"a\""
-                  }
+                    "raw": "\"a\"",
+                    "start": 43,
+                    "end": 46
+                  },
+                  "start": 43,
+                  "end": 46
                 },
                 {
                   "type": "TSLiteralType",
-                  "start": 49,
-                  "end": 52,
                   "literal": {
                     "type": "Literal",
-                    "start": 49,
-                    "end": 52,
                     "value": "b",
-                    "raw": "\"b\""
-                  }
+                    "raw": "\"b\"",
+                    "start": 49,
+                    "end": 52
+                  },
+                  "start": 49,
+                  "end": 52
                 }
-              ]
+              ],
+              "start": 43,
+              "end": 52
             },
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 33,
+            "end": 52
           }
-        ]
+        ],
+        "start": 32,
+        "end": 53
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 54,
-          "end": 58,
           "decorators": [],
           "name": "t",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 55,
-            "end": 58,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 57,
-              "end": 58,
               "typeName": {
                 "type": "Identifier",
-                "start": 57,
-                "end": 58,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 57,
+                "end": 58
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 57,
+              "end": 58
+            },
+            "start": 55,
+            "end": 58
+          },
+          "start": 54,
+          "end": 58
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 60,
-        "end": 135,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 66,
-            "end": 76,
             "expression": {
               "type": "BinaryExpression",
-              "start": 66,
-              "end": 75,
               "left": {
                 "type": "Identifier",
-                "start": 66,
-                "end": 67,
                 "decorators": [],
                 "name": "t",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 66,
+                "end": 67
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 72,
-                "end": 75,
                 "value": "a",
-                "raw": "\"a\""
-              }
+                "raw": "\"a\"",
+                "start": 72,
+                "end": 75
+              },
+              "start": 66,
+              "end": 75
             },
-            "directive": null
+            "directive": null,
+            "start": 66,
+            "end": 76
           },
           {
             "type": "ExpressionStatement",
-            "start": 103,
-            "end": 113,
             "expression": {
               "type": "BinaryExpression",
-              "start": 103,
-              "end": 112,
               "left": {
                 "type": "Identifier",
-                "start": 103,
-                "end": 104,
                 "decorators": [],
                 "name": "t",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 103,
+                "end": 104
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 109,
-                "end": 112,
                 "value": "x",
-                "raw": "\"x\""
-              }
+                "raw": "\"x\"",
+                "start": 109,
+                "end": 112
+              },
+              "start": 103,
+              "end": 112
             },
-            "directive": null
+            "directive": null,
+            "start": 103,
+            "end": 113
           }
-        ]
+        ],
+        "start": 60,
+        "end": 135
       },
-      "expression": false
+      "expression": false,
+      "start": 20,
+      "end": 135
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 20,
+  "end": 135
 }
 ```

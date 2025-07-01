@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 356,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 288,
-      "end": 355,
       "expression": {
         "type": "CallExpression",
-        "start": 288,
-        "end": 354,
         "callee": {
           "type": "MemberExpression",
-          "start": 288,
-          "end": 301,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 288,
-            "end": 294,
-            "name": "assert"
+            "end": 294
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 295,
-            "end": 301,
-            "name": "throws"
+            "end": 301
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 288,
+          "end": 301
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 302,
-            "end": 313,
-            "name": "SyntaxError"
+            "end": 313
           },
           {
             "type": "FunctionExpression",
-            "start": 315,
-            "end": 353,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 326,
-              "end": 353,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 332,
-                  "end": 351,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 332,
-                    "end": 350,
                     "callee": {
                       "type": "Identifier",
+                      "name": "eval",
                       "start": 332,
-                      "end": 336,
-                      "name": "eval"
+                      "end": 336
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 337,
-                        "end": 349,
                         "value": "eval = 42;",
-                        "raw": "'eval = 42;'"
+                        "raw": "'eval = 42;'",
+                        "start": 337,
+                        "end": 349
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 332,
+                    "end": 350
+                  },
+                  "start": 332,
+                  "end": 351
                 }
-              ]
+              ],
+              "start": 326,
+              "end": 353
             },
-            "expression": false
+            "expression": false,
+            "start": 315,
+            "end": 353
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 288,
+        "end": 354
+      },
+      "start": 288,
+      "end": 355
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 356
 }

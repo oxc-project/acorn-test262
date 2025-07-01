@@ -1,200 +1,200 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 953,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 681,
-      "end": 698,
       "expression": {
         "type": "CallExpression",
-        "start": 681,
-        "end": 697,
         "callee": {
           "type": "Identifier",
+          "name": "$DONOTEVALUATE",
           "start": 681,
-          "end": 695,
-          "name": "$DONOTEVALUATE"
+          "end": 695
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 681,
+        "end": 697
+      },
+      "start": 681,
+      "end": 698
     },
     {
       "type": "ImportDeclaration",
-      "start": 700,
-      "end": 743,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 707,
-        "end": 742,
         "value": "./ensure-linking-error_FIXTURE.js",
-        "raw": "\"./ensure-linking-error_FIXTURE.js\""
+        "raw": "\"./ensure-linking-error_FIXTURE.js\"",
+        "start": 707,
+        "end": 742
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 700,
+      "end": 743
     },
     {
       "type": "ImportDeclaration",
-      "start": 745,
-      "end": 806,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 752,
-          "end": 753,
           "local": {
             "type": "Identifier",
+            "name": "x",
             "start": 752,
-            "end": 753,
-            "name": "x"
-          }
+            "end": 753
+          },
+          "start": 752,
+          "end": 753
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 759,
-        "end": 792,
         "value": "./import-attribute-1_FIXTURE.js",
-        "raw": "'./import-attribute-1_FIXTURE.js'"
+        "raw": "'./import-attribute-1_FIXTURE.js'",
+        "start": 759,
+        "end": 792
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 799,
-          "end": 804,
           "key": {
             "type": "Identifier",
+            "name": "if",
             "start": 799,
-            "end": 801,
-            "name": "if"
+            "end": 801
           },
           "value": {
             "type": "Literal",
-            "start": 802,
-            "end": 804,
             "value": "",
-            "raw": "''"
-          }
+            "raw": "''",
+            "start": 802,
+            "end": 804
+          },
+          "start": 799,
+          "end": 804
         }
-      ]
+      ],
+      "start": 745,
+      "end": 806
     },
     {
       "type": "ImportDeclaration",
-      "start": 807,
-      "end": 861,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 814,
-        "end": 847,
         "value": "./import-attribute-2_FIXTURE.js",
-        "raw": "'./import-attribute-2_FIXTURE.js'"
+        "raw": "'./import-attribute-2_FIXTURE.js'",
+        "start": 814,
+        "end": 847
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 854,
-          "end": 859,
           "key": {
             "type": "Identifier",
+            "name": "if",
             "start": 854,
-            "end": 856,
-            "name": "if"
+            "end": 856
           },
           "value": {
             "type": "Literal",
-            "start": 857,
-            "end": 859,
             "value": "",
-            "raw": "''"
-          }
+            "raw": "''",
+            "start": 857,
+            "end": 859
+          },
+          "start": 854,
+          "end": 859
         }
-      ]
+      ],
+      "start": 807,
+      "end": 861
     },
     {
       "type": "ExportAllDeclaration",
-      "start": 862,
-      "end": 923,
       "exported": null,
       "source": {
         "type": "Literal",
-        "start": 876,
-        "end": 909,
         "value": "./import-attribute-3_FIXTURE.js",
-        "raw": "'./import-attribute-3_FIXTURE.js'"
+        "raw": "'./import-attribute-3_FIXTURE.js'",
+        "start": 876,
+        "end": 909
       },
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 916,
-          "end": 921,
           "key": {
             "type": "Identifier",
+            "name": "if",
             "start": 916,
-            "end": 918,
-            "name": "if"
+            "end": 918
           },
           "value": {
             "type": "Literal",
-            "start": 919,
-            "end": 921,
             "value": "",
-            "raw": "''"
-          }
+            "raw": "''",
+            "start": 919,
+            "end": 921
+          },
+          "start": 916,
+          "end": 921
         }
-      ]
+      ],
+      "start": 862,
+      "end": 923
     },
     {
       "type": "ExpressionStatement",
-      "start": 925,
-      "end": 952,
       "expression": {
         "type": "CallExpression",
-        "start": 925,
-        "end": 951,
         "callee": {
           "type": "MemberExpression",
-          "start": 925,
-          "end": 941,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 925,
-            "end": 931,
-            "name": "assert"
+            "end": 931
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 932,
-            "end": 941,
-            "name": "sameValue"
+            "end": 941
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 925,
+          "end": 941
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "x",
             "start": 942,
-            "end": 943,
-            "name": "x"
+            "end": 943
           },
           {
             "type": "Literal",
-            "start": 945,
-            "end": 950,
             "value": 262.1,
-            "raw": "262.1"
+            "raw": "262.1",
+            "start": 945,
+            "end": 950
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 925,
+        "end": 951
+      },
+      "start": 925,
+      "end": 952
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 953
 }

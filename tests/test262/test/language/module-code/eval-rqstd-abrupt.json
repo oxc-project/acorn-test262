@@ -1,56 +1,56 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 699,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 575,
-      "end": 624,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 582,
-        "end": 623,
         "value": "./eval-rqstd-abrupt-err-type_FIXTURE.js",
-        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'"
+        "raw": "'./eval-rqstd-abrupt-err-type_FIXTURE.js'",
+        "start": 582,
+        "end": 623
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 575,
+      "end": 624
     },
     {
       "type": "ImportDeclaration",
-      "start": 625,
-      "end": 673,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 632,
-        "end": 672,
         "value": "./eval-rqstd-abrupt-err-uri_FIXTURE.js",
-        "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'"
+        "raw": "'./eval-rqstd-abrupt-err-uri_FIXTURE.js'",
+        "start": 632,
+        "end": 672
       },
       "phase": null,
-      "attributes": []
+      "attributes": [],
+      "start": 625,
+      "end": 673
     },
     {
       "type": "ThrowStatement",
-      "start": 675,
-      "end": 698,
       "argument": {
         "type": "NewExpression",
-        "start": 681,
-        "end": 697,
         "callee": {
           "type": "Identifier",
+          "name": "RangeError",
           "start": 685,
-          "end": 695,
-          "name": "RangeError"
+          "end": 695
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 681,
+        "end": 697
+      },
+      "start": 675,
+      "end": 698
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 699
 }

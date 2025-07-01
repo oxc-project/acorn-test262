@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 333,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 283,
-      "end": 332,
       "expression": {
         "type": "CallExpression",
-        "start": 283,
-        "end": 331,
         "callee": {
           "type": "MemberExpression",
-          "start": 283,
-          "end": 299,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 283,
-            "end": 289,
-            "name": "assert"
+            "end": 289
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 290,
-            "end": 299,
-            "name": "sameValue"
+            "end": 299
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 283,
+          "end": 299
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 300,
-            "end": 320,
             "callee": {
               "type": "MemberExpression",
-              "start": 300,
-              "end": 310,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 300,
-                "end": 304,
-                "name": "Math"
+                "end": 304
               },
               "property": {
                 "type": "Identifier",
+                "name": "acosh",
                 "start": 305,
-                "end": 310,
-                "name": "acosh"
+                "end": 310
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 300,
+              "end": 310
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Infinity",
                 "start": 311,
-                "end": 319,
-                "name": "Infinity"
+                "end": 319
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 300,
+            "end": 320
           },
           {
             "type": "Identifier",
+            "name": "Infinity",
             "start": 322,
-            "end": 330,
-            "name": "Infinity"
+            "end": 330
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 283,
+        "end": 331
+      },
+      "start": 283,
+      "end": 332
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 333
 }

@@ -1,173 +1,173 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1248,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1000,
-      "end": 1035,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1004,
-          "end": 1034,
           "id": {
             "type": "Identifier",
+            "name": "stack1",
             "start": 1004,
-            "end": 1010,
-            "name": "stack1"
+            "end": 1010
           },
           "init": {
             "type": "NewExpression",
-            "start": 1013,
-            "end": 1034,
             "callee": {
               "type": "Identifier",
+              "name": "DisposableStack",
               "start": 1017,
-              "end": 1032,
-              "name": "DisposableStack"
+              "end": 1032
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 1013,
+            "end": 1034
+          },
+          "start": 1004,
+          "end": 1034
         }
-      ]
+      ],
+      "start": 1000,
+      "end": 1035
     },
     {
       "type": "VariableDeclaration",
-      "start": 1036,
-      "end": 1063,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1040,
-          "end": 1062,
           "id": {
             "type": "Identifier",
+            "name": "stack2",
             "start": 1040,
-            "end": 1046,
-            "name": "stack2"
+            "end": 1046
           },
           "init": {
             "type": "CallExpression",
-            "start": 1049,
-            "end": 1062,
             "callee": {
               "type": "MemberExpression",
-              "start": 1049,
-              "end": 1060,
               "object": {
                 "type": "Identifier",
+                "name": "stack1",
                 "start": 1049,
-                "end": 1055,
-                "name": "stack1"
+                "end": 1055
               },
               "property": {
                 "type": "Identifier",
+                "name": "move",
                 "start": 1056,
-                "end": 1060,
-                "name": "move"
+                "end": 1060
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1049,
+              "end": 1060
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1049,
+            "end": 1062
+          },
+          "start": 1040,
+          "end": 1062
         }
-      ]
+      ],
+      "start": 1036,
+      "end": 1063
     },
     {
       "type": "ExpressionStatement",
-      "start": 1064,
-      "end": 1148,
       "expression": {
         "type": "CallExpression",
-        "start": 1064,
-        "end": 1147,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1064,
-          "end": 1070,
-          "name": "assert"
+          "end": 1070
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1071,
-            "end": 1088,
             "left": {
               "type": "Identifier",
+              "name": "stack2",
               "start": 1071,
-              "end": 1077,
-              "name": "stack2"
+              "end": 1077
             },
             "operator": "!==",
             "right": {
               "type": "Identifier",
+              "name": "stack1",
               "start": 1082,
-              "end": 1088,
-              "name": "stack1"
-            }
+              "end": 1088
+            },
+            "start": 1071,
+            "end": 1088
           },
           {
             "type": "Literal",
-            "start": 1090,
-            "end": 1146,
             "value": "Expected stack2 to not be the same reference as stack1",
-            "raw": "'Expected stack2 to not be the same reference as stack1'"
+            "raw": "'Expected stack2 to not be the same reference as stack1'",
+            "start": 1090,
+            "end": 1146
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1064,
+        "end": 1147
+      },
+      "start": 1064,
+      "end": 1148
     },
     {
       "type": "ExpressionStatement",
-      "start": 1149,
-      "end": 1247,
       "expression": {
         "type": "CallExpression",
-        "start": 1149,
-        "end": 1246,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1149,
-          "end": 1155,
-          "name": "assert"
+          "end": 1155
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 1156,
-            "end": 1189,
             "left": {
               "type": "Identifier",
+              "name": "stack2",
               "start": 1156,
-              "end": 1162,
-              "name": "stack2"
+              "end": 1162
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "DisposableStack",
               "start": 1174,
-              "end": 1189,
-              "name": "DisposableStack"
-            }
+              "end": 1189
+            },
+            "start": 1156,
+            "end": 1189
           },
           {
             "type": "Literal",
-            "start": 1191,
-            "end": 1245,
             "value": "Expected stack2 to be an instance of DisposableStack",
-            "raw": "'Expected stack2 to be an instance of DisposableStack'"
+            "raw": "'Expected stack2 to be an instance of DisposableStack'",
+            "start": 1191,
+            "end": 1245
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1149,
+        "end": 1246
+      },
+      "start": 1149,
+      "end": 1247
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1248
 }

@@ -1,73 +1,73 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 430,
   "body": [
     {
       "type": "IfStatement",
-      "start": 352,
-      "end": 429,
       "test": {
         "type": "BinaryExpression",
-        "start": 356,
-        "end": 373,
         "left": {
           "type": "UnaryExpression",
-          "start": 356,
-          "end": 364,
           "operator": "delete",
           "argument": {
             "type": "Identifier",
+            "name": "x",
             "start": 363,
-            "end": 364,
-            "name": "x"
+            "end": 364
           },
-          "prefix": true
+          "prefix": true,
+          "start": 356,
+          "end": 364
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 369,
-          "end": 373,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 369,
+          "end": 373
+        },
+        "start": 356,
+        "end": 373
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 375,
-        "end": 429,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 379,
-            "end": 427,
             "argument": {
               "type": "NewExpression",
-              "start": 385,
-              "end": 426,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 389,
-                "end": 401,
-                "name": "Test262Error"
+                "end": 401
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 402,
-                  "end": 425,
                   "value": "#1: delete x === true",
-                  "raw": "'#1: delete x === true'"
+                  "raw": "'#1: delete x === true'",
+                  "start": 402,
+                  "end": 425
                 }
-              ]
-            }
+              ],
+              "start": 385,
+              "end": 426
+            },
+            "start": 379,
+            "end": 427
           }
-        ]
+        ],
+        "start": 375,
+        "end": 429
       },
-      "alternate": null
+      "alternate": null,
+      "start": 352,
+      "end": 429
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 430
 }

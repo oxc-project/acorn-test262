@@ -1,193 +1,193 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 535,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 260,
-      "end": 320,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 260,
-        "end": 319,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 260,
-          "end": 288,
           "object": {
             "type": "MemberExpression",
-            "start": 260,
-            "end": 276,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 260,
-              "end": 266,
-              "name": "Number"
+              "end": 266
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 267,
-              "end": 276,
-              "name": "prototype"
+              "end": 276
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 260,
+            "end": 276
           },
           "property": {
             "type": "Identifier",
+            "name": "toUpperCase",
             "start": 277,
-            "end": 288,
-            "name": "toUpperCase"
+            "end": 288
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 260,
+          "end": 288
         },
         "right": {
           "type": "MemberExpression",
-          "start": 291,
-          "end": 319,
           "object": {
             "type": "MemberExpression",
-            "start": 291,
-            "end": 307,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 291,
-              "end": 297,
-              "name": "String"
+              "end": 297
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 298,
-              "end": 307,
-              "name": "prototype"
+              "end": 307
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 291,
+            "end": 307
           },
           "property": {
             "type": "Identifier",
+            "name": "toUpperCase",
             "start": 308,
-            "end": 319,
-            "name": "toUpperCase"
+            "end": 319
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 291,
+          "end": 319
+        },
+        "start": 260,
+        "end": 319
+      },
+      "start": 260,
+      "end": 320
     },
     {
       "type": "IfStatement",
-      "start": 322,
-      "end": 534,
       "test": {
         "type": "BinaryExpression",
-        "start": 326,
-        "end": 363,
         "left": {
           "type": "CallExpression",
-          "start": 326,
-          "end": 348,
           "callee": {
             "type": "MemberExpression",
-            "start": 326,
-            "end": 346,
             "object": {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 326,
-              "end": 334,
-              "name": "Infinity"
+              "end": 334
             },
             "property": {
               "type": "Identifier",
+              "name": "toUpperCase",
               "start": 335,
-              "end": 346,
-              "name": "toUpperCase"
+              "end": 346
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 326,
+            "end": 346
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 326,
+          "end": 348
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 353,
-          "end": 363,
           "value": "INFINITY",
-          "raw": "\"INFINITY\""
-        }
+          "raw": "\"INFINITY\"",
+          "start": 353,
+          "end": 363
+        },
+        "start": 326,
+        "end": 363
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 365,
-        "end": 534,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 369,
-            "end": 532,
             "argument": {
               "type": "NewExpression",
-              "start": 375,
-              "end": 531,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 379,
-                "end": 391,
-                "name": "Test262Error"
+                "end": 391
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 392,
-                  "end": 530,
                   "left": {
                     "type": "Literal",
-                    "start": 392,
-                    "end": 505,
                     "value": "#1: Number.prototype.toUpperCase = String.prototype.toUpperCase; Infinity.toUpperCase()=== \"INFINITY\". Actual: ",
-                    "raw": "'#1: Number.prototype.toUpperCase = String.prototype.toUpperCase; Infinity.toUpperCase()=== \"INFINITY\". Actual: '"
+                    "raw": "'#1: Number.prototype.toUpperCase = String.prototype.toUpperCase; Infinity.toUpperCase()=== \"INFINITY\". Actual: '",
+                    "start": 392,
+                    "end": 505
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 508,
-                    "end": 530,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 508,
-                      "end": 528,
                       "object": {
                         "type": "Identifier",
+                        "name": "Infinity",
                         "start": 508,
-                        "end": 516,
-                        "name": "Infinity"
+                        "end": 516
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "toUpperCase",
                         "start": 517,
-                        "end": 528,
-                        "name": "toUpperCase"
+                        "end": 528
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 508,
+                      "end": 528
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 508,
+                    "end": 530
+                  },
+                  "start": 392,
+                  "end": 530
                 }
-              ]
-            }
+              ],
+              "start": 375,
+              "end": 531
+            },
+            "start": 369,
+            "end": 532
           }
-        ]
+        ],
+        "start": 365,
+        "end": 534
       },
-      "alternate": null
+      "alternate": null,
+      "start": 322,
+      "end": 534
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 535
 }

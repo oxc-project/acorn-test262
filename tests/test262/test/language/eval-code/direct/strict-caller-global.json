@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 773,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 748,
-      "end": 772,
       "expression": {
         "type": "CallExpression",
-        "start": 748,
-        "end": 771,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 748,
-          "end": 752,
-          "name": "eval"
+          "end": 752
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 753,
-            "end": 770,
             "value": "var public = 1;",
-            "raw": "'var public = 1;'"
+            "raw": "'var public = 1;'",
+            "start": 753,
+            "end": 770
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 748,
+        "end": 771
+      },
+      "start": 748,
+      "end": 772
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 773
 }

@@ -1,80 +1,80 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 510,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 444,
-      "end": 509,
       "expression": {
         "type": "CallExpression",
-        "start": 444,
-        "end": 508,
         "callee": {
           "type": "MemberExpression",
-          "start": 444,
-          "end": 460,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 444,
-            "end": 450,
-            "name": "assert"
+            "end": 450
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 451,
-            "end": 460,
-            "name": "sameValue"
+            "end": 460
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 444,
+          "end": 460
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 461,
-            "end": 495,
             "callee": {
               "type": "MemberExpression",
-              "start": 461,
-              "end": 482,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 461,
-                "end": 467,
-                "name": "Object"
+                "end": 467
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 468,
-                "end": 482,
-                "name": "getPrototypeOf"
+                "end": 482
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 461,
+              "end": 482
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Uint32Array",
                 "start": 483,
-                "end": 494,
-                "name": "Uint32Array"
+                "end": 494
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 461,
+            "end": 495
           },
           {
             "type": "Identifier",
+            "name": "TypedArray",
             "start": 497,
-            "end": 507,
-            "name": "TypedArray"
+            "end": 507
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 444,
+        "end": 508
+      },
+      "start": 444,
+      "end": 509
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 510
 }

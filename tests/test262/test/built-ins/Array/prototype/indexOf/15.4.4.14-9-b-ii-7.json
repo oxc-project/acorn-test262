@@ -1,111 +1,111 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 336,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 335,
       "expression": {
         "type": "CallExpression",
-        "start": 277,
-        "end": 334,
         "callee": {
           "type": "MemberExpression",
-          "start": 277,
-          "end": 293,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 277,
-            "end": 283,
-            "name": "assert"
+            "end": 283
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 284,
-            "end": 293,
-            "name": "sameValue"
+            "end": 293
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 277,
+          "end": 293
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 294,
-            "end": 310,
             "callee": {
               "type": "MemberExpression",
-              "start": 294,
-              "end": 306,
               "object": {
                 "type": "ArrayExpression",
-                "start": 294,
-                "end": 298,
                 "elements": [
                   {
                     "type": "UnaryExpression",
-                    "start": 295,
-                    "end": 297,
                     "operator": "-",
                     "argument": {
                       "type": "Literal",
-                      "start": 296,
-                      "end": 297,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "start": 296,
+                      "end": 297
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 295,
+                    "end": 297
                   }
-                ]
+                ],
+                "start": 294,
+                "end": 298
               },
               "property": {
                 "type": "Identifier",
+                "name": "indexOf",
                 "start": 299,
-                "end": 306,
-                "name": "indexOf"
+                "end": 306
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 294,
+              "end": 306
             },
             "arguments": [
               {
                 "type": "UnaryExpression",
-                "start": 307,
-                "end": 309,
                 "operator": "+",
                 "argument": {
                   "type": "Literal",
-                  "start": 308,
-                  "end": 309,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 308,
+                  "end": 309
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 307,
+                "end": 309
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 294,
+            "end": 310
           },
           {
             "type": "Literal",
-            "start": 312,
-            "end": 313,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 312,
+            "end": 313
           },
           {
             "type": "Literal",
-            "start": 315,
-            "end": 333,
             "value": "[-0].indexOf(+0)",
-            "raw": "'[-0].indexOf(+0)'"
+            "raw": "'[-0].indexOf(+0)'",
+            "start": 315,
+            "end": 333
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 277,
+        "end": 334
+      },
+      "start": 277,
+      "end": 335
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 336
 }

@@ -1,193 +1,193 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 729,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 266,
-      "end": 338,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 266,
-        "end": 337,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 266,
-          "end": 300,
           "object": {
             "type": "MemberExpression",
-            "start": 266,
-            "end": 282,
             "object": {
               "type": "Identifier",
+              "name": "Number",
               "start": 266,
-              "end": 272,
-              "name": "Number"
+              "end": 272
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 273,
-              "end": 282,
-              "name": "prototype"
+              "end": 282
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 266,
+            "end": 282
           },
           "property": {
             "type": "Identifier",
+            "name": "toLocaleUpperCase",
             "start": 283,
-            "end": 300,
-            "name": "toLocaleUpperCase"
+            "end": 300
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 266,
+          "end": 300
         },
         "right": {
           "type": "MemberExpression",
-          "start": 303,
-          "end": 337,
           "object": {
             "type": "MemberExpression",
-            "start": 303,
-            "end": 319,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 303,
-              "end": 309,
-              "name": "String"
+              "end": 309
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 310,
-              "end": 319,
-              "name": "prototype"
+              "end": 319
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 303,
+            "end": 319
           },
           "property": {
             "type": "Identifier",
+            "name": "toLocaleUpperCase",
             "start": 320,
-            "end": 337,
-            "name": "toLocaleUpperCase"
+            "end": 337
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 303,
+          "end": 337
+        },
+        "start": 266,
+        "end": 337
+      },
+      "start": 266,
+      "end": 338
     },
     {
       "type": "IfStatement",
-      "start": 429,
-      "end": 646,
       "test": {
         "type": "BinaryExpression",
-        "start": 433,
-        "end": 466,
         "left": {
           "type": "CallExpression",
-          "start": 433,
-          "end": 456,
           "callee": {
             "type": "MemberExpression",
-            "start": 433,
-            "end": 454,
             "object": {
               "type": "Identifier",
+              "name": "NaN",
               "start": 433,
-              "end": 436,
-              "name": "NaN"
+              "end": 436
             },
             "property": {
               "type": "Identifier",
+              "name": "toLocaleUpperCase",
               "start": 437,
-              "end": 454,
-              "name": "toLocaleUpperCase"
+              "end": 454
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 433,
+            "end": 454
           },
           "arguments": [],
-          "optional": false
+          "optional": false,
+          "start": 433,
+          "end": 456
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 461,
-          "end": 466,
           "value": "NAN",
-          "raw": "\"NAN\""
-        }
+          "raw": "\"NAN\"",
+          "start": 461,
+          "end": 466
+        },
+        "start": 433,
+        "end": 466
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 468,
-        "end": 646,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 472,
-            "end": 644,
             "argument": {
               "type": "NewExpression",
-              "start": 478,
-              "end": 643,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 482,
-                "end": 494,
-                "name": "Test262Error"
+                "end": 494
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 495,
-                  "end": 642,
                   "left": {
                     "type": "Literal",
-                    "start": 495,
-                    "end": 616,
                     "value": "#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; NaN.toLocaleUpperCase()=== \"NAN\". Actual: ",
-                    "raw": "'#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; NaN.toLocaleUpperCase()=== \"NAN\". Actual: '"
+                    "raw": "'#1: Number.prototype.toLocaleUpperCase = String.prototype.toLocaleUpperCase; NaN.toLocaleUpperCase()=== \"NAN\". Actual: '",
+                    "start": 495,
+                    "end": 616
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 619,
-                    "end": 642,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 619,
-                      "end": 640,
                       "object": {
                         "type": "Identifier",
+                        "name": "NaN",
                         "start": 619,
-                        "end": 622,
-                        "name": "NaN"
+                        "end": 622
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "toLocaleUpperCase",
                         "start": 623,
-                        "end": 640,
-                        "name": "toLocaleUpperCase"
+                        "end": 640
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 619,
+                      "end": 640
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 619,
+                    "end": 642
+                  },
+                  "start": 495,
+                  "end": 642
                 }
-              ]
-            }
+              ],
+              "start": 478,
+              "end": 643
+            },
+            "start": 472,
+            "end": 644
           }
-        ]
+        ],
+        "start": 468,
+        "end": 646
       },
-      "alternate": null
+      "alternate": null,
+      "start": 429,
+      "end": 646
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 729
 }

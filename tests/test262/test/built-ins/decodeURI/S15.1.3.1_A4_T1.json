@@ -1,225 +1,225 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 797,
   "body": [
     {
       "type": "IfStatement",
-      "start": 242,
-      "end": 386,
       "test": {
         "type": "BinaryExpression",
-        "start": 246,
-        "end": 320,
         "left": {
           "type": "CallExpression",
-          "start": 246,
-          "end": 286,
           "callee": {
             "type": "Identifier",
+            "name": "decodeURI",
             "start": 246,
-            "end": 255,
-            "name": "decodeURI"
+            "end": 255
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 256,
-              "end": 285,
               "value": "http://unipro.ru/0123456789",
-              "raw": "\"http://unipro.ru/0123456789\""
+              "raw": "\"http://unipro.ru/0123456789\"",
+              "start": 256,
+              "end": 285
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 246,
+          "end": 286
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 291,
-          "end": 320,
           "value": "http://unipro.ru/0123456789",
-          "raw": "\"http://unipro.ru/0123456789\""
-        }
+          "raw": "\"http://unipro.ru/0123456789\"",
+          "start": 291,
+          "end": 320
+        },
+        "start": 246,
+        "end": 320
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 322,
-        "end": 386,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 326,
-            "end": 384,
             "argument": {
               "type": "NewExpression",
-              "start": 332,
-              "end": 383,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 336,
-                "end": 348,
-                "name": "Test262Error"
+                "end": 348
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 349,
-                  "end": 382,
                   "value": "#1: http://unipro.ru/0123456789",
-                  "raw": "'#1: http://unipro.ru/0123456789'"
+                  "raw": "'#1: http://unipro.ru/0123456789'",
+                  "start": 349,
+                  "end": 382
                 }
-              ]
-            }
+              ],
+              "start": 332,
+              "end": 383
+            },
+            "start": 326,
+            "end": 384
           }
-        ]
+        ],
+        "start": 322,
+        "end": 386
       },
-      "alternate": null
+      "alternate": null,
+      "start": 242,
+      "end": 386
     },
     {
       "type": "IfStatement",
-      "start": 398,
-      "end": 591,
       "test": {
         "type": "BinaryExpression",
-        "start": 402,
-        "end": 526,
         "left": {
           "type": "CallExpression",
-          "start": 402,
-          "end": 493,
           "callee": {
             "type": "Identifier",
+            "name": "decodeURI",
             "start": 402,
-            "end": 411,
-            "name": "decodeURI"
+            "end": 411
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 412,
-              "end": 492,
               "value": "%41%42%43%44%45%46%47%48%49%4A%4B%4C%4D%4E%4F%50%51%52%53%54%55%56%57%58%59%5A",
-              "raw": "\"%41%42%43%44%45%46%47%48%49%4A%4B%4C%4D%4E%4F%50%51%52%53%54%55%56%57%58%59%5A\""
+              "raw": "\"%41%42%43%44%45%46%47%48%49%4A%4B%4C%4D%4E%4F%50%51%52%53%54%55%56%57%58%59%5A\"",
+              "start": 412,
+              "end": 492
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 402,
+          "end": 493
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 498,
-          "end": 526,
           "value": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-          "raw": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\""
-        }
+          "raw": "\"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"",
+          "start": 498,
+          "end": 526
+        },
+        "start": 402,
+        "end": 526
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 528,
-        "end": 591,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 532,
-            "end": 589,
             "argument": {
               "type": "NewExpression",
-              "start": 538,
-              "end": 588,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 542,
-                "end": 554,
-                "name": "Test262Error"
+                "end": 554
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 555,
-                  "end": 587,
                   "value": "#2: ABCDEFGHIJKLMNOPQRSTUVWXYZ",
-                  "raw": "'#2: ABCDEFGHIJKLMNOPQRSTUVWXYZ'"
+                  "raw": "'#2: ABCDEFGHIJKLMNOPQRSTUVWXYZ'",
+                  "start": 555,
+                  "end": 587
                 }
-              ]
-            }
+              ],
+              "start": 538,
+              "end": 588
+            },
+            "start": 532,
+            "end": 589
           }
-        ]
+        ],
+        "start": 528,
+        "end": 591
       },
-      "alternate": null
+      "alternate": null,
+      "start": 398,
+      "end": 591
     },
     {
       "type": "IfStatement",
-      "start": 603,
-      "end": 796,
       "test": {
         "type": "BinaryExpression",
-        "start": 607,
-        "end": 731,
         "left": {
           "type": "CallExpression",
-          "start": 607,
-          "end": 698,
           "callee": {
             "type": "Identifier",
+            "name": "decodeURI",
             "start": 607,
-            "end": 616,
-            "name": "decodeURI"
+            "end": 616
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 617,
-              "end": 697,
               "value": "%61%62%63%64%65%66%67%68%69%6A%6B%6C%6D%6E%6F%70%71%72%73%74%75%76%77%78%79%7A",
-              "raw": "\"%61%62%63%64%65%66%67%68%69%6A%6B%6C%6D%6E%6F%70%71%72%73%74%75%76%77%78%79%7A\""
+              "raw": "\"%61%62%63%64%65%66%67%68%69%6A%6B%6C%6D%6E%6F%70%71%72%73%74%75%76%77%78%79%7A\"",
+              "start": 617,
+              "end": 697
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 607,
+          "end": 698
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 703,
-          "end": 731,
           "value": "abcdefghijklmnopqrstuvwxyz",
-          "raw": "\"abcdefghijklmnopqrstuvwxyz\""
-        }
+          "raw": "\"abcdefghijklmnopqrstuvwxyz\"",
+          "start": 703,
+          "end": 731
+        },
+        "start": 607,
+        "end": 731
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 733,
-        "end": 796,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 737,
-            "end": 794,
             "argument": {
               "type": "NewExpression",
-              "start": 743,
-              "end": 793,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 747,
-                "end": 759,
-                "name": "Test262Error"
+                "end": 759
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 760,
-                  "end": 792,
                   "value": "#3: abcdefghijklmnopqrstuvwxyz",
-                  "raw": "'#3: abcdefghijklmnopqrstuvwxyz'"
+                  "raw": "'#3: abcdefghijklmnopqrstuvwxyz'",
+                  "start": 760,
+                  "end": 792
                 }
-              ]
-            }
+              ],
+              "start": 743,
+              "end": 793
+            },
+            "start": 737,
+            "end": 794
           }
-        ]
+        ],
+        "start": 733,
+        "end": 796
       },
-      "alternate": null
+      "alternate": null,
+      "start": 603,
+      "end": 796
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 797
 }

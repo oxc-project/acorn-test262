@@ -2,172 +2,172 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 95,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 22,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 21,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 21,
             "decorators": [],
             "name": "includes",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 12,
-              "end": 21,
               "typeAnnotation": {
                 "type": "TSBooleanKeyword",
                 "start": 14,
                 "end": 21
-              }
-            }
+              },
+              "start": 12,
+              "end": 21
+            },
+            "start": 4,
+            "end": 21
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 21
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 22
     },
     {
       "type": "ExpressionStatement",
-      "start": 23,
-      "end": 57,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 23,
-        "end": 56,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "includes",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 23,
-          "end": 31,
-          "decorators": [],
-          "name": "includes",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 31
         },
         "right": {
           "type": "CallExpression",
-          "start": 34,
-          "end": 56,
           "callee": {
             "type": "MemberExpression",
-            "start": 34,
-            "end": 50,
             "object": {
               "type": "Literal",
-              "start": 34,
-              "end": 41,
               "value": "abcde",
-              "raw": "\"abcde\""
+              "raw": "\"abcde\"",
+              "start": 34,
+              "end": 41
             },
             "property": {
               "type": "Identifier",
-              "start": 42,
-              "end": 50,
               "decorators": [],
               "name": "includes",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 42,
+              "end": 50
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 34,
+            "end": 50
           },
           "typeArguments": null,
           "arguments": [
             {
               "type": "Literal",
-              "start": 51,
-              "end": 55,
               "value": "cd",
-              "raw": "\"cd\""
+              "raw": "\"cd\"",
+              "start": 51,
+              "end": 55
             }
           ],
-          "optional": false
-        }
+          "optional": false,
+          "start": 34,
+          "end": 56
+        },
+        "start": 23,
+        "end": 56
       },
-      "directive": null
+      "directive": null,
+      "start": 23,
+      "end": 57
     },
     {
       "type": "ExpressionStatement",
-      "start": 58,
-      "end": 95,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 58,
-        "end": 94,
         "operator": "=",
         "left": {
           "type": "Identifier",
-          "start": 58,
-          "end": 66,
           "decorators": [],
           "name": "includes",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 58,
+          "end": 66
         },
         "right": {
           "type": "CallExpression",
-          "start": 69,
-          "end": 94,
           "callee": {
             "type": "MemberExpression",
-            "start": 69,
-            "end": 85,
             "object": {
               "type": "Literal",
-              "start": 69,
-              "end": 76,
               "value": "abcde",
-              "raw": "\"abcde\""
+              "raw": "\"abcde\"",
+              "start": 69,
+              "end": 76
             },
             "property": {
               "type": "Identifier",
-              "start": 77,
-              "end": 85,
               "decorators": [],
               "name": "includes",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 77,
+              "end": 85
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 69,
+            "end": 85
           },
           "typeArguments": null,
           "arguments": [
             {
               "type": "Literal",
-              "start": 86,
-              "end": 90,
               "value": "cd",
-              "raw": "\"cd\""
+              "raw": "\"cd\"",
+              "start": 86,
+              "end": 90
             },
             {
               "type": "Literal",
-              "start": 92,
-              "end": 93,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 92,
+              "end": 93
             }
           ],
-          "optional": false
-        }
+          "optional": false,
+          "start": 69,
+          "end": 94
+        },
+        "start": 58,
+        "end": 94
       },
-      "directive": null
+      "directive": null,
+      "start": 58,
+      "end": 95
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 95
 }
 ```

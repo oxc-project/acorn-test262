@@ -1,330 +1,330 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 909,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 573,
-      "end": 645,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 577,
-          "end": 644,
           "id": {
             "type": "Identifier",
+            "name": "AsyncFunctionPrototype",
             "start": 577,
-            "end": 599,
-            "name": "AsyncFunctionPrototype"
+            "end": 599
           },
           "init": {
             "type": "CallExpression",
-            "start": 602,
-            "end": 644,
             "callee": {
               "type": "MemberExpression",
-              "start": 602,
-              "end": 623,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 602,
-                "end": 608,
-                "name": "Object"
+                "end": 608
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 609,
-                "end": 623,
-                "name": "getPrototypeOf"
+                "end": 623
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 602,
+              "end": 623
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 624,
-                "end": 643,
                 "id": null,
                 "generator": false,
                 "async": true,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 641,
-                  "end": 643,
-                  "body": []
+                  "end": 643
                 },
-                "expression": false
+                "expression": false,
+                "start": 624,
+                "end": 643
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 602,
+            "end": 644
+          },
+          "start": 577,
+          "end": 644
         }
-      ]
+      ],
+      "start": 573,
+      "end": 645
     },
     {
       "type": "ExpressionStatement",
-      "start": 647,
-      "end": 705,
       "expression": {
         "type": "CallExpression",
-        "start": 647,
-        "end": 704,
         "callee": {
           "type": "MemberExpression",
-          "start": 647,
-          "end": 663,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 647,
-            "end": 653,
-            "name": "assert"
+            "end": 653
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 654,
-            "end": 663,
-            "name": "sameValue"
+            "end": 663
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 647,
+          "end": 663
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 664,
-            "end": 693,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "AsyncFunctionPrototype",
               "start": 671,
-              "end": 693,
-              "name": "AsyncFunctionPrototype"
+              "end": 693
             },
-            "prefix": true
+            "prefix": true,
+            "start": 664,
+            "end": 693
           },
           {
             "type": "Literal",
-            "start": 695,
-            "end": 703,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 695,
+            "end": 703
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 647,
+        "end": 704
+      },
+      "start": 647,
+      "end": 705
     },
     {
       "type": "ExpressionStatement",
-      "start": 706,
-      "end": 775,
       "expression": {
         "type": "CallExpression",
-        "start": 706,
-        "end": 774,
         "callee": {
           "type": "MemberExpression",
-          "start": 706,
-          "end": 719,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 706,
-            "end": 712,
-            "name": "assert"
+            "end": 712
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 713,
-            "end": 719,
-            "name": "throws"
+            "end": 719
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 706,
+          "end": 719
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 720,
-            "end": 729,
-            "name": "TypeError"
+            "end": 729
           },
           {
             "type": "FunctionExpression",
-            "start": 731,
-            "end": 773,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 742,
-              "end": 773,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 746,
-                  "end": 771,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 746,
-                    "end": 770,
                     "callee": {
                       "type": "Identifier",
+                      "name": "AsyncFunctionPrototype",
                       "start": 746,
-                      "end": 768,
-                      "name": "AsyncFunctionPrototype"
+                      "end": 768
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 746,
+                    "end": 770
+                  },
+                  "start": 746,
+                  "end": 771
                 }
-              ]
+              ],
+              "start": 742,
+              "end": 773
             },
-            "expression": false
+            "expression": false,
+            "start": 731,
+            "end": 773
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 706,
+        "end": 774
+      },
+      "start": 706,
+      "end": 775
     },
     {
       "type": "ExpressionStatement",
-      "start": 777,
-      "end": 844,
       "expression": {
         "type": "CallExpression",
-        "start": 777,
-        "end": 843,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 777,
-          "end": 783,
-          "name": "assert"
+          "end": 783
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 784,
-            "end": 832,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 785,
-              "end": 832,
               "callee": {
                 "type": "MemberExpression",
-                "start": 785,
-                "end": 822,
                 "object": {
                   "type": "Identifier",
+                  "name": "AsyncFunctionPrototype",
                   "start": 785,
-                  "end": 807,
-                  "name": "AsyncFunctionPrototype"
+                  "end": 807
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasOwnProperty",
                   "start": 808,
-                  "end": 822,
-                  "name": "hasOwnProperty"
+                  "end": 822
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 785,
+                "end": 822
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 823,
-                  "end": 831,
                   "value": "length",
-                  "raw": "\"length\""
+                  "raw": "\"length\"",
+                  "start": 823,
+                  "end": 831
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 785,
+              "end": 832
             },
-            "prefix": true
+            "prefix": true,
+            "start": 784,
+            "end": 832
           },
           {
             "type": "Literal",
-            "start": 834,
-            "end": 842,
             "value": "length",
-            "raw": "\"length\""
+            "raw": "\"length\"",
+            "start": 834,
+            "end": 842
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 777,
+        "end": 843
+      },
+      "start": 777,
+      "end": 844
     },
     {
       "type": "ExpressionStatement",
-      "start": 845,
-      "end": 908,
       "expression": {
         "type": "CallExpression",
-        "start": 845,
-        "end": 907,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 845,
-          "end": 851,
-          "name": "assert"
+          "end": 851
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 852,
-            "end": 898,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 853,
-              "end": 898,
               "callee": {
                 "type": "MemberExpression",
-                "start": 853,
-                "end": 890,
                 "object": {
                   "type": "Identifier",
+                  "name": "AsyncFunctionPrototype",
                   "start": 853,
-                  "end": 875,
-                  "name": "AsyncFunctionPrototype"
+                  "end": 875
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "hasOwnProperty",
                   "start": 876,
-                  "end": 890,
-                  "name": "hasOwnProperty"
+                  "end": 890
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 853,
+                "end": 890
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 891,
-                  "end": 897,
                   "value": "name",
-                  "raw": "\"name\""
+                  "raw": "\"name\"",
+                  "start": 891,
+                  "end": 897
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 853,
+              "end": 898
             },
-            "prefix": true
+            "prefix": true,
+            "start": 852,
+            "end": 898
           },
           {
             "type": "Literal",
-            "start": 900,
-            "end": 906,
             "value": "name",
-            "raw": "\"name\""
+            "raw": "\"name\"",
+            "start": 900,
+            "end": 906
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 845,
+        "end": 907
+      },
+      "start": 845,
+      "end": 908
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 909
 }

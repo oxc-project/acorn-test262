@@ -2,87 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 18,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 18,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 0,
-        "end": 17,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 13,
           "object": {
             "type": "MemberExpression",
-            "start": 0,
-            "end": 11,
             "object": {
               "type": "MemberExpression",
-              "start": 0,
-              "end": 9,
               "object": {
                 "type": "Identifier",
-                "start": 0,
-                "end": 7,
                 "decorators": [],
                 "name": "exports",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 0,
+                "end": 7
               },
               "property": {
                 "type": "Identifier",
-                "start": 8,
-                "end": 9,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 8,
+                "end": 9
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 0,
+              "end": 9
             },
             "property": {
               "type": "Identifier",
-              "start": 10,
-              "end": 11,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 10,
+              "end": 11
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 0,
+            "end": 11
           },
           "property": {
             "type": "Identifier",
-            "start": 12,
-            "end": 13,
             "decorators": [],
             "name": "c",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 13
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 13
         },
         "right": {
           "type": "Literal",
-          "start": 16,
-          "end": 17,
           "value": 0,
-          "raw": "0"
-        }
+          "raw": "0",
+          "start": 16,
+          "end": 17
+        },
+        "start": 0,
+        "end": 17
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 18
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 18
 }
 ```

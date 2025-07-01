@@ -2,56 +2,52 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 82,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 16,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 15,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 15,
             "decorators": [],
             "name": "foo",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 7,
-              "end": 15,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 9,
                 "end": 15
-              }
-            }
+              },
+              "start": 7,
+              "end": 15
+            },
+            "start": 4,
+            "end": 15
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 15
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 16
     },
     {
       "type": "ClassDeclaration",
-      "start": 18,
-      "end": 64,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 24,
-        "end": 25,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 24,
+        "end": 25
       },
       "typeParameters": null,
       "superClass": null,
@@ -59,100 +55,104 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 26,
-        "end": 64,
         "body": [
           {
             "type": "StaticBlock",
-            "start": 32,
-            "end": 62,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 49,
-                "end": 56,
                 "expression": {
                   "type": "AssignmentExpression",
-                  "start": 49,
-                  "end": 56,
                   "operator": "=",
                   "left": {
                     "type": "Identifier",
-                    "start": 49,
-                    "end": 52,
                     "decorators": [],
                     "name": "foo",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 49,
+                    "end": 52
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 55,
-                    "end": 56,
                     "value": 1,
-                    "raw": "1"
-                  }
+                    "raw": "1",
+                    "start": 55,
+                    "end": 56
+                  },
+                  "start": 49,
+                  "end": 56
                 },
-                "directive": null
+                "directive": null,
+                "start": 49,
+                "end": 56
               }
-            ]
+            ],
+            "start": 32,
+            "end": 62
           }
-        ]
+        ],
+        "start": 26,
+        "end": 64
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 18,
+      "end": 64
     },
     {
       "type": "ExpressionStatement",
-      "start": 66,
-      "end": 82,
       "expression": {
         "type": "CallExpression",
-        "start": 66,
-        "end": 82,
         "callee": {
           "type": "MemberExpression",
-          "start": 66,
-          "end": 77,
           "object": {
             "type": "Identifier",
-            "start": 66,
-            "end": 73,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 66,
+            "end": 73
           },
           "property": {
             "type": "Identifier",
-            "start": 74,
-            "end": 77,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 74,
+            "end": 77
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 66,
+          "end": 77
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 78,
-            "end": 81,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 78,
+            "end": 81
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 66,
+        "end": 82
       },
-      "directive": null
+      "directive": null,
+      "start": 66,
+      "end": 82
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 82
 }
 ```

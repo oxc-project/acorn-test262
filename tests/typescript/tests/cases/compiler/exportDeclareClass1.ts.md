@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 4,
-  "end": 187,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 4,
-      "end": 96,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 11,
-        "end": 96,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 28,
           "decorators": [],
           "name": "eaC",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 25,
+          "end": 28
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,27 +23,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 29,
-          "end": 96,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 39,
-              "end": 54,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 46,
-                "end": 48,
                 "decorators": [],
                 "name": "tF",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 46,
+                "end": 48
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 48,
-                "end": 54,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -59,37 +47,37 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 51,
-                  "end": 54,
-                  "body": []
+                  "end": 54
                 },
-                "expression": false
+                "expression": false,
+                "start": 48,
+                "end": 54
               },
               "kind": "method",
               "computed": false,
               "static": true,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 39,
+              "end": 54
             },
             {
               "type": "MethodDefinition",
-              "start": 64,
-              "end": 89,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 71,
-                "end": 74,
                 "decorators": [],
                 "name": "tsF",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 71,
+                "end": 74
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 74,
-                "end": 89,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -98,48 +86,58 @@ __ESTREE_TEST__:PASS:
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 75,
-                    "end": 84,
                     "decorators": [],
                     "name": "param",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 80,
-                      "end": 84,
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",
                         "start": 81,
                         "end": 84
-                      }
-                    }
+                      },
+                      "start": 80,
+                      "end": 84
+                    },
+                    "start": 75,
+                    "end": 84
                   }
                 ],
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 86,
-                  "end": 89,
-                  "body": []
+                  "end": 89
                 },
-                "expression": false
+                "expression": false,
+                "start": 74,
+                "end": 89
               },
               "kind": "method",
               "computed": false,
               "static": true,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 64,
+              "end": 89
             }
-          ]
+          ],
+          "start": 29,
+          "end": 96
         },
         "abstract": false,
-        "declare": true
+        "declare": true,
+        "start": 11,
+        "end": 96
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 4,
+      "end": 96
     },
     {
       "type": "EmptyStatement",
@@ -148,21 +146,17 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 101,
-      "end": 186,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 108,
-        "end": 186,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 122,
-          "end": 126,
           "decorators": [],
           "name": "eaC2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 122,
+          "end": 126
         },
         "typeParameters": null,
         "superClass": null,
@@ -170,27 +164,21 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 127,
-          "end": 186,
           "body": [
             {
               "type": "MethodDefinition",
-              "start": 137,
-              "end": 149,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 144,
-                "end": 146,
                 "decorators": [],
                 "name": "tF",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 144,
+                "end": 146
               },
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
-                "start": 146,
-                "end": 149,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -199,33 +187,33 @@ __ESTREE_TEST__:PASS:
                 "params": [],
                 "returnType": null,
                 "body": null,
-                "expression": false
+                "expression": false,
+                "start": 146,
+                "end": 149
               },
               "kind": "method",
               "computed": false,
               "static": true,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 137,
+              "end": 149
             },
             {
               "type": "MethodDefinition",
-              "start": 158,
-              "end": 180,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 165,
-                "end": 168,
                 "decorators": [],
                 "name": "tsF",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 165,
+                "end": 168
               },
               "value": {
                 "type": "TSEmptyBodyFunctionExpression",
-                "start": 168,
-                "end": 180,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -234,43 +222,53 @@ __ESTREE_TEST__:PASS:
                 "params": [
                   {
                     "type": "Identifier",
-                    "start": 169,
-                    "end": 178,
                     "decorators": [],
                     "name": "param",
                     "optional": false,
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 174,
-                      "end": 178,
                       "typeAnnotation": {
                         "type": "TSAnyKeyword",
                         "start": 175,
                         "end": 178
-                      }
-                    }
+                      },
+                      "start": 174,
+                      "end": 178
+                    },
+                    "start": 169,
+                    "end": 178
                   }
                 ],
                 "returnType": null,
                 "body": null,
-                "expression": false
+                "expression": false,
+                "start": 168,
+                "end": 180
               },
               "kind": "method",
               "computed": false,
               "static": true,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 158,
+              "end": 180
             }
-          ]
+          ],
+          "start": 127,
+          "end": 186
         },
         "abstract": false,
-        "declare": true
+        "declare": true,
+        "start": 108,
+        "end": 186
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 101,
+      "end": 186
     },
     {
       "type": "EmptyStatement",
@@ -279,6 +277,8 @@ __ESTREE_TEST__:PASS:
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 4,
+  "end": 187
 }
 ```

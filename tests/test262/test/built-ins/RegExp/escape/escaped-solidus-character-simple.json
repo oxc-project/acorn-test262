@@ -1,329 +1,329 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 911,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 464,
-      "end": 550,
       "expression": {
         "type": "CallExpression",
-        "start": 464,
-        "end": 549,
         "callee": {
           "type": "MemberExpression",
-          "start": 464,
-          "end": 480,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 464,
-            "end": 470,
-            "name": "assert"
+            "end": 470
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 471,
-            "end": 480,
-            "name": "sameValue"
+            "end": 480
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 464,
+          "end": 480
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 481,
-            "end": 499,
             "callee": {
               "type": "MemberExpression",
-              "start": 481,
-              "end": 494,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 481,
-                "end": 487,
-                "name": "RegExp"
+                "end": 487
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 488,
-                "end": 494,
-                "name": "escape"
+                "end": 494
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 481,
+              "end": 494
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 495,
-                "end": 498,
                 "value": "/",
-                "raw": "'/'"
+                "raw": "'/'",
+                "start": 495,
+                "end": 498
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 481,
+            "end": 499
           },
           {
             "type": "Literal",
-            "start": 501,
-            "end": 506,
             "value": "\\/",
-            "raw": "'\\\\/'"
+            "raw": "'\\\\/'",
+            "start": 501,
+            "end": 506
           },
           {
             "type": "Literal",
-            "start": 508,
-            "end": 548,
             "value": "solidus character is escaped correctly",
-            "raw": "'solidus character is escaped correctly'"
+            "raw": "'solidus character is escaped correctly'",
+            "start": 508,
+            "end": 548
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 464,
+        "end": 549
+      },
+      "start": 464,
+      "end": 550
     },
     {
       "type": "ExpressionStatement",
-      "start": 551,
-      "end": 666,
       "expression": {
         "type": "CallExpression",
-        "start": 551,
-        "end": 665,
         "callee": {
           "type": "MemberExpression",
-          "start": 551,
-          "end": 567,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 551,
-            "end": 557,
-            "name": "assert"
+            "end": 557
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 558,
-            "end": 567,
-            "name": "sameValue"
+            "end": 567
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 551,
+          "end": 567
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 568,
-            "end": 587,
             "callee": {
               "type": "MemberExpression",
-              "start": 568,
-              "end": 581,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 568,
-                "end": 574,
-                "name": "RegExp"
+                "end": 574
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 575,
-                "end": 581,
-                "name": "escape"
+                "end": 581
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 568,
+              "end": 581
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 582,
-                "end": 586,
                 "value": "//",
-                "raw": "'//'"
+                "raw": "'//'",
+                "start": 582,
+                "end": 586
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 568,
+            "end": 587
           },
           {
             "type": "Literal",
-            "start": 589,
-            "end": 597,
             "value": "\\/\\/",
-            "raw": "'\\\\/\\\\/'"
+            "raw": "'\\\\/\\\\/'",
+            "start": 589,
+            "end": 597
           },
           {
             "type": "Literal",
-            "start": 599,
-            "end": 664,
             "value": "solidus character is escaped correctly - multiple occurrences 1",
-            "raw": "'solidus character is escaped correctly - multiple occurrences 1'"
+            "raw": "'solidus character is escaped correctly - multiple occurrences 1'",
+            "start": 599,
+            "end": 664
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 551,
+        "end": 665
+      },
+      "start": 551,
+      "end": 666
     },
     {
       "type": "ExpressionStatement",
-      "start": 667,
-      "end": 786,
       "expression": {
         "type": "CallExpression",
-        "start": 667,
-        "end": 785,
         "callee": {
           "type": "MemberExpression",
-          "start": 667,
-          "end": 683,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 667,
-            "end": 673,
-            "name": "assert"
+            "end": 673
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 674,
-            "end": 683,
-            "name": "sameValue"
+            "end": 683
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 667,
+          "end": 683
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 684,
-            "end": 704,
             "callee": {
               "type": "MemberExpression",
-              "start": 684,
-              "end": 697,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 684,
-                "end": 690,
-                "name": "RegExp"
+                "end": 690
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 691,
-                "end": 697,
-                "name": "escape"
+                "end": 697
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 684,
+              "end": 697
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 698,
-                "end": 703,
                 "value": "///",
-                "raw": "'///'"
+                "raw": "'///'",
+                "start": 698,
+                "end": 703
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 684,
+            "end": 704
           },
           {
             "type": "Literal",
-            "start": 706,
-            "end": 717,
             "value": "\\/\\/\\/",
-            "raw": "'\\\\/\\\\/\\\\/'"
+            "raw": "'\\\\/\\\\/\\\\/'",
+            "start": 706,
+            "end": 717
           },
           {
             "type": "Literal",
-            "start": 719,
-            "end": 784,
             "value": "solidus character is escaped correctly - multiple occurrences 2",
-            "raw": "'solidus character is escaped correctly - multiple occurrences 2'"
+            "raw": "'solidus character is escaped correctly - multiple occurrences 2'",
+            "start": 719,
+            "end": 784
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 667,
+        "end": 785
+      },
+      "start": 667,
+      "end": 786
     },
     {
       "type": "ExpressionStatement",
-      "start": 787,
-      "end": 910,
       "expression": {
         "type": "CallExpression",
-        "start": 787,
-        "end": 909,
         "callee": {
           "type": "MemberExpression",
-          "start": 787,
-          "end": 803,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 787,
-            "end": 793,
-            "name": "assert"
+            "end": 793
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 794,
-            "end": 803,
-            "name": "sameValue"
+            "end": 803
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 787,
+          "end": 803
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 804,
-            "end": 825,
             "callee": {
               "type": "MemberExpression",
-              "start": 804,
-              "end": 817,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 804,
-                "end": 810,
-                "name": "RegExp"
+                "end": 810
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 811,
-                "end": 817,
-                "name": "escape"
+                "end": 817
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 804,
+              "end": 817
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 818,
-                "end": 824,
                 "value": "////",
-                "raw": "'////'"
+                "raw": "'////'",
+                "start": 818,
+                "end": 824
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 804,
+            "end": 825
           },
           {
             "type": "Literal",
-            "start": 827,
-            "end": 841,
             "value": "\\/\\/\\/\\/",
-            "raw": "'\\\\/\\\\/\\\\/\\\\/'"
+            "raw": "'\\\\/\\\\/\\\\/\\\\/'",
+            "start": 827,
+            "end": 841
           },
           {
             "type": "Literal",
-            "start": 843,
-            "end": 908,
             "value": "solidus character is escaped correctly - multiple occurrences 3",
-            "raw": "'solidus character is escaped correctly - multiple occurrences 3'"
+            "raw": "'solidus character is escaped correctly - multiple occurrences 3'",
+            "start": 843,
+            "end": 908
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 787,
+        "end": 909
+      },
+      "start": 787,
+      "end": 910
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 911
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 65,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 65,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 7,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 7
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,22 +21,18 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 8,
-        "end": 65,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 13,
-            "end": 22,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 20,
-              "end": 21,
               "decorators": [],
               "name": "s",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 20,
+              "end": 21
             },
             "typeAnnotation": null,
             "value": null,
@@ -51,26 +43,24 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 13,
+            "end": 22
           },
           {
             "type": "MethodDefinition",
-            "start": 26,
-            "end": 63,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 33,
-              "end": 34,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 34
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 34,
-              "end": 63,
               "id": null,
               "generator": false,
               "async": false,
@@ -80,55 +70,65 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 37,
-                "end": 63,
                 "body": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 45,
-                    "end": 51,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 45,
-                      "end": 50,
                       "operator": "=",
                       "left": {
                         "type": "Identifier",
-                        "start": 45,
-                        "end": 46,
                         "decorators": [],
                         "name": "s",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 45,
+                        "end": 46
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 49,
-                        "end": 50,
                         "value": 1,
-                        "raw": "1"
-                      }
+                        "raw": "1",
+                        "start": 49,
+                        "end": 50
+                      },
+                      "start": 45,
+                      "end": 50
                     },
-                    "directive": null
+                    "directive": null,
+                    "start": 45,
+                    "end": 51
                   }
-                ]
+                ],
+                "start": 37,
+                "end": 63
               },
-              "expression": false
+              "expression": false,
+              "start": 34,
+              "end": 63
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 26,
+            "end": 63
           }
-        ]
+        ],
+        "start": 8,
+        "end": 65
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 65
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 65
 }
 ```

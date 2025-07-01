@@ -2,43 +2,33 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 149,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 107,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 16
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 17,
-        "end": 107,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 85,
-            "end": 105,
             "declaration": {
               "type": "TSDeclareFunction",
-              "start": 92,
-              "end": 105,
               "id": {
                 "type": "Identifier",
-                "start": 101,
-                "end": 102,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 101,
+                "end": 102
               },
               "generator": false,
               "async": false,
@@ -47,53 +37,53 @@ __ESTREE_TEST__:PASS:
               "params": [],
               "returnType": null,
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 92,
+              "end": 105
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 85,
+            "end": 105
           }
-        ]
+        ],
+        "start": 17,
+        "end": 107
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 107
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 109,
-      "end": 149,
       "id": {
         "type": "Identifier",
-        "start": 116,
-        "end": 117,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 116,
+        "end": 117
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 118,
-        "end": 149,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 124,
-            "end": 147,
             "declaration": {
               "type": "FunctionDeclaration",
-              "start": 131,
-              "end": 147,
               "id": {
                 "type": "Identifier",
-                "start": 140,
-                "end": 141,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 140,
+                "end": 141
               },
               "generator": false,
               "async": false,
@@ -103,25 +93,35 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 144,
-                "end": 147,
-                "body": []
+                "end": 147
               },
-              "expression": false
+              "expression": false,
+              "start": 131,
+              "end": 147
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 124,
+            "end": 147
           }
-        ]
+        ],
+        "start": 118,
+        "end": 149
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 109,
+      "end": 149
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 149
 }
 ```

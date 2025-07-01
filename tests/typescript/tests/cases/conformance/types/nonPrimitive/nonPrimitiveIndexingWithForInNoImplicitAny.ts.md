@@ -2,140 +2,140 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 71,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 14,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 13,
             "decorators": [],
             "name": "a",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 13,
               "typeAnnotation": {
                 "type": "TSObjectKeyword",
                 "start": 7,
                 "end": 13
-              }
-            }
+              },
+              "start": 5,
+              "end": 13
+            },
+            "start": 4,
+            "end": 13
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 13
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "ForInStatement",
-      "start": 16,
-      "end": 71,
       "left": {
         "type": "VariableDeclaration",
-        "start": 21,
-        "end": 28,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 25,
-            "end": 28,
             "id": {
               "type": "Identifier",
-              "start": 25,
-              "end": 28,
               "decorators": [],
               "name": "key",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 25,
+              "end": 28
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 25,
+            "end": 28
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 21,
+        "end": 28
       },
       "right": {
         "type": "Identifier",
-        "start": 32,
-        "end": 33,
         "decorators": [],
         "name": "a",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 32,
+        "end": 33
       },
       "body": {
         "type": "BlockStatement",
-        "start": 35,
-        "end": 71,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 41,
-            "end": 60,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 45,
-                "end": 59,
                 "id": {
                   "type": "Identifier",
-                  "start": 45,
-                  "end": 50,
                   "decorators": [],
                   "name": "value",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 45,
+                  "end": 50
                 },
                 "init": {
                   "type": "MemberExpression",
-                  "start": 53,
-                  "end": 59,
                   "object": {
                     "type": "Identifier",
-                    "start": 53,
-                    "end": 54,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 53,
+                    "end": 54
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 55,
-                    "end": 58,
                     "decorators": [],
                     "name": "key",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 55,
+                    "end": 58
                   },
                   "optional": false,
-                  "computed": true
+                  "computed": true,
+                  "start": 53,
+                  "end": 59
                 },
-                "definite": false
+                "definite": false,
+                "start": 45,
+                "end": 59
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 41,
+            "end": 60
           }
-        ]
-      }
+        ],
+        "start": 35,
+        "end": 71
+      },
+      "start": 16,
+      "end": 71
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 71
 }
 ```

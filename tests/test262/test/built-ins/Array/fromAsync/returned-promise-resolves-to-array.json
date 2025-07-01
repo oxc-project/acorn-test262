@@ -1,208 +1,208 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 669,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 463,
-      "end": 668,
       "expression": {
         "type": "CallExpression",
-        "start": 463,
-        "end": 667,
         "callee": {
           "type": "Identifier",
+          "name": "asyncTest",
           "start": 463,
-          "end": 472,
-          "name": "asyncTest"
+          "end": 472
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 473,
-            "end": 666,
             "id": null,
             "generator": false,
             "async": true,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 491,
-              "end": 666,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 495,
-                  "end": 538,
                   "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 501,
-                      "end": 537,
                       "id": {
                         "type": "Identifier",
+                        "name": "promise",
                         "start": 501,
-                        "end": 508,
-                        "name": "promise"
+                        "end": 508
                       },
                       "init": {
                         "type": "CallExpression",
-                        "start": 511,
-                        "end": 537,
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 511,
-                          "end": 526,
                           "object": {
                             "type": "Identifier",
+                            "name": "Array",
                             "start": 511,
-                            "end": 516,
-                            "name": "Array"
+                            "end": 516
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "fromAsync",
                             "start": 517,
-                            "end": 526,
-                            "name": "fromAsync"
+                            "end": 526
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 511,
+                          "end": 526
                         },
                         "arguments": [
                           {
                             "type": "ArrayExpression",
-                            "start": 527,
-                            "end": 536,
                             "elements": [
                               {
                                 "type": "Literal",
-                                "start": 528,
-                                "end": 529,
                                 "value": 0,
-                                "raw": "0"
+                                "raw": "0",
+                                "start": 528,
+                                "end": 529
                               },
                               {
                                 "type": "Literal",
-                                "start": 531,
-                                "end": 532,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "start": 531,
+                                "end": 532
                               },
                               {
                                 "type": "Literal",
-                                "start": 534,
-                                "end": 535,
                                 "value": 2,
-                                "raw": "2"
+                                "raw": "2",
+                                "start": 534,
+                                "end": 535
                               }
-                            ]
+                            ],
+                            "start": 527,
+                            "end": 536
                           }
                         ],
-                        "optional": false
-                      }
+                        "optional": false,
+                        "start": 511,
+                        "end": 537
+                      },
+                      "start": 501,
+                      "end": 537
                     }
-                  ]
+                  ],
+                  "start": 495,
+                  "end": 538
                 },
                 {
                   "type": "VariableDeclaration",
-                  "start": 541,
-                  "end": 569,
                   "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 547,
-                      "end": 568,
                       "id": {
                         "type": "Identifier",
+                        "name": "array",
                         "start": 547,
-                        "end": 552,
-                        "name": "array"
+                        "end": 552
                       },
                       "init": {
                         "type": "AwaitExpression",
-                        "start": 555,
-                        "end": 568,
                         "argument": {
                           "type": "Identifier",
+                          "name": "promise",
                           "start": 561,
-                          "end": 568,
-                          "name": "promise"
-                        }
-                      }
+                          "end": 568
+                        },
+                        "start": 555,
+                        "end": 568
+                      },
+                      "start": 547,
+                      "end": 568
                     }
-                  ]
+                  ],
+                  "start": 541,
+                  "end": 569
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 572,
-                  "end": 664,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 572,
-                    "end": 663,
                     "callee": {
                       "type": "Identifier",
+                      "name": "assert",
                       "start": 572,
-                      "end": 578,
-                      "name": "assert"
+                      "end": 578
                     },
                     "arguments": [
                       {
                         "type": "CallExpression",
-                        "start": 579,
-                        "end": 599,
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 579,
-                          "end": 592,
                           "object": {
                             "type": "Identifier",
+                            "name": "Array",
                             "start": 579,
-                            "end": 584,
-                            "name": "Array"
+                            "end": 584
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "isArray",
                             "start": 585,
-                            "end": 592,
-                            "name": "isArray"
+                            "end": 592
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 579,
+                          "end": 592
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
+                            "name": "array",
                             "start": 593,
-                            "end": 598,
-                            "name": "array"
+                            "end": 598
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 579,
+                        "end": 599
                       },
                       {
                         "type": "Literal",
-                        "start": 601,
-                        "end": 662,
                         "value": "Array.fromAsync returns a Promise that resolves to an Array",
-                        "raw": "\"Array.fromAsync returns a Promise that resolves to an Array\""
+                        "raw": "\"Array.fromAsync returns a Promise that resolves to an Array\"",
+                        "start": 601,
+                        "end": 662
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 572,
+                    "end": 663
+                  },
+                  "start": 572,
+                  "end": 664
                 }
-              ]
+              ],
+              "start": 491,
+              "end": 666
             },
-            "expression": false
+            "expression": false,
+            "start": 473,
+            "end": 666
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 463,
+        "end": 667
+      },
+      "start": 463,
+      "end": 668
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 669
 }

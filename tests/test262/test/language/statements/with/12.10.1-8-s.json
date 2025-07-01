@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 551,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 321,
-      "end": 550,
       "expression": {
         "type": "CallExpression",
-        "start": 321,
-        "end": 549,
         "callee": {
           "type": "MemberExpression",
-          "start": 321,
-          "end": 334,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 321,
-            "end": 327,
-            "name": "assert"
+            "end": 327
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 328,
-            "end": 334,
-            "name": "throws"
+            "end": 334
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 321,
+          "end": 334
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 335,
-            "end": 346,
-            "name": "SyntaxError"
+            "end": 346
           },
           {
             "type": "FunctionExpression",
-            "start": 348,
-            "end": 548,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 359,
-              "end": 548,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 365,
-                  "end": 546,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 365,
-                    "end": 545,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Function",
                       "start": 365,
-                      "end": 373,
-                      "name": "Function"
+                      "end": 373
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 374,
-                        "end": 544,
                         "value": "              'use strict';               var f1 = function () {                  var o = {};                   with (o) {};                 }            ",
-                        "raw": "\"\\\n              \\'use strict\\'; \\\n              var f1 = function () {\\\n                  var o = {}; \\\n                  with (o) {}; \\\n                }\\\n            \""
+                        "raw": "\"\\\n              \\'use strict\\'; \\\n              var f1 = function () {\\\n                  var o = {}; \\\n                  with (o) {}; \\\n                }\\\n            \"",
+                        "start": 374,
+                        "end": 544
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 365,
+                    "end": 545
+                  },
+                  "start": 365,
+                  "end": 546
                 }
-              ]
+              ],
+              "start": 359,
+              "end": 548
             },
-            "expression": false
+            "expression": false,
+            "start": 348,
+            "end": 548
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 321,
+        "end": 549
+      },
+      "start": 321,
+      "end": 550
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 551
 }

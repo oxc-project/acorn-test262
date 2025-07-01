@@ -2,41 +2,27 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 33,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 33,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 33,
         "callee": {
           "type": "MemberExpression",
-          "start": 0,
-          "end": 31,
           "object": {
             "type": "CallExpression",
-            "start": 0,
-            "end": 27,
             "callee": {
               "type": "TSAsExpression",
-              "start": 1,
-              "end": 24,
               "expression": {
                 "type": "FunctionExpression",
-                "start": 1,
-                "end": 17,
                 "id": {
                   "type": "Identifier",
-                  "start": 10,
-                  "end": 11,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 10,
+                  "end": 11
                 },
                 "generator": false,
                 "async": false,
@@ -46,42 +32,56 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 14,
-                  "end": 17,
-                  "body": []
+                  "end": 17
                 },
-                "expression": false
+                "expression": false,
+                "start": 1,
+                "end": 17
               },
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 21,
                 "end": 24
-              }
+              },
+              "start": 1,
+              "end": 24
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 0,
+            "end": 27
           },
           "property": {
             "type": "Identifier",
-            "start": 28,
-            "end": 31,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 28,
+            "end": 31
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 0,
+          "end": 31
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 33
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 33
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 33
 }
 ```

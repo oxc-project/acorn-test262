@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 155,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 67,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 10,
         "decorators": [],
         "name": "Clod",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 10
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,30 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 11,
-        "end": 67,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 17,
-            "end": 39,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 32,
-              "end": 33,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 32,
+              "end": 33
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 36,
-              "end": 38,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 36,
+              "end": 38
             },
             "computed": false,
             "static": true,
@@ -57,29 +49,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 17,
+            "end": 39
           },
           {
             "type": "PropertyDefinition",
-            "start": 44,
-            "end": 65,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 58,
-              "end": 59,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 58,
+              "end": 59
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 62,
-              "end": 64,
               "value": 10,
-              "raw": "10"
+              "raw": "10",
+              "start": 62,
+              "end": 64
             },
             "computed": false,
             "static": true,
@@ -88,203 +80,211 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "public"
+            "accessibility": "public",
+            "start": 44,
+            "end": 65
           }
-        ]
+        ],
+        "start": 11,
+        "end": 67
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 67
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 68,
-      "end": 155,
       "id": {
         "type": "Identifier",
-        "start": 75,
-        "end": 79,
         "decorators": [],
         "name": "Clod",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 75,
+        "end": 79
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 80,
-        "end": 155,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 86,
-            "end": 101,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 90,
-                "end": 100,
                 "id": {
                   "type": "Identifier",
-                  "start": 90,
-                  "end": 91,
                   "decorators": [],
                   "name": "p",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 90,
+                  "end": 91
                 },
                 "init": {
                   "type": "MemberExpression",
-                  "start": 94,
-                  "end": 100,
                   "object": {
                     "type": "Identifier",
-                    "start": 94,
-                    "end": 98,
                     "decorators": [],
                     "name": "Clod",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 94,
+                    "end": 98
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 99,
-                    "end": 100,
                     "decorators": [],
                     "name": "x",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 99,
+                    "end": 100
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 94,
+                  "end": 100
                 },
-                "definite": false
+                "definite": false,
+                "start": 90,
+                "end": 100
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 86,
+            "end": 101
           },
           {
             "type": "VariableDeclaration",
-            "start": 106,
-            "end": 116,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 110,
-                "end": 115,
                 "id": {
                   "type": "Identifier",
-                  "start": 110,
-                  "end": 111,
                   "decorators": [],
                   "name": "q",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 110,
+                  "end": 111
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 114,
-                  "end": 115,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 114,
+                  "end": 115
                 },
-                "definite": false
+                "definite": false,
+                "start": 110,
+                "end": 115
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 106,
+            "end": 116
           },
           {
             "type": "VariableDeclaration",
-            "start": 122,
-            "end": 137,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 126,
-                "end": 136,
                 "id": {
                   "type": "Identifier",
-                  "start": 126,
-                  "end": 127,
                   "decorators": [],
                   "name": "s",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 126,
+                  "end": 127
                 },
                 "init": {
                   "type": "MemberExpression",
-                  "start": 130,
-                  "end": 136,
                   "object": {
                     "type": "Identifier",
-                    "start": 130,
-                    "end": 134,
                     "decorators": [],
                     "name": "Clod",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 130,
+                    "end": 134
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 135,
-                    "end": 136,
                     "decorators": [],
                     "name": "y",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 135,
+                    "end": 136
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 130,
+                  "end": 136
                 },
-                "definite": false
+                "definite": false,
+                "start": 126,
+                "end": 136
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 122,
+            "end": 137
           },
           {
             "type": "VariableDeclaration",
-            "start": 142,
-            "end": 152,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 146,
-                "end": 151,
                 "id": {
                   "type": "Identifier",
-                  "start": 146,
-                  "end": 147,
                   "decorators": [],
                   "name": "t",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 146,
+                  "end": 147
                 },
                 "init": {
                   "type": "Identifier",
-                  "start": 150,
-                  "end": 151,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 150,
+                  "end": 151
                 },
-                "definite": false
+                "definite": false,
+                "start": 146,
+                "end": 151
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 142,
+            "end": 152
           }
-        ]
+        ],
+        "start": 80,
+        "end": 155
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 68,
+      "end": 155
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 155
 }
 ```

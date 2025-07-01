@@ -2,291 +2,291 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 31,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 0,
-        "end": 31,
         "test": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 1
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
-          "start": 4,
-          "end": 16,
           "expression": true,
           "async": false,
           "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
-              "start": 4,
-              "end": 5,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 4,
+              "end": 5
             }
           ],
           "returnType": null,
           "body": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 15,
             "properties": [
               {
                 "type": "Property",
-                "start": 12,
-                "end": 13,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 12,
-                  "end": 13,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 12,
+                  "end": 13
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 12,
-                  "end": 13,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 12,
+                  "end": 13
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 12,
+                "end": 13
               }
-            ]
+            ],
+            "start": 10,
+            "end": 15
           },
           "id": null,
-          "generator": false
+          "generator": false,
+          "start": 4,
+          "end": 16
         },
         "alternate": {
           "type": "ArrowFunctionExpression",
-          "start": 19,
-          "end": 31,
           "expression": true,
           "async": false,
           "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
-              "start": 19,
-              "end": 20,
               "decorators": [],
               "name": "z",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 20
             }
           ],
           "returnType": null,
           "body": {
             "type": "ObjectExpression",
-            "start": 25,
-            "end": 30,
             "properties": [
               {
                 "type": "Property",
-                "start": 27,
-                "end": 28,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
                   "decorators": [],
                   "name": "z",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 27,
+                  "end": 28
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
                   "decorators": [],
                   "name": "z",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 27,
+                  "end": 28
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 27,
+                "end": 28
               }
-            ]
+            ],
+            "start": 25,
+            "end": 30
           },
           "id": null,
-          "generator": false
-        }
+          "generator": false,
+          "start": 19,
+          "end": 31
+        },
+        "start": 0,
+        "end": 31
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 31
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 31,
       "expression": {
         "type": "ConditionalExpression",
-        "start": 0,
-        "end": 31,
         "test": {
           "type": "Identifier",
-          "start": 0,
-          "end": 1,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 1
         },
         "consequent": {
           "type": "ArrowFunctionExpression",
-          "start": 4,
-          "end": 16,
           "expression": true,
           "async": false,
           "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
-              "start": 4,
-              "end": 5,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 4,
+              "end": 5
             }
           ],
           "returnType": null,
           "body": {
             "type": "ObjectExpression",
-            "start": 10,
-            "end": 15,
             "properties": [
               {
                 "type": "Property",
-                "start": 12,
-                "end": 13,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 12,
-                  "end": 13,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 12,
+                  "end": 13
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 12,
-                  "end": 13,
                   "decorators": [],
                   "name": "y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 12,
+                  "end": 13
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 12,
+                "end": 13
               }
-            ]
+            ],
+            "start": 10,
+            "end": 15
           },
           "id": null,
-          "generator": false
+          "generator": false,
+          "start": 4,
+          "end": 16
         },
         "alternate": {
           "type": "ArrowFunctionExpression",
-          "start": 19,
-          "end": 31,
           "expression": true,
           "async": false,
           "typeParameters": null,
           "params": [
             {
               "type": "Identifier",
-              "start": 19,
-              "end": 20,
               "decorators": [],
               "name": "z",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 19,
+              "end": 20
             }
           ],
           "returnType": null,
           "body": {
             "type": "ObjectExpression",
-            "start": 25,
-            "end": 30,
             "properties": [
               {
                 "type": "Property",
-                "start": 27,
-                "end": 28,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
                   "decorators": [],
                   "name": "z",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 27,
+                  "end": 28
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 27,
-                  "end": 28,
                   "decorators": [],
                   "name": "z",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 27,
+                  "end": 28
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 27,
+                "end": 28
               }
-            ]
+            ],
+            "start": 25,
+            "end": 30
           },
           "id": null,
-          "generator": false
-        }
+          "generator": false,
+          "start": 19,
+          "end": 31
+        },
+        "start": 0,
+        "end": 31
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 31
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```

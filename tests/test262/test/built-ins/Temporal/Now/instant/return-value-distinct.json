@@ -1,176 +1,176 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 475,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 281,
-      "end": 319,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 285,
-          "end": 318,
           "id": {
             "type": "Identifier",
+            "name": "instant1",
             "start": 285,
-            "end": 293,
-            "name": "instant1"
+            "end": 293
           },
           "init": {
             "type": "CallExpression",
-            "start": 296,
-            "end": 318,
             "callee": {
               "type": "MemberExpression",
-              "start": 296,
-              "end": 316,
               "object": {
                 "type": "MemberExpression",
-                "start": 296,
-                "end": 308,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 296,
-                  "end": 304,
-                  "name": "Temporal"
+                  "end": 304
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Now",
                   "start": 305,
-                  "end": 308,
-                  "name": "Now"
+                  "end": 308
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 296,
+                "end": 308
               },
               "property": {
                 "type": "Identifier",
+                "name": "instant",
                 "start": 309,
-                "end": 316,
-                "name": "instant"
+                "end": 316
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 296,
+              "end": 316
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 296,
+            "end": 318
+          },
+          "start": 285,
+          "end": 318
         }
-      ]
+      ],
+      "start": 281,
+      "end": 319
     },
     {
       "type": "VariableDeclaration",
-      "start": 320,
-      "end": 358,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 324,
-          "end": 357,
           "id": {
             "type": "Identifier",
+            "name": "instant2",
             "start": 324,
-            "end": 332,
-            "name": "instant2"
+            "end": 332
           },
           "init": {
             "type": "CallExpression",
-            "start": 335,
-            "end": 357,
             "callee": {
               "type": "MemberExpression",
-              "start": 335,
-              "end": 355,
               "object": {
                 "type": "MemberExpression",
-                "start": 335,
-                "end": 347,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 335,
-                  "end": 343,
-                  "name": "Temporal"
+                  "end": 343
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Now",
                   "start": 344,
-                  "end": 347,
-                  "name": "Now"
+                  "end": 347
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 335,
+                "end": 347
               },
               "property": {
                 "type": "Identifier",
+                "name": "instant",
                 "start": 348,
-                "end": 355,
-                "name": "instant"
+                "end": 355
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 335,
+              "end": 355
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 335,
+            "end": 357
+          },
+          "start": 324,
+          "end": 357
         }
-      ]
+      ],
+      "start": 320,
+      "end": 358
     },
     {
       "type": "ExpressionStatement",
-      "start": 360,
-      "end": 474,
       "expression": {
         "type": "CallExpression",
-        "start": 360,
-        "end": 473,
         "callee": {
           "type": "MemberExpression",
-          "start": 360,
-          "end": 379,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 360,
-            "end": 366,
-            "name": "assert"
+            "end": 366
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 367,
-            "end": 379,
-            "name": "notSameValue"
+            "end": 379
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 360,
+          "end": 379
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "instant1",
             "start": 380,
-            "end": 388,
-            "name": "instant1"
+            "end": 388
           },
           {
             "type": "Identifier",
+            "name": "instant2",
             "start": 390,
-            "end": 398,
-            "name": "instant2"
+            "end": 398
           },
           {
             "type": "Literal",
-            "start": 400,
-            "end": 472,
             "value": "The value of instant1 is expected to not equal the value of `instant2`",
-            "raw": "'The value of instant1 is expected to not equal the value of `instant2`'"
+            "raw": "'The value of instant1 is expected to not equal the value of `instant2`'",
+            "start": 400,
+            "end": 472
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 360,
+        "end": 473
+      },
+      "start": 360,
+      "end": 474
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 475
 }

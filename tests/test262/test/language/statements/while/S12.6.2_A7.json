@@ -1,207 +1,207 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 969,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 288,
-      "end": 304,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 292,
-          "end": 303,
           "id": {
             "type": "Identifier",
+            "name": "__evaluated",
             "start": 292,
-            "end": 303,
-            "name": "__evaluated"
+            "end": 303
           },
-          "init": null
+          "init": null,
+          "start": 292,
+          "end": 303
         }
-      ]
+      ],
+      "start": 288,
+      "end": 304
     },
     {
       "type": "VariableDeclaration",
-      "start": 305,
-      "end": 322,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 309,
-          "end": 322,
           "id": {
             "type": "Identifier",
+            "name": "__condition",
             "start": 309,
-            "end": 320,
-            "name": "__condition"
+            "end": 320
           },
           "init": {
             "type": "Literal",
-            "start": 321,
-            "end": 322,
             "value": 0,
-            "raw": "0"
-          }
+            "raw": "0",
+            "start": 321,
+            "end": 322
+          },
+          "start": 309,
+          "end": 322
         }
-      ]
+      ],
+      "start": 305,
+      "end": 322
     },
     {
       "type": "ExpressionStatement",
-      "start": 324,
-      "end": 393,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 324,
-        "end": 392,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "__evaluated",
           "start": 324,
-          "end": 335,
-          "name": "__evaluated"
+          "end": 335
         },
         "right": {
           "type": "CallExpression",
-          "start": 338,
-          "end": 392,
           "callee": {
             "type": "Identifier",
+            "name": "eval",
             "start": 338,
-            "end": 342,
-            "name": "eval"
+            "end": 342
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 343,
-              "end": 391,
               "value": "while (__condition<5) eval(\"__condition++\");",
-              "raw": "\"while (__condition<5) eval(\\\"__condition++\\\");\""
+              "raw": "\"while (__condition<5) eval(\\\"__condition++\\\");\"",
+              "start": 343,
+              "end": 391
             }
           ],
-          "optional": false
-        }
-      }
+          "optional": false,
+          "start": 338,
+          "end": 392
+        },
+        "start": 324,
+        "end": 392
+      },
+      "start": 324,
+      "end": 393
     },
     {
       "type": "IfStatement",
-      "start": 484,
-      "end": 606,
       "test": {
         "type": "BinaryExpression",
-        "start": 488,
-        "end": 505,
         "left": {
           "type": "Identifier",
+          "name": "__condition",
           "start": 488,
-          "end": 499,
-          "name": "__condition"
+          "end": 499
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 504,
-          "end": 505,
           "value": 5,
-          "raw": "5"
-        }
+          "raw": "5",
+          "start": 504,
+          "end": 505
+        },
+        "start": 488,
+        "end": 505
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 507,
-        "end": 606,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 510,
-            "end": 604,
             "argument": {
               "type": "NewExpression",
-              "start": 516,
-              "end": 603,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 520,
-                "end": 532,
-                "name": "Test262Error"
+                "end": 532
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 533,
-                  "end": 602,
                   "value": "#1: The \"while\" statement is evaluated as described in the Standard",
-                  "raw": "'#1: The \"while\" statement is evaluated as described in the Standard'"
+                  "raw": "'#1: The \"while\" statement is evaluated as described in the Standard'",
+                  "start": 533,
+                  "end": 602
                 }
-              ]
-            }
+              ],
+              "start": 516,
+              "end": 603
+            },
+            "start": 510,
+            "end": 604
           }
-        ]
+        ],
+        "start": 507,
+        "end": 606
       },
-      "alternate": null
+      "alternate": null,
+      "start": 484,
+      "end": 606
     },
     {
       "type": "IfStatement",
-      "start": 779,
-      "end": 886,
       "test": {
         "type": "BinaryExpression",
-        "start": 783,
-        "end": 800,
         "left": {
           "type": "Identifier",
+          "name": "__evaluated",
           "start": 783,
-          "end": 794,
-          "name": "__evaluated"
+          "end": 794
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 799,
-          "end": 800,
           "value": 4,
-          "raw": "4"
-        }
+          "raw": "4",
+          "start": 799,
+          "end": 800
+        },
+        "start": 783,
+        "end": 800
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 802,
-        "end": 886,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 805,
-            "end": 884,
             "argument": {
               "type": "NewExpression",
-              "start": 811,
-              "end": 883,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 815,
-                "end": 827,
-                "name": "Test262Error"
+                "end": 827
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 828,
-                  "end": 882,
                   "value": "#2: The \"while\" statement returns (normal, V, empty)",
-                  "raw": "'#2: The \"while\" statement returns (normal, V, empty)'"
+                  "raw": "'#2: The \"while\" statement returns (normal, V, empty)'",
+                  "start": 828,
+                  "end": 882
                 }
-              ]
-            }
+              ],
+              "start": 811,
+              "end": 883
+            },
+            "start": 805,
+            "end": 884
           }
-        ]
+        ],
+        "start": 802,
+        "end": 886
       },
-      "alternate": null
+      "alternate": null,
+      "start": 779,
+      "end": 886
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 969
 }

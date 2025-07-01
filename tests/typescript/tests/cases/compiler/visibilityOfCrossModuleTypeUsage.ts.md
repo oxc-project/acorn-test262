@@ -2,282 +2,272 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 36,
-  "end": 268,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 36,
-      "end": 97,
       "id": {
         "type": "Identifier",
-        "start": 43,
-        "end": 45,
         "decorators": [],
         "name": "fs",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 43,
+        "end": 45
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 48,
-        "end": 96,
         "expression": {
           "type": "Literal",
-          "start": 56,
-          "end": 95,
           "value": "./visibilityOfCrossModuleTypeUsage_fs",
-          "raw": "'./visibilityOfCrossModuleTypeUsage_fs'"
-        }
+          "raw": "'./visibilityOfCrossModuleTypeUsage_fs'",
+          "start": 56,
+          "end": 95
+        },
+        "start": 48,
+        "end": 96
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 36,
+      "end": 97
     },
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 98,
-      "end": 167,
       "id": {
         "type": "Identifier",
-        "start": 105,
-        "end": 111,
         "decorators": [],
         "name": "server",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 105,
+        "end": 111
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 114,
-        "end": 166,
         "expression": {
           "type": "Literal",
-          "start": 122,
-          "end": 165,
           "value": "./visibilityOfCrossModuleTypeUsage_server",
-          "raw": "'./visibilityOfCrossModuleTypeUsage_server'"
-        }
+          "raw": "'./visibilityOfCrossModuleTypeUsage_server'",
+          "start": 122,
+          "end": 165
+        },
+        "start": 114,
+        "end": 166
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 98,
+      "end": 167
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 169,
-      "end": 267,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 176,
-        "end": 267,
         "id": {
           "type": "Identifier",
-          "start": 186,
-          "end": 200,
           "decorators": [],
           "name": "IConfiguration",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 186,
+          "end": 200
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 201,
-          "end": 267,
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 207,
-              "end": 236,
               "computed": false,
               "optional": false,
               "readonly": false,
               "key": {
                 "type": "Identifier",
-                "start": 207,
-                "end": 216,
                 "decorators": [],
                 "name": "workspace",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 207,
+                "end": 216
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 216,
-                "end": 235,
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 218,
-                  "end": 235,
                   "typeName": {
                     "type": "TSQualifiedName",
-                    "start": 218,
-                    "end": 235,
                     "left": {
                       "type": "Identifier",
-                      "start": 218,
-                      "end": 224,
                       "decorators": [],
                       "name": "server",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 218,
+                      "end": 224
                     },
                     "right": {
                       "type": "Identifier",
-                      "start": 225,
-                      "end": 235,
                       "decorators": [],
                       "name": "IWorkspace",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 225,
+                      "end": 235
+                    },
+                    "start": 218,
+                    "end": 235
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "start": 218,
+                  "end": 235
+                },
+                "start": 216,
+                "end": 235
               },
               "accessibility": null,
-              "static": false
+              "static": false,
+              "start": 207,
+              "end": 236
             },
             {
               "type": "TSPropertySignature",
-              "start": 241,
-              "end": 265,
               "computed": false,
               "optional": true,
               "readonly": false,
               "key": {
                 "type": "Identifier",
-                "start": 241,
-                "end": 247,
                 "decorators": [],
                 "name": "server",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 241,
+                "end": 247
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 248,
-                "end": 264,
                 "typeAnnotation": {
                   "type": "TSTypeReference",
-                  "start": 250,
-                  "end": 264,
                   "typeName": {
                     "type": "TSQualifiedName",
-                    "start": 250,
-                    "end": 264,
                     "left": {
                       "type": "Identifier",
-                      "start": 250,
-                      "end": 256,
                       "decorators": [],
                       "name": "server",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 250,
+                      "end": 256
                     },
                     "right": {
                       "type": "Identifier",
-                      "start": 257,
-                      "end": 264,
                       "decorators": [],
                       "name": "IServer",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 257,
+                      "end": 264
+                    },
+                    "start": 250,
+                    "end": 264
                   },
-                  "typeArguments": null
-                }
+                  "typeArguments": null,
+                  "start": 250,
+                  "end": 264
+                },
+                "start": 248,
+                "end": 264
               },
               "accessibility": null,
-              "static": false
+              "static": false,
+              "start": 241,
+              "end": 265
             }
-          ]
+          ],
+          "start": 201,
+          "end": 267
         },
-        "declare": false
+        "declare": false,
+        "start": 176,
+        "end": 267
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 169,
+      "end": 267
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 36,
+  "end": 268
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 139,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 28,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 7,
-        "end": 28,
         "id": {
           "type": "Identifier",
-          "start": 17,
-          "end": 24,
           "decorators": [],
           "name": "IServer",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 17,
+          "end": 24
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 25,
-          "end": 28,
-          "body": []
+          "end": 28
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 28
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 30,
-      "end": 138,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 37,
-        "end": 138,
         "id": {
           "type": "Identifier",
-          "start": 47,
-          "end": 57,
           "decorators": [],
           "name": "IWorkspace",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 47,
+          "end": 57
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 58,
-          "end": 138,
           "body": [
             {
               "type": "TSMethodSignature",
-              "start": 64,
-              "end": 136,
               "key": {
                 "type": "Identifier",
-                "start": 64,
-                "end": 78,
                 "decorators": [],
                 "name": "toAbsolutePath",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 64,
+                "end": 78
               },
               "computed": false,
               "optional": false,
@@ -286,125 +276,131 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 79,
-                  "end": 94,
                   "decorators": [],
                   "name": "server",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 85,
-                    "end": 94,
                     "typeAnnotation": {
                       "type": "TSTypeReference",
-                      "start": 87,
-                      "end": 94,
                       "typeName": {
                         "type": "Identifier",
-                        "start": 87,
-                        "end": 94,
                         "decorators": [],
                         "name": "IServer",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 87,
+                        "end": 94
                       },
-                      "typeArguments": null
-                    }
-                  }
+                      "typeArguments": null,
+                      "start": 87,
+                      "end": 94
+                    },
+                    "start": 85,
+                    "end": 94
+                  },
+                  "start": 79,
+                  "end": 94
                 },
                 {
                   "type": "Identifier",
-                  "start": 96,
-                  "end": 126,
                   "decorators": [],
                   "name": "workspaceRelativePath",
                   "optional": true,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 118,
-                    "end": 126,
                     "typeAnnotation": {
                       "type": "TSStringKeyword",
                       "start": 120,
                       "end": 126
-                    }
-                  }
+                    },
+                    "start": 118,
+                    "end": 126
+                  },
+                  "start": 96,
+                  "end": 126
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 127,
-                "end": 135,
                 "typeAnnotation": {
                   "type": "TSStringKeyword",
                   "start": 129,
                   "end": 135
-                }
+                },
+                "start": 127,
+                "end": 135
               },
               "accessibility": null,
               "readonly": false,
-              "static": false
+              "static": false,
+              "start": 64,
+              "end": 136
             }
-          ]
+          ],
+          "start": 58,
+          "end": 138
         },
-        "declare": false
+        "declare": false,
+        "start": 37,
+        "end": 138
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 30,
+      "end": 138
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 139
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 224,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 73,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 15,
         "decorators": [],
         "name": "commands",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 15
       },
       "moduleReference": {
         "type": "TSExternalModuleReference",
-        "start": 18,
-        "end": 72,
         "expression": {
           "type": "Literal",
-          "start": 26,
-          "end": 71,
           "value": "./visibilityOfCrossModuleTypeUsage_commands",
-          "raw": "'./visibilityOfCrossModuleTypeUsage_commands'"
-        }
+          "raw": "'./visibilityOfCrossModuleTypeUsage_commands'",
+          "start": 26,
+          "end": 71
+        },
+        "start": 18,
+        "end": 72
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 73
     },
     {
       "type": "FunctionDeclaration",
-      "start": 74,
-      "end": 224,
       "id": {
         "type": "Identifier",
-        "start": 83,
-        "end": 86,
         "decorators": [],
         "name": "run",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 83,
+        "end": 86
       },
       "generator": false,
       "async": false,
@@ -413,158 +409,162 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 87,
-          "end": 125,
           "decorators": [],
           "name": "configuration",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 100,
-            "end": 125,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 102,
-              "end": 125,
               "typeName": {
                 "type": "TSQualifiedName",
-                "start": 102,
-                "end": 125,
                 "left": {
                   "type": "Identifier",
-                  "start": 102,
-                  "end": 110,
                   "decorators": [],
                   "name": "commands",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 102,
+                  "end": 110
                 },
                 "right": {
                   "type": "Identifier",
-                  "start": 111,
-                  "end": 125,
                   "decorators": [],
                   "name": "IConfiguration",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 111,
+                  "end": 125
+                },
+                "start": 102,
+                "end": 125
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 102,
+              "end": 125
+            },
+            "start": 100,
+            "end": 125
+          },
+          "start": 87,
+          "end": 125
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 127,
-        "end": 224,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 133,
-            "end": 222,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 137,
-                "end": 221,
                 "id": {
                   "type": "Identifier",
-                  "start": 137,
-                  "end": 158,
                   "decorators": [],
                   "name": "absoluteWorkspacePath",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 137,
+                  "end": 158
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 161,
-                  "end": 221,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 161,
-                    "end": 199,
                     "object": {
                       "type": "MemberExpression",
-                      "start": 161,
-                      "end": 184,
                       "object": {
                         "type": "Identifier",
-                        "start": 161,
-                        "end": 174,
                         "decorators": [],
                         "name": "configuration",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 161,
+                        "end": 174
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 175,
-                        "end": 184,
                         "decorators": [],
                         "name": "workspace",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 175,
+                        "end": 184
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 161,
+                      "end": 184
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 185,
-                      "end": 199,
                       "decorators": [],
                       "name": "toAbsolutePath",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 185,
+                      "end": 199
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 161,
+                    "end": 199
                   },
                   "typeArguments": null,
                   "arguments": [
                     {
                       "type": "MemberExpression",
-                      "start": 200,
-                      "end": 220,
                       "object": {
                         "type": "Identifier",
-                        "start": 200,
-                        "end": 213,
                         "decorators": [],
                         "name": "configuration",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 200,
+                        "end": 213
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 214,
-                        "end": 220,
                         "decorators": [],
                         "name": "server",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 214,
+                        "end": 220
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 200,
+                      "end": 220
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 161,
+                  "end": 221
                 },
-                "definite": false
+                "definite": false,
+                "start": 137,
+                "end": 221
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 133,
+            "end": 222
           }
-        ]
+        ],
+        "start": 127,
+        "end": 224
       },
-      "expression": false
+      "expression": false,
+      "start": 74,
+      "end": 224
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 224
 }
 ```

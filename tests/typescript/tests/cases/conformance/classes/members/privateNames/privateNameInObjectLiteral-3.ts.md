@@ -2,48 +2,36 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 57,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 57,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 56,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "obj",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 9
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 12,
-            "end": 56,
             "properties": [
               {
                 "type": "Property",
-                "start": 18,
-                "end": 54,
                 "kind": "get",
                 "key": {
                   "type": "PrivateIdentifier",
+                  "name": "foo",
                   "start": 22,
-                  "end": 26,
-                  "name": "foo"
+                  "end": 26
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 26,
-                  "end": 54,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -53,39 +41,51 @@ __ESTREE_TEST__:PASS:
                   "returnType": null,
                   "body": {
                     "type": "BlockStatement",
-                    "start": 29,
-                    "end": 54,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 39,
-                        "end": 48,
                         "argument": {
                           "type": "Literal",
-                          "start": 46,
-                          "end": 48,
                           "value": "",
-                          "raw": "\"\""
-                        }
+                          "raw": "\"\"",
+                          "start": 46,
+                          "end": 48
+                        },
+                        "start": 39,
+                        "end": 48
                       }
-                    ]
+                    ],
+                    "start": 29,
+                    "end": 54
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 26,
+                  "end": 54
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 18,
+                "end": 54
               }
-            ]
+            ],
+            "start": 12,
+            "end": 56
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 56
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 57
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 57
 }
 ```

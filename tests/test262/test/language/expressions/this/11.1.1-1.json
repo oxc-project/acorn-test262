@@ -1,34 +1,28 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 273,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 235,
-      "end": 272,
       "expression": {
         "type": "CallExpression",
-        "start": 235,
-        "end": 271,
         "callee": {
           "type": "MemberExpression",
-          "start": 235,
-          "end": 254,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 235,
-            "end": 241,
-            "name": "assert"
+            "end": 241
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 242,
-            "end": 254,
-            "name": "notSameValue"
+            "end": 254
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 235,
+          "end": 254
         },
         "arguments": [
           {
@@ -38,15 +32,21 @@
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 261,
-            "end": 270,
-            "name": "undefined"
+            "end": 270
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 235,
+        "end": 271
+      },
+      "start": 235,
+      "end": 272
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 273
 }

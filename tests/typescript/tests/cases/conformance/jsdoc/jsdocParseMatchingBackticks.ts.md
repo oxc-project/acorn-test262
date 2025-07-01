@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 386,
-  "end": 480,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 386,
-      "end": 480,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 393,
-        "end": 480,
         "id": {
           "type": "Identifier",
-          "start": 402,
-          "end": 403,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 402,
+          "end": 403
         },
         "generator": false,
         "async": false,
@@ -29,165 +23,171 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "Identifier",
-            "start": 404,
-            "end": 405,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 404,
+            "end": 405
           },
           {
             "type": "Identifier",
-            "start": 407,
-            "end": 408,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 407,
+            "end": 408
           },
           {
             "type": "Identifier",
-            "start": 410,
-            "end": 411,
             "decorators": [],
             "name": "z",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 410,
+            "end": 411
           },
           {
             "type": "Identifier",
-            "start": 413,
-            "end": 418,
             "decorators": [],
             "name": "alpha",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 413,
+            "end": 418
           },
           {
             "type": "Identifier",
-            "start": 420,
-            "end": 424,
             "decorators": [],
             "name": "beta",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 420,
+            "end": 424
           },
           {
             "type": "Identifier",
-            "start": 426,
-            "end": 431,
             "decorators": [],
             "name": "gamma",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 426,
+            "end": 431
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 433,
-          "end": 480,
           "body": [
             {
               "type": "ReturnStatement",
-              "start": 439,
-              "end": 478,
               "argument": {
                 "type": "BinaryExpression",
-                "start": 446,
-                "end": 478,
                 "left": {
                   "type": "BinaryExpression",
-                  "start": 446,
-                  "end": 470,
                   "left": {
                     "type": "BinaryExpression",
-                    "start": 446,
-                    "end": 463,
                     "left": {
                       "type": "BinaryExpression",
-                      "start": 446,
-                      "end": 455,
                       "left": {
                         "type": "BinaryExpression",
-                        "start": 446,
-                        "end": 451,
                         "left": {
                           "type": "Identifier",
-                          "start": 446,
-                          "end": 447,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 446,
+                          "end": 447
                         },
                         "operator": "+",
                         "right": {
                           "type": "Identifier",
-                          "start": 450,
-                          "end": 451,
                           "decorators": [],
                           "name": "y",
                           "optional": false,
-                          "typeAnnotation": null
-                        }
+                          "typeAnnotation": null,
+                          "start": 450,
+                          "end": 451
+                        },
+                        "start": 446,
+                        "end": 451
                       },
                       "operator": "+",
                       "right": {
                         "type": "Identifier",
-                        "start": 454,
-                        "end": 455,
                         "decorators": [],
                         "name": "z",
                         "optional": false,
-                        "typeAnnotation": null
-                      }
+                        "typeAnnotation": null,
+                        "start": 454,
+                        "end": 455
+                      },
+                      "start": 446,
+                      "end": 455
                     },
                     "operator": "+",
                     "right": {
                       "type": "Identifier",
-                      "start": 458,
-                      "end": 463,
                       "decorators": [],
                       "name": "alpha",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 458,
+                      "end": 463
+                    },
+                    "start": 446,
+                    "end": 463
                   },
                   "operator": "+",
                   "right": {
                     "type": "Identifier",
-                    "start": 466,
-                    "end": 470,
                     "decorators": [],
                     "name": "beta",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "start": 466,
+                    "end": 470
+                  },
+                  "start": 446,
+                  "end": 470
                 },
                 "operator": "+",
                 "right": {
                   "type": "Identifier",
-                  "start": 473,
-                  "end": 478,
                   "decorators": [],
                   "name": "gamma",
                   "optional": false,
-                  "typeAnnotation": null
-                }
-              }
+                  "typeAnnotation": null,
+                  "start": 473,
+                  "end": 478
+                },
+                "start": 446,
+                "end": 478
+              },
+              "start": 439,
+              "end": 478
             }
-          ]
+          ],
+          "start": 433,
+          "end": 480
         },
-        "expression": false
+        "expression": false,
+        "start": 393,
+        "end": 480
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 386,
+      "end": 480
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 386,
+  "end": 480
 }
 ```

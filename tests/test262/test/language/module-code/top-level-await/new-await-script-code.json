@@ -1,91 +1,91 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 320,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 252,
-      "end": 266,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "await",
         "start": 258,
-        "end": 263,
-        "name": "await"
+        "end": 263
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 264,
-        "end": 266,
-        "body": []
-      }
+        "end": 266
+      },
+      "start": 252,
+      "end": 266
     },
     {
       "type": "ExpressionStatement",
-      "start": 268,
-      "end": 319,
       "expression": {
         "type": "CallExpression",
-        "start": 268,
-        "end": 318,
         "callee": {
           "type": "MemberExpression",
-          "start": 268,
-          "end": 284,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 268,
-            "end": 274,
-            "name": "assert"
+            "end": 274
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 275,
-            "end": 284,
-            "name": "sameValue"
+            "end": 284
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 268,
+          "end": 284
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 285,
-            "end": 311,
             "left": {
               "type": "NewExpression",
-              "start": 285,
-              "end": 294,
               "callee": {
                 "type": "Identifier",
+                "name": "await",
                 "start": 289,
-                "end": 294,
-                "name": "await"
+                "end": 294
               },
-              "arguments": []
+              "arguments": [],
+              "start": 285,
+              "end": 294
             },
             "operator": "instanceof",
             "right": {
               "type": "Identifier",
+              "name": "await",
               "start": 306,
-              "end": 311,
-              "name": "await"
-            }
+              "end": 311
+            },
+            "start": 285,
+            "end": 311
           },
           {
             "type": "Literal",
-            "start": 313,
-            "end": 317,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 313,
+            "end": 317
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 268,
+        "end": 318
+      },
+      "start": 268,
+      "end": 319
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 320
 }

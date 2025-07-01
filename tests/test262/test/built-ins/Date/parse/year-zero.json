@@ -1,173 +1,173 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 596,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 365,
-      "end": 476,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 371,
-          "end": 475,
           "id": {
             "type": "Identifier",
+            "name": "invalidStrings",
             "start": 371,
-            "end": 385,
-            "name": "invalidStrings"
+            "end": 385
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 388,
-            "end": 475,
             "elements": [
               {
                 "type": "Literal",
-                "start": 392,
-                "end": 414,
                 "value": "-000000-03-31T00:45Z",
-                "raw": "\"-000000-03-31T00:45Z\""
+                "raw": "\"-000000-03-31T00:45Z\"",
+                "start": 392,
+                "end": 414
               },
               {
                 "type": "Literal",
-                "start": 418,
-                "end": 439,
                 "value": "-000000-03-31T01:45",
-                "raw": "\"-000000-03-31T01:45\""
+                "raw": "\"-000000-03-31T01:45\"",
+                "start": 418,
+                "end": 439
               },
               {
                 "type": "Literal",
-                "start": 443,
-                "end": 473,
                 "value": "-000000-03-31T01:45:00+01:00",
-                "raw": "\"-000000-03-31T01:45:00+01:00\""
+                "raw": "\"-000000-03-31T01:45:00+01:00\"",
+                "start": 443,
+                "end": 473
               }
-            ]
-          }
+            ],
+            "start": 388,
+            "end": 475
+          },
+          "start": 371,
+          "end": 475
         }
-      ]
+      ],
+      "start": 365,
+      "end": 476
     },
     {
       "type": "ForOfStatement",
-      "start": 478,
-      "end": 595,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 483,
-        "end": 492,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 489,
-            "end": 492,
             "id": {
               "type": "Identifier",
+              "name": "str",
               "start": 489,
-              "end": 492,
-              "name": "str"
+              "end": 492
             },
-            "init": null
+            "init": null,
+            "start": 489,
+            "end": 492
           }
-        ]
+        ],
+        "start": 483,
+        "end": 492
       },
       "right": {
         "type": "Identifier",
+        "name": "invalidStrings",
         "start": 496,
-        "end": 510,
-        "name": "invalidStrings"
+        "end": 510
       },
       "body": {
         "type": "BlockStatement",
-        "start": 512,
-        "end": 595,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 516,
-            "end": 593,
             "expression": {
               "type": "CallExpression",
-              "start": 516,
-              "end": 592,
               "callee": {
                 "type": "MemberExpression",
-                "start": 516,
-                "end": 532,
                 "object": {
                   "type": "Identifier",
+                  "name": "assert",
                   "start": 516,
-                  "end": 522,
-                  "name": "assert"
+                  "end": 522
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "sameValue",
                   "start": 523,
-                  "end": 532,
-                  "name": "sameValue"
+                  "end": 532
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 516,
+                "end": 532
               },
               "arguments": [
                 {
                   "type": "CallExpression",
-                  "start": 533,
-                  "end": 548,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 533,
-                    "end": 543,
                     "object": {
                       "type": "Identifier",
+                      "name": "Date",
                       "start": 533,
-                      "end": 537,
-                      "name": "Date"
+                      "end": 537
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "parse",
                       "start": 538,
-                      "end": 543,
-                      "name": "parse"
+                      "end": 543
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 533,
+                    "end": 543
                   },
                   "arguments": [
                     {
                       "type": "Identifier",
+                      "name": "str",
                       "start": 544,
-                      "end": 547,
-                      "name": "str"
+                      "end": 547
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 533,
+                  "end": 548
                 },
                 {
                   "type": "Identifier",
+                  "name": "NaN",
                   "start": 550,
-                  "end": 553,
-                  "name": "NaN"
+                  "end": 553
                 },
                 {
                   "type": "Literal",
-                  "start": 555,
-                  "end": 591,
                   "value": "reject minus zero as extended year",
-                  "raw": "\"reject minus zero as extended year\""
+                  "raw": "\"reject minus zero as extended year\"",
+                  "start": 555,
+                  "end": 591
                 }
               ],
-              "optional": false
-            }
+              "optional": false,
+              "start": 516,
+              "end": 592
+            },
+            "start": 516,
+            "end": 593
           }
-        ]
-      }
+        ],
+        "start": 512,
+        "end": 595
+      },
+      "start": 478,
+      "end": 595
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 596
 }

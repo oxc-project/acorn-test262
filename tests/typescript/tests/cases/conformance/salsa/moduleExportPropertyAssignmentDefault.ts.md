@@ -2,149 +2,149 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 101,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 14,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 14,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "name": "axios",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 9
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 12,
-            "end": 14,
-            "properties": []
+            "end": 14
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 14
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 14
     },
     {
       "type": "ExpressionStatement",
-      "start": 15,
-      "end": 37,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 15,
-        "end": 37,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 15,
-          "end": 29,
           "object": {
             "type": "Identifier",
-            "start": 15,
-            "end": 21,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 15,
+            "end": 21
           },
           "property": {
             "type": "Identifier",
-            "start": 22,
-            "end": 29,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 29
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 15,
+          "end": 29
         },
         "right": {
           "type": "Identifier",
-          "start": 32,
-          "end": 37,
           "decorators": [],
           "name": "axios",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 32,
+          "end": 37
+        },
+        "start": 15,
+        "end": 37
       },
-      "directive": null
+      "directive": null,
+      "start": 15,
+      "end": 37
     },
     {
       "type": "ExpressionStatement",
-      "start": 71,
-      "end": 101,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 71,
-        "end": 101,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 71,
-          "end": 93,
           "object": {
             "type": "MemberExpression",
-            "start": 71,
-            "end": 85,
             "object": {
               "type": "Identifier",
-              "start": 71,
-              "end": 77,
               "decorators": [],
               "name": "module",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 71,
+              "end": 77
             },
             "property": {
               "type": "Identifier",
-              "start": 78,
-              "end": 85,
               "decorators": [],
               "name": "exports",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 78,
+              "end": 85
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 71,
+            "end": 85
           },
           "property": {
             "type": "Identifier",
-            "start": 86,
-            "end": 93,
             "decorators": [],
             "name": "default",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 86,
+            "end": 93
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 71,
+          "end": 93
         },
         "right": {
           "type": "Identifier",
-          "start": 96,
-          "end": 101,
           "decorators": [],
           "name": "axios",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 96,
+          "end": 101
+        },
+        "start": 71,
+        "end": 101
       },
-      "directive": null
+      "directive": null,
+      "start": 71,
+      "end": 101
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 101
 }
 ```

@@ -2,99 +2,99 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 31,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 16,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "TSAsExpression",
-            "start": 8,
-            "end": 16,
             "expression": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 8,
-              "end": 10,
-              "elements": []
+              "end": 10
             },
             "typeAnnotation": {
               "type": "TSTupleType",
+              "elementTypes": [],
               "start": 14,
-              "end": 16,
-              "elementTypes": []
-            }
+              "end": 16
+            },
+            "start": 8,
+            "end": 16
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 16
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "VariableDeclaration",
-      "start": 18,
-      "end": 31,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 22,
-          "end": 30,
           "id": {
             "type": "Identifier",
-            "start": 22,
-            "end": 23,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 23
           },
           "init": {
             "type": "MemberExpression",
-            "start": 26,
-            "end": 30,
             "object": {
               "type": "Identifier",
-              "start": 26,
-              "end": 27,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 26,
+              "end": 27
             },
             "property": {
               "type": "Literal",
-              "start": 28,
-              "end": 29,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 28,
+              "end": 29
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 26,
+            "end": 30
           },
-          "definite": false
+          "definite": false,
+          "start": 22,
+          "end": 30
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 18,
+      "end": 31
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 31
 }
 ```

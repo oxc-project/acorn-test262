@@ -1,29 +1,17 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 3394,
   "body": [
     {
       "type": "IfStatement",
-      "start": 266,
-      "end": 371,
       "test": {
         "type": "BinaryExpression",
-        "start": 270,
-        "end": 304,
         "left": {
           "type": "UnaryExpression",
-          "start": 270,
-          "end": 287,
           "operator": "typeof",
           "argument": {
             "type": "ParenthesizedExpression",
-            "start": 277,
-            "end": 287,
             "expression": {
               "type": "MemberExpression",
-              "start": 278,
-              "end": 286,
               "object": {
                 "type": "ThisExpression",
                 "start": 278,
@@ -31,69 +19,71 @@
               },
               "property": {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 283,
-                "end": 286,
-                "name": "NaN"
+                "end": 286
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 278,
+              "end": 286
+            },
+            "start": 277,
+            "end": 287
           },
-          "prefix": true
+          "prefix": true,
+          "start": 270,
+          "end": 287
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 293,
-          "end": 304,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 293,
+          "end": 304
+        },
+        "start": 270,
+        "end": 304
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 307,
-        "end": 371,
         "argument": {
           "type": "NewExpression",
-          "start": 313,
-          "end": 370,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 317,
-            "end": 329,
-            "name": "Test262Error"
+            "end": 329
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 330,
-              "end": 369,
               "value": "#1: typeof (this.NaN) !== \"undefined\"",
-              "raw": "'#1: typeof (this.NaN) !== \"undefined\"'"
+              "raw": "'#1: typeof (this.NaN) !== \"undefined\"'",
+              "start": 330,
+              "end": 369
             }
-          ]
-        }
+          ],
+          "start": 313,
+          "end": 370
+        },
+        "start": 307,
+        "end": 371
       },
-      "alternate": null
+      "alternate": null,
+      "start": 266,
+      "end": 371
     },
     {
       "type": "IfStatement",
-      "start": 372,
-      "end": 479,
       "test": {
         "type": "BinaryExpression",
-        "start": 376,
-        "end": 411,
         "left": {
           "type": "UnaryExpression",
-          "start": 376,
-          "end": 394,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 383,
-            "end": 394,
             "object": {
               "type": "ThisExpression",
               "start": 383,
@@ -101,69 +91,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 388,
-              "end": 393,
               "value": "NaN",
-              "raw": "'NaN'"
+              "raw": "'NaN'",
+              "start": 388,
+              "end": 393
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 383,
+            "end": 394
           },
-          "prefix": true
+          "prefix": true,
+          "start": 376,
+          "end": 394
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 400,
-          "end": 411,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 400,
+          "end": 411
+        },
+        "start": 376,
+        "end": 411
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 414,
-        "end": 479,
         "argument": {
           "type": "NewExpression",
-          "start": 420,
-          "end": 478,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 424,
-            "end": 436,
-            "name": "Test262Error"
+            "end": 436
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 437,
-              "end": 477,
               "value": "#2: typeof this[\"NaN\"] !== \"undefined\"",
-              "raw": "'#2: typeof this[\"NaN\"] !== \"undefined\"'"
+              "raw": "'#2: typeof this[\"NaN\"] !== \"undefined\"'",
+              "start": 437,
+              "end": 477
             }
-          ]
-        }
+          ],
+          "start": 420,
+          "end": 478
+        },
+        "start": 414,
+        "end": 479
       },
-      "alternate": null
+      "alternate": null,
+      "start": 372,
+      "end": 479
     },
     {
       "type": "IfStatement",
-      "start": 480,
-      "end": 591,
       "test": {
         "type": "BinaryExpression",
-        "start": 484,
-        "end": 521,
         "left": {
           "type": "UnaryExpression",
-          "start": 484,
-          "end": 504,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 491,
-            "end": 504,
             "object": {
               "type": "ThisExpression",
               "start": 491,
@@ -171,68 +161,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 496,
-              "end": 504,
-              "name": "Infinity"
+              "end": 504
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 491,
+            "end": 504
           },
-          "prefix": true
+          "prefix": true,
+          "start": 484,
+          "end": 504
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 510,
-          "end": 521,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 510,
+          "end": 521
+        },
+        "start": 484,
+        "end": 521
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 524,
-        "end": 591,
         "argument": {
           "type": "NewExpression",
-          "start": 530,
-          "end": 590,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 534,
-            "end": 546,
-            "name": "Test262Error"
+            "end": 546
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 547,
-              "end": 589,
               "value": "#3: typeof this.Infinity !== \"undefined\"",
-              "raw": "'#3: typeof this.Infinity !== \"undefined\"'"
+              "raw": "'#3: typeof this.Infinity !== \"undefined\"'",
+              "start": 547,
+              "end": 589
             }
-          ]
-        }
+          ],
+          "start": 530,
+          "end": 590
+        },
+        "start": 524,
+        "end": 591
       },
-      "alternate": null
+      "alternate": null,
+      "start": 480,
+      "end": 591
     },
     {
       "type": "IfStatement",
-      "start": 592,
-      "end": 709,
       "test": {
         "type": "BinaryExpression",
-        "start": 596,
-        "end": 636,
         "left": {
           "type": "UnaryExpression",
-          "start": 596,
-          "end": 619,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 603,
-            "end": 619,
             "object": {
               "type": "ThisExpression",
               "start": 603,
@@ -240,69 +230,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 608,
-              "end": 618,
               "value": "Infinity",
-              "raw": "'Infinity'"
+              "raw": "'Infinity'",
+              "start": 608,
+              "end": 618
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 603,
+            "end": 619
           },
-          "prefix": true
+          "prefix": true,
+          "start": 596,
+          "end": 619
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 625,
-          "end": 636,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 625,
+          "end": 636
+        },
+        "start": 596,
+        "end": 636
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 639,
-        "end": 709,
         "argument": {
           "type": "NewExpression",
-          "start": 645,
-          "end": 708,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 649,
-            "end": 661,
-            "name": "Test262Error"
+            "end": 661
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 662,
-              "end": 707,
               "value": "#4: typeof this[\"Infinity\"] !== \"undefined\"",
-              "raw": "'#4: typeof this[\"Infinity\"] !== \"undefined\"'"
+              "raw": "'#4: typeof this[\"Infinity\"] !== \"undefined\"'",
+              "start": 662,
+              "end": 707
             }
-          ]
-        }
+          ],
+          "start": 645,
+          "end": 708
+        },
+        "start": 639,
+        "end": 709
       },
-      "alternate": null
+      "alternate": null,
+      "start": 592,
+      "end": 709
     },
     {
       "type": "IfStatement",
-      "start": 710,
-      "end": 821,
       "test": {
         "type": "BinaryExpression",
-        "start": 714,
-        "end": 751,
         "left": {
           "type": "UnaryExpression",
-          "start": 714,
-          "end": 734,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 721,
-            "end": 734,
             "object": {
               "type": "ThisExpression",
               "start": 721,
@@ -310,68 +300,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "parseInt",
               "start": 726,
-              "end": 734,
-              "name": "parseInt"
+              "end": 734
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 721,
+            "end": 734
           },
-          "prefix": true
+          "prefix": true,
+          "start": 714,
+          "end": 734
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 740,
-          "end": 751,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 740,
+          "end": 751
+        },
+        "start": 714,
+        "end": 751
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 754,
-        "end": 821,
         "argument": {
           "type": "NewExpression",
-          "start": 760,
-          "end": 820,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 764,
-            "end": 776,
-            "name": "Test262Error"
+            "end": 776
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 777,
-              "end": 819,
               "value": "#5: typeof this.parseInt !== \"undefined\"",
-              "raw": "'#5: typeof this.parseInt !== \"undefined\"'"
+              "raw": "'#5: typeof this.parseInt !== \"undefined\"'",
+              "start": 777,
+              "end": 819
             }
-          ]
-        }
+          ],
+          "start": 760,
+          "end": 820
+        },
+        "start": 754,
+        "end": 821
       },
-      "alternate": null
+      "alternate": null,
+      "start": 710,
+      "end": 821
     },
     {
       "type": "IfStatement",
-      "start": 822,
-      "end": 938,
       "test": {
         "type": "BinaryExpression",
-        "start": 826,
-        "end": 865,
         "left": {
           "type": "UnaryExpression",
-          "start": 826,
-          "end": 849,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 833,
-            "end": 849,
             "object": {
               "type": "ThisExpression",
               "start": 833,
@@ -379,69 +369,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 838,
-              "end": 848,
               "value": "parseInt",
-              "raw": "'parseInt'"
+              "raw": "'parseInt'",
+              "start": 838,
+              "end": 848
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 833,
+            "end": 849
           },
-          "prefix": true
+          "prefix": true,
+          "start": 826,
+          "end": 849
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 854,
-          "end": 865,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 854,
+          "end": 865
+        },
+        "start": 826,
+        "end": 865
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 868,
-        "end": 938,
         "argument": {
           "type": "NewExpression",
-          "start": 874,
-          "end": 937,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 878,
-            "end": 890,
-            "name": "Test262Error"
+            "end": 890
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 891,
-              "end": 936,
               "value": "#6: typeof this[\"parseInt\"] !== \"undefined\"",
-              "raw": "'#6: typeof this[\"parseInt\"] !== \"undefined\"'"
+              "raw": "'#6: typeof this[\"parseInt\"] !== \"undefined\"'",
+              "start": 891,
+              "end": 936
             }
-          ]
-        }
+          ],
+          "start": 874,
+          "end": 937
+        },
+        "start": 868,
+        "end": 938
       },
-      "alternate": null
+      "alternate": null,
+      "start": 822,
+      "end": 938
     },
     {
       "type": "IfStatement",
-      "start": 939,
-      "end": 1054,
       "test": {
         "type": "BinaryExpression",
-        "start": 943,
-        "end": 982,
         "left": {
           "type": "UnaryExpression",
-          "start": 943,
-          "end": 965,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 950,
-            "end": 965,
             "object": {
               "type": "ThisExpression",
               "start": 950,
@@ -449,68 +439,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "parseFloat",
               "start": 955,
-              "end": 965,
-              "name": "parseFloat"
+              "end": 965
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 950,
+            "end": 965
           },
-          "prefix": true
+          "prefix": true,
+          "start": 943,
+          "end": 965
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 971,
-          "end": 982,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 971,
+          "end": 982
+        },
+        "start": 943,
+        "end": 982
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 985,
-        "end": 1054,
         "argument": {
           "type": "NewExpression",
-          "start": 991,
-          "end": 1053,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 995,
-            "end": 1007,
-            "name": "Test262Error"
+            "end": 1007
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1008,
-              "end": 1052,
               "value": "#7: typeof this.parseFloat !== \"undefined\"",
-              "raw": "'#7: typeof this.parseFloat !== \"undefined\"'"
+              "raw": "'#7: typeof this.parseFloat !== \"undefined\"'",
+              "start": 1008,
+              "end": 1052
             }
-          ]
-        }
+          ],
+          "start": 991,
+          "end": 1053
+        },
+        "start": 985,
+        "end": 1054
       },
-      "alternate": null
+      "alternate": null,
+      "start": 939,
+      "end": 1054
     },
     {
       "type": "IfStatement",
-      "start": 1055,
-      "end": 1175,
       "test": {
         "type": "BinaryExpression",
-        "start": 1059,
-        "end": 1100,
         "left": {
           "type": "UnaryExpression",
-          "start": 1059,
-          "end": 1084,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1066,
-            "end": 1084,
             "object": {
               "type": "ThisExpression",
               "start": 1066,
@@ -518,69 +508,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 1071,
-              "end": 1083,
               "value": "parseFloat",
-              "raw": "'parseFloat'"
+              "raw": "'parseFloat'",
+              "start": 1071,
+              "end": 1083
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1066,
+            "end": 1084
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1059,
+          "end": 1084
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1089,
-          "end": 1100,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1089,
+          "end": 1100
+        },
+        "start": 1059,
+        "end": 1100
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1103,
-        "end": 1175,
         "argument": {
           "type": "NewExpression",
-          "start": 1109,
-          "end": 1174,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1113,
-            "end": 1125,
-            "name": "Test262Error"
+            "end": 1125
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1126,
-              "end": 1173,
               "value": "#8: typeof this[\"parseFloat\"] !== \"undefined\"",
-              "raw": "'#8: typeof this[\"parseFloat\"] !== \"undefined\"'"
+              "raw": "'#8: typeof this[\"parseFloat\"] !== \"undefined\"'",
+              "start": 1126,
+              "end": 1173
             }
-          ]
-        }
+          ],
+          "start": 1109,
+          "end": 1174
+        },
+        "start": 1103,
+        "end": 1175
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1055,
+      "end": 1175
     },
     {
       "type": "IfStatement",
-      "start": 1176,
-      "end": 1282,
       "test": {
         "type": "BinaryExpression",
-        "start": 1180,
-        "end": 1214,
         "left": {
           "type": "UnaryExpression",
-          "start": 1180,
-          "end": 1197,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1187,
-            "end": 1197,
             "object": {
               "type": "ThisExpression",
               "start": 1187,
@@ -588,68 +578,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "isNaN",
               "start": 1192,
-              "end": 1197,
-              "name": "isNaN"
+              "end": 1197
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1187,
+            "end": 1197
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1180,
+          "end": 1197
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1203,
-          "end": 1214,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1203,
+          "end": 1214
+        },
+        "start": 1180,
+        "end": 1214
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1217,
-        "end": 1282,
         "argument": {
           "type": "NewExpression",
-          "start": 1223,
-          "end": 1281,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1227,
-            "end": 1239,
-            "name": "Test262Error"
+            "end": 1239
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1240,
-              "end": 1280,
               "value": "#13: typeof this.isNaN !== \"undefined\"",
-              "raw": "'#13: typeof this.isNaN !== \"undefined\"'"
+              "raw": "'#13: typeof this.isNaN !== \"undefined\"'",
+              "start": 1240,
+              "end": 1280
             }
-          ]
-        }
+          ],
+          "start": 1223,
+          "end": 1281
+        },
+        "start": 1217,
+        "end": 1282
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1176,
+      "end": 1282
     },
     {
       "type": "IfStatement",
-      "start": 1283,
-      "end": 1394,
       "test": {
         "type": "BinaryExpression",
-        "start": 1287,
-        "end": 1323,
         "left": {
           "type": "UnaryExpression",
-          "start": 1287,
-          "end": 1307,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1294,
-            "end": 1307,
             "object": {
               "type": "ThisExpression",
               "start": 1294,
@@ -657,69 +647,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 1299,
-              "end": 1306,
               "value": "isNaN",
-              "raw": "'isNaN'"
+              "raw": "'isNaN'",
+              "start": 1299,
+              "end": 1306
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1294,
+            "end": 1307
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1287,
+          "end": 1307
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1312,
-          "end": 1323,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1312,
+          "end": 1323
+        },
+        "start": 1287,
+        "end": 1323
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1326,
-        "end": 1394,
         "argument": {
           "type": "NewExpression",
-          "start": 1332,
-          "end": 1393,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1336,
-            "end": 1348,
-            "name": "Test262Error"
+            "end": 1348
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1349,
-              "end": 1392,
               "value": "#14: typeof this[\"isNaN\"] !== \"undefined\"",
-              "raw": "'#14: typeof this[\"isNaN\"] !== \"undefined\"'"
+              "raw": "'#14: typeof this[\"isNaN\"] !== \"undefined\"'",
+              "start": 1349,
+              "end": 1392
             }
-          ]
-        }
+          ],
+          "start": 1332,
+          "end": 1393
+        },
+        "start": 1326,
+        "end": 1394
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1283,
+      "end": 1394
     },
     {
       "type": "IfStatement",
-      "start": 1395,
-      "end": 1507,
       "test": {
         "type": "BinaryExpression",
-        "start": 1399,
-        "end": 1436,
         "left": {
           "type": "UnaryExpression",
-          "start": 1399,
-          "end": 1419,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1406,
-            "end": 1419,
             "object": {
               "type": "ThisExpression",
               "start": 1406,
@@ -727,68 +717,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "isFinite",
               "start": 1411,
-              "end": 1419,
-              "name": "isFinite"
+              "end": 1419
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1406,
+            "end": 1419
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1399,
+          "end": 1419
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1425,
-          "end": 1436,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1425,
+          "end": 1436
+        },
+        "start": 1399,
+        "end": 1436
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1439,
-        "end": 1507,
         "argument": {
           "type": "NewExpression",
-          "start": 1445,
-          "end": 1506,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1449,
-            "end": 1461,
-            "name": "Test262Error"
+            "end": 1461
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1462,
-              "end": 1505,
               "value": "#15: typeof this.isFinite !== \"undefined\"",
-              "raw": "'#15: typeof this.isFinite !== \"undefined\"'"
+              "raw": "'#15: typeof this.isFinite !== \"undefined\"'",
+              "start": 1462,
+              "end": 1505
             }
-          ]
-        }
+          ],
+          "start": 1445,
+          "end": 1506
+        },
+        "start": 1439,
+        "end": 1507
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1395,
+      "end": 1507
     },
     {
       "type": "IfStatement",
-      "start": 1508,
-      "end": 1625,
       "test": {
         "type": "BinaryExpression",
-        "start": 1512,
-        "end": 1551,
         "left": {
           "type": "UnaryExpression",
-          "start": 1512,
-          "end": 1535,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1519,
-            "end": 1535,
             "object": {
               "type": "ThisExpression",
               "start": 1519,
@@ -796,69 +786,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 1524,
-              "end": 1534,
               "value": "isFinite",
-              "raw": "'isFinite'"
+              "raw": "'isFinite'",
+              "start": 1524,
+              "end": 1534
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1519,
+            "end": 1535
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1512,
+          "end": 1535
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1540,
-          "end": 1551,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1540,
+          "end": 1551
+        },
+        "start": 1512,
+        "end": 1551
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1554,
-        "end": 1625,
         "argument": {
           "type": "NewExpression",
-          "start": 1560,
-          "end": 1624,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1564,
-            "end": 1576,
-            "name": "Test262Error"
+            "end": 1576
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1577,
-              "end": 1623,
               "value": "#16: typeof this[\"isFinite\"] !== \"undefined\"",
-              "raw": "'#16: typeof this[\"isFinite\"] !== \"undefined\"'"
+              "raw": "'#16: typeof this[\"isFinite\"] !== \"undefined\"'",
+              "start": 1577,
+              "end": 1623
             }
-          ]
-        }
+          ],
+          "start": 1560,
+          "end": 1624
+        },
+        "start": 1554,
+        "end": 1625
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1508,
+      "end": 1625
     },
     {
       "type": "IfStatement",
-      "start": 1626,
-      "end": 1733,
       "test": {
         "type": "BinaryExpression",
-        "start": 1630,
-        "end": 1664,
         "left": {
           "type": "UnaryExpression",
-          "start": 1630,
-          "end": 1648,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1637,
-            "end": 1648,
             "object": {
               "type": "ThisExpression",
               "start": 1637,
@@ -866,68 +856,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Object",
               "start": 1642,
-              "end": 1648,
-              "name": "Object"
+              "end": 1648
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1637,
+            "end": 1648
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1630,
+          "end": 1648
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1653,
-          "end": 1664,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1653,
+          "end": 1664
+        },
+        "start": 1630,
+        "end": 1664
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1667,
-        "end": 1733,
         "argument": {
           "type": "NewExpression",
-          "start": 1673,
-          "end": 1732,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1677,
-            "end": 1689,
-            "name": "Test262Error"
+            "end": 1689
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1690,
-              "end": 1731,
               "value": "#17: typeof this.Object !== \"undefined\"",
-              "raw": "'#17: typeof this.Object !== \"undefined\"'"
+              "raw": "'#17: typeof this.Object !== \"undefined\"'",
+              "start": 1690,
+              "end": 1731
             }
-          ]
-        }
+          ],
+          "start": 1673,
+          "end": 1732
+        },
+        "start": 1667,
+        "end": 1733
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1626,
+      "end": 1733
     },
     {
       "type": "IfStatement",
-      "start": 1734,
-      "end": 1847,
       "test": {
         "type": "BinaryExpression",
-        "start": 1738,
-        "end": 1775,
         "left": {
           "type": "UnaryExpression",
-          "start": 1738,
-          "end": 1759,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1745,
-            "end": 1759,
             "object": {
               "type": "ThisExpression",
               "start": 1745,
@@ -935,69 +925,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 1750,
-              "end": 1758,
               "value": "Object",
-              "raw": "'Object'"
+              "raw": "'Object'",
+              "start": 1750,
+              "end": 1758
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1745,
+            "end": 1759
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1738,
+          "end": 1759
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1764,
-          "end": 1775,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1764,
+          "end": 1775
+        },
+        "start": 1738,
+        "end": 1775
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1778,
-        "end": 1847,
         "argument": {
           "type": "NewExpression",
-          "start": 1784,
-          "end": 1846,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1788,
-            "end": 1800,
-            "name": "Test262Error"
+            "end": 1800
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1801,
-              "end": 1845,
               "value": "#18: typeof this[\"Object\"] !== \"undefined\"",
-              "raw": "'#18: typeof this[\"Object\"] !== \"undefined\"'"
+              "raw": "'#18: typeof this[\"Object\"] !== \"undefined\"'",
+              "start": 1801,
+              "end": 1845
             }
-          ]
-        }
+          ],
+          "start": 1784,
+          "end": 1846
+        },
+        "start": 1778,
+        "end": 1847
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1734,
+      "end": 1847
     },
     {
       "type": "IfStatement",
-      "start": 1848,
-      "end": 1955,
       "test": {
         "type": "BinaryExpression",
-        "start": 1852,
-        "end": 1886,
         "left": {
           "type": "UnaryExpression",
-          "start": 1852,
-          "end": 1870,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1859,
-            "end": 1870,
             "object": {
               "type": "ThisExpression",
               "start": 1859,
@@ -1005,68 +995,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Number",
               "start": 1864,
-              "end": 1870,
-              "name": "Number"
+              "end": 1870
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 1859,
+            "end": 1870
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1852,
+          "end": 1870
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1875,
-          "end": 1886,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1875,
+          "end": 1886
+        },
+        "start": 1852,
+        "end": 1886
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 1889,
-        "end": 1955,
         "argument": {
           "type": "NewExpression",
-          "start": 1895,
-          "end": 1954,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 1899,
-            "end": 1911,
-            "name": "Test262Error"
+            "end": 1911
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 1912,
-              "end": 1953,
               "value": "#19: typeof this.Number !== \"undefined\"",
-              "raw": "'#19: typeof this.Number !== \"undefined\"'"
+              "raw": "'#19: typeof this.Number !== \"undefined\"'",
+              "start": 1912,
+              "end": 1953
             }
-          ]
-        }
+          ],
+          "start": 1895,
+          "end": 1954
+        },
+        "start": 1889,
+        "end": 1955
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1848,
+      "end": 1955
     },
     {
       "type": "IfStatement",
-      "start": 1956,
-      "end": 2069,
       "test": {
         "type": "BinaryExpression",
-        "start": 1960,
-        "end": 1997,
         "left": {
           "type": "UnaryExpression",
-          "start": 1960,
-          "end": 1981,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 1967,
-            "end": 1981,
             "object": {
               "type": "ThisExpression",
               "start": 1967,
@@ -1074,69 +1064,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 1972,
-              "end": 1980,
               "value": "Number",
-              "raw": "'Number'"
+              "raw": "'Number'",
+              "start": 1972,
+              "end": 1980
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 1967,
+            "end": 1981
           },
-          "prefix": true
+          "prefix": true,
+          "start": 1960,
+          "end": 1981
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 1986,
-          "end": 1997,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 1986,
+          "end": 1997
+        },
+        "start": 1960,
+        "end": 1997
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2000,
-        "end": 2069,
         "argument": {
           "type": "NewExpression",
-          "start": 2006,
-          "end": 2068,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2010,
-            "end": 2022,
-            "name": "Test262Error"
+            "end": 2022
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2023,
-              "end": 2067,
               "value": "#20: typeof this[\"Number\"] !== \"undefined\"",
-              "raw": "'#20: typeof this[\"Number\"] !== \"undefined\"'"
+              "raw": "'#20: typeof this[\"Number\"] !== \"undefined\"'",
+              "start": 2023,
+              "end": 2067
             }
-          ]
-        }
+          ],
+          "start": 2006,
+          "end": 2068
+        },
+        "start": 2000,
+        "end": 2069
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1956,
+      "end": 2069
     },
     {
       "type": "IfStatement",
-      "start": 2070,
-      "end": 2181,
       "test": {
         "type": "BinaryExpression",
-        "start": 2074,
-        "end": 2110,
         "left": {
           "type": "UnaryExpression",
-          "start": 2074,
-          "end": 2094,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2081,
-            "end": 2094,
             "object": {
               "type": "ThisExpression",
               "start": 2081,
@@ -1144,68 +1134,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Function",
               "start": 2086,
-              "end": 2094,
-              "name": "Function"
+              "end": 2094
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2081,
+            "end": 2094
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2074,
+          "end": 2094
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2099,
-          "end": 2110,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2099,
+          "end": 2110
+        },
+        "start": 2074,
+        "end": 2110
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2113,
-        "end": 2181,
         "argument": {
           "type": "NewExpression",
-          "start": 2119,
-          "end": 2180,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2123,
-            "end": 2135,
-            "name": "Test262Error"
+            "end": 2135
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2136,
-              "end": 2179,
               "value": "#21: typeof this.Function !== \"undefined\"",
-              "raw": "'#21: typeof this.Function !== \"undefined\"'"
+              "raw": "'#21: typeof this.Function !== \"undefined\"'",
+              "start": 2136,
+              "end": 2179
             }
-          ]
-        }
+          ],
+          "start": 2119,
+          "end": 2180
+        },
+        "start": 2113,
+        "end": 2181
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2070,
+      "end": 2181
     },
     {
       "type": "IfStatement",
-      "start": 2182,
-      "end": 2299,
       "test": {
         "type": "BinaryExpression",
-        "start": 2186,
-        "end": 2225,
         "left": {
           "type": "UnaryExpression",
-          "start": 2186,
-          "end": 2209,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2193,
-            "end": 2209,
             "object": {
               "type": "ThisExpression",
               "start": 2193,
@@ -1213,69 +1203,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 2198,
-              "end": 2208,
               "value": "Function",
-              "raw": "'Function'"
+              "raw": "'Function'",
+              "start": 2198,
+              "end": 2208
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 2193,
+            "end": 2209
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2186,
+          "end": 2209
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2214,
-          "end": 2225,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2214,
+          "end": 2225
+        },
+        "start": 2186,
+        "end": 2225
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2228,
-        "end": 2299,
         "argument": {
           "type": "NewExpression",
-          "start": 2234,
-          "end": 2298,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2238,
-            "end": 2250,
-            "name": "Test262Error"
+            "end": 2250
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2251,
-              "end": 2297,
               "value": "#22: typeof this[\"Function\"] !== \"undefined\"",
-              "raw": "'#22: typeof this[\"Function\"] !== \"undefined\"'"
+              "raw": "'#22: typeof this[\"Function\"] !== \"undefined\"'",
+              "start": 2251,
+              "end": 2297
             }
-          ]
-        }
+          ],
+          "start": 2234,
+          "end": 2298
+        },
+        "start": 2228,
+        "end": 2299
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2182,
+      "end": 2299
     },
     {
       "type": "IfStatement",
-      "start": 2300,
-      "end": 2405,
       "test": {
         "type": "BinaryExpression",
-        "start": 2304,
-        "end": 2337,
         "left": {
           "type": "UnaryExpression",
-          "start": 2304,
-          "end": 2321,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2311,
-            "end": 2321,
             "object": {
               "type": "ThisExpression",
               "start": 2311,
@@ -1283,68 +1273,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Array",
               "start": 2316,
-              "end": 2321,
-              "name": "Array"
+              "end": 2321
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2311,
+            "end": 2321
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2304,
+          "end": 2321
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2326,
-          "end": 2337,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2326,
+          "end": 2337
+        },
+        "start": 2304,
+        "end": 2337
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2340,
-        "end": 2405,
         "argument": {
           "type": "NewExpression",
-          "start": 2346,
-          "end": 2404,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2350,
-            "end": 2362,
-            "name": "Test262Error"
+            "end": 2362
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2363,
-              "end": 2403,
               "value": "#23: typeof this.Array !== \"undefined\"",
-              "raw": "'#23: typeof this.Array !== \"undefined\"'"
+              "raw": "'#23: typeof this.Array !== \"undefined\"'",
+              "start": 2363,
+              "end": 2403
             }
-          ]
-        }
+          ],
+          "start": 2346,
+          "end": 2404
+        },
+        "start": 2340,
+        "end": 2405
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2300,
+      "end": 2405
     },
     {
       "type": "IfStatement",
-      "start": 2406,
-      "end": 2517,
       "test": {
         "type": "BinaryExpression",
-        "start": 2410,
-        "end": 2446,
         "left": {
           "type": "UnaryExpression",
-          "start": 2410,
-          "end": 2430,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2417,
-            "end": 2430,
             "object": {
               "type": "ThisExpression",
               "start": 2417,
@@ -1352,69 +1342,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 2422,
-              "end": 2429,
               "value": "Array",
-              "raw": "'Array'"
+              "raw": "'Array'",
+              "start": 2422,
+              "end": 2429
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 2417,
+            "end": 2430
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2410,
+          "end": 2430
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2435,
-          "end": 2446,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2435,
+          "end": 2446
+        },
+        "start": 2410,
+        "end": 2446
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2449,
-        "end": 2517,
         "argument": {
           "type": "NewExpression",
-          "start": 2455,
-          "end": 2516,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2459,
-            "end": 2471,
-            "name": "Test262Error"
+            "end": 2471
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2472,
-              "end": 2515,
               "value": "#24: typeof this[\"Array\"] !== \"undefined\"",
-              "raw": "'#24: typeof this[\"Array\"] !== \"undefined\"'"
+              "raw": "'#24: typeof this[\"Array\"] !== \"undefined\"'",
+              "start": 2472,
+              "end": 2515
             }
-          ]
-        }
+          ],
+          "start": 2455,
+          "end": 2516
+        },
+        "start": 2449,
+        "end": 2517
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2406,
+      "end": 2517
     },
     {
       "type": "IfStatement",
-      "start": 2518,
-      "end": 2625,
       "test": {
         "type": "BinaryExpression",
-        "start": 2522,
-        "end": 2556,
         "left": {
           "type": "UnaryExpression",
-          "start": 2522,
-          "end": 2540,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2529,
-            "end": 2540,
             "object": {
               "type": "ThisExpression",
               "start": 2529,
@@ -1422,68 +1412,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "String",
               "start": 2534,
-              "end": 2540,
-              "name": "String"
+              "end": 2540
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2529,
+            "end": 2540
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2522,
+          "end": 2540
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2545,
-          "end": 2556,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2545,
+          "end": 2556
+        },
+        "start": 2522,
+        "end": 2556
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2559,
-        "end": 2625,
         "argument": {
           "type": "NewExpression",
-          "start": 2565,
-          "end": 2624,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2569,
-            "end": 2581,
-            "name": "Test262Error"
+            "end": 2581
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2582,
-              "end": 2623,
               "value": "#25: typeof this.String !== \"undefined\"",
-              "raw": "'#25: typeof this.String !== \"undefined\"'"
+              "raw": "'#25: typeof this.String !== \"undefined\"'",
+              "start": 2582,
+              "end": 2623
             }
-          ]
-        }
+          ],
+          "start": 2565,
+          "end": 2624
+        },
+        "start": 2559,
+        "end": 2625
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2518,
+      "end": 2625
     },
     {
       "type": "IfStatement",
-      "start": 2626,
-      "end": 2739,
       "test": {
         "type": "BinaryExpression",
-        "start": 2630,
-        "end": 2667,
         "left": {
           "type": "UnaryExpression",
-          "start": 2630,
-          "end": 2651,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2637,
-            "end": 2651,
             "object": {
               "type": "ThisExpression",
               "start": 2637,
@@ -1491,69 +1481,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 2642,
-              "end": 2650,
               "value": "String",
-              "raw": "'String'"
+              "raw": "'String'",
+              "start": 2642,
+              "end": 2650
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 2637,
+            "end": 2651
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2630,
+          "end": 2651
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2656,
-          "end": 2667,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2656,
+          "end": 2667
+        },
+        "start": 2630,
+        "end": 2667
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2670,
-        "end": 2739,
         "argument": {
           "type": "NewExpression",
-          "start": 2676,
-          "end": 2738,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2680,
-            "end": 2692,
-            "name": "Test262Error"
+            "end": 2692
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2693,
-              "end": 2737,
               "value": "#26: typeof this[\"String\"] !== \"undefined\"",
-              "raw": "'#26: typeof this[\"String\"] !== \"undefined\"'"
+              "raw": "'#26: typeof this[\"String\"] !== \"undefined\"'",
+              "start": 2693,
+              "end": 2737
             }
-          ]
-        }
+          ],
+          "start": 2676,
+          "end": 2738
+        },
+        "start": 2670,
+        "end": 2739
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2626,
+      "end": 2739
     },
     {
       "type": "IfStatement",
-      "start": 2740,
-      "end": 2849,
       "test": {
         "type": "BinaryExpression",
-        "start": 2744,
-        "end": 2779,
         "left": {
           "type": "UnaryExpression",
-          "start": 2744,
-          "end": 2763,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2751,
-            "end": 2763,
             "object": {
               "type": "ThisExpression",
               "start": 2751,
@@ -1561,68 +1551,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Boolean",
               "start": 2756,
-              "end": 2763,
-              "name": "Boolean"
+              "end": 2763
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2751,
+            "end": 2763
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2744,
+          "end": 2763
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2768,
-          "end": 2779,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2768,
+          "end": 2779
+        },
+        "start": 2744,
+        "end": 2779
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2782,
-        "end": 2849,
         "argument": {
           "type": "NewExpression",
-          "start": 2788,
-          "end": 2848,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2792,
-            "end": 2804,
-            "name": "Test262Error"
+            "end": 2804
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2805,
-              "end": 2847,
               "value": "#27: typeof this.Boolean !== \"undefined\"",
-              "raw": "'#27: typeof this.Boolean !== \"undefined\"'"
+              "raw": "'#27: typeof this.Boolean !== \"undefined\"'",
+              "start": 2805,
+              "end": 2847
             }
-          ]
-        }
+          ],
+          "start": 2788,
+          "end": 2848
+        },
+        "start": 2782,
+        "end": 2849
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2740,
+      "end": 2849
     },
     {
       "type": "IfStatement",
-      "start": 2850,
-      "end": 2965,
       "test": {
         "type": "BinaryExpression",
-        "start": 2854,
-        "end": 2892,
         "left": {
           "type": "UnaryExpression",
-          "start": 2854,
-          "end": 2876,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2861,
-            "end": 2876,
             "object": {
               "type": "ThisExpression",
               "start": 2861,
@@ -1630,69 +1620,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 2866,
-              "end": 2875,
               "value": "Boolean",
-              "raw": "'Boolean'"
+              "raw": "'Boolean'",
+              "start": 2866,
+              "end": 2875
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 2861,
+            "end": 2876
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2854,
+          "end": 2876
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2881,
-          "end": 2892,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2881,
+          "end": 2892
+        },
+        "start": 2854,
+        "end": 2892
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 2895,
-        "end": 2965,
         "argument": {
           "type": "NewExpression",
-          "start": 2901,
-          "end": 2964,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 2905,
-            "end": 2917,
-            "name": "Test262Error"
+            "end": 2917
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 2918,
-              "end": 2963,
               "value": "#28: typeof this[\"Boolean\"] !== \"undefined\"",
-              "raw": "'#28: typeof this[\"Boolean\"] !== \"undefined\"'"
+              "raw": "'#28: typeof this[\"Boolean\"] !== \"undefined\"'",
+              "start": 2918,
+              "end": 2963
             }
-          ]
-        }
+          ],
+          "start": 2901,
+          "end": 2964
+        },
+        "start": 2895,
+        "end": 2965
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2850,
+      "end": 2965
     },
     {
       "type": "IfStatement",
-      "start": 2966,
-      "end": 3069,
       "test": {
         "type": "BinaryExpression",
-        "start": 2970,
-        "end": 3002,
         "left": {
           "type": "UnaryExpression",
-          "start": 2970,
-          "end": 2986,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 2977,
-            "end": 2986,
             "object": {
               "type": "ThisExpression",
               "start": 2977,
@@ -1700,68 +1690,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Date",
               "start": 2982,
-              "end": 2986,
-              "name": "Date"
+              "end": 2986
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 2977,
+            "end": 2986
           },
-          "prefix": true
+          "prefix": true,
+          "start": 2970,
+          "end": 2986
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 2991,
-          "end": 3002,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 2991,
+          "end": 3002
+        },
+        "start": 2970,
+        "end": 3002
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3005,
-        "end": 3069,
         "argument": {
           "type": "NewExpression",
-          "start": 3011,
-          "end": 3068,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3015,
-            "end": 3027,
-            "name": "Test262Error"
+            "end": 3027
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 3028,
-              "end": 3067,
               "value": "#29: typeof this.Date !== \"undefined\"",
-              "raw": "'#29: typeof this.Date !== \"undefined\"'"
+              "raw": "'#29: typeof this.Date !== \"undefined\"'",
+              "start": 3028,
+              "end": 3067
             }
-          ]
-        }
+          ],
+          "start": 3011,
+          "end": 3068
+        },
+        "start": 3005,
+        "end": 3069
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2966,
+      "end": 3069
     },
     {
       "type": "IfStatement",
-      "start": 3070,
-      "end": 3179,
       "test": {
         "type": "BinaryExpression",
-        "start": 3074,
-        "end": 3109,
         "left": {
           "type": "UnaryExpression",
-          "start": 3074,
-          "end": 3093,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 3081,
-            "end": 3093,
             "object": {
               "type": "ThisExpression",
               "start": 3081,
@@ -1769,69 +1759,69 @@
             },
             "property": {
               "type": "Literal",
-              "start": 3086,
-              "end": 3092,
               "value": "Date",
-              "raw": "'Date'"
+              "raw": "'Date'",
+              "start": 3086,
+              "end": 3092
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 3081,
+            "end": 3093
           },
-          "prefix": true
+          "prefix": true,
+          "start": 3074,
+          "end": 3093
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 3098,
-          "end": 3109,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 3098,
+          "end": 3109
+        },
+        "start": 3074,
+        "end": 3109
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3112,
-        "end": 3179,
         "argument": {
           "type": "NewExpression",
-          "start": 3118,
-          "end": 3178,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3122,
-            "end": 3134,
-            "name": "Test262Error"
+            "end": 3134
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 3135,
-              "end": 3177,
               "value": "#30: typeof this[\"Date\"] !== \"undefined\"",
-              "raw": "'#30: typeof this[\"Date\"] !== \"undefined\"'"
+              "raw": "'#30: typeof this[\"Date\"] !== \"undefined\"'",
+              "start": 3135,
+              "end": 3177
             }
-          ]
-        }
+          ],
+          "start": 3118,
+          "end": 3178
+        },
+        "start": 3112,
+        "end": 3179
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3070,
+      "end": 3179
     },
     {
       "type": "IfStatement",
-      "start": 3180,
-      "end": 3283,
       "test": {
         "type": "BinaryExpression",
-        "start": 3184,
-        "end": 3216,
         "left": {
           "type": "UnaryExpression",
-          "start": 3184,
-          "end": 3200,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 3191,
-            "end": 3200,
             "object": {
               "type": "ThisExpression",
               "start": 3191,
@@ -1839,68 +1829,68 @@
             },
             "property": {
               "type": "Identifier",
+              "name": "Math",
               "start": 3196,
-              "end": 3200,
-              "name": "Math"
+              "end": 3200
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 3191,
+            "end": 3200
           },
-          "prefix": true
+          "prefix": true,
+          "start": 3184,
+          "end": 3200
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 3205,
-          "end": 3216,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 3205,
+          "end": 3216
+        },
+        "start": 3184,
+        "end": 3216
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3219,
-        "end": 3283,
         "argument": {
           "type": "NewExpression",
-          "start": 3225,
-          "end": 3282,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3229,
-            "end": 3241,
-            "name": "Test262Error"
+            "end": 3241
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 3242,
-              "end": 3281,
               "value": "#31: typeof this.Math !== \"undefined\"",
-              "raw": "'#31: typeof this.Math !== \"undefined\"'"
+              "raw": "'#31: typeof this.Math !== \"undefined\"'",
+              "start": 3242,
+              "end": 3281
             }
-          ]
-        }
+          ],
+          "start": 3225,
+          "end": 3282
+        },
+        "start": 3219,
+        "end": 3283
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3180,
+      "end": 3283
     },
     {
       "type": "IfStatement",
-      "start": 3284,
-      "end": 3393,
       "test": {
         "type": "BinaryExpression",
-        "start": 3288,
-        "end": 3323,
         "left": {
           "type": "UnaryExpression",
-          "start": 3288,
-          "end": 3307,
           "operator": "typeof",
           "argument": {
             "type": "MemberExpression",
-            "start": 3295,
-            "end": 3307,
             "object": {
               "type": "ThisExpression",
               "start": 3295,
@@ -1908,53 +1898,63 @@
             },
             "property": {
               "type": "Literal",
-              "start": 3300,
-              "end": 3306,
               "value": "Math",
-              "raw": "'Math'"
+              "raw": "'Math'",
+              "start": 3300,
+              "end": 3306
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 3295,
+            "end": 3307
           },
-          "prefix": true
+          "prefix": true,
+          "start": 3288,
+          "end": 3307
         },
         "operator": "===",
         "right": {
           "type": "Literal",
-          "start": 3312,
-          "end": 3323,
           "value": "undefined",
-          "raw": "\"undefined\""
-        }
+          "raw": "\"undefined\"",
+          "start": 3312,
+          "end": 3323
+        },
+        "start": 3288,
+        "end": 3323
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 3326,
-        "end": 3393,
         "argument": {
           "type": "NewExpression",
-          "start": 3332,
-          "end": 3392,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 3336,
-            "end": 3348,
-            "name": "Test262Error"
+            "end": 3348
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 3349,
-              "end": 3391,
               "value": "#32: typeof this[\"Math\"] !== \"undefined\"",
-              "raw": "'#32: typeof this[\"Math\"] !== \"undefined\"'"
+              "raw": "'#32: typeof this[\"Math\"] !== \"undefined\"'",
+              "start": 3349,
+              "end": 3391
             }
-          ]
-        }
+          ],
+          "start": 3332,
+          "end": 3392
+        },
+        "start": 3326,
+        "end": 3393
       },
-      "alternate": null
+      "alternate": null,
+      "start": 3284,
+      "end": 3393
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 3394
 }

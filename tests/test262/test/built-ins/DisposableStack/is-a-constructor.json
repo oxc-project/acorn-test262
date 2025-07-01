@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 878,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 748,
-      "end": 854,
       "expression": {
         "type": "CallExpression",
-        "start": 748,
-        "end": 853,
         "callee": {
           "type": "MemberExpression",
-          "start": 748,
-          "end": 764,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 748,
-            "end": 754,
-            "name": "assert"
+            "end": 754
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 755,
-            "end": 764,
-            "name": "sameValue"
+            "end": 764
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 748,
+          "end": 764
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 765,
-            "end": 795,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 765,
-              "end": 778,
-              "name": "isConstructor"
+              "end": 778
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "DisposableStack",
                 "start": 779,
-                "end": 794,
-                "name": "DisposableStack"
+                "end": 794
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 765,
+            "end": 795
           },
           {
             "type": "Literal",
-            "start": 797,
-            "end": 801,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 797,
+            "end": 801
           },
           {
             "type": "Literal",
-            "start": 803,
-            "end": 852,
             "value": "isConstructor(DisposableStack) must return true",
-            "raw": "'isConstructor(DisposableStack) must return true'"
+            "raw": "'isConstructor(DisposableStack) must return true'",
+            "start": 803,
+            "end": 852
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 748,
+        "end": 853
+      },
+      "start": 748,
+      "end": 854
     },
     {
       "type": "ExpressionStatement",
-      "start": 855,
-      "end": 877,
       "expression": {
         "type": "NewExpression",
-        "start": 855,
-        "end": 876,
         "callee": {
           "type": "Identifier",
+          "name": "DisposableStack",
           "start": 859,
-          "end": 874,
-          "name": "DisposableStack"
+          "end": 874
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 855,
+        "end": 876
+      },
+      "start": 855,
+      "end": 877
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 878
 }

@@ -2,341 +2,341 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 124,
-  "end": 461,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 124,
-      "end": 171,
       "expression": {
         "type": "CallExpression",
-        "start": 124,
-        "end": 170,
         "callee": {
           "type": "MemberExpression",
-          "start": 124,
-          "end": 135,
           "object": {
             "type": "Identifier",
-            "start": 124,
-            "end": 131,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 124,
+            "end": 131
           },
           "property": {
             "type": "Identifier",
-            "start": 132,
-            "end": 135,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 132,
+            "end": 135
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 124,
+          "end": 135
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 136,
-            "end": 169,
             "callee": {
               "type": "MemberExpression",
-              "start": 136,
-              "end": 160,
               "object": {
                 "type": "Identifier",
-                "start": 136,
-                "end": 140,
                 "decorators": [],
                 "name": "Intl",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 136,
+                "end": 140
               },
               "property": {
                 "type": "Identifier",
-                "start": 141,
-                "end": 160,
                 "decorators": [],
                 "name": "getCanonicalLocales",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 141,
+                "end": 160
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 136,
+              "end": 160
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 161,
-                "end": 168,
                 "value": "EN-US",
-                "raw": "'EN-US'"
+                "raw": "'EN-US'",
+                "start": 161,
+                "end": 168
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 136,
+            "end": 169
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 124,
+        "end": 170
       },
-      "directive": null
+      "directive": null,
+      "start": 124,
+      "end": 171
     },
     {
       "type": "ExpressionStatement",
-      "start": 209,
-      "end": 264,
       "expression": {
         "type": "CallExpression",
-        "start": 209,
-        "end": 263,
         "callee": {
           "type": "MemberExpression",
-          "start": 209,
-          "end": 220,
           "object": {
             "type": "Identifier",
-            "start": 209,
-            "end": 216,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 209,
+            "end": 216
           },
           "property": {
             "type": "Identifier",
-            "start": 217,
-            "end": 220,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 217,
+            "end": 220
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 209,
+          "end": 220
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 221,
-            "end": 262,
             "callee": {
               "type": "MemberExpression",
-              "start": 221,
-              "end": 245,
               "object": {
                 "type": "Identifier",
-                "start": 221,
-                "end": 225,
                 "decorators": [],
                 "name": "Intl",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 221,
+                "end": 225
               },
               "property": {
                 "type": "Identifier",
-                "start": 226,
-                "end": 245,
                 "decorators": [],
                 "name": "getCanonicalLocales",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 226,
+                "end": 245
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 221,
+              "end": 245
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 246,
-                "end": 261,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 247,
-                    "end": 254,
                     "value": "EN-US",
-                    "raw": "'EN-US'"
+                    "raw": "'EN-US'",
+                    "start": 247,
+                    "end": 254
                   },
                   {
                     "type": "Literal",
-                    "start": 256,
-                    "end": 260,
                     "value": "Fr",
-                    "raw": "'Fr'"
+                    "raw": "'Fr'",
+                    "start": 256,
+                    "end": 260
                   }
-                ]
+                ],
+                "start": 246,
+                "end": 261
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 221,
+            "end": 262
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 209,
+        "end": 263
       },
-      "directive": null
+      "directive": null,
+      "start": 209,
+      "end": 264
     },
     {
       "type": "TryStatement",
-      "start": 308,
-      "end": 461,
       "block": {
         "type": "BlockStatement",
-        "start": 312,
-        "end": 352,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 316,
-            "end": 350,
             "expression": {
               "type": "CallExpression",
-              "start": 316,
-              "end": 349,
               "callee": {
                 "type": "MemberExpression",
-                "start": 316,
-                "end": 340,
                 "object": {
                   "type": "Identifier",
-                  "start": 316,
-                  "end": 320,
                   "decorators": [],
                   "name": "Intl",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 316,
+                  "end": 320
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 321,
-                  "end": 340,
                   "decorators": [],
                   "name": "getCanonicalLocales",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 321,
+                  "end": 340
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 316,
+                "end": 340
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 341,
-                  "end": 348,
                   "value": "EN_US",
-                  "raw": "'EN_US'"
+                  "raw": "'EN_US'",
+                  "start": 341,
+                  "end": 348
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 316,
+              "end": 349
             },
-            "directive": null
+            "directive": null,
+            "start": 316,
+            "end": 350
           }
-        ]
+        ],
+        "start": 312,
+        "end": 352
       },
       "handler": {
         "type": "CatchClause",
-        "start": 353,
-        "end": 461,
         "param": {
           "type": "Identifier",
-          "start": 360,
-          "end": 363,
           "decorators": [],
           "name": "err",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 360,
+          "end": 363
         },
         "body": {
           "type": "BlockStatement",
-          "start": 365,
-          "end": 461,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 369,
-              "end": 397,
               "expression": {
                 "type": "CallExpression",
-                "start": 369,
-                "end": 396,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 369,
-                  "end": 380,
                   "object": {
                     "type": "Identifier",
-                    "start": 369,
-                    "end": 376,
                     "decorators": [],
                     "name": "console",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 369,
+                    "end": 376
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 377,
-                    "end": 380,
                     "decorators": [],
                     "name": "log",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 377,
+                    "end": 380
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 369,
+                  "end": 380
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "CallExpression",
-                    "start": 381,
-                    "end": 395,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 381,
-                      "end": 393,
                       "object": {
                         "type": "Identifier",
-                        "start": 381,
-                        "end": 384,
                         "decorators": [],
                         "name": "err",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 381,
+                        "end": 384
                       },
                       "property": {
                         "type": "Identifier",
-                        "start": 385,
-                        "end": 393,
                         "decorators": [],
                         "name": "toString",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 385,
+                        "end": 393
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 381,
+                      "end": 393
                     },
                     "typeArguments": null,
                     "arguments": [],
-                    "optional": false
+                    "optional": false,
+                    "start": 381,
+                    "end": 395
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 369,
+                "end": 396
               },
-              "directive": null
+              "directive": null,
+              "start": 369,
+              "end": 397
             }
-          ]
-        }
+          ],
+          "start": 365,
+          "end": 461
+        },
+        "start": 353,
+        "end": 461
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 308,
+      "end": 461
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 124,
+  "end": 461
 }
 ```

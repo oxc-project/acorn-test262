@@ -1,114 +1,114 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 399,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 291,
-      "end": 398,
       "expression": {
         "type": "CallExpression",
-        "start": 291,
-        "end": 397,
         "callee": {
           "type": "MemberExpression",
-          "start": 291,
-          "end": 307,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 291,
-            "end": 297,
-            "name": "assert"
+            "end": 297
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 298,
-            "end": 307,
-            "name": "sameValue"
+            "end": 307
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 291,
+          "end": 307
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 308,
-            "end": 344,
             "callee": {
               "type": "MemberExpression",
-              "start": 308,
-              "end": 334,
               "object": {
                 "type": "MemberExpression",
-                "start": 308,
-                "end": 329,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 308,
-                  "end": 324,
                   "object": {
                     "type": "Identifier",
+                    "name": "String",
                     "start": 308,
-                    "end": 314,
-                    "name": "String"
+                    "end": 314
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 315,
-                    "end": 324,
-                    "name": "prototype"
+                    "end": 324
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 308,
+                  "end": 324
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "trim",
                   "start": 325,
-                  "end": 329,
-                  "name": "trim"
+                  "end": 329
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 308,
+                "end": 329
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 330,
-                "end": 334,
-                "name": "call"
+                "end": 334
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 308,
+              "end": 334
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Infinity",
                 "start": 335,
-                "end": 343,
-                "name": "Infinity"
+                "end": 343
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 308,
+            "end": 344
           },
           {
             "type": "Literal",
-            "start": 346,
-            "end": 356,
             "value": "Infinity",
-            "raw": "\"Infinity\""
+            "raw": "\"Infinity\"",
+            "start": 346,
+            "end": 356
           },
           {
             "type": "Literal",
-            "start": 358,
-            "end": 396,
             "value": "String.prototype.trim.call(Infinity)",
-            "raw": "'String.prototype.trim.call(Infinity)'"
+            "raw": "'String.prototype.trim.call(Infinity)'",
+            "start": 358,
+            "end": 396
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 291,
+        "end": 397
+      },
+      "start": 291,
+      "end": 398
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 399
 }

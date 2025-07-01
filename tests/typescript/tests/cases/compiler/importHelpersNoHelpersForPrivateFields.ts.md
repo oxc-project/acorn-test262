@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 115,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 114,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 7,
-        "end": 114,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 13,
-          "end": 16,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 13,
+          "end": 16
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,27 +23,23 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
-          "start": 17,
-          "end": 114,
           "body": [
             {
               "type": "PropertyDefinition",
-              "start": 23,
-              "end": 37,
               "decorators": [],
               "key": {
                 "type": "PrivateIdentifier",
+                "name": "field",
                 "start": 23,
-                "end": 29,
-                "name": "field"
+                "end": 29
               },
               "typeAnnotation": null,
               "value": {
                 "type": "Literal",
-                "start": 32,
-                "end": 36,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 32,
+                "end": 36
               },
               "computed": false,
               "static": false,
@@ -58,26 +48,24 @@ __ESTREE_TEST__:PASS:
               "optional": false,
               "definite": false,
               "readonly": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 23,
+              "end": 37
             },
             {
               "type": "MethodDefinition",
-              "start": 42,
-              "end": 112,
               "decorators": [],
               "key": {
                 "type": "Identifier",
-                "start": 42,
-                "end": 43,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 42,
+                "end": 43
               },
               "value": {
                 "type": "FunctionExpression",
-                "start": 43,
-                "end": 112,
                 "id": null,
                 "generator": false,
                 "async": false,
@@ -87,22 +75,14 @@ __ESTREE_TEST__:PASS:
                 "returnType": null,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 46,
-                  "end": 112,
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 56,
-                      "end": 82,
                       "expression": {
                         "type": "AssignmentExpression",
-                        "start": 56,
-                        "end": 81,
                         "operator": "=",
                         "left": {
                           "type": "MemberExpression",
-                          "start": 56,
-                          "end": 67,
                           "object": {
                             "type": "ThisExpression",
                             "start": 56,
@@ -110,17 +90,17 @@ __ESTREE_TEST__:PASS:
                           },
                           "property": {
                             "type": "PrivateIdentifier",
+                            "name": "field",
                             "start": 61,
-                            "end": 67,
-                            "name": "field"
+                            "end": 67
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 56,
+                          "end": 67
                         },
                         "right": {
                           "type": "MemberExpression",
-                          "start": 70,
-                          "end": 81,
                           "object": {
                             "type": "ThisExpression",
                             "start": 70,
@@ -128,84 +108,104 @@ __ESTREE_TEST__:PASS:
                           },
                           "property": {
                             "type": "PrivateIdentifier",
+                            "name": "field",
                             "start": 75,
-                            "end": 81,
-                            "name": "field"
+                            "end": 81
                           },
                           "optional": false,
-                          "computed": false
-                        }
+                          "computed": false,
+                          "start": 70,
+                          "end": 81
+                        },
+                        "start": 56,
+                        "end": 81
                       },
-                      "directive": null
+                      "directive": null,
+                      "start": 56,
+                      "end": 82
                     },
                     {
                       "type": "ExpressionStatement",
-                      "start": 91,
-                      "end": 106,
                       "expression": {
                         "type": "BinaryExpression",
-                        "start": 91,
-                        "end": 105,
                         "left": {
                           "type": "PrivateIdentifier",
+                          "name": "field",
                           "start": 91,
-                          "end": 97,
-                          "name": "field"
+                          "end": 97
                         },
                         "operator": "in",
                         "right": {
                           "type": "ThisExpression",
                           "start": 101,
                           "end": 105
-                        }
+                        },
+                        "start": 91,
+                        "end": 105
                       },
-                      "directive": null
+                      "directive": null,
+                      "start": 91,
+                      "end": 106
                     }
-                  ]
+                  ],
+                  "start": 46,
+                  "end": 112
                 },
-                "expression": false
+                "expression": false,
+                "start": 43,
+                "end": 112
               },
               "kind": "method",
               "computed": false,
               "static": false,
               "override": false,
               "optional": false,
-              "accessibility": null
+              "accessibility": null,
+              "start": 42,
+              "end": 112
             }
-          ]
+          ],
+          "start": 17,
+          "end": 114
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 114
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 114
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 115
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 9,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 9,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 9
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 9
 }
 ```

@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 66,
-  "end": 117,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 66,
-      "end": 87,
       "id": {
         "type": "Identifier",
-        "start": 75,
-        "end": 78,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 75,
+        "end": 78
       },
       "generator": false,
       "async": false,
@@ -25,126 +21,130 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 79,
-          "end": 80,
           "decorators": [],
           "name": "n",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 79,
+          "end": 80
         },
         {
           "type": "Identifier",
-          "start": 82,
-          "end": 83,
           "decorators": [],
           "name": "s",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 82,
+          "end": 83
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 85,
-        "end": 87,
-        "body": []
+        "end": 87
       },
-      "expression": false
+      "expression": false,
+      "start": 66,
+      "end": 87
     },
     {
       "type": "ExpressionStatement",
-      "start": 89,
-      "end": 95,
       "expression": {
         "type": "CallExpression",
-        "start": 89,
-        "end": 94,
         "callee": {
           "type": "Identifier",
-          "start": 89,
-          "end": 92,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 89,
+          "end": 92
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 89,
+        "end": 94
       },
-      "directive": null
+      "directive": null,
+      "start": 89,
+      "end": 95
     },
     {
       "type": "ExpressionStatement",
-      "start": 96,
-      "end": 103,
       "expression": {
         "type": "CallExpression",
-        "start": 96,
-        "end": 102,
         "callee": {
           "type": "Identifier",
-          "start": 96,
-          "end": 99,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 96,
+          "end": 99
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 100,
-            "end": 101,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 100,
+            "end": 101
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 96,
+        "end": 102
       },
-      "directive": null
+      "directive": null,
+      "start": 96,
+      "end": 103
     },
     {
       "type": "ExpressionStatement",
-      "start": 104,
-      "end": 117,
       "expression": {
         "type": "CallExpression",
-        "start": 104,
-        "end": 116,
         "callee": {
           "type": "Identifier",
-          "start": 104,
-          "end": 107,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 104,
+          "end": 107
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 108,
-            "end": 109,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 108,
+            "end": 109
           },
           {
             "type": "Literal",
-            "start": 111,
-            "end": 115,
             "value": "hi",
-            "raw": "\"hi\""
+            "raw": "\"hi\"",
+            "start": 111,
+            "end": 115
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 104,
+        "end": 116
       },
-      "directive": null
+      "directive": null,
+      "start": 104,
+      "end": 117
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 66,
+  "end": 117
 }
 ```

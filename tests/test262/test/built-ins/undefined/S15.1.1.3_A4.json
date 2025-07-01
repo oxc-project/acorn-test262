@@ -1,31 +1,27 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 365,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 243,
-      "end": 364,
       "left": {
         "type": "VariableDeclaration",
-        "start": 248,
-        "end": 256,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 252,
-            "end": 256,
             "id": {
               "type": "Identifier",
+              "name": "prop",
               "start": 252,
-              "end": 256,
-              "name": "prop"
+              "end": 256
             },
-            "init": null
+            "init": null,
+            "start": 252,
+            "end": 256
           }
-        ]
+        ],
+        "start": 248,
+        "end": 256
       },
       "right": {
         "type": "ThisExpression",
@@ -34,70 +30,74 @@
       },
       "body": {
         "type": "BlockStatement",
-        "start": 266,
-        "end": 364,
         "body": [
           {
             "type": "IfStatement",
-            "start": 270,
-            "end": 362,
             "test": {
               "type": "BinaryExpression",
-              "start": 274,
-              "end": 294,
               "left": {
                 "type": "Identifier",
+                "name": "prop",
                 "start": 274,
-                "end": 278,
-                "name": "prop"
+                "end": 278
               },
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 283,
-                "end": 294,
                 "value": "undefined",
-                "raw": "\"undefined\""
-              }
+                "raw": "\"undefined\"",
+                "start": 283,
+                "end": 294
+              },
+              "start": 274,
+              "end": 294
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 296,
-              "end": 362,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 302,
-                  "end": 358,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 308,
-                    "end": 357,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Test262Error",
                       "start": 312,
-                      "end": 324,
-                      "name": "Test262Error"
+                      "end": 324
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 325,
-                        "end": 356,
                         "value": "#1: The undefined is DontEnum",
-                        "raw": "'#1: The undefined is DontEnum'"
+                        "raw": "'#1: The undefined is DontEnum'",
+                        "start": 325,
+                        "end": 356
                       }
-                    ]
-                  }
+                    ],
+                    "start": 308,
+                    "end": 357
+                  },
+                  "start": 302,
+                  "end": 358
                 }
-              ]
+              ],
+              "start": 296,
+              "end": 362
             },
-            "alternate": null
+            "alternate": null,
+            "start": 270,
+            "end": 362
           }
-        ]
-      }
+        ],
+        "start": 266,
+        "end": 364
+      },
+      "start": 243,
+      "end": 364
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 365
 }

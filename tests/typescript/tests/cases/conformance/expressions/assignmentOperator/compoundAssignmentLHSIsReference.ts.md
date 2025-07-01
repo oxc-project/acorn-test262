@@ -2,140 +2,136 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 497,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 10,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 9,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 9,
             "decorators": [],
             "name": "value",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 9
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 9
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 10
     },
     {
       "type": "VariableDeclaration",
-      "start": 51,
-      "end": 66,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 55,
-          "end": 65,
           "id": {
             "type": "Identifier",
-            "start": 55,
-            "end": 65,
             "decorators": [],
             "name": "x1",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 57,
-              "end": 65,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 59,
                 "end": 65
-              }
-            }
+              },
+              "start": 57,
+              "end": 65
+            },
+            "start": 55,
+            "end": 65
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 55,
+          "end": 65
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 51,
+      "end": 66
     },
     {
       "type": "ExpressionStatement",
-      "start": 67,
-      "end": 79,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 67,
-        "end": 78,
         "operator": "*=",
         "left": {
           "type": "Identifier",
-          "start": 67,
-          "end": 69,
           "decorators": [],
           "name": "x1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 67,
+          "end": 69
         },
         "right": {
           "type": "Identifier",
-          "start": 73,
-          "end": 78,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 73,
+          "end": 78
+        },
+        "start": 67,
+        "end": 78
       },
-      "directive": null
+      "directive": null,
+      "start": 67,
+      "end": 79
     },
     {
       "type": "ExpressionStatement",
-      "start": 80,
-      "end": 92,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 80,
-        "end": 91,
         "operator": "+=",
         "left": {
           "type": "Identifier",
-          "start": 80,
-          "end": 82,
           "decorators": [],
           "name": "x1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 80,
+          "end": 82
         },
         "right": {
           "type": "Identifier",
-          "start": 86,
-          "end": 91,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 86,
+          "end": 91
+        },
+        "start": 80,
+        "end": 91
       },
-      "directive": null
+      "directive": null,
+      "start": 80,
+      "end": 92
     },
     {
       "type": "FunctionDeclaration",
-      "start": 94,
-      "end": 156,
       "id": {
         "type": "Identifier",
-        "start": 103,
-        "end": 106,
         "decorators": [],
         "name": "fn1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 103,
+        "end": 106
       },
       "generator": false,
       "async": false,
@@ -144,410 +140,410 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 107,
-          "end": 117,
           "decorators": [],
           "name": "x2",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 109,
-            "end": 117,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
               "start": 111,
               "end": 117
-            }
-          }
+            },
+            "start": 109,
+            "end": 117
+          },
+          "start": 107,
+          "end": 117
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 119,
-        "end": 156,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 125,
-            "end": 137,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 125,
-              "end": 136,
               "operator": "*=",
               "left": {
                 "type": "Identifier",
-                "start": 125,
-                "end": 127,
                 "decorators": [],
                 "name": "x2",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 125,
+                "end": 127
               },
               "right": {
                 "type": "Identifier",
-                "start": 131,
-                "end": 136,
                 "decorators": [],
                 "name": "value",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 131,
+                "end": 136
+              },
+              "start": 125,
+              "end": 136
             },
-            "directive": null
+            "directive": null,
+            "start": 125,
+            "end": 137
           },
           {
             "type": "ExpressionStatement",
-            "start": 142,
-            "end": 154,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 142,
-              "end": 153,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
-                "start": 142,
-                "end": 144,
                 "decorators": [],
                 "name": "x2",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 142,
+                "end": 144
               },
               "right": {
                 "type": "Identifier",
-                "start": 148,
-                "end": 153,
                 "decorators": [],
                 "name": "value",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 148,
+                "end": 153
+              },
+              "start": 142,
+              "end": 153
             },
-            "directive": null
+            "directive": null,
+            "start": 142,
+            "end": 154
           }
-        ]
+        ],
+        "start": 119,
+        "end": 156
       },
-      "expression": false
+      "expression": false,
+      "start": 94,
+      "end": 156
     },
     {
       "type": "VariableDeclaration",
-      "start": 179,
-      "end": 201,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 183,
-          "end": 200,
           "id": {
             "type": "Identifier",
-            "start": 183,
-            "end": 200,
             "decorators": [],
             "name": "x3",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 185,
-              "end": 200,
               "typeAnnotation": {
                 "type": "TSTypeLiteral",
-                "start": 187,
-                "end": 200,
                 "members": [
                   {
                     "type": "TSPropertySignature",
-                    "start": 189,
-                    "end": 198,
                     "computed": false,
                     "optional": false,
                     "readonly": false,
                     "key": {
                       "type": "Identifier",
-                      "start": 189,
-                      "end": 190,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 189,
+                      "end": 190
                     },
                     "typeAnnotation": {
                       "type": "TSTypeAnnotation",
-                      "start": 190,
-                      "end": 198,
                       "typeAnnotation": {
                         "type": "TSNumberKeyword",
                         "start": 192,
                         "end": 198
-                      }
+                      },
+                      "start": 190,
+                      "end": 198
                     },
                     "accessibility": null,
-                    "static": false
+                    "static": false,
+                    "start": 189,
+                    "end": 198
                   }
-                ]
-              }
-            }
+                ],
+                "start": 187,
+                "end": 200
+              },
+              "start": 185,
+              "end": 200
+            },
+            "start": 183,
+            "end": 200
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 183,
+          "end": 200
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 179,
+      "end": 201
     },
     {
       "type": "ExpressionStatement",
-      "start": 202,
-      "end": 216,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 202,
-        "end": 215,
         "operator": "*=",
         "left": {
           "type": "MemberExpression",
-          "start": 202,
-          "end": 206,
           "object": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "x3",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 202,
-            "end": 204,
-            "decorators": [],
-            "name": "x3",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 204
           },
           "property": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "a",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 205,
-            "end": 206,
-            "decorators": [],
-            "name": "a",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 206
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 202,
+          "end": 206
         },
         "right": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "value",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 210,
-          "end": 215,
-          "decorators": [],
-          "name": "value",
-          "optional": false,
-          "typeAnnotation": null
-        }
+          "end": 215
+        },
+        "start": 202,
+        "end": 215
       },
-      "directive": null
+      "directive": null,
+      "start": 202,
+      "end": 216
     },
     {
       "type": "ExpressionStatement",
-      "start": 217,
-      "end": 231,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 217,
-        "end": 230,
         "operator": "+=",
         "left": {
           "type": "MemberExpression",
-          "start": 217,
-          "end": 221,
           "object": {
             "type": "Identifier",
-            "start": 217,
-            "end": 219,
             "decorators": [],
             "name": "x3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 217,
+            "end": 219
           },
           "property": {
             "type": "Identifier",
-            "start": 220,
-            "end": 221,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 220,
+            "end": 221
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 217,
+          "end": 221
         },
         "right": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "value",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 225,
-          "end": 230,
-          "decorators": [],
-          "name": "value",
-          "optional": false,
-          "typeAnnotation": null
-        }
+          "end": 230
+        },
+        "start": 217,
+        "end": 230
       },
-      "directive": null
+      "directive": null,
+      "start": 217,
+      "end": 231
     },
     {
       "type": "ExpressionStatement",
-      "start": 233,
-      "end": 250,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 233,
-        "end": 249,
         "operator": "*=",
         "left": {
           "type": "MemberExpression",
-          "start": 233,
-          "end": 240,
           "object": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "x3",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 233,
-            "end": 235,
-            "decorators": [],
-            "name": "x3",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 235
           },
           "property": {
             "type": "Literal",
-            "start": 236,
-            "end": 239,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "start": 236,
+            "end": 239
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 233,
+          "end": 240
         },
         "right": {
           "type": "Identifier",
-          "start": 244,
-          "end": 249,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 244,
+          "end": 249
+        },
+        "start": 233,
+        "end": 249
       },
-      "directive": null
+      "directive": null,
+      "start": 233,
+      "end": 250
     },
     {
       "type": "ExpressionStatement",
-      "start": 251,
-      "end": 268,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 251,
-        "end": 267,
         "operator": "+=",
         "left": {
           "type": "MemberExpression",
-          "start": 251,
-          "end": 258,
           "object": {
             "type": "Identifier",
-            "start": 251,
-            "end": 253,
             "decorators": [],
             "name": "x3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 251,
+            "end": 253
           },
           "property": {
             "type": "Literal",
-            "start": 254,
-            "end": 257,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "start": 254,
+            "end": 257
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 251,
+          "end": 258
         },
         "right": {
           "type": "Identifier",
-          "start": 262,
-          "end": 267,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 262,
+          "end": 267
+        },
+        "start": 251,
+        "end": 267
       },
-      "directive": null
+      "directive": null,
+      "start": 251,
+      "end": 268
     },
     {
       "type": "ExpressionStatement",
-      "start": 324,
-      "end": 338,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 324,
-        "end": 337,
         "operator": "*=",
         "left": {
           "type": "Identifier",
-          "start": 325,
-          "end": 327,
           "decorators": [],
           "name": "x1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 325,
+          "end": 327
         },
         "right": {
           "type": "Identifier",
-          "start": 332,
-          "end": 337,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 332,
+          "end": 337
+        },
+        "start": 324,
+        "end": 337
       },
-      "directive": null
+      "directive": null,
+      "start": 324,
+      "end": 338
     },
     {
       "type": "ExpressionStatement",
-      "start": 339,
-      "end": 353,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 339,
-        "end": 352,
         "operator": "+=",
         "left": {
           "type": "Identifier",
-          "start": 340,
-          "end": 342,
           "decorators": [],
           "name": "x1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 340,
+          "end": 342
         },
         "right": {
           "type": "Identifier",
-          "start": 347,
-          "end": 352,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 347,
+          "end": 352
+        },
+        "start": 339,
+        "end": 352
       },
-      "directive": null
+      "directive": null,
+      "start": 339,
+      "end": 353
     },
     {
       "type": "FunctionDeclaration",
-      "start": 355,
-      "end": 421,
       "id": {
         "type": "Identifier",
-        "start": 364,
-        "end": 367,
         "decorators": [],
         "name": "fn2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 364,
+        "end": 367
       },
       "generator": false,
       "async": false,
@@ -556,275 +552,279 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 368,
-          "end": 378,
           "decorators": [],
           "name": "x4",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 370,
-            "end": 378,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
               "start": 372,
               "end": 378
-            }
-          }
+            },
+            "start": 370,
+            "end": 378
+          },
+          "start": 368,
+          "end": 378
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 380,
-        "end": 421,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 386,
-            "end": 400,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 386,
-              "end": 399,
               "operator": "*=",
               "left": {
                 "type": "Identifier",
-                "start": 387,
-                "end": 389,
                 "decorators": [],
                 "name": "x4",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 387,
+                "end": 389
               },
               "right": {
                 "type": "Identifier",
-                "start": 394,
-                "end": 399,
                 "decorators": [],
                 "name": "value",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 394,
+                "end": 399
+              },
+              "start": 386,
+              "end": 399
             },
-            "directive": null
+            "directive": null,
+            "start": 386,
+            "end": 400
           },
           {
             "type": "ExpressionStatement",
-            "start": 405,
-            "end": 419,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 405,
-              "end": 418,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
-                "start": 406,
-                "end": 408,
                 "decorators": [],
                 "name": "x4",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 406,
+                "end": 408
               },
               "right": {
                 "type": "Identifier",
-                "start": 413,
-                "end": 418,
                 "decorators": [],
                 "name": "value",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 413,
+                "end": 418
+              },
+              "start": 405,
+              "end": 418
             },
-            "directive": null
+            "directive": null,
+            "start": 405,
+            "end": 419
           }
-        ]
+        ],
+        "start": 380,
+        "end": 421
       },
-      "expression": false
+      "expression": false,
+      "start": 355,
+      "end": 421
     },
     {
       "type": "ExpressionStatement",
-      "start": 423,
-      "end": 439,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 423,
-        "end": 438,
         "operator": "*=",
         "left": {
           "type": "MemberExpression",
-          "start": 424,
-          "end": 428,
           "object": {
             "type": "Identifier",
+            "decorators": [],
+            "name": "x3",
+            "optional": false,
+            "typeAnnotation": null,
             "start": 424,
-            "end": 426,
-            "decorators": [],
-            "name": "x3",
-            "optional": false,
-            "typeAnnotation": null
+            "end": 426
           },
           "property": {
             "type": "Identifier",
-            "start": 427,
-            "end": 428,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 427,
+            "end": 428
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 424,
+          "end": 428
         },
         "right": {
           "type": "Identifier",
-          "start": 433,
-          "end": 438,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 433,
+          "end": 438
+        },
+        "start": 423,
+        "end": 438
       },
-      "directive": null
+      "directive": null,
+      "start": 423,
+      "end": 439
     },
     {
       "type": "ExpressionStatement",
-      "start": 440,
-      "end": 456,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 440,
-        "end": 455,
         "operator": "+=",
         "left": {
           "type": "MemberExpression",
-          "start": 441,
-          "end": 445,
           "object": {
             "type": "Identifier",
-            "start": 441,
-            "end": 443,
             "decorators": [],
             "name": "x3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 441,
+            "end": 443
           },
           "property": {
             "type": "Identifier",
-            "start": 444,
-            "end": 445,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 444,
+            "end": 445
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 441,
+          "end": 445
         },
         "right": {
           "type": "Identifier",
-          "start": 450,
-          "end": 455,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 450,
+          "end": 455
+        },
+        "start": 440,
+        "end": 455
       },
-      "directive": null
+      "directive": null,
+      "start": 440,
+      "end": 456
     },
     {
       "type": "ExpressionStatement",
-      "start": 458,
-      "end": 477,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 458,
-        "end": 476,
         "operator": "*=",
         "left": {
           "type": "MemberExpression",
-          "start": 459,
-          "end": 466,
           "object": {
             "type": "Identifier",
-            "start": 459,
-            "end": 461,
             "decorators": [],
             "name": "x3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 459,
+            "end": 461
           },
           "property": {
             "type": "Literal",
-            "start": 462,
-            "end": 465,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "start": 462,
+            "end": 465
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 459,
+          "end": 466
         },
         "right": {
           "type": "Identifier",
-          "start": 471,
-          "end": 476,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 471,
+          "end": 476
+        },
+        "start": 458,
+        "end": 476
       },
-      "directive": null
+      "directive": null,
+      "start": 458,
+      "end": 477
     },
     {
       "type": "ExpressionStatement",
-      "start": 478,
-      "end": 497,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 478,
-        "end": 496,
         "operator": "+=",
         "left": {
           "type": "MemberExpression",
-          "start": 479,
-          "end": 486,
           "object": {
             "type": "Identifier",
-            "start": 479,
-            "end": 481,
             "decorators": [],
             "name": "x3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 479,
+            "end": 481
           },
           "property": {
             "type": "Literal",
-            "start": 482,
-            "end": 485,
             "value": "a",
-            "raw": "'a'"
+            "raw": "'a'",
+            "start": 482,
+            "end": 485
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 479,
+          "end": 486
         },
         "right": {
           "type": "Identifier",
-          "start": 491,
-          "end": 496,
           "decorators": [],
           "name": "value",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 491,
+          "end": 496
+        },
+        "start": 478,
+        "end": 496
       },
-      "directive": null
+      "directive": null,
+      "start": 478,
+      "end": 497
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 497
 }
 ```

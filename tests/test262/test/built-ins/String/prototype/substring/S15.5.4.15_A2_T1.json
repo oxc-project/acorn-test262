@@ -1,171 +1,171 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 732,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 292,
-      "end": 345,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 296,
-          "end": 344,
           "id": {
             "type": "Identifier",
+            "name": "__string",
             "start": 296,
-            "end": 304,
-            "name": "__string"
+            "end": 304
           },
           "init": {
             "type": "NewExpression",
-            "start": 307,
-            "end": 344,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 311,
-              "end": 317,
-              "name": "String"
+              "end": 317
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 318,
-                "end": 343,
                 "value": "this is a string object",
-                "raw": "\"this is a string object\""
+                "raw": "\"this is a string object\"",
+                "start": 318,
+                "end": 343
               }
-            ]
-          }
+            ],
+            "start": 307,
+            "end": 344
+          },
+          "start": 296,
+          "end": 344
         }
-      ]
+      ],
+      "start": 292,
+      "end": 345
     },
     {
       "type": "IfStatement",
-      "start": 436,
-      "end": 649,
       "test": {
         "type": "BinaryExpression",
-        "start": 440,
-        "end": 480,
         "left": {
           "type": "UnaryExpression",
-          "start": 440,
-          "end": 467,
           "operator": "typeof",
           "argument": {
             "type": "CallExpression",
-            "start": 447,
-            "end": 467,
             "callee": {
               "type": "MemberExpression",
-              "start": 447,
-              "end": 465,
               "object": {
                 "type": "Identifier",
+                "name": "__string",
                 "start": 447,
-                "end": 455,
-                "name": "__string"
+                "end": 455
               },
               "property": {
                 "type": "Identifier",
+                "name": "substring",
                 "start": 456,
-                "end": 465,
-                "name": "substring"
+                "end": 465
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 447,
+              "end": 465
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 447,
+            "end": 467
           },
-          "prefix": true
+          "prefix": true,
+          "start": 440,
+          "end": 467
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 472,
-          "end": 480,
           "value": "string",
-          "raw": "\"string\""
-        }
+          "raw": "\"string\"",
+          "start": 472,
+          "end": 480
+        },
+        "start": 440,
+        "end": 480
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 482,
-        "end": 649,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 486,
-            "end": 647,
             "argument": {
               "type": "NewExpression",
-              "start": 492,
-              "end": 646,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 496,
-                "end": 508,
-                "name": "Test262Error"
+                "end": 508
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 509,
-                  "end": 645,
                   "left": {
                     "type": "Literal",
-                    "start": 509,
-                    "end": 615,
                     "value": "#1: __string = new String(\"this is a string object\"); typeof __string.substring() === \"string\". Actual: ",
-                    "raw": "'#1: __string = new String(\"this is a string object\"); typeof __string.substring() === \"string\". Actual: '"
+                    "raw": "'#1: __string = new String(\"this is a string object\"); typeof __string.substring() === \"string\". Actual: '",
+                    "start": 509,
+                    "end": 615
                   },
                   "operator": "+",
                   "right": {
                     "type": "UnaryExpression",
-                    "start": 618,
-                    "end": 645,
                     "operator": "typeof",
                     "argument": {
                       "type": "CallExpression",
-                      "start": 625,
-                      "end": 645,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 625,
-                        "end": 643,
                         "object": {
                           "type": "Identifier",
+                          "name": "__string",
                           "start": 625,
-                          "end": 633,
-                          "name": "__string"
+                          "end": 633
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "substring",
                           "start": 634,
-                          "end": 643,
-                          "name": "substring"
+                          "end": 643
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 625,
+                        "end": 643
                       },
                       "arguments": [],
-                      "optional": false
+                      "optional": false,
+                      "start": 625,
+                      "end": 645
                     },
-                    "prefix": true
-                  }
+                    "prefix": true,
+                    "start": 618,
+                    "end": 645
+                  },
+                  "start": 509,
+                  "end": 645
                 }
-              ]
-            }
+              ],
+              "start": 492,
+              "end": 646
+            },
+            "start": 486,
+            "end": 647
           }
-        ]
+        ],
+        "start": 482,
+        "end": 649
       },
-      "alternate": null
+      "alternate": null,
+      "start": 436,
+      "end": 649
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 732
 }

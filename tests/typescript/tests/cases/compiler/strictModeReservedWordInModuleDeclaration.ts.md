@@ -2,158 +2,158 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 106,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 12,
       "expression": {
         "type": "Literal",
-        "start": 0,
-        "end": 12,
         "value": "use strict",
-        "raw": "\"use strict\""
+        "raw": "\"use strict\"",
+        "start": 0,
+        "end": 12
       },
-      "directive": "use strict"
+      "directive": "use strict",
+      "start": 0,
+      "end": 12
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 13,
-      "end": 30,
       "id": {
         "type": "Identifier",
-        "start": 20,
-        "end": 26,
         "decorators": [],
         "name": "public",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 20,
+        "end": 26
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 27,
-        "end": 30,
-        "body": []
+        "end": 30
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 13,
+      "end": 30
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 31,
-      "end": 49,
       "id": {
         "type": "Identifier",
-        "start": 38,
-        "end": 45,
         "decorators": [],
         "name": "private",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 38,
+        "end": 45
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 46,
-        "end": 49,
-        "body": []
+        "end": 49
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 31,
+      "end": 49
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 50,
-      "end": 76,
       "id": {
         "type": "TSQualifiedName",
-        "start": 57,
-        "end": 72,
         "left": {
           "type": "Identifier",
-          "start": 57,
-          "end": 63,
           "decorators": [],
           "name": "public",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 57,
+          "end": 63
         },
         "right": {
           "type": "Identifier",
-          "start": 64,
-          "end": 72,
           "decorators": [],
           "name": "whatever",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 64,
+          "end": 72
+        },
+        "start": 57,
+        "end": 72
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 73,
-        "end": 76,
-        "body": []
+        "end": 76
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 50,
+      "end": 76
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 77,
-      "end": 106,
       "id": {
         "type": "TSQualifiedName",
-        "start": 84,
-        "end": 102,
         "left": {
           "type": "TSQualifiedName",
-          "start": 84,
-          "end": 98,
           "left": {
             "type": "Identifier",
-            "start": 84,
-            "end": 91,
             "decorators": [],
             "name": "private",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 84,
+            "end": 91
           },
           "right": {
             "type": "Identifier",
-            "start": 92,
-            "end": 98,
             "decorators": [],
             "name": "public",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 92,
+            "end": 98
+          },
+          "start": 84,
+          "end": 98
         },
         "right": {
           "type": "Identifier",
-          "start": 99,
-          "end": 102,
           "decorators": [],
           "name": "foo",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 99,
+          "end": 102
+        },
+        "start": 84,
+        "end": 102
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 103,
-        "end": 106,
-        "body": []
+        "end": 106
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 77,
+      "end": 106
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 106
 }
 ```

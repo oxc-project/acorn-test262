@@ -1,294 +1,294 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2493,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1792,
-      "end": 1804,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1796,
-          "end": 1803,
           "id": {
             "type": "Identifier",
+            "name": "binding",
             "start": 1796,
-            "end": 1803,
-            "name": "binding"
+            "end": 1803
           },
-          "init": null
+          "init": null,
+          "start": 1796,
+          "end": 1803
         }
-      ]
+      ],
+      "start": 1792,
+      "end": 1804
     },
     {
       "type": "ForOfStatement",
-      "start": 1968,
-      "end": 2048,
       "await": true,
       "left": {
         "type": "Identifier",
+        "name": "binding",
         "start": 1979,
-        "end": 1986,
-        "name": "binding"
+        "end": 1986
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 1990,
-        "end": 2011,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 1991,
-            "end": 2010,
             "argument": {
               "type": "FunctionExpression",
-              "start": 1997,
-              "end": 2010,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 2008,
-                "end": 2010,
-                "body": []
+                "end": 2010
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 1997,
+              "end": 2010
+            },
+            "start": 1991,
+            "end": 2010
           }
-        ]
+        ],
+        "start": 1990,
+        "end": 2011
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2013,
-        "end": 2048,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2017,
-            "end": 2037,
             "expression": {
               "type": "AwaitExpression",
-              "start": 2017,
-              "end": 2036,
               "argument": {
                 "type": "FunctionExpression",
-                "start": 2023,
-                "end": 2036,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 2034,
-                  "end": 2036,
-                  "body": []
+                  "end": 2036
                 },
-                "expression": false
-              }
-            }
+                "expression": false,
+                "start": 2023,
+                "end": 2036
+              },
+              "start": 2017,
+              "end": 2036
+            },
+            "start": 2017,
+            "end": 2037
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 2040,
-            "end": 2046,
-            "label": null
+            "end": 2046
           }
-        ]
-      }
+        ],
+        "start": 2013,
+        "end": 2048
+      },
+      "start": 1968,
+      "end": 2048
     },
     {
       "type": "ForOfStatement",
-      "start": 2186,
-      "end": 2270,
       "await": true,
       "left": {
         "type": "VariableDeclaration",
-        "start": 2197,
-        "end": 2208,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2201,
-            "end": 2208,
             "id": {
               "type": "Identifier",
+              "name": "binding",
               "start": 2201,
-              "end": 2208,
-              "name": "binding"
+              "end": 2208
             },
-            "init": null
+            "init": null,
+            "start": 2201,
+            "end": 2208
           }
-        ]
+        ],
+        "start": 2197,
+        "end": 2208
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 2212,
-        "end": 2233,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 2213,
-            "end": 2232,
             "argument": {
               "type": "FunctionExpression",
-              "start": 2219,
-              "end": 2232,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 2230,
-                "end": 2232,
-                "body": []
+                "end": 2232
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 2219,
+              "end": 2232
+            },
+            "start": 2213,
+            "end": 2232
           }
-        ]
+        ],
+        "start": 2212,
+        "end": 2233
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2235,
-        "end": 2270,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2239,
-            "end": 2259,
             "expression": {
               "type": "AwaitExpression",
-              "start": 2239,
-              "end": 2258,
               "argument": {
                 "type": "FunctionExpression",
-                "start": 2245,
-                "end": 2258,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 2256,
-                  "end": 2258,
-                  "body": []
+                  "end": 2258
                 },
-                "expression": false
-              }
-            }
+                "expression": false,
+                "start": 2245,
+                "end": 2258
+              },
+              "start": 2239,
+              "end": 2258
+            },
+            "start": 2239,
+            "end": 2259
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 2262,
-            "end": 2268,
-            "label": null
+            "end": 2268
           }
-        ]
-      }
+        ],
+        "start": 2235,
+        "end": 2270
+      },
+      "start": 2186,
+      "end": 2270
     },
     {
       "type": "ForOfStatement",
-      "start": 2408,
-      "end": 2492,
       "await": true,
       "left": {
         "type": "VariableDeclaration",
-        "start": 2419,
-        "end": 2430,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 2423,
-            "end": 2430,
             "id": {
               "type": "Identifier",
+              "name": "binding",
               "start": 2423,
-              "end": 2430,
-              "name": "binding"
+              "end": 2430
             },
-            "init": null
+            "init": null,
+            "start": 2423,
+            "end": 2430
           }
-        ]
+        ],
+        "start": 2419,
+        "end": 2430
       },
       "right": {
         "type": "ArrayExpression",
-        "start": 2434,
-        "end": 2455,
         "elements": [
           {
             "type": "AwaitExpression",
-            "start": 2435,
-            "end": 2454,
             "argument": {
               "type": "FunctionExpression",
-              "start": 2441,
-              "end": 2454,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 2452,
-                "end": 2454,
-                "body": []
+                "end": 2454
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 2441,
+              "end": 2454
+            },
+            "start": 2435,
+            "end": 2454
           }
-        ]
+        ],
+        "start": 2434,
+        "end": 2455
       },
       "body": {
         "type": "BlockStatement",
-        "start": 2457,
-        "end": 2492,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 2461,
-            "end": 2481,
             "expression": {
               "type": "AwaitExpression",
-              "start": 2461,
-              "end": 2480,
               "argument": {
                 "type": "FunctionExpression",
-                "start": 2467,
-                "end": 2480,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 2478,
-                  "end": 2480,
-                  "body": []
+                  "end": 2480
                 },
-                "expression": false
-              }
-            }
+                "expression": false,
+                "start": 2467,
+                "end": 2480
+              },
+              "start": 2461,
+              "end": 2480
+            },
+            "start": 2461,
+            "end": 2481
           },
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 2484,
-            "end": 2490,
-            "label": null
+            "end": 2490
           }
-        ]
-      }
+        ],
+        "start": 2457,
+        "end": 2492
+      },
+      "start": 2408,
+      "end": 2492
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2493
 }

@@ -2,135 +2,129 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 213,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 122,
       "id": {
         "type": "Identifier",
-        "start": 8,
-        "end": 14,
         "decorators": [],
         "name": "global",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 8,
+        "end": 14
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 15,
-        "end": 122,
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "start": 21,
-            "end": 120,
             "id": {
               "type": "Identifier",
-              "start": 31,
-              "end": 34,
               "decorators": [],
               "name": "JSX",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 31,
+              "end": 34
             },
             "body": {
               "type": "TSModuleBlock",
-              "start": 35,
-              "end": 120,
               "body": [
                 {
                   "type": "TSInterfaceDeclaration",
-                  "start": 45,
-                  "end": 114,
                   "id": {
                     "type": "Identifier",
-                    "start": 55,
-                    "end": 72,
                     "decorators": [],
                     "name": "IntrinsicElements",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 55,
+                    "end": 72
                   },
                   "typeParameters": null,
                   "extends": [],
                   "body": {
                     "type": "TSInterfaceBody",
-                    "start": 73,
-                    "end": 114,
                     "body": [
                       {
                         "type": "TSIndexSignature",
-                        "start": 87,
-                        "end": 104,
                         "parameters": [
                           {
                             "type": "Identifier",
-                            "start": 88,
-                            "end": 97,
                             "decorators": [],
                             "name": "e",
                             "optional": false,
                             "typeAnnotation": {
                               "type": "TSTypeAnnotation",
-                              "start": 89,
-                              "end": 97,
                               "typeAnnotation": {
                                 "type": "TSStringKeyword",
                                 "start": 91,
                                 "end": 97
-                              }
-                            }
+                              },
+                              "start": 89,
+                              "end": 97
+                            },
+                            "start": 88,
+                            "end": 97
                           }
                         ],
                         "typeAnnotation": {
                           "type": "TSTypeAnnotation",
-                          "start": 98,
-                          "end": 103,
                           "typeAnnotation": {
                             "type": "TSAnyKeyword",
                             "start": 100,
                             "end": 103
-                          }
+                          },
+                          "start": 98,
+                          "end": 103
                         },
                         "readonly": false,
                         "static": false,
-                        "accessibility": null
+                        "accessibility": null,
+                        "start": 87,
+                        "end": 104
                       }
-                    ]
+                    ],
+                    "start": 73,
+                    "end": 114
                   },
-                  "declare": false
+                  "declare": false,
+                  "start": 45,
+                  "end": 114
                 }
-              ]
+              ],
+              "start": 35,
+              "end": 120
             },
             "kind": "namespace",
             "declare": false,
-            "global": false
+            "global": false,
+            "start": 21,
+            "end": 120
           }
-        ]
+        ],
+        "start": 15,
+        "end": 122
       },
       "kind": "global",
       "declare": true,
-      "global": true
+      "global": true,
+      "start": 0,
+      "end": 122
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 123,
-      "end": 149,
       "declaration": {
         "type": "TSDeclareFunction",
-        "start": 130,
-        "end": 149,
         "id": {
           "type": "Identifier",
-          "start": 139,
-          "end": 140,
           "decorators": [],
           "name": "h",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 139,
+          "end": 140
         },
         "generator": false,
         "async": false,
@@ -139,38 +133,38 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 142,
-          "end": 148,
           "typeAnnotation": {
             "type": "TSVoidKeyword",
             "start": 144,
             "end": 148
-          }
+          },
+          "start": 142,
+          "end": 148
         },
         "body": null,
-        "expression": false
+        "expression": false,
+        "start": 130,
+        "end": 149
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 123,
+      "end": 149
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 150,
-      "end": 178,
       "declaration": {
         "type": "TSDeclareFunction",
-        "start": 157,
-        "end": 178,
         "id": {
           "type": "Identifier",
-          "start": 166,
-          "end": 169,
           "decorators": [],
           "name": "jsx",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 166,
+          "end": 169
         },
         "generator": false,
         "async": false,
@@ -179,38 +173,38 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 171,
-          "end": 177,
           "typeAnnotation": {
             "type": "TSVoidKeyword",
             "start": 173,
             "end": 177
-          }
+          },
+          "start": 171,
+          "end": 177
         },
         "body": null,
-        "expression": false
+        "expression": false,
+        "start": 157,
+        "end": 178
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 150,
+      "end": 178
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 179,
-      "end": 212,
       "declaration": {
         "type": "TSDeclareFunction",
-        "start": 186,
-        "end": 212,
         "id": {
           "type": "Identifier",
-          "start": 195,
-          "end": 203,
           "decorators": [],
           "name": "Fragment",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 195,
+          "end": 203
         },
         "generator": false,
         "async": false,
@@ -219,107 +213,107 @@ __ESTREE_TEST__:PASS:
         "params": [],
         "returnType": {
           "type": "TSTypeAnnotation",
-          "start": 205,
-          "end": 211,
           "typeAnnotation": {
             "type": "TSVoidKeyword",
             "start": 207,
             "end": 211
-          }
+          },
+          "start": 205,
+          "end": 211
         },
         "body": null,
-        "expression": false
+        "expression": false,
+        "start": 186,
+        "end": 212
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 179,
+      "end": 212
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 213
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 39,
-  "end": 96,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 39,
-      "end": 78,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 47,
-          "end": 48,
           "imported": {
             "type": "Identifier",
-            "start": 47,
-            "end": 48,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 48
           },
           "local": {
             "type": "Identifier",
-            "start": 47,
-            "end": 48,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 48
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 47,
+          "end": 48
         },
         {
           "type": "ImportSpecifier",
-          "start": 50,
-          "end": 58,
           "imported": {
             "type": "Identifier",
-            "start": 50,
-            "end": 58,
             "decorators": [],
             "name": "Fragment",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 58
           },
           "local": {
             "type": "Identifier",
-            "start": 50,
-            "end": 58,
             "decorators": [],
             "name": "Fragment",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 58
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 50,
+          "end": 58
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 65,
-        "end": 77,
         "value": "./renderer",
-        "raw": "\"./renderer\""
+        "raw": "\"./renderer\"",
+        "start": 65,
+        "end": 77
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 39,
+      "end": 78
     },
     {
       "type": "ExpressionStatement",
-      "start": 79,
-      "end": 95,
       "expression": {
         "type": "JSXFragment",
-        "start": 79,
-        "end": 95,
         "openingFragment": {
           "type": "JSXOpeningFragment",
           "start": 79,
@@ -328,105 +322,105 @@ __ESTREE_TEST__:PASS:
         "children": [
           {
             "type": "JSXElement",
-            "start": 81,
-            "end": 92,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 81,
-              "end": 86,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "div",
                 "start": 82,
-                "end": 85,
-                "name": "div"
+                "end": 85
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 81,
+              "end": 86
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 86,
-              "end": 92,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "div",
                 "start": 88,
-                "end": 91,
-                "name": "div"
-              }
-            }
+                "end": 91
+              },
+              "start": 86,
+              "end": 92
+            },
+            "start": 81,
+            "end": 92
           }
         ],
         "closingFragment": {
           "type": "JSXClosingFragment",
           "start": 92,
           "end": 95
-        }
+        },
+        "start": 79,
+        "end": 95
       },
-      "directive": null
+      "directive": null,
+      "start": 79,
+      "end": 95
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 39,
+  "end": 96
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 35,
-  "end": 86,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 35,
-      "end": 66,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 43,
-          "end": 46,
           "imported": {
             "type": "Identifier",
-            "start": 43,
-            "end": 46,
             "decorators": [],
             "name": "jsx",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 46
           },
           "local": {
             "type": "Identifier",
-            "start": 43,
-            "end": 46,
             "decorators": [],
             "name": "jsx",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 46
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 43,
+          "end": 46
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 53,
-        "end": 65,
         "value": "./renderer",
-        "raw": "\"./renderer\""
+        "raw": "\"./renderer\"",
+        "start": 53,
+        "end": 65
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 35,
+      "end": 66
     },
     {
       "type": "ExpressionStatement",
-      "start": 67,
-      "end": 85,
       "expression": {
         "type": "JSXFragment",
-        "start": 67,
-        "end": 85,
         "openingFragment": {
           "type": "JSXOpeningFragment",
           "start": 67,
@@ -435,129 +429,129 @@ __ESTREE_TEST__:PASS:
         "children": [
           {
             "type": "JSXElement",
-            "start": 69,
-            "end": 82,
             "openingElement": {
               "type": "JSXOpeningElement",
-              "start": 69,
-              "end": 75,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "span",
                 "start": 70,
-                "end": 74,
-                "name": "span"
+                "end": 74
               },
               "typeArguments": null,
               "attributes": [],
-              "selfClosing": false
+              "selfClosing": false,
+              "start": 69,
+              "end": 75
             },
             "children": [],
             "closingElement": {
               "type": "JSXClosingElement",
-              "start": 75,
-              "end": 82,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "span",
                 "start": 77,
-                "end": 81,
-                "name": "span"
-              }
-            }
+                "end": 81
+              },
+              "start": 75,
+              "end": 82
+            },
+            "start": 69,
+            "end": 82
           }
         ],
         "closingFragment": {
           "type": "JSXClosingFragment",
           "start": 82,
           "end": 85
-        }
+        },
+        "start": 67,
+        "end": 85
       },
-      "directive": null
+      "directive": null,
+      "start": 67,
+      "end": 85
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 35,
+  "end": 86
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 39,
-  "end": 85,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 39,
-      "end": 78,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 47,
-          "end": 48,
           "imported": {
             "type": "Identifier",
-            "start": 47,
-            "end": 48,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 48
           },
           "local": {
             "type": "Identifier",
-            "start": 47,
-            "end": 48,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 48
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 47,
+          "end": 48
         },
         {
           "type": "ImportSpecifier",
-          "start": 50,
-          "end": 58,
           "imported": {
             "type": "Identifier",
-            "start": 50,
-            "end": 58,
             "decorators": [],
             "name": "Fragment",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 58
           },
           "local": {
             "type": "Identifier",
-            "start": 50,
-            "end": 58,
             "decorators": [],
             "name": "Fragment",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 58
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 50,
+          "end": 58
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 65,
-        "end": 77,
         "value": "./renderer",
-        "raw": "\"./renderer\""
+        "raw": "\"./renderer\"",
+        "start": 65,
+        "end": 77
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 39,
+      "end": 78
     },
     {
       "type": "ExpressionStatement",
-      "start": 79,
-      "end": 84,
       "expression": {
         "type": "JSXFragment",
-        "start": 79,
-        "end": 84,
         "openingFragment": {
           "type": "JSXOpeningFragment",
           "start": 79,
@@ -568,71 +562,71 @@ __ESTREE_TEST__:PASS:
           "type": "JSXClosingFragment",
           "start": 81,
           "end": 84
-        }
+        },
+        "start": 79,
+        "end": 84
       },
-      "directive": null
+      "directive": null,
+      "start": 79,
+      "end": 84
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 39,
+  "end": 85
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 35,
-  "end": 73,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 35,
-      "end": 66,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 43,
-          "end": 46,
           "imported": {
             "type": "Identifier",
-            "start": 43,
-            "end": 46,
             "decorators": [],
             "name": "jsx",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 46
           },
           "local": {
             "type": "Identifier",
-            "start": 43,
-            "end": 46,
             "decorators": [],
             "name": "jsx",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 46
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 43,
+          "end": 46
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 53,
-        "end": 65,
         "value": "./renderer",
-        "raw": "\"./renderer\""
+        "raw": "\"./renderer\"",
+        "start": 53,
+        "end": 65
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 35,
+      "end": 66
     },
     {
       "type": "ExpressionStatement",
-      "start": 67,
-      "end": 72,
       "expression": {
         "type": "JSXFragment",
-        "start": 67,
-        "end": 72,
         "openingFragment": {
           "type": "JSXOpeningFragment",
           "start": 67,
@@ -643,71 +637,71 @@ __ESTREE_TEST__:PASS:
           "type": "JSXClosingFragment",
           "start": 69,
           "end": 72
-        }
+        },
+        "start": 67,
+        "end": 72
       },
-      "directive": null
+      "directive": null,
+      "start": 67,
+      "end": 72
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 35,
+  "end": 73
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 39,
-  "end": 82,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 39,
-      "end": 75,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 47,
-          "end": 55,
           "imported": {
             "type": "Identifier",
-            "start": 47,
-            "end": 55,
             "decorators": [],
             "name": "Fragment",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 55
           },
           "local": {
             "type": "Identifier",
-            "start": 47,
-            "end": 55,
             "decorators": [],
             "name": "Fragment",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 55
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 47,
+          "end": 55
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 62,
-        "end": 74,
         "value": "./renderer",
-        "raw": "\"./renderer\""
+        "raw": "\"./renderer\"",
+        "start": 62,
+        "end": 74
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 39,
+      "end": 75
     },
     {
       "type": "ExpressionStatement",
-      "start": 76,
-      "end": 81,
       "expression": {
         "type": "JSXFragment",
-        "start": 76,
-        "end": 81,
         "openingFragment": {
           "type": "JSXOpeningFragment",
           "start": 76,
@@ -718,46 +712,46 @@ __ESTREE_TEST__:PASS:
           "type": "JSXClosingFragment",
           "start": 78,
           "end": 81
-        }
+        },
+        "start": 76,
+        "end": 81
       },
-      "directive": null
+      "directive": null,
+      "start": 76,
+      "end": 81
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 39,
+  "end": 82
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 35,
-  "end": 70,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 35,
-      "end": 63,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 50,
-        "end": 62,
         "value": "./renderer",
-        "raw": "\"./renderer\""
+        "raw": "\"./renderer\"",
+        "start": 50,
+        "end": 62
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 35,
+      "end": 63
     },
     {
       "type": "ExpressionStatement",
-      "start": 64,
-      "end": 69,
       "expression": {
         "type": "JSXFragment",
-        "start": 64,
-        "end": 69,
         "openingFragment": {
           "type": "JSXOpeningFragment",
           "start": 64,
@@ -768,279 +762,281 @@ __ESTREE_TEST__:PASS:
           "type": "JSXClosingFragment",
           "start": 66,
           "end": 69
-        }
+        },
+        "start": 64,
+        "end": 69
       },
-      "directive": null
+      "directive": null,
+      "start": 64,
+      "end": 69
     }
   ],
   "sourceType": "module",
-  "hashbang": null
-}
-```
-__ESTREE_TEST__:PASS:
-```json
-{
-  "type": "Program",
-  "start": 39,
-  "end": 91,
-  "body": [
-    {
-      "type": "ImportDeclaration",
-      "start": 39,
-      "end": 78,
-      "specifiers": [
-        {
-          "type": "ImportSpecifier",
-          "start": 47,
-          "end": 48,
-          "imported": {
-            "type": "Identifier",
-            "start": 47,
-            "end": 48,
-            "decorators": [],
-            "name": "h",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "local": {
-            "type": "Identifier",
-            "start": 47,
-            "end": 48,
-            "decorators": [],
-            "name": "h",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "importKind": "value"
-        },
-        {
-          "type": "ImportSpecifier",
-          "start": 50,
-          "end": 58,
-          "imported": {
-            "type": "Identifier",
-            "start": 50,
-            "end": 58,
-            "decorators": [],
-            "name": "Fragment",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "local": {
-            "type": "Identifier",
-            "start": 50,
-            "end": 58,
-            "decorators": [],
-            "name": "Fragment",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "importKind": "value"
-        }
-      ],
-      "source": {
-        "type": "Literal",
-        "start": 65,
-        "end": 77,
-        "value": "./renderer",
-        "raw": "\"./renderer\""
-      },
-      "phase": null,
-      "attributes": [],
-      "importKind": "value"
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 79,
-      "end": 90,
-      "expression": {
-        "type": "JSXElement",
-        "start": 79,
-        "end": 90,
-        "openingElement": {
-          "type": "JSXOpeningElement",
-          "start": 79,
-          "end": 84,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 80,
-            "end": 83,
-            "name": "div"
-          },
-          "typeArguments": null,
-          "attributes": [],
-          "selfClosing": false
-        },
-        "children": [],
-        "closingElement": {
-          "type": "JSXClosingElement",
-          "start": 84,
-          "end": 90,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 86,
-            "end": 89,
-            "name": "div"
-          }
-        }
-      },
-      "directive": null
-    }
-  ],
-  "sourceType": "module",
-  "hashbang": null
-}
-```
-__ESTREE_TEST__:PASS:
-```json
-{
-  "type": "Program",
+  "hashbang": null,
   "start": 35,
-  "end": 79,
-  "body": [
-    {
-      "type": "ImportDeclaration",
-      "start": 35,
-      "end": 66,
-      "specifiers": [
-        {
-          "type": "ImportSpecifier",
-          "start": 43,
-          "end": 46,
-          "imported": {
-            "type": "Identifier",
-            "start": 43,
-            "end": 46,
-            "decorators": [],
-            "name": "jsx",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "local": {
-            "type": "Identifier",
-            "start": 43,
-            "end": 46,
-            "decorators": [],
-            "name": "jsx",
-            "optional": false,
-            "typeAnnotation": null
-          },
-          "importKind": "value"
-        }
-      ],
-      "source": {
-        "type": "Literal",
-        "start": 53,
-        "end": 65,
-        "value": "./renderer",
-        "raw": "\"./renderer\""
-      },
-      "phase": null,
-      "attributes": [],
-      "importKind": "value"
-    },
-    {
-      "type": "ExpressionStatement",
-      "start": 67,
-      "end": 78,
-      "expression": {
-        "type": "JSXElement",
-        "start": 67,
-        "end": 78,
-        "openingElement": {
-          "type": "JSXOpeningElement",
-          "start": 67,
-          "end": 72,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 68,
-            "end": 71,
-            "name": "div"
-          },
-          "typeArguments": null,
-          "attributes": [],
-          "selfClosing": false
-        },
-        "children": [],
-        "closingElement": {
-          "type": "JSXClosingElement",
-          "start": 72,
-          "end": 78,
-          "name": {
-            "type": "JSXIdentifier",
-            "start": 74,
-            "end": 77,
-            "name": "div"
-          }
-        }
-      },
-      "directive": null
-    }
-  ],
-  "sourceType": "module",
-  "hashbang": null
+  "end": 70
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 18,
-  "end": 99,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 18,
-      "end": 47,
       "specifiers": [
         {
           "type": "ImportSpecifier",
-          "start": 26,
-          "end": 27,
           "imported": {
             "type": "Identifier",
-            "start": 26,
-            "end": 27,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 48
           },
           "local": {
             "type": "Identifier",
-            "start": 26,
-            "end": 27,
             "decorators": [],
             "name": "h",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 47,
+            "end": 48
           },
-          "importKind": "value"
+          "importKind": "value",
+          "start": 47,
+          "end": 48
+        },
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "Fragment",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 58
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "Fragment",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 50,
+            "end": 58
+          },
+          "importKind": "value",
+          "start": 50,
+          "end": 58
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 34,
-        "end": 46,
         "value": "./renderer",
-        "raw": "\"./renderer\""
+        "raw": "\"./renderer\"",
+        "start": 65,
+        "end": 77
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 39,
+      "end": 78
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "JSXElement",
+        "openingElement": {
+          "type": "JSXOpeningElement",
+          "name": {
+            "type": "JSXIdentifier",
+            "name": "div",
+            "start": 80,
+            "end": 83
+          },
+          "typeArguments": null,
+          "attributes": [],
+          "selfClosing": false,
+          "start": 79,
+          "end": 84
+        },
+        "children": [],
+        "closingElement": {
+          "type": "JSXClosingElement",
+          "name": {
+            "type": "JSXIdentifier",
+            "name": "div",
+            "start": 86,
+            "end": 89
+          },
+          "start": 84,
+          "end": 90
+        },
+        "start": 79,
+        "end": 90
+      },
+      "directive": null,
+      "start": 79,
+      "end": 90
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 39,
+  "end": 91
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "jsx",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 46
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "jsx",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 46
+          },
+          "importKind": "value",
+          "start": 43,
+          "end": 46
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./renderer",
+        "raw": "\"./renderer\"",
+        "start": 53,
+        "end": 65
+      },
+      "phase": null,
+      "attributes": [],
+      "importKind": "value",
+      "start": 35,
+      "end": 66
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "JSXElement",
+        "openingElement": {
+          "type": "JSXOpeningElement",
+          "name": {
+            "type": "JSXIdentifier",
+            "name": "div",
+            "start": 68,
+            "end": 71
+          },
+          "typeArguments": null,
+          "attributes": [],
+          "selfClosing": false,
+          "start": 67,
+          "end": 72
+        },
+        "children": [],
+        "closingElement": {
+          "type": "JSXClosingElement",
+          "name": {
+            "type": "JSXIdentifier",
+            "name": "div",
+            "start": 74,
+            "end": 77
+          },
+          "start": 72,
+          "end": 78
+        },
+        "start": 67,
+        "end": 78
+      },
+      "directive": null,
+      "start": 67,
+      "end": 78
+    }
+  ],
+  "sourceType": "module",
+  "hashbang": null,
+  "start": 35,
+  "end": 79
+}
+```
+__ESTREE_TEST__:PASS:
+```json
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "imported": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "h",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 26,
+            "end": 27
+          },
+          "local": {
+            "type": "Identifier",
+            "decorators": [],
+            "name": "h",
+            "optional": false,
+            "typeAnnotation": null,
+            "start": 26,
+            "end": 27
+          },
+          "importKind": "value",
+          "start": 26,
+          "end": 27
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./renderer",
+        "raw": "\"./renderer\"",
+        "start": 34,
+        "end": 46
+      },
+      "phase": null,
+      "attributes": [],
+      "importKind": "value",
+      "start": 18,
+      "end": 47
     },
     {
       "type": "FunctionDeclaration",
-      "start": 48,
-      "end": 85,
       "id": {
         "type": "Identifier",
-        "start": 57,
-        "end": 66,
         "decorators": [],
         "name": "Component",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 57,
+        "end": 66
       },
       "generator": false,
       "async": false,
@@ -1050,54 +1046,58 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 69,
-        "end": 85,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 71,
-            "end": 83,
             "argument": {
               "type": "Literal",
-              "start": 78,
-              "end": 82,
               "value": null,
-              "raw": "null"
-            }
+              "raw": "null",
+              "start": 78,
+              "end": 82
+            },
+            "start": 71,
+            "end": 83
           }
-        ]
+        ],
+        "start": 69,
+        "end": 85
       },
-      "expression": false
+      "expression": false,
+      "start": 48,
+      "end": 85
     },
     {
       "type": "ExpressionStatement",
-      "start": 86,
-      "end": 99,
       "expression": {
         "type": "JSXElement",
-        "start": 86,
-        "end": 99,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 86,
-          "end": 99,
           "name": {
             "type": "JSXIdentifier",
+            "name": "Component",
             "start": 87,
-            "end": 96,
-            "name": "Component"
+            "end": 96
           },
           "typeArguments": null,
           "attributes": [],
-          "selfClosing": true
+          "selfClosing": true,
+          "start": 86,
+          "end": 99
         },
         "children": [],
-        "closingElement": null
+        "closingElement": null,
+        "start": 86,
+        "end": 99
       },
-      "directive": null
+      "directive": null,
+      "start": 86,
+      "end": 99
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 18,
+  "end": 99
 }
 ```

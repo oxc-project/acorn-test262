@@ -2,49 +2,49 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
   "body": [
     {
       "type": "TSImportEqualsDeclaration",
-      "start": 0,
-      "end": 50,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 17,
         "decorators": [],
         "name": "TypeScript",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 17
       },
       "moduleReference": {
         "type": "TSQualifiedName",
-        "start": 20,
-        "end": 49,
         "left": {
           "type": "Identifier",
-          "start": 20,
-          "end": 38,
           "decorators": [],
           "name": "TypeScriptServices",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 20,
+          "end": 38
         },
         "right": {
           "type": "Identifier",
-          "start": 39,
-          "end": 49,
           "decorators": [],
           "name": "TypeScript",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 39,
+          "end": 49
+        },
+        "start": 20,
+        "end": 49
       },
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 50
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 50
 }
 ```

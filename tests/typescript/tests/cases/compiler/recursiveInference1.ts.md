@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 92,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 71,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "fib",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -25,211 +21,215 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 13,
-          "end": 21,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 14,
-            "end": 21,
             "typeAnnotation": {
               "type": "TSNumberKeyword",
               "start": 15,
               "end": 21
-            }
-          }
+            },
+            "start": 14,
+            "end": 21
+          },
+          "start": 13,
+          "end": 21
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 23,
-        "end": 71,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 25,
-            "end": 69,
             "argument": {
               "type": "ConditionalExpression",
-              "start": 32,
-              "end": 68,
               "test": {
                 "type": "BinaryExpression",
-                "start": 32,
-                "end": 38,
                 "left": {
                   "type": "Identifier",
-                  "start": 32,
-                  "end": 33,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 32,
+                  "end": 33
                 },
                 "operator": "<=",
                 "right": {
                   "type": "Literal",
-                  "start": 37,
-                  "end": 38,
                   "value": 1,
-                  "raw": "1"
-                }
+                  "raw": "1",
+                  "start": 37,
+                  "end": 38
+                },
+                "start": 32,
+                "end": 38
               },
               "consequent": {
                 "type": "Identifier",
-                "start": 41,
-                "end": 42,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 41,
+                "end": 42
               },
               "alternate": {
                 "type": "BinaryExpression",
-                "start": 45,
-                "end": 68,
                 "left": {
                   "type": "CallExpression",
-                  "start": 45,
-                  "end": 55,
                   "callee": {
                     "type": "Identifier",
-                    "start": 45,
-                    "end": 48,
                     "decorators": [],
                     "name": "fib",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 45,
+                    "end": 48
                   },
                   "typeArguments": null,
                   "arguments": [
                     {
                       "type": "BinaryExpression",
-                      "start": 49,
-                      "end": 54,
                       "left": {
                         "type": "Identifier",
-                        "start": 49,
-                        "end": 50,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 49,
+                        "end": 50
                       },
                       "operator": "-",
                       "right": {
                         "type": "Literal",
-                        "start": 53,
-                        "end": 54,
                         "value": 1,
-                        "raw": "1"
-                      }
+                        "raw": "1",
+                        "start": 53,
+                        "end": 54
+                      },
+                      "start": 49,
+                      "end": 54
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 45,
+                  "end": 55
                 },
                 "operator": "+",
                 "right": {
                   "type": "CallExpression",
-                  "start": 58,
-                  "end": 68,
                   "callee": {
                     "type": "Identifier",
-                    "start": 58,
-                    "end": 61,
                     "decorators": [],
                     "name": "fib",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 58,
+                    "end": 61
                   },
                   "typeArguments": null,
                   "arguments": [
                     {
                       "type": "BinaryExpression",
-                      "start": 62,
-                      "end": 67,
                       "left": {
                         "type": "Identifier",
-                        "start": 62,
-                        "end": 63,
                         "decorators": [],
                         "name": "x",
                         "optional": false,
-                        "typeAnnotation": null
+                        "typeAnnotation": null,
+                        "start": 62,
+                        "end": 63
                       },
                       "operator": "-",
                       "right": {
                         "type": "Literal",
-                        "start": 66,
-                        "end": 67,
                         "value": 2,
-                        "raw": "2"
-                      }
+                        "raw": "2",
+                        "start": 66,
+                        "end": 67
+                      },
+                      "start": 62,
+                      "end": 67
                     }
                   ],
-                  "optional": false
-                }
-              }
-            }
+                  "optional": false,
+                  "start": 58,
+                  "end": 68
+                },
+                "start": 45,
+                "end": 68
+              },
+              "start": 32,
+              "end": 68
+            },
+            "start": 25,
+            "end": 69
           }
-        ]
+        ],
+        "start": 23,
+        "end": 71
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 71
     },
     {
       "type": "VariableDeclaration",
-      "start": 72,
-      "end": 92,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 76,
-          "end": 91,
           "id": {
             "type": "Identifier",
-            "start": 76,
-            "end": 82,
             "decorators": [],
             "name": "result",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 76,
+            "end": 82
           },
           "init": {
             "type": "CallExpression",
-            "start": 85,
-            "end": 91,
             "callee": {
               "type": "Identifier",
-              "start": 85,
-              "end": 88,
               "decorators": [],
               "name": "fib",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 85,
+              "end": 88
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "Literal",
-                "start": 89,
-                "end": 90,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "start": 89,
+                "end": 90
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 85,
+            "end": 91
           },
-          "definite": false
+          "definite": false,
+          "start": 76,
+          "end": 91
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 72,
+      "end": 92
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 92
 }
 ```

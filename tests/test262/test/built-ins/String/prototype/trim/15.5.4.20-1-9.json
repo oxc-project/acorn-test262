@@ -1,119 +1,119 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 366,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 266,
-      "end": 301,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 270,
-          "end": 300,
           "id": {
             "type": "Identifier",
+            "name": "strObj",
             "start": 270,
-            "end": 276,
-            "name": "strObj"
+            "end": 276
           },
           "init": {
             "type": "NewExpression",
-            "start": 279,
-            "end": 300,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 283,
-              "end": 289,
-              "name": "String"
+              "end": 289
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 290,
-                "end": 299,
-                "name": "undefined"
+                "end": 299
               }
-            ]
-          }
+            ],
+            "start": 279,
+            "end": 300
+          },
+          "start": 270,
+          "end": 300
         }
-      ]
+      ],
+      "start": 266,
+      "end": 301
     },
     {
       "type": "ExpressionStatement",
-      "start": 303,
-      "end": 365,
       "expression": {
         "type": "CallExpression",
-        "start": 303,
-        "end": 364,
         "callee": {
           "type": "MemberExpression",
-          "start": 303,
-          "end": 319,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 303,
-            "end": 309,
-            "name": "assert"
+            "end": 309
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 310,
-            "end": 319,
-            "name": "sameValue"
+            "end": 319
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 303,
+          "end": 319
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 320,
-            "end": 333,
             "callee": {
               "type": "MemberExpression",
-              "start": 320,
-              "end": 331,
               "object": {
                 "type": "Identifier",
+                "name": "strObj",
                 "start": 320,
-                "end": 326,
-                "name": "strObj"
+                "end": 326
               },
               "property": {
                 "type": "Identifier",
+                "name": "trim",
                 "start": 327,
-                "end": 331,
-                "name": "trim"
+                "end": 331
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 320,
+              "end": 331
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 320,
+            "end": 333
           },
           {
             "type": "Literal",
-            "start": 335,
-            "end": 346,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 335,
+            "end": 346
           },
           {
             "type": "Literal",
-            "start": 348,
-            "end": 363,
             "value": "strObj.trim()",
-            "raw": "'strObj.trim()'"
+            "raw": "'strObj.trim()'",
+            "start": 348,
+            "end": 363
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 303,
+        "end": 364
+      },
+      "start": 303,
+      "end": 365
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 366
 }

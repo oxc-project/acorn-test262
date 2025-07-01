@@ -1,185 +1,185 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 551,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 391,
-      "end": 403,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 395,
-          "end": 398,
           "id": {
             "type": "Identifier",
+            "name": "a",
             "start": 395,
-            "end": 396,
-            "name": "a"
+            "end": 396
           },
           "init": {
             "type": "Literal",
-            "start": 397,
-            "end": 398,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 397,
+            "end": 398
+          },
+          "start": 395,
+          "end": 398
         },
         {
           "type": "VariableDeclarator",
-          "start": 399,
-          "end": 402,
           "id": {
             "type": "Identifier",
+            "name": "b",
             "start": 399,
-            "end": 400,
-            "name": "b"
+            "end": 400
           },
           "init": {
             "type": "Literal",
-            "start": 401,
-            "end": 402,
             "value": 2,
-            "raw": "2"
-          }
+            "raw": "2",
+            "start": 401,
+            "end": 402
+          },
+          "start": 399,
+          "end": 402
         }
-      ]
+      ],
+      "start": 391,
+      "end": 403
     },
     {
       "type": "FunctionDeclaration",
-      "start": 404,
-      "end": 435,
       "id": {
         "type": "Identifier",
+        "name": "test",
         "start": 413,
-        "end": 417,
-        "name": "test"
+        "end": 417
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 419,
-        "end": 435,
         "body": [
           {
             "type": "ReturnStatement",
+            "argument": null,
             "start": 422,
-            "end": 428,
-            "argument": null
+            "end": 428
           },
           {
             "type": "ExpressionStatement",
-            "start": 430,
-            "end": 433,
             "expression": {
               "type": "BinaryExpression",
-              "start": 430,
-              "end": 433,
               "left": {
                 "type": "Identifier",
+                "name": "a",
                 "start": 430,
-                "end": 431,
-                "name": "a"
+                "end": 431
               },
               "operator": "+",
               "right": {
                 "type": "Identifier",
+                "name": "b",
                 "start": 432,
-                "end": 433,
-                "name": "b"
-              }
-            }
+                "end": 433
+              },
+              "start": 430,
+              "end": 433
+            },
+            "start": 430,
+            "end": 433
           }
-        ]
+        ],
+        "start": 419,
+        "end": 435
       },
-      "expression": false
+      "expression": false,
+      "start": 404,
+      "end": 435
     },
     {
       "type": "VariableDeclaration",
-      "start": 436,
-      "end": 449,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 440,
-          "end": 448,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 440,
-            "end": 441,
-            "name": "x"
+            "end": 441
           },
           "init": {
             "type": "CallExpression",
-            "start": 442,
-            "end": 448,
             "callee": {
               "type": "Identifier",
+              "name": "test",
               "start": 442,
-              "end": 446,
-              "name": "test"
+              "end": 446
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 442,
+            "end": 448
+          },
+          "start": 440,
+          "end": 448
         }
-      ]
+      ],
+      "start": 436,
+      "end": 449
     },
     {
       "type": "IfStatement",
-      "start": 450,
-      "end": 550,
       "test": {
         "type": "BinaryExpression",
-        "start": 454,
-        "end": 467,
         "left": {
           "type": "Identifier",
+          "name": "x",
           "start": 454,
-          "end": 455,
-          "name": "x"
+          "end": 455
         },
         "operator": "!==",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 458,
-          "end": 467,
-          "name": "undefined"
-        }
+          "end": 467
+        },
+        "start": 454,
+        "end": 467
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 469,
-        "end": 550,
         "argument": {
           "type": "NewExpression",
-          "start": 475,
-          "end": 549,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 479,
-            "end": 491,
-            "name": "Test262Error"
+            "end": 491
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 492,
-              "end": 548,
               "value": "#1: Automatic semicolon insertion not work with return",
-              "raw": "'#1: Automatic semicolon insertion not work with return'"
+              "raw": "'#1: Automatic semicolon insertion not work with return'",
+              "start": 492,
+              "end": 548
             }
-          ]
-        }
+          ],
+          "start": 475,
+          "end": 549
+        },
+        "start": 469,
+        "end": 550
       },
-      "alternate": null
+      "alternate": null,
+      "start": 450,
+      "end": 550
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 551
 }

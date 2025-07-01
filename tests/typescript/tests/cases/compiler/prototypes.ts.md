@@ -2,90 +2,86 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 85,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 17,
       "expression": {
         "type": "MemberExpression",
-        "start": 0,
-        "end": 16,
         "object": {
           "type": "Identifier",
-          "start": 0,
-          "end": 6,
           "decorators": [],
           "name": "Object",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 6
         },
         "property": {
           "type": "Identifier",
-          "start": 7,
-          "end": 16,
           "decorators": [],
           "name": "prototype",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 7,
+          "end": 16
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 0,
+        "end": 16
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "ExpressionStatement",
-      "start": 24,
-      "end": 47,
       "expression": {
         "type": "MemberExpression",
-        "start": 24,
-        "end": 46,
         "object": {
           "type": "NewExpression",
-          "start": 24,
-          "end": 36,
           "callee": {
             "type": "Identifier",
-            "start": 28,
-            "end": 34,
             "decorators": [],
             "name": "Object",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 28,
+            "end": 34
           },
           "typeArguments": null,
-          "arguments": []
+          "arguments": [],
+          "start": 24,
+          "end": 36
         },
         "property": {
           "type": "Identifier",
-          "start": 37,
-          "end": 46,
           "decorators": [],
           "name": "prototype",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 37,
+          "end": 46
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 24,
+        "end": 46
       },
-      "directive": null
+      "directive": null,
+      "start": 24,
+      "end": 47
     },
     {
       "type": "FunctionDeclaration",
-      "start": 57,
-      "end": 72,
       "id": {
         "type": "Identifier",
-        "start": 66,
-        "end": 67,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 66,
+        "end": 67
       },
       "generator": false,
       "async": false,
@@ -95,45 +91,49 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 70,
-        "end": 72,
-        "body": []
+        "end": 72
       },
-      "expression": false
+      "expression": false,
+      "start": 57,
+      "end": 72
     },
     {
       "type": "ExpressionStatement",
-      "start": 73,
-      "end": 85,
       "expression": {
         "type": "MemberExpression",
-        "start": 73,
-        "end": 84,
         "object": {
           "type": "Identifier",
-          "start": 73,
-          "end": 74,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 73,
+          "end": 74
         },
         "property": {
           "type": "Identifier",
-          "start": 75,
-          "end": 84,
           "decorators": [],
           "name": "prototype",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 75,
+          "end": 84
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 73,
+        "end": 84
       },
-      "directive": null
+      "directive": null,
+      "start": 73,
+      "end": 85
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 85
 }
 ```

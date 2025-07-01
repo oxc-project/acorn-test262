@@ -2,105 +2,105 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 212,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 212,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 19,
         "decorators": [],
         "name": "test",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 19
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 20,
-        "end": 212,
         "body": [
           {
             "type": "TSInterfaceDeclaration",
-            "start": 26,
-            "end": 49,
             "id": {
               "type": "Identifier",
-              "start": 36,
-              "end": 45,
               "decorators": [],
               "name": "mi_string",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 45
             },
             "typeParameters": null,
             "extends": [],
             "body": {
               "type": "TSInterfaceBody",
+              "body": [],
               "start": 46,
-              "end": 49,
-              "body": []
+              "end": 49
             },
-            "declare": false
+            "declare": false,
+            "start": 26,
+            "end": 49
           },
           {
             "type": "TSModuleDeclaration",
-            "start": 54,
-            "end": 74,
             "id": {
               "type": "Identifier",
-              "start": 61,
-              "end": 70,
               "decorators": [],
               "name": "mi_string",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 61,
+              "end": 70
             },
             "body": {
               "type": "TSModuleBlock",
+              "body": [],
               "start": 71,
-              "end": 74,
-              "body": []
+              "end": 74
             },
             "kind": "module",
             "declare": false,
-            "global": false
+            "global": false,
+            "start": 54,
+            "end": 74
           },
           {
             "type": "TSImportEqualsDeclaration",
-            "start": 184,
-            "end": 210,
             "id": {
               "type": "Identifier",
-              "start": 191,
-              "end": 197,
               "decorators": [],
               "name": "string",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 191,
+              "end": 197
             },
             "moduleReference": {
               "type": "Identifier",
-              "start": 200,
-              "end": 209,
               "decorators": [],
               "name": "mi_string",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 200,
+              "end": 209
             },
-            "importKind": "value"
+            "importKind": "value",
+            "start": 184,
+            "end": 210
           }
-        ]
+        ],
+        "start": 20,
+        "end": 212
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 212
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 212
 }
 ```

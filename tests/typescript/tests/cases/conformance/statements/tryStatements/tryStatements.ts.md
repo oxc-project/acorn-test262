@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 296,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 296,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 11,
         "decorators": [],
         "name": "fn",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 11
       },
       "generator": false,
       "async": false,
@@ -26,288 +22,292 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 14,
-        "end": 296,
         "body": [
           {
             "type": "TryStatement",
-            "start": 20,
-            "end": 37,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 24,
-              "end": 27,
-              "body": []
+              "end": 27
             },
             "handler": {
               "type": "CatchClause",
-              "start": 28,
-              "end": 37,
               "param": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 34,
-                "end": 37,
-                "body": []
-              }
+                "end": 37
+              },
+              "start": 28,
+              "end": 37
             },
-            "finalizer": null
+            "finalizer": null,
+            "start": 20,
+            "end": 37
           },
           {
             "type": "TryStatement",
-            "start": 43,
-            "end": 156,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 47,
-              "end": 50,
-              "body": []
+              "end": 50
             },
             "handler": {
               "type": "CatchClause",
-              "start": 51,
-              "end": 156,
               "param": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 57,
-                "end": 156,
                 "body": [
                   {
                     "type": "TryStatement",
-                    "start": 68,
-                    "end": 124,
                     "block": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 72,
-                      "end": 75,
-                      "body": []
+                      "end": 75
                     },
                     "handler": {
                       "type": "CatchClause",
-                      "start": 76,
-                      "end": 124,
                       "param": null,
                       "body": {
                         "type": "BlockStatement",
-                        "start": 82,
-                        "end": 124,
                         "body": [
                           {
                             "type": "TryStatement",
-                            "start": 97,
-                            "end": 114,
                             "block": {
                               "type": "BlockStatement",
+                              "body": [],
                               "start": 101,
-                              "end": 104,
-                              "body": []
+                              "end": 104
                             },
                             "handler": {
                               "type": "CatchClause",
-                              "start": 105,
-                              "end": 114,
                               "param": null,
                               "body": {
                                 "type": "BlockStatement",
+                                "body": [],
                                 "start": 111,
-                                "end": 114,
-                                "body": []
-                              }
+                                "end": 114
+                              },
+                              "start": 105,
+                              "end": 114
                             },
-                            "finalizer": null
+                            "finalizer": null,
+                            "start": 97,
+                            "end": 114
                           }
-                        ]
-                      }
+                        ],
+                        "start": 82,
+                        "end": 124
+                      },
+                      "start": 76,
+                      "end": 124
                     },
-                    "finalizer": null
+                    "finalizer": null,
+                    "start": 68,
+                    "end": 124
                   },
                   {
                     "type": "TryStatement",
-                    "start": 133,
-                    "end": 150,
                     "block": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 137,
-                      "end": 140,
-                      "body": []
+                      "end": 140
                     },
                     "handler": {
                       "type": "CatchClause",
-                      "start": 141,
-                      "end": 150,
                       "param": null,
                       "body": {
                         "type": "BlockStatement",
+                        "body": [],
                         "start": 147,
-                        "end": 150,
-                        "body": []
-                      }
+                        "end": 150
+                      },
+                      "start": 141,
+                      "end": 150
                     },
-                    "finalizer": null
+                    "finalizer": null,
+                    "start": 133,
+                    "end": 150
                   }
-                ]
-              }
+                ],
+                "start": 57,
+                "end": 156
+              },
+              "start": 51,
+              "end": 156
             },
-            "finalizer": null
+            "finalizer": null,
+            "start": 43,
+            "end": 156
           },
           {
             "type": "TryStatement",
-            "start": 162,
-            "end": 195,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 166,
-              "end": 169,
-              "body": []
+              "end": 169
             },
             "handler": {
               "type": "CatchClause",
-              "start": 170,
-              "end": 195,
               "param": {
                 "type": "Identifier",
-                "start": 177,
-                "end": 178,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 177,
+                "end": 178
               },
               "body": {
                 "type": "BlockStatement",
-                "start": 180,
-                "end": 195,
                 "body": [
                   {
                     "type": "VariableDeclaration",
-                    "start": 182,
-                    "end": 193,
                     "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
-                        "start": 186,
-                        "end": 192,
                         "id": {
                           "type": "Identifier",
-                          "start": 186,
-                          "end": 192,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
                           "typeAnnotation": {
                             "type": "TSTypeAnnotation",
-                            "start": 187,
-                            "end": 192,
                             "typeAnnotation": {
                               "type": "TSAnyKeyword",
                               "start": 189,
                               "end": 192
-                            }
-                          }
+                            },
+                            "start": 187,
+                            "end": 192
+                          },
+                          "start": 186,
+                          "end": 192
                         },
                         "init": null,
-                        "definite": false
+                        "definite": false,
+                        "start": 186,
+                        "end": 192
                       }
                     ],
-                    "declare": false
+                    "declare": false,
+                    "start": 182,
+                    "end": 193
                   }
-                ]
-              }
+                ],
+                "start": 180,
+                "end": 195
+              },
+              "start": 170,
+              "end": 195
             },
-            "finalizer": null
+            "finalizer": null,
+            "start": 162,
+            "end": 195
           },
           {
             "type": "TryStatement",
-            "start": 201,
-            "end": 220,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 205,
-              "end": 208,
-              "body": []
+              "end": 208
             },
             "handler": null,
             "finalizer": {
               "type": "BlockStatement",
+              "body": [],
               "start": 217,
-              "end": 220,
-              "body": []
-            }
+              "end": 220
+            },
+            "start": 201,
+            "end": 220
           },
           {
             "type": "TryStatement",
-            "start": 226,
-            "end": 255,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 230,
-              "end": 233,
-              "body": []
+              "end": 233
             },
             "handler": {
               "type": "CatchClause",
-              "start": 234,
-              "end": 243,
               "param": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 240,
-                "end": 243,
-                "body": []
-              }
+                "end": 243
+              },
+              "start": 234,
+              "end": 243
             },
             "finalizer": {
               "type": "BlockStatement",
+              "body": [],
               "start": 252,
-              "end": 255,
-              "body": []
-            }
+              "end": 255
+            },
+            "start": 226,
+            "end": 255
           },
           {
             "type": "TryStatement",
-            "start": 261,
-            "end": 294,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 265,
-              "end": 268,
-              "body": []
+              "end": 268
             },
             "handler": {
               "type": "CatchClause",
-              "start": 269,
-              "end": 282,
               "param": {
                 "type": "Identifier",
-                "start": 276,
-                "end": 277,
                 "decorators": [],
                 "name": "z",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 276,
+                "end": 277
               },
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 279,
-                "end": 282,
-                "body": []
-              }
+                "end": 282
+              },
+              "start": 269,
+              "end": 282
             },
             "finalizer": {
               "type": "BlockStatement",
+              "body": [],
               "start": 291,
-              "end": 294,
-              "body": []
-            }
+              "end": 294
+            },
+            "start": 261,
+            "end": 294
           }
-        ]
+        ],
+        "start": 14,
+        "end": 296
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 296
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 296
 }
 ```

@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 483,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 265,
-      "end": 372,
       "expression": {
         "type": "CallExpression",
-        "start": 265,
-        "end": 371,
         "callee": {
           "type": "MemberExpression",
-          "start": 265,
-          "end": 284,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 265,
-            "end": 271,
-            "name": "assert"
+            "end": 271
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 272,
-            "end": 284,
-            "name": "compareArray"
+            "end": 284
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 265,
+          "end": 284
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 285,
-            "end": 316,
             "callee": {
               "type": "MemberExpression",
-              "start": 285,
-              "end": 310,
               "object": {
                 "type": "MemberExpression",
-                "start": 285,
-                "end": 305,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 285,
-                  "end": 300,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 285,
-                    "end": 290,
-                    "name": "Array"
+                    "end": 290
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 291,
-                    "end": 300,
-                    "name": "prototype"
+                    "end": 300
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 285,
+                  "end": 300
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "flat",
                   "start": 301,
-                  "end": 305,
-                  "name": "flat"
+                  "end": 305
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 285,
+                "end": 305
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 306,
-                "end": 310,
-                "name": "call"
+                "end": 310
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 285,
+              "end": 310
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 311,
-                "end": 315,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 311,
+                "end": 315
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 285,
+            "end": 316
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 318,
-            "end": 320,
-            "elements": []
+            "end": 320
           },
           {
             "type": "Literal",
-            "start": 322,
-            "end": 370,
             "value": "Array.prototype.flat.call(true) must return []",
-            "raw": "'Array.prototype.flat.call(true) must return []'"
+            "raw": "'Array.prototype.flat.call(true) must return []'",
+            "start": 322,
+            "end": 370
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 265,
+        "end": 371
+      },
+      "start": 265,
+      "end": 372
     },
     {
       "type": "ExpressionStatement",
-      "start": 373,
-      "end": 482,
       "expression": {
         "type": "CallExpression",
-        "start": 373,
-        "end": 481,
         "callee": {
           "type": "MemberExpression",
-          "start": 373,
-          "end": 392,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 373,
-            "end": 379,
-            "name": "assert"
+            "end": 379
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 380,
-            "end": 392,
-            "name": "compareArray"
+            "end": 392
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 373,
+          "end": 392
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 393,
-            "end": 425,
             "callee": {
               "type": "MemberExpression",
-              "start": 393,
-              "end": 418,
               "object": {
                 "type": "MemberExpression",
-                "start": 393,
-                "end": 413,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 393,
-                  "end": 408,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 393,
-                    "end": 398,
-                    "name": "Array"
+                    "end": 398
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 399,
-                    "end": 408,
-                    "name": "prototype"
+                    "end": 408
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 393,
+                  "end": 408
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "flat",
                   "start": 409,
-                  "end": 413,
-                  "name": "flat"
+                  "end": 413
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 393,
+                "end": 413
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 414,
-                "end": 418,
-                "name": "call"
+                "end": 418
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 393,
+              "end": 418
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 419,
-                "end": 424,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 419,
+                "end": 424
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 393,
+            "end": 425
           },
           {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 427,
-            "end": 429,
-            "elements": []
+            "end": 429
           },
           {
             "type": "Literal",
-            "start": 431,
-            "end": 480,
             "value": "Array.prototype.flat.call(false) must return []",
-            "raw": "'Array.prototype.flat.call(false) must return []'"
+            "raw": "'Array.prototype.flat.call(false) must return []'",
+            "start": 431,
+            "end": 480
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 373,
+        "end": 481
+      },
+      "start": 373,
+      "end": 482
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 483
 }

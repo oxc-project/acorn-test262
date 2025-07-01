@@ -2,87 +2,79 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 73,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 53,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 10,
         "decorators": [],
         "name": "_this",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 10
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 11,
-        "end": 53,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 26,
-            "end": 35,
             "id": {
               "type": "Identifier",
-              "start": 26,
-              "end": 35,
               "decorators": [],
               "name": "_thisVal1",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 26,
+              "end": 35
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 26,
+            "end": 35
           },
           {
             "type": "TSEnumMember",
-            "start": 41,
-            "end": 50,
             "id": {
               "type": "Identifier",
-              "start": 41,
-              "end": 50,
               "decorators": [],
               "name": "_thisVal2",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 41,
+              "end": 50
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 41,
+            "end": 50
           }
-        ]
+        ],
+        "start": 11,
+        "end": 53
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 53
     },
     {
       "type": "VariableDeclaration",
-      "start": 54,
-      "end": 73,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 58,
-          "end": 72,
           "id": {
             "type": "Identifier",
-            "start": 58,
-            "end": 59,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 58,
+            "end": 59
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 62,
-            "end": 72,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -94,15 +86,23 @@ __ESTREE_TEST__:PASS:
               "end": 72
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 62,
+            "end": 72
           },
-          "definite": false
+          "definite": false,
+          "start": 58,
+          "end": 72
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 54,
+      "end": 73
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 73
 }
 ```

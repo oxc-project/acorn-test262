@@ -2,60 +2,56 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 106,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 19,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 18,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 13,
             "decorators": [],
             "name": "o",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 5,
-              "end": 13,
               "typeAnnotation": {
                 "type": "TSObjectKeyword",
                 "start": 7,
                 "end": 13
-              }
-            }
+              },
+              "start": 5,
+              "end": 13
+            },
+            "start": 4,
+            "end": 13
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 16,
-            "end": 18,
-            "properties": []
+            "end": 18
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 18
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 19
     },
     {
       "type": "FunctionDeclaration",
-      "start": 21,
-      "end": 57,
       "id": {
         "type": "Identifier",
-        "start": 30,
-        "end": 31,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 30,
+        "end": 31
       },
       "generator": false,
       "async": false,
@@ -64,136 +60,140 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 33,
-        "end": 41,
         "typeAnnotation": {
           "type": "TSObjectKeyword",
           "start": 35,
           "end": 41
-        }
+        },
+        "start": 33,
+        "end": 41
       },
       "body": {
         "type": "BlockStatement",
-        "start": 42,
-        "end": 57,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 45,
-            "end": 55,
             "argument": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 52,
-              "end": 54,
-              "properties": []
-            }
+              "end": 54
+            },
+            "start": 45,
+            "end": 55
           }
-        ]
+        ],
+        "start": 42,
+        "end": 57
       },
-      "expression": false
+      "expression": false,
+      "start": 21,
+      "end": 57
     },
     {
       "type": "VariableDeclaration",
-      "start": 59,
-      "end": 81,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 65,
-          "end": 80,
           "id": {
             "type": "Identifier",
-            "start": 65,
-            "end": 67,
             "decorators": [],
             "name": "b1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 65,
+            "end": 67
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 70,
-            "end": 80,
             "left": {
               "type": "Literal",
-              "start": 70,
-              "end": 75,
               "value": "foo",
-              "raw": "\"foo\""
+              "raw": "\"foo\"",
+              "start": 70,
+              "end": 75
             },
             "operator": "in",
             "right": {
               "type": "Identifier",
-              "start": 79,
-              "end": 80,
               "decorators": [],
               "name": "o",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 79,
+              "end": 80
+            },
+            "start": 70,
+            "end": 80
           },
-          "definite": false
+          "definite": false,
+          "start": 65,
+          "end": 80
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 59,
+      "end": 81
     },
     {
       "type": "VariableDeclaration",
-      "start": 82,
-      "end": 106,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 88,
-          "end": 105,
           "id": {
             "type": "Identifier",
-            "start": 88,
-            "end": 90,
             "decorators": [],
             "name": "b2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 88,
+            "end": 90
           },
           "init": {
             "type": "BinaryExpression",
-            "start": 93,
-            "end": 105,
             "left": {
               "type": "Literal",
-              "start": 93,
-              "end": 98,
               "value": "bar",
-              "raw": "\"bar\""
+              "raw": "\"bar\"",
+              "start": 93,
+              "end": 98
             },
             "operator": "in",
             "right": {
               "type": "CallExpression",
-              "start": 102,
-              "end": 105,
               "callee": {
                 "type": "Identifier",
-                "start": 102,
-                "end": 103,
                 "decorators": [],
                 "name": "f",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 102,
+                "end": 103
               },
               "typeArguments": null,
               "arguments": [],
-              "optional": false
-            }
+              "optional": false,
+              "start": 102,
+              "end": 105
+            },
+            "start": 93,
+            "end": 105
           },
-          "definite": false
+          "definite": false,
+          "start": 88,
+          "end": 105
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 82,
+      "end": 106
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 106
 }
 ```

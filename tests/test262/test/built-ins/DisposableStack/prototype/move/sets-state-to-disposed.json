@@ -1,237 +1,237 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1226,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1036,
-      "end": 1070,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1040,
-          "end": 1069,
           "id": {
             "type": "Identifier",
+            "name": "stack",
             "start": 1040,
-            "end": 1045,
-            "name": "stack"
+            "end": 1045
           },
           "init": {
             "type": "NewExpression",
-            "start": 1048,
-            "end": 1069,
             "callee": {
               "type": "Identifier",
+              "name": "DisposableStack",
               "start": 1052,
-              "end": 1067,
-              "name": "DisposableStack"
+              "end": 1067
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 1048,
+            "end": 1069
+          },
+          "start": 1040,
+          "end": 1069
         }
-      ]
+      ],
+      "start": 1036,
+      "end": 1070
     },
     {
       "type": "VariableDeclaration",
-      "start": 1071,
-      "end": 1104,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1075,
-          "end": 1103,
           "id": {
             "type": "Identifier",
+            "name": "wasDisposed",
             "start": 1075,
-            "end": 1086,
-            "name": "wasDisposed"
+            "end": 1086
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1089,
-            "end": 1103,
             "object": {
               "type": "Identifier",
+              "name": "stack",
               "start": 1089,
-              "end": 1094,
-              "name": "stack"
+              "end": 1094
             },
             "property": {
               "type": "Identifier",
+              "name": "disposed",
               "start": 1095,
-              "end": 1103,
-              "name": "disposed"
+              "end": 1103
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1089,
+            "end": 1103
+          },
+          "start": 1075,
+          "end": 1103
         }
-      ]
+      ],
+      "start": 1071,
+      "end": 1104
     },
     {
       "type": "ExpressionStatement",
-      "start": 1105,
-      "end": 1118,
       "expression": {
         "type": "CallExpression",
-        "start": 1105,
-        "end": 1117,
         "callee": {
           "type": "MemberExpression",
-          "start": 1105,
-          "end": 1115,
           "object": {
             "type": "Identifier",
+            "name": "stack",
             "start": 1105,
-            "end": 1110,
-            "name": "stack"
+            "end": 1110
           },
           "property": {
             "type": "Identifier",
+            "name": "move",
             "start": 1111,
-            "end": 1115,
-            "name": "move"
+            "end": 1115
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1105,
+          "end": 1115
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1105,
+        "end": 1117
+      },
+      "start": 1105,
+      "end": 1118
     },
     {
       "type": "VariableDeclaration",
-      "start": 1119,
-      "end": 1151,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1123,
-          "end": 1150,
           "id": {
             "type": "Identifier",
+            "name": "isDisposed",
             "start": 1123,
-            "end": 1133,
-            "name": "isDisposed"
+            "end": 1133
           },
           "init": {
             "type": "MemberExpression",
-            "start": 1136,
-            "end": 1150,
             "object": {
               "type": "Identifier",
+              "name": "stack",
               "start": 1136,
-              "end": 1141,
-              "name": "stack"
+              "end": 1141
             },
             "property": {
               "type": "Identifier",
+              "name": "disposed",
               "start": 1142,
-              "end": 1150,
-              "name": "disposed"
+              "end": 1150
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 1136,
+            "end": 1150
+          },
+          "start": 1123,
+          "end": 1150
         }
-      ]
+      ],
+      "start": 1119,
+      "end": 1151
     },
     {
       "type": "ExpressionStatement",
-      "start": 1152,
-      "end": 1189,
       "expression": {
         "type": "CallExpression",
-        "start": 1152,
-        "end": 1188,
         "callee": {
           "type": "MemberExpression",
-          "start": 1152,
-          "end": 1168,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1152,
-            "end": 1158,
-            "name": "assert"
+            "end": 1158
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1159,
-            "end": 1168,
-            "name": "sameValue"
+            "end": 1168
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1152,
+          "end": 1168
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "wasDisposed",
             "start": 1169,
-            "end": 1180,
-            "name": "wasDisposed"
+            "end": 1180
           },
           {
             "type": "Literal",
-            "start": 1182,
-            "end": 1187,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1182,
+            "end": 1187
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1152,
+        "end": 1188
+      },
+      "start": 1152,
+      "end": 1189
     },
     {
       "type": "ExpressionStatement",
-      "start": 1190,
-      "end": 1225,
       "expression": {
         "type": "CallExpression",
-        "start": 1190,
-        "end": 1224,
         "callee": {
           "type": "MemberExpression",
-          "start": 1190,
-          "end": 1206,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1190,
-            "end": 1196,
-            "name": "assert"
+            "end": 1196
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1197,
-            "end": 1206,
-            "name": "sameValue"
+            "end": 1206
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1190,
+          "end": 1206
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "isDisposed",
             "start": 1207,
-            "end": 1217,
-            "name": "isDisposed"
+            "end": 1217
           },
           {
             "type": "Literal",
-            "start": 1219,
-            "end": 1223,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 1219,
+            "end": 1223
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1190,
+        "end": 1224
+      },
+      "start": 1190,
+      "end": 1225
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1226
 }

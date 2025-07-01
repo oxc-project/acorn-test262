@@ -1,74 +1,74 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 557,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 498,
-      "end": 556,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 504,
-        "end": 505,
-        "name": "C"
+        "end": 505
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 506,
-        "end": 556,
         "body": [
           {
             "type": "StaticBlock",
-            "start": 510,
-            "end": 554,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 523,
-                "end": 550,
                 "expression": {
                   "type": "ParenthesizedExpression",
-                  "start": 523,
-                  "end": 549,
                   "expression": {
                     "type": "FunctionExpression",
-                    "start": 524,
-                    "end": 548,
                     "id": {
                       "type": "Identifier",
+                      "name": "await",
                       "start": 533,
-                      "end": 538,
-                      "name": "await"
+                      "end": 538
                     },
                     "generator": false,
                     "async": false,
                     "params": [
                       {
                         "type": "Identifier",
+                        "name": "await",
                         "start": 539,
-                        "end": 544,
-                        "name": "await"
+                        "end": 544
                       }
                     ],
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 546,
-                      "end": 548,
-                      "body": []
+                      "end": 548
                     },
-                    "expression": false
-                  }
-                }
+                    "expression": false,
+                    "start": 524,
+                    "end": 548
+                  },
+                  "start": 523,
+                  "end": 549
+                },
+                "start": 523,
+                "end": 550
               }
-            ]
+            ],
+            "start": 510,
+            "end": 554
           }
-        ]
-      }
+        ],
+        "start": 506,
+        "end": 556
+      },
+      "start": 498,
+      "end": 556
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 557
 }

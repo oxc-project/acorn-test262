@@ -1,84 +1,84 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 340,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 284,
-      "end": 306,
       "label": {
         "type": "Identifier",
+        "name": "label",
         "start": 284,
-        "end": 289,
-        "name": "label"
+        "end": 289
       },
       "body": {
         "type": "FunctionDeclaration",
-        "start": 291,
-        "end": 306,
         "id": {
           "type": "Identifier",
+          "name": "g",
           "start": 300,
-          "end": 301,
-          "name": "g"
+          "end": 301
         },
         "generator": false,
         "async": false,
         "params": [],
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 304,
-          "end": 306,
-          "body": []
+          "end": 306
         },
-        "expression": false
-      }
+        "expression": false,
+        "start": 291,
+        "end": 306
+      },
+      "start": 284,
+      "end": 306
     },
     {
       "type": "LabeledStatement",
-      "start": 308,
-      "end": 339,
       "label": {
         "type": "Identifier",
+        "name": "label1",
         "start": 308,
-        "end": 314,
-        "name": "label1"
+        "end": 314
       },
       "body": {
         "type": "LabeledStatement",
-        "start": 316,
-        "end": 339,
         "label": {
           "type": "Identifier",
+          "name": "label2",
           "start": 316,
-          "end": 322,
-          "name": "label2"
+          "end": 322
         },
         "body": {
           "type": "FunctionDeclaration",
-          "start": 324,
-          "end": 339,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 333,
-            "end": 334,
-            "name": "f"
+            "end": 334
           },
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 337,
-            "end": 339,
-            "body": []
+            "end": 339
           },
-          "expression": false
-        }
-      }
+          "expression": false,
+          "start": 324,
+          "end": 339
+        },
+        "start": 316,
+        "end": 339
+      },
+      "start": 308,
+      "end": 339
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 340
 }

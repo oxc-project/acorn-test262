@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 96,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 16,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 11,
         "decorators": [],
         "name": "fn",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 11
       },
       "generator": false,
       "async": false,
@@ -26,133 +22,137 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 14,
-        "end": 16,
-        "body": []
+        "end": 16
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 16
     },
     {
       "type": "IfStatement",
-      "start": 18,
-      "end": 96,
       "test": {
         "type": "LogicalExpression",
-        "start": 22,
-        "end": 66,
         "left": {
           "type": "BinaryExpression",
-          "start": 22,
-          "end": 48,
           "left": {
             "type": "UnaryExpression",
-            "start": 22,
-            "end": 35,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
-              "start": 29,
-              "end": 35,
               "decorators": [],
               "name": "module",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 29,
+              "end": 35
             },
-            "prefix": true
+            "prefix": true,
+            "start": 22,
+            "end": 35
           },
           "operator": "===",
           "right": {
             "type": "Literal",
-            "start": 40,
-            "end": 48,
             "value": "object",
-            "raw": "'object'"
-          }
+            "raw": "'object'",
+            "start": 40,
+            "end": 48
+          },
+          "start": 22,
+          "end": 48
         },
         "operator": "&&",
         "right": {
           "type": "MemberExpression",
-          "start": 52,
-          "end": 66,
           "object": {
             "type": "Identifier",
-            "start": 52,
-            "end": 58,
             "decorators": [],
             "name": "module",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 52,
+            "end": 58
           },
           "property": {
             "type": "Identifier",
-            "start": 59,
-            "end": 66,
             "decorators": [],
             "name": "exports",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 59,
+            "end": 66
           },
           "optional": false,
-          "computed": false
-        }
+          "computed": false,
+          "start": 52,
+          "end": 66
+        },
+        "start": 22,
+        "end": 66
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 68,
-        "end": 96,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 74,
-            "end": 94,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 74,
-              "end": 93,
               "operator": "=",
               "left": {
                 "type": "MemberExpression",
-                "start": 74,
-                "end": 88,
                 "object": {
                   "type": "Identifier",
-                  "start": 74,
-                  "end": 80,
                   "decorators": [],
                   "name": "module",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 74,
+                  "end": 80
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 81,
-                  "end": 88,
                   "decorators": [],
                   "name": "exports",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 81,
+                  "end": 88
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 74,
+                "end": 88
               },
               "right": {
                 "type": "Identifier",
-                "start": 91,
-                "end": 93,
                 "decorators": [],
                 "name": "fn",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 91,
+                "end": 93
+              },
+              "start": 74,
+              "end": 93
             },
-            "directive": null
+            "directive": null,
+            "start": 74,
+            "end": 94
           }
-        ]
+        ],
+        "start": 68,
+        "end": 96
       },
-      "alternate": null
+      "alternate": null,
+      "start": 18,
+      "end": 96
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 96
 }
 ```

@@ -1,398 +1,398 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 754,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 235,
-      "end": 344,
       "expression": {
         "type": "CallExpression",
-        "start": 235,
-        "end": 344,
         "callee": {
           "type": "MemberExpression",
-          "start": 235,
-          "end": 251,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 235,
-            "end": 241,
-            "name": "assert"
+            "end": 241
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 242,
-            "end": 251,
-            "name": "sameValue"
+            "end": 251
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 235,
+          "end": 251
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 255,
-            "end": 275,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 255,
-              "end": 261,
-              "name": "String"
+              "end": 261
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 262,
-                "end": 274,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 262,
-                  "end": 268,
-                  "name": "Symbol"
+                  "end": 268
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 269,
-                    "end": 273,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "start": 269,
+                    "end": 273
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 262,
+                "end": 274
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 255,
+            "end": 275
           },
           {
             "type": "Literal",
-            "start": 279,
-            "end": 291,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "start": 279,
+            "end": 291
           },
           {
             "type": "Literal",
-            "start": 295,
-            "end": 342,
             "value": "`String(Symbol('66'))` returns `'Symbol(66)'`",
-            "raw": "\"`String(Symbol('66'))` returns `'Symbol(66)'`\""
+            "raw": "\"`String(Symbol('66'))` returns `'Symbol(66)'`\"",
+            "start": 295,
+            "end": 342
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 235,
+        "end": 344
+      },
+      "start": 235,
+      "end": 344
     },
     {
       "type": "ExpressionStatement",
-      "start": 345,
-      "end": 461,
       "expression": {
         "type": "CallExpression",
-        "start": 345,
-        "end": 460,
         "callee": {
           "type": "MemberExpression",
-          "start": 345,
-          "end": 361,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 345,
-            "end": 351,
-            "name": "assert"
+            "end": 351
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 352,
-            "end": 361,
-            "name": "sameValue"
+            "end": 361
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 345,
+          "end": 361
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 365,
-            "end": 388,
             "callee": {
               "type": "MemberExpression",
-              "start": 365,
-              "end": 386,
               "object": {
                 "type": "CallExpression",
-                "start": 365,
-                "end": 377,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 365,
-                  "end": 371,
-                  "name": "Symbol"
+                  "end": 371
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 372,
-                    "end": 376,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "start": 372,
+                    "end": 376
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 365,
+                "end": 377
               },
               "property": {
                 "type": "Identifier",
+                "name": "toString",
                 "start": 378,
-                "end": 386,
-                "name": "toString"
+                "end": 386
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 365,
+              "end": 386
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 365,
+            "end": 388
           },
           {
             "type": "Literal",
-            "start": 392,
-            "end": 404,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "start": 392,
+            "end": 404
           },
           {
             "type": "Literal",
-            "start": 408,
-            "end": 458,
             "value": "`Symbol('66').toString()` returns `'Symbol(66)'`",
-            "raw": "\"`Symbol('66').toString()` returns `'Symbol(66)'`\""
+            "raw": "\"`Symbol('66').toString()` returns `'Symbol(66)'`\"",
+            "start": 408,
+            "end": 458
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 345,
+        "end": 460
+      },
+      "start": 345,
+      "end": 461
     },
     {
       "type": "ExpressionStatement",
-      "start": 462,
-      "end": 594,
       "expression": {
         "type": "CallExpression",
-        "start": 462,
-        "end": 593,
         "callee": {
           "type": "MemberExpression",
-          "start": 462,
-          "end": 478,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 462,
-            "end": 468,
-            "name": "assert"
+            "end": 468
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 469,
-            "end": 478,
-            "name": "sameValue"
+            "end": 478
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 462,
+          "end": 478
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 482,
-            "end": 513,
             "callee": {
               "type": "MemberExpression",
-              "start": 482,
-              "end": 511,
               "object": {
                 "type": "CallExpression",
-                "start": 482,
-                "end": 502,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 482,
-                  "end": 488,
-                  "name": "Object"
+                  "end": 488
                 },
                 "arguments": [
                   {
                     "type": "CallExpression",
-                    "start": 489,
-                    "end": 501,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Symbol",
                       "start": 489,
-                      "end": 495,
-                      "name": "Symbol"
+                      "end": 495
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 496,
-                        "end": 500,
                         "value": "66",
-                        "raw": "'66'"
+                        "raw": "'66'",
+                        "start": 496,
+                        "end": 500
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 489,
+                    "end": 501
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 482,
+                "end": 502
               },
               "property": {
                 "type": "Identifier",
+                "name": "toString",
                 "start": 503,
-                "end": 511,
-                "name": "toString"
+                "end": 511
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 482,
+              "end": 511
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 482,
+            "end": 513
           },
           {
             "type": "Literal",
-            "start": 517,
-            "end": 529,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "start": 517,
+            "end": 529
           },
           {
             "type": "Literal",
-            "start": 533,
-            "end": 591,
             "value": "`Object(Symbol('66')).toString()` returns `'Symbol(66)'`",
-            "raw": "\"`Object(Symbol('66')).toString()` returns `'Symbol(66)'`\""
+            "raw": "\"`Object(Symbol('66')).toString()` returns `'Symbol(66)'`\"",
+            "start": 533,
+            "end": 591
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 462,
+        "end": 593
+      },
+      "start": 462,
+      "end": 594
     },
     {
       "type": "ExpressionStatement",
-      "start": 595,
-      "end": 753,
       "expression": {
         "type": "CallExpression",
-        "start": 595,
-        "end": 752,
         "callee": {
           "type": "MemberExpression",
-          "start": 595,
-          "end": 611,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 595,
-            "end": 601,
-            "name": "assert"
+            "end": 601
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 602,
-            "end": 611,
-            "name": "sameValue"
+            "end": 611
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 595,
+          "end": 611
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 615,
-            "end": 659,
             "callee": {
               "type": "MemberExpression",
-              "start": 615,
-              "end": 645,
               "object": {
                 "type": "MemberExpression",
-                "start": 615,
-                "end": 640,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 615,
-                  "end": 631,
                   "object": {
                     "type": "Identifier",
+                    "name": "Symbol",
                     "start": 615,
-                    "end": 621,
-                    "name": "Symbol"
+                    "end": 621
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 622,
-                    "end": 631,
-                    "name": "prototype"
+                    "end": 631
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 615,
+                  "end": 631
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 632,
-                  "end": 640,
-                  "name": "toString"
+                  "end": 640
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 615,
+                "end": 640
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 641,
-                "end": 645,
-                "name": "call"
+                "end": 645
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 615,
+              "end": 645
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 646,
-                "end": 658,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 646,
-                  "end": 652,
-                  "name": "Symbol"
+                  "end": 652
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 653,
-                    "end": 657,
                     "value": "66",
-                    "raw": "'66'"
+                    "raw": "'66'",
+                    "start": 653,
+                    "end": 657
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 646,
+                "end": 658
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 615,
+            "end": 659
           },
           {
             "type": "Literal",
-            "start": 663,
-            "end": 675,
             "value": "Symbol(66)",
-            "raw": "'Symbol(66)'"
+            "raw": "'Symbol(66)'",
+            "start": 663,
+            "end": 675
           },
           {
             "type": "Literal",
-            "start": 679,
-            "end": 750,
             "value": "`Symbol.prototype.toString.call(Symbol('66'))` returns `'Symbol(66)'`",
-            "raw": "\"`Symbol.prototype.toString.call(Symbol('66'))` returns `'Symbol(66)'`\""
+            "raw": "\"`Symbol.prototype.toString.call(Symbol('66'))` returns `'Symbol(66)'`\"",
+            "start": 679,
+            "end": 750
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 595,
+        "end": 752
+      },
+      "start": 595,
+      "end": 753
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 754
 }

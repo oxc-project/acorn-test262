@@ -1,190 +1,190 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 464,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 318,
       "expression": {
         "type": "CallExpression",
-        "start": 247,
-        "end": 317,
         "callee": {
           "type": "MemberExpression",
-          "start": 247,
-          "end": 263,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 247,
-            "end": 253,
-            "name": "assert"
+            "end": 253
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 254,
-            "end": 263,
-            "name": "sameValue"
+            "end": 263
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 247,
+          "end": 263
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 264,
-            "end": 284,
             "callee": {
               "type": "MemberExpression",
-              "start": 264,
-              "end": 274,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 264,
-                "end": 268,
-                "name": "JSON"
+                "end": 268
               },
               "property": {
                 "type": "Identifier",
+                "name": "parse",
                 "start": 269,
-                "end": 274,
-                "name": "parse"
+                "end": 274
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 264,
+              "end": 274
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 275,
-                "end": 283,
                 "value": "\r1234",
-                "raw": "'\\r1234'"
+                "raw": "'\\r1234'",
+                "start": 275,
+                "end": 283
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 264,
+            "end": 284
           },
           {
             "type": "Literal",
-            "start": 286,
-            "end": 290,
             "value": 1234,
-            "raw": "1234"
+            "raw": "1234",
+            "start": 286,
+            "end": 290
           },
           {
             "type": "Literal",
-            "start": 292,
-            "end": 316,
             "value": "<cr> should be ignored",
-            "raw": "'<cr> should be ignored'"
+            "raw": "'<cr> should be ignored'",
+            "start": 292,
+            "end": 316
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 247,
+        "end": 317
+      },
+      "start": 247,
+      "end": 318
     },
     {
       "type": "ExpressionStatement",
-      "start": 320,
-      "end": 463,
       "expression": {
         "type": "CallExpression",
-        "start": 320,
-        "end": 462,
         "callee": {
           "type": "MemberExpression",
-          "start": 320,
-          "end": 333,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 320,
-            "end": 326,
-            "name": "assert"
+            "end": 326
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 327,
-            "end": 333,
-            "name": "throws"
+            "end": 333
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 320,
+          "end": 333
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 334,
-            "end": 345,
-            "name": "SyntaxError"
+            "end": 345
           },
           {
             "type": "FunctionExpression",
-            "start": 347,
-            "end": 387,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 358,
-              "end": 387,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 364,
-                  "end": 385,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 364,
-                    "end": 384,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 364,
-                      "end": 374,
                       "object": {
                         "type": "Identifier",
+                        "name": "JSON",
                         "start": 364,
-                        "end": 368,
-                        "name": "JSON"
+                        "end": 368
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "parse",
                         "start": 369,
-                        "end": 374,
-                        "name": "parse"
+                        "end": 374
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 364,
+                      "end": 374
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 375,
-                        "end": 383,
                         "value": "12\r34",
-                        "raw": "'12\\r34'"
+                        "raw": "'12\\r34'",
+                        "start": 375,
+                        "end": 383
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 364,
+                    "end": 384
+                  },
+                  "start": 364,
+                  "end": 385
                 }
-              ]
+              ],
+              "start": 358,
+              "end": 387
             },
-            "expression": false
+            "expression": false,
+            "start": 347,
+            "end": 387
           },
           {
             "type": "Literal",
-            "start": 389,
-            "end": 461,
             "value": "<CR> should produce a syntax error as whitespace results in two tokens",
-            "raw": "'<CR> should produce a syntax error as whitespace results in two tokens'"
+            "raw": "'<CR> should produce a syntax error as whitespace results in two tokens'",
+            "start": 389,
+            "end": 461
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 320,
+        "end": 462
+      },
+      "start": 320,
+      "end": 463
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 464
 }

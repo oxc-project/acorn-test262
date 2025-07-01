@@ -1,143 +1,143 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 507,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 348,
-      "end": 422,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 354,
-          "end": 421,
           "id": {
             "type": "Identifier",
+            "name": "z",
             "start": 354,
-            "end": 355,
-            "name": "z"
+            "end": 355
           },
           "init": {
             "type": "NewExpression",
-            "start": 358,
-            "end": 421,
             "callee": {
               "type": "MemberExpression",
-              "start": 362,
-              "end": 384,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 362,
-                "end": 370,
-                "name": "Temporal"
+                "end": 370
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 371,
-                "end": 384,
-                "name": "ZonedDateTime"
+                "end": 384
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 362,
+              "end": 384
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 385,
-                "end": 413,
                 "value": null,
                 "raw": "86400_0000_0000_000_000_000n",
-                "bigint": "8640000000000000000000"
+                "bigint": "8640000000000000000000",
+                "start": 385,
+                "end": 413
               },
               {
                 "type": "Literal",
-                "start": 415,
-                "end": 420,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "start": 415,
+                "end": 420
               }
-            ]
-          }
+            ],
+            "start": 358,
+            "end": 421
+          },
+          "start": 354,
+          "end": 421
         }
-      ]
+      ],
+      "start": 348,
+      "end": 422
     },
     {
       "type": "ExpressionStatement",
-      "start": 423,
-      "end": 506,
       "expression": {
         "type": "CallExpression",
-        "start": 423,
-        "end": 505,
         "callee": {
           "type": "MemberExpression",
-          "start": 423,
-          "end": 436,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 423,
-            "end": 429,
-            "name": "assert"
+            "end": 429
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 430,
-            "end": 436,
-            "name": "throws"
+            "end": 436
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 423,
+          "end": 436
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 437,
-            "end": 447,
-            "name": "RangeError"
+            "end": 447
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 449,
-            "end": 467,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "MemberExpression",
-              "start": 455,
-              "end": 467,
               "object": {
                 "type": "Identifier",
+                "name": "z",
                 "start": 455,
-                "end": 456,
-                "name": "z"
+                "end": 456
               },
               "property": {
                 "type": "Identifier",
+                "name": "hoursInDay",
                 "start": 457,
-                "end": 467,
-                "name": "hoursInDay"
+                "end": 467
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 455,
+              "end": 467
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 449,
+            "end": 467
           },
           {
             "type": "Literal",
-            "start": 469,
-            "end": 504,
             "value": "Next day boundary is out of range",
-            "raw": "\"Next day boundary is out of range\""
+            "raw": "\"Next day boundary is out of range\"",
+            "start": 469,
+            "end": 504
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 423,
+        "end": 505
+      },
+      "start": 423,
+      "end": 506
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 507
 }

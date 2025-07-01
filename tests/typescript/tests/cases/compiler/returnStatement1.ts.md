@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 97,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 97,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 10,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 10
       },
       "generator": false,
       "async": false,
@@ -26,17 +22,11 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 13,
-        "end": 97,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 19,
-            "end": 66,
             "argument": {
               "type": "FunctionExpression",
-              "start": 26,
-              "end": 65,
               "id": null,
               "generator": false,
               "async": false,
@@ -45,77 +35,87 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 36,
-                  "end": 37,
                   "decorators": [],
                   "name": "s",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 36,
+                  "end": 37
                 }
               ],
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 39,
-                "end": 65,
                 "body": [
                   {
                     "type": "VariableDeclaration",
-                    "start": 49,
-                    "end": 59,
                     "kind": "var",
                     "declarations": [
                       {
                         "type": "VariableDeclarator",
-                        "start": 53,
-                        "end": 58,
                         "id": {
                           "type": "Identifier",
-                          "start": 53,
-                          "end": 54,
                           "decorators": [],
                           "name": "x",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 53,
+                          "end": 54
                         },
                         "init": {
                           "type": "Identifier",
-                          "start": 57,
-                          "end": 58,
                           "decorators": [],
                           "name": "s",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 57,
+                          "end": 58
                         },
-                        "definite": false
+                        "definite": false,
+                        "start": 53,
+                        "end": 58
                       }
                     ],
-                    "declare": false
+                    "declare": false,
+                    "start": 49,
+                    "end": 59
                   }
-                ]
+                ],
+                "start": 39,
+                "end": 65
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 26,
+              "end": 65
+            },
+            "start": 19,
+            "end": 66
           },
           {
             "type": "ExpressionStatement",
-            "start": 71,
-            "end": 95,
             "expression": {
               "type": "Literal",
-              "start": 72,
-              "end": 93,
               "value": "harmless extra line",
-              "raw": "\"harmless extra line\""
+              "raw": "\"harmless extra line\"",
+              "start": 72,
+              "end": 93
             },
-            "directive": null
+            "directive": null,
+            "start": 71,
+            "end": 95
           }
-        ]
+        ],
+        "start": 13,
+        "end": 97
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 97
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 97
 }
 ```

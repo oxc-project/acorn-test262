@@ -1,38 +1,32 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 738,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 512,
-      "end": 590,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 526,
-        "end": 527,
-        "name": "f"
+        "end": 527
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "x",
           "start": 540,
-          "end": 541,
-          "name": "x"
+          "end": 541
         },
         {
           "type": "Identifier",
+          "name": "y",
           "start": 554,
-          "end": 555,
-          "name": "y"
+          "end": 555
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 568,
-        "end": 590,
         "body": [
           {
             "type": "EmptyStatement",
@@ -44,43 +38,49 @@
             "start": 582,
             "end": 583
           }
-        ]
+        ],
+        "start": 568,
+        "end": 590
       },
-      "expression": false
+      "expression": false,
+      "start": 512,
+      "end": 590
     },
     {
       "type": "ExpressionStatement",
-      "start": 601,
-      "end": 737,
       "expression": {
         "type": "CallExpression",
-        "start": 601,
-        "end": 736,
         "callee": {
           "type": "Identifier",
+          "name": "assertToStringOrNativeFunction",
           "start": 601,
-          "end": 631,
-          "name": "assertToStringOrNativeFunction"
+          "end": 631
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "f",
             "start": 632,
-            "end": 633,
-            "name": "f"
+            "end": 633
           },
           {
             "type": "Literal",
-            "start": 635,
-            "end": 735,
             "value": "function\n// a\nf\n// b\n(\n// c\nx\n// d\n,\n// e\ny\n// f\n)\n// g\n{\n// h\n;\n// i\n;\n// j\n}",
-            "raw": "\"function\\n// a\\nf\\n// b\\n(\\n// c\\nx\\n// d\\n,\\n// e\\ny\\n// f\\n)\\n// g\\n{\\n// h\\n;\\n// i\\n;\\n// j\\n}\""
+            "raw": "\"function\\n// a\\nf\\n// b\\n(\\n// c\\nx\\n// d\\n,\\n// e\\ny\\n// f\\n)\\n// g\\n{\\n// h\\n;\\n// i\\n;\\n// j\\n}\"",
+            "start": 635,
+            "end": 735
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 601,
+        "end": 736
+      },
+      "start": 601,
+      "end": 737
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 738
 }

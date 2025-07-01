@@ -2,1051 +2,1051 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 437,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 94,
       "id": {
         "type": "Identifier",
-        "start": 11,
-        "end": 14,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 11,
+        "end": 14
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 15,
-        "end": 94,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 21,
-            "end": 28,
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 22,
               "decorators": [],
               "name": "X",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 22
             },
             "initializer": {
               "type": "Literal",
-              "start": 25,
-              "end": 28,
               "value": 100,
-              "raw": "100"
+              "raw": "100",
+              "start": 25,
+              "end": 28
             },
-            "computed": false
+            "computed": false,
+            "start": 21,
+            "end": 28
           },
           {
             "type": "TSEnumMember",
-            "start": 34,
-            "end": 41,
             "id": {
               "type": "Identifier",
-              "start": 34,
-              "end": 35,
               "decorators": [],
               "name": "Y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 34,
+              "end": 35
             },
             "initializer": {
               "type": "Literal",
-              "start": 38,
-              "end": 41,
               "value": 0.5,
-              "raw": "0.5"
+              "raw": "0.5",
+              "start": 38,
+              "end": 41
             },
-            "computed": false
+            "computed": false,
+            "start": 34,
+            "end": 41
           },
           {
             "type": "TSEnumMember",
-            "start": 47,
-            "end": 53,
             "id": {
               "type": "Identifier",
-              "start": 47,
-              "end": 48,
               "decorators": [],
               "name": "Z",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 47,
+              "end": 48
             },
             "initializer": {
               "type": "Literal",
-              "start": 51,
-              "end": 53,
               "value": 2,
-              "raw": "2."
+              "raw": "2.",
+              "start": 51,
+              "end": 53
             },
-            "computed": false
+            "computed": false,
+            "start": 47,
+            "end": 53
           },
           {
             "type": "TSEnumMember",
-            "start": 59,
-            "end": 65,
             "id": {
               "type": "Identifier",
-              "start": 59,
-              "end": 60,
               "decorators": [],
               "name": "A",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 59,
+              "end": 60
             },
             "initializer": {
               "type": "UnaryExpression",
-              "start": 63,
-              "end": 65,
               "operator": "-",
               "argument": {
                 "type": "Literal",
-                "start": 64,
-                "end": 65,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 64,
+                "end": 65
               },
-              "prefix": true
+              "prefix": true,
+              "start": 63,
+              "end": 65
             },
-            "computed": false
+            "computed": false,
+            "start": 59,
+            "end": 65
           },
           {
             "type": "TSEnumMember",
-            "start": 71,
-            "end": 79,
             "id": {
               "type": "Identifier",
-              "start": 71,
-              "end": 72,
               "decorators": [],
               "name": "B",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 71,
+              "end": 72
             },
             "initializer": {
               "type": "UnaryExpression",
-              "start": 75,
-              "end": 79,
               "operator": "-",
               "argument": {
                 "type": "Literal",
-                "start": 76,
-                "end": 79,
                 "value": 1.5,
-                "raw": "1.5"
+                "raw": "1.5",
+                "start": 76,
+                "end": 79
               },
-              "prefix": true
+              "prefix": true,
+              "start": 75,
+              "end": 79
             },
-            "computed": false
+            "computed": false,
+            "start": 71,
+            "end": 79
           },
           {
             "type": "TSEnumMember",
-            "start": 85,
-            "end": 92,
             "id": {
               "type": "Identifier",
-              "start": 85,
-              "end": 86,
               "decorators": [],
               "name": "C",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 85,
+              "end": 86
             },
             "initializer": {
               "type": "UnaryExpression",
-              "start": 89,
-              "end": 92,
               "operator": "-",
               "argument": {
                 "type": "Literal",
-                "start": 90,
-                "end": 92,
                 "value": 1,
-                "raw": "1."
+                "raw": "1.",
+                "start": 90,
+                "end": 92
               },
-              "prefix": true
+              "prefix": true,
+              "start": 89,
+              "end": 92
             },
-            "computed": false
+            "computed": false,
+            "start": 85,
+            "end": 92
           }
-        ]
+        ],
+        "start": 15,
+        "end": 94
       },
       "const": true,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 94
     },
     {
       "type": "VariableDeclaration",
-      "start": 96,
-      "end": 122,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 100,
-          "end": 121,
           "id": {
             "type": "Identifier",
-            "start": 100,
-            "end": 102,
             "decorators": [],
             "name": "x0",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 100,
+            "end": 102
           },
           "init": {
             "type": "CallExpression",
-            "start": 105,
-            "end": 121,
             "callee": {
               "type": "MemberExpression",
-              "start": 105,
-              "end": 119,
               "object": {
                 "type": "MemberExpression",
-                "start": 105,
-                "end": 110,
                 "object": {
                   "type": "Identifier",
-                  "start": 105,
-                  "end": 108,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 105,
+                  "end": 108
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 109,
-                  "end": 110,
                   "decorators": [],
                   "name": "X",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 109,
+                  "end": 110
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 105,
+                "end": 110
               },
               "property": {
                 "type": "Identifier",
-                "start": 111,
-                "end": 119,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 111,
+                "end": 119
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 105,
+              "end": 119
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 105,
+            "end": 121
           },
-          "definite": false
+          "definite": false,
+          "start": 100,
+          "end": 121
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 96,
+      "end": 122
     },
     {
       "type": "VariableDeclaration",
-      "start": 123,
-      "end": 152,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 127,
-          "end": 151,
           "id": {
             "type": "Identifier",
-            "start": 127,
-            "end": 129,
             "decorators": [],
             "name": "x1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 127,
+            "end": 129
           },
           "init": {
             "type": "CallExpression",
-            "start": 132,
-            "end": 151,
             "callee": {
               "type": "MemberExpression",
-              "start": 132,
-              "end": 149,
               "object": {
                 "type": "MemberExpression",
-                "start": 132,
-                "end": 140,
                 "object": {
                   "type": "Identifier",
-                  "start": 132,
-                  "end": 135,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 132,
+                  "end": 135
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 136,
-                  "end": 139,
                   "value": "X",
-                  "raw": "\"X\""
+                  "raw": "\"X\"",
+                  "start": 136,
+                  "end": 139
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 132,
+                "end": 140
               },
               "property": {
                 "type": "Identifier",
-                "start": 141,
-                "end": 149,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 141,
+                "end": 149
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 132,
+              "end": 149
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 132,
+            "end": 151
           },
-          "definite": false
+          "definite": false,
+          "start": 127,
+          "end": 151
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 123,
+      "end": 152
     },
     {
       "type": "VariableDeclaration",
-      "start": 153,
-      "end": 179,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 157,
-          "end": 178,
           "id": {
             "type": "Identifier",
-            "start": 157,
-            "end": 159,
             "decorators": [],
             "name": "y0",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 157,
+            "end": 159
           },
           "init": {
             "type": "CallExpression",
-            "start": 162,
-            "end": 178,
             "callee": {
               "type": "MemberExpression",
-              "start": 162,
-              "end": 176,
               "object": {
                 "type": "MemberExpression",
-                "start": 162,
-                "end": 167,
                 "object": {
                   "type": "Identifier",
-                  "start": 162,
-                  "end": 165,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 162,
+                  "end": 165
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 166,
-                  "end": 167,
                   "decorators": [],
                   "name": "Y",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 166,
+                  "end": 167
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 162,
+                "end": 167
               },
               "property": {
                 "type": "Identifier",
-                "start": 168,
-                "end": 176,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 168,
+                "end": 176
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 162,
+              "end": 176
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 162,
+            "end": 178
           },
-          "definite": false
+          "definite": false,
+          "start": 157,
+          "end": 178
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 153,
+      "end": 179
     },
     {
       "type": "VariableDeclaration",
-      "start": 180,
-      "end": 209,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 184,
-          "end": 208,
           "id": {
             "type": "Identifier",
-            "start": 184,
-            "end": 186,
             "decorators": [],
             "name": "y1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 184,
+            "end": 186
           },
           "init": {
             "type": "CallExpression",
-            "start": 189,
-            "end": 208,
             "callee": {
               "type": "MemberExpression",
-              "start": 189,
-              "end": 206,
               "object": {
                 "type": "MemberExpression",
-                "start": 189,
-                "end": 197,
                 "object": {
                   "type": "Identifier",
-                  "start": 189,
-                  "end": 192,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 189,
+                  "end": 192
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 193,
-                  "end": 196,
                   "value": "Y",
-                  "raw": "\"Y\""
+                  "raw": "\"Y\"",
+                  "start": 193,
+                  "end": 196
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 189,
+                "end": 197
               },
               "property": {
                 "type": "Identifier",
-                "start": 198,
-                "end": 206,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 198,
+                "end": 206
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 189,
+              "end": 206
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 189,
+            "end": 208
           },
-          "definite": false
+          "definite": false,
+          "start": 184,
+          "end": 208
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 180,
+      "end": 209
     },
     {
       "type": "VariableDeclaration",
-      "start": 210,
-      "end": 236,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 214,
-          "end": 235,
           "id": {
             "type": "Identifier",
-            "start": 214,
-            "end": 216,
             "decorators": [],
             "name": "z0",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 214,
+            "end": 216
           },
           "init": {
             "type": "CallExpression",
-            "start": 219,
-            "end": 235,
             "callee": {
               "type": "MemberExpression",
-              "start": 219,
-              "end": 233,
               "object": {
                 "type": "MemberExpression",
-                "start": 219,
-                "end": 224,
                 "object": {
                   "type": "Identifier",
-                  "start": 219,
-                  "end": 222,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 219,
+                  "end": 222
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 223,
-                  "end": 224,
                   "decorators": [],
                   "name": "Z",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 223,
+                  "end": 224
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 219,
+                "end": 224
               },
               "property": {
                 "type": "Identifier",
-                "start": 225,
-                "end": 233,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 225,
+                "end": 233
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 219,
+              "end": 233
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 219,
+            "end": 235
           },
-          "definite": false
+          "definite": false,
+          "start": 214,
+          "end": 235
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 210,
+      "end": 236
     },
     {
       "type": "VariableDeclaration",
-      "start": 237,
-      "end": 266,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 241,
-          "end": 265,
           "id": {
             "type": "Identifier",
-            "start": 241,
-            "end": 243,
             "decorators": [],
             "name": "z1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 241,
+            "end": 243
           },
           "init": {
             "type": "CallExpression",
-            "start": 246,
-            "end": 265,
             "callee": {
               "type": "MemberExpression",
-              "start": 246,
-              "end": 263,
               "object": {
                 "type": "MemberExpression",
-                "start": 246,
-                "end": 254,
                 "object": {
                   "type": "Identifier",
-                  "start": 246,
-                  "end": 249,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 246,
+                  "end": 249
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 250,
-                  "end": 253,
                   "value": "Z",
-                  "raw": "\"Z\""
+                  "raw": "\"Z\"",
+                  "start": 250,
+                  "end": 253
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 246,
+                "end": 254
               },
               "property": {
                 "type": "Identifier",
-                "start": 255,
-                "end": 263,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 255,
+                "end": 263
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 246,
+              "end": 263
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 246,
+            "end": 265
           },
-          "definite": false
+          "definite": false,
+          "start": 241,
+          "end": 265
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 237,
+      "end": 266
     },
     {
       "type": "VariableDeclaration",
-      "start": 267,
-      "end": 293,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 271,
-          "end": 292,
           "id": {
             "type": "Identifier",
-            "start": 271,
-            "end": 273,
             "decorators": [],
             "name": "a0",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 271,
+            "end": 273
           },
           "init": {
             "type": "CallExpression",
-            "start": 276,
-            "end": 292,
             "callee": {
               "type": "MemberExpression",
-              "start": 276,
-              "end": 290,
               "object": {
                 "type": "MemberExpression",
-                "start": 276,
-                "end": 281,
                 "object": {
                   "type": "Identifier",
-                  "start": 276,
-                  "end": 279,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 276,
+                  "end": 279
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 280,
-                  "end": 281,
                   "decorators": [],
                   "name": "A",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 280,
+                  "end": 281
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 276,
+                "end": 281
               },
               "property": {
                 "type": "Identifier",
-                "start": 282,
-                "end": 290,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 282,
+                "end": 290
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 276,
+              "end": 290
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 276,
+            "end": 292
           },
-          "definite": false
+          "definite": false,
+          "start": 271,
+          "end": 292
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 267,
+      "end": 293
     },
     {
       "type": "VariableDeclaration",
-      "start": 294,
-      "end": 323,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 298,
-          "end": 322,
           "id": {
             "type": "Identifier",
-            "start": 298,
-            "end": 300,
             "decorators": [],
             "name": "a1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 298,
+            "end": 300
           },
           "init": {
             "type": "CallExpression",
-            "start": 303,
-            "end": 322,
             "callee": {
               "type": "MemberExpression",
-              "start": 303,
-              "end": 320,
               "object": {
                 "type": "MemberExpression",
-                "start": 303,
-                "end": 311,
                 "object": {
                   "type": "Identifier",
-                  "start": 303,
-                  "end": 306,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 303,
+                  "end": 306
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 307,
-                  "end": 310,
                   "value": "A",
-                  "raw": "\"A\""
+                  "raw": "\"A\"",
+                  "start": 307,
+                  "end": 310
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 303,
+                "end": 311
               },
               "property": {
                 "type": "Identifier",
-                "start": 312,
-                "end": 320,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 312,
+                "end": 320
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 303,
+              "end": 320
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 303,
+            "end": 322
           },
-          "definite": false
+          "definite": false,
+          "start": 298,
+          "end": 322
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 294,
+      "end": 323
     },
     {
       "type": "VariableDeclaration",
-      "start": 324,
-      "end": 350,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 328,
-          "end": 349,
           "id": {
             "type": "Identifier",
-            "start": 328,
-            "end": 330,
             "decorators": [],
             "name": "b0",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 328,
+            "end": 330
           },
           "init": {
             "type": "CallExpression",
-            "start": 333,
-            "end": 349,
             "callee": {
               "type": "MemberExpression",
-              "start": 333,
-              "end": 347,
               "object": {
                 "type": "MemberExpression",
-                "start": 333,
-                "end": 338,
                 "object": {
                   "type": "Identifier",
-                  "start": 333,
-                  "end": 336,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 333,
+                  "end": 336
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 337,
-                  "end": 338,
                   "decorators": [],
                   "name": "B",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 337,
+                  "end": 338
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 333,
+                "end": 338
               },
               "property": {
                 "type": "Identifier",
-                "start": 339,
-                "end": 347,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 339,
+                "end": 347
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 333,
+              "end": 347
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 333,
+            "end": 349
           },
-          "definite": false
+          "definite": false,
+          "start": 328,
+          "end": 349
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 324,
+      "end": 350
     },
     {
       "type": "VariableDeclaration",
-      "start": 351,
-      "end": 380,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 355,
-          "end": 379,
           "id": {
             "type": "Identifier",
-            "start": 355,
-            "end": 357,
             "decorators": [],
             "name": "b1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 355,
+            "end": 357
           },
           "init": {
             "type": "CallExpression",
-            "start": 360,
-            "end": 379,
             "callee": {
               "type": "MemberExpression",
-              "start": 360,
-              "end": 377,
               "object": {
                 "type": "MemberExpression",
-                "start": 360,
-                "end": 368,
                 "object": {
                   "type": "Identifier",
-                  "start": 360,
-                  "end": 363,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 360,
+                  "end": 363
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 364,
-                  "end": 367,
                   "value": "B",
-                  "raw": "\"B\""
+                  "raw": "\"B\"",
+                  "start": 364,
+                  "end": 367
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 360,
+                "end": 368
               },
               "property": {
                 "type": "Identifier",
-                "start": 369,
-                "end": 377,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 369,
+                "end": 377
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 360,
+              "end": 377
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 360,
+            "end": 379
           },
-          "definite": false
+          "definite": false,
+          "start": 355,
+          "end": 379
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 351,
+      "end": 380
     },
     {
       "type": "VariableDeclaration",
-      "start": 381,
-      "end": 407,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 385,
-          "end": 406,
           "id": {
             "type": "Identifier",
-            "start": 385,
-            "end": 387,
             "decorators": [],
             "name": "c0",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 385,
+            "end": 387
           },
           "init": {
             "type": "CallExpression",
-            "start": 390,
-            "end": 406,
             "callee": {
               "type": "MemberExpression",
-              "start": 390,
-              "end": 404,
               "object": {
                 "type": "MemberExpression",
-                "start": 390,
-                "end": 395,
                 "object": {
                   "type": "Identifier",
-                  "start": 390,
-                  "end": 393,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 390,
+                  "end": 393
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 394,
-                  "end": 395,
                   "decorators": [],
                   "name": "C",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 394,
+                  "end": 395
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 390,
+                "end": 395
               },
               "property": {
                 "type": "Identifier",
-                "start": 396,
-                "end": 404,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 396,
+                "end": 404
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 390,
+              "end": 404
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 390,
+            "end": 406
           },
-          "definite": false
+          "definite": false,
+          "start": 385,
+          "end": 406
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 381,
+      "end": 407
     },
     {
       "type": "VariableDeclaration",
-      "start": 408,
-      "end": 437,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 412,
-          "end": 436,
           "id": {
             "type": "Identifier",
-            "start": 412,
-            "end": 414,
             "decorators": [],
             "name": "c1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 412,
+            "end": 414
           },
           "init": {
             "type": "CallExpression",
-            "start": 417,
-            "end": 436,
             "callee": {
               "type": "MemberExpression",
-              "start": 417,
-              "end": 434,
               "object": {
                 "type": "MemberExpression",
-                "start": 417,
-                "end": 425,
                 "object": {
                   "type": "Identifier",
-                  "start": 417,
-                  "end": 420,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 417,
+                  "end": 420
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 421,
-                  "end": 424,
                   "value": "C",
-                  "raw": "\"C\""
+                  "raw": "\"C\"",
+                  "start": 421,
+                  "end": 424
                 },
                 "optional": false,
-                "computed": true
+                "computed": true,
+                "start": 417,
+                "end": 425
               },
               "property": {
                 "type": "Identifier",
-                "start": 426,
-                "end": 434,
                 "decorators": [],
                 "name": "toString",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 426,
+                "end": 434
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 417,
+              "end": 434
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 417,
+            "end": 436
           },
-          "definite": false
+          "definite": false,
+          "start": 412,
+          "end": 436
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 408,
+      "end": 437
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 437
 }
 ```

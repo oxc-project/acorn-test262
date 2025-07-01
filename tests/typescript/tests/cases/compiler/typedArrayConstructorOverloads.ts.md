@@ -2,213 +2,207 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 57,
-  "end": 545,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 57,
-      "end": 412,
       "id": {
         "type": "Identifier",
-        "start": 62,
-        "end": 83,
         "decorators": [],
         "name": "TypedArrayConstructor",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 62,
+        "end": 83
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 90,
-        "end": 412,
         "types": [
           {
             "type": "TSTypeReference",
-            "start": 92,
-            "end": 112,
             "typeName": {
               "type": "Identifier",
-              "start": 92,
-              "end": 112,
               "decorators": [],
               "name": "Int8ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 92,
+              "end": 112
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 92,
+            "end": 112
           },
           {
             "type": "TSTypeReference",
-            "start": 119,
-            "end": 140,
             "typeName": {
               "type": "Identifier",
-              "start": 119,
-              "end": 140,
               "decorators": [],
               "name": "Uint8ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 119,
+              "end": 140
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 119,
+            "end": 140
           },
           {
             "type": "TSTypeReference",
-            "start": 147,
-            "end": 175,
             "typeName": {
               "type": "Identifier",
-              "start": 147,
-              "end": 175,
               "decorators": [],
               "name": "Uint8ClampedArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 147,
+              "end": 175
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 147,
+            "end": 175
           },
           {
             "type": "TSTypeReference",
-            "start": 182,
-            "end": 203,
             "typeName": {
               "type": "Identifier",
-              "start": 182,
-              "end": 203,
               "decorators": [],
               "name": "Int16ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 182,
+              "end": 203
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 182,
+            "end": 203
           },
           {
             "type": "TSTypeReference",
-            "start": 210,
-            "end": 232,
             "typeName": {
               "type": "Identifier",
-              "start": 210,
-              "end": 232,
               "decorators": [],
               "name": "Uint16ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 210,
+              "end": 232
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 210,
+            "end": 232
           },
           {
             "type": "TSTypeReference",
-            "start": 239,
-            "end": 260,
             "typeName": {
               "type": "Identifier",
-              "start": 239,
-              "end": 260,
               "decorators": [],
               "name": "Int32ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 239,
+              "end": 260
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 239,
+            "end": 260
           },
           {
             "type": "TSTypeReference",
-            "start": 267,
-            "end": 289,
             "typeName": {
               "type": "Identifier",
-              "start": 267,
-              "end": 289,
               "decorators": [],
               "name": "Uint32ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 267,
+              "end": 289
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 267,
+            "end": 289
           },
           {
             "type": "TSTypeReference",
-            "start": 296,
-            "end": 319,
             "typeName": {
               "type": "Identifier",
-              "start": 296,
-              "end": 319,
               "decorators": [],
               "name": "Float32ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 296,
+              "end": 319
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 296,
+            "end": 319
           },
           {
             "type": "TSTypeReference",
-            "start": 326,
-            "end": 349,
             "typeName": {
               "type": "Identifier",
-              "start": 326,
-              "end": 349,
               "decorators": [],
               "name": "Float64ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 326,
+              "end": 349
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 326,
+            "end": 349
           },
           {
             "type": "TSTypeReference",
-            "start": 356,
-            "end": 380,
             "typeName": {
               "type": "Identifier",
-              "start": 356,
-              "end": 380,
               "decorators": [],
               "name": "BigInt64ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 356,
+              "end": 380
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 356,
+            "end": 380
           },
           {
             "type": "TSTypeReference",
-            "start": 387,
-            "end": 412,
             "typeName": {
               "type": "Identifier",
-              "start": 387,
-              "end": 412,
               "decorators": [],
               "name": "BigUint64ArrayConstructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 387,
+              "end": 412
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 387,
+            "end": 412
           }
-        ]
+        ],
+        "start": 90,
+        "end": 412
       },
-      "declare": false
+      "declare": false,
+      "start": 57,
+      "end": 412
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 414,
-      "end": 545,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 421,
-        "end": 545,
         "id": {
           "type": "Identifier",
-          "start": 430,
-          "end": 444,
           "decorators": [],
           "name": "makeTypedArray",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 430,
+          "end": 444
         },
         "generator": false,
         "async": false,
@@ -217,156 +211,162 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "Identifier",
-            "start": 445,
-            "end": 464,
             "decorators": [],
             "name": "buffer",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 451,
-              "end": 464,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 453,
-                "end": 464,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 453,
-                  "end": 464,
                   "decorators": [],
                   "name": "ArrayBuffer",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 453,
+                  "end": 464
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 453,
+                "end": 464
+              },
+              "start": 451,
+              "end": 464
+            },
+            "start": 445,
+            "end": 464
           },
           {
             "type": "Identifier",
-            "start": 466,
-            "end": 492,
             "decorators": [],
             "name": "ctr",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 469,
-              "end": 492,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 471,
-                "end": 492,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 471,
-                  "end": 492,
                   "decorators": [],
                   "name": "TypedArrayConstructor",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 471,
+                  "end": 492
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 471,
+                "end": 492
+              },
+              "start": 469,
+              "end": 492
+            },
+            "start": 466,
+            "end": 492
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
-          "start": 494,
-          "end": 545,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 500,
-              "end": 516,
               "expression": {
                 "type": "NewExpression",
-                "start": 500,
-                "end": 515,
                 "callee": {
                   "type": "Identifier",
-                  "start": 504,
-                  "end": 507,
                   "decorators": [],
                   "name": "ctr",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 504,
+                  "end": 507
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 508,
-                    "end": 514,
                     "decorators": [],
                     "name": "buffer",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 508,
+                    "end": 514
                   }
-                ]
+                ],
+                "start": 500,
+                "end": 515
               },
-              "directive": null
+              "directive": null,
+              "start": 500,
+              "end": 516
             },
             {
               "type": "ExpressionStatement",
-              "start": 521,
-              "end": 543,
               "expression": {
                 "type": "NewExpression",
-                "start": 521,
-                "end": 542,
                 "callee": {
                   "type": "Identifier",
-                  "start": 525,
-                  "end": 528,
                   "decorators": [],
                   "name": "ctr",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 525,
+                  "end": 528
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 529,
-                    "end": 535,
                     "decorators": [],
                     "name": "buffer",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 529,
+                    "end": 535
                   },
                   {
                     "type": "Literal",
+                    "value": 0,
+                    "raw": "0",
                     "start": 537,
-                    "end": 538,
-                    "value": 0,
-                    "raw": "0"
+                    "end": 538
                   },
                   {
                     "type": "Literal",
-                    "start": 540,
-                    "end": 541,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 540,
+                    "end": 541
                   }
-                ]
+                ],
+                "start": 521,
+                "end": 542
               },
-              "directive": null
+              "directive": null,
+              "start": 521,
+              "end": 543
             }
-          ]
+          ],
+          "start": 494,
+          "end": 545
         },
-        "expression": false
+        "expression": false,
+        "start": 421,
+        "end": 545
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 414,
+      "end": 545
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 57,
+  "end": 545
 }
 ```

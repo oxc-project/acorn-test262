@@ -1,29 +1,29 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 238,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 229,
-      "end": 237,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 233,
-          "end": 236,
           "id": {
             "type": "Identifier",
+            "name": "NaN",
             "start": 233,
-            "end": 236,
-            "name": "NaN"
+            "end": 236
           },
-          "init": null
+          "init": null,
+          "start": 233,
+          "end": 236
         }
-      ]
+      ],
+      "start": 229,
+      "end": 237
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 238
 }

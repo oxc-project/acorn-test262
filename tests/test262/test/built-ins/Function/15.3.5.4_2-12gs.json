@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 455,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 359,
-      "end": 398,
       "expression": {
         "type": "CallExpression",
-        "start": 359,
-        "end": 397,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 359,
-          "end": 363,
-          "name": "eval"
+          "end": 363
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 364,
-            "end": 396,
             "value": "\"use strict\";\ngNonStrict();",
-            "raw": "\"\\\"use strict\\\";\\ngNonStrict();\""
+            "raw": "\"\\\"use strict\\\";\\ngNonStrict();\"",
+            "start": 364,
+            "end": 396
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 359,
+        "end": 397
+      },
+      "start": 359,
+      "end": 398
     },
     {
       "type": "FunctionDeclaration",
-      "start": 401,
-      "end": 454,
       "id": {
         "type": "Identifier",
+        "name": "gNonStrict",
         "start": 410,
-        "end": 420,
-        "name": "gNonStrict"
+        "end": 420
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 423,
-        "end": 454,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 427,
-            "end": 452,
             "argument": {
               "type": "MemberExpression",
-              "start": 434,
-              "end": 451,
               "object": {
                 "type": "Identifier",
+                "name": "gNonStrict",
                 "start": 434,
-                "end": 444,
-                "name": "gNonStrict"
+                "end": 444
               },
               "property": {
                 "type": "Identifier",
+                "name": "caller",
                 "start": 445,
-                "end": 451,
-                "name": "caller"
+                "end": 451
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 434,
+              "end": 451
+            },
+            "start": 427,
+            "end": 452
           }
-        ]
+        ],
+        "start": 423,
+        "end": 454
       },
-      "expression": false
+      "expression": false,
+      "start": 401,
+      "end": 454
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 455
 }

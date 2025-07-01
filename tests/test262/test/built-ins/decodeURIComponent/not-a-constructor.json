@@ -1,155 +1,155 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 874,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 690,
-      "end": 804,
       "expression": {
         "type": "CallExpression",
-        "start": 690,
-        "end": 803,
         "callee": {
           "type": "MemberExpression",
-          "start": 690,
-          "end": 706,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 690,
-            "end": 696,
-            "name": "assert"
+            "end": 696
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 697,
-            "end": 706,
-            "name": "sameValue"
+            "end": 706
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 690,
+          "end": 706
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 707,
-            "end": 740,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 707,
-              "end": 720,
-              "name": "isConstructor"
+              "end": 720
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "decodeURIComponent",
                 "start": 721,
-                "end": 739,
-                "name": "decodeURIComponent"
+                "end": 739
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 707,
+            "end": 740
           },
           {
             "type": "Literal",
-            "start": 742,
-            "end": 747,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 742,
+            "end": 747
           },
           {
             "type": "Literal",
-            "start": 749,
-            "end": 802,
             "value": "isConstructor(decodeURIComponent) must return false",
-            "raw": "'isConstructor(decodeURIComponent) must return false'"
+            "raw": "'isConstructor(decodeURIComponent) must return false'",
+            "start": 749,
+            "end": 802
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 690,
+        "end": 803
+      },
+      "start": 690,
+      "end": 804
     },
     {
       "type": "ExpressionStatement",
-      "start": 806,
-      "end": 872,
       "expression": {
         "type": "CallExpression",
-        "start": 806,
-        "end": 871,
         "callee": {
           "type": "MemberExpression",
-          "start": 806,
-          "end": 819,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 806,
-            "end": 812,
-            "name": "assert"
+            "end": 812
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 813,
-            "end": 819,
-            "name": "throws"
+            "end": 819
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 806,
+          "end": 819
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 820,
-            "end": 829,
-            "name": "TypeError"
+            "end": 829
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 831,
-            "end": 870,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 837,
-              "end": 870,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 841,
-                  "end": 868,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 841,
-                    "end": 867,
                     "callee": {
                       "type": "Identifier",
+                      "name": "decodeURIComponent",
                       "start": 845,
-                      "end": 863,
-                      "name": "decodeURIComponent"
+                      "end": 863
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 864,
-                        "end": 866,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "start": 864,
+                        "end": 866
                       }
-                    ]
-                  }
+                    ],
+                    "start": 841,
+                    "end": 867
+                  },
+                  "start": 841,
+                  "end": 868
                 }
-              ]
+              ],
+              "start": 837,
+              "end": 870
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 831,
+            "end": 870
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 806,
+        "end": 871
+      },
+      "start": 806,
+      "end": 872
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 874
 }

@@ -1,134 +1,134 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 573,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 490,
-      "end": 522,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 494,
-          "end": 521,
           "id": {
             "type": "Identifier",
+            "name": "canonical",
             "start": 494,
-            "end": 503,
-            "name": "canonical"
+            "end": 503
           },
           "init": {
             "type": "CallExpression",
-            "start": 506,
-            "end": 521,
             "callee": {
               "type": "MemberExpression",
-              "start": 506,
-              "end": 516,
               "object": {
                 "type": "Identifier",
+                "name": "Symbol",
                 "start": 506,
-                "end": 512,
-                "name": "Symbol"
+                "end": 512
               },
               "property": {
                 "type": "Identifier",
+                "name": "for",
                 "start": 513,
-                "end": 516,
-                "name": "for"
+                "end": 516
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 506,
+              "end": 516
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 517,
-                "end": 520,
                 "value": "s",
-                "raw": "'s'"
+                "raw": "'s'",
+                "start": 517,
+                "end": 520
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 506,
+            "end": 521
+          },
+          "start": 494,
+          "end": 521
         }
-      ]
+      ],
+      "start": 490,
+      "end": 522
     },
     {
       "type": "ExpressionStatement",
-      "start": 524,
-      "end": 572,
       "expression": {
         "type": "CallExpression",
-        "start": 524,
-        "end": 571,
         "callee": {
           "type": "MemberExpression",
-          "start": 524,
-          "end": 540,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 524,
-            "end": 530,
-            "name": "assert"
+            "end": 530
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 531,
-            "end": 540,
-            "name": "sameValue"
+            "end": 540
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 524,
+          "end": 540
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 541,
-            "end": 565,
             "callee": {
               "type": "MemberExpression",
-              "start": 541,
-              "end": 554,
               "object": {
                 "type": "Identifier",
+                "name": "Symbol",
                 "start": 541,
-                "end": 547,
-                "name": "Symbol"
+                "end": 547
               },
               "property": {
                 "type": "Identifier",
+                "name": "keyFor",
                 "start": 548,
-                "end": 554,
-                "name": "keyFor"
+                "end": 554
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 541,
+              "end": 554
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "canonical",
                 "start": 555,
-                "end": 564,
-                "name": "canonical"
+                "end": 564
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 541,
+            "end": 565
           },
           {
             "type": "Literal",
-            "start": 567,
-            "end": 570,
             "value": "s",
-            "raw": "'s'"
+            "raw": "'s'",
+            "start": 567,
+            "end": 570
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 524,
+        "end": 571
+      },
+      "start": 524,
+      "end": 572
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 573
 }

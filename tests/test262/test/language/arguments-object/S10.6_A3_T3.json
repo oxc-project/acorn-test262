@@ -1,367 +1,367 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 854,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 365,
-      "end": 417,
       "id": {
         "type": "Identifier",
+        "name": "f1",
         "start": 374,
-        "end": 376,
-        "name": "f1"
+        "end": 376
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 378,
-        "end": 417,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 382,
-            "end": 415,
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 389,
-              "end": 414,
               "expression": {
                 "type": "UnaryExpression",
-                "start": 390,
-                "end": 413,
                 "operator": "delete",
                 "argument": {
                   "type": "MemberExpression",
-                  "start": 397,
-                  "end": 413,
                   "object": {
                     "type": "Identifier",
+                    "name": "arguments",
                     "start": 397,
-                    "end": 406,
-                    "name": "arguments"
+                    "end": 406
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "callee",
                     "start": 407,
-                    "end": 413,
-                    "name": "callee"
+                    "end": 413
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 397,
+                  "end": 413
                 },
-                "prefix": true
-              }
-            }
+                "prefix": true,
+                "start": 390,
+                "end": 413
+              },
+              "start": 389,
+              "end": 414
+            },
+            "start": 382,
+            "end": 415
           }
-        ]
+        ],
+        "start": 378,
+        "end": 417
       },
-      "expression": false
+      "expression": false,
+      "start": 365,
+      "end": 417
     },
     {
       "type": "TryStatement",
-      "start": 419,
-      "end": 600,
       "block": {
         "type": "BlockStatement",
-        "start": 422,
-        "end": 525,
         "body": [
           {
             "type": "IfStatement",
-            "start": 426,
-            "end": 523,
             "test": {
               "type": "UnaryExpression",
-              "start": 429,
-              "end": 434,
               "operator": "!",
               "argument": {
                 "type": "CallExpression",
-                "start": 430,
-                "end": 434,
                 "callee": {
                   "type": "Identifier",
+                  "name": "f1",
                   "start": 430,
-                  "end": 432,
-                  "name": "f1"
+                  "end": 432
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 430,
+                "end": 434
               },
-              "prefix": true
+              "prefix": true,
+              "start": 429,
+              "end": 434
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 435,
-              "end": 523,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 441,
-                  "end": 519,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 447,
-                    "end": 518,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Test262Error",
                       "start": 451,
-                      "end": 463,
-                      "name": "Test262Error"
+                      "end": 463
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 464,
-                        "end": 517,
                         "value": "#1: A property callee have attribute { DontDelete }",
-                        "raw": "\"#1: A property callee have attribute { DontDelete }\""
+                        "raw": "\"#1: A property callee have attribute { DontDelete }\"",
+                        "start": 464,
+                        "end": 517
                       }
-                    ]
-                  }
+                    ],
+                    "start": 447,
+                    "end": 518
+                  },
+                  "start": 441,
+                  "end": 519
                 }
-              ]
+              ],
+              "start": 435,
+              "end": 523
             },
-            "alternate": null
+            "alternate": null,
+            "start": 426,
+            "end": 523
           }
-        ]
+        ],
+        "start": 422,
+        "end": 525
       },
       "handler": {
         "type": "CatchClause",
-        "start": 526,
-        "end": 600,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 532,
-          "end": 533,
-          "name": "e"
+          "end": 533
         },
         "body": {
           "type": "BlockStatement",
-          "start": 534,
-          "end": 600,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 538,
-              "end": 598,
               "argument": {
                 "type": "NewExpression",
-                "start": 544,
-                "end": 597,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 548,
-                  "end": 560,
-                  "name": "Test262Error"
+                  "end": 560
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 561,
-                    "end": 596,
                     "value": "#1: arguments object don't exists",
-                    "raw": "\"#1: arguments object don't exists\""
+                    "raw": "\"#1: arguments object don't exists\"",
+                    "start": 561,
+                    "end": 596
                   }
-                ]
-              }
+                ],
+                "start": 544,
+                "end": 597
+              },
+              "start": 538,
+              "end": 598
             }
-          ]
-        }
+          ],
+          "start": 534,
+          "end": 600
+        },
+        "start": 526,
+        "end": 600
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 419,
+      "end": 600
     },
     {
       "type": "VariableDeclaration",
-      "start": 612,
-      "end": 670,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 616,
-          "end": 670,
           "id": {
             "type": "Identifier",
+            "name": "f2",
             "start": 616,
-            "end": 618,
-            "name": "f2"
+            "end": 618
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 621,
-            "end": 670,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 631,
-              "end": 670,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 635,
-                  "end": 668,
                   "argument": {
                     "type": "ParenthesizedExpression",
-                    "start": 642,
-                    "end": 667,
                     "expression": {
                       "type": "UnaryExpression",
-                      "start": 643,
-                      "end": 666,
                       "operator": "delete",
                       "argument": {
                         "type": "MemberExpression",
-                        "start": 650,
-                        "end": 666,
                         "object": {
                           "type": "Identifier",
+                          "name": "arguments",
                           "start": 650,
-                          "end": 659,
-                          "name": "arguments"
+                          "end": 659
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "callee",
                           "start": 660,
-                          "end": 666,
-                          "name": "callee"
+                          "end": 666
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 650,
+                        "end": 666
                       },
-                      "prefix": true
-                    }
-                  }
+                      "prefix": true,
+                      "start": 643,
+                      "end": 666
+                    },
+                    "start": 642,
+                    "end": 667
+                  },
+                  "start": 635,
+                  "end": 668
                 }
-              ]
+              ],
+              "start": 631,
+              "end": 670
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 621,
+            "end": 670
+          },
+          "start": 616,
+          "end": 670
         }
-      ]
+      ],
+      "start": 612,
+      "end": 670
     },
     {
       "type": "TryStatement",
-      "start": 672,
-      "end": 853,
       "block": {
         "type": "BlockStatement",
-        "start": 675,
-        "end": 778,
         "body": [
           {
             "type": "IfStatement",
-            "start": 679,
-            "end": 776,
             "test": {
               "type": "UnaryExpression",
-              "start": 682,
-              "end": 687,
               "operator": "!",
               "argument": {
                 "type": "CallExpression",
-                "start": 683,
-                "end": 687,
                 "callee": {
                   "type": "Identifier",
+                  "name": "f2",
                   "start": 683,
-                  "end": 685,
-                  "name": "f2"
+                  "end": 685
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 683,
+                "end": 687
               },
-              "prefix": true
+              "prefix": true,
+              "start": 682,
+              "end": 687
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 688,
-              "end": 776,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 694,
-                  "end": 772,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 700,
-                    "end": 771,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Test262Error",
                       "start": 704,
-                      "end": 716,
-                      "name": "Test262Error"
+                      "end": 716
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 717,
-                        "end": 770,
                         "value": "#2: A property callee have attribute { DontDelete }",
-                        "raw": "\"#2: A property callee have attribute { DontDelete }\""
+                        "raw": "\"#2: A property callee have attribute { DontDelete }\"",
+                        "start": 717,
+                        "end": 770
                       }
-                    ]
-                  }
+                    ],
+                    "start": 700,
+                    "end": 771
+                  },
+                  "start": 694,
+                  "end": 772
                 }
-              ]
+              ],
+              "start": 688,
+              "end": 776
             },
-            "alternate": null
+            "alternate": null,
+            "start": 679,
+            "end": 776
           }
-        ]
+        ],
+        "start": 675,
+        "end": 778
       },
       "handler": {
         "type": "CatchClause",
-        "start": 779,
-        "end": 853,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 785,
-          "end": 786,
-          "name": "e"
+          "end": 786
         },
         "body": {
           "type": "BlockStatement",
-          "start": 787,
-          "end": 853,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 791,
-              "end": 851,
               "argument": {
                 "type": "NewExpression",
-                "start": 797,
-                "end": 850,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 801,
-                  "end": 813,
-                  "name": "Test262Error"
+                  "end": 813
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 814,
-                    "end": 849,
                     "value": "#2: arguments object don't exists",
-                    "raw": "\"#2: arguments object don't exists\""
+                    "raw": "\"#2: arguments object don't exists\"",
+                    "start": 814,
+                    "end": 849
                   }
-                ]
-              }
+                ],
+                "start": 797,
+                "end": 850
+              },
+              "start": 791,
+              "end": 851
             }
-          ]
-        }
+          ],
+          "start": 787,
+          "end": 853
+        },
+        "start": 779,
+        "end": 853
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 672,
+      "end": 853
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 854
 }

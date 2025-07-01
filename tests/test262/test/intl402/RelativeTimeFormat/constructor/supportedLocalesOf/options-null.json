@@ -1,214 +1,214 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 801,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 484,
-      "end": 643,
       "expression": {
         "type": "CallExpression",
-        "start": 484,
-        "end": 642,
         "callee": {
           "type": "MemberExpression",
-          "start": 484,
-          "end": 500,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 484,
-            "end": 490,
-            "name": "assert"
+            "end": 490
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 491,
-            "end": 500,
-            "name": "sameValue"
+            "end": 500
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 484,
+          "end": 500
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 501,
-            "end": 550,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 508,
-              "end": 550,
               "object": {
                 "type": "MemberExpression",
-                "start": 508,
-                "end": 531,
                 "object": {
                   "type": "Identifier",
+                  "name": "Intl",
                   "start": 508,
-                  "end": 512,
-                  "name": "Intl"
+                  "end": 512
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "RelativeTimeFormat",
                   "start": 513,
-                  "end": 531,
-                  "name": "RelativeTimeFormat"
+                  "end": 531
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 508,
+                "end": 531
               },
               "property": {
                 "type": "Identifier",
+                "name": "supportedLocalesOf",
                 "start": 532,
-                "end": 550,
-                "name": "supportedLocalesOf"
+                "end": 550
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 508,
+              "end": 550
             },
-            "prefix": true
+            "prefix": true,
+            "start": 501,
+            "end": 550
           },
           {
             "type": "Literal",
-            "start": 552,
-            "end": 562,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 552,
+            "end": 562
           },
           {
             "type": "Literal",
-            "start": 581,
-            "end": 641,
             "value": "Should support Intl.RelativeTimeFormat.supportedLocalesOf.",
-            "raw": "\"Should support Intl.RelativeTimeFormat.supportedLocalesOf.\""
+            "raw": "\"Should support Intl.RelativeTimeFormat.supportedLocalesOf.\"",
+            "start": 581,
+            "end": 641
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 484,
+        "end": 642
+      },
+      "start": 484,
+      "end": 643
     },
     {
       "type": "ExpressionStatement",
-      "start": 645,
-      "end": 800,
       "expression": {
         "type": "CallExpression",
-        "start": 645,
-        "end": 799,
         "callee": {
           "type": "MemberExpression",
-          "start": 645,
-          "end": 658,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 645,
-            "end": 651,
-            "name": "assert"
+            "end": 651
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 652,
-            "end": 658,
-            "name": "throws"
+            "end": 658
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 645,
+          "end": 658
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 659,
-            "end": 668,
-            "name": "TypeError"
+            "end": 668
           },
           {
             "type": "FunctionExpression",
-            "start": 670,
-            "end": 740,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 681,
-              "end": 740,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 685,
-                  "end": 738,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 685,
-                    "end": 737,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 685,
-                      "end": 727,
                       "object": {
                         "type": "MemberExpression",
-                        "start": 685,
-                        "end": 708,
                         "object": {
                           "type": "Identifier",
+                          "name": "Intl",
                           "start": 685,
-                          "end": 689,
-                          "name": "Intl"
+                          "end": 689
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "RelativeTimeFormat",
                           "start": 690,
-                          "end": 708,
-                          "name": "RelativeTimeFormat"
+                          "end": 708
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 685,
+                        "end": 708
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "supportedLocalesOf",
                         "start": 709,
-                        "end": 727,
-                        "name": "supportedLocalesOf"
+                        "end": 727
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 685,
+                      "end": 727
                     },
                     "arguments": [
                       {
                         "type": "ArrayExpression",
+                        "elements": [],
                         "start": 728,
-                        "end": 730,
-                        "elements": []
+                        "end": 730
                       },
                       {
                         "type": "Literal",
-                        "start": 732,
-                        "end": 736,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 732,
+                        "end": 736
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 685,
+                    "end": 737
+                  },
+                  "start": 685,
+                  "end": 738
                 }
-              ]
+              ],
+              "start": 681,
+              "end": 740
             },
-            "expression": false
+            "expression": false,
+            "start": 670,
+            "end": 740
           },
           {
             "type": "Literal",
-            "start": 742,
-            "end": 798,
             "value": "Should throw when passing null as the options argument",
-            "raw": "\"Should throw when passing null as the options argument\""
+            "raw": "\"Should throw when passing null as the options argument\"",
+            "start": 742,
+            "end": 798
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 645,
+        "end": 799
+      },
+      "start": 645,
+      "end": 800
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 801
 }

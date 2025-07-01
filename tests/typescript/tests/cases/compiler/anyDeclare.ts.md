@@ -2,98 +2,90 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 75,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 19,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 12,
-          "end": 18,
           "id": {
             "type": "Identifier",
-            "start": 12,
-            "end": 18,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 18,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 15,
                 "end": 18
-              }
-            }
+              },
+              "start": 13,
+              "end": 18
+            },
+            "start": 12,
+            "end": 18
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 12,
+          "end": 18
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 19
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 20,
-      "end": 75,
       "id": {
         "type": "Identifier",
-        "start": 27,
-        "end": 32,
         "decorators": [],
         "name": "myMod",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 27,
+        "end": 32
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 33,
-        "end": 75,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 39,
-            "end": 48,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 43,
-                "end": 47,
                 "id": {
                   "type": "Identifier",
-                  "start": 43,
-                  "end": 47,
                   "decorators": [],
                   "name": "myFn",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 43,
+                  "end": 47
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 43,
+                "end": 47
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 39,
+            "end": 48
           },
           {
             "type": "FunctionDeclaration",
-            "start": 53,
-            "end": 73,
             "id": {
               "type": "Identifier",
-              "start": 62,
-              "end": 66,
               "decorators": [],
               "name": "myFn",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 62,
+              "end": 66
             },
             "generator": false,
             "async": false,
@@ -103,20 +95,28 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 69,
-              "end": 73,
-              "body": []
+              "end": 73
             },
-            "expression": false
+            "expression": false,
+            "start": 53,
+            "end": 73
           }
-        ]
+        ],
+        "start": 33,
+        "end": 75
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 20,
+      "end": 75
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 75
 }
 ```

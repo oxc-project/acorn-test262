@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 326,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 264,
-      "end": 325,
       "expression": {
         "type": "CallExpression",
-        "start": 264,
-        "end": 324,
         "callee": {
           "type": "MemberExpression",
-          "start": 264,
-          "end": 280,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 264,
-            "end": 270,
-            "name": "assert"
+            "end": 270
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 271,
-            "end": 280,
-            "name": "sameValue"
+            "end": 280
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 264,
+          "end": 280
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 281,
-            "end": 297,
             "callee": {
               "type": "MemberExpression",
-              "start": 281,
-              "end": 291,
               "object": {
                 "type": "Identifier",
+                "name": "JSON",
                 "start": 281,
-                "end": 285,
-                "name": "JSON"
+                "end": 285
               },
               "property": {
                 "type": "Identifier",
+                "name": "parse",
                 "start": 286,
-                "end": 291,
-                "name": "parse"
+                "end": 291
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 281,
+              "end": 291
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 292,
-                "end": 296,
                 "value": "\"\"",
-                "raw": "'\"\"'"
+                "raw": "'\"\"'",
+                "start": 292,
+                "end": 296
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 281,
+            "end": 297
           },
           {
             "type": "Literal",
-            "start": 299,
-            "end": 301,
             "value": "",
-            "raw": "\"\""
+            "raw": "\"\"",
+            "start": 299,
+            "end": 301
           },
           {
             "type": "Literal",
-            "start": 303,
-            "end": 323,
             "value": "JSON.parse('\"\"')",
-            "raw": "'JSON.parse(\\'\"\"\\')'"
+            "raw": "'JSON.parse(\\'\"\"\\')'",
+            "start": 303,
+            "end": 323
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 264,
+        "end": 324
+      },
+      "start": 264,
+      "end": 325
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 326
 }

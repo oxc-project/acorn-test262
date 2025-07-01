@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 409,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 345,
-      "end": 408,
       "expression": {
         "type": "CallExpression",
-        "start": 345,
-        "end": 407,
         "callee": {
           "type": "MemberExpression",
-          "start": 345,
-          "end": 361,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 345,
-            "end": 351,
-            "name": "assert"
+            "end": 351
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 352,
-            "end": 361,
-            "name": "sameValue"
+            "end": 361
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 345,
+          "end": 361
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 362,
-            "end": 390,
             "callee": {
               "type": "MemberExpression",
-              "start": 362,
-              "end": 388,
               "object": {
                 "type": "NewExpression",
-                "start": 362,
-                "end": 375,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 366,
-                  "end": 370,
-                  "name": "Date"
+                  "end": 370
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "NaN",
                     "start": 371,
-                    "end": 374,
-                    "name": "NaN"
+                    "end": 374
                   }
-                ]
+                ],
+                "start": 362,
+                "end": 375
               },
               "property": {
                 "type": "Identifier",
+                "name": "toTimeString",
                 "start": 376,
-                "end": 388,
-                "name": "toTimeString"
+                "end": 388
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 362,
+              "end": 388
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 362,
+            "end": 390
           },
           {
             "type": "Literal",
-            "start": 392,
-            "end": 406,
             "value": "Invalid Date",
-            "raw": "\"Invalid Date\""
+            "raw": "\"Invalid Date\"",
+            "start": 392,
+            "end": 406
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 345,
+        "end": 407
+      },
+      "start": 345,
+      "end": 408
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 409
 }

@@ -1,128 +1,128 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 332,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 244,
-      "end": 331,
       "expression": {
         "type": "CallExpression",
-        "start": 244,
-        "end": 330,
         "callee": {
           "type": "MemberExpression",
-          "start": 244,
-          "end": 260,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 244,
-            "end": 250,
-            "name": "assert"
+            "end": 250
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 251,
-            "end": 260,
-            "name": "sameValue"
+            "end": 260
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 244,
+          "end": 260
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 261,
-            "end": 291,
             "callee": {
               "type": "MemberExpression",
-              "start": 261,
-              "end": 286,
               "object": {
                 "type": "ArrayExpression",
-                "start": 261,
-                "end": 278,
                 "elements": [
                   {
                     "type": "UnaryExpression",
-                    "start": 262,
-                    "end": 266,
                     "operator": "+",
                     "argument": {
                       "type": "Identifier",
+                      "name": "NaN",
                       "start": 263,
-                      "end": 266,
-                      "name": "NaN"
+                      "end": 266
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 262,
+                    "end": 266
                   },
                   {
                     "type": "Identifier",
+                    "name": "NaN",
                     "start": 268,
-                    "end": 271,
-                    "name": "NaN"
+                    "end": 271
                   },
                   {
                     "type": "UnaryExpression",
-                    "start": 273,
-                    "end": 277,
                     "operator": "-",
                     "argument": {
                       "type": "Identifier",
+                      "name": "NaN",
                       "start": 274,
-                      "end": 277,
-                      "name": "NaN"
+                      "end": 277
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 273,
+                    "end": 277
                   }
-                ]
+                ],
+                "start": 261,
+                "end": 278
               },
               "property": {
                 "type": "Identifier",
+                "name": "indexOf",
                 "start": 279,
-                "end": 286,
-                "name": "indexOf"
+                "end": 286
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 261,
+              "end": 286
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 287,
-                "end": 290,
-                "name": "NaN"
+                "end": 290
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 261,
+            "end": 291
           },
           {
             "type": "UnaryExpression",
-            "start": 293,
-            "end": 295,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 294,
-              "end": 295,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 294,
+              "end": 295
             },
-            "prefix": true
+            "prefix": true,
+            "start": 293,
+            "end": 295
           },
           {
             "type": "Literal",
-            "start": 297,
-            "end": 329,
             "value": "[+NaN, NaN, -NaN].indexOf(NaN)",
-            "raw": "'[+NaN, NaN, -NaN].indexOf(NaN)'"
+            "raw": "'[+NaN, NaN, -NaN].indexOf(NaN)'",
+            "start": 297,
+            "end": 329
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 244,
+        "end": 330
+      },
+      "start": 244,
+      "end": 331
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 332
 }

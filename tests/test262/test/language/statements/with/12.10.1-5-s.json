@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 377,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 299,
-      "end": 376,
       "expression": {
         "type": "CallExpression",
-        "start": 299,
-        "end": 375,
         "callee": {
           "type": "Identifier",
+          "name": "Function",
           "start": 299,
-          "end": 307,
-          "name": "Function"
+          "end": 307
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 308,
-            "end": 374,
             "value": "'use strict'; var f1 = Function( \"var o = {}; with (o) {};\")",
-            "raw": "\"\\'use strict\\'; var f1 = Function( \\\"var o = {}; with (o) {};\\\")\""
+            "raw": "\"\\'use strict\\'; var f1 = Function( \\\"var o = {}; with (o) {};\\\")\"",
+            "start": 308,
+            "end": 374
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 299,
+        "end": 375
+      },
+      "start": 299,
+      "end": 376
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 377
 }

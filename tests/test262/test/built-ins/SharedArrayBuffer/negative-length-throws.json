@@ -1,269 +1,269 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 923,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 696,
-      "end": 767,
       "expression": {
         "type": "CallExpression",
-        "start": 696,
-        "end": 766,
         "callee": {
           "type": "MemberExpression",
-          "start": 696,
-          "end": 709,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 696,
-            "end": 702,
-            "name": "assert"
+            "end": 702
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 703,
-            "end": 709,
-            "name": "throws"
+            "end": 709
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 696,
+          "end": 709
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 710,
-            "end": 720,
-            "name": "RangeError"
+            "end": 720
           },
           {
             "type": "FunctionExpression",
-            "start": 722,
-            "end": 765,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 733,
-              "end": 765,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 737,
-                  "end": 763,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 737,
-                    "end": 762,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SharedArrayBuffer",
                       "start": 741,
-                      "end": 758,
-                      "name": "SharedArrayBuffer"
+                      "end": 758
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 759,
-                        "end": 761,
                         "operator": "-",
                         "argument": {
                           "type": "Literal",
-                          "start": 760,
-                          "end": 761,
                           "value": 1,
-                          "raw": "1"
+                          "raw": "1",
+                          "start": 760,
+                          "end": 761
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 759,
+                        "end": 761
                       }
-                    ]
-                  }
+                    ],
+                    "start": 737,
+                    "end": 762
+                  },
+                  "start": 737,
+                  "end": 763
                 }
-              ]
+              ],
+              "start": 733,
+              "end": 765
             },
-            "expression": false
+            "expression": false,
+            "start": 722,
+            "end": 765
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 696,
+        "end": 766
+      },
+      "start": 696,
+      "end": 767
     },
     {
       "type": "ExpressionStatement",
-      "start": 769,
-      "end": 842,
       "expression": {
         "type": "CallExpression",
-        "start": 769,
-        "end": 841,
         "callee": {
           "type": "MemberExpression",
-          "start": 769,
-          "end": 782,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 769,
-            "end": 775,
-            "name": "assert"
+            "end": 775
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 776,
-            "end": 782,
-            "name": "throws"
+            "end": 782
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 769,
+          "end": 782
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 783,
-            "end": 793,
-            "name": "RangeError"
+            "end": 793
           },
           {
             "type": "FunctionExpression",
-            "start": 795,
-            "end": 840,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 806,
-              "end": 840,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 810,
-                  "end": 838,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 810,
-                    "end": 837,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SharedArrayBuffer",
                       "start": 814,
-                      "end": 831,
-                      "name": "SharedArrayBuffer"
+                      "end": 831
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 832,
-                        "end": 836,
                         "operator": "-",
                         "argument": {
                           "type": "Literal",
-                          "start": 833,
-                          "end": 836,
                           "value": 1.1,
-                          "raw": "1.1"
+                          "raw": "1.1",
+                          "start": 833,
+                          "end": 836
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 832,
+                        "end": 836
                       }
-                    ]
-                  }
+                    ],
+                    "start": 810,
+                    "end": 837
+                  },
+                  "start": 810,
+                  "end": 838
                 }
-              ]
+              ],
+              "start": 806,
+              "end": 840
             },
-            "expression": false
+            "expression": false,
+            "start": 795,
+            "end": 840
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 769,
+        "end": 841
+      },
+      "start": 769,
+      "end": 842
     },
     {
       "type": "ExpressionStatement",
-      "start": 844,
-      "end": 922,
       "expression": {
         "type": "CallExpression",
-        "start": 844,
-        "end": 921,
         "callee": {
           "type": "MemberExpression",
-          "start": 844,
-          "end": 857,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 844,
-            "end": 850,
-            "name": "assert"
+            "end": 850
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 851,
-            "end": 857,
-            "name": "throws"
+            "end": 857
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 844,
+          "end": 857
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 858,
-            "end": 868,
-            "name": "RangeError"
+            "end": 868
           },
           {
             "type": "FunctionExpression",
-            "start": 870,
-            "end": 920,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 881,
-              "end": 920,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 885,
-                  "end": 918,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 885,
-                    "end": 917,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SharedArrayBuffer",
                       "start": 889,
-                      "end": 906,
-                      "name": "SharedArrayBuffer"
+                      "end": 906
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 907,
-                        "end": 916,
                         "operator": "-",
                         "argument": {
                           "type": "Identifier",
+                          "name": "Infinity",
                           "start": 908,
-                          "end": 916,
-                          "name": "Infinity"
+                          "end": 916
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 907,
+                        "end": 916
                       }
-                    ]
-                  }
+                    ],
+                    "start": 885,
+                    "end": 917
+                  },
+                  "start": 885,
+                  "end": 918
                 }
-              ]
+              ],
+              "start": 881,
+              "end": 920
             },
-            "expression": false
+            "expression": false,
+            "start": 870,
+            "end": 920
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 844,
+        "end": 921
+      },
+      "start": 844,
+      "end": 922
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 923
 }

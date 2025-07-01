@@ -2,103 +2,103 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 11,
-  "end": 70,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 11,
-      "end": 70,
       "declaration": {
         "type": "ObjectExpression",
-        "start": 26,
-        "end": 70,
         "properties": [
           {
             "type": "Property",
-            "start": 30,
-            "end": 37,
             "kind": "init",
             "key": {
               "type": "Identifier",
-              "start": 30,
-              "end": 33,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 30,
+              "end": 33
             },
             "value": {
               "type": "ArrayExpression",
+              "elements": [],
               "start": 35,
-              "end": 37,
-              "elements": []
+              "end": 37
             },
             "method": false,
             "shorthand": false,
             "computed": false,
-            "optional": false
+            "optional": false,
+            "start": 30,
+            "end": 37
           },
           {
             "type": "Property",
-            "start": 41,
-            "end": 55,
             "kind": "init",
             "key": {
               "type": "Identifier",
-              "start": 41,
-              "end": 44,
               "decorators": [],
               "name": "bar",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 41,
+              "end": 44
             },
             "value": {
               "type": "Identifier",
-              "start": 46,
-              "end": 55,
               "decorators": [],
               "name": "undefined",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 46,
+              "end": 55
             },
             "method": false,
             "shorthand": false,
             "computed": false,
-            "optional": false
+            "optional": false,
+            "start": 41,
+            "end": 55
           },
           {
             "type": "Property",
-            "start": 59,
-            "end": 68,
             "kind": "init",
             "key": {
               "type": "Identifier",
-              "start": 59,
-              "end": 62,
               "decorators": [],
               "name": "baz",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 59,
+              "end": 62
             },
             "value": {
               "type": "Literal",
-              "start": 64,
-              "end": 68,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "start": 64,
+              "end": 68
             },
             "method": false,
             "shorthand": false,
             "computed": false,
-            "optional": false
+            "optional": false,
+            "start": 59,
+            "end": 68
           }
-        ]
+        ],
+        "start": 26,
+        "end": 70
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 11,
+      "end": 70
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 11,
+  "end": 70
 }
 ```

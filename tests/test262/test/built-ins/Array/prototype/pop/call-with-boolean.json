@@ -1,219 +1,219 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 471,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 235,
-      "end": 351,
       "expression": {
         "type": "CallExpression",
-        "start": 235,
-        "end": 350,
         "callee": {
           "type": "MemberExpression",
-          "start": 235,
-          "end": 251,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 235,
-            "end": 241,
-            "name": "assert"
+            "end": 241
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 242,
-            "end": 251,
-            "name": "sameValue"
+            "end": 251
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 235,
+          "end": 251
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 252,
-            "end": 282,
             "callee": {
               "type": "MemberExpression",
-              "start": 252,
-              "end": 276,
               "object": {
                 "type": "MemberExpression",
-                "start": 252,
-                "end": 271,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 252,
-                  "end": 267,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 252,
-                    "end": 257,
-                    "name": "Array"
+                    "end": 257
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 258,
-                    "end": 267,
-                    "name": "prototype"
+                    "end": 267
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 252,
+                  "end": 267
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "pop",
                   "start": 268,
-                  "end": 271,
-                  "name": "pop"
+                  "end": 271
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 252,
+                "end": 271
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 272,
-                "end": 276,
-                "name": "call"
+                "end": 276
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 252,
+              "end": 276
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 277,
-                "end": 281,
                 "value": true,
-                "raw": "true"
+                "raw": "true",
+                "start": 277,
+                "end": 281
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 252,
+            "end": 282
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 284,
-            "end": 293,
-            "name": "undefined"
+            "end": 293
           },
           {
             "type": "Literal",
-            "start": 295,
-            "end": 349,
             "value": "Array.prototype.pop.call(true) must return undefined",
-            "raw": "'Array.prototype.pop.call(true) must return undefined'"
+            "raw": "'Array.prototype.pop.call(true) must return undefined'",
+            "start": 295,
+            "end": 349
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 235,
+        "end": 350
+      },
+      "start": 235,
+      "end": 351
     },
     {
       "type": "ExpressionStatement",
-      "start": 352,
-      "end": 470,
       "expression": {
         "type": "CallExpression",
-        "start": 352,
-        "end": 469,
         "callee": {
           "type": "MemberExpression",
-          "start": 352,
-          "end": 368,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 352,
-            "end": 358,
-            "name": "assert"
+            "end": 358
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 359,
-            "end": 368,
-            "name": "sameValue"
+            "end": 368
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 352,
+          "end": 368
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 369,
-            "end": 400,
             "callee": {
               "type": "MemberExpression",
-              "start": 369,
-              "end": 393,
               "object": {
                 "type": "MemberExpression",
-                "start": 369,
-                "end": 388,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 369,
-                  "end": 384,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 369,
-                    "end": 374,
-                    "name": "Array"
+                    "end": 374
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 375,
-                    "end": 384,
-                    "name": "prototype"
+                    "end": 384
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 369,
+                  "end": 384
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "pop",
                   "start": 385,
-                  "end": 388,
-                  "name": "pop"
+                  "end": 388
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 369,
+                "end": 388
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 389,
-                "end": 393,
-                "name": "call"
+                "end": 393
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 369,
+              "end": 393
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 394,
-                "end": 399,
                 "value": false,
-                "raw": "false"
+                "raw": "false",
+                "start": 394,
+                "end": 399
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 369,
+            "end": 400
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 402,
-            "end": 411,
-            "name": "undefined"
+            "end": 411
           },
           {
             "type": "Literal",
-            "start": 413,
-            "end": 468,
             "value": "Array.prototype.pop.call(false) must return undefined",
-            "raw": "'Array.prototype.pop.call(false) must return undefined'"
+            "raw": "'Array.prototype.pop.call(false) must return undefined'",
+            "start": 413,
+            "end": 468
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 352,
+        "end": 469
+      },
+      "start": 352,
+      "end": 470
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 471
 }

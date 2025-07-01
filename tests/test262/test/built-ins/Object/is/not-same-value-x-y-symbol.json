@@ -1,223 +1,223 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 669,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 387,
-      "end": 501,
       "expression": {
         "type": "CallExpression",
-        "start": 387,
-        "end": 500,
         "callee": {
           "type": "MemberExpression",
-          "start": 387,
-          "end": 403,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 387,
-            "end": 393,
-            "name": "assert"
+            "end": 393
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 394,
-            "end": 403,
-            "name": "sameValue"
+            "end": 403
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 387,
+          "end": 403
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 407,
-            "end": 436,
             "callee": {
               "type": "MemberExpression",
-              "start": 407,
-              "end": 416,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 407,
-                "end": 413,
-                "name": "Object"
+                "end": 413
               },
               "property": {
                 "type": "Identifier",
+                "name": "is",
                 "start": 414,
-                "end": 416,
-                "name": "is"
+                "end": 416
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 407,
+              "end": 416
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 417,
-                "end": 425,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 417,
-                  "end": 423,
-                  "name": "Symbol"
+                  "end": 423
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 417,
+                "end": 425
               },
               {
                 "type": "CallExpression",
-                "start": 427,
-                "end": 435,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 427,
-                  "end": 433,
-                  "name": "Symbol"
+                  "end": 433
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 427,
+                "end": 435
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 407,
+            "end": 436
           },
           {
             "type": "Literal",
-            "start": 440,
-            "end": 445,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 440,
+            "end": 445
           },
           {
             "type": "Literal",
-            "start": 449,
-            "end": 498,
             "value": "`Object.is(Symbol(), Symbol())` returns `false`",
-            "raw": "\"`Object.is(Symbol(), Symbol())` returns `false`\""
+            "raw": "\"`Object.is(Symbol(), Symbol())` returns `false`\"",
+            "start": 449,
+            "end": 498
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 387,
+        "end": 500
+      },
+      "start": 387,
+      "end": 501
     },
     {
       "type": "ExpressionStatement",
-      "start": 502,
-      "end": 668,
       "expression": {
         "type": "CallExpression",
-        "start": 502,
-        "end": 667,
         "callee": {
           "type": "MemberExpression",
-          "start": 502,
-          "end": 518,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 502,
-            "end": 508,
-            "name": "assert"
+            "end": 508
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 509,
-            "end": 518,
-            "name": "sameValue"
+            "end": 518
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 502,
+          "end": 518
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 522,
-            "end": 577,
             "callee": {
               "type": "MemberExpression",
-              "start": 522,
-              "end": 531,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 522,
-                "end": 528,
-                "name": "Object"
+                "end": 528
               },
               "property": {
                 "type": "Identifier",
+                "name": "is",
                 "start": 529,
-                "end": 531,
-                "name": "is"
+                "end": 531
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 522,
+              "end": 531
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 532,
-                "end": 553,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 532,
-                  "end": 538,
-                  "name": "Symbol"
+                  "end": 538
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 539,
-                    "end": 552,
                     "value": "description",
-                    "raw": "'description'"
+                    "raw": "'description'",
+                    "start": 539,
+                    "end": 552
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 532,
+                "end": 553
               },
               {
                 "type": "CallExpression",
-                "start": 555,
-                "end": 576,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 555,
-                  "end": 561,
-                  "name": "Symbol"
+                  "end": 561
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 562,
-                    "end": 575,
                     "value": "description",
-                    "raw": "'description'"
+                    "raw": "'description'",
+                    "start": 562,
+                    "end": 575
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 555,
+                "end": 576
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 522,
+            "end": 577
           },
           {
             "type": "Literal",
-            "start": 581,
-            "end": 586,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 581,
+            "end": 586
           },
           {
             "type": "Literal",
-            "start": 590,
-            "end": 665,
             "value": "`Object.is(Symbol('description'), Symbol('description'))` returns `false`",
-            "raw": "\"`Object.is(Symbol('description'), Symbol('description'))` returns `false`\""
+            "raw": "\"`Object.is(Symbol('description'), Symbol('description'))` returns `false`\"",
+            "start": 590,
+            "end": 665
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 502,
+        "end": 667
+      },
+      "start": 502,
+      "end": 668
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 669
 }

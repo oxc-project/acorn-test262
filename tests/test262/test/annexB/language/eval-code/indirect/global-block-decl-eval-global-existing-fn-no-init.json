@@ -1,54 +1,54 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 699,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 538,
-      "end": 698,
       "expression": {
         "type": "CallExpression",
-        "start": 538,
-        "end": 697,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 538,
-          "end": 546,
           "expression": {
             "type": "SequenceExpression",
-            "start": 539,
-            "end": 545,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 539,
-                "end": 540,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 539,
+                "end": 540
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 541,
-                "end": 545,
-                "name": "eval"
+                "end": 545
               }
-            ]
-          }
+            ],
+            "start": 539,
+            "end": 545
+          },
+          "start": 538,
+          "end": 546
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 550,
-            "end": 695,
             "value": "assert.sameValue(f(), \"outer declaration\");{ function f() { return \"inner declaration\"; } }function f() {    return \"outer declaration\";  }",
-            "raw": "'assert.sameValue(f(), \"outer declaration\");{ function f() { return \"inner declaration\"; } }function f() {\\\n    return \"outer declaration\";\\\n  }'"
+            "raw": "'assert.sameValue(f(), \"outer declaration\");{ function f() { return \"inner declaration\"; } }function f() {\\\n    return \"outer declaration\";\\\n  }'",
+            "start": 550,
+            "end": 695
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 538,
+        "end": 697
+      },
+      "start": 538,
+      "end": 698
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 699
 }

@@ -2,49 +2,41 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 123,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 123,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 15,
         "decorators": [],
         "name": "Entry",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 15
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 16,
-        "end": 123,
         "body": [
           {
             "type": "TSConstructSignatureDeclaration",
-            "start": 86,
-            "end": 93,
             "typeParameters": null,
             "params": [],
-            "returnType": null
+            "returnType": null,
+            "start": 86,
+            "end": 93
           },
           {
             "type": "TSMethodSignature",
-            "start": 98,
-            "end": 110,
             "key": {
               "type": "Identifier",
-              "start": 98,
-              "end": 101,
               "decorators": [],
               "name": "few",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 98,
+              "end": 101
             },
             "computed": false,
             "optional": false,
@@ -53,30 +45,30 @@ __ESTREE_TEST__:PASS:
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 104,
-              "end": 109,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 106,
                 "end": 109
-              }
+              },
+              "start": 104,
+              "end": 109
             },
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 98,
+            "end": 110
           },
           {
             "type": "TSMethodSignature",
-            "start": 115,
-            "end": 121,
             "key": {
               "type": "Identifier",
-              "start": 115,
-              "end": 118,
               "decorators": [],
               "name": "foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 115,
+              "end": 118
             },
             "computed": false,
             "optional": false,
@@ -86,14 +78,22 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 115,
+            "end": 121
           }
-        ]
+        ],
+        "start": 16,
+        "end": 123
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 123
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 123
 }
 ```

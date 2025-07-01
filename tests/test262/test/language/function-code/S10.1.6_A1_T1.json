@@ -1,132 +1,132 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 499,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 376,
-      "end": 417,
       "id": {
         "type": "Identifier",
+        "name": "f1",
         "start": 385,
-        "end": 387,
-        "name": "f1"
+        "end": 387
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "a",
           "start": 388,
-          "end": 389,
-          "name": "a"
+          "end": 389
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 390,
-        "end": 417,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 394,
-            "end": 403,
             "expression": {
               "type": "UnaryExpression",
-              "start": 394,
-              "end": 402,
               "operator": "delete",
               "argument": {
                 "type": "Identifier",
+                "name": "a",
                 "start": 401,
-                "end": 402,
-                "name": "a"
+                "end": 402
               },
-              "prefix": true
-            }
+              "prefix": true,
+              "start": 394,
+              "end": 402
+            },
+            "start": 394,
+            "end": 403
           },
           {
             "type": "ReturnStatement",
-            "start": 406,
-            "end": 415,
             "argument": {
               "type": "Identifier",
+              "name": "a",
               "start": 413,
-              "end": 414,
-              "name": "a"
-            }
+              "end": 414
+            },
+            "start": 406,
+            "end": 415
           }
-        ]
+        ],
+        "start": 390,
+        "end": 417
       },
-      "expression": false
+      "expression": false,
+      "start": 376,
+      "end": 417
     },
     {
       "type": "IfStatement",
-      "start": 418,
-      "end": 498,
       "test": {
         "type": "BinaryExpression",
-        "start": 422,
-        "end": 433,
         "left": {
           "type": "CallExpression",
-          "start": 422,
-          "end": 427,
           "callee": {
             "type": "Identifier",
+            "name": "f1",
             "start": 422,
-            "end": 424,
-            "name": "f1"
+            "end": 424
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 425,
-              "end": 426,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 425,
+              "end": 426
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 422,
+          "end": 427
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 432,
-          "end": 433,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 432,
+          "end": 433
+        },
+        "start": 422,
+        "end": 433
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 437,
-        "end": 498,
         "argument": {
           "type": "NewExpression",
-          "start": 443,
-          "end": 497,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 447,
-            "end": 459,
-            "name": "Test262Error"
+            "end": 459
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 460,
-              "end": 496,
               "value": "#1: Function parameter was deleted",
-              "raw": "'#1: Function parameter was deleted'"
+              "raw": "'#1: Function parameter was deleted'",
+              "start": 460,
+              "end": 496
             }
-          ]
-        }
+          ],
+          "start": 443,
+          "end": 497
+        },
+        "start": 437,
+        "end": 498
       },
-      "alternate": null
+      "alternate": null,
+      "start": 418,
+      "end": 498
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 499
 }

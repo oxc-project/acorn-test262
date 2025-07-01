@@ -2,8 +2,6 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
   "body": [
     {
       "type": "EmptyStatement",
@@ -17,34 +15,34 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 4,
-      "end": 14,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 8,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 8,
-            "end": 9,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 8,
+            "end": 9
           },
           "init": {
             "type": "Literal",
-            "start": 12,
-            "end": 13,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 12,
+            "end": 13
           },
-          "definite": false
+          "definite": false,
+          "start": 8,
+          "end": 13
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 4,
+      "end": 14
     },
     {
       "type": "EmptyStatement",
@@ -53,6 +51,8 @@ __ESTREE_TEST__:PASS:
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 17
 }
 ```

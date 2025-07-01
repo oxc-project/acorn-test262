@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 473,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 323,
-      "end": 472,
       "expression": {
         "type": "CallExpression",
-        "start": 323,
-        "end": 471,
         "callee": {
           "type": "MemberExpression",
-          "start": 323,
-          "end": 339,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 323,
-            "end": 329,
-            "name": "assert"
+            "end": 329
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 330,
-            "end": 339,
-            "name": "sameValue"
+            "end": 339
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 323,
+          "end": 339
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 343,
-            "end": 371,
             "object": {
               "type": "MemberExpression",
-              "start": 343,
-              "end": 359,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 343,
-                "end": 349,
-                "name": "Object"
+                "end": 349
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 350,
-                "end": 359,
-                "name": "prototype"
+                "end": 359
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 343,
+              "end": 359
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 360,
-              "end": 371,
-              "name": "constructor"
+              "end": 371
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 343,
+            "end": 371
           },
           {
             "type": "Identifier",
+            "name": "Object",
             "start": 375,
-            "end": 381,
-            "name": "Object"
+            "end": 381
           },
           {
             "type": "Literal",
-            "start": 385,
-            "end": 469,
             "value": "The value of Object.prototype.constructor is expected to equal the value of Object",
-            "raw": "'The value of Object.prototype.constructor is expected to equal the value of Object'"
+            "raw": "'The value of Object.prototype.constructor is expected to equal the value of Object'",
+            "start": 385,
+            "end": 469
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 323,
+        "end": 471
+      },
+      "start": 323,
+      "end": 472
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 473
 }

@@ -1,144 +1,144 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 755,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 371,
-      "end": 407,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 375,
-          "end": 406,
           "id": {
             "type": "Identifier",
+            "name": "__str__obj",
             "start": 375,
-            "end": 385,
-            "name": "__str__obj"
+            "end": 385
           },
           "init": {
             "type": "NewExpression",
-            "start": 388,
-            "end": 406,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 392,
-              "end": 398,
-              "name": "String"
+              "end": 398
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 399,
-                "end": 405,
                 "value": "abba",
-                "raw": "\"abba\""
+                "raw": "\"abba\"",
+                "start": 399,
+                "end": 405
               }
-            ]
-          }
+            ],
+            "start": 388,
+            "end": 406
+          },
+          "start": 375,
+          "end": 406
         }
-      ]
+      ],
+      "start": 371,
+      "end": 407
     },
     {
       "type": "IfStatement",
-      "start": 498,
-      "end": 672,
       "test": {
         "type": "UnaryExpression",
-        "start": 502,
-        "end": 547,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 503,
-          "end": 547,
           "expression": {
             "type": "CallExpression",
-            "start": 504,
-            "end": 546,
             "callee": {
               "type": "MemberExpression",
-              "start": 504,
-              "end": 534,
               "object": {
                 "type": "MemberExpression",
-                "start": 504,
-                "end": 520,
                 "object": {
                   "type": "Identifier",
+                  "name": "String",
                   "start": 504,
-                  "end": 510,
-                  "name": "String"
+                  "end": 510
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 511,
-                  "end": 520,
-                  "name": "prototype"
+                  "end": 520
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 504,
+                "end": 520
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 521,
-                "end": 534,
-                "name": "isPrototypeOf"
+                "end": 534
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 504,
+              "end": 534
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "__str__obj",
                 "start": 535,
-                "end": 545,
-                "name": "__str__obj"
+                "end": 545
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 504,
+            "end": 546
+          },
+          "start": 503,
+          "end": 547
         },
-        "prefix": true
+        "prefix": true,
+        "start": 502,
+        "end": 547
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 549,
-        "end": 672,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 553,
-            "end": 670,
             "argument": {
               "type": "NewExpression",
-              "start": 559,
-              "end": 669,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 563,
-                "end": 575,
-                "name": "Test262Error"
+                "end": 575
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 576,
-                  "end": 668,
                   "value": "#1: var __str__obj = new String(\"abba\"); String.prototype.isPrototypeOf(__str__obj)===true",
-                  "raw": "'#1: var __str__obj = new String(\"abba\"); String.prototype.isPrototypeOf(__str__obj)===true'"
+                  "raw": "'#1: var __str__obj = new String(\"abba\"); String.prototype.isPrototypeOf(__str__obj)===true'",
+                  "start": 576,
+                  "end": 668
                 }
-              ]
-            }
+              ],
+              "start": 559,
+              "end": 669
+            },
+            "start": 553,
+            "end": 670
           }
-        ]
+        ],
+        "start": 549,
+        "end": 672
       },
-      "alternate": null
+      "alternate": null,
+      "start": 498,
+      "end": 672
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 755
 }

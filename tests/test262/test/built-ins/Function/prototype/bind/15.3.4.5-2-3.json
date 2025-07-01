@@ -1,154 +1,154 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 431,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 354,
-      "end": 382,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 358,
-          "end": 381,
           "id": {
             "type": "Identifier",
+            "name": "bnc",
             "start": 358,
-            "end": 361,
-            "name": "bnc"
+            "end": 361
           },
           "init": {
             "type": "CallExpression",
-            "start": 364,
-            "end": 381,
             "callee": {
               "type": "MemberExpression",
-              "start": 364,
-              "end": 375,
               "object": {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 364,
-                "end": 370,
-                "name": "Number"
+                "end": 370
               },
               "property": {
                 "type": "Identifier",
+                "name": "bind",
                 "start": 371,
-                "end": 375,
-                "name": "bind"
+                "end": 375
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 364,
+              "end": 375
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 376,
-                "end": 380,
                 "value": null,
-                "raw": "null"
+                "raw": "null",
+                "start": 376,
+                "end": 380
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 364,
+            "end": 381
+          },
+          "start": 358,
+          "end": 381
         }
-      ]
+      ],
+      "start": 354,
+      "end": 382
     },
     {
       "type": "VariableDeclaration",
-      "start": 383,
-      "end": 399,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 387,
-          "end": 398,
           "id": {
             "type": "Identifier",
+            "name": "n",
             "start": 387,
-            "end": 388,
-            "name": "n"
+            "end": 388
           },
           "init": {
             "type": "CallExpression",
-            "start": 391,
-            "end": 398,
             "callee": {
               "type": "Identifier",
+              "name": "bnc",
               "start": 391,
-              "end": 394,
-              "name": "bnc"
+              "end": 394
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 395,
-                "end": 397,
                 "value": 42,
-                "raw": "42"
+                "raw": "42",
+                "start": 395,
+                "end": 397
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 391,
+            "end": 398
+          },
+          "start": 387,
+          "end": 398
         }
-      ]
+      ],
+      "start": 383,
+      "end": 399
     },
     {
       "type": "ExpressionStatement",
-      "start": 401,
-      "end": 430,
       "expression": {
         "type": "CallExpression",
-        "start": 401,
-        "end": 429,
         "callee": {
           "type": "MemberExpression",
-          "start": 401,
-          "end": 417,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 401,
-            "end": 407,
-            "name": "assert"
+            "end": 407
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 408,
-            "end": 417,
-            "name": "sameValue"
+            "end": 417
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 401,
+          "end": 417
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "n",
             "start": 418,
-            "end": 419,
-            "name": "n"
+            "end": 419
           },
           {
             "type": "Literal",
-            "start": 421,
-            "end": 423,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 421,
+            "end": 423
           },
           {
             "type": "Literal",
-            "start": 425,
-            "end": 428,
             "value": "n",
-            "raw": "'n'"
+            "raw": "'n'",
+            "start": 425,
+            "end": 428
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 401,
+        "end": 429
+      },
+      "start": 401,
+      "end": 430
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 431
 }

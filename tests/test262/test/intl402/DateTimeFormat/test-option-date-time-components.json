@@ -1,178 +1,178 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 499,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 317,
-      "end": 498,
       "expression": {
         "type": "CallExpression",
-        "start": 317,
-        "end": 497,
         "callee": {
           "type": "MemberExpression",
-          "start": 317,
-          "end": 348,
           "object": {
             "type": "CallExpression",
-            "start": 317,
-            "end": 340,
             "callee": {
               "type": "Identifier",
+              "name": "getDateTimeComponents",
               "start": 317,
-              "end": 338,
-              "name": "getDateTimeComponents"
+              "end": 338
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 317,
+            "end": 340
           },
           "property": {
             "type": "Identifier",
+            "name": "forEach",
             "start": 341,
-            "end": 348,
-            "name": "forEach"
+            "end": 348
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 317,
+          "end": 348
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 349,
-            "end": 496,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "component",
                 "start": 359,
-                "end": 368,
-                "name": "component"
+                "end": 368
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 370,
-              "end": 496,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 376,
-                  "end": 494,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 376,
-                    "end": 493,
                     "callee": {
                       "type": "Identifier",
+                      "name": "testOption",
                       "start": 376,
-                      "end": 386,
-                      "name": "testOption"
+                      "end": 386
                     },
                     "arguments": [
                       {
                         "type": "MemberExpression",
-                        "start": 387,
-                        "end": 406,
                         "object": {
                           "type": "Identifier",
+                          "name": "Intl",
                           "start": 387,
-                          "end": 391,
-                          "name": "Intl"
+                          "end": 391
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "DateTimeFormat",
                           "start": 392,
-                          "end": 406,
-                          "name": "DateTimeFormat"
+                          "end": 406
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 387,
+                        "end": 406
                       },
                       {
                         "type": "Identifier",
+                        "name": "component",
                         "start": 408,
-                        "end": 417,
-                        "name": "component"
+                        "end": 417
                       },
                       {
                         "type": "Literal",
-                        "start": 419,
-                        "end": 427,
                         "value": "string",
-                        "raw": "\"string\""
+                        "raw": "\"string\"",
+                        "start": 419,
+                        "end": 427
                       },
                       {
                         "type": "CallExpression",
-                        "start": 429,
-                        "end": 466,
                         "callee": {
                           "type": "Identifier",
+                          "name": "getDateTimeComponentValues",
                           "start": 429,
-                          "end": 455,
-                          "name": "getDateTimeComponentValues"
+                          "end": 455
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
+                            "name": "component",
                             "start": 456,
-                            "end": 465,
-                            "name": "component"
+                            "end": 465
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 429,
+                        "end": 466
                       },
                       {
                         "type": "Identifier",
+                        "name": "undefined",
                         "start": 468,
-                        "end": 477,
-                        "name": "undefined"
+                        "end": 477
                       },
                       {
                         "type": "ObjectExpression",
-                        "start": 479,
-                        "end": 492,
                         "properties": [
                           {
                             "type": "Property",
-                            "start": 480,
-                            "end": 491,
                             "kind": "init",
                             "key": {
                               "type": "Identifier",
+                              "name": "isILD",
                               "start": 480,
-                              "end": 485,
-                              "name": "isILD"
+                              "end": 485
                             },
                             "value": {
                               "type": "Literal",
-                              "start": 487,
-                              "end": 491,
                               "value": true,
-                              "raw": "true"
+                              "raw": "true",
+                              "start": 487,
+                              "end": 491
                             },
                             "method": false,
                             "shorthand": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 480,
+                            "end": 491
                           }
-                        ]
+                        ],
+                        "start": 479,
+                        "end": 492
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 376,
+                    "end": 493
+                  },
+                  "start": 376,
+                  "end": 494
                 }
-              ]
+              ],
+              "start": 370,
+              "end": 496
             },
-            "expression": false
+            "expression": false,
+            "start": 349,
+            "end": 496
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 317,
+        "end": 497
+      },
+      "start": 317,
+      "end": 498
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 499
 }

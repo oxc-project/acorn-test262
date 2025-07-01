@@ -2,287 +2,287 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 175,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 21,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 21,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 11,
-            "end": 20,
             "id": {
               "type": "Identifier",
-              "start": 11,
-              "end": 12,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 11,
+              "end": 12
             },
             "init": {
               "type": "Literal",
-              "start": 15,
-              "end": 20,
               "value": false,
-              "raw": "false"
+              "raw": "false",
+              "start": 15,
+              "end": 20
             },
-            "definite": false
+            "definite": false,
+            "start": 11,
+            "end": 20
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 21
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 21
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 22,
-      "end": 39,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 29,
-        "end": 39,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 33,
-            "end": 38,
             "id": {
               "type": "Identifier",
-              "start": 33,
-              "end": 34,
               "decorators": [],
               "name": "y",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 33,
+              "end": 34
             },
             "init": {
               "type": "Literal",
-              "start": 37,
-              "end": 38,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 37,
+              "end": 38
             },
-            "definite": false
+            "definite": false,
+            "start": 33,
+            "end": 38
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 29,
+        "end": 39
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 22,
+      "end": 39
     },
     {
       "type": "IfStatement",
-      "start": 40,
-      "end": 56,
       "test": {
         "type": "UnaryExpression",
-        "start": 44,
-        "end": 46,
         "operator": "!",
         "argument": {
           "type": "Identifier",
-          "start": 45,
-          "end": 46,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 45,
+          "end": 46
         },
-        "prefix": true
+        "prefix": true,
+        "start": 44,
+        "end": 46
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 48,
-        "end": 56,
-        "body": []
+        "end": 56
       },
-      "alternate": null
+      "alternate": null,
+      "start": 40,
+      "end": 56
     },
     {
       "type": "IfStatement",
-      "start": 58,
-      "end": 74,
       "test": {
         "type": "UnaryExpression",
-        "start": 62,
-        "end": 64,
         "operator": "+",
         "argument": {
           "type": "Identifier",
-          "start": 63,
-          "end": 64,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 63,
+          "end": 64
         },
-        "prefix": true
+        "prefix": true,
+        "start": 62,
+        "end": 64
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 66,
-        "end": 74,
-        "body": []
+        "end": 74
       },
-      "alternate": null
+      "alternate": null,
+      "start": 58,
+      "end": 74
     },
     {
       "type": "IfStatement",
-      "start": 76,
-      "end": 92,
       "test": {
         "type": "UnaryExpression",
-        "start": 80,
-        "end": 82,
         "operator": "-",
         "argument": {
           "type": "Identifier",
-          "start": 81,
-          "end": 82,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 81,
+          "end": 82
         },
-        "prefix": true
+        "prefix": true,
+        "start": 80,
+        "end": 82
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 84,
-        "end": 92,
-        "body": []
+        "end": 92
       },
-      "alternate": null
+      "alternate": null,
+      "start": 76,
+      "end": 92
     },
     {
       "type": "IfStatement",
-      "start": 94,
-      "end": 110,
       "test": {
         "type": "UnaryExpression",
-        "start": 98,
-        "end": 100,
         "operator": "~",
         "argument": {
           "type": "Identifier",
-          "start": 99,
-          "end": 100,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 99,
+          "end": 100
         },
-        "prefix": true
+        "prefix": true,
+        "start": 98,
+        "end": 100
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 102,
-        "end": 110,
-        "body": []
+        "end": 110
       },
-      "alternate": null
+      "alternate": null,
+      "start": 94,
+      "end": 110
     },
     {
       "type": "IfStatement",
-      "start": 112,
-      "end": 132,
       "test": {
         "type": "UnaryExpression",
-        "start": 116,
-        "end": 122,
         "operator": "void",
         "argument": {
           "type": "Identifier",
-          "start": 121,
-          "end": 122,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 121,
+          "end": 122
         },
-        "prefix": true
+        "prefix": true,
+        "start": 116,
+        "end": 122
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 124,
-        "end": 132,
-        "body": []
+        "end": 132
       },
-      "alternate": null
+      "alternate": null,
+      "start": 112,
+      "end": 132
     },
     {
       "type": "IfStatement",
-      "start": 134,
-      "end": 156,
       "test": {
         "type": "UnaryExpression",
-        "start": 138,
-        "end": 146,
         "operator": "typeof",
         "argument": {
           "type": "Identifier",
-          "start": 145,
-          "end": 146,
           "decorators": [],
           "name": "x",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 145,
+          "end": 146
         },
-        "prefix": true
+        "prefix": true,
+        "start": 138,
+        "end": 146
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 148,
-        "end": 156,
-        "body": []
+        "end": 156
       },
-      "alternate": null
+      "alternate": null,
+      "start": 134,
+      "end": 156
     },
     {
       "type": "IfStatement",
-      "start": 158,
-      "end": 175,
       "test": {
         "type": "UpdateExpression",
-        "start": 162,
-        "end": 165,
         "operator": "++",
         "prefix": true,
         "argument": {
           "type": "Identifier",
-          "start": 164,
-          "end": 165,
           "decorators": [],
           "name": "y",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 164,
+          "end": 165
+        },
+        "start": 162,
+        "end": 165
       },
       "consequent": {
         "type": "BlockStatement",
+        "body": [],
         "start": 167,
-        "end": 175,
-        "body": []
+        "end": 175
       },
-      "alternate": null
+      "alternate": null,
+      "start": 158,
+      "end": 175
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 175
 }
 ```

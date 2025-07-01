@@ -1,215 +1,215 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 490,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 276,
-      "end": 322,
       "expression": {
         "type": "CallExpression",
-        "start": 276,
-        "end": 321,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 276,
-          "end": 282,
-          "name": "assert"
+          "end": 282
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 283,
-            "end": 303,
             "left": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 283,
-              "end": 289,
-              "name": "Symbol"
+              "end": 289
             },
             "operator": "!==",
             "right": {
               "type": "Identifier",
+              "name": "undefined",
               "start": 294,
-              "end": 303,
-              "name": "undefined"
-            }
+              "end": 303
+            },
+            "start": 283,
+            "end": 303
           },
           {
             "type": "Literal",
-            "start": 305,
-            "end": 320,
             "value": "Symbol exists",
-            "raw": "\"Symbol exists\""
+            "raw": "\"Symbol exists\"",
+            "start": 305,
+            "end": 320
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 276,
+        "end": 321
+      },
+      "start": 276,
+      "end": 322
     },
     {
       "type": "ExpressionStatement",
-      "start": 323,
-      "end": 385,
       "expression": {
         "type": "CallExpression",
-        "start": 323,
-        "end": 384,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 323,
-          "end": 329,
-          "name": "assert"
+          "end": 329
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 330,
-            "end": 358,
             "left": {
               "type": "MemberExpression",
-              "start": 330,
-              "end": 344,
               "object": {
                 "type": "Identifier",
+                "name": "Symbol",
                 "start": 330,
-                "end": 336,
-                "name": "Symbol"
+                "end": 336
               },
               "property": {
                 "type": "Identifier",
+                "name": "species",
                 "start": 337,
-                "end": 344,
-                "name": "species"
+                "end": 344
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 330,
+              "end": 344
             },
             "operator": "!==",
             "right": {
               "type": "Identifier",
+              "name": "undefined",
               "start": 349,
-              "end": 358,
-              "name": "undefined"
-            }
+              "end": 358
+            },
+            "start": 330,
+            "end": 358
           },
           {
             "type": "Literal",
-            "start": 360,
-            "end": 383,
             "value": "Symbol.species exists",
-            "raw": "\"Symbol.species exists\""
+            "raw": "\"Symbol.species exists\"",
+            "start": 360,
+            "end": 383
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 323,
+        "end": 384
+      },
+      "start": 323,
+      "end": 385
     },
     {
       "type": "ExpressionStatement",
-      "start": 387,
-      "end": 489,
       "expression": {
         "type": "CallExpression",
-        "start": 387,
-        "end": 488,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 387,
-          "end": 401,
-          "name": "verifyProperty"
+          "end": 401
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Symbol",
             "start": 402,
-            "end": 408,
-            "name": "Symbol"
+            "end": 408
           },
           {
             "type": "Literal",
-            "start": 410,
-            "end": 419,
             "value": "species",
-            "raw": "\"species\""
+            "raw": "\"species\"",
+            "start": 410,
+            "end": 419
           },
           {
             "type": "ObjectExpression",
-            "start": 421,
-            "end": 487,
             "properties": [
               {
                 "type": "Property",
-                "start": 425,
-                "end": 440,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 425,
-                  "end": 433,
-                  "name": "writable"
+                  "end": 433
                 },
                 "value": {
                   "type": "Literal",
+                  "value": false,
+                  "raw": "false",
                   "start": 435,
-                  "end": 440,
-                  "value": false,
-                  "raw": "false"
+                  "end": 440
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 425,
+                "end": 440
               },
               {
                 "type": "Property",
-                "start": 444,
-                "end": 461,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 444,
-                  "end": 454,
-                  "name": "enumerable"
+                  "end": 454
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 456,
-                  "end": 461,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 456,
+                  "end": 461
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 444,
+                "end": 461
               },
               {
                 "type": "Property",
-                "start": 465,
-                "end": 484,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 465,
-                  "end": 477,
-                  "name": "configurable"
+                  "end": 477
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 479,
-                  "end": 484,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 479,
+                  "end": 484
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 465,
+                "end": 484
               }
-            ]
+            ],
+            "start": 421,
+            "end": 487
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 387,
+        "end": 488
+      },
+      "start": 387,
+      "end": 489
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 490
 }

@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 421,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 284,
-      "end": 405,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 288,
-          "end": 404,
           "id": {
             "type": "Identifier",
+            "name": "foo",
             "start": 288,
-            "end": 291,
-            "name": "foo"
+            "end": 291
           },
           "init": {
             "type": "CallExpression",
-            "start": 294,
-            "end": 404,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 294,
-              "end": 302,
-              "name": "Function"
+              "end": 302
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 303,
-                "end": 403,
                 "value": "'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}",
-                "raw": "\"'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}\""
+                "raw": "\"'use strict'; for (var tempIndex in this) {assert.notSameValue(tempIndex, 'caller', 'tempIndex');}\"",
+                "start": 303,
+                "end": 403
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 294,
+            "end": 404
+          },
+          "start": 288,
+          "end": 404
         }
-      ]
+      ],
+      "start": 284,
+      "end": 405
     },
     {
       "type": "ExpressionStatement",
-      "start": 406,
-      "end": 420,
       "expression": {
         "type": "CallExpression",
-        "start": 406,
-        "end": 419,
         "callee": {
           "type": "MemberExpression",
-          "start": 406,
-          "end": 414,
           "object": {
             "type": "Identifier",
+            "name": "foo",
             "start": 406,
-            "end": 409,
-            "name": "foo"
+            "end": 409
           },
           "property": {
             "type": "Identifier",
+            "name": "call",
             "start": 410,
-            "end": 414,
-            "name": "call"
+            "end": 414
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 406,
+          "end": 414
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "foo",
             "start": 415,
-            "end": 418,
-            "name": "foo"
+            "end": 418
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 406,
+        "end": 419
+      },
+      "start": 406,
+      "end": 420
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 421
 }

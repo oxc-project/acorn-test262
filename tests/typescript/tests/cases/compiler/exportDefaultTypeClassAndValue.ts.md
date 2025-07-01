@@ -2,72 +2,66 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 93,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 13,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 13,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 9,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 9
           },
           "init": {
             "type": "Literal",
-            "start": 12,
-            "end": 13,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 12,
+            "end": 13
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 13
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 13
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 14,
-      "end": 32,
       "declaration": {
         "type": "Identifier",
-        "start": 29,
-        "end": 32,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 29,
+        "end": 32
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 14,
+      "end": 32
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 33,
-      "end": 60,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 48,
-        "end": 60,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 54,
-          "end": 57,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 54,
+          "end": 57
         },
         "typeParameters": null,
         "superClass": null,
@@ -75,54 +69,60 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 58,
-          "end": 60,
-          "body": []
+          "end": 60
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 48,
+        "end": 60
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 33,
+      "end": 60
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 61,
-      "end": 74,
       "id": {
         "type": "Identifier",
-        "start": 66,
-        "end": 69,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 66,
+        "end": 69
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
+        "members": [],
         "start": 72,
-        "end": 74,
-        "members": []
+        "end": 74
       },
-      "declare": false
+      "declare": false,
+      "start": 61,
+      "end": 74
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 75,
-      "end": 93,
       "declaration": {
         "type": "Identifier",
-        "start": 90,
-        "end": 93,
         "decorators": [],
         "name": "Bar",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 90,
+        "end": 93
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 75,
+      "end": 93
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 93
 }
 ```

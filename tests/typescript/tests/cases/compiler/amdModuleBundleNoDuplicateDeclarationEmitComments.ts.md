@@ -2,26 +2,20 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 51,
-  "end": 70,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 51,
-      "end": 70,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 58,
-        "end": 70,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 64,
-          "end": 67,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 64,
+          "end": 67
         },
         "typeParameters": null,
         "superClass": null,
@@ -29,47 +23,47 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 68,
-          "end": 70,
-          "body": []
+          "end": 70
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 58,
+        "end": 70
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 51,
+      "end": 70
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 51,
+  "end": 70
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 51,
-  "end": 70,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 51,
-      "end": 70,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 58,
-        "end": 70,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 64,
-          "end": 67,
           "decorators": [],
           "name": "Bar",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 64,
+          "end": 67
         },
         "typeParameters": null,
         "superClass": null,
@@ -77,20 +71,26 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 68,
-          "end": 70,
-          "body": []
+          "end": 70
         },
         "abstract": false,
-        "declare": false
+        "declare": false,
+        "start": 58,
+        "end": 70
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 51,
+      "end": 70
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 51,
+  "end": 70
 }
 ```

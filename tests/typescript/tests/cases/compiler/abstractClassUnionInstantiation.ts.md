@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 736,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 18,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 15,
         "decorators": [],
         "name": "ConcreteA",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 15
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,26 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 16,
-        "end": 18,
-        "body": []
+        "end": 18
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 18
     },
     {
       "type": "ClassDeclaration",
-      "start": 19,
-      "end": 37,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 25,
-        "end": 34,
         "decorators": [],
         "name": "ConcreteB",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 25,
+        "end": 34
       },
       "typeParameters": null,
       "superClass": null,
@@ -52,26 +48,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 35,
-        "end": 37,
-        "body": []
+        "end": 37
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 19,
+      "end": 37
     },
     {
       "type": "ClassDeclaration",
-      "start": 38,
-      "end": 77,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 53,
-        "end": 62,
         "decorators": [],
         "name": "AbstractA",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 53,
+        "end": 62
       },
       "typeParameters": null,
       "superClass": null,
@@ -79,32 +75,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 63,
-        "end": 77,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 65,
-            "end": 75,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 65,
-              "end": 66,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 65,
+              "end": 66
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 66,
-              "end": 74,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 68,
                 "end": 74
-              }
+              },
+              "start": 66,
+              "end": 74
             },
             "value": null,
             "computed": false,
@@ -114,26 +106,30 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 65,
+            "end": 75
           }
-        ]
+        ],
+        "start": 63,
+        "end": 77
       },
       "abstract": true,
-      "declare": false
+      "declare": false,
+      "start": 38,
+      "end": 77
     },
     {
       "type": "ClassDeclaration",
-      "start": 78,
-      "end": 117,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 93,
-        "end": 102,
         "decorators": [],
         "name": "AbstractB",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 93,
+        "end": 102
       },
       "typeParameters": null,
       "superClass": null,
@@ -141,32 +137,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 103,
-        "end": 117,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 105,
-            "end": 115,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 105,
-              "end": 106,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 105,
+              "end": 106
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 106,
-              "end": 114,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 108,
                 "end": 114
-              }
+              },
+              "start": 106,
+              "end": 114
             },
             "value": null,
             "computed": false,
@@ -176,766 +168,774 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 105,
+            "end": 115
           }
-        ]
+        ],
+        "start": 103,
+        "end": 117
       },
       "abstract": true,
-      "declare": false
+      "declare": false,
+      "start": 78,
+      "end": 117
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 119,
-      "end": 172,
       "id": {
         "type": "Identifier",
-        "start": 124,
-        "end": 133,
         "decorators": [],
         "name": "Abstracts",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 124,
+        "end": 133
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 136,
-        "end": 171,
         "types": [
           {
             "type": "TSTypeQuery",
-            "start": 136,
-            "end": 152,
             "exprName": {
               "type": "Identifier",
-              "start": 143,
-              "end": 152,
               "decorators": [],
               "name": "AbstractA",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 143,
+              "end": 152
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 136,
+            "end": 152
           },
           {
             "type": "TSTypeQuery",
-            "start": 155,
-            "end": 171,
             "exprName": {
               "type": "Identifier",
-              "start": 162,
-              "end": 171,
               "decorators": [],
               "name": "AbstractB",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 162,
+              "end": 171
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 155,
+            "end": 171
           }
-        ]
+        ],
+        "start": 136,
+        "end": 171
       },
-      "declare": false
+      "declare": false,
+      "start": 119,
+      "end": 172
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 173,
-      "end": 226,
       "id": {
         "type": "Identifier",
-        "start": 178,
-        "end": 187,
         "decorators": [],
         "name": "Concretes",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 178,
+        "end": 187
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 190,
-        "end": 225,
         "types": [
           {
             "type": "TSTypeQuery",
-            "start": 190,
-            "end": 206,
             "exprName": {
               "type": "Identifier",
-              "start": 197,
-              "end": 206,
               "decorators": [],
               "name": "ConcreteA",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 197,
+              "end": 206
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 190,
+            "end": 206
           },
           {
             "type": "TSTypeQuery",
-            "start": 209,
-            "end": 225,
             "exprName": {
               "type": "Identifier",
-              "start": 216,
-              "end": 225,
               "decorators": [],
               "name": "ConcreteB",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 216,
+              "end": 225
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 209,
+            "end": 225
           }
-        ]
+        ],
+        "start": 190,
+        "end": 225
       },
-      "declare": false
+      "declare": false,
+      "start": 173,
+      "end": 226
     },
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 227,
-      "end": 277,
       "id": {
         "type": "Identifier",
-        "start": 232,
-        "end": 252,
         "decorators": [],
         "name": "ConcretesOrAbstracts",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 232,
+        "end": 252
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSUnionType",
-        "start": 255,
-        "end": 276,
         "types": [
           {
             "type": "TSTypeReference",
-            "start": 255,
-            "end": 264,
             "typeName": {
               "type": "Identifier",
-              "start": 255,
-              "end": 264,
               "decorators": [],
               "name": "Concretes",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 255,
+              "end": 264
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 255,
+            "end": 264
           },
           {
             "type": "TSTypeReference",
-            "start": 267,
-            "end": 276,
             "typeName": {
               "type": "Identifier",
-              "start": 267,
-              "end": 276,
               "decorators": [],
               "name": "Abstracts",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 267,
+              "end": 276
             },
-            "typeArguments": null
+            "typeArguments": null,
+            "start": 267,
+            "end": 276
           }
-        ]
+        ],
+        "start": 255,
+        "end": 276
       },
-      "declare": false
+      "declare": false,
+      "start": 227,
+      "end": 277
     },
     {
       "type": "VariableDeclaration",
-      "start": 279,
-      "end": 320,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 293,
-          "end": 319,
           "id": {
             "type": "Identifier",
-            "start": 293,
-            "end": 319,
             "decorators": [],
             "name": "cls1",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 297,
-              "end": 319,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 299,
-                "end": 319,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 299,
-                  "end": 319,
                   "decorators": [],
                   "name": "ConcretesOrAbstracts",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 299,
+                  "end": 319
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 299,
+                "end": 319
+              },
+              "start": 297,
+              "end": 319
+            },
+            "start": 293,
+            "end": 319
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 293,
+          "end": 319
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 279,
+      "end": 320
     },
     {
       "type": "VariableDeclaration",
-      "start": 321,
-      "end": 351,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 335,
-          "end": 350,
           "id": {
             "type": "Identifier",
-            "start": 335,
-            "end": 350,
             "decorators": [],
             "name": "cls2",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 339,
-              "end": 350,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 341,
-                "end": 350,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 341,
-                  "end": 350,
                   "decorators": [],
                   "name": "Abstracts",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 341,
+                  "end": 350
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 341,
+                "end": 350
+              },
+              "start": 339,
+              "end": 350
+            },
+            "start": 335,
+            "end": 350
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 335,
+          "end": 350
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 321,
+      "end": 351
     },
     {
       "type": "VariableDeclaration",
-      "start": 352,
-      "end": 382,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 366,
-          "end": 381,
           "id": {
             "type": "Identifier",
-            "start": 366,
-            "end": 381,
             "decorators": [],
             "name": "cls3",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 370,
-              "end": 381,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 372,
-                "end": 381,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 372,
-                  "end": 381,
                   "decorators": [],
                   "name": "Concretes",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 372,
+                  "end": 381
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 372,
+                "end": 381
+              },
+              "start": 370,
+              "end": 381
+            },
+            "start": 366,
+            "end": 381
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 366,
+          "end": 381
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 352,
+      "end": 382
     },
     {
       "type": "ExpressionStatement",
-      "start": 384,
-      "end": 395,
       "expression": {
         "type": "NewExpression",
-        "start": 384,
-        "end": 394,
         "callee": {
           "type": "Identifier",
-          "start": 388,
-          "end": 392,
           "decorators": [],
           "name": "cls1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 388,
+          "end": 392
         },
         "typeArguments": null,
-        "arguments": []
+        "arguments": [],
+        "start": 384,
+        "end": 394
       },
-      "directive": null
+      "directive": null,
+      "start": 384,
+      "end": 395
     },
     {
       "type": "ExpressionStatement",
-      "start": 412,
-      "end": 423,
       "expression": {
         "type": "NewExpression",
-        "start": 412,
-        "end": 422,
         "callee": {
           "type": "Identifier",
-          "start": 416,
-          "end": 420,
           "decorators": [],
           "name": "cls2",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 416,
+          "end": 420
         },
         "typeArguments": null,
-        "arguments": []
+        "arguments": [],
+        "start": 412,
+        "end": 422
       },
-      "directive": null
+      "directive": null,
+      "start": 412,
+      "end": 423
     },
     {
       "type": "ExpressionStatement",
-      "start": 440,
-      "end": 451,
       "expression": {
         "type": "NewExpression",
-        "start": 440,
-        "end": 450,
         "callee": {
           "type": "Identifier",
-          "start": 444,
-          "end": 448,
           "decorators": [],
           "name": "cls3",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 444,
+          "end": 448
         },
         "typeArguments": null,
-        "arguments": []
+        "arguments": [],
+        "start": 440,
+        "end": 450
       },
-      "directive": null
+      "directive": null,
+      "start": 440,
+      "end": 451
     },
     {
       "type": "ExpressionStatement",
-      "start": 468,
-      "end": 524,
       "expression": {
         "type": "CallExpression",
-        "start": 468,
-        "end": 523,
         "callee": {
           "type": "MemberExpression",
-          "start": 468,
-          "end": 505,
           "object": {
             "type": "ArrayExpression",
-            "start": 468,
-            "end": 501,
             "elements": [
               {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "ConcreteA",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 469,
-                "end": 478,
-                "decorators": [],
-                "name": "ConcreteA",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 478
               },
               {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "AbstractA",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 480,
-                "end": 489,
-                "decorators": [],
-                "name": "AbstractA",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 489
               },
               {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "AbstractB",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 491,
-                "end": 500,
-                "decorators": [],
-                "name": "AbstractB",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 500
               }
-            ]
+            ],
+            "start": 468,
+            "end": 501
           },
           "property": {
             "type": "Identifier",
-            "start": 502,
-            "end": 505,
             "decorators": [],
             "name": "map",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 502,
+            "end": 505
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 468,
+          "end": 505
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 506,
-            "end": 522,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 506,
-                "end": 509,
                 "decorators": [],
                 "name": "cls",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 506,
+                "end": 509
               }
             ],
             "returnType": null,
             "body": {
               "type": "NewExpression",
-              "start": 513,
-              "end": 522,
               "callee": {
                 "type": "Identifier",
-                "start": 517,
-                "end": 520,
                 "decorators": [],
                 "name": "cls",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 517,
+                "end": 520
               },
               "typeArguments": null,
-              "arguments": []
+              "arguments": [],
+              "start": 513,
+              "end": 522
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 506,
+            "end": 522
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 468,
+        "end": 523
       },
-      "directive": null
+      "directive": null,
+      "start": 468,
+      "end": 524
     },
     {
       "type": "ExpressionStatement",
-      "start": 541,
-      "end": 597,
       "expression": {
         "type": "CallExpression",
-        "start": 541,
-        "end": 596,
         "callee": {
           "type": "MemberExpression",
-          "start": 541,
-          "end": 578,
           "object": {
             "type": "ArrayExpression",
-            "start": 541,
-            "end": 574,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 542,
-                "end": 551,
                 "decorators": [],
                 "name": "AbstractA",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 542,
+                "end": 551
               },
               {
                 "type": "Identifier",
-                "start": 553,
-                "end": 562,
                 "decorators": [],
                 "name": "AbstractB",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 553,
+                "end": 562
               },
               {
                 "type": "Identifier",
-                "start": 564,
-                "end": 573,
                 "decorators": [],
                 "name": "ConcreteA",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 564,
+                "end": 573
               }
-            ]
+            ],
+            "start": 541,
+            "end": 574
           },
           "property": {
             "type": "Identifier",
-            "start": 575,
-            "end": 578,
             "decorators": [],
             "name": "map",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 575,
+            "end": 578
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 541,
+          "end": 578
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 579,
-            "end": 595,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 579,
-                "end": 582,
                 "decorators": [],
                 "name": "cls",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 579,
+                "end": 582
               }
             ],
             "returnType": null,
             "body": {
               "type": "NewExpression",
-              "start": 586,
-              "end": 595,
               "callee": {
                 "type": "Identifier",
-                "start": 590,
-                "end": 593,
                 "decorators": [],
                 "name": "cls",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 590,
+                "end": 593
               },
               "typeArguments": null,
-              "arguments": []
+              "arguments": [],
+              "start": 586,
+              "end": 595
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 579,
+            "end": 595
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 541,
+        "end": 596
       },
-      "directive": null
+      "directive": null,
+      "start": 541,
+      "end": 597
     },
     {
       "type": "ExpressionStatement",
-      "start": 614,
-      "end": 659,
       "expression": {
         "type": "CallExpression",
-        "start": 614,
-        "end": 658,
         "callee": {
           "type": "MemberExpression",
-          "start": 614,
-          "end": 640,
           "object": {
             "type": "ArrayExpression",
-            "start": 614,
-            "end": 636,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 615,
-                "end": 624,
                 "decorators": [],
                 "name": "ConcreteA",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 615,
+                "end": 624
               },
               {
                 "type": "Identifier",
-                "start": 626,
-                "end": 635,
                 "decorators": [],
                 "name": "ConcreteB",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 626,
+                "end": 635
               }
-            ]
+            ],
+            "start": 614,
+            "end": 636
           },
           "property": {
             "type": "Identifier",
-            "start": 637,
-            "end": 640,
             "decorators": [],
             "name": "map",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 637,
+            "end": 640
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 614,
+          "end": 640
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 641,
-            "end": 657,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 641,
-                "end": 644,
                 "decorators": [],
                 "name": "cls",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 641,
+                "end": 644
               }
             ],
             "returnType": null,
             "body": {
               "type": "NewExpression",
-              "start": 648,
-              "end": 657,
               "callee": {
                 "type": "Identifier",
-                "start": 652,
-                "end": 655,
                 "decorators": [],
                 "name": "cls",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 652,
+                "end": 655
               },
               "typeArguments": null,
-              "arguments": []
+              "arguments": [],
+              "start": 648,
+              "end": 657
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 641,
+            "end": 657
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 614,
+        "end": 658
       },
-      "directive": null
+      "directive": null,
+      "start": 614,
+      "end": 659
     },
     {
       "type": "ExpressionStatement",
-      "start": 675,
-      "end": 720,
       "expression": {
         "type": "CallExpression",
-        "start": 675,
-        "end": 719,
         "callee": {
           "type": "MemberExpression",
-          "start": 675,
-          "end": 701,
           "object": {
             "type": "ArrayExpression",
-            "start": 675,
-            "end": 697,
             "elements": [
               {
                 "type": "Identifier",
-                "start": 676,
-                "end": 685,
                 "decorators": [],
                 "name": "AbstractA",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 676,
+                "end": 685
               },
               {
                 "type": "Identifier",
-                "start": 687,
-                "end": 696,
                 "decorators": [],
                 "name": "AbstractB",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 687,
+                "end": 696
               }
-            ]
+            ],
+            "start": 675,
+            "end": 697
           },
           "property": {
             "type": "Identifier",
-            "start": 698,
-            "end": 701,
             "decorators": [],
             "name": "map",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 698,
+            "end": 701
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 675,
+          "end": 701
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 702,
-            "end": 718,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 702,
-                "end": 705,
                 "decorators": [],
                 "name": "cls",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 702,
+                "end": 705
               }
             ],
             "returnType": null,
             "body": {
               "type": "NewExpression",
-              "start": 709,
-              "end": 718,
               "callee": {
                 "type": "Identifier",
-                "start": 713,
-                "end": 716,
                 "decorators": [],
                 "name": "cls",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 713,
+                "end": 716
               },
               "typeArguments": null,
-              "arguments": []
+              "arguments": [],
+              "start": 709,
+              "end": 718
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 702,
+            "end": 718
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 675,
+        "end": 719
       },
-      "directive": null
+      "directive": null,
+      "start": 675,
+      "end": 720
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 736
 }
 ```

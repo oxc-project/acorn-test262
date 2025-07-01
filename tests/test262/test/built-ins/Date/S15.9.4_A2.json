@@ -1,69 +1,69 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 367,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 280,
-      "end": 366,
       "expression": {
         "type": "CallExpression",
-        "start": 280,
-        "end": 365,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 280,
-          "end": 286,
-          "name": "assert"
+          "end": 286
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 287,
-            "end": 315,
             "callee": {
               "type": "MemberExpression",
-              "start": 287,
-              "end": 306,
               "object": {
                 "type": "Identifier",
+                "name": "Date",
                 "start": 287,
-                "end": 291,
-                "name": "Date"
+                "end": 291
               },
               "property": {
                 "type": "Identifier",
+                "name": "hasOwnProperty",
                 "start": 292,
-                "end": 306,
-                "name": "hasOwnProperty"
+                "end": 306
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 287,
+              "end": 306
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 307,
-                "end": 314,
                 "value": "parse",
-                "raw": "\"parse\""
+                "raw": "\"parse\"",
+                "start": 307,
+                "end": 314
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 287,
+            "end": 315
           },
           {
             "type": "Literal",
-            "start": 317,
-            "end": 364,
             "value": "Date.hasOwnProperty(\"parse\") must return true",
-            "raw": "'Date.hasOwnProperty(\"parse\") must return true'"
+            "raw": "'Date.hasOwnProperty(\"parse\") must return true'",
+            "start": 317,
+            "end": 364
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 280,
+        "end": 365
+      },
+      "start": 280,
+      "end": 366
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 367
 }

@@ -2,161 +2,161 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 115,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 52,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 52,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 13,
-            "end": 51,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 19,
               "decorators": [],
               "name": "colors",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 13,
+              "end": 19
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 22,
-              "end": 51,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 28,
-                  "end": 48,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 28,
-                    "end": 37,
                     "decorators": [],
                     "name": "royalBlue",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 28,
+                    "end": 37
                   },
                   "value": {
                     "type": "Literal",
-                    "start": 39,
-                    "end": 48,
                     "value": "#6400e4",
-                    "raw": "\"#6400e4\""
+                    "raw": "\"#6400e4\"",
+                    "start": 39,
+                    "end": 48
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "start": 28,
+                  "end": 48
                 }
-              ]
+              ],
+              "start": 22,
+              "end": 51
             },
-            "definite": false
+            "definite": false,
+            "start": 13,
+            "end": 51
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 52
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 52
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 54,
-      "end": 115,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 61,
-        "end": 115,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 67,
-            "end": 114,
             "id": {
               "type": "Identifier",
-              "start": 67,
-              "end": 78,
               "decorators": [],
               "name": "brandColors",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 67,
+              "end": 78
             },
             "init": {
               "type": "ObjectExpression",
-              "start": 81,
-              "end": 114,
               "properties": [
                 {
                   "type": "Property",
-                  "start": 87,
-                  "end": 111,
                   "kind": "init",
                   "key": {
                     "type": "Identifier",
-                    "start": 87,
-                    "end": 93,
                     "decorators": [],
                     "name": "purple",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 87,
+                    "end": 93
                   },
                   "value": {
                     "type": "MemberExpression",
-                    "start": 95,
-                    "end": 111,
                     "object": {
                       "type": "Identifier",
-                      "start": 95,
-                      "end": 101,
                       "decorators": [],
                       "name": "colors",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 95,
+                      "end": 101
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 102,
-                      "end": 111,
                       "decorators": [],
                       "name": "royalBlue",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 102,
+                      "end": 111
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 95,
+                    "end": 111
                   },
                   "method": false,
                   "shorthand": false,
                   "computed": false,
-                  "optional": false
+                  "optional": false,
+                  "start": 87,
+                  "end": 111
                 }
-              ]
+              ],
+              "start": 81,
+              "end": 114
             },
-            "definite": false
+            "definite": false,
+            "start": 67,
+            "end": 114
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 61,
+        "end": 115
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 54,
+      "end": 115
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 115
 }
 ```

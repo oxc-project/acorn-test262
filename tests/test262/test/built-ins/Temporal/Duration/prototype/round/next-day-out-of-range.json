@@ -1,267 +1,267 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 630,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 348,
-      "end": 389,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 354,
-          "end": 388,
           "id": {
             "type": "Identifier",
+            "name": "instance",
             "start": 354,
-            "end": 362,
-            "name": "instance"
+            "end": 362
           },
           "init": {
             "type": "NewExpression",
-            "start": 365,
-            "end": 388,
             "callee": {
               "type": "MemberExpression",
-              "start": 369,
-              "end": 386,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 369,
-                "end": 377,
-                "name": "Temporal"
+                "end": 377
               },
               "property": {
                 "type": "Identifier",
+                "name": "Duration",
                 "start": 378,
-                "end": 386,
-                "name": "Duration"
+                "end": 386
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 369,
+              "end": 386
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 365,
+            "end": 388
+          },
+          "start": 354,
+          "end": 388
         }
-      ]
+      ],
+      "start": 348,
+      "end": 389
     },
     {
       "type": "VariableDeclaration",
-      "start": 390,
-      "end": 473,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 396,
-          "end": 472,
           "id": {
             "type": "Identifier",
+            "name": "relativeTo",
             "start": 396,
-            "end": 406,
-            "name": "relativeTo"
+            "end": 406
           },
           "init": {
             "type": "NewExpression",
-            "start": 409,
-            "end": 472,
             "callee": {
               "type": "MemberExpression",
-              "start": 413,
-              "end": 435,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 413,
-                "end": 421,
-                "name": "Temporal"
+                "end": 421
               },
               "property": {
                 "type": "Identifier",
+                "name": "ZonedDateTime",
                 "start": 422,
-                "end": 435,
-                "name": "ZonedDateTime"
+                "end": 435
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 413,
+              "end": 435
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 436,
-                "end": 464,
                 "value": null,
                 "raw": "86400_0000_0000_000_000_000n",
-                "bigint": "8640000000000000000000"
+                "bigint": "8640000000000000000000",
+                "start": 436,
+                "end": 464
               },
               {
                 "type": "Literal",
-                "start": 466,
-                "end": 471,
                 "value": "UTC",
-                "raw": "\"UTC\""
+                "raw": "\"UTC\"",
+                "start": 466,
+                "end": 471
               }
-            ]
-          }
+            ],
+            "start": 409,
+            "end": 472
+          },
+          "start": 396,
+          "end": 472
         }
-      ]
+      ],
+      "start": 390,
+      "end": 473
     },
     {
       "type": "ExpressionStatement",
-      "start": 474,
-      "end": 629,
       "expression": {
         "type": "CallExpression",
-        "start": 474,
-        "end": 628,
         "callee": {
           "type": "MemberExpression",
-          "start": 474,
-          "end": 487,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 474,
-            "end": 480,
-            "name": "assert"
+            "end": 480
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 481,
-            "end": 487,
-            "name": "throws"
+            "end": 487
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 474,
+          "end": 487
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "RangeError",
             "start": 491,
-            "end": 501,
-            "name": "RangeError"
+            "end": 501
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 505,
-            "end": 587,
             "expression": true,
             "async": false,
             "params": [],
             "body": {
               "type": "CallExpression",
-              "start": 511,
-              "end": 587,
               "callee": {
                 "type": "MemberExpression",
-                "start": 511,
-                "end": 525,
                 "object": {
                   "type": "Identifier",
+                  "name": "instance",
                   "start": 511,
-                  "end": 519,
-                  "name": "instance"
+                  "end": 519
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "round",
                   "start": 520,
-                  "end": 525,
-                  "name": "round"
+                  "end": 525
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 511,
+                "end": 525
               },
               "arguments": [
                 {
                   "type": "ObjectExpression",
-                  "start": 526,
-                  "end": 586,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 528,
-                      "end": 547,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "largestUnit",
                         "start": 528,
-                        "end": 539,
-                        "name": "largestUnit"
+                        "end": 539
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 541,
-                        "end": 547,
                         "value": "days",
-                        "raw": "\"days\""
+                        "raw": "\"days\"",
+                        "start": 541,
+                        "end": 547
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 528,
+                      "end": 547
                     },
                     {
                       "type": "Property",
-                      "start": 549,
-                      "end": 572,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "smallestUnit",
                         "start": 549,
-                        "end": 561,
-                        "name": "smallestUnit"
+                        "end": 561
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 563,
-                        "end": 572,
                         "value": "minutes",
-                        "raw": "\"minutes\""
+                        "raw": "\"minutes\"",
+                        "start": 563,
+                        "end": 572
                       },
                       "method": false,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 549,
+                      "end": 572
                     },
                     {
                       "type": "Property",
-                      "start": 574,
-                      "end": 584,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "relativeTo",
                         "start": 574,
-                        "end": 584,
-                        "name": "relativeTo"
+                        "end": 584
                       },
                       "value": {
                         "type": "Identifier",
+                        "name": "relativeTo",
                         "start": 574,
-                        "end": 584,
-                        "name": "relativeTo"
+                        "end": 584
                       },
                       "method": false,
                       "shorthand": true,
-                      "computed": false
+                      "computed": false,
+                      "start": 574,
+                      "end": 584
                     }
-                  ]
+                  ],
+                  "start": 526,
+                  "end": 586
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 511,
+              "end": 587
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 505,
+            "end": 587
           },
           {
             "type": "Literal",
-            "start": 591,
-            "end": 626,
             "value": "Next day boundary is out of range",
-            "raw": "\"Next day boundary is out of range\""
+            "raw": "\"Next day boundary is out of range\"",
+            "start": 591,
+            "end": 626
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 474,
+        "end": 628
+      },
+      "start": 474,
+      "end": 629
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 630
 }

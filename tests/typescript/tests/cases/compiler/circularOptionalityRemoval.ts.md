@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 21,
-  "end": 157,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 21,
-      "end": 76,
       "id": {
         "type": "Identifier",
-        "start": 30,
-        "end": 33,
         "decorators": [],
         "name": "fn1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 30,
+        "end": 33
       },
       "generator": false,
       "async": false,
@@ -25,24 +21,16 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 34,
-          "end": 71,
           "decorators": [],
           "left": {
             "type": "Identifier",
-            "start": 34,
-            "end": 55,
             "decorators": [],
             "name": "x",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 35,
-              "end": 55,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 37,
-                "end": 55,
                 "types": [
                   {
                     "type": "TSNumberKeyword",
@@ -54,78 +42,86 @@ __ESTREE_TEST__:PASS:
                     "start": 46,
                     "end": 55
                   }
-                ]
-              }
-            }
+                ],
+                "start": 37,
+                "end": 55
+              },
+              "start": 35,
+              "end": 55
+            },
+            "start": 34,
+            "end": 55
           },
           "right": {
             "type": "ConditionalExpression",
-            "start": 58,
-            "end": 71,
             "test": {
               "type": "BinaryExpression",
-              "start": 58,
-              "end": 63,
               "left": {
                 "type": "Identifier",
-                "start": 58,
-                "end": 59,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 58,
+                "end": 59
               },
               "operator": ">",
               "right": {
                 "type": "Literal",
-                "start": 62,
-                "end": 63,
                 "value": 0,
-                "raw": "0"
-              }
+                "raw": "0",
+                "start": 62,
+                "end": 63
+              },
+              "start": 58,
+              "end": 63
             },
             "consequent": {
               "type": "Identifier",
-              "start": 66,
-              "end": 67,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 66,
+              "end": 67
             },
             "alternate": {
               "type": "Literal",
-              "start": 70,
-              "end": 71,
               "value": 0,
-              "raw": "0"
-            }
+              "raw": "0",
+              "start": 70,
+              "end": 71
+            },
+            "start": 58,
+            "end": 71
           },
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 34,
+          "end": 71
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 73,
-        "end": 76,
-        "body": []
+        "end": 76
       },
-      "expression": false
+      "expression": false,
+      "start": 21,
+      "end": 76
     },
     {
       "type": "FunctionDeclaration",
-      "start": 98,
-      "end": 157,
       "id": {
         "type": "Identifier",
-        "start": 107,
-        "end": 110,
         "decorators": [],
         "name": "fn2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 107,
+        "end": 110
       },
       "generator": false,
       "async": false,
@@ -134,72 +130,76 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "AssignmentPattern",
-          "start": 111,
-          "end": 152,
           "decorators": [],
           "left": {
             "type": "Identifier",
-            "start": 111,
-            "end": 121,
             "decorators": [],
             "name": "x",
             "optional": true,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 113,
-              "end": 121,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 115,
                 "end": 121
-              }
-            }
+              },
+              "start": 113,
+              "end": 121
+            },
+            "start": 111,
+            "end": 121
           },
           "right": {
             "type": "ConditionalExpression",
-            "start": 124,
-            "end": 152,
             "test": {
               "type": "Identifier",
-              "start": 124,
-              "end": 137,
               "decorators": [],
               "name": "someCondition",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 124,
+              "end": 137
             },
             "consequent": {
               "type": "Literal",
-              "start": 140,
-              "end": 148,
               "value": "value1",
-              "raw": "'value1'"
+              "raw": "'value1'",
+              "start": 140,
+              "end": 148
             },
             "alternate": {
               "type": "Identifier",
-              "start": 151,
-              "end": 152,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 151,
+              "end": 152
+            },
+            "start": 124,
+            "end": 152
           },
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 111,
+          "end": 152
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 154,
-        "end": 157,
-        "body": []
+        "end": 157
       },
-      "expression": false
+      "expression": false,
+      "start": 98,
+      "end": 157
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 21,
+  "end": 157
 }
 ```

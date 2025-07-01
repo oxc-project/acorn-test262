@@ -1,273 +1,273 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 785,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 471,
-      "end": 578,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 475,
-          "end": 577,
           "id": {
             "type": "Identifier",
+            "name": "defaultMaximumFractionDigits",
             "start": 475,
-            "end": 503,
-            "name": "defaultMaximumFractionDigits"
+            "end": 503
           },
           "init": {
             "type": "MemberExpression",
-            "start": 510,
-            "end": 577,
             "object": {
               "type": "CallExpression",
-              "start": 510,
-              "end": 555,
               "callee": {
                 "type": "MemberExpression",
-                "start": 510,
-                "end": 553,
                 "object": {
                   "type": "NewExpression",
-                  "start": 510,
-                  "end": 537,
                   "callee": {
                     "type": "MemberExpression",
-                    "start": 514,
-                    "end": 531,
                     "object": {
                       "type": "Identifier",
+                      "name": "Intl",
                       "start": 514,
-                      "end": 518,
-                      "name": "Intl"
+                      "end": 518
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "NumberFormat",
                       "start": 519,
-                      "end": 531,
-                      "name": "NumberFormat"
+                      "end": 531
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 514,
+                    "end": 531
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 532,
-                      "end": 536,
                       "value": "en",
-                      "raw": "\"en\""
+                      "raw": "\"en\"",
+                      "start": 532,
+                      "end": 536
                     }
-                  ]
+                  ],
+                  "start": 510,
+                  "end": 537
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 538,
-                  "end": 553,
-                  "name": "resolvedOptions"
+                  "end": 553
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 510,
+                "end": 553
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 510,
+              "end": 555
             },
             "property": {
               "type": "Identifier",
+              "name": "maximumFractionDigits",
               "start": 556,
-              "end": 577,
-              "name": "maximumFractionDigits"
+              "end": 577
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 510,
+            "end": 577
+          },
+          "start": 475,
+          "end": 577
         }
-      ]
+      ],
+      "start": 471,
+      "end": 578
     },
     {
       "type": "ExpressionStatement",
-      "start": 580,
-      "end": 623,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 580,
-        "end": 622,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 580,
-          "end": 618,
           "object": {
             "type": "MemberExpression",
-            "start": 580,
-            "end": 596,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 580,
-              "end": 586,
-              "name": "Object"
+              "end": 586
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 587,
-              "end": 596,
-              "name": "prototype"
+              "end": 596
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 580,
+            "end": 596
           },
           "property": {
             "type": "Identifier",
+            "name": "maximumFractionDigits",
             "start": 597,
-            "end": 618,
-            "name": "maximumFractionDigits"
+            "end": 618
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 580,
+          "end": 618
         },
         "right": {
           "type": "Literal",
-          "start": 621,
-          "end": 622,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 621,
+          "end": 622
+        },
+        "start": 580,
+        "end": 622
+      },
+      "start": 580,
+      "end": 623
     },
     {
       "type": "VariableDeclaration",
-      "start": 624,
-      "end": 668,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 628,
-          "end": 667,
           "id": {
             "type": "Identifier",
+            "name": "formatter",
             "start": 628,
-            "end": 637,
-            "name": "formatter"
+            "end": 637
           },
           "init": {
             "type": "NewExpression",
-            "start": 640,
-            "end": 667,
             "callee": {
               "type": "MemberExpression",
-              "start": 644,
-              "end": 661,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 644,
-                "end": 648,
-                "name": "Intl"
+                "end": 648
               },
               "property": {
                 "type": "Identifier",
+                "name": "NumberFormat",
                 "start": 649,
-                "end": 661,
-                "name": "NumberFormat"
+                "end": 661
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 644,
+              "end": 661
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 662,
-                "end": 666,
                 "value": "en",
-                "raw": "\"en\""
+                "raw": "\"en\"",
+                "start": 662,
+                "end": 666
               }
-            ]
-          }
+            ],
+            "start": 640,
+            "end": 667
+          },
+          "start": 628,
+          "end": 667
         }
-      ]
+      ],
+      "start": 624,
+      "end": 668
     },
     {
       "type": "ExpressionStatement",
-      "start": 669,
-      "end": 784,
       "expression": {
         "type": "CallExpression",
-        "start": 669,
-        "end": 783,
         "callee": {
           "type": "MemberExpression",
-          "start": 669,
-          "end": 685,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 669,
-            "end": 675,
-            "name": "assert"
+            "end": 675
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 676,
-            "end": 685,
-            "name": "sameValue"
+            "end": 685
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 669,
+          "end": 685
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 686,
-            "end": 735,
             "object": {
               "type": "CallExpression",
-              "start": 686,
-              "end": 713,
               "callee": {
                 "type": "MemberExpression",
-                "start": 686,
-                "end": 711,
                 "object": {
                   "type": "Identifier",
+                  "name": "formatter",
                   "start": 686,
-                  "end": 695,
-                  "name": "formatter"
+                  "end": 695
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "resolvedOptions",
                   "start": 696,
-                  "end": 711,
-                  "name": "resolvedOptions"
+                  "end": 711
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 686,
+                "end": 711
               },
               "arguments": [],
-              "optional": false
+              "optional": false,
+              "start": 686,
+              "end": 713
             },
             "property": {
               "type": "Identifier",
+              "name": "maximumFractionDigits",
               "start": 714,
-              "end": 735,
-              "name": "maximumFractionDigits"
+              "end": 735
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 686,
+            "end": 735
           },
           {
             "type": "Identifier",
+            "name": "defaultMaximumFractionDigits",
             "start": 754,
-            "end": 782,
-            "name": "defaultMaximumFractionDigits"
+            "end": 782
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 669,
+        "end": 783
+      },
+      "start": 669,
+      "end": 784
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 785
 }

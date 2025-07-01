@@ -1,75 +1,75 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 584,
   "body": [
     {
       "type": "IfStatement",
-      "start": 533,
-      "end": 583,
       "test": {
         "type": "Literal",
-        "start": 537,
-        "end": 542,
         "value": false,
-        "raw": "false"
+        "raw": "false",
+        "start": 537,
+        "end": 542
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 544,
-        "end": 583,
         "body": [
           {
             "type": "WithStatement",
-            "start": 550,
-            "end": 563,
             "object": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 556,
-              "end": 558,
-              "properties": []
+              "end": 558
             },
             "body": {
               "type": "ExpressionStatement",
-              "start": 560,
-              "end": 563,
               "expression": {
                 "type": "Identifier",
+                "name": "let",
                 "start": 560,
-                "end": 563,
-                "name": "let"
-              }
-            }
+                "end": 563
+              },
+              "start": 560,
+              "end": 563
+            },
+            "start": 550,
+            "end": 563
           },
           {
             "type": "ExpressionStatement",
-            "start": 575,
-            "end": 581,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 575,
-              "end": 580,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "name": "x",
                 "start": 575,
-                "end": 576,
-                "name": "x"
+                "end": 576
               },
               "right": {
                 "type": "Literal",
-                "start": 579,
-                "end": 580,
                 "value": 1,
-                "raw": "1"
-              }
-            }
+                "raw": "1",
+                "start": 579,
+                "end": 580
+              },
+              "start": 575,
+              "end": 580
+            },
+            "start": 575,
+            "end": 581
           }
-        ]
+        ],
+        "start": 544,
+        "end": 583
       },
-      "alternate": null
+      "alternate": null,
+      "start": 533,
+      "end": 583
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 584
 }

@@ -2,68 +2,68 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 58,
   "body": [
     {
       "type": "TSTypeAliasDeclaration",
-      "start": 0,
-      "end": 23,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 17,
         "decorators": [],
         "name": "RoomInterfae",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 17
       },
       "typeParameters": null,
       "typeAnnotation": {
         "type": "TSTypeLiteral",
+        "members": [],
         "start": 20,
-        "end": 22,
-        "members": []
+        "end": 22
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 23
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 25,
-      "end": 58,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 43,
-          "end": 56,
           "local": {
             "type": "Identifier",
-            "start": 43,
-            "end": 56,
             "decorators": [],
             "name": "RoomInterface",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 56
           },
           "exported": {
             "type": "Identifier",
-            "start": 43,
-            "end": 56,
             "decorators": [],
             "name": "RoomInterface",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 43,
+            "end": 56
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 43,
+          "end": 56
         }
       ],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 25,
+      "end": 58
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 58
 }
 ```

@@ -1,93 +1,85 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 480,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 336,
-      "end": 384,
       "expression": {
         "type": "CallExpression",
-        "start": 336,
-        "end": 383,
         "callee": {
           "type": "MemberExpression",
-          "start": 336,
-          "end": 372,
           "object": {
             "type": "CallExpression",
-            "start": 336,
-            "end": 366,
             "callee": {
               "type": "Identifier",
+              "name": "Function",
               "start": 336,
-              "end": 344,
-              "name": "Function"
+              "end": 344
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 345,
-                "end": 365,
                 "value": "this.field=\"oil\"",
-                "raw": "\"this.field=\\\"oil\\\"\""
+                "raw": "\"this.field=\\\"oil\\\"\"",
+                "start": 345,
+                "end": 365
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 336,
+            "end": 366
           },
           "property": {
             "type": "Identifier",
+            "name": "apply",
             "start": 367,
-            "end": 372,
-            "name": "apply"
+            "end": 372
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 336,
+          "end": 372
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 373,
-            "end": 382,
-            "name": "undefined"
+            "end": 382
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 336,
+        "end": 383
+      },
+      "start": 336,
+      "end": 384
     },
     {
       "type": "ExpressionStatement",
-      "start": 386,
-      "end": 479,
       "expression": {
         "type": "CallExpression",
-        "start": 386,
-        "end": 478,
         "callee": {
           "type": "MemberExpression",
-          "start": 386,
-          "end": 402,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 386,
-            "end": 392,
-            "name": "assert"
+            "end": 392
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 393,
-            "end": 402,
-            "name": "sameValue"
+            "end": 402
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 386,
+          "end": 402
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 403,
-            "end": 416,
             "object": {
               "type": "ThisExpression",
               "start": 403,
@@ -95,33 +87,41 @@
             },
             "property": {
               "type": "Literal",
-              "start": 408,
-              "end": 415,
               "value": "field",
-              "raw": "\"field\""
+              "raw": "\"field\"",
+              "start": 408,
+              "end": 415
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 403,
+            "end": 416
           },
           {
             "type": "Literal",
-            "start": 418,
-            "end": 423,
             "value": "oil",
-            "raw": "\"oil\""
+            "raw": "\"oil\"",
+            "start": 418,
+            "end": 423
           },
           {
             "type": "Literal",
-            "start": 425,
-            "end": 477,
             "value": "The value of this[\"field\"] is expected to be \"oil\"",
-            "raw": "'The value of this[\"field\"] is expected to be \"oil\"'"
+            "raw": "'The value of this[\"field\"] is expected to be \"oil\"'",
+            "start": 425,
+            "end": 477
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 386,
+        "end": 478
+      },
+      "start": 386,
+      "end": 479
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 480
 }

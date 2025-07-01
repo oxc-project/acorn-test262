@@ -1,162 +1,162 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 775,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 653,
-      "end": 704,
       "expression": {
         "type": "CallExpression",
-        "start": 653,
-        "end": 703,
         "callee": {
           "type": "Identifier",
+          "name": "assertNativeFunction",
           "start": 653,
-          "end": 673,
-          "name": "assertNativeFunction"
+          "end": 673
         },
         "arguments": [
           {
             "type": "NewExpression",
-            "start": 674,
-            "end": 702,
             "callee": {
               "type": "Identifier",
+              "name": "Proxy",
               "start": 678,
-              "end": 683,
-              "name": "Proxy"
+              "end": 683
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 684,
-                "end": 697,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 695,
-                  "end": 697,
-                  "body": []
+                  "end": 697
                 },
-                "expression": false
+                "expression": false,
+                "start": 684,
+                "end": 697
               },
               {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 699,
-                "end": 701,
-                "properties": []
+                "end": 701
               }
-            ]
+            ],
+            "start": 674,
+            "end": 702
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 653,
+        "end": 703
+      },
+      "start": 653,
+      "end": 704
     },
     {
       "type": "ExpressionStatement",
-      "start": 705,
-      "end": 774,
       "expression": {
         "type": "CallExpression",
-        "start": 705,
-        "end": 773,
         "callee": {
           "type": "Identifier",
+          "name": "assertNativeFunction",
           "start": 705,
-          "end": 725,
-          "name": "assertNativeFunction"
+          "end": 725
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 726,
-            "end": 772,
             "object": {
               "type": "NewExpression",
-              "start": 726,
-              "end": 766,
               "callee": {
                 "type": "Identifier",
+                "name": "Proxy",
                 "start": 730,
-                "end": 735,
-                "name": "Proxy"
+                "end": 735
               },
               "arguments": [
                 {
                   "type": "FunctionExpression",
-                  "start": 736,
-                  "end": 749,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
+                    "body": [],
                     "start": 747,
-                    "end": 749,
-                    "body": []
+                    "end": 749
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 736,
+                  "end": 749
                 },
                 {
                   "type": "ObjectExpression",
-                  "start": 751,
-                  "end": 765,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 753,
-                      "end": 763,
                       "kind": "init",
                       "key": {
                         "type": "Identifier",
+                        "name": "apply",
                         "start": 753,
-                        "end": 758,
-                        "name": "apply"
+                        "end": 758
                       },
                       "value": {
                         "type": "FunctionExpression",
-                        "start": 758,
-                        "end": 763,
                         "id": null,
                         "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
+                          "body": [],
                           "start": 761,
-                          "end": 763,
-                          "body": []
+                          "end": 763
                         },
-                        "expression": false
+                        "expression": false,
+                        "start": 758,
+                        "end": 763
                       },
                       "method": true,
                       "shorthand": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 753,
+                      "end": 763
                     }
-                  ]
+                  ],
+                  "start": 751,
+                  "end": 765
                 }
-              ]
+              ],
+              "start": 726,
+              "end": 766
             },
             "property": {
               "type": "Identifier",
+              "name": "apply",
               "start": 767,
-              "end": 772,
-              "name": "apply"
+              "end": 772
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 726,
+            "end": 772
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 705,
+        "end": 773
+      },
+      "start": 705,
+      "end": 774
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 775
 }

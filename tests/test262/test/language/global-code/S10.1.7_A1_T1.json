@@ -1,65 +1,65 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 442,
   "body": [
     {
       "type": "IfStatement",
-      "start": 293,
-      "end": 441,
       "test": {
         "type": "BinaryExpression",
-        "start": 297,
-        "end": 317,
         "left": {
           "type": "UnaryExpression",
-          "start": 297,
-          "end": 308,
           "operator": "delete",
           "argument": {
             "type": "ThisExpression",
             "start": 304,
             "end": 308
           },
-          "prefix": true
+          "prefix": true,
+          "start": 297,
+          "end": 308
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 313,
-          "end": 317,
           "value": true,
-          "raw": "true"
-        }
+          "raw": "true",
+          "start": 313,
+          "end": 317
+        },
+        "start": 297,
+        "end": 317
       },
       "consequent": {
         "type": "ThrowStatement",
-        "start": 321,
-        "end": 441,
         "argument": {
           "type": "NewExpression",
-          "start": 327,
-          "end": 440,
           "callee": {
             "type": "Identifier",
+            "name": "Test262Error",
             "start": 331,
-            "end": 343,
-            "name": "Test262Error"
+            "end": 343
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 344,
-              "end": 439,
               "value": "#1: The this value associated with an executioncontext is immutable. Actual: this was deleted",
-              "raw": "'#1: The this value associated with an executioncontext is immutable. Actual: this was deleted'"
+              "raw": "'#1: The this value associated with an executioncontext is immutable. Actual: this was deleted'",
+              "start": 344,
+              "end": 439
             }
-          ]
-        }
+          ],
+          "start": 327,
+          "end": 440
+        },
+        "start": 321,
+        "end": 441
       },
-      "alternate": null
+      "alternate": null,
+      "start": 293,
+      "end": 441
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 442
 }

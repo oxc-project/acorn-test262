@@ -1,55 +1,55 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 327,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 284,
-      "end": 326,
       "expression": {
         "type": "CallExpression",
-        "start": 284,
-        "end": 325,
         "callee": {
           "type": "MemberExpression",
-          "start": 284,
-          "end": 315,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 284,
-            "end": 290,
-            "name": "Object"
+            "end": 290
           },
           "property": {
             "type": "Identifier",
+            "name": "getOwnPropertyDescriptor",
             "start": 291,
-            "end": 315,
-            "name": "getOwnPropertyDescriptor"
+            "end": 315
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 284,
+          "end": 315
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 316,
-            "end": 317,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 316,
+            "end": 317
           },
           {
             "type": "Literal",
-            "start": 319,
-            "end": 324,
             "value": "foo",
-            "raw": "\"foo\""
+            "raw": "\"foo\"",
+            "start": 319,
+            "end": 324
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 284,
+        "end": 325
+      },
+      "start": 284,
+      "end": 326
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 327
 }

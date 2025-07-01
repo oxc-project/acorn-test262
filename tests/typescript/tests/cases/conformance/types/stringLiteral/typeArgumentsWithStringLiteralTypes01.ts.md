@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 3528,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 37,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 25,
         "decorators": [],
         "name": "randBool",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 25
       },
       "generator": false,
       "async": false,
@@ -25,29 +21,29 @@ __ESTREE_TEST__:PASS:
       "params": [],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 27,
-        "end": 36,
         "typeAnnotation": {
           "type": "TSBooleanKeyword",
           "start": 29,
           "end": 36
-        }
+        },
+        "start": 27,
+        "end": 36
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 37
     },
     {
       "type": "TSDeclareFunction",
-      "start": 38,
-      "end": 93,
       "id": {
         "type": "Identifier",
-        "start": 55,
-        "end": 71,
         "decorators": [],
         "name": "takeReturnString",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 55,
+        "end": 71
       },
       "generator": false,
       "async": false,
@@ -56,48 +52,48 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 72,
-          "end": 83,
           "decorators": [],
           "name": "str",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 75,
-            "end": 83,
             "typeAnnotation": {
               "type": "TSStringKeyword",
               "start": 77,
               "end": 83
-            }
-          }
+            },
+            "start": 75,
+            "end": 83
+          },
+          "start": 72,
+          "end": 83
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 84,
-        "end": 92,
         "typeAnnotation": {
           "type": "TSStringKeyword",
           "start": 86,
           "end": 92
-        }
+        },
+        "start": 84,
+        "end": 92
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 38,
+      "end": 93
     },
     {
       "type": "TSDeclareFunction",
-      "start": 94,
-      "end": 150,
       "id": {
         "type": "Identifier",
-        "start": 111,
-        "end": 126,
         "decorators": [],
         "name": "takeReturnHello",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 111,
+        "end": 126
       },
       "generator": false,
       "async": false,
@@ -106,62 +102,62 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 127,
-          "end": 139,
           "decorators": [],
           "name": "str",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 130,
-            "end": 139,
             "typeAnnotation": {
               "type": "TSLiteralType",
-              "start": 132,
-              "end": 139,
               "literal": {
                 "type": "Literal",
-                "start": 132,
-                "end": 139,
                 "value": "Hello",
-                "raw": "\"Hello\""
-              }
-            }
-          }
+                "raw": "\"Hello\"",
+                "start": 132,
+                "end": 139
+              },
+              "start": 132,
+              "end": 139
+            },
+            "start": 130,
+            "end": 139
+          },
+          "start": 127,
+          "end": 139
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 140,
-        "end": 149,
         "typeAnnotation": {
           "type": "TSLiteralType",
-          "start": 142,
-          "end": 149,
           "literal": {
             "type": "Literal",
-            "start": 142,
-            "end": 149,
             "value": "Hello",
-            "raw": "\"Hello\""
-          }
-        }
+            "raw": "\"Hello\"",
+            "start": 142,
+            "end": 149
+          },
+          "start": 142,
+          "end": 149
+        },
+        "start": 140,
+        "end": 149
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 94,
+      "end": 150
     },
     {
       "type": "TSDeclareFunction",
-      "start": 151,
-      "end": 232,
       "id": {
         "type": "Identifier",
-        "start": 168,
-        "end": 188,
         "decorators": [],
         "name": "takeReturnHelloWorld",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 168,
+        "end": 188
       },
       "generator": false,
       "async": false,
@@ -170,4071 +166,4075 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "Identifier",
-          "start": 189,
-          "end": 211,
           "decorators": [],
           "name": "str",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 192,
-            "end": 211,
             "typeAnnotation": {
               "type": "TSUnionType",
-              "start": 194,
-              "end": 211,
               "types": [
                 {
                   "type": "TSLiteralType",
-                  "start": 194,
-                  "end": 201,
                   "literal": {
                     "type": "Literal",
-                    "start": 194,
-                    "end": 201,
                     "value": "Hello",
-                    "raw": "\"Hello\""
-                  }
+                    "raw": "\"Hello\"",
+                    "start": 194,
+                    "end": 201
+                  },
+                  "start": 194,
+                  "end": 201
                 },
                 {
                   "type": "TSLiteralType",
-                  "start": 204,
-                  "end": 211,
                   "literal": {
                     "type": "Literal",
-                    "start": 204,
-                    "end": 211,
                     "value": "World",
-                    "raw": "\"World\""
-                  }
+                    "raw": "\"World\"",
+                    "start": 204,
+                    "end": 211
+                  },
+                  "start": 204,
+                  "end": 211
                 }
-              ]
-            }
-          }
+              ],
+              "start": 194,
+              "end": 211
+            },
+            "start": 192,
+            "end": 211
+          },
+          "start": 189,
+          "end": 211
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 212,
-        "end": 231,
         "typeAnnotation": {
           "type": "TSUnionType",
-          "start": 214,
-          "end": 231,
           "types": [
             {
               "type": "TSLiteralType",
-              "start": 214,
-              "end": 221,
               "literal": {
                 "type": "Literal",
-                "start": 214,
-                "end": 221,
                 "value": "Hello",
-                "raw": "\"Hello\""
-              }
+                "raw": "\"Hello\"",
+                "start": 214,
+                "end": 221
+              },
+              "start": 214,
+              "end": 221
             },
             {
               "type": "TSLiteralType",
-              "start": 224,
-              "end": 231,
               "literal": {
                 "type": "Literal",
-                "start": 224,
-                "end": 231,
                 "value": "World",
-                "raw": "\"World\""
-              }
+                "raw": "\"World\"",
+                "start": 224,
+                "end": 231
+              },
+              "start": 224,
+              "end": 231
             }
-          ]
-        }
+          ],
+          "start": 214,
+          "end": 231
+        },
+        "start": 212,
+        "end": 231
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 151,
+      "end": 232
     },
     {
       "type": "FunctionDeclaration",
-      "start": 234,
-      "end": 297,
       "id": {
         "type": "Identifier",
-        "start": 243,
-        "end": 247,
         "decorators": [],
         "name": "fun1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 243,
+        "end": 247
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 247,
-        "end": 250,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 248,
-            "end": 249,
             "name": {
               "type": "Identifier",
-              "start": 248,
-              "end": 249,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 248,
+              "end": 249
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 248,
+            "end": 249
           }
-        ]
+        ],
+        "start": 247,
+        "end": 250
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 251,
-          "end": 255,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 252,
-            "end": 255,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 254,
-              "end": 255,
               "typeName": {
                 "type": "Identifier",
-                "start": 254,
-                "end": 255,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 254,
+                "end": 255
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 254,
+              "end": 255
+            },
+            "start": 252,
+            "end": 255
+          },
+          "start": 251,
+          "end": 255
         },
         {
           "type": "Identifier",
-          "start": 257,
-          "end": 261,
           "decorators": [],
           "name": "y",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 258,
-            "end": 261,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 260,
-              "end": 261,
               "typeName": {
                 "type": "Identifier",
-                "start": 260,
-                "end": 261,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 260,
+                "end": 261
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 260,
+              "end": 261
+            },
+            "start": 258,
+            "end": 261
+          },
+          "start": 257,
+          "end": 261
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 263,
-        "end": 297,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 269,
-            "end": 295,
             "argument": {
               "type": "ConditionalExpression",
-              "start": 276,
-              "end": 294,
               "test": {
                 "type": "CallExpression",
-                "start": 276,
-                "end": 286,
                 "callee": {
                   "type": "Identifier",
-                  "start": 276,
-                  "end": 284,
                   "decorators": [],
                   "name": "randBool",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 276,
+                  "end": 284
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 276,
+                "end": 286
               },
               "consequent": {
                 "type": "Identifier",
-                "start": 289,
-                "end": 290,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 289,
+                "end": 290
               },
               "alternate": {
                 "type": "Identifier",
-                "start": 293,
-                "end": 294,
                 "decorators": [],
                 "name": "y",
                 "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "typeAnnotation": null,
+                "start": 293,
+                "end": 294
+              },
+              "start": 276,
+              "end": 294
+            },
+            "start": 269,
+            "end": 295
           }
-        ]
+        ],
+        "start": 263,
+        "end": 297
       },
-      "expression": false
+      "expression": false,
+      "start": 234,
+      "end": 297
     },
     {
       "type": "FunctionDeclaration",
-      "start": 299,
-      "end": 365,
       "id": {
         "type": "Identifier",
-        "start": 308,
-        "end": 312,
         "decorators": [],
         "name": "fun2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 308,
+        "end": 312
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 312,
-        "end": 318,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 313,
-            "end": 314,
             "name": {
               "type": "Identifier",
-              "start": 313,
-              "end": 314,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 313,
+              "end": 314
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 313,
+            "end": 314
           },
           {
             "type": "TSTypeParameter",
-            "start": 316,
-            "end": 317,
             "name": {
               "type": "Identifier",
-              "start": 316,
-              "end": 317,
               "decorators": [],
               "name": "U",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 316,
+              "end": 317
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 316,
+            "end": 317
           }
-        ]
+        ],
+        "start": 312,
+        "end": 318
       },
       "params": [
         {
           "type": "Identifier",
-          "start": 319,
-          "end": 323,
           "decorators": [],
           "name": "x",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 320,
-            "end": 323,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 322,
-              "end": 323,
               "typeName": {
                 "type": "Identifier",
-                "start": 322,
-                "end": 323,
                 "decorators": [],
                 "name": "T",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 322,
+                "end": 323
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 322,
+              "end": 323
+            },
+            "start": 320,
+            "end": 323
+          },
+          "start": 319,
+          "end": 323
         },
         {
           "type": "Identifier",
-          "start": 325,
-          "end": 329,
           "decorators": [],
           "name": "y",
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 326,
-            "end": 329,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 328,
-              "end": 329,
               "typeName": {
                 "type": "Identifier",
-                "start": 328,
-                "end": 329,
                 "decorators": [],
                 "name": "U",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 328,
+                "end": 329
               },
-              "typeArguments": null
-            }
-          }
+              "typeArguments": null,
+              "start": 328,
+              "end": 329
+            },
+            "start": 326,
+            "end": 329
+          },
+          "start": 325,
+          "end": 329
         }
       ],
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 331,
-        "end": 365,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 337,
-            "end": 363,
             "argument": {
               "type": "ConditionalExpression",
-              "start": 344,
-              "end": 362,
               "test": {
                 "type": "CallExpression",
-                "start": 344,
-                "end": 354,
                 "callee": {
                   "type": "Identifier",
-                  "start": 344,
-                  "end": 352,
                   "decorators": [],
                   "name": "randBool",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 344,
+                  "end": 352
                 },
                 "typeArguments": null,
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 344,
+                "end": 354
               },
               "consequent": {
                 "type": "Identifier",
-                "start": 357,
-                "end": 358,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 357,
+                "end": 358
               },
               "alternate": {
                 "type": "Identifier",
-                "start": 361,
-                "end": 362,
                 "decorators": [],
                 "name": "y",
                 "optional": false,
-                "typeAnnotation": null
-              }
-            }
+                "typeAnnotation": null,
+                "start": 361,
+                "end": 362
+              },
+              "start": 344,
+              "end": 362
+            },
+            "start": 337,
+            "end": 363
           }
-        ]
+        ],
+        "start": 331,
+        "end": 365
       },
-      "expression": false
+      "expression": false,
+      "start": 299,
+      "end": 365
     },
     {
       "type": "FunctionDeclaration",
-      "start": 367,
-      "end": 434,
       "id": {
         "type": "Identifier",
-        "start": 376,
-        "end": 380,
         "decorators": [],
         "name": "fun3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 376,
+        "end": 380
       },
       "generator": false,
       "async": false,
       "declare": false,
       "typeParameters": {
         "type": "TSTypeParameterDeclaration",
-        "start": 380,
-        "end": 383,
         "params": [
           {
             "type": "TSTypeParameter",
-            "start": 381,
-            "end": 382,
             "name": {
               "type": "Identifier",
-              "start": 381,
-              "end": 382,
               "decorators": [],
               "name": "T",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 381,
+              "end": 382
             },
             "constraint": null,
             "default": null,
             "in": false,
             "out": false,
-            "const": false
+            "const": false,
+            "start": 381,
+            "end": 382
           }
-        ]
+        ],
+        "start": 380,
+        "end": 383
       },
       "params": [
         {
           "type": "RestElement",
-          "start": 384,
-          "end": 396,
           "decorators": [],
           "argument": {
             "type": "Identifier",
-            "start": 387,
-            "end": 391,
             "decorators": [],
             "name": "args",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 387,
+            "end": 391
           },
           "optional": false,
           "typeAnnotation": {
             "type": "TSTypeAnnotation",
-            "start": 391,
-            "end": 396,
             "typeAnnotation": {
               "type": "TSArrayType",
-              "start": 393,
-              "end": 396,
               "elementType": {
                 "type": "TSTypeReference",
-                "start": 393,
-                "end": 394,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 393,
-                  "end": 394,
                   "decorators": [],
                   "name": "T",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 393,
+                  "end": 394
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 393,
+                "end": 394
+              },
+              "start": 393,
+              "end": 396
+            },
+            "start": 391,
+            "end": 396
           },
-          "value": null
+          "value": null,
+          "start": 384,
+          "end": 396
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 397,
-        "end": 400,
         "typeAnnotation": {
           "type": "TSTypeReference",
-          "start": 399,
-          "end": 400,
           "typeName": {
             "type": "Identifier",
-            "start": 399,
-            "end": 400,
             "decorators": [],
             "name": "T",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 399,
+            "end": 400
           },
-          "typeArguments": null
-        }
+          "typeArguments": null,
+          "start": 399,
+          "end": 400
+        },
+        "start": 397,
+        "end": 400
       },
       "body": {
         "type": "BlockStatement",
-        "start": 401,
-        "end": 434,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 407,
-            "end": 432,
             "argument": {
               "type": "MemberExpression",
-              "start": 414,
-              "end": 431,
               "object": {
                 "type": "Identifier",
-                "start": 414,
-                "end": 418,
                 "decorators": [],
                 "name": "args",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 414,
+                "end": 418
               },
               "property": {
                 "type": "UnaryExpression",
-                "start": 419,
-                "end": 430,
                 "operator": "+",
                 "argument": {
                   "type": "CallExpression",
-                  "start": 420,
-                  "end": 430,
                   "callee": {
                     "type": "Identifier",
-                    "start": 420,
-                    "end": 428,
                     "decorators": [],
                     "name": "randBool",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 420,
+                    "end": 428
                   },
                   "typeArguments": null,
                   "arguments": [],
-                  "optional": false
+                  "optional": false,
+                  "start": 420,
+                  "end": 430
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 419,
+                "end": 430
               },
               "optional": false,
-              "computed": true
-            }
+              "computed": true,
+              "start": 414,
+              "end": 431
+            },
+            "start": 407,
+            "end": 432
           }
-        ]
+        ],
+        "start": 401,
+        "end": 434
       },
-      "expression": false
+      "expression": false,
+      "start": 367,
+      "end": 434
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 436,
-      "end": 1469,
       "id": {
         "type": "Identifier",
-        "start": 446,
-        "end": 448,
         "decorators": [],
         "name": "n1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 446,
+        "end": 448
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 449,
-        "end": 1469,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 647,
-            "end": 685,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 654,
-              "end": 685,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 658,
-                  "end": 684,
                   "id": {
                     "type": "Identifier",
-                    "start": 658,
-                    "end": 659,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 658,
+                    "end": 659
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 662,
-                    "end": 684,
                     "callee": {
                       "type": "Identifier",
-                      "start": 662,
-                      "end": 666,
                       "decorators": [],
                       "name": "fun1",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 662,
+                      "end": 666
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 667,
-                        "end": 674,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 667,
+                        "end": 674
                       },
                       {
                         "type": "Literal",
-                        "start": 676,
-                        "end": 683,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 676,
+                        "end": 683
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 662,
+                    "end": 684
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 658,
+                  "end": 684
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 654,
+              "end": 685
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 647,
+            "end": 685
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 690,
-            "end": 728,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 697,
-              "end": 728,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 701,
-                  "end": 727,
                   "id": {
                     "type": "Identifier",
-                    "start": 701,
-                    "end": 702,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 701,
+                    "end": 702
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 705,
-                    "end": 727,
                     "callee": {
                       "type": "Identifier",
-                      "start": 705,
-                      "end": 709,
                       "decorators": [],
                       "name": "fun1",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 705,
+                      "end": 709
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 710,
-                        "end": 717,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 710,
+                        "end": 717
                       },
                       {
                         "type": "Literal",
-                        "start": 719,
-                        "end": 726,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 719,
+                        "end": 726
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 705,
+                    "end": 727
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 701,
+                  "end": 727
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 697,
+              "end": 728
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 690,
+            "end": 728
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 733,
-            "end": 771,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 740,
-              "end": 771,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 744,
-                  "end": 770,
                   "id": {
                     "type": "Identifier",
-                    "start": 744,
-                    "end": 745,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 744,
+                    "end": 745
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 748,
-                    "end": 770,
                     "callee": {
                       "type": "Identifier",
-                      "start": 748,
-                      "end": 752,
                       "decorators": [],
                       "name": "fun2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 748,
+                      "end": 752
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 753,
-                        "end": 760,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 753,
+                        "end": 760
                       },
                       {
                         "type": "Literal",
-                        "start": 762,
-                        "end": 769,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 762,
+                        "end": 769
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 748,
+                    "end": 770
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 744,
+                  "end": 770
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 740,
+              "end": 771
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 733,
+            "end": 771
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 776,
-            "end": 814,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 783,
-              "end": 814,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 787,
-                  "end": 813,
                   "id": {
                     "type": "Identifier",
-                    "start": 787,
-                    "end": 788,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 787,
+                    "end": 788
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 791,
-                    "end": 813,
                     "callee": {
                       "type": "Identifier",
-                      "start": 791,
-                      "end": 795,
                       "decorators": [],
                       "name": "fun2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 791,
+                      "end": 795
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 796,
-                        "end": 803,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 796,
+                        "end": 803
                       },
                       {
                         "type": "Literal",
-                        "start": 805,
-                        "end": 812,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 805,
+                        "end": 812
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 791,
+                    "end": 813
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 787,
+                  "end": 813
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 783,
+              "end": 814
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 776,
+            "end": 814
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 819,
-            "end": 873,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 826,
-              "end": 873,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 830,
-                  "end": 872,
                   "id": {
                     "type": "Identifier",
-                    "start": 830,
-                    "end": 831,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 830,
+                    "end": 831
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 834,
-                    "end": 872,
                     "callee": {
                       "type": "Identifier",
-                      "start": 834,
-                      "end": 838,
                       "decorators": [],
                       "name": "fun3",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 834,
+                      "end": 838
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
+                        "value": "Hello",
+                        "raw": "\"Hello\"",
                         "start": 839,
-                        "end": 846,
-                        "value": "Hello",
-                        "raw": "\"Hello\""
+                        "end": 846
                       },
                       {
                         "type": "Literal",
+                        "value": "Hello",
+                        "raw": "\"Hello\"",
                         "start": 848,
-                        "end": 855,
-                        "value": "Hello",
-                        "raw": "\"Hello\""
+                        "end": 855
                       },
                       {
                         "type": "Literal",
-                        "start": 857,
-                        "end": 864,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 857,
+                        "end": 864
                       },
                       {
                         "type": "Literal",
-                        "start": 866,
-                        "end": 871,
                         "value": "Foo",
-                        "raw": "\"Foo\""
+                        "raw": "\"Foo\"",
+                        "start": 866,
+                        "end": 871
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 834,
+                    "end": 872
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 830,
+                  "end": 872
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 826,
+              "end": 873
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 819,
+            "end": 873
           },
           {
             "type": "ExpressionStatement",
-            "start": 902,
-            "end": 926,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 902,
-              "end": 925,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 902,
-                "end": 903,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 903
               },
               "right": {
                 "type": "CallExpression",
-                "start": 906,
-                "end": 925,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 906,
-                  "end": 922,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 922
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "a",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 923,
-                    "end": 924,
-                    "decorators": [],
-                    "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 924
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 906,
+                "end": 925
+              },
+              "start": 902,
+              "end": 925
             },
-            "directive": null
+            "directive": null,
+            "start": 902,
+            "end": 926
           },
           {
             "type": "ExpressionStatement",
-            "start": 931,
-            "end": 955,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 931,
-              "end": 954,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "b",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 931,
-                "end": 932,
-                "decorators": [],
-                "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 932
               },
               "right": {
                 "type": "CallExpression",
-                "start": 935,
-                "end": 954,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 935,
-                  "end": 951,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 951
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "b",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 952,
-                    "end": 953,
-                    "decorators": [],
-                    "name": "b",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 953
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 935,
+                "end": 954
+              },
+              "start": 931,
+              "end": 954
             },
-            "directive": null
+            "directive": null,
+            "start": 931,
+            "end": 955
           },
           {
             "type": "ExpressionStatement",
-            "start": 960,
-            "end": 984,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 960,
-              "end": 983,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "c",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 960,
-                "end": 961,
-                "decorators": [],
-                "name": "c",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 961
               },
               "right": {
                 "type": "CallExpression",
-                "start": 964,
-                "end": 983,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 964,
-                  "end": 980,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 980
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "c",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 981,
-                    "end": 982,
-                    "decorators": [],
-                    "name": "c",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 982
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 964,
+                "end": 983
+              },
+              "start": 960,
+              "end": 983
             },
-            "directive": null
+            "directive": null,
+            "start": 960,
+            "end": 984
           },
           {
             "type": "ExpressionStatement",
-            "start": 989,
-            "end": 1013,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 989,
-              "end": 1012,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "d",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 989,
-                "end": 990,
-                "decorators": [],
-                "name": "d",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 990
               },
               "right": {
                 "type": "CallExpression",
-                "start": 993,
-                "end": 1012,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 993,
-                  "end": 1009,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 1009
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "d",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 1010,
-                    "end": 1011,
-                    "decorators": [],
-                    "name": "d",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 1011
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 993,
+                "end": 1012
+              },
+              "start": 989,
+              "end": 1012
             },
-            "directive": null
+            "directive": null,
+            "start": 989,
+            "end": 1013
           },
           {
             "type": "ExpressionStatement",
-            "start": 1018,
-            "end": 1042,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1018,
-              "end": 1041,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1018,
-                "end": 1019,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1018,
+                "end": 1019
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1022,
-                "end": 1041,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1022,
-                  "end": 1038,
                   "decorators": [],
                   "name": "takeReturnString",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1022,
+                  "end": 1038
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "e",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 1039,
-                    "end": 1040,
-                    "decorators": [],
-                    "name": "e",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 1040
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1022,
+                "end": 1041
+              },
+              "start": 1018,
+              "end": 1041
             },
-            "directive": null
+            "directive": null,
+            "start": 1018,
+            "end": 1042
           },
           {
             "type": "ExpressionStatement",
-            "start": 1109,
-            "end": 1132,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1109,
-              "end": 1131,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 1109,
-                "end": 1110,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 1110
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1113,
-                "end": 1131,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnHello",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 1113,
-                  "end": 1128,
-                  "decorators": [],
-                  "name": "takeReturnHello",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 1128
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1129,
-                    "end": 1130,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1129,
+                    "end": 1130
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1113,
+                "end": 1131
+              },
+              "start": 1109,
+              "end": 1131
             },
-            "directive": null
+            "directive": null,
+            "start": 1109,
+            "end": 1132
           },
           {
             "type": "ExpressionStatement",
-            "start": 1137,
-            "end": 1160,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1137,
-              "end": 1159,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1137,
-                "end": 1138,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1137,
+                "end": 1138
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1141,
-                "end": 1159,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1141,
-                  "end": 1156,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1141,
+                  "end": 1156
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1157,
-                    "end": 1158,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1157,
+                    "end": 1158
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1141,
+                "end": 1159
+              },
+              "start": 1137,
+              "end": 1159
             },
-            "directive": null
+            "directive": null,
+            "start": 1137,
+            "end": 1160
           },
           {
             "type": "ExpressionStatement",
-            "start": 1165,
-            "end": 1188,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1165,
-              "end": 1187,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1165,
-                "end": 1166,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1165,
+                "end": 1166
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1169,
-                "end": 1187,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1169,
-                  "end": 1184,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1169,
+                  "end": 1184
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1185,
-                    "end": 1186,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1185,
+                    "end": 1186
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1169,
+                "end": 1187
+              },
+              "start": 1165,
+              "end": 1187
             },
-            "directive": null
+            "directive": null,
+            "start": 1165,
+            "end": 1188
           },
           {
             "type": "ExpressionStatement",
-            "start": 1193,
-            "end": 1216,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1193,
-              "end": 1215,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1193,
-                "end": 1194,
                 "decorators": [],
                 "name": "d",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1193,
+                "end": 1194
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1197,
-                "end": 1215,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1197,
-                  "end": 1212,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1197,
+                  "end": 1212
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1213,
-                    "end": 1214,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1213,
+                    "end": 1214
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1197,
+                "end": 1215
+              },
+              "start": 1193,
+              "end": 1215
             },
-            "directive": null
+            "directive": null,
+            "start": 1193,
+            "end": 1216
           },
           {
             "type": "ExpressionStatement",
-            "start": 1221,
-            "end": 1244,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1221,
-              "end": 1243,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1221,
-                "end": 1222,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1221,
+                "end": 1222
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1225,
-                "end": 1243,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1225,
-                  "end": 1240,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1225,
+                  "end": 1240
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1241,
-                    "end": 1242,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1241,
+                    "end": 1242
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1225,
+                "end": 1243
+              },
+              "start": 1221,
+              "end": 1243
             },
-            "directive": null
+            "directive": null,
+            "start": 1221,
+            "end": 1244
           },
           {
             "type": "ExpressionStatement",
-            "start": 1307,
-            "end": 1335,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1307,
-              "end": 1334,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1307,
-                "end": 1308,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1307,
+                "end": 1308
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1311,
-                "end": 1334,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1311,
-                  "end": 1331,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1311,
+                  "end": 1331
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1332,
-                    "end": 1333,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1332,
+                    "end": 1333
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1311,
+                "end": 1334
+              },
+              "start": 1307,
+              "end": 1334
             },
-            "directive": null
+            "directive": null,
+            "start": 1307,
+            "end": 1335
           },
           {
             "type": "ExpressionStatement",
-            "start": 1340,
-            "end": 1368,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1340,
-              "end": 1367,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1340,
-                "end": 1341,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1340,
+                "end": 1341
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1344,
-                "end": 1367,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1344,
-                  "end": 1364,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1344,
+                  "end": 1364
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1365,
-                    "end": 1366,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1365,
+                    "end": 1366
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1344,
+                "end": 1367
+              },
+              "start": 1340,
+              "end": 1367
             },
-            "directive": null
+            "directive": null,
+            "start": 1340,
+            "end": 1368
           },
           {
             "type": "ExpressionStatement",
-            "start": 1373,
-            "end": 1401,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1373,
-              "end": 1400,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1373,
-                "end": 1374,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1373,
+                "end": 1374
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1377,
-                "end": 1400,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1377,
-                  "end": 1397,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1377,
+                  "end": 1397
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1398,
-                    "end": 1399,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1398,
+                    "end": 1399
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1377,
+                "end": 1400
+              },
+              "start": 1373,
+              "end": 1400
             },
-            "directive": null
+            "directive": null,
+            "start": 1373,
+            "end": 1401
           },
           {
             "type": "ExpressionStatement",
-            "start": 1406,
-            "end": 1434,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1406,
-              "end": 1433,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1406,
-                "end": 1407,
                 "decorators": [],
                 "name": "d",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1406,
+                "end": 1407
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1410,
-                "end": 1433,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1410,
-                  "end": 1430,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1410,
+                  "end": 1430
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1431,
-                    "end": 1432,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1431,
+                    "end": 1432
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1410,
+                "end": 1433
+              },
+              "start": 1406,
+              "end": 1433
             },
-            "directive": null
+            "directive": null,
+            "start": 1406,
+            "end": 1434
           },
           {
             "type": "ExpressionStatement",
-            "start": 1439,
-            "end": 1467,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1439,
-              "end": 1466,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 1439,
-                "end": 1440,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 1439,
+                "end": 1440
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1443,
-                "end": 1466,
                 "callee": {
                   "type": "Identifier",
-                  "start": 1443,
-                  "end": 1463,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 1443,
+                  "end": 1463
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 1464,
-                    "end": 1465,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1464,
+                    "end": 1465
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1443,
+                "end": 1466
+              },
+              "start": 1439,
+              "end": 1466
             },
-            "directive": null
+            "directive": null,
+            "start": 1439,
+            "end": 1467
           }
-        ]
+        ],
+        "start": 449,
+        "end": 1469
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 436,
+      "end": 1469
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 1471,
-      "end": 2480,
       "id": {
         "type": "Identifier",
-        "start": 1481,
-        "end": 1483,
         "decorators": [],
         "name": "n2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 1481,
+        "end": 1483
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 1484,
-        "end": 2480,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 1599,
-            "end": 1646,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 1606,
-              "end": 1646,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1610,
-                  "end": 1645,
                   "id": {
                     "type": "Identifier",
-                    "start": 1610,
-                    "end": 1611,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1610,
+                    "end": 1611
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 1614,
-                    "end": 1645,
                     "callee": {
                       "type": "Identifier",
-                      "start": 1614,
-                      "end": 1618,
                       "decorators": [],
                       "name": "fun1",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1614,
+                      "end": 1618
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 1618,
-                      "end": 1627,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 1619,
-                          "end": 1626,
                           "literal": {
                             "type": "Literal",
-                            "start": 1619,
-                            "end": 1626,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 1619,
+                            "end": 1626
+                          },
+                          "start": 1619,
+                          "end": 1626
                         }
-                      ]
+                      ],
+                      "start": 1618,
+                      "end": 1627
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1628,
-                        "end": 1635,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 1628,
+                        "end": 1635
                       },
                       {
                         "type": "Literal",
-                        "start": 1637,
-                        "end": 1644,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 1637,
+                        "end": 1644
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 1614,
+                    "end": 1645
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 1610,
+                  "end": 1645
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 1606,
+              "end": 1646
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 1599,
+            "end": 1646
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 1651,
-            "end": 1698,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 1658,
-              "end": 1698,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1662,
-                  "end": 1697,
                   "id": {
                     "type": "Identifier",
-                    "start": 1662,
-                    "end": 1663,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1662,
+                    "end": 1663
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 1666,
-                    "end": 1697,
                     "callee": {
                       "type": "Identifier",
-                      "start": 1666,
-                      "end": 1670,
                       "decorators": [],
                       "name": "fun1",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1666,
+                      "end": 1670
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 1670,
-                      "end": 1679,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 1671,
-                          "end": 1678,
                           "literal": {
                             "type": "Literal",
-                            "start": 1671,
-                            "end": 1678,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 1671,
+                            "end": 1678
+                          },
+                          "start": 1671,
+                          "end": 1678
                         }
-                      ]
+                      ],
+                      "start": 1670,
+                      "end": 1679
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1680,
-                        "end": 1687,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 1680,
+                        "end": 1687
                       },
                       {
                         "type": "Literal",
-                        "start": 1689,
-                        "end": 1696,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 1689,
+                        "end": 1696
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 1666,
+                    "end": 1697
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 1662,
+                  "end": 1697
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 1658,
+              "end": 1698
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 1651,
+            "end": 1698
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 1703,
-            "end": 1759,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 1710,
-              "end": 1759,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1714,
-                  "end": 1758,
                   "id": {
                     "type": "Identifier",
-                    "start": 1714,
-                    "end": 1715,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1714,
+                    "end": 1715
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 1718,
-                    "end": 1758,
                     "callee": {
                       "type": "Identifier",
-                      "start": 1718,
-                      "end": 1722,
                       "decorators": [],
                       "name": "fun2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1718,
+                      "end": 1722
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 1722,
-                      "end": 1740,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 1723,
-                          "end": 1730,
                           "literal": {
                             "type": "Literal",
-                            "start": 1723,
-                            "end": 1730,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 1723,
+                            "end": 1730
+                          },
+                          "start": 1723,
+                          "end": 1730
                         },
                         {
                           "type": "TSLiteralType",
-                          "start": 1732,
-                          "end": 1739,
                           "literal": {
                             "type": "Literal",
-                            "start": 1732,
-                            "end": 1739,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 1732,
+                            "end": 1739
+                          },
+                          "start": 1732,
+                          "end": 1739
                         }
-                      ]
+                      ],
+                      "start": 1722,
+                      "end": 1740
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1741,
-                        "end": 1748,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 1741,
+                        "end": 1748
                       },
                       {
                         "type": "Literal",
-                        "start": 1750,
-                        "end": 1757,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 1750,
+                        "end": 1757
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 1718,
+                    "end": 1758
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 1714,
+                  "end": 1758
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 1710,
+              "end": 1759
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 1703,
+            "end": 1759
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 1764,
-            "end": 1820,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 1771,
-              "end": 1820,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1775,
-                  "end": 1819,
                   "id": {
                     "type": "Identifier",
-                    "start": 1775,
-                    "end": 1776,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1775,
+                    "end": 1776
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 1779,
-                    "end": 1819,
                     "callee": {
                       "type": "Identifier",
-                      "start": 1779,
-                      "end": 1783,
                       "decorators": [],
                       "name": "fun2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1779,
+                      "end": 1783
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 1783,
-                      "end": 1801,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 1784,
-                          "end": 1791,
                           "literal": {
                             "type": "Literal",
-                            "start": 1784,
-                            "end": 1791,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 1784,
+                            "end": 1791
+                          },
+                          "start": 1784,
+                          "end": 1791
                         },
                         {
                           "type": "TSLiteralType",
-                          "start": 1793,
-                          "end": 1800,
                           "literal": {
                             "type": "Literal",
-                            "start": 1793,
-                            "end": 1800,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 1793,
+                            "end": 1800
+                          },
+                          "start": 1793,
+                          "end": 1800
                         }
-                      ]
+                      ],
+                      "start": 1783,
+                      "end": 1801
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1802,
-                        "end": 1809,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 1802,
+                        "end": 1809
                       },
                       {
                         "type": "Literal",
-                        "start": 1811,
-                        "end": 1818,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 1811,
+                        "end": 1818
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 1779,
+                    "end": 1819
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 1775,
+                  "end": 1819
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 1771,
+              "end": 1820
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 1764,
+            "end": 1820
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 1825,
-            "end": 1872,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 1832,
-              "end": 1872,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1836,
-                  "end": 1871,
                   "id": {
                     "type": "Identifier",
-                    "start": 1836,
-                    "end": 1837,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 1836,
+                    "end": 1837
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 1840,
-                    "end": 1871,
                     "callee": {
                       "type": "Identifier",
-                      "start": 1840,
-                      "end": 1844,
                       "decorators": [],
                       "name": "fun3",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 1840,
+                      "end": 1844
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 1844,
-                      "end": 1853,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 1845,
-                          "end": 1852,
                           "literal": {
                             "type": "Literal",
-                            "start": 1845,
-                            "end": 1852,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 1845,
+                            "end": 1852
+                          },
+                          "start": 1845,
+                          "end": 1852
                         }
-                      ]
+                      ],
+                      "start": 1844,
+                      "end": 1853
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1854,
-                        "end": 1861,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 1854,
+                        "end": 1861
                       },
                       {
                         "type": "Literal",
-                        "start": 1863,
-                        "end": 1870,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 1863,
+                        "end": 1870
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 1840,
+                    "end": 1871
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 1836,
+                  "end": 1871
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 1832,
+              "end": 1872
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 1825,
+            "end": 1872
           },
           {
             "type": "ExpressionStatement",
-            "start": 1943,
-            "end": 1967,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1943,
-              "end": 1966,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 1943,
-                "end": 1944,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 1944
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1947,
-                "end": 1966,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 1947,
-                  "end": 1963,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 1963
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "a",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 1964,
-                    "end": 1965,
-                    "decorators": [],
-                    "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 1965
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1947,
+                "end": 1966
+              },
+              "start": 1943,
+              "end": 1966
             },
-            "directive": null
+            "directive": null,
+            "start": 1943,
+            "end": 1967
           },
           {
             "type": "ExpressionStatement",
-            "start": 1972,
-            "end": 1996,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1972,
-              "end": 1995,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "b",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 1972,
-                "end": 1973,
-                "decorators": [],
-                "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 1973
               },
               "right": {
                 "type": "CallExpression",
-                "start": 1976,
-                "end": 1995,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 1976,
-                  "end": 1992,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 1992
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "b",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 1993,
-                    "end": 1994,
-                    "decorators": [],
-                    "name": "b",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 1994
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 1976,
+                "end": 1995
+              },
+              "start": 1972,
+              "end": 1995
             },
-            "directive": null
+            "directive": null,
+            "start": 1972,
+            "end": 1996
           },
           {
             "type": "ExpressionStatement",
-            "start": 2001,
-            "end": 2025,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2001,
-              "end": 2024,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "c",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 2001,
-                "end": 2002,
-                "decorators": [],
-                "name": "c",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 2002
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2005,
-                "end": 2024,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 2005,
-                  "end": 2021,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 2021
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "c",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 2022,
-                    "end": 2023,
-                    "decorators": [],
-                    "name": "c",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 2023
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2005,
+                "end": 2024
+              },
+              "start": 2001,
+              "end": 2024
             },
-            "directive": null
+            "directive": null,
+            "start": 2001,
+            "end": 2025
           },
           {
             "type": "ExpressionStatement",
-            "start": 2030,
-            "end": 2054,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2030,
-              "end": 2053,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "d",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 2030,
-                "end": 2031,
-                "decorators": [],
-                "name": "d",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 2031
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2034,
-                "end": 2053,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 2034,
-                  "end": 2050,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 2050
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "d",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 2051,
-                    "end": 2052,
-                    "decorators": [],
-                    "name": "d",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 2052
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2034,
+                "end": 2053
+              },
+              "start": 2030,
+              "end": 2053
             },
-            "directive": null
+            "directive": null,
+            "start": 2030,
+            "end": 2054
           },
           {
             "type": "ExpressionStatement",
-            "start": 2059,
-            "end": 2083,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2059,
-              "end": 2082,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2059,
-                "end": 2060,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2059,
+                "end": 2060
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2063,
-                "end": 2082,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2063,
-                  "end": 2079,
                   "decorators": [],
                   "name": "takeReturnString",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2063,
+                  "end": 2079
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "e",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 2080,
-                    "end": 2081,
-                    "decorators": [],
-                    "name": "e",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 2081
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2063,
+                "end": 2082
+              },
+              "start": 2059,
+              "end": 2082
             },
-            "directive": null
+            "directive": null,
+            "start": 2059,
+            "end": 2083
           },
           {
             "type": "ExpressionStatement",
-            "start": 2112,
-            "end": 2135,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2112,
-              "end": 2134,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 2112,
-                "end": 2113,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 2113
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2116,
-                "end": 2134,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnHello",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 2116,
-                  "end": 2131,
-                  "decorators": [],
-                  "name": "takeReturnHello",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 2131
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2132,
-                    "end": 2133,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2132,
+                    "end": 2133
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2116,
+                "end": 2134
+              },
+              "start": 2112,
+              "end": 2134
             },
-            "directive": null
+            "directive": null,
+            "start": 2112,
+            "end": 2135
           },
           {
             "type": "ExpressionStatement",
-            "start": 2140,
-            "end": 2163,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2140,
-              "end": 2162,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2140,
-                "end": 2141,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2140,
+                "end": 2141
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2144,
-                "end": 2162,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2144,
-                  "end": 2159,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2144,
+                  "end": 2159
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2160,
-                    "end": 2161,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2160,
+                    "end": 2161
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2144,
+                "end": 2162
+              },
+              "start": 2140,
+              "end": 2162
             },
-            "directive": null
+            "directive": null,
+            "start": 2140,
+            "end": 2163
           },
           {
             "type": "ExpressionStatement",
-            "start": 2168,
-            "end": 2191,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2168,
-              "end": 2190,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2168,
-                "end": 2169,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2168,
+                "end": 2169
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2172,
-                "end": 2190,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2172,
-                  "end": 2187,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2172,
+                  "end": 2187
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2188,
-                    "end": 2189,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2188,
+                    "end": 2189
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2172,
+                "end": 2190
+              },
+              "start": 2168,
+              "end": 2190
             },
-            "directive": null
+            "directive": null,
+            "start": 2168,
+            "end": 2191
           },
           {
             "type": "ExpressionStatement",
-            "start": 2196,
-            "end": 2219,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2196,
-              "end": 2218,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2196,
-                "end": 2197,
                 "decorators": [],
                 "name": "d",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2196,
+                "end": 2197
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2200,
-                "end": 2218,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2200,
-                  "end": 2215,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2200,
+                  "end": 2215
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2216,
-                    "end": 2217,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2216,
+                    "end": 2217
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2200,
+                "end": 2218
+              },
+              "start": 2196,
+              "end": 2218
             },
-            "directive": null
+            "directive": null,
+            "start": 2196,
+            "end": 2219
           },
           {
             "type": "ExpressionStatement",
-            "start": 2224,
-            "end": 2247,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2224,
-              "end": 2246,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2224,
-                "end": 2225,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2224,
+                "end": 2225
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2228,
-                "end": 2246,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2228,
-                  "end": 2243,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2228,
+                  "end": 2243
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2244,
-                    "end": 2245,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2244,
+                    "end": 2245
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2228,
+                "end": 2246
+              },
+              "start": 2224,
+              "end": 2246
             },
-            "directive": null
+            "directive": null,
+            "start": 2224,
+            "end": 2247
           },
           {
             "type": "ExpressionStatement",
-            "start": 2318,
-            "end": 2346,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2318,
-              "end": 2345,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2318,
-                "end": 2319,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2318,
+                "end": 2319
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2322,
-                "end": 2345,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2322,
-                  "end": 2342,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2322,
+                  "end": 2342
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2343,
-                    "end": 2344,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2343,
+                    "end": 2344
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2322,
+                "end": 2345
+              },
+              "start": 2318,
+              "end": 2345
             },
-            "directive": null
+            "directive": null,
+            "start": 2318,
+            "end": 2346
           },
           {
             "type": "ExpressionStatement",
-            "start": 2351,
-            "end": 2379,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2351,
-              "end": 2378,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2351,
-                "end": 2352,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2351,
+                "end": 2352
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2355,
-                "end": 2378,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2355,
-                  "end": 2375,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2355,
+                  "end": 2375
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2376,
-                    "end": 2377,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2376,
+                    "end": 2377
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2355,
+                "end": 2378
+              },
+              "start": 2351,
+              "end": 2378
             },
-            "directive": null
+            "directive": null,
+            "start": 2351,
+            "end": 2379
           },
           {
             "type": "ExpressionStatement",
-            "start": 2384,
-            "end": 2412,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2384,
-              "end": 2411,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2384,
-                "end": 2385,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2384,
+                "end": 2385
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2388,
-                "end": 2411,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2388,
-                  "end": 2408,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2388,
+                  "end": 2408
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2409,
-                    "end": 2410,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2409,
+                    "end": 2410
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2388,
+                "end": 2411
+              },
+              "start": 2384,
+              "end": 2411
             },
-            "directive": null
+            "directive": null,
+            "start": 2384,
+            "end": 2412
           },
           {
             "type": "ExpressionStatement",
-            "start": 2417,
-            "end": 2445,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2417,
-              "end": 2444,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2417,
-                "end": 2418,
                 "decorators": [],
                 "name": "d",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2417,
+                "end": 2418
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2421,
-                "end": 2444,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2421,
-                  "end": 2441,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2421,
+                  "end": 2441
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2442,
-                    "end": 2443,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2442,
+                    "end": 2443
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2421,
+                "end": 2444
+              },
+              "start": 2417,
+              "end": 2444
             },
-            "directive": null
+            "directive": null,
+            "start": 2417,
+            "end": 2445
           },
           {
             "type": "ExpressionStatement",
-            "start": 2450,
-            "end": 2478,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2450,
-              "end": 2477,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 2450,
-                "end": 2451,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 2450,
+                "end": 2451
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2454,
-                "end": 2477,
                 "callee": {
                   "type": "Identifier",
-                  "start": 2454,
-                  "end": 2474,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 2454,
+                  "end": 2474
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 2475,
-                    "end": 2476,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2475,
+                    "end": 2476
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2454,
+                "end": 2477
+              },
+              "start": 2450,
+              "end": 2477
             },
-            "directive": null
+            "directive": null,
+            "start": 2450,
+            "end": 2478
           }
-        ]
+        ],
+        "start": 1484,
+        "end": 2480
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 1471,
+      "end": 2480
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 2483,
-      "end": 3528,
       "id": {
         "type": "Identifier",
-        "start": 2493,
-        "end": 2495,
         "decorators": [],
         "name": "n3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 2493,
+        "end": 2495
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 2496,
-        "end": 3528,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 2621,
-            "end": 2677,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 2628,
-              "end": 2677,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 2632,
-                  "end": 2676,
                   "id": {
                     "type": "Identifier",
-                    "start": 2632,
-                    "end": 2633,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2632,
+                    "end": 2633
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 2636,
-                    "end": 2676,
                     "callee": {
                       "type": "Identifier",
-                      "start": 2636,
-                      "end": 2640,
                       "decorators": [],
                       "name": "fun2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 2636,
+                      "end": 2640
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 2640,
-                      "end": 2658,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 2641,
-                          "end": 2648,
                           "literal": {
                             "type": "Literal",
-                            "start": 2641,
-                            "end": 2648,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 2641,
+                            "end": 2648
+                          },
+                          "start": 2641,
+                          "end": 2648
                         },
                         {
                           "type": "TSLiteralType",
-                          "start": 2650,
-                          "end": 2657,
                           "literal": {
                             "type": "Literal",
-                            "start": 2650,
-                            "end": 2657,
                             "value": "World",
-                            "raw": "\"World\""
-                          }
+                            "raw": "\"World\"",
+                            "start": 2650,
+                            "end": 2657
+                          },
+                          "start": 2650,
+                          "end": 2657
                         }
-                      ]
+                      ],
+                      "start": 2640,
+                      "end": 2658
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2659,
-                        "end": 2666,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 2659,
+                        "end": 2666
                       },
                       {
                         "type": "Literal",
-                        "start": 2668,
-                        "end": 2675,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 2668,
+                        "end": 2675
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 2636,
+                    "end": 2676
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 2632,
+                  "end": 2676
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 2628,
+              "end": 2677
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 2621,
+            "end": 2677
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 2682,
-            "end": 2738,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 2689,
-              "end": 2738,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 2693,
-                  "end": 2737,
                   "id": {
                     "type": "Identifier",
-                    "start": 2693,
-                    "end": 2694,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2693,
+                    "end": 2694
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 2697,
-                    "end": 2737,
                     "callee": {
                       "type": "Identifier",
-                      "start": 2697,
-                      "end": 2701,
                       "decorators": [],
                       "name": "fun2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 2697,
+                      "end": 2701
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 2701,
-                      "end": 2719,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 2702,
-                          "end": 2709,
                           "literal": {
                             "type": "Literal",
-                            "start": 2702,
-                            "end": 2709,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 2702,
+                            "end": 2709
+                          },
+                          "start": 2702,
+                          "end": 2709
                         },
                         {
                           "type": "TSLiteralType",
-                          "start": 2711,
-                          "end": 2718,
                           "literal": {
                             "type": "Literal",
-                            "start": 2711,
-                            "end": 2718,
                             "value": "World",
-                            "raw": "\"World\""
-                          }
+                            "raw": "\"World\"",
+                            "start": 2711,
+                            "end": 2718
+                          },
+                          "start": 2711,
+                          "end": 2718
                         }
-                      ]
+                      ],
+                      "start": 2701,
+                      "end": 2719
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2720,
-                        "end": 2727,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 2720,
+                        "end": 2727
                       },
                       {
                         "type": "Literal",
-                        "start": 2729,
-                        "end": 2736,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 2729,
+                        "end": 2736
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 2697,
+                    "end": 2737
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 2693,
+                  "end": 2737
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 2689,
+              "end": 2738
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 2682,
+            "end": 2738
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 2743,
-            "end": 2799,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 2750,
-              "end": 2799,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 2754,
-                  "end": 2798,
                   "id": {
                     "type": "Identifier",
-                    "start": 2754,
-                    "end": 2755,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2754,
+                    "end": 2755
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 2758,
-                    "end": 2798,
                     "callee": {
                       "type": "Identifier",
-                      "start": 2758,
-                      "end": 2762,
                       "decorators": [],
                       "name": "fun2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 2758,
+                      "end": 2762
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 2762,
-                      "end": 2780,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 2763,
-                          "end": 2770,
                           "literal": {
                             "type": "Literal",
-                            "start": 2763,
-                            "end": 2770,
                             "value": "World",
-                            "raw": "\"World\""
-                          }
+                            "raw": "\"World\"",
+                            "start": 2763,
+                            "end": 2770
+                          },
+                          "start": 2763,
+                          "end": 2770
                         },
                         {
                           "type": "TSLiteralType",
-                          "start": 2772,
-                          "end": 2779,
                           "literal": {
                             "type": "Literal",
-                            "start": 2772,
-                            "end": 2779,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 2772,
+                            "end": 2779
+                          },
+                          "start": 2772,
+                          "end": 2779
                         }
-                      ]
+                      ],
+                      "start": 2762,
+                      "end": 2780
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2781,
-                        "end": 2788,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 2781,
+                        "end": 2788
                       },
                       {
                         "type": "Literal",
-                        "start": 2790,
-                        "end": 2797,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 2790,
+                        "end": 2797
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 2758,
+                    "end": 2798
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 2754,
+                  "end": 2798
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 2750,
+              "end": 2799
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 2743,
+            "end": 2799
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 2804,
-            "end": 2860,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 2811,
-              "end": 2860,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 2815,
-                  "end": 2859,
                   "id": {
                     "type": "Identifier",
-                    "start": 2815,
-                    "end": 2816,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2815,
+                    "end": 2816
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 2819,
-                    "end": 2859,
                     "callee": {
                       "type": "Identifier",
-                      "start": 2819,
-                      "end": 2823,
                       "decorators": [],
                       "name": "fun2",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 2819,
+                      "end": 2823
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 2823,
-                      "end": 2841,
                       "params": [
                         {
                           "type": "TSLiteralType",
-                          "start": 2824,
-                          "end": 2831,
                           "literal": {
                             "type": "Literal",
-                            "start": 2824,
-                            "end": 2831,
                             "value": "World",
-                            "raw": "\"World\""
-                          }
+                            "raw": "\"World\"",
+                            "start": 2824,
+                            "end": 2831
+                          },
+                          "start": 2824,
+                          "end": 2831
                         },
                         {
                           "type": "TSLiteralType",
-                          "start": 2833,
-                          "end": 2840,
                           "literal": {
                             "type": "Literal",
-                            "start": 2833,
-                            "end": 2840,
                             "value": "Hello",
-                            "raw": "\"Hello\""
-                          }
+                            "raw": "\"Hello\"",
+                            "start": 2833,
+                            "end": 2840
+                          },
+                          "start": 2833,
+                          "end": 2840
                         }
-                      ]
+                      ],
+                      "start": 2823,
+                      "end": 2841
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2842,
-                        "end": 2849,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 2842,
+                        "end": 2849
                       },
                       {
                         "type": "Literal",
-                        "start": 2851,
-                        "end": 2858,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 2851,
+                        "end": 2858
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 2819,
+                    "end": 2859
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 2815,
+                  "end": 2859
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 2811,
+              "end": 2860
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 2804,
+            "end": 2860
           },
           {
             "type": "ExportNamedDeclaration",
-            "start": 2865,
-            "end": 2922,
             "declaration": {
               "type": "VariableDeclaration",
-              "start": 2872,
-              "end": 2922,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 2876,
-                  "end": 2921,
                   "id": {
                     "type": "Identifier",
-                    "start": 2876,
-                    "end": 2877,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 2876,
+                    "end": 2877
                   },
                   "init": {
                     "type": "CallExpression",
-                    "start": 2880,
-                    "end": 2921,
                     "callee": {
                       "type": "Identifier",
-                      "start": 2880,
-                      "end": 2884,
                       "decorators": [],
                       "name": "fun3",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 2880,
+                      "end": 2884
                     },
                     "typeArguments": {
                       "type": "TSTypeParameterInstantiation",
-                      "start": 2884,
-                      "end": 2903,
                       "params": [
                         {
                           "type": "TSUnionType",
-                          "start": 2885,
-                          "end": 2902,
                           "types": [
                             {
                               "type": "TSLiteralType",
-                              "start": 2885,
-                              "end": 2892,
                               "literal": {
                                 "type": "Literal",
-                                "start": 2885,
-                                "end": 2892,
                                 "value": "Hello",
-                                "raw": "\"Hello\""
-                              }
+                                "raw": "\"Hello\"",
+                                "start": 2885,
+                                "end": 2892
+                              },
+                              "start": 2885,
+                              "end": 2892
                             },
                             {
                               "type": "TSLiteralType",
-                              "start": 2895,
-                              "end": 2902,
                               "literal": {
                                 "type": "Literal",
-                                "start": 2895,
-                                "end": 2902,
                                 "value": "World",
-                                "raw": "\"World\""
-                              }
+                                "raw": "\"World\"",
+                                "start": 2895,
+                                "end": 2902
+                              },
+                              "start": 2895,
+                              "end": 2902
                             }
-                          ]
+                          ],
+                          "start": 2885,
+                          "end": 2902
                         }
-                      ]
+                      ],
+                      "start": 2884,
+                      "end": 2903
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2904,
-                        "end": 2911,
                         "value": "Hello",
-                        "raw": "\"Hello\""
+                        "raw": "\"Hello\"",
+                        "start": 2904,
+                        "end": 2911
                       },
                       {
                         "type": "Literal",
-                        "start": 2913,
-                        "end": 2920,
                         "value": "World",
-                        "raw": "\"World\""
+                        "raw": "\"World\"",
+                        "start": 2913,
+                        "end": 2920
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 2880,
+                    "end": 2921
                   },
-                  "definite": false
+                  "definite": false,
+                  "start": 2876,
+                  "end": 2921
                 }
               ],
-              "declare": false
+              "declare": false,
+              "start": 2872,
+              "end": 2922
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 2865,
+            "end": 2922
           },
           {
             "type": "ExpressionStatement",
-            "start": 2993,
-            "end": 3017,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 2993,
-              "end": 3016,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 2993,
-                "end": 2994,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 2994
               },
               "right": {
                 "type": "CallExpression",
-                "start": 2997,
-                "end": 3016,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 2997,
-                  "end": 3013,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 3013
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "a",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 3014,
-                    "end": 3015,
-                    "decorators": [],
-                    "name": "a",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 3015
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 2997,
+                "end": 3016
+              },
+              "start": 2993,
+              "end": 3016
             },
-            "directive": null
+            "directive": null,
+            "start": 2993,
+            "end": 3017
           },
           {
             "type": "ExpressionStatement",
-            "start": 3022,
-            "end": 3046,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3022,
-              "end": 3045,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "b",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 3022,
-                "end": 3023,
-                "decorators": [],
-                "name": "b",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 3023
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3026,
-                "end": 3045,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 3026,
-                  "end": 3042,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 3042
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "b",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 3043,
-                    "end": 3044,
-                    "decorators": [],
-                    "name": "b",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 3044
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3026,
+                "end": 3045
+              },
+              "start": 3022,
+              "end": 3045
             },
-            "directive": null
+            "directive": null,
+            "start": 3022,
+            "end": 3046
           },
           {
             "type": "ExpressionStatement",
-            "start": 3051,
-            "end": 3075,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3051,
-              "end": 3074,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "c",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 3051,
-                "end": 3052,
-                "decorators": [],
-                "name": "c",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 3052
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3055,
-                "end": 3074,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 3055,
-                  "end": 3071,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 3071
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "c",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 3072,
-                    "end": 3073,
-                    "decorators": [],
-                    "name": "c",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 3073
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3055,
+                "end": 3074
+              },
+              "start": 3051,
+              "end": 3074
             },
-            "directive": null
+            "directive": null,
+            "start": 3051,
+            "end": 3075
           },
           {
             "type": "ExpressionStatement",
-            "start": 3080,
-            "end": 3104,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3080,
-              "end": 3103,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "d",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 3080,
-                "end": 3081,
-                "decorators": [],
-                "name": "d",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 3081
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3084,
-                "end": 3103,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnString",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 3084,
-                  "end": 3100,
-                  "decorators": [],
-                  "name": "takeReturnString",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 3100
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "d",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 3101,
-                    "end": 3102,
-                    "decorators": [],
-                    "name": "d",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 3102
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3084,
+                "end": 3103
+              },
+              "start": 3080,
+              "end": 3103
             },
-            "directive": null
+            "directive": null,
+            "start": 3080,
+            "end": 3104
           },
           {
             "type": "ExpressionStatement",
-            "start": 3109,
-            "end": 3133,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3109,
-              "end": 3132,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3109,
-                "end": 3110,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3109,
+                "end": 3110
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3113,
-                "end": 3132,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3113,
-                  "end": 3129,
                   "decorators": [],
                   "name": "takeReturnString",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3113,
+                  "end": 3129
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "decorators": [],
+                    "name": "e",
+                    "optional": false,
+                    "typeAnnotation": null,
                     "start": 3130,
-                    "end": 3131,
-                    "decorators": [],
-                    "name": "e",
-                    "optional": false,
-                    "typeAnnotation": null
+                    "end": 3131
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3113,
+                "end": 3132
+              },
+              "start": 3109,
+              "end": 3132
             },
-            "directive": null
+            "directive": null,
+            "start": 3109,
+            "end": 3133
           },
           {
             "type": "ExpressionStatement",
-            "start": 3196,
-            "end": 3219,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3196,
-              "end": 3218,
               "operator": "=",
               "left": {
                 "type": "Identifier",
+                "decorators": [],
+                "name": "a",
+                "optional": false,
+                "typeAnnotation": null,
                 "start": 3196,
-                "end": 3197,
-                "decorators": [],
-                "name": "a",
-                "optional": false,
-                "typeAnnotation": null
+                "end": 3197
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3200,
-                "end": 3218,
                 "callee": {
                   "type": "Identifier",
+                  "decorators": [],
+                  "name": "takeReturnHello",
+                  "optional": false,
+                  "typeAnnotation": null,
                   "start": 3200,
-                  "end": 3215,
-                  "decorators": [],
-                  "name": "takeReturnHello",
-                  "optional": false,
-                  "typeAnnotation": null
+                  "end": 3215
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3216,
-                    "end": 3217,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3216,
+                    "end": 3217
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3200,
+                "end": 3218
+              },
+              "start": 3196,
+              "end": 3218
             },
-            "directive": null
+            "directive": null,
+            "start": 3196,
+            "end": 3219
           },
           {
             "type": "ExpressionStatement",
-            "start": 3224,
-            "end": 3247,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3224,
-              "end": 3246,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3224,
-                "end": 3225,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3224,
+                "end": 3225
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3228,
-                "end": 3246,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3228,
-                  "end": 3243,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3228,
+                  "end": 3243
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3244,
-                    "end": 3245,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3244,
+                    "end": 3245
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3228,
+                "end": 3246
+              },
+              "start": 3224,
+              "end": 3246
             },
-            "directive": null
+            "directive": null,
+            "start": 3224,
+            "end": 3247
           },
           {
             "type": "ExpressionStatement",
-            "start": 3252,
-            "end": 3275,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3252,
-              "end": 3274,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3252,
-                "end": 3253,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3252,
+                "end": 3253
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3256,
-                "end": 3274,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3256,
-                  "end": 3271,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3256,
+                  "end": 3271
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3272,
-                    "end": 3273,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3272,
+                    "end": 3273
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3256,
+                "end": 3274
+              },
+              "start": 3252,
+              "end": 3274
             },
-            "directive": null
+            "directive": null,
+            "start": 3252,
+            "end": 3275
           },
           {
             "type": "ExpressionStatement",
-            "start": 3280,
-            "end": 3303,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3280,
-              "end": 3302,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3280,
-                "end": 3281,
                 "decorators": [],
                 "name": "d",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3280,
+                "end": 3281
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3284,
-                "end": 3302,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3284,
-                  "end": 3299,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3284,
+                  "end": 3299
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3300,
-                    "end": 3301,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3300,
+                    "end": 3301
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3284,
+                "end": 3302
+              },
+              "start": 3280,
+              "end": 3302
             },
-            "directive": null
+            "directive": null,
+            "start": 3280,
+            "end": 3303
           },
           {
             "type": "ExpressionStatement",
-            "start": 3308,
-            "end": 3331,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3308,
-              "end": 3330,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3308,
-                "end": 3309,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3308,
+                "end": 3309
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3312,
-                "end": 3330,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3312,
-                  "end": 3327,
                   "decorators": [],
                   "name": "takeReturnHello",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3312,
+                  "end": 3327
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3328,
-                    "end": 3329,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3328,
+                    "end": 3329
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3312,
+                "end": 3330
+              },
+              "start": 3308,
+              "end": 3330
             },
-            "directive": null
+            "directive": null,
+            "start": 3308,
+            "end": 3331
           },
           {
             "type": "ExpressionStatement",
-            "start": 3366,
-            "end": 3394,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3366,
-              "end": 3393,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3366,
-                "end": 3367,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3366,
+                "end": 3367
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3370,
-                "end": 3393,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3370,
-                  "end": 3390,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3370,
+                  "end": 3390
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3391,
-                    "end": 3392,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3391,
+                    "end": 3392
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3370,
+                "end": 3393
+              },
+              "start": 3366,
+              "end": 3393
             },
-            "directive": null
+            "directive": null,
+            "start": 3366,
+            "end": 3394
           },
           {
             "type": "ExpressionStatement",
-            "start": 3399,
-            "end": 3427,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3399,
-              "end": 3426,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3399,
-                "end": 3400,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3399,
+                "end": 3400
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3403,
-                "end": 3426,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3403,
-                  "end": 3423,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3403,
+                  "end": 3423
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3424,
-                    "end": 3425,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3424,
+                    "end": 3425
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3403,
+                "end": 3426
+              },
+              "start": 3399,
+              "end": 3426
             },
-            "directive": null
+            "directive": null,
+            "start": 3399,
+            "end": 3427
           },
           {
             "type": "ExpressionStatement",
-            "start": 3432,
-            "end": 3460,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3432,
-              "end": 3459,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3432,
-                "end": 3433,
                 "decorators": [],
                 "name": "c",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3432,
+                "end": 3433
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3436,
-                "end": 3459,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3436,
-                  "end": 3456,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3436,
+                  "end": 3456
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3457,
-                    "end": 3458,
                     "decorators": [],
                     "name": "c",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3457,
+                    "end": 3458
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3436,
+                "end": 3459
+              },
+              "start": 3432,
+              "end": 3459
             },
-            "directive": null
+            "directive": null,
+            "start": 3432,
+            "end": 3460
           },
           {
             "type": "ExpressionStatement",
-            "start": 3465,
-            "end": 3493,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3465,
-              "end": 3492,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3465,
-                "end": 3466,
                 "decorators": [],
                 "name": "d",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3465,
+                "end": 3466
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3469,
-                "end": 3492,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3469,
-                  "end": 3489,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3469,
+                  "end": 3489
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3490,
-                    "end": 3491,
                     "decorators": [],
                     "name": "d",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3490,
+                    "end": 3491
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3469,
+                "end": 3492
+              },
+              "start": 3465,
+              "end": 3492
             },
-            "directive": null
+            "directive": null,
+            "start": 3465,
+            "end": 3493
           },
           {
             "type": "ExpressionStatement",
-            "start": 3498,
-            "end": 3526,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 3498,
-              "end": 3525,
               "operator": "=",
               "left": {
                 "type": "Identifier",
-                "start": 3498,
-                "end": 3499,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 3498,
+                "end": 3499
               },
               "right": {
                 "type": "CallExpression",
-                "start": 3502,
-                "end": 3525,
                 "callee": {
                   "type": "Identifier",
-                  "start": 3502,
-                  "end": 3522,
                   "decorators": [],
                   "name": "takeReturnHelloWorld",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 3502,
+                  "end": 3522
                 },
                 "typeArguments": null,
                 "arguments": [
                   {
                     "type": "Identifier",
-                    "start": 3523,
-                    "end": 3524,
                     "decorators": [],
                     "name": "e",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 3523,
+                    "end": 3524
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 3502,
+                "end": 3525
+              },
+              "start": 3498,
+              "end": 3525
             },
-            "directive": null
+            "directive": null,
+            "start": 3498,
+            "end": 3526
           }
-        ]
+        ],
+        "start": 2496,
+        "end": 3528
       },
       "kind": "namespace",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 2483,
+      "end": 3528
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 3528
 }
 ```

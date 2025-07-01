@@ -1,50 +1,34 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 645,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 359,
-      "end": 420,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 363,
-          "end": 419,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 363,
-            "end": 364,
-            "name": "f"
+            "end": 364
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 367,
-            "end": 419,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 378,
-              "end": 419,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 382,
-                  "end": 402,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 382,
-                    "end": 401,
                     "operator": "=",
                     "left": {
                       "type": "MemberExpression",
-                      "start": 382,
-                      "end": 394,
                       "object": {
                         "type": "ThisExpression",
                         "start": 382,
@@ -52,217 +36,233 @@
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "touched",
                         "start": 387,
-                        "end": 394,
-                        "name": "touched"
+                        "end": 394
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 382,
+                      "end": 394
                     },
                     "right": {
                       "type": "Literal",
-                      "start": 397,
-                      "end": 401,
                       "value": true,
-                      "raw": "true"
-                    }
-                  }
+                      "raw": "true",
+                      "start": 397,
+                      "end": 401
+                    },
+                    "start": 382,
+                    "end": 401
+                  },
+                  "start": 382,
+                  "end": 402
                 },
                 {
                   "type": "ReturnStatement",
-                  "start": 405,
-                  "end": 417,
                   "argument": {
                     "type": "ThisExpression",
                     "start": 412,
                     "end": 416
-                  }
+                  },
+                  "start": 405,
+                  "end": 417
                 }
-              ]
+              ],
+              "start": 378,
+              "end": 419
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 367,
+            "end": 419
+          },
+          "start": 363,
+          "end": 419
         }
-      ]
+      ],
+      "start": 359,
+      "end": 420
     },
     {
       "type": "VariableDeclaration",
-      "start": 422,
-      "end": 447,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 426,
-          "end": 446,
           "id": {
             "type": "Identifier",
+            "name": "retobj",
             "start": 426,
-            "end": 432,
-            "name": "retobj"
+            "end": 432
           },
           "init": {
             "type": "CallExpression",
-            "start": 435,
-            "end": 446,
             "callee": {
               "type": "MemberExpression",
-              "start": 435,
-              "end": 441,
               "object": {
                 "type": "Identifier",
+                "name": "f",
                 "start": 435,
-                "end": 436,
-                "name": "f"
+                "end": 436
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 437,
-                "end": 441,
-                "name": "call"
+                "end": 441
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 435,
+              "end": 441
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 442,
-                "end": 445,
-                "name": "obj"
+                "end": 445
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 435,
+            "end": 446
+          },
+          "start": 426,
+          "end": 446
         }
-      ]
+      ],
+      "start": 422,
+      "end": 447
     },
     {
       "type": "ExpressionStatement",
-      "start": 449,
-      "end": 550,
       "expression": {
         "type": "CallExpression",
-        "start": 449,
-        "end": 549,
         "callee": {
           "type": "MemberExpression",
-          "start": 449,
-          "end": 465,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 449,
-            "end": 455,
-            "name": "assert"
+            "end": 455
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 456,
-            "end": 465,
-            "name": "sameValue"
+            "end": 465
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 449,
+          "end": 465
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 466,
-            "end": 476,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "obj",
               "start": 473,
-              "end": 476,
-              "name": "obj"
+              "end": 476
             },
-            "prefix": true
+            "prefix": true,
+            "start": 466,
+            "end": 476
           },
           {
             "type": "Literal",
-            "start": 478,
-            "end": 489,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 478,
+            "end": 489
           },
           {
             "type": "Literal",
-            "start": 491,
-            "end": 548,
             "value": "The value of `typeof obj` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof obj` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof obj` is expected to be \"undefined\"'",
+            "start": 491,
+            "end": 548
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 449,
+        "end": 549
+      },
+      "start": 449,
+      "end": 550
     },
     {
       "type": "ExpressionStatement",
-      "start": 551,
-      "end": 634,
       "expression": {
         "type": "CallExpression",
-        "start": 551,
-        "end": 633,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 551,
-          "end": 557,
-          "name": "assert"
+          "end": 557
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 558,
-            "end": 575,
             "object": {
               "type": "Identifier",
+              "name": "retobj",
               "start": 558,
-              "end": 564,
-              "name": "retobj"
+              "end": 564
             },
             "property": {
               "type": "Literal",
-              "start": 565,
-              "end": 574,
               "value": "touched",
-              "raw": "\"touched\""
+              "raw": "\"touched\"",
+              "start": 565,
+              "end": 574
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 558,
+            "end": 575
           },
           {
             "type": "Literal",
-            "start": 577,
-            "end": 632,
             "value": "The value of retobj[\"touched\"] is expected to be true",
-            "raw": "'The value of retobj[\"touched\"] is expected to be true'"
+            "raw": "'The value of retobj[\"touched\"] is expected to be true'",
+            "start": 577,
+            "end": 632
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 551,
+        "end": 633
+      },
+      "start": 551,
+      "end": 634
     },
     {
       "type": "VariableDeclaration",
-      "start": 636,
-      "end": 644,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 640,
-          "end": 643,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 640,
-            "end": 643,
-            "name": "obj"
+            "end": 643
           },
-          "init": null
+          "init": null,
+          "start": 640,
+          "end": 643
         }
-      ]
+      ],
+      "start": 636,
+      "end": 644
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 645
 }

@@ -2,105 +2,105 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 12,
-  "end": 79,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 12,
-      "end": 48,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 26,
-          "end": 47,
           "id": {
             "type": "Identifier",
-            "start": 26,
-            "end": 47,
             "decorators": [],
             "name": "data",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 30,
-              "end": 47,
               "typeAnnotation": {
                 "type": "TSUnionType",
-                "start": 32,
-                "end": 47,
                 "types": [
                   {
                     "type": "TSArrayType",
-                    "start": 32,
-                    "end": 40,
                     "elementType": {
                       "type": "TSNumberKeyword",
                       "start": 32,
                       "end": 38
-                    }
+                    },
+                    "start": 32,
+                    "end": 40
                   },
                   {
                     "type": "TSNullKeyword",
                     "start": 43,
                     "end": 47
                   }
-                ]
-              }
-            }
+                ],
+                "start": 32,
+                "end": 47
+              },
+              "start": 30,
+              "end": 47
+            },
+            "start": 26,
+            "end": 47
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 26,
+          "end": 47
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 12,
+      "end": 48
     },
     {
       "type": "VariableDeclaration",
-      "start": 49,
-      "end": 70,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 55,
-          "end": 69,
           "id": {
             "type": "ArrayPattern",
-            "start": 55,
-            "end": 62,
             "decorators": [],
             "elements": [
               {
                 "type": "Identifier",
-                "start": 56,
-                "end": 61,
                 "decorators": [],
                 "name": "value",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 56,
+                "end": 61
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 55,
+            "end": 62
           },
           "init": {
             "type": "Identifier",
-            "start": 65,
-            "end": 69,
             "decorators": [],
             "name": "data",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 65,
+            "end": 69
           },
-          "definite": false
+          "definite": false,
+          "start": 55,
+          "end": 69
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 49,
+      "end": 70
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 12,
+  "end": 79
 }
 ```

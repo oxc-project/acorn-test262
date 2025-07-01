@@ -1,89 +1,89 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 351,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 350,
       "expression": {
         "type": "CallExpression",
-        "start": 277,
-        "end": 349,
         "callee": {
           "type": "Identifier",
+          "name": "testOption",
           "start": 277,
-          "end": 287,
-          "name": "testOption"
+          "end": 287
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 288,
-            "end": 301,
             "object": {
               "type": "Identifier",
+              "name": "Intl",
               "start": 288,
-              "end": 292,
-              "name": "Intl"
+              "end": 292
             },
             "property": {
               "type": "Identifier",
+              "name": "Collator",
               "start": 293,
-              "end": 301,
-              "name": "Collator"
+              "end": 301
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 288,
+            "end": 301
           },
           {
             "type": "Literal",
-            "start": 303,
-            "end": 310,
             "value": "usage",
-            "raw": "\"usage\""
+            "raw": "\"usage\"",
+            "start": 303,
+            "end": 310
           },
           {
             "type": "Literal",
-            "start": 312,
-            "end": 320,
             "value": "string",
-            "raw": "\"string\""
+            "raw": "\"string\"",
+            "start": 312,
+            "end": 320
           },
           {
             "type": "ArrayExpression",
-            "start": 322,
-            "end": 340,
             "elements": [
               {
                 "type": "Literal",
-                "start": 323,
-                "end": 329,
                 "value": "sort",
-                "raw": "\"sort\""
+                "raw": "\"sort\"",
+                "start": 323,
+                "end": 329
               },
               {
                 "type": "Literal",
-                "start": 331,
-                "end": 339,
                 "value": "search",
-                "raw": "\"search\""
+                "raw": "\"search\"",
+                "start": 331,
+                "end": 339
               }
-            ]
+            ],
+            "start": 322,
+            "end": 340
           },
           {
             "type": "Literal",
-            "start": 342,
-            "end": 348,
             "value": "sort",
-            "raw": "\"sort\""
+            "raw": "\"sort\"",
+            "start": 342,
+            "end": 348
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 277,
+        "end": 349
+      },
+      "start": 277,
+      "end": 350
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 351
 }

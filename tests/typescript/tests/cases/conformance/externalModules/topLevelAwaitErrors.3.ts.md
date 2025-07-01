@@ -2,107 +2,107 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 84,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 10,
       "declaration": null,
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 10
     },
     {
       "type": "VariableDeclaration",
-      "start": 60,
-      "end": 84,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 64,
-          "end": 83,
           "id": {
             "type": "ObjectPattern",
-            "start": 64,
-            "end": 71,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 65,
-                "end": 70,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 65,
-                  "end": 70,
                   "decorators": [],
                   "name": "await",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 65,
+                  "end": 70
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 65,
-                  "end": 70,
                   "decorators": [],
                   "name": "await",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 65,
+                  "end": 70
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 65,
+                "end": 70
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 64,
+            "end": 71
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 74,
-            "end": 83,
             "properties": [
               {
                 "type": "Property",
-                "start": 75,
-                "end": 82,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 75,
-                  "end": 80,
                   "decorators": [],
                   "name": "await",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 75,
+                  "end": 80
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 81,
-                  "end": 82,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 81,
+                  "end": 82
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 75,
+                "end": 82
               }
-            ]
+            ],
+            "start": 74,
+            "end": 83
           },
-          "definite": false
+          "definite": false,
+          "start": 64,
+          "end": 83
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 60,
+      "end": 84
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 84
 }
 ```

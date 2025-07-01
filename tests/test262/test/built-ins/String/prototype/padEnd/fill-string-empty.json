@@ -1,90 +1,90 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 357,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 311,
-      "end": 356,
       "expression": {
         "type": "CallExpression",
-        "start": 311,
-        "end": 355,
         "callee": {
           "type": "MemberExpression",
-          "start": 311,
-          "end": 327,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 311,
-            "end": 317,
-            "name": "assert"
+            "end": 317
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 318,
-            "end": 327,
-            "name": "sameValue"
+            "end": 327
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 311,
+          "end": 327
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 328,
-            "end": 347,
             "callee": {
               "type": "MemberExpression",
-              "start": 328,
-              "end": 340,
               "object": {
                 "type": "Literal",
-                "start": 328,
-                "end": 333,
                 "value": "abc",
-                "raw": "'abc'"
+                "raw": "'abc'",
+                "start": 328,
+                "end": 333
               },
               "property": {
                 "type": "Identifier",
+                "name": "padEnd",
                 "start": 334,
-                "end": 340,
-                "name": "padEnd"
+                "end": 340
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 328,
+              "end": 340
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 341,
-                "end": 342,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "start": 341,
+                "end": 342
               },
               {
                 "type": "Literal",
-                "start": 344,
-                "end": 346,
                 "value": "",
-                "raw": "''"
+                "raw": "''",
+                "start": 344,
+                "end": 346
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 328,
+            "end": 347
           },
           {
             "type": "Literal",
-            "start": 349,
-            "end": 354,
             "value": "abc",
-            "raw": "'abc'"
+            "raw": "'abc'",
+            "start": 349,
+            "end": 354
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 311,
+        "end": 355
+      },
+      "start": 311,
+      "end": 356
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 357
 }

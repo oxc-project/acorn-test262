@@ -2,75 +2,75 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 24,
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 6,
         "decorators": [],
         "name": "target",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 6
       },
       "body": {
         "type": "WhileStatement",
-        "start": 8,
-        "end": 24,
         "test": {
           "type": "Literal",
-          "start": 15,
-          "end": 19,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 15,
+          "end": 19
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 21,
-          "end": 24,
-          "body": []
-        }
-      }
+          "end": 24
+        },
+        "start": 8,
+        "end": 24
+      },
+      "start": 0,
+      "end": 24
     },
     {
       "type": "LabeledStatement",
-      "start": 26,
-      "end": 51,
       "label": {
         "type": "Identifier",
-        "start": 26,
-        "end": 32,
         "decorators": [],
         "name": "target",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 26,
+        "end": 32
       },
       "body": {
         "type": "WhileStatement",
-        "start": 35,
-        "end": 51,
         "test": {
           "type": "Literal",
-          "start": 42,
-          "end": 46,
           "value": true,
-          "raw": "true"
+          "raw": "true",
+          "start": 42,
+          "end": 46
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 48,
-          "end": 51,
-          "body": []
-        }
-      }
+          "end": 51
+        },
+        "start": 35,
+        "end": 51
+      },
+      "start": 26,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```

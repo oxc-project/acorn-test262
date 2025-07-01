@@ -2,72 +2,72 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 25,
   "body": [
     {
       "type": "ForInStatement",
-      "start": 0,
-      "end": 25,
       "left": {
         "type": "VariableDeclaration",
-        "start": 5,
-        "end": 15,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 9,
-            "end": 15,
             "id": {
               "type": "ArrayPattern",
-              "start": 9,
-              "end": 15,
               "decorators": [],
               "elements": [
                 {
                   "type": "Identifier",
-                  "start": 10,
-                  "end": 11,
                   "decorators": [],
                   "name": "a",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 10,
+                  "end": 11
                 },
                 {
                   "type": "Identifier",
-                  "start": 13,
-                  "end": 14,
                   "decorators": [],
                   "name": "b",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 13,
+                  "end": 14
                 }
               ],
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 9,
+              "end": 15
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 9,
+            "end": 15
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 5,
+        "end": 15
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 19,
-        "end": 21,
-        "elements": []
+        "end": 21
       },
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 23,
-        "end": 25,
-        "body": []
-      }
+        "end": 25
+      },
+      "start": 0,
+      "end": 25
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 25
 }
 ```

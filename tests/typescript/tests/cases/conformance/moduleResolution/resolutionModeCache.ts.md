@@ -2,278 +2,278 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 56,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 30,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 14,
-          "end": 29,
           "id": {
             "type": "Identifier",
-            "start": 14,
-            "end": 29,
             "decorators": [],
             "name": "_default",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 22,
-              "end": 29,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 24,
-                "end": 29,
                 "literal": {
                   "type": "Literal",
-                  "start": 24,
-                  "end": 29,
                   "value": "esm",
-                  "raw": "\"esm\""
-                }
-              }
-            }
+                  "raw": "\"esm\"",
+                  "start": 24,
+                  "end": 29
+                },
+                "start": 24,
+                "end": 29
+              },
+              "start": 22,
+              "end": 29
+            },
+            "start": 14,
+            "end": 29
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 14,
+          "end": 29
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 30
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 31,
-      "end": 55,
       "declaration": {
         "type": "Identifier",
-        "start": 46,
-        "end": 54,
         "decorators": [],
         "name": "_default",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 46,
+        "end": 54
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 31,
+      "end": 55
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 56
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 50,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 30,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 14,
-          "end": 29,
           "id": {
             "type": "Identifier",
-            "start": 14,
-            "end": 29,
             "decorators": [],
             "name": "_exports",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 22,
-              "end": 29,
               "typeAnnotation": {
                 "type": "TSLiteralType",
-                "start": 24,
-                "end": 29,
                 "literal": {
                   "type": "Literal",
-                  "start": 24,
-                  "end": 29,
                   "value": "cjs",
-                  "raw": "\"cjs\""
-                }
-              }
-            }
+                  "raw": "\"cjs\"",
+                  "start": 24,
+                  "end": 29
+                },
+                "start": 24,
+                "end": 29
+              },
+              "start": 22,
+              "end": 29
+            },
+            "start": 14,
+            "end": 29
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 14,
+          "end": 29
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 0,
+      "end": 30
     },
     {
       "type": "TSExportAssignment",
-      "start": 31,
-      "end": 49,
       "expression": {
         "type": "Identifier",
-        "start": 40,
-        "end": 48,
         "decorators": [],
         "name": "_exports",
         "optional": false,
-        "typeAnnotation": null
-      }
+        "typeAnnotation": null,
+        "start": 40,
+        "end": 48
+      },
+      "start": 31,
+      "end": 49
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 50
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 166,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 72,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 12,
-          "end": 22,
           "local": {
             "type": "Identifier",
-            "start": 12,
-            "end": 22,
             "decorators": [],
             "name": "pkgRequire",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 12,
+            "end": 22
+          },
+          "start": 12,
+          "end": 22
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 28,
-        "end": 33,
         "value": "pkg",
-        "raw": "\"pkg\""
+        "raw": "\"pkg\"",
+        "start": 28,
+        "end": 33
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 41,
-          "end": 69,
           "key": {
             "type": "Literal",
-            "start": 41,
-            "end": 58,
             "value": "resolution-mode",
-            "raw": "\"resolution-mode\""
+            "raw": "\"resolution-mode\"",
+            "start": 41,
+            "end": 58
           },
           "value": {
             "type": "Literal",
-            "start": 60,
-            "end": 69,
             "value": "require",
-            "raw": "\"require\""
-          }
+            "raw": "\"require\"",
+            "start": 60,
+            "end": 69
+          },
+          "start": 41,
+          "end": 69
         }
       ],
-      "importKind": "type"
+      "importKind": "type",
+      "start": 0,
+      "end": 72
     },
     {
       "type": "ImportDeclaration",
-      "start": 73,
-      "end": 143,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 85,
-          "end": 94,
           "local": {
             "type": "Identifier",
-            "start": 85,
-            "end": 94,
             "decorators": [],
             "name": "pkgImport",
             "optional": false,
-            "typeAnnotation": null
-          }
+            "typeAnnotation": null,
+            "start": 85,
+            "end": 94
+          },
+          "start": 85,
+          "end": 94
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 100,
-        "end": 105,
         "value": "pkg",
-        "raw": "\"pkg\""
+        "raw": "\"pkg\"",
+        "start": 100,
+        "end": 105
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 113,
-          "end": 140,
           "key": {
             "type": "Literal",
-            "start": 113,
-            "end": 130,
             "value": "resolution-mode",
-            "raw": "\"resolution-mode\""
+            "raw": "\"resolution-mode\"",
+            "start": 113,
+            "end": 130
           },
           "value": {
             "type": "Literal",
-            "start": 132,
-            "end": 140,
             "value": "import",
-            "raw": "\"import\""
-          }
+            "raw": "\"import\"",
+            "start": 132,
+            "end": 140
+          },
+          "start": 113,
+          "end": 140
         }
       ],
-      "importKind": "type"
+      "importKind": "type",
+      "start": 73,
+      "end": 143
     },
     {
       "type": "ExpressionStatement",
-      "start": 144,
-      "end": 155,
       "expression": {
         "type": "Identifier",
-        "start": 144,
-        "end": 154,
         "decorators": [],
         "name": "pkgRequire",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 144,
+        "end": 154
       },
-      "directive": null
+      "directive": null,
+      "start": 144,
+      "end": 155
     },
     {
       "type": "ExpressionStatement",
-      "start": 156,
-      "end": 166,
       "expression": {
         "type": "Identifier",
-        "start": 156,
-        "end": 165,
         "decorators": [],
         "name": "pkgImport",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 156,
+        "end": 165
       },
-      "directive": null
+      "directive": null,
+      "start": 156,
+      "end": 166
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 166
 }
 ```

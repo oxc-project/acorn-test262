@@ -1,113 +1,113 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 504,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 420,
-      "end": 503,
       "expression": {
         "type": "CallExpression",
-        "start": 420,
-        "end": 502,
         "callee": {
           "type": "MemberExpression",
-          "start": 420,
-          "end": 436,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 420,
-            "end": 426,
-            "name": "assert"
+            "end": 426
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 427,
-            "end": 436,
-            "name": "sameValue"
+            "end": 436
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 420,
+          "end": 436
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 437,
-            "end": 483,
             "callee": {
               "type": "MemberExpression",
-              "start": 437,
-              "end": 467,
               "object": {
                 "type": "MemberExpression",
-                "start": 437,
-                "end": 462,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 437,
-                  "end": 453,
                   "object": {
                     "type": "Identifier",
+                    "name": "Object",
                     "start": 437,
-                    "end": 443,
-                    "name": "Object"
+                    "end": 443
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 444,
-                    "end": 453,
-                    "name": "prototype"
+                    "end": 453
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 437,
+                  "end": 453
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 454,
-                  "end": 462,
-                  "name": "toString"
+                  "end": 462
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 437,
+                "end": 462
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 463,
-                "end": 467,
-                "name": "call"
+                "end": 467
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 437,
+              "end": 467
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 468,
-                "end": 482,
                 "callee": {
                   "type": "Identifier",
+                  "name": "RangeError",
                   "start": 472,
-                  "end": 482,
-                  "name": "RangeError"
+                  "end": 482
                 },
-                "arguments": []
+                "arguments": [],
+                "start": 468,
+                "end": 482
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 437,
+            "end": 483
           },
           {
             "type": "Literal",
-            "start": 485,
-            "end": 501,
             "value": "[object Error]",
-            "raw": "\"[object Error]\""
+            "raw": "\"[object Error]\"",
+            "start": 485,
+            "end": 501
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 420,
+        "end": 502
+      },
+      "start": 420,
+      "end": 503
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 504
 }

@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 53,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 25,
       "declaration": {
         "type": "TSTypeAliasDeclaration",
-        "start": 7,
-        "end": 25,
         "id": {
           "type": "Identifier",
-          "start": 12,
-          "end": 18,
           "decorators": [],
           "name": "Sizing",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 12,
+          "end": 18
         },
         "typeParameters": null,
         "typeAnnotation": {
@@ -28,207 +22,213 @@ __ESTREE_TEST__:PASS:
           "start": 21,
           "end": 24
         },
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 25
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 25
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 26,
-      "end": 53,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 33,
-        "end": 53,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 39,
-            "end": 52,
             "id": {
               "type": "Identifier",
-              "start": 39,
-              "end": 45,
               "decorators": [],
               "name": "Sizing",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 39,
+              "end": 45
             },
             "init": {
               "type": "Literal",
-              "start": 48,
-              "end": 52,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "start": 48,
+              "end": 52
             },
-            "definite": false
+            "definite": false,
+            "start": 39,
+            "end": 52
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 33,
+        "end": 53
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 26,
+      "end": 53
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 53
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 192,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 56,
-      "end": 110,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 65,
-          "end": 89,
           "local": {
             "type": "Identifier",
-            "start": 65,
-            "end": 71,
             "decorators": [],
             "name": "Sizing",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 65,
+            "end": 71
           },
           "exported": {
             "type": "Identifier",
-            "start": 75,
-            "end": 89,
             "decorators": [],
             "name": "GridViewSizing",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 75,
+            "end": 89
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 65,
+          "end": 89
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 97,
-        "end": 109,
         "value": "./gridview",
-        "raw": "'./gridview'"
+        "raw": "'./gridview'",
+        "start": 97,
+        "end": 109
       },
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 56,
+      "end": 110
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 111,
-      "end": 192,
       "declaration": {
         "type": "TSModuleDeclaration",
-        "start": 118,
-        "end": 192,
         "id": {
           "type": "Identifier",
-          "start": 128,
-          "end": 134,
           "decorators": [],
           "name": "Sizing",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 128,
+          "end": 134
         },
         "body": {
           "type": "TSModuleBlock",
-          "start": 135,
-          "end": 192,
           "body": [
             {
               "type": "ExportNamedDeclaration",
-              "start": 141,
-              "end": 190,
               "declaration": {
                 "type": "VariableDeclaration",
-                "start": 148,
-                "end": 190,
                 "kind": "const",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 154,
-                    "end": 189,
                     "id": {
                       "type": "Identifier",
-                      "start": 154,
-                      "end": 164,
                       "decorators": [],
                       "name": "Distribute",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 154,
+                      "end": 164
                     },
                     "init": {
                       "type": "ObjectExpression",
-                      "start": 167,
-                      "end": 189,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 169,
-                          "end": 187,
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
-                            "start": 169,
-                            "end": 173,
                             "decorators": [],
                             "name": "type",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 169,
+                            "end": 173
                           },
                           "value": {
                             "type": "Literal",
-                            "start": 175,
-                            "end": 187,
                             "value": "distribute",
-                            "raw": "'distribute'"
+                            "raw": "'distribute'",
+                            "start": 175,
+                            "end": 187
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": false,
-                          "optional": false
+                          "optional": false,
+                          "start": 169,
+                          "end": 187
                         }
-                      ]
+                      ],
+                      "start": 167,
+                      "end": 189
                     },
-                    "definite": false
+                    "definite": false,
+                    "start": 154,
+                    "end": 189
                   }
                 ],
-                "declare": false
+                "declare": false,
+                "start": 148,
+                "end": 190
               },
               "specifiers": [],
               "source": null,
               "exportKind": "value",
-              "attributes": []
+              "attributes": [],
+              "start": 141,
+              "end": 190
             }
-          ]
+          ],
+          "start": 135,
+          "end": 192
         },
         "kind": "namespace",
         "declare": false,
-        "global": false
+        "global": false,
+        "start": 118,
+        "end": 192
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 111,
+      "end": 192
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 56,
+  "end": 192
 }
 ```

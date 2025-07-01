@@ -1,126 +1,126 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 404,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 296,
-      "end": 314,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 300,
-          "end": 313,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 300,
-            "end": 301,
-            "name": "x"
+            "end": 301
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 304,
-            "end": 313,
             "operator": "+",
             "argument": {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 305,
-              "end": 313,
-              "name": "Infinity"
+              "end": 313
             },
-            "prefix": true
-          }
+            "prefix": true,
+            "start": 304,
+            "end": 313
+          },
+          "start": 300,
+          "end": 313
         }
-      ]
+      ],
+      "start": 296,
+      "end": 314
     },
     {
       "type": "ExpressionStatement",
-      "start": 315,
-      "end": 403,
       "expression": {
         "type": "CallExpression",
-        "start": 315,
-        "end": 402,
         "callee": {
           "type": "MemberExpression",
-          "start": 315,
-          "end": 331,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 315,
-            "end": 321,
-            "name": "assert"
+            "end": 321
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 322,
-            "end": 331,
-            "name": "sameValue"
+            "end": 331
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 315,
+          "end": 331
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 332,
-            "end": 344,
             "callee": {
               "type": "MemberExpression",
-              "start": 332,
-              "end": 341,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 332,
-                "end": 336,
-                "name": "Math"
+                "end": 336
               },
               "property": {
                 "type": "Identifier",
+                "name": "sqrt",
                 "start": 337,
-                "end": 341,
-                "name": "sqrt"
+                "end": 341
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 332,
+              "end": 341
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "x",
                 "start": 342,
-                "end": 343,
-                "name": "x"
+                "end": 343
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 332,
+            "end": 344
           },
           {
             "type": "UnaryExpression",
-            "start": 346,
-            "end": 355,
             "operator": "+",
             "argument": {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 347,
-              "end": 355,
-              "name": "Infinity"
+              "end": 355
             },
-            "prefix": true
+            "prefix": true,
+            "start": 346,
+            "end": 355
           },
           {
             "type": "Literal",
-            "start": 357,
-            "end": 401,
             "value": "Math.sqrt(+Infinity) must return +Infinity",
-            "raw": "'Math.sqrt(+Infinity) must return +Infinity'"
+            "raw": "'Math.sqrt(+Infinity) must return +Infinity'",
+            "start": 357,
+            "end": 401
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 315,
+        "end": 402
+      },
+      "start": 315,
+      "end": 403
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 404
 }

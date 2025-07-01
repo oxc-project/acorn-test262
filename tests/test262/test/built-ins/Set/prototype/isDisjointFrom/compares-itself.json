@@ -1,134 +1,134 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 380,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 303,
-      "end": 330,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 309,
-          "end": 329,
           "id": {
             "type": "Identifier",
+            "name": "s1",
             "start": 309,
-            "end": 311,
-            "name": "s1"
+            "end": 311
           },
           "init": {
             "type": "NewExpression",
-            "start": 314,
-            "end": 329,
             "callee": {
               "type": "Identifier",
+              "name": "Set",
               "start": 318,
-              "end": 321,
-              "name": "Set"
+              "end": 321
             },
             "arguments": [
               {
                 "type": "ArrayExpression",
-                "start": 322,
-                "end": 328,
                 "elements": [
                   {
                     "type": "Literal",
-                    "start": 323,
-                    "end": 324,
                     "value": 1,
-                    "raw": "1"
+                    "raw": "1",
+                    "start": 323,
+                    "end": 324
                   },
                   {
                     "type": "Literal",
-                    "start": 326,
-                    "end": 327,
                     "value": 2,
-                    "raw": "2"
+                    "raw": "2",
+                    "start": 326,
+                    "end": 327
                   }
-                ]
+                ],
+                "start": 322,
+                "end": 328
               }
-            ]
-          }
+            ],
+            "start": 314,
+            "end": 329
+          },
+          "start": 309,
+          "end": 329
         }
-      ]
+      ],
+      "start": 303,
+      "end": 330
     },
     {
       "type": "ExpressionStatement",
-      "start": 332,
-      "end": 379,
       "expression": {
         "type": "CallExpression",
-        "start": 332,
-        "end": 378,
         "callee": {
           "type": "MemberExpression",
-          "start": 332,
-          "end": 348,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 332,
-            "end": 338,
-            "name": "assert"
+            "end": 338
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 339,
-            "end": 348,
-            "name": "sameValue"
+            "end": 348
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 332,
+          "end": 348
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 349,
-            "end": 370,
             "callee": {
               "type": "MemberExpression",
-              "start": 349,
-              "end": 366,
               "object": {
                 "type": "Identifier",
+                "name": "s1",
                 "start": 349,
-                "end": 351,
-                "name": "s1"
+                "end": 351
               },
               "property": {
                 "type": "Identifier",
+                "name": "isDisjointFrom",
                 "start": 352,
-                "end": 366,
-                "name": "isDisjointFrom"
+                "end": 366
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 349,
+              "end": 366
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "s1",
                 "start": 367,
-                "end": 369,
-                "name": "s1"
+                "end": 369
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 349,
+            "end": 370
           },
           {
             "type": "Literal",
-            "start": 372,
-            "end": 377,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 372,
+            "end": 377
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 332,
+        "end": 378
+      },
+      "start": 332,
+      "end": 379
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 380
 }

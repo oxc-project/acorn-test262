@@ -1,882 +1,882 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1064,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 332,
-      "end": 399,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 338,
-          "end": 398,
           "id": {
             "type": "Identifier",
+            "name": "instance",
             "start": 338,
-            "end": 346,
-            "name": "instance"
+            "end": 346
           },
           "init": {
             "type": "NewExpression",
-            "start": 349,
-            "end": 398,
             "callee": {
               "type": "MemberExpression",
-              "start": 353,
-              "end": 371,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 353,
-                "end": 361,
-                "name": "Temporal"
+                "end": 361
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainTime",
                 "start": 362,
-                "end": 371,
-                "name": "PlainTime"
+                "end": 371
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 353,
+              "end": 371
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 372,
-                "end": 374,
                 "value": 12,
-                "raw": "12"
+                "raw": "12",
+                "start": 372,
+                "end": 374
               },
               {
                 "type": "Literal",
-                "start": 376,
-                "end": 378,
                 "value": 34,
-                "raw": "34"
+                "raw": "34",
+                "start": 376,
+                "end": 378
               },
               {
                 "type": "Literal",
-                "start": 380,
-                "end": 382,
                 "value": 56,
-                "raw": "56"
+                "raw": "56",
+                "start": 380,
+                "end": 382
               },
               {
                 "type": "Literal",
-                "start": 384,
-                "end": 387,
                 "value": 987,
-                "raw": "987"
+                "raw": "987",
+                "start": 384,
+                "end": 387
               },
               {
                 "type": "Literal",
-                "start": 389,
-                "end": 392,
                 "value": 654,
-                "raw": "654"
+                "raw": "654",
+                "start": 389,
+                "end": 392
               },
               {
                 "type": "Literal",
-                "start": 394,
-                "end": 397,
                 "value": 321,
-                "raw": "321"
+                "raw": "321",
+                "start": 394,
+                "end": 397
               }
-            ]
-          }
+            ],
+            "start": 349,
+            "end": 398
+          },
+          "start": 338,
+          "end": 398
         }
-      ]
+      ],
+      "start": 332,
+      "end": 399
     },
     {
       "type": "ExpressionStatement",
-      "start": 401,
-      "end": 1063,
       "expression": {
         "type": "CallExpression",
-        "start": 401,
-        "end": 1062,
         "callee": {
           "type": "MemberExpression",
-          "start": 401,
-          "end": 430,
           "object": {
             "type": "ArrayExpression",
-            "start": 401,
-            "end": 422,
             "elements": [
               {
                 "type": "Identifier",
+                "name": "Infinity",
                 "start": 402,
-                "end": 410,
-                "name": "Infinity"
+                "end": 410
               },
               {
                 "type": "UnaryExpression",
-                "start": 412,
-                "end": 421,
                 "operator": "-",
                 "argument": {
                   "type": "Identifier",
+                  "name": "Infinity",
                   "start": 413,
-                  "end": 421,
-                  "name": "Infinity"
+                  "end": 421
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 412,
+                "end": 421
               }
-            ]
+            ],
+            "start": 401,
+            "end": 422
           },
           "property": {
             "type": "Identifier",
+            "name": "forEach",
             "start": 423,
-            "end": 430,
-            "name": "forEach"
+            "end": 430
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 401,
+          "end": 430
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 431,
-            "end": 1061,
             "expression": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "inf",
                 "start": 432,
-                "end": 435,
-                "name": "inf"
+                "end": 435
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 440,
-              "end": 1061,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 444,
-                  "end": 1059,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 444,
-                    "end": 1058,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 444,
-                      "end": 524,
                       "object": {
                         "type": "ArrayExpression",
-                        "start": 444,
-                        "end": 516,
                         "elements": [
                           {
                             "type": "Literal",
-                            "start": 445,
-                            "end": 451,
                             "value": "hour",
-                            "raw": "\"hour\""
+                            "raw": "\"hour\"",
+                            "start": 445,
+                            "end": 451
                           },
                           {
                             "type": "Literal",
-                            "start": 453,
-                            "end": 461,
                             "value": "minute",
-                            "raw": "\"minute\""
+                            "raw": "\"minute\"",
+                            "start": 453,
+                            "end": 461
                           },
                           {
                             "type": "Literal",
-                            "start": 463,
-                            "end": 471,
                             "value": "second",
-                            "raw": "\"second\""
+                            "raw": "\"second\"",
+                            "start": 463,
+                            "end": 471
                           },
                           {
                             "type": "Literal",
-                            "start": 473,
-                            "end": 486,
                             "value": "millisecond",
-                            "raw": "\"millisecond\""
+                            "raw": "\"millisecond\"",
+                            "start": 473,
+                            "end": 486
                           },
                           {
                             "type": "Literal",
-                            "start": 488,
-                            "end": 501,
                             "value": "microsecond",
-                            "raw": "\"microsecond\""
+                            "raw": "\"microsecond\"",
+                            "start": 488,
+                            "end": 501
                           },
                           {
                             "type": "Literal",
-                            "start": 503,
-                            "end": 515,
                             "value": "nanosecond",
-                            "raw": "\"nanosecond\""
+                            "raw": "\"nanosecond\"",
+                            "start": 503,
+                            "end": 515
                           }
-                        ]
+                        ],
+                        "start": 444,
+                        "end": 516
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "forEach",
                         "start": 517,
-                        "end": 524,
-                        "name": "forEach"
+                        "end": 524
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 444,
+                      "end": 524
                     },
                     "arguments": [
                       {
                         "type": "ArrowFunctionExpression",
-                        "start": 525,
-                        "end": 1057,
                         "expression": false,
                         "async": false,
                         "params": [
                           {
                             "type": "Identifier",
+                            "name": "prop",
                             "start": 526,
-                            "end": 530,
-                            "name": "prop"
+                            "end": 530
                           }
                         ],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 535,
-                          "end": 1057,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 541,
-                              "end": 1053,
                               "expression": {
                                 "type": "CallExpression",
-                                "start": 541,
-                                "end": 1052,
                                 "callee": {
                                   "type": "MemberExpression",
-                                  "start": 541,
-                                  "end": 572,
                                   "object": {
                                     "type": "ArrayExpression",
-                                    "start": 541,
-                                    "end": 564,
                                     "elements": [
                                       {
                                         "type": "Literal",
-                                        "start": 542,
-                                        "end": 553,
                                         "value": "constrain",
-                                        "raw": "\"constrain\""
+                                        "raw": "\"constrain\"",
+                                        "start": 542,
+                                        "end": 553
                                       },
                                       {
                                         "type": "Literal",
-                                        "start": 555,
-                                        "end": 563,
                                         "value": "reject",
-                                        "raw": "\"reject\""
+                                        "raw": "\"reject\"",
+                                        "start": 555,
+                                        "end": 563
                                       }
-                                    ]
+                                    ],
+                                    "start": 541,
+                                    "end": 564
                                   },
                                   "property": {
                                     "type": "Identifier",
+                                    "name": "forEach",
                                     "start": 565,
-                                    "end": 572,
-                                    "name": "forEach"
+                                    "end": 572
                                   },
                                   "optional": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 541,
+                                  "end": 572
                                 },
                                 "arguments": [
                                   {
                                     "type": "ArrowFunctionExpression",
-                                    "start": 573,
-                                    "end": 1051,
                                     "expression": false,
                                     "async": false,
                                     "params": [
                                       {
                                         "type": "Identifier",
+                                        "name": "overflow",
                                         "start": 574,
-                                        "end": 582,
-                                        "name": "overflow"
+                                        "end": 582
                                       }
                                     ],
                                     "body": {
                                       "type": "BlockStatement",
-                                      "start": 587,
-                                      "end": 1051,
                                       "body": [
                                         {
                                           "type": "ExpressionStatement",
-                                          "start": 595,
-                                          "end": 732,
                                           "expression": {
                                             "type": "CallExpression",
-                                            "start": 595,
-                                            "end": 731,
                                             "callee": {
                                               "type": "MemberExpression",
-                                              "start": 595,
-                                              "end": 608,
                                               "object": {
                                                 "type": "Identifier",
+                                                "name": "assert",
                                                 "start": 595,
-                                                "end": 601,
-                                                "name": "assert"
+                                                "end": 601
                                               },
                                               "property": {
                                                 "type": "Identifier",
+                                                "name": "throws",
                                                 "start": 602,
-                                                "end": 608,
-                                                "name": "throws"
+                                                "end": 608
                                               },
                                               "optional": false,
-                                              "computed": false
+                                              "computed": false,
+                                              "start": 595,
+                                              "end": 608
                                             },
                                             "arguments": [
                                               {
                                                 "type": "Identifier",
+                                                "name": "RangeError",
                                                 "start": 609,
-                                                "end": 619,
-                                                "name": "RangeError"
+                                                "end": 619
                                               },
                                               {
                                                 "type": "ArrowFunctionExpression",
-                                                "start": 621,
-                                                "end": 671,
                                                 "expression": true,
                                                 "async": false,
                                                 "params": [],
                                                 "body": {
                                                   "type": "CallExpression",
-                                                  "start": 627,
-                                                  "end": 671,
                                                   "callee": {
                                                     "type": "MemberExpression",
-                                                    "start": 627,
-                                                    "end": 640,
                                                     "object": {
                                                       "type": "Identifier",
+                                                      "name": "instance",
                                                       "start": 627,
-                                                      "end": 635,
-                                                      "name": "instance"
+                                                      "end": 635
                                                     },
                                                     "property": {
                                                       "type": "Identifier",
+                                                      "name": "with",
                                                       "start": 636,
-                                                      "end": 640,
-                                                      "name": "with"
+                                                      "end": 640
                                                     },
                                                     "optional": false,
-                                                    "computed": false
+                                                    "computed": false,
+                                                    "start": 627,
+                                                    "end": 640
                                                   },
                                                   "arguments": [
                                                     {
                                                       "type": "ObjectExpression",
-                                                      "start": 641,
-                                                      "end": 656,
                                                       "properties": [
                                                         {
                                                           "type": "Property",
-                                                          "start": 643,
-                                                          "end": 654,
                                                           "kind": "init",
                                                           "key": {
                                                             "type": "Identifier",
+                                                            "name": "prop",
                                                             "start": 644,
-                                                            "end": 648,
-                                                            "name": "prop"
+                                                            "end": 648
                                                           },
                                                           "value": {
                                                             "type": "Identifier",
+                                                            "name": "inf",
                                                             "start": 651,
-                                                            "end": 654,
-                                                            "name": "inf"
+                                                            "end": 654
                                                           },
                                                           "method": false,
                                                           "shorthand": false,
-                                                          "computed": true
+                                                          "computed": true,
+                                                          "start": 643,
+                                                          "end": 654
                                                         }
-                                                      ]
+                                                      ],
+                                                      "start": 641,
+                                                      "end": 656
                                                     },
                                                     {
                                                       "type": "ObjectExpression",
-                                                      "start": 658,
-                                                      "end": 670,
                                                       "properties": [
                                                         {
                                                           "type": "Property",
-                                                          "start": 660,
-                                                          "end": 668,
                                                           "kind": "init",
                                                           "key": {
                                                             "type": "Identifier",
+                                                            "name": "overflow",
                                                             "start": 660,
-                                                            "end": 668,
-                                                            "name": "overflow"
+                                                            "end": 668
                                                           },
                                                           "value": {
                                                             "type": "Identifier",
+                                                            "name": "overflow",
                                                             "start": 660,
-                                                            "end": 668,
-                                                            "name": "overflow"
+                                                            "end": 668
                                                           },
                                                           "method": false,
                                                           "shorthand": true,
-                                                          "computed": false
+                                                          "computed": false,
+                                                          "start": 660,
+                                                          "end": 668
                                                         }
-                                                      ]
+                                                      ],
+                                                      "start": 658,
+                                                      "end": 670
                                                     }
                                                   ],
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "start": 627,
+                                                  "end": 671
                                                 },
                                                 "id": null,
-                                                "generator": false
+                                                "generator": false,
+                                                "start": 621,
+                                                "end": 671
                                               },
                                               {
                                                 "type": "TemplateLiteral",
-                                                "start": 673,
-                                                "end": 730,
                                                 "quasis": [
                                                   {
                                                     "type": "TemplateElement",
-                                                    "start": 674,
-                                                    "end": 674,
                                                     "value": {
                                                       "raw": "",
                                                       "cooked": ""
                                                     },
-                                                    "tail": false
+                                                    "tail": false,
+                                                    "start": 674,
+                                                    "end": 674
                                                   },
                                                   {
                                                     "type": "TemplateElement",
-                                                    "start": 681,
-                                                    "end": 701,
                                                     "value": {
                                                       "raw": " property cannot be ",
                                                       "cooked": " property cannot be "
                                                     },
-                                                    "tail": false
+                                                    "tail": false,
+                                                    "start": 681,
+                                                    "end": 701
                                                   },
                                                   {
                                                     "type": "TemplateElement",
-                                                    "start": 707,
-                                                    "end": 718,
                                                     "value": {
                                                       "raw": " (overflow ",
                                                       "cooked": " (overflow "
                                                     },
-                                                    "tail": false
+                                                    "tail": false,
+                                                    "start": 707,
+                                                    "end": 718
                                                   },
                                                   {
                                                     "type": "TemplateElement",
-                                                    "start": 729,
-                                                    "end": 729,
                                                     "value": {
                                                       "raw": "",
                                                       "cooked": ""
                                                     },
-                                                    "tail": true
+                                                    "tail": true,
+                                                    "start": 729,
+                                                    "end": 729
                                                   }
                                                 ],
                                                 "expressions": [
                                                   {
                                                     "type": "Identifier",
+                                                    "name": "prop",
                                                     "start": 676,
-                                                    "end": 680,
-                                                    "name": "prop"
+                                                    "end": 680
                                                   },
                                                   {
                                                     "type": "Identifier",
+                                                    "name": "inf",
                                                     "start": 703,
-                                                    "end": 706,
-                                                    "name": "inf"
+                                                    "end": 706
                                                   },
                                                   {
                                                     "type": "Identifier",
+                                                    "name": "overflow",
                                                     "start": 720,
-                                                    "end": 728,
-                                                    "name": "overflow"
+                                                    "end": 728
                                                   }
-                                                ]
+                                                ],
+                                                "start": 673,
+                                                "end": 730
                                               }
                                             ],
-                                            "optional": false
-                                          }
+                                            "optional": false,
+                                            "start": 595,
+                                            "end": 731
+                                          },
+                                          "start": 595,
+                                          "end": 732
                                         },
                                         {
                                           "type": "VariableDeclaration",
-                                          "start": 740,
-                                          "end": 757,
                                           "kind": "const",
                                           "declarations": [
                                             {
                                               "type": "VariableDeclarator",
-                                              "start": 746,
-                                              "end": 756,
                                               "id": {
                                                 "type": "Identifier",
+                                                "name": "calls",
                                                 "start": 746,
-                                                "end": 751,
-                                                "name": "calls"
+                                                "end": 751
                                               },
                                               "init": {
                                                 "type": "ArrayExpression",
+                                                "elements": [],
                                                 "start": 754,
-                                                "end": 756,
-                                                "elements": []
-                                              }
+                                                "end": 756
+                                              },
+                                              "start": 746,
+                                              "end": 756
                                             }
-                                          ]
+                                          ],
+                                          "start": 740,
+                                          "end": 757
                                         },
                                         {
                                           "type": "VariableDeclaration",
-                                          "start": 764,
-                                          "end": 830,
                                           "kind": "const",
                                           "declarations": [
                                             {
                                               "type": "VariableDeclarator",
-                                              "start": 770,
-                                              "end": 829,
                                               "id": {
                                                 "type": "Identifier",
+                                                "name": "obj",
                                                 "start": 770,
-                                                "end": 773,
-                                                "name": "obj"
+                                                "end": 773
                                               },
                                               "init": {
                                                 "type": "CallExpression",
-                                                "start": 776,
-                                                "end": 829,
                                                 "callee": {
                                                   "type": "MemberExpression",
-                                                  "start": 776,
-                                                  "end": 811,
                                                   "object": {
                                                     "type": "Identifier",
+                                                    "name": "TemporalHelpers",
                                                     "start": 776,
-                                                    "end": 791,
-                                                    "name": "TemporalHelpers"
+                                                    "end": 791
                                                   },
                                                   "property": {
                                                     "type": "Identifier",
+                                                    "name": "toPrimitiveObserver",
                                                     "start": 792,
-                                                    "end": 811,
-                                                    "name": "toPrimitiveObserver"
+                                                    "end": 811
                                                   },
                                                   "optional": false,
-                                                  "computed": false
+                                                  "computed": false,
+                                                  "start": 776,
+                                                  "end": 811
                                                 },
                                                 "arguments": [
                                                   {
                                                     "type": "Identifier",
+                                                    "name": "calls",
                                                     "start": 812,
-                                                    "end": 817,
-                                                    "name": "calls"
+                                                    "end": 817
                                                   },
                                                   {
                                                     "type": "Identifier",
+                                                    "name": "inf",
                                                     "start": 819,
-                                                    "end": 822,
-                                                    "name": "inf"
+                                                    "end": 822
                                                   },
                                                   {
                                                     "type": "Identifier",
+                                                    "name": "prop",
                                                     "start": 824,
-                                                    "end": 828,
-                                                    "name": "prop"
+                                                    "end": 828
                                                   }
                                                 ],
-                                                "optional": false
-                                              }
+                                                "optional": false,
+                                                "start": 776,
+                                                "end": 829
+                                              },
+                                              "start": 770,
+                                              "end": 829
                                             }
-                                          ]
+                                          ],
+                                          "start": 764,
+                                          "end": 830
                                         },
                                         {
                                           "type": "ExpressionStatement",
-                                          "start": 837,
-                                          "end": 915,
                                           "expression": {
                                             "type": "CallExpression",
-                                            "start": 837,
-                                            "end": 914,
                                             "callee": {
                                               "type": "MemberExpression",
-                                              "start": 837,
-                                              "end": 850,
                                               "object": {
                                                 "type": "Identifier",
+                                                "name": "assert",
                                                 "start": 837,
-                                                "end": 843,
-                                                "name": "assert"
+                                                "end": 843
                                               },
                                               "property": {
                                                 "type": "Identifier",
+                                                "name": "throws",
                                                 "start": 844,
-                                                "end": 850,
-                                                "name": "throws"
+                                                "end": 850
                                               },
                                               "optional": false,
-                                              "computed": false
+                                              "computed": false,
+                                              "start": 837,
+                                              "end": 850
                                             },
                                             "arguments": [
                                               {
                                                 "type": "Identifier",
+                                                "name": "RangeError",
                                                 "start": 851,
-                                                "end": 861,
-                                                "name": "RangeError"
+                                                "end": 861
                                               },
                                               {
                                                 "type": "ArrowFunctionExpression",
-                                                "start": 863,
-                                                "end": 913,
                                                 "expression": true,
                                                 "async": false,
                                                 "params": [],
                                                 "body": {
                                                   "type": "CallExpression",
-                                                  "start": 869,
-                                                  "end": 913,
                                                   "callee": {
                                                     "type": "MemberExpression",
-                                                    "start": 869,
-                                                    "end": 882,
                                                     "object": {
                                                       "type": "Identifier",
+                                                      "name": "instance",
                                                       "start": 869,
-                                                      "end": 877,
-                                                      "name": "instance"
+                                                      "end": 877
                                                     },
                                                     "property": {
                                                       "type": "Identifier",
+                                                      "name": "with",
                                                       "start": 878,
-                                                      "end": 882,
-                                                      "name": "with"
+                                                      "end": 882
                                                     },
                                                     "optional": false,
-                                                    "computed": false
+                                                    "computed": false,
+                                                    "start": 869,
+                                                    "end": 882
                                                   },
                                                   "arguments": [
                                                     {
                                                       "type": "ObjectExpression",
-                                                      "start": 883,
-                                                      "end": 898,
                                                       "properties": [
                                                         {
                                                           "type": "Property",
-                                                          "start": 885,
-                                                          "end": 896,
                                                           "kind": "init",
                                                           "key": {
                                                             "type": "Identifier",
+                                                            "name": "prop",
                                                             "start": 886,
-                                                            "end": 890,
-                                                            "name": "prop"
+                                                            "end": 890
                                                           },
                                                           "value": {
                                                             "type": "Identifier",
+                                                            "name": "obj",
                                                             "start": 893,
-                                                            "end": 896,
-                                                            "name": "obj"
+                                                            "end": 896
                                                           },
                                                           "method": false,
                                                           "shorthand": false,
-                                                          "computed": true
+                                                          "computed": true,
+                                                          "start": 885,
+                                                          "end": 896
                                                         }
-                                                      ]
+                                                      ],
+                                                      "start": 883,
+                                                      "end": 898
                                                     },
                                                     {
                                                       "type": "ObjectExpression",
-                                                      "start": 900,
-                                                      "end": 912,
                                                       "properties": [
                                                         {
                                                           "type": "Property",
-                                                          "start": 902,
-                                                          "end": 910,
                                                           "kind": "init",
                                                           "key": {
                                                             "type": "Identifier",
+                                                            "name": "overflow",
                                                             "start": 902,
-                                                            "end": 910,
-                                                            "name": "overflow"
+                                                            "end": 910
                                                           },
                                                           "value": {
                                                             "type": "Identifier",
+                                                            "name": "overflow",
                                                             "start": 902,
-                                                            "end": 910,
-                                                            "name": "overflow"
+                                                            "end": 910
                                                           },
                                                           "method": false,
                                                           "shorthand": true,
-                                                          "computed": false
+                                                          "computed": false,
+                                                          "start": 902,
+                                                          "end": 910
                                                         }
-                                                      ]
+                                                      ],
+                                                      "start": 900,
+                                                      "end": 912
                                                     }
                                                   ],
-                                                  "optional": false
+                                                  "optional": false,
+                                                  "start": 869,
+                                                  "end": 913
                                                 },
                                                 "id": null,
-                                                "generator": false
+                                                "generator": false,
+                                                "start": 863,
+                                                "end": 913
                                               }
                                             ],
-                                            "optional": false
-                                          }
+                                            "optional": false,
+                                            "start": 837,
+                                            "end": 914
+                                          },
+                                          "start": 837,
+                                          "end": 915
                                         },
                                         {
                                           "type": "ExpressionStatement",
-                                          "start": 922,
-                                          "end": 1045,
                                           "expression": {
                                             "type": "CallExpression",
-                                            "start": 922,
-                                            "end": 1044,
                                             "callee": {
                                               "type": "MemberExpression",
-                                              "start": 922,
-                                              "end": 941,
                                               "object": {
                                                 "type": "Identifier",
+                                                "name": "assert",
                                                 "start": 922,
-                                                "end": 928,
-                                                "name": "assert"
+                                                "end": 928
                                               },
                                               "property": {
                                                 "type": "Identifier",
+                                                "name": "compareArray",
                                                 "start": 929,
-                                                "end": 941,
-                                                "name": "compareArray"
+                                                "end": 941
                                               },
                                               "optional": false,
-                                              "computed": false
+                                              "computed": false,
+                                              "start": 922,
+                                              "end": 941
                                             },
                                             "arguments": [
                                               {
                                                 "type": "Identifier",
+                                                "name": "calls",
                                                 "start": 942,
-                                                "end": 947,
-                                                "name": "calls"
+                                                "end": 947
                                               },
                                               {
                                                 "type": "ArrayExpression",
-                                                "start": 949,
-                                                "end": 996,
                                                 "elements": [
                                                   {
                                                     "type": "TemplateLiteral",
-                                                    "start": 950,
-                                                    "end": 971,
                                                     "quasis": [
                                                       {
                                                         "type": "TemplateElement",
-                                                        "start": 951,
-                                                        "end": 955,
                                                         "value": {
                                                           "raw": "get ",
                                                           "cooked": "get "
                                                         },
-                                                        "tail": false
+                                                        "tail": false,
+                                                        "start": 951,
+                                                        "end": 955
                                                       },
                                                       {
                                                         "type": "TemplateElement",
-                                                        "start": 962,
-                                                        "end": 970,
                                                         "value": {
                                                           "raw": ".valueOf",
                                                           "cooked": ".valueOf"
                                                         },
-                                                        "tail": true
+                                                        "tail": true,
+                                                        "start": 962,
+                                                        "end": 970
                                                       }
                                                     ],
                                                     "expressions": [
                                                       {
                                                         "type": "Identifier",
+                                                        "name": "prop",
                                                         "start": 957,
-                                                        "end": 961,
-                                                        "name": "prop"
+                                                        "end": 961
                                                       }
-                                                    ]
+                                                    ],
+                                                    "start": 950,
+                                                    "end": 971
                                                   },
                                                   {
                                                     "type": "TemplateLiteral",
-                                                    "start": 973,
-                                                    "end": 995,
                                                     "quasis": [
                                                       {
                                                         "type": "TemplateElement",
-                                                        "start": 974,
-                                                        "end": 979,
                                                         "value": {
                                                           "raw": "call ",
                                                           "cooked": "call "
                                                         },
-                                                        "tail": false
+                                                        "tail": false,
+                                                        "start": 974,
+                                                        "end": 979
                                                       },
                                                       {
                                                         "type": "TemplateElement",
-                                                        "start": 986,
-                                                        "end": 994,
                                                         "value": {
                                                           "raw": ".valueOf",
                                                           "cooked": ".valueOf"
                                                         },
-                                                        "tail": true
+                                                        "tail": true,
+                                                        "start": 986,
+                                                        "end": 994
                                                       }
                                                     ],
                                                     "expressions": [
                                                       {
                                                         "type": "Identifier",
+                                                        "name": "prop",
                                                         "start": 981,
-                                                        "end": 985,
-                                                        "name": "prop"
+                                                        "end": 985
                                                       }
-                                                    ]
+                                                    ],
+                                                    "start": 973,
+                                                    "end": 995
                                                   }
-                                                ]
+                                                ],
+                                                "start": 949,
+                                                "end": 996
                                               },
                                               {
                                                 "type": "Literal",
-                                                "start": 998,
-                                                "end": 1043,
                                                 "value": "it fails after fetching the primitive value",
-                                                "raw": "\"it fails after fetching the primitive value\""
+                                                "raw": "\"it fails after fetching the primitive value\"",
+                                                "start": 998,
+                                                "end": 1043
                                               }
                                             ],
-                                            "optional": false
-                                          }
+                                            "optional": false,
+                                            "start": 922,
+                                            "end": 1044
+                                          },
+                                          "start": 922,
+                                          "end": 1045
                                         }
-                                      ]
+                                      ],
+                                      "start": 587,
+                                      "end": 1051
                                     },
                                     "id": null,
-                                    "generator": false
+                                    "generator": false,
+                                    "start": 573,
+                                    "end": 1051
                                   }
                                 ],
-                                "optional": false
-                              }
+                                "optional": false,
+                                "start": 541,
+                                "end": 1052
+                              },
+                              "start": 541,
+                              "end": 1053
                             }
-                          ]
+                          ],
+                          "start": 535,
+                          "end": 1057
                         },
                         "id": null,
-                        "generator": false
+                        "generator": false,
+                        "start": 525,
+                        "end": 1057
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 444,
+                    "end": 1058
+                  },
+                  "start": 444,
+                  "end": 1059
                 }
-              ]
+              ],
+              "start": 440,
+              "end": 1061
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 431,
+            "end": 1061
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 401,
+        "end": 1062
+      },
+      "start": 401,
+      "end": 1063
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1064
 }

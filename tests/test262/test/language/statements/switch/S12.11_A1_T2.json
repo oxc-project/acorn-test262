@@ -1,1732 +1,1732 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2336,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 343,
-      "end": 365,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 347,
-          "end": 364,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 347,
-            "end": 348,
-            "name": "x"
+            "end": 348
           },
           "init": {
             "type": "NewExpression",
-            "start": 351,
-            "end": 364,
             "callee": {
               "type": "Identifier",
+              "name": "Number",
               "start": 355,
-              "end": 361,
-              "name": "Number"
+              "end": 361
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 362,
-                "end": 363,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 362,
+                "end": 363
               }
-            ]
-          }
+            ],
+            "start": 351,
+            "end": 364
+          },
+          "start": 347,
+          "end": 364
         }
-      ]
+      ],
+      "start": 343,
+      "end": 365
     },
     {
       "type": "FunctionDeclaration",
-      "start": 367,
-      "end": 814,
       "id": {
         "type": "Identifier",
+        "name": "SwitchTest",
         "start": 376,
-        "end": 386,
-        "name": "SwitchTest"
+        "end": 386
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "value",
           "start": 387,
-          "end": 392,
-          "name": "value"
+          "end": 392
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 393,
-        "end": 814,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 397,
-            "end": 412,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 401,
-                "end": 411,
                 "id": {
                   "type": "Identifier",
+                  "name": "result",
                   "start": 401,
-                  "end": 407,
-                  "name": "result"
+                  "end": 407
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 410,
-                  "end": 411,
                   "value": 0,
-                  "raw": "0"
-                }
+                  "raw": "0",
+                  "start": 410,
+                  "end": 411
+                },
+                "start": 401,
+                "end": 411
               }
-            ]
+            ],
+            "start": 397,
+            "end": 412
           },
           {
             "type": "SwitchStatement",
-            "start": 418,
-            "end": 792,
             "discriminant": {
               "type": "Identifier",
+              "name": "value",
               "start": 425,
-              "end": 430,
-              "name": "value"
+              "end": 430
             },
             "cases": [
               {
                 "type": "SwitchCase",
-                "start": 438,
-                "end": 464,
                 "test": {
                   "type": "Literal",
-                  "start": 443,
-                  "end": 444,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 443,
+                  "end": 444
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 452,
-                    "end": 464,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 452,
-                      "end": 463,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 452,
-                        "end": 458,
-                        "name": "result"
+                        "end": 458
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 462,
-                        "end": 463,
                         "value": 2,
-                        "raw": "2"
-                      }
-                    }
+                        "raw": "2",
+                        "start": 462,
+                        "end": 463
+                      },
+                      "start": 452,
+                      "end": 463
+                    },
+                    "start": 452,
+                    "end": 464
                   }
-                ]
+                ],
+                "start": 438,
+                "end": 464
               },
               {
                 "type": "SwitchCase",
-                "start": 469,
-                "end": 510,
                 "test": {
                   "type": "Literal",
-                  "start": 474,
-                  "end": 477,
                   "value": "1",
-                  "raw": "'1'"
+                  "raw": "'1'",
+                  "start": 474,
+                  "end": 477
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 485,
-                    "end": 497,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 485,
-                      "end": 496,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 485,
-                        "end": 491,
-                        "name": "result"
+                        "end": 491
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 495,
-                        "end": 496,
                         "value": 4,
-                        "raw": "4"
-                      }
-                    }
+                        "raw": "4",
+                        "start": 495,
+                        "end": 496
+                      },
+                      "start": 485,
+                      "end": 496
+                    },
+                    "start": 485,
+                    "end": 497
                   },
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 504,
-                    "end": 510,
-                    "label": null
+                    "end": 510
                   }
-                ]
+                ],
+                "start": 469,
+                "end": 510
               },
               {
                 "type": "SwitchCase",
-                "start": 515,
-                "end": 553,
                 "test": {
                   "type": "NewExpression",
-                  "start": 520,
-                  "end": 533,
                   "callee": {
                     "type": "Identifier",
+                    "name": "Number",
                     "start": 524,
-                    "end": 530,
-                    "name": "Number"
+                    "end": 530
                   },
                   "arguments": [
                     {
                       "type": "Literal",
-                      "start": 531,
-                      "end": 532,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "start": 531,
+                      "end": 532
                     }
-                  ]
+                  ],
+                  "start": 520,
+                  "end": 533
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 541,
-                    "end": 553,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 541,
-                      "end": 552,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 541,
-                        "end": 547,
-                        "name": "result"
+                        "end": 547
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 551,
-                        "end": 552,
                         "value": 8,
-                        "raw": "8"
-                      }
-                    }
+                        "raw": "8",
+                        "start": 551,
+                        "end": 552
+                      },
+                      "start": 541,
+                      "end": 552
+                    },
+                    "start": 541,
+                    "end": 553
                   }
-                ]
+                ],
+                "start": 515,
+                "end": 553
               },
               {
                 "type": "SwitchCase",
-                "start": 558,
-                "end": 585,
                 "test": {
                   "type": "Literal",
-                  "start": 563,
-                  "end": 564,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "start": 563,
+                  "end": 564
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 572,
-                    "end": 585,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 572,
-                      "end": 584,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 572,
-                        "end": 578,
-                        "name": "result"
+                        "end": 578
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 582,
-                        "end": 584,
                         "value": 16,
-                        "raw": "16"
-                      }
-                    }
+                        "raw": "16",
+                        "start": 582,
+                        "end": 584
+                      },
+                      "start": 572,
+                      "end": 584
+                    },
+                    "start": 572,
+                    "end": 585
                   }
-                ]
+                ],
+                "start": 558,
+                "end": 585
               },
               {
                 "type": "SwitchCase",
-                "start": 590,
-                "end": 631,
                 "test": null,
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 605,
-                    "end": 618,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 605,
-                      "end": 617,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 605,
-                        "end": 611,
-                        "name": "result"
+                        "end": 611
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 615,
-                        "end": 617,
                         "value": 32,
-                        "raw": "32"
-                      }
-                    }
+                        "raw": "32",
+                        "start": 615,
+                        "end": 617
+                      },
+                      "start": 605,
+                      "end": 617
+                    },
+                    "start": 605,
+                    "end": 618
                   },
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 625,
-                    "end": 631,
-                    "label": null
+                    "end": 631
                   }
-                ]
+                ],
+                "start": 590,
+                "end": 631
               },
               {
                 "type": "SwitchCase",
-                "start": 636,
-                "end": 676,
                 "test": {
                   "type": "Literal",
-                  "start": 641,
-                  "end": 642,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "start": 641,
+                  "end": 642
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 650,
-                    "end": 663,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 650,
-                      "end": 662,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 650,
-                        "end": 656,
-                        "name": "result"
+                        "end": 656
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 660,
-                        "end": 662,
                         "value": 64,
-                        "raw": "64"
-                      }
-                    }
+                        "raw": "64",
+                        "start": 660,
+                        "end": 662
+                      },
+                      "start": 650,
+                      "end": 662
+                    },
+                    "start": 650,
+                    "end": 663
                   },
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 670,
-                    "end": 676,
-                    "label": null
+                    "end": 676
                   }
-                ]
+                ],
+                "start": 636,
+                "end": 676
               },
               {
                 "type": "SwitchCase",
-                "start": 681,
-                "end": 722,
                 "test": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 686,
-                  "end": 687,
-                  "name": "x"
+                  "end": 687
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 695,
-                    "end": 709,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 695,
-                      "end": 708,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 695,
-                        "end": 701,
-                        "name": "result"
+                        "end": 701
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 705,
-                        "end": 708,
                         "value": 128,
-                        "raw": "128"
-                      }
-                    }
+                        "raw": "128",
+                        "start": 705,
+                        "end": 708
+                      },
+                      "start": 695,
+                      "end": 708
+                    },
+                    "start": 695,
+                    "end": 709
                   },
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 716,
-                    "end": 722,
-                    "label": null
+                    "end": 722
                   }
-                ]
+                ],
+                "start": 681,
+                "end": 722
               },
               {
                 "type": "SwitchCase",
-                "start": 727,
-                "end": 755,
                 "test": {
                   "type": "Literal",
-                  "start": 732,
-                  "end": 733,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 732,
+                  "end": 733
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 741,
-                    "end": 755,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 741,
-                      "end": 754,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 741,
-                        "end": 747,
-                        "name": "result"
+                        "end": 747
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 751,
-                        "end": 754,
                         "value": 256,
-                        "raw": "256"
-                      }
-                    }
+                        "raw": "256",
+                        "start": 751,
+                        "end": 754
+                      },
+                      "start": 741,
+                      "end": 754
+                    },
+                    "start": 741,
+                    "end": 755
                   }
-                ]
+                ],
+                "start": 727,
+                "end": 755
               },
               {
                 "type": "SwitchCase",
-                "start": 760,
-                "end": 788,
                 "test": {
                   "type": "Literal",
-                  "start": 765,
-                  "end": 766,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 765,
+                  "end": 766
                 },
                 "consequent": [
                   {
                     "type": "ExpressionStatement",
-                    "start": 774,
-                    "end": 788,
                     "expression": {
                       "type": "AssignmentExpression",
-                      "start": 774,
-                      "end": 787,
                       "operator": "+=",
                       "left": {
                         "type": "Identifier",
+                        "name": "result",
                         "start": 774,
-                        "end": 780,
-                        "name": "result"
+                        "end": 780
                       },
                       "right": {
                         "type": "Literal",
-                        "start": 784,
-                        "end": 787,
                         "value": 512,
-                        "raw": "512"
-                      }
-                    }
+                        "raw": "512",
+                        "start": 784,
+                        "end": 787
+                      },
+                      "start": 774,
+                      "end": 787
+                    },
+                    "start": 774,
+                    "end": 788
                   }
-                ]
+                ],
+                "start": 760,
+                "end": 788
               }
-            ]
+            ],
+            "start": 418,
+            "end": 792
           },
           {
             "type": "ReturnStatement",
-            "start": 798,
-            "end": 812,
             "argument": {
               "type": "Identifier",
+              "name": "result",
               "start": 805,
-              "end": 811,
-              "name": "result"
-            }
+              "end": 811
+            },
+            "start": 798,
+            "end": 812
           }
-        ]
+        ],
+        "start": 393,
+        "end": 814
       },
-      "expression": false
+      "expression": false,
+      "start": 367,
+      "end": 814
     },
     {
       "type": "IfStatement",
-      "start": 824,
-      "end": 951,
       "test": {
         "type": "UnaryExpression",
-        "start": 827,
-        "end": 849,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 828,
-          "end": 849,
           "expression": {
             "type": "BinaryExpression",
-            "start": 829,
-            "end": 848,
             "left": {
               "type": "CallExpression",
-              "start": 829,
-              "end": 842,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 829,
-                "end": 839,
-                "name": "SwitchTest"
+                "end": 839
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 840,
-                  "end": 841,
                   "value": 0,
-                  "raw": "0"
+                  "raw": "0",
+                  "start": 840,
+                  "end": 841
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 829,
+              "end": 842
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 847,
-              "end": 848,
               "value": 6,
-              "raw": "6"
-            }
-          }
+              "raw": "6",
+              "start": 847,
+              "end": 848
+            },
+            "start": 829,
+            "end": 848
+          },
+          "start": 828,
+          "end": 849
         },
-        "prefix": true
+        "prefix": true,
+        "start": 827,
+        "end": 849
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 850,
-        "end": 951,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 854,
-            "end": 949,
             "argument": {
               "type": "NewExpression",
-              "start": 860,
-              "end": 948,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 864,
-                "end": 876,
-                "name": "Test262Error"
+                "end": 876
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 877,
-                  "end": 945,
                   "left": {
                     "type": "Literal",
-                    "start": 877,
-                    "end": 930,
                     "value": "#1: SwitchTest(0) === 6. Actual:  SwitchTest(0) ===",
-                    "raw": "\"#1: SwitchTest(0) === 6. Actual:  SwitchTest(0) ===\""
+                    "raw": "\"#1: SwitchTest(0) === 6. Actual:  SwitchTest(0) ===\"",
+                    "start": 877,
+                    "end": 930
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 932,
-                    "end": 945,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 932,
-                      "end": 942,
-                      "name": "SwitchTest"
+                      "end": 942
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 943,
-                        "end": 944,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 943,
+                        "end": 944
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 932,
+                    "end": 945
+                  },
+                  "start": 877,
+                  "end": 945
                 }
-              ]
-            }
+              ],
+              "start": 860,
+              "end": 948
+            },
+            "start": 854,
+            "end": 949
           }
-        ]
+        ],
+        "start": 850,
+        "end": 951
       },
-      "alternate": null
+      "alternate": null,
+      "start": 824,
+      "end": 951
     },
     {
       "type": "IfStatement",
-      "start": 953,
-      "end": 1084,
       "test": {
         "type": "UnaryExpression",
-        "start": 956,
-        "end": 980,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 957,
-          "end": 980,
           "expression": {
             "type": "BinaryExpression",
-            "start": 958,
-            "end": 979,
             "left": {
               "type": "CallExpression",
-              "start": 958,
-              "end": 971,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 958,
-                "end": 968,
-                "name": "SwitchTest"
+                "end": 968
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 969,
-                  "end": 970,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 969,
+                  "end": 970
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 958,
+              "end": 971
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 976,
-              "end": 979,
               "value": 512,
-              "raw": "512"
-            }
-          }
+              "raw": "512",
+              "start": 976,
+              "end": 979
+            },
+            "start": 958,
+            "end": 979
+          },
+          "start": 957,
+          "end": 980
         },
-        "prefix": true
+        "prefix": true,
+        "start": 956,
+        "end": 980
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 981,
-        "end": 1084,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 985,
-            "end": 1082,
             "argument": {
               "type": "NewExpression",
-              "start": 991,
-              "end": 1081,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 995,
-                "end": 1007,
-                "name": "Test262Error"
+                "end": 1007
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1008,
-                  "end": 1078,
                   "left": {
                     "type": "Literal",
-                    "start": 1008,
-                    "end": 1063,
                     "value": "#2: SwitchTest(1) === 512. Actual:  SwitchTest(1) ===",
-                    "raw": "\"#2: SwitchTest(1) === 512. Actual:  SwitchTest(1) ===\""
+                    "raw": "\"#2: SwitchTest(1) === 512. Actual:  SwitchTest(1) ===\"",
+                    "start": 1008,
+                    "end": 1063
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 1065,
-                    "end": 1078,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 1065,
-                      "end": 1075,
-                      "name": "SwitchTest"
+                      "end": 1075
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1076,
-                        "end": 1077,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 1076,
+                        "end": 1077
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1065,
+                    "end": 1078
+                  },
+                  "start": 1008,
+                  "end": 1078
                 }
-              ]
-            }
+              ],
+              "start": 991,
+              "end": 1081
+            },
+            "start": 985,
+            "end": 1082
           }
-        ]
+        ],
+        "start": 981,
+        "end": 1084
       },
-      "alternate": null
+      "alternate": null,
+      "start": 953,
+      "end": 1084
     },
     {
       "type": "IfStatement",
-      "start": 1086,
-      "end": 1215,
       "test": {
         "type": "UnaryExpression",
-        "start": 1089,
-        "end": 1112,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1090,
-          "end": 1112,
           "expression": {
             "type": "BinaryExpression",
-            "start": 1091,
-            "end": 1111,
             "left": {
               "type": "CallExpression",
-              "start": 1091,
-              "end": 1104,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 1091,
-                "end": 1101,
-                "name": "SwitchTest"
+                "end": 1101
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1102,
-                  "end": 1103,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "start": 1102,
+                  "end": 1103
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1091,
+              "end": 1104
             },
             "operator": "===",
             "right": {
               "type": "Literal",
+              "value": 32,
+              "raw": "32",
               "start": 1109,
-              "end": 1111,
-              "value": 32,
-              "raw": "32"
-            }
-          }
+              "end": 1111
+            },
+            "start": 1091,
+            "end": 1111
+          },
+          "start": 1090,
+          "end": 1112
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1089,
+        "end": 1112
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1113,
-        "end": 1215,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1117,
-            "end": 1213,
             "argument": {
               "type": "NewExpression",
-              "start": 1123,
-              "end": 1212,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1127,
-                "end": 1139,
-                "name": "Test262Error"
+                "end": 1139
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1140,
-                  "end": 1209,
                   "left": {
                     "type": "Literal",
-                    "start": 1140,
-                    "end": 1194,
                     "value": "#3: SwitchTest(2) === 32. Actual:  SwitchTest(2) ===",
-                    "raw": "\"#3: SwitchTest(2) === 32. Actual:  SwitchTest(2) ===\""
+                    "raw": "\"#3: SwitchTest(2) === 32. Actual:  SwitchTest(2) ===\"",
+                    "start": 1140,
+                    "end": 1194
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 1196,
-                    "end": 1209,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 1196,
-                      "end": 1206,
-                      "name": "SwitchTest"
+                      "end": 1206
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1207,
-                        "end": 1208,
                         "value": 2,
-                        "raw": "2"
+                        "raw": "2",
+                        "start": 1207,
+                        "end": 1208
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1196,
+                    "end": 1209
+                  },
+                  "start": 1140,
+                  "end": 1209
                 }
-              ]
-            }
+              ],
+              "start": 1123,
+              "end": 1212
+            },
+            "start": 1117,
+            "end": 1213
           }
-        ]
+        ],
+        "start": 1113,
+        "end": 1215
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1086,
+      "end": 1215
     },
     {
       "type": "IfStatement",
-      "start": 1217,
-      "end": 1346,
       "test": {
         "type": "UnaryExpression",
-        "start": 1220,
-        "end": 1243,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1221,
-          "end": 1243,
           "expression": {
             "type": "BinaryExpression",
-            "start": 1222,
-            "end": 1242,
             "left": {
               "type": "CallExpression",
-              "start": 1222,
-              "end": 1235,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 1222,
-                "end": 1232,
-                "name": "SwitchTest"
+                "end": 1232
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1233,
-                  "end": 1234,
                   "value": 3,
-                  "raw": "3"
+                  "raw": "3",
+                  "start": 1233,
+                  "end": 1234
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1222,
+              "end": 1235
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 1240,
-              "end": 1242,
               "value": 48,
-              "raw": "48"
-            }
-          }
+              "raw": "48",
+              "start": 1240,
+              "end": 1242
+            },
+            "start": 1222,
+            "end": 1242
+          },
+          "start": 1221,
+          "end": 1243
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1220,
+        "end": 1243
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1244,
-        "end": 1346,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1248,
-            "end": 1344,
             "argument": {
               "type": "NewExpression",
-              "start": 1254,
-              "end": 1343,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1258,
-                "end": 1270,
-                "name": "Test262Error"
+                "end": 1270
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1271,
-                  "end": 1340,
                   "left": {
                     "type": "Literal",
-                    "start": 1271,
-                    "end": 1325,
                     "value": "#4: SwitchTest(3) === 48. Actual:  SwitchTest(3) ===",
-                    "raw": "\"#4: SwitchTest(3) === 48. Actual:  SwitchTest(3) ===\""
+                    "raw": "\"#4: SwitchTest(3) === 48. Actual:  SwitchTest(3) ===\"",
+                    "start": 1271,
+                    "end": 1325
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 1327,
-                    "end": 1340,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 1327,
-                      "end": 1337,
-                      "name": "SwitchTest"
+                      "end": 1337
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1338,
-                        "end": 1339,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "start": 1338,
+                        "end": 1339
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1327,
+                    "end": 1340
+                  },
+                  "start": 1271,
+                  "end": 1340
                 }
-              ]
-            }
+              ],
+              "start": 1254,
+              "end": 1343
+            },
+            "start": 1248,
+            "end": 1344
           }
-        ]
+        ],
+        "start": 1244,
+        "end": 1346
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1217,
+      "end": 1346
     },
     {
       "type": "IfStatement",
-      "start": 1348,
-      "end": 1477,
       "test": {
         "type": "UnaryExpression",
-        "start": 1351,
-        "end": 1374,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1352,
-          "end": 1374,
           "expression": {
             "type": "BinaryExpression",
-            "start": 1353,
-            "end": 1373,
             "left": {
               "type": "CallExpression",
-              "start": 1353,
-              "end": 1366,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 1353,
-                "end": 1363,
-                "name": "SwitchTest"
+                "end": 1363
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1364,
-                  "end": 1365,
                   "value": 4,
-                  "raw": "4"
+                  "raw": "4",
+                  "start": 1364,
+                  "end": 1365
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1353,
+              "end": 1366
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 1371,
-              "end": 1373,
               "value": 64,
-              "raw": "64"
-            }
-          }
+              "raw": "64",
+              "start": 1371,
+              "end": 1373
+            },
+            "start": 1353,
+            "end": 1373
+          },
+          "start": 1352,
+          "end": 1374
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1351,
+        "end": 1374
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1375,
-        "end": 1477,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1379,
-            "end": 1475,
             "argument": {
               "type": "NewExpression",
-              "start": 1385,
-              "end": 1474,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1389,
-                "end": 1401,
-                "name": "Test262Error"
+                "end": 1401
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1402,
-                  "end": 1471,
                   "left": {
                     "type": "Literal",
-                    "start": 1402,
-                    "end": 1456,
                     "value": "#5: SwitchTest(4) === 64. Actual:  SwitchTest(4) ===",
-                    "raw": "\"#5: SwitchTest(4) === 64. Actual:  SwitchTest(4) ===\""
+                    "raw": "\"#5: SwitchTest(4) === 64. Actual:  SwitchTest(4) ===\"",
+                    "start": 1402,
+                    "end": 1456
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 1458,
-                    "end": 1471,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 1458,
-                      "end": 1468,
-                      "name": "SwitchTest"
+                      "end": 1468
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1469,
-                        "end": 1470,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "start": 1469,
+                        "end": 1470
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1458,
+                    "end": 1471
+                  },
+                  "start": 1402,
+                  "end": 1471
                 }
-              ]
-            }
+              ],
+              "start": 1385,
+              "end": 1474
+            },
+            "start": 1379,
+            "end": 1475
           }
-        ]
+        ],
+        "start": 1375,
+        "end": 1477
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1348,
+      "end": 1477
     },
     {
       "type": "IfStatement",
-      "start": 1479,
-      "end": 1620,
       "test": {
         "type": "UnaryExpression",
-        "start": 1482,
-        "end": 1508,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1483,
-          "end": 1508,
           "expression": {
             "type": "BinaryExpression",
-            "start": 1484,
-            "end": 1507,
             "left": {
               "type": "CallExpression",
-              "start": 1484,
-              "end": 1500,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 1484,
-                "end": 1494,
-                "name": "SwitchTest"
+                "end": 1494
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1495,
-                  "end": 1499,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 1495,
+                  "end": 1499
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1484,
+              "end": 1500
             },
             "operator": "===",
             "right": {
               "type": "Literal",
+              "value": 32,
+              "raw": "32",
               "start": 1505,
-              "end": 1507,
-              "value": 32,
-              "raw": "32"
-            }
-          }
+              "end": 1507
+            },
+            "start": 1484,
+            "end": 1507
+          },
+          "start": 1483,
+          "end": 1508
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1482,
+        "end": 1508
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1509,
-        "end": 1620,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1513,
-            "end": 1618,
             "argument": {
               "type": "NewExpression",
-              "start": 1519,
-              "end": 1617,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1523,
-                "end": 1535,
-                "name": "Test262Error"
+                "end": 1535
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1536,
-                  "end": 1614,
                   "left": {
                     "type": "Literal",
-                    "start": 1536,
-                    "end": 1596,
                     "value": "#6: SwitchTest(true) === 32. Actual:  SwitchTest(true) ===",
-                    "raw": "\"#6: SwitchTest(true) === 32. Actual:  SwitchTest(true) ===\""
+                    "raw": "\"#6: SwitchTest(true) === 32. Actual:  SwitchTest(true) ===\"",
+                    "start": 1536,
+                    "end": 1596
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 1598,
-                    "end": 1614,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 1598,
-                      "end": 1608,
-                      "name": "SwitchTest"
+                      "end": 1608
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1609,
-                        "end": 1613,
                         "value": true,
-                        "raw": "true"
+                        "raw": "true",
+                        "start": 1609,
+                        "end": 1613
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1598,
+                    "end": 1614
+                  },
+                  "start": 1536,
+                  "end": 1614
                 }
-              ]
-            }
+              ],
+              "start": 1519,
+              "end": 1617
+            },
+            "start": 1513,
+            "end": 1618
           }
-        ]
+        ],
+        "start": 1509,
+        "end": 1620
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1479,
+      "end": 1620
     },
     {
       "type": "IfStatement",
-      "start": 1622,
-      "end": 1767,
       "test": {
         "type": "UnaryExpression",
-        "start": 1625,
-        "end": 1652,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1626,
-          "end": 1652,
           "expression": {
             "type": "BinaryExpression",
-            "start": 1627,
-            "end": 1651,
             "left": {
               "type": "CallExpression",
-              "start": 1627,
-              "end": 1644,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 1627,
-                "end": 1637,
-                "name": "SwitchTest"
+                "end": 1637
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1638,
-                  "end": 1643,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 1638,
+                  "end": 1643
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1627,
+              "end": 1644
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 1649,
-              "end": 1651,
               "value": 32,
-              "raw": "32"
-            }
-          }
+              "raw": "32",
+              "start": 1649,
+              "end": 1651
+            },
+            "start": 1627,
+            "end": 1651
+          },
+          "start": 1626,
+          "end": 1652
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1625,
+        "end": 1652
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1653,
-        "end": 1767,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1657,
-            "end": 1765,
             "argument": {
               "type": "NewExpression",
-              "start": 1663,
-              "end": 1764,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1667,
-                "end": 1679,
-                "name": "Test262Error"
+                "end": 1679
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1680,
-                  "end": 1761,
                   "left": {
                     "type": "Literal",
-                    "start": 1680,
-                    "end": 1742,
                     "value": "#7: SwitchTest(false) === 32. Actual:  SwitchTest(false) ===",
-                    "raw": "\"#7: SwitchTest(false) === 32. Actual:  SwitchTest(false) ===\""
+                    "raw": "\"#7: SwitchTest(false) === 32. Actual:  SwitchTest(false) ===\"",
+                    "start": 1680,
+                    "end": 1742
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 1744,
-                    "end": 1761,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 1744,
-                      "end": 1754,
-                      "name": "SwitchTest"
+                      "end": 1754
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1755,
-                        "end": 1760,
                         "value": false,
-                        "raw": "false"
+                        "raw": "false",
+                        "start": 1755,
+                        "end": 1760
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1744,
+                    "end": 1761
+                  },
+                  "start": 1680,
+                  "end": 1761
                 }
-              ]
-            }
+              ],
+              "start": 1663,
+              "end": 1764
+            },
+            "start": 1657,
+            "end": 1765
           }
-        ]
+        ],
+        "start": 1653,
+        "end": 1767
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1622,
+      "end": 1767
     },
     {
       "type": "IfStatement",
-      "start": 1769,
-      "end": 1910,
       "test": {
         "type": "UnaryExpression",
-        "start": 1772,
-        "end": 1798,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1773,
-          "end": 1798,
           "expression": {
             "type": "BinaryExpression",
-            "start": 1774,
-            "end": 1797,
             "left": {
               "type": "CallExpression",
-              "start": 1774,
-              "end": 1790,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 1774,
-                "end": 1784,
-                "name": "SwitchTest"
+                "end": 1784
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1785,
-                  "end": 1789,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "start": 1785,
+                  "end": 1789
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1774,
+              "end": 1790
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 1795,
-              "end": 1797,
               "value": 32,
-              "raw": "32"
-            }
-          }
+              "raw": "32",
+              "start": 1795,
+              "end": 1797
+            },
+            "start": 1774,
+            "end": 1797
+          },
+          "start": 1773,
+          "end": 1798
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1772,
+        "end": 1798
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1799,
-        "end": 1910,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1803,
-            "end": 1908,
             "argument": {
               "type": "NewExpression",
-              "start": 1809,
-              "end": 1907,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1813,
-                "end": 1825,
-                "name": "Test262Error"
+                "end": 1825
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1826,
-                  "end": 1904,
                   "left": {
                     "type": "Literal",
-                    "start": 1826,
-                    "end": 1886,
                     "value": "#8: SwitchTest(null) === 32. Actual:  SwitchTest(null) ===",
-                    "raw": "\"#8: SwitchTest(null) === 32. Actual:  SwitchTest(null) ===\""
+                    "raw": "\"#8: SwitchTest(null) === 32. Actual:  SwitchTest(null) ===\"",
+                    "start": 1826,
+                    "end": 1886
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 1888,
-                    "end": 1904,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 1888,
-                      "end": 1898,
-                      "name": "SwitchTest"
+                      "end": 1898
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1899,
-                        "end": 1903,
                         "value": null,
-                        "raw": "null"
+                        "raw": "null",
+                        "start": 1899,
+                        "end": 1903
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1888,
+                    "end": 1904
+                  },
+                  "start": 1826,
+                  "end": 1904
                 }
-              ]
-            }
+              ],
+              "start": 1809,
+              "end": 1907
+            },
+            "start": 1803,
+            "end": 1908
           }
-        ]
+        ],
+        "start": 1799,
+        "end": 1910
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1769,
+      "end": 1910
     },
     {
       "type": "IfStatement",
-      "start": 1912,
-      "end": 2061,
       "test": {
         "type": "UnaryExpression",
-        "start": 1915,
-        "end": 1943,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 1916,
-          "end": 1943,
           "expression": {
             "type": "BinaryExpression",
-            "start": 1917,
-            "end": 1942,
             "left": {
               "type": "CallExpression",
-              "start": 1917,
-              "end": 1935,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 1917,
-                "end": 1927,
-                "name": "SwitchTest"
+                "end": 1927
               },
               "arguments": [
                 {
                   "type": "UnaryExpression",
-                  "start": 1928,
-                  "end": 1934,
                   "operator": "void",
                   "argument": {
                     "type": "Literal",
-                    "start": 1933,
-                    "end": 1934,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 1933,
+                    "end": 1934
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 1928,
+                  "end": 1934
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1917,
+              "end": 1935
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 1940,
-              "end": 1942,
               "value": 32,
-              "raw": "32"
-            }
-          }
+              "raw": "32",
+              "start": 1940,
+              "end": 1942
+            },
+            "start": 1917,
+            "end": 1942
+          },
+          "start": 1916,
+          "end": 1943
         },
-        "prefix": true
+        "prefix": true,
+        "start": 1915,
+        "end": 1943
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1944,
-        "end": 2061,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 1948,
-            "end": 2059,
             "argument": {
               "type": "NewExpression",
-              "start": 1954,
-              "end": 2058,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 1958,
-                "end": 1970,
-                "name": "Test262Error"
+                "end": 1970
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 1971,
-                  "end": 2055,
                   "left": {
                     "type": "Literal",
-                    "start": 1971,
-                    "end": 2035,
                     "value": "#9: SwitchTest(void 0) === 32. Actual:  SwitchTest(void 0) ===",
-                    "raw": "\"#9: SwitchTest(void 0) === 32. Actual:  SwitchTest(void 0) ===\""
+                    "raw": "\"#9: SwitchTest(void 0) === 32. Actual:  SwitchTest(void 0) ===\"",
+                    "start": 1971,
+                    "end": 2035
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 2037,
-                    "end": 2055,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 2037,
-                      "end": 2047,
-                      "name": "SwitchTest"
+                      "end": 2047
                     },
                     "arguments": [
                       {
                         "type": "UnaryExpression",
-                        "start": 2048,
-                        "end": 2054,
                         "operator": "void",
                         "argument": {
                           "type": "Literal",
-                          "start": 2053,
-                          "end": 2054,
                           "value": 0,
-                          "raw": "0"
+                          "raw": "0",
+                          "start": 2053,
+                          "end": 2054
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 2048,
+                        "end": 2054
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2037,
+                    "end": 2055
+                  },
+                  "start": 1971,
+                  "end": 2055
                 }
-              ]
-            }
+              ],
+              "start": 1954,
+              "end": 2058
+            },
+            "start": 1948,
+            "end": 2059
           }
-        ]
+        ],
+        "start": 1944,
+        "end": 2061
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1912,
+      "end": 2061
     },
     {
       "type": "IfStatement",
-      "start": 2063,
-      "end": 2201,
       "test": {
         "type": "UnaryExpression",
-        "start": 2066,
-        "end": 2091,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 2067,
-          "end": 2091,
           "expression": {
             "type": "BinaryExpression",
-            "start": 2068,
-            "end": 2090,
             "left": {
               "type": "CallExpression",
-              "start": 2068,
-              "end": 2083,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 2068,
-                "end": 2078,
-                "name": "SwitchTest"
+                "end": 2078
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 2079,
-                  "end": 2082,
                   "value": "0",
-                  "raw": "'0'"
+                  "raw": "'0'",
+                  "start": 2079,
+                  "end": 2082
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2068,
+              "end": 2083
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 2088,
-              "end": 2090,
               "value": 32,
-              "raw": "32"
-            }
-          }
+              "raw": "32",
+              "start": 2088,
+              "end": 2090
+            },
+            "start": 2068,
+            "end": 2090
+          },
+          "start": 2067,
+          "end": 2091
         },
-        "prefix": true
+        "prefix": true,
+        "start": 2066,
+        "end": 2091
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 2092,
-        "end": 2201,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2096,
-            "end": 2199,
             "argument": {
               "type": "NewExpression",
-              "start": 2102,
-              "end": 2198,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 2106,
-                "end": 2118,
-                "name": "Test262Error"
+                "end": 2118
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 2119,
-                  "end": 2195,
                   "left": {
                     "type": "Literal",
-                    "start": 2119,
-                    "end": 2178,
                     "value": "#10: SwitchTest('0') === 32. Actual:  SwitchTest('0') ===",
-                    "raw": "\"#10: SwitchTest('0') === 32. Actual:  SwitchTest('0') ===\""
+                    "raw": "\"#10: SwitchTest('0') === 32. Actual:  SwitchTest('0') ===\"",
+                    "start": 2119,
+                    "end": 2178
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 2180,
-                    "end": 2195,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 2180,
-                      "end": 2190,
-                      "name": "SwitchTest"
+                      "end": 2190
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2191,
-                        "end": 2194,
                         "value": "0",
-                        "raw": "'0'"
+                        "raw": "'0'",
+                        "start": 2191,
+                        "end": 2194
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2180,
+                    "end": 2195
+                  },
+                  "start": 2119,
+                  "end": 2195
                 }
-              ]
-            }
+              ],
+              "start": 2102,
+              "end": 2198
+            },
+            "start": 2096,
+            "end": 2199
           }
-        ]
+        ],
+        "start": 2092,
+        "end": 2201
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2063,
+      "end": 2201
     },
     {
       "type": "IfStatement",
-      "start": 2203,
-      "end": 2335,
       "test": {
         "type": "UnaryExpression",
-        "start": 2206,
-        "end": 2230,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 2207,
-          "end": 2230,
           "expression": {
             "type": "BinaryExpression",
-            "start": 2208,
-            "end": 2229,
             "left": {
               "type": "CallExpression",
-              "start": 2208,
-              "end": 2221,
               "callee": {
                 "type": "Identifier",
+                "name": "SwitchTest",
                 "start": 2208,
-                "end": 2218,
-                "name": "SwitchTest"
+                "end": 2218
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 2219,
-                  "end": 2220,
-                  "name": "x"
+                  "end": 2220
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 2208,
+              "end": 2221
             },
             "operator": "===",
             "right": {
               "type": "Literal",
-              "start": 2226,
-              "end": 2229,
               "value": 128,
-              "raw": "128"
-            }
-          }
+              "raw": "128",
+              "start": 2226,
+              "end": 2229
+            },
+            "start": 2208,
+            "end": 2229
+          },
+          "start": 2207,
+          "end": 2230
         },
-        "prefix": true
+        "prefix": true,
+        "start": 2206,
+        "end": 2230
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 2231,
-        "end": 2335,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 2235,
-            "end": 2333,
             "argument": {
               "type": "NewExpression",
-              "start": 2241,
-              "end": 2332,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 2245,
-                "end": 2257,
-                "name": "Test262Error"
+                "end": 2257
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 2258,
-                  "end": 2329,
                   "left": {
                     "type": "Literal",
-                    "start": 2258,
-                    "end": 2314,
                     "value": "#10: SwitchTest(x) === 128. Actual:  SwitchTest(x) ===",
-                    "raw": "\"#10: SwitchTest(x) === 128. Actual:  SwitchTest(x) ===\""
+                    "raw": "\"#10: SwitchTest(x) === 128. Actual:  SwitchTest(x) ===\"",
+                    "start": 2258,
+                    "end": 2314
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 2316,
-                    "end": 2329,
                     "callee": {
                       "type": "Identifier",
+                      "name": "SwitchTest",
                       "start": 2316,
-                      "end": 2326,
-                      "name": "SwitchTest"
+                      "end": 2326
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "x",
                         "start": 2327,
-                        "end": 2328,
-                        "name": "x"
+                        "end": 2328
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2316,
+                    "end": 2329
+                  },
+                  "start": 2258,
+                  "end": 2329
                 }
-              ]
-            }
+              ],
+              "start": 2241,
+              "end": 2332
+            },
+            "start": 2235,
+            "end": 2333
           }
-        ]
+        ],
+        "start": 2231,
+        "end": 2335
       },
-      "alternate": null
+      "alternate": null,
+      "start": 2203,
+      "end": 2335
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2336
 }

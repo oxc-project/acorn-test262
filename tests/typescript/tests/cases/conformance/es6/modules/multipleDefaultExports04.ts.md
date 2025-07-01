@@ -2,25 +2,19 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 64,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 31,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 15,
-        "end": 31,
         "id": {
           "type": "Identifier",
-          "start": 24,
-          "end": 25,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 24,
+          "end": 25
         },
         "generator": false,
         "async": false,
@@ -30,30 +24,30 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 28,
-          "end": 31,
-          "body": []
+          "end": 31
         },
-        "expression": false
+        "expression": false,
+        "start": 15,
+        "end": 31
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 31
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 33,
-      "end": 64,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 48,
-        "end": 64,
         "id": {
           "type": "Identifier",
-          "start": 57,
-          "end": 58,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 57,
+          "end": 58
         },
         "generator": false,
         "async": false,
@@ -63,16 +57,22 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 61,
-          "end": 64,
-          "body": []
+          "end": 64
         },
-        "expression": false
+        "expression": false,
+        "start": 48,
+        "end": 64
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 33,
+      "end": 64
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 64
 }
 ```

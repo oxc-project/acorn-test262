@@ -1,211 +1,211 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 467,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 249,
-      "end": 272,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 253,
-          "end": 271,
           "id": {
             "type": "Identifier",
+            "name": "symA",
             "start": 253,
-            "end": 257,
-            "name": "symA"
+            "end": 257
           },
           "init": {
             "type": "CallExpression",
-            "start": 260,
-            "end": 271,
             "callee": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 260,
-              "end": 266,
-              "name": "Symbol"
+              "end": 266
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 267,
-                "end": 270,
                 "value": "A",
-                "raw": "'A'"
+                "raw": "'A'",
+                "start": 267,
+                "end": 270
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 260,
+            "end": 271
+          },
+          "start": 253,
+          "end": 271
         }
-      ]
+      ],
+      "start": 249,
+      "end": 272
     },
     {
       "type": "VariableDeclaration",
-      "start": 273,
-      "end": 293,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 277,
-          "end": 292,
           "id": {
             "type": "Identifier",
+            "name": "symB",
             "start": 277,
-            "end": 281,
-            "name": "symB"
+            "end": 281
           },
           "init": {
             "type": "CallExpression",
-            "start": 284,
-            "end": 292,
             "callee": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 284,
-              "end": 290,
-              "name": "Symbol"
+              "end": 290
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 284,
+            "end": 292
+          },
+          "start": 277,
+          "end": 292
         }
-      ]
+      ],
+      "start": 273,
+      "end": 293
     },
     {
       "type": "ExpressionStatement",
-      "start": 295,
-      "end": 380,
       "expression": {
         "type": "CallExpression",
-        "start": 295,
-        "end": 379,
         "callee": {
           "type": "MemberExpression",
-          "start": 295,
-          "end": 314,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 295,
-            "end": 301,
-            "name": "assert"
+            "end": 301
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 302,
-            "end": 314,
-            "name": "notSameValue"
+            "end": 314
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 295,
+          "end": 314
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 315,
-            "end": 327,
             "callee": {
               "type": "Identifier",
+              "name": "Object",
               "start": 315,
-              "end": 321,
-              "name": "Object"
+              "end": 321
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "symA",
                 "start": 322,
-                "end": 326,
-                "name": "symA"
+                "end": 326
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 315,
+            "end": 327
           },
           {
             "type": "Identifier",
+            "name": "symA",
             "start": 329,
-            "end": 333,
-            "name": "symA"
+            "end": 333
           },
           {
             "type": "Literal",
-            "start": 335,
-            "end": 378,
             "value": "The value of `Object(symA)` is not `symA`",
-            "raw": "\"The value of `Object(symA)` is not `symA`\""
+            "raw": "\"The value of `Object(symA)` is not `symA`\"",
+            "start": 335,
+            "end": 378
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 295,
+        "end": 379
+      },
+      "start": 295,
+      "end": 380
     },
     {
       "type": "ExpressionStatement",
-      "start": 381,
-      "end": 466,
       "expression": {
         "type": "CallExpression",
-        "start": 381,
-        "end": 465,
         "callee": {
           "type": "MemberExpression",
-          "start": 381,
-          "end": 400,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 381,
-            "end": 387,
-            "name": "assert"
+            "end": 387
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 388,
-            "end": 400,
-            "name": "notSameValue"
+            "end": 400
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 381,
+          "end": 400
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 401,
-            "end": 413,
             "callee": {
               "type": "Identifier",
+              "name": "Object",
               "start": 401,
-              "end": 407,
-              "name": "Object"
+              "end": 407
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "symB",
                 "start": 408,
-                "end": 412,
-                "name": "symB"
+                "end": 412
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 401,
+            "end": 413
           },
           {
             "type": "Identifier",
+            "name": "symB",
             "start": 415,
-            "end": 419,
-            "name": "symB"
+            "end": 419
           },
           {
             "type": "Literal",
-            "start": 421,
-            "end": 464,
             "value": "The value of `Object(symB)` is not `symB`",
-            "raw": "\"The value of `Object(symB)` is not `symB`\""
+            "raw": "\"The value of `Object(symB)` is not `symB`\"",
+            "start": 421,
+            "end": 464
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 381,
+        "end": 465
+      },
+      "start": 381,
+      "end": 466
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 467
 }

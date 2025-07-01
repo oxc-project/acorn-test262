@@ -2,1026 +2,1026 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 476,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 16,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 16,
             "decorators": [],
             "name": "comp",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 8,
-              "end": 16,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 10,
                 "end": 16
-              }
-            }
+              },
+              "start": 8,
+              "end": 16
+            },
+            "start": 4,
+            "end": 16
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 16
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "ExpressionStatement",
-      "start": 19,
-      "end": 30,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 19,
-        "end": 29,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 19,
-          "end": 23,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 19,
+          "end": 23
         },
         "right": {
           "type": "Literal",
-          "start": 28,
-          "end": 29,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 28,
+          "end": 29
+        },
+        "start": 19,
+        "end": 29
       },
-      "directive": null
+      "directive": null,
+      "start": 19,
+      "end": 30
     },
     {
       "type": "ExpressionStatement",
-      "start": 31,
-      "end": 53,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 31,
-        "end": 52,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 31,
-          "end": 35,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 31,
+          "end": 35
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 40,
-          "end": 52,
           "left": {
             "type": "Identifier",
-            "start": 40,
-            "end": 44,
             "decorators": [],
             "name": "comp",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 44
           },
           "operator": "**",
           "right": {
             "type": "Identifier",
-            "start": 48,
-            "end": 52,
             "decorators": [],
             "name": "comp",
             "optional": false,
-            "typeAnnotation": null
-          }
-        }
+            "typeAnnotation": null,
+            "start": 48,
+            "end": 52
+          },
+          "start": 40,
+          "end": 52
+        },
+        "start": 31,
+        "end": 52
       },
-      "directive": null
+      "directive": null,
+      "start": 31,
+      "end": 53
     },
     {
       "type": "ExpressionStatement",
-      "start": 54,
-      "end": 81,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 54,
-        "end": 80,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 54,
-          "end": 58,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 54,
+          "end": 58
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 63,
-          "end": 80,
           "left": {
             "type": "Identifier",
-            "start": 63,
-            "end": 67,
             "decorators": [],
             "name": "comp",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 63,
+            "end": 67
           },
           "operator": "**",
           "right": {
             "type": "BinaryExpression",
-            "start": 71,
-            "end": 80,
             "left": {
               "type": "Identifier",
-              "start": 71,
-              "end": 75,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 71,
+              "end": 75
             },
             "operator": "**",
             "right": {
               "type": "Literal",
-              "start": 79,
-              "end": 80,
               "value": 2,
-              "raw": "2"
-            }
-          }
-        }
+              "raw": "2",
+              "start": 79,
+              "end": 80
+            },
+            "start": 71,
+            "end": 80
+          },
+          "start": 63,
+          "end": 80
+        },
+        "start": 54,
+        "end": 80
       },
-      "directive": null
+      "directive": null,
+      "start": 54,
+      "end": 81
     },
     {
       "type": "ExpressionStatement",
-      "start": 82,
-      "end": 108,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 82,
-        "end": 107,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 82,
-          "end": 86,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 82,
+          "end": 86
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 91,
-          "end": 107,
           "left": {
             "type": "BinaryExpression",
-            "start": 91,
-            "end": 103,
             "left": {
               "type": "Identifier",
-              "start": 91,
-              "end": 95,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 91,
+              "end": 95
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 99,
-              "end": 103,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 99,
+              "end": 103
+            },
+            "start": 91,
+            "end": 103
           },
           "operator": "+",
           "right": {
             "type": "Literal",
-            "start": 106,
-            "end": 107,
             "value": 2,
-            "raw": "2"
-          }
-        }
+            "raw": "2",
+            "start": 106,
+            "end": 107
+          },
+          "start": 91,
+          "end": 107
+        },
+        "start": 82,
+        "end": 107
       },
-      "directive": null
+      "directive": null,
+      "start": 82,
+      "end": 108
     },
     {
       "type": "ExpressionStatement",
-      "start": 109,
-      "end": 135,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 109,
-        "end": 134,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 109,
-          "end": 113,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 109,
+          "end": 113
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 118,
-          "end": 134,
           "left": {
             "type": "BinaryExpression",
-            "start": 118,
-            "end": 130,
             "left": {
               "type": "Identifier",
-              "start": 118,
-              "end": 122,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 118,
+              "end": 122
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 126,
-              "end": 130,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 126,
+              "end": 130
+            },
+            "start": 118,
+            "end": 130
           },
           "operator": "-",
           "right": {
             "type": "Literal",
-            "start": 133,
-            "end": 134,
             "value": 2,
-            "raw": "2"
-          }
-        }
+            "raw": "2",
+            "start": 133,
+            "end": 134
+          },
+          "start": 118,
+          "end": 134
+        },
+        "start": 109,
+        "end": 134
       },
-      "directive": null
+      "directive": null,
+      "start": 109,
+      "end": 135
     },
     {
       "type": "ExpressionStatement",
-      "start": 136,
-      "end": 162,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 136,
-        "end": 161,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 136,
-          "end": 140,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 136,
+          "end": 140
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 145,
-          "end": 161,
           "left": {
             "type": "BinaryExpression",
-            "start": 145,
-            "end": 157,
             "left": {
               "type": "Identifier",
-              "start": 145,
-              "end": 149,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 145,
+              "end": 149
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 153,
-              "end": 157,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 153,
+              "end": 157
+            },
+            "start": 145,
+            "end": 157
           },
           "operator": "*",
           "right": {
             "type": "Literal",
-            "start": 160,
-            "end": 161,
             "value": 2,
-            "raw": "2"
-          }
-        }
+            "raw": "2",
+            "start": 160,
+            "end": 161
+          },
+          "start": 145,
+          "end": 161
+        },
+        "start": 136,
+        "end": 161
       },
-      "directive": null
+      "directive": null,
+      "start": 136,
+      "end": 162
     },
     {
       "type": "ExpressionStatement",
-      "start": 163,
-      "end": 189,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 163,
-        "end": 188,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 163,
-          "end": 167,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 163,
+          "end": 167
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 172,
-          "end": 188,
           "left": {
             "type": "BinaryExpression",
-            "start": 172,
-            "end": 184,
             "left": {
               "type": "Identifier",
-              "start": 172,
-              "end": 176,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 172,
+              "end": 176
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 180,
-              "end": 184,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 180,
+              "end": 184
+            },
+            "start": 172,
+            "end": 184
           },
           "operator": "/",
           "right": {
             "type": "Literal",
-            "start": 187,
-            "end": 188,
             "value": 2,
-            "raw": "2"
-          }
-        }
+            "raw": "2",
+            "start": 187,
+            "end": 188
+          },
+          "start": 172,
+          "end": 188
+        },
+        "start": 163,
+        "end": 188
       },
-      "directive": null
+      "directive": null,
+      "start": 163,
+      "end": 189
     },
     {
       "type": "ExpressionStatement",
-      "start": 190,
-      "end": 216,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 190,
-        "end": 215,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 190,
-          "end": 194,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 190,
+          "end": 194
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 199,
-          "end": 215,
           "left": {
             "type": "BinaryExpression",
-            "start": 199,
-            "end": 211,
             "left": {
               "type": "Identifier",
-              "start": 199,
-              "end": 203,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 199,
+              "end": 203
             },
             "operator": "**",
             "right": {
               "type": "Identifier",
-              "start": 207,
-              "end": 211,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 207,
+              "end": 211
+            },
+            "start": 199,
+            "end": 211
           },
           "operator": "%",
           "right": {
             "type": "Literal",
-            "start": 214,
-            "end": 215,
             "value": 2,
-            "raw": "2"
-          }
-        }
+            "raw": "2",
+            "start": 214,
+            "end": 215
+          },
+          "start": 199,
+          "end": 215
+        },
+        "start": 190,
+        "end": 215
       },
-      "directive": null
+      "directive": null,
+      "start": 190,
+      "end": 216
     },
     {
       "type": "ExpressionStatement",
-      "start": 217,
-      "end": 242,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 217,
-        "end": 241,
         "operator": "**=",
         "left": {
           "type": "Identifier",
+          "decorators": [],
+          "name": "comp",
+          "optional": false,
+          "typeAnnotation": null,
           "start": 217,
-          "end": 221,
-          "decorators": [],
-          "name": "comp",
-          "optional": false,
-          "typeAnnotation": null
+          "end": 221
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 226,
-          "end": 241,
           "left": {
             "type": "BinaryExpression",
-            "start": 227,
-            "end": 235,
             "left": {
               "type": "Identifier",
+              "decorators": [],
+              "name": "comp",
+              "optional": false,
+              "typeAnnotation": null,
               "start": 227,
-              "end": 231,
-              "decorators": [],
-              "name": "comp",
-              "optional": false,
-              "typeAnnotation": null
+              "end": 231
             },
             "operator": "-",
             "right": {
               "type": "Literal",
+              "value": 2,
+              "raw": "2",
               "start": 234,
-              "end": 235,
-              "value": 2,
-              "raw": "2"
-            }
+              "end": 235
+            },
+            "start": 227,
+            "end": 235
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 240,
-            "end": 241,
             "value": 5,
-            "raw": "5"
-          }
-        }
+            "raw": "5",
+            "start": 240,
+            "end": 241
+          },
+          "start": 226,
+          "end": 241
+        },
+        "start": 217,
+        "end": 241
       },
-      "directive": null
+      "directive": null,
+      "start": 217,
+      "end": 242
     },
     {
       "type": "ExpressionStatement",
-      "start": 243,
-      "end": 268,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 243,
-        "end": 267,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 243,
-          "end": 247,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 243,
+          "end": 247
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 252,
-          "end": 267,
           "left": {
             "type": "BinaryExpression",
-            "start": 253,
-            "end": 261,
             "left": {
               "type": "Identifier",
-              "start": 253,
-              "end": 257,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 253,
+              "end": 257
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 260,
-              "end": 261,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 260,
+              "end": 261
+            },
+            "start": 253,
+            "end": 261
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 266,
-            "end": 267,
             "value": 5,
-            "raw": "5"
-          }
-        }
+            "raw": "5",
+            "start": 266,
+            "end": 267
+          },
+          "start": 252,
+          "end": 267
+        },
+        "start": 243,
+        "end": 267
       },
-      "directive": null
+      "directive": null,
+      "start": 243,
+      "end": 268
     },
     {
       "type": "ExpressionStatement",
-      "start": 269,
-      "end": 294,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 269,
-        "end": 293,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 269,
-          "end": 273,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 269,
+          "end": 273
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 278,
-          "end": 293,
           "left": {
             "type": "BinaryExpression",
-            "start": 279,
-            "end": 287,
             "left": {
               "type": "Identifier",
-              "start": 279,
-              "end": 283,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 279,
+              "end": 283
             },
             "operator": "*",
             "right": {
               "type": "Literal",
-              "start": 286,
-              "end": 287,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 286,
+              "end": 287
+            },
+            "start": 279,
+            "end": 287
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 292,
-            "end": 293,
             "value": 5,
-            "raw": "5"
-          }
-        }
+            "raw": "5",
+            "start": 292,
+            "end": 293
+          },
+          "start": 278,
+          "end": 293
+        },
+        "start": 269,
+        "end": 293
       },
-      "directive": null
+      "directive": null,
+      "start": 269,
+      "end": 294
     },
     {
       "type": "ExpressionStatement",
-      "start": 295,
-      "end": 320,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 295,
-        "end": 319,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 295,
-          "end": 299,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 295,
+          "end": 299
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 304,
-          "end": 319,
           "left": {
             "type": "BinaryExpression",
-            "start": 305,
-            "end": 313,
             "left": {
               "type": "Identifier",
-              "start": 305,
-              "end": 309,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 305,
+              "end": 309
             },
             "operator": "/",
             "right": {
               "type": "Literal",
-              "start": 312,
-              "end": 313,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 312,
+              "end": 313
+            },
+            "start": 305,
+            "end": 313
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 318,
-            "end": 319,
             "value": 5,
-            "raw": "5"
-          }
-        }
+            "raw": "5",
+            "start": 318,
+            "end": 319
+          },
+          "start": 304,
+          "end": 319
+        },
+        "start": 295,
+        "end": 319
       },
-      "directive": null
+      "directive": null,
+      "start": 295,
+      "end": 320
     },
     {
       "type": "ExpressionStatement",
-      "start": 321,
-      "end": 346,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 321,
-        "end": 345,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 321,
-          "end": 325,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 321,
+          "end": 325
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 330,
-          "end": 345,
           "left": {
             "type": "BinaryExpression",
-            "start": 331,
-            "end": 339,
             "left": {
               "type": "Identifier",
-              "start": 331,
-              "end": 335,
               "decorators": [],
               "name": "comp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 331,
+              "end": 335
             },
             "operator": "%",
             "right": {
               "type": "Literal",
-              "start": 338,
-              "end": 339,
               "value": 2,
-              "raw": "2"
-            }
+              "raw": "2",
+              "start": 338,
+              "end": 339
+            },
+            "start": 331,
+            "end": 339
           },
           "operator": "**",
           "right": {
             "type": "Literal",
-            "start": 344,
-            "end": 345,
             "value": 5,
-            "raw": "5"
-          }
-        }
+            "raw": "5",
+            "start": 344,
+            "end": 345
+          },
+          "start": 330,
+          "end": 345
+        },
+        "start": 321,
+        "end": 345
       },
-      "directive": null
+      "directive": null,
+      "start": 321,
+      "end": 346
     },
     {
       "type": "ExpressionStatement",
-      "start": 347,
-      "end": 372,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 347,
-        "end": 371,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 347,
-          "end": 351,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 347,
+          "end": 351
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 356,
-          "end": 371,
           "left": {
             "type": "Identifier",
-            "start": 356,
-            "end": 360,
             "decorators": [],
             "name": "comp",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 356,
+            "end": 360
           },
           "operator": "**",
           "right": {
             "type": "BinaryExpression",
-            "start": 365,
-            "end": 370,
             "left": {
               "type": "Literal",
-              "start": 365,
-              "end": 366,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "start": 365,
+              "end": 366
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 369,
-              "end": 370,
               "value": 2,
-              "raw": "2"
-            }
-          }
-        }
+              "raw": "2",
+              "start": 369,
+              "end": 370
+            },
+            "start": 365,
+            "end": 370
+          },
+          "start": 356,
+          "end": 371
+        },
+        "start": 347,
+        "end": 371
       },
-      "directive": null
+      "directive": null,
+      "start": 347,
+      "end": 372
     },
     {
       "type": "ExpressionStatement",
-      "start": 373,
-      "end": 398,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 373,
-        "end": 397,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 373,
-          "end": 377,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 373,
+          "end": 377
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 382,
-          "end": 397,
           "left": {
             "type": "Identifier",
-            "start": 382,
-            "end": 386,
             "decorators": [],
             "name": "comp",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 382,
+            "end": 386
           },
           "operator": "**",
           "right": {
             "type": "BinaryExpression",
-            "start": 391,
-            "end": 396,
             "left": {
               "type": "Literal",
-              "start": 391,
-              "end": 392,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "start": 391,
+              "end": 392
             },
             "operator": "-",
             "right": {
               "type": "Literal",
-              "start": 395,
-              "end": 396,
               "value": 2,
-              "raw": "2"
-            }
-          }
-        }
+              "raw": "2",
+              "start": 395,
+              "end": 396
+            },
+            "start": 391,
+            "end": 396
+          },
+          "start": 382,
+          "end": 397
+        },
+        "start": 373,
+        "end": 397
       },
-      "directive": null
+      "directive": null,
+      "start": 373,
+      "end": 398
     },
     {
       "type": "ExpressionStatement",
-      "start": 399,
-      "end": 424,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 399,
-        "end": 423,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 399,
-          "end": 403,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 399,
+          "end": 403
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 408,
-          "end": 423,
           "left": {
             "type": "Identifier",
-            "start": 408,
-            "end": 412,
             "decorators": [],
             "name": "comp",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 408,
+            "end": 412
           },
           "operator": "**",
           "right": {
             "type": "BinaryExpression",
-            "start": 417,
-            "end": 422,
             "left": {
               "type": "Literal",
-              "start": 417,
-              "end": 418,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "start": 417,
+              "end": 418
             },
             "operator": "*",
             "right": {
               "type": "Literal",
-              "start": 421,
-              "end": 422,
               "value": 2,
-              "raw": "2"
-            }
-          }
-        }
+              "raw": "2",
+              "start": 421,
+              "end": 422
+            },
+            "start": 417,
+            "end": 422
+          },
+          "start": 408,
+          "end": 423
+        },
+        "start": 399,
+        "end": 423
       },
-      "directive": null
+      "directive": null,
+      "start": 399,
+      "end": 424
     },
     {
       "type": "ExpressionStatement",
-      "start": 425,
-      "end": 450,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 425,
-        "end": 449,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 425,
-          "end": 429,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 425,
+          "end": 429
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 434,
-          "end": 449,
           "left": {
             "type": "Identifier",
-            "start": 434,
-            "end": 438,
             "decorators": [],
             "name": "comp",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 434,
+            "end": 438
           },
           "operator": "**",
           "right": {
             "type": "BinaryExpression",
-            "start": 443,
-            "end": 448,
             "left": {
               "type": "Literal",
-              "start": 443,
-              "end": 444,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "start": 443,
+              "end": 444
             },
             "operator": "/",
             "right": {
               "type": "Literal",
-              "start": 447,
-              "end": 448,
               "value": 2,
-              "raw": "2"
-            }
-          }
-        }
+              "raw": "2",
+              "start": 447,
+              "end": 448
+            },
+            "start": 443,
+            "end": 448
+          },
+          "start": 434,
+          "end": 449
+        },
+        "start": 425,
+        "end": 449
       },
-      "directive": null
+      "directive": null,
+      "start": 425,
+      "end": 450
     },
     {
       "type": "ExpressionStatement",
-      "start": 451,
-      "end": 476,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 451,
-        "end": 475,
         "operator": "**=",
         "left": {
           "type": "Identifier",
-          "start": 451,
-          "end": 455,
           "decorators": [],
           "name": "comp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 451,
+          "end": 455
         },
         "right": {
           "type": "BinaryExpression",
-          "start": 460,
-          "end": 475,
           "left": {
             "type": "Identifier",
-            "start": 460,
-            "end": 464,
             "decorators": [],
             "name": "comp",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 460,
+            "end": 464
           },
           "operator": "**",
           "right": {
             "type": "BinaryExpression",
-            "start": 469,
-            "end": 474,
             "left": {
               "type": "Literal",
-              "start": 469,
-              "end": 470,
               "value": 5,
-              "raw": "5"
+              "raw": "5",
+              "start": 469,
+              "end": 470
             },
             "operator": "%",
             "right": {
               "type": "Literal",
-              "start": 473,
-              "end": 474,
               "value": 2,
-              "raw": "2"
-            }
-          }
-        }
+              "raw": "2",
+              "start": 473,
+              "end": 474
+            },
+            "start": 469,
+            "end": 474
+          },
+          "start": 460,
+          "end": 475
+        },
+        "start": 451,
+        "end": 475
       },
-      "directive": null
+      "directive": null,
+      "start": 451,
+      "end": 476
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 476
 }
 ```

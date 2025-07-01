@@ -1,92 +1,92 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 848,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 718,
-      "end": 822,
       "expression": {
         "type": "CallExpression",
-        "start": 718,
-        "end": 821,
         "callee": {
           "type": "MemberExpression",
-          "start": 718,
-          "end": 734,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 718,
-            "end": 724,
-            "name": "assert"
+            "end": 724
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 725,
-            "end": 734,
-            "name": "sameValue"
+            "end": 734
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 718,
+          "end": 734
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 735,
-            "end": 764,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 735,
-              "end": 748,
-              "name": "isConstructor"
+              "end": 748
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "ReferenceError",
                 "start": 749,
-                "end": 763,
-                "name": "ReferenceError"
+                "end": 763
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 735,
+            "end": 764
           },
           {
             "type": "Literal",
-            "start": 766,
-            "end": 770,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 766,
+            "end": 770
           },
           {
             "type": "Literal",
-            "start": 772,
-            "end": 820,
             "value": "isConstructor(ReferenceError) must return true",
-            "raw": "'isConstructor(ReferenceError) must return true'"
+            "raw": "'isConstructor(ReferenceError) must return true'",
+            "start": 772,
+            "end": 820
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 718,
+        "end": 821
+      },
+      "start": 718,
+      "end": 822
     },
     {
       "type": "ExpressionStatement",
-      "start": 823,
-      "end": 844,
       "expression": {
         "type": "NewExpression",
-        "start": 823,
-        "end": 843,
         "callee": {
           "type": "Identifier",
+          "name": "ReferenceError",
           "start": 827,
-          "end": 841,
-          "name": "ReferenceError"
+          "end": 841
         },
-        "arguments": []
-      }
+        "arguments": [],
+        "start": 823,
+        "end": 843
+      },
+      "start": 823,
+      "end": 844
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 848
 }

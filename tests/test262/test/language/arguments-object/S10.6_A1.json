@@ -1,265 +1,265 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 633,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 354,
-      "end": 390,
       "id": {
         "type": "Identifier",
+        "name": "f1",
         "start": 363,
-        "end": 365,
-        "name": "f1"
+        "end": 365
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 367,
-        "end": 390,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 371,
-            "end": 388,
             "argument": {
               "type": "Identifier",
+              "name": "arguments",
               "start": 378,
-              "end": 387,
-              "name": "arguments"
-            }
+              "end": 387
+            },
+            "start": 371,
+            "end": 388
           }
-        ]
+        ],
+        "start": 367,
+        "end": 390
       },
-      "expression": false
+      "expression": false,
+      "start": 354,
+      "end": 390
     },
     {
       "type": "TryStatement",
-      "start": 392,
-      "end": 484,
       "block": {
         "type": "BlockStatement",
-        "start": 395,
-        "end": 414,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 399,
-            "end": 412,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 403,
-                "end": 411,
                 "id": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 403,
-                  "end": 404,
-                  "name": "x"
+                  "end": 404
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 407,
-                  "end": 411,
                   "callee": {
                     "type": "Identifier",
+                    "name": "f1",
                     "start": 407,
-                    "end": 409,
-                    "name": "f1"
+                    "end": 409
                   },
                   "arguments": [],
-                  "optional": false
-                }
+                  "optional": false,
+                  "start": 407,
+                  "end": 411
+                },
+                "start": 403,
+                "end": 411
               }
-            ]
+            ],
+            "start": 399,
+            "end": 412
           }
-        ]
+        ],
+        "start": 395,
+        "end": 414
       },
       "handler": {
         "type": "CatchClause",
-        "start": 415,
-        "end": 484,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 421,
-          "end": 422,
-          "name": "e"
+          "end": 422
         },
         "body": {
           "type": "BlockStatement",
-          "start": 423,
-          "end": 484,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 427,
-              "end": 482,
               "argument": {
                 "type": "NewExpression",
-                "start": 433,
-                "end": 481,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 437,
-                  "end": 449,
-                  "name": "Test262Error"
+                  "end": 449
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 450,
-                    "end": 480,
                     "value": "#1: arguments doesn't exists",
-                    "raw": "\"#1: arguments doesn't exists\""
+                    "raw": "\"#1: arguments doesn't exists\"",
+                    "start": 450,
+                    "end": 480
                   }
-                ]
-              }
+                ],
+                "start": 433,
+                "end": 481
+              },
+              "start": 427,
+              "end": 482
             }
-          ]
-        }
+          ],
+          "start": 423,
+          "end": 484
+        },
+        "start": 415,
+        "end": 484
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 392,
+      "end": 484
     },
     {
       "type": "VariableDeclaration",
-      "start": 496,
-      "end": 538,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 500,
-          "end": 538,
           "id": {
             "type": "Identifier",
+            "name": "f2",
             "start": 500,
-            "end": 502,
-            "name": "f2"
+            "end": 502
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 505,
-            "end": 538,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 515,
-              "end": 538,
               "body": [
                 {
                   "type": "ReturnStatement",
-                  "start": 519,
-                  "end": 536,
                   "argument": {
                     "type": "Identifier",
+                    "name": "arguments",
                     "start": 526,
-                    "end": 535,
-                    "name": "arguments"
-                  }
+                    "end": 535
+                  },
+                  "start": 519,
+                  "end": 536
                 }
-              ]
+              ],
+              "start": 515,
+              "end": 538
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 505,
+            "end": 538
+          },
+          "start": 500,
+          "end": 538
         }
-      ]
+      ],
+      "start": 496,
+      "end": 538
     },
     {
       "type": "TryStatement",
-      "start": 540,
-      "end": 632,
       "block": {
         "type": "BlockStatement",
-        "start": 543,
-        "end": 562,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 547,
-            "end": 560,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 551,
-                "end": 559,
                 "id": {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 551,
-                  "end": 552,
-                  "name": "x"
+                  "end": 552
                 },
                 "init": {
                   "type": "CallExpression",
-                  "start": 555,
-                  "end": 559,
                   "callee": {
                     "type": "Identifier",
+                    "name": "f2",
                     "start": 555,
-                    "end": 557,
-                    "name": "f2"
+                    "end": 557
                   },
                   "arguments": [],
-                  "optional": false
-                }
+                  "optional": false,
+                  "start": 555,
+                  "end": 559
+                },
+                "start": 551,
+                "end": 559
               }
-            ]
+            ],
+            "start": 547,
+            "end": 560
           }
-        ]
+        ],
+        "start": 543,
+        "end": 562
       },
       "handler": {
         "type": "CatchClause",
-        "start": 563,
-        "end": 632,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 569,
-          "end": 570,
-          "name": "e"
+          "end": 570
         },
         "body": {
           "type": "BlockStatement",
-          "start": 571,
-          "end": 632,
           "body": [
             {
               "type": "ThrowStatement",
-              "start": 575,
-              "end": 630,
               "argument": {
                 "type": "NewExpression",
-                "start": 581,
-                "end": 629,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Test262Error",
                   "start": 585,
-                  "end": 597,
-                  "name": "Test262Error"
+                  "end": 597
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 598,
-                    "end": 628,
                     "value": "#2: arguments doesn't exists",
-                    "raw": "\"#2: arguments doesn't exists\""
+                    "raw": "\"#2: arguments doesn't exists\"",
+                    "start": 598,
+                    "end": 628
                   }
-                ]
-              }
+                ],
+                "start": 581,
+                "end": 629
+              },
+              "start": 575,
+              "end": 630
             }
-          ]
-        }
+          ],
+          "start": 571,
+          "end": 632
+        },
+        "start": 563,
+        "end": 632
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 540,
+      "end": 632
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 633
 }

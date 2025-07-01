@@ -2,63 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 155,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 56,
-      "end": 155,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 56,
-        "end": 155,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 56,
-          "end": 86,
           "object": {
             "type": "MemberExpression",
-            "start": 56,
-            "end": 71,
             "object": {
               "type": "Identifier",
-              "start": 56,
-              "end": 61,
               "decorators": [],
               "name": "Event",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 56,
+              "end": 61
             },
             "property": {
               "type": "Identifier",
-              "start": 62,
-              "end": 71,
               "decorators": [],
               "name": "prototype",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 62,
+              "end": 71
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 56,
+            "end": 71
           },
           "property": {
             "type": "Identifier",
-            "start": 72,
-            "end": 86,
             "decorators": [],
             "name": "removeChildren",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 72,
+            "end": 86
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 56,
+          "end": 86
         },
         "right": {
           "type": "FunctionExpression",
-          "start": 89,
-          "end": 155,
           "id": null,
           "generator": false,
           "async": false,
@@ -68,22 +60,14 @@ __ESTREE_TEST__:PASS:
           "returnType": null,
           "body": {
             "type": "BlockStatement",
-            "start": 101,
-            "end": 155,
             "body": [
               {
                 "type": "ExpressionStatement",
-                "start": 107,
-                "end": 153,
                 "expression": {
                   "type": "AssignmentExpression",
-                  "start": 107,
-                  "end": 153,
                   "operator": "=",
                   "left": {
                     "type": "MemberExpression",
-                    "start": 107,
-                    "end": 123,
                     "object": {
                       "type": "ThisExpression",
                       "start": 107,
@@ -91,35 +75,51 @@ __ESTREE_TEST__:PASS:
                     },
                     "property": {
                       "type": "Identifier",
-                      "start": 112,
-                      "end": 123,
                       "decorators": [],
                       "name": "textContent",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 112,
+                      "end": 123
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 107,
+                    "end": 123
                   },
                   "right": {
                     "type": "Literal",
-                    "start": 126,
-                    "end": 153,
                     "value": "nope, not going to happen",
-                    "raw": "'nope, not going to happen'"
-                  }
+                    "raw": "'nope, not going to happen'",
+                    "start": 126,
+                    "end": 153
+                  },
+                  "start": 107,
+                  "end": 153
                 },
-                "directive": null
+                "directive": null,
+                "start": 107,
+                "end": 153
               }
-            ]
+            ],
+            "start": 101,
+            "end": 155
           },
-          "expression": false
-        }
+          "expression": false,
+          "start": 89,
+          "end": 155
+        },
+        "start": 56,
+        "end": 155
       },
-      "directive": null
+      "directive": null,
+      "start": 56,
+      "end": 155
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 56,
+  "end": 155
 }
 ```

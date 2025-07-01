@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 62,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 0,
-      "end": 62,
       "id": {
         "type": "Identifier",
-        "start": 9,
-        "end": 12,
         "decorators": [],
         "name": "foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 9,
+        "end": 12
       },
       "generator": false,
       "async": false,
@@ -26,42 +22,30 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 15,
-        "end": 62,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 21,
-            "end": 60,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 25,
-                "end": 60,
                 "id": {
                   "type": "Identifier",
-                  "start": 25,
-                  "end": 28,
                   "decorators": [],
                   "name": "obj",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 25,
+                  "end": 28
                 },
                 "init": {
                   "type": "ObjectExpression",
-                  "start": 31,
-                  "end": 60,
                   "properties": [
                     {
                       "type": "Property",
-                      "start": 41,
-                      "end": 54,
                       "kind": "init",
                       "key": {
                         "type": "MemberExpression",
-                        "start": 42,
-                        "end": 50,
                         "object": {
                           "type": "ThisExpression",
                           "start": 42,
@@ -69,41 +53,57 @@ __ESTREE_TEST__:PASS:
                         },
                         "property": {
                           "type": "Identifier",
-                          "start": 47,
-                          "end": 50,
                           "decorators": [],
                           "name": "bar",
                           "optional": false,
-                          "typeAnnotation": null
+                          "typeAnnotation": null,
+                          "start": 47,
+                          "end": 50
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 42,
+                        "end": 50
                       },
                       "value": {
                         "type": "Literal",
-                        "start": 53,
-                        "end": 54,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 53,
+                        "end": 54
                       },
                       "method": false,
                       "shorthand": false,
                       "computed": true,
-                      "optional": false
+                      "optional": false,
+                      "start": 41,
+                      "end": 54
                     }
-                  ]
+                  ],
+                  "start": 31,
+                  "end": 60
                 },
-                "definite": false
+                "definite": false,
+                "start": 25,
+                "end": 60
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 21,
+            "end": 60
           }
-        ]
+        ],
+        "start": 15,
+        "end": 62
       },
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 62
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 62
 }
 ```

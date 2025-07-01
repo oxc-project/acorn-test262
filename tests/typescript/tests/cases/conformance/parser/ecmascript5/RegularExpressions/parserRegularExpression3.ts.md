@@ -2,53 +2,53 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 22,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 22,
       "expression": {
         "type": "CallExpression",
-        "start": 0,
-        "end": 21,
         "callee": {
           "type": "Identifier",
-          "start": 0,
-          "end": 3,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 0,
+          "end": 3
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 4,
-            "end": 20,
             "operator": "!",
             "argument": {
               "type": "Literal",
-              "start": 5,
-              "end": 20,
               "value": null,
               "raw": "/(\\\\?|&)adurl=/",
               "regex": {
                 "pattern": "(\\\\?|&)adurl=",
                 "flags": ""
-              }
+              },
+              "start": 5,
+              "end": 20
             },
-            "prefix": true
+            "prefix": true,
+            "start": 4,
+            "end": 20
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 0,
+        "end": 21
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 22
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 22
 }
 ```

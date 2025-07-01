@@ -1,2289 +1,2289 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 3041,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 498,
-      "end": 593,
       "expression": {
         "type": "CallExpression",
-        "start": 498,
-        "end": 592,
         "callee": {
           "type": "MemberExpression",
-          "start": 498,
-          "end": 511,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 498,
-            "end": 504,
-            "name": "assert"
+            "end": 504
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 505,
-            "end": 511,
-            "name": "throws"
+            "end": 511
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 498,
+          "end": 511
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 512,
-            "end": 523,
-            "name": "SyntaxError"
+            "end": 523
           },
           {
             "type": "FunctionExpression",
-            "start": 525,
-            "end": 564,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 536,
-              "end": 564,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 540,
-                  "end": 562,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 540,
-                    "end": 561,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 540,
-                      "end": 546,
-                      "name": "RegExp"
+                      "end": 546
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 547,
-                        "end": 555,
                         "value": "(?=.)*",
-                        "raw": "\"(?=.)*\""
+                        "raw": "\"(?=.)*\"",
+                        "start": 547,
+                        "end": 555
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 557,
-                        "end": 560,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 560
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 540,
+                    "end": 561
+                  },
+                  "start": 540,
+                  "end": 562
                 }
-              ]
+              ],
+              "start": 536,
+              "end": 564
             },
-            "expression": false
+            "expression": false,
+            "start": 525,
+            "end": 564
           },
           {
             "type": "Literal",
-            "start": 566,
-            "end": 591,
             "value": "RegExp(\"(?=.)*\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)*\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)*\", \"u\"): '",
+            "start": 566,
+            "end": 591
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 498,
+        "end": 592
+      },
+      "start": 498,
+      "end": 593
     },
     {
       "type": "ExpressionStatement",
-      "start": 594,
-      "end": 689,
       "expression": {
         "type": "CallExpression",
-        "start": 594,
-        "end": 688,
         "callee": {
           "type": "MemberExpression",
-          "start": 594,
-          "end": 607,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 594,
-            "end": 600,
-            "name": "assert"
+            "end": 600
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 601,
-            "end": 607,
-            "name": "throws"
+            "end": 607
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 594,
+          "end": 607
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 608,
-            "end": 619,
-            "name": "SyntaxError"
+            "end": 619
           },
           {
             "type": "FunctionExpression",
-            "start": 621,
-            "end": 660,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 632,
-              "end": 660,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 636,
-                  "end": 658,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 636,
-                    "end": 657,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 636,
-                      "end": 642,
-                      "name": "RegExp"
+                      "end": 642
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 643,
-                        "end": 651,
                         "value": "(?=.)+",
-                        "raw": "\"(?=.)+\""
+                        "raw": "\"(?=.)+\"",
+                        "start": 643,
+                        "end": 651
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 653,
-                        "end": 656,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 656
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 636,
+                    "end": 657
+                  },
+                  "start": 636,
+                  "end": 658
                 }
-              ]
+              ],
+              "start": 632,
+              "end": 660
             },
-            "expression": false
+            "expression": false,
+            "start": 621,
+            "end": 660
           },
           {
             "type": "Literal",
-            "start": 662,
-            "end": 687,
             "value": "RegExp(\"(?=.)+\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)+\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)+\", \"u\"): '",
+            "start": 662,
+            "end": 687
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 594,
+        "end": 688
+      },
+      "start": 594,
+      "end": 689
     },
     {
       "type": "ExpressionStatement",
-      "start": 690,
-      "end": 785,
       "expression": {
         "type": "CallExpression",
-        "start": 690,
-        "end": 784,
         "callee": {
           "type": "MemberExpression",
-          "start": 690,
-          "end": 703,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 690,
-            "end": 696,
-            "name": "assert"
+            "end": 696
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 697,
-            "end": 703,
-            "name": "throws"
+            "end": 703
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 690,
+          "end": 703
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 704,
-            "end": 715,
-            "name": "SyntaxError"
+            "end": 715
           },
           {
             "type": "FunctionExpression",
-            "start": 717,
-            "end": 756,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 728,
-              "end": 756,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 732,
-                  "end": 754,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 732,
-                    "end": 753,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 732,
-                      "end": 738,
-                      "name": "RegExp"
+                      "end": 738
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 739,
-                        "end": 747,
                         "value": "(?=.)?",
-                        "raw": "\"(?=.)?\""
+                        "raw": "\"(?=.)?\"",
+                        "start": 739,
+                        "end": 747
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 749,
-                        "end": 752,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 752
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 732,
+                    "end": 753
+                  },
+                  "start": 732,
+                  "end": 754
                 }
-              ]
+              ],
+              "start": 728,
+              "end": 756
             },
-            "expression": false
+            "expression": false,
+            "start": 717,
+            "end": 756
           },
           {
             "type": "Literal",
-            "start": 758,
-            "end": 783,
             "value": "RegExp(\"(?=.)?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)?\", \"u\"): '",
+            "start": 758,
+            "end": 783
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 690,
+        "end": 784
+      },
+      "start": 690,
+      "end": 785
     },
     {
       "type": "ExpressionStatement",
-      "start": 786,
-      "end": 885,
       "expression": {
         "type": "CallExpression",
-        "start": 786,
-        "end": 884,
         "callee": {
           "type": "MemberExpression",
-          "start": 786,
-          "end": 799,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 786,
-            "end": 792,
-            "name": "assert"
+            "end": 792
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 793,
-            "end": 799,
-            "name": "throws"
+            "end": 799
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 786,
+          "end": 799
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 800,
-            "end": 811,
-            "name": "SyntaxError"
+            "end": 811
           },
           {
             "type": "FunctionExpression",
-            "start": 813,
-            "end": 854,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 824,
-              "end": 854,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 828,
-                  "end": 852,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 828,
-                    "end": 851,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 828,
-                      "end": 834,
-                      "name": "RegExp"
+                      "end": 834
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 835,
-                        "end": 845,
                         "value": "(?=.){1}",
-                        "raw": "\"(?=.){1}\""
+                        "raw": "\"(?=.){1}\"",
+                        "start": 835,
+                        "end": 845
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 847,
-                        "end": 850,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 850
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 828,
+                    "end": 851
+                  },
+                  "start": 828,
+                  "end": 852
                 }
-              ]
+              ],
+              "start": 824,
+              "end": 854
             },
-            "expression": false
+            "expression": false,
+            "start": 813,
+            "end": 854
           },
           {
             "type": "Literal",
-            "start": 856,
-            "end": 883,
             "value": "RegExp(\"(?=.){1}\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1}\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1}\", \"u\"): '",
+            "start": 856,
+            "end": 883
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 786,
+        "end": 884
+      },
+      "start": 786,
+      "end": 885
     },
     {
       "type": "ExpressionStatement",
-      "start": 886,
-      "end": 987,
       "expression": {
         "type": "CallExpression",
-        "start": 886,
-        "end": 986,
         "callee": {
           "type": "MemberExpression",
-          "start": 886,
-          "end": 899,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 886,
-            "end": 892,
-            "name": "assert"
+            "end": 892
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 893,
-            "end": 899,
-            "name": "throws"
+            "end": 899
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 886,
+          "end": 899
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 900,
-            "end": 911,
-            "name": "SyntaxError"
+            "end": 911
           },
           {
             "type": "FunctionExpression",
-            "start": 913,
-            "end": 955,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 924,
-              "end": 955,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 928,
-                  "end": 953,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 928,
-                    "end": 952,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 928,
-                      "end": 934,
-                      "name": "RegExp"
+                      "end": 934
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 935,
-                        "end": 946,
                         "value": "(?=.){1,}",
-                        "raw": "\"(?=.){1,}\""
+                        "raw": "\"(?=.){1,}\"",
+                        "start": 935,
+                        "end": 946
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 948,
-                        "end": 951,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 951
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 928,
+                    "end": 952
+                  },
+                  "start": 928,
+                  "end": 953
                 }
-              ]
+              ],
+              "start": 924,
+              "end": 955
             },
-            "expression": false
+            "expression": false,
+            "start": 913,
+            "end": 955
           },
           {
             "type": "Literal",
-            "start": 957,
-            "end": 985,
             "value": "RegExp(\"(?=.){1,}\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1,}\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1,}\", \"u\"): '",
+            "start": 957,
+            "end": 985
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 886,
+        "end": 986
+      },
+      "start": 886,
+      "end": 987
     },
     {
       "type": "ExpressionStatement",
-      "start": 988,
-      "end": 1091,
       "expression": {
         "type": "CallExpression",
-        "start": 988,
-        "end": 1090,
         "callee": {
           "type": "MemberExpression",
-          "start": 988,
-          "end": 1001,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 988,
-            "end": 994,
-            "name": "assert"
+            "end": 994
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 995,
-            "end": 1001,
-            "name": "throws"
+            "end": 1001
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 988,
+          "end": 1001
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1002,
-            "end": 1013,
-            "name": "SyntaxError"
+            "end": 1013
           },
           {
             "type": "FunctionExpression",
-            "start": 1015,
-            "end": 1058,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1026,
-              "end": 1058,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1030,
-                  "end": 1056,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1030,
-                    "end": 1055,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1030,
-                      "end": 1036,
-                      "name": "RegExp"
+                      "end": 1036
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1037,
-                        "end": 1049,
                         "value": "(?=.){1,2}",
-                        "raw": "\"(?=.){1,2}\""
+                        "raw": "\"(?=.){1,2}\"",
+                        "start": 1037,
+                        "end": 1049
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1051,
-                        "end": 1054,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1054
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1030,
+                    "end": 1055
+                  },
+                  "start": 1030,
+                  "end": 1056
                 }
-              ]
+              ],
+              "start": 1026,
+              "end": 1058
             },
-            "expression": false
+            "expression": false,
+            "start": 1015,
+            "end": 1058
           },
           {
             "type": "Literal",
-            "start": 1060,
-            "end": 1089,
             "value": "RegExp(\"(?=.){1,2}\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1,2}\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1,2}\", \"u\"): '",
+            "start": 1060,
+            "end": 1089
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 988,
+        "end": 1090
+      },
+      "start": 988,
+      "end": 1091
     },
     {
       "type": "ExpressionStatement",
-      "start": 1143,
-      "end": 1240,
       "expression": {
         "type": "CallExpression",
-        "start": 1143,
-        "end": 1239,
         "callee": {
           "type": "MemberExpression",
-          "start": 1143,
-          "end": 1156,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1143,
-            "end": 1149,
-            "name": "assert"
+            "end": 1149
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1150,
-            "end": 1156,
-            "name": "throws"
+            "end": 1156
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1143,
+          "end": 1156
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1157,
-            "end": 1168,
-            "name": "SyntaxError"
+            "end": 1168
           },
           {
             "type": "FunctionExpression",
-            "start": 1170,
-            "end": 1210,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1181,
-              "end": 1210,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1185,
-                  "end": 1208,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1185,
-                    "end": 1207,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1185,
-                      "end": 1191,
-                      "name": "RegExp"
+                      "end": 1191
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1192,
-                        "end": 1201,
                         "value": "(?=.)*?",
-                        "raw": "\"(?=.)*?\""
+                        "raw": "\"(?=.)*?\"",
+                        "start": 1192,
+                        "end": 1201
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1203,
-                        "end": 1206,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1206
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1185,
+                    "end": 1207
+                  },
+                  "start": 1185,
+                  "end": 1208
                 }
-              ]
+              ],
+              "start": 1181,
+              "end": 1210
             },
-            "expression": false
+            "expression": false,
+            "start": 1170,
+            "end": 1210
           },
           {
             "type": "Literal",
-            "start": 1212,
-            "end": 1238,
             "value": "RegExp(\"(?=.)*?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)*?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)*?\", \"u\"): '",
+            "start": 1212,
+            "end": 1238
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1143,
+        "end": 1239
+      },
+      "start": 1143,
+      "end": 1240
     },
     {
       "type": "ExpressionStatement",
-      "start": 1241,
-      "end": 1338,
       "expression": {
         "type": "CallExpression",
-        "start": 1241,
-        "end": 1337,
         "callee": {
           "type": "MemberExpression",
-          "start": 1241,
-          "end": 1254,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1241,
-            "end": 1247,
-            "name": "assert"
+            "end": 1247
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1248,
-            "end": 1254,
-            "name": "throws"
+            "end": 1254
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1241,
+          "end": 1254
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1255,
-            "end": 1266,
-            "name": "SyntaxError"
+            "end": 1266
           },
           {
             "type": "FunctionExpression",
-            "start": 1268,
-            "end": 1308,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1279,
-              "end": 1308,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1283,
-                  "end": 1306,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1283,
-                    "end": 1305,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1283,
-                      "end": 1289,
-                      "name": "RegExp"
+                      "end": 1289
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1290,
-                        "end": 1299,
                         "value": "(?=.)+?",
-                        "raw": "\"(?=.)+?\""
+                        "raw": "\"(?=.)+?\"",
+                        "start": 1290,
+                        "end": 1299
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1301,
-                        "end": 1304,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1304
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1283,
+                    "end": 1305
+                  },
+                  "start": 1283,
+                  "end": 1306
                 }
-              ]
+              ],
+              "start": 1279,
+              "end": 1308
             },
-            "expression": false
+            "expression": false,
+            "start": 1268,
+            "end": 1308
           },
           {
             "type": "Literal",
-            "start": 1310,
-            "end": 1336,
             "value": "RegExp(\"(?=.)+?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)+?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)+?\", \"u\"): '",
+            "start": 1310,
+            "end": 1336
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1241,
+        "end": 1337
+      },
+      "start": 1241,
+      "end": 1338
     },
     {
       "type": "ExpressionStatement",
-      "start": 1339,
-      "end": 1436,
       "expression": {
         "type": "CallExpression",
-        "start": 1339,
-        "end": 1435,
         "callee": {
           "type": "MemberExpression",
-          "start": 1339,
-          "end": 1352,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1339,
-            "end": 1345,
-            "name": "assert"
+            "end": 1345
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1346,
-            "end": 1352,
-            "name": "throws"
+            "end": 1352
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1339,
+          "end": 1352
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1353,
-            "end": 1364,
-            "name": "SyntaxError"
+            "end": 1364
           },
           {
             "type": "FunctionExpression",
-            "start": 1366,
-            "end": 1406,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1377,
-              "end": 1406,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1381,
-                  "end": 1404,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1381,
-                    "end": 1403,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1381,
-                      "end": 1387,
-                      "name": "RegExp"
+                      "end": 1387
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1388,
-                        "end": 1397,
                         "value": "(?=.)??",
-                        "raw": "\"(?=.)??\""
+                        "raw": "\"(?=.)??\"",
+                        "start": 1388,
+                        "end": 1397
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1399,
-                        "end": 1402,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1402
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1381,
+                    "end": 1403
+                  },
+                  "start": 1381,
+                  "end": 1404
                 }
-              ]
+              ],
+              "start": 1377,
+              "end": 1406
             },
-            "expression": false
+            "expression": false,
+            "start": 1366,
+            "end": 1406
           },
           {
             "type": "Literal",
-            "start": 1408,
-            "end": 1434,
             "value": "RegExp(\"(?=.)??\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.)??\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.)??\", \"u\"): '",
+            "start": 1408,
+            "end": 1434
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1339,
+        "end": 1435
+      },
+      "start": 1339,
+      "end": 1436
     },
     {
       "type": "ExpressionStatement",
-      "start": 1437,
-      "end": 1538,
       "expression": {
         "type": "CallExpression",
-        "start": 1437,
-        "end": 1537,
         "callee": {
           "type": "MemberExpression",
-          "start": 1437,
-          "end": 1450,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1437,
-            "end": 1443,
-            "name": "assert"
+            "end": 1443
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1444,
-            "end": 1450,
-            "name": "throws"
+            "end": 1450
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1437,
+          "end": 1450
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1451,
-            "end": 1462,
-            "name": "SyntaxError"
+            "end": 1462
           },
           {
             "type": "FunctionExpression",
-            "start": 1464,
-            "end": 1506,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1475,
-              "end": 1506,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1479,
-                  "end": 1504,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1479,
-                    "end": 1503,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1479,
-                      "end": 1485,
-                      "name": "RegExp"
+                      "end": 1485
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1486,
-                        "end": 1497,
                         "value": "(?=.){1}?",
-                        "raw": "\"(?=.){1}?\""
+                        "raw": "\"(?=.){1}?\"",
+                        "start": 1486,
+                        "end": 1497
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1499,
-                        "end": 1502,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1502
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1479,
+                    "end": 1503
+                  },
+                  "start": 1479,
+                  "end": 1504
                 }
-              ]
+              ],
+              "start": 1475,
+              "end": 1506
             },
-            "expression": false
+            "expression": false,
+            "start": 1464,
+            "end": 1506
           },
           {
             "type": "Literal",
-            "start": 1508,
-            "end": 1536,
             "value": "RegExp(\"(?=.){1}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1}?\", \"u\"): '",
+            "start": 1508,
+            "end": 1536
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1437,
+        "end": 1537
+      },
+      "start": 1437,
+      "end": 1538
     },
     {
       "type": "ExpressionStatement",
-      "start": 1539,
-      "end": 1642,
       "expression": {
         "type": "CallExpression",
-        "start": 1539,
-        "end": 1641,
         "callee": {
           "type": "MemberExpression",
-          "start": 1539,
-          "end": 1552,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1539,
-            "end": 1545,
-            "name": "assert"
+            "end": 1545
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1546,
-            "end": 1552,
-            "name": "throws"
+            "end": 1552
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1539,
+          "end": 1552
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1553,
-            "end": 1564,
-            "name": "SyntaxError"
+            "end": 1564
           },
           {
             "type": "FunctionExpression",
-            "start": 1566,
-            "end": 1609,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1577,
-              "end": 1609,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1581,
-                  "end": 1607,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1581,
-                    "end": 1606,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1581,
-                      "end": 1587,
-                      "name": "RegExp"
+                      "end": 1587
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1588,
-                        "end": 1600,
                         "value": "(?=.){1,}?",
-                        "raw": "\"(?=.){1,}?\""
+                        "raw": "\"(?=.){1,}?\"",
+                        "start": 1588,
+                        "end": 1600
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1602,
-                        "end": 1605,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1605
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1581,
+                    "end": 1606
+                  },
+                  "start": 1581,
+                  "end": 1607
                 }
-              ]
+              ],
+              "start": 1577,
+              "end": 1609
             },
-            "expression": false
+            "expression": false,
+            "start": 1566,
+            "end": 1609
           },
           {
             "type": "Literal",
-            "start": 1611,
-            "end": 1640,
             "value": "RegExp(\"(?=.){1,}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1,}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1,}?\", \"u\"): '",
+            "start": 1611,
+            "end": 1640
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1539,
+        "end": 1641
+      },
+      "start": 1539,
+      "end": 1642
     },
     {
       "type": "ExpressionStatement",
-      "start": 1643,
-      "end": 1748,
       "expression": {
         "type": "CallExpression",
-        "start": 1643,
-        "end": 1747,
         "callee": {
           "type": "MemberExpression",
-          "start": 1643,
-          "end": 1656,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1643,
-            "end": 1649,
-            "name": "assert"
+            "end": 1649
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1650,
-            "end": 1656,
-            "name": "throws"
+            "end": 1656
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1643,
+          "end": 1656
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1657,
-            "end": 1668,
-            "name": "SyntaxError"
+            "end": 1668
           },
           {
             "type": "FunctionExpression",
-            "start": 1670,
-            "end": 1714,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1681,
-              "end": 1714,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1685,
-                  "end": 1712,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1685,
-                    "end": 1711,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1685,
-                      "end": 1691,
-                      "name": "RegExp"
+                      "end": 1691
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1692,
-                        "end": 1705,
                         "value": "(?=.){1,2}?",
-                        "raw": "\"(?=.){1,2}?\""
+                        "raw": "\"(?=.){1,2}?\"",
+                        "start": 1692,
+                        "end": 1705
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1707,
-                        "end": 1710,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1710
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1685,
+                    "end": 1711
+                  },
+                  "start": 1685,
+                  "end": 1712
                 }
-              ]
+              ],
+              "start": 1681,
+              "end": 1714
             },
-            "expression": false
+            "expression": false,
+            "start": 1670,
+            "end": 1714
           },
           {
             "type": "Literal",
-            "start": 1716,
-            "end": 1746,
             "value": "RegExp(\"(?=.){1,2}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?=.){1,2}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?=.){1,2}?\", \"u\"): '",
+            "start": 1716,
+            "end": 1746
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1643,
+        "end": 1747
+      },
+      "start": 1643,
+      "end": 1748
     },
     {
       "type": "ExpressionStatement",
-      "start": 1790,
-      "end": 1885,
       "expression": {
         "type": "CallExpression",
-        "start": 1790,
-        "end": 1884,
         "callee": {
           "type": "MemberExpression",
-          "start": 1790,
-          "end": 1803,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1790,
-            "end": 1796,
-            "name": "assert"
+            "end": 1796
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1797,
-            "end": 1803,
-            "name": "throws"
+            "end": 1803
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1790,
+          "end": 1803
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1804,
-            "end": 1815,
-            "name": "SyntaxError"
+            "end": 1815
           },
           {
             "type": "FunctionExpression",
-            "start": 1817,
-            "end": 1856,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1828,
-              "end": 1856,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1832,
-                  "end": 1854,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1832,
-                    "end": 1853,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1832,
-                      "end": 1838,
-                      "name": "RegExp"
+                      "end": 1838
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1839,
-                        "end": 1847,
                         "value": "(?!.)*",
-                        "raw": "\"(?!.)*\""
+                        "raw": "\"(?!.)*\"",
+                        "start": 1839,
+                        "end": 1847
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1849,
-                        "end": 1852,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1852
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1832,
+                    "end": 1853
+                  },
+                  "start": 1832,
+                  "end": 1854
                 }
-              ]
+              ],
+              "start": 1828,
+              "end": 1856
             },
-            "expression": false
+            "expression": false,
+            "start": 1817,
+            "end": 1856
           },
           {
             "type": "Literal",
-            "start": 1858,
-            "end": 1883,
             "value": "RegExp(\"(?!.)*\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)*\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)*\", \"u\"): '",
+            "start": 1858,
+            "end": 1883
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1790,
+        "end": 1884
+      },
+      "start": 1790,
+      "end": 1885
     },
     {
       "type": "ExpressionStatement",
-      "start": 1886,
-      "end": 1981,
       "expression": {
         "type": "CallExpression",
-        "start": 1886,
-        "end": 1980,
         "callee": {
           "type": "MemberExpression",
-          "start": 1886,
-          "end": 1899,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1886,
-            "end": 1892,
-            "name": "assert"
+            "end": 1892
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1893,
-            "end": 1899,
-            "name": "throws"
+            "end": 1899
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1886,
+          "end": 1899
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1900,
-            "end": 1911,
-            "name": "SyntaxError"
+            "end": 1911
           },
           {
             "type": "FunctionExpression",
-            "start": 1913,
-            "end": 1952,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1924,
-              "end": 1952,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1928,
-                  "end": 1950,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1928,
-                    "end": 1949,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 1928,
-                      "end": 1934,
-                      "name": "RegExp"
+                      "end": 1934
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 1935,
-                        "end": 1943,
                         "value": "(?!.)+",
-                        "raw": "\"(?!.)+\""
+                        "raw": "\"(?!.)+\"",
+                        "start": 1935,
+                        "end": 1943
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 1945,
-                        "end": 1948,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 1948
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1928,
+                    "end": 1949
+                  },
+                  "start": 1928,
+                  "end": 1950
                 }
-              ]
+              ],
+              "start": 1924,
+              "end": 1952
             },
-            "expression": false
+            "expression": false,
+            "start": 1913,
+            "end": 1952
           },
           {
             "type": "Literal",
-            "start": 1954,
-            "end": 1979,
             "value": "RegExp(\"(?!.)+\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)+\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)+\", \"u\"): '",
+            "start": 1954,
+            "end": 1979
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1886,
+        "end": 1980
+      },
+      "start": 1886,
+      "end": 1981
     },
     {
       "type": "ExpressionStatement",
-      "start": 1982,
-      "end": 2077,
       "expression": {
         "type": "CallExpression",
-        "start": 1982,
-        "end": 2076,
         "callee": {
           "type": "MemberExpression",
-          "start": 1982,
-          "end": 1995,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1982,
-            "end": 1988,
-            "name": "assert"
+            "end": 1988
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1989,
-            "end": 1995,
-            "name": "throws"
+            "end": 1995
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1982,
+          "end": 1995
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 1996,
-            "end": 2007,
-            "name": "SyntaxError"
+            "end": 2007
           },
           {
             "type": "FunctionExpression",
-            "start": 2009,
-            "end": 2048,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2020,
-              "end": 2048,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2024,
-                  "end": 2046,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2024,
-                    "end": 2045,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2024,
-                      "end": 2030,
-                      "name": "RegExp"
+                      "end": 2030
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2031,
-                        "end": 2039,
                         "value": "(?!.)?",
-                        "raw": "\"(?!.)?\""
+                        "raw": "\"(?!.)?\"",
+                        "start": 2031,
+                        "end": 2039
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 2041,
-                        "end": 2044,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 2044
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2024,
+                    "end": 2045
+                  },
+                  "start": 2024,
+                  "end": 2046
                 }
-              ]
+              ],
+              "start": 2020,
+              "end": 2048
             },
-            "expression": false
+            "expression": false,
+            "start": 2009,
+            "end": 2048
           },
           {
             "type": "Literal",
-            "start": 2050,
-            "end": 2075,
             "value": "RegExp(\"(?!.)?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)?\", \"u\"): '",
+            "start": 2050,
+            "end": 2075
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1982,
+        "end": 2076
+      },
+      "start": 1982,
+      "end": 2077
     },
     {
       "type": "ExpressionStatement",
-      "start": 2078,
-      "end": 2177,
       "expression": {
         "type": "CallExpression",
-        "start": 2078,
-        "end": 2176,
         "callee": {
           "type": "MemberExpression",
-          "start": 2078,
-          "end": 2091,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2078,
-            "end": 2084,
-            "name": "assert"
+            "end": 2084
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2085,
-            "end": 2091,
-            "name": "throws"
+            "end": 2091
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2078,
+          "end": 2091
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2092,
-            "end": 2103,
-            "name": "SyntaxError"
+            "end": 2103
           },
           {
             "type": "FunctionExpression",
-            "start": 2105,
-            "end": 2146,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2116,
-              "end": 2146,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2120,
-                  "end": 2144,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2120,
-                    "end": 2143,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2120,
-                      "end": 2126,
-                      "name": "RegExp"
+                      "end": 2126
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2127,
-                        "end": 2137,
                         "value": "(?!.){1}",
-                        "raw": "\"(?!.){1}\""
+                        "raw": "\"(?!.){1}\"",
+                        "start": 2127,
+                        "end": 2137
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 2139,
-                        "end": 2142,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 2142
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2120,
+                    "end": 2143
+                  },
+                  "start": 2120,
+                  "end": 2144
                 }
-              ]
+              ],
+              "start": 2116,
+              "end": 2146
             },
-            "expression": false
+            "expression": false,
+            "start": 2105,
+            "end": 2146
           },
           {
             "type": "Literal",
-            "start": 2148,
-            "end": 2175,
             "value": "RegExp(\"(?!.){1}\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1}\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1}\", \"u\"): '",
+            "start": 2148,
+            "end": 2175
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2078,
+        "end": 2176
+      },
+      "start": 2078,
+      "end": 2177
     },
     {
       "type": "ExpressionStatement",
-      "start": 2178,
-      "end": 2279,
       "expression": {
         "type": "CallExpression",
-        "start": 2178,
-        "end": 2278,
         "callee": {
           "type": "MemberExpression",
-          "start": 2178,
-          "end": 2191,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2178,
-            "end": 2184,
-            "name": "assert"
+            "end": 2184
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2185,
-            "end": 2191,
-            "name": "throws"
+            "end": 2191
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2178,
+          "end": 2191
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2192,
-            "end": 2203,
-            "name": "SyntaxError"
+            "end": 2203
           },
           {
             "type": "FunctionExpression",
-            "start": 2205,
-            "end": 2247,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2216,
-              "end": 2247,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2220,
-                  "end": 2245,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2220,
-                    "end": 2244,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2220,
-                      "end": 2226,
-                      "name": "RegExp"
+                      "end": 2226
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2227,
-                        "end": 2238,
                         "value": "(?!.){1,}",
-                        "raw": "\"(?!.){1,}\""
+                        "raw": "\"(?!.){1,}\"",
+                        "start": 2227,
+                        "end": 2238
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 2240,
-                        "end": 2243,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 2243
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2220,
+                    "end": 2244
+                  },
+                  "start": 2220,
+                  "end": 2245
                 }
-              ]
+              ],
+              "start": 2216,
+              "end": 2247
             },
-            "expression": false
+            "expression": false,
+            "start": 2205,
+            "end": 2247
           },
           {
             "type": "Literal",
-            "start": 2249,
-            "end": 2277,
             "value": "RegExp(\"(?!.){1,}\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1,}\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1,}\", \"u\"): '",
+            "start": 2249,
+            "end": 2277
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2178,
+        "end": 2278
+      },
+      "start": 2178,
+      "end": 2279
     },
     {
       "type": "ExpressionStatement",
-      "start": 2280,
-      "end": 2383,
       "expression": {
         "type": "CallExpression",
-        "start": 2280,
-        "end": 2382,
         "callee": {
           "type": "MemberExpression",
-          "start": 2280,
-          "end": 2293,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2280,
-            "end": 2286,
-            "name": "assert"
+            "end": 2286
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2287,
-            "end": 2293,
-            "name": "throws"
+            "end": 2293
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2280,
+          "end": 2293
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2294,
-            "end": 2305,
-            "name": "SyntaxError"
+            "end": 2305
           },
           {
             "type": "FunctionExpression",
-            "start": 2307,
-            "end": 2350,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2318,
-              "end": 2350,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2322,
-                  "end": 2348,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2322,
-                    "end": 2347,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2322,
-                      "end": 2328,
-                      "name": "RegExp"
+                      "end": 2328
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2329,
-                        "end": 2341,
                         "value": "(?!.){1,2}",
-                        "raw": "\"(?!.){1,2}\""
+                        "raw": "\"(?!.){1,2}\"",
+                        "start": 2329,
+                        "end": 2341
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 2343,
-                        "end": 2346,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 2346
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2322,
+                    "end": 2347
+                  },
+                  "start": 2322,
+                  "end": 2348
                 }
-              ]
+              ],
+              "start": 2318,
+              "end": 2350
             },
-            "expression": false
+            "expression": false,
+            "start": 2307,
+            "end": 2350
           },
           {
             "type": "Literal",
-            "start": 2352,
-            "end": 2381,
             "value": "RegExp(\"(?!.){1,2}\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1,2}\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1,2}\", \"u\"): '",
+            "start": 2352,
+            "end": 2381
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2280,
+        "end": 2382
+      },
+      "start": 2280,
+      "end": 2383
     },
     {
       "type": "ExpressionStatement",
-      "start": 2435,
-      "end": 2532,
       "expression": {
         "type": "CallExpression",
-        "start": 2435,
-        "end": 2531,
         "callee": {
           "type": "MemberExpression",
-          "start": 2435,
-          "end": 2448,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2435,
-            "end": 2441,
-            "name": "assert"
+            "end": 2441
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2442,
-            "end": 2448,
-            "name": "throws"
+            "end": 2448
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2435,
+          "end": 2448
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2449,
-            "end": 2460,
-            "name": "SyntaxError"
+            "end": 2460
           },
           {
             "type": "FunctionExpression",
-            "start": 2462,
-            "end": 2502,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2473,
-              "end": 2502,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2477,
-                  "end": 2500,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2477,
-                    "end": 2499,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2477,
-                      "end": 2483,
-                      "name": "RegExp"
+                      "end": 2483
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2484,
-                        "end": 2493,
                         "value": "(?!.)*?",
-                        "raw": "\"(?!.)*?\""
+                        "raw": "\"(?!.)*?\"",
+                        "start": 2484,
+                        "end": 2493
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 2495,
-                        "end": 2498,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 2498
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2477,
+                    "end": 2499
+                  },
+                  "start": 2477,
+                  "end": 2500
                 }
-              ]
+              ],
+              "start": 2473,
+              "end": 2502
             },
-            "expression": false
+            "expression": false,
+            "start": 2462,
+            "end": 2502
           },
           {
             "type": "Literal",
-            "start": 2504,
-            "end": 2530,
             "value": "RegExp(\"(?!.)*?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)*?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)*?\", \"u\"): '",
+            "start": 2504,
+            "end": 2530
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2435,
+        "end": 2531
+      },
+      "start": 2435,
+      "end": 2532
     },
     {
       "type": "ExpressionStatement",
-      "start": 2533,
-      "end": 2630,
       "expression": {
         "type": "CallExpression",
-        "start": 2533,
-        "end": 2629,
         "callee": {
           "type": "MemberExpression",
-          "start": 2533,
-          "end": 2546,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2533,
-            "end": 2539,
-            "name": "assert"
+            "end": 2539
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2540,
-            "end": 2546,
-            "name": "throws"
+            "end": 2546
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2533,
+          "end": 2546
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2547,
-            "end": 2558,
-            "name": "SyntaxError"
+            "end": 2558
           },
           {
             "type": "FunctionExpression",
-            "start": 2560,
-            "end": 2600,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2571,
-              "end": 2600,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2575,
-                  "end": 2598,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2575,
-                    "end": 2597,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2575,
-                      "end": 2581,
-                      "name": "RegExp"
+                      "end": 2581
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2582,
-                        "end": 2591,
                         "value": "(?!.)+?",
-                        "raw": "\"(?!.)+?\""
+                        "raw": "\"(?!.)+?\"",
+                        "start": 2582,
+                        "end": 2591
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 2593,
-                        "end": 2596,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 2596
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2575,
+                    "end": 2597
+                  },
+                  "start": 2575,
+                  "end": 2598
                 }
-              ]
+              ],
+              "start": 2571,
+              "end": 2600
             },
-            "expression": false
+            "expression": false,
+            "start": 2560,
+            "end": 2600
           },
           {
             "type": "Literal",
-            "start": 2602,
-            "end": 2628,
             "value": "RegExp(\"(?!.)+?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)+?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)+?\", \"u\"): '",
+            "start": 2602,
+            "end": 2628
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2533,
+        "end": 2629
+      },
+      "start": 2533,
+      "end": 2630
     },
     {
       "type": "ExpressionStatement",
-      "start": 2631,
-      "end": 2728,
       "expression": {
         "type": "CallExpression",
-        "start": 2631,
-        "end": 2727,
         "callee": {
           "type": "MemberExpression",
-          "start": 2631,
-          "end": 2644,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2631,
-            "end": 2637,
-            "name": "assert"
+            "end": 2637
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2638,
-            "end": 2644,
-            "name": "throws"
+            "end": 2644
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2631,
+          "end": 2644
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2645,
-            "end": 2656,
-            "name": "SyntaxError"
+            "end": 2656
           },
           {
             "type": "FunctionExpression",
-            "start": 2658,
-            "end": 2698,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2669,
-              "end": 2698,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2673,
-                  "end": 2696,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2673,
-                    "end": 2695,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2673,
-                      "end": 2679,
-                      "name": "RegExp"
+                      "end": 2679
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2680,
-                        "end": 2689,
                         "value": "(?!.)??",
-                        "raw": "\"(?!.)??\""
+                        "raw": "\"(?!.)??\"",
+                        "start": 2680,
+                        "end": 2689
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 2691,
-                        "end": 2694,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 2694
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2673,
+                    "end": 2695
+                  },
+                  "start": 2673,
+                  "end": 2696
                 }
-              ]
+              ],
+              "start": 2669,
+              "end": 2698
             },
-            "expression": false
+            "expression": false,
+            "start": 2658,
+            "end": 2698
           },
           {
             "type": "Literal",
-            "start": 2700,
-            "end": 2726,
             "value": "RegExp(\"(?!.)??\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.)??\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.)??\", \"u\"): '",
+            "start": 2700,
+            "end": 2726
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2631,
+        "end": 2727
+      },
+      "start": 2631,
+      "end": 2728
     },
     {
       "type": "ExpressionStatement",
-      "start": 2729,
-      "end": 2830,
       "expression": {
         "type": "CallExpression",
-        "start": 2729,
-        "end": 2829,
         "callee": {
           "type": "MemberExpression",
-          "start": 2729,
-          "end": 2742,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2729,
-            "end": 2735,
-            "name": "assert"
+            "end": 2735
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2736,
-            "end": 2742,
-            "name": "throws"
+            "end": 2742
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2729,
+          "end": 2742
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2743,
-            "end": 2754,
-            "name": "SyntaxError"
+            "end": 2754
           },
           {
             "type": "FunctionExpression",
-            "start": 2756,
-            "end": 2798,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2767,
-              "end": 2798,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2771,
-                  "end": 2796,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2771,
-                    "end": 2795,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2771,
-                      "end": 2777,
-                      "name": "RegExp"
+                      "end": 2777
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2778,
-                        "end": 2789,
                         "value": "(?!.){1}?",
-                        "raw": "\"(?!.){1}?\""
+                        "raw": "\"(?!.){1}?\"",
+                        "start": 2778,
+                        "end": 2789
                       },
                       {
                         "type": "Literal",
+                        "value": "u",
+                        "raw": "\"u\"",
                         "start": 2791,
-                        "end": 2794,
-                        "value": "u",
-                        "raw": "\"u\""
+                        "end": 2794
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2771,
+                    "end": 2795
+                  },
+                  "start": 2771,
+                  "end": 2796
                 }
-              ]
+              ],
+              "start": 2767,
+              "end": 2798
             },
-            "expression": false
+            "expression": false,
+            "start": 2756,
+            "end": 2798
           },
           {
             "type": "Literal",
-            "start": 2800,
-            "end": 2828,
             "value": "RegExp(\"(?!.){1}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1}?\", \"u\"): '",
+            "start": 2800,
+            "end": 2828
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2729,
+        "end": 2829
+      },
+      "start": 2729,
+      "end": 2830
     },
     {
       "type": "ExpressionStatement",
-      "start": 2831,
-      "end": 2934,
       "expression": {
         "type": "CallExpression",
-        "start": 2831,
-        "end": 2933,
         "callee": {
           "type": "MemberExpression",
-          "start": 2831,
-          "end": 2844,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2831,
-            "end": 2837,
-            "name": "assert"
+            "end": 2837
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2838,
-            "end": 2844,
-            "name": "throws"
+            "end": 2844
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2831,
+          "end": 2844
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2845,
-            "end": 2856,
-            "name": "SyntaxError"
+            "end": 2856
           },
           {
             "type": "FunctionExpression",
-            "start": 2858,
-            "end": 2901,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2869,
-              "end": 2901,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2873,
-                  "end": 2899,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2873,
-                    "end": 2898,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2873,
-                      "end": 2879,
-                      "name": "RegExp"
+                      "end": 2879
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2880,
-                        "end": 2892,
                         "value": "(?!.){1,}?",
-                        "raw": "\"(?!.){1,}?\""
+                        "raw": "\"(?!.){1,}?\"",
+                        "start": 2880,
+                        "end": 2892
                       },
                       {
                         "type": "Literal",
-                        "start": 2894,
-                        "end": 2897,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "start": 2894,
+                        "end": 2897
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2873,
+                    "end": 2898
+                  },
+                  "start": 2873,
+                  "end": 2899
                 }
-              ]
+              ],
+              "start": 2869,
+              "end": 2901
             },
-            "expression": false
+            "expression": false,
+            "start": 2858,
+            "end": 2901
           },
           {
             "type": "Literal",
-            "start": 2903,
-            "end": 2932,
             "value": "RegExp(\"(?!.){1,}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1,}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1,}?\", \"u\"): '",
+            "start": 2903,
+            "end": 2932
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2831,
+        "end": 2933
+      },
+      "start": 2831,
+      "end": 2934
     },
     {
       "type": "ExpressionStatement",
-      "start": 2935,
-      "end": 3040,
       "expression": {
         "type": "CallExpression",
-        "start": 2935,
-        "end": 3039,
         "callee": {
           "type": "MemberExpression",
-          "start": 2935,
-          "end": 2948,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 2935,
-            "end": 2941,
-            "name": "assert"
+            "end": 2941
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 2942,
-            "end": 2948,
-            "name": "throws"
+            "end": 2948
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 2935,
+          "end": 2948
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 2949,
-            "end": 2960,
-            "name": "SyntaxError"
+            "end": 2960
           },
           {
             "type": "FunctionExpression",
-            "start": 2962,
-            "end": 3006,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 2973,
-              "end": 3006,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2977,
-                  "end": 3004,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2977,
-                    "end": 3003,
                     "callee": {
                       "type": "Identifier",
+                      "name": "RegExp",
                       "start": 2977,
-                      "end": 2983,
-                      "name": "RegExp"
+                      "end": 2983
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 2984,
-                        "end": 2997,
                         "value": "(?!.){1,2}?",
-                        "raw": "\"(?!.){1,2}?\""
+                        "raw": "\"(?!.){1,2}?\"",
+                        "start": 2984,
+                        "end": 2997
                       },
                       {
                         "type": "Literal",
-                        "start": 2999,
-                        "end": 3002,
                         "value": "u",
-                        "raw": "\"u\""
+                        "raw": "\"u\"",
+                        "start": 2999,
+                        "end": 3002
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2977,
+                    "end": 3003
+                  },
+                  "start": 2977,
+                  "end": 3004
                 }
-              ]
+              ],
+              "start": 2973,
+              "end": 3006
             },
-            "expression": false
+            "expression": false,
+            "start": 2962,
+            "end": 3006
           },
           {
             "type": "Literal",
-            "start": 3008,
-            "end": 3038,
             "value": "RegExp(\"(?!.){1,2}?\", \"u\"): ",
-            "raw": "'RegExp(\"(?!.){1,2}?\", \"u\"): '"
+            "raw": "'RegExp(\"(?!.){1,2}?\", \"u\"): '",
+            "start": 3008,
+            "end": 3038
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2935,
+        "end": 3039
+      },
+      "start": 2935,
+      "end": 3040
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 3041
 }

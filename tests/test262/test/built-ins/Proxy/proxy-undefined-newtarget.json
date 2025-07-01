@@ -1,95 +1,95 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 456,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 397,
-      "end": 455,
       "expression": {
         "type": "CallExpression",
-        "start": 397,
-        "end": 454,
         "callee": {
           "type": "MemberExpression",
-          "start": 397,
-          "end": 410,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 397,
-            "end": 403,
-            "name": "assert"
+            "end": 403
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 404,
-            "end": 410,
-            "name": "throws"
+            "end": 410
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 397,
+          "end": 410
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 411,
-            "end": 420,
-            "name": "TypeError"
+            "end": 420
           },
           {
             "type": "FunctionExpression",
-            "start": 422,
-            "end": 453,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 433,
-              "end": 453,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 437,
-                  "end": 451,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 437,
-                    "end": 450,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Proxy",
                       "start": 437,
-                      "end": 442,
-                      "name": "Proxy"
+                      "end": 442
                     },
                     "arguments": [
                       {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 443,
-                        "end": 445,
-                        "properties": []
+                        "end": 445
                       },
                       {
                         "type": "ObjectExpression",
+                        "properties": [],
                         "start": 447,
-                        "end": 449,
-                        "properties": []
+                        "end": 449
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 437,
+                    "end": 450
+                  },
+                  "start": 437,
+                  "end": 451
                 }
-              ]
+              ],
+              "start": 433,
+              "end": 453
             },
-            "expression": false
+            "expression": false,
+            "start": 422,
+            "end": 453
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 397,
+        "end": 454
+      },
+      "start": 397,
+      "end": 455
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 456
 }

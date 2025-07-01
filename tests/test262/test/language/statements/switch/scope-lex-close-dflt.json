@@ -1,546 +1,546 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1437,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 795,
-      "end": 813,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 799,
-          "end": 812,
           "id": {
             "type": "Identifier",
+            "name": "x",
             "start": 799,
-            "end": 800,
-            "name": "x"
+            "end": 800
           },
           "init": {
             "type": "Literal",
-            "start": 803,
-            "end": 812,
             "value": "outside",
-            "raw": "'outside'"
-          }
+            "raw": "'outside'",
+            "start": 803,
+            "end": 812
+          },
+          "start": 799,
+          "end": 812
         }
-      ]
+      ],
+      "start": 795,
+      "end": 813
     },
     {
       "type": "VariableDeclaration",
-      "start": 814,
-      "end": 866,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 818,
-          "end": 830,
           "id": {
             "type": "Identifier",
+            "name": "probeDefault",
             "start": 818,
-            "end": 830,
-            "name": "probeDefault"
+            "end": 830
           },
-          "init": null
+          "init": null,
+          "start": 818,
+          "end": 830
         },
         {
           "type": "VariableDeclarator",
-          "start": 832,
-          "end": 854,
           "id": {
             "type": "Identifier",
+            "name": "probeDefaultBeforeCase",
             "start": 832,
-            "end": 854,
-            "name": "probeDefaultBeforeCase"
+            "end": 854
           },
-          "init": null
+          "init": null,
+          "start": 832,
+          "end": 854
         },
         {
           "type": "VariableDeclarator",
-          "start": 856,
-          "end": 865,
           "id": {
             "type": "Identifier",
+            "name": "probeCase",
             "start": 856,
-            "end": 865,
-            "name": "probeCase"
+            "end": 865
           },
-          "init": null
+          "init": null,
+          "start": 856,
+          "end": 865
         }
-      ]
+      ],
+      "start": 814,
+      "end": 866
     },
     {
       "type": "SwitchStatement",
-      "start": 868,
-      "end": 963,
       "discriminant": {
         "type": "Literal",
-        "start": 876,
-        "end": 880,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "start": 876,
+        "end": 880
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 886,
-          "end": 961,
           "test": null,
           "consequent": [
             {
               "type": "VariableDeclaration",
-              "start": 899,
-              "end": 916,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 903,
-                  "end": 915,
                   "id": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 903,
-                    "end": 904,
-                    "name": "x"
+                    "end": 904
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 907,
-                    "end": 915,
                     "value": "inside",
-                    "raw": "'inside'"
-                  }
+                    "raw": "'inside'",
+                    "start": 907,
+                    "end": 915
+                  },
+                  "start": 903,
+                  "end": 915
                 }
-              ]
+              ],
+              "start": 899,
+              "end": 916
             },
             {
               "type": "ExpressionStatement",
-              "start": 921,
-              "end": 961,
               "expression": {
                 "type": "AssignmentExpression",
-                "start": 921,
-                "end": 960,
                 "operator": "=",
                 "left": {
                   "type": "Identifier",
+                  "name": "probeDefault",
                   "start": 921,
-                  "end": 933,
-                  "name": "probeDefault"
+                  "end": 933
                 },
                 "right": {
                   "type": "FunctionExpression",
-                  "start": 936,
-                  "end": 960,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 947,
-                    "end": 960,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 949,
-                        "end": 958,
                         "argument": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 956,
-                          "end": 957,
-                          "name": "x"
-                        }
+                          "end": 957
+                        },
+                        "start": 949,
+                        "end": 958
                       }
-                    ]
+                    ],
+                    "start": 947,
+                    "end": 960
                   },
-                  "expression": false
-                }
-              }
+                  "expression": false,
+                  "start": 936,
+                  "end": 960
+                },
+                "start": 921,
+                "end": 960
+              },
+              "start": 921,
+              "end": 961
             }
-          ]
+          ],
+          "start": 886,
+          "end": 961
         }
-      ]
+      ],
+      "start": 868,
+      "end": 963
     },
     {
       "type": "ExpressionStatement",
-      "start": 965,
-      "end": 1039,
       "expression": {
         "type": "CallExpression",
-        "start": 965,
-        "end": 1038,
         "callee": {
           "type": "MemberExpression",
-          "start": 965,
-          "end": 981,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 965,
-            "end": 971,
-            "name": "assert"
+            "end": 971
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 972,
-            "end": 981,
-            "name": "sameValue"
+            "end": 981
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 965,
+          "end": 981
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 982,
-            "end": 996,
             "callee": {
               "type": "Identifier",
+              "name": "probeDefault",
               "start": 982,
-              "end": 994,
-              "name": "probeDefault"
+              "end": 994
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 982,
+            "end": 996
           },
           {
             "type": "Literal",
-            "start": 998,
-            "end": 1006,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "start": 998,
+            "end": 1006
           },
           {
             "type": "Literal",
-            "start": 1008,
-            "end": 1037,
             "value": "from lone `default` clause`",
-            "raw": "'from lone `default` clause`'"
+            "raw": "'from lone `default` clause`'",
+            "start": 1008,
+            "end": 1037
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 965,
+        "end": 1038
+      },
+      "start": 965,
+      "end": 1039
     },
     {
       "type": "ExpressionStatement",
-      "start": 1040,
-      "end": 1071,
       "expression": {
         "type": "CallExpression",
-        "start": 1040,
-        "end": 1070,
         "callee": {
           "type": "MemberExpression",
-          "start": 1040,
-          "end": 1056,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1040,
-            "end": 1046,
-            "name": "assert"
+            "end": 1046
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1047,
-            "end": 1056,
-            "name": "sameValue"
+            "end": 1056
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1040,
+          "end": 1056
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "x",
             "start": 1057,
-            "end": 1058,
-            "name": "x"
+            "end": 1058
           },
           {
             "type": "Literal",
-            "start": 1060,
-            "end": 1069,
             "value": "outside",
-            "raw": "'outside'"
+            "raw": "'outside'",
+            "start": 1060,
+            "end": 1069
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1040,
+        "end": 1070
+      },
+      "start": 1040,
+      "end": 1071
     },
     {
       "type": "SwitchStatement",
-      "start": 1073,
-      "end": 1230,
       "discriminant": {
         "type": "Literal",
-        "start": 1081,
-        "end": 1085,
         "value": null,
-        "raw": "null"
+        "raw": "null",
+        "start": 1081,
+        "end": 1085
       },
       "cases": [
         {
           "type": "SwitchCase",
-          "start": 1091,
-          "end": 1176,
           "test": null,
           "consequent": [
             {
               "type": "VariableDeclaration",
-              "start": 1104,
-              "end": 1121,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1108,
-                  "end": 1120,
                   "id": {
                     "type": "Identifier",
+                    "name": "x",
                     "start": 1108,
-                    "end": 1109,
-                    "name": "x"
+                    "end": 1109
                   },
                   "init": {
                     "type": "Literal",
-                    "start": 1112,
-                    "end": 1120,
                     "value": "inside",
-                    "raw": "'inside'"
-                  }
+                    "raw": "'inside'",
+                    "start": 1112,
+                    "end": 1120
+                  },
+                  "start": 1108,
+                  "end": 1120
                 }
-              ]
+              ],
+              "start": 1104,
+              "end": 1121
             },
             {
               "type": "ExpressionStatement",
-              "start": 1126,
-              "end": 1176,
               "expression": {
                 "type": "AssignmentExpression",
-                "start": 1126,
-                "end": 1175,
                 "operator": "=",
                 "left": {
                   "type": "Identifier",
+                  "name": "probeDefaultBeforeCase",
                   "start": 1126,
-                  "end": 1148,
-                  "name": "probeDefaultBeforeCase"
+                  "end": 1148
                 },
                 "right": {
                   "type": "FunctionExpression",
-                  "start": 1151,
-                  "end": 1175,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1162,
-                    "end": 1175,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 1164,
-                        "end": 1173,
                         "argument": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 1171,
-                          "end": 1172,
-                          "name": "x"
-                        }
+                          "end": 1172
+                        },
+                        "start": 1164,
+                        "end": 1173
                       }
-                    ]
+                    ],
+                    "start": 1162,
+                    "end": 1175
                   },
-                  "expression": false
-                }
-              }
+                  "expression": false,
+                  "start": 1151,
+                  "end": 1175
+                },
+                "start": 1126,
+                "end": 1175
+              },
+              "start": 1126,
+              "end": 1176
             }
-          ]
+          ],
+          "start": 1091,
+          "end": 1176
         },
         {
           "type": "SwitchCase",
-          "start": 1179,
-          "end": 1228,
           "test": {
             "type": "Literal",
-            "start": 1184,
-            "end": 1185,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 1184,
+            "end": 1185
           },
           "consequent": [
             {
               "type": "ExpressionStatement",
-              "start": 1191,
-              "end": 1228,
               "expression": {
                 "type": "AssignmentExpression",
-                "start": 1191,
-                "end": 1227,
                 "operator": "=",
                 "left": {
                   "type": "Identifier",
+                  "name": "probeCase",
                   "start": 1191,
-                  "end": 1200,
-                  "name": "probeCase"
+                  "end": 1200
                 },
                 "right": {
                   "type": "FunctionExpression",
-                  "start": 1203,
-                  "end": 1227,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 1214,
-                    "end": 1227,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 1216,
-                        "end": 1225,
                         "argument": {
                           "type": "Identifier",
+                          "name": "x",
                           "start": 1223,
-                          "end": 1224,
-                          "name": "x"
-                        }
+                          "end": 1224
+                        },
+                        "start": 1216,
+                        "end": 1225
                       }
-                    ]
+                    ],
+                    "start": 1214,
+                    "end": 1227
                   },
-                  "expression": false
-                }
-              }
+                  "expression": false,
+                  "start": 1203,
+                  "end": 1227
+                },
+                "start": 1191,
+                "end": 1227
+              },
+              "start": 1191,
+              "end": 1228
             }
-          ]
+          ],
+          "start": 1179,
+          "end": 1228
         }
-      ]
+      ],
+      "start": 1073,
+      "end": 1230
     },
     {
       "type": "ExpressionStatement",
-      "start": 1232,
-      "end": 1342,
       "expression": {
         "type": "CallExpression",
-        "start": 1232,
-        "end": 1341,
         "callee": {
           "type": "MemberExpression",
-          "start": 1232,
-          "end": 1248,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1232,
-            "end": 1238,
-            "name": "assert"
+            "end": 1238
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1239,
-            "end": 1248,
-            "name": "sameValue"
+            "end": 1248
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1232,
+          "end": 1248
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1252,
-            "end": 1276,
             "callee": {
               "type": "Identifier",
+              "name": "probeDefaultBeforeCase",
               "start": 1252,
-              "end": 1274,
-              "name": "probeDefaultBeforeCase"
+              "end": 1274
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1252,
+            "end": 1276
           },
           {
             "type": "Literal",
-            "start": 1280,
-            "end": 1288,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "start": 1280,
+            "end": 1288
           },
           {
             "type": "Literal",
-            "start": 1292,
-            "end": 1339,
             "value": "from `default` clause preceding `case` clause",
-            "raw": "'from `default` clause preceding `case` clause'"
+            "raw": "'from `default` clause preceding `case` clause'",
+            "start": 1292,
+            "end": 1339
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1232,
+        "end": 1341
+      },
+      "start": 1232,
+      "end": 1342
     },
     {
       "type": "ExpressionStatement",
-      "start": 1343,
-      "end": 1436,
       "expression": {
         "type": "CallExpression",
-        "start": 1343,
-        "end": 1435,
         "callee": {
           "type": "MemberExpression",
-          "start": 1343,
-          "end": 1359,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1343,
-            "end": 1349,
-            "name": "assert"
+            "end": 1349
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1350,
-            "end": 1359,
-            "name": "sameValue"
+            "end": 1359
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1343,
+          "end": 1359
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1363,
-            "end": 1374,
             "callee": {
               "type": "Identifier",
+              "name": "probeCase",
               "start": 1363,
-              "end": 1372,
-              "name": "probeCase"
+              "end": 1372
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1363,
+            "end": 1374
           },
           {
             "type": "Literal",
-            "start": 1376,
-            "end": 1384,
             "value": "inside",
-            "raw": "'inside'"
+            "raw": "'inside'",
+            "start": 1376,
+            "end": 1384
           },
           {
             "type": "Literal",
-            "start": 1386,
-            "end": 1433,
             "value": "from `case` clause following `default` clause",
-            "raw": "'from `case` clause following `default` clause'"
+            "raw": "'from `case` clause following `default` clause'",
+            "start": 1386,
+            "end": 1433
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1343,
+        "end": 1435
+      },
+      "start": 1343,
+      "end": 1436
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1437
 }

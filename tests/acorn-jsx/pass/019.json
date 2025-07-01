@@ -1,134 +1,134 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 61,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 61,
       "expression": {
         "type": "JSXElement",
-        "start": 0,
-        "end": 61,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 0,
-          "end": 61,
           "name": {
             "type": "JSXIdentifier",
+            "name": "LeftRight",
             "start": 1,
-            "end": 10,
-            "name": "LeftRight"
+            "end": 10
           },
           "attributes": [
             {
               "type": "JSXAttribute",
-              "start": 11,
-              "end": 21,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "left",
                 "start": 11,
-                "end": 15,
-                "name": "left"
+                "end": 15
               },
               "value": {
                 "type": "JSXElement",
-                "start": 16,
-                "end": 21,
                 "openingElement": {
                   "type": "JSXOpeningElement",
-                  "start": 16,
-                  "end": 21,
                   "name": {
                     "type": "JSXIdentifier",
+                    "name": "a",
                     "start": 17,
-                    "end": 18,
-                    "name": "a"
+                    "end": 18
                   },
                   "attributes": [],
-                  "selfClosing": true
+                  "selfClosing": true,
+                  "start": 16,
+                  "end": 21
                 },
                 "children": [],
-                "closingElement": null
-              }
+                "closingElement": null,
+                "start": 16,
+                "end": 21
+              },
+              "start": 11,
+              "end": 21
             },
             {
               "type": "JSXAttribute",
-              "start": 22,
-              "end": 58,
               "name": {
                 "type": "JSXIdentifier",
+                "name": "right",
                 "start": 22,
-                "end": 27,
-                "name": "right"
+                "end": 27
               },
               "value": {
                 "type": "JSXElement",
-                "start": 28,
-                "end": 58,
                 "openingElement": {
                   "type": "JSXOpeningElement",
-                  "start": 28,
-                  "end": 31,
                   "name": {
                     "type": "JSXIdentifier",
+                    "name": "b",
                     "start": 29,
-                    "end": 30,
-                    "name": "b"
+                    "end": 30
                   },
                   "attributes": [],
-                  "selfClosing": false
+                  "selfClosing": false,
+                  "start": 28,
+                  "end": 31
                 },
                 "children": [
                   {
                     "type": "JSXText",
-                    "start": 31,
-                    "end": 40,
                     "value": "monkeys /",
-                    "raw": "monkeys /"
+                    "raw": "monkeys /",
+                    "start": 31,
+                    "end": 40
                   },
                   {
                     "type": "JSXExpressionContainer",
-                    "start": 40,
-                    "end": 45,
                     "expression": {
                       "type": "Literal",
-                      "start": 41,
-                      "end": 44,
                       "value": ">",
-                      "raw": "\">\""
-                    }
+                      "raw": "\">\"",
+                      "start": 41,
+                      "end": 44
+                    },
+                    "start": 40,
+                    "end": 45
                   },
                   {
                     "type": "JSXText",
-                    "start": 45,
-                    "end": 54,
                     "value": " gorillas",
-                    "raw": " gorillas"
+                    "raw": " gorillas",
+                    "start": 45,
+                    "end": 54
                   }
                 ],
                 "closingElement": {
                   "type": "JSXClosingElement",
-                  "start": 54,
-                  "end": 58,
                   "name": {
                     "type": "JSXIdentifier",
+                    "name": "b",
                     "start": 56,
-                    "end": 57,
-                    "name": "b"
-                  }
-                }
-              }
+                    "end": 57
+                  },
+                  "start": 54,
+                  "end": 58
+                },
+                "start": 28,
+                "end": 58
+              },
+              "start": 22,
+              "end": 58
             }
           ],
-          "selfClosing": true
+          "selfClosing": true,
+          "start": 0,
+          "end": 61
         },
         "children": [],
-        "closingElement": null
-      }
+        "closingElement": null,
+        "start": 0,
+        "end": 61
+      },
+      "start": 0,
+      "end": 61
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 61
 }

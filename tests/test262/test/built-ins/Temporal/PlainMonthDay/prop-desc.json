@@ -1,186 +1,186 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 498,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 279,
-      "end": 387,
       "expression": {
         "type": "CallExpression",
-        "start": 279,
-        "end": 386,
         "callee": {
           "type": "MemberExpression",
-          "start": 279,
-          "end": 295,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 279,
-            "end": 285,
-            "name": "assert"
+            "end": 285
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 286,
-            "end": 295,
-            "name": "sameValue"
+            "end": 295
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 279,
+          "end": 295
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 299,
-            "end": 328,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 306,
-              "end": 328,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 306,
-                "end": 314,
-                "name": "Temporal"
+                "end": 314
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainMonthDay",
                 "start": 315,
-                "end": 328,
-                "name": "PlainMonthDay"
+                "end": 328
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 306,
+              "end": 328
             },
-            "prefix": true
+            "prefix": true,
+            "start": 299,
+            "end": 328
           },
           {
             "type": "Literal",
-            "start": 332,
-            "end": 342,
             "value": "function",
-            "raw": "\"function\""
+            "raw": "\"function\"",
+            "start": 332,
+            "end": 342
           },
           {
             "type": "Literal",
-            "start": 346,
-            "end": 384,
             "value": "`typeof PlainMonthDay` is `function`",
-            "raw": "\"`typeof PlainMonthDay` is `function`\""
+            "raw": "\"`typeof PlainMonthDay` is `function`\"",
+            "start": 346,
+            "end": 384
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 279,
+        "end": 386
+      },
+      "start": 279,
+      "end": 387
     },
     {
       "type": "ExpressionStatement",
-      "start": 389,
-      "end": 497,
       "expression": {
         "type": "CallExpression",
-        "start": 389,
-        "end": 496,
         "callee": {
           "type": "Identifier",
+          "name": "verifyProperty",
           "start": 389,
-          "end": 403,
-          "name": "verifyProperty"
+          "end": 403
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "Temporal",
             "start": 404,
-            "end": 412,
-            "name": "Temporal"
+            "end": 412
           },
           {
             "type": "Literal",
-            "start": 414,
-            "end": 429,
             "value": "PlainMonthDay",
-            "raw": "\"PlainMonthDay\""
+            "raw": "\"PlainMonthDay\"",
+            "start": 414,
+            "end": 429
           },
           {
             "type": "ObjectExpression",
-            "start": 431,
-            "end": 495,
             "properties": [
               {
                 "type": "Property",
-                "start": 435,
-                "end": 449,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "writable",
                   "start": 435,
-                  "end": 443,
-                  "name": "writable"
+                  "end": 443
                 },
                 "value": {
                   "type": "Literal",
+                  "value": true,
+                  "raw": "true",
                   "start": 445,
-                  "end": 449,
-                  "value": true,
-                  "raw": "true"
+                  "end": 449
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 435,
+                "end": 449
               },
               {
                 "type": "Property",
-                "start": 453,
-                "end": 470,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "enumerable",
                   "start": 453,
-                  "end": 463,
-                  "name": "enumerable"
+                  "end": 463
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 465,
-                  "end": 470,
                   "value": false,
-                  "raw": "false"
+                  "raw": "false",
+                  "start": 465,
+                  "end": 470
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 453,
+                "end": 470
               },
               {
                 "type": "Property",
-                "start": 474,
-                "end": 492,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "configurable",
                   "start": 474,
-                  "end": 486,
-                  "name": "configurable"
+                  "end": 486
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 488,
-                  "end": 492,
                   "value": true,
-                  "raw": "true"
+                  "raw": "true",
+                  "start": 488,
+                  "end": 492
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 474,
+                "end": 492
               }
-            ]
+            ],
+            "start": 431,
+            "end": 495
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 389,
+        "end": 496
+      },
+      "start": 389,
+      "end": 497
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 498
 }

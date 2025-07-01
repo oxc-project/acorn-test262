@@ -1,194 +1,194 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 584,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 381,
-      "end": 434,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 381,
-        "end": 433,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 381,
-          "end": 405,
           "object": {
             "type": "MemberExpression",
-            "start": 381,
-            "end": 396,
             "object": {
               "type": "Identifier",
+              "name": "Error",
               "start": 381,
-              "end": 386,
-              "name": "Error"
+              "end": 386
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 387,
-              "end": 396,
-              "name": "prototype"
+              "end": 396
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 381,
+            "end": 396
           },
           "property": {
             "type": "Identifier",
+            "name": "toString",
             "start": 397,
-            "end": 405,
-            "name": "toString"
+            "end": 405
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 381,
+          "end": 405
         },
         "right": {
           "type": "MemberExpression",
-          "start": 408,
-          "end": 433,
           "object": {
             "type": "MemberExpression",
-            "start": 408,
-            "end": 424,
             "object": {
               "type": "Identifier",
+              "name": "Object",
               "start": 408,
-              "end": 414,
-              "name": "Object"
+              "end": 414
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 415,
-              "end": 424,
-              "name": "prototype"
+              "end": 424
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 408,
+            "end": 424
           },
           "property": {
             "type": "Identifier",
+            "name": "toString",
             "start": 425,
-            "end": 433,
-            "name": "toString"
+            "end": 433
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 408,
+          "end": 433
+        },
+        "start": 381,
+        "end": 433
+      },
+      "start": 381,
+      "end": 434
     },
     {
       "type": "VariableDeclaration",
-      "start": 435,
-      "end": 476,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 439,
-          "end": 475,
           "id": {
             "type": "Identifier",
+            "name": "__tostr",
             "start": 439,
-            "end": 446,
-            "name": "__tostr"
+            "end": 446
           },
           "init": {
             "type": "CallExpression",
-            "start": 449,
-            "end": 475,
             "callee": {
               "type": "MemberExpression",
-              "start": 449,
-              "end": 473,
               "object": {
                 "type": "MemberExpression",
-                "start": 449,
-                "end": 464,
                 "object": {
                   "type": "Identifier",
+                  "name": "Error",
                   "start": 449,
-                  "end": 454,
-                  "name": "Error"
+                  "end": 454
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 455,
-                  "end": 464,
-                  "name": "prototype"
+                  "end": 464
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 449,
+                "end": 464
               },
               "property": {
                 "type": "Identifier",
+                "name": "toString",
                 "start": 465,
-                "end": 473,
-                "name": "toString"
+                "end": 473
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 449,
+              "end": 473
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 449,
+            "end": 475
+          },
+          "start": 439,
+          "end": 475
         }
-      ]
+      ],
+      "start": 435,
+      "end": 476
     },
     {
       "type": "ExpressionStatement",
-      "start": 478,
-      "end": 583,
       "expression": {
         "type": "CallExpression",
-        "start": 478,
-        "end": 582,
         "callee": {
           "type": "MemberExpression",
-          "start": 478,
-          "end": 494,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 478,
-            "end": 484,
-            "name": "assert"
+            "end": 484
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 485,
-            "end": 494,
-            "name": "sameValue"
+            "end": 494
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 478,
+          "end": 494
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "__tostr",
             "start": 495,
-            "end": 502,
-            "name": "__tostr"
+            "end": 502
           },
           {
             "type": "Literal",
-            "start": 504,
-            "end": 521,
             "value": "[object Object]",
-            "raw": "\"[object Object]\""
+            "raw": "\"[object Object]\"",
+            "start": 504,
+            "end": 521
           },
           {
             "type": "Literal",
-            "start": 523,
-            "end": 581,
             "value": "The value of __tostr is expected to be \"[object Object]\"",
-            "raw": "'The value of __tostr is expected to be \"[object Object]\"'"
+            "raw": "'The value of __tostr is expected to be \"[object Object]\"'",
+            "start": 523,
+            "end": 581
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 478,
+        "end": 582
+      },
+      "start": 478,
+      "end": 583
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 584
 }

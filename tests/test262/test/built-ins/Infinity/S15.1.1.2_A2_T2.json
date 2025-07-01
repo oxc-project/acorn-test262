@@ -1,97 +1,97 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 430,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 267,
-      "end": 283,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 267,
-        "end": 282,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "Infinity",
           "start": 267,
-          "end": 275,
-          "name": "Infinity"
+          "end": 275
         },
         "right": {
           "type": "Literal",
-          "start": 278,
-          "end": 282,
           "value": true,
-          "raw": "true"
-        }
-      }
+          "raw": "true",
+          "start": 278,
+          "end": 282
+        },
+        "start": 267,
+        "end": 282
+      },
+      "start": 267,
+      "end": 283
     },
     {
       "type": "ExpressionStatement",
-      "start": 284,
-      "end": 383,
       "expression": {
         "type": "CallExpression",
-        "start": 284,
-        "end": 382,
         "callee": {
           "type": "MemberExpression",
-          "start": 284,
-          "end": 303,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 284,
-            "end": 290,
-            "name": "assert"
+            "end": 290
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 291,
-            "end": 303,
-            "name": "notSameValue"
+            "end": 303
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 284,
+          "end": 303
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 304,
-            "end": 320,
             "operator": "typeof",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 310,
-              "end": 320,
               "expression": {
                 "type": "Identifier",
+                "name": "Infinity",
                 "start": 311,
-                "end": 319,
-                "name": "Infinity"
-              }
+                "end": 319
+              },
+              "start": 310,
+              "end": 320
             },
-            "prefix": true
+            "prefix": true,
+            "start": 304,
+            "end": 320
           },
           {
             "type": "Literal",
-            "start": 322,
-            "end": 331,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "start": 322,
+            "end": 331
           },
           {
             "type": "Literal",
-            "start": 333,
-            "end": 381,
             "value": "The value of typeof(Infinity) is not \"boolean\"",
-            "raw": "'The value of typeof(Infinity) is not \"boolean\"'"
+            "raw": "'The value of typeof(Infinity) is not \"boolean\"'",
+            "start": 333,
+            "end": 381
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 284,
+        "end": 382
+      },
+      "start": 284,
+      "end": 383
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 430
 }

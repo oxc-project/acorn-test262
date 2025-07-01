@@ -2,201 +2,193 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 158,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 18,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 17,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 13,
             "decorators": [],
             "name": "greetings",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 13
           },
           "init": {
             "type": "Literal",
-            "start": 16,
-            "end": 17,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 16,
+            "end": 17
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 17
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 18
     },
     {
       "type": "VariableDeclaration",
-      "start": 19,
-      "end": 103,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 23,
-          "end": 103,
           "id": {
             "type": "Identifier",
-            "start": 23,
-            "end": 28,
             "decorators": [],
             "name": "greet",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 23,
+            "end": 28
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 31,
-            "end": 103,
             "expression": false,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 32,
-                "end": 48,
                 "decorators": [],
                 "name": "greeting",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 40,
-                  "end": 48,
                   "typeAnnotation": {
                     "type": "TSStringKeyword",
                     "start": 42,
                     "end": 48
-                  }
-                }
+                  },
+                  "start": 40,
+                  "end": 48
+                },
+                "start": 32,
+                "end": 48
               }
             ],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 49,
-              "end": 57,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 51,
                 "end": 57
-              }
+              },
+              "start": 49,
+              "end": 57
             },
             "body": {
               "type": "BlockStatement",
-              "start": 61,
-              "end": 103,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 67,
-                  "end": 79,
                   "expression": {
                     "type": "UpdateExpression",
-                    "start": 67,
-                    "end": 78,
                     "operator": "++",
                     "prefix": false,
                     "argument": {
                       "type": "Identifier",
-                      "start": 67,
-                      "end": 76,
                       "decorators": [],
                       "name": "greetings",
                       "optional": false,
-                      "typeAnnotation": null
-                    }
+                      "typeAnnotation": null,
+                      "start": 67,
+                      "end": 76
+                    },
+                    "start": 67,
+                    "end": 78
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 67,
+                  "end": 79
                 },
                 {
                   "type": "ReturnStatement",
-                  "start": 84,
-                  "end": 101,
                   "argument": {
                     "type": "Identifier",
-                    "start": 91,
-                    "end": 100,
                     "decorators": [],
                     "name": "greetings",
                     "optional": false,
-                    "typeAnnotation": null
-                  }
+                    "typeAnnotation": null,
+                    "start": 91,
+                    "end": 100
+                  },
+                  "start": 84,
+                  "end": 101
                 }
-              ]
+              ],
+              "start": 61,
+              "end": 103
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 31,
+            "end": 103
           },
-          "definite": false
+          "definite": false,
+          "start": 23,
+          "end": 103
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 19,
+      "end": 103
     },
     {
       "type": "ExpressionStatement",
-      "start": 104,
-      "end": 119,
       "expression": {
         "type": "CallExpression",
-        "start": 104,
-        "end": 118,
         "callee": {
           "type": "Identifier",
-          "start": 104,
-          "end": 109,
           "decorators": [],
           "name": "greet",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 104,
+          "end": 109
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 110,
-            "end": 117,
             "value": "Hello",
-            "raw": "\"Hello\""
+            "raw": "\"Hello\"",
+            "start": 110,
+            "end": 117
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 104,
+        "end": 118
       },
-      "directive": null
+      "directive": null,
+      "start": 104,
+      "end": 119
     },
     {
       "type": "VariableDeclaration",
-      "start": 120,
-      "end": 158,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 124,
-          "end": 157,
           "id": {
             "type": "Identifier",
-            "start": 124,
-            "end": 137,
             "decorators": [],
             "name": "incrGreetings",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 124,
+            "end": 137
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 140,
-            "end": 157,
             "expression": true,
             "async": false,
             "typeParameters": null,
@@ -204,30 +196,38 @@ __ESTREE_TEST__:PASS:
             "returnType": null,
             "body": {
               "type": "UpdateExpression",
-              "start": 146,
-              "end": 157,
               "operator": "++",
               "prefix": false,
               "argument": {
                 "type": "Identifier",
-                "start": 146,
-                "end": 155,
                 "decorators": [],
                 "name": "greetings",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 146,
+                "end": 155
+              },
+              "start": 146,
+              "end": 157
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 140,
+            "end": 157
           },
-          "definite": false
+          "definite": false,
+          "start": 124,
+          "end": 157
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 120,
+      "end": 158
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 158
 }
 ```

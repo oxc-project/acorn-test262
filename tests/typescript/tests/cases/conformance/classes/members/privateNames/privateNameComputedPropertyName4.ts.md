@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 56,
-  "end": 232,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 56,
-      "end": 108,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 62,
-        "end": 64,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 62,
+        "end": 64
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,23 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 65,
-        "end": 108,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 71,
-            "end": 88,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "qux",
               "start": 78,
-              "end": 82,
-              "name": "qux"
+              "end": 82
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 85,
-              "end": 87,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "start": 85,
+              "end": 87
             },
             "computed": false,
             "static": true,
@@ -54,24 +46,22 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 71,
+            "end": 88
           },
           {
             "type": "MethodDefinition",
-            "start": 93,
-            "end": 106,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 94,
-              "end": 99,
               "value": "bar",
-              "raw": "\"bar\""
+              "raw": "\"bar\"",
+              "start": 94,
+              "end": 99
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 101,
-              "end": 106,
               "id": null,
               "generator": false,
               "async": false,
@@ -81,37 +71,43 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 104,
-                "end": 106,
-                "body": []
+                "end": 106
               },
-              "expression": false
+              "expression": false,
+              "start": 101,
+              "end": 106
             },
             "kind": "method",
             "computed": true,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 93,
+            "end": 106
           }
-        ]
+        ],
+        "start": 65,
+        "end": 108
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 56,
+      "end": 108
     },
     {
       "type": "ClassDeclaration",
-      "start": 109,
-      "end": 168,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 115,
-        "end": 117,
         "decorators": [],
         "name": "C2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 115,
+        "end": 117
       },
       "typeParameters": null,
       "superClass": null,
@@ -119,27 +115,23 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 118,
-        "end": 168,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 124,
-            "end": 141,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "qux",
               "start": 131,
-              "end": 135,
-              "name": "qux"
+              "end": 135
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 138,
-              "end": 140,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "start": 138,
+              "end": 140
             },
             "computed": false,
             "static": true,
@@ -148,24 +140,22 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 124,
+            "end": 141
           },
           {
             "type": "MethodDefinition",
-            "start": 146,
-            "end": 166,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 154,
-              "end": 159,
               "value": "bar",
-              "raw": "\"bar\""
+              "raw": "\"bar\"",
+              "start": 154,
+              "end": 159
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 161,
-              "end": 166,
               "id": null,
               "generator": false,
               "async": false,
@@ -175,37 +165,43 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 164,
-                "end": 166,
-                "body": []
+                "end": 166
               },
-              "expression": false
+              "expression": false,
+              "start": 161,
+              "end": 166
             },
             "kind": "method",
             "computed": true,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 146,
+            "end": 166
           }
-        ]
+        ],
+        "start": 118,
+        "end": 168
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 109,
+      "end": 168
     },
     {
       "type": "ClassDeclaration",
-      "start": 169,
-      "end": 232,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 175,
-        "end": 177,
         "decorators": [],
         "name": "C3",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 175,
+        "end": 177
       },
       "typeParameters": null,
       "superClass": null,
@@ -213,27 +209,23 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 178,
-        "end": 232,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 184,
-            "end": 201,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "qux",
               "start": 191,
-              "end": 195,
-              "name": "qux"
+              "end": 195
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 198,
-              "end": 200,
               "value": 42,
-              "raw": "42"
+              "raw": "42",
+              "start": 198,
+              "end": 200
             },
             "computed": false,
             "static": true,
@@ -242,27 +234,27 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 184,
+            "end": 201
           },
           {
             "type": "PropertyDefinition",
-            "start": 206,
-            "end": 230,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 214,
-              "end": 219,
               "value": "bar",
-              "raw": "\"bar\""
+              "raw": "\"bar\"",
+              "start": 214,
+              "end": 219
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 223,
-              "end": 229,
               "value": "test",
-              "raw": "\"test\""
+              "raw": "\"test\"",
+              "start": 223,
+              "end": 229
             },
             "computed": true,
             "static": true,
@@ -271,15 +263,23 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 206,
+            "end": 230
           }
-        ]
+        ],
+        "start": 178,
+        "end": 232
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 169,
+      "end": 232
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 56,
+  "end": 232
 }
 ```

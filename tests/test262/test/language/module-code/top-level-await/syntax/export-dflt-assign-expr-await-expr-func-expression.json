@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2269,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 2233,
-      "end": 2268,
       "declaration": {
         "type": "AwaitExpression",
-        "start": 2248,
-        "end": 2267,
         "argument": {
           "type": "FunctionExpression",
-          "start": 2254,
-          "end": 2267,
           "id": null,
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
+            "body": [],
             "start": 2265,
-            "end": 2267,
-            "body": []
+            "end": 2267
           },
-          "expression": false
-        }
-      }
+          "expression": false,
+          "start": 2254,
+          "end": 2267
+        },
+        "start": 2248,
+        "end": 2267
+      },
+      "start": 2233,
+      "end": 2268
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2269
 }

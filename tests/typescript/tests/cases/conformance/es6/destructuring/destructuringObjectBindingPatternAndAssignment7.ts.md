@@ -2,192 +2,182 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 144,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 0,
-      "end": 35,
       "id": {
         "type": "Identifier",
-        "start": 5,
-        "end": 6,
         "decorators": [],
         "name": "K",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 5,
+        "end": 6
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 7,
-        "end": 35,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 13,
-            "end": 20,
             "id": {
               "type": "Identifier",
-              "start": 13,
-              "end": 14,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 13,
+              "end": 14
             },
             "initializer": {
               "type": "Literal",
-              "start": 17,
-              "end": 20,
               "value": "a",
-              "raw": "\"a\""
+              "raw": "\"a\"",
+              "start": 17,
+              "end": 20
             },
-            "computed": false
+            "computed": false,
+            "start": 13,
+            "end": 20
           },
           {
             "type": "TSEnumMember",
-            "start": 26,
-            "end": 33,
             "id": {
               "type": "Identifier",
-              "start": 26,
-              "end": 27,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 26,
+              "end": 27
             },
             "initializer": {
               "type": "Literal",
-              "start": 30,
-              "end": 33,
               "value": "b",
-              "raw": "\"b\""
+              "raw": "\"b\"",
+              "start": 30,
+              "end": 33
             },
-            "computed": false
+            "computed": false,
+            "start": 26,
+            "end": 33
           }
-        ]
+        ],
+        "start": 7,
+        "end": 35
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 35
     },
     {
       "type": "VariableDeclaration",
-      "start": 36,
-      "end": 119,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 42,
-          "end": 118,
           "id": {
             "type": "ObjectPattern",
-            "start": 42,
-            "end": 70,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 44,
-                "end": 55,
                 "kind": "init",
                 "key": {
                   "type": "MemberExpression",
-                  "start": 45,
-                  "end": 48,
                   "object": {
                     "type": "Identifier",
-                    "start": 45,
-                    "end": 46,
                     "decorators": [],
                     "name": "K",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 45,
+                    "end": 46
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 47,
-                    "end": 48,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 47,
+                    "end": 48
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 45,
+                  "end": 48
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 51,
-                  "end": 55,
                   "decorators": [],
                   "name": "aVal",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 51,
+                  "end": 55
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 44,
+                "end": 55
               },
               {
                 "type": "Property",
-                "start": 57,
-                "end": 68,
                 "kind": "init",
                 "key": {
                   "type": "MemberExpression",
-                  "start": 58,
-                  "end": 61,
                   "object": {
                     "type": "Identifier",
-                    "start": 58,
-                    "end": 59,
                     "decorators": [],
                     "name": "K",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 58,
+                    "end": 59
                   },
                   "property": {
                     "type": "Identifier",
-                    "start": 60,
-                    "end": 61,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 60,
+                    "end": 61
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 58,
+                  "end": 61
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 64,
-                  "end": 68,
                   "decorators": [],
                   "name": "bVal",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 64,
+                  "end": 68
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 57,
+                "end": 68
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 42,
+            "end": 70
           },
           "init": {
             "type": "CallExpression",
-            "start": 73,
-            "end": 118,
             "callee": {
               "type": "ArrowFunctionExpression",
-              "start": 74,
-              "end": 115,
               "expression": false,
               "async": false,
               "typeParameters": null,
@@ -195,179 +185,189 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 80,
-                "end": 115,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 83,
-                    "end": 113,
                     "argument": {
                       "type": "ObjectExpression",
-                      "start": 90,
-                      "end": 112,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 92,
-                          "end": 100,
                           "kind": "init",
                           "key": {
                             "type": "MemberExpression",
-                            "start": 93,
-                            "end": 96,
                             "object": {
                               "type": "Identifier",
-                              "start": 93,
-                              "end": 94,
                               "decorators": [],
                               "name": "K",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 93,
+                              "end": 94
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 95,
-                              "end": 96,
                               "decorators": [],
                               "name": "a",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 95,
+                              "end": 96
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 93,
+                            "end": 96
                           },
                           "value": {
                             "type": "Literal",
-                            "start": 99,
-                            "end": 100,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "start": 99,
+                            "end": 100
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "start": 92,
+                          "end": 100
                         },
                         {
                           "type": "Property",
-                          "start": 102,
-                          "end": 110,
                           "kind": "init",
                           "key": {
                             "type": "MemberExpression",
-                            "start": 103,
-                            "end": 106,
                             "object": {
                               "type": "Identifier",
-                              "start": 103,
-                              "end": 104,
                               "decorators": [],
                               "name": "K",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 103,
+                              "end": 104
                             },
                             "property": {
                               "type": "Identifier",
-                              "start": 105,
-                              "end": 106,
                               "decorators": [],
                               "name": "b",
                               "optional": false,
-                              "typeAnnotation": null
+                              "typeAnnotation": null,
+                              "start": 105,
+                              "end": 106
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 103,
+                            "end": 106
                           },
                           "value": {
                             "type": "Literal",
-                            "start": 109,
-                            "end": 110,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "start": 109,
+                            "end": 110
                           },
                           "method": false,
                           "shorthand": false,
                           "computed": true,
-                          "optional": false
+                          "optional": false,
+                          "start": 102,
+                          "end": 110
                         }
-                      ]
-                    }
+                      ],
+                      "start": 90,
+                      "end": 112
+                    },
+                    "start": 83,
+                    "end": 113
                   }
-                ]
+                ],
+                "start": 80,
+                "end": 115
               },
               "id": null,
-              "generator": false
+              "generator": false,
+              "start": 74,
+              "end": 115
             },
             "typeArguments": null,
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 73,
+            "end": 118
           },
-          "definite": false
+          "definite": false,
+          "start": 42,
+          "end": 118
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 36,
+      "end": 119
     },
     {
       "type": "ExpressionStatement",
-      "start": 120,
-      "end": 144,
       "expression": {
         "type": "CallExpression",
-        "start": 120,
-        "end": 143,
         "callee": {
           "type": "MemberExpression",
-          "start": 120,
-          "end": 131,
           "object": {
             "type": "Identifier",
-            "start": 120,
-            "end": 127,
             "decorators": [],
             "name": "console",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 120,
+            "end": 127
           },
           "property": {
             "type": "Identifier",
-            "start": 128,
-            "end": 131,
             "decorators": [],
             "name": "log",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 128,
+            "end": 131
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 120,
+          "end": 131
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Identifier",
-            "start": 132,
-            "end": 136,
             "decorators": [],
             "name": "aVal",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 132,
+            "end": 136
           },
           {
             "type": "Identifier",
-            "start": 138,
-            "end": 142,
             "decorators": [],
             "name": "bVal",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 138,
+            "end": 142
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 120,
+        "end": 143
       },
-      "directive": null
+      "directive": null,
+      "start": 120,
+      "end": 144
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 144
 }
 ```

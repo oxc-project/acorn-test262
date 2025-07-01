@@ -2,143 +2,143 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 47,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 17,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 9,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "a",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "Literal",
-            "start": 8,
-            "end": 9,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 8,
+            "end": 9
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 9
         },
         {
           "type": "VariableDeclarator",
-          "start": 11,
-          "end": 16,
           "id": {
             "type": "Identifier",
-            "start": 11,
-            "end": 12,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 11,
+            "end": 12
           },
           "init": {
             "type": "Literal",
-            "start": 15,
-            "end": 16,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 15,
+            "end": 16
           },
-          "definite": false
+          "definite": false,
+          "start": 11,
+          "end": 16
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 17
     },
     {
       "type": "TryStatement",
-      "start": 18,
-      "end": 47,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 22,
-        "end": 24,
-        "body": []
+        "end": 24
       },
       "handler": {
         "type": "CatchClause",
-        "start": 25,
-        "end": 47,
         "param": {
           "type": "ObjectPattern",
-          "start": 32,
-          "end": 43,
           "decorators": [],
           "properties": [
             {
               "type": "Property",
-              "start": 34,
-              "end": 35,
               "kind": "init",
               "key": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 35,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 34,
+                "end": 35
               },
               "value": {
                 "type": "Identifier",
-                "start": 34,
-                "end": 35,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 34,
+                "end": 35
               },
               "method": false,
               "shorthand": true,
               "computed": false,
-              "optional": false
+              "optional": false,
+              "start": 34,
+              "end": 35
             },
             {
               "type": "RestElement",
-              "start": 37,
-              "end": 41,
               "decorators": [],
               "argument": {
                 "type": "Identifier",
-                "start": 40,
-                "end": 41,
                 "decorators": [],
                 "name": "b",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 40,
+                "end": 41
               },
               "optional": false,
               "typeAnnotation": null,
-              "value": null
+              "value": null,
+              "start": 37,
+              "end": 41
             }
           ],
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 32,
+          "end": 43
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 45,
-          "end": 47,
-          "body": []
-        }
+          "end": 47
+        },
+        "start": 25,
+        "end": 47
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 18,
+      "end": 47
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 47
 }
 ```

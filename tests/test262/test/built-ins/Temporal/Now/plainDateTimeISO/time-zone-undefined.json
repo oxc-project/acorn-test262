@@ -1,246 +1,246 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 714,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 260,
-      "end": 324,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 266,
-          "end": 323,
           "id": {
             "type": "Identifier",
+            "name": "resultExplicit",
             "start": 266,
-            "end": 280,
-            "name": "resultExplicit"
+            "end": 280
           },
           "init": {
             "type": "CallExpression",
-            "start": 283,
-            "end": 323,
             "callee": {
               "type": "MemberExpression",
-              "start": 283,
-              "end": 312,
               "object": {
                 "type": "MemberExpression",
-                "start": 283,
-                "end": 295,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 283,
-                  "end": 291,
-                  "name": "Temporal"
+                  "end": 291
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Now",
                   "start": 292,
-                  "end": 295,
-                  "name": "Now"
+                  "end": 295
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 283,
+                "end": 295
               },
               "property": {
                 "type": "Identifier",
+                "name": "plainDateTimeISO",
                 "start": 296,
-                "end": 312,
-                "name": "plainDateTimeISO"
+                "end": 312
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 283,
+              "end": 312
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 313,
-                "end": 322,
-                "name": "undefined"
+                "end": 322
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 283,
+            "end": 323
+          },
+          "start": 266,
+          "end": 323
         }
-      ]
+      ],
+      "start": 260,
+      "end": 324
     },
     {
       "type": "ExpressionStatement",
-      "start": 325,
-      "end": 490,
       "expression": {
         "type": "CallExpression",
-        "start": 325,
-        "end": 489,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 325,
-          "end": 331,
-          "name": "assert"
+          "end": 331
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 335,
-            "end": 383,
             "left": {
               "type": "Identifier",
+              "name": "resultExplicit",
               "start": 335,
-              "end": 349,
-              "name": "resultExplicit"
+              "end": 349
             },
             "operator": "instanceof",
             "right": {
               "type": "MemberExpression",
-              "start": 361,
-              "end": 383,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 361,
-                "end": 369,
-                "name": "Temporal"
+                "end": 369
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainDateTime",
                 "start": 370,
-                "end": 383,
-                "name": "PlainDateTime"
+                "end": 383
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 361,
+              "end": 383
+            },
+            "start": 335,
+            "end": 383
           },
           {
             "type": "Literal",
-            "start": 387,
-            "end": 487,
             "value": "The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true",
-            "raw": "'The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true'"
+            "raw": "'The result of evaluating (resultExplicit instanceof Temporal.PlainDateTime) is expected to be true'",
+            "start": 387,
+            "end": 487
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 325,
+        "end": 489
+      },
+      "start": 325,
+      "end": 490
     },
     {
       "type": "VariableDeclaration",
-      "start": 492,
-      "end": 547,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 498,
-          "end": 546,
           "id": {
             "type": "Identifier",
+            "name": "resultImplicit",
             "start": 498,
-            "end": 512,
-            "name": "resultImplicit"
+            "end": 512
           },
           "init": {
             "type": "CallExpression",
-            "start": 515,
-            "end": 546,
             "callee": {
               "type": "MemberExpression",
-              "start": 515,
-              "end": 544,
               "object": {
                 "type": "MemberExpression",
-                "start": 515,
-                "end": 527,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 515,
-                  "end": 523,
-                  "name": "Temporal"
+                  "end": 523
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Now",
                   "start": 524,
-                  "end": 527,
-                  "name": "Now"
+                  "end": 527
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 515,
+                "end": 527
               },
               "property": {
                 "type": "Identifier",
+                "name": "plainDateTimeISO",
                 "start": 528,
-                "end": 544,
-                "name": "plainDateTimeISO"
+                "end": 544
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 515,
+              "end": 544
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 515,
+            "end": 546
+          },
+          "start": 498,
+          "end": 546
         }
-      ]
+      ],
+      "start": 492,
+      "end": 547
     },
     {
       "type": "ExpressionStatement",
-      "start": 548,
-      "end": 713,
       "expression": {
         "type": "CallExpression",
-        "start": 548,
-        "end": 712,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 548,
-          "end": 554,
-          "name": "assert"
+          "end": 554
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 558,
-            "end": 606,
             "left": {
               "type": "Identifier",
+              "name": "resultImplicit",
               "start": 558,
-              "end": 572,
-              "name": "resultImplicit"
+              "end": 572
             },
             "operator": "instanceof",
             "right": {
               "type": "MemberExpression",
-              "start": 584,
-              "end": 606,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 584,
-                "end": 592,
-                "name": "Temporal"
+                "end": 592
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainDateTime",
                 "start": 593,
-                "end": 606,
-                "name": "PlainDateTime"
+                "end": 606
               },
               "optional": false,
-              "computed": false
-            }
+              "computed": false,
+              "start": 584,
+              "end": 606
+            },
+            "start": 558,
+            "end": 606
           },
           {
             "type": "Literal",
-            "start": 610,
-            "end": 710,
             "value": "The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true",
-            "raw": "'The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true'"
+            "raw": "'The result of evaluating (resultImplicit instanceof Temporal.PlainDateTime) is expected to be true'",
+            "start": 610,
+            "end": 710
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 548,
+        "end": 712
+      },
+      "start": 548,
+      "end": 713
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 714
 }

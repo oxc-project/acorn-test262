@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 325,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 249,
-      "end": 324,
       "expression": {
         "type": "CallExpression",
-        "start": 249,
-        "end": 323,
         "callee": {
           "type": "MemberExpression",
-          "start": 249,
-          "end": 265,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 249,
-            "end": 255,
-            "name": "assert"
+            "end": 255
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 256,
-            "end": 265,
-            "name": "sameValue"
+            "end": 265
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 249,
+          "end": 265
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 266,
-            "end": 287,
             "callee": {
               "type": "MemberExpression",
-              "start": 266,
-              "end": 277,
               "object": {
                 "type": "Identifier",
+                "name": "Math",
                 "start": 266,
-                "end": 270,
-                "name": "Math"
+                "end": 270
               },
               "property": {
                 "type": "Identifier",
+                "name": "fround",
                 "start": 271,
-                "end": 277,
-                "name": "fround"
+                "end": 277
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 266,
+              "end": 277
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Infinity",
                 "start": 278,
-                "end": 286,
-                "name": "Infinity"
+                "end": 286
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 266,
+            "end": 287
           },
           {
             "type": "Identifier",
+            "name": "Infinity",
             "start": 289,
-            "end": 297,
-            "name": "Infinity"
+            "end": 297
           },
           {
             "type": "Literal",
-            "start": 299,
-            "end": 322,
             "value": "Math.fround(Infinity)",
-            "raw": "'Math.fround(Infinity)'"
+            "raw": "'Math.fround(Infinity)'",
+            "start": 299,
+            "end": 322
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 249,
+        "end": 323
+      },
+      "start": 249,
+      "end": 324
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 325
 }

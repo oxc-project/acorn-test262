@@ -1,157 +1,157 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 359,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 219,
-      "end": 275,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 223,
-          "end": 246,
           "id": {
             "type": "Identifier",
+            "name": "p1",
             "start": 223,
-            "end": 225,
-            "name": "p1"
+            "end": 225
           },
           "init": {
             "type": "CallExpression",
-            "start": 228,
-            "end": 246,
             "callee": {
               "type": "MemberExpression",
-              "start": 228,
-              "end": 243,
               "object": {
                 "type": "Identifier",
+                "name": "Promise",
                 "start": 228,
-                "end": 235,
-                "name": "Promise"
+                "end": 235
               },
               "property": {
                 "type": "Identifier",
+                "name": "resolve",
                 "start": 236,
-                "end": 243,
-                "name": "resolve"
+                "end": 243
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 228,
+              "end": 243
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 244,
-                "end": 245,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 244,
+                "end": 245
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 228,
+            "end": 246
+          },
+          "start": 223,
+          "end": 246
         },
         {
           "type": "VariableDeclarator",
-          "start": 250,
-          "end": 274,
           "id": {
             "type": "Identifier",
+            "name": "p2",
             "start": 250,
-            "end": 252,
-            "name": "p2"
+            "end": 252
           },
           "init": {
             "type": "CallExpression",
-            "start": 255,
-            "end": 274,
             "callee": {
               "type": "MemberExpression",
-              "start": 255,
-              "end": 270,
               "object": {
                 "type": "Identifier",
+                "name": "Promise",
                 "start": 255,
-                "end": 262,
-                "name": "Promise"
+                "end": 262
               },
               "property": {
                 "type": "Identifier",
+                "name": "resolve",
                 "start": 263,
-                "end": 270,
-                "name": "resolve"
+                "end": 270
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 255,
+              "end": 270
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "p1",
                 "start": 271,
-                "end": 273,
-                "name": "p1"
+                "end": 273
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 255,
+            "end": 274
+          },
+          "start": 250,
+          "end": 274
         }
-      ]
+      ],
+      "start": 219,
+      "end": 275
     },
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 358,
       "expression": {
         "type": "CallExpression",
-        "start": 277,
-        "end": 357,
         "callee": {
           "type": "MemberExpression",
-          "start": 277,
-          "end": 293,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 277,
-            "end": 283,
-            "name": "assert"
+            "end": 283
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 284,
-            "end": 293,
-            "name": "sameValue"
+            "end": 293
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 277,
+          "end": 293
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "p1",
             "start": 294,
-            "end": 296,
-            "name": "p1"
+            "end": 296
           },
           {
             "type": "Identifier",
+            "name": "p2",
             "start": 298,
-            "end": 300,
-            "name": "p2"
+            "end": 300
           },
           {
             "type": "Literal",
-            "start": 302,
-            "end": 356,
             "value": "The value of p1 is expected to equal the value of p2",
-            "raw": "'The value of p1 is expected to equal the value of p2'"
+            "raw": "'The value of p1 is expected to equal the value of p2'",
+            "start": 302,
+            "end": 356
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 277,
+        "end": 357
+      },
+      "start": 277,
+      "end": 358
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 359
 }

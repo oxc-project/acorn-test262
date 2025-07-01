@@ -2,179 +2,179 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 169,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 59,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 59,
         "body": [
           {
             "type": "TSModuleDeclaration",
-            "start": 15,
-            "end": 29,
             "id": {
               "type": "TSQualifiedName",
-              "start": 22,
-              "end": 25,
               "left": {
                 "type": "Identifier",
-                "start": 22,
-                "end": 23,
                 "decorators": [],
                 "name": "P",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 22,
+                "end": 23
               },
               "right": {
                 "type": "Identifier",
-                "start": 24,
-                "end": 25,
                 "decorators": [],
                 "name": "Q",
                 "optional": false,
-                "typeAnnotation": null
-              }
+                "typeAnnotation": null,
+                "start": 24,
+                "end": 25
+              },
+              "start": 22,
+              "end": 25
             },
             "body": {
               "type": "TSModuleBlock",
+              "body": [],
               "start": 26,
-              "end": 29,
-              "body": []
+              "end": 29
             },
             "kind": "module",
             "declare": false,
-            "global": false
+            "global": false,
+            "start": 15,
+            "end": 29
           }
-        ]
+        ],
+        "start": 9,
+        "end": 59
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 59
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 61,
-      "end": 125,
       "id": {
         "type": "Identifier",
-        "start": 68,
-        "end": 69,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 68,
+        "end": 69
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 70,
-        "end": 125,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 76,
-            "end": 97,
             "declaration": {
               "type": "TSModuleDeclaration",
-              "start": 83,
-              "end": 97,
               "id": {
                 "type": "TSQualifiedName",
-                "start": 90,
-                "end": 93,
                 "left": {
                   "type": "Identifier",
-                  "start": 90,
-                  "end": 91,
                   "decorators": [],
                   "name": "R",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 90,
+                  "end": 91
                 },
                 "right": {
                   "type": "Identifier",
-                  "start": 92,
-                  "end": 93,
                   "decorators": [],
                   "name": "S",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 92,
+                  "end": 93
+                },
+                "start": 90,
+                "end": 93
               },
               "body": {
                 "type": "TSModuleBlock",
+                "body": [],
                 "start": 94,
-                "end": 97,
-                "body": []
+                "end": 97
               },
               "kind": "module",
               "declare": false,
-              "global": false
+              "global": false,
+              "start": 83,
+              "end": 97
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 76,
+            "end": 97
           }
-        ]
+        ],
+        "start": 70,
+        "end": 125
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 61,
+      "end": 125
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 127,
-      "end": 169,
       "id": {
         "type": "TSQualifiedName",
-        "start": 134,
-        "end": 137,
         "left": {
           "type": "Identifier",
-          "start": 134,
-          "end": 135,
           "decorators": [],
           "name": "T",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 134,
+          "end": 135
         },
         "right": {
           "type": "Identifier",
-          "start": 136,
-          "end": 137,
           "decorators": [],
           "name": "U",
           "optional": false,
-          "typeAnnotation": null
-        }
+          "typeAnnotation": null,
+          "start": 136,
+          "end": 137
+        },
+        "start": 134,
+        "end": 137
       },
       "body": {
         "type": "TSModuleBlock",
+        "body": [],
         "start": 138,
-        "end": 169,
-        "body": []
+        "end": 169
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 127,
+      "end": 169
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 169
 }
 ```

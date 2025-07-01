@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 84,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 19,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 16
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,41 +21,41 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 17,
-        "end": 19,
-        "body": []
+        "end": 19
       },
       "abstract": true,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 19
     },
     {
       "type": "ExpressionStatement",
-      "start": 21,
-      "end": 29,
       "expression": {
         "type": "Identifier",
-        "start": 21,
-        "end": 29,
         "decorators": [],
         "name": "abstract",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 21,
+        "end": 29
       },
-      "directive": null
+      "directive": null,
+      "start": 21,
+      "end": 29
     },
     {
       "type": "ClassDeclaration",
-      "start": 30,
-      "end": 40,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 36,
-        "end": 37,
         "decorators": [],
         "name": "B",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 36,
+        "end": 37
       },
       "typeParameters": null,
       "superClass": null,
@@ -67,41 +63,41 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 38,
-        "end": 40,
-        "body": []
+        "end": 40
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 30,
+      "end": 40
     },
     {
       "type": "ExpressionStatement",
-      "start": 42,
-      "end": 50,
       "expression": {
         "type": "Identifier",
-        "start": 42,
-        "end": 50,
         "decorators": [],
         "name": "abstract",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 42,
+        "end": 50
       },
-      "directive": null
+      "directive": null,
+      "start": 42,
+      "end": 50
     },
     {
       "type": "ClassDeclaration",
-      "start": 52,
-      "end": 62,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 58,
-        "end": 59,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 58,
+        "end": 59
       },
       "typeParameters": null,
       "superClass": null,
@@ -109,81 +105,85 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 60,
-        "end": 62,
-        "body": []
+        "end": 62
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 52,
+      "end": 62
     },
     {
       "type": "ExpressionStatement",
-      "start": 64,
-      "end": 70,
       "expression": {
         "type": "NewExpression",
-        "start": 64,
-        "end": 69,
         "callee": {
           "type": "Identifier",
-          "start": 68,
-          "end": 69,
           "decorators": [],
           "name": "A",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 68,
+          "end": 69
         },
         "typeArguments": null,
-        "arguments": []
+        "arguments": [],
+        "start": 64,
+        "end": 69
       },
-      "directive": null
+      "directive": null,
+      "start": 64,
+      "end": 70
     },
     {
       "type": "ExpressionStatement",
-      "start": 71,
-      "end": 77,
       "expression": {
         "type": "NewExpression",
-        "start": 71,
-        "end": 76,
         "callee": {
           "type": "Identifier",
-          "start": 75,
-          "end": 76,
           "decorators": [],
           "name": "B",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 75,
+          "end": 76
         },
         "typeArguments": null,
-        "arguments": []
+        "arguments": [],
+        "start": 71,
+        "end": 76
       },
-      "directive": null
+      "directive": null,
+      "start": 71,
+      "end": 77
     },
     {
       "type": "ExpressionStatement",
-      "start": 78,
-      "end": 84,
       "expression": {
         "type": "NewExpression",
-        "start": 78,
-        "end": 83,
         "callee": {
           "type": "Identifier",
-          "start": 82,
-          "end": 83,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 82,
+          "end": 83
         },
         "typeArguments": null,
-        "arguments": []
+        "arguments": [],
+        "start": 78,
+        "end": 83
       },
-      "directive": null
+      "directive": null,
+      "start": 78,
+      "end": 84
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 84
 }
 ```

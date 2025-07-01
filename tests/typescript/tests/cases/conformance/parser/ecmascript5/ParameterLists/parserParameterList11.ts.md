@@ -2,55 +2,55 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 17,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 17,
       "expression": {
         "type": "ArrowFunctionExpression",
-        "start": 0,
-        "end": 16,
         "expression": true,
         "async": false,
         "typeParameters": null,
         "params": [
           {
             "type": "RestElement",
-            "start": 1,
-            "end": 8,
             "decorators": [],
             "argument": {
               "type": "Identifier",
-              "start": 4,
-              "end": 7,
               "decorators": [],
               "name": "arg",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 4,
+              "end": 7
             },
             "optional": true,
             "typeAnnotation": null,
-            "value": null
+            "value": null,
+            "start": 1,
+            "end": 8
           }
         ],
         "returnType": null,
         "body": {
           "type": "Literal",
-          "start": 13,
-          "end": 16,
           "value": 102,
-          "raw": "102"
+          "raw": "102",
+          "start": 13,
+          "end": 16
         },
         "id": null,
-        "generator": false
+        "generator": false,
+        "start": 0,
+        "end": 16
       },
-      "directive": null
+      "directive": null,
+      "start": 0,
+      "end": 17
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 17
 }
 ```

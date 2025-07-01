@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 675,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 618,
-      "end": 674,
       "expression": {
         "type": "CallExpression",
-        "start": 618,
-        "end": 673,
         "callee": {
           "type": "MemberExpression",
-          "start": 618,
-          "end": 634,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 618,
-            "end": 624,
-            "name": "assert"
+            "end": 624
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 625,
-            "end": 634,
-            "name": "sameValue"
+            "end": 634
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 618,
+          "end": 634
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 635,
-            "end": 661,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 635,
-              "end": 639,
-              "name": "eval"
+              "end": 639
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 640,
-                "end": 660,
                 "value": "1; switch(null) {}",
-                "raw": "'1; switch(null) {}'"
+                "raw": "'1; switch(null) {}'",
+                "start": 640,
+                "end": 660
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 635,
+            "end": 661
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 663,
-            "end": 672,
-            "name": "undefined"
+            "end": 672
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 618,
+        "end": 673
+      },
+      "start": 618,
+      "end": 674
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 675
 }

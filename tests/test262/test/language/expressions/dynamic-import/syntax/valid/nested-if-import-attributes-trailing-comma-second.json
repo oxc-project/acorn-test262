@@ -1,53 +1,53 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1333,
   "body": [
     {
       "type": "IfStatement",
-      "start": 1282,
-      "end": 1332,
       "test": {
         "type": "Literal",
-        "start": 1286,
-        "end": 1290,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 1286,
+        "end": 1290
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1292,
-        "end": 1332,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1296,
-            "end": 1330,
             "expression": {
               "type": "ImportExpression",
-              "start": 1296,
-              "end": 1329,
               "source": {
                 "type": "Literal",
-                "start": 1303,
-                "end": 1323,
                 "value": "./empty_FIXTURE.js",
-                "raw": "'./empty_FIXTURE.js'"
+                "raw": "'./empty_FIXTURE.js'",
+                "start": 1303,
+                "end": 1323
               },
               "options": {
                 "type": "ObjectExpression",
+                "properties": [],
                 "start": 1325,
-                "end": 1327,
-                "properties": []
+                "end": 1327
               },
-              "phase": null
-            }
+              "phase": null,
+              "start": 1296,
+              "end": 1329
+            },
+            "start": 1296,
+            "end": 1330
           }
-        ]
+        ],
+        "start": 1292,
+        "end": 1332
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1282,
+      "end": 1332
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1333
 }

@@ -1,97 +1,97 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 407,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 259,
-      "end": 270,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 259,
-        "end": 269,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "NaN",
           "start": 259,
-          "end": 262,
-          "name": "NaN"
+          "end": 262
         },
         "right": {
           "type": "Literal",
-          "start": 265,
-          "end": 269,
           "value": true,
-          "raw": "true"
-        }
-      }
+          "raw": "true",
+          "start": 265,
+          "end": 269
+        },
+        "start": 259,
+        "end": 269
+      },
+      "start": 259,
+      "end": 270
     },
     {
       "type": "ExpressionStatement",
-      "start": 271,
-      "end": 360,
       "expression": {
         "type": "CallExpression",
-        "start": 271,
-        "end": 359,
         "callee": {
           "type": "MemberExpression",
-          "start": 271,
-          "end": 290,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 271,
-            "end": 277,
-            "name": "assert"
+            "end": 277
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 278,
-            "end": 290,
-            "name": "notSameValue"
+            "end": 290
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 271,
+          "end": 290
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 291,
-            "end": 302,
             "operator": "typeof",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 297,
-              "end": 302,
               "expression": {
                 "type": "Identifier",
+                "name": "NaN",
                 "start": 298,
-                "end": 301,
-                "name": "NaN"
-              }
+                "end": 301
+              },
+              "start": 297,
+              "end": 302
             },
-            "prefix": true
+            "prefix": true,
+            "start": 291,
+            "end": 302
           },
           {
             "type": "Literal",
-            "start": 304,
-            "end": 313,
             "value": "boolean",
-            "raw": "\"boolean\""
+            "raw": "\"boolean\"",
+            "start": 304,
+            "end": 313
           },
           {
             "type": "Literal",
-            "start": 315,
-            "end": 358,
             "value": "The value of typeof(NaN) is not \"boolean\"",
-            "raw": "'The value of typeof(NaN) is not \"boolean\"'"
+            "raw": "'The value of typeof(NaN) is not \"boolean\"'",
+            "start": 315,
+            "end": 358
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 271,
+        "end": 359
+      },
+      "start": 271,
+      "end": 360
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 407
 }

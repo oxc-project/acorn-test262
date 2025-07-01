@@ -1,138 +1,138 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 749,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 658,
-      "end": 689,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 662,
-          "end": 688,
           "id": {
             "type": "Identifier",
+            "name": "IsHTMLDDA",
             "start": 662,
-            "end": 671,
-            "name": "IsHTMLDDA"
+            "end": 671
           },
           "init": {
             "type": "MemberExpression",
-            "start": 674,
-            "end": 688,
             "object": {
               "type": "Identifier",
+              "name": "$262",
               "start": 674,
-              "end": 678,
-              "name": "$262"
+              "end": 678
             },
             "property": {
               "type": "Identifier",
+              "name": "IsHTMLDDA",
               "start": 679,
-              "end": 688,
-              "name": "IsHTMLDDA"
+              "end": 688
             },
             "optional": false,
-            "computed": false
-          }
+            "computed": false,
+            "start": 674,
+            "end": 688
+          },
+          "start": 662,
+          "end": 688
         }
-      ]
+      ],
+      "start": 658,
+      "end": 689
     },
     {
       "type": "ExpressionStatement",
-      "start": 691,
-      "end": 710,
       "expression": {
         "type": "CallExpression",
-        "start": 691,
-        "end": 709,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 691,
-          "end": 697,
-          "name": "assert"
+          "end": 697
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 698,
-            "end": 708,
             "operator": "!",
             "argument": {
               "type": "Identifier",
+              "name": "IsHTMLDDA",
               "start": 699,
-              "end": 708,
-              "name": "IsHTMLDDA"
+              "end": 708
             },
-            "prefix": true
+            "prefix": true,
+            "start": 698,
+            "end": 708
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 691,
+        "end": 709
+      },
+      "start": 691,
+      "end": 710
     },
     {
       "type": "ExpressionStatement",
-      "start": 711,
-      "end": 748,
       "expression": {
         "type": "CallExpression",
-        "start": 711,
-        "end": 747,
         "callee": {
           "type": "MemberExpression",
-          "start": 711,
-          "end": 727,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 711,
-            "end": 717,
-            "name": "assert"
+            "end": 717
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 718,
-            "end": 727,
-            "name": "sameValue"
+            "end": 727
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 711,
+          "end": 727
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 728,
-            "end": 739,
             "operator": "!",
             "argument": {
               "type": "UnaryExpression",
-              "start": 729,
-              "end": 739,
               "operator": "!",
               "argument": {
                 "type": "Identifier",
+                "name": "IsHTMLDDA",
                 "start": 730,
-                "end": 739,
-                "name": "IsHTMLDDA"
+                "end": 739
               },
-              "prefix": true
+              "prefix": true,
+              "start": 729,
+              "end": 739
             },
-            "prefix": true
+            "prefix": true,
+            "start": 728,
+            "end": 739
           },
           {
             "type": "Literal",
-            "start": 741,
-            "end": 746,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 741,
+            "end": 746
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 711,
+        "end": 747
+      },
+      "start": 711,
+      "end": 748
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 749
 }

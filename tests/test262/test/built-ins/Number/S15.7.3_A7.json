@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 466,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 349,
-      "end": 465,
       "expression": {
         "type": "CallExpression",
-        "start": 349,
-        "end": 464,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 349,
-          "end": 355,
-          "name": "assert"
+          "end": 355
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 359,
-            "end": 399,
             "callee": {
               "type": "MemberExpression",
-              "start": 359,
-              "end": 391,
               "object": {
                 "type": "MemberExpression",
-                "start": 359,
-                "end": 377,
                 "object": {
                   "type": "Identifier",
+                  "name": "Function",
                   "start": 359,
-                  "end": 367,
-                  "name": "Function"
+                  "end": 367
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "prototype",
                   "start": 368,
-                  "end": 377,
-                  "name": "prototype"
+                  "end": 377
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 359,
+                "end": 377
               },
               "property": {
                 "type": "Identifier",
+                "name": "isPrototypeOf",
                 "start": 378,
-                "end": 391,
-                "name": "isPrototypeOf"
+                "end": 391
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 359,
+              "end": 391
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "Number",
                 "start": 392,
-                "end": 398,
-                "name": "Number"
+                "end": 398
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 359,
+            "end": 399
           },
           {
             "type": "Literal",
-            "start": 403,
-            "end": 462,
             "value": "Function.prototype.isPrototypeOf(Number) must return true",
-            "raw": "'Function.prototype.isPrototypeOf(Number) must return true'"
+            "raw": "'Function.prototype.isPrototypeOf(Number) must return true'",
+            "start": 403,
+            "end": 462
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 349,
+        "end": 464
+      },
+      "start": 349,
+      "end": 465
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 466
 }

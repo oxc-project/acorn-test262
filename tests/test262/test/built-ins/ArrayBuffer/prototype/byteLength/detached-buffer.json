@@ -1,138 +1,138 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 570,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 449,
-      "end": 477,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 453,
-          "end": 476,
           "id": {
             "type": "Identifier",
+            "name": "ab",
             "start": 453,
-            "end": 455,
-            "name": "ab"
+            "end": 455
           },
           "init": {
             "type": "NewExpression",
-            "start": 458,
-            "end": 476,
             "callee": {
               "type": "Identifier",
+              "name": "ArrayBuffer",
               "start": 462,
-              "end": 473,
-              "name": "ArrayBuffer"
+              "end": 473
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 474,
-                "end": 475,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 474,
+                "end": 475
               }
-            ]
-          }
+            ],
+            "start": 458,
+            "end": 476
+          },
+          "start": 453,
+          "end": 476
         }
-      ]
+      ],
+      "start": 449,
+      "end": 477
     },
     {
       "type": "ExpressionStatement",
-      "start": 479,
-      "end": 497,
       "expression": {
         "type": "CallExpression",
-        "start": 479,
-        "end": 496,
         "callee": {
           "type": "Identifier",
+          "name": "$DETACHBUFFER",
           "start": 479,
-          "end": 492,
-          "name": "$DETACHBUFFER"
+          "end": 492
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ab",
             "start": 493,
-            "end": 495,
-            "name": "ab"
+            "end": 495
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 479,
+        "end": 496
+      },
+      "start": 479,
+      "end": 497
     },
     {
       "type": "ExpressionStatement",
-      "start": 499,
-      "end": 569,
       "expression": {
         "type": "CallExpression",
-        "start": 499,
-        "end": 568,
         "callee": {
           "type": "MemberExpression",
-          "start": 499,
-          "end": 515,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 499,
-            "end": 505,
-            "name": "assert"
+            "end": 505
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 506,
-            "end": 515,
-            "name": "sameValue"
+            "end": 515
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 499,
+          "end": 515
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 516,
-            "end": 529,
             "object": {
               "type": "Identifier",
+              "name": "ab",
               "start": 516,
-              "end": 518,
-              "name": "ab"
+              "end": 518
             },
             "property": {
               "type": "Identifier",
+              "name": "byteLength",
               "start": 519,
-              "end": 529,
-              "name": "byteLength"
+              "end": 529
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 516,
+            "end": 529
           },
           {
             "type": "Literal",
-            "start": 531,
-            "end": 532,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 531,
+            "end": 532
           },
           {
             "type": "Literal",
-            "start": 534,
-            "end": 567,
             "value": "The value of ab.byteLength is 0",
-            "raw": "'The value of ab.byteLength is 0'"
+            "raw": "'The value of ab.byteLength is 0'",
+            "start": 534,
+            "end": 567
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 499,
+        "end": 568
+      },
+      "start": 499,
+      "end": 569
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 570
 }

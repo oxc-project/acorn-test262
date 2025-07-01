@@ -1,234 +1,234 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1016,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 702,
-      "end": 722,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 706,
-          "end": 721,
           "id": {
             "type": "Identifier",
+            "name": "a",
             "start": 706,
-            "end": 707,
-            "name": "a"
+            "end": 707
           },
           "init": {
             "type": "MetaProperty",
-            "start": 710,
-            "end": 721,
             "meta": {
               "type": "Identifier",
+              "name": "import",
               "start": 710,
-              "end": 716,
-              "name": "import"
+              "end": 716
             },
             "property": {
               "type": "Identifier",
+              "name": "meta",
               "start": 717,
-              "end": 721,
-              "name": "meta"
-            }
-          }
+              "end": 721
+            },
+            "start": 710,
+            "end": 721
+          },
+          "start": 706,
+          "end": 721
         }
-      ]
+      ],
+      "start": 702,
+      "end": 722
     },
     {
       "type": "VariableDeclaration",
-      "start": 723,
-      "end": 768,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 727,
-          "end": 767,
           "id": {
             "type": "Identifier",
+            "name": "b",
             "start": 727,
-            "end": 728,
-            "name": "b"
+            "end": 728
           },
           "init": {
             "type": "CallExpression",
-            "start": 731,
-            "end": 767,
             "callee": {
               "type": "FunctionExpression",
-              "start": 731,
-              "end": 765,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 742,
-                "end": 765,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 744,
-                    "end": 763,
                     "argument": {
                       "type": "MetaProperty",
-                      "start": 751,
-                      "end": 762,
                       "meta": {
                         "type": "Identifier",
+                        "name": "import",
                         "start": 751,
-                        "end": 757,
-                        "name": "import"
+                        "end": 757
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "meta",
                         "start": 758,
-                        "end": 762,
-                        "name": "meta"
-                      }
-                    }
+                        "end": 762
+                      },
+                      "start": 751,
+                      "end": 762
+                    },
+                    "start": 744,
+                    "end": 763
                   }
-                ]
+                ],
+                "start": 742,
+                "end": 765
               },
-              "expression": false
+              "expression": false,
+              "start": 731,
+              "end": 765
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 731,
+            "end": 767
+          },
+          "start": 727,
+          "end": 767
         }
-      ]
+      ],
+      "start": 723,
+      "end": 768
     },
     {
       "type": "ExpressionStatement",
-      "start": 770,
-      "end": 891,
       "expression": {
         "type": "CallExpression",
-        "start": 770,
-        "end": 890,
         "callee": {
           "type": "MemberExpression",
-          "start": 770,
-          "end": 786,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 770,
-            "end": 776,
-            "name": "assert"
+            "end": 776
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 777,
-            "end": 786,
-            "name": "sameValue"
+            "end": 786
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 770,
+          "end": 786
         },
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 787,
-            "end": 798,
             "meta": {
               "type": "Identifier",
+              "name": "import",
               "start": 787,
-              "end": 793,
-              "name": "import"
+              "end": 793
             },
             "property": {
               "type": "Identifier",
+              "name": "meta",
               "start": 794,
-              "end": 798,
-              "name": "meta"
-            }
+              "end": 798
+            },
+            "start": 787,
+            "end": 798
           },
           {
             "type": "Identifier",
+            "name": "a",
             "start": 800,
-            "end": 801,
-            "name": "a"
+            "end": 801
           },
           {
             "type": "Literal",
-            "start": 820,
-            "end": 889,
             "value": "import.meta accessed directly and accessed via variable declaration",
-            "raw": "\"import.meta accessed directly and accessed via variable declaration\""
+            "raw": "\"import.meta accessed directly and accessed via variable declaration\"",
+            "start": 820,
+            "end": 889
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 770,
+        "end": 890
+      },
+      "start": 770,
+      "end": 891
     },
     {
       "type": "ExpressionStatement",
-      "start": 893,
-      "end": 1015,
       "expression": {
         "type": "CallExpression",
-        "start": 893,
-        "end": 1014,
         "callee": {
           "type": "MemberExpression",
-          "start": 893,
-          "end": 909,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 893,
-            "end": 899,
-            "name": "assert"
+            "end": 899
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 900,
-            "end": 909,
-            "name": "sameValue"
+            "end": 909
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 893,
+          "end": 909
         },
         "arguments": [
           {
             "type": "MetaProperty",
-            "start": 910,
-            "end": 921,
             "meta": {
               "type": "Identifier",
+              "name": "import",
               "start": 910,
-              "end": 916,
-              "name": "import"
+              "end": 916
             },
             "property": {
               "type": "Identifier",
+              "name": "meta",
               "start": 917,
-              "end": 921,
-              "name": "meta"
-            }
+              "end": 921
+            },
+            "start": 910,
+            "end": 921
           },
           {
             "type": "Identifier",
+            "name": "b",
             "start": 923,
-            "end": 924,
-            "name": "b"
+            "end": 924
           },
           {
             "type": "Literal",
-            "start": 943,
-            "end": 1013,
             "value": "import.meta accessed directly and accessed via function return value",
-            "raw": "\"import.meta accessed directly and accessed via function return value\""
+            "raw": "\"import.meta accessed directly and accessed via function return value\"",
+            "start": 943,
+            "end": 1013
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 893,
+        "end": 1014
+      },
+      "start": 893,
+      "end": 1015
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1016
 }

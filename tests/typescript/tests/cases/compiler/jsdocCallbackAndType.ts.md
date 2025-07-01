@@ -2,90 +2,90 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 63,
-  "end": 80,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 63,
-      "end": 69,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 67,
-          "end": 68,
           "id": {
             "type": "Identifier",
-            "start": 67,
-            "end": 68,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 67,
+            "end": 68
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 67,
+          "end": 68
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 63,
+      "end": 69
     },
     {
       "type": "ExpressionStatement",
-      "start": 70,
-      "end": 74,
       "expression": {
         "type": "CallExpression",
-        "start": 70,
-        "end": 73,
         "callee": {
           "type": "Identifier",
-          "start": 70,
-          "end": 71,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 70,
+          "end": 71
         },
         "typeArguments": null,
         "arguments": [],
-        "optional": false
+        "optional": false,
+        "start": 70,
+        "end": 73
       },
-      "directive": null
+      "directive": null,
+      "start": 70,
+      "end": 74
     },
     {
       "type": "ExpressionStatement",
-      "start": 75,
-      "end": 80,
       "expression": {
         "type": "CallExpression",
-        "start": 75,
-        "end": 79,
         "callee": {
           "type": "Identifier",
-          "start": 75,
-          "end": 76,
           "decorators": [],
           "name": "b",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 75,
+          "end": 76
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 77,
-            "end": 78,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 77,
+            "end": 78
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 75,
+        "end": 79
       },
-      "directive": null
+      "directive": null,
+      "start": 75,
+      "end": 80
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 63,
+  "end": 80
 }
 ```

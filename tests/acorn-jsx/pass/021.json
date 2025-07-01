@@ -1,66 +1,66 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 11,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 0,
-      "end": 11,
       "expression": {
         "type": "JSXElement",
-        "start": 0,
-        "end": 11,
         "openingElement": {
           "type": "JSXOpeningElement",
-          "start": 0,
-          "end": 5,
           "name": {
             "type": "JSXMemberExpression",
-            "start": 1,
-            "end": 4,
             "object": {
               "type": "JSXIdentifier",
+              "name": "a",
               "start": 1,
-              "end": 2,
-              "name": "a"
+              "end": 2
             },
             "property": {
               "type": "JSXIdentifier",
+              "name": "b",
               "start": 3,
-              "end": 4,
-              "name": "b"
-            }
+              "end": 4
+            },
+            "start": 1,
+            "end": 4
           },
           "attributes": [],
-          "selfClosing": false
+          "selfClosing": false,
+          "start": 0,
+          "end": 5
         },
         "children": [],
         "closingElement": {
           "type": "JSXClosingElement",
-          "start": 5,
-          "end": 11,
           "name": {
             "type": "JSXMemberExpression",
-            "start": 7,
-            "end": 10,
             "object": {
               "type": "JSXIdentifier",
+              "name": "a",
               "start": 7,
-              "end": 8,
-              "name": "a"
+              "end": 8
             },
             "property": {
               "type": "JSXIdentifier",
+              "name": "b",
               "start": 9,
-              "end": 10,
-              "name": "b"
-            }
-          }
-        }
-      }
+              "end": 10
+            },
+            "start": 7,
+            "end": 10
+          },
+          "start": 5,
+          "end": 11
+        },
+        "start": 0,
+        "end": 11
+      },
+      "start": 0,
+      "end": 11
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 11
 }

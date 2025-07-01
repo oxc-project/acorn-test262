@@ -1,115 +1,115 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 384,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 264,
-      "end": 288,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 268,
-          "end": 287,
           "id": {
             "type": "Identifier",
+            "name": "indirectEval",
             "start": 268,
-            "end": 280,
-            "name": "indirectEval"
+            "end": 280
           },
           "init": {
             "type": "Identifier",
+            "name": "eval",
             "start": 283,
-            "end": 287,
-            "name": "eval"
-          }
+            "end": 287
+          },
+          "start": 268,
+          "end": 287
         }
-      ]
+      ],
+      "start": 264,
+      "end": 288
     },
     {
       "type": "ExpressionStatement",
-      "start": 289,
-      "end": 383,
       "expression": {
         "type": "CallExpression",
-        "start": 289,
-        "end": 382,
         "callee": {
           "type": "MemberExpression",
-          "start": 289,
-          "end": 302,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 289,
-            "end": 295,
-            "name": "assert"
+            "end": 295
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 296,
-            "end": 302,
-            "name": "throws"
+            "end": 302
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 289,
+          "end": 302
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 303,
-            "end": 314,
-            "name": "SyntaxError"
+            "end": 314
           },
           {
             "type": "FunctionExpression",
-            "start": 316,
-            "end": 381,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 327,
-              "end": 381,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 334,
-                  "end": 379,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 334,
-                    "end": 378,
                     "callee": {
                       "type": "Identifier",
+                      "name": "indirectEval",
                       "start": 334,
-                      "end": 346,
-                      "name": "indirectEval"
+                      "end": 346
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 347,
-                        "end": 377,
                         "value": "'use strict'; var arguments;",
-                        "raw": "\"'use strict'; var arguments;\""
+                        "raw": "\"'use strict'; var arguments;\"",
+                        "start": 347,
+                        "end": 377
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 334,
+                    "end": 378
+                  },
+                  "start": 334,
+                  "end": 379
                 }
-              ]
+              ],
+              "start": 327,
+              "end": 381
             },
-            "expression": false
+            "expression": false,
+            "start": 316,
+            "end": 381
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 289,
+        "end": 382
+      },
+      "start": 289,
+      "end": 383
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 384
 }

@@ -1,185 +1,185 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2057,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1906,
-      "end": 2056,
       "expression": {
         "type": "CallExpression",
-        "start": 1906,
-        "end": 2055,
         "callee": {
           "type": "Identifier",
+          "name": "testWithTypedArrayConstructors",
           "start": 1906,
-          "end": 1936,
-          "name": "testWithTypedArrayConstructors"
+          "end": 1936
         },
         "arguments": [
           {
             "type": "FunctionExpression",
-            "start": 1937,
-            "end": 2054,
             "id": null,
             "generator": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "TA",
                 "start": 1946,
-                "end": 1948,
-                "name": "TA"
+                "end": 1948
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 1950,
-              "end": 2054,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 1954,
-                  "end": 1981,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 1958,
-                      "end": 1980,
                       "id": {
                         "type": "Identifier",
+                        "name": "typedArray",
                         "start": 1958,
-                        "end": 1968,
-                        "name": "typedArray"
+                        "end": 1968
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 1971,
-                        "end": 1980,
                         "callee": {
                           "type": "Identifier",
+                          "name": "TA",
                           "start": 1975,
-                          "end": 1977,
-                          "name": "TA"
+                          "end": 1977
                         },
                         "arguments": [
                           {
                             "type": "Literal",
-                            "start": 1978,
-                            "end": 1979,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "start": 1978,
+                            "end": 1979
                           }
-                        ]
-                      }
+                        ],
+                        "start": 1971,
+                        "end": 1980
+                      },
+                      "start": 1958,
+                      "end": 1980
                     }
-                  ]
+                  ],
+                  "start": 1954,
+                  "end": 1981
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1985,
-                  "end": 2052,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 1985,
-                    "end": 2051,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 1985,
-                      "end": 1998,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 1985,
-                        "end": 1991,
-                        "name": "assert"
+                        "end": 1991
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "throws",
                         "start": 1992,
-                        "end": 1998,
-                        "name": "throws"
+                        "end": 1998
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 1985,
+                      "end": 1998
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "TypeError",
                         "start": 1999,
-                        "end": 2008,
-                        "name": "TypeError"
+                        "end": 2008
                       },
                       {
                         "type": "FunctionExpression",
-                        "start": 2010,
-                        "end": 2050,
                         "id": null,
                         "generator": false,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "BlockStatement",
-                          "start": 2021,
-                          "end": 2050,
                           "body": [
                             {
                               "type": "ExpressionStatement",
-                              "start": 2027,
-                              "end": 2046,
                               "expression": {
                                 "type": "AssignmentExpression",
-                                "start": 2027,
-                                "end": 2045,
                                 "operator": "=",
                                 "left": {
                                   "type": "MemberExpression",
-                                  "start": 2027,
-                                  "end": 2040,
                                   "object": {
                                     "type": "Identifier",
+                                    "name": "typedArray",
                                     "start": 2027,
-                                    "end": 2037,
-                                    "name": "typedArray"
+                                    "end": 2037
                                   },
                                   "property": {
                                     "type": "Literal",
-                                    "start": 2038,
-                                    "end": 2039,
                                     "value": 0,
-                                    "raw": "0"
+                                    "raw": "0",
+                                    "start": 2038,
+                                    "end": 2039
                                   },
                                   "optional": false,
-                                  "computed": true
+                                  "computed": true,
+                                  "start": 2027,
+                                  "end": 2040
                                 },
                                 "right": {
                                   "type": "Literal",
-                                  "start": 2043,
-                                  "end": 2045,
                                   "value": null,
                                   "raw": "1n",
-                                  "bigint": "1"
-                                }
-                              }
+                                  "bigint": "1",
+                                  "start": 2043,
+                                  "end": 2045
+                                },
+                                "start": 2027,
+                                "end": 2045
+                              },
+                              "start": 2027,
+                              "end": 2046
                             }
-                          ]
+                          ],
+                          "start": 2021,
+                          "end": 2050
                         },
-                        "expression": false
+                        "expression": false,
+                        "start": 2010,
+                        "end": 2050
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 1985,
+                    "end": 2051
+                  },
+                  "start": 1985,
+                  "end": 2052
                 }
-              ]
+              ],
+              "start": 1950,
+              "end": 2054
             },
-            "expression": false
+            "expression": false,
+            "start": 1937,
+            "end": 2054
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1906,
+        "end": 2055
+      },
+      "start": 1906,
+      "end": 2056
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2057
 }

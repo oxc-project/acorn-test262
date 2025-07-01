@@ -1,257 +1,257 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 523,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 291,
-      "end": 343,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 297,
-          "end": 342,
           "id": {
             "type": "Identifier",
+            "name": "nov94",
             "start": 297,
-            "end": 302,
-            "name": "nov94"
+            "end": 302
           },
           "init": {
             "type": "NewExpression",
-            "start": 305,
-            "end": 342,
             "callee": {
               "type": "MemberExpression",
-              "start": 309,
-              "end": 332,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 309,
-                "end": 317,
-                "name": "Temporal"
+                "end": 317
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainYearMonth",
                 "start": 318,
-                "end": 332,
-                "name": "PlainYearMonth"
+                "end": 332
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 309,
+              "end": 332
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 333,
-                "end": 337,
                 "value": 1994,
-                "raw": "1994"
+                "raw": "1994",
+                "start": 333,
+                "end": 337
               },
               {
                 "type": "Literal",
-                "start": 339,
-                "end": 341,
                 "value": 11,
-                "raw": "11"
+                "raw": "11",
+                "start": 339,
+                "end": 341
               }
-            ]
-          }
+            ],
+            "start": 305,
+            "end": 342
+          },
+          "start": 297,
+          "end": 342
         }
-      ]
+      ],
+      "start": 291,
+      "end": 343
     },
     {
       "type": "VariableDeclaration",
-      "start": 344,
-      "end": 395,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 350,
-          "end": 394,
           "id": {
             "type": "Identifier",
+            "name": "jun13",
             "start": 350,
-            "end": 355,
-            "name": "jun13"
+            "end": 355
           },
           "init": {
             "type": "NewExpression",
-            "start": 358,
-            "end": 394,
             "callee": {
               "type": "MemberExpression",
-              "start": 362,
-              "end": 385,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 362,
-                "end": 370,
-                "name": "Temporal"
+                "end": 370
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainYearMonth",
                 "start": 371,
-                "end": 385,
-                "name": "PlainYearMonth"
+                "end": 385
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 362,
+              "end": 385
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 386,
-                "end": 390,
                 "value": 2013,
-                "raw": "2013"
+                "raw": "2013",
+                "start": 386,
+                "end": 390
               },
               {
                 "type": "Literal",
-                "start": 392,
-                "end": 393,
                 "value": 6,
-                "raw": "6"
+                "raw": "6",
+                "start": 392,
+                "end": 393
               }
-            ]
-          }
+            ],
+            "start": 358,
+            "end": 394
+          },
+          "start": 350,
+          "end": 394
         }
-      ]
+      ],
+      "start": 344,
+      "end": 395
     },
     {
       "type": "VariableDeclaration",
-      "start": 396,
-      "end": 428,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 402,
-          "end": 427,
           "id": {
             "type": "Identifier",
+            "name": "diff",
             "start": 402,
-            "end": 406,
-            "name": "diff"
+            "end": 406
           },
           "init": {
             "type": "CallExpression",
-            "start": 409,
-            "end": 427,
             "callee": {
               "type": "MemberExpression",
-              "start": 409,
-              "end": 420,
               "object": {
                 "type": "Identifier",
+                "name": "jun13",
                 "start": 409,
-                "end": 414,
-                "name": "jun13"
+                "end": 414
               },
               "property": {
                 "type": "Identifier",
+                "name": "since",
                 "start": 415,
-                "end": 420,
-                "name": "since"
+                "end": 420
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 409,
+              "end": 420
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "nov94",
                 "start": 421,
-                "end": 426,
-                "name": "nov94"
+                "end": 426
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 409,
+            "end": 427
+          },
+          "start": 402,
+          "end": 427
         }
-      ]
+      ],
+      "start": 396,
+      "end": 428
     },
     {
       "type": "ExpressionStatement",
-      "start": 430,
-      "end": 522,
       "expression": {
         "type": "CallExpression",
-        "start": 430,
-        "end": 521,
         "callee": {
           "type": "MemberExpression",
-          "start": 430,
-          "end": 466,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 430,
-            "end": 445,
-            "name": "TemporalHelpers"
+            "end": 445
           },
           "property": {
             "type": "Identifier",
+            "name": "assertDurationsEqual",
             "start": 446,
-            "end": 466,
-            "name": "assertDurationsEqual"
+            "end": 466
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 430,
+          "end": 466
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "diff",
             "start": 467,
-            "end": 471,
-            "name": "diff"
+            "end": 471
           },
           {
             "type": "CallExpression",
-            "start": 473,
-            "end": 491,
             "callee": {
               "type": "MemberExpression",
-              "start": 473,
-              "end": 484,
               "object": {
                 "type": "Identifier",
+                "name": "nov94",
                 "start": 473,
-                "end": 478,
-                "name": "nov94"
+                "end": 478
               },
               "property": {
                 "type": "Identifier",
+                "name": "until",
                 "start": 479,
-                "end": 484,
-                "name": "until"
+                "end": 484
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 473,
+              "end": 484
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "jun13",
                 "start": 485,
-                "end": 490,
-                "name": "jun13"
+                "end": 490
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 473,
+            "end": 491
           },
           {
             "type": "Literal",
-            "start": 493,
-            "end": 520,
             "value": "Since is inverse of until",
-            "raw": "'Since is inverse of until'"
+            "raw": "'Since is inverse of until'",
+            "start": 493,
+            "end": 520
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 430,
+        "end": 521
+      },
+      "start": 430,
+      "end": 522
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 523
 }

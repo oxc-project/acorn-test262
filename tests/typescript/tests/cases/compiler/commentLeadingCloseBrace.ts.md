@@ -2,21 +2,17 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 242,
   "body": [
     {
       "type": "TSDeclareFunction",
-      "start": 0,
-      "end": 51,
       "id": {
         "type": "Identifier",
-        "start": 17,
-        "end": 36,
         "decorators": [],
         "name": "commentedParameters",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 17,
+        "end": 36
       },
       "generator": false,
       "async": false,
@@ -25,48 +21,48 @@ __ESTREE_TEST__:PASS:
       "params": [
         {
           "type": "RestElement",
-          "start": 37,
-          "end": 44,
           "decorators": [],
           "argument": {
             "type": "Identifier",
-            "start": 40,
-            "end": 44,
             "decorators": [],
             "name": "args",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 40,
+            "end": 44
           },
           "optional": false,
           "typeAnnotation": null,
-          "value": null
+          "value": null,
+          "start": 37,
+          "end": 44
         }
       ],
       "returnType": {
         "type": "TSTypeAnnotation",
-        "start": 45,
-        "end": 50,
         "typeAnnotation": {
           "type": "TSAnyKeyword",
           "start": 47,
           "end": 50
-        }
+        },
+        "start": 45,
+        "end": 50
       },
       "body": null,
-      "expression": false
+      "expression": false,
+      "start": 0,
+      "end": 51
     },
     {
       "type": "FunctionDeclaration",
-      "start": 53,
-      "end": 242,
       "id": {
         "type": "Identifier",
-        "start": 62,
-        "end": 68,
         "decorators": [],
         "name": "ifelse",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 62,
+        "end": 68
       },
       "generator": false,
       "async": false,
@@ -76,142 +72,146 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 71,
-        "end": 242,
         "body": [
           {
             "type": "IfStatement",
-            "start": 77,
-            "end": 240,
             "test": {
               "type": "CallExpression",
-              "start": 81,
-              "end": 106,
               "callee": {
                 "type": "Identifier",
-                "start": 81,
-                "end": 100,
                 "decorators": [],
                 "name": "commentedParameters",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 81,
+                "end": 100
               },
               "typeArguments": null,
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 101,
-                  "end": 102,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 101,
+                  "end": 102
                 },
                 {
                   "type": "Literal",
-                  "start": 104,
-                  "end": 105,
                   "value": 2,
-                  "raw": "2"
+                  "raw": "2",
+                  "start": 104,
+                  "end": 105
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 81,
+              "end": 106
             },
             "consequent": {
               "type": "BlockStatement",
-              "start": 108,
-              "end": 192,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 139,
-                  "end": 165,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 139,
-                    "end": 164,
                     "callee": {
                       "type": "Identifier",
-                      "start": 139,
-                      "end": 158,
                       "decorators": [],
                       "name": "commentedParameters",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 139,
+                      "end": 158
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 159,
-                        "end": 160,
                         "value": 3,
-                        "raw": "3"
+                        "raw": "3",
+                        "start": 159,
+                        "end": 160
                       },
                       {
                         "type": "Literal",
-                        "start": 162,
-                        "end": 163,
                         "value": 4,
-                        "raw": "4"
+                        "raw": "4",
+                        "start": 162,
+                        "end": 163
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 139,
+                    "end": 164
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 139,
+                  "end": 165
                 }
-              ]
+              ],
+              "start": 108,
+              "end": 192
             },
             "alternate": {
               "type": "BlockStatement",
-              "start": 198,
-              "end": 240,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 208,
-                  "end": 234,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 208,
-                    "end": 233,
                     "callee": {
                       "type": "Identifier",
-                      "start": 208,
-                      "end": 227,
                       "decorators": [],
                       "name": "commentedParameters",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 208,
+                      "end": 227
                     },
                     "typeArguments": null,
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 228,
-                        "end": 229,
                         "value": 5,
-                        "raw": "5"
+                        "raw": "5",
+                        "start": 228,
+                        "end": 229
                       },
                       {
                         "type": "Literal",
-                        "start": 231,
-                        "end": 232,
                         "value": 6,
-                        "raw": "6"
+                        "raw": "6",
+                        "start": 231,
+                        "end": 232
                       }
                     ],
-                    "optional": false
+                    "optional": false,
+                    "start": 208,
+                    "end": 233
                   },
-                  "directive": null
+                  "directive": null,
+                  "start": 208,
+                  "end": 234
                 }
-              ]
-            }
+              ],
+              "start": 198,
+              "end": 240
+            },
+            "start": 77,
+            "end": 240
           }
-        ]
+        ],
+        "start": 71,
+        "end": 242
       },
-      "expression": false
+      "expression": false,
+      "start": 53,
+      "end": 242
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 242
 }
 ```

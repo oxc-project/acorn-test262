@@ -1,47 +1,37 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 416,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 300,
-      "end": 349,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 309,
-        "end": 310,
-        "name": "f"
+        "end": 310
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 313,
-        "end": 349,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 315,
-            "end": 328,
             "expression": {
               "type": "Literal",
-              "start": 315,
-              "end": 327,
               "value": "use strict",
-              "raw": "\"use strict\""
+              "raw": "\"use strict\"",
+              "start": 315,
+              "end": 327
             },
-            "directive": "use strict"
+            "directive": "use strict",
+            "start": 315,
+            "end": 328
           },
           {
             "type": "ReturnStatement",
-            "start": 329,
-            "end": 348,
             "argument": {
               "type": "BinaryExpression",
-              "start": 336,
-              "end": 347,
               "left": {
                 "type": "ThisExpression",
                 "start": 336,
@@ -50,16 +40,24 @@
               "operator": "===",
               "right": {
                 "type": "Literal",
-                "start": 343,
-                "end": 347,
                 "value": null,
-                "raw": "null"
-              }
-            }
+                "raw": "null",
+                "start": 343,
+                "end": 347
+              },
+              "start": 336,
+              "end": 347
+            },
+            "start": 329,
+            "end": 348
           }
-        ]
+        ],
+        "start": 313,
+        "end": 349
       },
-      "expression": false
+      "expression": false,
+      "start": 300,
+      "end": 349
     },
     {
       "type": "EmptyStatement",
@@ -68,71 +66,73 @@
     },
     {
       "type": "IfStatement",
-      "start": 351,
-      "end": 415,
       "test": {
         "type": "UnaryExpression",
-        "start": 355,
-        "end": 370,
         "operator": "!",
         "argument": {
           "type": "CallExpression",
-          "start": 357,
-          "end": 370,
           "callee": {
             "type": "MemberExpression",
-            "start": 357,
-            "end": 364,
             "object": {
               "type": "Identifier",
+              "name": "f",
               "start": 357,
-              "end": 358,
-              "name": "f"
+              "end": 358
             },
             "property": {
               "type": "Identifier",
+              "name": "apply",
               "start": 359,
-              "end": 364,
-              "name": "apply"
+              "end": 364
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 357,
+            "end": 364
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 365,
-              "end": 369,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "start": 365,
+              "end": 369
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 357,
+          "end": 370
         },
-        "prefix": true
+        "prefix": true,
+        "start": 355,
+        "end": 370
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 371,
-        "end": 415,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 377,
-            "end": 413,
             "argument": {
               "type": "Literal",
-              "start": 383,
-              "end": 412,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
-            }
+              "raw": "\"'this' had incorrect value!\"",
+              "start": 383,
+              "end": 412
+            },
+            "start": 377,
+            "end": 413
           }
-        ]
+        ],
+        "start": 371,
+        "end": 415
       },
-      "alternate": null
+      "alternate": null,
+      "start": 351,
+      "end": 415
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 416
 }

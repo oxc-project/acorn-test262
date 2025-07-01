@@ -1,155 +1,155 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 825,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 677,
-      "end": 767,
       "expression": {
         "type": "CallExpression",
-        "start": 677,
-        "end": 766,
         "callee": {
           "type": "MemberExpression",
-          "start": 677,
-          "end": 693,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 677,
-            "end": 683,
-            "name": "assert"
+            "end": 683
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 684,
-            "end": 693,
-            "name": "sameValue"
+            "end": 693
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 677,
+          "end": 693
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 694,
-            "end": 715,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 694,
-              "end": 707,
-              "name": "isConstructor"
+              "end": 707
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 708,
-                "end": 714,
-                "name": "escape"
+                "end": 714
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 694,
+            "end": 715
           },
           {
             "type": "Literal",
-            "start": 717,
-            "end": 722,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 717,
+            "end": 722
           },
           {
             "type": "Literal",
-            "start": 724,
-            "end": 765,
             "value": "isConstructor(escape) must return false",
-            "raw": "'isConstructor(escape) must return false'"
+            "raw": "'isConstructor(escape) must return false'",
+            "start": 724,
+            "end": 765
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 677,
+        "end": 766
+      },
+      "start": 677,
+      "end": 767
     },
     {
       "type": "ExpressionStatement",
-      "start": 769,
-      "end": 823,
       "expression": {
         "type": "CallExpression",
-        "start": 769,
-        "end": 822,
         "callee": {
           "type": "MemberExpression",
-          "start": 769,
-          "end": 782,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 769,
-            "end": 775,
-            "name": "assert"
+            "end": 775
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 776,
-            "end": 782,
-            "name": "throws"
+            "end": 782
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 769,
+          "end": 782
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 783,
-            "end": 792,
-            "name": "TypeError"
+            "end": 792
           },
           {
             "type": "ArrowFunctionExpression",
-            "start": 794,
-            "end": 821,
             "expression": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 800,
-              "end": 821,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 804,
-                  "end": 819,
                   "expression": {
                     "type": "NewExpression",
-                    "start": 804,
-                    "end": 818,
                     "callee": {
                       "type": "Identifier",
+                      "name": "escape",
                       "start": 808,
-                      "end": 814,
-                      "name": "escape"
+                      "end": 814
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 815,
-                        "end": 817,
                         "value": "",
-                        "raw": "''"
+                        "raw": "''",
+                        "start": 815,
+                        "end": 817
                       }
-                    ]
-                  }
+                    ],
+                    "start": 804,
+                    "end": 818
+                  },
+                  "start": 804,
+                  "end": 819
                 }
-              ]
+              ],
+              "start": 800,
+              "end": 821
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 794,
+            "end": 821
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 769,
+        "end": 822
+      },
+      "start": 769,
+      "end": 823
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 825
 }

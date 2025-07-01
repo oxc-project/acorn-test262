@@ -1,729 +1,729 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1220,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 381,
-      "end": 457,
       "label": {
         "type": "Identifier",
+        "name": "FOR1",
         "start": 381,
-        "end": 385,
-        "name": "FOR1"
+        "end": 385
       },
       "body": {
         "type": "ForStatement",
-        "start": 388,
-        "end": 457,
         "init": {
           "type": "VariableDeclaration",
-          "start": 392,
-          "end": 399,
           "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 396,
-              "end": 399,
               "id": {
                 "type": "Identifier",
+                "name": "i",
                 "start": 396,
-                "end": 397,
-                "name": "i"
+                "end": 397
               },
               "init": {
                 "type": "Literal",
+                "value": 1,
+                "raw": "1",
                 "start": 398,
-                "end": 399,
-                "value": 1,
-                "raw": "1"
-              }
+                "end": 399
+              },
+              "start": 396,
+              "end": 399
             }
-          ]
+          ],
+          "start": 392,
+          "end": 399
         },
         "test": {
           "type": "BinaryExpression",
-          "start": 400,
-          "end": 403,
           "left": {
             "type": "Identifier",
+            "name": "i",
             "start": 400,
-            "end": 401,
-            "name": "i"
+            "end": 401
           },
           "operator": "<",
           "right": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 402,
-            "end": 403,
-            "value": 2,
-            "raw": "2"
-          }
+            "end": 403
+          },
+          "start": 400,
+          "end": 403
         },
         "update": {
           "type": "UpdateExpression",
-          "start": 404,
-          "end": 407,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "i",
             "start": 404,
-            "end": 405,
-            "name": "i"
-          }
+            "end": 405
+          },
+          "start": 404,
+          "end": 407
         },
         "body": {
           "type": "BlockStatement",
-          "start": 408,
-          "end": 457,
           "body": [
             {
               "type": "LabeledStatement",
-              "start": 412,
-              "end": 455,
               "label": {
                 "type": "Identifier",
+                "name": "LABEL1",
                 "start": 412,
-                "end": 418,
-                "name": "LABEL1"
+                "end": 418
               },
               "body": {
                 "type": "DoWhileStatement",
-                "start": 421,
-                "end": 455,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 424,
-                  "end": 445,
                   "body": [
                     {
                       "type": "BreakStatement",
+                      "label": null,
                       "start": 430,
-                      "end": 435,
-                      "label": null
+                      "end": 435
                     },
                     {
                       "type": "ExpressionStatement",
-                      "start": 436,
-                      "end": 441,
                       "expression": {
                         "type": "Identifier",
+                        "name": "FOR1",
                         "start": 436,
-                        "end": 440,
-                        "name": "FOR1"
-                      }
+                        "end": 440
+                      },
+                      "start": 436,
+                      "end": 441
                     }
-                  ]
+                  ],
+                  "start": 424,
+                  "end": 445
                 },
                 "test": {
                   "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
                   "start": 452,
-                  "end": 453,
-                  "value": 0,
-                  "raw": "0"
-                }
-              }
+                  "end": 453
+                },
+                "start": 421,
+                "end": 455
+              },
+              "start": 412,
+              "end": 455
             }
-          ]
-        }
-      }
+          ],
+          "start": 408,
+          "end": 457
+        },
+        "start": 388,
+        "end": 457
+      },
+      "start": 381,
+      "end": 457
     },
     {
       "type": "ExpressionStatement",
-      "start": 459,
-      "end": 589,
       "expression": {
         "type": "CallExpression",
-        "start": 459,
-        "end": 588,
         "callee": {
           "type": "MemberExpression",
-          "start": 459,
-          "end": 475,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 459,
-            "end": 465,
-            "name": "assert"
+            "end": 465
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 466,
-            "end": 475,
-            "name": "sameValue"
+            "end": 475
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 459,
+          "end": 475
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "i",
             "start": 476,
-            "end": 477,
-            "name": "i"
+            "end": 477
           },
           {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 479,
-            "end": 480,
-            "value": 2,
-            "raw": "2"
+            "end": 480
           },
           {
             "type": "Literal",
-            "start": 482,
-            "end": 587,
             "value": "#1: Since LineTerminator(U-000A) between break and Identifier not allowed break evaluates without label",
-            "raw": "'#1: Since LineTerminator(U-000A) between break and Identifier not allowed break evaluates without label'"
+            "raw": "'#1: Since LineTerminator(U-000A) between break and Identifier not allowed break evaluates without label'",
+            "start": 482,
+            "end": 587
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 459,
+        "end": 588
+      },
+      "start": 459,
+      "end": 589
     },
     {
       "type": "LabeledStatement",
-      "start": 591,
-      "end": 667,
       "label": {
         "type": "Identifier",
+        "name": "FOR2",
         "start": 591,
-        "end": 595,
-        "name": "FOR2"
+        "end": 595
       },
       "body": {
         "type": "ForStatement",
-        "start": 598,
-        "end": 667,
         "init": {
           "type": "VariableDeclaration",
-          "start": 602,
-          "end": 609,
           "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 606,
-              "end": 609,
               "id": {
                 "type": "Identifier",
+                "name": "i",
                 "start": 606,
-                "end": 607,
-                "name": "i"
+                "end": 607
               },
               "init": {
                 "type": "Literal",
+                "value": 1,
+                "raw": "1",
                 "start": 608,
-                "end": 609,
-                "value": 1,
-                "raw": "1"
-              }
+                "end": 609
+              },
+              "start": 606,
+              "end": 609
             }
-          ]
+          ],
+          "start": 602,
+          "end": 609
         },
         "test": {
           "type": "BinaryExpression",
-          "start": 610,
-          "end": 613,
           "left": {
             "type": "Identifier",
+            "name": "i",
             "start": 610,
-            "end": 611,
-            "name": "i"
+            "end": 611
           },
           "operator": "<",
           "right": {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 612,
-            "end": 613,
-            "value": 2,
-            "raw": "2"
-          }
+            "end": 613
+          },
+          "start": 610,
+          "end": 613
         },
         "update": {
           "type": "UpdateExpression",
-          "start": 614,
-          "end": 617,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "i",
             "start": 614,
-            "end": 615,
-            "name": "i"
-          }
+            "end": 615
+          },
+          "start": 614,
+          "end": 617
         },
         "body": {
           "type": "BlockStatement",
-          "start": 618,
-          "end": 667,
           "body": [
             {
               "type": "LabeledStatement",
-              "start": 622,
-              "end": 665,
               "label": {
                 "type": "Identifier",
+                "name": "LABEL2",
                 "start": 622,
-                "end": 628,
-                "name": "LABEL2"
+                "end": 628
               },
               "body": {
                 "type": "DoWhileStatement",
-                "start": 631,
-                "end": 665,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 634,
-                  "end": 655,
                   "body": [
                     {
                       "type": "BreakStatement",
+                      "label": null,
                       "start": 640,
-                      "end": 645,
-                      "label": null
+                      "end": 645
                     },
                     {
                       "type": "ExpressionStatement",
-                      "start": 646,
-                      "end": 651,
                       "expression": {
                         "type": "Identifier",
+                        "name": "FOR2",
                         "start": 646,
-                        "end": 650,
-                        "name": "FOR2"
-                      }
+                        "end": 650
+                      },
+                      "start": 646,
+                      "end": 651
                     }
-                  ]
+                  ],
+                  "start": 634,
+                  "end": 655
                 },
                 "test": {
                   "type": "Literal",
+                  "value": 0,
+                  "raw": "0",
                   "start": 662,
-                  "end": 663,
-                  "value": 0,
-                  "raw": "0"
-                }
-              }
+                  "end": 663
+                },
+                "start": 631,
+                "end": 665
+              },
+              "start": 622,
+              "end": 665
             }
-          ]
-        }
-      }
+          ],
+          "start": 618,
+          "end": 667
+        },
+        "start": 598,
+        "end": 667
+      },
+      "start": 591,
+      "end": 667
     },
     {
       "type": "ExpressionStatement",
-      "start": 669,
-      "end": 799,
       "expression": {
         "type": "CallExpression",
-        "start": 669,
-        "end": 798,
         "callee": {
           "type": "MemberExpression",
-          "start": 669,
-          "end": 685,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 669,
-            "end": 675,
-            "name": "assert"
+            "end": 675
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 676,
-            "end": 685,
-            "name": "sameValue"
+            "end": 685
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 669,
+          "end": 685
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "i",
             "start": 686,
-            "end": 687,
-            "name": "i"
+            "end": 687
           },
           {
             "type": "Literal",
+            "value": 2,
+            "raw": "2",
             "start": 689,
-            "end": 690,
-            "value": 2,
-            "raw": "2"
+            "end": 690
           },
           {
             "type": "Literal",
-            "start": 692,
-            "end": 797,
             "value": "#2: Since LineTerminator(U-000D) between break and Identifier not allowed break evaluates without label",
-            "raw": "'#2: Since LineTerminator(U-000D) between break and Identifier not allowed break evaluates without label'"
+            "raw": "'#2: Since LineTerminator(U-000D) between break and Identifier not allowed break evaluates without label'",
+            "start": 692,
+            "end": 797
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 669,
+        "end": 798
+      },
+      "start": 669,
+      "end": 799
     },
     {
       "type": "LabeledStatement",
-      "start": 801,
-      "end": 877,
       "label": {
         "type": "Identifier",
+        "name": "FOR3",
         "start": 801,
-        "end": 805,
-        "name": "FOR3"
+        "end": 805
       },
       "body": {
         "type": "ForStatement",
-        "start": 808,
-        "end": 877,
         "init": {
           "type": "VariableDeclaration",
-          "start": 812,
-          "end": 819,
           "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 816,
-              "end": 819,
               "id": {
                 "type": "Identifier",
+                "name": "i",
                 "start": 816,
-                "end": 817,
-                "name": "i"
+                "end": 817
               },
               "init": {
                 "type": "Literal",
-                "start": 818,
-                "end": 819,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 818,
+                "end": 819
+              },
+              "start": 816,
+              "end": 819
             }
-          ]
+          ],
+          "start": 812,
+          "end": 819
         },
         "test": {
           "type": "BinaryExpression",
-          "start": 820,
-          "end": 823,
           "left": {
             "type": "Identifier",
+            "name": "i",
             "start": 820,
-            "end": 821,
-            "name": "i"
+            "end": 821
           },
           "operator": "<",
           "right": {
             "type": "Literal",
-            "start": 822,
-            "end": 823,
             "value": 2,
-            "raw": "2"
-          }
+            "raw": "2",
+            "start": 822,
+            "end": 823
+          },
+          "start": 820,
+          "end": 823
         },
         "update": {
           "type": "UpdateExpression",
-          "start": 824,
-          "end": 827,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "i",
             "start": 824,
-            "end": 825,
-            "name": "i"
-          }
+            "end": 825
+          },
+          "start": 824,
+          "end": 827
         },
         "body": {
           "type": "BlockStatement",
-          "start": 828,
-          "end": 877,
           "body": [
             {
               "type": "LabeledStatement",
-              "start": 832,
-              "end": 875,
               "label": {
                 "type": "Identifier",
+                "name": "LABEL3",
                 "start": 832,
-                "end": 838,
-                "name": "LABEL3"
+                "end": 838
               },
               "body": {
                 "type": "DoWhileStatement",
-                "start": 841,
-                "end": 875,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 844,
-                  "end": 865,
                   "body": [
                     {
                       "type": "BreakStatement",
+                      "label": null,
                       "start": 850,
-                      "end": 855,
-                      "label": null
+                      "end": 855
                     },
                     {
                       "type": "ExpressionStatement",
-                      "start": 856,
-                      "end": 861,
                       "expression": {
                         "type": "Identifier",
+                        "name": "FOR3",
                         "start": 856,
-                        "end": 860,
-                        "name": "FOR3"
-                      }
+                        "end": 860
+                      },
+                      "start": 856,
+                      "end": 861
                     }
-                  ]
+                  ],
+                  "start": 844,
+                  "end": 865
                 },
                 "test": {
                   "type": "Literal",
-                  "start": 872,
-                  "end": 873,
                   "value": 0,
-                  "raw": "0"
-                }
-              }
+                  "raw": "0",
+                  "start": 872,
+                  "end": 873
+                },
+                "start": 841,
+                "end": 875
+              },
+              "start": 832,
+              "end": 875
             }
-          ]
-        }
-      }
+          ],
+          "start": 828,
+          "end": 877
+        },
+        "start": 808,
+        "end": 877
+      },
+      "start": 801,
+      "end": 877
     },
     {
       "type": "ExpressionStatement",
-      "start": 879,
-      "end": 1009,
       "expression": {
         "type": "CallExpression",
-        "start": 879,
-        "end": 1008,
         "callee": {
           "type": "MemberExpression",
-          "start": 879,
-          "end": 895,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 879,
-            "end": 885,
-            "name": "assert"
+            "end": 885
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 886,
-            "end": 895,
-            "name": "sameValue"
+            "end": 895
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 879,
+          "end": 895
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "i",
             "start": 896,
-            "end": 897,
-            "name": "i"
+            "end": 897
           },
           {
             "type": "Literal",
-            "start": 899,
-            "end": 900,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 899,
+            "end": 900
           },
           {
             "type": "Literal",
-            "start": 902,
-            "end": 1007,
             "value": "#3: Since LineTerminator(U-2028) between break and Identifier not allowed break evaluates without label",
-            "raw": "'#3: Since LineTerminator(U-2028) between break and Identifier not allowed break evaluates without label'"
+            "raw": "'#3: Since LineTerminator(U-2028) between break and Identifier not allowed break evaluates without label'",
+            "start": 902,
+            "end": 1007
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 879,
+        "end": 1008
+      },
+      "start": 879,
+      "end": 1009
     },
     {
       "type": "LabeledStatement",
-      "start": 1011,
-      "end": 1087,
       "label": {
         "type": "Identifier",
+        "name": "FOR4",
         "start": 1011,
-        "end": 1015,
-        "name": "FOR4"
+        "end": 1015
       },
       "body": {
         "type": "ForStatement",
-        "start": 1018,
-        "end": 1087,
         "init": {
           "type": "VariableDeclaration",
-          "start": 1022,
-          "end": 1029,
           "kind": "var",
           "declarations": [
             {
               "type": "VariableDeclarator",
-              "start": 1026,
-              "end": 1029,
               "id": {
                 "type": "Identifier",
+                "name": "i",
                 "start": 1026,
-                "end": 1027,
-                "name": "i"
+                "end": 1027
               },
               "init": {
                 "type": "Literal",
-                "start": 1028,
-                "end": 1029,
                 "value": 1,
-                "raw": "1"
-              }
+                "raw": "1",
+                "start": 1028,
+                "end": 1029
+              },
+              "start": 1026,
+              "end": 1029
             }
-          ]
+          ],
+          "start": 1022,
+          "end": 1029
         },
         "test": {
           "type": "BinaryExpression",
-          "start": 1030,
-          "end": 1033,
           "left": {
             "type": "Identifier",
+            "name": "i",
             "start": 1030,
-            "end": 1031,
-            "name": "i"
+            "end": 1031
           },
           "operator": "<",
           "right": {
             "type": "Literal",
-            "start": 1032,
-            "end": 1033,
             "value": 2,
-            "raw": "2"
-          }
+            "raw": "2",
+            "start": 1032,
+            "end": 1033
+          },
+          "start": 1030,
+          "end": 1033
         },
         "update": {
           "type": "UpdateExpression",
-          "start": 1034,
-          "end": 1037,
           "operator": "++",
           "prefix": false,
           "argument": {
             "type": "Identifier",
+            "name": "i",
             "start": 1034,
-            "end": 1035,
-            "name": "i"
-          }
+            "end": 1035
+          },
+          "start": 1034,
+          "end": 1037
         },
         "body": {
           "type": "BlockStatement",
-          "start": 1038,
-          "end": 1087,
           "body": [
             {
               "type": "LabeledStatement",
-              "start": 1042,
-              "end": 1085,
               "label": {
                 "type": "Identifier",
+                "name": "LABEL4",
                 "start": 1042,
-                "end": 1048,
-                "name": "LABEL4"
+                "end": 1048
               },
               "body": {
                 "type": "DoWhileStatement",
-                "start": 1051,
-                "end": 1085,
                 "body": {
                   "type": "BlockStatement",
-                  "start": 1054,
-                  "end": 1075,
                   "body": [
                     {
                       "type": "BreakStatement",
+                      "label": null,
                       "start": 1060,
-                      "end": 1065,
-                      "label": null
+                      "end": 1065
                     },
                     {
                       "type": "ExpressionStatement",
-                      "start": 1066,
-                      "end": 1071,
                       "expression": {
                         "type": "Identifier",
+                        "name": "FOR4",
                         "start": 1066,
-                        "end": 1070,
-                        "name": "FOR4"
-                      }
+                        "end": 1070
+                      },
+                      "start": 1066,
+                      "end": 1071
                     }
-                  ]
+                  ],
+                  "start": 1054,
+                  "end": 1075
                 },
                 "test": {
                   "type": "Literal",
-                  "start": 1082,
-                  "end": 1083,
                   "value": 0,
-                  "raw": "0"
-                }
-              }
+                  "raw": "0",
+                  "start": 1082,
+                  "end": 1083
+                },
+                "start": 1051,
+                "end": 1085
+              },
+              "start": 1042,
+              "end": 1085
             }
-          ]
-        }
-      }
+          ],
+          "start": 1038,
+          "end": 1087
+        },
+        "start": 1018,
+        "end": 1087
+      },
+      "start": 1011,
+      "end": 1087
     },
     {
       "type": "ExpressionStatement",
-      "start": 1089,
-      "end": 1219,
       "expression": {
         "type": "CallExpression",
-        "start": 1089,
-        "end": 1218,
         "callee": {
           "type": "MemberExpression",
-          "start": 1089,
-          "end": 1105,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1089,
-            "end": 1095,
-            "name": "assert"
+            "end": 1095
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1096,
-            "end": 1105,
-            "name": "sameValue"
+            "end": 1105
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1089,
+          "end": 1105
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "i",
             "start": 1106,
-            "end": 1107,
-            "name": "i"
+            "end": 1107
           },
           {
             "type": "Literal",
-            "start": 1109,
-            "end": 1110,
             "value": 2,
-            "raw": "2"
+            "raw": "2",
+            "start": 1109,
+            "end": 1110
           },
           {
             "type": "Literal",
-            "start": 1112,
-            "end": 1217,
             "value": "#4: Since LineTerminator(U-2029) between break and Identifier not allowed break evaluates without label",
-            "raw": "'#4: Since LineTerminator(U-2029) between break and Identifier not allowed break evaluates without label'"
+            "raw": "'#4: Since LineTerminator(U-2029) between break and Identifier not allowed break evaluates without label'",
+            "start": 1112,
+            "end": 1217
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1089,
+        "end": 1218
+      },
+      "start": 1089,
+      "end": 1219
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1220
 }

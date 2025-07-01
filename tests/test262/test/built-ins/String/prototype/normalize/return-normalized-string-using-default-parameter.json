@@ -1,210 +1,210 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 798,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 548,
-      "end": 589,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 552,
-          "end": 588,
           "id": {
             "type": "Identifier",
+            "name": "s",
             "start": 552,
-            "end": 553,
-            "name": "s"
+            "end": 553
           },
           "init": {
             "type": "Literal",
-            "start": 556,
-            "end": 588,
             "value": "Å⫝̸क़Ω̈́",
-            "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'"
-          }
+            "raw": "'\\u00C5\\u2ADC\\u0958\\u2126\\u0344'",
+            "start": 556,
+            "end": 588
+          },
+          "start": 552,
+          "end": 588
         }
-      ]
+      ],
+      "start": 548,
+      "end": 589
     },
     {
       "type": "VariableDeclaration",
-      "start": 590,
-      "end": 649,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 594,
-          "end": 648,
           "id": {
             "type": "Identifier",
+            "name": "nfc",
             "start": 594,
-            "end": 597,
-            "name": "nfc"
+            "end": 597
           },
           "init": {
             "type": "Literal",
-            "start": 600,
-            "end": 648,
             "value": "Å⫝̸क़Ω̈́",
-            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'"
-          }
+            "raw": "'\\xC5\\u2ADD\\u0338\\u0915\\u093C\\u03A9\\u0308\\u0301'",
+            "start": 600,
+            "end": 648
+          },
+          "start": 594,
+          "end": 648
         }
-      ]
+      ],
+      "start": 590,
+      "end": 649
     },
     {
       "type": "ExpressionStatement",
-      "start": 651,
-      "end": 719,
       "expression": {
         "type": "CallExpression",
-        "start": 651,
-        "end": 718,
         "callee": {
           "type": "MemberExpression",
-          "start": 651,
-          "end": 667,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 651,
-            "end": 657,
-            "name": "assert"
+            "end": 657
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 658,
-            "end": 667,
-            "name": "sameValue"
+            "end": 667
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 651,
+          "end": 667
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 668,
-            "end": 681,
             "callee": {
               "type": "MemberExpression",
-              "start": 668,
-              "end": 679,
               "object": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 668,
-                "end": 669,
-                "name": "s"
+                "end": 669
               },
               "property": {
                 "type": "Identifier",
+                "name": "normalize",
                 "start": 670,
-                "end": 679,
-                "name": "normalize"
+                "end": 679
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 668,
+              "end": 679
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 668,
+            "end": 681
           },
           {
             "type": "Identifier",
+            "name": "nfc",
             "start": 683,
-            "end": 686,
-            "name": "nfc"
+            "end": 686
           },
           {
             "type": "Literal",
-            "start": 688,
-            "end": 717,
             "value": "Use NFC as the default form",
-            "raw": "'Use NFC as the default form'"
+            "raw": "'Use NFC as the default form'",
+            "start": 688,
+            "end": 717
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 651,
+        "end": 718
+      },
+      "start": 651,
+      "end": 719
     },
     {
       "type": "ExpressionStatement",
-      "start": 720,
-      "end": 797,
       "expression": {
         "type": "CallExpression",
-        "start": 720,
-        "end": 796,
         "callee": {
           "type": "MemberExpression",
-          "start": 720,
-          "end": 736,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 720,
-            "end": 726,
-            "name": "assert"
+            "end": 726
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 727,
-            "end": 736,
-            "name": "sameValue"
+            "end": 736
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 720,
+          "end": 736
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 737,
-            "end": 759,
             "callee": {
               "type": "MemberExpression",
-              "start": 737,
-              "end": 748,
               "object": {
                 "type": "Identifier",
+                "name": "s",
                 "start": 737,
-                "end": 738,
-                "name": "s"
+                "end": 738
               },
               "property": {
                 "type": "Identifier",
+                "name": "normalize",
                 "start": 739,
-                "end": 748,
-                "name": "normalize"
+                "end": 748
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 737,
+              "end": 748
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "undefined",
                 "start": 749,
-                "end": 758,
-                "name": "undefined"
+                "end": 758
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 737,
+            "end": 759
           },
           {
             "type": "Identifier",
+            "name": "nfc",
             "start": 761,
-            "end": 764,
-            "name": "nfc"
+            "end": 764
           },
           {
             "type": "Literal",
-            "start": 766,
-            "end": 795,
             "value": "Use NFC as the default form",
-            "raw": "'Use NFC as the default form'"
+            "raw": "'Use NFC as the default form'",
+            "start": 766,
+            "end": 795
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 720,
+        "end": 796
+      },
+      "start": 720,
+      "end": 797
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 798
 }

@@ -1,72 +1,72 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 514,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 461,
-      "end": 500,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 476,
-        "end": 500,
         "id": {
           "type": "Identifier",
+          "name": "AG",
           "start": 493,
-          "end": 495,
-          "name": "AG"
+          "end": 495
         },
         "generator": true,
         "async": true,
         "params": [],
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 498,
-          "end": 500,
-          "body": []
+          "end": 500
         },
-        "expression": false
-      }
+        "expression": false,
+        "start": 476,
+        "end": 500
+      },
+      "start": 461,
+      "end": 500
     },
     {
       "type": "ExpressionStatement",
-      "start": 501,
-      "end": 513,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 501,
-        "end": 512,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 501,
-          "end": 507,
           "object": {
             "type": "Identifier",
+            "name": "AG",
             "start": 501,
-            "end": 503,
-            "name": "AG"
+            "end": 503
           },
           "property": {
             "type": "Identifier",
+            "name": "foo",
             "start": 504,
-            "end": 507,
-            "name": "foo"
+            "end": 507
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 501,
+          "end": 507
         },
         "right": {
           "type": "Literal",
-          "start": 510,
-          "end": 512,
           "value": "",
-          "raw": "''"
-        }
-      }
+          "raw": "''",
+          "start": 510,
+          "end": 512
+        },
+        "start": 501,
+        "end": 512
+      },
+      "start": 501,
+      "end": 513
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 514
 }

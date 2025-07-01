@@ -2,104 +2,104 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 44,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 44,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 6,
-          "end": 43,
           "id": {
             "type": "Identifier",
-            "start": 6,
-            "end": 7,
             "decorators": [],
             "name": "b",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 6,
+            "end": 7
           },
           "init": {
             "type": "ArrowFunctionExpression",
-            "start": 10,
-            "end": 43,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "ObjectPattern",
-                "start": 11,
-                "end": 31,
                 "decorators": [],
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 13,
-                    "end": 29,
                     "kind": "init",
                     "key": {
                       "type": "TemplateLiteral",
-                      "start": 14,
-                      "end": 19,
                       "quasis": [
                         {
                           "type": "TemplateElement",
-                          "start": 14,
-                          "end": 19,
                           "value": {
                             "raw": "key",
                             "cooked": "key"
                           },
-                          "tail": true
+                          "tail": true,
+                          "start": 14,
+                          "end": 19
                         }
                       ],
-                      "expressions": []
+                      "expressions": [],
+                      "start": 14,
+                      "end": 19
                     },
                     "value": {
                       "type": "Identifier",
-                      "start": 22,
-                      "end": 29,
                       "decorators": [],
                       "name": "renamed",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 22,
+                      "end": 29
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": true,
-                    "optional": false
+                    "optional": false,
+                    "start": 13,
+                    "end": 29
                   }
                 ],
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 11,
+                "end": 31
               }
             ],
             "returnType": null,
             "body": {
               "type": "Identifier",
-              "start": 36,
-              "end": 43,
               "decorators": [],
               "name": "renamed",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 43
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 10,
+            "end": 43
           },
-          "definite": false
+          "definite": false,
+          "start": 6,
+          "end": 43
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 44
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 44
 }
 ```

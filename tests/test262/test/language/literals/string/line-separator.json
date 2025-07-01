@@ -1,55 +1,55 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 575,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 542,
-      "end": 574,
       "expression": {
         "type": "CallExpression",
-        "start": 542,
-        "end": 573,
         "callee": {
           "type": "MemberExpression",
-          "start": 542,
-          "end": 558,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 542,
-            "end": 548,
-            "name": "assert"
+            "end": 548
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 549,
-            "end": 558,
-            "name": "sameValue"
+            "end": 558
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 542,
+          "end": 558
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 559,
-            "end": 562,
             "value": " ",
-            "raw": "\" \""
+            "raw": "\" \"",
+            "start": 559,
+            "end": 562
           },
           {
             "type": "Literal",
-            "start": 564,
-            "end": 572,
             "value": " ",
-            "raw": "\"\\u2028\""
+            "raw": "\"\\u2028\"",
+            "start": 564,
+            "end": 572
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 542,
+        "end": 573
+      },
+      "start": 542,
+      "end": 574
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 575
 }

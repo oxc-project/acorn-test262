@@ -2,196 +2,196 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 49,
-  "end": 104,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 49,
-      "end": 68,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 53,
-          "end": 59,
           "id": {
             "type": "Identifier",
-            "start": 53,
-            "end": 59,
             "decorators": [],
             "name": "o",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 54,
-              "end": 59,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 56,
                 "end": 59
-              }
-            }
+              },
+              "start": 54,
+              "end": 59
+            },
+            "start": 53,
+            "end": 59
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 53,
+          "end": 59
         },
         {
           "type": "VariableDeclarator",
-          "start": 61,
-          "end": 67,
           "id": {
             "type": "Identifier",
-            "start": 61,
-            "end": 67,
             "decorators": [],
             "name": "k",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 62,
-              "end": 67,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 64,
                 "end": 67
-              }
-            }
+              },
+              "start": 62,
+              "end": 67
+            },
+            "start": 61,
+            "end": 67
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 61,
+          "end": 67
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 49,
+      "end": 68
     },
     {
       "type": "VariableDeclaration",
-      "start": 69,
-      "end": 104,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 73,
-          "end": 103,
           "id": {
             "type": "ObjectPattern",
-            "start": 73,
-            "end": 78,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 75,
-                "end": 76,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 75,
-                  "end": 76,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 75,
+                  "end": 76
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 75,
-                  "end": 76,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 75,
+                  "end": 76
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 75,
+                "end": 76
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 73,
+            "end": 78
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 81,
-            "end": 103,
             "properties": [
               {
                 "type": "Property",
-                "start": 83,
-                "end": 87,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 83,
-                  "end": 84,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 83,
+                  "end": 84
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 86,
-                  "end": 87,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 86,
+                  "end": 87
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 83,
+                "end": 87
               },
               {
                 "type": "SpreadElement",
-                "start": 89,
-                "end": 93,
                 "argument": {
                   "type": "Identifier",
-                  "start": 92,
-                  "end": 93,
                   "decorators": [],
                   "name": "o",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 92,
+                  "end": 93
+                },
+                "start": 89,
+                "end": 93
               },
               {
                 "type": "Property",
-                "start": 95,
-                "end": 101,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 96,
-                  "end": 97,
                   "decorators": [],
                   "name": "k",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 96,
+                  "end": 97
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 100,
-                  "end": 101,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 100,
+                  "end": 101
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": true,
-                "optional": false
+                "optional": false,
+                "start": 95,
+                "end": 101
               }
-            ]
+            ],
+            "start": 81,
+            "end": 103
           },
-          "definite": false
+          "definite": false,
+          "start": 73,
+          "end": 103
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 69,
+      "end": 104
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 49,
+  "end": 104
 }
 ```

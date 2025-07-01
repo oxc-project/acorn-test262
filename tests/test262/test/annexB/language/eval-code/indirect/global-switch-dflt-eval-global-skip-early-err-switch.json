@@ -1,357 +1,357 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1338,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 756,
-      "end": 868,
       "expression": {
         "type": "CallExpression",
-        "start": 756,
-        "end": 867,
         "callee": {
           "type": "MemberExpression",
-          "start": 756,
-          "end": 769,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 756,
-            "end": 762,
-            "name": "assert"
+            "end": 762
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 763,
-            "end": 769,
-            "name": "throws"
+            "end": 769
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 756,
+          "end": 769
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 770,
-            "end": 784,
-            "name": "ReferenceError"
+            "end": 784
           },
           {
             "type": "FunctionExpression",
-            "start": 786,
-            "end": 805,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 797,
-              "end": 805,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 801,
-                  "end": 803,
                   "expression": {
                     "type": "Identifier",
+                    "name": "f",
                     "start": 801,
-                    "end": 802,
-                    "name": "f"
-                  }
+                    "end": 802
+                  },
+                  "start": 801,
+                  "end": 803
                 }
-              ]
+              ],
+              "start": 797,
+              "end": 805
             },
-            "expression": false
+            "expression": false,
+            "start": 786,
+            "end": 805
           },
           {
             "type": "Literal",
-            "start": 807,
-            "end": 866,
             "value": "An initialized binding is not created prior to evaluation",
-            "raw": "'An initialized binding is not created prior to evaluation'"
+            "raw": "'An initialized binding is not created prior to evaluation'",
+            "start": 807,
+            "end": 866
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 756,
+        "end": 867
+      },
+      "start": 756,
+      "end": 868
     },
     {
       "type": "ExpressionStatement",
-      "start": 869,
-      "end": 980,
       "expression": {
         "type": "CallExpression",
-        "start": 869,
-        "end": 979,
         "callee": {
           "type": "MemberExpression",
-          "start": 869,
-          "end": 885,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 869,
-            "end": 875,
-            "name": "assert"
+            "end": 875
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 876,
-            "end": 885,
-            "name": "sameValue"
+            "end": 885
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 869,
+          "end": 885
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 889,
-            "end": 897,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "f",
               "start": 896,
-              "end": 897,
-              "name": "f"
+              "end": 897
             },
-            "prefix": true
+            "prefix": true,
+            "start": 889,
+            "end": 897
           },
           {
             "type": "Literal",
-            "start": 901,
-            "end": 912,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "start": 901,
+            "end": 912
           },
           {
             "type": "Literal",
-            "start": 916,
-            "end": 977,
             "value": "An uninitialized binding is not created prior to evaluation",
-            "raw": "'An uninitialized binding is not created prior to evaluation'"
+            "raw": "'An uninitialized binding is not created prior to evaluation'",
+            "start": 916,
+            "end": 977
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 869,
+        "end": 979
+      },
+      "start": 869,
+      "end": 980
     },
     {
       "type": "ExpressionStatement",
-      "start": 982,
-      "end": 1109,
       "expression": {
         "type": "CallExpression",
-        "start": 982,
-        "end": 1108,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 982,
-          "end": 990,
           "expression": {
             "type": "SequenceExpression",
-            "start": 983,
-            "end": 989,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 983,
-                "end": 984,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 983,
+                "end": 984
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 985,
-                "end": 989,
-                "name": "eval"
+                "end": 989
               }
-            ]
-          }
+            ],
+            "start": 983,
+            "end": 989
+          },
+          "start": 982,
+          "end": 990
         },
         "arguments": [
           {
             "type": "BinaryExpression",
-            "start": 994,
-            "end": 1106,
             "left": {
               "type": "BinaryExpression",
-              "start": 994,
-              "end": 1093,
               "left": {
                 "type": "BinaryExpression",
-                "start": 994,
-                "end": 1065,
                 "left": {
                   "type": "Literal",
-                  "start": 994,
-                  "end": 1048,
                   "value": "switch (0) {    default:      let f;switch (1) {",
-                  "raw": "'switch (0) {\\\n    default:\\\n      let f;switch (1) {'"
+                  "raw": "'switch (0) {\\\n    default:\\\n      let f;switch (1) {'",
+                  "start": 994,
+                  "end": 1048
                 },
                 "operator": "+",
                 "right": {
                   "type": "Literal",
-                  "start": 1053,
-                  "end": 1065,
                   "value": "  default:",
-                  "raw": "'  default:'"
-                }
+                  "raw": "'  default:'",
+                  "start": 1053,
+                  "end": 1065
+                },
+                "start": 994,
+                "end": 1065
               },
               "operator": "+",
               "right": {
                 "type": "Literal",
-                "start": 1070,
-                "end": 1093,
                 "value": "    function f() {  }",
-                "raw": "'    function f() {  }'"
-              }
+                "raw": "'    function f() {  }'",
+                "start": 1070,
+                "end": 1093
+              },
+              "start": 994,
+              "end": 1093
             },
             "operator": "+",
             "right": {
               "type": "Literal",
-              "start": 1098,
-              "end": 1106,
               "value": "}  }",
-              "raw": "'}\\\n  }'"
-            }
+              "raw": "'}\\\n  }'",
+              "start": 1098,
+              "end": 1106
+            },
+            "start": 994,
+            "end": 1106
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 982,
+        "end": 1108
+      },
+      "start": 982,
+      "end": 1109
     },
     {
       "type": "ExpressionStatement",
-      "start": 1111,
-      "end": 1224,
       "expression": {
         "type": "CallExpression",
-        "start": 1111,
-        "end": 1223,
         "callee": {
           "type": "MemberExpression",
-          "start": 1111,
-          "end": 1124,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1111,
-            "end": 1117,
-            "name": "assert"
+            "end": 1117
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1118,
-            "end": 1124,
-            "name": "throws"
+            "end": 1124
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1111,
+          "end": 1124
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "ReferenceError",
             "start": 1125,
-            "end": 1139,
-            "name": "ReferenceError"
+            "end": 1139
           },
           {
             "type": "FunctionExpression",
-            "start": 1141,
-            "end": 1160,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1152,
-              "end": 1160,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1156,
-                  "end": 1158,
                   "expression": {
                     "type": "Identifier",
+                    "name": "f",
                     "start": 1156,
-                    "end": 1157,
-                    "name": "f"
-                  }
+                    "end": 1157
+                  },
+                  "start": 1156,
+                  "end": 1158
                 }
-              ]
+              ],
+              "start": 1152,
+              "end": 1160
             },
-            "expression": false
+            "expression": false,
+            "start": 1141,
+            "end": 1160
           },
           {
             "type": "Literal",
-            "start": 1162,
-            "end": 1222,
             "value": "An initialized binding is not created following evaluation",
-            "raw": "'An initialized binding is not created following evaluation'"
+            "raw": "'An initialized binding is not created following evaluation'",
+            "start": 1162,
+            "end": 1222
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1111,
+        "end": 1223
+      },
+      "start": 1111,
+      "end": 1224
     },
     {
       "type": "ExpressionStatement",
-      "start": 1225,
-      "end": 1337,
       "expression": {
         "type": "CallExpression",
-        "start": 1225,
-        "end": 1336,
         "callee": {
           "type": "MemberExpression",
-          "start": 1225,
-          "end": 1241,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1225,
-            "end": 1231,
-            "name": "assert"
+            "end": 1231
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1232,
-            "end": 1241,
-            "name": "sameValue"
+            "end": 1241
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1225,
+          "end": 1241
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1245,
-            "end": 1253,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "f",
               "start": 1252,
-              "end": 1253,
-              "name": "f"
+              "end": 1253
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1245,
+            "end": 1253
           },
           {
             "type": "Literal",
-            "start": 1257,
-            "end": 1268,
             "value": "undefined",
-            "raw": "'undefined'"
+            "raw": "'undefined'",
+            "start": 1257,
+            "end": 1268
           },
           {
             "type": "Literal",
-            "start": 1272,
-            "end": 1334,
             "value": "An uninitialized binding is not created following evaluation",
-            "raw": "'An uninitialized binding is not created following evaluation'"
+            "raw": "'An uninitialized binding is not created following evaluation'",
+            "start": 1272,
+            "end": 1334
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1225,
+        "end": 1336
+      },
+      "start": 1225,
+      "end": 1337
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1338
 }

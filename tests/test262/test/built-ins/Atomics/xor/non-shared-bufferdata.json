@@ -1,308 +1,308 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 628,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 329,
-      "end": 627,
       "expression": {
         "type": "CallExpression",
-        "start": 329,
-        "end": 626,
         "callee": {
           "type": "Identifier",
+          "name": "testWithAtomicsFriendlyTypedArrayConstructors",
           "start": 329,
-          "end": 374,
-          "name": "testWithAtomicsFriendlyTypedArrayConstructors"
+          "end": 374
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 375,
-            "end": 625,
             "expression": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "TA",
                 "start": 375,
-                "end": 377,
-                "name": "TA"
+                "end": 377
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 381,
-              "end": 625,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 385,
-                  "end": 456,
                   "kind": "const",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 391,
-                      "end": 455,
                       "id": {
                         "type": "Identifier",
+                        "name": "view",
                         "start": 391,
-                        "end": 395,
-                        "name": "view"
+                        "end": 395
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 398,
-                        "end": 455,
                         "callee": {
                           "type": "Identifier",
+                          "name": "TA",
                           "start": 402,
-                          "end": 404,
-                          "name": "TA"
+                          "end": 404
                         },
                         "arguments": [
                           {
                             "type": "NewExpression",
-                            "start": 410,
-                            "end": 451,
                             "callee": {
                               "type": "Identifier",
+                              "name": "ArrayBuffer",
                               "start": 414,
-                              "end": 425,
-                              "name": "ArrayBuffer"
+                              "end": 425
                             },
                             "arguments": [
                               {
                                 "type": "BinaryExpression",
-                                "start": 426,
-                                "end": 450,
                                 "left": {
                                   "type": "MemberExpression",
-                                  "start": 426,
-                                  "end": 446,
                                   "object": {
                                     "type": "Identifier",
+                                    "name": "TA",
                                     "start": 426,
-                                    "end": 428,
-                                    "name": "TA"
+                                    "end": 428
                                   },
                                   "property": {
                                     "type": "Identifier",
+                                    "name": "BYTES_PER_ELEMENT",
                                     "start": 429,
-                                    "end": 446,
-                                    "name": "BYTES_PER_ELEMENT"
+                                    "end": 446
                                   },
                                   "optional": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 426,
+                                  "end": 446
                                 },
                                 "operator": "*",
                                 "right": {
                                   "type": "Literal",
-                                  "start": 449,
-                                  "end": 450,
                                   "value": 4,
-                                  "raw": "4"
-                                }
+                                  "raw": "4",
+                                  "start": 449,
+                                  "end": 450
+                                },
+                                "start": 426,
+                                "end": 450
                               }
-                            ]
+                            ],
+                            "start": 410,
+                            "end": 451
                           }
-                        ]
-                      }
+                        ],
+                        "start": 398,
+                        "end": 455
+                      },
+                      "start": 391,
+                      "end": 455
                     }
-                  ]
+                  ],
+                  "start": 385,
+                  "end": 456
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 460,
-                  "end": 542,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 460,
-                    "end": 541,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 460,
-                      "end": 476,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 460,
-                        "end": 466,
-                        "name": "assert"
+                        "end": 466
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sameValue",
                         "start": 467,
-                        "end": 476,
-                        "name": "sameValue"
+                        "end": 476
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 460,
+                      "end": 476
                     },
                     "arguments": [
                       {
                         "type": "CallExpression",
-                        "start": 477,
-                        "end": 500,
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 477,
-                          "end": 488,
                           "object": {
                             "type": "Identifier",
+                            "name": "Atomics",
                             "start": 477,
-                            "end": 484,
-                            "name": "Atomics"
+                            "end": 484
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "xor",
                             "start": 485,
-                            "end": 488,
-                            "name": "xor"
+                            "end": 488
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 477,
+                          "end": 488
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
+                            "name": "view",
                             "start": 489,
-                            "end": 493,
-                            "name": "view"
+                            "end": 493
                           },
                           {
                             "type": "Literal",
-                            "start": 495,
-                            "end": 496,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "start": 495,
+                            "end": 496
                           },
                           {
                             "type": "Literal",
-                            "start": 498,
-                            "end": 499,
                             "value": 1,
-                            "raw": "1"
+                            "raw": "1",
+                            "start": 498,
+                            "end": 499
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 477,
+                        "end": 500
                       },
                       {
                         "type": "Literal",
-                        "start": 502,
-                        "end": 503,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 502,
+                        "end": 503
                       },
                       {
                         "type": "Literal",
-                        "start": 505,
-                        "end": 540,
                         "value": "Atomics.xor(view, 0, 1) returns 0",
-                        "raw": "'Atomics.xor(view, 0, 1) returns 0'"
+                        "raw": "'Atomics.xor(view, 0, 1) returns 0'",
+                        "start": 505,
+                        "end": 540
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 460,
+                    "end": 541
+                  },
+                  "start": 460,
+                  "end": 542
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 545,
-                  "end": 623,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 545,
-                    "end": 622,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 545,
-                      "end": 561,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 545,
-                        "end": 551,
-                        "name": "assert"
+                        "end": 551
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sameValue",
                         "start": 552,
-                        "end": 561,
-                        "name": "sameValue"
+                        "end": 561
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 545,
+                      "end": 561
                     },
                     "arguments": [
                       {
                         "type": "CallExpression",
-                        "start": 562,
-                        "end": 583,
                         "callee": {
                           "type": "MemberExpression",
-                          "start": 562,
-                          "end": 574,
                           "object": {
                             "type": "Identifier",
+                            "name": "Atomics",
                             "start": 562,
-                            "end": 569,
-                            "name": "Atomics"
+                            "end": 569
                           },
                           "property": {
                             "type": "Identifier",
+                            "name": "load",
                             "start": 570,
-                            "end": 574,
-                            "name": "load"
+                            "end": 574
                           },
                           "optional": false,
-                          "computed": false
+                          "computed": false,
+                          "start": 562,
+                          "end": 574
                         },
                         "arguments": [
                           {
                             "type": "Identifier",
+                            "name": "view",
                             "start": 575,
-                            "end": 579,
-                            "name": "view"
+                            "end": 579
                           },
                           {
                             "type": "Literal",
-                            "start": 581,
-                            "end": 582,
                             "value": 0,
-                            "raw": "0"
+                            "raw": "0",
+                            "start": 581,
+                            "end": 582
                           }
                         ],
-                        "optional": false
+                        "optional": false,
+                        "start": 562,
+                        "end": 583
                       },
                       {
                         "type": "Literal",
-                        "start": 585,
-                        "end": 586,
                         "value": 1,
-                        "raw": "1"
+                        "raw": "1",
+                        "start": 585,
+                        "end": 586
                       },
                       {
                         "type": "Literal",
-                        "start": 588,
-                        "end": 621,
                         "value": "Atomics.load(view, 0) returns 1",
-                        "raw": "'Atomics.load(view, 0) returns 1'"
+                        "raw": "'Atomics.load(view, 0) returns 1'",
+                        "start": 588,
+                        "end": 621
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 545,
+                    "end": 622
+                  },
+                  "start": 545,
+                  "end": 623
                 }
-              ]
+              ],
+              "start": 381,
+              "end": 625
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 375,
+            "end": 625
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 329,
+        "end": 626
+      },
+      "start": 329,
+      "end": 627
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 628
 }

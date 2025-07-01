@@ -1,74 +1,74 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 677,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 625,
-      "end": 676,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 629,
-          "end": 675,
           "id": {
             "type": "Identifier",
+            "name": "C",
             "start": 629,
-            "end": 630,
-            "name": "C"
+            "end": 630
           },
           "init": {
             "type": "ClassExpression",
-            "start": 633,
-            "end": 675,
             "decorators": [],
             "id": null,
             "superClass": null,
             "body": {
               "type": "ClassBody",
-              "start": 639,
-              "end": 675,
               "body": [
                 {
                   "type": "MethodDefinition",
-                  "start": 643,
-                  "end": 673,
                   "decorators": [],
                   "key": {
                     "type": "PrivateIdentifier",
+                    "name": "prototype",
                     "start": 658,
-                    "end": 668,
-                    "name": "prototype"
+                    "end": 668
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 668,
-                    "end": 673,
                     "id": null,
                     "generator": true,
                     "async": true,
                     "params": [],
                     "body": {
                       "type": "BlockStatement",
+                      "body": [],
                       "start": 671,
-                      "end": 673,
-                      "body": []
+                      "end": 673
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 668,
+                    "end": 673
                   },
                   "kind": "method",
                   "computed": false,
-                  "static": true
+                  "static": true,
+                  "start": 643,
+                  "end": 673
                 }
-              ]
-            }
-          }
+              ],
+              "start": 639,
+              "end": 675
+            },
+            "start": 633,
+            "end": 675
+          },
+          "start": 629,
+          "end": 675
         }
-      ]
+      ],
+      "start": 625,
+      "end": 676
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 677
 }

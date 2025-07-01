@@ -1,35 +1,35 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1217,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 1032,
-      "end": 1216,
       "expression": {
         "type": "CallExpression",
-        "start": 1032,
-        "end": 1215,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 1032,
-          "end": 1036,
-          "name": "eval"
+          "end": 1036
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1040,
-            "end": 1213,
             "value": "assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else function _f() {}function f() {    return \"outer declaration\";  }",
-            "raw": "'assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else function _f() {}function f() {\\\n    return \"outer declaration\";\\\n  }'"
+            "raw": "'assert.sameValue(f(), \"outer declaration\");if (true) function f() { return \"inner declaration\"; } else function _f() {}function f() {\\\n    return \"outer declaration\";\\\n  }'",
+            "start": 1040,
+            "end": 1213
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1032,
+        "end": 1215
+      },
+      "start": 1032,
+      "end": 1216
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1217
 }

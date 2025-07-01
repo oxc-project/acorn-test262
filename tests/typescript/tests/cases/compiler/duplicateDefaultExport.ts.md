@@ -2,30 +2,24 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 46,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 17,
       "declaration": {
         "type": "Literal",
-        "start": 15,
-        "end": 16,
         "value": 0,
-        "raw": "0"
+        "raw": "0",
+        "start": 15,
+        "end": 16
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 17
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 18,
-      "end": 46,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 33,
-        "end": 46,
         "id": null,
         "generator": false,
         "async": false,
@@ -35,16 +29,22 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 44,
-          "end": 46,
-          "body": []
+          "end": 46
         },
-        "expression": false
+        "expression": false,
+        "start": 33,
+        "end": 46
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 18,
+      "end": 46
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 46
 }
 ```

@@ -1,124 +1,124 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 557,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 466,
-      "end": 500,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 475,
-        "end": 477,
-        "name": "fn"
+        "end": 477
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 480,
-        "end": 500,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 482,
-            "end": 498,
             "argument": {
               "type": "Literal",
-              "start": 489,
-              "end": 497,
               "value": "result",
-              "raw": "'result'"
-            }
+              "raw": "'result'",
+              "start": 489,
+              "end": 497
+            },
+            "start": 482,
+            "end": 498
           }
-        ]
+        ],
+        "start": 480,
+        "end": 500
       },
-      "expression": false
+      "expression": false,
+      "start": 466,
+      "end": 500
     },
     {
       "type": "ExpressionStatement",
-      "start": 502,
-      "end": 556,
       "expression": {
         "type": "CallExpression",
-        "start": 502,
-        "end": 555,
         "callee": {
           "type": "MemberExpression",
-          "start": 502,
-          "end": 518,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 502,
-            "end": 508,
-            "name": "assert"
+            "end": 508
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 509,
-            "end": 518,
-            "name": "sameValue"
+            "end": 518
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 502,
+          "end": 518
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 519,
-            "end": 536,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 520,
-                "end": 524,
                 "value": {
                   "raw": "foo ",
                   "cooked": "foo "
                 },
-                "tail": false
+                "tail": false,
+                "start": 520,
+                "end": 524
               },
               {
                 "type": "TemplateElement",
-                "start": 531,
-                "end": 535,
                 "value": {
                   "raw": " bar",
                   "cooked": " bar"
                 },
-                "tail": true
+                "tail": true,
+                "start": 531,
+                "end": 535
               }
             ],
             "expressions": [
               {
                 "type": "CallExpression",
-                "start": 526,
-                "end": 530,
                 "callee": {
                   "type": "Identifier",
+                  "name": "fn",
                   "start": 526,
-                  "end": 528,
-                  "name": "fn"
+                  "end": 528
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 526,
+                "end": 530
               }
-            ]
+            ],
+            "start": 519,
+            "end": 536
           },
           {
             "type": "Literal",
-            "start": 538,
-            "end": 554,
             "value": "foo result bar",
-            "raw": "'foo result bar'"
+            "raw": "'foo result bar'",
+            "start": 538,
+            "end": 554
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 502,
+        "end": 555
+      },
+      "start": 502,
+      "end": 556
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 557
 }

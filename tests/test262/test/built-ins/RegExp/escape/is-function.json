@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 383,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 300,
-      "end": 382,
       "expression": {
         "type": "CallExpression",
-        "start": 300,
-        "end": 381,
         "callee": {
           "type": "MemberExpression",
-          "start": 300,
-          "end": 316,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 300,
-            "end": 306,
-            "name": "assert"
+            "end": 306
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 307,
-            "end": 316,
-            "name": "sameValue"
+            "end": 316
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 300,
+          "end": 316
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 317,
-            "end": 337,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 324,
-              "end": 337,
               "object": {
                 "type": "Identifier",
+                "name": "RegExp",
                 "start": 324,
-                "end": 330,
-                "name": "RegExp"
+                "end": 330
               },
               "property": {
                 "type": "Identifier",
+                "name": "escape",
                 "start": 331,
-                "end": 337,
-                "name": "escape"
+                "end": 337
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 324,
+              "end": 337
             },
-            "prefix": true
+            "prefix": true,
+            "start": 317,
+            "end": 337
           },
           {
             "type": "Literal",
-            "start": 339,
-            "end": 349,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 339,
+            "end": 349
           },
           {
             "type": "Literal",
-            "start": 351,
-            "end": 380,
             "value": "RegExp.escape is a function",
-            "raw": "'RegExp.escape is a function'"
+            "raw": "'RegExp.escape is a function'",
+            "start": 351,
+            "end": 380
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 300,
+        "end": 381
+      },
+      "start": 300,
+      "end": 382
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 383
 }

@@ -1,127 +1,127 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 638,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 475,
-      "end": 552,
       "expression": {
         "type": "CallExpression",
-        "start": 475,
-        "end": 551,
         "callee": {
           "type": "MemberExpression",
-          "start": 475,
-          "end": 491,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 475,
-            "end": 481,
-            "name": "assert"
+            "end": 481
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 482,
-            "end": 491,
-            "name": "sameValue"
+            "end": 491
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 475,
+          "end": 491
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 495,
-            "end": 506,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "Math",
               "start": 502,
-              "end": 506,
-              "name": "Math"
+              "end": 506
             },
-            "prefix": true
+            "prefix": true,
+            "start": 495,
+            "end": 506
           },
           {
             "type": "Literal",
-            "start": 511,
-            "end": 519,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 511,
+            "end": 519
           },
           {
             "type": "Literal",
-            "start": 523,
-            "end": 549,
             "value": "typeof Math === \"object\"",
-            "raw": "'typeof Math === \"object\"'"
+            "raw": "'typeof Math === \"object\"'",
+            "start": 523,
+            "end": 549
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 475,
+        "end": 551
+      },
+      "start": 475,
+      "end": 552
     },
     {
       "type": "ExpressionStatement",
-      "start": 554,
-      "end": 637,
       "expression": {
         "type": "CallExpression",
-        "start": 554,
-        "end": 636,
         "callee": {
           "type": "MemberExpression",
-          "start": 554,
-          "end": 570,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 554,
-            "end": 560,
-            "name": "assert"
+            "end": 560
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 561,
-            "end": 570,
-            "name": "sameValue"
+            "end": 570
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 554,
+          "end": 570
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 574,
-            "end": 588,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "Reflect",
               "start": 581,
-              "end": 588,
-              "name": "Reflect"
+              "end": 588
             },
-            "prefix": true
+            "prefix": true,
+            "start": 574,
+            "end": 588
           },
           {
             "type": "Literal",
-            "start": 593,
-            "end": 601,
             "value": "object",
-            "raw": "\"object\""
+            "raw": "\"object\"",
+            "start": 593,
+            "end": 601
           },
           {
             "type": "Literal",
-            "start": 605,
-            "end": 634,
             "value": "typeof Reflect === \"object\"",
-            "raw": "'typeof Reflect === \"object\"'"
+            "raw": "'typeof Reflect === \"object\"'",
+            "start": 605,
+            "end": 634
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 554,
+        "end": 636
+      },
+      "start": 554,
+      "end": 637
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 638
 }

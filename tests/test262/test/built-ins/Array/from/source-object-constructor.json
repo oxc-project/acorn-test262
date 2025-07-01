@@ -1,119 +1,119 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 419,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 418,
       "expression": {
         "type": "CallExpression",
-        "start": 247,
-        "end": 417,
         "callee": {
           "type": "MemberExpression",
-          "start": 247,
-          "end": 263,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 247,
-            "end": 253,
-            "name": "assert"
+            "end": 253
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 254,
-            "end": 263,
-            "name": "sameValue"
+            "end": 263
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 247,
+          "end": 263
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 267,
-            "end": 306,
             "object": {
               "type": "CallExpression",
-              "start": 267,
-              "end": 294,
               "callee": {
                 "type": "MemberExpression",
-                "start": 267,
-                "end": 282,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 267,
-                  "end": 277,
                   "object": {
                     "type": "Identifier",
+                    "name": "Array",
                     "start": 267,
-                    "end": 272,
-                    "name": "Array"
+                    "end": 272
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "from",
                     "start": 273,
-                    "end": 277,
-                    "name": "from"
+                    "end": 277
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 267,
+                  "end": 277
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "call",
                   "start": 278,
-                  "end": 282,
-                  "name": "call"
+                  "end": 282
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 267,
+                "end": 282
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 283,
-                  "end": 289,
-                  "name": "Object"
+                  "end": 289
                 },
                 {
                   "type": "ArrayExpression",
+                  "elements": [],
                   "start": 291,
-                  "end": 293,
-                  "elements": []
+                  "end": 293
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 267,
+              "end": 294
             },
             "property": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 295,
-              "end": 306,
-              "name": "constructor"
+              "end": 306
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 267,
+            "end": 306
           },
           {
             "type": "Identifier",
+            "name": "Object",
             "start": 310,
-            "end": 316,
-            "name": "Object"
+            "end": 316
           },
           {
             "type": "Literal",
-            "start": 320,
-            "end": 415,
             "value": "The value of Array.from.call(Object, []).constructor is expected to equal the value of Object",
-            "raw": "'The value of Array.from.call(Object, []).constructor is expected to equal the value of Object'"
+            "raw": "'The value of Array.from.call(Object, []).constructor is expected to equal the value of Object'",
+            "start": 320,
+            "end": 415
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 247,
+        "end": 417
+      },
+      "start": 247,
+      "end": 418
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 419
 }

@@ -2,147 +2,147 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 27,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 27,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 21,
-            "end": 26,
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 22,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 22
             },
             "init": {
               "type": "Literal",
-              "start": 25,
-              "end": 26,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 25,
+              "end": 26
             },
-            "definite": false
+            "definite": false,
+            "start": 21,
+            "end": 26
           }
         ],
-        "declare": true
+        "declare": true,
+        "start": 7,
+        "end": 27
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 27
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 28,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 27,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 27,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 21,
-            "end": 26,
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 22,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 21,
+              "end": 22
             },
             "init": {
               "type": "Literal",
-              "start": 25,
-              "end": 26,
               "value": 2,
-              "raw": "2"
+              "raw": "2",
+              "start": 25,
+              "end": 26
             },
-            "definite": false
+            "definite": false,
+            "start": 21,
+            "end": 26
           }
         ],
-        "declare": true
+        "declare": true,
+        "start": 7,
+        "end": 27
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 27
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 28
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 85,
   "body": [
     {
       "type": "ImportDeclaration",
-      "start": 0,
-      "end": 30,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 7,
-        "end": 30,
         "value": "i-have-a-dir-and-main",
-        "raw": "'i-have-a-dir-and-main'"
+        "raw": "'i-have-a-dir-and-main'",
+        "start": 7,
+        "end": 30
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 0,
+      "end": 30
     },
     {
       "type": "ImportDeclaration",
-      "start": 37,
-      "end": 76,
       "specifiers": [],
       "source": {
         "type": "Literal",
-        "start": 44,
-        "end": 76,
         "value": "i-have-a-dir-and-main/dist/dir",
-        "raw": "'i-have-a-dir-and-main/dist/dir'"
+        "raw": "'i-have-a-dir-and-main/dist/dir'",
+        "start": 44,
+        "end": 76
       },
       "phase": null,
       "attributes": [],
-      "importKind": "value"
+      "importKind": "value",
+      "start": 37,
+      "end": 76
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 85
 }
 ```

@@ -2,57 +2,49 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 51,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 51,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 11,
         "decorators": [],
         "name": "I",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 11
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 12,
-        "end": 51,
         "body": [
           {
             "type": "TSMethodSignature",
-            "start": 18,
-            "end": 49,
             "key": {
               "type": "MemberExpression",
-              "start": 19,
-              "end": 37,
               "object": {
                 "type": "Identifier",
-                "start": 19,
-                "end": 25,
                 "decorators": [],
                 "name": "Symbol",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 19,
+                "end": 25
               },
               "property": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 37,
                 "decorators": [],
                 "name": "unscopables",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 26,
+                "end": 37
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 19,
+              "end": 37
             },
             "computed": true,
             "optional": false,
@@ -61,24 +53,32 @@ __ESTREE_TEST__:PASS:
             "params": [],
             "returnType": {
               "type": "TSTypeAnnotation",
-              "start": 40,
-              "end": 48,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 42,
                 "end": 48
-              }
+              },
+              "start": 40,
+              "end": 48
             },
             "accessibility": null,
             "readonly": false,
-            "static": false
+            "static": false,
+            "start": 18,
+            "end": 49
           }
-        ]
+        ],
+        "start": 12,
+        "end": 51
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 51
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 51
 }
 ```

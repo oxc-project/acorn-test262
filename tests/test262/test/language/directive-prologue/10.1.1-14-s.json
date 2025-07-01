@@ -1,103 +1,103 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 389,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 285,
-      "end": 388,
       "expression": {
         "type": "CallExpression",
-        "start": 285,
-        "end": 387,
         "callee": {
           "type": "MemberExpression",
-          "start": 285,
-          "end": 298,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 285,
-            "end": 291,
-            "name": "assert"
+            "end": 291
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 292,
-            "end": 298,
-            "name": "throws"
+            "end": 298
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 285,
+          "end": 298
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "SyntaxError",
             "start": 299,
-            "end": 310,
-            "name": "SyntaxError"
+            "end": 310
           },
           {
             "type": "FunctionExpression",
-            "start": 312,
-            "end": 386,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 323,
-              "end": 386,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 333,
-                  "end": 346,
                   "expression": {
                     "type": "Literal",
-                    "start": 333,
-                    "end": 345,
                     "value": "use strict",
-                    "raw": "'use strict'"
+                    "raw": "'use strict'",
+                    "start": 333,
+                    "end": 345
                   },
-                  "directive": "use strict"
+                  "directive": "use strict",
+                  "start": 333,
+                  "end": 346
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 360,
-                  "end": 384,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 360,
-                    "end": 383,
                     "callee": {
                       "type": "Identifier",
+                      "name": "eval",
                       "start": 360,
-                      "end": 364,
-                      "name": "eval"
+                      "end": 364
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 365,
-                        "end": 382,
                         "value": "var public = 1;",
-                        "raw": "\"var public = 1;\""
+                        "raw": "\"var public = 1;\"",
+                        "start": 365,
+                        "end": 382
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 360,
+                    "end": 383
+                  },
+                  "start": 360,
+                  "end": 384
                 }
-              ]
+              ],
+              "start": 323,
+              "end": 386
             },
-            "expression": false
+            "expression": false,
+            "start": 312,
+            "end": 386
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 285,
+        "end": 387
+      },
+      "start": 285,
+      "end": 388
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 389
 }

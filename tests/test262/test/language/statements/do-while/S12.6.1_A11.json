@@ -1,128 +1,128 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 627,
   "body": [
     {
       "type": "DoWhileStatement",
-      "start": 292,
-      "end": 352,
       "body": {
         "type": "BlockStatement",
-        "start": 295,
-        "end": 341,
         "body": [
           {
             "type": "VariableDeclaration",
-            "start": 301,
-            "end": 316,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 305,
-                "end": 315,
                 "id": {
                   "type": "Identifier",
+                  "name": "__in__do",
                   "start": 305,
-                  "end": 313,
-                  "name": "__in__do"
+                  "end": 313
                 },
                 "init": {
                   "type": "Literal",
-                  "start": 314,
-                  "end": 315,
                   "value": 1,
-                  "raw": "1"
-                }
+                  "raw": "1",
+                  "start": 314,
+                  "end": 315
+                },
+                "start": 305,
+                "end": 315
               }
-            ]
+            ],
+            "start": 301,
+            "end": 316
           },
           {
             "type": "IfStatement",
-            "start": 321,
-            "end": 339,
             "test": {
               "type": "Identifier",
+              "name": "__in__do",
               "start": 324,
-              "end": 332,
-              "name": "__in__do"
+              "end": 332
             },
             "consequent": {
               "type": "BreakStatement",
+              "label": null,
               "start": 333,
-              "end": 339,
-              "label": null
+              "end": 339
             },
-            "alternate": null
+            "alternate": null,
+            "start": 321,
+            "end": 339
           }
-        ]
+        ],
+        "start": 295,
+        "end": 341
       },
       "test": {
         "type": "ObjectExpression",
+        "properties": [],
         "start": 348,
-        "end": 350,
-        "properties": []
-      }
+        "end": 350
+      },
+      "start": 292,
+      "end": 352
     },
     {
       "type": "IfStatement",
-      "start": 443,
-      "end": 544,
       "test": {
         "type": "BinaryExpression",
-        "start": 447,
-        "end": 461,
         "left": {
           "type": "Identifier",
+          "name": "__in__do",
           "start": 447,
-          "end": 455,
-          "name": "__in__do"
+          "end": 455
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 460,
-          "end": 461,
           "value": 1,
-          "raw": "1"
-        }
+          "raw": "1",
+          "start": 460,
+          "end": 461
+        },
+        "start": 447,
+        "end": 461
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 463,
-        "end": 544,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 466,
-            "end": 542,
             "argument": {
               "type": "NewExpression",
-              "start": 472,
-              "end": 541,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 476,
-                "end": 488,
-                "name": "Test262Error"
+                "end": 488
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 489,
-                  "end": 540,
                   "value": "#1: \"{}\" in do-while expression evaluates to true",
-                  "raw": "'#1: \"{}\" in do-while expression evaluates to true'"
+                  "raw": "'#1: \"{}\" in do-while expression evaluates to true'",
+                  "start": 489,
+                  "end": 540
                 }
-              ]
-            }
+              ],
+              "start": 472,
+              "end": 541
+            },
+            "start": 466,
+            "end": 542
           }
-        ]
+        ],
+        "start": 463,
+        "end": 544
       },
-      "alternate": null
+      "alternate": null,
+      "start": 443,
+      "end": 544
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 627
 }

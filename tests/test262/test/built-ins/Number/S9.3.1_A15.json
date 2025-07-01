@@ -1,81 +1,81 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 451,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 329,
-      "end": 450,
       "expression": {
         "type": "CallExpression",
-        "start": 329,
-        "end": 449,
         "callee": {
           "type": "MemberExpression",
-          "start": 329,
-          "end": 345,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 329,
-            "end": 335,
-            "name": "assert"
+            "end": 335
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 336,
-            "end": 345,
-            "name": "sameValue"
+            "end": 345
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 329,
+          "end": 345
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 349,
-            "end": 365,
             "operator": "+",
             "argument": {
               "type": "ParenthesizedExpression",
-              "start": 350,
-              "end": 365,
               "expression": {
                 "type": "Literal",
-                "start": 351,
-                "end": 364,
                 "value": "-1234567890",
-                "raw": "\"-1234567890\""
-              }
+                "raw": "\"-1234567890\"",
+                "start": 351,
+                "end": 364
+              },
+              "start": 350,
+              "end": 365
             },
-            "prefix": true
+            "prefix": true,
+            "start": 349,
+            "end": 365
           },
           {
             "type": "UnaryExpression",
-            "start": 369,
-            "end": 380,
             "operator": "-",
             "argument": {
               "type": "Literal",
-              "start": 370,
-              "end": 380,
               "value": 1234567890,
-              "raw": "1234567890"
+              "raw": "1234567890",
+              "start": 370,
+              "end": 380
             },
-            "prefix": true
+            "prefix": true,
+            "start": 369,
+            "end": 380
           },
           {
             "type": "Literal",
-            "start": 384,
-            "end": 447,
             "value": "The value of `+(\"-1234567890\")` is expected to be -1234567890",
-            "raw": "'The value of `+(\"-1234567890\")` is expected to be -1234567890'"
+            "raw": "'The value of `+(\"-1234567890\")` is expected to be -1234567890'",
+            "start": 384,
+            "end": 447
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 329,
+        "end": 449
+      },
+      "start": 329,
+      "end": 450
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 451
 }

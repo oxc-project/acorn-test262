@@ -1,94 +1,94 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 804,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 721,
-      "end": 772,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 725,
-          "end": 771,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 725,
-            "end": 731,
-            "name": "result"
+            "end": 731
           },
           "init": {
             "type": "CallExpression",
-            "start": 734,
-            "end": 771,
             "callee": {
               "type": "Identifier",
+              "name": "eval",
               "start": 734,
-              "end": 738,
-              "name": "eval"
+              "end": 738
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 739,
-                "end": 770,
                 "value": "class C {}let a, b = 42, c;b;",
-                "raw": "'class C {}let a, b = 42, c;b;'"
+                "raw": "'class C {}let a, b = 42, c;b;'",
+                "start": 739,
+                "end": 770
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 734,
+            "end": 771
+          },
+          "start": 725,
+          "end": 771
         }
-      ]
+      ],
+      "start": 721,
+      "end": 772
     },
     {
       "type": "ExpressionStatement",
-      "start": 774,
-      "end": 803,
       "expression": {
         "type": "CallExpression",
-        "start": 774,
-        "end": 802,
         "callee": {
           "type": "MemberExpression",
-          "start": 774,
-          "end": 790,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 774,
-            "end": 780,
-            "name": "assert"
+            "end": 780
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 781,
-            "end": 790,
-            "name": "sameValue"
+            "end": 790
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 774,
+          "end": 790
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "result",
             "start": 791,
-            "end": 797,
-            "name": "result"
+            "end": 797
           },
           {
             "type": "Literal",
-            "start": 799,
-            "end": 801,
             "value": 42,
-            "raw": "42"
+            "raw": "42",
+            "start": 799,
+            "end": 801
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 774,
+        "end": 802
+      },
+      "start": 774,
+      "end": 803
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 804
 }

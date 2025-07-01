@@ -2,96 +2,90 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 48,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 0,
-      "end": 47,
       "declaration": {
         "type": "TSInterfaceDeclaration",
-        "start": 15,
-        "end": 47,
         "id": {
           "type": "Identifier",
-          "start": 25,
-          "end": 28,
           "decorators": [],
           "name": "Foo",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 25,
+          "end": 28
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
-          "start": 29,
-          "end": 47,
           "body": [
             {
               "type": "TSPropertySignature",
-              "start": 35,
-              "end": 45,
               "computed": false,
               "optional": false,
               "readonly": false,
               "key": {
                 "type": "Identifier",
-                "start": 35,
-                "end": 36,
                 "decorators": [],
                 "name": "a",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 35,
+                "end": 36
               },
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 36,
-                "end": 44,
                 "typeAnnotation": {
                   "type": "TSNumberKeyword",
                   "start": 38,
                   "end": 44
-                }
+                },
+                "start": 36,
+                "end": 44
               },
               "accessibility": null,
-              "static": false
+              "static": false,
+              "start": 35,
+              "end": 45
             }
-          ]
+          ],
+          "start": 29,
+          "end": 47
         },
-        "declare": false
+        "declare": false,
+        "start": 15,
+        "end": 47
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 0,
+      "end": 47
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 48
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 69,
-  "end": 94,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 69,
-      "end": 94,
       "declaration": {
         "type": "FunctionDeclaration",
-        "start": 76,
-        "end": 94,
         "id": {
           "type": "Identifier",
-          "start": 85,
-          "end": 86,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 85,
+          "end": 86
         },
         "generator": false,
         "async": false,
@@ -100,30 +94,36 @@ __ESTREE_TEST__:PASS:
         "params": [
           {
             "type": "Identifier",
-            "start": 87,
-            "end": 90,
             "decorators": [],
             "name": "foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 87,
+            "end": 90
           }
         ],
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 92,
-          "end": 94,
-          "body": []
+          "end": 94
         },
-        "expression": false
+        "expression": false,
+        "start": 76,
+        "end": 94
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 69,
+      "end": 94
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 69,
+  "end": 94
 }
 ```

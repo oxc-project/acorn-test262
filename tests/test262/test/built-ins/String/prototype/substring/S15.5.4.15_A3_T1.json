@@ -1,287 +1,287 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 983,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 420,
-      "end": 462,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 424,
-          "end": 461,
           "id": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 424,
-            "end": 434,
-            "name": "__instance"
+            "end": 434
           },
           "init": {
             "type": "NewExpression",
-            "start": 437,
-            "end": 461,
             "callee": {
               "type": "Identifier",
+              "name": "Array",
               "start": 441,
-              "end": 446,
-              "name": "Array"
+              "end": 446
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 447,
-                "end": 448,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 447,
+                "end": 448
               },
               {
                 "type": "Literal",
-                "start": 450,
-                "end": 451,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 450,
+                "end": 451
               },
               {
                 "type": "Literal",
-                "start": 453,
-                "end": 454,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 453,
+                "end": 454
               },
               {
                 "type": "Literal",
-                "start": 456,
-                "end": 457,
                 "value": 4,
-                "raw": "4"
+                "raw": "4",
+                "start": 456,
+                "end": 457
               },
               {
                 "type": "Literal",
-                "start": 459,
-                "end": 460,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "start": 459,
+                "end": 460
               }
-            ]
-          }
+            ],
+            "start": 437,
+            "end": 461
+          },
+          "start": 424,
+          "end": 461
         }
-      ]
+      ],
+      "start": 420,
+      "end": 462
     },
     {
       "type": "ExpressionStatement",
-      "start": 463,
-      "end": 513,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 463,
-        "end": 512,
         "operator": "=",
         "left": {
           "type": "MemberExpression",
-          "start": 463,
-          "end": 483,
           "object": {
             "type": "Identifier",
+            "name": "__instance",
             "start": 463,
-            "end": 473,
-            "name": "__instance"
+            "end": 473
           },
           "property": {
             "type": "Identifier",
+            "name": "substring",
             "start": 474,
-            "end": 483,
-            "name": "substring"
+            "end": 483
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 463,
+          "end": 483
         },
         "right": {
           "type": "MemberExpression",
-          "start": 486,
-          "end": 512,
           "object": {
             "type": "MemberExpression",
-            "start": 486,
-            "end": 502,
             "object": {
               "type": "Identifier",
+              "name": "String",
               "start": 486,
-              "end": 492,
-              "name": "String"
+              "end": 492
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 493,
-              "end": 502,
-              "name": "prototype"
+              "end": 502
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 486,
+            "end": 502
           },
           "property": {
             "type": "Identifier",
+            "name": "substring",
             "start": 503,
-            "end": 512,
-            "name": "substring"
+            "end": 512
           },
           "optional": false,
-          "computed": false
-        }
-      }
+          "computed": false,
+          "start": 486,
+          "end": 512
+        },
+        "start": 463,
+        "end": 512
+      },
+      "start": 463,
+      "end": 513
     },
     {
       "type": "IfStatement",
-      "start": 604,
-      "end": 900,
       "test": {
         "type": "BinaryExpression",
-        "start": 608,
-        "end": 665,
         "left": {
           "type": "CallExpression",
-          "start": 608,
-          "end": 649,
           "callee": {
             "type": "MemberExpression",
-            "start": 608,
-            "end": 628,
             "object": {
               "type": "Identifier",
+              "name": "__instance",
               "start": 608,
-              "end": 618,
-              "name": "__instance"
+              "end": 618
             },
             "property": {
               "type": "Identifier",
+              "name": "substring",
               "start": 619,
-              "end": 628,
-              "name": "substring"
+              "end": 628
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 608,
+            "end": 628
           },
           "arguments": [
             {
               "type": "Identifier",
+              "name": "Infinity",
               "start": 629,
-              "end": 637,
-              "name": "Infinity"
+              "end": 637
             },
             {
               "type": "UnaryExpression",
-              "start": 639,
-              "end": 648,
               "operator": "-",
               "argument": {
                 "type": "Identifier",
+                "name": "Infinity",
                 "start": 640,
-                "end": 648,
-                "name": "Infinity"
+                "end": 648
               },
-              "prefix": true
+              "prefix": true,
+              "start": 639,
+              "end": 648
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 608,
+          "end": 649
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 654,
-          "end": 665,
           "value": "1,2,3,4,5",
-          "raw": "\"1,2,3,4,5\""
-        }
+          "raw": "\"1,2,3,4,5\"",
+          "start": 654,
+          "end": 665
+        },
+        "start": 608,
+        "end": 665
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 667,
-        "end": 900,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 671,
-            "end": 898,
             "argument": {
               "type": "NewExpression",
-              "start": 677,
-              "end": 897,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 681,
-                "end": 693,
-                "name": "Test262Error"
+                "end": 693
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 694,
-                  "end": 896,
                   "left": {
                     "type": "Literal",
-                    "start": 694,
-                    "end": 852,
                     "value": "#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(Infinity,-Infinity) === \"1,2,3,4,5\". Actual: ",
-                    "raw": "'#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(Infinity,-Infinity) === \"1,2,3,4,5\". Actual: '"
+                    "raw": "'#1: __instance = new Array(1,2,3,4,5); __instance.substring = String.prototype.substring; __instance.substring(Infinity,-Infinity) === \"1,2,3,4,5\". Actual: '",
+                    "start": 694,
+                    "end": 852
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 855,
-                    "end": 896,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 855,
-                      "end": 875,
                       "object": {
                         "type": "Identifier",
+                        "name": "__instance",
                         "start": 855,
-                        "end": 865,
-                        "name": "__instance"
+                        "end": 865
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "substring",
                         "start": 866,
-                        "end": 875,
-                        "name": "substring"
+                        "end": 875
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 855,
+                      "end": 875
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "Infinity",
                         "start": 876,
-                        "end": 884,
-                        "name": "Infinity"
+                        "end": 884
                       },
                       {
                         "type": "UnaryExpression",
-                        "start": 886,
-                        "end": 895,
                         "operator": "-",
                         "argument": {
                           "type": "Identifier",
+                          "name": "Infinity",
                           "start": 887,
-                          "end": 895,
-                          "name": "Infinity"
+                          "end": 895
                         },
-                        "prefix": true
+                        "prefix": true,
+                        "start": 886,
+                        "end": 895
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 855,
+                    "end": 896
+                  },
+                  "start": 694,
+                  "end": 896
                 }
-              ]
-            }
+              ],
+              "start": 677,
+              "end": 897
+            },
+            "start": 671,
+            "end": 898
           }
-        ]
+        ],
+        "start": 667,
+        "end": 900
       },
-      "alternate": null
+      "alternate": null,
+      "start": 604,
+      "end": 900
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 983
 }

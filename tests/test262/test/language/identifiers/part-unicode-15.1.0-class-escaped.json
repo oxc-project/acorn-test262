@@ -1,42 +1,40 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 576,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 533,
-      "end": 574,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "_",
         "start": 539,
-        "end": 540,
-        "name": "_"
+        "end": 540
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 541,
-        "end": 574,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 545,
-            "end": 572,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "_‌‍・･",
               "start": 545,
-              "end": 571,
-              "name": "_‌‍・･"
+              "end": 571
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 545,
+            "end": 572
           }
-        ]
-      }
+        ],
+        "start": 541,
+        "end": 574
+      },
+      "start": 533,
+      "end": 574
     },
     {
       "type": "EmptyStatement",
@@ -45,5 +43,7 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 576
 }

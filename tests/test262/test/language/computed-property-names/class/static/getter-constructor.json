@@ -1,61 +1,61 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 315,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 269,
-      "end": 314,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 275,
-        "end": 276,
-        "name": "C"
+        "end": 276
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 277,
-        "end": 314,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 281,
-            "end": 312,
             "decorators": [],
             "key": {
               "type": "Literal",
-              "start": 293,
-              "end": 306,
               "value": "constructor",
-              "raw": "'constructor'"
+              "raw": "'constructor'",
+              "start": 293,
+              "end": 306
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 307,
-              "end": 312,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 310,
-                "end": 312,
-                "body": []
+                "end": 312
               },
-              "expression": false
+              "expression": false,
+              "start": 307,
+              "end": 312
             },
             "kind": "get",
             "computed": true,
-            "static": true
+            "static": true,
+            "start": 281,
+            "end": 312
           }
-        ]
-      }
+        ],
+        "start": 277,
+        "end": 314
+      },
+      "start": 269,
+      "end": 314
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 315
 }

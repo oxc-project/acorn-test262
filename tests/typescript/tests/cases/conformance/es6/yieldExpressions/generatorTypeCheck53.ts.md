@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 106,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 23,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,32 +21,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 23,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 12,
-            "end": 21,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 12,
-              "end": 13,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 12,
+              "end": 13
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 13,
-              "end": 21,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 15,
                 "end": 21
-              }
+              },
+              "start": 13,
+              "end": 21
             },
             "value": null,
             "computed": false,
@@ -60,26 +52,30 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 12,
+            "end": 21
           }
-        ]
+        ],
+        "start": 10,
+        "end": 23
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 23
     },
     {
       "type": "ClassDeclaration",
-      "start": 24,
-      "end": 47,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 30,
-        "end": 33,
         "decorators": [],
         "name": "Baz",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 30,
+        "end": 33
       },
       "typeParameters": null,
       "superClass": null,
@@ -87,32 +83,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 34,
-        "end": 47,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 36,
-            "end": 45,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 36,
-              "end": 37,
               "decorators": [],
               "name": "z",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 36,
+              "end": 37
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 37,
-              "end": 45,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 39,
                 "end": 45
-              }
+              },
+              "start": 37,
+              "end": 45
             },
             "value": null,
             "computed": false,
@@ -122,25 +114,29 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 36,
+            "end": 45
           }
-        ]
+        ],
+        "start": 34,
+        "end": 47
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 24,
+      "end": 47
     },
     {
       "type": "FunctionDeclaration",
-      "start": 48,
-      "end": 106,
       "id": {
         "type": "Identifier",
-        "start": 58,
-        "end": 59,
         "decorators": [],
         "name": "g",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 58,
+        "end": 59
       },
       "generator": true,
       "async": false,
@@ -150,78 +146,82 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 62,
-        "end": 106,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 68,
-            "end": 82,
             "expression": {
               "type": "YieldExpression",
-              "start": 68,
-              "end": 81,
               "delegate": false,
               "argument": {
                 "type": "NewExpression",
-                "start": 74,
-                "end": 81,
                 "callee": {
                   "type": "Identifier",
-                  "start": 78,
-                  "end": 81,
                   "decorators": [],
                   "name": "Foo",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 78,
+                  "end": 81
                 },
                 "typeArguments": null,
-                "arguments": []
-              }
+                "arguments": [],
+                "start": 74,
+                "end": 81
+              },
+              "start": 68,
+              "end": 81
             },
-            "directive": null
+            "directive": null,
+            "start": 68,
+            "end": 82
           },
           {
             "type": "ExpressionStatement",
-            "start": 87,
-            "end": 104,
             "expression": {
               "type": "YieldExpression",
-              "start": 87,
-              "end": 103,
               "delegate": true,
               "argument": {
                 "type": "ArrayExpression",
-                "start": 94,
-                "end": 103,
                 "elements": [
                   {
                     "type": "NewExpression",
-                    "start": 95,
-                    "end": 102,
                     "callee": {
                       "type": "Identifier",
-                      "start": 99,
-                      "end": 102,
                       "decorators": [],
                       "name": "Baz",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 99,
+                      "end": 102
                     },
                     "typeArguments": null,
-                    "arguments": []
+                    "arguments": [],
+                    "start": 95,
+                    "end": 102
                   }
-                ]
-              }
+                ],
+                "start": 94,
+                "end": 103
+              },
+              "start": 87,
+              "end": 103
             },
-            "directive": null
+            "directive": null,
+            "start": 87,
+            "end": 104
           }
-        ]
+        ],
+        "start": 62,
+        "end": 106
       },
-      "expression": false
+      "expression": false,
+      "start": 48,
+      "end": 106
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 106
 }
 ```

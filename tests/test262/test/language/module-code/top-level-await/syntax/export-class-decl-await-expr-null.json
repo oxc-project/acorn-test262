@@ -1,102 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2143,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 2018,
-      "end": 2059,
       "id": {
         "type": "Identifier",
+        "name": "fn",
         "start": 2027,
-        "end": 2029,
-        "name": "fn"
+        "end": 2029
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 2032,
-        "end": 2059,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 2036,
-            "end": 2057,
             "argument": {
               "type": "FunctionExpression",
-              "start": 2043,
-              "end": 2056,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 2054,
-                "end": 2056,
-                "body": []
+                "end": 2056
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 2043,
+              "end": 2056
+            },
+            "start": 2036,
+            "end": 2057
           }
-        ]
+        ],
+        "start": 2032,
+        "end": 2059
       },
-      "expression": false
+      "expression": false,
+      "start": 2018,
+      "end": 2059
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 2101,
-      "end": 2141,
       "declaration": {
         "type": "ClassDeclaration",
-        "start": 2108,
-        "end": 2141,
         "decorators": [],
         "id": {
           "type": "Identifier",
+          "name": "C",
           "start": 2114,
-          "end": 2115,
-          "name": "C"
+          "end": 2115
         },
         "superClass": {
           "type": "CallExpression",
-          "start": 2124,
-          "end": 2138,
           "callee": {
             "type": "Identifier",
+            "name": "fn",
             "start": 2124,
-            "end": 2126,
-            "name": "fn"
+            "end": 2126
           },
           "arguments": [
             {
               "type": "AwaitExpression",
-              "start": 2127,
-              "end": 2137,
               "argument": {
                 "type": "Literal",
-                "start": 2133,
-                "end": 2137,
                 "value": null,
-                "raw": "null"
-              }
+                "raw": "null",
+                "start": 2133,
+                "end": 2137
+              },
+              "start": 2127,
+              "end": 2137
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 2124,
+          "end": 2138
         },
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 2139,
-          "end": 2141,
-          "body": []
-        }
+          "end": 2141
+        },
+        "start": 2108,
+        "end": 2141
       },
       "specifiers": [],
       "source": null,
-      "attributes": []
+      "attributes": [],
+      "start": 2101,
+      "end": 2141
     },
     {
       "type": "EmptyStatement",
@@ -105,5 +103,7 @@
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2143
 }

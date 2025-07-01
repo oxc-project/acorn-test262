@@ -2,65 +2,65 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 34,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 34,
       "declaration": {
         "type": "TSEnumDeclaration",
-        "start": 7,
-        "end": 34,
         "id": {
           "type": "Identifier",
-          "start": 18,
-          "end": 19,
           "decorators": [],
           "name": "E",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 18,
+          "end": 19
         },
         "body": {
           "type": "TSEnumBody",
-          "start": 20,
-          "end": 34,
           "members": [
             {
               "type": "TSEnumMember",
-              "start": 26,
-              "end": 31,
               "id": {
                 "type": "Identifier",
-                "start": 26,
-                "end": 27,
                 "decorators": [],
                 "name": "A",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 26,
+                "end": 27
               },
               "initializer": {
                 "type": "Literal",
-                "start": 30,
-                "end": 31,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 30,
+                "end": 31
               },
-              "computed": false
+              "computed": false,
+              "start": 26,
+              "end": 31
             }
-          ]
+          ],
+          "start": 20,
+          "end": 34
         },
         "const": true,
-        "declare": false
+        "declare": false,
+        "start": 7,
+        "end": 34
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 34
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 34
 }
 ```

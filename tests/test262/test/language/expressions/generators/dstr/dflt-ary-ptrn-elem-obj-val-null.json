@@ -1,172 +1,172 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2010,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1920,
-      "end": 1959,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1924,
-          "end": 1958,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 1924,
-            "end": 1925,
-            "name": "f"
+            "end": 1925
           },
           "init": {
             "type": "FunctionExpression",
-            "start": 1928,
-            "end": 1958,
             "id": null,
             "generator": true,
             "async": false,
             "params": [
               {
                 "type": "AssignmentPattern",
-                "start": 1938,
-                "end": 1954,
                 "left": {
                   "type": "ArrayPattern",
-                  "start": 1938,
-                  "end": 1945,
                   "elements": [
                     {
                       "type": "ObjectPattern",
-                      "start": 1939,
-                      "end": 1944,
                       "properties": [
                         {
                           "type": "Property",
-                          "start": 1941,
-                          "end": 1942,
                           "kind": "init",
                           "key": {
                             "type": "Identifier",
+                            "name": "x",
                             "start": 1941,
-                            "end": 1942,
-                            "name": "x"
+                            "end": 1942
                           },
                           "value": {
                             "type": "Identifier",
+                            "name": "x",
                             "start": 1941,
-                            "end": 1942,
-                            "name": "x"
+                            "end": 1942
                           },
                           "method": false,
                           "shorthand": true,
-                          "computed": false
+                          "computed": false,
+                          "start": 1941,
+                          "end": 1942
                         }
-                      ]
+                      ],
+                      "start": 1939,
+                      "end": 1944
                     }
-                  ]
+                  ],
+                  "start": 1938,
+                  "end": 1945
                 },
                 "right": {
                   "type": "ArrayExpression",
-                  "start": 1948,
-                  "end": 1954,
                   "elements": [
                     {
                       "type": "Literal",
-                      "start": 1949,
-                      "end": 1953,
                       "value": null,
-                      "raw": "null"
+                      "raw": "null",
+                      "start": 1949,
+                      "end": 1953
                     }
-                  ]
-                }
+                  ],
+                  "start": 1948,
+                  "end": 1954
+                },
+                "start": 1938,
+                "end": 1954
               }
             ],
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 1956,
-              "end": 1958,
-              "body": []
+              "end": 1958
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 1928,
+            "end": 1958
+          },
+          "start": 1924,
+          "end": 1958
         }
-      ]
+      ],
+      "start": 1920,
+      "end": 1959
     },
     {
       "type": "ExpressionStatement",
-      "start": 1961,
-      "end": 2009,
       "expression": {
         "type": "CallExpression",
-        "start": 1961,
-        "end": 2008,
         "callee": {
           "type": "MemberExpression",
-          "start": 1961,
-          "end": 1974,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1961,
-            "end": 1967,
-            "name": "assert"
+            "end": 1967
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1968,
-            "end": 1974,
-            "name": "throws"
+            "end": 1974
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1961,
+          "end": 1974
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 1975,
-            "end": 1984,
-            "name": "TypeError"
+            "end": 1984
           },
           {
             "type": "FunctionExpression",
-            "start": 1986,
-            "end": 2007,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1997,
-              "end": 2007,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 2001,
-                  "end": 2005,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 2001,
-                    "end": 2004,
                     "callee": {
                       "type": "Identifier",
+                      "name": "f",
                       "start": 2001,
-                      "end": 2002,
-                      "name": "f"
+                      "end": 2002
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 2001,
+                    "end": 2004
+                  },
+                  "start": 2001,
+                  "end": 2005
                 }
-              ]
+              ],
+              "start": 1997,
+              "end": 2007
             },
-            "expression": false
+            "expression": false,
+            "start": 1986,
+            "end": 2007
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1961,
+        "end": 2008
+      },
+      "start": 1961,
+      "end": 2009
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2010
 }

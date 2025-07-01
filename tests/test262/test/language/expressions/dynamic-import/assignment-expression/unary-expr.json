@@ -1,346 +1,346 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 984,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 790,
-      "end": 819,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 796,
-          "end": 818,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 796,
-            "end": 799,
-            "name": "obj"
+            "end": 799
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 802,
-            "end": 818,
             "properties": [
               {
                 "type": "Property",
-                "start": 808,
-                "end": 816,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "prop",
                   "start": 808,
-                  "end": 812,
-                  "name": "prop"
+                  "end": 812
                 },
                 "value": {
                   "type": "Literal",
-                  "start": 814,
-                  "end": 816,
                   "value": 42,
-                  "raw": "42"
+                  "raw": "42",
+                  "start": 814,
+                  "end": 816
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 808,
+                "end": 816
               }
-            ]
-          }
+            ],
+            "start": 802,
+            "end": 818
+          },
+          "start": 796,
+          "end": 818
         }
-      ]
+      ],
+      "start": 790,
+      "end": 819
     },
     {
       "type": "ExpressionStatement",
-      "start": 821,
-      "end": 845,
       "expression": {
         "type": "ImportExpression",
-        "start": 821,
-        "end": 844,
         "source": {
           "type": "UnaryExpression",
-          "start": 828,
-          "end": 843,
           "operator": "delete",
           "argument": {
             "type": "MemberExpression",
-            "start": 835,
-            "end": 843,
             "object": {
               "type": "Identifier",
+              "name": "obj",
               "start": 835,
-              "end": 838,
-              "name": "obj"
+              "end": 838
             },
             "property": {
               "type": "Identifier",
+              "name": "prop",
               "start": 839,
-              "end": 843,
-              "name": "prop"
+              "end": 843
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 835,
+            "end": 843
           },
-          "prefix": true
+          "prefix": true,
+          "start": 828,
+          "end": 843
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 821,
+        "end": 844
+      },
+      "start": 821,
+      "end": 845
     },
     {
       "type": "ExpressionStatement",
-      "start": 846,
-      "end": 861,
       "expression": {
         "type": "ImportExpression",
-        "start": 846,
-        "end": 860,
         "source": {
           "type": "UnaryExpression",
-          "start": 853,
-          "end": 859,
           "operator": "void",
           "argument": {
             "type": "Literal",
-            "start": 858,
-            "end": 859,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 858,
+            "end": 859
           },
-          "prefix": true
+          "prefix": true,
+          "start": 853,
+          "end": 859
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 846,
+        "end": 860
+      },
+      "start": 846,
+      "end": 861
     },
     {
       "type": "ExpressionStatement",
-      "start": 862,
-      "end": 880,
       "expression": {
         "type": "ImportExpression",
-        "start": 862,
-        "end": 879,
         "source": {
           "type": "UnaryExpression",
-          "start": 869,
-          "end": 878,
           "operator": "typeof",
           "argument": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 876,
-            "end": 878,
-            "properties": []
+            "end": 878
           },
-          "prefix": true
+          "prefix": true,
+          "start": 869,
+          "end": 878
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 862,
+        "end": 879
+      },
+      "start": 862,
+      "end": 880
     },
     {
       "type": "ExpressionStatement",
-      "start": 881,
-      "end": 897,
       "expression": {
         "type": "ImportExpression",
-        "start": 881,
-        "end": 896,
         "source": {
           "type": "UnaryExpression",
-          "start": 888,
-          "end": 895,
           "operator": "+",
           "argument": {
             "type": "UnaryExpression",
-            "start": 889,
-            "end": 895,
             "operator": "void",
             "argument": {
               "type": "Literal",
-              "start": 894,
-              "end": 895,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 894,
+              "end": 895
             },
-            "prefix": true
+            "prefix": true,
+            "start": 889,
+            "end": 895
           },
-          "prefix": true
+          "prefix": true,
+          "start": 888,
+          "end": 895
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 881,
+        "end": 896
+      },
+      "start": 881,
+      "end": 897
     },
     {
       "type": "ExpressionStatement",
-      "start": 898,
-      "end": 914,
       "expression": {
         "type": "ImportExpression",
-        "start": 898,
-        "end": 913,
         "source": {
           "type": "UnaryExpression",
-          "start": 905,
-          "end": 912,
           "operator": "-",
           "argument": {
             "type": "UnaryExpression",
-            "start": 906,
-            "end": 912,
             "operator": "void",
             "argument": {
               "type": "Literal",
-              "start": 911,
-              "end": 912,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 911,
+              "end": 912
             },
-            "prefix": true
+            "prefix": true,
+            "start": 906,
+            "end": 912
           },
-          "prefix": true
+          "prefix": true,
+          "start": 905,
+          "end": 912
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 898,
+        "end": 913
+      },
+      "start": 898,
+      "end": 914
     },
     {
       "type": "ExpressionStatement",
-      "start": 915,
-      "end": 931,
       "expression": {
         "type": "ImportExpression",
-        "start": 915,
-        "end": 930,
         "source": {
           "type": "UnaryExpression",
-          "start": 922,
-          "end": 929,
           "operator": "!",
           "argument": {
             "type": "UnaryExpression",
-            "start": 923,
-            "end": 929,
             "operator": "void",
             "argument": {
               "type": "Literal",
-              "start": 928,
-              "end": 929,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 928,
+              "end": 929
             },
-            "prefix": true
+            "prefix": true,
+            "start": 923,
+            "end": 929
           },
-          "prefix": true
+          "prefix": true,
+          "start": 922,
+          "end": 929
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 915,
+        "end": 930
+      },
+      "start": 915,
+      "end": 931
     },
     {
       "type": "ExpressionStatement",
-      "start": 932,
-      "end": 948,
       "expression": {
         "type": "ImportExpression",
-        "start": 932,
-        "end": 947,
         "source": {
           "type": "UnaryExpression",
-          "start": 939,
-          "end": 946,
           "operator": "~",
           "argument": {
             "type": "UnaryExpression",
-            "start": 940,
-            "end": 946,
             "operator": "void",
             "argument": {
               "type": "Literal",
-              "start": 945,
-              "end": 946,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 945,
+              "end": 946
             },
-            "prefix": true
+            "prefix": true,
+            "start": 940,
+            "end": 946
           },
-          "prefix": true
+          "prefix": true,
+          "start": 939,
+          "end": 946
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 932,
+        "end": 947
+      },
+      "start": 932,
+      "end": 948
     },
     {
       "type": "ExpressionStatement",
-      "start": 949,
-      "end": 983,
       "expression": {
         "type": "ImportExpression",
-        "start": 949,
-        "end": 982,
         "source": {
           "type": "UnaryExpression",
-          "start": 956,
-          "end": 981,
           "operator": "delete",
           "argument": {
             "type": "UnaryExpression",
-            "start": 963,
-            "end": 981,
             "operator": "void",
             "argument": {
               "type": "UnaryExpression",
-              "start": 968,
-              "end": 981,
               "operator": "typeof",
               "argument": {
                 "type": "UnaryExpression",
-                "start": 975,
-                "end": 981,
                 "operator": "+",
                 "argument": {
                   "type": "UnaryExpression",
-                  "start": 976,
-                  "end": 981,
                   "operator": "-",
                   "argument": {
                     "type": "UnaryExpression",
-                    "start": 977,
-                    "end": 981,
                     "operator": "~",
                     "argument": {
                       "type": "UnaryExpression",
-                      "start": 978,
-                      "end": 981,
                       "operator": "!",
                       "argument": {
                         "type": "Literal",
-                        "start": 980,
-                        "end": 981,
                         "value": 0,
-                        "raw": "0"
+                        "raw": "0",
+                        "start": 980,
+                        "end": 981
                       },
-                      "prefix": true
+                      "prefix": true,
+                      "start": 978,
+                      "end": 981
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 977,
+                    "end": 981
                   },
-                  "prefix": true
+                  "prefix": true,
+                  "start": 976,
+                  "end": 981
                 },
-                "prefix": true
+                "prefix": true,
+                "start": 975,
+                "end": 981
               },
-              "prefix": true
+              "prefix": true,
+              "start": 968,
+              "end": 981
             },
-            "prefix": true
+            "prefix": true,
+            "start": 963,
+            "end": 981
           },
-          "prefix": true
+          "prefix": true,
+          "start": 956,
+          "end": 981
         },
         "options": null,
-        "phase": null
-      }
+        "phase": null,
+        "start": 949,
+        "end": 982
+      },
+      "start": 949,
+      "end": 983
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 984
 }

@@ -1,30 +1,30 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 295,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 277,
-      "end": 294,
       "id": {
         "type": "Identifier",
+        "name": "eval",
         "start": 286,
-        "end": 290,
-        "name": "eval"
+        "end": 290
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 292,
-        "end": 294,
-        "body": []
+        "end": 294
       },
-      "expression": false
+      "expression": false,
+      "start": 277,
+      "end": 294
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 295
 }

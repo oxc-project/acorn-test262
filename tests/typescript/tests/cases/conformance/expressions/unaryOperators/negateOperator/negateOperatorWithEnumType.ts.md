@@ -2,30 +2,28 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 28,
-  "end": 283,
   "body": [
     {
       "type": "TSEnumDeclaration",
-      "start": 28,
-      "end": 41,
       "id": {
         "type": "Identifier",
-        "start": 33,
-        "end": 37,
         "decorators": [],
         "name": "ENUM",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 33,
+        "end": 37
       },
       "body": {
         "type": "TSEnumBody",
+        "members": [],
         "start": 38,
-        "end": 41,
-        "members": []
+        "end": 41
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 28,
+      "end": 41
     },
     {
       "type": "EmptyStatement",
@@ -34,72 +32,72 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "TSEnumDeclaration",
-      "start": 43,
-      "end": 66,
       "id": {
         "type": "Identifier",
-        "start": 48,
-        "end": 53,
         "decorators": [],
         "name": "ENUM1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 48,
+        "end": 53
       },
       "body": {
         "type": "TSEnumBody",
-        "start": 54,
-        "end": 66,
         "members": [
           {
             "type": "TSEnumMember",
-            "start": 56,
-            "end": 57,
             "id": {
               "type": "Identifier",
-              "start": 56,
-              "end": 57,
               "decorators": [],
               "name": "A",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 56,
+              "end": 57
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 56,
+            "end": 57
           },
           {
             "type": "TSEnumMember",
-            "start": 59,
-            "end": 60,
             "id": {
               "type": "Identifier",
-              "start": 59,
-              "end": 60,
               "decorators": [],
               "name": "B",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 59,
+              "end": 60
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 59,
+            "end": 60
           },
           {
             "type": "TSEnumMember",
-            "start": 62,
-            "end": 64,
             "id": {
               "type": "Literal",
-              "start": 62,
-              "end": 64,
               "value": "",
-              "raw": "\"\""
+              "raw": "\"\"",
+              "start": 62,
+              "end": 64
             },
             "initializer": null,
-            "computed": false
+            "computed": false,
+            "start": 62,
+            "end": 64
           }
-        ]
+        ],
+        "start": 54,
+        "end": 66
       },
       "const": false,
-      "declare": false
+      "declare": false,
+      "start": 43,
+      "end": 66
     },
     {
       "type": "EmptyStatement",
@@ -108,303 +106,305 @@ __ESTREE_TEST__:PASS:
     },
     {
       "type": "VariableDeclaration",
-      "start": 86,
-      "end": 114,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 90,
-          "end": 113,
           "id": {
             "type": "Identifier",
-            "start": 90,
-            "end": 105,
             "decorators": [],
             "name": "ResultIsNumber1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 90,
+            "end": 105
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 108,
-            "end": 113,
             "operator": "-",
             "argument": {
               "type": "Identifier",
-              "start": 109,
-              "end": 113,
               "decorators": [],
               "name": "ENUM",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 109,
+              "end": 113
             },
-            "prefix": true
+            "prefix": true,
+            "start": 108,
+            "end": 113
           },
-          "definite": false
+          "definite": false,
+          "start": 90,
+          "end": 113
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 86,
+      "end": 114
     },
     {
       "type": "VariableDeclaration",
-      "start": 131,
-      "end": 165,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 135,
-          "end": 164,
           "id": {
             "type": "Identifier",
-            "start": 135,
-            "end": 150,
             "decorators": [],
             "name": "ResultIsNumber2",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 135,
+            "end": 150
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 153,
-            "end": 164,
             "operator": "-",
             "argument": {
               "type": "MemberExpression",
-              "start": 154,
-              "end": 164,
               "object": {
                 "type": "Identifier",
-                "start": 154,
-                "end": 159,
                 "decorators": [],
                 "name": "ENUM1",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 154,
+                "end": 159
               },
               "property": {
                 "type": "Literal",
-                "start": 160,
-                "end": 163,
                 "value": "B",
-                "raw": "\"B\""
+                "raw": "\"B\"",
+                "start": 160,
+                "end": 163
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 154,
+              "end": 164
             },
-            "prefix": true
+            "prefix": true,
+            "start": 153,
+            "end": 164
           },
-          "definite": false
+          "definite": false,
+          "start": 135,
+          "end": 164
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 131,
+      "end": 165
     },
     {
       "type": "VariableDeclaration",
-      "start": 166,
-      "end": 211,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 170,
-          "end": 210,
           "id": {
             "type": "Identifier",
-            "start": 170,
-            "end": 185,
             "decorators": [],
             "name": "ResultIsNumber3",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 170,
+            "end": 185
           },
           "init": {
             "type": "UnaryExpression",
-            "start": 188,
-            "end": 210,
             "operator": "-",
             "argument": {
               "type": "BinaryExpression",
-              "start": 190,
-              "end": 209,
               "left": {
                 "type": "MemberExpression",
-                "start": 190,
-                "end": 197,
                 "object": {
                   "type": "Identifier",
-                  "start": 190,
-                  "end": 195,
                   "decorators": [],
                   "name": "ENUM1",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 190,
+                  "end": 195
                 },
                 "property": {
                   "type": "Identifier",
-                  "start": 196,
-                  "end": 197,
                   "decorators": [],
                   "name": "B",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 196,
+                  "end": 197
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 190,
+                "end": 197
               },
               "operator": "+",
               "right": {
                 "type": "MemberExpression",
-                "start": 200,
-                "end": 209,
                 "object": {
                   "type": "Identifier",
-                  "start": 200,
-                  "end": 205,
                   "decorators": [],
                   "name": "ENUM1",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 200,
+                  "end": 205
                 },
                 "property": {
                   "type": "Literal",
-                  "start": 206,
-                  "end": 208,
                   "value": "",
-                  "raw": "\"\""
+                  "raw": "\"\"",
+                  "start": 206,
+                  "end": 208
                 },
                 "optional": false,
-                "computed": true
-              }
+                "computed": true,
+                "start": 200,
+                "end": 209
+              },
+              "start": 190,
+              "end": 209
             },
-            "prefix": true
+            "prefix": true,
+            "start": 188,
+            "end": 210
           },
-          "definite": false
+          "definite": false,
+          "start": 170,
+          "end": 210
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 166,
+      "end": 211
     },
     {
       "type": "ExpressionStatement",
-      "start": 242,
-      "end": 248,
       "expression": {
         "type": "UnaryExpression",
-        "start": 242,
-        "end": 247,
         "operator": "-",
         "argument": {
           "type": "Identifier",
-          "start": 243,
-          "end": 247,
           "decorators": [],
           "name": "ENUM",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 243,
+          "end": 247
         },
-        "prefix": true
+        "prefix": true,
+        "start": 242,
+        "end": 247
       },
-      "directive": null
+      "directive": null,
+      "start": 242,
+      "end": 248
     },
     {
       "type": "ExpressionStatement",
-      "start": 249,
-      "end": 256,
       "expression": {
         "type": "UnaryExpression",
-        "start": 249,
-        "end": 255,
         "operator": "-",
         "argument": {
           "type": "Identifier",
-          "start": 250,
-          "end": 255,
           "decorators": [],
           "name": "ENUM1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 250,
+          "end": 255
         },
-        "prefix": true
+        "prefix": true,
+        "start": 249,
+        "end": 255
       },
-      "directive": null
+      "directive": null,
+      "start": 249,
+      "end": 256
     },
     {
       "type": "ExpressionStatement",
-      "start": 257,
-      "end": 269,
       "expression": {
         "type": "UnaryExpression",
-        "start": 257,
-        "end": 268,
         "operator": "-",
         "argument": {
           "type": "MemberExpression",
-          "start": 258,
-          "end": 268,
           "object": {
             "type": "Identifier",
-            "start": 258,
-            "end": 263,
             "decorators": [],
             "name": "ENUM1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 258,
+            "end": 263
           },
           "property": {
             "type": "Literal",
-            "start": 264,
-            "end": 267,
             "value": "B",
-            "raw": "\"B\""
+            "raw": "\"B\"",
+            "start": 264,
+            "end": 267
           },
           "optional": false,
-          "computed": true
+          "computed": true,
+          "start": 258,
+          "end": 268
         },
-        "prefix": true
+        "prefix": true,
+        "start": 257,
+        "end": 268
       },
-      "directive": null
+      "directive": null,
+      "start": 257,
+      "end": 269
     },
     {
       "type": "ExpressionStatement",
-      "start": 270,
-      "end": 283,
       "expression": {
         "type": "SequenceExpression",
-        "start": 270,
-        "end": 282,
         "expressions": [
           {
             "type": "UnaryExpression",
-            "start": 270,
-            "end": 275,
             "operator": "-",
             "argument": {
               "type": "Identifier",
-              "start": 271,
-              "end": 275,
               "decorators": [],
               "name": "ENUM",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 271,
+              "end": 275
             },
-            "prefix": true
+            "prefix": true,
+            "start": 270,
+            "end": 275
           },
           {
             "type": "Identifier",
-            "start": 277,
-            "end": 282,
             "decorators": [],
             "name": "ENUM1",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 277,
+            "end": 282
           }
-        ]
+        ],
+        "start": 270,
+        "end": 282
       },
-      "directive": null
+      "directive": null,
+      "start": 270,
+      "end": 283
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 28,
+  "end": 283
 }
 ```

@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 302,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 237,
-      "end": 255,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 241,
-          "end": 254,
           "id": {
             "type": "Identifier",
+            "name": "implement",
             "start": 241,
-            "end": 250,
-            "name": "implement"
+            "end": 250
           },
           "init": {
             "type": "Literal",
-            "start": 253,
-            "end": 254,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 253,
+            "end": 254
+          },
+          "start": 241,
+          "end": 254
         }
-      ]
+      ],
+      "start": 237,
+      "end": 255
     },
     {
       "type": "ExpressionStatement",
-      "start": 257,
-      "end": 301,
       "expression": {
         "type": "CallExpression",
-        "start": 257,
-        "end": 300,
         "callee": {
           "type": "MemberExpression",
-          "start": 257,
-          "end": 273,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 257,
-            "end": 263,
-            "name": "assert"
+            "end": 263
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 264,
-            "end": 273,
-            "name": "sameValue"
+            "end": 273
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 257,
+          "end": 273
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "implement",
             "start": 274,
-            "end": 283,
-            "name": "implement"
+            "end": 283
           },
           {
             "type": "Literal",
-            "start": 285,
-            "end": 286,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 285,
+            "end": 286
           },
           {
             "type": "Literal",
-            "start": 288,
-            "end": 299,
             "value": "implement",
-            "raw": "'implement'"
+            "raw": "'implement'",
+            "start": 288,
+            "end": 299
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 257,
+        "end": 300
+      },
+      "start": 257,
+      "end": 301
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 302
 }

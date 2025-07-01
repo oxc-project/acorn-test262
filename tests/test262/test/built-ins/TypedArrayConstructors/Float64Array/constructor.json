@@ -1,68 +1,68 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 345,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 257,
-      "end": 344,
       "expression": {
         "type": "CallExpression",
-        "start": 257,
-        "end": 343,
         "callee": {
           "type": "MemberExpression",
-          "start": 257,
-          "end": 273,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 257,
-            "end": 263,
-            "name": "assert"
+            "end": 263
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 264,
-            "end": 273,
-            "name": "sameValue"
+            "end": 273
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 257,
+          "end": 273
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 274,
-            "end": 293,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "Float64Array",
               "start": 281,
-              "end": 293,
-              "name": "Float64Array"
+              "end": 293
             },
-            "prefix": true
+            "prefix": true,
+            "start": 274,
+            "end": 293
           },
           {
             "type": "Literal",
-            "start": 295,
-            "end": 305,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 295,
+            "end": 305
           },
           {
             "type": "Literal",
-            "start": 307,
-            "end": 342,
             "value": "typeof Float64Array is \"function\"",
-            "raw": "'typeof Float64Array is \"function\"'"
+            "raw": "'typeof Float64Array is \"function\"'",
+            "start": 307,
+            "end": 342
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 257,
+        "end": 343
+      },
+      "start": 257,
+      "end": 344
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 345
 }

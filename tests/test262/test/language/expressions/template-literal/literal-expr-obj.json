@@ -1,696 +1,696 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 965,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 463,
-      "end": 478,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 467,
-          "end": 477,
           "id": {
             "type": "Identifier",
+            "name": "plain",
             "start": 467,
-            "end": 472,
-            "name": "plain"
+            "end": 472
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 475,
-            "end": 477,
-            "properties": []
-          }
+            "end": 477
+          },
+          "start": 467,
+          "end": 477
         }
-      ]
+      ],
+      "start": 463,
+      "end": 478
     },
     {
       "type": "VariableDeclaration",
-      "start": 479,
-      "end": 554,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 483,
-          "end": 553,
           "id": {
             "type": "Identifier",
+            "name": "custom",
             "start": 483,
-            "end": 489,
-            "name": "custom"
+            "end": 489
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 492,
-            "end": 553,
             "properties": [
               {
                 "type": "Property",
-                "start": 496,
-                "end": 551,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
+                  "name": "toString",
                   "start": 496,
-                  "end": 504,
-                  "name": "toString"
+                  "end": 504
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 506,
-                  "end": 551,
                   "id": null,
                   "generator": false,
                   "async": false,
                   "params": [],
                   "body": {
                     "type": "BlockStatement",
-                    "start": 517,
-                    "end": 551,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 523,
-                        "end": 547,
                         "argument": {
                           "type": "Literal",
-                          "start": 530,
-                          "end": 546,
                           "value": "\"own\" toString",
-                          "raw": "'\"own\" toString'"
-                        }
+                          "raw": "'\"own\" toString'",
+                          "start": 530,
+                          "end": 546
+                        },
+                        "start": 523,
+                        "end": 547
                       }
-                    ]
+                    ],
+                    "start": 517,
+                    "end": 551
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 506,
+                  "end": 551
                 },
                 "method": false,
                 "shorthand": false,
-                "computed": false
+                "computed": false,
+                "start": 496,
+                "end": 551
               }
-            ]
-          }
+            ],
+            "start": 492,
+            "end": 553
+          },
+          "start": 483,
+          "end": 553
         }
-      ]
+      ],
+      "start": 479,
+      "end": 554
     },
     {
       "type": "ExpressionStatement",
-      "start": 556,
-      "end": 604,
       "expression": {
         "type": "CallExpression",
-        "start": 556,
-        "end": 603,
         "callee": {
           "type": "MemberExpression",
-          "start": 556,
-          "end": 572,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 556,
-            "end": 562,
-            "name": "assert"
+            "end": 562
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 563,
-            "end": 572,
-            "name": "sameValue"
+            "end": 572
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 556,
+          "end": 572
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 573,
-            "end": 583,
             "quasis": [
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": false,
                 "start": 574,
-                "end": 574,
+                "end": 574
+              },
+              {
+                "type": "TemplateElement",
                 "value": {
                   "raw": "",
                   "cooked": ""
                 },
-                "tail": false
-              },
-              {
-                "type": "TemplateElement",
+                "tail": true,
                 "start": 582,
-                "end": 582,
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
-                "tail": true
+                "end": 582
               }
             ],
             "expressions": [
               {
                 "type": "Identifier",
+                "name": "plain",
                 "start": 576,
-                "end": 581,
-                "name": "plain"
+                "end": 581
               }
-            ]
+            ],
+            "start": 573,
+            "end": 583
           },
           {
             "type": "Literal",
-            "start": 585,
-            "end": 602,
             "value": "[object Object]",
-            "raw": "'[object Object]'"
+            "raw": "'[object Object]'",
+            "start": 585,
+            "end": 602
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 556,
+        "end": 603
+      },
+      "start": 556,
+      "end": 604
     },
     {
       "type": "ExpressionStatement",
-      "start": 605,
-      "end": 655,
       "expression": {
         "type": "CallExpression",
-        "start": 605,
-        "end": 654,
         "callee": {
           "type": "MemberExpression",
-          "start": 605,
-          "end": 621,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 605,
-            "end": 611,
-            "name": "assert"
+            "end": 611
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 612,
-            "end": 621,
-            "name": "sameValue"
+            "end": 621
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 605,
+          "end": 621
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 622,
-            "end": 633,
             "quasis": [
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "1",
+                  "cooked": "1"
+                },
+                "tail": false,
                 "start": 623,
-                "end": 624,
-                "value": {
-                  "raw": "1",
-                  "cooked": "1"
-                },
-                "tail": false
+                "end": 624
               },
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": true,
                 "start": 632,
-                "end": 632,
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
-                "tail": true
+                "end": 632
               }
             ],
             "expressions": [
               {
                 "type": "Identifier",
+                "name": "plain",
                 "start": 626,
-                "end": 631,
-                "name": "plain"
+                "end": 631
               }
-            ]
+            ],
+            "start": 622,
+            "end": 633
           },
           {
             "type": "Literal",
-            "start": 635,
-            "end": 653,
             "value": "1[object Object]",
-            "raw": "'1[object Object]'"
+            "raw": "'1[object Object]'",
+            "start": 635,
+            "end": 653
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 605,
+        "end": 654
+      },
+      "start": 605,
+      "end": 655
     },
     {
       "type": "ExpressionStatement",
-      "start": 656,
-      "end": 706,
       "expression": {
         "type": "CallExpression",
-        "start": 656,
-        "end": 705,
         "callee": {
           "type": "MemberExpression",
-          "start": 656,
-          "end": 672,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 656,
-            "end": 662,
-            "name": "assert"
+            "end": 662
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 663,
-            "end": 672,
-            "name": "sameValue"
+            "end": 672
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 656,
+          "end": 672
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 673,
-            "end": 684,
             "quasis": [
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": false,
                 "start": 674,
-                "end": 674,
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
-                "tail": false
+                "end": 674
               },
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "2",
+                  "cooked": "2"
+                },
+                "tail": true,
                 "start": 682,
-                "end": 683,
-                "value": {
-                  "raw": "2",
-                  "cooked": "2"
-                },
-                "tail": true
+                "end": 683
               }
             ],
             "expressions": [
               {
                 "type": "Identifier",
+                "name": "plain",
                 "start": 676,
-                "end": 681,
-                "name": "plain"
+                "end": 681
               }
-            ]
+            ],
+            "start": 673,
+            "end": 684
           },
           {
             "type": "Literal",
-            "start": 686,
-            "end": 704,
             "value": "[object Object]2",
-            "raw": "'[object Object]2'"
+            "raw": "'[object Object]2'",
+            "start": 686,
+            "end": 704
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 656,
+        "end": 705
+      },
+      "start": 656,
+      "end": 706
     },
     {
       "type": "ExpressionStatement",
-      "start": 707,
-      "end": 759,
       "expression": {
         "type": "CallExpression",
-        "start": 707,
-        "end": 758,
         "callee": {
           "type": "MemberExpression",
-          "start": 707,
-          "end": 723,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 707,
-            "end": 713,
-            "name": "assert"
+            "end": 713
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 714,
-            "end": 723,
-            "name": "sameValue"
+            "end": 723
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 707,
+          "end": 723
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 724,
-            "end": 736,
             "quasis": [
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "1",
+                  "cooked": "1"
+                },
+                "tail": false,
                 "start": 725,
-                "end": 726,
-                "value": {
-                  "raw": "1",
-                  "cooked": "1"
-                },
-                "tail": false
+                "end": 726
               },
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "2",
+                  "cooked": "2"
+                },
+                "tail": true,
                 "start": 734,
-                "end": 735,
-                "value": {
-                  "raw": "2",
-                  "cooked": "2"
-                },
-                "tail": true
+                "end": 735
               }
             ],
             "expressions": [
               {
                 "type": "Identifier",
+                "name": "plain",
                 "start": 728,
-                "end": 733,
-                "name": "plain"
+                "end": 733
               }
-            ]
+            ],
+            "start": 724,
+            "end": 736
           },
           {
             "type": "Literal",
-            "start": 738,
-            "end": 757,
             "value": "1[object Object]2",
-            "raw": "'1[object Object]2'"
+            "raw": "'1[object Object]2'",
+            "start": 738,
+            "end": 757
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 707,
+        "end": 758
+      },
+      "start": 707,
+      "end": 759
     },
     {
       "type": "ExpressionStatement",
-      "start": 761,
-      "end": 809,
       "expression": {
         "type": "CallExpression",
-        "start": 761,
-        "end": 808,
         "callee": {
           "type": "MemberExpression",
-          "start": 761,
-          "end": 777,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 761,
-            "end": 767,
-            "name": "assert"
+            "end": 767
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 768,
-            "end": 777,
-            "name": "sameValue"
+            "end": 777
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 761,
+          "end": 777
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 778,
-            "end": 789,
             "quasis": [
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": false,
                 "start": 779,
-                "end": 779,
+                "end": 779
+              },
+              {
+                "type": "TemplateElement",
                 "value": {
                   "raw": "",
                   "cooked": ""
                 },
-                "tail": false
-              },
-              {
-                "type": "TemplateElement",
+                "tail": true,
                 "start": 788,
-                "end": 788,
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
-                "tail": true
+                "end": 788
               }
             ],
             "expressions": [
               {
                 "type": "Identifier",
+                "name": "custom",
                 "start": 781,
-                "end": 787,
-                "name": "custom"
+                "end": 787
               }
-            ]
+            ],
+            "start": 778,
+            "end": 789
           },
           {
             "type": "Literal",
-            "start": 791,
-            "end": 807,
             "value": "\"own\" toString",
-            "raw": "'\"own\" toString'"
+            "raw": "'\"own\" toString'",
+            "start": 791,
+            "end": 807
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 761,
+        "end": 808
+      },
+      "start": 761,
+      "end": 809
     },
     {
       "type": "ExpressionStatement",
-      "start": 810,
-      "end": 860,
       "expression": {
         "type": "CallExpression",
-        "start": 810,
-        "end": 859,
         "callee": {
           "type": "MemberExpression",
-          "start": 810,
-          "end": 826,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 810,
-            "end": 816,
-            "name": "assert"
+            "end": 816
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 817,
-            "end": 826,
-            "name": "sameValue"
+            "end": 826
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 810,
+          "end": 826
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 827,
-            "end": 839,
             "quasis": [
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "1",
+                  "cooked": "1"
+                },
+                "tail": false,
                 "start": 828,
-                "end": 829,
-                "value": {
-                  "raw": "1",
-                  "cooked": "1"
-                },
-                "tail": false
+                "end": 829
               },
               {
                 "type": "TemplateElement",
+                "value": {
+                  "raw": "",
+                  "cooked": ""
+                },
+                "tail": true,
                 "start": 838,
-                "end": 838,
-                "value": {
-                  "raw": "",
-                  "cooked": ""
-                },
-                "tail": true
+                "end": 838
               }
             ],
             "expressions": [
               {
                 "type": "Identifier",
+                "name": "custom",
                 "start": 831,
-                "end": 837,
-                "name": "custom"
+                "end": 837
               }
-            ]
+            ],
+            "start": 827,
+            "end": 839
           },
           {
             "type": "Literal",
-            "start": 841,
-            "end": 858,
             "value": "1\"own\" toString",
-            "raw": "'1\"own\" toString'"
+            "raw": "'1\"own\" toString'",
+            "start": 841,
+            "end": 858
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 810,
+        "end": 859
+      },
+      "start": 810,
+      "end": 860
     },
     {
       "type": "ExpressionStatement",
-      "start": 861,
-      "end": 911,
       "expression": {
         "type": "CallExpression",
-        "start": 861,
-        "end": 910,
         "callee": {
           "type": "MemberExpression",
-          "start": 861,
-          "end": 877,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 861,
-            "end": 867,
-            "name": "assert"
+            "end": 867
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 868,
-            "end": 877,
-            "name": "sameValue"
+            "end": 877
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 861,
+          "end": 877
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 878,
-            "end": 890,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 879,
-                "end": 879,
                 "value": {
                   "raw": "",
                   "cooked": ""
                 },
-                "tail": false
+                "tail": false,
+                "start": 879,
+                "end": 879
               },
               {
                 "type": "TemplateElement",
-                "start": 888,
-                "end": 889,
                 "value": {
                   "raw": "2",
                   "cooked": "2"
                 },
-                "tail": true
+                "tail": true,
+                "start": 888,
+                "end": 889
               }
             ],
             "expressions": [
               {
                 "type": "Identifier",
+                "name": "custom",
                 "start": 881,
-                "end": 887,
-                "name": "custom"
+                "end": 887
               }
-            ]
+            ],
+            "start": 878,
+            "end": 890
           },
           {
             "type": "Literal",
-            "start": 892,
-            "end": 909,
             "value": "\"own\" toString2",
-            "raw": "'\"own\" toString2'"
+            "raw": "'\"own\" toString2'",
+            "start": 892,
+            "end": 909
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 861,
+        "end": 910
+      },
+      "start": 861,
+      "end": 911
     },
     {
       "type": "ExpressionStatement",
-      "start": 912,
-      "end": 964,
       "expression": {
         "type": "CallExpression",
-        "start": 912,
-        "end": 963,
         "callee": {
           "type": "MemberExpression",
-          "start": 912,
-          "end": 928,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 912,
-            "end": 918,
-            "name": "assert"
+            "end": 918
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 919,
-            "end": 928,
-            "name": "sameValue"
+            "end": 928
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 912,
+          "end": 928
         },
         "arguments": [
           {
             "type": "TemplateLiteral",
-            "start": 929,
-            "end": 942,
             "quasis": [
               {
                 "type": "TemplateElement",
-                "start": 930,
-                "end": 931,
                 "value": {
                   "raw": "1",
                   "cooked": "1"
                 },
-                "tail": false
+                "tail": false,
+                "start": 930,
+                "end": 931
               },
               {
                 "type": "TemplateElement",
-                "start": 940,
-                "end": 941,
                 "value": {
                   "raw": "2",
                   "cooked": "2"
                 },
-                "tail": true
+                "tail": true,
+                "start": 940,
+                "end": 941
               }
             ],
             "expressions": [
               {
                 "type": "Identifier",
+                "name": "custom",
                 "start": 933,
-                "end": 939,
-                "name": "custom"
+                "end": 939
               }
-            ]
+            ],
+            "start": 929,
+            "end": 942
           },
           {
             "type": "Literal",
-            "start": 944,
-            "end": 962,
             "value": "1\"own\" toString2",
-            "raw": "'1\"own\" toString2'"
+            "raw": "'1\"own\" toString2'",
+            "start": 944,
+            "end": 962
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 912,
+        "end": 963
+      },
+      "start": 912,
+      "end": 964
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 965
 }

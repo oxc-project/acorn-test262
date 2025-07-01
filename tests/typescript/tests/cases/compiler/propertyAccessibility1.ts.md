@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 68,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 37,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 9,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 9
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,30 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 10,
-        "end": 37,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 14,
-            "end": 35,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 22,
-              "end": 30,
               "decorators": [],
               "name": "privProp",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 22,
+              "end": 30
             },
             "typeAnnotation": null,
             "value": {
               "type": "Literal",
-              "start": 33,
-              "end": 34,
               "value": 0,
-              "raw": "0"
+              "raw": "0",
+              "start": 33,
+              "end": 34
             },
             "computed": false,
             "static": false,
@@ -57,86 +49,94 @@ __ESTREE_TEST__:PASS:
             "optional": false,
             "definite": false,
             "readonly": false,
-            "accessibility": "private"
+            "accessibility": "private",
+            "start": 14,
+            "end": 35
           }
-        ]
+        ],
+        "start": 10,
+        "end": 37
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 37
     },
     {
       "type": "VariableDeclaration",
-      "start": 38,
-      "end": 56,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 42,
-          "end": 55,
           "id": {
             "type": "Identifier",
-            "start": 42,
-            "end": 43,
             "decorators": [],
             "name": "f",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 42,
+            "end": 43
           },
           "init": {
             "type": "NewExpression",
-            "start": 46,
-            "end": 55,
             "callee": {
               "type": "Identifier",
-              "start": 50,
-              "end": 53,
               "decorators": [],
               "name": "Foo",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 50,
+              "end": 53
             },
             "typeArguments": null,
-            "arguments": []
+            "arguments": [],
+            "start": 46,
+            "end": 55
           },
-          "definite": false
+          "definite": false,
+          "start": 42,
+          "end": 55
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 38,
+      "end": 56
     },
     {
       "type": "ExpressionStatement",
-      "start": 57,
-      "end": 68,
       "expression": {
         "type": "MemberExpression",
-        "start": 57,
-        "end": 67,
         "object": {
           "type": "Identifier",
-          "start": 57,
-          "end": 58,
           "decorators": [],
           "name": "f",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 57,
+          "end": 58
         },
         "property": {
           "type": "Identifier",
-          "start": 59,
-          "end": 67,
           "decorators": [],
           "name": "privProp",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 59,
+          "end": 67
         },
         "optional": false,
-        "computed": false
+        "computed": false,
+        "start": 57,
+        "end": 67
       },
-      "directive": null
+      "directive": null,
+      "start": 57,
+      "end": 68
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 68
 }
 ```

@@ -1,98 +1,98 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 352,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 247,
-      "end": 351,
       "expression": {
         "type": "CallExpression",
-        "start": 247,
-        "end": 350,
         "callee": {
           "type": "MemberExpression",
-          "start": 247,
-          "end": 263,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 247,
-            "end": 253,
-            "name": "assert"
+            "end": 253
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 254,
-            "end": 263,
-            "name": "sameValue"
+            "end": 263
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 247,
+          "end": 263
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 264,
-            "end": 292,
             "callee": {
               "type": "MemberExpression",
-              "start": 264,
-              "end": 277,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 264,
-                "end": 269,
-                "name": "Array"
+                "end": 269
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 270,
-                "end": 277,
-                "name": "isArray"
+                "end": 277
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 264,
+              "end": 277
             },
             "arguments": [
               {
                 "type": "FunctionExpression",
-                "start": 278,
-                "end": 291,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 289,
-                  "end": 291,
-                  "body": []
+                  "end": 291
                 },
-                "expression": false
+                "expression": false,
+                "start": 278,
+                "end": 291
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 264,
+            "end": 292
           },
           {
             "type": "Literal",
-            "start": 294,
-            "end": 299,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 294,
+            "end": 299
           },
           {
             "type": "Literal",
-            "start": 301,
-            "end": 349,
             "value": "Array.isArray(function() {}) must return false",
-            "raw": "'Array.isArray(function() {}) must return false'"
+            "raw": "'Array.isArray(function() {}) must return false'",
+            "start": 301,
+            "end": 349
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 247,
+        "end": 350
+      },
+      "start": 247,
+      "end": 351
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 352
 }

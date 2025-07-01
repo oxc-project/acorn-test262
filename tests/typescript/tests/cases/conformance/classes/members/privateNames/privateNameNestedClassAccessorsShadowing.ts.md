@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 306,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 306,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 10,
         "decorators": [],
         "name": "Base",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 10
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,24 +21,18 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 11,
-        "end": 306,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 17,
-            "end": 39,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "x",
               "start": 21,
-              "end": 23,
-              "name": "x"
+              "end": 23
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 23,
-              "end": 39,
               "id": null,
               "generator": false,
               "async": false,
@@ -52,50 +42,50 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 26,
-                "end": 39,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 28,
-                    "end": 37,
                     "argument": {
                       "type": "Literal",
-                      "start": 35,
-                      "end": 36,
                       "value": 1,
-                      "raw": "1"
-                    }
+                      "raw": "1",
+                      "start": 35,
+                      "end": 36
+                    },
+                    "start": 28,
+                    "end": 37
                   }
-                ]
+                ],
+                "start": 26,
+                "end": 39
               },
-              "expression": false
+              "expression": false,
+              "start": 23,
+              "end": 39
             },
             "kind": "get",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 17,
+            "end": 39
           },
           {
             "type": "MethodDefinition",
-            "start": 45,
-            "end": 304,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 45,
-              "end": 56,
               "decorators": [],
               "name": "constructor",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 45,
+              "end": 56
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 56,
-              "end": 304,
               "id": null,
               "generator": false,
               "async": false,
@@ -105,22 +95,18 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 59,
-                "end": 304,
                 "body": [
                   {
                     "type": "ClassDeclaration",
-                    "start": 69,
-                    "end": 298,
                     "decorators": [],
                     "id": {
                       "type": "Identifier",
-                      "start": 75,
-                      "end": 82,
                       "decorators": [],
                       "name": "Derived",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 75,
+                      "end": 82
                     },
                     "typeParameters": null,
                     "superClass": null,
@@ -128,24 +114,18 @@ __ESTREE_TEST__:PASS:
                     "implements": [],
                     "body": {
                       "type": "ClassBody",
-                      "start": 83,
-                      "end": 298,
                       "body": [
                         {
                           "type": "MethodDefinition",
-                          "start": 97,
-                          "end": 119,
                           "decorators": [],
                           "key": {
                             "type": "PrivateIdentifier",
+                            "name": "x",
                             "start": 101,
-                            "end": 103,
-                            "name": "x"
+                            "end": 103
                           },
                           "value": {
                             "type": "FunctionExpression",
-                            "start": 103,
-                            "end": 119,
                             "id": null,
                             "generator": false,
                             "async": false,
@@ -155,50 +135,50 @@ __ESTREE_TEST__:PASS:
                             "returnType": null,
                             "body": {
                               "type": "BlockStatement",
-                              "start": 106,
-                              "end": 119,
                               "body": [
                                 {
                                   "type": "ReturnStatement",
-                                  "start": 108,
-                                  "end": 117,
                                   "argument": {
                                     "type": "Literal",
-                                    "start": 115,
-                                    "end": 116,
                                     "value": 1,
-                                    "raw": "1"
-                                  }
+                                    "raw": "1",
+                                    "start": 115,
+                                    "end": 116
+                                  },
+                                  "start": 108,
+                                  "end": 117
                                 }
-                              ]
+                              ],
+                              "start": 106,
+                              "end": 119
                             },
-                            "expression": false
+                            "expression": false,
+                            "start": 103,
+                            "end": 119
                           },
                           "kind": "get",
                           "computed": false,
                           "static": false,
                           "override": false,
                           "optional": false,
-                          "accessibility": null
+                          "accessibility": null,
+                          "start": 97,
+                          "end": 119
                         },
                         {
                           "type": "MethodDefinition",
-                          "start": 133,
-                          "end": 201,
                           "decorators": [],
                           "key": {
                             "type": "Identifier",
-                            "start": 133,
-                            "end": 141,
                             "decorators": [],
                             "name": "testBase",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 133,
+                            "end": 141
                           },
                           "value": {
                             "type": "FunctionExpression",
-                            "start": 141,
-                            "end": 201,
                             "id": null,
                             "generator": false,
                             "async": false,
@@ -207,130 +187,130 @@ __ESTREE_TEST__:PASS:
                             "params": [
                               {
                                 "type": "Identifier",
-                                "start": 142,
-                                "end": 149,
                                 "decorators": [],
                                 "name": "x",
                                 "optional": false,
                                 "typeAnnotation": {
                                   "type": "TSTypeAnnotation",
-                                  "start": 143,
-                                  "end": 149,
                                   "typeAnnotation": {
                                     "type": "TSTypeReference",
-                                    "start": 145,
-                                    "end": 149,
                                     "typeName": {
                                       "type": "Identifier",
-                                      "start": 145,
-                                      "end": 149,
                                       "decorators": [],
                                       "name": "Base",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 145,
+                                      "end": 149
                                     },
-                                    "typeArguments": null
-                                  }
-                                }
+                                    "typeArguments": null,
+                                    "start": 145,
+                                    "end": 149
+                                  },
+                                  "start": 143,
+                                  "end": 149
+                                },
+                                "start": 142,
+                                "end": 149
                               }
                             ],
                             "returnType": null,
                             "body": {
                               "type": "BlockStatement",
-                              "start": 151,
-                              "end": 201,
                               "body": [
                                 {
                                   "type": "ExpressionStatement",
-                                  "start": 169,
-                                  "end": 187,
                                   "expression": {
                                     "type": "CallExpression",
-                                    "start": 169,
-                                    "end": 186,
                                     "callee": {
                                       "type": "MemberExpression",
-                                      "start": 169,
-                                      "end": 180,
                                       "object": {
                                         "type": "Identifier",
-                                        "start": 169,
-                                        "end": 176,
                                         "decorators": [],
                                         "name": "console",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 169,
+                                        "end": 176
                                       },
                                       "property": {
                                         "type": "Identifier",
-                                        "start": 177,
-                                        "end": 180,
                                         "decorators": [],
                                         "name": "log",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 177,
+                                        "end": 180
                                       },
                                       "optional": false,
-                                      "computed": false
+                                      "computed": false,
+                                      "start": 169,
+                                      "end": 180
                                     },
                                     "typeArguments": null,
                                     "arguments": [
                                       {
                                         "type": "MemberExpression",
-                                        "start": 181,
-                                        "end": 185,
                                         "object": {
                                           "type": "Identifier",
-                                          "start": 181,
-                                          "end": 182,
                                           "decorators": [],
                                           "name": "x",
                                           "optional": false,
-                                          "typeAnnotation": null
+                                          "typeAnnotation": null,
+                                          "start": 181,
+                                          "end": 182
                                         },
                                         "property": {
                                           "type": "PrivateIdentifier",
+                                          "name": "x",
                                           "start": 183,
-                                          "end": 185,
-                                          "name": "x"
+                                          "end": 185
                                         },
                                         "optional": false,
-                                        "computed": false
+                                        "computed": false,
+                                        "start": 181,
+                                        "end": 185
                                       }
                                     ],
-                                    "optional": false
+                                    "optional": false,
+                                    "start": 169,
+                                    "end": 186
                                   },
-                                  "directive": null
+                                  "directive": null,
+                                  "start": 169,
+                                  "end": 187
                                 }
-                              ]
+                              ],
+                              "start": 151,
+                              "end": 201
                             },
-                            "expression": false
+                            "expression": false,
+                            "start": 141,
+                            "end": 201
                           },
                           "kind": "method",
                           "computed": false,
                           "static": false,
                           "override": false,
                           "optional": false,
-                          "accessibility": null
+                          "accessibility": null,
+                          "start": 133,
+                          "end": 201
                         },
                         {
                           "type": "MethodDefinition",
-                          "start": 214,
-                          "end": 288,
                           "decorators": [],
                           "key": {
                             "type": "Identifier",
-                            "start": 214,
-                            "end": 225,
                             "decorators": [],
                             "name": "testDerived",
                             "optional": false,
-                            "typeAnnotation": null
+                            "typeAnnotation": null,
+                            "start": 214,
+                            "end": 225
                           },
                           "value": {
                             "type": "FunctionExpression",
-                            "start": 225,
-                            "end": 288,
                             "id": null,
                             "generator": false,
                             "async": false,
@@ -339,135 +319,155 @@ __ESTREE_TEST__:PASS:
                             "params": [
                               {
                                 "type": "Identifier",
-                                "start": 226,
-                                "end": 236,
                                 "decorators": [],
                                 "name": "x",
                                 "optional": false,
                                 "typeAnnotation": {
                                   "type": "TSTypeAnnotation",
-                                  "start": 227,
-                                  "end": 236,
                                   "typeAnnotation": {
                                     "type": "TSTypeReference",
-                                    "start": 229,
-                                    "end": 236,
                                     "typeName": {
                                       "type": "Identifier",
-                                      "start": 229,
-                                      "end": 236,
                                       "decorators": [],
                                       "name": "Derived",
                                       "optional": false,
-                                      "typeAnnotation": null
+                                      "typeAnnotation": null,
+                                      "start": 229,
+                                      "end": 236
                                     },
-                                    "typeArguments": null
-                                  }
-                                }
+                                    "typeArguments": null,
+                                    "start": 229,
+                                    "end": 236
+                                  },
+                                  "start": 227,
+                                  "end": 236
+                                },
+                                "start": 226,
+                                "end": 236
                               }
                             ],
                             "returnType": null,
                             "body": {
                               "type": "BlockStatement",
-                              "start": 238,
-                              "end": 288,
                               "body": [
                                 {
                                   "type": "ExpressionStatement",
-                                  "start": 256,
-                                  "end": 274,
                                   "expression": {
                                     "type": "CallExpression",
-                                    "start": 256,
-                                    "end": 273,
                                     "callee": {
                                       "type": "MemberExpression",
-                                      "start": 256,
-                                      "end": 267,
                                       "object": {
                                         "type": "Identifier",
-                                        "start": 256,
-                                        "end": 263,
                                         "decorators": [],
                                         "name": "console",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 256,
+                                        "end": 263
                                       },
                                       "property": {
                                         "type": "Identifier",
-                                        "start": 264,
-                                        "end": 267,
                                         "decorators": [],
                                         "name": "log",
                                         "optional": false,
-                                        "typeAnnotation": null
+                                        "typeAnnotation": null,
+                                        "start": 264,
+                                        "end": 267
                                       },
                                       "optional": false,
-                                      "computed": false
+                                      "computed": false,
+                                      "start": 256,
+                                      "end": 267
                                     },
                                     "typeArguments": null,
                                     "arguments": [
                                       {
                                         "type": "MemberExpression",
-                                        "start": 268,
-                                        "end": 272,
                                         "object": {
                                           "type": "Identifier",
-                                          "start": 268,
-                                          "end": 269,
                                           "decorators": [],
                                           "name": "x",
                                           "optional": false,
-                                          "typeAnnotation": null
+                                          "typeAnnotation": null,
+                                          "start": 268,
+                                          "end": 269
                                         },
                                         "property": {
                                           "type": "PrivateIdentifier",
+                                          "name": "x",
                                           "start": 270,
-                                          "end": 272,
-                                          "name": "x"
+                                          "end": 272
                                         },
                                         "optional": false,
-                                        "computed": false
+                                        "computed": false,
+                                        "start": 268,
+                                        "end": 272
                                       }
                                     ],
-                                    "optional": false
+                                    "optional": false,
+                                    "start": 256,
+                                    "end": 273
                                   },
-                                  "directive": null
+                                  "directive": null,
+                                  "start": 256,
+                                  "end": 274
                                 }
-                              ]
+                              ],
+                              "start": 238,
+                              "end": 288
                             },
-                            "expression": false
+                            "expression": false,
+                            "start": 225,
+                            "end": 288
                           },
                           "kind": "method",
                           "computed": false,
                           "static": false,
                           "override": false,
                           "optional": false,
-                          "accessibility": null
+                          "accessibility": null,
+                          "start": 214,
+                          "end": 288
                         }
-                      ]
+                      ],
+                      "start": 83,
+                      "end": 298
                     },
                     "abstract": false,
-                    "declare": false
+                    "declare": false,
+                    "start": 69,
+                    "end": 298
                   }
-                ]
+                ],
+                "start": 59,
+                "end": 304
               },
-              "expression": false
+              "expression": false,
+              "start": 56,
+              "end": 304
             },
             "kind": "constructor",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 45,
+            "end": 304
           }
-        ]
+        ],
+        "start": 11,
+        "end": 306
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 306
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 306
 }
 ```

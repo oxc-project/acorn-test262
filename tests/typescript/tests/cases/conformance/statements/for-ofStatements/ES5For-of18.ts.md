@@ -2,129 +2,129 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 57,
   "body": [
     {
       "type": "ForOfStatement",
-      "start": 0,
-      "end": 28,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 5,
-        "end": 10,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 9,
-            "end": 10,
             "id": {
               "type": "Identifier",
-              "start": 9,
-              "end": 10,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 9,
+              "end": 10
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 9,
+            "end": 10
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 5,
+        "end": 10
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 14,
-        "end": 16,
-        "elements": []
+        "end": 16
       },
       "body": {
         "type": "BlockStatement",
-        "start": 18,
-        "end": 28,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 24,
-            "end": 26,
             "expression": {
               "type": "Identifier",
-              "start": 24,
-              "end": 25,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 24,
+              "end": 25
             },
-            "directive": null
+            "directive": null,
+            "start": 24,
+            "end": 26
           }
-        ]
-      }
+        ],
+        "start": 18,
+        "end": 28
+      },
+      "start": 0,
+      "end": 28
     },
     {
       "type": "ForOfStatement",
-      "start": 29,
-      "end": 57,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 34,
-        "end": 39,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 38,
-            "end": 39,
             "id": {
               "type": "Identifier",
-              "start": 38,
-              "end": 39,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 38,
+              "end": 39
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 38,
+            "end": 39
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 34,
+        "end": 39
       },
       "right": {
         "type": "ArrayExpression",
+        "elements": [],
         "start": 43,
-        "end": 45,
-        "elements": []
+        "end": 45
       },
       "body": {
         "type": "BlockStatement",
-        "start": 47,
-        "end": 57,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 53,
-            "end": 55,
             "expression": {
               "type": "Identifier",
-              "start": 53,
-              "end": 54,
               "decorators": [],
               "name": "v",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 53,
+              "end": 54
             },
-            "directive": null
+            "directive": null,
+            "start": 53,
+            "end": 55
           }
-        ]
-      }
+        ],
+        "start": 47,
+        "end": 57
+      },
+      "start": 29,
+      "end": 57
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 57
 }
 ```

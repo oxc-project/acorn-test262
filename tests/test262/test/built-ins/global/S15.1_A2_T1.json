@@ -1,106 +1,106 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 370,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 296,
-      "end": 314,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 300,
-          "end": 313,
           "id": {
             "type": "Identifier",
+            "name": "global",
             "start": 300,
-            "end": 306,
-            "name": "global"
+            "end": 306
           },
           "init": {
             "type": "ThisExpression",
             "start": 309,
             "end": 313
-          }
+          },
+          "start": 300,
+          "end": 313
         }
-      ]
+      ],
+      "start": 296,
+      "end": 314
     },
     {
       "type": "ExpressionStatement",
-      "start": 316,
-      "end": 369,
       "expression": {
         "type": "CallExpression",
-        "start": 316,
-        "end": 368,
         "callee": {
           "type": "MemberExpression",
-          "start": 316,
-          "end": 329,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 316,
-            "end": 322,
-            "name": "assert"
+            "end": 322
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 323,
-            "end": 329,
-            "name": "throws"
+            "end": 329
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 316,
+          "end": 329
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 330,
-            "end": 339,
-            "name": "TypeError"
+            "end": 339
           },
           {
             "type": "FunctionExpression",
-            "start": 341,
-            "end": 367,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 352,
-              "end": 367,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 356,
-                  "end": 365,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 356,
-                    "end": 364,
                     "callee": {
                       "type": "Identifier",
+                      "name": "global",
                       "start": 356,
-                      "end": 362,
-                      "name": "global"
+                      "end": 362
                     },
                     "arguments": [],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 356,
+                    "end": 364
+                  },
+                  "start": 356,
+                  "end": 365
                 }
-              ]
+              ],
+              "start": 352,
+              "end": 367
             },
-            "expression": false
+            "expression": false,
+            "start": 341,
+            "end": 367
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 316,
+        "end": 368
+      },
+      "start": 316,
+      "end": 369
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 370
 }

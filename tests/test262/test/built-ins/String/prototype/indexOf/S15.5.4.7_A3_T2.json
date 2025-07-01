@@ -1,183 +1,183 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 736,
   "body": [
     {
       "type": "IfStatement",
-      "start": 455,
-      "end": 653,
       "test": {
         "type": "BinaryExpression",
-        "start": 459,
-        "end": 508,
         "left": {
           "type": "CallExpression",
-          "start": 459,
-          "end": 502,
           "callee": {
             "type": "MemberExpression",
-            "start": 459,
-            "end": 479,
             "object": {
               "type": "Literal",
-              "start": 459,
-              "end": 471,
               "value": "$$abcdabcd",
-              "raw": "\"$$abcdabcd\""
+              "raw": "\"$$abcdabcd\"",
+              "start": 459,
+              "end": 471
             },
             "property": {
               "type": "Identifier",
+              "name": "indexOf",
               "start": 472,
-              "end": 479,
-              "name": "indexOf"
+              "end": 479
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 459,
+            "end": 479
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 480,
-              "end": 484,
               "value": "ab",
-              "raw": "\"ab\""
+              "raw": "\"ab\"",
+              "start": 480,
+              "end": 484
             },
             {
               "type": "CallExpression",
-              "start": 486,
-              "end": 501,
               "callee": {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 486,
-                "end": 490,
-                "name": "eval"
+                "end": 490
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 491,
-                  "end": 500,
                   "value": "\"-99\"",
-                  "raw": "\"\\\"-99\\\"\""
+                  "raw": "\"\\\"-99\\\"\"",
+                  "start": 491,
+                  "end": 500
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 486,
+              "end": 501
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 459,
+          "end": 502
         },
         "operator": "!==",
         "right": {
           "type": "Literal",
-          "start": 507,
-          "end": 508,
           "value": 2,
-          "raw": "2"
-        }
+          "raw": "2",
+          "start": 507,
+          "end": 508
+        },
+        "start": 459,
+        "end": 508
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 510,
-        "end": 653,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 514,
-            "end": 651,
             "argument": {
               "type": "NewExpression",
-              "start": 520,
-              "end": 650,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 524,
-                "end": 536,
-                "name": "Test262Error"
+                "end": 536
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 537,
-                  "end": 649,
                   "left": {
                     "type": "Literal",
-                    "start": 537,
-                    "end": 601,
                     "value": "#1: \"$$abcdabcd\".indexOf(\"ab\",eval(\"\\\"-99\\\"\"))===2. Actual: ",
-                    "raw": "'#1: \"$$abcdabcd\".indexOf(\"ab\",eval(\"\\\\\"-99\\\\\"\"))===2. Actual: '"
+                    "raw": "'#1: \"$$abcdabcd\".indexOf(\"ab\",eval(\"\\\\\"-99\\\\\"\"))===2. Actual: '",
+                    "start": 537,
+                    "end": 601
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 604,
-                    "end": 649,
                     "expression": {
                       "type": "CallExpression",
-                      "start": 605,
-                      "end": 648,
                       "callee": {
                         "type": "MemberExpression",
-                        "start": 605,
-                        "end": 625,
                         "object": {
                           "type": "Literal",
-                          "start": 605,
-                          "end": 617,
                           "value": "$$abcdabcd",
-                          "raw": "\"$$abcdabcd\""
+                          "raw": "\"$$abcdabcd\"",
+                          "start": 605,
+                          "end": 617
                         },
                         "property": {
                           "type": "Identifier",
+                          "name": "indexOf",
                           "start": 618,
-                          "end": 625,
-                          "name": "indexOf"
+                          "end": 625
                         },
                         "optional": false,
-                        "computed": false
+                        "computed": false,
+                        "start": 605,
+                        "end": 625
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 626,
-                          "end": 630,
                           "value": "ab",
-                          "raw": "\"ab\""
+                          "raw": "\"ab\"",
+                          "start": 626,
+                          "end": 630
                         },
                         {
                           "type": "CallExpression",
-                          "start": 632,
-                          "end": 647,
                           "callee": {
                             "type": "Identifier",
+                            "name": "eval",
                             "start": 632,
-                            "end": 636,
-                            "name": "eval"
+                            "end": 636
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 637,
-                              "end": 646,
                               "value": "\"-99\"",
-                              "raw": "\"\\\"-99\\\"\""
+                              "raw": "\"\\\"-99\\\"\"",
+                              "start": 637,
+                              "end": 646
                             }
                           ],
-                          "optional": false
+                          "optional": false,
+                          "start": 632,
+                          "end": 647
                         }
                       ],
-                      "optional": false
-                    }
-                  }
+                      "optional": false,
+                      "start": 605,
+                      "end": 648
+                    },
+                    "start": 604,
+                    "end": 649
+                  },
+                  "start": 537,
+                  "end": 649
                 }
-              ]
-            }
+              ],
+              "start": 520,
+              "end": 650
+            },
+            "start": 514,
+            "end": 651
           }
-        ]
+        ],
+        "start": 510,
+        "end": 653
       },
-      "alternate": null
+      "alternate": null,
+      "start": 455,
+      "end": 653
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 736
 }

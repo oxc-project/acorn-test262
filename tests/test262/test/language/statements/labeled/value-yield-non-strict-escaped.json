@@ -1,32 +1,32 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 334,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 319,
-      "end": 333,
       "label": {
         "type": "Identifier",
+        "name": "yield",
         "start": 319,
-        "end": 329,
-        "name": "yield"
+        "end": 329
       },
       "body": {
         "type": "ExpressionStatement",
-        "start": 331,
-        "end": 333,
         "expression": {
           "type": "Literal",
-          "start": 331,
-          "end": 332,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 331,
+          "end": 332
+        },
+        "start": 331,
+        "end": 333
+      },
+      "start": 319,
+      "end": 333
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 334
 }

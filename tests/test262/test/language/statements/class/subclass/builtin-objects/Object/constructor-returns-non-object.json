@@ -1,164 +1,164 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1068,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 936,
-      "end": 1001,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "Obj",
         "start": 942,
-        "end": 945,
-        "name": "Obj"
+        "end": 945
       },
       "superClass": {
         "type": "Identifier",
+        "name": "Object",
         "start": 954,
-        "end": 960,
-        "name": "Object"
+        "end": 960
       },
       "body": {
         "type": "ClassBody",
-        "start": 961,
-        "end": 1001,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 965,
-            "end": 999,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "constructor",
               "start": 965,
-              "end": 976,
-              "name": "constructor"
+              "end": 976
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 976,
-              "end": 999,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
-                "start": 979,
-                "end": 999,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 985,
-                    "end": 995,
                     "argument": {
                       "type": "Literal",
-                      "start": 992,
-                      "end": 994,
                       "value": 42,
-                      "raw": "42"
-                    }
+                      "raw": "42",
+                      "start": 992,
+                      "end": 994
+                    },
+                    "start": 985,
+                    "end": 995
                   }
-                ]
+                ],
+                "start": 979,
+                "end": 999
               },
-              "expression": false
+              "expression": false,
+              "start": 976,
+              "end": 999
             },
             "kind": "constructor",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 965,
+            "end": 999
           }
-        ]
-      }
+        ],
+        "start": 961,
+        "end": 1001
+      },
+      "start": 936,
+      "end": 1001
     },
     {
       "type": "ExpressionStatement",
-      "start": 1003,
-      "end": 1067,
       "expression": {
         "type": "CallExpression",
-        "start": 1003,
-        "end": 1066,
         "callee": {
           "type": "MemberExpression",
-          "start": 1003,
-          "end": 1016,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1003,
-            "end": 1009,
-            "name": "assert"
+            "end": 1009
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 1010,
-            "end": 1016,
-            "name": "throws"
+            "end": 1016
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1003,
+          "end": 1016
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 1017,
-            "end": 1026,
-            "name": "TypeError"
+            "end": 1026
           },
           {
             "type": "FunctionExpression",
-            "start": 1028,
-            "end": 1065,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 1039,
-              "end": 1065,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 1043,
-                  "end": 1063,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 1047,
-                      "end": 1062,
                       "id": {
                         "type": "Identifier",
+                        "name": "obj",
                         "start": 1047,
-                        "end": 1050,
-                        "name": "obj"
+                        "end": 1050
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 1053,
-                        "end": 1062,
                         "callee": {
                           "type": "Identifier",
+                          "name": "Obj",
                           "start": 1057,
-                          "end": 1060,
-                          "name": "Obj"
+                          "end": 1060
                         },
-                        "arguments": []
-                      }
+                        "arguments": [],
+                        "start": 1053,
+                        "end": 1062
+                      },
+                      "start": 1047,
+                      "end": 1062
                     }
-                  ]
+                  ],
+                  "start": 1043,
+                  "end": 1063
                 }
-              ]
+              ],
+              "start": 1039,
+              "end": 1065
             },
-            "expression": false
+            "expression": false,
+            "start": 1028,
+            "end": 1065
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1003,
+        "end": 1066
+      },
+      "start": 1003,
+      "end": 1067
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1068
 }

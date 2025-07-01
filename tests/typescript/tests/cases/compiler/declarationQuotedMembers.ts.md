@@ -2,58 +2,44 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 86,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 55,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 7,
-        "end": 55,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 21,
-            "end": 55,
             "id": {
               "type": "Identifier",
-              "start": 21,
-              "end": 55,
               "decorators": [],
               "name": "mapped",
               "optional": false,
               "typeAnnotation": {
                 "type": "TSTypeAnnotation",
-                "start": 27,
-                "end": 55,
                 "typeAnnotation": {
                   "type": "TSMappedType",
-                  "start": 29,
-                  "end": 55,
                   "key": {
                     "type": "Identifier",
-                    "start": 32,
-                    "end": 33,
                     "decorators": [],
                     "name": "K",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 32,
+                    "end": 33
                   },
                   "constraint": {
                     "type": "TSLiteralType",
-                    "start": 37,
-                    "end": 44,
                     "literal": {
                       "type": "Literal",
-                      "start": 37,
-                      "end": 44,
                       "value": "a-b-c",
-                      "raw": "'a-b-c'"
-                    }
+                      "raw": "'a-b-c'",
+                      "start": 37,
+                      "end": 44
+                    },
+                    "start": 37,
+                    "end": 44
                   },
                   "nameType": null,
                   "typeAnnotation": {
@@ -62,65 +48,79 @@ __ESTREE_TEST__:PASS:
                     "end": 53
                   },
                   "optional": false,
-                  "readonly": null
-                }
-              }
+                  "readonly": null,
+                  "start": 29,
+                  "end": 55
+                },
+                "start": 27,
+                "end": 55
+              },
+              "start": 21,
+              "end": 55
             },
             "init": null,
-            "definite": false
+            "definite": false,
+            "start": 21,
+            "end": 55
           }
         ],
-        "declare": true
+        "declare": true,
+        "start": 7,
+        "end": 55
       },
       "specifiers": [],
       "source": null,
       "exportKind": "type",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 55
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 56,
-      "end": 86,
       "declaration": {
         "type": "VariableDeclaration",
-        "start": 63,
-        "end": 86,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 69,
-            "end": 85,
             "id": {
               "type": "Identifier",
-              "start": 69,
-              "end": 76,
               "decorators": [],
               "name": "example",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 69,
+              "end": 76
             },
             "init": {
               "type": "Identifier",
-              "start": 79,
-              "end": 85,
               "decorators": [],
               "name": "mapped",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 79,
+              "end": 85
             },
-            "definite": false
+            "definite": false,
+            "start": 69,
+            "end": 85
           }
         ],
-        "declare": false
+        "declare": false,
+        "start": 63,
+        "end": 86
       },
       "specifiers": [],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 56,
+      "end": 86
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 86
 }
 ```

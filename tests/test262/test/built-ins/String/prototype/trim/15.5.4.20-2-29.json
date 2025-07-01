@@ -1,115 +1,115 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 377,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 265,
-      "end": 376,
       "expression": {
         "type": "CallExpression",
-        "start": 265,
-        "end": 375,
         "callee": {
           "type": "MemberExpression",
-          "start": 265,
-          "end": 281,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 265,
-            "end": 271,
-            "name": "assert"
+            "end": 271
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 272,
-            "end": 281,
-            "name": "sameValue"
+            "end": 281
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 265,
+          "end": 281
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 282,
-            "end": 320,
             "callee": {
               "type": "MemberExpression",
-              "start": 282,
-              "end": 308,
               "object": {
                 "type": "MemberExpression",
-                "start": 282,
-                "end": 303,
                 "object": {
                   "type": "MemberExpression",
-                  "start": 282,
-                  "end": 298,
                   "object": {
                     "type": "Identifier",
+                    "name": "String",
                     "start": 282,
-                    "end": 288,
-                    "name": "String"
+                    "end": 288
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "prototype",
                     "start": 289,
-                    "end": 298,
-                    "name": "prototype"
+                    "end": 298
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 282,
+                  "end": 298
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "trim",
                   "start": 299,
-                  "end": 303,
-                  "name": "trim"
+                  "end": 303
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 282,
+                "end": 303
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 304,
-                "end": 308,
-                "name": "call"
+                "end": 308
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 282,
+              "end": 308
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 309,
-                "end": 319,
                 "value": "AB\n\\cd",
-                "raw": "\"AB\\n\\\\cd\""
+                "raw": "\"AB\\n\\\\cd\"",
+                "start": 309,
+                "end": 319
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 282,
+            "end": 320
           },
           {
             "type": "Literal",
-            "start": 322,
-            "end": 332,
             "value": "AB\n\\cd",
-            "raw": "\"AB\\n\\\\cd\""
+            "raw": "\"AB\\n\\\\cd\"",
+            "start": 322,
+            "end": 332
           },
           {
             "type": "Literal",
-            "start": 334,
-            "end": 374,
             "value": "String.prototype.trim.call(\"AB\n\\cd\")",
-            "raw": "'String.prototype.trim.call(\"AB\\n\\\\cd\")'"
+            "raw": "'String.prototype.trim.call(\"AB\\n\\\\cd\")'",
+            "start": 334,
+            "end": 374
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 265,
+        "end": 375
+      },
+      "start": 265,
+      "end": 376
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 377
 }

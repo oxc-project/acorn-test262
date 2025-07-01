@@ -1,128 +1,128 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 504,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 375,
-      "end": 391,
       "id": {
         "type": "Identifier",
+        "name": "g",
         "start": 385,
-        "end": 386,
-        "name": "g"
+        "end": 386
       },
       "generator": true,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 389,
-        "end": 391,
-        "body": []
+        "end": 391
       },
-      "expression": false
+      "expression": false,
+      "start": 375,
+      "end": 391
     },
     {
       "type": "ExpressionStatement",
-      "start": 393,
-      "end": 503,
       "expression": {
         "type": "CallExpression",
-        "start": 393,
-        "end": 502,
         "callee": {
           "type": "MemberExpression",
-          "start": 393,
-          "end": 409,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 393,
-            "end": 399,
-            "name": "assert"
+            "end": 399
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 400,
-            "end": 409,
-            "name": "sameValue"
+            "end": 409
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 393,
+          "end": 409
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 413,
-            "end": 439,
             "callee": {
               "type": "MemberExpression",
-              "start": 413,
-              "end": 434,
               "object": {
                 "type": "Identifier",
+                "name": "Object",
                 "start": 413,
-                "end": 419,
-                "name": "Object"
+                "end": 419
               },
               "property": {
                 "type": "Identifier",
+                "name": "getPrototypeOf",
                 "start": 420,
-                "end": 434,
-                "name": "getPrototypeOf"
+                "end": 434
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 413,
+              "end": 434
             },
             "arguments": [
               {
                 "type": "CallExpression",
-                "start": 435,
-                "end": 438,
                 "callee": {
                   "type": "Identifier",
+                  "name": "g",
                   "start": 435,
-                  "end": 436,
-                  "name": "g"
+                  "end": 436
                 },
                 "arguments": [],
-                "optional": false
+                "optional": false,
+                "start": 435,
+                "end": 438
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 413,
+            "end": 439
           },
           {
             "type": "MemberExpression",
-            "start": 443,
-            "end": 454,
             "object": {
               "type": "Identifier",
+              "name": "g",
               "start": 443,
-              "end": 444,
-              "name": "g"
+              "end": 444
             },
             "property": {
               "type": "Identifier",
+              "name": "prototype",
               "start": 445,
-              "end": 454,
-              "name": "prototype"
+              "end": 454
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 443,
+            "end": 454
           },
           {
             "type": "Literal",
-            "start": 458,
-            "end": 500,
             "value": "Instance created via function invocation",
-            "raw": "'Instance created via function invocation'"
+            "raw": "'Instance created via function invocation'",
+            "start": 458,
+            "end": 500
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 393,
+        "end": 502
+      },
+      "start": 393,
+      "end": 503
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 504
 }

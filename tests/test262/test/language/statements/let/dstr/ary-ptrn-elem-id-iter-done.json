@@ -1,91 +1,91 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1138,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1088,
-      "end": 1104,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1092,
-          "end": 1103,
           "id": {
             "type": "ArrayPattern",
-            "start": 1092,
-            "end": 1098,
             "elements": [
               {
                 "type": "Identifier",
+                "name": "_",
                 "start": 1093,
-                "end": 1094,
-                "name": "_"
+                "end": 1094
               },
               {
                 "type": "Identifier",
+                "name": "x",
                 "start": 1096,
-                "end": 1097,
-                "name": "x"
+                "end": 1097
               }
-            ]
+            ],
+            "start": 1092,
+            "end": 1098
           },
           "init": {
             "type": "ArrayExpression",
+            "elements": [],
             "start": 1101,
-            "end": 1103,
-            "elements": []
-          }
+            "end": 1103
+          },
+          "start": 1092,
+          "end": 1103
         }
-      ]
+      ],
+      "start": 1088,
+      "end": 1104
     },
     {
       "type": "ExpressionStatement",
-      "start": 1106,
-      "end": 1137,
       "expression": {
         "type": "CallExpression",
-        "start": 1106,
-        "end": 1136,
         "callee": {
           "type": "MemberExpression",
-          "start": 1106,
-          "end": 1122,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1106,
-            "end": 1112,
-            "name": "assert"
+            "end": 1112
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1113,
-            "end": 1122,
-            "name": "sameValue"
+            "end": 1122
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1106,
+          "end": 1122
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "x",
             "start": 1123,
-            "end": 1124,
-            "name": "x"
+            "end": 1124
           },
           {
             "type": "Identifier",
+            "name": "undefined",
             "start": 1126,
-            "end": 1135,
-            "name": "undefined"
+            "end": 1135
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1106,
+        "end": 1136
+      },
+      "start": 1106,
+      "end": 1137
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1138
 }

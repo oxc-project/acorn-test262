@@ -1,199 +1,199 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1793,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 1554,
-      "end": 1610,
       "body": [
         {
           "type": "FunctionDeclaration",
-          "start": 1558,
-          "end": 1608,
           "id": {
             "type": "Identifier",
+            "name": "f",
             "start": 1567,
-            "end": 1568,
-            "name": "f"
+            "end": 1568
           },
           "generator": false,
           "async": false,
           "params": [],
           "body": {
             "type": "BlockStatement",
-            "start": 1571,
-            "end": 1608,
             "body": [
               {
                 "type": "ReturnStatement",
-                "start": 1577,
-                "end": 1604,
                 "argument": {
                   "type": "Literal",
-                  "start": 1584,
-                  "end": 1603,
                   "value": "first declaration",
-                  "raw": "'first declaration'"
-                }
+                  "raw": "'first declaration'",
+                  "start": 1584,
+                  "end": 1603
+                },
+                "start": 1577,
+                "end": 1604
               }
-            ]
+            ],
+            "start": 1571,
+            "end": 1608
           },
-          "expression": false
+          "expression": false,
+          "start": 1558,
+          "end": 1608
         }
-      ]
+      ],
+      "start": 1554,
+      "end": 1610
     },
     {
       "type": "ExpressionStatement",
-      "start": 1612,
-      "end": 1706,
       "expression": {
         "type": "CallExpression",
-        "start": 1612,
-        "end": 1705,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 1612,
-          "end": 1620,
           "expression": {
             "type": "SequenceExpression",
-            "start": 1613,
-            "end": 1619,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 1613,
-                "end": 1614,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 1613,
+                "end": 1614
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 1615,
-                "end": 1619,
-                "name": "eval"
+                "end": 1619
               }
-            ]
-          }
+            ],
+            "start": 1613,
+            "end": 1619
+          },
+          "start": 1612,
+          "end": 1620
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1624,
-            "end": 1703,
             "value": "if (true) function f() { return \"second declaration\"; } else function _f() {}",
-            "raw": "'if (true) function f() { return \"second declaration\"; } else function _f() {}'"
+            "raw": "'if (true) function f() { return \"second declaration\"; } else function _f() {}'",
+            "start": 1624,
+            "end": 1703
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1612,
+        "end": 1705
+      },
+      "start": 1612,
+      "end": 1706
     },
     {
       "type": "ExpressionStatement",
-      "start": 1708,
-      "end": 1747,
       "expression": {
         "type": "CallExpression",
-        "start": 1708,
-        "end": 1746,
         "callee": {
           "type": "MemberExpression",
-          "start": 1708,
-          "end": 1724,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1708,
-            "end": 1714,
-            "name": "assert"
+            "end": 1714
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1715,
-            "end": 1724,
-            "name": "sameValue"
+            "end": 1724
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1708,
+          "end": 1724
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1725,
-            "end": 1733,
             "operator": "typeof",
             "argument": {
               "type": "Identifier",
+              "name": "f",
               "start": 1732,
-              "end": 1733,
-              "name": "f"
+              "end": 1733
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1725,
+            "end": 1733
           },
           {
             "type": "Literal",
-            "start": 1735,
-            "end": 1745,
             "value": "function",
-            "raw": "'function'"
+            "raw": "'function'",
+            "start": 1735,
+            "end": 1745
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1708,
+        "end": 1746
+      },
+      "start": 1708,
+      "end": 1747
     },
     {
       "type": "ExpressionStatement",
-      "start": 1748,
-      "end": 1792,
       "expression": {
         "type": "CallExpression",
-        "start": 1748,
-        "end": 1791,
         "callee": {
           "type": "MemberExpression",
-          "start": 1748,
-          "end": 1764,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1748,
-            "end": 1754,
-            "name": "assert"
+            "end": 1754
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1755,
-            "end": 1764,
-            "name": "sameValue"
+            "end": 1764
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1748,
+          "end": 1764
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1765,
-            "end": 1768,
             "callee": {
               "type": "Identifier",
+              "name": "f",
               "start": 1765,
-              "end": 1766,
-              "name": "f"
+              "end": 1766
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 1765,
+            "end": 1768
           },
           {
             "type": "Literal",
-            "start": 1770,
-            "end": 1790,
             "value": "second declaration",
-            "raw": "'second declaration'"
+            "raw": "'second declaration'",
+            "start": 1770,
+            "end": 1790
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1748,
+        "end": 1791
+      },
+      "start": 1748,
+      "end": 1792
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1793
 }

@@ -2,44 +2,34 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 96,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 35,
       "id": {
         "type": "Identifier",
-        "start": 7,
-        "end": 8,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 7,
+        "end": 8
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 9,
-        "end": 35,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 15,
-            "end": 33,
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 22,
-              "end": 33,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 28,
-                "end": 29,
                 "decorators": [],
                 "name": "C",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 28,
+                "end": 29
               },
               "typeParameters": null,
               "superClass": null,
@@ -47,110 +37,120 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
+                "body": [],
                 "start": 30,
-                "end": 33,
-                "body": []
+                "end": 33
               },
               "abstract": false,
-              "declare": false
+              "declare": false,
+              "start": 22,
+              "end": 33
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 15,
+            "end": 33
           }
-        ]
+        ],
+        "start": 9,
+        "end": 35
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 35
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 36,
-      "end": 96,
       "id": {
         "type": "Identifier",
-        "start": 43,
-        "end": 44,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 43,
+        "end": 44
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 45,
-        "end": 96,
         "body": [
           {
             "type": "BlockStatement",
-            "start": 51,
-            "end": 94,
             "body": [
               {
                 "type": "VariableDeclaration",
-                "start": 61,
-                "end": 71,
                 "kind": "let",
                 "declarations": [
                   {
                     "type": "VariableDeclarator",
-                    "start": 65,
-                    "end": 70,
                     "id": {
                       "type": "Identifier",
-                      "start": 65,
-                      "end": 66,
                       "decorators": [],
                       "name": "M",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 65,
+                      "end": 66
                     },
                     "init": {
                       "type": "Literal",
-                      "start": 69,
-                      "end": 70,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "start": 69,
+                      "end": 70
                     },
-                    "definite": false
+                    "definite": false,
+                    "start": 65,
+                    "end": 70
                   }
                 ],
-                "declare": false
+                "declare": false,
+                "start": 61,
+                "end": 71
               },
               {
                 "type": "ExpressionStatement",
-                "start": 80,
-                "end": 88,
                 "expression": {
                   "type": "NewExpression",
-                  "start": 80,
-                  "end": 87,
                   "callee": {
                     "type": "Identifier",
-                    "start": 84,
-                    "end": 85,
                     "decorators": [],
                     "name": "C",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 84,
+                    "end": 85
                   },
                   "typeArguments": null,
-                  "arguments": []
+                  "arguments": [],
+                  "start": 80,
+                  "end": 87
                 },
-                "directive": null
+                "directive": null,
+                "start": 80,
+                "end": 88
               }
-            ]
+            ],
+            "start": 51,
+            "end": 94
           }
-        ]
+        ],
+        "start": 45,
+        "end": 96
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 36,
+      "end": 96
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 96
 }
 ```

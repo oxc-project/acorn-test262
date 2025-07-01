@@ -2,98 +2,98 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 72,
   "body": [
     {
       "type": "TryStatement",
-      "start": 0,
-      "end": 32,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 4,
-        "end": 7,
-        "body": []
+        "end": 7
       },
       "handler": {
         "type": "CatchClause",
-        "start": 8,
-        "end": 20,
         "param": {
           "type": "Identifier",
-          "start": 14,
-          "end": 15,
           "decorators": [],
           "name": "e",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 14,
+          "end": 15
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 17,
-          "end": 20,
-          "body": []
-        }
+          "end": 20
+        },
+        "start": 8,
+        "end": 20
       },
       "finalizer": {
         "type": "BlockStatement",
+        "body": [],
         "start": 29,
-        "end": 32,
-        "body": []
-      }
+        "end": 32
+      },
+      "start": 0,
+      "end": 32
     },
     {
       "type": "TryStatement",
-      "start": 35,
-      "end": 53,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 39,
-        "end": 41,
-        "body": []
+        "end": 41
       },
       "handler": {
         "type": "CatchClause",
-        "start": 42,
-        "end": 53,
         "param": {
           "type": "Identifier",
-          "start": 48,
-          "end": 49,
           "decorators": [],
           "name": "e",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 48,
+          "end": 49
         },
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 51,
-          "end": 53,
-          "body": []
-        }
+          "end": 53
+        },
+        "start": 42,
+        "end": 53
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 35,
+      "end": 53
     },
     {
       "type": "TryStatement",
-      "start": 55,
-      "end": 72,
       "block": {
         "type": "BlockStatement",
+        "body": [],
         "start": 59,
-        "end": 61,
-        "body": []
+        "end": 61
       },
       "handler": null,
       "finalizer": {
         "type": "BlockStatement",
+        "body": [],
         "start": 70,
-        "end": 72,
-        "body": []
-      }
+        "end": 72
+      },
+      "start": 55,
+      "end": 72
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 72
 }
 ```

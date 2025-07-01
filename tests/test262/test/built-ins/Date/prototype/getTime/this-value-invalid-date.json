@@ -1,86 +1,86 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 325,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 277,
-      "end": 324,
       "expression": {
         "type": "CallExpression",
-        "start": 277,
-        "end": 323,
         "callee": {
           "type": "MemberExpression",
-          "start": 277,
-          "end": 293,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 277,
-            "end": 283,
-            "name": "assert"
+            "end": 283
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 284,
-            "end": 293,
-            "name": "sameValue"
+            "end": 293
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 277,
+          "end": 293
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 294,
-            "end": 317,
             "callee": {
               "type": "MemberExpression",
-              "start": 294,
-              "end": 315,
               "object": {
                 "type": "NewExpression",
-                "start": 294,
-                "end": 307,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Date",
                   "start": 298,
-                  "end": 302,
-                  "name": "Date"
+                  "end": 302
                 },
                 "arguments": [
                   {
                     "type": "Identifier",
+                    "name": "NaN",
                     "start": 303,
-                    "end": 306,
-                    "name": "NaN"
+                    "end": 306
                   }
-                ]
+                ],
+                "start": 294,
+                "end": 307
               },
               "property": {
                 "type": "Identifier",
+                "name": "getTime",
                 "start": 308,
-                "end": 315,
-                "name": "getTime"
+                "end": 315
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 294,
+              "end": 315
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 294,
+            "end": 317
           },
           {
             "type": "Identifier",
+            "name": "NaN",
             "start": 319,
-            "end": 322,
-            "name": "NaN"
+            "end": 322
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 277,
+        "end": 323
+      },
+      "start": 277,
+      "end": 324
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 325
 }

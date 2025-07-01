@@ -1,120 +1,120 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 524,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 446,
-      "end": 459,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 450,
-          "end": 458,
           "id": {
             "type": "Identifier",
+            "name": "o",
             "start": 450,
-            "end": 451,
-            "name": "o"
+            "end": 451
           },
           "init": {
             "type": "Identifier",
+            "name": "JSON",
             "start": 454,
-            "end": 458,
-            "name": "JSON"
-          }
+            "end": 458
+          },
+          "start": 450,
+          "end": 458
         }
-      ]
+      ],
+      "start": 446,
+      "end": 459
     },
     {
       "type": "ExpressionStatement",
-      "start": 460,
-      "end": 523,
       "expression": {
         "type": "CallExpression",
-        "start": 460,
-        "end": 522,
         "callee": {
           "type": "MemberExpression",
-          "start": 460,
-          "end": 473,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 460,
-            "end": 466,
-            "name": "assert"
+            "end": 466
           },
           "property": {
             "type": "Identifier",
+            "name": "throws",
             "start": 467,
-            "end": 473,
-            "name": "throws"
+            "end": 473
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 460,
+          "end": 473
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "TypeError",
             "start": 474,
-            "end": 483,
-            "name": "TypeError"
+            "end": 483
           },
           {
             "type": "FunctionExpression",
-            "start": 485,
-            "end": 521,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 496,
-              "end": 521,
               "body": [
                 {
                   "type": "VariableDeclaration",
-                  "start": 500,
-                  "end": 519,
                   "kind": "var",
                   "declarations": [
                     {
                       "type": "VariableDeclarator",
-                      "start": 504,
-                      "end": 518,
                       "id": {
                         "type": "Identifier",
+                        "name": "j",
                         "start": 504,
-                        "end": 505,
-                        "name": "j"
+                        "end": 505
                       },
                       "init": {
                         "type": "NewExpression",
-                        "start": 508,
-                        "end": 518,
                         "callee": {
                           "type": "Identifier",
+                          "name": "JSON",
                           "start": 512,
-                          "end": 516,
-                          "name": "JSON"
+                          "end": 516
                         },
-                        "arguments": []
-                      }
+                        "arguments": [],
+                        "start": 508,
+                        "end": 518
+                      },
+                      "start": 504,
+                      "end": 518
                     }
-                  ]
+                  ],
+                  "start": 500,
+                  "end": 519
                 }
-              ]
+              ],
+              "start": 496,
+              "end": 521
             },
-            "expression": false
+            "expression": false,
+            "start": 485,
+            "end": 521
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 460,
+        "end": 522
+      },
+      "start": 460,
+      "end": 523
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 524
 }

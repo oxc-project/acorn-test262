@@ -1,59 +1,49 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 496,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 345,
-      "end": 356,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 349,
-          "end": 355,
           "id": {
             "type": "Identifier",
+            "name": "o",
             "start": 349,
-            "end": 350,
-            "name": "o"
+            "end": 350
           },
           "init": {
             "type": "ObjectExpression",
+            "properties": [],
             "start": 353,
-            "end": 355,
-            "properties": []
-          }
+            "end": 355
+          },
+          "start": 349,
+          "end": 355
         }
-      ]
+      ],
+      "start": 345,
+      "end": 356
     },
     {
       "type": "FunctionDeclaration",
-      "start": 357,
-      "end": 389,
       "id": {
         "type": "Identifier",
+        "name": "f",
         "start": 366,
-        "end": 367,
-        "name": "f"
+        "end": 367
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
-        "start": 370,
-        "end": 389,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 372,
-            "end": 388,
             "argument": {
               "type": "BinaryExpression",
-              "start": 379,
-              "end": 387,
               "left": {
                 "type": "ThisExpression",
                 "start": 379,
@@ -62,15 +52,23 @@
               "operator": "===",
               "right": {
                 "type": "Identifier",
+                "name": "o",
                 "start": 386,
-                "end": 387,
-                "name": "o"
-              }
-            }
+                "end": 387
+              },
+              "start": 379,
+              "end": 387
+            },
+            "start": 372,
+            "end": 388
           }
-        ]
+        ],
+        "start": 370,
+        "end": 389
       },
-      "expression": false
+      "expression": false,
+      "start": 357,
+      "end": 389
     },
     {
       "type": "EmptyStatement",
@@ -79,129 +77,131 @@
     },
     {
       "type": "IfStatement",
-      "start": 391,
-      "end": 495,
       "test": {
         "type": "UnaryExpression",
-        "start": 395,
-        "end": 450,
         "operator": "!",
         "argument": {
           "type": "ParenthesizedExpression",
-          "start": 397,
-          "end": 450,
           "expression": {
             "type": "CallExpression",
-            "start": 398,
-            "end": 449,
             "callee": {
               "type": "ParenthesizedExpression",
-              "start": 398,
-              "end": 447,
               "expression": {
                 "type": "FunctionExpression",
-                "start": 399,
-                "end": 446,
                 "id": null,
                 "generator": false,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
-                  "start": 411,
-                  "end": 446,
                   "body": [
                     {
                       "type": "ExpressionStatement",
-                      "start": 412,
-                      "end": 425,
                       "expression": {
                         "type": "Literal",
-                        "start": 412,
-                        "end": 424,
                         "value": "use strict",
-                        "raw": "\"use strict\""
+                        "raw": "\"use strict\"",
+                        "start": 412,
+                        "end": 424
                       },
-                      "directive": "use strict"
+                      "directive": "use strict",
+                      "start": 412,
+                      "end": 425
                     },
                     {
                       "type": "ReturnStatement",
-                      "start": 426,
-                      "end": 445,
                       "argument": {
                         "type": "CallExpression",
-                        "start": 433,
-                        "end": 444,
                         "callee": {
                           "type": "CallExpression",
-                          "start": 433,
-                          "end": 442,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 433,
-                            "end": 439,
                             "object": {
                               "type": "Identifier",
+                              "name": "f",
                               "start": 433,
-                              "end": 434,
-                              "name": "f"
+                              "end": 434
                             },
                             "property": {
                               "type": "Identifier",
+                              "name": "bind",
                               "start": 435,
-                              "end": 439,
-                              "name": "bind"
+                              "end": 439
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 433,
+                            "end": 439
                           },
                           "arguments": [
                             {
                               "type": "Identifier",
+                              "name": "o",
                               "start": 440,
-                              "end": 441,
-                              "name": "o"
+                              "end": 441
                             }
                           ],
-                          "optional": false
+                          "optional": false,
+                          "start": 433,
+                          "end": 442
                         },
                         "arguments": [],
-                        "optional": false
-                      }
+                        "optional": false,
+                        "start": 433,
+                        "end": 444
+                      },
+                      "start": 426,
+                      "end": 445
                     }
-                  ]
+                  ],
+                  "start": 411,
+                  "end": 446
                 },
-                "expression": false
-              }
+                "expression": false,
+                "start": 399,
+                "end": 446
+              },
+              "start": 398,
+              "end": 447
             },
             "arguments": [],
-            "optional": false
-          }
+            "optional": false,
+            "start": 398,
+            "end": 449
+          },
+          "start": 397,
+          "end": 450
         },
-        "prefix": true
+        "prefix": true,
+        "start": 395,
+        "end": 450
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 451,
-        "end": 495,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 457,
-            "end": 493,
             "argument": {
               "type": "Literal",
-              "start": 463,
-              "end": 492,
               "value": "'this' had incorrect value!",
-              "raw": "\"'this' had incorrect value!\""
-            }
+              "raw": "\"'this' had incorrect value!\"",
+              "start": 463,
+              "end": 492
+            },
+            "start": 457,
+            "end": 493
           }
-        ]
+        ],
+        "start": 451,
+        "end": 495
       },
-      "alternate": null
+      "alternate": null,
+      "start": 391,
+      "end": 495
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 496
 }

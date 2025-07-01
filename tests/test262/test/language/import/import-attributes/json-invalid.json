@@ -1,73 +1,73 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 700,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 610,
-      "end": 627,
       "expression": {
         "type": "CallExpression",
-        "start": 610,
-        "end": 626,
         "callee": {
           "type": "Identifier",
+          "name": "$DONOTEVALUATE",
           "start": 610,
-          "end": 624,
-          "name": "$DONOTEVALUATE"
+          "end": 624
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 610,
+        "end": 626
+      },
+      "start": 610,
+      "end": 627
     },
     {
       "type": "ImportDeclaration",
-      "start": 629,
-      "end": 699,
       "specifiers": [
         {
           "type": "ImportDefaultSpecifier",
-          "start": 636,
-          "end": 641,
           "local": {
             "type": "Identifier",
+            "name": "value",
             "start": 636,
-            "end": 641,
-            "name": "value"
-          }
+            "end": 641
+          },
+          "start": 636,
+          "end": 641
         }
       ],
       "source": {
         "type": "Literal",
-        "start": 647,
-        "end": 676,
         "value": "./json-invalid_FIXTURE.json",
-        "raw": "'./json-invalid_FIXTURE.json'"
+        "raw": "'./json-invalid_FIXTURE.json'",
+        "start": 647,
+        "end": 676
       },
       "phase": null,
       "attributes": [
         {
           "type": "ImportAttribute",
-          "start": 684,
-          "end": 696,
           "key": {
             "type": "Identifier",
+            "name": "type",
             "start": 684,
-            "end": 688,
-            "name": "type"
+            "end": 688
           },
           "value": {
             "type": "Literal",
-            "start": 690,
-            "end": 696,
             "value": "json",
-            "raw": "'json'"
-          }
+            "raw": "'json'",
+            "start": 690,
+            "end": 696
+          },
+          "start": 684,
+          "end": 696
         }
-      ]
+      ],
+      "start": 629,
+      "end": 699
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 700
 }

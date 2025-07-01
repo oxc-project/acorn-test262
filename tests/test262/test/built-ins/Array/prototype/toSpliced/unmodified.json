@@ -1,204 +1,204 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 480,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 354,
-      "end": 374,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 358,
-          "end": 373,
           "id": {
             "type": "Identifier",
+            "name": "arr",
             "start": 358,
-            "end": 361,
-            "name": "arr"
+            "end": 361
           },
           "init": {
             "type": "ArrayExpression",
-            "start": 364,
-            "end": 373,
             "elements": [
               {
                 "type": "Literal",
-                "start": 365,
-                "end": 366,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 365,
+                "end": 366
               },
               {
                 "type": "Literal",
-                "start": 368,
-                "end": 369,
                 "value": 2,
-                "raw": "2"
+                "raw": "2",
+                "start": 368,
+                "end": 369
               },
               {
                 "type": "Literal",
-                "start": 371,
-                "end": 372,
                 "value": 3,
-                "raw": "3"
+                "raw": "3",
+                "start": 371,
+                "end": 372
               }
-            ]
-          }
+            ],
+            "start": 364,
+            "end": 373
+          },
+          "start": 358,
+          "end": 373
         }
-      ]
+      ],
+      "start": 354,
+      "end": 374
     },
     {
       "type": "VariableDeclaration",
-      "start": 375,
-      "end": 409,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 379,
-          "end": 408,
           "id": {
             "type": "Identifier",
+            "name": "spliced",
             "start": 379,
-            "end": 386,
-            "name": "spliced"
+            "end": 386
           },
           "init": {
             "type": "CallExpression",
-            "start": 389,
-            "end": 408,
             "callee": {
               "type": "MemberExpression",
-              "start": 389,
-              "end": 402,
               "object": {
                 "type": "Identifier",
+                "name": "arr",
                 "start": 389,
-                "end": 392,
-                "name": "arr"
+                "end": 392
               },
               "property": {
                 "type": "Identifier",
+                "name": "toSpliced",
                 "start": 393,
-                "end": 402,
-                "name": "toSpliced"
+                "end": 402
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 389,
+              "end": 402
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 403,
-                "end": 404,
                 "value": 1,
-                "raw": "1"
+                "raw": "1",
+                "start": 403,
+                "end": 404
               },
               {
                 "type": "Literal",
-                "start": 406,
-                "end": 407,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 406,
+                "end": 407
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 389,
+            "end": 408
+          },
+          "start": 379,
+          "end": 408
         }
-      ]
+      ],
+      "start": 375,
+      "end": 409
     },
     {
       "type": "ExpressionStatement",
-      "start": 410,
-      "end": 444,
       "expression": {
         "type": "CallExpression",
-        "start": 410,
-        "end": 443,
         "callee": {
           "type": "MemberExpression",
-          "start": 410,
-          "end": 429,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 410,
-            "end": 416,
-            "name": "assert"
+            "end": 416
           },
           "property": {
             "type": "Identifier",
+            "name": "notSameValue",
             "start": 417,
-            "end": 429,
-            "name": "notSameValue"
+            "end": 429
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 410,
+          "end": 429
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "arr",
             "start": 430,
-            "end": 433,
-            "name": "arr"
+            "end": 433
           },
           {
             "type": "Identifier",
+            "name": "spliced",
             "start": 435,
-            "end": 442,
-            "name": "spliced"
+            "end": 442
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 410,
+        "end": 443
+      },
+      "start": 410,
+      "end": 444
     },
     {
       "type": "ExpressionStatement",
-      "start": 445,
-      "end": 479,
       "expression": {
         "type": "CallExpression",
-        "start": 445,
-        "end": 478,
         "callee": {
           "type": "MemberExpression",
-          "start": 445,
-          "end": 464,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 445,
-            "end": 451,
-            "name": "assert"
+            "end": 451
           },
           "property": {
             "type": "Identifier",
+            "name": "compareArray",
             "start": 452,
-            "end": 464,
-            "name": "compareArray"
+            "end": 464
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 445,
+          "end": 464
         },
         "arguments": [
           {
             "type": "Identifier",
+            "name": "arr",
             "start": 465,
-            "end": 468,
-            "name": "arr"
+            "end": 468
           },
           {
             "type": "Identifier",
+            "name": "spliced",
             "start": 470,
-            "end": 477,
-            "name": "spliced"
+            "end": 477
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 445,
+        "end": 478
+      },
+      "start": 445,
+      "end": 479
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 480
 }

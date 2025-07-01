@@ -1,75 +1,75 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 669,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 643,
-      "end": 668,
       "decorators": [],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 649,
-        "end": 650,
-        "name": "C"
+        "end": 650
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
-        "start": 651,
-        "end": 668,
         "body": [
           {
             "type": "PropertyDefinition",
-            "start": 655,
-            "end": 657,
             "decorators": [],
             "key": {
               "type": "PrivateIdentifier",
+              "name": "x",
               "start": 655,
-              "end": 657,
-              "name": "x"
+              "end": 657
             },
             "value": null,
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 655,
+            "end": 657
           },
           {
             "type": "MethodDefinition",
-            "start": 660,
-            "end": 666,
             "decorators": [],
             "key": {
               "type": "Identifier",
+              "name": "m",
               "start": 660,
-              "end": 661,
-              "name": "m"
+              "end": 661
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 661,
-              "end": 666,
               "id": null,
               "generator": false,
               "async": false,
               "params": [],
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 664,
-                "end": 666,
-                "body": []
+                "end": 666
               },
-              "expression": false
+              "expression": false,
+              "start": 661,
+              "end": 666
             },
             "kind": "method",
             "computed": false,
-            "static": false
+            "static": false,
+            "start": 660,
+            "end": 666
           }
-        ]
-      }
+        ],
+        "start": 651,
+        "end": 668
+      },
+      "start": 643,
+      "end": 668
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 669
 }

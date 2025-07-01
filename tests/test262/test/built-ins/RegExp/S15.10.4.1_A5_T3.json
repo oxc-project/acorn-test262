@@ -1,181 +1,181 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 742,
   "body": [
     {
       "type": "TryStatement",
-      "start": 394,
-      "end": 696,
       "block": {
         "type": "BlockStatement",
-        "start": 398,
-        "end": 536,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 404,
-            "end": 534,
             "argument": {
               "type": "NewExpression",
-              "start": 410,
-              "end": 533,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 414,
-                "end": 426,
-                "name": "Test262Error"
+                "end": 426
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 427,
-                  "end": 532,
                   "left": {
                     "type": "Literal",
-                    "start": 427,
-                    "end": 496,
                     "value": "#1.1: new RegExp(\"\",eval(\"\\\"migr\\\"\")) throw SyntaxError. Actual: ",
-                    "raw": "'#1.1: new RegExp(\"\",eval(\"\\\\\"migr\\\\\"\")) throw SyntaxError. Actual: '"
+                    "raw": "'#1.1: new RegExp(\"\",eval(\"\\\\\"migr\\\\\"\")) throw SyntaxError. Actual: '",
+                    "start": 427,
+                    "end": 496
                   },
                   "operator": "+",
                   "right": {
                     "type": "ParenthesizedExpression",
-                    "start": 499,
-                    "end": 532,
                     "expression": {
                       "type": "NewExpression",
-                      "start": 500,
-                      "end": 531,
                       "callee": {
                         "type": "Identifier",
+                        "name": "RegExp",
                         "start": 504,
-                        "end": 510,
-                        "name": "RegExp"
+                        "end": 510
                       },
                       "arguments": [
                         {
                           "type": "Literal",
-                          "start": 511,
-                          "end": 513,
                           "value": "",
-                          "raw": "\"\""
+                          "raw": "\"\"",
+                          "start": 511,
+                          "end": 513
                         },
                         {
                           "type": "CallExpression",
-                          "start": 514,
-                          "end": 530,
                           "callee": {
                             "type": "Identifier",
+                            "name": "eval",
                             "start": 514,
-                            "end": 518,
-                            "name": "eval"
+                            "end": 518
                           },
                           "arguments": [
                             {
                               "type": "Literal",
-                              "start": 519,
-                              "end": 529,
                               "value": "\"migr\"",
-                              "raw": "\"\\\"migr\\\"\""
+                              "raw": "\"\\\"migr\\\"\"",
+                              "start": 519,
+                              "end": 529
                             }
                           ],
-                          "optional": false
+                          "optional": false,
+                          "start": 514,
+                          "end": 530
                         }
-                      ]
-                    }
-                  }
+                      ],
+                      "start": 500,
+                      "end": 531
+                    },
+                    "start": 499,
+                    "end": 532
+                  },
+                  "start": 427,
+                  "end": 532
                 }
-              ]
-            }
+              ],
+              "start": 410,
+              "end": 533
+            },
+            "start": 404,
+            "end": 534
           }
-        ]
+        ],
+        "start": 398,
+        "end": 536
       },
       "handler": {
         "type": "CatchClause",
-        "start": 537,
-        "end": 696,
         "param": {
           "type": "Identifier",
+          "name": "e",
           "start": 544,
-          "end": 545,
-          "name": "e"
+          "end": 545
         },
         "body": {
           "type": "BlockStatement",
-          "start": 547,
-          "end": 696,
           "body": [
             {
               "type": "ExpressionStatement",
-              "start": 551,
-              "end": 694,
               "expression": {
                 "type": "CallExpression",
-                "start": 551,
-                "end": 693,
                 "callee": {
                   "type": "MemberExpression",
-                  "start": 551,
-                  "end": 567,
                   "object": {
                     "type": "Identifier",
+                    "name": "assert",
                     "start": 551,
-                    "end": 557,
-                    "name": "assert"
+                    "end": 557
                   },
                   "property": {
                     "type": "Identifier",
+                    "name": "sameValue",
                     "start": 558,
-                    "end": 567,
-                    "name": "sameValue"
+                    "end": 567
                   },
                   "optional": false,
-                  "computed": false
+                  "computed": false,
+                  "start": 551,
+                  "end": 567
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 573,
-                    "end": 597,
                     "left": {
                       "type": "Identifier",
+                      "name": "e",
                       "start": 573,
-                      "end": 574,
-                      "name": "e"
+                      "end": 574
                     },
                     "operator": "instanceof",
                     "right": {
                       "type": "Identifier",
+                      "name": "SyntaxError",
                       "start": 586,
-                      "end": 597,
-                      "name": "SyntaxError"
-                    }
+                      "end": 597
+                    },
+                    "start": 573,
+                    "end": 597
                   },
                   {
                     "type": "Literal",
-                    "start": 603,
-                    "end": 607,
                     "value": true,
-                    "raw": "true"
+                    "raw": "true",
+                    "start": 603,
+                    "end": 607
                   },
                   {
                     "type": "Literal",
-                    "start": 613,
-                    "end": 689,
                     "value": "The result of evaluating (e instanceof SyntaxError) is expected to be true",
-                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'"
+                    "raw": "'The result of evaluating (e instanceof SyntaxError) is expected to be true'",
+                    "start": 613,
+                    "end": 689
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 551,
+                "end": 693
+              },
+              "start": 551,
+              "end": 694
             }
-          ]
-        }
+          ],
+          "start": 547,
+          "end": 696
+        },
+        "start": 537,
+        "end": 696
       },
-      "finalizer": null
+      "finalizer": null,
+      "start": 394,
+      "end": 696
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 742
 }

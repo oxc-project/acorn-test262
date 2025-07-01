@@ -2,87 +2,87 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 62,
-  "end": 126,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 62,
-      "end": 91,
       "expression": {
         "type": "CallExpression",
-        "start": 62,
-        "end": 90,
         "callee": {
           "type": "MemberExpression",
-          "start": 62,
-          "end": 82,
           "object": {
             "type": "ImportExpression",
-            "start": 62,
-            "end": 77,
             "source": {
               "type": "Literal",
-              "start": 69,
-              "end": 76,
               "value": "./foo",
-              "raw": "\"./foo\""
+              "raw": "\"./foo\"",
+              "start": 69,
+              "end": 76
             },
             "options": null,
-            "phase": null
+            "phase": null,
+            "start": 62,
+            "end": 77
           },
           "property": {
             "type": "Identifier",
-            "start": 78,
-            "end": 82,
             "decorators": [],
             "name": "then",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 78,
+            "end": 82
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 62,
+          "end": 82
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 83,
-            "end": 89,
             "expression": true,
             "async": false,
             "typeParameters": null,
             "params": [
               {
                 "type": "Identifier",
-                "start": 83,
-                "end": 84,
                 "decorators": [],
                 "name": "x",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 83,
+                "end": 84
               }
             ],
             "returnType": null,
             "body": {
               "type": "Identifier",
-              "start": 88,
-              "end": 89,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 88,
+              "end": 89
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 83,
+            "end": 89
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 62,
+        "end": 90
       },
-      "directive": null
+      "directive": null,
+      "start": 62,
+      "end": 91
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 62,
+  "end": 126
 }
 ```

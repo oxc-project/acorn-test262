@@ -1,47 +1,45 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1118,
   "body": [
     {
       "type": "BlockStatement",
-      "start": 1065,
-      "end": 1116,
       "body": [
         {
           "type": "ExpressionStatement",
-          "start": 1069,
-          "end": 1114,
           "expression": {
             "type": "ImportExpression",
-            "start": 1069,
-            "end": 1113,
             "source": {
               "type": "ImportExpression",
-              "start": 1076,
-              "end": 1112,
               "source": {
                 "type": "ImportExpression",
-                "start": 1083,
-                "end": 1111,
                 "source": {
                   "type": "Literal",
-                  "start": 1090,
-                  "end": 1110,
                   "value": "./empty_FIXTURE.js",
-                  "raw": "'./empty_FIXTURE.js'"
+                  "raw": "'./empty_FIXTURE.js'",
+                  "start": 1090,
+                  "end": 1110
                 },
                 "options": null,
-                "phase": null
+                "phase": null,
+                "start": 1083,
+                "end": 1111
               },
               "options": null,
-              "phase": null
+              "phase": null,
+              "start": 1076,
+              "end": 1112
             },
             "options": null,
-            "phase": null
-          }
+            "phase": null,
+            "start": 1069,
+            "end": 1113
+          },
+          "start": 1069,
+          "end": 1114
         }
-      ]
+      ],
+      "start": 1065,
+      "end": 1116
     },
     {
       "type": "EmptyStatement",
@@ -50,5 +48,7 @@
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1118
 }

@@ -2,75 +2,71 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 75,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 0,
-      "end": 45,
       "id": {
         "type": "Identifier",
-        "start": 10,
-        "end": 18,
         "decorators": [],
         "name": "Function",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 10,
+        "end": 18
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 19,
-        "end": 45,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 21,
-            "end": 43,
             "computed": false,
             "optional": false,
             "readonly": true,
             "key": {
               "type": "Identifier",
-              "start": 30,
-              "end": 34,
               "decorators": [],
               "name": "name",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 30,
+              "end": 34
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 34,
-              "end": 42,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 36,
                 "end": 42
-              }
+              },
+              "start": 34,
+              "end": 42
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 21,
+            "end": 43
           }
-        ]
+        ],
+        "start": 19,
+        "end": 45
       },
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 45
     },
     {
       "type": "ClassDeclaration",
-      "start": 46,
-      "end": 58,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 52,
-        "end": 55,
         "decorators": [],
         "name": "Foo",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 52,
+        "end": 55
       },
       "typeParameters": null,
       "superClass": null,
@@ -78,53 +74,57 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 56,
-        "end": 58,
-        "body": []
+        "end": 58
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 46,
+      "end": 58
     },
     {
       "type": "ExpressionStatement",
-      "start": 59,
-      "end": 75,
       "expression": {
         "type": "UnaryExpression",
-        "start": 59,
-        "end": 74,
         "operator": "delete",
         "argument": {
           "type": "MemberExpression",
-          "start": 66,
-          "end": 74,
           "object": {
             "type": "Identifier",
-            "start": 66,
-            "end": 69,
             "decorators": [],
             "name": "Foo",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 66,
+            "end": 69
           },
           "property": {
             "type": "Identifier",
-            "start": 70,
-            "end": 74,
             "decorators": [],
             "name": "name",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 70,
+            "end": 74
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 66,
+          "end": 74
         },
-        "prefix": true
+        "prefix": true,
+        "start": 59,
+        "end": 74
       },
-      "directive": null
+      "directive": null,
+      "start": 59,
+      "end": 75
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 75
 }
 ```

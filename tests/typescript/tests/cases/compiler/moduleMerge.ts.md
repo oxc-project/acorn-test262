@@ -2,40 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 94,
-  "end": 350,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 94,
-      "end": 218,
       "id": {
         "type": "Identifier",
-        "start": 101,
-        "end": 102,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 101,
+        "end": 102
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 103,
-        "end": 218,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 109,
-            "end": 216,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 115,
-              "end": 116,
               "decorators": [],
               "name": "B",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 115,
+              "end": 116
             },
             "typeParameters": null,
             "superClass": null,
@@ -43,27 +35,21 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
-              "start": 121,
-              "end": 216,
               "body": [
                 {
                   "type": "MethodDefinition",
-                  "start": 131,
-                  "end": 210,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
-                    "start": 138,
-                    "end": 143,
                     "decorators": [],
                     "name": "Hello",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 138,
+                    "end": 143
                   },
                   "value": {
                     "type": "FunctionExpression",
-                    "start": 143,
-                    "end": 210,
                     "id": null,
                     "generator": false,
                     "async": false,
@@ -72,88 +58,92 @@ __ESTREE_TEST__:PASS:
                     "params": [],
                     "returnType": {
                       "type": "TSTypeAnnotation",
-                      "start": 145,
-                      "end": 153,
                       "typeAnnotation": {
                         "type": "TSStringKeyword",
                         "start": 147,
                         "end": 153
-                      }
+                      },
+                      "start": 145,
+                      "end": 153
                     },
                     "body": {
                       "type": "BlockStatement",
-                      "start": 162,
-                      "end": 210,
                       "body": [
                         {
                           "type": "ReturnStatement",
-                          "start": 176,
-                          "end": 200,
                           "argument": {
                             "type": "Literal",
-                            "start": 183,
-                            "end": 199,
                             "value": "from private B",
-                            "raw": "\"from private B\""
-                          }
+                            "raw": "\"from private B\"",
+                            "start": 183,
+                            "end": 199
+                          },
+                          "start": 176,
+                          "end": 200
                         }
-                      ]
+                      ],
+                      "start": 162,
+                      "end": 210
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 143,
+                    "end": 210
                   },
                   "kind": "method",
                   "computed": false,
                   "static": false,
                   "override": false,
                   "optional": false,
-                  "accessibility": "public"
+                  "accessibility": "public",
+                  "start": 131,
+                  "end": 210
                 }
-              ]
+              ],
+              "start": 121,
+              "end": 216
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 109,
+            "end": 216
           }
-        ]
+        ],
+        "start": 103,
+        "end": 218
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 94,
+      "end": 218
     },
     {
       "type": "TSModuleDeclaration",
-      "start": 220,
-      "end": 350,
       "id": {
         "type": "Identifier",
-        "start": 227,
-        "end": 228,
         "decorators": [],
         "name": "A",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 227,
+        "end": 228
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 229,
-        "end": 350,
         "body": [
           {
             "type": "ExportNamedDeclaration",
-            "start": 235,
-            "end": 348,
             "declaration": {
               "type": "ClassDeclaration",
-              "start": 242,
-              "end": 348,
               "decorators": [],
               "id": {
                 "type": "Identifier",
-                "start": 248,
-                "end": 249,
                 "decorators": [],
                 "name": "B",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 248,
+                "end": 249
               },
               "typeParameters": null,
               "superClass": null,
@@ -161,27 +151,21 @@ __ESTREE_TEST__:PASS:
               "implements": [],
               "body": {
                 "type": "ClassBody",
-                "start": 254,
-                "end": 348,
                 "body": [
                   {
                     "type": "MethodDefinition",
-                    "start": 264,
-                    "end": 342,
                     "decorators": [],
                     "key": {
                       "type": "Identifier",
-                      "start": 271,
-                      "end": 276,
                       "decorators": [],
                       "name": "Hello",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 271,
+                      "end": 276
                     },
                     "value": {
                       "type": "FunctionExpression",
-                      "start": 276,
-                      "end": 342,
                       "id": null,
                       "generator": false,
                       "async": false,
@@ -190,60 +174,76 @@ __ESTREE_TEST__:PASS:
                       "params": [],
                       "returnType": {
                         "type": "TSTypeAnnotation",
-                        "start": 278,
-                        "end": 286,
                         "typeAnnotation": {
                           "type": "TSStringKeyword",
                           "start": 280,
                           "end": 286
-                        }
+                        },
+                        "start": 278,
+                        "end": 286
                       },
                       "body": {
                         "type": "BlockStatement",
-                        "start": 295,
-                        "end": 342,
                         "body": [
                           {
                             "type": "ReturnStatement",
-                            "start": 309,
-                            "end": 332,
                             "argument": {
                               "type": "Literal",
-                              "start": 316,
-                              "end": 331,
                               "value": "from export B",
-                              "raw": "\"from export B\""
-                            }
+                              "raw": "\"from export B\"",
+                              "start": 316,
+                              "end": 331
+                            },
+                            "start": 309,
+                            "end": 332
                           }
-                        ]
+                        ],
+                        "start": 295,
+                        "end": 342
                       },
-                      "expression": false
+                      "expression": false,
+                      "start": 276,
+                      "end": 342
                     },
                     "kind": "method",
                     "computed": false,
                     "static": false,
                     "override": false,
                     "optional": false,
-                    "accessibility": "public"
+                    "accessibility": "public",
+                    "start": 264,
+                    "end": 342
                   }
-                ]
+                ],
+                "start": 254,
+                "end": 348
               },
               "abstract": false,
-              "declare": false
+              "declare": false,
+              "start": 242,
+              "end": 348
             },
             "specifiers": [],
             "source": null,
             "exportKind": "value",
-            "attributes": []
+            "attributes": [],
+            "start": 235,
+            "end": 348
           }
-        ]
+        ],
+        "start": 229,
+        "end": 350
       },
       "kind": "module",
       "declare": false,
-      "global": false
+      "global": false,
+      "start": 220,
+      "end": 350
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 94,
+  "end": 350
 }
 ```

@@ -2,173 +2,169 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 95,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 12,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 9,
-          "end": 10,
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
           "exported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 9,
+          "end": 10
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 12
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 13,
-      "end": 31,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 22,
-          "end": 29,
           "local": {
             "type": "Identifier",
-            "start": 22,
-            "end": 23,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 23
           },
           "exported": {
             "type": "Identifier",
-            "start": 27,
-            "end": 29,
             "decorators": [],
             "name": "xx",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 29
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 22,
+          "end": 29
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 13,
+      "end": 31
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 32,
-      "end": 49,
       "declaration": {
         "type": "Identifier",
-        "start": 47,
-        "end": 48,
         "decorators": [],
         "name": "x",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 47,
+        "end": 48
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 32,
+      "end": 49
     },
     {
       "type": "VariableDeclaration",
-      "start": 51,
-      "end": 64,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 57,
-          "end": 64,
           "id": {
             "type": "Identifier",
-            "start": 57,
-            "end": 58,
             "decorators": [],
             "name": "x",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 57,
+            "end": 58
           },
           "init": {
             "type": "Literal",
-            "start": 61,
-            "end": 64,
             "value": "x",
-            "raw": "'x'"
+            "raw": "'x'",
+            "start": 61,
+            "end": 64
           },
-          "definite": false
+          "definite": false,
+          "start": 57,
+          "end": 64
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 51,
+      "end": 64
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 66,
-      "end": 83,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 75,
-          "end": 81,
           "local": {
             "type": "Identifier",
-            "start": 75,
-            "end": 76,
             "decorators": [],
             "name": "Y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 75,
+            "end": 76
           },
           "exported": {
             "type": "Identifier",
-            "start": 80,
-            "end": 81,
             "decorators": [],
             "name": "Z",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 80,
+            "end": 81
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 75,
+          "end": 81
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 66,
+      "end": 83
     },
     {
       "type": "ClassDeclaration",
-      "start": 84,
-      "end": 94,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 90,
-        "end": 91,
         "decorators": [],
         "name": "Y",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 90,
+        "end": 91
       },
       "typeParameters": null,
       "superClass": null,
@@ -176,143 +172,147 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 92,
-        "end": 94,
-        "body": []
+        "end": 94
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 84,
+      "end": 94
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 95
 }
 ```
 __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 61,
   "body": [
     {
       "type": "ExportNamedDeclaration",
-      "start": 0,
-      "end": 12,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 9,
-          "end": 10,
           "local": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
           "exported": {
             "type": "Identifier",
-            "start": 9,
-            "end": 10,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 9,
+            "end": 10
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 9,
+          "end": 10
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 0,
+      "end": 12
     },
     {
       "type": "ExportNamedDeclaration",
-      "start": 13,
-      "end": 31,
       "declaration": null,
       "specifiers": [
         {
           "type": "ExportSpecifier",
-          "start": 22,
-          "end": 29,
           "local": {
             "type": "Identifier",
-            "start": 22,
-            "end": 23,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 22,
+            "end": 23
           },
           "exported": {
             "type": "Identifier",
-            "start": 27,
-            "end": 29,
             "decorators": [],
             "name": "yy",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 27,
+            "end": 29
           },
-          "exportKind": "value"
+          "exportKind": "value",
+          "start": 22,
+          "end": 29
         }
       ],
       "source": null,
       "exportKind": "value",
-      "attributes": []
+      "attributes": [],
+      "start": 13,
+      "end": 31
     },
     {
       "type": "ExportDefaultDeclaration",
-      "start": 32,
-      "end": 49,
       "declaration": {
         "type": "Identifier",
-        "start": 47,
-        "end": 48,
         "decorators": [],
         "name": "y",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 47,
+        "end": 48
       },
-      "exportKind": "value"
+      "exportKind": "value",
+      "start": 32,
+      "end": 49
     },
     {
       "type": "VariableDeclaration",
-      "start": 50,
-      "end": 61,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 54,
-          "end": 61,
           "id": {
             "type": "Identifier",
-            "start": 54,
-            "end": 55,
             "decorators": [],
             "name": "y",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 54,
+            "end": 55
           },
           "init": {
             "type": "Literal",
-            "start": 58,
-            "end": 61,
             "value": "y",
-            "raw": "'y'"
+            "raw": "'y'",
+            "start": 58,
+            "end": 61
           },
-          "definite": false
+          "definite": false,
+          "start": 54,
+          "end": 61
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 50,
+      "end": 61
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 61
 }
 ```

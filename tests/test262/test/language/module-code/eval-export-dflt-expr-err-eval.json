@@ -1,60 +1,60 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 957,
   "body": [
     {
       "type": "ExportDefaultDeclaration",
-      "start": 896,
-      "end": 956,
       "declaration": {
         "type": "CallExpression",
-        "start": 911,
-        "end": 955,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 911,
-          "end": 953,
           "expression": {
             "type": "FunctionExpression",
-            "start": 912,
-            "end": 952,
             "id": null,
             "generator": false,
             "async": false,
             "params": [],
             "body": {
               "type": "BlockStatement",
-              "start": 923,
-              "end": 952,
               "body": [
                 {
                   "type": "ThrowStatement",
-                  "start": 925,
-                  "end": 950,
                   "argument": {
                     "type": "NewExpression",
-                    "start": 931,
-                    "end": 949,
                     "callee": {
                       "type": "Identifier",
+                      "name": "Test262Error",
                       "start": 935,
-                      "end": 947,
-                      "name": "Test262Error"
+                      "end": 947
                     },
-                    "arguments": []
-                  }
+                    "arguments": [],
+                    "start": 931,
+                    "end": 949
+                  },
+                  "start": 925,
+                  "end": 950
                 }
-              ]
+              ],
+              "start": 923,
+              "end": 952
             },
-            "expression": false
-          }
+            "expression": false,
+            "start": 912,
+            "end": 952
+          },
+          "start": 911,
+          "end": 953
         },
         "arguments": [],
-        "optional": false
-      }
+        "optional": false,
+        "start": 911,
+        "end": 955
+      },
+      "start": 896,
+      "end": 956
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 957
 }

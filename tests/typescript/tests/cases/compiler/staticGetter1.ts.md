@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 30,
-  "end": 89,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 30,
-      "end": 89,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 36,
-        "end": 37,
         "decorators": [],
         "name": "C",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 36,
+        "end": 37
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,27 +21,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 38,
-        "end": 89,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 44,
-            "end": 87,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 55,
-              "end": 56,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 55,
+              "end": 56
             },
             "value": {
               "type": "FunctionExpression",
-              "start": 56,
-              "end": 87,
               "id": null,
               "generator": false,
               "async": false,
@@ -55,37 +45,47 @@ __ESTREE_TEST__:PASS:
               "returnType": null,
               "body": {
                 "type": "BlockStatement",
-                "start": 59,
-                "end": 87,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 69,
-                    "end": 81,
                     "argument": {
                       "type": "ThisExpression",
                       "start": 76,
                       "end": 80
-                    }
+                    },
+                    "start": 69,
+                    "end": 81
                   }
-                ]
+                ],
+                "start": 59,
+                "end": 87
               },
-              "expression": false
+              "expression": false,
+              "start": 56,
+              "end": 87
             },
             "kind": "get",
             "computed": false,
             "static": true,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 44,
+            "end": 87
           }
-        ]
+        ],
+        "start": 38,
+        "end": 89
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 30,
+      "end": 89
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 30,
+  "end": 89
 }
 ```

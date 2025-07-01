@@ -1,84 +1,84 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 440,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 379,
-      "end": 439,
       "expression": {
         "type": "CallExpression",
-        "start": 379,
-        "end": 438,
         "callee": {
           "type": "MemberExpression",
-          "start": 379,
-          "end": 395,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 379,
-            "end": 385,
-            "name": "assert"
+            "end": 385
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 386,
-            "end": 395,
-            "name": "sameValue"
+            "end": 395
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 379,
+          "end": 395
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 396,
-            "end": 427,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 403,
-              "end": 427,
               "object": {
                 "type": "FunctionExpression",
-                "start": 403,
-                "end": 417,
                 "id": null,
                 "generator": true,
                 "async": false,
                 "params": [],
                 "body": {
                   "type": "BlockStatement",
+                  "body": [],
                   "start": 415,
-                  "end": 417,
-                  "body": []
+                  "end": 417
                 },
-                "expression": false
+                "expression": false,
+                "start": 403,
+                "end": 417
               },
               "property": {
                 "type": "Identifier",
+                "name": "prototype",
                 "start": 418,
-                "end": 427,
-                "name": "prototype"
+                "end": 427
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 403,
+              "end": 427
             },
-            "prefix": true
+            "prefix": true,
+            "start": 396,
+            "end": 427
           },
           {
             "type": "Literal",
-            "start": 429,
-            "end": 437,
             "value": "object",
-            "raw": "'object'"
+            "raw": "'object'",
+            "start": 429,
+            "end": 437
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 379,
+        "end": 438
+      },
+      "start": 379,
+      "end": 439
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 440
 }

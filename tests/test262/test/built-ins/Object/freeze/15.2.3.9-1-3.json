@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 318,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 275,
-      "end": 296,
       "expression": {
         "type": "CallExpression",
-        "start": 275,
-        "end": 295,
         "callee": {
           "type": "MemberExpression",
-          "start": 275,
-          "end": 288,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 275,
-            "end": 281,
-            "name": "Object"
+            "end": 281
           },
           "property": {
             "type": "Identifier",
+            "name": "freeze",
             "start": 282,
-            "end": 288,
-            "name": "freeze"
+            "end": 288
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 275,
+          "end": 288
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 289,
-            "end": 294,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 289,
+            "end": 294
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 275,
+        "end": 295
+      },
+      "start": 275,
+      "end": 296
     },
     {
       "type": "ExpressionStatement",
-      "start": 297,
-      "end": 317,
       "expression": {
         "type": "CallExpression",
-        "start": 297,
-        "end": 316,
         "callee": {
           "type": "MemberExpression",
-          "start": 297,
-          "end": 310,
           "object": {
             "type": "Identifier",
+            "name": "Object",
             "start": 297,
-            "end": 303,
-            "name": "Object"
+            "end": 303
           },
           "property": {
             "type": "Identifier",
+            "name": "freeze",
             "start": 304,
-            "end": 310,
-            "name": "freeze"
+            "end": 310
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 297,
+          "end": 310
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 311,
-            "end": 315,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 311,
+            "end": 315
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 297,
+        "end": 316
+      },
+      "start": 297,
+      "end": 317
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 318
 }

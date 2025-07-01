@@ -1,335 +1,335 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 611,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 313,
-      "end": 367,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 319,
-          "end": 366,
           "id": {
             "type": "Identifier",
+            "name": "instance",
             "start": 319,
-            "end": 327,
-            "name": "instance"
+            "end": 327
           },
           "init": {
             "type": "NewExpression",
-            "start": 330,
-            "end": 366,
             "callee": {
               "type": "MemberExpression",
-              "start": 334,
-              "end": 357,
               "object": {
                 "type": "Identifier",
+                "name": "Temporal",
                 "start": 334,
-                "end": 342,
-                "name": "Temporal"
+                "end": 342
               },
               "property": {
                 "type": "Identifier",
+                "name": "PlainYearMonth",
                 "start": 343,
-                "end": 357,
-                "name": "PlainYearMonth"
+                "end": 357
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 334,
+              "end": 357
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 358,
-                "end": 362,
                 "value": 2000,
-                "raw": "2000"
+                "raw": "2000",
+                "start": 358,
+                "end": 362
               },
               {
                 "type": "Literal",
-                "start": 364,
-                "end": 365,
                 "value": 5,
-                "raw": "5"
+                "raw": "5",
+                "start": 364,
+                "end": 365
               }
-            ]
-          }
+            ],
+            "start": 330,
+            "end": 366
+          },
+          "start": 319,
+          "end": 366
         }
-      ]
+      ],
+      "start": 313,
+      "end": 367
     },
     {
       "type": "ExpressionStatement",
-      "start": 369,
-      "end": 610,
       "expression": {
         "type": "CallExpression",
-        "start": 369,
-        "end": 609,
         "callee": {
           "type": "MemberExpression",
-          "start": 369,
-          "end": 400,
           "object": {
             "type": "ArrayExpression",
-            "start": 369,
-            "end": 392,
             "elements": [
               {
                 "type": "Literal",
-                "start": 370,
-                "end": 381,
                 "value": "constrain",
-                "raw": "\"constrain\""
+                "raw": "\"constrain\"",
+                "start": 370,
+                "end": 381
               },
               {
                 "type": "Literal",
-                "start": 383,
-                "end": 391,
                 "value": "reject",
-                "raw": "\"reject\""
+                "raw": "\"reject\"",
+                "start": 383,
+                "end": 391
               }
-            ]
+            ],
+            "start": 369,
+            "end": 392
           },
           "property": {
             "type": "Identifier",
+            "name": "forEach",
             "start": 393,
-            "end": 400,
-            "name": "forEach"
+            "end": 400
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 369,
+          "end": 400
         },
         "arguments": [
           {
             "type": "ArrowFunctionExpression",
-            "start": 401,
-            "end": 608,
             "expression": false,
             "async": false,
             "params": [
               {
                 "type": "Identifier",
+                "name": "overflow",
                 "start": 402,
-                "end": 410,
-                "name": "overflow"
+                "end": 410
               }
             ],
             "body": {
               "type": "BlockStatement",
-              "start": 415,
-              "end": 608,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 419,
-                  "end": 606,
                   "expression": {
                     "type": "CallExpression",
-                    "start": 419,
-                    "end": 605,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 419,
-                      "end": 432,
                       "object": {
                         "type": "Identifier",
+                        "name": "assert",
                         "start": 419,
-                        "end": 425,
-                        "name": "assert"
+                        "end": 425
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "throws",
                         "start": 426,
-                        "end": 432,
-                        "name": "throws"
+                        "end": 432
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 419,
+                      "end": 432
                     },
                     "arguments": [
                       {
                         "type": "Identifier",
+                        "name": "RangeError",
                         "start": 438,
-                        "end": 448,
-                        "name": "RangeError"
+                        "end": 448
                       },
                       {
                         "type": "ArrowFunctionExpression",
-                        "start": 454,
-                        "end": 519,
                         "expression": true,
                         "async": false,
                         "params": [],
                         "body": {
                           "type": "CallExpression",
-                          "start": 460,
-                          "end": 519,
                           "callee": {
                             "type": "MemberExpression",
-                            "start": 460,
-                            "end": 477,
                             "object": {
                               "type": "Identifier",
+                              "name": "instance",
                               "start": 460,
-                              "end": 468,
-                              "name": "instance"
+                              "end": 468
                             },
                             "property": {
                               "type": "Identifier",
+                              "name": "subtract",
                               "start": 469,
-                              "end": 477,
-                              "name": "subtract"
+                              "end": 477
                             },
                             "optional": false,
-                            "computed": false
+                            "computed": false,
+                            "start": 460,
+                            "end": 477
                           },
                           "arguments": [
                             {
                               "type": "ObjectExpression",
-                              "start": 478,
-                              "end": 504,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 480,
-                                  "end": 488,
                                   "kind": "init",
                                   "key": {
                                     "type": "Identifier",
+                                    "name": "hours",
                                     "start": 480,
-                                    "end": 485,
-                                    "name": "hours"
+                                    "end": 485
                                   },
                                   "value": {
                                     "type": "Literal",
-                                    "start": 487,
-                                    "end": 488,
                                     "value": 1,
-                                    "raw": "1"
+                                    "raw": "1",
+                                    "start": 487,
+                                    "end": 488
                                   },
                                   "method": false,
                                   "shorthand": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 480,
+                                  "end": 488
                                 },
                                 {
                                   "type": "Property",
-                                  "start": 490,
-                                  "end": 502,
                                   "kind": "init",
                                   "key": {
                                     "type": "Identifier",
+                                    "name": "minutes",
                                     "start": 490,
-                                    "end": 497,
-                                    "name": "minutes"
+                                    "end": 497
                                   },
                                   "value": {
                                     "type": "UnaryExpression",
-                                    "start": 499,
-                                    "end": 502,
                                     "operator": "-",
                                     "argument": {
                                       "type": "Literal",
-                                      "start": 500,
-                                      "end": 502,
                                       "value": 30,
-                                      "raw": "30"
+                                      "raw": "30",
+                                      "start": 500,
+                                      "end": 502
                                     },
-                                    "prefix": true
+                                    "prefix": true,
+                                    "start": 499,
+                                    "end": 502
                                   },
                                   "method": false,
                                   "shorthand": false,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 490,
+                                  "end": 502
                                 }
-                              ]
+                              ],
+                              "start": 478,
+                              "end": 504
                             },
                             {
                               "type": "ObjectExpression",
-                              "start": 506,
-                              "end": 518,
                               "properties": [
                                 {
                                   "type": "Property",
-                                  "start": 508,
-                                  "end": 516,
                                   "kind": "init",
                                   "key": {
                                     "type": "Identifier",
+                                    "name": "overflow",
                                     "start": 508,
-                                    "end": 516,
-                                    "name": "overflow"
+                                    "end": 516
                                   },
                                   "value": {
                                     "type": "Identifier",
+                                    "name": "overflow",
                                     "start": 508,
-                                    "end": 516,
-                                    "name": "overflow"
+                                    "end": 516
                                   },
                                   "method": false,
                                   "shorthand": true,
-                                  "computed": false
+                                  "computed": false,
+                                  "start": 508,
+                                  "end": 516
                                 }
-                              ]
+                              ],
+                              "start": 506,
+                              "end": 518
                             }
                           ],
-                          "optional": false
+                          "optional": false,
+                          "start": 460,
+                          "end": 519
                         },
                         "id": null,
-                        "generator": false
+                        "generator": false,
+                        "start": 454,
+                        "end": 519
                       },
                       {
                         "type": "TemplateLiteral",
-                        "start": 525,
-                        "end": 601,
                         "quasis": [
                           {
                             "type": "TemplateElement",
-                            "start": 526,
-                            "end": 587,
                             "value": {
                               "raw": "mixed positive and negative values always throw (overflow = \"",
                               "cooked": "mixed positive and negative values always throw (overflow = \""
                             },
-                            "tail": false
+                            "tail": false,
+                            "start": 526,
+                            "end": 587
                           },
                           {
                             "type": "TemplateElement",
-                            "start": 598,
-                            "end": 600,
                             "value": {
                               "raw": "\")",
                               "cooked": "\")"
                             },
-                            "tail": true
+                            "tail": true,
+                            "start": 598,
+                            "end": 600
                           }
                         ],
                         "expressions": [
                           {
                             "type": "Identifier",
+                            "name": "overflow",
                             "start": 589,
-                            "end": 597,
-                            "name": "overflow"
+                            "end": 597
                           }
-                        ]
+                        ],
+                        "start": 525,
+                        "end": 601
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 419,
+                    "end": 605
+                  },
+                  "start": 419,
+                  "end": 606
                 }
-              ]
+              ],
+              "start": 415,
+              "end": 608
             },
             "id": null,
-            "generator": false
+            "generator": false,
+            "start": 401,
+            "end": 608
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 369,
+        "end": 609
+      },
+      "start": 369,
+      "end": 610
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 611
 }

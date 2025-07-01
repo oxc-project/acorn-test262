@@ -1,100 +1,100 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 880,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 740,
-      "end": 850,
       "expression": {
         "type": "CallExpression",
-        "start": 740,
-        "end": 849,
         "callee": {
           "type": "MemberExpression",
-          "start": 740,
-          "end": 756,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 740,
-            "end": 746,
-            "name": "assert"
+            "end": 746
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 747,
-            "end": 756,
-            "name": "sameValue"
+            "end": 756
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 740,
+          "end": 756
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 757,
-            "end": 789,
             "callee": {
               "type": "Identifier",
+              "name": "isConstructor",
               "start": 757,
-              "end": 770,
-              "name": "isConstructor"
+              "end": 770
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "SharedArrayBuffer",
                 "start": 771,
-                "end": 788,
-                "name": "SharedArrayBuffer"
+                "end": 788
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 757,
+            "end": 789
           },
           {
             "type": "Literal",
-            "start": 791,
-            "end": 795,
             "value": true,
-            "raw": "true"
+            "raw": "true",
+            "start": 791,
+            "end": 795
           },
           {
             "type": "Literal",
-            "start": 797,
-            "end": 848,
             "value": "isConstructor(SharedArrayBuffer) must return true",
-            "raw": "'isConstructor(SharedArrayBuffer) must return true'"
+            "raw": "'isConstructor(SharedArrayBuffer) must return true'",
+            "start": 797,
+            "end": 848
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 740,
+        "end": 849
+      },
+      "start": 740,
+      "end": 850
     },
     {
       "type": "ExpressionStatement",
-      "start": 851,
-      "end": 876,
       "expression": {
         "type": "NewExpression",
-        "start": 851,
-        "end": 875,
         "callee": {
           "type": "Identifier",
+          "name": "SharedArrayBuffer",
           "start": 855,
-          "end": 872,
-          "name": "SharedArrayBuffer"
+          "end": 872
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 873,
-            "end": 874,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 873,
+            "end": 874
           }
-        ]
-      }
+        ],
+        "start": 851,
+        "end": 875
+      },
+      "start": 851,
+      "end": 876
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 880
 }

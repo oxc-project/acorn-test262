@@ -2,34 +2,28 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 260,
   "body": [
     {
       "type": "LabeledStatement",
-      "start": 0,
-      "end": 24,
       "label": {
         "type": "Identifier",
-        "start": 0,
-        "end": 5,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 0,
+        "end": 5
       },
       "body": {
         "type": "FunctionDeclaration",
-        "start": 7,
-        "end": 24,
         "id": {
           "type": "Identifier",
-          "start": 16,
-          "end": 18,
           "decorators": [],
           "name": "fn",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 16,
+          "end": 18
         },
         "generator": false,
         "async": false,
@@ -39,38 +33,38 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 21,
-          "end": 24,
-          "body": []
+          "end": 24
         },
-        "expression": false
-      }
+        "expression": false,
+        "start": 7,
+        "end": 24
+      },
+      "start": 0,
+      "end": 24
     },
     {
       "type": "LabeledStatement",
-      "start": 25,
-      "end": 51,
       "label": {
         "type": "Identifier",
-        "start": 25,
-        "end": 30,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 25,
+        "end": 30
       },
       "body": {
         "type": "FunctionDeclaration",
-        "start": 32,
-        "end": 51,
         "id": {
           "type": "Identifier",
-          "start": 42,
-          "end": 45,
           "decorators": [],
           "name": "gen",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 42,
+          "end": 45
         },
         "generator": true,
         "async": false,
@@ -80,38 +74,38 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 48,
-          "end": 51,
-          "body": []
+          "end": 51
         },
-        "expression": false
-      }
+        "expression": false,
+        "start": 32,
+        "end": 51
+      },
+      "start": 25,
+      "end": 51
     },
     {
       "type": "LabeledStatement",
-      "start": 52,
-      "end": 84,
       "label": {
         "type": "Identifier",
-        "start": 52,
-        "end": 57,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 52,
+        "end": 57
       },
       "body": {
         "type": "FunctionDeclaration",
-        "start": 59,
-        "end": 84,
         "id": {
           "type": "Identifier",
-          "start": 74,
-          "end": 78,
           "decorators": [],
           "name": "gen1",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 74,
+          "end": 78
         },
         "generator": false,
         "async": true,
@@ -121,112 +115,112 @@ __ESTREE_TEST__:PASS:
         "returnType": null,
         "body": {
           "type": "BlockStatement",
+          "body": [],
           "start": 81,
-          "end": 84,
-          "body": []
+          "end": 84
         },
-        "expression": false
-      }
+        "expression": false,
+        "start": 59,
+        "end": 84
+      },
+      "start": 52,
+      "end": 84
     },
     {
       "type": "LabeledStatement",
-      "start": 85,
-      "end": 101,
       "label": {
         "type": "Identifier",
-        "start": 85,
-        "end": 90,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 85,
+        "end": 90
       },
       "body": {
         "type": "TSEnumDeclaration",
-        "start": 92,
-        "end": 101,
         "id": {
           "type": "Identifier",
-          "start": 97,
-          "end": 98,
           "decorators": [],
           "name": "E",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 97,
+          "end": 98
         },
         "body": {
           "type": "TSEnumBody",
+          "members": [],
           "start": 99,
-          "end": 101,
-          "members": []
+          "end": 101
         },
         "const": false,
-        "declare": false
-      }
+        "declare": false,
+        "start": 92,
+        "end": 101
+      },
+      "start": 85,
+      "end": 101
     },
     {
       "type": "LabeledStatement",
-      "start": 102,
-      "end": 123,
       "label": {
         "type": "Identifier",
-        "start": 102,
-        "end": 107,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 102,
+        "end": 107
       },
       "body": {
         "type": "TSInterfaceDeclaration",
-        "start": 109,
-        "end": 123,
         "id": {
           "type": "Identifier",
-          "start": 119,
-          "end": 120,
           "decorators": [],
           "name": "I",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 119,
+          "end": 120
         },
         "typeParameters": null,
         "extends": [],
         "body": {
           "type": "TSInterfaceBody",
+          "body": [],
           "start": 121,
-          "end": 123,
-          "body": []
+          "end": 123
         },
-        "declare": false
-      }
+        "declare": false,
+        "start": 109,
+        "end": 123
+      },
+      "start": 102,
+      "end": 123
     },
     {
       "type": "LabeledStatement",
-      "start": 124,
-      "end": 142,
       "label": {
         "type": "Identifier",
-        "start": 124,
-        "end": 129,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 124,
+        "end": 129
       },
       "body": {
         "type": "ClassDeclaration",
-        "start": 131,
-        "end": 142,
         "decorators": [],
         "id": {
           "type": "Identifier",
-          "start": 137,
-          "end": 138,
           "decorators": [],
           "name": "C",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 137,
+          "end": 138
         },
         "typeParameters": null,
         "superClass": null,
@@ -234,261 +228,267 @@ __ESTREE_TEST__:PASS:
         "implements": [],
         "body": {
           "type": "ClassBody",
+          "body": [],
           "start": 139,
-          "end": 142,
-          "body": []
+          "end": 142
         },
         "abstract": false,
-        "declare": false
-      }
+        "declare": false,
+        "start": 131,
+        "end": 142
+      },
+      "start": 124,
+      "end": 142
     },
     {
       "type": "LabeledStatement",
-      "start": 143,
-      "end": 160,
       "label": {
         "type": "Identifier",
-        "start": 143,
-        "end": 148,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 143,
+        "end": 148
       },
       "body": {
         "type": "VariableDeclaration",
-        "start": 150,
-        "end": 160,
         "kind": "var",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 154,
-            "end": 159,
             "id": {
               "type": "Identifier",
-              "start": 154,
-              "end": 155,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 154,
+              "end": 155
             },
             "init": {
               "type": "Literal",
-              "start": 158,
-              "end": 159,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 158,
+              "end": 159
             },
-            "definite": false
+            "definite": false,
+            "start": 154,
+            "end": 159
           }
         ],
-        "declare": false
-      }
+        "declare": false,
+        "start": 150,
+        "end": 160
+      },
+      "start": 143,
+      "end": 160
     },
     {
       "type": "LabeledStatement",
-      "start": 161,
-      "end": 178,
       "label": {
         "type": "Identifier",
-        "start": 161,
-        "end": 166,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 161,
+        "end": 166
       },
       "body": {
         "type": "VariableDeclaration",
-        "start": 168,
-        "end": 178,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 172,
-            "end": 177,
             "id": {
               "type": "Identifier",
-              "start": 172,
-              "end": 173,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 172,
+              "end": 173
             },
             "init": {
               "type": "Literal",
-              "start": 176,
-              "end": 177,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 176,
+              "end": 177
             },
-            "definite": false
+            "definite": false,
+            "start": 172,
+            "end": 177
           }
         ],
-        "declare": false
-      }
+        "declare": false,
+        "start": 168,
+        "end": 178
+      },
+      "start": 161,
+      "end": 178
     },
     {
       "type": "LabeledStatement",
-      "start": 179,
-      "end": 198,
       "label": {
         "type": "Identifier",
-        "start": 179,
-        "end": 184,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 179,
+        "end": 184
       },
       "body": {
         "type": "VariableDeclaration",
-        "start": 186,
-        "end": 198,
         "kind": "const",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 192,
-            "end": 197,
             "id": {
               "type": "Identifier",
-              "start": 192,
-              "end": 193,
               "decorators": [],
               "name": "c",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 192,
+              "end": 193
             },
             "init": {
               "type": "Literal",
-              "start": 196,
-              "end": 197,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 196,
+              "end": 197
             },
-            "definite": false
+            "definite": false,
+            "start": 192,
+            "end": 197
           }
         ],
-        "declare": false
-      }
+        "declare": false,
+        "start": 186,
+        "end": 198
+      },
+      "start": 179,
+      "end": 198
     },
     {
       "type": "LabeledStatement",
-      "start": 200,
-      "end": 219,
       "label": {
         "type": "Identifier",
-        "start": 200,
-        "end": 205,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 200,
+        "end": 205
       },
       "body": {
         "type": "TSModuleDeclaration",
-        "start": 207,
-        "end": 219,
         "id": {
           "type": "Identifier",
-          "start": 214,
-          "end": 215,
           "decorators": [],
           "name": "M",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 214,
+          "end": 215
         },
         "body": {
           "type": "TSModuleBlock",
+          "body": [],
           "start": 216,
-          "end": 219,
-          "body": []
+          "end": 219
         },
         "kind": "module",
         "declare": false,
-        "global": false
-      }
+        "global": false,
+        "start": 207,
+        "end": 219
+      },
+      "start": 200,
+      "end": 219
     },
     {
       "type": "LabeledStatement",
-      "start": 220,
-      "end": 241,
       "label": {
         "type": "Identifier",
-        "start": 220,
-        "end": 225,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 220,
+        "end": 225
       },
       "body": {
         "type": "TSModuleDeclaration",
-        "start": 227,
-        "end": 241,
         "id": {
           "type": "Identifier",
-          "start": 237,
-          "end": 238,
           "decorators": [],
           "name": "N",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 237,
+          "end": 238
         },
         "body": {
           "type": "TSModuleBlock",
+          "body": [],
           "start": 239,
-          "end": 241,
-          "body": []
+          "end": 241
         },
         "kind": "namespace",
         "declare": false,
-        "global": false
-      }
+        "global": false,
+        "start": 227,
+        "end": 241
+      },
+      "start": 220,
+      "end": 241
     },
     {
       "type": "LabeledStatement",
-      "start": 242,
-      "end": 260,
       "label": {
         "type": "Identifier",
-        "start": 242,
-        "end": 247,
         "decorators": [],
         "name": "label",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 242,
+        "end": 247
       },
       "body": {
         "type": "TSTypeAliasDeclaration",
-        "start": 249,
-        "end": 260,
         "id": {
           "type": "Identifier",
-          "start": 254,
-          "end": 255,
           "decorators": [],
           "name": "T",
           "optional": false,
-          "typeAnnotation": null
+          "typeAnnotation": null,
+          "start": 254,
+          "end": 255
         },
         "typeParameters": null,
         "typeAnnotation": {
           "type": "TSTypeLiteral",
+          "members": [],
           "start": 258,
-          "end": 260,
-          "members": []
+          "end": 260
         },
-        "declare": false
-      }
+        "declare": false,
+        "start": 249,
+        "end": 260
+      },
+      "start": 242,
+      "end": 260
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 260
 }
 ```

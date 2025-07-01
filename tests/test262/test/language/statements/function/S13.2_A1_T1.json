@@ -1,28 +1,26 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 599,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 303,
-      "end": 322,
       "id": {
         "type": "Identifier",
+        "name": "__func",
         "start": 312,
-        "end": 318,
-        "name": "__func"
+        "end": 318
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 320,
-        "end": 322,
-        "body": []
+        "end": 322
       },
-      "expression": false
+      "expression": false,
+      "start": 303,
+      "end": 322
     },
     {
       "type": "EmptyStatement",
@@ -31,74 +29,76 @@
     },
     {
       "type": "IfStatement",
-      "start": 414,
-      "end": 516,
       "test": {
         "type": "BinaryExpression",
-        "start": 418,
-        "end": 448,
         "left": {
           "type": "MemberExpression",
-          "start": 418,
-          "end": 434,
           "object": {
             "type": "Identifier",
+            "name": "__func",
             "start": 418,
-            "end": 424,
-            "name": "__func"
+            "end": 424
           },
           "property": {
             "type": "Identifier",
+            "name": "prototype",
             "start": 425,
-            "end": 434,
-            "name": "prototype"
+            "end": 434
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 418,
+          "end": 434
         },
         "operator": "===",
         "right": {
           "type": "Identifier",
+          "name": "undefined",
           "start": 439,
-          "end": 448,
-          "name": "undefined"
-        }
+          "end": 448
+        },
+        "start": 418,
+        "end": 448
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 450,
-        "end": 516,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 453,
-            "end": 514,
             "argument": {
               "type": "NewExpression",
-              "start": 459,
-              "end": 513,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 463,
-                "end": 475,
-                "name": "Test262Error"
+                "end": 475
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 476,
-                  "end": 512,
                   "value": "#1: __func.prototype !== undefined",
-                  "raw": "'#1: __func.prototype !== undefined'"
+                  "raw": "'#1: __func.prototype !== undefined'",
+                  "start": 476,
+                  "end": 512
                 }
-              ]
-            }
+              ],
+              "start": 459,
+              "end": 513
+            },
+            "start": 453,
+            "end": 514
           }
-        ]
+        ],
+        "start": 450,
+        "end": 516
       },
-      "alternate": null
+      "alternate": null,
+      "start": 414,
+      "end": 516
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 599
 }

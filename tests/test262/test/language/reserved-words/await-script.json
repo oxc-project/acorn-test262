@@ -1,29 +1,29 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 277,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 266,
-      "end": 276,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 270,
-          "end": 275,
           "id": {
             "type": "Identifier",
+            "name": "await",
             "start": 270,
-            "end": 275,
-            "name": "await"
+            "end": 275
           },
-          "init": null
+          "init": null,
+          "start": 270,
+          "end": 275
         }
-      ]
+      ],
+      "start": 266,
+      "end": 276
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 277
 }

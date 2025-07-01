@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 256,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 29,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 25,
         "decorators": [],
         "name": "IHeapObjectProperty",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 25
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,26 +21,26 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 26,
-        "end": 29,
-        "body": []
+        "end": 29
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 29
     },
     {
       "type": "ClassDeclaration",
-      "start": 30,
-      "end": 207,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 36,
-        "end": 54,
         "decorators": [],
         "name": "IDirectChildrenMap",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 36,
+        "end": 54
       },
       "typeParameters": null,
       "superClass": null,
@@ -52,27 +48,21 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 55,
-        "end": 207,
         "body": [
           {
             "type": "MethodDefinition",
-            "start": 118,
-            "end": 159,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 118,
-              "end": 132,
               "decorators": [],
               "name": "hasOwnProperty",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 118,
+              "end": 132
             },
             "value": {
               "type": "TSEmptyBodyFunctionExpression",
-              "start": 132,
-              "end": 159,
               "id": null,
               "generator": false,
               "async": false,
@@ -81,153 +71,163 @@ __ESTREE_TEST__:PASS:
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 133,
-                  "end": 149,
                   "decorators": [],
                   "name": "objectId",
                   "optional": false,
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 141,
-                    "end": 149,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 143,
                       "end": 149
-                    }
-                  }
+                    },
+                    "start": 141,
+                    "end": 149
+                  },
+                  "start": 133,
+                  "end": 149
                 }
               ],
               "returnType": {
                 "type": "TSTypeAnnotation",
-                "start": 150,
-                "end": 159,
                 "typeAnnotation": {
                   "type": "TSBooleanKeyword",
                   "start": 152,
                   "end": 159
-                }
+                },
+                "start": 150,
+                "end": 159
               },
               "body": null,
-              "expression": false
+              "expression": false,
+              "start": 132,
+              "end": 159
             },
             "kind": "method",
             "computed": false,
             "static": false,
             "override": false,
             "optional": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 118,
+            "end": 159
           },
           {
             "type": "TSIndexSignature",
-            "start": 164,
-            "end": 205,
             "parameters": [
               {
                 "type": "Identifier",
-                "start": 165,
-                "end": 181,
                 "decorators": [],
                 "name": "objectId",
                 "optional": false,
                 "typeAnnotation": {
                   "type": "TSTypeAnnotation",
-                  "start": 173,
-                  "end": 181,
                   "typeAnnotation": {
                     "type": "TSNumberKeyword",
                     "start": 175,
                     "end": 181
-                  }
-                }
+                  },
+                  "start": 173,
+                  "end": 181
+                },
+                "start": 165,
+                "end": 181
               }
             ],
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 182,
-              "end": 205,
               "typeAnnotation": {
                 "type": "TSArrayType",
-                "start": 184,
-                "end": 205,
                 "elementType": {
                   "type": "TSTypeReference",
-                  "start": 184,
-                  "end": 203,
                   "typeName": {
                     "type": "Identifier",
-                    "start": 184,
-                    "end": 203,
                     "decorators": [],
                     "name": "IHeapObjectProperty",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 184,
+                    "end": 203
                   },
-                  "typeArguments": null
-                }
-              }
+                  "typeArguments": null,
+                  "start": 184,
+                  "end": 203
+                },
+                "start": 184,
+                "end": 205
+              },
+              "start": 182,
+              "end": 205
             },
             "readonly": false,
             "static": false,
-            "accessibility": null
+            "accessibility": null,
+            "start": 164,
+            "end": 205
           }
-        ]
+        ],
+        "start": 55,
+        "end": 207
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 30,
+      "end": 207
     },
     {
       "type": "VariableDeclaration",
-      "start": 208,
-      "end": 255,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 212,
-          "end": 254,
           "id": {
             "type": "Identifier",
-            "start": 212,
-            "end": 229,
             "decorators": [],
             "name": "directChildrenMap",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 212,
+            "end": 229
           },
           "init": {
             "type": "TSTypeAssertion",
-            "start": 232,
-            "end": 254,
             "typeAnnotation": {
               "type": "TSTypeReference",
-              "start": 233,
-              "end": 251,
               "typeName": {
                 "type": "Identifier",
-                "start": 233,
-                "end": 251,
                 "decorators": [],
                 "name": "IDirectChildrenMap",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 233,
+                "end": 251
               },
-              "typeArguments": null
+              "typeArguments": null,
+              "start": 233,
+              "end": 251
             },
             "expression": {
               "type": "ObjectExpression",
+              "properties": [],
               "start": 252,
-              "end": 254,
-              "properties": []
-            }
+              "end": 254
+            },
+            "start": 232,
+            "end": 254
           },
-          "definite": false
+          "definite": false,
+          "start": 212,
+          "end": 254
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 208,
+      "end": 255
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 256
 }
 ```

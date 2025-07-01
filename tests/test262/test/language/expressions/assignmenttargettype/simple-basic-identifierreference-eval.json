@@ -1,33 +1,33 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 332,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 322,
-      "end": 331,
       "expression": {
         "type": "AssignmentExpression",
-        "start": 322,
-        "end": 330,
         "operator": "=",
         "left": {
           "type": "Identifier",
+          "name": "eval",
           "start": 322,
-          "end": 326,
-          "name": "eval"
+          "end": 326
         },
         "right": {
           "type": "Literal",
-          "start": 329,
-          "end": 330,
           "value": 1,
-          "raw": "1"
-        }
-      }
+          "raw": "1",
+          "start": 329,
+          "end": 330
+        },
+        "start": 322,
+        "end": 330
+      },
+      "start": 322,
+      "end": 331
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 332
 }

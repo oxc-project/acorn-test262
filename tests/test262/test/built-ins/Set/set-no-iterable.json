@@ -1,237 +1,237 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 767,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 510,
-      "end": 586,
       "expression": {
         "type": "CallExpression",
-        "start": 510,
-        "end": 585,
         "callee": {
           "type": "MemberExpression",
-          "start": 510,
-          "end": 526,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 510,
-            "end": 516,
-            "name": "assert"
+            "end": 516
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 517,
-            "end": 526,
-            "name": "sameValue"
+            "end": 526
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 510,
+          "end": 526
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 527,
-            "end": 541,
             "object": {
               "type": "NewExpression",
-              "start": 527,
-              "end": 536,
               "callee": {
                 "type": "Identifier",
+                "name": "Set",
                 "start": 531,
-                "end": 534,
-                "name": "Set"
+                "end": 534
               },
-              "arguments": []
+              "arguments": [],
+              "start": 527,
+              "end": 536
             },
             "property": {
               "type": "Identifier",
+              "name": "size",
               "start": 537,
-              "end": 541,
-              "name": "size"
+              "end": 541
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 527,
+            "end": 541
           },
           {
             "type": "Literal",
-            "start": 543,
-            "end": 544,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 543,
+            "end": 544
           },
           {
             "type": "Literal",
-            "start": 546,
-            "end": 584,
             "value": "The value of `new Set().size` is `0`",
-            "raw": "\"The value of `new Set().size` is `0`\""
+            "raw": "\"The value of `new Set().size` is `0`\"",
+            "start": 546,
+            "end": 584
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 510,
+        "end": 585
+      },
+      "start": 510,
+      "end": 586
     },
     {
       "type": "ExpressionStatement",
-      "start": 587,
-      "end": 681,
       "expression": {
         "type": "CallExpression",
-        "start": 587,
-        "end": 680,
         "callee": {
           "type": "MemberExpression",
-          "start": 587,
-          "end": 603,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 587,
-            "end": 593,
-            "name": "assert"
+            "end": 593
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 594,
-            "end": 603,
-            "name": "sameValue"
+            "end": 603
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 587,
+          "end": 603
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 604,
-            "end": 627,
             "object": {
               "type": "NewExpression",
-              "start": 604,
-              "end": 622,
               "callee": {
                 "type": "Identifier",
+                "name": "Set",
                 "start": 608,
-                "end": 611,
-                "name": "Set"
+                "end": 611
               },
               "arguments": [
                 {
                   "type": "Identifier",
+                  "name": "undefined",
                   "start": 612,
-                  "end": 621,
-                  "name": "undefined"
+                  "end": 621
                 }
-              ]
+              ],
+              "start": 604,
+              "end": 622
             },
             "property": {
               "type": "Identifier",
+              "name": "size",
               "start": 623,
-              "end": 627,
-              "name": "size"
+              "end": 627
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 604,
+            "end": 627
           },
           {
             "type": "Literal",
-            "start": 629,
-            "end": 630,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 629,
+            "end": 630
           },
           {
             "type": "Literal",
-            "start": 632,
-            "end": 679,
             "value": "The value of `new Set(undefined).size` is `0`",
-            "raw": "\"The value of `new Set(undefined).size` is `0`\""
+            "raw": "\"The value of `new Set(undefined).size` is `0`\"",
+            "start": 632,
+            "end": 679
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 587,
+        "end": 680
+      },
+      "start": 587,
+      "end": 681
     },
     {
       "type": "ExpressionStatement",
-      "start": 682,
-      "end": 766,
       "expression": {
         "type": "CallExpression",
-        "start": 682,
-        "end": 765,
         "callee": {
           "type": "MemberExpression",
-          "start": 682,
-          "end": 698,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 682,
-            "end": 688,
-            "name": "assert"
+            "end": 688
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 689,
-            "end": 698,
-            "name": "sameValue"
+            "end": 698
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 682,
+          "end": 698
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 699,
-            "end": 717,
             "object": {
               "type": "NewExpression",
-              "start": 699,
-              "end": 712,
               "callee": {
                 "type": "Identifier",
+                "name": "Set",
                 "start": 703,
-                "end": 706,
-                "name": "Set"
+                "end": 706
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 707,
-                  "end": 711,
                   "value": null,
-                  "raw": "null"
+                  "raw": "null",
+                  "start": 707,
+                  "end": 711
                 }
-              ]
+              ],
+              "start": 699,
+              "end": 712
             },
             "property": {
               "type": "Identifier",
+              "name": "size",
               "start": 713,
-              "end": 717,
-              "name": "size"
+              "end": 717
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 699,
+            "end": 717
           },
           {
             "type": "Literal",
-            "start": 719,
-            "end": 720,
             "value": 0,
-            "raw": "0"
+            "raw": "0",
+            "start": 719,
+            "end": 720
           },
           {
             "type": "Literal",
-            "start": 722,
-            "end": 764,
             "value": "The value of `new Set(null).size` is `0`",
-            "raw": "\"The value of `new Set(null).size` is `0`\""
+            "raw": "\"The value of `new Set(null).size` is `0`\"",
+            "start": 722,
+            "end": 764
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 682,
+        "end": 765
+      },
+      "start": 682,
+      "end": 766
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 767
 }

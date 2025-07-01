@@ -1,126 +1,126 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 685,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 593,
-      "end": 684,
       "expression": {
         "type": "CallExpression",
-        "start": 593,
-        "end": 683,
         "callee": {
           "type": "MemberExpression",
-          "start": 593,
-          "end": 609,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 593,
-            "end": 599,
-            "name": "assert"
+            "end": 599
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 600,
-            "end": 609,
-            "name": "sameValue"
+            "end": 609
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 593,
+          "end": 609
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 613,
-            "end": 661,
             "callee": {
               "type": "MemberExpression",
-              "start": 613,
-              "end": 659,
               "object": {
                 "type": "CallExpression",
-                "start": 613,
-                "end": 639,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Object",
                   "start": 613,
-                  "end": 619,
-                  "name": "Object"
+                  "end": 619
                 },
                 "arguments": [
                   {
                     "type": "MemberExpression",
-                    "start": 620,
-                    "end": 638,
                     "object": {
                       "type": "Identifier",
+                      "name": "Symbol",
                       "start": 620,
-                      "end": 626,
-                      "name": "Symbol"
+                      "end": 626
                     },
                     "property": {
                       "type": "Identifier",
+                      "name": "toPrimitive",
                       "start": 627,
-                      "end": 638,
-                      "name": "toPrimitive"
+                      "end": 638
                     },
                     "optional": false,
-                    "computed": false
+                    "computed": false,
+                    "start": 620,
+                    "end": 638
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 613,
+                "end": 639
               },
               "property": {
                 "type": "MemberExpression",
-                "start": 640,
-                "end": 658,
                 "object": {
                   "type": "Identifier",
+                  "name": "Symbol",
                   "start": 640,
-                  "end": 646,
-                  "name": "Symbol"
+                  "end": 646
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "toPrimitive",
                   "start": 647,
-                  "end": 658,
-                  "name": "toPrimitive"
+                  "end": 658
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 640,
+                "end": 658
               },
               "optional": false,
-              "computed": true
+              "computed": true,
+              "start": 613,
+              "end": 659
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 613,
+            "end": 661
           },
           {
             "type": "MemberExpression",
-            "start": 663,
-            "end": 681,
             "object": {
               "type": "Identifier",
+              "name": "Symbol",
               "start": 663,
-              "end": 669,
-              "name": "Symbol"
+              "end": 669
             },
             "property": {
               "type": "Identifier",
+              "name": "toPrimitive",
               "start": 670,
-              "end": 681,
-              "name": "toPrimitive"
+              "end": 681
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 663,
+            "end": 681
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 593,
+        "end": 683
+      },
+      "start": 593,
+      "end": 684
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 685
 }

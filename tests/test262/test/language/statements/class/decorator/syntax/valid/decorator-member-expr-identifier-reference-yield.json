@@ -1,61 +1,61 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1055,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 1014,
-      "end": 1033,
       "id": {
         "type": "Identifier",
+        "name": "yield",
         "start": 1023,
-        "end": 1028,
-        "name": "yield"
+        "end": 1028
       },
       "generator": false,
       "async": false,
       "params": [],
       "body": {
         "type": "BlockStatement",
+        "body": [],
         "start": 1031,
-        "end": 1033,
-        "body": []
+        "end": 1033
       },
-      "expression": false
+      "expression": false,
+      "start": 1014,
+      "end": 1033
     },
     {
       "type": "ClassDeclaration",
-      "start": 1037,
-      "end": 1054,
       "decorators": [
         {
           "type": "Decorator",
-          "start": 1037,
-          "end": 1043,
           "expression": {
             "type": "Identifier",
+            "name": "yield",
             "start": 1038,
-            "end": 1043,
-            "name": "yield"
-          }
+            "end": 1043
+          },
+          "start": 1037,
+          "end": 1043
         }
       ],
       "id": {
         "type": "Identifier",
+        "name": "C",
         "start": 1050,
-        "end": 1051,
-        "name": "C"
+        "end": 1051
       },
       "superClass": null,
       "body": {
         "type": "ClassBody",
+        "body": [],
         "start": 1052,
-        "end": 1054,
-        "body": []
-      }
+        "end": 1054
+      },
+      "start": 1037,
+      "end": 1054
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1055
 }

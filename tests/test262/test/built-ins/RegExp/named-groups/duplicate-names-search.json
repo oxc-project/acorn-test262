@@ -1,165 +1,165 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 394,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 286,
-      "end": 339,
       "expression": {
         "type": "CallExpression",
-        "start": 286,
-        "end": 338,
         "callee": {
           "type": "MemberExpression",
-          "start": 286,
-          "end": 302,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 286,
-            "end": 292,
-            "name": "assert"
+            "end": 292
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 293,
-            "end": 302,
-            "name": "sameValue"
+            "end": 302
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 286,
+          "end": 302
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 303,
-            "end": 334,
             "callee": {
               "type": "MemberExpression",
-              "start": 303,
-              "end": 315,
               "object": {
                 "type": "Literal",
-                "start": 303,
-                "end": 308,
                 "value": "xab",
-                "raw": "\"xab\""
+                "raw": "\"xab\"",
+                "start": 303,
+                "end": 308
               },
               "property": {
                 "type": "Identifier",
+                "name": "search",
                 "start": 309,
-                "end": 315,
-                "name": "search"
+                "end": 315
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 303,
+              "end": 315
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 316,
-                "end": 333,
                 "value": null,
                 "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
-                }
+                },
+                "start": 316,
+                "end": 333
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 303,
+            "end": 334
           },
           {
             "type": "Literal",
-            "start": 336,
-            "end": 337,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 336,
+            "end": 337
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 286,
+        "end": 338
+      },
+      "start": 286,
+      "end": 339
     },
     {
       "type": "ExpressionStatement",
-      "start": 340,
-      "end": 393,
       "expression": {
         "type": "CallExpression",
-        "start": 340,
-        "end": 392,
         "callee": {
           "type": "MemberExpression",
-          "start": 340,
-          "end": 356,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 340,
-            "end": 346,
-            "name": "assert"
+            "end": 346
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 347,
-            "end": 356,
-            "name": "sameValue"
+            "end": 356
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 340,
+          "end": 356
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 357,
-            "end": 388,
             "callee": {
               "type": "MemberExpression",
-              "start": 357,
-              "end": 369,
               "object": {
                 "type": "Literal",
-                "start": 357,
-                "end": 362,
                 "value": "xba",
-                "raw": "\"xba\""
+                "raw": "\"xba\"",
+                "start": 357,
+                "end": 362
               },
               "property": {
                 "type": "Identifier",
+                "name": "search",
                 "start": 363,
-                "end": 369,
-                "name": "search"
+                "end": 369
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 357,
+              "end": 369
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 370,
-                "end": 387,
                 "value": null,
                 "raw": "/(?<x>a)|(?<x>b)/",
                 "regex": {
                   "pattern": "(?<x>a)|(?<x>b)",
                   "flags": ""
-                }
+                },
+                "start": 370,
+                "end": 387
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 357,
+            "end": 388
           },
           {
             "type": "Literal",
-            "start": 390,
-            "end": 391,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 390,
+            "end": 391
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 340,
+        "end": 392
+      },
+      "start": 340,
+      "end": 393
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 394
 }

@@ -2,22 +2,18 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 243,
   "body": [
     {
       "type": "ClassDeclaration",
-      "start": 0,
-      "end": 61,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 6,
-        "end": 8,
         "decorators": [],
         "name": "C1",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 6,
+        "end": 8
       },
       "typeParameters": null,
       "superClass": null,
@@ -25,32 +21,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 9,
-        "end": 61,
         "body": [
           {
             "type": "AccessorProperty",
-            "start": 15,
-            "end": 31,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 24,
-              "end": 25,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 24,
+              "end": 25
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 25,
-              "end": 30,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 27,
                 "end": 30
-              }
+              },
+              "start": 25,
+              "end": 30
             },
             "value": null,
             "computed": false,
@@ -60,31 +52,31 @@ __ESTREE_TEST__:PASS:
             "accessibility": null,
             "declare": false,
             "optional": false,
-            "readonly": false
+            "readonly": false,
+            "start": 15,
+            "end": 31
           },
           {
             "type": "AccessorProperty",
-            "start": 36,
-            "end": 59,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 52,
-              "end": 53,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 52,
+              "end": 53
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 53,
-              "end": 58,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 55,
                 "end": 58
-              }
+              },
+              "start": 53,
+              "end": 58
             },
             "value": null,
             "computed": false,
@@ -94,26 +86,30 @@ __ESTREE_TEST__:PASS:
             "accessibility": null,
             "declare": false,
             "optional": false,
-            "readonly": false
+            "readonly": false,
+            "start": 36,
+            "end": 59
           }
-        ]
+        ],
+        "start": 9,
+        "end": 61
       },
       "abstract": false,
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 61
     },
     {
       "type": "ClassDeclaration",
-      "start": 63,
-      "end": 132,
       "decorators": [],
       "id": {
         "type": "Identifier",
-        "start": 77,
-        "end": 79,
         "decorators": [],
         "name": "C2",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 77,
+        "end": 79
       },
       "typeParameters": null,
       "superClass": null,
@@ -121,32 +117,28 @@ __ESTREE_TEST__:PASS:
       "implements": [],
       "body": {
         "type": "ClassBody",
-        "start": 80,
-        "end": 132,
         "body": [
           {
             "type": "AccessorProperty",
-            "start": 86,
-            "end": 102,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 95,
-              "end": 96,
               "decorators": [],
               "name": "a",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 95,
+              "end": 96
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 96,
-              "end": 101,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 98,
                 "end": 101
-              }
+              },
+              "start": 96,
+              "end": 101
             },
             "value": null,
             "computed": false,
@@ -156,31 +148,31 @@ __ESTREE_TEST__:PASS:
             "accessibility": null,
             "declare": false,
             "optional": false,
-            "readonly": false
+            "readonly": false,
+            "start": 86,
+            "end": 102
           },
           {
             "type": "AccessorProperty",
-            "start": 107,
-            "end": 130,
             "decorators": [],
             "key": {
               "type": "Identifier",
-              "start": 123,
-              "end": 124,
               "decorators": [],
               "name": "b",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 123,
+              "end": 124
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 124,
-              "end": 129,
               "typeAnnotation": {
                 "type": "TSAnyKeyword",
                 "start": 126,
                 "end": 129
-              }
+              },
+              "start": 124,
+              "end": 129
             },
             "value": null,
             "computed": false,
@@ -190,25 +182,29 @@ __ESTREE_TEST__:PASS:
             "accessibility": null,
             "declare": false,
             "optional": false,
-            "readonly": false
+            "readonly": false,
+            "start": 107,
+            "end": 130
           }
-        ]
+        ],
+        "start": 80,
+        "end": 132
       },
       "abstract": false,
-      "declare": true
+      "declare": true,
+      "start": 63,
+      "end": 132
     },
     {
       "type": "FunctionDeclaration",
-      "start": 134,
-      "end": 243,
       "id": {
         "type": "Identifier",
-        "start": 143,
-        "end": 144,
         "decorators": [],
         "name": "f",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 143,
+        "end": 144
       },
       "generator": false,
       "async": false,
@@ -218,22 +214,18 @@ __ESTREE_TEST__:PASS:
       "returnType": null,
       "body": {
         "type": "BlockStatement",
-        "start": 147,
-        "end": 243,
         "body": [
           {
             "type": "ClassDeclaration",
-            "start": 153,
-            "end": 226,
             "decorators": [],
             "id": {
               "type": "Identifier",
-              "start": 159,
-              "end": 161,
               "decorators": [],
               "name": "C3",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 159,
+              "end": 161
             },
             "typeParameters": null,
             "superClass": null,
@@ -241,32 +233,28 @@ __ESTREE_TEST__:PASS:
             "implements": [],
             "body": {
               "type": "ClassBody",
-              "start": 162,
-              "end": 226,
               "body": [
                 {
                   "type": "AccessorProperty",
-                  "start": 172,
-                  "end": 188,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
-                    "start": 181,
-                    "end": 182,
                     "decorators": [],
                     "name": "a",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 181,
+                    "end": 182
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 182,
-                    "end": 187,
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
                       "start": 184,
                       "end": 187
-                    }
+                    },
+                    "start": 182,
+                    "end": 187
                   },
                   "value": null,
                   "computed": false,
@@ -276,31 +264,31 @@ __ESTREE_TEST__:PASS:
                   "accessibility": null,
                   "declare": false,
                   "optional": false,
-                  "readonly": false
+                  "readonly": false,
+                  "start": 172,
+                  "end": 188
                 },
                 {
                   "type": "AccessorProperty",
-                  "start": 197,
-                  "end": 220,
                   "decorators": [],
                   "key": {
                     "type": "Identifier",
-                    "start": 213,
-                    "end": 214,
                     "decorators": [],
                     "name": "b",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 213,
+                    "end": 214
                   },
                   "typeAnnotation": {
                     "type": "TSTypeAnnotation",
-                    "start": 214,
-                    "end": 219,
                     "typeAnnotation": {
                       "type": "TSAnyKeyword",
                       "start": 216,
                       "end": 219
-                    }
+                    },
+                    "start": 214,
+                    "end": 219
                   },
                   "value": null,
                   "computed": false,
@@ -310,33 +298,45 @@ __ESTREE_TEST__:PASS:
                   "accessibility": null,
                   "declare": false,
                   "optional": false,
-                  "readonly": false
+                  "readonly": false,
+                  "start": 197,
+                  "end": 220
                 }
-              ]
+              ],
+              "start": 162,
+              "end": 226
             },
             "abstract": false,
-            "declare": false
+            "declare": false,
+            "start": 153,
+            "end": 226
           },
           {
             "type": "ReturnStatement",
-            "start": 231,
-            "end": 241,
             "argument": {
               "type": "Identifier",
-              "start": 238,
-              "end": 240,
               "decorators": [],
               "name": "C3",
               "optional": false,
-              "typeAnnotation": null
-            }
+              "typeAnnotation": null,
+              "start": 238,
+              "end": 240
+            },
+            "start": 231,
+            "end": 241
           }
-        ]
+        ],
+        "start": 147,
+        "end": 243
       },
-      "expression": false
+      "expression": false,
+      "start": 134,
+      "end": 243
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 243
 }
 ```

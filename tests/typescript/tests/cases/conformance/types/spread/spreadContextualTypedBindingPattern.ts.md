@@ -2,297 +2,297 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 10,
-  "end": 266,
   "body": [
     {
       "type": "TSInterfaceDeclaration",
-      "start": 10,
-      "end": 60,
       "id": {
         "type": "Identifier",
-        "start": 20,
-        "end": 26,
         "decorators": [],
         "name": "Person",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 20,
+        "end": 26
       },
       "typeParameters": null,
       "extends": [],
       "body": {
         "type": "TSInterfaceBody",
-        "start": 27,
-        "end": 60,
         "body": [
           {
             "type": "TSPropertySignature",
-            "start": 31,
-            "end": 44,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 31,
-              "end": 35,
               "decorators": [],
               "name": "naam",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 31,
+              "end": 35
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 35,
-              "end": 43,
               "typeAnnotation": {
                 "type": "TSStringKeyword",
                 "start": 37,
                 "end": 43
-              }
+              },
+              "start": 35,
+              "end": 43
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 31,
+            "end": 44
           },
           {
             "type": "TSPropertySignature",
-            "start": 47,
-            "end": 58,
             "computed": false,
             "optional": false,
             "readonly": false,
             "key": {
               "type": "Identifier",
-              "start": 47,
-              "end": 50,
               "decorators": [],
               "name": "age",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 47,
+              "end": 50
             },
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 50,
-              "end": 58,
               "typeAnnotation": {
                 "type": "TSNumberKeyword",
                 "start": 52,
                 "end": 58
-              }
+              },
+              "start": 50,
+              "end": 58
             },
             "accessibility": null,
-            "static": false
+            "static": false,
+            "start": 47,
+            "end": 58
           }
-        ]
+        ],
+        "start": 27,
+        "end": 60
       },
-      "declare": false
+      "declare": false,
+      "start": 10,
+      "end": 60
     },
     {
       "type": "VariableDeclaration",
-      "start": 62,
-      "end": 87,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 76,
-          "end": 87,
           "id": {
             "type": "Identifier",
-            "start": 76,
-            "end": 87,
             "decorators": [],
             "name": "bob",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 79,
-              "end": 87,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 81,
-                "end": 87,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 81,
-                  "end": 87,
                   "decorators": [],
                   "name": "Person",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 81,
+                  "end": 87
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 81,
+                "end": 87
+              },
+              "start": 79,
+              "end": 87
+            },
+            "start": 76,
+            "end": 87
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 76,
+          "end": 87
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 62,
+      "end": 87
     },
     {
       "type": "VariableDeclaration",
-      "start": 88,
-      "end": 115,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 102,
-          "end": 115,
           "id": {
             "type": "Identifier",
-            "start": 102,
-            "end": 115,
             "decorators": [],
             "name": "alice",
             "optional": false,
             "typeAnnotation": {
               "type": "TSTypeAnnotation",
-              "start": 107,
-              "end": 115,
               "typeAnnotation": {
                 "type": "TSTypeReference",
-                "start": 109,
-                "end": 115,
                 "typeName": {
                   "type": "Identifier",
-                  "start": 109,
-                  "end": 115,
                   "decorators": [],
                   "name": "Person",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 109,
+                  "end": 115
                 },
-                "typeArguments": null
-              }
-            }
+                "typeArguments": null,
+                "start": 109,
+                "end": 115
+              },
+              "start": 107,
+              "end": 115
+            },
+            "start": 102,
+            "end": 115
           },
           "init": null,
-          "definite": false
+          "definite": false,
+          "start": 102,
+          "end": 115
         }
       ],
-      "declare": true
+      "declare": true,
+      "start": 88,
+      "end": 115
     },
     {
       "type": "VariableDeclaration",
-      "start": 226,
-      "end": 266,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 232,
-          "end": 266,
           "id": {
             "type": "ObjectPattern",
-            "start": 232,
-            "end": 245,
             "decorators": [],
             "properties": [
               {
                 "type": "Property",
-                "start": 234,
-                "end": 238,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 234,
-                  "end": 238,
                   "decorators": [],
                   "name": "naam",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 234,
+                  "end": 238
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 234,
-                  "end": 238,
                   "decorators": [],
                   "name": "naam",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 234,
+                  "end": 238
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 234,
+                "end": 238
               },
               {
                 "type": "Property",
-                "start": 240,
-                "end": 243,
                 "kind": "init",
                 "key": {
                   "type": "Identifier",
-                  "start": 240,
-                  "end": 243,
                   "decorators": [],
                   "name": "age",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 240,
+                  "end": 243
                 },
                 "value": {
                   "type": "Identifier",
-                  "start": 240,
-                  "end": 243,
                   "decorators": [],
                   "name": "age",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 240,
+                  "end": 243
                 },
                 "method": false,
                 "shorthand": true,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 240,
+                "end": 243
               }
             ],
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 232,
+            "end": 245
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 248,
-            "end": 266,
             "properties": [
               {
                 "type": "SpreadElement",
-                "start": 249,
-                "end": 255,
                 "argument": {
                   "type": "Identifier",
-                  "start": 252,
-                  "end": 255,
                   "decorators": [],
                   "name": "bob",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 252,
+                  "end": 255
+                },
+                "start": 249,
+                "end": 255
               },
               {
                 "type": "SpreadElement",
-                "start": 257,
-                "end": 265,
                 "argument": {
                   "type": "Identifier",
-                  "start": 260,
-                  "end": 265,
                   "decorators": [],
                   "name": "alice",
                   "optional": false,
-                  "typeAnnotation": null
-                }
+                  "typeAnnotation": null,
+                  "start": 260,
+                  "end": 265
+                },
+                "start": 257,
+                "end": 265
               }
-            ]
+            ],
+            "start": 248,
+            "end": 266
           },
-          "definite": false
+          "definite": false,
+          "start": 232,
+          "end": 266
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 226,
+      "end": 266
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 10,
+  "end": 266
 }
 ```

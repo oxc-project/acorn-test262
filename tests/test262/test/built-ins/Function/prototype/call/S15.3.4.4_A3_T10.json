@@ -1,66 +1,58 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 501,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 373,
-      "end": 415,
       "expression": {
         "type": "CallExpression",
-        "start": 373,
-        "end": 414,
         "callee": {
           "type": "Identifier",
+          "name": "eval",
           "start": 373,
-          "end": 377,
-          "name": "eval"
+          "end": 377
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 378,
-            "end": 413,
             "value": " (function(){this.feat=1}).call()",
-            "raw": "\" (function(){this.feat=1}).call()\""
+            "raw": "\" (function(){this.feat=1}).call()\"",
+            "start": 378,
+            "end": 413
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 373,
+        "end": 414
+      },
+      "start": 373,
+      "end": 415
     },
     {
       "type": "ExpressionStatement",
-      "start": 417,
-      "end": 500,
       "expression": {
         "type": "CallExpression",
-        "start": 417,
-        "end": 499,
         "callee": {
           "type": "MemberExpression",
-          "start": 417,
-          "end": 433,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 417,
-            "end": 423,
-            "name": "assert"
+            "end": 423
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 424,
-            "end": 433,
-            "name": "sameValue"
+            "end": 433
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 417,
+          "end": 433
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 434,
-            "end": 446,
             "object": {
               "type": "ThisExpression",
               "start": 434,
@@ -68,33 +60,41 @@
             },
             "property": {
               "type": "Literal",
-              "start": 439,
-              "end": 445,
               "value": "feat",
-              "raw": "\"feat\""
+              "raw": "\"feat\"",
+              "start": 439,
+              "end": 445
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 434,
+            "end": 446
           },
           {
             "type": "Literal",
-            "start": 448,
-            "end": 449,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 448,
+            "end": 449
           },
           {
             "type": "Literal",
-            "start": 451,
-            "end": 498,
             "value": "The value of this[\"feat\"] is expected to be 1",
-            "raw": "'The value of this[\"feat\"] is expected to be 1'"
+            "raw": "'The value of this[\"feat\"] is expected to be 1'",
+            "start": 451,
+            "end": 498
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 417,
+        "end": 499
+      },
+      "start": 417,
+      "end": 500
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 501
 }

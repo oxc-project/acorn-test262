@@ -1,88 +1,88 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 515,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 448,
-      "end": 514,
       "expression": {
         "type": "CallExpression",
-        "start": 448,
-        "end": 513,
         "callee": {
           "type": "MemberExpression",
-          "start": 448,
-          "end": 464,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 448,
-            "end": 454,
-            "name": "assert"
+            "end": 454
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 455,
-            "end": 464,
-            "name": "sameValue"
+            "end": 464
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 448,
+          "end": 464
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 465,
-            "end": 493,
             "callee": {
               "type": "MemberExpression",
-              "start": 465,
-              "end": 483,
               "object": {
                 "type": "Identifier",
+                "name": "ArrayBuffer",
                 "start": 465,
-                "end": 476,
-                "name": "ArrayBuffer"
+                "end": 476
               },
               "property": {
                 "type": "Identifier",
+                "name": "isView",
                 "start": 477,
-                "end": 483,
-                "name": "isView"
+                "end": 483
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 465,
+              "end": 483
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "DataView",
                 "start": 484,
-                "end": 492,
-                "name": "DataView"
+                "end": 492
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 465,
+            "end": 493
           },
           {
             "type": "Literal",
-            "start": 495,
-            "end": 500,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 495,
+            "end": 500
           },
           {
             "type": "Literal",
-            "start": 502,
-            "end": 512,
             "value": "DataView",
-            "raw": "\"DataView\""
+            "raw": "\"DataView\"",
+            "start": 502,
+            "end": 512
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 448,
+        "end": 513
+      },
+      "start": 448,
+      "end": 514
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 515
 }

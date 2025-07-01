@@ -1,108 +1,108 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1269,
   "body": [
     {
       "type": "IfStatement",
-      "start": 1202,
-      "end": 1268,
       "test": {
         "type": "Literal",
-        "start": 1206,
-        "end": 1210,
         "value": true,
-        "raw": "true"
+        "raw": "true",
+        "start": 1206,
+        "end": 1210
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 1212,
-        "end": 1268,
         "body": [
           {
             "type": "ExpressionStatement",
-            "start": 1216,
-            "end": 1266,
             "expression": {
               "type": "AwaitExpression",
-              "start": 1216,
-              "end": 1265,
               "argument": {
                 "type": "NewExpression",
-                "start": 1222,
-                "end": 1265,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Promise",
                   "start": 1226,
-                  "end": 1233,
-                  "name": "Promise"
+                  "end": 1233
                 },
                 "arguments": [
                   {
                     "type": "FunctionExpression",
-                    "start": 1234,
-                    "end": 1264,
                     "id": null,
                     "generator": false,
                     "async": false,
                     "params": [
                       {
                         "type": "Identifier",
+                        "name": "res",
                         "start": 1243,
-                        "end": 1246,
-                        "name": "res"
+                        "end": 1246
                       },
                       {
                         "type": "Identifier",
+                        "name": "rej",
                         "start": 1248,
-                        "end": 1251,
-                        "name": "rej"
+                        "end": 1251
                       }
                     ],
                     "body": {
                       "type": "BlockStatement",
-                      "start": 1253,
-                      "end": 1264,
                       "body": [
                         {
                           "type": "ExpressionStatement",
-                          "start": 1255,
-                          "end": 1262,
                           "expression": {
                             "type": "CallExpression",
-                            "start": 1255,
-                            "end": 1261,
                             "callee": {
                               "type": "Identifier",
+                              "name": "res",
                               "start": 1255,
-                              "end": 1258,
-                              "name": "res"
+                              "end": 1258
                             },
                             "arguments": [
                               {
                                 "type": "Literal",
-                                "start": 1259,
-                                "end": 1260,
                                 "value": 1,
-                                "raw": "1"
+                                "raw": "1",
+                                "start": 1259,
+                                "end": 1260
                               }
                             ],
-                            "optional": false
-                          }
+                            "optional": false,
+                            "start": 1255,
+                            "end": 1261
+                          },
+                          "start": 1255,
+                          "end": 1262
                         }
-                      ]
+                      ],
+                      "start": 1253,
+                      "end": 1264
                     },
-                    "expression": false
+                    "expression": false,
+                    "start": 1234,
+                    "end": 1264
                   }
-                ]
-              }
-            }
+                ],
+                "start": 1222,
+                "end": 1265
+              },
+              "start": 1216,
+              "end": 1265
+            },
+            "start": 1216,
+            "end": 1266
           }
-        ]
+        ],
+        "start": 1212,
+        "end": 1268
       },
-      "alternate": null
+      "alternate": null,
+      "start": 1202,
+      "end": 1268
     }
   ],
   "sourceType": "module",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1269
 }

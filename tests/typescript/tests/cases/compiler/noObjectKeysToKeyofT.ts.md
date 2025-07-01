@@ -2,116 +2,116 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 102,
-  "end": 252,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 102,
-      "end": 134,
       "expression": {
         "type": "CallExpression",
-        "start": 102,
-        "end": 133,
         "callee": {
           "type": "MemberExpression",
-          "start": 102,
-          "end": 128,
           "object": {
             "type": "CallExpression",
-            "start": 102,
-            "end": 123,
             "callee": {
               "type": "MemberExpression",
-              "start": 102,
-              "end": 113,
               "object": {
                 "type": "Identifier",
-                "start": 102,
-                "end": 108,
                 "decorators": [],
                 "name": "Object",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 102,
+                "end": 108
               },
               "property": {
                 "type": "Identifier",
-                "start": 109,
-                "end": 113,
                 "decorators": [],
                 "name": "keys",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 109,
+                "end": 113
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 102,
+              "end": 113
             },
             "typeArguments": null,
             "arguments": [
               {
                 "type": "ObjectExpression",
-                "start": 114,
-                "end": 122,
                 "properties": [
                   {
                     "type": "Property",
-                    "start": 116,
-                    "end": 120,
                     "kind": "init",
                     "key": {
                       "type": "Identifier",
-                      "start": 116,
-                      "end": 117,
                       "decorators": [],
                       "name": "a",
                       "optional": false,
-                      "typeAnnotation": null
+                      "typeAnnotation": null,
+                      "start": 116,
+                      "end": 117
                     },
                     "value": {
                       "type": "Literal",
-                      "start": 119,
-                      "end": 120,
                       "value": 0,
-                      "raw": "0"
+                      "raw": "0",
+                      "start": 119,
+                      "end": 120
                     },
                     "method": false,
                     "shorthand": false,
                     "computed": false,
-                    "optional": false
+                    "optional": false,
+                    "start": 116,
+                    "end": 120
                   }
-                ]
+                ],
+                "start": 114,
+                "end": 122
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 102,
+            "end": 123
           },
           "property": {
             "type": "Identifier",
-            "start": 124,
-            "end": 128,
             "decorators": [],
             "name": "push",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 124,
+            "end": 128
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 102,
+          "end": 128
         },
         "typeArguments": null,
         "arguments": [
           {
             "type": "Literal",
-            "start": 129,
-            "end": 132,
             "value": "b",
-            "raw": "\"b\""
+            "raw": "\"b\"",
+            "start": 129,
+            "end": 132
           }
         ],
-        "optional": false
+        "optional": false,
+        "start": 102,
+        "end": 133
       },
-      "directive": null
+      "directive": null,
+      "start": 102,
+      "end": 134
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 102,
+  "end": 252
 }
 ```

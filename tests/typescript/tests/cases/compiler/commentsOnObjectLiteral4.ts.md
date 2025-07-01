@@ -2,51 +2,39 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 77,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 0,
-      "end": 77,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 4,
-          "end": 77,
           "id": {
             "type": "Identifier",
-            "start": 4,
-            "end": 5,
             "decorators": [],
             "name": "v",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 4,
+            "end": 5
           },
           "init": {
             "type": "ObjectExpression",
-            "start": 8,
-            "end": 77,
             "properties": [
               {
                 "type": "Property",
-                "start": 40,
-                "end": 75,
                 "kind": "get",
                 "key": {
                   "type": "Identifier",
-                  "start": 44,
-                  "end": 47,
                   "decorators": [],
                   "name": "bar",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 44,
+                  "end": 47
                 },
                 "value": {
                   "type": "FunctionExpression",
-                  "start": 47,
-                  "end": 75,
                   "id": null,
                   "generator": false,
                   "async": false,
@@ -55,49 +43,61 @@ __ESTREE_TEST__:PASS:
                   "params": [],
                   "returnType": {
                     "type": "TSTypeAnnotation",
-                    "start": 49,
-                    "end": 57,
                     "typeAnnotation": {
                       "type": "TSNumberKeyword",
                       "start": 51,
                       "end": 57
-                    }
+                    },
+                    "start": 49,
+                    "end": 57
                   },
                   "body": {
                     "type": "BlockStatement",
-                    "start": 58,
-                    "end": 75,
                     "body": [
                       {
                         "type": "ReturnStatement",
-                        "start": 62,
-                        "end": 72,
                         "argument": {
                           "type": "Literal",
-                          "start": 69,
-                          "end": 71,
                           "value": 12,
-                          "raw": "12"
-                        }
+                          "raw": "12",
+                          "start": 69,
+                          "end": 71
+                        },
+                        "start": 62,
+                        "end": 72
                       }
-                    ]
+                    ],
+                    "start": 58,
+                    "end": 75
                   },
-                  "expression": false
+                  "expression": false,
+                  "start": 47,
+                  "end": 75
                 },
                 "method": false,
                 "shorthand": false,
                 "computed": false,
-                "optional": false
+                "optional": false,
+                "start": 40,
+                "end": 75
               }
-            ]
+            ],
+            "start": 8,
+            "end": 77
           },
-          "definite": false
+          "definite": false,
+          "start": 4,
+          "end": 77
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 0,
+      "end": 77
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 77
 }
 ```

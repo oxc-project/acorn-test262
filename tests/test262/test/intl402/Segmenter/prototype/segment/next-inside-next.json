@@ -1,628 +1,628 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1586,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1014,
-      "end": 1053,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1020,
-          "end": 1052,
           "id": {
             "type": "Identifier",
+            "name": "segmenter",
             "start": 1020,
-            "end": 1029,
-            "name": "segmenter"
+            "end": 1029
           },
           "init": {
             "type": "NewExpression",
-            "start": 1032,
-            "end": 1052,
             "callee": {
               "type": "MemberExpression",
-              "start": 1036,
-              "end": 1050,
               "object": {
                 "type": "Identifier",
+                "name": "Intl",
                 "start": 1036,
-                "end": 1040,
-                "name": "Intl"
+                "end": 1040
               },
               "property": {
                 "type": "Identifier",
+                "name": "Segmenter",
                 "start": 1041,
-                "end": 1050,
-                "name": "Segmenter"
+                "end": 1050
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1036,
+              "end": 1050
             },
-            "arguments": []
-          }
+            "arguments": [],
+            "start": 1032,
+            "end": 1052
+          },
+          "start": 1020,
+          "end": 1052
         }
-      ]
+      ],
+      "start": 1014,
+      "end": 1053
     },
     {
       "type": "VariableDeclaration",
-      "start": 1054,
-      "end": 1076,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1060,
-          "end": 1075,
           "id": {
             "type": "Identifier",
+            "name": "input1",
             "start": 1060,
-            "end": 1066,
-            "name": "input1"
+            "end": 1066
           },
           "init": {
             "type": "Literal",
-            "start": 1069,
-            "end": 1075,
             "value": "ABCD",
-            "raw": "\"ABCD\""
-          }
+            "raw": "\"ABCD\"",
+            "start": 1069,
+            "end": 1075
+          },
+          "start": 1060,
+          "end": 1075
         }
-      ]
+      ],
+      "start": 1054,
+      "end": 1076
     },
     {
       "type": "VariableDeclaration",
-      "start": 1077,
-      "end": 1098,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1083,
-          "end": 1097,
           "id": {
             "type": "Identifier",
+            "name": "input2",
             "start": 1083,
-            "end": 1089,
-            "name": "input2"
+            "end": 1089
           },
           "init": {
             "type": "Literal",
-            "start": 1092,
-            "end": 1097,
             "value": "123",
-            "raw": "\"123\""
-          }
+            "raw": "\"123\"",
+            "start": 1092,
+            "end": 1097
+          },
+          "start": 1083,
+          "end": 1097
         }
-      ]
+      ],
+      "start": 1077,
+      "end": 1098
     },
     {
       "type": "VariableDeclaration",
-      "start": 1099,
-      "end": 1143,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1105,
-          "end": 1142,
           "id": {
             "type": "Identifier",
+            "name": "segments1",
             "start": 1105,
-            "end": 1114,
-            "name": "segments1"
+            "end": 1114
           },
           "init": {
             "type": "CallExpression",
-            "start": 1117,
-            "end": 1142,
             "callee": {
               "type": "MemberExpression",
-              "start": 1117,
-              "end": 1134,
               "object": {
                 "type": "Identifier",
+                "name": "segmenter",
                 "start": 1117,
-                "end": 1126,
-                "name": "segmenter"
+                "end": 1126
               },
               "property": {
                 "type": "Identifier",
+                "name": "segment",
                 "start": 1127,
-                "end": 1134,
-                "name": "segment"
+                "end": 1134
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1117,
+              "end": 1134
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "input1",
                 "start": 1135,
-                "end": 1141,
-                "name": "input1"
+                "end": 1141
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1117,
+            "end": 1142
+          },
+          "start": 1105,
+          "end": 1142
         }
-      ]
+      ],
+      "start": 1099,
+      "end": 1143
     },
     {
       "type": "VariableDeclaration",
-      "start": 1144,
-      "end": 1188,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1150,
-          "end": 1187,
           "id": {
             "type": "Identifier",
+            "name": "segments2",
             "start": 1150,
-            "end": 1159,
-            "name": "segments2"
+            "end": 1159
           },
           "init": {
             "type": "CallExpression",
-            "start": 1162,
-            "end": 1187,
             "callee": {
               "type": "MemberExpression",
-              "start": 1162,
-              "end": 1179,
               "object": {
                 "type": "Identifier",
+                "name": "segmenter",
                 "start": 1162,
-                "end": 1171,
-                "name": "segmenter"
+                "end": 1171
               },
               "property": {
                 "type": "Identifier",
+                "name": "segment",
                 "start": 1172,
-                "end": 1179,
-                "name": "segment"
+                "end": 1179
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1162,
+              "end": 1179
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "input2",
                 "start": 1180,
-                "end": 1186,
-                "name": "input2"
+                "end": 1186
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 1162,
+            "end": 1187
+          },
+          "start": 1150,
+          "end": 1187
         }
-      ]
+      ],
+      "start": 1144,
+      "end": 1188
     },
     {
       "type": "VariableDeclaration",
-      "start": 1189,
-      "end": 1205,
       "kind": "let",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1193,
-          "end": 1204,
           "id": {
             "type": "Identifier",
+            "name": "result",
             "start": 1193,
-            "end": 1199,
-            "name": "result"
+            "end": 1199
           },
           "init": {
             "type": "Literal",
-            "start": 1202,
-            "end": 1204,
             "value": "",
-            "raw": "\"\""
-          }
+            "raw": "\"\"",
+            "start": 1202,
+            "end": 1204
+          },
+          "start": 1193,
+          "end": 1204
         }
-      ]
+      ],
+      "start": 1189,
+      "end": 1205
     },
     {
       "type": "ForOfStatement",
-      "start": 1206,
-      "end": 1338,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1211,
-        "end": 1217,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1215,
-            "end": 1217,
             "id": {
               "type": "Identifier",
+              "name": "v1",
               "start": 1215,
-              "end": 1217,
-              "name": "v1"
+              "end": 1217
             },
-            "init": null
+            "init": null,
+            "start": 1215,
+            "end": 1217
           }
-        ]
+        ],
+        "start": 1211,
+        "end": 1217
       },
       "right": {
         "type": "Identifier",
+        "name": "segments1",
         "start": 1221,
-        "end": 1230,
-        "name": "segments1"
+        "end": 1230
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1232,
-        "end": 1338,
         "body": [
           {
             "type": "ForOfStatement",
-            "start": 1236,
-            "end": 1319,
             "await": false,
             "left": {
               "type": "VariableDeclaration",
-              "start": 1241,
-              "end": 1247,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1245,
-                  "end": 1247,
                   "id": {
                     "type": "Identifier",
+                    "name": "v2",
                     "start": 1245,
-                    "end": 1247,
-                    "name": "v2"
+                    "end": 1247
                   },
-                  "init": null
+                  "init": null,
+                  "start": 1245,
+                  "end": 1247
                 }
-              ]
+              ],
+              "start": 1241,
+              "end": 1247
             },
             "right": {
               "type": "Identifier",
+              "name": "segments2",
               "start": 1251,
-              "end": 1260,
-              "name": "segments2"
+              "end": 1260
             },
             "body": {
               "type": "BlockStatement",
-              "start": 1262,
-              "end": 1319,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1268,
-                  "end": 1289,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 1268,
-                    "end": 1288,
                     "operator": "+=",
                     "left": {
                       "type": "Identifier",
+                      "name": "result",
                       "start": 1268,
-                      "end": 1274,
-                      "name": "result"
+                      "end": 1274
                     },
                     "right": {
                       "type": "MemberExpression",
-                      "start": 1278,
-                      "end": 1288,
                       "object": {
                         "type": "Identifier",
+                        "name": "v1",
                         "start": 1278,
-                        "end": 1280,
-                        "name": "v1"
+                        "end": 1280
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "segment",
                         "start": 1281,
-                        "end": 1288,
-                        "name": "segment"
+                        "end": 1288
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 1278,
+                      "end": 1288
+                    },
+                    "start": 1268,
+                    "end": 1288
+                  },
+                  "start": 1268,
+                  "end": 1289
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1294,
-                  "end": 1315,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 1294,
-                    "end": 1314,
                     "operator": "+=",
                     "left": {
                       "type": "Identifier",
+                      "name": "result",
                       "start": 1294,
-                      "end": 1300,
-                      "name": "result"
+                      "end": 1300
                     },
                     "right": {
                       "type": "MemberExpression",
-                      "start": 1304,
-                      "end": 1314,
                       "object": {
                         "type": "Identifier",
+                        "name": "v2",
                         "start": 1304,
-                        "end": 1306,
-                        "name": "v2"
+                        "end": 1306
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "segment",
                         "start": 1307,
-                        "end": 1314,
-                        "name": "segment"
+                        "end": 1314
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 1304,
+                      "end": 1314
+                    },
+                    "start": 1294,
+                    "end": 1314
+                  },
+                  "start": 1294,
+                  "end": 1315
                 }
-              ]
-            }
+              ],
+              "start": 1262,
+              "end": 1319
+            },
+            "start": 1236,
+            "end": 1319
           },
           {
             "type": "ExpressionStatement",
-            "start": 1322,
-            "end": 1336,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1322,
-              "end": 1335,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
+                "name": "result",
                 "start": 1322,
-                "end": 1328,
-                "name": "result"
+                "end": 1328
               },
               "right": {
                 "type": "Literal",
-                "start": 1332,
-                "end": 1335,
                 "value": ":",
-                "raw": "\":\""
-              }
-            }
+                "raw": "\":\"",
+                "start": 1332,
+                "end": 1335
+              },
+              "start": 1322,
+              "end": 1335
+            },
+            "start": 1322,
+            "end": 1336
           }
-        ]
-      }
+        ],
+        "start": 1232,
+        "end": 1338
+      },
+      "start": 1206,
+      "end": 1338
     },
     {
       "type": "ForOfStatement",
-      "start": 1363,
-      "end": 1495,
       "await": false,
       "left": {
         "type": "VariableDeclaration",
-        "start": 1368,
-        "end": 1374,
         "kind": "let",
         "declarations": [
           {
             "type": "VariableDeclarator",
-            "start": 1372,
-            "end": 1374,
             "id": {
               "type": "Identifier",
+              "name": "v2",
               "start": 1372,
-              "end": 1374,
-              "name": "v2"
+              "end": 1374
             },
-            "init": null
+            "init": null,
+            "start": 1372,
+            "end": 1374
           }
-        ]
+        ],
+        "start": 1368,
+        "end": 1374
       },
       "right": {
         "type": "Identifier",
+        "name": "segments2",
         "start": 1378,
-        "end": 1387,
-        "name": "segments2"
+        "end": 1387
       },
       "body": {
         "type": "BlockStatement",
-        "start": 1389,
-        "end": 1495,
         "body": [
           {
             "type": "ForOfStatement",
-            "start": 1393,
-            "end": 1476,
             "await": false,
             "left": {
               "type": "VariableDeclaration",
-              "start": 1398,
-              "end": 1404,
               "kind": "let",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 1402,
-                  "end": 1404,
                   "id": {
                     "type": "Identifier",
+                    "name": "v1",
                     "start": 1402,
-                    "end": 1404,
-                    "name": "v1"
+                    "end": 1404
                   },
-                  "init": null
+                  "init": null,
+                  "start": 1402,
+                  "end": 1404
                 }
-              ]
+              ],
+              "start": 1398,
+              "end": 1404
             },
             "right": {
               "type": "Identifier",
+              "name": "segments1",
               "start": 1408,
-              "end": 1417,
-              "name": "segments1"
+              "end": 1417
             },
             "body": {
               "type": "BlockStatement",
-              "start": 1419,
-              "end": 1476,
               "body": [
                 {
                   "type": "ExpressionStatement",
-                  "start": 1425,
-                  "end": 1446,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 1425,
-                    "end": 1445,
                     "operator": "+=",
                     "left": {
                       "type": "Identifier",
+                      "name": "result",
                       "start": 1425,
-                      "end": 1431,
-                      "name": "result"
+                      "end": 1431
                     },
                     "right": {
                       "type": "MemberExpression",
-                      "start": 1435,
-                      "end": 1445,
                       "object": {
                         "type": "Identifier",
+                        "name": "v2",
                         "start": 1435,
-                        "end": 1437,
-                        "name": "v2"
+                        "end": 1437
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "segment",
                         "start": 1438,
-                        "end": 1445,
-                        "name": "segment"
+                        "end": 1445
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 1435,
+                      "end": 1445
+                    },
+                    "start": 1425,
+                    "end": 1445
+                  },
+                  "start": 1425,
+                  "end": 1446
                 },
                 {
                   "type": "ExpressionStatement",
-                  "start": 1451,
-                  "end": 1472,
                   "expression": {
                     "type": "AssignmentExpression",
-                    "start": 1451,
-                    "end": 1471,
                     "operator": "+=",
                     "left": {
                       "type": "Identifier",
+                      "name": "result",
                       "start": 1451,
-                      "end": 1457,
-                      "name": "result"
+                      "end": 1457
                     },
                     "right": {
                       "type": "MemberExpression",
-                      "start": 1461,
-                      "end": 1471,
                       "object": {
                         "type": "Identifier",
+                        "name": "v1",
                         "start": 1461,
-                        "end": 1463,
-                        "name": "v1"
+                        "end": 1463
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "segment",
                         "start": 1464,
-                        "end": 1471,
-                        "name": "segment"
+                        "end": 1471
                       },
                       "optional": false,
-                      "computed": false
-                    }
-                  }
+                      "computed": false,
+                      "start": 1461,
+                      "end": 1471
+                    },
+                    "start": 1451,
+                    "end": 1471
+                  },
+                  "start": 1451,
+                  "end": 1472
                 }
-              ]
-            }
+              ],
+              "start": 1419,
+              "end": 1476
+            },
+            "start": 1393,
+            "end": 1476
           },
           {
             "type": "ExpressionStatement",
-            "start": 1479,
-            "end": 1493,
             "expression": {
               "type": "AssignmentExpression",
-              "start": 1479,
-              "end": 1492,
               "operator": "+=",
               "left": {
                 "type": "Identifier",
+                "name": "result",
                 "start": 1479,
-                "end": 1485,
-                "name": "result"
+                "end": 1485
               },
               "right": {
                 "type": "Literal",
-                "start": 1489,
-                "end": 1492,
                 "value": ":",
-                "raw": "\":\""
-              }
-            }
+                "raw": "\":\"",
+                "start": 1489,
+                "end": 1492
+              },
+              "start": 1479,
+              "end": 1492
+            },
+            "start": 1479,
+            "end": 1493
           }
-        ]
-      }
+        ],
+        "start": 1389,
+        "end": 1495
+      },
+      "start": 1363,
+      "end": 1495
     },
     {
       "type": "ExpressionStatement",
-      "start": 1496,
-      "end": 1585,
       "expression": {
         "type": "CallExpression",
-        "start": 1496,
-        "end": 1584,
         "callee": {
           "type": "MemberExpression",
-          "start": 1496,
-          "end": 1512,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 1496,
-            "end": 1502,
-            "name": "assert"
+            "end": 1502
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1503,
-            "end": 1512,
-            "name": "sameValue"
+            "end": 1512
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 1496,
+          "end": 1512
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 1518,
-            "end": 1575,
             "value": "A1A2A3:B1B2B3:C1C2C3:D1D2D3:1A1B1C1D:2A2B2C2D:3A3B3C3D:",
-            "raw": "\"A1A2A3:B1B2B3:C1C2C3:D1D2D3:1A1B1C1D:2A2B2C2D:3A3B3C3D:\""
+            "raw": "\"A1A2A3:B1B2B3:C1C2C3:D1D2D3:1A1B1C1D:2A2B2C2D:3A3B3C3D:\"",
+            "start": 1518,
+            "end": 1575
           },
           {
             "type": "Identifier",
+            "name": "result",
             "start": 1577,
-            "end": 1583,
-            "name": "result"
+            "end": 1583
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1496,
+        "end": 1584
+      },
+      "start": 1496,
+      "end": 1585
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1586
 }

@@ -1,87 +1,87 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 1059,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 994,
-      "end": 1058,
       "expression": {
         "type": "CallExpression",
-        "start": 994,
-        "end": 1057,
         "callee": {
           "type": "MemberExpression",
-          "start": 994,
-          "end": 1010,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 994,
-            "end": 1000,
-            "name": "assert"
+            "end": 1000
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 1001,
-            "end": 1010,
-            "name": "sameValue"
+            "end": 1010
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 994,
+          "end": 1010
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1011,
-            "end": 1049,
             "callee": {
               "type": "MemberExpression",
-              "start": 1011,
-              "end": 1027,
               "object": {
                 "type": "Literal",
-                "start": 1011,
-                "end": 1022,
                 "value": null,
                 "raw": "/(.+).*\\1/u",
                 "regex": {
                   "pattern": "(.+).*\\1",
                   "flags": "u"
-                }
+                },
+                "start": 1011,
+                "end": 1022
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1023,
-                "end": 1027,
-                "name": "test"
+                "end": 1027
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1011,
+              "end": 1027
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1028,
-                "end": 1048,
                 "value": "𐀀\ud800",
-                "raw": "'\\ud800\\udc00\\ud800'"
+                "raw": "'\\ud800\\udc00\\ud800'",
+                "start": 1028,
+                "end": 1048
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1011,
+            "end": 1049
           },
           {
             "type": "Literal",
-            "start": 1051,
-            "end": 1056,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 1051,
+            "end": 1056
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 994,
+        "end": 1057
+      },
+      "start": 994,
+      "end": 1058
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 1059
 }

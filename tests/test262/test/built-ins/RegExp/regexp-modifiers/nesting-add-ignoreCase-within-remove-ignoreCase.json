@@ -1,420 +1,420 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 2045,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 1696,
-      "end": 1724,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 1700,
-          "end": 1723,
           "id": {
             "type": "Identifier",
+            "name": "re1",
             "start": 1700,
-            "end": 1703,
-            "name": "re1"
+            "end": 1703
           },
           "init": {
             "type": "Literal",
-            "start": 1706,
-            "end": 1723,
             "value": null,
             "raw": "/(?-i:a(?i:b))c/i",
             "regex": {
               "pattern": "(?-i:a(?i:b))c",
               "flags": "i"
-            }
-          }
+            },
+            "start": 1706,
+            "end": 1723
+          },
+          "start": 1700,
+          "end": 1723
         }
-      ]
+      ],
+      "start": 1696,
+      "end": 1724
     },
     {
       "type": "ExpressionStatement",
-      "start": 1725,
-      "end": 1781,
       "expression": {
         "type": "CallExpression",
-        "start": 1725,
-        "end": 1780,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1725,
-          "end": 1731,
-          "name": "assert"
+          "end": 1731
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1732,
-            "end": 1748,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 1733,
-              "end": 1748,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1733,
-                "end": 1741,
                 "object": {
                   "type": "Identifier",
+                  "name": "re1",
                   "start": 1733,
-                  "end": 1736,
-                  "name": "re1"
+                  "end": 1736
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 1737,
-                  "end": 1741,
-                  "name": "test"
+                  "end": 1741
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1733,
+                "end": 1741
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1742,
-                  "end": 1747,
                   "value": "ABC",
-                  "raw": "\"ABC\""
+                  "raw": "\"ABC\"",
+                  "start": 1742,
+                  "end": 1747
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1733,
+              "end": 1748
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1732,
+            "end": 1748
           },
           {
             "type": "Literal",
-            "start": 1750,
-            "end": 1779,
             "value": "a should not match A in ABC",
-            "raw": "\"a should not match A in ABC\""
+            "raw": "\"a should not match A in ABC\"",
+            "start": 1750,
+            "end": 1779
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1725,
+        "end": 1780
+      },
+      "start": 1725,
+      "end": 1781
     },
     {
       "type": "ExpressionStatement",
-      "start": 1782,
-      "end": 1838,
       "expression": {
         "type": "CallExpression",
-        "start": 1782,
-        "end": 1837,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1782,
-          "end": 1788,
-          "name": "assert"
+          "end": 1788
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1789,
-            "end": 1805,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 1790,
-              "end": 1805,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1790,
-                "end": 1798,
                 "object": {
                   "type": "Identifier",
+                  "name": "re1",
                   "start": 1790,
-                  "end": 1793,
-                  "name": "re1"
+                  "end": 1793
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 1794,
-                  "end": 1798,
-                  "name": "test"
+                  "end": 1798
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1790,
+                "end": 1798
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1799,
-                  "end": 1804,
                   "value": "ABc",
-                  "raw": "\"ABc\""
+                  "raw": "\"ABc\"",
+                  "start": 1799,
+                  "end": 1804
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1790,
+              "end": 1805
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1789,
+            "end": 1805
           },
           {
             "type": "Literal",
-            "start": 1807,
-            "end": 1836,
             "value": "a should not match A in ABc",
-            "raw": "\"a should not match A in ABc\""
+            "raw": "\"a should not match A in ABc\"",
+            "start": 1807,
+            "end": 1836
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1782,
+        "end": 1837
+      },
+      "start": 1782,
+      "end": 1838
     },
     {
       "type": "ExpressionStatement",
-      "start": 1839,
-      "end": 1895,
       "expression": {
         "type": "CallExpression",
-        "start": 1839,
-        "end": 1894,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1839,
-          "end": 1845,
-          "name": "assert"
+          "end": 1845
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 1846,
-            "end": 1862,
             "operator": "!",
             "argument": {
               "type": "CallExpression",
-              "start": 1847,
-              "end": 1862,
               "callee": {
                 "type": "MemberExpression",
-                "start": 1847,
-                "end": 1855,
                 "object": {
                   "type": "Identifier",
+                  "name": "re1",
                   "start": 1847,
-                  "end": 1850,
-                  "name": "re1"
+                  "end": 1850
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "test",
                   "start": 1851,
-                  "end": 1855,
-                  "name": "test"
+                  "end": 1855
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 1847,
+                "end": 1855
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 1856,
-                  "end": 1861,
                   "value": "Abc",
-                  "raw": "\"Abc\""
+                  "raw": "\"Abc\"",
+                  "start": 1856,
+                  "end": 1861
                 }
               ],
-              "optional": false
+              "optional": false,
+              "start": 1847,
+              "end": 1862
             },
-            "prefix": true
+            "prefix": true,
+            "start": 1846,
+            "end": 1862
           },
           {
             "type": "Literal",
-            "start": 1864,
-            "end": 1893,
             "value": "a should not match A in Abc",
-            "raw": "\"a should not match A in Abc\""
+            "raw": "\"a should not match A in Abc\"",
+            "start": 1864,
+            "end": 1893
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1839,
+        "end": 1894
+      },
+      "start": 1839,
+      "end": 1895
     },
     {
       "type": "ExpressionStatement",
-      "start": 1896,
-      "end": 1947,
       "expression": {
         "type": "CallExpression",
-        "start": 1896,
-        "end": 1946,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1896,
-          "end": 1902,
-          "name": "assert"
+          "end": 1902
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1903,
-            "end": 1918,
             "callee": {
               "type": "MemberExpression",
-              "start": 1903,
-              "end": 1911,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 1903,
-                "end": 1906,
-                "name": "re1"
+                "end": 1906
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1907,
-                "end": 1911,
-                "name": "test"
+                "end": 1911
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1903,
+              "end": 1911
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1912,
-                "end": 1917,
                 "value": "aBc",
-                "raw": "\"aBc\""
+                "raw": "\"aBc\"",
+                "start": 1912,
+                "end": 1917
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1903,
+            "end": 1918
           },
           {
             "type": "Literal",
-            "start": 1920,
-            "end": 1945,
             "value": "b should match B in aBc",
-            "raw": "\"b should match B in aBc\""
+            "raw": "\"b should match B in aBc\"",
+            "start": 1920,
+            "end": 1945
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1896,
+        "end": 1946
+      },
+      "start": 1896,
+      "end": 1947
     },
     {
       "type": "ExpressionStatement",
-      "start": 1948,
-      "end": 1999,
       "expression": {
         "type": "CallExpression",
-        "start": 1948,
-        "end": 1998,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 1948,
-          "end": 1954,
-          "name": "assert"
+          "end": 1954
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 1955,
-            "end": 1970,
             "callee": {
               "type": "MemberExpression",
-              "start": 1955,
-              "end": 1963,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 1955,
-                "end": 1958,
-                "name": "re1"
+                "end": 1958
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 1959,
-                "end": 1963,
-                "name": "test"
+                "end": 1963
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 1955,
+              "end": 1963
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 1964,
-                "end": 1969,
                 "value": "abC",
-                "raw": "\"abC\""
+                "raw": "\"abC\"",
+                "start": 1964,
+                "end": 1969
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 1955,
+            "end": 1970
           },
           {
             "type": "Literal",
-            "start": 1972,
-            "end": 1997,
             "value": "c should match C in abC",
-            "raw": "\"c should match C in abC\""
+            "raw": "\"c should match C in abC\"",
+            "start": 1972,
+            "end": 1997
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 1948,
+        "end": 1998
+      },
+      "start": 1948,
+      "end": 1999
     },
     {
       "type": "ExpressionStatement",
-      "start": 2000,
-      "end": 2044,
       "expression": {
         "type": "CallExpression",
-        "start": 2000,
-        "end": 2043,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 2000,
-          "end": 2006,
-          "name": "assert"
+          "end": 2006
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 2007,
-            "end": 2022,
             "callee": {
               "type": "MemberExpression",
-              "start": 2007,
-              "end": 2015,
               "object": {
                 "type": "Identifier",
+                "name": "re1",
                 "start": 2007,
-                "end": 2010,
-                "name": "re1"
+                "end": 2010
               },
               "property": {
                 "type": "Identifier",
+                "name": "test",
                 "start": 2011,
-                "end": 2015,
-                "name": "test"
+                "end": 2015
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 2007,
+              "end": 2015
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 2016,
-                "end": 2021,
                 "value": "abc",
-                "raw": "\"abc\""
+                "raw": "\"abc\"",
+                "start": 2016,
+                "end": 2021
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 2007,
+            "end": 2022
           },
           {
             "type": "Literal",
-            "start": 2024,
-            "end": 2042,
             "value": "should match abc",
-            "raw": "\"should match abc\""
+            "raw": "\"should match abc\"",
+            "start": 2024,
+            "end": 2042
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 2000,
+        "end": 2043
+      },
+      "start": 2000,
+      "end": 2044
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 2045
 }

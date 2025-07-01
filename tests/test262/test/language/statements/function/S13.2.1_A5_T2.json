@@ -1,385 +1,385 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 970,
   "body": [
     {
       "type": "FunctionDeclaration",
-      "start": 462,
-      "end": 562,
       "id": {
         "type": "Identifier",
+        "name": "derivative",
         "start": 471,
-        "end": 481,
-        "name": "derivative"
+        "end": 481
       },
       "generator": false,
       "async": false,
       "params": [
         {
           "type": "Identifier",
+          "name": "f",
           "start": 482,
-          "end": 483,
-          "name": "f"
+          "end": 483
         },
         {
           "type": "Identifier",
+          "name": "dx",
           "start": 485,
-          "end": 487,
-          "name": "dx"
+          "end": 487
         }
       ],
       "body": {
         "type": "BlockStatement",
-        "start": 489,
-        "end": 562,
         "body": [
           {
             "type": "ReturnStatement",
-            "start": 495,
-            "end": 560,
             "argument": {
               "type": "FunctionExpression",
-              "start": 502,
-              "end": 559,
               "id": null,
               "generator": false,
               "async": false,
               "params": [
                 {
                   "type": "Identifier",
+                  "name": "x",
                   "start": 511,
-                  "end": 512,
-                  "name": "x"
+                  "end": 512
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 514,
-                "end": 559,
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 522,
-                    "end": 553,
                     "argument": {
                       "type": "BinaryExpression",
-                      "start": 529,
-                      "end": 552,
                       "left": {
                         "type": "ParenthesizedExpression",
-                        "start": 529,
-                        "end": 547,
                         "expression": {
                           "type": "BinaryExpression",
-                          "start": 530,
-                          "end": 546,
                           "left": {
                             "type": "CallExpression",
-                            "start": 530,
-                            "end": 539,
                             "callee": {
                               "type": "Identifier",
+                              "name": "f",
                               "start": 530,
-                              "end": 531,
-                              "name": "f"
+                              "end": 531
                             },
                             "arguments": [
                               {
                                 "type": "BinaryExpression",
-                                "start": 532,
-                                "end": 538,
                                 "left": {
                                   "type": "Identifier",
+                                  "name": "x",
                                   "start": 532,
-                                  "end": 533,
-                                  "name": "x"
+                                  "end": 533
                                 },
                                 "operator": "+",
                                 "right": {
                                   "type": "Identifier",
+                                  "name": "dx",
                                   "start": 536,
-                                  "end": 538,
-                                  "name": "dx"
-                                }
+                                  "end": 538
+                                },
+                                "start": 532,
+                                "end": 538
                               }
                             ],
-                            "optional": false
+                            "optional": false,
+                            "start": 530,
+                            "end": 539
                           },
                           "operator": "-",
                           "right": {
                             "type": "CallExpression",
-                            "start": 542,
-                            "end": 546,
                             "callee": {
                               "type": "Identifier",
+                              "name": "f",
                               "start": 542,
-                              "end": 543,
-                              "name": "f"
+                              "end": 543
                             },
                             "arguments": [
                               {
                                 "type": "Identifier",
+                                "name": "x",
                                 "start": 544,
-                                "end": 545,
-                                "name": "x"
+                                "end": 545
                               }
                             ],
-                            "optional": false
-                          }
-                        }
+                            "optional": false,
+                            "start": 542,
+                            "end": 546
+                          },
+                          "start": 530,
+                          "end": 546
+                        },
+                        "start": 529,
+                        "end": 547
                       },
                       "operator": "/",
                       "right": {
                         "type": "Identifier",
+                        "name": "dx",
                         "start": 550,
-                        "end": 552,
-                        "name": "dx"
-                      }
-                    }
+                        "end": 552
+                      },
+                      "start": 529,
+                      "end": 552
+                    },
+                    "start": 522,
+                    "end": 553
                   }
-                ]
+                ],
+                "start": 514,
+                "end": 559
               },
-              "expression": false
-            }
+              "expression": false,
+              "start": 502,
+              "end": 559
+            },
+            "start": 495,
+            "end": 560
           }
-        ]
+        ],
+        "start": 489,
+        "end": 562
       },
-      "expression": false
+      "expression": false,
+      "start": 462,
+      "end": 562
     },
     {
       "type": "IfStatement",
-      "start": 653,
-      "end": 887,
       "test": {
         "type": "BinaryExpression",
-        "start": 657,
-        "end": 753,
         "left": {
           "type": "CallExpression",
-          "start": 657,
-          "end": 740,
           "callee": {
             "type": "MemberExpression",
-            "start": 657,
-            "end": 665,
             "object": {
               "type": "Identifier",
+              "name": "Math",
               "start": 657,
-              "end": 661,
-              "name": "Math"
+              "end": 661
             },
             "property": {
               "type": "Identifier",
+              "name": "abs",
               "start": 662,
-              "end": 665,
-              "name": "abs"
+              "end": 665
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 657,
+            "end": 665
           },
           "arguments": [
             {
               "type": "BinaryExpression",
-              "start": 666,
-              "end": 739,
               "left": {
                 "type": "CallExpression",
-                "start": 666,
-                "end": 697,
                 "callee": {
                   "type": "CallExpression",
-                  "start": 666,
-                  "end": 694,
                   "callee": {
                     "type": "Identifier",
+                    "name": "derivative",
                     "start": 666,
-                    "end": 676,
-                    "name": "derivative"
+                    "end": 676
                   },
                   "arguments": [
                     {
                       "type": "MemberExpression",
-                      "start": 677,
-                      "end": 685,
                       "object": {
                         "type": "Identifier",
+                        "name": "Math",
                         "start": 677,
-                        "end": 681,
-                        "name": "Math"
+                        "end": 681
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sin",
                         "start": 682,
-                        "end": 685,
-                        "name": "sin"
+                        "end": 685
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 677,
+                      "end": 685
                     },
                     {
                       "type": "Literal",
-                      "start": 687,
-                      "end": 693,
                       "value": 0.0001,
-                      "raw": "0.0001"
+                      "raw": "0.0001",
+                      "start": 687,
+                      "end": 693
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 666,
+                  "end": 694
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 695,
-                    "end": 696,
                     "value": 0,
-                    "raw": "0"
+                    "raw": "0",
+                    "start": 695,
+                    "end": 696
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 666,
+                "end": 697
               },
               "operator": "-",
               "right": {
                 "type": "CallExpression",
-                "start": 700,
-                "end": 739,
                 "callee": {
                   "type": "CallExpression",
-                  "start": 700,
-                  "end": 728,
                   "callee": {
                     "type": "Identifier",
+                    "name": "derivative",
                     "start": 700,
-                    "end": 710,
-                    "name": "derivative"
+                    "end": 710
                   },
                   "arguments": [
                     {
                       "type": "MemberExpression",
-                      "start": 711,
-                      "end": 719,
                       "object": {
                         "type": "Identifier",
+                        "name": "Math",
                         "start": 711,
-                        "end": 715,
-                        "name": "Math"
+                        "end": 715
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "sin",
                         "start": 716,
-                        "end": 719,
-                        "name": "sin"
+                        "end": 719
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 711,
+                      "end": 719
                     },
                     {
                       "type": "Literal",
-                      "start": 721,
-                      "end": 727,
                       "value": 0.0001,
-                      "raw": "0.0001"
+                      "raw": "0.0001",
+                      "start": 721,
+                      "end": 727
                     }
                   ],
-                  "optional": false
+                  "optional": false,
+                  "start": 700,
+                  "end": 728
                 },
                 "arguments": [
                   {
                     "type": "BinaryExpression",
-                    "start": 729,
-                    "end": 738,
                     "left": {
                       "type": "Literal",
-                      "start": 729,
-                      "end": 730,
                       "value": 2,
-                      "raw": "2"
+                      "raw": "2",
+                      "start": 729,
+                      "end": 730
                     },
                     "operator": "*",
                     "right": {
                       "type": "MemberExpression",
-                      "start": 731,
-                      "end": 738,
                       "object": {
                         "type": "Identifier",
+                        "name": "Math",
                         "start": 731,
-                        "end": 735,
-                        "name": "Math"
+                        "end": 735
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "PI",
                         "start": 736,
-                        "end": 738,
-                        "name": "PI"
+                        "end": 738
                       },
                       "optional": false,
-                      "computed": false
-                    }
+                      "computed": false,
+                      "start": 731,
+                      "end": 738
+                    },
+                    "start": 729,
+                    "end": 738
                   }
                 ],
-                "optional": false
-              }
+                "optional": false,
+                "start": 700,
+                "end": 739
+              },
+              "start": 666,
+              "end": 739
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 657,
+          "end": 740
         },
         "operator": ">=",
         "right": {
           "type": "BinaryExpression",
-          "start": 744,
-          "end": 753,
           "left": {
             "type": "Literal",
-            "start": 744,
-            "end": 745,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 744,
+            "end": 745
           },
           "operator": "/",
           "right": {
             "type": "Literal",
-            "start": 746,
-            "end": 753,
             "value": 65536,
-            "raw": "65536.0"
-          }
-        }
+            "raw": "65536.0",
+            "start": 746,
+            "end": 753
+          },
+          "start": 744,
+          "end": 753
+        },
+        "start": 657,
+        "end": 753
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 755,
-        "end": 887,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 758,
-            "end": 885,
             "argument": {
               "type": "NewExpression",
-              "start": 764,
-              "end": 884,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 768,
-                "end": 780,
-                "name": "Test262Error"
+                "end": 780
               },
               "arguments": [
                 {
                   "type": "Literal",
-                  "start": 781,
-                  "end": 883,
                   "value": "#1: Math.abs(derivative(Math.sin, 0.0001)(0) - derivative(Math.sin, 0.0001)(2*Math.PI)) <= 1/65536.0",
-                  "raw": "'#1: Math.abs(derivative(Math.sin, 0.0001)(0) - derivative(Math.sin, 0.0001)(2*Math.PI)) <= 1/65536.0'"
+                  "raw": "'#1: Math.abs(derivative(Math.sin, 0.0001)(0) - derivative(Math.sin, 0.0001)(2*Math.PI)) <= 1/65536.0'",
+                  "start": 781,
+                  "end": 883
                 }
-              ]
-            }
+              ],
+              "start": 764,
+              "end": 884
+            },
+            "start": 758,
+            "end": 885
           }
-        ]
+        ],
+        "start": 755,
+        "end": 887
       },
-      "alternate": null
+      "alternate": null,
+      "start": 653,
+      "end": 887
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 970
 }

@@ -1,220 +1,220 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 599,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 313,
-      "end": 325,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 317,
-          "end": 324,
           "id": {
             "type": "Identifier",
+            "name": "obj",
             "start": 317,
-            "end": 320,
-            "name": "obj"
+            "end": 320
           },
           "init": {
             "type": "Literal",
-            "start": 323,
-            "end": 324,
             "value": 1,
-            "raw": "1"
-          }
+            "raw": "1",
+            "start": 323,
+            "end": 324
+          },
+          "start": 317,
+          "end": 324
         }
-      ]
+      ],
+      "start": 313,
+      "end": 325
     },
     {
       "type": "VariableDeclaration",
-      "start": 327,
-      "end": 395,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 331,
-          "end": 394,
           "id": {
             "type": "Identifier",
+            "name": "retobj",
             "start": 331,
-            "end": 337,
-            "name": "retobj"
+            "end": 337
           },
           "init": {
             "type": "CallExpression",
-            "start": 340,
-            "end": 394,
             "callee": {
               "type": "MemberExpression",
-              "start": 340,
-              "end": 389,
               "object": {
                 "type": "CallExpression",
-                "start": 340,
-                "end": 384,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Function",
                   "start": 340,
-                  "end": 348,
-                  "name": "Function"
+                  "end": 348
                 },
                 "arguments": [
                   {
                     "type": "Literal",
-                    "start": 349,
-                    "end": 383,
                     "value": "this.touched= true; return this;",
-                    "raw": "\"this.touched= true; return this;\""
+                    "raw": "\"this.touched= true; return this;\"",
+                    "start": 349,
+                    "end": 383
                   }
                 ],
-                "optional": false
+                "optional": false,
+                "start": 340,
+                "end": 384
               },
               "property": {
                 "type": "Identifier",
+                "name": "call",
                 "start": 385,
-                "end": 389,
-                "name": "call"
+                "end": 389
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 340,
+              "end": 389
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 390,
-                "end": 393,
-                "name": "obj"
+                "end": 393
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 340,
+            "end": 394
+          },
+          "start": 331,
+          "end": 394
         }
-      ]
+      ],
+      "start": 327,
+      "end": 395
     },
     {
       "type": "ExpressionStatement",
-      "start": 397,
-      "end": 514,
       "expression": {
         "type": "CallExpression",
-        "start": 397,
-        "end": 513,
         "callee": {
           "type": "MemberExpression",
-          "start": 397,
-          "end": 413,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 397,
-            "end": 403,
-            "name": "assert"
+            "end": 403
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 404,
-            "end": 413,
-            "name": "sameValue"
+            "end": 413
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 397,
+          "end": 413
         },
         "arguments": [
           {
             "type": "UnaryExpression",
-            "start": 414,
-            "end": 432,
             "operator": "typeof",
             "argument": {
               "type": "MemberExpression",
-              "start": 421,
-              "end": 432,
               "object": {
                 "type": "Identifier",
+                "name": "obj",
                 "start": 421,
-                "end": 424,
-                "name": "obj"
+                "end": 424
               },
               "property": {
                 "type": "Identifier",
+                "name": "touched",
                 "start": 425,
-                "end": 432,
-                "name": "touched"
+                "end": 432
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 421,
+              "end": 432
             },
-            "prefix": true
+            "prefix": true,
+            "start": 414,
+            "end": 432
           },
           {
             "type": "Literal",
-            "start": 434,
-            "end": 445,
             "value": "undefined",
-            "raw": "\"undefined\""
+            "raw": "\"undefined\"",
+            "start": 434,
+            "end": 445
           },
           {
             "type": "Literal",
-            "start": 447,
-            "end": 512,
             "value": "The value of `typeof obj.touched` is expected to be \"undefined\"",
-            "raw": "'The value of `typeof obj.touched` is expected to be \"undefined\"'"
+            "raw": "'The value of `typeof obj.touched` is expected to be \"undefined\"'",
+            "start": 447,
+            "end": 512
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 397,
+        "end": 513
+      },
+      "start": 397,
+      "end": 514
     },
     {
       "type": "ExpressionStatement",
-      "start": 515,
-      "end": 598,
       "expression": {
         "type": "CallExpression",
-        "start": 515,
-        "end": 597,
         "callee": {
           "type": "Identifier",
+          "name": "assert",
           "start": 515,
-          "end": 521,
-          "name": "assert"
+          "end": 521
         },
         "arguments": [
           {
             "type": "MemberExpression",
-            "start": 522,
-            "end": 539,
             "object": {
               "type": "Identifier",
+              "name": "retobj",
               "start": 522,
-              "end": 528,
-              "name": "retobj"
+              "end": 528
             },
             "property": {
               "type": "Literal",
-              "start": 529,
-              "end": 538,
               "value": "touched",
-              "raw": "\"touched\""
+              "raw": "\"touched\"",
+              "start": 529,
+              "end": 538
             },
             "optional": false,
-            "computed": true
+            "computed": true,
+            "start": 522,
+            "end": 539
           },
           {
             "type": "Literal",
-            "start": 541,
-            "end": 596,
             "value": "The value of retobj[\"touched\"] is expected to be true",
-            "raw": "'The value of retobj[\"touched\"] is expected to be true'"
+            "raw": "'The value of retobj[\"touched\"] is expected to be true'",
+            "start": 541,
+            "end": 596
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 515,
+        "end": 597
+      },
+      "start": 515,
+      "end": 598
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 599
 }

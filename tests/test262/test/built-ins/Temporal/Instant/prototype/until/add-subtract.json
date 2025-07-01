@@ -1,497 +1,497 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 718,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 264,
-      "end": 336,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 270,
-          "end": 335,
           "id": {
             "type": "Identifier",
+            "name": "earlier",
             "start": 270,
-            "end": 277,
-            "name": "earlier"
+            "end": 277
           },
           "init": {
             "type": "CallExpression",
-            "start": 280,
-            "end": 335,
             "callee": {
               "type": "MemberExpression",
-              "start": 280,
-              "end": 301,
               "object": {
                 "type": "MemberExpression",
-                "start": 280,
-                "end": 296,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 280,
-                  "end": 288,
-                  "name": "Temporal"
+                  "end": 288
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Instant",
                   "start": 289,
-                  "end": 296,
-                  "name": "Instant"
+                  "end": 296
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 280,
+                "end": 296
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 297,
-                "end": 301,
-                "name": "from"
+                "end": 301
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 280,
+              "end": 301
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 302,
-                "end": 334,
                 "value": "1969-07-24T16:50:35.123456789Z",
-                "raw": "\"1969-07-24T16:50:35.123456789Z\""
+                "raw": "\"1969-07-24T16:50:35.123456789Z\"",
+                "start": 302,
+                "end": 334
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 280,
+            "end": 335
+          },
+          "start": 270,
+          "end": 335
         }
-      ]
+      ],
+      "start": 264,
+      "end": 336
     },
     {
       "type": "VariableDeclaration",
-      "start": 337,
-      "end": 407,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 343,
-          "end": 406,
           "id": {
             "type": "Identifier",
+            "name": "later",
             "start": 343,
-            "end": 348,
-            "name": "later"
+            "end": 348
           },
           "init": {
             "type": "CallExpression",
-            "start": 351,
-            "end": 406,
             "callee": {
               "type": "MemberExpression",
-              "start": 351,
-              "end": 372,
               "object": {
                 "type": "MemberExpression",
-                "start": 351,
-                "end": 367,
                 "object": {
                   "type": "Identifier",
+                  "name": "Temporal",
                   "start": 351,
-                  "end": 359,
-                  "name": "Temporal"
+                  "end": 359
                 },
                 "property": {
                   "type": "Identifier",
+                  "name": "Instant",
                   "start": 360,
-                  "end": 367,
-                  "name": "Instant"
+                  "end": 367
                 },
                 "optional": false,
-                "computed": false
+                "computed": false,
+                "start": 351,
+                "end": 367
               },
               "property": {
                 "type": "Identifier",
+                "name": "from",
                 "start": 368,
-                "end": 372,
-                "name": "from"
+                "end": 372
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 351,
+              "end": 372
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 373,
-                "end": 405,
                 "value": "2019-10-29T10:46:38.271986102Z",
-                "raw": "\"2019-10-29T10:46:38.271986102Z\""
+                "raw": "\"2019-10-29T10:46:38.271986102Z\"",
+                "start": 373,
+                "end": 405
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 351,
+            "end": 406
+          },
+          "start": 343,
+          "end": 406
         }
-      ]
+      ],
+      "start": 337,
+      "end": 407
     },
     {
       "type": "VariableDeclaration",
-      "start": 408,
-      "end": 442,
       "kind": "const",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 414,
-          "end": 441,
           "id": {
             "type": "Identifier",
+            "name": "diff",
             "start": 414,
-            "end": 418,
-            "name": "diff"
+            "end": 418
           },
           "init": {
             "type": "CallExpression",
-            "start": 421,
-            "end": 441,
             "callee": {
               "type": "MemberExpression",
-              "start": 421,
-              "end": 434,
               "object": {
                 "type": "Identifier",
+                "name": "earlier",
                 "start": 421,
-                "end": 428,
-                "name": "earlier"
+                "end": 428
               },
               "property": {
                 "type": "Identifier",
+                "name": "until",
                 "start": 429,
-                "end": 434,
-                "name": "until"
+                "end": 434
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 421,
+              "end": 434
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "later",
                 "start": 435,
-                "end": 440,
-                "name": "later"
+                "end": 440
               }
             ],
-            "optional": false
-          }
+            "optional": false,
+            "start": 421,
+            "end": 441
+          },
+          "start": 414,
+          "end": 441
         }
-      ]
+      ],
+      "start": 408,
+      "end": 442
     },
     {
       "type": "ExpressionStatement",
-      "start": 444,
-      "end": 519,
       "expression": {
         "type": "CallExpression",
-        "start": 444,
-        "end": 518,
         "callee": {
           "type": "MemberExpression",
-          "start": 444,
-          "end": 480,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 444,
-            "end": 459,
-            "name": "TemporalHelpers"
+            "end": 459
           },
           "property": {
             "type": "Identifier",
+            "name": "assertDurationsEqual",
             "start": 460,
-            "end": 480,
-            "name": "assertDurationsEqual"
+            "end": 480
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 444,
+          "end": 480
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 481,
-            "end": 501,
             "callee": {
               "type": "MemberExpression",
-              "start": 481,
-              "end": 492,
               "object": {
                 "type": "Identifier",
+                "name": "later",
                 "start": 481,
-                "end": 486,
-                "name": "later"
+                "end": 486
               },
               "property": {
                 "type": "Identifier",
+                "name": "until",
                 "start": 487,
-                "end": 492,
-                "name": "until"
+                "end": 492
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 481,
+              "end": 492
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "earlier",
                 "start": 493,
-                "end": 500,
-                "name": "earlier"
+                "end": 500
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 481,
+            "end": 501
           },
           {
             "type": "CallExpression",
-            "start": 503,
-            "end": 517,
             "callee": {
               "type": "MemberExpression",
-              "start": 503,
-              "end": 515,
               "object": {
                 "type": "Identifier",
+                "name": "diff",
                 "start": 503,
-                "end": 507,
-                "name": "diff"
+                "end": 507
               },
               "property": {
                 "type": "Identifier",
+                "name": "negated",
                 "start": 508,
-                "end": 515,
-                "name": "negated"
+                "end": 515
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 503,
+              "end": 515
             },
             "arguments": [],
-            "optional": false
+            "optional": false,
+            "start": 503,
+            "end": 517
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 444,
+        "end": 518
+      },
+      "start": 444,
+      "end": 519
     },
     {
       "type": "ExpressionStatement",
-      "start": 520,
-      "end": 585,
       "expression": {
         "type": "CallExpression",
-        "start": 520,
-        "end": 584,
         "callee": {
           "type": "MemberExpression",
-          "start": 520,
-          "end": 556,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 520,
-            "end": 535,
-            "name": "TemporalHelpers"
+            "end": 535
           },
           "property": {
             "type": "Identifier",
+            "name": "assertDurationsEqual",
             "start": 536,
-            "end": 556,
-            "name": "assertDurationsEqual"
+            "end": 556
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 520,
+          "end": 556
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 557,
-            "end": 577,
             "callee": {
               "type": "MemberExpression",
-              "start": 557,
-              "end": 568,
               "object": {
                 "type": "Identifier",
+                "name": "later",
                 "start": 557,
-                "end": 562,
-                "name": "later"
+                "end": 562
               },
               "property": {
                 "type": "Identifier",
+                "name": "since",
                 "start": 563,
-                "end": 568,
-                "name": "since"
+                "end": 568
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 557,
+              "end": 568
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "earlier",
                 "start": 569,
-                "end": 576,
-                "name": "earlier"
+                "end": 576
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 557,
+            "end": 577
           },
           {
             "type": "Identifier",
+            "name": "diff",
             "start": 579,
-            "end": 583,
-            "name": "diff"
+            "end": 583
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 520,
+        "end": 584
+      },
+      "start": 520,
+      "end": 585
     },
     {
       "type": "ExpressionStatement",
-      "start": 586,
-      "end": 648,
       "expression": {
         "type": "CallExpression",
-        "start": 586,
-        "end": 647,
         "callee": {
           "type": "MemberExpression",
-          "start": 586,
-          "end": 621,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 586,
-            "end": 601,
-            "name": "TemporalHelpers"
+            "end": 601
           },
           "property": {
             "type": "Identifier",
+            "name": "assertInstantsEqual",
             "start": 602,
-            "end": 621,
-            "name": "assertInstantsEqual"
+            "end": 621
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 586,
+          "end": 621
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 622,
-            "end": 639,
             "callee": {
               "type": "MemberExpression",
-              "start": 622,
-              "end": 633,
               "object": {
                 "type": "Identifier",
+                "name": "earlier",
                 "start": 622,
-                "end": 629,
-                "name": "earlier"
+                "end": 629
               },
               "property": {
                 "type": "Identifier",
+                "name": "add",
                 "start": 630,
-                "end": 633,
-                "name": "add"
+                "end": 633
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 622,
+              "end": 633
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "diff",
                 "start": 634,
-                "end": 638,
-                "name": "diff"
+                "end": 638
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 622,
+            "end": 639
           },
           {
             "type": "Identifier",
+            "name": "later",
             "start": 641,
-            "end": 646,
-            "name": "later"
+            "end": 646
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 586,
+        "end": 647
+      },
+      "start": 586,
+      "end": 648
     },
     {
       "type": "ExpressionStatement",
-      "start": 649,
-      "end": 716,
       "expression": {
         "type": "CallExpression",
-        "start": 649,
-        "end": 715,
         "callee": {
           "type": "MemberExpression",
-          "start": 649,
-          "end": 684,
           "object": {
             "type": "Identifier",
+            "name": "TemporalHelpers",
             "start": 649,
-            "end": 664,
-            "name": "TemporalHelpers"
+            "end": 664
           },
           "property": {
             "type": "Identifier",
+            "name": "assertInstantsEqual",
             "start": 665,
-            "end": 684,
-            "name": "assertInstantsEqual"
+            "end": 684
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 649,
+          "end": 684
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 685,
-            "end": 705,
             "callee": {
               "type": "MemberExpression",
-              "start": 685,
-              "end": 699,
               "object": {
                 "type": "Identifier",
+                "name": "later",
                 "start": 685,
-                "end": 690,
-                "name": "later"
+                "end": 690
               },
               "property": {
                 "type": "Identifier",
+                "name": "subtract",
                 "start": 691,
-                "end": 699,
-                "name": "subtract"
+                "end": 699
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 685,
+              "end": 699
             },
             "arguments": [
               {
                 "type": "Identifier",
+                "name": "diff",
                 "start": 700,
-                "end": 704,
-                "name": "diff"
+                "end": 704
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 685,
+            "end": 705
           },
           {
             "type": "Identifier",
+            "name": "earlier",
             "start": 707,
-            "end": 714,
-            "name": "earlier"
+            "end": 714
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 649,
+        "end": 715
+      },
+      "start": 649,
+      "end": 716
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 718
 }

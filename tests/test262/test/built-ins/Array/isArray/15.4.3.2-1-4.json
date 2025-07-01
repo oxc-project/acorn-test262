@@ -1,109 +1,109 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 352,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 245,
-      "end": 351,
       "expression": {
         "type": "CallExpression",
-        "start": 245,
-        "end": 350,
         "callee": {
           "type": "MemberExpression",
-          "start": 245,
-          "end": 261,
           "object": {
             "type": "Identifier",
+            "name": "assert",
             "start": 245,
-            "end": 251,
-            "name": "assert"
+            "end": 251
           },
           "property": {
             "type": "Identifier",
+            "name": "sameValue",
             "start": 252,
-            "end": 261,
-            "name": "sameValue"
+            "end": 261
           },
           "optional": false,
-          "computed": false
+          "computed": false,
+          "start": 245,
+          "end": 261
         },
         "arguments": [
           {
             "type": "CallExpression",
-            "start": 262,
-            "end": 291,
             "callee": {
               "type": "MemberExpression",
-              "start": 262,
-              "end": 275,
               "object": {
                 "type": "Identifier",
+                "name": "Array",
                 "start": 262,
-                "end": 267,
-                "name": "Array"
+                "end": 267
               },
               "property": {
                 "type": "Identifier",
+                "name": "isArray",
                 "start": 268,
-                "end": 275,
-                "name": "isArray"
+                "end": 275
               },
               "optional": false,
-              "computed": false
+              "computed": false,
+              "start": 262,
+              "end": 275
             },
             "arguments": [
               {
                 "type": "NewExpression",
-                "start": 276,
-                "end": 290,
                 "callee": {
                   "type": "Identifier",
+                  "name": "Number",
                   "start": 280,
-                  "end": 286,
-                  "name": "Number"
+                  "end": 286
                 },
                 "arguments": [
                   {
                     "type": "UnaryExpression",
-                    "start": 287,
-                    "end": 289,
                     "operator": "-",
                     "argument": {
                       "type": "Literal",
-                      "start": 288,
-                      "end": 289,
                       "value": 3,
-                      "raw": "3"
+                      "raw": "3",
+                      "start": 288,
+                      "end": 289
                     },
-                    "prefix": true
+                    "prefix": true,
+                    "start": 287,
+                    "end": 289
                   }
-                ]
+                ],
+                "start": 276,
+                "end": 290
               }
             ],
-            "optional": false
+            "optional": false,
+            "start": 262,
+            "end": 291
           },
           {
             "type": "Literal",
-            "start": 293,
-            "end": 298,
             "value": false,
-            "raw": "false"
+            "raw": "false",
+            "start": 293,
+            "end": 298
           },
           {
             "type": "Literal",
-            "start": 300,
-            "end": 349,
             "value": "Array.isArray(new Number(-3)) must return false",
-            "raw": "'Array.isArray(new Number(-3)) must return false'"
+            "raw": "'Array.isArray(new Number(-3)) must return false'",
+            "start": 300,
+            "end": 349
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 245,
+        "end": 350
+      },
+      "start": 245,
+      "end": 351
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 352
 }

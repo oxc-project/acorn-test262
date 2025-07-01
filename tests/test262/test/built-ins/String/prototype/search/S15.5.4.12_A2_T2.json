@@ -1,180 +1,180 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 683,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 287,
-      "end": 327,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 291,
-          "end": 326,
           "id": {
             "type": "Identifier",
+            "name": "aString",
             "start": 291,
-            "end": 298,
-            "name": "aString"
+            "end": 298
           },
           "init": {
             "type": "NewExpression",
-            "start": 301,
-            "end": 326,
             "callee": {
               "type": "Identifier",
+              "name": "String",
               "start": 305,
-              "end": 311,
-              "name": "String"
+              "end": 311
             },
             "arguments": [
               {
                 "type": "Literal",
-                "start": 312,
-                "end": 325,
                 "value": "test string",
-                "raw": "\"test string\""
+                "raw": "\"test string\"",
+                "start": 312,
+                "end": 325
               }
-            ]
-          }
+            ],
+            "start": 301,
+            "end": 326
+          },
+          "start": 291,
+          "end": 326
         }
-      ]
+      ],
+      "start": 287,
+      "end": 327
     },
     {
       "type": "IfStatement",
-      "start": 418,
-      "end": 600,
       "test": {
         "type": "BinaryExpression",
-        "start": 422,
-        "end": 453,
         "left": {
           "type": "CallExpression",
-          "start": 422,
-          "end": 446,
           "callee": {
             "type": "MemberExpression",
-            "start": 422,
-            "end": 436,
             "object": {
               "type": "Identifier",
+              "name": "aString",
               "start": 422,
-              "end": 429,
-              "name": "aString"
+              "end": 429
             },
             "property": {
               "type": "Identifier",
+              "name": "search",
               "start": 430,
-              "end": 436,
-              "name": "search"
+              "end": 436
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 422,
+            "end": 436
           },
           "arguments": [
             {
               "type": "Literal",
-              "start": 437,
-              "end": 445,
               "value": "String",
-              "raw": "\"String\""
+              "raw": "\"String\"",
+              "start": 437,
+              "end": 445
             }
           ],
-          "optional": false
+          "optional": false,
+          "start": 422,
+          "end": 446
         },
         "operator": "!==",
         "right": {
           "type": "UnaryExpression",
-          "start": 451,
-          "end": 453,
           "operator": "-",
           "argument": {
             "type": "Literal",
-            "start": 452,
-            "end": 453,
             "value": 1,
-            "raw": "1"
+            "raw": "1",
+            "start": 452,
+            "end": 453
           },
-          "prefix": true
-        }
+          "prefix": true,
+          "start": 451,
+          "end": 453
+        },
+        "start": 422,
+        "end": 453
       },
       "consequent": {
         "type": "BlockStatement",
-        "start": 455,
-        "end": 600,
         "body": [
           {
             "type": "ThrowStatement",
-            "start": 459,
-            "end": 598,
             "argument": {
               "type": "NewExpression",
-              "start": 465,
-              "end": 597,
               "callee": {
                 "type": "Identifier",
+                "name": "Test262Error",
                 "start": 469,
-                "end": 481,
-                "name": "Test262Error"
+                "end": 481
               },
               "arguments": [
                 {
                   "type": "BinaryExpression",
-                  "start": 482,
-                  "end": 596,
                   "left": {
                     "type": "Literal",
-                    "start": 482,
-                    "end": 569,
                     "value": "#1: var aString = new String(\"test string\"); aString.search(\"String\")=== -1. Actual: ",
-                    "raw": "'#1: var aString = new String(\"test string\"); aString.search(\"String\")=== -1. Actual: '"
+                    "raw": "'#1: var aString = new String(\"test string\"); aString.search(\"String\")=== -1. Actual: '",
+                    "start": 482,
+                    "end": 569
                   },
                   "operator": "+",
                   "right": {
                     "type": "CallExpression",
-                    "start": 572,
-                    "end": 596,
                     "callee": {
                       "type": "MemberExpression",
-                      "start": 572,
-                      "end": 586,
                       "object": {
                         "type": "Identifier",
+                        "name": "aString",
                         "start": 572,
-                        "end": 579,
-                        "name": "aString"
+                        "end": 579
                       },
                       "property": {
                         "type": "Identifier",
+                        "name": "search",
                         "start": 580,
-                        "end": 586,
-                        "name": "search"
+                        "end": 586
                       },
                       "optional": false,
-                      "computed": false
+                      "computed": false,
+                      "start": 572,
+                      "end": 586
                     },
                     "arguments": [
                       {
                         "type": "Literal",
-                        "start": 587,
-                        "end": 595,
                         "value": "String",
-                        "raw": "\"String\""
+                        "raw": "\"String\"",
+                        "start": 587,
+                        "end": 595
                       }
                     ],
-                    "optional": false
-                  }
+                    "optional": false,
+                    "start": 572,
+                    "end": 596
+                  },
+                  "start": 482,
+                  "end": 596
                 }
-              ]
-            }
+              ],
+              "start": 465,
+              "end": 597
+            },
+            "start": 459,
+            "end": 598
           }
-        ]
+        ],
+        "start": 455,
+        "end": 600
       },
-      "alternate": null
+      "alternate": null,
+      "start": 418,
+      "end": 600
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 683
 }

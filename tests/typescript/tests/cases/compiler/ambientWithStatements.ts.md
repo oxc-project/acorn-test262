@@ -2,38 +2,32 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 0,
-  "end": 370,
   "body": [
     {
       "type": "TSModuleDeclaration",
-      "start": 0,
-      "end": 370,
       "id": {
         "type": "Identifier",
-        "start": 15,
-        "end": 16,
         "decorators": [],
         "name": "M",
         "optional": false,
-        "typeAnnotation": null
+        "typeAnnotation": null,
+        "start": 15,
+        "end": 16
       },
       "body": {
         "type": "TSModuleBlock",
-        "start": 17,
-        "end": 370,
         "body": [
           {
             "type": "BreakStatement",
+            "label": null,
             "start": 23,
-            "end": 29,
-            "label": null
+            "end": 29
           },
           {
             "type": "ContinueStatement",
+            "label": null,
             "start": 34,
-            "end": 43,
-            "label": null
+            "end": 43
           },
           {
             "type": "DebuggerStatement",
@@ -42,283 +36,289 @@ __ESTREE_TEST__:PASS:
           },
           {
             "type": "DoWhileStatement",
-            "start": 62,
-            "end": 82,
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 65,
-              "end": 68,
-              "body": []
+              "end": 68
             },
             "test": {
               "type": "Literal",
-              "start": 76,
-              "end": 80,
               "value": true,
-              "raw": "true"
-            }
+              "raw": "true",
+              "start": 76,
+              "end": 80
+            },
+            "start": 62,
+            "end": 82
           },
           {
             "type": "VariableDeclaration",
-            "start": 87,
-            "end": 93,
             "kind": "var",
             "declarations": [
               {
                 "type": "VariableDeclarator",
-                "start": 91,
-                "end": 92,
                 "id": {
                   "type": "Identifier",
-                  "start": 91,
-                  "end": 92,
                   "decorators": [],
                   "name": "x",
                   "optional": false,
-                  "typeAnnotation": null
+                  "typeAnnotation": null,
+                  "start": 91,
+                  "end": 92
                 },
                 "init": null,
-                "definite": false
+                "definite": false,
+                "start": 91,
+                "end": 92
               }
             ],
-            "declare": false
+            "declare": false,
+            "start": 87,
+            "end": 93
           },
           {
             "type": "ForInStatement",
-            "start": 98,
-            "end": 117,
             "left": {
               "type": "Identifier",
-              "start": 103,
-              "end": 104,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 103,
+              "end": 104
             },
             "right": {
               "type": "Literal",
-              "start": 108,
-              "end": 112,
               "value": null,
-              "raw": "null"
+              "raw": "null",
+              "start": 108,
+              "end": 112
             },
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 114,
-              "end": 117,
-              "body": []
-            }
+              "end": 117
+            },
+            "start": 98,
+            "end": 117
           },
           {
             "type": "IfStatement",
-            "start": 122,
-            "end": 144,
             "test": {
               "type": "Literal",
-              "start": 126,
-              "end": 130,
               "value": true,
-              "raw": "true"
+              "raw": "true",
+              "start": 126,
+              "end": 130
             },
             "consequent": {
               "type": "BlockStatement",
+              "body": [],
               "start": 132,
-              "end": 135,
-              "body": []
+              "end": 135
             },
             "alternate": {
               "type": "BlockStatement",
+              "body": [],
               "start": 141,
-              "end": 144,
-              "body": []
-            }
+              "end": 144
+            },
+            "start": 122,
+            "end": 144
           },
           {
             "type": "ExpressionStatement",
-            "start": 149,
-            "end": 151,
             "expression": {
               "type": "Literal",
-              "start": 149,
-              "end": 150,
               "value": 1,
-              "raw": "1"
+              "raw": "1",
+              "start": 149,
+              "end": 150
             },
-            "directive": null
+            "directive": null,
+            "start": 149,
+            "end": 151
           },
           {
             "type": "LabeledStatement",
-            "start": 156,
-            "end": 165,
             "label": {
               "type": "Identifier",
-              "start": 156,
-              "end": 157,
               "decorators": [],
               "name": "L",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 156,
+              "end": 157
             },
             "body": {
               "type": "VariableDeclaration",
-              "start": 159,
-              "end": 165,
               "kind": "var",
               "declarations": [
                 {
                   "type": "VariableDeclarator",
-                  "start": 163,
-                  "end": 164,
                   "id": {
                     "type": "Identifier",
-                    "start": 163,
-                    "end": 164,
                     "decorators": [],
                     "name": "y",
                     "optional": false,
-                    "typeAnnotation": null
+                    "typeAnnotation": null,
+                    "start": 163,
+                    "end": 164
                   },
                   "init": null,
-                  "definite": false
+                  "definite": false,
+                  "start": 163,
+                  "end": 164
                 }
               ],
-              "declare": false
-            }
+              "declare": false,
+              "start": 159,
+              "end": 165
+            },
+            "start": 156,
+            "end": 165
           },
           {
             "type": "ReturnStatement",
+            "argument": null,
             "start": 170,
-            "end": 177,
-            "argument": null
+            "end": 177
           },
           {
             "type": "SwitchStatement",
-            "start": 182,
-            "end": 271,
             "discriminant": {
               "type": "Identifier",
-              "start": 190,
-              "end": 191,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 190,
+              "end": 191
             },
             "cases": [
               {
                 "type": "SwitchCase",
-                "start": 203,
-                "end": 229,
                 "test": {
                   "type": "Literal",
-                  "start": 208,
-                  "end": 209,
                   "value": 1,
-                  "raw": "1"
+                  "raw": "1",
+                  "start": 208,
+                  "end": 209
                 },
                 "consequent": [
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 223,
-                    "end": 229,
-                    "label": null
+                    "end": 229
                   }
-                ]
+                ],
+                "start": 203,
+                "end": 229
               },
               {
                 "type": "SwitchCase",
-                "start": 238,
-                "end": 265,
                 "test": null,
                 "consequent": [
                   {
                     "type": "BreakStatement",
+                    "label": null,
                     "start": 259,
-                    "end": 265,
-                    "label": null
+                    "end": 265
                   }
-                ]
+                ],
+                "start": 238,
+                "end": 265
               }
-            ]
+            ],
+            "start": 182,
+            "end": 271
           },
           {
             "type": "ThrowStatement",
-            "start": 276,
-            "end": 289,
             "argument": {
               "type": "Literal",
-              "start": 282,
-              "end": 288,
               "value": "nooo",
-              "raw": "\"nooo\""
-            }
+              "raw": "\"nooo\"",
+              "start": 282,
+              "end": 288
+            },
+            "start": 276,
+            "end": 289
           },
           {
             "type": "TryStatement",
-            "start": 294,
-            "end": 347,
             "block": {
               "type": "BlockStatement",
+              "body": [],
               "start": 298,
-              "end": 305,
-              "body": []
+              "end": 305
             },
             "handler": {
               "type": "CatchClause",
-              "start": 310,
-              "end": 327,
               "param": {
                 "type": "Identifier",
-                "start": 317,
-                "end": 318,
                 "decorators": [],
                 "name": "e",
                 "optional": false,
-                "typeAnnotation": null
+                "typeAnnotation": null,
+                "start": 317,
+                "end": 318
               },
               "body": {
                 "type": "BlockStatement",
+                "body": [],
                 "start": 320,
-                "end": 327,
-                "body": []
-              }
+                "end": 327
+              },
+              "start": 310,
+              "end": 327
             },
             "finalizer": {
               "type": "BlockStatement",
+              "body": [],
               "start": 340,
-              "end": 347,
-              "body": []
-            }
+              "end": 347
+            },
+            "start": 294,
+            "end": 347
           },
           {
             "type": "WithStatement",
-            "start": 352,
-            "end": 368,
             "object": {
               "type": "Identifier",
-              "start": 358,
-              "end": 359,
               "decorators": [],
               "name": "x",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 358,
+              "end": 359
             },
             "body": {
               "type": "BlockStatement",
+              "body": [],
               "start": 361,
-              "end": 368,
-              "body": []
-            }
+              "end": 368
+            },
+            "start": 352,
+            "end": 368
           }
-        ]
+        ],
+        "start": 17,
+        "end": 370
       },
       "kind": "module",
       "declare": true,
-      "global": false
+      "global": false,
+      "start": 0,
+      "end": 370
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 370
 }
 ```

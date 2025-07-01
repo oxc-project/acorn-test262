@@ -1,54 +1,54 @@
 {
   "type": "Program",
-  "start": 0,
-  "end": 882,
   "body": [
     {
       "type": "ExpressionStatement",
-      "start": 687,
-      "end": 881,
       "expression": {
         "type": "CallExpression",
-        "start": 687,
-        "end": 880,
         "callee": {
           "type": "ParenthesizedExpression",
-          "start": 687,
-          "end": 695,
           "expression": {
             "type": "SequenceExpression",
-            "start": 688,
-            "end": 694,
             "expressions": [
               {
                 "type": "Literal",
-                "start": 688,
-                "end": 689,
                 "value": 0,
-                "raw": "0"
+                "raw": "0",
+                "start": 688,
+                "end": 689
               },
               {
                 "type": "Identifier",
+                "name": "eval",
                 "start": 690,
-                "end": 694,
-                "name": "eval"
+                "end": 694
               }
-            ]
-          }
+            ],
+            "start": 688,
+            "end": 694
+          },
+          "start": 687,
+          "end": 695
         },
         "arguments": [
           {
             "type": "Literal",
-            "start": 699,
-            "end": 878,
             "value": "let f = 123;  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");",
-            "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");'"
+            "raw": "'let f = 123;\\\n  assert.sameValue(f, 123, \"binding is not initialized to `undefined`\");{ function f() {  } }assert.sameValue(f, 123, \"value is not updated following evaluation\");'",
+            "start": 699,
+            "end": 878
           }
         ],
-        "optional": false
-      }
+        "optional": false,
+        "start": 687,
+        "end": 880
+      },
+      "start": 687,
+      "end": 881
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 0,
+  "end": 882
 }

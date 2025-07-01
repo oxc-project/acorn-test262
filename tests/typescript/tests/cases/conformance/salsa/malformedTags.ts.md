@@ -2,60 +2,60 @@ __ESTREE_TEST__:PASS:
 ```json
 {
   "type": "Program",
-  "start": 86,
-  "end": 114,
   "body": [
     {
       "type": "VariableDeclaration",
-      "start": 86,
-      "end": 114,
       "kind": "var",
       "declarations": [
         {
           "type": "VariableDeclarator",
-          "start": 90,
-          "end": 113,
           "id": {
             "type": "Identifier",
-            "start": 90,
-            "end": 97,
             "decorators": [],
             "name": "isArray",
             "optional": false,
-            "typeAnnotation": null
+            "typeAnnotation": null,
+            "start": 90,
+            "end": 97
           },
           "init": {
             "type": "MemberExpression",
-            "start": 100,
-            "end": 113,
             "object": {
               "type": "Identifier",
-              "start": 100,
-              "end": 105,
               "decorators": [],
               "name": "Array",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 100,
+              "end": 105
             },
             "property": {
               "type": "Identifier",
-              "start": 106,
-              "end": 113,
               "decorators": [],
               "name": "isArray",
               "optional": false,
-              "typeAnnotation": null
+              "typeAnnotation": null,
+              "start": 106,
+              "end": 113
             },
             "optional": false,
-            "computed": false
+            "computed": false,
+            "start": 100,
+            "end": 113
           },
-          "definite": false
+          "definite": false,
+          "start": 90,
+          "end": 113
         }
       ],
-      "declare": false
+      "declare": false,
+      "start": 86,
+      "end": 114
     }
   ],
   "sourceType": "script",
-  "hashbang": null
+  "hashbang": null,
+  "start": 86,
+  "end": 114
 }
 ```
